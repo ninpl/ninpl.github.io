@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lPinchol Moon&#39;s Blog</title>
+    <link>http://moonantonio.github.io/categories/unity3d/index.xml</link>
+    <description>Recent content on lPinchol Moon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>© Antonio Moon.&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
+    <atom:link href="http://moonantonio.github.io/categories/unity3d/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unity3D Preloader [Logo]</title>
+      <link>http://moonantonio.github.io/post/script-preloader-unity3d/</link>
+      <pubDate>Wed, 22 Feb 2017 23:39:42 +0100</pubDate>
+      
+      <guid>http://moonantonio.github.io/post/script-preloader-unity3d/</guid>
+      <description>
+
+&lt;h1 id=&#34;unity-preloader&#34;&gt;Unity Preloader&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.&lt;/p&gt;
+
+&lt;p&gt;Esta version esta probada para &lt;strong&gt;Unity3D 5.5.1p4&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/preloader0.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;antes-de-empezar&#34;&gt;Antes de empezar:&lt;/h2&gt;
+
+&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;UGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.&lt;/p&gt;
+
+&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;NGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.preloader, sino podras tener errores en las escenas de los ejemplos.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;En la definicion de simbolos (Scripting Define Symbols), hay que definirle NGUI para que reconozca que tienes NGUI en tu proyecto.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/preloader1.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Por ultimo solo tienes que desactivar el Canvas y activar el RootUI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/preloader2.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;acabado&#34;&gt;Acabado&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/preloader3.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;assets&#34;&gt;Assets:&lt;/h2&gt;
+
+&lt;p&gt;La imagen del logo de prueba es de &lt;a href=&#34;http://www.pixiv.net/member.php?id=2243289&#34;&gt;ナダレ&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;repositorio&#34;&gt;Repositorio&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/lPinchol/u.preloader&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MDevScripts y por que.</title>
+      <link>http://moonantonio.github.io/post/m-dev-script/</link>
+      <pubDate>Tue, 21 Feb 2017 17:36:56 +0100</pubDate>
+      
+      <guid>http://moonantonio.github.io/post/m-dev-script/</guid>
+      <description>
+
+&lt;h1 id=&#34;por-que-publicar-algo-tan-sencillo&#34;&gt;¿Por que publicar algo tan sencillo?&lt;/h1&gt;
+
+&lt;p&gt;Bueno, simplemente para poder hacer rapidamente funcionalidades sin tener que crear scripts nuevos y sin tener que arbitrar entre la solucion mas optima, ya que es un prototipado lo que primero se hace.&lt;/p&gt;
+
+&lt;p&gt;Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rapidamente y asi concentrarme en la mecanica que en si es la que mas trabajo lleva de un prototipo.&lt;/p&gt;
+
+&lt;p&gt;Esto como ya digo es algo complementario y esta claro que se puede hacer mucho mejor, pero solo e creado una base de la que se puede seguir incorporando nuevas funcionalidades abiertas para nuevos desafios.&lt;/p&gt;
+
+&lt;p&gt;De momento solo se han creado 3 scripts basicos, pero aun hay muchos por llegar: &lt;a href=&#34;https://github.com/MOON-TYPE/MDevScripts/projects/1&#34; class=&#34;button&#34;&gt;Proximas incorporaciones.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Actualmente hay:&lt;/p&gt;
+
+&lt;h2 id=&#34;scripts&#34;&gt;Scripts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AutoDestroy.cs&lt;/strong&gt; | Autodestruye un objeto.
+&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/autodest.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AutoIntensidadLight.cs&lt;/strong&gt; | Auto aumenta y disminuye la intensidad de la luz.
+&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/autoint.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AutoMove.cs&lt;/strong&gt; | Mueve un objeto de un punto A(Actual) a un punto B(Destino).
+&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/github/automov.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MOON-TYPE/MDevScripts&#34; class=&#34;button&#34;&gt;Proyecto GitHub.&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;\- Moon Pincho&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MTodo Tool - Unity3D</title>
+      <link>http://moonantonio.github.io/post/mtodo-tools/</link>
+      <pubDate>Thu, 09 Feb 2017 04:20:42 +0100</pubDate>
+      
+      <guid>http://moonantonio.github.io/post/mtodo-tools/</guid>
+      <description>
+
+&lt;h1 id=&#34;center-mtodo-tool-unity3d-center-br&#34;&gt;&lt;center&gt;MTodo Tool - Unity3D&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
+
+&lt;p&gt;Herramienta sencilla para hacer un seguimiento del codigo en Unity3D&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/Dev/mtodo.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;MTodo analiza la sintaxis de tu codigo con categorias.
+Por ejemplo, supongamos que tienes una categoria de BUG.&lt;/p&gt;
+
+&lt;p&gt;En la linea de tu codigo donde se encuentra ese bug, pondria :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;// &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;&lt;/p&gt;
+
+&lt;p&gt;// BUG Aqui hay un bug.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.&lt;/p&gt;
+
+&lt;p&gt;Despues solo tienes que ir, dandole click en el mensaje, y se te abrira tu IDE por la linea donde esta.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/lPinchol/MTodo&#34; class=&#34;button&#34;&gt;GitHub&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&#34;https://trello.com/b/ZPmPLDJ8&#34; class=&#34;button&#34;&gt;Trello&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;\- Moon Pincho&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bakeo simple en Unity3d</title>
+      <link>http://moonantonio.github.io/post/Lighting-bake/</link>
+      <pubDate>Mon, 07 Nov 2016 09:28:50 +0100</pubDate>
+      
+      <guid>http://moonantonio.github.io/post/Lighting-bake/</guid>
+      <description>
+
+&lt;h1 id=&#34;bakeo-simple-en-unity3d&#34;&gt;Bakeo simple en Unity3d&lt;/h1&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh00.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una
+esfera.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh02.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+public float v = 5;
+private void Update(){transform.Rotate(new Vector3(0,v,0),Space.World);}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Despues de ver que todo funciona correctamente.
+Implementar un Reflection Probe para ver el reflejo de las zonas donde se quieran reflejar.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh03.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Configurar el probe:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Tipo de reflejo&lt;/li&gt;
+&lt;li&gt;Cuando refresca&lt;/li&gt;
+&lt;li&gt;Resolucion&lt;/li&gt;
+&lt;li&gt;HDR&lt;/li&gt;
+&lt;li&gt;Etc..&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Luego importamos el paquete de unity de characters y instanciamos unos cuantos personajes con AI y un nav mesh para que se pueda mover.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh04.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Luego ponemos una esfera o un cubo de objetivo y al darle play el personaje seguira al objetivo.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh05.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero el jugador no se ilumina bien por lo que creamos grupos de probes para conseguir toda la reflexion posible.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://moonantonio.github.io/img/unity/ligh06.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
