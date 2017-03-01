@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moon Pincho on lPinchol Moon&#39;s Blog</title>
-    <link>https://moonantonio.github.io/categories/moon-pincho/index.xml</link>
-    <description>Recent content in Moon Pincho on lPinchol Moon&#39;s Blog</description>
+    <title>Git on lPinchol Moon&#39;s Blog</title>
+    <link>https://moonantonio.github.io/tags/git/index.xml</link>
+    <description>Recent content in Git on lPinchol Moon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Antonio Moon.&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/moon-pincho/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://moonantonio.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Comandos Git Fundamentales</title>
@@ -83,24 +83,6 @@ git log {Sacas el id del commit}
 &lt;p&gt;y eso es todo de momento. Estos son los comandos que mas usaras. Pero si quieres pasar de usar consola y te ves mas comodo con una interfaz grafica, puedes usar diferentes clientes tales como:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://desktop.github.com/&#34; class=&#34;button&#34;&gt;GitHub Desktop(Win &amp;amp; Mac)&lt;/a&gt;&lt;a href=&#34;https://www.sourcetreeapp.com/&#34; class=&#34;button&#34;&gt;SourceTree(Win &amp;amp; Mac)&lt;/a&gt;&lt;a href=&#34;https://www.gitkraken.com/&#34; class=&#34;button&#34;&gt;GitKraken(Win/Mac/Linux)&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nuevo Blog</title>
-      <link>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</link>
-      <pubDate>Mon, 27 Feb 2017 12:39:36 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</guid>
-      <description>
-
-&lt;h1 id=&#34;nuevo-blog-con-una-nueva-estructura&#34;&gt;Nuevo blog con una nueva estructura.&lt;/h1&gt;
-
-&lt;p&gt;Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.&lt;/p&gt;
-
-&lt;p&gt;Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.&lt;/p&gt;
-
-&lt;p&gt;Ahora va todo por secciones. ^^&lt;/p&gt;
 </description>
     </item>
     
