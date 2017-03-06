@@ -10,6 +10,60 @@
     <atom:link href="https://moonantonio.github.io/categories/clase/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Agentes de Busqueda y demas.</title>
+      <link>https://moonantonio.github.io/post/2017/clase/003/</link>
+      <pubDate>Mon, 06 Mar 2017 12:36:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/003/</guid>
+      <description>
+
+&lt;h1 id=&#34;agentes&#34;&gt;Agentes&lt;/h1&gt;
+
+&lt;p&gt;Los agentes de busqueda, son agentes que tienen un objetivo, seguiran haciendo su funcion hasta terminar su busqueda.&lt;/p&gt;
+
+&lt;p&gt;Identifica una solucion adecuada dentro del arbol de busqueda.&lt;/p&gt;
+
+&lt;p&gt;Primero se formula el objetivo y luego se formula el problema.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Formulacion del problema:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Estado inicial: El estado inicial del agente.&lt;/p&gt;
+
+&lt;p&gt;Estados: Todos los posibles estados a los que el agente puede evolucionar a traves de una secuencia.&lt;/p&gt;
+
+&lt;p&gt;Acciones: Que acciones se pueden hacer en la resolucion.&lt;/p&gt;
+
+&lt;p&gt;Modelo de transicion: Es la formula para resolver el problema.&lt;/p&gt;
+
+&lt;p&gt;Funcion de evaluacion de exito: Es la comprobacion de si se ha completado el objetivo.&lt;/p&gt;
+
+&lt;p&gt;Calculo de coste: Es la cantidad de coste que se puede hacer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Solucion a Pizzle 8 Reinas:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Estado inicial: Un tablero 8x8 y colocamos 8 reinas.&lt;/p&gt;
+
+&lt;p&gt;Estados: Las casillas ocupadas por un 0xVacias y las 1xReinas.&lt;/p&gt;
+
+&lt;p&gt;Acciones: Colocar una reina(Cambiar de 0 a 1 el estado de la casilla).&lt;/p&gt;
+
+&lt;p&gt;Modelo de transicion: accion.Result(x,a).&lt;/p&gt;
+
+&lt;p&gt;Funcion de evaluacion de exito: if(isvalid &amp;amp;&amp;amp; reinas.count = 8) = true;&lt;/p&gt;
+
+&lt;p&gt;Calculo de coste: 8&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mecanicas TFG - Investigacion</title>
       <link>https://moonantonio.github.io/post/2017/clase/002/</link>
       <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
