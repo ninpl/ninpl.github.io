@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/juegos/001/</loc>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/clase/003/</loc>
     <lastmod>2017-03-06T12:36:44+01:00</lastmod>
   </url>
@@ -164,13 +169,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/juego/</loc>
-    <lastmod>2017-03-01T23:28:47+01:00</lastmod>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/juego/</loc>
-    <lastmod>2017-03-01T23:28:47+01:00</lastmod>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -188,13 +193,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-pincho/</loc>
-    <lastmod>2017-03-06T12:36:44+01:00</lastmod>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
-    <lastmod>2017-03-06T12:36:44+01:00</lastmod>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -224,7 +229,19 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-03-06T12:36:44+01:00</lastmod>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/square-enix/</loc>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/square-enix/</loc>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -259,7 +276,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-03-06T12:36:44+01:00</lastmod>
+    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
