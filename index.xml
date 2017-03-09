@@ -7,8 +7,105 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Antonio Moon.&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Thu, 09 Mar 2017 22:01:36 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Mar 2017 22:08:02 +0100</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Primera reunion sobre el TFG</title>
+      <link>https://moonantonio.github.io/post/2017/clase/005/</link>
+      <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
+      <description>
+
+&lt;h1 id=&#34;ambiente&#34;&gt;Ambiente&lt;/h1&gt;
+
+&lt;p&gt;Algunos puntos a destacar  sobre el ambiente:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Realidad aumentada.&lt;/li&gt;
+&lt;li&gt;Arboles holografiados &lt;a href=&#34;https://www.artstation.com/artwork/nvLa4&#34;&gt;Muscan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/003/387/951/large/mihai-muscan-1.jpg?1473170024&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Neonizada &lt;a href=&#34;https://www.artstation.com/artwork/3dN9E&#34;&gt;Wadim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/000/434/113/large/wadim-kashin-cyberpunk2.jpg?1422308666&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Muy vivo&lt;a href=&#34;https://www.artstation.com/artwork/OP238&#34;&gt;Bravo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdna.artstation.com/p/assets/images/images/002/958/960/large/victor-bravo-tuk-tuk3.jpg?1467766031&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Realismo &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Variacion de profundida &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;datos-tecnicos&#34;&gt;Datos tecnicos&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Edificios:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;LOD desde 2 planta hacia arriba.&lt;/p&gt;
+
+&lt;p&gt;3 Tipos de LOD.&lt;/p&gt;
+
+&lt;p&gt;3 tipos generales y props para modular.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Circulacion:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Coches solo vuelan por arriba.&lt;/p&gt;
+
+&lt;p&gt;Pasos de cebra para los peatones.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Especificaciones:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Publicidad holografica (AR).&lt;/p&gt;
+
+&lt;p&gt;Mucho Rascacielos.&lt;/p&gt;
+
+&lt;p&gt;Barrios bajos.&lt;/p&gt;
+
+&lt;p&gt;Carpas&lt;/p&gt;
+
+&lt;p&gt;Mucho cableado, tuverias y ventiladores.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ciudad superpoblada, debajo los sectores pobres y con forme subes a la parte superior, la nobleza o la zona mas rica.&lt;/p&gt;
+
+&lt;p&gt;Minimo de ancho de 6 metros.&lt;/p&gt;
+
+&lt;h1 id=&#34;finalidad&#34;&gt;Finalidad&lt;/h1&gt;
+
+&lt;p&gt;Resultado en &lt;a href=&#34;https://www.youtube.com/watch?v=5hcJbQuWv0U&#34;&gt;Video&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Clase de sistemas de particulas - Unity3D</title>
@@ -1273,92 +1370,6 @@ private void subirArchivoAMega() {
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/wc2.jpg&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Explicacion IA basica</title>
-      <link>https://moonantonio.github.io/post/2017/clase/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
-      <description>
-
-&lt;h1 id=&#34;ia-en-videojuegos-clase&#34;&gt;IA en Videojuegos (Clase)&lt;/h1&gt;
-
-&lt;p&gt;Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.&lt;/p&gt;
-
-&lt;p&gt;Los mas comunes en videojuegos son:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Juegos de suma cero: Minimax&lt;/li&gt;
-&lt;li&gt;Busqueda de caminos: A*&lt;/li&gt;
-&lt;li&gt;Agentes inteligentes&lt;/li&gt;
-&lt;li&gt;Maquina de estados finitos&lt;/li&gt;
-&lt;li&gt;Redes neutonales&lt;/li&gt;
-&lt;li&gt;Algoritmos geneticos&lt;/li&gt;
-&lt;li&gt;Redes evolutivas: rtNeat&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3.
-Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la eleccion de la mejor accion para ganar.&lt;/p&gt;
-
-&lt;p&gt;Algoritmo Minimax: se basa en probar todas las posibles jugadas y sus respuestas hasta un nivel maximo.(Tic Tac Toe)&lt;/p&gt;
-
-&lt;p&gt;El algoritmo responde con la mejor jugada posible suponiendo que el adversario tambien elige su mejor jugada.&lt;/p&gt;
-
-&lt;p&gt;El termino poda alfa-beta es como bien dice la poda de ramas del arbol de eleccion para ahorrar tiempo y memoria de computacion.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Busqueda de caminos, A* es el algoritmo para que un objeto encuentre el camino y lo siga a voluntad.&lt;/p&gt;
-
-&lt;p&gt;Este tipo de algoritmos se llaman pathfinding.&lt;/p&gt;
-
-&lt;p&gt;Son algoritmos que buscan un camino existente entre un nodo inicial y un nodo final de un grafo.&lt;/p&gt;
-
-&lt;p&gt;Se tienen en cuenta un coste entre nodos ( distancia, dificultad de l terreno).&lt;/p&gt;
-
-&lt;p&gt;Algoritmos tipicos: Dijkstra, escalada, primero el mejor, A*&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Agentes inteligentes son algoritmos que cambian segun el estado del entorno.&lt;/p&gt;
-
-&lt;p&gt;Un agente inteligente es una entidad que percibe y actua sobre un entorno de forma razonada.&lt;/p&gt;
-
-&lt;p&gt;Las propiedades de un agente inteligente son:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Autonomia: actual por su cuenta propia.&lt;/li&gt;
-&lt;li&gt;Inteligencia: cerrada o adaptable (Apendizaje)&lt;/li&gt;
-&lt;li&gt;Actividad Reactiva: actua despues de algun suceso producido en el entorno.&lt;/li&gt;
-&lt;li&gt;Actividad Proactivo: decide actuar antes de que se de un suceso.&lt;/li&gt;
-&lt;li&gt;Sociabilidad: Cooperar con los aliados o ayudar sin que nos pidan ayuda.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Una maquina de estados finitos (SFM) es una entidad abstracta formada por estados y transiciones entre dichos estados.&lt;/p&gt;
-
-&lt;p&gt;Cada estado representa una accion: moverse, disparar, perseguir &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Cuando se produce un evento, hay una transicion de un estado a otro: no hay enemigos, moverse, poca municion, etc&amp;hellip;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Una red de neuronas artificiales (RNA) es un sistema computacional que imita las capacidades de los sistemas biologicos utilizando muchos elementos simples interconectados.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Clasifica patrones de entrada.&lt;/li&gt;
-&lt;li&gt;Necesitan entrenamiento supervisado con muchos ejemplos.&lt;/li&gt;
-&lt;li&gt;Son capaces de generalizar el reconocimiento de patrones.&lt;/li&gt;
-&lt;li&gt;Una vez entrenadas, funcionan en tiempo real.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;\.Moon Pincho&lt;/p&gt;
 </description>
     </item>
     
