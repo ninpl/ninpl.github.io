@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/juegos/002/</loc>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/programacion/004/</loc>
     <lastmod>2017-03-09T21:54:00+01:00</lastmod>
   </url>
@@ -179,13 +184,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/juego/</loc>
-    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/juego/</loc>
-    <lastmod>2017-03-08T23:47:13+01:00</lastmod>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,13 +208,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-pincho/</loc>
-    <lastmod>2017-03-09T21:54:00+01:00</lastmod>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
-    <lastmod>2017-03-09T21:54:00+01:00</lastmod>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -239,7 +244,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-03-09T21:54:00+01:00</lastmod>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -286,7 +291,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-03-09T21:54:00+01:00</lastmod>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
