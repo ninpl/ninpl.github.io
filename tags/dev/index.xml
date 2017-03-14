@@ -10,54 +10,159 @@
     <atom:link href="https://moonantonio.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Consejos para organizar tus proyectos</title>
+      <link>https://moonantonio.github.io/post/2017/dev/003/</link>
+      <pubDate>Mon, 13 Mar 2017 19:36:17 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/003/</guid>
+      <description>
+
+&lt;p&gt;Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características. Esto también es cierto con respecto a cualquier proyecto de Unity3D. Éstos son (en mi opinión) los más importantes consejos que le ayudarán a mantener su proyecto organizado.&lt;/p&gt;
+
+&lt;h1 id=&#34;estructura-del-directorio&#34;&gt;Estructura del Directorio&lt;/h1&gt;
+
+&lt;p&gt;No podemos hablar de la organización sin mencionar la organización de la estructura de directorios del proyecto. Unity le da una total libertad en esa materia, pero debido a que, con frecuencia puede ser muy desordenado. Esta es la estructura de directorios que utilizo personalmente:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;-Third party&lt;/p&gt;
+
+&lt;p&gt;-Plugins&lt;/p&gt;
+
+&lt;p&gt;-Nombre proyecto&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;-Resources&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;-Animaciones&lt;/p&gt;
+
+&lt;p&gt;-Audio&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;-Música&lt;/p&gt;
+
+&lt;p&gt;-SFX&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;-Modelos&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;-Materiales&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;-Texturas&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;-Shaders&lt;/p&gt;
+
+&lt;p&gt;-Prefabs&lt;/p&gt;
+
+&lt;p&gt;-Escenas&lt;/p&gt;
+
+&lt;p&gt;-Scripts&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;-Editor&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;1.- &lt;strong&gt;No guarde los archivos de assets en el directorio raíz&lt;/strong&gt;. Utilizar subdirectorios siempre que sea posible.&lt;/p&gt;
+
+&lt;p&gt;2.- &lt;strong&gt;No crear los directorios adicionales en el directorio raíz&lt;/strong&gt;, a menos que realmente sea necesario.&lt;/p&gt;
+
+&lt;p&gt;3.- &lt;strong&gt;Sea consistente con el nombramiento&lt;/strong&gt;. Utilizar nombres predictivos.&lt;/p&gt;
+
+&lt;p&gt;4.- &lt;strong&gt;No trate de mover assets del contexto específico que los directorios generales&lt;/strong&gt;. Por ejemplo, si hay materiales generados a partir del modelo, no moverlos a Materiales porque después no sabrá dónde viene esto.&lt;/p&gt;
+
+&lt;p&gt;5.- &lt;strong&gt;Utilice 3ª Party para almacenar los bienes importados desde el almacén de activos&lt;/strong&gt;. Por lo general tienen su propia estructura que no debe ser alterada.&lt;/p&gt;
+
+&lt;p&gt;6.- &lt;strong&gt;Utilice recinto de seguridad  del directorio para todos los experimentos&lt;/strong&gt;. Mientras se trabaja en este tipo de cosas, la última cosa que desea tener en cuenta es una organización adecuada. Hagan lo que quieran, y luego quitarlo u organizar cuando usted está seguro de que lo desea incluir en su proyecto. Cuando estás trabajando en un proyecto con otras personas, crear el subdirectorio de recinto de seguridad personal como:  Alexandria/MoonPincho .&lt;/p&gt;
+
+&lt;h1 id=&#34;estructura-de-la-jerarquía-de-escena&#34;&gt;Estructura de la jerarquía de escena&lt;/h1&gt;
+
+&lt;p&gt;Al lado de la jerarquía del proyecto también hay jerarquía de la escena. Al igual que antes, le presento una plantilla. Puede ajustarlo a sus necesidades.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Manager&lt;/li&gt;
+&lt;li&gt;GUI&lt;/li&gt;
+&lt;li&gt;Indispensables&lt;/li&gt;
+&lt;li&gt;Luces&lt;/li&gt;
+&lt;li&gt;Environment&lt;/li&gt;
+&lt;li&gt;Dinamicos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hay varias reglas que debe seguir:&lt;/p&gt;
+
+&lt;p&gt;1.- Todos los objetos vacíos deben estar ubicados en 0,0,0 con la rotación y la escala predeterminada.&lt;/p&gt;
+
+&lt;p&gt;2.- Manten siempre la jerarquia aun instanciando objetos.&lt;/p&gt;
+
+&lt;p&gt;3.- Para los objetos vacíos que sólo son contenedores para los scripts, el uso de &amp;ldquo;@&amp;rdquo; como prefijo - por ejemplo @Cheats&lt;/p&gt;
+
+&lt;h1 id=&#34;usar-prefabs-para-todo&#34;&gt;Usar prefabs para todo&lt;/h1&gt;
+
+&lt;p&gt;Prefabs en Unity3D no son perfectos, pero son lo mejor que encontrará en jerarquías preconfiguradas de objetos. En términos generales, intentar crear prefabs de todo lo que se pone en sus escenas . Usted debe ser capaz de crear un nuevo nivel de una escena vacía simplemente añadiendo uno o más prefabs.&lt;/p&gt;
+
+&lt;p&gt;La razón por la que debe usar los prefabs es que cuando cambias un prefabs, todos los prefabs cambian también. Si tienes 100 niveles y desea agregar un efecto de cámara en todos ellos? ¡No es un problema! Si la cámara es un prefabs, basta con añadir un efecto de cámara a la cámara prefab!&lt;/p&gt;
+
+&lt;p&gt;Tenga en cuenta que no se puede tener un prefab en otro prefab.&lt;/p&gt;
+
+&lt;h1 id=&#34;aprende-a-usar-el-sistema-de-control-de-versiones-vcs&#34;&gt;Aprende a usar el sistema de control de versiones (VCS)&lt;/h1&gt;
+
+&lt;p&gt;Usted ya sabe algo acerca de GIT, subversión o cualquier otro VCS por ahí. Como cuestión de hecho, &amp;ldquo;saber algo&amp;rdquo; es sólo una pequeña parte de lo que usted puede aprender. Usted debe centrarse en el aprendizaje acerca de las características mas importantes de uso poco frecuente de VCS de su elección. ¿Por qué? Sobre todo porque los sistemas de control de versiones son mucho más potentes que usted piensa, y por desgracia muchos usuarios están utilizando estos como nada más que una copia de seguridad y soluciones sincronizadas. Por ejemplo, ¿sabía que le permite GIT guardar los cambios, para que pueda trabajar en ellos más adelante sin cometer cualquier cosa a su rama principal?&lt;/p&gt;
+
+&lt;p&gt;Los programadores suelen comentar bloques de código en caso de que sea necesario más adelante. No hagas eso! Si está utilizando VCS, aprender a navegar rápidamente a versiones anteriores de un archivo. Cuando esté familiarizado con ella, su código sera mucho más agradable sin un bloque innecesario de código comentado.&lt;/p&gt;
+
+&lt;p&gt;Aquí hay un buen recurso de consejos para los usuarios GIT:  &lt;a href=&#34;http://gitready.com/&#34;&gt;http://gitready.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;aprender-a-escribir-scripts-del-editor&#34;&gt;Aprender a escribir scripts del editor&lt;/h1&gt;
+
+&lt;p&gt;Unity3D es un gran motor de juego en materia de extensibilidad. Aprender a escribir scripts del editor. Sí es necesario, no es necesario crear GUI de lujo para los scripts, puede ser algo simple, como las entradas de menú que están haciendo algo útil.&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Consejos para trabajar en equipo</title>
       <link>https://moonantonio.github.io/post/2017/dev/002/</link>
       <pubDate>Mon, 13 Mar 2017 19:10:22 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/002/</guid>
-      <description>&lt;p&gt;Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.&lt;/p&gt;
+      <description>
 
-&lt;ol&gt;
-&lt;li&gt;Organizar bien su proyecto&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.&lt;/p&gt;
+
+&lt;h1 id=&#34;organizar-bien-su-proyecto&#34;&gt;Organizar bien su proyecto&lt;/h1&gt;
 
 &lt;p&gt;Antes de avanzar más lejos que hay que asegurarse de que su proyecto está bien organizado. Es un requisito importante porque el proyecto no organizado es muy difícil de mantener. No es imposible trabajar en estos proyectos por todos los medios, pero cada vez que se verán obligados a trabajar en él, se puede sentir un deseo imparable de asesinar a alguien en su proximidad cercana. Y este sentimiento empeorará a medida que el proyecto va a crecer.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Configuración de un gestor de incidencias&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&#34;configuración-de-un-gestor-de-incidencias&#34;&gt;Configuración de un gestor de incidencias&lt;/h1&gt;
 
 &lt;p&gt;Si no está utilizando uno ya entonces estoy seguro de que usted ha escuchado al menos aproximadamente Jira , Redmine , Trac o Mantis . De hecho, hay un  montón de ellos  y que pueden tener un serio problema al decidir cuál elegir. Desde mi experiencia no hay una solución que puede ser llamada &amp;ldquo;la mejor&amp;rdquo;. Todos estos tiene algunas ventajas y desventajas. Le recomiendo a usted para comprobar al menos 3 de ellos antes de decidir uno, será lo suficientemente bueno para sus necesidades. Tenga en cuenta que va a aprender lo que realmente  necesita sólo después de unos meses de trabajo con cualquiera de él.&lt;/p&gt;
 
 &lt;p&gt;¿Por qué el seguimiento de problemas es importante? Cuando se trabaja en equipo, la buena comunicación es la clave. Los seres humanos son criaturas perezosas y olvidadizas. Si le dices a alguien que él/ella tiene que hacer algo, él/ella recuerda esa tarea con claridad hasta que toneladas de tareas similares caen del cielo. Tienes que aceptar ese simple hecho. Asimismo, no confíe en su propia memoria - se ha demostrado que la necesidad de recordar un montón de cosas aumenta significativamente su estrés.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Cambie sus proyectos a modo de texto (método de serialización)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&#34;cambie-sus-proyectos-a-modo-de-texto-método-de-serialización&#34;&gt;Cambie sus proyectos a modo de texto (método de serialización)&lt;/h1&gt;
 
 &lt;p&gt;Es obvio, pero puede a menudo olvidarse. Unity3D está utilizando el método de serialización binaria para sus activos de forma predeterminada (hey, chicos de Unity3D! ¿Quién os dijo que sería una buena idea?). Esto simplemente significa que si dos personas van a modificar una escena, el ajuste de animación o un prefab, al mismo tiempo, una persona tendrá que renunciar a sus cambios a causa de un conflicto. La situación es similat a aquel en el que dos chicos salen con la misma chica. Uno de ellos, tarde o temprano va a tener que renunciar (no hablemos acerca de las alternativas, ¿de acuerdo?).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Asset Serialization&lt;/strong&gt; | Mode |  Force Text : se puede activar en el menú Edición -&amp;gt; Ajustes del proyecto -&amp;gt; Editor&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Ponerse de acuerdo sobre un estilo común de codificación&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&#34;ponerse-de-acuerdo-sobre-un-estilo-común-de-codificación&#34;&gt;Ponerse de acuerdo sobre un estilo común de codificación&lt;/h1&gt;
 
 &lt;p&gt;Esté preparado para una gran pelea - a los programadores no les gusta cambiar sus hábitos. Pero usted y sus colegas todavía tiene que hacerlo, de lo contrario causará una gran cantidad de conflictos desagradables en fusiones de código. Además, usted tiene que decidir si los archivos de origen deben utilizar tabuladores o espacios para el sangrado de código. Es posible que busque algo así como una guía oficial o comunidad de estilo para un idioma específico. Hay uno para C #   que pueden serle de utilidad. Usted no tiene que seguir ciegamente si usted no está de acuerdo con algunas partes de ella, pero cuando haya un desacuerdo dentro de su equipo, puede ser una buena fuente de posible solución.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Recuerda no forzar ninguna decisión sobre su equipo si hay un fuerte desafío en esa materia&lt;/strong&gt;. Si usted quiere que le dan todo lo que tienen a su proyecto, usted tiene que hacer que les encanta trabajar en él, no lo odio!&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Acordar activo cambia la política&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&#34;acordar-activo-cambia-la-política&#34;&gt;Acordar activo cambia la política&lt;/h1&gt;
 
 &lt;p&gt;Algunos assets pueden ser difíciles de combinar, incluso si se cambia el modo de serialización de texto . Puede que sea necesario decidir sobre una política sobre cómo y cuándo comunicar que alguien está a punto de editar un assets. Algunos VCS como Perforce o PlasticSCM ofrecen una función de llamada  de pago exclusiva . Esto significa que todos los archivos son de sólo lectura hasta que alguien se decida a editarlo. Si la segunda persona trata de editar ese archivo en el mismo tiempo, él/ella recibirá una advertencia de que el archivo está siendo revisado por otra persona.&lt;/p&gt;
 
 &lt;p&gt;También es posible que desee tener más enfoque humano similar. Conocí a una empresa que tenía una mesa magnética con notas post-it en él. Cada nota tenía un nombre escrito en la escena. Si alguien decide editar una escena, él o ella toma nota a juego con su escritorio para que nadie más modifique esa escena.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Comunicar a menudo, pero observe las interrupciones&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h1 id=&#34;comunicar-a-menudo-pero-observe-las-interrupciones&#34;&gt;Comunicar a menudo, pero observe las interrupciones&lt;/h1&gt;
 
 &lt;p&gt;Hablar a menudo con su equipo acerca de lo que hicieron y lo que están a punto de hacer. Hágalo todos los días si es posible y que sea corto. Discutir acerca de posibles problemas y cómo resolverlos, si es necesario.&lt;/p&gt;
 
@@ -65,7 +170,7 @@
 
 &lt;p&gt;Elegir el software de comunicación que permite configurar libremente su nivel de detalle. Algunas personas no les importa ser interrumpido, algunos lo hacen. Casi cada cliente de correo electrónico permite configurar libremente las notificaciones de nivel así que si quieres hablar de algo y no tiene prisa, utilizar e-mails. Hay cosas que no pueden esperar demasiado tiempo, por lo que necesita de mensajería instantánea de algún tipo. Recomiendo encarecidamente que intenta Slack . Slack respeta altamente derecho de todos a no ser interrumpido y le da una opción para permitir la interrupción en cuestiones realmente importantes. Slack también permite a su equipo crear canales. Canal es un lugar cuando dos o más personas pueden hablar entre sí acerca de un tema específico.&lt;/p&gt;
 
-&lt;p&gt;¿Qué más?&lt;/p&gt;
+&lt;h1 id=&#34;qué-más&#34;&gt;¿Qué más?&lt;/h1&gt;
 
 &lt;p&gt;No hay dos proyectos idénticos y dos equipos nunca serán los mismos. Usted debe mantener sus ojos y la mente abierta, y ver cualquier problema de sus encuentros del equipo que vale la pena resolver. No todos los problemas se pueden resolver con facilidad y muchos directores de proyectos comete un error con la solución de un problema con una solución que hace que sea aún peor. Intentarlo no es un pecado, pero no admitir que cometió un error y una regresión en el trabajo que ya se ha hecho por desgracia.&lt;/p&gt;
 
