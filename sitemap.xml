@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/diario/002/</loc>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/utiles/003/</loc>
     <lastmod>2017-03-14T01:49:51+01:00</lastmod>
   </url>
@@ -176,13 +181,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/diario/</loc>
-    <lastmod>2017-02-27T12:39:36+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/diario/</loc>
-    <lastmod>2017-02-27T12:39:36+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,13 +205,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/github/</loc>
-    <lastmod>2017-03-04T23:23:58+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/github/</loc>
-    <lastmod>2017-03-04T23:23:58+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -260,13 +265,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-pincho/</loc>
-    <lastmod>2017-03-14T01:49:51+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
-    <lastmod>2017-03-14T01:49:51+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -296,7 +301,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-03-14T01:49:51+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -355,7 +360,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-03-14T01:49:51+01:00</lastmod>
+    <lastmod>2017-03-14T19:53:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -10,6 +10,24 @@
     <atom:link href="https://moonantonio.github.io/tags/moon-pincho/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Organizacion en GitHub</title>
+      <link>https://moonantonio.github.io/post/2017/diario/002/</link>
+      <pubDate>Tue, 14 Mar 2017 19:53:02 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/002/</guid>
+      <description>&lt;p&gt;Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.&lt;/p&gt;
+
+&lt;p&gt;Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Por eso me e decidido con empezar con GitHub, y realmente &amp;hellip; se a quedado una cosa muy fea, pero al menos tengo un center para poder guiarme un poco mejor por estos terrenos.&lt;/p&gt;
+
+&lt;p&gt;Tengo pensado actualizar todos los repos para tenerlos bien organizados y documentados, pero hasta el momento tendre que ir tirando de este metodo que, aunque es feo, es lo mas rapido que puedo montar, para que no interfiera en el TFG y otros proyectos activos en este momento.&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Investigacion sobre RPGs</title>
       <link>https://moonantonio.github.io/post/2017/utiles/003/</link>
       <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
@@ -1822,74 +1840,6 @@ Por ejemplo, supongamos que tienes una categoria de BUG.&lt;/p&gt;
 &lt;p&gt;En esta parte entrare mas adelante, ya que creo que tiene mucho que ver la combinacion de ataques y la IA de los diferentes enemigos, por lo que se nos sale de lo que quiero tener para el miercoles.&lt;/p&gt;
 
 &lt;p&gt;.Save&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unity3D Preloader [Logo]</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/002/</link>
-      <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
-      <description>
-
-&lt;h1 id=&#34;unity-preloader&#34;&gt;Unity Preloader&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.&lt;/p&gt;
-
-&lt;p&gt;Esta version esta probada para &lt;strong&gt;Unity3D 5.5.1p4&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader0.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;antes-de-empezar&#34;&gt;Antes de empezar:&lt;/h2&gt;
-
-&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;UGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.&lt;/p&gt;
-
-&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;NGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.preloader, sino podras tener errores en las escenas de los ejemplos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;En la definicion de simbolos (Scripting Define Symbols), hay que definirle NGUI para que reconozca que tienes NGUI en tu proyecto.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader1.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Por ultimo solo tienes que desactivar el Canvas y activar el RootUI.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader2.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;acabado&#34;&gt;Acabado&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader3.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;assets&#34;&gt;Assets:&lt;/h2&gt;
-
-&lt;p&gt;La imagen del logo de prueba es de &lt;a href=&#34;http://www.pixiv.net/member.php?id=2243289&#34;&gt;ナダレ&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;repositorio&#34;&gt;Repositorio&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/lPinchol/u.preloader&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
