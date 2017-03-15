@@ -10,6 +10,140 @@
     <atom:link href="https://moonantonio.github.io/tags/tfg/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Gestor de Escenas</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/005/</link>
+      <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/005/</guid>
+      <description>&lt;p&gt;Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Editor -&amp;gt; cambiar generalmente de forma rapida y precisa.
+Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Por ello propuse un &lt;strong&gt;Gestor de Escenas&lt;/strong&gt; en la que uno mismo podria cambiar siempre de escena en cualquier lado.&lt;/p&gt;
+
+&lt;p&gt;El sistema es llamado &lt;strong&gt;Proteo&lt;/strong&gt; que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.&lt;/p&gt;
+
+&lt;p&gt;En la escena de test, queria sacar 3 funcionalidades.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cambiar de forma normal la escena.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Cambiar de forma Asyncrona la escena.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Descargar alguna escena anterior.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bien ahora empezare por el sistema runtime.&lt;/p&gt;
+
+&lt;p&gt;Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.&lt;/p&gt;
+
+&lt;p&gt;Al sumar escenas hay un modo llamado &lt;strong&gt;LoadSceneMode.Additive&lt;/strong&gt; que seria sumar la nueva escena a la actual.&lt;/p&gt;
+
+&lt;p&gt;Bueno y despues de esto -&amp;gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;//                                  ┌∩┐(◣_◢)┌∩┐
+//																
+// SProteo.cs (15/03/2017)										
+// Autor: Antonio Mateo (Moon Pincho) 						       
+// Descripcion:		Sistema que gestiona el cambio de escenas.		
+// Fecha Mod:		15/03/2017									
+// Ultima Mod:		Version Inicial								
+//****************************************************************\\
+
+#region Librerias
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+#endregion
+
+namespace MoonPincho
+{
+	/// &amp;lt;summary&amp;gt;
+	/// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
+	/// &amp;lt;/summary&amp;gt;
+	[AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
+	public class SProteo : MonoBehaviour 
+	{
+		#region Variables Publicas
+		/// &amp;lt;summary&amp;gt;
+		/// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
+		/// &amp;lt;/summary&amp;gt;
+		public UISlider progressBar;                                            // NGUI progress bar para la carga
+		#endregion
+
+		#region API
+		/// &amp;lt;summary&amp;gt;
+		/// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
+		/// &amp;lt;/summary&amp;gt;
+		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+		public void LoadScene(string nombre)// Carga la escena dada en modo Additive
+		{
+			SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
+		}
+
+		/// &amp;lt;summary&amp;gt;
+		/// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
+		/// &amp;lt;/summary&amp;gt;
+		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+		public void UnLoadScene(string nombre)// Descarga la escena dada
+		{
+			SceneManager.UnloadSceneAsync(nombre);
+		}
+
+		/// &amp;lt;summary&amp;gt;
+		/// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
+		/// &amp;lt;/summary&amp;gt;
+		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+		public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
+		{
+			StartCoroutine(UpdateProgress(nombre));
+		}
+
+		/// &amp;lt;summary&amp;gt;
+		/// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
+		/// &amp;lt;/summary&amp;gt;
+		public void UnLoadActual()// Descarga la escena actual.
+		{
+			SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+		}
+		#endregion
+
+		#region Funcionalidad
+		/// &amp;lt;summary&amp;gt;
+		/// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
+		/// &amp;lt;/summary&amp;gt;
+		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+		/// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
+		public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
+		{
+			AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
+
+			while (!cargando.isDone)
+			{
+				this.progressBar.value = cargando.progress;
+				Debug.Log(cargando.progress);
+				yield return null;
+			}
+		}
+		#endregion
+	}
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MoonAntonio/GestorEscenasUnity&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Primera reunion sobre el TFG</title>
       <link>https://moonantonio.github.io/post/2017/clase/005/</link>
       <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>

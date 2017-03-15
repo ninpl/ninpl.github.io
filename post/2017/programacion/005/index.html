@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Unity3D Preloader [Logo]&middot; lPinchol Moon&#39;s Blog</title>
+	<title>Gestor de Escenas&middot; lPinchol Moon&#39;s Blog</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="lPinchol, Moon">
@@ -109,69 +109,135 @@
     <div class="content">
     <article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
-			<h1 class="title">Unity3D Preloader [Logo]</h1>
+			<h1 class="title">Gestor de Escenas</h1>
 		</header>
 
 	<section class="post-content">
-		
-
-<h1 id="unity-preloader">Unity Preloader</h1>
-
-<hr />
-
-<p>Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.</p>
-
-<p>Esta version esta probada para <strong>Unity3D 5.5.1p4</strong>.</p>
-
-<p>El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.</p>
-
-<p><center><img src="/img/github/preloader0.png" alt="001" /></center></p>
-
-<hr />
-
-<h2 id="antes-de-empezar">Antes de empezar:</h2>
-
-<p>Para <strong><em>UGUI</em></strong></p>
-
-<p>Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.</p>
-
-<p>Para <strong><em>NGUI</em></strong></p>
+		<p>Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.</p>
 
 <blockquote>
-<ul>
-<li><p>Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.preloader, sino podras tener errores en las escenas de los ejemplos.</p></li>
-
-<li><p>En la definicion de simbolos (Scripting Define Symbols), hay que definirle NGUI para que reconozca que tienes NGUI en tu proyecto.</p></li>
-</ul>
+<p>Editor -&gt; cambiar generalmente de forma rapida y precisa.
+Runtime -&gt; cambiar entre cargar escena copleta y cargar mediante Sync.</p>
 </blockquote>
 
-<p><center><img src="/img/github/preloader1.png" alt="001" /></center></p>
+<p>Por ello propuse un <strong>Gestor de Escenas</strong> en la que uno mismo podria cambiar siempre de escena en cualquier lado.</p>
 
-<blockquote>
+<p>El sistema es llamado <strong>Proteo</strong> que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.</p>
+
+<p>En la escena de test, queria sacar 3 funcionalidades.</p>
+
 <ul>
-<li>Por ultimo solo tienes que desactivar el Canvas y activar el RootUI.</li>
+<li><p>Cambiar de forma normal la escena.</p></li>
+
+<li><p>Cambiar de forma Asyncrona la escena.</p></li>
+
+<li><p>Descargar alguna escena anterior.</p></li>
 </ul>
-</blockquote>
 
-<p><center><img src="/img/github/preloader2.png" alt="001" /></center></p>
+<p>Bien ahora empezare por el sistema runtime.</p>
 
-<hr />
+<p>Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.</p>
 
-<h2 id="acabado">Acabado</h2>
+<p>Al sumar escenas hay un modo llamado <strong>LoadSceneMode.Additive</strong> que seria sumar la nueva escena a la actual.</p>
 
-<p><center><img src="/img/github/preloader3.gif" alt="001" /></center></p>
-
-<hr />
-
-<h2 id="assets">Assets:</h2>
-
-<p>La imagen del logo de prueba es de <a href="http://www.pixiv.net/member.php?id=2243289">ナダレ</a></p>
+<p>Bueno y despues de esto -&gt;</p>
 
 <hr />
 
-<h2 id="repositorio">Repositorio</h2>
+<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
+//																
+// SProteo.cs (15/03/2017)										
+// Autor: Antonio Mateo (Moon Pincho) 						       
+// Descripcion:		Sistema que gestiona el cambio de escenas.		
+// Fecha Mod:		15/03/2017									
+// Ultima Mod:		Version Inicial								
+//****************************************************************\\
 
-<p><center><a href="https://github.com/MoonAntonio/u.preloader" class="button">Moon Pincho Github</a></center></p>
+#region Librerias
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+#endregion
+
+namespace MoonPincho
+{
+	/// &lt;summary&gt;
+	/// &lt;para&gt;Sistema que gestiona el cambio de escenas&lt;/para&gt;
+	/// &lt;/summary&gt;
+	[AddComponentMenu(&quot;Moon Pincho/Sistemas/SProteo&quot;)]
+	public class SProteo : MonoBehaviour 
+	{
+		#region Variables Publicas
+		/// &lt;summary&gt;
+		/// &lt;para&gt;NGUI progress bar para la carga.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		public UISlider progressBar;                                            // NGUI progress bar para la carga
+		#endregion
+
+		#region API
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Carga la escena dada en modo Additive.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		public void LoadScene(string nombre)// Carga la escena dada en modo Additive
+		{
+			SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
+		}
+
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Descarga la escena dada.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		public void UnLoadScene(string nombre)// Descarga la escena dada
+		{
+			SceneManager.UnloadSceneAsync(nombre);
+		}
+
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Carga la escena dada asyncronamente.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
+		{
+			StartCoroutine(UpdateProgress(nombre));
+		}
+
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Descarga la escena actual.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		public void UnLoadActual()// Descarga la escena actual.
+		{
+			SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+		}
+		#endregion
+
+		#region Funcionalidad
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		/// &lt;returns&gt;Null&lt;/returns&gt;
+		public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
+		{
+			AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
+
+			while (!cargando.isDone)
+			{
+				this.progressBar.value = cargando.progress;
+				Debug.Log(cargando.progress);
+				yield return null;
+			}
+		}
+		#endregion
+	}
+}
+
+</code></pre>
+
+<hr />
+
+<p><center><a href="https://github.com/MoonAntonio/GestorEscenasUnity" class="button">Moon Pincho Github</a></center></p>
 
 	</section>
     </div>
