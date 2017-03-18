@@ -10,6 +10,96 @@
     <atom:link href="https://moonantonio.github.io/tags/unity3d/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Iluminacion con Unity 5</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/004/</link>
+      <pubDate>Sat, 18 Mar 2017 18:59:13 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/004/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://index.artstation.com/artist/jeydia&#34;&gt;Jeryce Dianingana&lt;/a&gt; compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi01.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;poner-a-prueba-la-iluminación-de-unity&#34;&gt;Poner a prueba la iluminación de Unity&lt;/h2&gt;
+
+&lt;p&gt;Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia. Yo estaba buscando una escena rápida, yo no quería pasar muchas veces en la modelización, y caí en esta foto &amp;ldquo;Abandonado Hospital de Chicago&amp;rdquo; tomada por Jordan Nicolette creo, se puede encontrar el origen de cada imagen en &lt;a href=&#34;https://es.pinterest.com/&#34;&gt;Pinterest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi02.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Cogí una gran cantidad de referencias de The División de Tom Clancy también, me gusta la forma en que logró tener esto realista, esas luces volumétricas dinámicas suaves y una comprensible escena con todos los activos mencionados en la cámara.&lt;/p&gt;
+
+&lt;h2 id=&#34;el-posicionamiento-de-iluminación&#34;&gt;El posicionamiento de iluminación&lt;/h2&gt;
+
+&lt;p&gt;Traté de hacer coincidir las luces de la referencia tanto como sea posible.&lt;/p&gt;
+
+&lt;p&gt;Hice muchas pruebas en el etiquetado para encontrar la posición perfecta, la colocación de las puertas era difícil al principio, ya que puede cambiar la iluminación mucho.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi03.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Me dieron 3 puntos de luz dinámicas, uno cerca del vaso de la izquierda, el segundo cerca de la mesa y el último frente a las puertas del ascensor.&lt;/p&gt;
+
+&lt;p&gt;Estas luces puntuales me han ayudado a conseguir un buen especular dinámico que no puedo tener con el bake en los objetos.&lt;/p&gt;
+
+&lt;p&gt;Pongo las grandes luces bakeadas en un lugar cerca de las puertas, era difícil al principio para tener el mismo aspecto, y aproximadamente la misma intensidad, rebotar y otros ajustes de la luz para la misma sensación que la de la foto, la dificultad principal era mantener alguna zona oscura y otra luminosa sin mover el punto o la adición de uno porque esto puede hacer una gran diferencia en comparación con la referencia principal.&lt;/p&gt;
+
+&lt;h2 id=&#34;los-avances-de-unity&#34;&gt;Los avances de Unity&lt;/h2&gt;
+
+&lt;p&gt;Desde que Unity 5.4 añade la &amp;ldquo;Eliminación de ruido&amp;rdquo; para la final se reúnen con inteligencia lo que reduce el ruido producido por las luces estáticas. Siempre lo uso cuando hago mi bake final, tenga cuidado cuando se activa recoger la final, cuesta más tiempo para calcular.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi04.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Skybox de color en tiempo real para calentar la escena y evitar algún problema con zonas de mucho contraste, gracias a Iluminacion global puedo ver los rebotes de las luces en tiempo real.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi05.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi06.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;La nueva &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/83912&#34;&gt;Post Processing Stack&lt;/a&gt;  me ayudó mucho para acercarme a la referencia. Personalmente, no puedo hacer una escena sin más, muy simple para importar, utilizar y se puede tener diferentes perfiles de procesamiento de correos, antes de eso, he usado para duplicar las cámaras y guardar como una casa prefabricada para tener distintas configuraciones.&lt;/p&gt;
+
+&lt;p&gt;La próxima versión de la Unidad (5.6) tendrá un lightmapper y progresiva una nueva forma completa a utilizar las luces de Unity llamados modos de luz.&lt;/p&gt;
+
+&lt;h2 id=&#34;cámaras&#34;&gt;Cámaras&lt;/h2&gt;
+
+&lt;p&gt;He creado el material con el &lt;a href=&#34;https://www.allegorithmic.com/&#34;&gt;substance&lt;/a&gt; , no dejaba todos los parámetros &amp;ldquo;Base de color&amp;rdquo; en Unity, para poder cambiar en tiempo real y el color de cada material para ver el resultado después de el mapa de luz. También me dio unas grandes reglas con base de color.&lt;/p&gt;
+
+&lt;p&gt;Yo siempre trato de estar entre sRGB 20 - 230 a evitar grandes saltos de luces.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi07.gif&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;El material del agua era muy importante también, hize una sustancia en el que puedo ajustar la cantidad, la posición, el contraste de los charcos y la transparencia, mezclé este material con el piso de mi Lino.&lt;/p&gt;
+
+&lt;p&gt;He utilizado el sombreado de &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/39959&#34;&gt;Uber&lt;/a&gt; para la mezcla de materiales y la asignación de la oclusión en el techo&lt;/p&gt;
+
+&lt;p&gt;El único consejo que puedo dar es evitar el ruido en su textura, por ejemplo, por tener un mapa fuerte normales, o una gran cantidad de datos en su textura y bordes afilados. Por bordes afilados que estoy hablando de tratar de tener un pequeño chaflán en su malla 3D o un bake normal que no afilado para tener una buena luz en el borde.&lt;/p&gt;
+
+&lt;h2 id=&#34;luz-o-polígonos&#34;&gt;Luz o polígonos&lt;/h2&gt;
+
+&lt;p&gt;Yo siempre digo que no es una cuestión de polígonos, sino más de la iluminación, la composición y la textura, gracias a Allegorithmic y Quixel Es muy sencillo tener un material en buen estado.&lt;/p&gt;
+
+&lt;p&gt;El procesamiento posterior es muy importante también, el efecto de reflexión espacio de pantalla ayudan mucho no creo que mi escena sería creíble sin ella.&lt;/p&gt;
+
+&lt;p&gt;En la gradación de color, he utilizado la fílmico (ACES), me encanta la forma en que contrastar fácilmente la escena y mejorar los rayos de luz.&lt;/p&gt;
+
+&lt;p&gt;Como he dicho antes, biseles son muy importantes, se puede ver que en todos los objetos hechos por el hombre, que ha evitado que, con el alias también.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi08.gif&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Cambiar su proyecto en linear color space, da la representación más realista que trabaja en el color gamma.&lt;/p&gt;
+
+&lt;p&gt;La unidad tiene algunos tutoriales en vídeo agradables en su canal de youtube y una gran documentación que explicó todo.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi09.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://index.artstation.com/artist/jeydia&#34;&gt;Jeryce Dianingana&lt;/a&gt;,  artista 3D ambiente&lt;/p&gt;
+
+&lt;p&gt;Entrevista realizada por &lt;a href=&#34;https://ua.linkedin.com/in/kikatok&#34;&gt;Kirill Tokarev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Gestor de Escenas</title>
       <link>https://moonantonio.github.io/post/2017/programacion/005/</link>
       <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>

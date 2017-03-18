@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/utiles/004/</loc>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/diario/004/</loc>
     <lastmod>2017-03-18T18:36:29+01:00</lastmod>
   </url>
@@ -255,6 +260,18 @@
   </url>
   
   <url>
+    <loc>https://moonantonio.github.io/tags/iluminacion/</loc>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/iluminacion/</loc>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/tags/investigacion/</loc>
     <lastmod>2017-03-14T01:49:51+01:00</lastmod>
     <priority>0</priority>
@@ -292,13 +309,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-pincho/</loc>
-    <lastmod>2017-03-18T18:36:29+01:00</lastmod>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
-    <lastmod>2017-03-18T18:36:29+01:00</lastmod>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -328,7 +345,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-03-18T18:36:29+01:00</lastmod>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -375,19 +392,19 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/unity3d/</loc>
-    <lastmod>2017-03-15T13:02:10+01:00</lastmod>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/unity3d/</loc>
-    <lastmod>2017-03-15T13:02:10+01:00</lastmod>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-03-18T18:36:29+01:00</lastmod>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
