@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Antonio Moon.&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Sat, 18 Mar 2017 18:59:13 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Mar 2017 16:00:38 +0100</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TextMesh Pro Unity3D</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/005/</link>
+      <pubDate>Mon, 20 Mar 2017 16:00:38 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/005/</guid>
+      <description>
+
+&lt;h1 id=&#34;textmesh-pro-se-une-a-unity&#34;&gt;TEXTMESH PRO SE UNE A UNITY.&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Unity se complace en anunciar una nueva y poderosa adición a nuestra suite de herramientas creativa: TextMesh Pro y su creador, Stephan Bouchard, se han unido a la unidad!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;TextMesh Pro es un reemplazo de componentes existentes de la unidad de texto como texto de malla y la interfaz de usuario de texto. TextMesh Pro utiliza Firmado Distancia Field (SDF) como su principal canal de renderizado de texto por lo que es posible representar el texto limpiamente en cualquier tamaño de punto y la resolución. El uso de un conjunto de shaders personalizados diseñados para aprovechar el poder de representación de texto SDF, TextMesh Pro hace que sea posible cambiar dinámicamente la apariencia visual del texto, simplemente cambiando las propiedades del material para añadir estilos visuales, tales como la dilatación, de línea, sombreado suave, biselado, texturas, brillo, etc., y para guardar y recuperar estos estilos visuales mediante la creación / utilización de los preajustes materiales.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/tmp01.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;TextMesh Pro proporciona un mejor control sobre el diseño y formato de texto a los usuarios que proporciona un control sobre el carácter, palabra, línea y el espacio entre párrafos, el apoyo para el ajuste entre caracteres y la separación silábica básica, modos de alineación de texto adicionales como texto justificado y rasante, más de &lt;a href=&#34;http://digitalnativestudios.com/textmeshpro/docs/rich-text/&#34;&gt;30 de texto enriquecido etiquetas&lt;/a&gt; están disponibles dar el control a los usuarios sobre los márgenes, sangría, el usuario puede definir &lt;a href=&#34;https://www.youtube.com/watch?v=BHUDw9vd-Pw&#34;&gt;estilos&lt;/a&gt; , &lt;a href=&#34;https://www.youtube.com/watch?v=78G15jJ1DHU&#34;&gt;enlaces&lt;/a&gt; e incluso soporte para el uso &lt;a href=&#34;https://www.youtube.com/watch?v=1viRWrd0T3Q&#34;&gt;de múltiples fuentes y gráficos en línea&lt;/a&gt; con el texto.&lt;/p&gt;
+
+&lt;p&gt;Optimizada para móvil y PC, la cabeza al almacén de activos hoy en día para &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/84126&#34;&gt;descargar la nueva versión&lt;/a&gt;, la libre disposición de TextMesh Pro hoy (Unidad 5.3 o superior es necesario, la Unidad 5.6 versión compatible próximamente).&lt;/p&gt;
+
+&lt;p&gt;Ya hemos empezado a trabajar para integrar la funcionalidad de TextMesh Pro en la unidad 2017, y continuaremos apoyando el activo con actualizaciones periódicas a la funcionalidad y compatibilidad para asegurar una experiencia perfecta para los usuarios de Pro TextMesh.&lt;/p&gt;
+
+&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/MX_pM8QKTAc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/84126&#34; class=&#34;button&#34;&gt;TextMesh Pro AssetStore&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Iluminacion con Unity 5</title>
@@ -2107,42 +2137,6 @@ Normal Direction: Direccion de la normal&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;853&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/2Xq_rlP54pI&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;853&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/mC3i0aHtzTU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MTodo Tool - Unity3D</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/004/</link>
-      <pubDate>Thu, 09 Mar 2017 21:54:00 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/004/</guid>
-      <description>
-
-&lt;h1 id=&#34;center-mtodo-tool-unity3d-center-br&#34;&gt;&lt;center&gt;MTodo Tool - Unity3D&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;Herramienta sencilla para hacer un seguimiento del codigo en Unity3D&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/mtodo.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;MTodo analiza la sintaxis de tu codigo con categorias.
-Por ejemplo, supongamos que tienes una categoria de BUG.&lt;/p&gt;
-
-&lt;p&gt;En la linea de tu codigo donde se encuentra ese bug, pondria :&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;// &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;&lt;/p&gt;
-
-&lt;p&gt;// BUG Aqui hay un bug.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.&lt;/p&gt;
-
-&lt;p&gt;Despues solo tienes que ir, dandole click en el mensaje, y se te abrira tu IDE por la linea donde esta.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MOON-TYPE/MTodo&#34; class=&#34;button&#34;&gt;GitHub&lt;/a&gt;&lt;/center&gt;
-&lt;center&gt;&lt;a href=&#34;https://trello.com/b/ZPmPLDJ8&#34; class=&#34;button&#34;&gt;Trello&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;\- Moon Pincho&lt;/p&gt;
 </description>
     </item>
     
