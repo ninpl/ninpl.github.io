@@ -7,8 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Thu, 23 Mar 2017 19:21:13 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Mar 2017 19:55:55 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Atlus &amp; Nintendo</title>
+      <link>https://moonantonio.github.io/post/2017/diario/005/</link>
+      <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/005/</guid>
+      <description>
+
+&lt;h1 id=&#34;atlus-se-agarra-a-nintendo-ds-para-sus-próximos-lanzamientos-en-3ds&#34;&gt;Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS&lt;/h1&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/at01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Teníamos mucho interés en conocer qué títulos anunciaría &lt;strong&gt;Atlus&lt;/strong&gt; en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.&lt;/p&gt;
+
+&lt;p&gt;Así, el primero que ya sabíamos que iba a aparecer fue &lt;strong&gt;Radiant Historia: Perfect Chronology (N3DS)&lt;/strong&gt;, remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/oEJG_7Foqic&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Otro regreso es el de &lt;strong&gt;Etrian Mystery Dungeon 2 (N3DS)&lt;/strong&gt;, secuela del título que era lanzado hace un par de años en occidente, que llegará el 31 de agosto a Japón para volver a ofrecer una colaboración entre el estilo &amp;ldquo;Mundo Misterioso&amp;rdquo; de Spike Chunsoft y los elementos de la saga Etrian Odyssey.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/T5oy9acYGGo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Y el tercer título presentado fue &lt;strong&gt;Shin Megami Tensei: Deep Strange Journey (N3DS)&lt;/strong&gt;, remake del título que fue lanzado hace siete años en Nintendo DS que ofrecerá una dificultad algo más calibrada, doblaje, nuevos demonios e ilustraciones, múltiples mejoras en la interfaz, combate y mazmorras, un nuevo personaje y toda una ruta extra alternativa. Llegará este otoño a Japón.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/6kXOfSFb2EU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Para cerrar también han vuelto a mostrar el tráiler del &lt;strong&gt;Shin Megami Tensei&lt;/strong&gt; realizado en Unreal Engine para Switch, con un par de segundos extra que nos mostraba un desierto. Nada que sea realmente relevante ni que merezca la pena comentar, salvo que sigue sin llamarse oficialmente Shin Megami Tensei V.&lt;/p&gt;
+
+&lt;p&gt;Pero, bueno, al menos los usuarios de Nintendo 3DS pueden estar muy contentos porque tienen tres títulos en camino con una calidad más que contrastada. Eso sí, ninguno es completamente original.&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Final Fantasy IX: Alternate Fantasy [Mod]</title>
@@ -2034,66 +2068,6 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
 &lt;/table&gt;
 
 &lt;p&gt;Continuara &amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bakeo simple en Unity3d</title>
-      <link>https://moonantonio.github.io/post/2017/clase/006/</link>
-      <pubDate>Thu, 09 Mar 2017 22:24:10 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
-      <description>
-
-&lt;h1 id=&#34;bakeo-simple-en-unity3d&#34;&gt;Bakeo simple en Unity3d&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh00.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una
-esfera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh02.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-public float v = 5;
-private void Update(){transform.Rotate(new Vector3(0,v,0),Space.World);}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Despues de ver que todo funciona correctamente.
-Implementar un Reflection Probe para ver el reflejo de las zonas donde se quieran reflejar.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh03.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Configurar el probe:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Tipo de reflejo&lt;/li&gt;
-&lt;li&gt;Cuando refresca&lt;/li&gt;
-&lt;li&gt;Resolucion&lt;/li&gt;
-&lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;Etc..&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Luego importamos el paquete de unity de characters y instanciamos unos cuantos personajes con AI y un nav mesh para que se pueda mover.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh04.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego ponemos una esfera o un cubo de objetivo y al darle play el personaje seguira al objetivo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh05.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero el jugador no se ilumina bien por lo que creamos grupos de probes para conseguir toda la reflexion posible.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh06.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
