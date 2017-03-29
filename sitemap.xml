@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/utiles/007/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/diario/006/</loc>
     <lastmod>2017-03-26T20:06:35+02:00</lastmod>
   </url>
@@ -177,6 +182,18 @@
   </url>
   
   <url>
+    <loc>https://moonantonio.github.io/tags/2d/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/2d/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/tags/alliance-alive/</loc>
     <lastmod>2017-03-02T18:44:00+01:00</lastmod>
     <priority>0</priority>
@@ -190,7 +207,19 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-03-26T20:06:35+02:00</lastmod>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/artistas/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/artistas/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -381,13 +410,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-03-26T20:06:35+02:00</lastmod>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-03-26T20:06:35+02:00</lastmod>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,7 +470,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-03-26T20:06:35+02:00</lastmod>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
