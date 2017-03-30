@@ -7,8 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Wed, 29 Mar 2017 14:43:04 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Mar 2017 00:32:33 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unity &#43; GeForce Share (Shadow Play) [Tips]</title>
+      <link>https://moonantonio.github.io/post/2017/dev/004/</link>
+      <pubDate>Fri, 31 Mar 2017 00:32:33 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/004/</guid>
+      <description>
+
+&lt;h1 id=&#34;de-esta-manera-tus-jugadores-con-tarjetas-nvidia-podrán-usar-esta-característica-sin-ningún-problema&#34;&gt;De esta manera tus jugadores con tarjetas Nvidia podrán usar esta característica sin ningún problema.&lt;/h1&gt;
+
+&lt;p&gt;GeForce Experience es una herramienta de las tarjetas &lt;strong&gt;Nvidia&lt;/strong&gt; que permite gestionar tus juegos y optimizarlos, mantener los controladores actualizados y por supuesto la función &lt;strong&gt;“Share”&lt;/strong&gt; que permite a los gamers compartir sus jugadas con los demás, esto es gracias a que la herramienta puede &lt;strong&gt;grabar nativamente una partida o bien una porción&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Quizás no lo hayas considerado pero esto es parte &lt;strong&gt;vital&lt;/strong&gt; de la experiencia que tu juego debería brindarle a sus jugadores, y es posible que hayas compilado tu juego de manera que no sea compatible con esta característica, si no has configurado las siguientes opciones en Edit &amp;gt; Project Settings &amp;gt; Player.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/gforcshare.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Artistas 2D</title>
@@ -1282,60 +1302,6 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
 &lt;h1 id=&#34;aprender-a-escribir-scripts-del-editor&#34;&gt;Aprender a escribir scripts del editor&lt;/h1&gt;
 
 &lt;p&gt;Unity3D es un gran motor de juego en materia de extensibilidad. Aprender a escribir scripts del editor. Sí es necesario, no es necesario crear GUI de lujo para los scripts, puede ser algo simple, como las entradas de menú que están haciendo algo útil.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Consejos para trabajar en equipo</title>
-      <link>https://moonantonio.github.io/post/2017/dev/002/</link>
-      <pubDate>Mon, 13 Mar 2017 19:10:22 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/002/</guid>
-      <description>
-
-&lt;p&gt;Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.&lt;/p&gt;
-
-&lt;h1 id=&#34;organizar-bien-su-proyecto&#34;&gt;Organizar bien su proyecto&lt;/h1&gt;
-
-&lt;p&gt;Antes de avanzar más lejos que hay que asegurarse de que su proyecto está bien organizado. Es un requisito importante porque el proyecto no organizado es muy difícil de mantener. No es imposible trabajar en estos proyectos por todos los medios, pero cada vez que se verán obligados a trabajar en él, se puede sentir un deseo imparable de asesinar a alguien en su proximidad cercana. Y este sentimiento empeorará a medida que el proyecto va a crecer.&lt;/p&gt;
-
-&lt;h1 id=&#34;configuración-de-un-gestor-de-incidencias&#34;&gt;Configuración de un gestor de incidencias&lt;/h1&gt;
-
-&lt;p&gt;Si no está utilizando uno ya entonces estoy seguro de que usted ha escuchado al menos aproximadamente Jira , Redmine , Trac o Mantis . De hecho, hay un  montón de ellos  y que pueden tener un serio problema al decidir cuál elegir. Desde mi experiencia no hay una solución que puede ser llamada &amp;ldquo;la mejor&amp;rdquo;. Todos estos tiene algunas ventajas y desventajas. Le recomiendo a usted para comprobar al menos 3 de ellos antes de decidir uno, será lo suficientemente bueno para sus necesidades. Tenga en cuenta que va a aprender lo que realmente  necesita sólo después de unos meses de trabajo con cualquiera de él.&lt;/p&gt;
-
-&lt;p&gt;¿Por qué el seguimiento de problemas es importante? Cuando se trabaja en equipo, la buena comunicación es la clave. Los seres humanos son criaturas perezosas y olvidadizas. Si le dices a alguien que él/ella tiene que hacer algo, él/ella recuerda esa tarea con claridad hasta que toneladas de tareas similares caen del cielo. Tienes que aceptar ese simple hecho. Asimismo, no confíe en su propia memoria - se ha demostrado que la necesidad de recordar un montón de cosas aumenta significativamente su estrés.&lt;/p&gt;
-
-&lt;h1 id=&#34;cambie-sus-proyectos-a-modo-de-texto-método-de-serialización&#34;&gt;Cambie sus proyectos a modo de texto (método de serialización)&lt;/h1&gt;
-
-&lt;p&gt;Es obvio, pero puede a menudo olvidarse. Unity3D está utilizando el método de serialización binaria para sus activos de forma predeterminada (hey, chicos de Unity3D! ¿Quién os dijo que sería una buena idea?). Esto simplemente significa que si dos personas van a modificar una escena, el ajuste de animación o un prefab, al mismo tiempo, una persona tendrá que renunciar a sus cambios a causa de un conflicto. La situación es similat a aquel en el que dos chicos salen con la misma chica. Uno de ellos, tarde o temprano va a tener que renunciar (no hablemos acerca de las alternativas, ¿de acuerdo?).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Asset Serialization&lt;/strong&gt; | Mode |  Force Text : se puede activar en el menú Edición -&amp;gt; Ajustes del proyecto -&amp;gt; Editor&lt;/p&gt;
-
-&lt;h1 id=&#34;ponerse-de-acuerdo-sobre-un-estilo-común-de-codificación&#34;&gt;Ponerse de acuerdo sobre un estilo común de codificación&lt;/h1&gt;
-
-&lt;p&gt;Esté preparado para una gran pelea - a los programadores no les gusta cambiar sus hábitos. Pero usted y sus colegas todavía tiene que hacerlo, de lo contrario causará una gran cantidad de conflictos desagradables en fusiones de código. Además, usted tiene que decidir si los archivos de origen deben utilizar tabuladores o espacios para el sangrado de código. Es posible que busque algo así como una guía oficial o comunidad de estilo para un idioma específico. Hay uno para C #   que pueden serle de utilidad. Usted no tiene que seguir ciegamente si usted no está de acuerdo con algunas partes de ella, pero cuando haya un desacuerdo dentro de su equipo, puede ser una buena fuente de posible solución.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Recuerda no forzar ninguna decisión sobre su equipo si hay un fuerte desafío en esa materia&lt;/strong&gt;. Si usted quiere que le dan todo lo que tienen a su proyecto, usted tiene que hacer que les encanta trabajar en él, no lo odio!&lt;/p&gt;
-
-&lt;h1 id=&#34;acordar-activo-cambia-la-política&#34;&gt;Acordar activo cambia la política&lt;/h1&gt;
-
-&lt;p&gt;Algunos assets pueden ser difíciles de combinar, incluso si se cambia el modo de serialización de texto . Puede que sea necesario decidir sobre una política sobre cómo y cuándo comunicar que alguien está a punto de editar un assets. Algunos VCS como Perforce o PlasticSCM ofrecen una función de llamada  de pago exclusiva . Esto significa que todos los archivos son de sólo lectura hasta que alguien se decida a editarlo. Si la segunda persona trata de editar ese archivo en el mismo tiempo, él/ella recibirá una advertencia de que el archivo está siendo revisado por otra persona.&lt;/p&gt;
-
-&lt;p&gt;También es posible que desee tener más enfoque humano similar. Conocí a una empresa que tenía una mesa magnética con notas post-it en él. Cada nota tenía un nombre escrito en la escena. Si alguien decide editar una escena, él o ella toma nota a juego con su escritorio para que nadie más modifique esa escena.&lt;/p&gt;
-
-&lt;h1 id=&#34;comunicar-a-menudo-pero-observe-las-interrupciones&#34;&gt;Comunicar a menudo, pero observe las interrupciones&lt;/h1&gt;
-
-&lt;p&gt;Hablar a menudo con su equipo acerca de lo que hicieron y lo que están a punto de hacer. Hágalo todos los días si es posible y que sea corto. Discutir acerca de posibles problemas y cómo resolverlos, si es necesario.&lt;/p&gt;
-
-&lt;p&gt;Hablar con sus compañeros de equipo a menudo si es necesario , pero cuidado con la interrupción de su trabajo. Evitar llamarlos o hablar con ellos personalmente sin previo aviso anterior. Si lo hace, usted niega su derecho a reaccionar cada vez que les conviene. Pueden perder de inmediato el contexto de la labor que estaban haciendo y se centren en su cosa - es una cosa muy egoísta. Incluso si usted tiene prisa, tratar de notificarles mediante un mensaje de correo electrónico o de mensajería instantánea en primer lugar.&lt;/p&gt;
-
-&lt;p&gt;Elegir el software de comunicación que permite configurar libremente su nivel de detalle. Algunas personas no les importa ser interrumpido, algunos lo hacen. Casi cada cliente de correo electrónico permite configurar libremente las notificaciones de nivel así que si quieres hablar de algo y no tiene prisa, utilizar e-mails. Hay cosas que no pueden esperar demasiado tiempo, por lo que necesita de mensajería instantánea de algún tipo. Recomiendo encarecidamente que intenta Slack . Slack respeta altamente derecho de todos a no ser interrumpido y le da una opción para permitir la interrupción en cuestiones realmente importantes. Slack también permite a su equipo crear canales. Canal es un lugar cuando dos o más personas pueden hablar entre sí acerca de un tema específico.&lt;/p&gt;
-
-&lt;h1 id=&#34;qué-más&#34;&gt;¿Qué más?&lt;/h1&gt;
-
-&lt;p&gt;No hay dos proyectos idénticos y dos equipos nunca serán los mismos. Usted debe mantener sus ojos y la mente abierta, y ver cualquier problema de sus encuentros del equipo que vale la pena resolver. No todos los problemas se pueden resolver con facilidad y muchos directores de proyectos comete un error con la solución de un problema con una solución que hace que sea aún peor. Intentarlo no es un pecado, pero no admitir que cometió un error y una regresión en el trabajo que ya se ha hecho por desgracia.&lt;/p&gt;
 
 &lt;p&gt;.\Moon&lt;/p&gt;
 </description>
