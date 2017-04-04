@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Fri, 31 Mar 2017 00:32:33 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 04 Apr 2017 23:04:52 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Neregate cierra sus puertas</title>
+      <link>https://moonantonio.github.io/post/2017/diario/007/</link>
+      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/007/</guid>
+      <description>
+
+&lt;h1 id=&#34;neregate-cierra-a-medio-mes&#34;&gt;Neregate cierra a medio mes&lt;/h1&gt;
+
+&lt;p&gt;Bueno pues aqui esta, neregate cierra, para los que no lo sepan, &lt;a href=&#34;https://neregate.com/blog/&#34;&gt;neregate&lt;/a&gt; a sido una web administrada por Zana, un usuario que monto desde 0 un blog que en principio estaba destinado a ser un pequeño sitio para publicar anime, cosas sobre programacion y algun que otro log, pero que poco a poco en estos &lt;strong&gt;7 años&lt;/strong&gt; se ha convertido en una referencia para ver muchas cosas.&lt;/p&gt;
+
+&lt;p&gt;Conoceras los tipicos chart que van rondando por internet sobre las temporadas de anime proximas, pues son sacadas de aqui, el autor, &lt;strong&gt;Zana&lt;/strong&gt; se creo una herramienta para crear chart desde la web, entonces cada temporada investigaba en todos los sitios de noticias de anime empezando por &lt;a href=&#34;https://myanimelist.net/&#34;&gt;MyAnimeList&lt;/a&gt; hasta llegar a &lt;a href=&#34;https://www.livechart.me/spring-2017/tv&#34;&gt;Livechart&lt;/a&gt;, creando un chart personal que publicaba antes de las nuevas temporadas.&lt;/p&gt;
+
+&lt;p&gt;Tambien creaba ciertas herramientas, como redireccionadores o diferentes sitios de estadisticas en open source.&lt;/p&gt;
+
+&lt;p&gt;Esta semana Zana a posteado en su blog que &lt;strong&gt;Neregate cierra&lt;/strong&gt; , ultimamente tiene mucho trabajo, y despues de tantos años no le llena mucho seguir con neregate, claro esta que lo a estado pensando mucho tiempo.&lt;/p&gt;
+
+&lt;p&gt;Tambien hay que ver que el es el unico posteador (quitando el foro), por lo que tiene que mantener el contenido el mismo y pagar claramente lo que con ello viene.&lt;/p&gt;
+
+&lt;p&gt;De momento su cierre esta pevisto para el 15 de abril de 2017.&lt;/p&gt;
+
+&lt;p&gt;A la espera de nuevas webs de referencia.&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
     
     <item>
       <title>Unity &#43; GeForce Share (Shadow Play) [Tips]</title>
@@ -1189,121 +1219,6 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
 &lt;p&gt;.\Moon&lt;/p&gt;
 
 &lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Consejos para organizar tus proyectos</title>
-      <link>https://moonantonio.github.io/post/2017/dev/003/</link>
-      <pubDate>Mon, 13 Mar 2017 19:36:17 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/003/</guid>
-      <description>
-
-&lt;p&gt;Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características. Esto también es cierto con respecto a cualquier proyecto de Unity3D. Éstos son (en mi opinión) los más importantes consejos que le ayudarán a mantener su proyecto organizado.&lt;/p&gt;
-
-&lt;h1 id=&#34;estructura-del-directorio&#34;&gt;Estructura del Directorio&lt;/h1&gt;
-
-&lt;p&gt;No podemos hablar de la organización sin mencionar la organización de la estructura de directorios del proyecto. Unity le da una total libertad en esa materia, pero debido a que, con frecuencia puede ser muy desordenado. Esta es la estructura de directorios que utilizo personalmente:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Third party&lt;/p&gt;
-
-&lt;p&gt;-Plugins&lt;/p&gt;
-
-&lt;p&gt;-Nombre proyecto&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Resources&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Animaciones&lt;/p&gt;
-
-&lt;p&gt;-Audio&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Música&lt;/p&gt;
-
-&lt;p&gt;-SFX&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;-Modelos&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Materiales&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;-Texturas&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;-Shaders&lt;/p&gt;
-
-&lt;p&gt;-Prefabs&lt;/p&gt;
-
-&lt;p&gt;-Escenas&lt;/p&gt;
-
-&lt;p&gt;-Scripts&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Editor&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;1.- &lt;strong&gt;No guarde los archivos de assets en el directorio raíz&lt;/strong&gt;. Utilizar subdirectorios siempre que sea posible.&lt;/p&gt;
-
-&lt;p&gt;2.- &lt;strong&gt;No crear los directorios adicionales en el directorio raíz&lt;/strong&gt;, a menos que realmente sea necesario.&lt;/p&gt;
-
-&lt;p&gt;3.- &lt;strong&gt;Sea consistente con el nombramiento&lt;/strong&gt;. Utilizar nombres predictivos.&lt;/p&gt;
-
-&lt;p&gt;4.- &lt;strong&gt;No trate de mover assets del contexto específico que los directorios generales&lt;/strong&gt;. Por ejemplo, si hay materiales generados a partir del modelo, no moverlos a Materiales porque después no sabrá dónde viene esto.&lt;/p&gt;
-
-&lt;p&gt;5.- &lt;strong&gt;Utilice 3ª Party para almacenar los bienes importados desde el almacén de activos&lt;/strong&gt;. Por lo general tienen su propia estructura que no debe ser alterada.&lt;/p&gt;
-
-&lt;p&gt;6.- &lt;strong&gt;Utilice recinto de seguridad  del directorio para todos los experimentos&lt;/strong&gt;. Mientras se trabaja en este tipo de cosas, la última cosa que desea tener en cuenta es una organización adecuada. Hagan lo que quieran, y luego quitarlo u organizar cuando usted está seguro de que lo desea incluir en su proyecto. Cuando estás trabajando en un proyecto con otras personas, crear el subdirectorio de recinto de seguridad personal como:  Alexandria/MoonPincho .&lt;/p&gt;
-
-&lt;h1 id=&#34;estructura-de-la-jerarquía-de-escena&#34;&gt;Estructura de la jerarquía de escena&lt;/h1&gt;
-
-&lt;p&gt;Al lado de la jerarquía del proyecto también hay jerarquía de la escena. Al igual que antes, le presento una plantilla. Puede ajustarlo a sus necesidades.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Manager&lt;/li&gt;
-&lt;li&gt;GUI&lt;/li&gt;
-&lt;li&gt;Indispensables&lt;/li&gt;
-&lt;li&gt;Luces&lt;/li&gt;
-&lt;li&gt;Environment&lt;/li&gt;
-&lt;li&gt;Dinamicos&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hay varias reglas que debe seguir:&lt;/p&gt;
-
-&lt;p&gt;1.- Todos los objetos vacíos deben estar ubicados en 0,0,0 con la rotación y la escala predeterminada.&lt;/p&gt;
-
-&lt;p&gt;2.- Manten siempre la jerarquia aun instanciando objetos.&lt;/p&gt;
-
-&lt;p&gt;3.- Para los objetos vacíos que sólo son contenedores para los scripts, el uso de &amp;ldquo;@&amp;rdquo; como prefijo - por ejemplo @Cheats&lt;/p&gt;
-
-&lt;h1 id=&#34;usar-prefabs-para-todo&#34;&gt;Usar prefabs para todo&lt;/h1&gt;
-
-&lt;p&gt;Prefabs en Unity3D no son perfectos, pero son lo mejor que encontrará en jerarquías preconfiguradas de objetos. En términos generales, intentar crear prefabs de todo lo que se pone en sus escenas . Usted debe ser capaz de crear un nuevo nivel de una escena vacía simplemente añadiendo uno o más prefabs.&lt;/p&gt;
-
-&lt;p&gt;La razón por la que debe usar los prefabs es que cuando cambias un prefabs, todos los prefabs cambian también. Si tienes 100 niveles y desea agregar un efecto de cámara en todos ellos? ¡No es un problema! Si la cámara es un prefabs, basta con añadir un efecto de cámara a la cámara prefab!&lt;/p&gt;
-
-&lt;p&gt;Tenga en cuenta que no se puede tener un prefab en otro prefab.&lt;/p&gt;
-
-&lt;h1 id=&#34;aprende-a-usar-el-sistema-de-control-de-versiones-vcs&#34;&gt;Aprende a usar el sistema de control de versiones (VCS)&lt;/h1&gt;
-
-&lt;p&gt;Usted ya sabe algo acerca de GIT, subversión o cualquier otro VCS por ahí. Como cuestión de hecho, &amp;ldquo;saber algo&amp;rdquo; es sólo una pequeña parte de lo que usted puede aprender. Usted debe centrarse en el aprendizaje acerca de las características mas importantes de uso poco frecuente de VCS de su elección. ¿Por qué? Sobre todo porque los sistemas de control de versiones son mucho más potentes que usted piensa, y por desgracia muchos usuarios están utilizando estos como nada más que una copia de seguridad y soluciones sincronizadas. Por ejemplo, ¿sabía que le permite GIT guardar los cambios, para que pueda trabajar en ellos más adelante sin cometer cualquier cosa a su rama principal?&lt;/p&gt;
-
-&lt;p&gt;Los programadores suelen comentar bloques de código en caso de que sea necesario más adelante. No hagas eso! Si está utilizando VCS, aprender a navegar rápidamente a versiones anteriores de un archivo. Cuando esté familiarizado con ella, su código sera mucho más agradable sin un bloque innecesario de código comentado.&lt;/p&gt;
-
-&lt;p&gt;Aquí hay un buen recurso de consejos para los usuarios GIT:  &lt;a href=&#34;http://gitready.com/&#34;&gt;http://gitready.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;aprender-a-escribir-scripts-del-editor&#34;&gt;Aprender a escribir scripts del editor&lt;/h1&gt;
-
-&lt;p&gt;Unity3D es un gran motor de juego en materia de extensibilidad. Aprender a escribir scripts del editor. Sí es necesario, no es necesario crear GUI de lujo para los scripts, puede ser algo simple, como las entradas de menú que están haciendo algo útil.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
 </description>
     </item>
     
