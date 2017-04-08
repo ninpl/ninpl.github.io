@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/utiles/008/</loc>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/diario/007/</loc>
     <lastmod>2017-04-04T23:04:52+02:00</lastmod>
   </url>
@@ -217,7 +222,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -420,13 +425,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -504,7 +509,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -529,6 +534,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/square-enix/</loc>
     <lastmod>2017-03-26T20:06:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/steam/</loc>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/steam/</loc>
+    <lastmod>2017-04-08T23:25:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   

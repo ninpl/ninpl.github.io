@@ -7,8 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Tue, 04 Apr 2017 23:04:52 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 08 Apr 2017 23:25:27 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>¿Como subir gifs al perfil de steam?</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/008/</link>
+      <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/008/</guid>
+      <description>
+
+&lt;h1 id=&#34;subir-un-gif-a-modo-de-exposicion-a-steam&#34;&gt;Subir un gif a modo de exposicion a Steam&lt;/h1&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/01.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+
+&lt;p&gt;Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam.
+Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;paso-1&#34;&gt;Paso 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/02.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Abrir este &lt;a href=&#34;http://steamcommunity.com/sharedfiles/edititem/767/3/&#34;&gt;link&lt;/a&gt; en un navegador y hacer clic derecho - inspeccionar elemento&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/03.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;paso-2&#34;&gt;Paso 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/04.png&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Ir a la consola y pegar el siguiente código:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;
+document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;y pulsa enter.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/05.gif&#34; alt=&#34;005&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;paso-3&#34;&gt;Paso 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/06.png&#34; alt=&#34;006&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Cargar el archivo gif, darle un título y una descripción.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/07.gif&#34; alt=&#34;007&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;paso-4&#34;&gt;Paso 4&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/08.png&#34; alt=&#34;008&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Marque la casilla &amp;ldquo;Certifico que he creado esta obra de arte&amp;rdquo; y haga clic en &amp;ldquo;Guardar y continuar&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/09.gif&#34; alt=&#34;009&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=693118839&#34;&gt;Curse&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
     
     <item>
       <title>Neregate cierra sus puertas</title>
@@ -1132,93 +1204,6 @@ namespace MoonPincho
 &lt;p&gt;Tengo pensado actualizar todos los repos para tenerlos bien organizados y documentados, pero hasta el momento tendre que ir tirando de este metodo que, aunque es feo, es lo mas rapido que puedo montar, para que no interfiera en el TFG y otros proyectos activos en este momento.&lt;/p&gt;
 
 &lt;p&gt;.\Moon&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Investigacion sobre RPGs</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/003/</link>
-      <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;presentacion&#34;&gt;Presentacion&lt;/h1&gt;
-
-&lt;p&gt;Bueno, despues de darle varias vueltas y buscar mucha informacion, e decidido por fin redactar una investigacion sobre los rpgs y sus puntos.
-Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que han tenido exito y los &lt;strong&gt;puntos fuertes&lt;/strong&gt; de cada juego, en su resumen la globalidad de todo eso (aunque no sea una investigacion total), sera una linea por la que seguir y ver todas las referencias de los padres de los RPGs.&lt;/p&gt;
-
-&lt;p&gt;Para el primer videojuego, vamos a hablar mas que de un videojuego, de una saga. &lt;strong&gt;Final Fantasy&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;final-fantasy&#34;&gt;Final Fantasy&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Square Soft fue la empresa asignada que creo la saga Final Fantasy (Desde ahora FF), la saga comenzo en el 87, siendo el ultimo videojuego que &lt;strong&gt;Hironobu Sakaguchi&lt;/strong&gt; desarrollaria en el caso de que saliera mal.&lt;/p&gt;
-
-&lt;p&gt;La mayoria de las entregas son &lt;strong&gt;historias propias con diferentes personajes y escenarios&lt;/strong&gt;, existen ciertos temas recurrentes que definen a la franquicia. Algunos de estos temas incluyen elementos argumentales, nombres de personajes y mecanicas de jugabilidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;La trama&lt;/strong&gt; normalmente se constituye en un grupo de heroes, normalmente jovenes, que luchan contra un mal mayor, mientras enfrentan ciertos problemas personales y se exploran sus personalidades y relaciones con otros personajes.&lt;/p&gt;
-
-&lt;p&gt;Normalmente FF chupa mucho de &lt;strong&gt;diferentes culturas y mitologias&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los elementos comunes entre cada FF, eran varios, como por ejemplo las espadas &lt;strong&gt;Excalibur&lt;/strong&gt; ( Leyenda Arturiana ) y &lt;strong&gt;Masamune&lt;/strong&gt; ( Famoso herrero de espadas ), estos lugares y nombres, como ** Midgar y Nibelheim** provienen de la &lt;strong&gt;Mitologia Nordica&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Tambien hay diferentes personajes, invocaciones y magias, que en otras entregas pasan a ser &lt;strong&gt;temas recurrentes&lt;/strong&gt;, como en el caso de Meteor que puede ser un npc o una magia.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;El &lt;strong&gt;conflicto principal&lt;/strong&gt; de FF recae en un grupo de personajes luchando contra un mal, normalmente antiguo que domina el mundo.&lt;/p&gt;
-
-&lt;p&gt;Normalmente tienen &lt;strong&gt;2 Villanos&lt;/strong&gt;, el primero parece ser el jefe final, pero luego cuando es derrotado sale la verdadera identidad del segundo villano.&lt;/p&gt;
-
-&lt;p&gt;Tienen una &lt;strong&gt;trama principal&lt;/strong&gt; que a su vez, se divide en una aventura donde la historia enfatiza en los &lt;strong&gt;problemas internos de los personajes principales&lt;/strong&gt;, relaciones con otros personajes o incluso amor, guerra, amistad, rivalidad&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Uno de los elementos mas presentes en FF son &lt;strong&gt;los cristales&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;FF tiene variedad de personajes, pero tambien muchos &lt;strong&gt;personajes recurrentes&lt;/strong&gt; con ciertos arquetipos que se definen en el &lt;strong&gt;monomito&lt;/strong&gt;, de lo cual ya hable e investigue en &lt;a href=&#34;https://moonantonio.github.io/post/2017/dev/001/&#34;&gt;¿Que es Monomito?&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;El personaje mas recurrente de FF sin duda alguna es &lt;strong&gt;Cid&lt;/strong&gt;, normalmente aunque cambien el sexo, el papel o cualquier otra cosa, al ser recurrentes siempre llevan un vinculo a los demas cids de otras versiones, como por ejemplo que arregla barcos o a tenido un gran papel en sus tiempos.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;, FF  desde sus inicios a sabido bien lo que hacer, Square Soft, desde hace tiempo Square Enix por la fusion de compañias, han sacado partido de la IP de FF con diferentes patrones fijados y muy bien pensados.&lt;/p&gt;
-
-&lt;p&gt;Las historias siguen el patron del monomito.&lt;/p&gt;
-
-&lt;p&gt;Siempre usan personajes recurrentes a lo que cada jugador le dara un valor sentimental.&lt;/p&gt;
-
-&lt;p&gt;Han ido evolucionando y creando momentos muy bonitos mezclando las diferentes mitologias y leyendas siempre sin salir de la linea general de la trama.&lt;/p&gt;
-
-&lt;p&gt;Han usado muy bien la musica a su favor, FF tiene muchas de las mejores bandas sonoras de los videojuegos.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;the-legend-of-zelda&#34;&gt;The Legend of Zelda&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Bueno, despues de hablar de Final Fantasy, tambien hay que hablar de The Legend of Zelda, uno de los videojuegos con mayor publico y con derecho de Nintendo.&lt;/p&gt;
-
-&lt;p&gt;En este videojuego, vuelve a aparecer los mismos patrones que hablamos en el principio, siguen una seria de &lt;strong&gt;trama&lt;/strong&gt; en la que se vincula entre videojuegos, tiene un heroe principal y unos seguidores, en cual ** su mision** es derrotar a un ** ser maligno**.&lt;/p&gt;
-
-&lt;p&gt;Tambien tienen &lt;strong&gt;personajes recurrentes&lt;/strong&gt; , pero con mas razon, en este IP, la historia sigue a un elegido por su viaje y la mayoria de los juegos (sin contar los spin-off) se basan en &lt;strong&gt;Link, zelda y Ganon&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sigue teniendo una linea definida por el monomito, pero aqui las leyendas han sido creadas por los creadores mismos, con alguna referencia que otra, pero sin usar los mismos nombres que en las &lt;strong&gt;leyendas&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;La verdad que han sabido &lt;strong&gt;diferenciarse&lt;/strong&gt; de los demas rpgs incorporando muchas mecanicas imnovadoras y con un toque artistico muy caracteristico.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;, todos los rpgs siguen con el mismo patron , pero se diferencian en aspectos basicos, tales como la autenticidad de sus historias.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     
