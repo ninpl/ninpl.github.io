@@ -7,8 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Mon, 10 Apr 2017 14:34:04 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 Apr 2017 15:47:12 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Crear Steam backgrounds</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/010/</link>
+      <pubDate>Mon, 10 Apr 2017 15:47:12 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/010/</guid>
+      <description>
+
+&lt;h1 id=&#34;que-son-los-steam-backgrounds&#34;&gt;¿Que son los Steam Backgrounds?&lt;/h1&gt;
+
+&lt;p&gt;Sólo escuchar las palabras &amp;ldquo;Background&amp;rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la Muestra de ilustraciones y pantalla Escaparate transparente, que pueda ver el fondo que ha solicitado. En realidad, no hacen transparentes, no son más que la perfección las piezas recortadas de los antecedentes añadidos en el puesto. Aquí está un ejemplo de lo que se verá después de la finalización:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/20.jpg&#34; alt=&#34;020&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Puede parecer difícil, pero es sorprendentemente fácil.&lt;/p&gt;
+
+&lt;p&gt;Este proceso no funciona bien en todos los orígenes, sin embargo, escoger el más adecuado es el primer paso y es posiblemente el paso más importante. Dado que este se centra en las vitrinas que están situados en el centro que tiene que conseguir algo con contenido localizado allí. A continuación se presentan dos fondos, un fondo malo está arriba y uno bueno abajo. Usted no quiere terminar con secciones completamente en negro, a veces es inevitable, pero desea minimizar tanto como sea posible. &lt;strong&gt;Nota&lt;/strong&gt;: Para utilizar dos vitrinas a la vez se necesita estar al mismo nivel o por encima de 20, si está por debajo de este es posible que desee omitir la mayor parte de la guía.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/21.jpg&#34; alt=&#34;021&#34; /&gt;&lt;/center&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/22.jpg&#34; alt=&#34;022&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;el-recorte&#34;&gt;El recorte&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;El recorte automático&lt;/strong&gt;
+Gracias a TrueCarry, el proceso de obtención de todas las herramientas necesarias para que el escaparate sea automatizado. Es bastante sencillo de hacer, sólo tiene que ir primero a &lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; y carga una página de perfil de steam. Para cambiar la imagen que está en el fondo basta con acceder a su cuenta de steam en la parte superior derecha y cargará todos los fondos en su inventario. El Bicho raro hizo un script para Tapermokey que pone un preliminar en Sapic botón en todas las páginas de fondo del mercado y las previsualizaciones de inventario. Simplemente instale y se vinculará directamente a ese fondo en Sapic. Encontrar &lt;a href=&#34;https://github.com/theoddball/sapic-preview-button&#34;&gt;Aquí&lt;/a&gt;. También puede utilizar una URL si así lo desea, sólo tiene que ir a la página de mercado o de inventario para el fondo y haga clic en Ver tamaño completo y copiar y pegar la URL en la barra de URL personalizada. Una vez que se selecciona el fondo se puede cambiar el tamaño de las vitrinas por el acaparamiento de la parte inferior de la imagen más grande o haciendo clic en el cambio de tamaño botón y mediante el control deslizante.
+Si también tiene otras vitrinas puede moverlos alrededor para conseguir la posicion perfecta si usted está en el sistema. Después de eso esta hecha la descarga y va a recortar el fondo, empacar en un archivo .zip y descarga a la vez . Rápida, sencilla y eficaz.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;El recorte manual&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(Ahora utilice &lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/23.png&#34; alt=&#34;023&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=299701202&#34;&gt;SloWolfe&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>¿Como subir Long Artworks a Steam?</title>
@@ -1131,140 +1167,6 @@ Decir y hacer es la misma cosa.  Cuidado con el camino que sigues.&lt;/strong&gt
 Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo con las keys para que solo coja esos valores.&lt;/p&gt;
 
 &lt;p&gt;.\Moon&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Gestor de Escenas</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/005/</link>
-      <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/005/</guid>
-      <description>&lt;p&gt;Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Editor -&amp;gt; cambiar generalmente de forma rapida y precisa.
-Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Por ello propuse un &lt;strong&gt;Gestor de Escenas&lt;/strong&gt; en la que uno mismo podria cambiar siempre de escena en cualquier lado.&lt;/p&gt;
-
-&lt;p&gt;El sistema es llamado &lt;strong&gt;Proteo&lt;/strong&gt; que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.&lt;/p&gt;
-
-&lt;p&gt;En la escena de test, queria sacar 3 funcionalidades.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cambiar de forma normal la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cambiar de forma Asyncrona la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Descargar alguna escena anterior.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bien ahora empezare por el sistema runtime.&lt;/p&gt;
-
-&lt;p&gt;Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.&lt;/p&gt;
-
-&lt;p&gt;Al sumar escenas hay un modo llamado &lt;strong&gt;LoadSceneMode.Additive&lt;/strong&gt; que seria sumar la nueva escena a la actual.&lt;/p&gt;
-
-&lt;p&gt;Bueno y despues de esto -&amp;gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                              
-// SProteo.cs (15/03/2017)                                      
-// Autor: Antonio Mateo (Moon Pincho)                              
-// Descripcion:     Sistema que gestiona el cambio de escenas.      
-// Fecha Mod:       15/03/2017                                  
-// Ultima Mod:      Version Inicial                             
-//****************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
-#endregion
-
-namespace MoonPincho
-{
-    /// &amp;lt;summary&amp;gt;
-    /// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
-    /// &amp;lt;/summary&amp;gt;
-    [AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
-    public class SProteo : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public UISlider progressBar;                                            // NGUI progress bar para la carga
-        #endregion
-
-        #region API
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-        {
-            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void UnLoadScene(string nombre)// Descarga la escena dada
-        {
-            SceneManager.UnloadSceneAsync(nombre);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-        {
-            StartCoroutine(UpdateProgress(nombre));
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public void UnLoadActual()// Descarga la escena actual.
-        {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        }
-        #endregion
-
-        #region Funcionalidad
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        /// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
-        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-        {
-            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
-
-            while (!cargando.isDone)
-            {
-                this.progressBar.value = cargando.progress;
-                Debug.Log(cargando.progress);
-                yield return null;
-            }
-        }
-        #endregion
-    }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MoonAntonio/GestorEscenasUnity&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
