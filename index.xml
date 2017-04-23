@@ -7,8 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Mon, 10 Apr 2017 15:47:12 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Apr 2017 17:17:22 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Algoritmos de busqueda</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/006/</link>
+      <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/006/</guid>
+      <description>
+
+&lt;h1 id=&#34;algoritmos-de-busqueda&#34;&gt;Algoritmos de Busqueda&lt;/h1&gt;
+
+&lt;h2 id=&#34;a&#34;&gt;A*&lt;/h2&gt;
+
+&lt;p&gt;Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A&lt;em&gt;, LPA&lt;/em&gt;, o D*.&lt;/p&gt;
+
+&lt;p&gt;El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos.
+El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case004.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;La complejidad computacional del algoritmo está íntimamente relacionada con la calidad de la heurística que se utilice en el problema. En el caso peor, con una heurística de pésima calidad, la complejidad será exponencial, mientras que en el caso mejor, con una buena, el algoritmo se ejecutará en tiempo lineal.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Para que esto último suceda, se debe cumplir que donde h&amp;rsquo; es una heurística óptima para el problema, como por ejemplo, el coste real de alcanzar el objetivo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case005.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dijkstra&#34;&gt;Dijkstra&lt;/h2&gt;
+
+&lt;p&gt;El algoritmo de Dijkstra, también llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del camino más corto dado un vértice origen al resto de los vértices en un grafo con pesos en cada arista.&lt;/p&gt;
+
+&lt;p&gt;La idea subyacente en este algoritmo consiste en ir explorando todos los caminos más cortos que parten del vértice origen y que llevan a todos los demás vértices; cuando se obtiene el camino más corto desde el vértice origen, al resto de vértices que componen el grafo, el algoritmo se detiene. El algoritmo es una especialización de la búsqueda de costo uniforme, y como tal, no funciona en grafos con aristas de coste negativo (al elegir siempre el nodo con distancia menor, pueden quedar excluidos de la búsqueda nodos que en próximas iteraciones bajarían el costo general del camino al pasar por una arista con costo negativo).&lt;/p&gt;
+
+&lt;p&gt;Una de sus aplicaciones más importantes reside en el campo de la telemática, gracias a el, podemos resolver grafos con muchos nodos, los cuales serian muy complicados de hacer sin dicho algoritmo, encontrando así las rutas más cortas entre un origen y todos los destinos en una red.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case006.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Crear Steam backgrounds</title>
@@ -946,225 +987,6 @@ Decir y hacer es la misma cosa.  Cuidado con el camino que sigues.&lt;/strong&gt
 &lt;li&gt;No tengo castillo, Yo hago de mi mente inamovible mi castillo.&lt;/li&gt;
 &lt;li&gt;No tengo espada, Yo hago de mi No mente mi espada.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Animando un personaje</title>
-      <link>https://moonantonio.github.io/post/2017/diario/003/</link>
-      <pubDate>Wed, 15 Mar 2017 17:27:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;por-que&#34;&gt;¿Por que?&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Esta entrada la escribo para tener constancia del &lt;strong&gt;workflow&lt;/strong&gt; que se hace en animacion y nada mas.&lt;/p&gt;
-
-&lt;p&gt;Los pasos a seguir serian :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crear o buscar referencias.&lt;/li&gt;
-&lt;li&gt;Puesta a punto de camaras.&lt;/li&gt;
-&lt;li&gt;Bloquin con la malla justa del modelo animado.&lt;/li&gt;
-&lt;li&gt;Generacion de keys claves de la animacion.&lt;/li&gt;
-&lt;li&gt;Pulido final.&lt;/li&gt;
-&lt;li&gt;VFX y preprocesado&lt;/li&gt;
-&lt;li&gt;Render&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pero aqui &lt;strong&gt;solo pondre los puntos&lt;/strong&gt; 1.3. y 5.&lt;/p&gt;
-
-&lt;p&gt;Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo. Empecemos.&lt;/p&gt;
-
-&lt;h2 id=&#34;crear-o-buscar-referencias&#34;&gt;Crear o buscar referencias.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ahora que a salido &lt;strong&gt;Nier Automata&lt;/strong&gt;, se ha visto que los chicos de &lt;strong&gt;Platinum Games&lt;/strong&gt; se lo han currado mucho para recrear esas animaciones, han mimado su obra hasta tal punto que llegan al nivel de los mejores animadores de videojuegos.&lt;/p&gt;
-
-&lt;p&gt;Por ello, e cogido a la protagonista como referencia, no usare su modelo ya que esta animacion es para un proyecto diferente y el modelo es el del videojuego este. ( Pero no descarto en un futuro, recrear a modo de fanart con el modelo de nier).&lt;/p&gt;
-
-&lt;p&gt;Las referencias son las siguientes:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/007.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La referencia esta formada por varias animaciones de ataques que dividire en 4.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Ataque #1&lt;/td&gt;
-&lt;td&gt;10f-25f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #2&lt;/td&gt;
-&lt;td&gt;29f-80f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #3&lt;/td&gt;
-&lt;td&gt;170f-205f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #4&lt;/td&gt;
-&lt;td&gt;254f-299f&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;bloquin-con-la-malla-justa-del-modelo-animado&#34;&gt;Bloquin con la malla justa del modelo animado.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;En este punto, en vez de usar la malla justa, usare el modelo tal cual el equipo a proporcionado, que creo que es el que se usara en el juego en si. Antes de empezar, un pequeño tip, si estais usando referencias con difernetes fotogramas, restar al ultimo resultado de fotogramas, el resultado anterior y os saldran los fotogramas que hay entre medias, es una cosa de niños, pero a veces la gente no cae. ^^&lt;/p&gt;
-
-&lt;p&gt;Tiempo estimado del total de la animacion: &lt;strong&gt;6.2s&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La primera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada&lt;/td&gt;
-&lt;td&gt;0f(10f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada en lo alto&lt;/td&gt;
-&lt;td&gt;5f(15f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico ataque bajo con espada&lt;/td&gt;
-&lt;td&gt;15f(25f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La segunda animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico girandose&lt;/td&gt;
-&lt;td&gt;16f(29f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico coge la espada&lt;/td&gt;
-&lt;td&gt;27f(40f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a caer&lt;/td&gt;
-&lt;td&gt;46f(59f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico toca el suelo&lt;/td&gt;
-&lt;td&gt;51f(64f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico lanza la espada&lt;/td&gt;
-&lt;td&gt;55f(68f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico se incorpora&lt;/td&gt;
-&lt;td&gt;67f(80f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La tercera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico cogiendo espada&lt;/td&gt;
-&lt;td&gt;68f(170f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a girar&lt;/td&gt;
-&lt;td&gt;79f(181f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y coge pose&lt;/td&gt;
-&lt;td&gt;103f(205f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La cuarta animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico en posicion&lt;/td&gt;
-&lt;td&gt;104f(254)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico giro maximo&lt;/td&gt;
-&lt;td&gt;118f(268f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y reposa espada&lt;/td&gt;
-&lt;td&gt;149f(299f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;pulido-final&#34;&gt;Pulido Final.&lt;/h2&gt;
-
-&lt;p&gt;En el pulido, hay que dejarlo todo perfecto, como su nombre indica, ir puliendo frame a frame hasta dejarlo al gusto.
-Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo con las keys para que solo coja esos valores.&lt;/p&gt;
 
 &lt;p&gt;.\Moon&lt;/p&gt;
 </description>
