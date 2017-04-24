@@ -10,6 +10,43 @@
     <atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>NavMesh Unity3D</title>
+      <link>https://moonantonio.github.io/post/2017/clase/007/</link>
+      <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/007/</guid>
+      <description>&lt;p&gt;Al final del proceso de implementacion de la escena, bakear los elementos que se quieran navegar.&lt;/p&gt;
+
+&lt;p&gt;Abrir el inspector Navigation.&lt;/p&gt;
+
+&lt;p&gt;Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos vavegables.&lt;/p&gt;
+
+&lt;p&gt;Bake para bakear la escena.&lt;/p&gt;
+
+&lt;p&gt;Areas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rapido.&lt;/p&gt;
+
+&lt;p&gt;Sobre el Terrain, nunca crear el navMesh.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;En ultimo caso, si es necesario usar el terrain, Crear planos invisibles encima de la malla del terrain y con ellos bakear los planos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Los agentes tienen que ser mas pequeños que el radio minimo del nav.&lt;/p&gt;
+
+&lt;p&gt;Los parametros del bake son:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Agent Radius: Radio de los agentes&lt;/li&gt;
+&lt;li&gt;Agent Height: Altura maxima de los agentes&lt;/li&gt;
+&lt;li&gt;Max Slope: Maximo de inclinacion de rampas&lt;/li&gt;
+&lt;li&gt;Step Height: Altura de los pasos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Algoritmos de busqueda</title>
       <link>https://moonantonio.github.io/post/2017/programacion/006/</link>
       <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
