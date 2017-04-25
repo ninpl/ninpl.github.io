@@ -10,6 +10,37 @@
     <atom:link href="https://moonantonio.github.io/tags/tfg/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Diario Glitch #1</title>
+      <link>https://moonantonio.github.io/post/2017/diario/008/</link>
+      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/008/</guid>
+      <description>
+
+&lt;h1 id=&#34;diario-glitch-1&#34;&gt;Diario Glitch #1&lt;/h1&gt;
+
+&lt;p&gt;Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.&lt;/p&gt;
+
+&lt;p&gt;Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion.
+Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.&lt;/p&gt;
+
+&lt;p&gt;Generalmente, como siempre hago, creare un tablero &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; y seguire una metodologia kanban scrum.&lt;/p&gt;
+
+&lt;p&gt;Con la gestion realizara y la estimacion de tiempo presente, iniciare la documentacion especifica, usando como nube GD, para una mayor integracion con Trello.&lt;/p&gt;
+
+&lt;p&gt;La documentacion la estoy dividiendo en 3 partes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1. Propuesta&lt;/li&gt;
+&lt;li&gt;2. DDJ&lt;/li&gt;
+&lt;li&gt;3. Manual de Juego&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por hoy, ya que la propuesta esta entregada, empezare a crear el DDJ y la creacion de Trello.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Animando un personaje</title>
       <link>https://moonantonio.github.io/post/2017/diario/003/</link>
       <pubDate>Wed, 15 Mar 2017 17:27:52 +0100</pubDate>
@@ -266,12 +297,12 @@ Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.&lt
 &lt;hr /&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;//                                  ┌∩┐(◣_◢)┌∩┐
-//																
-// SProteo.cs (15/03/2017)										
-// Autor: Antonio Mateo (Moon Pincho) 						       
-// Descripcion:		Sistema que gestiona el cambio de escenas.		
-// Fecha Mod:		15/03/2017									
-// Ultima Mod:		Version Inicial								
+//                                                              
+// SProteo.cs (15/03/2017)                                      
+// Autor: Antonio Mateo (Moon Pincho)                              
+// Descripcion:     Sistema que gestiona el cambio de escenas.      
+// Fecha Mod:       15/03/2017                                  
+// Ultima Mod:      Version Inicial                             
 //****************************************************************\\
 
 #region Librerias
@@ -283,75 +314,75 @@ using UnityEngine.SceneManagement;
 
 namespace MoonPincho
 {
-	/// &amp;lt;summary&amp;gt;
-	/// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
-	/// &amp;lt;/summary&amp;gt;
-	[AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
-	public class SProteo : MonoBehaviour 
-	{
-		#region Variables Publicas
-		/// &amp;lt;summary&amp;gt;
-		/// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
-		/// &amp;lt;/summary&amp;gt;
-		public UISlider progressBar;                                            // NGUI progress bar para la carga
-		#endregion
+    /// &amp;lt;summary&amp;gt;
+    /// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
+    /// &amp;lt;/summary&amp;gt;
+    [AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
+    public class SProteo : MonoBehaviour 
+    {
+        #region Variables Publicas
+        /// &amp;lt;summary&amp;gt;
+        /// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
+        /// &amp;lt;/summary&amp;gt;
+        public UISlider progressBar;                                            // NGUI progress bar para la carga
+        #endregion
 
-		#region API
-		/// &amp;lt;summary&amp;gt;
-		/// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
-		/// &amp;lt;/summary&amp;gt;
-		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-		public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-		{
-			SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-		}
+        #region API
+        /// &amp;lt;summary&amp;gt;
+        /// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
+        /// &amp;lt;/summary&amp;gt;
+        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
+        {
+            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
+        }
 
-		/// &amp;lt;summary&amp;gt;
-		/// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
-		/// &amp;lt;/summary&amp;gt;
-		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-		public void UnLoadScene(string nombre)// Descarga la escena dada
-		{
-			SceneManager.UnloadSceneAsync(nombre);
-		}
+        /// &amp;lt;summary&amp;gt;
+        /// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
+        /// &amp;lt;/summary&amp;gt;
+        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+        public void UnLoadScene(string nombre)// Descarga la escena dada
+        {
+            SceneManager.UnloadSceneAsync(nombre);
+        }
 
-		/// &amp;lt;summary&amp;gt;
-		/// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
-		/// &amp;lt;/summary&amp;gt;
-		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-		public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-		{
-			StartCoroutine(UpdateProgress(nombre));
-		}
+        /// &amp;lt;summary&amp;gt;
+        /// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
+        /// &amp;lt;/summary&amp;gt;
+        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
+        {
+            StartCoroutine(UpdateProgress(nombre));
+        }
 
-		/// &amp;lt;summary&amp;gt;
-		/// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
-		/// &amp;lt;/summary&amp;gt;
-		public void UnLoadActual()// Descarga la escena actual.
-		{
-			SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-		}
-		#endregion
+        /// &amp;lt;summary&amp;gt;
+        /// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
+        /// &amp;lt;/summary&amp;gt;
+        public void UnLoadActual()// Descarga la escena actual.
+        {
+            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+        }
+        #endregion
 
-		#region Funcionalidad
-		/// &amp;lt;summary&amp;gt;
-		/// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
-		/// &amp;lt;/summary&amp;gt;
-		/// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-		/// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
-		public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-		{
-			AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
+        #region Funcionalidad
+        /// &amp;lt;summary&amp;gt;
+        /// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
+        /// &amp;lt;/summary&amp;gt;
+        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
+        /// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
+        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
+        {
+            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
 
-			while (!cargando.isDone)
-			{
-				this.progressBar.value = cargando.progress;
-				Debug.Log(cargando.progress);
-				yield return null;
-			}
-		}
-		#endregion
-	}
+            while (!cargando.isDone)
+            {
+                this.progressBar.value = cargando.progress;
+                Debug.Log(cargando.progress);
+                yield return null;
+            }
+        }
+        #endregion
+    }
 }
 
 &lt;/code&gt;&lt;/pre&gt;
