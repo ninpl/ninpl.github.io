@@ -16,7 +16,298 @@
       <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/005/</guid>
-      <description></description>
+      <description>
+
+&lt;h1 id=&#34;investigacion-rpg-tactico&#34;&gt;Investigacion RPG-Tactico&lt;/h1&gt;
+
+&lt;h2 id=&#34;qué-se-considera-combate-tactico&#34;&gt;¿Qué se considera combate tactico?&lt;/h2&gt;
+
+&lt;p&gt;La definicion de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.&lt;/p&gt;
+
+&lt;p&gt;El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.&lt;/p&gt;
+
+&lt;p&gt;Un combate tactico es una mezcla entre el primer y segundo parrafo.&lt;/p&gt;
+
+&lt;h2 id=&#34;atributos-de-un-personaje&#34;&gt;Atributos de un personaje&lt;/h2&gt;
+
+&lt;p&gt;Los atributos de los personajes representan una parte vital en el diseño de un sistema de combate. Muchas veces se tiende a tomar como referencia un sistema que ya existe como base y realizar pequeños cambios para adaptarlo a las necesidades del proyecto. Sin embargo, entender el porqué de esos atributos nos dará la posibilidad de crear un sistema único y más rico.&lt;/p&gt;
+
+&lt;p&gt;Antes de centrarse en los atributos debemos centrarnos en el sistema de combate y, concretamente, en &lt;strong&gt;qué partes del mismo van a ser invariables y cuáles van a depender de los personajes&lt;/strong&gt;. Por ejemplo, los turnos pueden estar fijados (primero aliados, luego enemigos) o pueden depender de la velocidad de los personajes; en el primer caso será una constante, mientras que en el segundo habría un atributo que afecta al orden del turno (independientemente de si lo llamamos velocidad o no).&lt;/p&gt;
+
+&lt;p&gt;Algunas variables que podemos tener en cuenta son: vida máxima, energía (maná o equivalente), orden de turnos, daño infligido (posibilidad de separar según elementos o fuente), daño reducido (porcentaje, logarítmico, etc.), probabilidad de acierto o esquiva, probabilidad de crítico y multiplicador, resistencias elementales, etc&amp;hellip; Muchas de ellas pueden no aparecer en ciertos juegos y otras pueden fijarse en diseño, las que resten serán probablemente atributos de los personajes.&lt;/p&gt;
+
+&lt;p&gt;Cabe destacar que una variable como el daño no tiene por qué estar influenciada por un único atributo como pueda ser la fuerza física del personaje, puede también ser una combinación de varios atributos y equipo. Es conveniente tener en cuenta esto cuando el juego permite al jugador distribuir puntos en sus atributos, ya que puede producir que el jugador especialice sus personajes en un número reducido de atributos o haga una distribución más esparcida; aunque conocer esto requiere un estudio más específico de las fórmulas implicadas.&lt;/p&gt;
+
+&lt;h2 id=&#34;representación-numérica&#34;&gt;Representación numérica&lt;/h2&gt;
+
+&lt;p&gt;La forma en la que se muestra la información al jugador es vital para transmitir ciertas sensaciones al jugador. Una parte vital en un combate son los indicadores de vida y/o energía que se muestran al jugador, que al ser valores numéricos suelen mostrarse con números o barras.&lt;/p&gt;
+
+&lt;p&gt;A continuación se muestran algunas formas de representación junto con sus ventajas y desventajas. Es conveniente destacar que no siempre se usa la misma representación para los datos de los aliados y los enemigos, ya que en muchos juegos se limita la información sobre los enemigos.&lt;/p&gt;
+
+&lt;h2 id=&#34;números-grandes-vs-números-pequeños&#34;&gt;Números grandes vs números pequeños&lt;/h2&gt;
+
+&lt;p&gt;A la hora de diseñar un sistema de combate o una progresión numérica tenemos que tener en cuenta si vamos a usar números más grandes o más pequeños. No existe un valor específico a partir del cual podemos considerar un número grande o pequeño, pero sí hay ciertas condiciones que se cumplen al usar unos u otros.&lt;/p&gt;
+
+&lt;p&gt;Los números grandes suelen dar sensación de epicidad; un ataque en el cual aparezca un número largo va a parecer mucho más potente que uno en el que aparezca un número más corto, independientemente del porcentaje del total de vida que inflija. Un jugador tendrá muy complicado realizar cálculos con números elevados y tenderá a obviar todos los dígitos salvo los dos o tres primeros, lo que hará que el combate parezca más aleatorio y difícil de predecir.&lt;/p&gt;
+
+&lt;p&gt;Por el contrario los números pequeños, aunque carecen de esa sensación de poder, se usan para establecer al jugador el control de la situación en todo momento. El uso de cálculos más simples permite al jugador adelantarse varios turnos al resultado y, por tanto, dan un enfoque más estratégico al combate.&lt;/p&gt;
+
+&lt;p&gt;Como se ha mencionado anteriormente, no existe una línea que separe los números grandes de los pequeños, por lo que para cada juego debemos definir qué números vamos a usar y según las fórmulas que dispongamos veremos qué sensación producen y si hay que aumentar el rango o disminuirlo.&lt;/p&gt;
+
+&lt;h2 id=&#34;porcentajes&#34;&gt;Porcentajes&lt;/h2&gt;
+
+&lt;p&gt;Usar porcentajes permite al jugador centrarse en números más pequeños y mantener un control más directo de los eventos que ocurren en el combate. Sin embargo, al ser un número decimal (ya esté representado como entero o con dos dígitos decimales) dificulta realizar cálculos al vuelo y el redondeo puede dar cierta sensación de aleatoriedad.&lt;/p&gt;
+
+&lt;h2 id=&#34;barras&#34;&gt;Barras&lt;/h2&gt;
+
+&lt;p&gt;En ciertos casos se puede optar por no mostrar ningún número y dejar simplemente una barra. Esta forma de representación suele provocar que el jugador tenga que depender de su agudeza visual para realizar sus cálculos, lo que hará que sea más errático e impredecible. En el caso de que una barra de vida necesite muchos golpes para vaciarse puede causar cierta angustia.&lt;/p&gt;
+
+&lt;h2 id=&#34;otras-formas-de-representación&#34;&gt;Otras formas de representación&lt;/h2&gt;
+
+&lt;p&gt;En algunos juegos se usan textos para indicar el estado vital de un personaje, por ejemplo: “Malherido” o “Moribundo”. También existe la posibilidad de no mostrar absolutamente ningún indicativo al jugador. Estas opciones pueden aumentar la incertidumbre del jugador; esto provocará que juegue más a la defensiva si los enemigos tienen un alto índice de supervivencia o muy ofensivo si los enemigos mueren rápido.&lt;/p&gt;
+
+&lt;h2 id=&#34;el-aleatorio&#34;&gt;El Aleatorio&lt;/h2&gt;
+
+&lt;p&gt;En un gran porcentaje de juegos existe una variación aleatoria ya sea en determinar los resultados de ciertas acciones, en la generación procedural del mundo o en el comportamiento de la inteligencia artificial.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, los valores aleatorios no existen en computación tradicional (esto puede quedar obsoleto con la llegada de la computación cuántica u otras tecnologías) y para generar valores arbitrarios se utilizan algoritmos de generación de números pseudoaleatorios.&lt;/p&gt;
+
+&lt;p&gt;Aunque a día de hoy la mayoría de generadores aleatorios realizan bastante bien su trabajo es conveniente estudiar sus propiedades y conocer cuál se va a usar en un juego. Entre otras propiedades podemos destacar:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;La velocidad del algoritmo: generar un número aleatorio lleva un coste computacional y en juegos donde se requiera una cantidad elevada de los mismos es conveniente considerar la velocidad por encima de la calidad para asegurar un gameplay fluido.&lt;/li&gt;
+&lt;li&gt;Distribución de los números: en un generador ideal todos los números dentro del rango de posibilidades deben tener la misma probabilidad de ser generados. Hay algunos algoritmos donde números como el cero pueden no aparecer en absoluto.&lt;/li&gt;
+&lt;li&gt;Distribución entre grupos: dado tres grupos (números pequeños, números intermedios y números grandes), en un caso idílico tras un número de un grupo existen las mismas posibilidades de generar un número de cualquiera de los otros grupos. Antiguamente, algunos algoritmos tendían a generar un número grande tras un número pequeño y viceversa, lo que hace que el jugador pueda prever el resultado de un evento aleatorio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cuando el algoritmo que se usa no realiza una distribución correcta hay que estudiar bien las repercusiones que tendrá estadísticamente en el gameplay y cómo podemos usarlo para mejorar la experiencia del jugador.&lt;/p&gt;
+
+&lt;p&gt;En aplicaciones multiplataforma es común que cada una de las plataformas tenga su propio generador aleatorio implementado.&lt;/p&gt;
+
+&lt;h2 id=&#34;cuándo-y-cómo-usarlo&#34;&gt;¿Cuándo y cómo usarlo?&lt;/h2&gt;
+
+&lt;p&gt;Añadir un factor variable al combate lo hace siempre más errático. En última instancia cada variable aleatoria añade una capa de complejidad a la estrategia que ha de usar el jugador y hace más difícil adelantarse a los acontecimientos.&lt;/p&gt;
+
+&lt;p&gt;En combates de larga duración un factor aleatorio se ejecuta más veces y por tanto tendrá una tendencia, mientras que en combates más cortos la repercusión es mucho mayor.&lt;/p&gt;
+
+&lt;p&gt;Usos frecuentes del aleatorio son:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Elegir contra qué grupo de enemigos se enfrenta el jugador.&lt;/li&gt;
+&lt;li&gt;Realizar una variación en el daño infligido, por ejemplo +/- 10%.&lt;/li&gt;
+&lt;li&gt;Probabilidad de esquiva y crítico.&lt;/li&gt;
+&lt;li&gt;Inteligencia artificial de los enemigos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cada vez que apliquemos el aleatorio debemos tener en cuenta la repercusión que tendrá, ya que forzar al jugador a depender de él para ganar una batalla podría suponer mucha frustración, mientras que no usar ningún tipo de aleatorio puede derivar en combates muy previsibles y puede aburrir a un jugador que busque una experiencia menos estratégica.&lt;/p&gt;
+
+&lt;h2 id=&#34;savescum-como-metamecánica&#34;&gt;Savescum como metamecánica&lt;/h2&gt;
+
+&lt;p&gt;Se conoce como savescum al abuso del sistema de guardar/cargar partida para alterar el siguiente valor aleatorio. Aunque muchos puedan considerar savescum como un bug o un error de diseño no tiene necesariamente por qué serlo.&lt;/p&gt;
+
+&lt;p&gt;¿Alguna vez has llegado a un punto en el juego donde todo depende del resultado de una única acción? Ese momento donde si no consigues acertar tienes que reiniciar horas y horas de juego. Pues bien, ahí es cuando un jugador puede dejar ese juego de lado por evitar invertir su valioso tiempo en volver a pasarse una sección concreta, a no ser que pueda salvarse cargando la partida y volviendo a intentar esa acción.&lt;/p&gt;
+
+&lt;p&gt;Hay gente que argumentará que dejar una vía de savescum llevará al jugador a guardar y cargar hasta que todos los resultados salgan como quiere. Yo opino que la mayoría no perderá el tiempo salvo en decisiones realmente vitales, pero oye, si lo hacen es porque quieren jugar así al juego, así que tampoco veo un problema.&lt;/p&gt;
+
+&lt;p&gt;Ahora bien, es posible que la experiencia de juego busque ser más dura con el jugador o que sea importante arrastrar esos fallos durante la historia para transmitir ciertas sensaciones. En ese caso deberíamos deshacernos del savescum. ¿Cómo hacemos eso? Lo más fácil es guardar la semilla del generador aleatorio junto con los datos del juego y cargar siempre la misma semilla.&lt;/p&gt;
+
+&lt;p&gt;En juegos más complejos guardar la semilla no siempre da los resultados que queremos. Si puedes seleccionar una acción distinta que no requiera aleatorio estás guardando ese valor para el siguiente, que bien podría ser el ataque de un enemigo. O en el caso de poder seleccionar qué personaje usar podrías decidir quién se queda con la “mala tirada”. Por suerte hay alternativas: usar un generador aleatorio por personaje es la más simple de ellas; el resto depende del proyecto y la creatividad que tenga el equipo.&lt;/p&gt;
+
+&lt;p&gt;También es importante destacar que el savescum puede afectar a cualquier resultado aleatorio, no solamente a resultados de las acciones del jugador. Algunos casos son: encuentros aleatorios, comportamientos de enemigos, objetos aleatorios de un cofre, subidas de nivel que dependan del aleatorio, … Conviene revisar qué savescums es necesario evitar y cuáles se pueden dejar pasar.&lt;/p&gt;
+
+&lt;p&gt;En casos en los que se bloquee el uso de savescums es necesario asegurarse que el jugador no puede quedar atascado y tener que reiniciar el juego desde cero o una sección larga. El uso de autoguardado en varios slots es una forma bastante buena para resolver este inconveniente.&lt;/p&gt;
+
+&lt;p&gt;Al final, decidir qué savescums hay que bloquear y cuáles se pueden (o se quieren) dejar usar va a depender del tipo de juego en cuestión y del público al que va dirigido. Por ejemplo, un juego con permadeath por diseño evitará lo máximo posible los savescums, mientras que otro en cuyo público potencial hay speedrunners puede ser más permisivo.&lt;/p&gt;
+
+&lt;h2 id=&#34;progresión-del-juego&#34;&gt;Progresión del juego&lt;/h2&gt;
+
+&lt;p&gt;En la mayoría de juegos de rol existe una progresión de poder en los personajes y enemigos envueltos en el combate. La forma de progresión más habitual es el crecimiento de los atributos de los personajes cuando suben de nivel o cuando se alcanza cierto punto en el juego.&lt;/p&gt;
+
+&lt;p&gt;Estas fórmulas se pueden usar para aumentar los atributos o, en caso de que el jugador pudiera decidir qué atributos suben, el número de puntos disponibles o el coste de cada atributo según su valor actual.&lt;/p&gt;
+
+&lt;p&gt;Al usar estas fórmulas siempre podemos combinarlas entre sí o modificarlas sumando valores o multiplicando el resultado o, en general, usando cualquier operación que veamos apropiada. Siempre hay que recordar que el crecimiento de una función matemática viene determinado por el mayor crecimiento dentro de sus términos.&lt;/p&gt;
+
+&lt;p&gt;Las diferentes progresiones que aparecen a continuación son sólo algunos ejemplos existentes. Es más, es posible incluso combinar diferentes progresiones en el mismo juego; por ejemplo: progresión lineal al subir de nivel y unos valores prefijados cuando el personaje llega a cierto punto en la historia.&lt;/p&gt;
+
+&lt;h2 id=&#34;progresiones-matemáticas&#34;&gt;Progresiones matemáticas&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Progresión lineal &lt;strong&gt;[y=x]&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG001.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;La progresión lineal es aquella en la que en cada nivel los atributos se incrementan en un valor fijo. Es una progresión sencilla que deja entrever fácilmente las repercusiones de una subida de nivel.
+Cabe destacar que no es obligatorio usar valores enteros (por ejemplo: +2 por nivel) y el uso de decimales como +1,5 por nivel daría como resultado que en niveles impares un atributo entero suba 1 punto y en niveles pares 2 puntos.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Progresión exponencial &lt;strong&gt;[y=x^a]&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG002.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;En una progresión exponencial (y=x^a) el crecimiento se va acelerando si a &amp;gt; 1 y decelerando si 0 &amp;lt; a &amp;lt; 1, siendo a el exponente. En el caso de que a fuese 1 estaríamos hablando de una progresión lineal.&lt;/p&gt;
+
+&lt;p&gt;En la imagen podemos observar en azul y=x², en rojo y=x^1.2 y en verde y=x^0.5 (raíz cuadrada de x).&lt;/p&gt;
+
+&lt;p&gt;En el caso de crecimiento acelerado los valores comenzarán siendo pequeños dándole cierto control al jugador y acabarán siendo bastante grandes y generando sensación de epicidad. Una subida de nivel en una progresión exponencial acelerada supone un incremento sustancial en los atributos.&lt;/p&gt;
+
+&lt;p&gt;Mientras tanto, con crecimiento decelerado los primeros niveles son los que suponen el mayor incremento de atributos y las subidas de nivel posteriores tienen menos importancia. Como el crecimiento es menor en niveles altos pone el foco en la estrategia en lugar de la fuerza bruta.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Progresión logarítmica &lt;strong&gt;[y=ln(x)]&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG003.png&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;En las progresiones logarítmicas vemos una aceleración no uniforme en la que la mayor progresión se realiza en los primeros niveles y se estabiliza muy pronto manteniendo un crecimiento bajo. En cierto modo el jugador las percibirá de manera similar a las exponenciales con el exponente menor que 1.&lt;/p&gt;
+
+&lt;p&gt;El crecimiento de un logaritmo se puede personalizar cambiando la base del mismo (véase diferencia entre logaritmo en base 10 y logaritmo neperiano).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Series matemáticas&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Existen a su vez numerosas series matemáticas que podemos usar y que no siguen una fórmula concreta. Un ejemplo podría ser la serie de Fibonacci, donde se suman los dos últimos números obtenidos en la serie para calcular el siguiente dando el siguiente resultado: 1, 1, 2, 3, 5, 8, 13, 21, 34, …&lt;/p&gt;
+
+&lt;p&gt;Otro ejemplo podría ser sumar la mitad menos 1 del número obtenido anteriormente: 10, 14, 20, 29, 42, 62, …&lt;/p&gt;
+
+&lt;p&gt;Hay que tener cuidado con ciertas series matemáticas ya que hay algunas que computacionalmente necesitan hacerse de manera recursiva y pueden llegar a suponer una sobrecarga en el procesador si se buscan números frecuentemente.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Crecimiento aleatorio&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Una forma de aumentar los atributos es sumar un valor aleatorio en un rango determinado por nivel.&lt;/p&gt;
+
+&lt;p&gt;En este caso, para un número elevado de niveles, podremos inferir un valor en alto nivel a través de una aproximación estadística. Por ejemplo: si cada nivel un atributo sube 1, 2 o 3 puntos estadísticamente en un punto infinito habrá subido 2 ([1+2+3]/3) puntos por nivel. Sin embargo, en un número finito y reducido podemos encontrarnos con que los jugadores pueden experimentar más resultados pequeños produciendo personajes más débiles o una mayor concentración de resultados altos con personajes más poderosos.&lt;/p&gt;
+
+&lt;p&gt;Es posible que el jugador experimente mala suerte en el aleatorio y un mal crecimiento irreversible de uno o varios personajes, lo cual le puede llevar a frustrarse enormemente. En el caso de que busquemos una tendencia uniforme podemos balancear el aleatorio hacia un valor central. Esto se puede hacer aumentando la probabilidad de obtener un valor aleatorio mayor cuando el valor del atributo esté por debajo del esperado o tender hacia números menores en el caso contrario. En ocasiones es útil considerar si debemos balancear sólo positivamente para evitar una posible frustración al jugador a pesar de que los personajes resultantes estadísticamente serán más poderosos.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Progresiones no-matemáticas&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Existe también la posibilidad de usar progresiones que no se pueden traducir a una fórmula. El caso más común es usar una serie de valores prefijados por cada nivel.&lt;/p&gt;
+
+&lt;p&gt;Si queremos dotar al jugador de control sobre el juego sería conveniente mostrarle la tabla de crecimiento apropiada ya sea dentro del propio juego o en un manual o web accesible.&lt;/p&gt;
+
+&lt;h2 id=&#34;curva-de-dificultad&#34;&gt;Curva de dificultad&lt;/h2&gt;
+
+&lt;p&gt;No es normal en un juego que sólo los personajes aliados crezcan en poder, eso haría que la dificultad del juego disminuyese progresivamente. Lo más habitual es que la dificultad tienda a crecer conforme el jugador avanza y por ello los enemigos se hacen más fuertes o aparecen enemigos más poderosos.&lt;/p&gt;
+
+&lt;p&gt;Uno de los puntos más difíciles de balancear al hacer un combate por turnos. Para facilitar esto podemos calcular la curva de dificultad. El valor de la dificultad se puede obtener restando al crecimiento de los enemigos el de los personajes aliados y el crecimiento de la dificultad se calcula como la división entre las progresiones de los enemigos y los aliados. Nótese que los enemigos deben tener un crecimiento mayor para que la dificultad aumente. A continuación un ejemplo:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG004.png&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Suponemos un crecimiento de m&lt;em&gt;(Log(x+1,3)+10) (en verde) para los atributos de los personajes del jugador, donde m es un multiplicador (un bárbaro tiene más fuerza que un mago, por ejemplo). El crecimiento de los enemigos es m&lt;/em&gt;(x^0.7+5) (en rojo). Con esos datos obtenemos la dificultad (en azul) y su crecimiento (en azul claro).&lt;/p&gt;
+
+&lt;p&gt;Podemos observar en la gráfica que existe un punto de inflexión donde los enemigos pasan a ser más poderosos que el jugador; dependiendo de la dificultad general del juego ese punto puede ser el final del tutorial o el punto a partir del cual el jugador necesita de estrategia para vencer a cada oponente.&lt;/p&gt;
+
+&lt;h2 id=&#34;progresión-variable-objetos-y-habilidades&#34;&gt;Progresión variable: objetos y habilidades&lt;/h2&gt;
+
+&lt;p&gt;El efecto que produce el equipo o las habilidades de los personajes en el combate puede tener un factor más que determinante en la dificultad del mismo. Instancias donde un equipo de un valor o bonificador percentual concreto y esté accesible a partir de cierto nivel o cierto punto en la historia son fáciles de calcular, ya que basta con agruparlos en una fórmula y sumarlos a la fórmula de progresión del jugador.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, hay casos en los que determinar el impacto de una habilidad que, por ejemplo, haga daño según el dinero acumulado o tenga una fórmula especialmente compleja o con gran factor aleatorio hacen que los cálculos sean tremendamente complicados o imposibles. También puede ser darse la misma situación cuando usamos estados alterados muy variopintos y con cierta frecuencia en el combate.&lt;/p&gt;
+
+&lt;p&gt;Para simplificar el tema, debemos suponer que siempre que el jugador tenga acceso a objetos, equipos o habilidades muy dispares la progresión será mayor de lo esperado y, por lo tanto, la curva dificultad se verá afectada.&lt;/p&gt;
+
+&lt;h2 id=&#34;efecto-de-la-ia-en-la-dificultad&#34;&gt;Efecto de la IA en la dificultad&lt;/h2&gt;
+
+&lt;p&gt;La inteligencia artificial de los personajes controlador por el ordenador tiene un gran efecto en la dificultad del juego. Determinar el factor exacto en el cual afecta es una tarea que puede requerir muchísima destreza matemática pero podemos tomar una aproximación.&lt;/p&gt;
+
+&lt;p&gt;Sabemos que en todo turno hay una acción a ejecutar por la IA que asegura la mayor posibilidad de ganar el combate (o de dejar al jugador en peores condiciones para el siguiente); a dicha acción la llamaremos acierto y al resto fallo. Con esto en mente podemos determinar el porcentaje de acierto de una IA; por ejemplo, si los enemigos usan arbitrariamente una acción de cuatro que tienen disponibles, la IA tendrá un 25% de acierto. En casos con inteligencia artificial más avanzada es conveniente aproximar un porcentaje de acierto para tenerlo en cuenta. Y, en el caso de que el combate incluya varios personajes por cada equipo, tendremos que tener en cuenta también en el acierto si ejecuta la acción contra el objetivo apropiado.&lt;/p&gt;
+
+&lt;p&gt;Determinar si la dificultad aumenta o disminuye una vez conocemos el porcentaje de acierto es imposible, ya que debemos compararlo con la estrategia que use el jugador. Si el porcentaje de acierto del jugador es menor que el de la IA la dificultad se verá aumentada y viceversa.&lt;/p&gt;
+
+&lt;p&gt;Aunque una acción se considere como fallo sigue teniendo un efecto en el combate por lo que balancear enemigos individuales se convierte en un tema más complejo.&lt;/p&gt;
+
+&lt;h2 id=&#34;técnicas-de-balance-de-dificultad&#34;&gt;Técnicas de balance de dificultad&lt;/h2&gt;
+
+&lt;p&gt;Lo mejor para asegurar que el juego está balanceado es asegurarse de que partimos de una progresión como las que se han descrito anteriormente. Técnicamente, si un punto en un atributo vale lo mismo que un punto en otro, es decir, tienen la misma repercusión en el combate, el juego estará completamente balanceado. Sin embargo este no suele el caso, por lo que debemos tomar cartas en el asunto.&lt;/p&gt;
+
+&lt;p&gt;El mejor método con diferencia es “prueba y error”. Como su nombre indica, consiste en probar todos los casos posibles y determinar cuándo un enemigo es demasiado poderoso o demasiado débil y corregir los valores que se consideren oportunos. Por supuesto el problema aparece con la gran cantidad de horas humanas que se tienen que invertir, por ello se proponen otras técnicas automatizadas.&lt;/p&gt;
+
+&lt;h2 id=&#34;comparación-entre-enemigos&#34;&gt;Comparación entre enemigos&lt;/h2&gt;
+
+&lt;p&gt;Para determinar si, efectivamente, la fuerza de los enemigos es progresivamente mayor podemos recurrir a comparar cada uno de los enemigos con todos los demás. Si la IA o el propio combate tienen un factor aleatorio debemos hacer varios combates para hallar una estadística para cada enemigo.&lt;/p&gt;
+
+&lt;p&gt;En un caso idílico dicha comparación nos dará que para cualquier enemigo el porcentaje de victoria con enemigos de menor nivel será mayor del 50% y subirá según la diferencia de nivel. Justo lo contrario contra enemigos de mayor nivel.&lt;/p&gt;
+
+&lt;p&gt;Por desgracia, los casos idílicos y las situaciones perfectas se darán en contadas ocasiones. Cualquier factor aleatorio, que un enemigo sea especialmente fuerte contra otro o que estés comparando un boss con un enemigo común, entre otras circunstancias, pueden provocar fuertes variaciones en el porcentaje de victorias.&lt;/p&gt;
+
+&lt;p&gt;Como resultado de todo lo mencionado anteriormente: esta técnica puede usarse para comparar enemigos comunes (excluyendo bosses, minibosses y demás) y asegurarse que no hay ninguno especialmente desbalanceado.&lt;/p&gt;
+
+&lt;h2 id=&#34;autobalance-genético&#34;&gt;Autobalance genético&lt;/h2&gt;
+
+&lt;p&gt;Se trata de un método técnicamente muy complejo pero que puede adaptarse para conseguir cualquier resultado que se busque. Al ser una técnica que requiere el apoyo de un programador hábil versado en el uso de algoritmos genéticos u otras técnicas de inteligencia artificial avanzadas sólo se darán unas pautas concretas.&lt;/p&gt;
+
+&lt;p&gt;Para cada enemigo (o grupo de ellos según nivel) se toma un grupo de aliados (o aliado) al que se prevé que se enfrentarán según su nivel o posición en la trama. Para conseguir el mejor efecto los enemigos deben tener inicialmente unos valores exagerando sus virtudes y defectos.&lt;/p&gt;
+
+&lt;p&gt;El algoritmo genético (u otro elegido por el programador) comenzará a realizar simulaciones de combate y aproximando los atributos de los enemigos hasta que la batalla contra el grupo de aliados propuesto se acerque lo máximo posible a un empate.&lt;/p&gt;
+
+&lt;p&gt;A partir de ese momento se pueden usar modificadores porcentuales para hacer a ciertos enemigos más o menos poderosos (como minibosses).&lt;/p&gt;
+
+&lt;h2 id=&#34;fórmulas-de-ataque-defensa&#34;&gt;Fórmulas de ataque/defensa&lt;/h2&gt;
+
+&lt;p&gt;Existen multitud de fórmulas que podemos usar para determinar los efectos de las habilidades o ataques y, seguramente, tendrán un gran impacto en el juego. Por esto es importantísimo tener en cuenta los siguientes detalles:
+&amp;gt;* Cuando una habilidad puede fallar y tiene un porcentaje de acierto, estadísticamente el daño de esa habilidad es el daño total multiplicado por el porcentaje de acierto. El riesgo de usar esa habilidad depende del porcentaje de fallo.
+* El valor del daño puede calcularse a partir de valores de ataque y defensa de los personajes y puede tener un crecimiento distinto a la vida de los mismos. Por ejemplo, si los atributos crecen de manera lineal, la vida se calcula como el cuadrado de uno de los atributos y el daño como el atributo de fuerza elevado a 1.5; veremos cómo el número de ataques necesarios para acabar con un personaje aumenta conforme crece el nivel.
+* Fórmulas sencillas como [daño=ataque-defensa] permiten al jugador prever el resultado y hace el combate más estratégico, mientras que fórmulas que presenten variaciones aleatorias o fórmulas más complejas lo hacen más errático e imprevisible.
+* Es interesante determinar el número de turnos que un ataque básico necesita para acabar con un personaje. Este número nos da una idea de la longitud del combate y podremos estimar si será muy tedioso y forzará al jugador a usar habilidades más poderosas para no aburrirse o si es demasiado corto. Para un RPG por turnos clásicos números entre 2 y 10 son habituales, mientras que el número puede ser mayor en juegos más dinámicos.
+* Si usamos una fórmula como [daño=ataque-defensa], ataque y defensa pueden ser valores calculados a partir de muchos atributos, variables o variaciones aleatorias, no tienen por qué ser necesariamente un único atributo.
+* Existe la posibilidad de usar la defensa como una reducción porcentual de daño. En ese caso necesitamos una fórmula para calcularlo. Si la defensa base tiene un límite fijo podemos usar un logaritmo o una fórmula exponencial por ejemplo, mientras que si puede crecer indefinidamente es recomendable que la propia fórmula tenga un límite para evitar una reducción completa del daño a partir de cierto valor de defensa.&lt;/p&gt;
+
+&lt;p&gt;Independientemente de las decisiones que se tomen es especialmente útil comprobar valores medios y extremos en una hoja de cálculo para asegurarse de que las fórmulas elegidas funcionan según lo esperado.&lt;/p&gt;
+
+&lt;h2 id=&#34;tempo&#34;&gt;Tempo&lt;/h2&gt;
+
+&lt;p&gt;La forma en la que ejecutamos los turnos es una parte vital dentro del diseño de un combate por turnos. Según el método que utilicemos podremos observar un combate más estratégico y pausado o mucho más dinámico y caótico.&lt;/p&gt;
+
+&lt;h2 id=&#34;turnos-por-equipo&#34;&gt;Turnos por equipo&lt;/h2&gt;
+
+&lt;p&gt;Es la variante más pausada y estratégica ya que da al jugador todo el tiempo que necesite para plantearse las acciones de los personajes que controla y sus consecuencias.&lt;/p&gt;
+
+&lt;p&gt;Existen un par de variaciones que pueden usarse en estos casos:
+&amp;gt;* Turnos libres: el jugador puede seleccionar unidades y realizar turnos individuales libremente en el orden que elija. Esto aumenta el factor estratégico especialmente cuando las acciones de un personaje alteran las posibilidades del siguiente o existen combinaciones que favorezcan un orden concreto de habilidades.
+* Turnos prefijados: el orden de los turnos dentro de un equipo está prefijado o se fija al inicio del turno. Mientras que puede dar lugar a factores estratégicos interesantes hay que tener cuidado porque no poder seleccionar el orden puede frustrar al jugador.
+* Puntos de comando: el jugador tiene a su disposición un número de puntos de comandos cada turno y puede usarlos para usar habilidades de los personajes o activar turnos de los mismos. Esta fórmula puede o no permitir turnos dobles de un personaje.&lt;/p&gt;
+
+&lt;h2 id=&#34;combate-por-turnos-puro&#34;&gt;Combate por turnos puro&lt;/h2&gt;
+
+&lt;p&gt;En un combate por turnos puro el orden de los turnos viene prefijado al inicio del combate (normalmente usando un atributo que marca la velocidad en combate) y es inalterable a lo largo del mismo. Los turnos se comportan de manera cíclica.&lt;/p&gt;
+
+&lt;p&gt;Existe la posibilidad de mostrar al jugador el orden de turnos durante el combate, esto hace que tenga la posibilidad de elaborar estrategias más complejas.&lt;/p&gt;
+
+&lt;p&gt;Este sistema presenta más dinamicidad que los turnos por equipo.&lt;/p&gt;
+
+&lt;h2 id=&#34;alterar-el-orden-de-turnos&#34;&gt;Alterar el orden de turnos&lt;/h2&gt;
+
+&lt;p&gt;Podemos tomar como base un combate por turnos puro y alterar durante el combate el orden de dichos turnos. Una forma de hacerlo es añadir a cada habilidad un coste de tiempo o energía y hacer que cuanto mayor sea ese valor más tarde recibirá el personaje su turno.&lt;/p&gt;
+
+&lt;p&gt;También es posible que el orden de los turnos cambia cuando un personaje resulta paralizado o cambia su velocidad.&lt;/p&gt;
+
+&lt;p&gt;Uno de los problemas de alterar el orden de los turnos es que puedan existir turnos dobles para algunos personajes. Es conveniente barajar si puede existir o no esa posibilidad si se decide alterar el orden.&lt;/p&gt;
+
+&lt;h2 id=&#34;combate-por-turnos-activo&#34;&gt;Combate por turnos activo&lt;/h2&gt;
+
+&lt;p&gt;En el combate por turnos activo existe una barra (visible o no) por cada personaje que va rellenándose en función de su velocidad (o valor calculado equivalente). Cuando dicha barra se llena el personaje puede realizar su turno.&lt;/p&gt;
+
+&lt;p&gt;Los cambios en la velocidad afectan instantáneamente al combate desde el momento que son aplicados y alterarán el orden de turnos consiguientemente.&lt;/p&gt;
+
+&lt;p&gt;Mientras el jugador está seleccionando una acción las barras de turno pueden o no incrementarse. Si lo hacen puede haber turnos “simultáneos”. En el caso de que dos personajes del jugador estén activos al mismo tiempo se puede dotar al jugador la posibilidad de seleccionar con cuál de ellos actuar, alterando así el orden de turnos.&lt;/p&gt;
+
+&lt;p&gt;Cuando llega el turno de un enemigo mientras el jugador está seleccionando la acción de uno de sus personajes, el enemigo puede actuar instantáneamente (modo activo) o puede esperar a que el jugador seleccione la acción y se ejecute (modo espera).&lt;/p&gt;
+
+&lt;p&gt;El combate por turnos activo en modo activo es la variante del combate por turnos más dinámica y, para muchos jugadores, ni siquiera es considerada como combate por turnos. Mientras que en modo espera sí se mantiene la sensación del turno en su totalidad.
+ &lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
     </item>
     
     <item>
