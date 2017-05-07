@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/diario/009/</loc>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/noticias/003/</loc>
     <lastmod>2017-05-04T18:23:01+02:00</lastmod>
   </url>
@@ -274,7 +279,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-05-04T18:23:01+02:00</lastmod>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -489,13 +494,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-05-04T18:23:01+02:00</lastmod>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-05-04T18:23:01+02:00</lastmod>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -585,7 +590,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-05-04T18:23:01+02:00</lastmod>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -655,6 +660,18 @@
   </url>
   
   <url>
+    <loc>https://moonantonio.github.io/tags/tools/</loc>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/tools/</loc>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/tags/unity/</loc>
     <lastmod>2017-03-31T00:32:33+02:00</lastmod>
     <priority>0</priority>
@@ -668,13 +685,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/unity3d/</loc>
-    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/unity3d/</loc>
-    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
