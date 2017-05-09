@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Sat, 06 May 2017 03:19:13 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 21:11:52 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MDev - Necesidad</title>
+      <link>https://moonantonio.github.io/post/2017/dev/006/</link>
+      <pubDate>Tue, 09 May 2017 21:11:52 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/006/</guid>
+      <description>
+
+&lt;h1 id=&#34;que-es-mdev&#34;&gt;¿Que es MDev?&lt;/h1&gt;
+
+&lt;p&gt;MDev es una consola, para Unity3D, con la que puedes llamar a comandos predefinidos anteriormente y llamarlos en runtime.&lt;/p&gt;
+
+&lt;h1 id=&#34;por-que-la-necesidad-de-mdev&#34;&gt;¿Por que la necesidad de MDev?&lt;/h1&gt;
+
+&lt;p&gt;Para el proyecto fin de carrera decidi desarrollar un videojuego, por lo que en este proceso me vi en la obligacion de crear alguna herramienta para testear en runtime diferentes procesos y englobarlo en una herramienta.&lt;/p&gt;
+
+&lt;h1 id=&#34;que-referencias-e-cogido&#34;&gt;¿Que referencias e cogido?&lt;/h1&gt;
+
+&lt;p&gt;Las referencias que e cogido estan en un juego llamado Citizen, que tiene una consola de comandos para los usuarios (Con acceso restringido) pero que me gusta mucho, ya que es limpia y con facil visualizacion.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Esta herramienta se diseñara para los frameworks de UGUI y NGUI, que en base son los mas utilizados, pero se puede portear facilmente a otros frameworks, ya que como se ve en el proyecto, solo se necesita un scroll y un componente de texto.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Efectos de camara</title>
@@ -1073,40 +1103,6 @@ document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
 &lt;p&gt;No es sencillo apostar por continuar algo que te va a exigir un gran esfuerzo y no tienes la certeza de mantener el tipo o que haya el suficiente público esperándolo. Como fans, es lógico querer más juegos como esos que nos maravillaron en su momento, pero también hay que pensar hasta qué punto supone un riesgo para sus creadores preparar algo así, sobre todo con lo que se han encarecido los costes de producción.&lt;/p&gt;
 
 &lt;p&gt;Al final, ser una compañía grande como Square Enix no te ayuda a arriesgarte fuera de tus grandes proyectos o sagas, ya que esos proyectos de públicos más minoritarios, estilos más diferenciados y que tienen difícil margen de mejora o piezas claves en sus desarrollos originales dejados en un segundo plano, suponen un esfuerzo que no ven necesario asumir. No nos queda más que tener fe y paciencia en que, alguna vez, es posible que veamos nuevas entregas de estas series y, lo más importante y difícil, que estén a la altura de sus sagas. ¿Mucho pedir hoy en día?&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Atlus &amp; Nintendo</title>
-      <link>https://moonantonio.github.io/post/2017/diario/005/</link>
-      <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;atlus-se-agarra-a-nintendo-ds-para-sus-próximos-lanzamientos-en-3ds&#34;&gt;Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/at01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Teníamos mucho interés en conocer qué títulos anunciaría &lt;strong&gt;Atlus&lt;/strong&gt; en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.&lt;/p&gt;
-
-&lt;p&gt;Así, el primero que ya sabíamos que iba a aparecer fue &lt;strong&gt;Radiant Historia: Perfect Chronology (N3DS)&lt;/strong&gt;, remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/oEJG_7Foqic&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Otro regreso es el de &lt;strong&gt;Etrian Mystery Dungeon 2 (N3DS)&lt;/strong&gt;, secuela del título que era lanzado hace un par de años en occidente, que llegará el 31 de agosto a Japón para volver a ofrecer una colaboración entre el estilo &amp;ldquo;Mundo Misterioso&amp;rdquo; de Spike Chunsoft y los elementos de la saga Etrian Odyssey.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/T5oy9acYGGo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Y el tercer título presentado fue &lt;strong&gt;Shin Megami Tensei: Deep Strange Journey (N3DS)&lt;/strong&gt;, remake del título que fue lanzado hace siete años en Nintendo DS que ofrecerá una dificultad algo más calibrada, doblaje, nuevos demonios e ilustraciones, múltiples mejoras en la interfaz, combate y mazmorras, un nuevo personaje y toda una ruta extra alternativa. Llegará este otoño a Japón.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/6kXOfSFb2EU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Para cerrar también han vuelto a mostrar el tráiler del &lt;strong&gt;Shin Megami Tensei&lt;/strong&gt; realizado en Unreal Engine para Switch, con un par de segundos extra que nos mostraba un desierto. Nada que sea realmente relevante ni que merezca la pena comentar, salvo que sigue sin llamarse oficialmente Shin Megami Tensei V.&lt;/p&gt;
-
-&lt;p&gt;Pero, bueno, al menos los usuarios de Nintendo 3DS pueden estar muy contentos porque tienen tres títulos en camino con una calidad más que contrastada. Eso sí, ninguno es completamente original.&lt;/p&gt;
 
 &lt;p&gt;.\Moon&lt;/p&gt;
 </description>
