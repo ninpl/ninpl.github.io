@@ -10,6 +10,54 @@
     <atom:link href="https://moonantonio.github.io/tags/rpg/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>La complejidad de la dificultad en un RPG</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/012/</link>
+      <pubDate>Mon, 22 May 2017 18:08:50 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/012/</guid>
+      <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/001.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;La idea general es la de que un videojuego debe comenzar con una dificultad reducida que se va aumentando progresivamente con el avance del jugador, de forma que el nivel del reto sea cada vez más elevado y la experiencia o el mayor conocimiento de las mecánicas sean las que permitan afrontar esas situaciones cada vez más complejas.&lt;/p&gt;
+
+&lt;p&gt;Esta idea de reto cada vez mayor es algo lógico y, de hecho, cuadraba con esos tiempos donde las recreativas eran tan influyentes: debes hacer que el jugador se divierta durante un tiempo determinado, pero asegurándote de que no podrá pasar de X niveles sin gastarse más dinero o, directamente, siendo todo un experto en tu juego. Esa era la filosofía: la dificultad era una herramienta para alargar títulos que, de otra forma, difícilmente durarían más de dos horas.&lt;/p&gt;
+
+&lt;p&gt;Pero los videojuegos evolucionaron: con la posibilidad de guardar la partida, se pudieron crear más títulos extensos y las consolas no tenían esa necesidad de forzar al jugador en un gasto continuo, se podían crear títulos con una dificultad más suavizada.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/002.jpg&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Esa expansión hacia un mayor número de jugadores hizo que también muchos programadores olvidasen la filosofía de usar la dificultad como herramienta básica para alargar un título: el desarrollo de la trama, los acontecimientos de la misma, misiones opcionales&amp;hellip; ya se podían hacer títulos lo suficientemente largos y complejos para que no hiciera falta una alta cantidad de situaciones injustas para poder &amp;ldquo;rellenar&amp;rdquo; tiempo de juego.&lt;/p&gt;
+
+&lt;p&gt;La cuestión es que en múltiples géneros la dificultad es algo relativamente fácil de plantear: enemigos que causen más daño o sean más veloces, fases con plataformas más enrevesadas, puzles más elaborados&amp;hellip; Pero, sin embargo, en el género RPG hay un problema a este planteamiento: los jugadores no tienen unas estadísticas estables, pueden modificarlas subiendo de nivel.&lt;/p&gt;
+
+&lt;p&gt;Desde luego, no podemos discutir que la existencia de una evolución en nuestros personajes es algo prácticamente básico del género RPG, pero también una problemática a la hora de calibrar una dificultad en un título donde el reto no es tan fácilmente adaptable sobre la marcha. Hemos comprobado la ineficacia de multitud de títulos que intentaron crear enemigos que suban de nivel con nuestro grupo (Final Fantasy VIII, por ejemplo) y que, al final, acababan por dejarnos planteamientos erróneos: al existir técnicas, habilidades, equipo o multitud de otros elementos externos al nivel para mejorar a nuestro grupo, esa clase de títulos eran fáciles si el jugador optaba por no entrenar y, eventualmente, hasta subir de nivel indiscriminadamente seguía siendo la solución para todo, ya que esa es la respuesta universal para la mayoría de RPGs y, bueno, ya comprobamos lo que pasó cuando se intentó evitar eso en The Last Remnant donde, llegados a cierto nivel, un jefe se hacía tan ridículamente fuerte que hacía al título imposible. Intentar bloquear esa solución hacía a tu juego un gran mal, ya que los que querían disfrutar al máximo de todas sus posibilidades acababan chocando contra un muro.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/003.jpg&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Así, pues, ¿cómo se puede lograr crear una dificultad correcta en un RPG? ¿Y qué definimos como &amp;ldquo;correcta&amp;rdquo;, de hecho? Cada jugador lo puede interpretar de una manera. Hay quien disfruta con largas sesiones de combates contra enemigos de relleno, quien ve al &amp;ldquo;entrenamiento&amp;rdquo; como una forma totalmente pura de jugar a un RPG, fan completo de los Dungeon Crawlers y, claro, esa clase de jugadores que entienden la dificultad como un reto que tiene en cuenta que el jugador gusta y va a entrenar seriamente en todo momento, es totalmente diferente a los que consideran que la dificultad adecuada es la que te permite disfrutar de la historia sin obligarte a entrenar.&lt;/p&gt;
+
+&lt;p&gt;Y luego tenemos multitud de niveles intermedios: en general, muchos aceptan periodos cortos de farmeo y, quien más y quien menos, trata de acabar con todos los enemigos a la vista de la zona (en los juegos donde no son infinitos, claro) porque entiende que esa es la forma en la que el juego te está pidiendo que lo enfoques. Casi todos &amp;ldquo;caemos&amp;rdquo; en dar dos o tres vueltas matando enemigos si tenemos una fuente de curación perpetua y gratuita a nuestros alcance, ya que nos permite abusar de nuestras mejores técnicas sin preocuparnos del desgaste, lo cual hace que ese proceso sea bastante agradable.&lt;/p&gt;
+
+&lt;p&gt;Pero, fuera parte de tendencias y formas de jugar, hay títulos que, en términos generales, tienen una dificultad muy polarizada en torno a sus momentos iniciales y/o finales, ya que son los que más perduran en el jugador. Seguramente, todos podáis recordar algún RPG con ese problema: podíamos avanzar con buen ritmo hasta que cierto jefe resultaba absurdamente fuerte, provocando un pico de dificultad totalmente descompensado. Igualmente, muchos títulos (aquí podría citar a los últimos Shin Megami Tensei y Persona) te daban tantas posibilidades que, llegados al punto final, nos dejaban a un grupo tan fuerte que podíamos arrasar a casi cualquier cosa que nos pusieran por delante, lo cual nos dejaba una cierta sensación de sencillez, porque olvidábamos esos momentos iniciales donde no estábamos tan boyantes y lo pasamos realmente mal contra alguno de los primeros jefes.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/004.jpg&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Y, por si fuese poco, ahora estamos teniendo también una fuerte implementación de los diferentes modos de dificultad en el género RPG, lo cual tampoco es que se esté elaborando demasiado, y también está creando problemas porque parece que muchos títulos fallan al encontrar el equilibrio entre Normal y Difícil: nos encontramos con una dificultad básica bastante reducida si jugamos en Normal (The Witcher III o el reciente Fire Emblem Echoes: Shadows of Valentia son algunos ejemplos bastante claros) y, en caso de ponerlos en Difícil, podemos acabar sufriendo más de la cuenta en determinados momentos, lo cual cuadra con la dificultad escogida, pero es que en muchos casos es la salida que el jugador medio tuvo que escoger porque, de otro modo, jugar en Normal le resultaba un paseo sin ningún tipo de complejidad.&lt;/p&gt;
+
+&lt;p&gt;Este es un gran problema que debe enfocar el género RPG en la actualidad y que se suma a todos los comentados previamente: plantear títulos con un reto creciente sabiendo que las herramientas del jugador aumentarán también y difícilmente vas a encontrar un punto de equilibrio perfecto en el que, tanto el fan del entrenamiento como el que avanza sin necesidad de parar, puedan disfrutar de una dificultad adaptada a lo que buscan hace que se asuma una dificultad concreta difícilmente calibrable por los propios programadores. Quizás, de las mejores soluciones son las que plantearon títulos como The World Ends With You y que, posteriormente, hemos podido ver en varios RPGs como los Tales of: donde la dificultad sea posible de alterar en todo momento por el propio jugador y haya algún tipo de incentivo por elevar el reto.&lt;/p&gt;
+
+&lt;p&gt;Claro, muchos pensaréis que, de existir incentivos, los que juegan en Normal se están perdiendo elementos importantes del título, pero se trata de una forma de incentivar la rejugabilidad, de hacer que el modo Difícil no sea un simple &amp;ldquo;estoy jugando contra enemigos más fuertes porque quiero que me compliquen&amp;rdquo;, que también suponga una variación del reto, que nos pida una mayor variedad estratégica, explotar mejor las posibilidades del juego&amp;hellip; Sin llegar a romperlo, como pasa con los Bravely. Si una misma solución sirve para completar todo el juego, la dificultad es un elemento absurdo que solo cambia el daño recibido o el tiempo que nos llevamos combatiendo.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/005.jpg&#34; alt=&#34;005&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde luego, este es uno de los grandes retos para cualquier desarrollador de RPGs y que cualquiera que haya trasteado con RPG Maker o similares conoce perfectamente: crear una dificultad bien calibrada y que acompañe el crecimiento errático de cualquier tipo de jugador es algo casi imposible. Soluciones como la de enemigos subiendo de nivel con el grupo no acaban de funcionar y, al final, no queda claro cuál es el método correcto, ya que hemos tenido éxitos recientes de multitud de juegos con dificultades realmente dispares&amp;hellip; Lo cual hace que nos preguntemos hasta qué punto la dificultad es un elemento importante para definir un buen RPG.&lt;/p&gt;
+
+&lt;p&gt;Sabemos que una baja dificultad suele ser un arma arrojadiza contra títulos que no gustaron, como Golden Sun: Oscuro Amanecer o Pokémon Rubí Omega/Zafiro Alfa, por citar ejemplos más o menos conocidos, pero no es un problema cuando en Skyrim los enemigos casi dejaban de hacernos daño o Geralt descuartiza a todos los que se nos ponen por delante. Al final, quien busca el reto acaba jugando a determinados títulos para ello y acepta casi cualquier dificultad en el resto, sabiendo que va a disfrutar de otros elementos, como su trama o su libertad.&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Investigacion sobre RPGs</title>
       <link>https://moonantonio.github.io/post/2017/utiles/003/</link>
       <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
