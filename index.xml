@@ -7,8 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Mon, 22 May 2017 18:08:50 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jun 2017 14:23:09 +0200</lastBuildDate>
     <atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TFG &amp; Finales</title>
+      <link>https://moonantonio.github.io/post/2017/recuerdo/001/</link>
+      <pubDate>Thu, 01 Jun 2017 14:23:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/recuerdo/001/</guid>
+      <description>
+
+&lt;h1 id=&#34;estructura-tfg-practicas-finales&#34;&gt;Estructura TFG &amp;amp; practicas Finales&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ya esta casi terminado el grado y tengo 4 practicas que entregar, digital paint, sistemas expertos en inteligencia artificial, setup de rig y animacion 3D.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Digital Paint&lt;/strong&gt;: La practica final es una serie de &lt;strong&gt;10 ilustraciones digitales&lt;/strong&gt; que, hay que aportar en fisico y digital para crear un portfolio (&lt;strong&gt;Preferible en ArtStation&lt;/strong&gt;).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;IA&lt;/strong&gt;: La practica final es crear la IA de un &lt;strong&gt;roomba&lt;/strong&gt;, hacer un analisis del &lt;strong&gt;algoritmo de Minimax&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Setup&lt;/strong&gt;: Crear la &lt;strong&gt;setup&lt;/strong&gt;(Rig/Pesado) de un modelo simple.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;_ &lt;strong&gt;Animacion&lt;/strong&gt;: Puesta en marcha de una &lt;strong&gt;animacion&lt;/strong&gt; de mas de 10s con una documentacion del tipo de plano y la historia.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Por parte del &lt;strong&gt;TFG&lt;/strong&gt;, creo que hay que dividir el trabajo en &lt;strong&gt;2 secciones&lt;/strong&gt;, la gestion y la tactica.&lt;/p&gt;
+
+&lt;p&gt;Proximamente me enfocare a diseñar toda la gestion y por ultimo (espero que de tiempo) desarrollare el sistema tactico.&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>La complejidad de la dificultad en un RPG</title>
@@ -988,36 +1022,6 @@ document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/09.gif&#34; alt=&#34;009&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=693118839&#34;&gt;Curse&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Neregate cierra sus puertas</title>
-      <link>https://moonantonio.github.io/post/2017/diario/007/</link>
-      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/007/</guid>
-      <description>
-
-&lt;h1 id=&#34;neregate-cierra-a-medio-mes&#34;&gt;Neregate cierra a medio mes&lt;/h1&gt;
-
-&lt;p&gt;Bueno pues aqui esta, neregate cierra, para los que no lo sepan, &lt;a href=&#34;https://neregate.com/blog/&#34;&gt;neregate&lt;/a&gt; a sido una web administrada por Zana, un usuario que monto desde 0 un blog que en principio estaba destinado a ser un pequeño sitio para publicar anime, cosas sobre programacion y algun que otro log, pero que poco a poco en estos &lt;strong&gt;7 años&lt;/strong&gt; se ha convertido en una referencia para ver muchas cosas.&lt;/p&gt;
-
-&lt;p&gt;Conoceras los tipicos chart que van rondando por internet sobre las temporadas de anime proximas, pues son sacadas de aqui, el autor, &lt;strong&gt;Zana&lt;/strong&gt; se creo una herramienta para crear chart desde la web, entonces cada temporada investigaba en todos los sitios de noticias de anime empezando por &lt;a href=&#34;https://myanimelist.net/&#34;&gt;MyAnimeList&lt;/a&gt; hasta llegar a &lt;a href=&#34;https://www.livechart.me/spring-2017/tv&#34;&gt;Livechart&lt;/a&gt;, creando un chart personal que publicaba antes de las nuevas temporadas.&lt;/p&gt;
-
-&lt;p&gt;Tambien creaba ciertas herramientas, como redireccionadores o diferentes sitios de estadisticas en open source.&lt;/p&gt;
-
-&lt;p&gt;Esta semana Zana a posteado en su blog que &lt;strong&gt;Neregate cierra&lt;/strong&gt; , ultimamente tiene mucho trabajo, y despues de tantos años no le llena mucho seguir con neregate, claro esta que lo a estado pensando mucho tiempo.&lt;/p&gt;
-
-&lt;p&gt;Tambien hay que ver que el es el unico posteador (quitando el foro), por lo que tiene que mantener el contenido el mismo y pagar claramente lo que con ello viene.&lt;/p&gt;
-
-&lt;p&gt;De momento su cierre esta pevisto para el 15 de abril de 2017.&lt;/p&gt;
-
-&lt;p&gt;A la espera de nuevas webs de referencia.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
