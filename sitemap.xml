@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/dev/007/</loc>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/recuerdo/001/</loc>
     <lastmod>2017-06-01T14:23:09+02:00</lastmod>
   </url>
@@ -304,7 +309,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-06-01T14:23:09+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -375,13 +380,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/dev/</loc>
-    <lastmod>2017-03-31T00:32:33+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/dev/</loc>
-    <lastmod>2017-03-31T00:32:33+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -423,13 +428,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/github/</loc>
-    <lastmod>2017-05-10T12:29:53+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/github/</loc>
-    <lastmod>2017-05-10T12:29:53+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -531,13 +536,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-06-01T14:23:09+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-06-01T14:23:09+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -639,7 +644,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-06-01T14:23:09+02:00</lastmod>
+    <lastmod>2017-06-06T18:47:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   

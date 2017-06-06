@@ -10,6 +10,71 @@
     <atom:link href="https://moonantonio.github.io/categories/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Effectos necesarios para el TFG</title>
+      <link>https://moonantonio.github.io/post/2017/dev/007/</link>
+      <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
+      <description>
+
+&lt;h1 id=&#34;investigacion-de-basemesh-unity3d&#34;&gt;Investigacion de BaseMesh Unity3d&lt;/h1&gt;
+
+&lt;p&gt;El otro dia intentando crear &lt;strong&gt;efectos en la nueva GUI&lt;/strong&gt; de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, &lt;strong&gt;modificar los vertices&lt;/strong&gt; de la lista a gusto.&lt;/p&gt;
+
+&lt;p&gt;Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;El &lt;a href=&#34;https://github.com/MoonAntonio/UGUI-Effect&#34;&gt;repositorio&lt;/a&gt; lo dejo en &lt;strong&gt;GitHub&lt;/strong&gt; para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Los efectos creados son simples, nada del otro mundo, pero creo que el acabado es aceptable. &lt;strong&gt;La documentacion&lt;/strong&gt; que he investigado la dejo a continuacion para uso de cada uno:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.unity3d.com/es/current/ScriptReference/UI.BaseMeshEffect.html&#34;&gt;API Unity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MattRix/UnityDecompiled/blob/master/UnityEngine.UI/UnityEngine.UI/BaseMeshEffect.cs&#34;&gt;MattRix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Los efectos desarrollados son los siguientes:&lt;/p&gt;
+
+&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
+
+&lt;p&gt;Blend Color es la tecnica que se usa en la &lt;strong&gt;mezcla de colores&lt;/strong&gt;.
+Los diferentes modos son -&amp;gt; &lt;strong&gt;Multiply/Additive/Subtractive/Override&lt;/strong&gt; y &lt;strong&gt;ninguno&lt;/strong&gt;.
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/008.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;gradient-alpha&#34;&gt;Gradient Alpha&lt;/h2&gt;
+
+&lt;p&gt;Degradado del alpha.
+Puedes hacer un &lt;strong&gt;degradado del alpha&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear, puedes hacerlo desde la parte horizontal y vertical.
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/009.gif&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;gradient-color&#34;&gt;Gradient Color&lt;/h2&gt;
+
+&lt;p&gt;GradientColor.
+Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear el color, puedes hacerlo desde la parte horizontal y vertical.
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/010.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;He usado una &lt;strong&gt;libreria de Unity3D&lt;/strong&gt; como origen de la base clase y la e modificado para obtener toda la lista de objetos.&lt;/p&gt;
+
+&lt;p&gt;Actualmente tengo pensado seguir investigando y tambien crear algun &lt;strong&gt;efecto para el texto&lt;/strong&gt;, como &lt;strong&gt;sombreado, outline&lt;/strong&gt;, etc..&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>TFG &amp; Finales</title>
       <link>https://moonantonio.github.io/post/2017/recuerdo/001/</link>
       <pubDate>Thu, 01 Jun 2017 14:23:09 +0200</pubDate>
@@ -951,78 +1016,6 @@ document.getElementsByName ( &amp;quot;image_width&amp;quot;) [0] .value = 1,000
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/19.gif&#34; alt=&#34;019&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;.\Moon&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>¿Como subir gifs al perfil de steam?</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/008/</link>
-      <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/008/</guid>
-      <description>
-
-&lt;h1 id=&#34;subir-un-gif-a-modo-de-exposicion-a-steam&#34;&gt;Subir un gif a modo de exposicion a Steam&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/01.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
-
-&lt;p&gt;Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam.
-Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-1&#34;&gt;Paso 1&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/02.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Abrir este &lt;a href=&#34;http://steamcommunity.com/sharedfiles/edititem/767/3/&#34;&gt;link&lt;/a&gt; en un navegador y hacer clic derecho - inspeccionar elemento&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/03.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-2&#34;&gt;Paso 2&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/04.png&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Ir a la consola y pegar el siguiente código:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;y pulsa enter.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/05.gif&#34; alt=&#34;005&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-3&#34;&gt;Paso 3&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/06.png&#34; alt=&#34;006&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Cargar el archivo gif, darle un título y una descripción.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/07.gif&#34; alt=&#34;007&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-4&#34;&gt;Paso 4&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/08.png&#34; alt=&#34;008&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Marque la casilla &amp;ldquo;Certifico que he creado esta obra de arte&amp;rdquo; y haga clic en &amp;ldquo;Guardar y continuar&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/09.gif&#34; alt=&#34;009&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=693118839&#34;&gt;Curse&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     

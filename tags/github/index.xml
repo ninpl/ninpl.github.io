@@ -10,6 +10,71 @@
     <atom:link href="https://moonantonio.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Effectos necesarios para el TFG</title>
+      <link>https://moonantonio.github.io/post/2017/dev/007/</link>
+      <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
+      <description>
+
+&lt;h1 id=&#34;investigacion-de-basemesh-unity3d&#34;&gt;Investigacion de BaseMesh Unity3d&lt;/h1&gt;
+
+&lt;p&gt;El otro dia intentando crear &lt;strong&gt;efectos en la nueva GUI&lt;/strong&gt; de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, &lt;strong&gt;modificar los vertices&lt;/strong&gt; de la lista a gusto.&lt;/p&gt;
+
+&lt;p&gt;Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;El &lt;a href=&#34;https://github.com/MoonAntonio/UGUI-Effect&#34;&gt;repositorio&lt;/a&gt; lo dejo en &lt;strong&gt;GitHub&lt;/strong&gt; para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Los efectos creados son simples, nada del otro mundo, pero creo que el acabado es aceptable. &lt;strong&gt;La documentacion&lt;/strong&gt; que he investigado la dejo a continuacion para uso de cada uno:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.unity3d.com/es/current/ScriptReference/UI.BaseMeshEffect.html&#34;&gt;API Unity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MattRix/UnityDecompiled/blob/master/UnityEngine.UI/UnityEngine.UI/BaseMeshEffect.cs&#34;&gt;MattRix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Los efectos desarrollados son los siguientes:&lt;/p&gt;
+
+&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
+
+&lt;p&gt;Blend Color es la tecnica que se usa en la &lt;strong&gt;mezcla de colores&lt;/strong&gt;.
+Los diferentes modos son -&amp;gt; &lt;strong&gt;Multiply/Additive/Subtractive/Override&lt;/strong&gt; y &lt;strong&gt;ninguno&lt;/strong&gt;.
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/008.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;gradient-alpha&#34;&gt;Gradient Alpha&lt;/h2&gt;
+
+&lt;p&gt;Degradado del alpha.
+Puedes hacer un &lt;strong&gt;degradado del alpha&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear, puedes hacerlo desde la parte horizontal y vertical.
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/009.gif&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;gradient-color&#34;&gt;Gradient Color&lt;/h2&gt;
+
+&lt;p&gt;GradientColor.
+Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear el color, puedes hacerlo desde la parte horizontal y vertical.
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/010.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;He usado una &lt;strong&gt;libreria de Unity3D&lt;/strong&gt; como origen de la base clase y la e modificado para obtener toda la lista de objetos.&lt;/p&gt;
+
+&lt;p&gt;Actualmente tengo pensado seguir investigando y tambien crear algun &lt;strong&gt;efecto para el texto&lt;/strong&gt;, como &lt;strong&gt;sombreado, outline&lt;/strong&gt;, etc..&lt;/p&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Open Source en Github</title>
       <link>https://moonantonio.github.io/post/2017/utiles/011/</link>
       <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
