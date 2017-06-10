@@ -10,6 +10,46 @@
     <atom:link href="https://moonantonio.github.io/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Actualizacion GAIA</title>
+      <link>https://moonantonio.github.io/post/2017/dev/008/</link>
+      <pubDate>Sat, 10 Jun 2017 22:27:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
+      <description>
+
+&lt;h1 id=&#34;actualizado-nuevos-modelos-de-gaia&#34;&gt;Actualizado nuevos modelos de Gaia&lt;/h1&gt;
+
+&lt;p&gt;He agregado nuevos modelos de mecanicas al repositorio de &lt;a href=&#34;https://github.com/Nerve-Alexandria/Gaia&#34;&gt;Gaia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
+
+&lt;p&gt;2048
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/011.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;ShooterISO
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/012.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Cut
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/013.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Saltos
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/014.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Effectos necesarios para el TFG</title>
       <link>https://moonantonio.github.io/post/2017/dev/007/</link>
       <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>

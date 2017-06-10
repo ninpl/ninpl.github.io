@@ -10,6 +10,46 @@
     <atom:link href="https://moonantonio.github.io/categories/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Actualizacion GAIA</title>
+      <link>https://moonantonio.github.io/post/2017/dev/008/</link>
+      <pubDate>Sat, 10 Jun 2017 22:27:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
+      <description>
+
+&lt;h1 id=&#34;actualizado-nuevos-modelos-de-gaia&#34;&gt;Actualizado nuevos modelos de Gaia&lt;/h1&gt;
+
+&lt;p&gt;He agregado nuevos modelos de mecanicas al repositorio de &lt;a href=&#34;https://github.com/Nerve-Alexandria/Gaia&#34;&gt;Gaia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
+
+&lt;p&gt;2048
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/011.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;ShooterISO
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/012.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Cut
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/013.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Saltos
+&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/014.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;.\Moon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Effectos necesarios para el TFG</title>
       <link>https://moonantonio.github.io/post/2017/dev/007/</link>
       <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
@@ -937,85 +977,6 @@ Si también tiene otras vitrinas puede moverlos alrededor para conseguir la posi
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/23.png&#34; alt=&#34;023&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=299701202&#34;&gt;SloWolfe&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>¿Como subir Long Artworks a Steam?</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/009/</link>
-      <pubDate>Mon, 10 Apr 2017 14:34:04 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/009/</guid>
-      <description>
-
-&lt;h1 id=&#34;una-guía-sencilla-para-cargar-long-artworks-con-una-altura-tan-grande-como-usted-quiera&#34;&gt;Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera!&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/10.gif&#34; alt=&#34;010&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;para-el-long-artworks&#34;&gt;Para el Long Artworks&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; puede hacer los Long Artworks ahora!&lt;/p&gt;
-
-&lt;p&gt;Simplemente haga clic en el botón en la parte superior derecha.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/11.PNG&#34; alt=&#34;011&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;cuidado&#34;&gt;Cuidado&lt;/h2&gt;
-
-&lt;p&gt;Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.&lt;/p&gt;
-
-&lt;p&gt;Esto se aplica a casi nadie, ya que todos los gifs que se hacen en la resolución de todos modos, no se preocupe.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/12.png&#34; alt=&#34;012&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Abrir enlace en chrome (otros navegadores probablemente funcionarán si usted tiene acceso a su consola) y seleccione su gif &amp;lsquo;Seleccione su archivo para el artwork&amp;rsquo;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-http://steamcommunity.com/sharedfiles/edititem/767/3/
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/13.gif&#34; alt=&#34;013&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/14.png&#34; alt=&#34;014&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cuando se puede ver el gif en la página&lt;/strong&gt;; haga clic derecho en cualquier lugar de la página y revisar o inspeccionar elemento.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/15.gif&#34; alt=&#34;015&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/16.png&#34; alt=&#34;016&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Haga clic en la consola en la parte superior del menú elemento de inspeccionar y escribir esta línea:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-document.getElementsByName ( &amp;quot;image_width&amp;quot;) [0] .value = 1,000; document.getElementsByName ( &amp;quot;IMAGE_HEIGHT&amp;quot;) [0] .value = 1;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;O si lo desea cargar como captura de pantalla:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-document.getElementsByName ( &amp;quot;image_width&amp;quot;) [0] .value = 1,000; document.getElementsByName ( &amp;quot;IMAGE_HEIGHT&amp;quot;) [0] .value = 1; document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pulsa enter después de pegarlo&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/17.gif&#34; alt=&#34;017&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/18.png&#34; alt=&#34;018&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora simplemente darle un título y una descripción, Clicar que &amp;ldquo;Certifico que he creado esta obra de arte&amp;rdquo; y haga &amp;ldquo;Guardar y continuar&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/19.gif&#34; alt=&#34;019&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
 </description>
     </item>
     
