@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unity3d on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/unity3d/index.xml</link>
+    <link>https://moonantonio.github.io/categories/unity3d/</link>
     <description>Recent content in Unity3d on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/unity3d/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Sat, 06 May 2017 03:19:13 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/unity3d/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Efectos de camara</title>
@@ -15,130 +18,10 @@
       <pubDate>Sat, 06 May 2017 03:19:13 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/009/</guid>
-      <description>
-
-&lt;p&gt;Antes de nada, es precisa una customizacion rapida ya que Pros Proccesing Stack no esta integrado aun de forma natica en Unity.&lt;/p&gt;
-
-&lt;p&gt;Primero en la camara, activar HDR y desactivar MSA, por otro lado tambien poner defered para aumentar el realismo de la iluminacion.&lt;/p&gt;
-
-&lt;p&gt;Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por defecto de unity.&lt;/p&gt;
-
-&lt;h1 id=&#34;anti-aliased&#34;&gt;Anti-Aliased&lt;/h1&gt;
-
-&lt;p&gt;Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.&lt;/p&gt;
-
-&lt;p&gt;Hay dos tipos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fast Approximate Anti-aliasing&lt;/strong&gt;: Como su nombre indica es un proceso mas rapido pero con menor calidad.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Temporal Anti-aliasing&lt;/strong&gt;: Es mucha mas calidad pero con un coste algo de calculo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Normalmente siempre se usa la rapida y se va ajustando calidades en runtime con forme lo veamos necesario.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;ambient-oclusion&#34;&gt;Ambient Oclusion&lt;/h1&gt;
-
-&lt;p&gt;Agrega sombreado donde la luz debe crear una sombra y resalta mejor las curvas de los modelos por su sombra.&lt;/p&gt;
-
-&lt;p&gt;Su configuracion:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intensidad&lt;/strong&gt;: Es la intensidad de las sombras de los modelos&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Radio&lt;/strong&gt;: Es lo lejos que queramos que se expandan las sombras de los modelos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample count&lt;/strong&gt;: Determina la suavidad de los pixeles. A menudo medio va bien.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Downsampling&lt;/strong&gt;: Aumenta el rendimiento bajando la calidad.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;screen-space-reflection&#34;&gt;Screen Space Reflection&lt;/h1&gt;
-
-&lt;p&gt;Calcula reflexiones basadas en la rugosidad de la superficie de los modelos. Los modelos se ven mas realistas ya que las zonas reflejan el ambiente. Claro esta, los materiales tienen que reflejar.&lt;/p&gt;
-
-&lt;h1 id=&#34;depth-of-field&#34;&gt;Depth of Field&lt;/h1&gt;
-
-&lt;p&gt;Simula las propiedades de una verdadera lente de camara, lo que significa que se aplica cuando enfocamos a un cierto objeto ya que la profundidad se distorsionara.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Focus Distance&lt;/strong&gt;: Es la distancia de la camara hasta la posicion del objetivo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Apertura&lt;/strong&gt;: Filma una longitud focal graduada, se basa en la desenfocacion.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Camera FOV&lt;/strong&gt;: Si quieres que afecte el FOV de la escena al objetivo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;motion-blur&#34;&gt;Motion Blur&lt;/h1&gt;
-
-&lt;p&gt;El movimiento de desenfoque, simula el desenfoque de la camara cuando se mueve esta.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Shutter Angle&lt;/strong&gt;: Fija el nivel de desenfoque.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample Count&lt;/strong&gt;: Fija el volumen de desenfoque, pero tiene un gran impacto en GPU.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Frame Blending&lt;/strong&gt;: Hace una especie de borrado artistico en el movimiento, me gusta.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;eye-adaptation&#34;&gt;Eye Adaptation&lt;/h1&gt;
-
-&lt;p&gt;Crea la ilusion de un ojo ajustandose a una iluminacion ambiental, como por ejemplo mirar hacia una luz direccional y ver un flare con el suceso de que progresivamente el haz de luz se hace del tamaño habitual.&lt;/p&gt;
-
-&lt;p&gt;No e tocado mucho este parametro, asique no digo mas. :P&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;bloom&#34;&gt;Bloom&lt;/h1&gt;
-
-&lt;p&gt;Hace que la iluminacion de un objeto brille. Lo que hace que objetos con iluminaciones o diferentes FX se vean mas brillantes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intensidad&lt;/strong&gt;: Aumenta el brillo de los objetos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Threshold&lt;/strong&gt;: Aumenta la tonalidad del brillo general en camara por cada nivel mas bajo.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Radio&lt;/strong&gt;: Aumenta o disminulle el radio de efecto del brillo desde cada objeto.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;color-gradient&#34;&gt;Color Gradient&lt;/h1&gt;
-
-&lt;p&gt;Es el mejor de los efectos, ya que permite controlar el aspecto general de nuestra imagen en terminos de color y exposicion.&lt;/p&gt;
-
-&lt;p&gt;Tocar todos los parametros, ya que son simples, como los 3 canales de colores o la intensidad&amp;hellip;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;user-lut&#34;&gt;User Lut&lt;/h1&gt;
-
-&lt;p&gt;Lookup Textura es una textura que se usa para sacar los colores genericos de una imagen y agregarlos a otra exactamente igual, esta textura se suele hacer en otros sitios como photoshop.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;chromatic-aberration&#34;&gt;Chromatic Aberration&lt;/h1&gt;
-
-&lt;p&gt;Este efecto simula distorsion crhomatica en los bordes de la pantalla, se le puede añadir una textura o no, hay ejemplos en la carpeta que viene con unity &amp;ldquo;Spectral LUTS&amp;rdquo;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;grain&#34;&gt;Grain&lt;/h1&gt;
-
-&lt;p&gt;Agrega un toque granulado a la escena.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;vignette&#34;&gt;Vignette&lt;/h1&gt;
-
-&lt;p&gt;Oscurece los bordes y esquinas de una imagen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;dithering&#34;&gt;Dithering&lt;/h1&gt;
-
-&lt;p&gt;Es la reduccion de bandas en areas de gradiente, mediante la introduccion de algunos controladores de ruida en la imagen.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Antes de nada, es precisa una customizacion rapida ya que Pros Proccesing Stack no esta integrado aun de forma natica en Unity.
+Primero en la camara, activar HDR y desactivar MSA, por otro lado tambien poner defered para aumentar el realismo de la iluminacion.
+Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por defecto de unity.
+Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.</description>
     </item>
     
     <item>
@@ -147,88 +30,9 @@
       <pubDate>Sat, 18 Mar 2017 18:59:13 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/004/</guid>
-      <description>
+      <description>Jeryce Dianingana compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.
 
-&lt;p&gt;&lt;a href=&#34;https://index.artstation.com/artist/jeydia&#34;&gt;Jeryce Dianingana&lt;/a&gt; compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi01.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;poner-a-prueba-la-iluminación-de-unity&#34;&gt;Poner a prueba la iluminación de Unity&lt;/h2&gt;
-
-&lt;p&gt;Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia. Yo estaba buscando una escena rápida, yo no quería pasar muchas veces en la modelización, y caí en esta foto &amp;ldquo;Abandonado Hospital de Chicago&amp;rdquo; tomada por Jordan Nicolette creo, se puede encontrar el origen de cada imagen en &lt;a href=&#34;https://es.pinterest.com/&#34;&gt;Pinterest&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi02.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Cogí una gran cantidad de referencias de The División de Tom Clancy también, me gusta la forma en que logró tener esto realista, esas luces volumétricas dinámicas suaves y una comprensible escena con todos los activos mencionados en la cámara.&lt;/p&gt;
-
-&lt;h2 id=&#34;el-posicionamiento-de-iluminación&#34;&gt;El posicionamiento de iluminación&lt;/h2&gt;
-
-&lt;p&gt;Traté de hacer coincidir las luces de la referencia tanto como sea posible.&lt;/p&gt;
-
-&lt;p&gt;Hice muchas pruebas en el etiquetado para encontrar la posición perfecta, la colocación de las puertas era difícil al principio, ya que puede cambiar la iluminación mucho.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi03.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Me dieron 3 puntos de luz dinámicas, uno cerca del vaso de la izquierda, el segundo cerca de la mesa y el último frente a las puertas del ascensor.&lt;/p&gt;
-
-&lt;p&gt;Estas luces puntuales me han ayudado a conseguir un buen especular dinámico que no puedo tener con el bake en los objetos.&lt;/p&gt;
-
-&lt;p&gt;Pongo las grandes luces bakeadas en un lugar cerca de las puertas, era difícil al principio para tener el mismo aspecto, y aproximadamente la misma intensidad, rebotar y otros ajustes de la luz para la misma sensación que la de la foto, la dificultad principal era mantener alguna zona oscura y otra luminosa sin mover el punto o la adición de uno porque esto puede hacer una gran diferencia en comparación con la referencia principal.&lt;/p&gt;
-
-&lt;h2 id=&#34;los-avances-de-unity&#34;&gt;Los avances de Unity&lt;/h2&gt;
-
-&lt;p&gt;Desde que Unity 5.4 añade la &amp;ldquo;Eliminación de ruido&amp;rdquo; para la final se reúnen con inteligencia lo que reduce el ruido producido por las luces estáticas. Siempre lo uso cuando hago mi bake final, tenga cuidado cuando se activa recoger la final, cuesta más tiempo para calcular.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi04.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Skybox de color en tiempo real para calentar la escena y evitar algún problema con zonas de mucho contraste, gracias a Iluminacion global puedo ver los rebotes de las luces en tiempo real.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi05.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi06.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La nueva &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/83912&#34;&gt;Post Processing Stack&lt;/a&gt;  me ayudó mucho para acercarme a la referencia. Personalmente, no puedo hacer una escena sin más, muy simple para importar, utilizar y se puede tener diferentes perfiles de procesamiento de correos, antes de eso, he usado para duplicar las cámaras y guardar como una casa prefabricada para tener distintas configuraciones.&lt;/p&gt;
-
-&lt;p&gt;La próxima versión de la Unidad (5.6) tendrá un lightmapper y progresiva una nueva forma completa a utilizar las luces de Unity llamados modos de luz.&lt;/p&gt;
-
-&lt;h2 id=&#34;cámaras&#34;&gt;Cámaras&lt;/h2&gt;
-
-&lt;p&gt;He creado el material con el &lt;a href=&#34;https://www.allegorithmic.com/&#34;&gt;substance&lt;/a&gt; , no dejaba todos los parámetros &amp;ldquo;Base de color&amp;rdquo; en Unity, para poder cambiar en tiempo real y el color de cada material para ver el resultado después de el mapa de luz. También me dio unas grandes reglas con base de color.&lt;/p&gt;
-
-&lt;p&gt;Yo siempre trato de estar entre sRGB 20 - 230 a evitar grandes saltos de luces.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi07.gif&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El material del agua era muy importante también, hize una sustancia en el que puedo ajustar la cantidad, la posición, el contraste de los charcos y la transparencia, mezclé este material con el piso de mi Lino.&lt;/p&gt;
-
-&lt;p&gt;He utilizado el sombreado de &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/39959&#34;&gt;Uber&lt;/a&gt; para la mezcla de materiales y la asignación de la oclusión en el techo&lt;/p&gt;
-
-&lt;p&gt;El único consejo que puedo dar es evitar el ruido en su textura, por ejemplo, por tener un mapa fuerte normales, o una gran cantidad de datos en su textura y bordes afilados. Por bordes afilados que estoy hablando de tratar de tener un pequeño chaflán en su malla 3D o un bake normal que no afilado para tener una buena luz en el borde.&lt;/p&gt;
-
-&lt;h2 id=&#34;luz-o-polígonos&#34;&gt;Luz o polígonos&lt;/h2&gt;
-
-&lt;p&gt;Yo siempre digo que no es una cuestión de polígonos, sino más de la iluminación, la composición y la textura, gracias a Allegorithmic y Quixel Es muy sencillo tener un material en buen estado.&lt;/p&gt;
-
-&lt;p&gt;El procesamiento posterior es muy importante también, el efecto de reflexión espacio de pantalla ayudan mucho no creo que mi escena sería creíble sin ella.&lt;/p&gt;
-
-&lt;p&gt;En la gradación de color, he utilizado la fílmico (ACES), me encanta la forma en que contrastar fácilmente la escena y mejorar los rayos de luz.&lt;/p&gt;
-
-&lt;p&gt;Como he dicho antes, biseles son muy importantes, se puede ver que en todos los objetos hechos por el hombre, que ha evitado que, con el alias también.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi08.gif&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Cambiar su proyecto en linear color space, da la representación más realista que trabaja en el color gamma.&lt;/p&gt;
-
-&lt;p&gt;La unidad tiene algunos tutoriales en vídeo agradables en su canal de youtube y una gran documentación que explicó todo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi09.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://index.artstation.com/artist/jeydia&#34;&gt;Jeryce Dianingana&lt;/a&gt;,  artista 3D ambiente&lt;/p&gt;
-
-&lt;p&gt;Entrevista realizada por &lt;a href=&#34;https://ua.linkedin.com/in/kikatok&#34;&gt;Kirill Tokarev&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+Poner a prueba la iluminación de Unity Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia.</description>
     </item>
     
     <item>
@@ -237,132 +41,9 @@
       <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/005/</guid>
-      <description>&lt;p&gt;Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Editor -&amp;gt; cambiar generalmente de forma rapida y precisa.
-Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Por ello propuse un &lt;strong&gt;Gestor de Escenas&lt;/strong&gt; en la que uno mismo podria cambiar siempre de escena en cualquier lado.&lt;/p&gt;
-
-&lt;p&gt;El sistema es llamado &lt;strong&gt;Proteo&lt;/strong&gt; que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.&lt;/p&gt;
-
-&lt;p&gt;En la escena de test, queria sacar 3 funcionalidades.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cambiar de forma normal la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cambiar de forma Asyncrona la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Descargar alguna escena anterior.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bien ahora empezare por el sistema runtime.&lt;/p&gt;
-
-&lt;p&gt;Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.&lt;/p&gt;
-
-&lt;p&gt;Al sumar escenas hay un modo llamado &lt;strong&gt;LoadSceneMode.Additive&lt;/strong&gt; que seria sumar la nueva escena a la actual.&lt;/p&gt;
-
-&lt;p&gt;Bueno y despues de esto -&amp;gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                              
-// SProteo.cs (15/03/2017)                                      
-// Autor: Antonio Mateo (Moon Pincho)                              
-// Descripcion:     Sistema que gestiona el cambio de escenas.      
-// Fecha Mod:       15/03/2017                                  
-// Ultima Mod:      Version Inicial                             
-//****************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
-#endregion
-
-namespace MoonPincho
-{
-    /// &amp;lt;summary&amp;gt;
-    /// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
-    /// &amp;lt;/summary&amp;gt;
-    [AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
-    public class SProteo : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public UISlider progressBar;                                            // NGUI progress bar para la carga
-        #endregion
-
-        #region API
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-        {
-            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void UnLoadScene(string nombre)// Descarga la escena dada
-        {
-            SceneManager.UnloadSceneAsync(nombre);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-        {
-            StartCoroutine(UpdateProgress(nombre));
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public void UnLoadActual()// Descarga la escena actual.
-        {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        }
-        #endregion
-
-        #region Funcionalidad
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        /// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
-        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-        {
-            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
-
-            while (!cargando.isDone)
-            {
-                this.progressBar.value = cargando.progress;
-                Debug.Log(cargando.progress);
-                yield return null;
-            }
-        }
-        #endregion
-    }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MoonAntonio/GestorEscenasUnity&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.
+ Editor -&amp;gt; cambiar generalmente de forma rapida y precisa. Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.
+ Por ello propuse un Gestor de Escenas en la que uno mismo podria cambiar siempre de escena en cualquier lado.</description>
     </item>
     
     <item>
@@ -371,58 +52,12 @@ namespace MoonPincho
       <pubDate>Thu, 09 Mar 2017 22:24:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
-      <description>
+      <description>Bakeo simple en Unity3d 
+Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una esfera.
 
-&lt;h1 id=&#34;bakeo-simple-en-unity3d&#34;&gt;Bakeo simple en Unity3d&lt;/h1&gt;
+Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh00.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una
-esfera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh02.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-public float v = 5;
-private void Update(){transform.Rotate(new Vector3(0,v,0),Space.World);}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Despues de ver que todo funciona correctamente.
-Implementar un Reflection Probe para ver el reflejo de las zonas donde se quieran reflejar.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh03.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Configurar el probe:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Tipo de reflejo&lt;/li&gt;
-&lt;li&gt;Cuando refresca&lt;/li&gt;
-&lt;li&gt;Resolucion&lt;/li&gt;
-&lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;Etc..&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Luego importamos el paquete de unity de characters y instanciamos unos cuantos personajes con AI y un nav mesh para que se pueda mover.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh04.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego ponemos una esfera o un cubo de objetivo y al darle play el personaje seguira al objetivo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh05.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero el jugador no se ilumina bien por lo que creamos grupos de probes para conseguir toda la reflexion posible.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh06.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
     </item>
     
     <item>
@@ -431,107 +66,14 @@ Implementar un Reflection Probe para ver el reflejo de las zonas donde se quiera
       <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
-      <description>
-
-&lt;h1 id=&#34;clase-de-sistemas-de-particulas-unity3d&#34;&gt;Clase de sistemas de particulas - Unity3D&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/clases/part.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Los parametros mas usados son, Base, emision y renderer.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Base&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Duracion: La vida que tendra todas las particulas.&lt;/p&gt;
-
-&lt;p&gt;Looping: Crea un loop por el cual crea un loop de las particulas.&lt;/p&gt;
-
-&lt;p&gt;Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).&lt;/p&gt;
-
-&lt;p&gt;Start Delay: El tiempo que tardan en empezar.&lt;/p&gt;
-
-&lt;p&gt;Start Lifetime: El tiempo desde que sale hasta que desaparece.&lt;/p&gt;
-
-&lt;p&gt;Start Speed: La velocidad inicial de las particulas.&lt;/p&gt;
-
-&lt;p&gt;3D Start Size: Modifica la malla para estirar las particulas.&lt;/p&gt;
-
-&lt;p&gt;Start Size: Tamaño inicial de las particulas.&lt;/p&gt;
-
-&lt;p&gt;3D Start Rotacion: Modifica la rotacion de las particulas.&lt;/p&gt;
-
-&lt;p&gt;Randomize Rotacion: Rotacion aleatoria.&lt;/p&gt;
-
-&lt;p&gt;Start Color: Color inicial.&lt;/p&gt;
-
-&lt;p&gt;Gravity Modifier: Gravedad para las particulas.&lt;/p&gt;
-
-&lt;p&gt;Simulation Space: Cambiar el pivote.&lt;/p&gt;
-
-&lt;p&gt;Scaling Mode: Escalar en el espacio global o loca.&lt;/p&gt;
-
-&lt;p&gt;Play On Awake: Reproducir cuando uses Awake.&lt;/p&gt;
-
-&lt;p&gt;Max particle: Numero maximo de particulas del sistema.&lt;/p&gt;
-
-&lt;p&gt;Auto Random Seed: Donde van a aparecer desde el punto de vision las particulas.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Emission&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Rate: Numero de particulas por segundo que se van a emitir.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Shape&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Shape: La forma que va a coger la particula.&lt;/p&gt;
-
-&lt;p&gt;Angle: Angulo de las particulas&lt;/p&gt;
-
-&lt;p&gt;Radius: Aumenta o disminuye el radio.&lt;/p&gt;
-
-&lt;p&gt;Emit from: Modifica la zona de emision.&lt;/p&gt;
-
-&lt;p&gt;Random Direction: Direccion aleatoria.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Renderer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Render Mode: Billboard (Orientado a la camara), tipo de renderizado
-Normal Direction: Direccion de la normal&lt;/p&gt;
-
-&lt;p&gt;Material: Material a renderizar&lt;/p&gt;
-
-&lt;p&gt;Sort Mode: Que particulas iran por delante de lo demas.&lt;/p&gt;
-
-&lt;p&gt;Sorting Fugde: Lo mismo&lt;/p&gt;
-
-&lt;p&gt;Cast Shadorws: Proyecten sombras&lt;/p&gt;
-
-&lt;p&gt;Receiver Shadows: Recibir sombras&lt;/p&gt;
-
-&lt;p&gt;Min Particle Size: Tamaño de las particulas minimo.&lt;/p&gt;
-
-&lt;p&gt;Max Particle Size: Tamaño de las particulas maximo.&lt;/p&gt;
-
-&lt;p&gt;Sorting Layer: La capa&lt;/p&gt;
-
-&lt;p&gt;Order in Layer: Orden de la capa.&lt;/p&gt;
-
-&lt;p&gt;Billboard alignment: Alineacion del billboard.&lt;/p&gt;
-
-&lt;p&gt;Pivot: Pivote general&lt;/p&gt;
-
-&lt;p&gt;Light Probes: Si se utilizan los probes&lt;/p&gt;
-
-&lt;p&gt;Reflection Probes: Si se utiliza reflection&lt;/p&gt;
-
-&lt;p&gt;Anchor override: La posicion&lt;/p&gt;
-</description>
+      <description>Clase de sistemas de particulas - Unity3D 
+Los parametros mas usados son, Base, emision y renderer.
+ Parametros Base
+ Duracion: La vida que tendra todas las particulas.
+Looping: Crea un loop por el cual crea un loop de las particulas.
+Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).
+Start Delay: El tiempo que tardan en empezar.
+Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
     </item>
     
     <item>
@@ -540,34 +82,13 @@ Normal Direction: Direccion de la normal&lt;/p&gt;
       <pubDate>Thu, 09 Mar 2017 21:54:00 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/004/</guid>
-      <description>
+      <description>MTodo Tool - Unity3D Herramienta sencilla para hacer un seguimiento del codigo en Unity3D
 
-&lt;h1 id=&#34;center-mtodo-tool-unity3d-center-br&#34;&gt;&lt;center&gt;MTodo Tool - Unity3D&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;Herramienta sencilla para hacer un seguimiento del codigo en Unity3D&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/mtodo.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;MTodo analiza la sintaxis de tu codigo con categorias.
-Por ejemplo, supongamos que tienes una categoria de BUG.&lt;/p&gt;
-
-&lt;p&gt;En la linea de tu codigo donde se encuentra ese bug, pondria :&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;// &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;&lt;/p&gt;
-
-&lt;p&gt;// BUG Aqui hay un bug.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.&lt;/p&gt;
-
-&lt;p&gt;Despues solo tienes que ir, dandole click en el mensaje, y se te abrira tu IDE por la linea donde esta.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MOON-TYPE/MTodo&#34; class=&#34;button&#34;&gt;GitHub&lt;/a&gt;&lt;/center&gt;
-&lt;center&gt;&lt;a href=&#34;https://trello.com/b/ZPmPLDJ8&#34; class=&#34;button&#34;&gt;Trello&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;\- Moon Pincho&lt;/p&gt;
-</description>
+MTodo analiza la sintaxis de tu codigo con categorias. Por ejemplo, supongamos que tienes una categoria de BUG.
+En la linea de tu codigo donde se encuentra ese bug, pondria :
+ // &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;
+// BUG Aqui hay un bug.
+ De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.</description>
     </item>
     
     <item>
@@ -576,47 +97,8 @@ Por ejemplo, supongamos que tienes una categoria de BUG.&lt;/p&gt;
       <pubDate>Thu, 09 Mar 2017 21:50:01 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;por-que-publicar-algo-tan-sencillo&#34;&gt;¿Por que publicar algo tan sencillo?&lt;/h1&gt;
-
-&lt;p&gt;Bueno, simplemente para poder hacer rapidamente funcionalidades sin tener que crear scripts nuevos y sin tener que arbitrar entre la solucion mas optima, ya que es un prototipado lo que primero se hace.&lt;/p&gt;
-
-&lt;p&gt;Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rapidamente y asi concentrarme en la mecanica que en si es la que mas trabajo lleva de un prototipo.&lt;/p&gt;
-
-&lt;p&gt;Esto como ya digo es algo complementario y esta claro que se puede hacer mucho mejor, pero solo e creado una base de la que se puede seguir incorporando nuevas funcionalidades abiertas para nuevos desafios.&lt;/p&gt;
-
-&lt;p&gt;De momento solo se han creado 3 scripts basicos, pero aun hay muchos por llegar: &lt;a href=&#34;https://github.com/MOON-TYPE/MDevScripts/projects/1&#34; class=&#34;button&#34;&gt;Proximas incorporaciones.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Actualmente hay:&lt;/p&gt;
-
-&lt;h2 id=&#34;scripts&#34;&gt;Scripts&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AutoDestroy.cs&lt;/strong&gt; | Autodestruye un objeto.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/autodest.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AutoIntensidadLight.cs&lt;/strong&gt; | Auto aumenta y disminuye la intensidad de la luz.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/autoint.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AutoMove.cs&lt;/strong&gt; | Mueve un objeto de un punto A(Actual) a un punto B(Destino).
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/automov.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MOON-TYPE/MDevScripts&#34; class=&#34;button&#34;&gt;Proyecto GitHub.&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;\- Moon Pincho&lt;/p&gt;
-</description>
+      <description>¿Por que publicar algo tan sencillo? Bueno, simplemente para poder hacer rapidamente funcionalidades sin tener que crear scripts nuevos y sin tener que arbitrar entre la solucion mas optima, ya que es un prototipado lo que primero se hace.
+Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rapidamente y asi concentrarme en la mecanica que en si es la que mas trabajo lleva de un prototipo.</description>
     </item>
     
     <item>
@@ -625,66 +107,14 @@ Por ejemplo, supongamos que tienes una categoria de BUG.&lt;/p&gt;
       <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
-      <description>
+      <description>Unity Preloader Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
+Esta version esta probada para Unity3D 5.5.1p4.
+El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.
 
-&lt;h1 id=&#34;unity-preloader&#34;&gt;Unity Preloader&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.&lt;/p&gt;
-
-&lt;p&gt;Esta version esta probada para &lt;strong&gt;Unity3D 5.5.1p4&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader0.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;antes-de-empezar&#34;&gt;Antes de empezar:&lt;/h2&gt;
-
-&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;UGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.&lt;/p&gt;
-
-&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;NGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.preloader, sino podras tener errores en las escenas de los ejemplos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;En la definicion de simbolos (Scripting Define Symbols), hay que definirle NGUI para que reconozca que tienes NGUI en tu proyecto.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader1.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Por ultimo solo tienes que desactivar el Canvas y activar el RootUI.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader2.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;acabado&#34;&gt;Acabado&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader3.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;assets&#34;&gt;Assets:&lt;/h2&gt;
-
-&lt;p&gt;La imagen del logo de prueba es de &lt;a href=&#34;http://www.pixiv.net/member.php?id=2243289&#34;&gt;ナダレ&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;repositorio&#34;&gt;Repositorio&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/lPinchol/u.preloader&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+Antes de empezar: Para UGUI
+Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.
+Para NGUI
+  Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.</description>
     </item>
     
   </channel>

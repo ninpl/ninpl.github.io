@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/tools/index.xml</link>
+    <link>https://moonantonio.github.io/categories/tools/</link>
     <description>Recent content in Tools on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Sat, 06 May 2017 03:19:13 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Efectos de camara</title>
@@ -15,130 +18,10 @@
       <pubDate>Sat, 06 May 2017 03:19:13 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/009/</guid>
-      <description>
-
-&lt;p&gt;Antes de nada, es precisa una customizacion rapida ya que Pros Proccesing Stack no esta integrado aun de forma natica en Unity.&lt;/p&gt;
-
-&lt;p&gt;Primero en la camara, activar HDR y desactivar MSA, por otro lado tambien poner defered para aumentar el realismo de la iluminacion.&lt;/p&gt;
-
-&lt;p&gt;Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por defecto de unity.&lt;/p&gt;
-
-&lt;h1 id=&#34;anti-aliased&#34;&gt;Anti-Aliased&lt;/h1&gt;
-
-&lt;p&gt;Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.&lt;/p&gt;
-
-&lt;p&gt;Hay dos tipos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fast Approximate Anti-aliasing&lt;/strong&gt;: Como su nombre indica es un proceso mas rapido pero con menor calidad.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Temporal Anti-aliasing&lt;/strong&gt;: Es mucha mas calidad pero con un coste algo de calculo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Normalmente siempre se usa la rapida y se va ajustando calidades en runtime con forme lo veamos necesario.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;ambient-oclusion&#34;&gt;Ambient Oclusion&lt;/h1&gt;
-
-&lt;p&gt;Agrega sombreado donde la luz debe crear una sombra y resalta mejor las curvas de los modelos por su sombra.&lt;/p&gt;
-
-&lt;p&gt;Su configuracion:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intensidad&lt;/strong&gt;: Es la intensidad de las sombras de los modelos&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Radio&lt;/strong&gt;: Es lo lejos que queramos que se expandan las sombras de los modelos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample count&lt;/strong&gt;: Determina la suavidad de los pixeles. A menudo medio va bien.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Downsampling&lt;/strong&gt;: Aumenta el rendimiento bajando la calidad.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;screen-space-reflection&#34;&gt;Screen Space Reflection&lt;/h1&gt;
-
-&lt;p&gt;Calcula reflexiones basadas en la rugosidad de la superficie de los modelos. Los modelos se ven mas realistas ya que las zonas reflejan el ambiente. Claro esta, los materiales tienen que reflejar.&lt;/p&gt;
-
-&lt;h1 id=&#34;depth-of-field&#34;&gt;Depth of Field&lt;/h1&gt;
-
-&lt;p&gt;Simula las propiedades de una verdadera lente de camara, lo que significa que se aplica cuando enfocamos a un cierto objeto ya que la profundidad se distorsionara.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Focus Distance&lt;/strong&gt;: Es la distancia de la camara hasta la posicion del objetivo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Apertura&lt;/strong&gt;: Filma una longitud focal graduada, se basa en la desenfocacion.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Camera FOV&lt;/strong&gt;: Si quieres que afecte el FOV de la escena al objetivo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;motion-blur&#34;&gt;Motion Blur&lt;/h1&gt;
-
-&lt;p&gt;El movimiento de desenfoque, simula el desenfoque de la camara cuando se mueve esta.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Shutter Angle&lt;/strong&gt;: Fija el nivel de desenfoque.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample Count&lt;/strong&gt;: Fija el volumen de desenfoque, pero tiene un gran impacto en GPU.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Frame Blending&lt;/strong&gt;: Hace una especie de borrado artistico en el movimiento, me gusta.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;eye-adaptation&#34;&gt;Eye Adaptation&lt;/h1&gt;
-
-&lt;p&gt;Crea la ilusion de un ojo ajustandose a una iluminacion ambiental, como por ejemplo mirar hacia una luz direccional y ver un flare con el suceso de que progresivamente el haz de luz se hace del tamaño habitual.&lt;/p&gt;
-
-&lt;p&gt;No e tocado mucho este parametro, asique no digo mas. :P&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;bloom&#34;&gt;Bloom&lt;/h1&gt;
-
-&lt;p&gt;Hace que la iluminacion de un objeto brille. Lo que hace que objetos con iluminaciones o diferentes FX se vean mas brillantes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intensidad&lt;/strong&gt;: Aumenta el brillo de los objetos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Threshold&lt;/strong&gt;: Aumenta la tonalidad del brillo general en camara por cada nivel mas bajo.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Radio&lt;/strong&gt;: Aumenta o disminulle el radio de efecto del brillo desde cada objeto.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;color-gradient&#34;&gt;Color Gradient&lt;/h1&gt;
-
-&lt;p&gt;Es el mejor de los efectos, ya que permite controlar el aspecto general de nuestra imagen en terminos de color y exposicion.&lt;/p&gt;
-
-&lt;p&gt;Tocar todos los parametros, ya que son simples, como los 3 canales de colores o la intensidad&amp;hellip;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;user-lut&#34;&gt;User Lut&lt;/h1&gt;
-
-&lt;p&gt;Lookup Textura es una textura que se usa para sacar los colores genericos de una imagen y agregarlos a otra exactamente igual, esta textura se suele hacer en otros sitios como photoshop.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;chromatic-aberration&#34;&gt;Chromatic Aberration&lt;/h1&gt;
-
-&lt;p&gt;Este efecto simula distorsion crhomatica en los bordes de la pantalla, se le puede añadir una textura o no, hay ejemplos en la carpeta que viene con unity &amp;ldquo;Spectral LUTS&amp;rdquo;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;grain&#34;&gt;Grain&lt;/h1&gt;
-
-&lt;p&gt;Agrega un toque granulado a la escena.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;vignette&#34;&gt;Vignette&lt;/h1&gt;
-
-&lt;p&gt;Oscurece los bordes y esquinas de una imagen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;dithering&#34;&gt;Dithering&lt;/h1&gt;
-
-&lt;p&gt;Es la reduccion de bandas en areas de gradiente, mediante la introduccion de algunos controladores de ruida en la imagen.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Antes de nada, es precisa una customizacion rapida ya que Pros Proccesing Stack no esta integrado aun de forma natica en Unity.
+Primero en la camara, activar HDR y desactivar MSA, por otro lado tambien poner defered para aumentar el realismo de la iluminacion.
+Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por defecto de unity.
+Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.</description>
     </item>
     
   </channel>

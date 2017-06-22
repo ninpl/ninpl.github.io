@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/github/index.xml</link>
+    <link>https://moonantonio.github.io/categories/github/</link>
     <description>Recent content in Github on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Sat, 10 Jun 2017 22:27:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Actualizacion GAIA</title>
@@ -15,38 +18,12 @@
       <pubDate>Sat, 10 Jun 2017 22:27:45 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
-      <description>
-
-&lt;h1 id=&#34;actualizado-nuevos-modelos-de-gaia&#34;&gt;Actualizado nuevos modelos de Gaia&lt;/h1&gt;
-
-&lt;p&gt;He agregado nuevos modelos de mecanicas al repositorio de &lt;a href=&#34;https://github.com/Nerve-Alexandria/Gaia&#34;&gt;Gaia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
-
-&lt;p&gt;2048
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/011.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;ShooterISO
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/012.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Cut
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/013.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Saltos
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/014.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Actualizado nuevos modelos de Gaia He agregado nuevos modelos de mecanicas al repositorio de Gaia.
+Blend Color 2048 
+ShooterISO 
+Cut 
+Saltos 
+.\Moon</description>
     </item>
     
     <item>
@@ -55,63 +32,9 @@
       <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
-      <description>
-
-&lt;h1 id=&#34;investigacion-de-basemesh-unity3d&#34;&gt;Investigacion de BaseMesh Unity3d&lt;/h1&gt;
-
-&lt;p&gt;El otro dia intentando crear &lt;strong&gt;efectos en la nueva GUI&lt;/strong&gt; de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, &lt;strong&gt;modificar los vertices&lt;/strong&gt; de la lista a gusto.&lt;/p&gt;
-
-&lt;p&gt;Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;El &lt;a href=&#34;https://github.com/MoonAntonio/UGUI-Effect&#34;&gt;repositorio&lt;/a&gt; lo dejo en &lt;strong&gt;GitHub&lt;/strong&gt; para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los efectos creados son simples, nada del otro mundo, pero creo que el acabado es aceptable. &lt;strong&gt;La documentacion&lt;/strong&gt; que he investigado la dejo a continuacion para uso de cada uno:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.unity3d.com/es/current/ScriptReference/UI.BaseMeshEffect.html&#34;&gt;API Unity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MattRix/UnityDecompiled/blob/master/UnityEngine.UI/UnityEngine.UI/BaseMeshEffect.cs&#34;&gt;MattRix&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los efectos desarrollados son los siguientes:&lt;/p&gt;
-
-&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
-
-&lt;p&gt;Blend Color es la tecnica que se usa en la &lt;strong&gt;mezcla de colores&lt;/strong&gt;.
-Los diferentes modos son -&amp;gt; &lt;strong&gt;Multiply/Additive/Subtractive/Override&lt;/strong&gt; y &lt;strong&gt;ninguno&lt;/strong&gt;.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/008.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;gradient-alpha&#34;&gt;Gradient Alpha&lt;/h2&gt;
-
-&lt;p&gt;Degradado del alpha.
-Puedes hacer un &lt;strong&gt;degradado del alpha&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear, puedes hacerlo desde la parte horizontal y vertical.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/009.gif&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;gradient-color&#34;&gt;Gradient Color&lt;/h2&gt;
-
-&lt;p&gt;GradientColor.
-Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear el color, puedes hacerlo desde la parte horizontal y vertical.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/010.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;He usado una &lt;strong&gt;libreria de Unity3D&lt;/strong&gt; como origen de la base clase y la e modificado para obtener toda la lista de objetos.&lt;/p&gt;
-
-&lt;p&gt;Actualmente tengo pensado seguir investigando y tambien crear algun &lt;strong&gt;efecto para el texto&lt;/strong&gt;, como &lt;strong&gt;sombreado, outline&lt;/strong&gt;, etc..&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Investigacion de BaseMesh Unity3d El otro dia intentando crear efectos en la nueva GUI de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, modificar los vertices de la lista a gusto.
+Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.
+ El repositorio lo dejo en GitHub para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.</description>
     </item>
     
     <item>
@@ -120,77 +43,7 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/011/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de &lt;strong&gt;publicar nuestro código en Github&lt;/strong&gt; si cumple una serie de pasos previos.&lt;/p&gt;
-
-&lt;p&gt;Vamos a repasar una serie de puntos interesantes para cualquier proyecto Open Source. Un pequeño &lt;strong&gt;checklist de recomendaciones&lt;/strong&gt;, desde la visión tanto de un maintainer de proyectos de software Open Source como de un desarrollador que se encuentra un proyecto en Github y quiere usarlo.&lt;/p&gt;
-
-&lt;h1 id=&#34;razones-por-las-que-liberar-tu-código-como-open-source&#34;&gt;Razones por las que liberar tu código como Open Source&lt;/h1&gt;
-
-&lt;p&gt;Hay muchas razones por qué un desarrollador u organización querría hacer Open Source un proyecto. Algunos ejemplos para ilustrar la situación sería:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pura colaboración.&lt;/strong&gt; Quizás estemos desarrollando un proyecto por nuestra cuenta, lo hayamos mencionado en algún grupo de slack o meetup de desarrolladores, y nos lancemos a hacerlo abierto para que el resto de desarrolladores sean contributors ayudándonos a avanzar.&lt;/li&gt;
-&lt;li&gt;De forma individual simplemente buscar &lt;strong&gt;hacer público alguno de tus pet project&lt;/strong&gt;. De esta forma la gente verá cómo programas y encuentres futuras colaboraciones.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparencia:&lt;/strong&gt; Existen muchas instituciones que ven el Open Source como la forma de hacer público en lo que están trabajando para que cualquiera pueda revisarlo sin problema.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;deja-claro-el-objetivo-las-expectativas-y-cómo-utilizar-colaborar&#34;&gt;Deja claro el objetivo, las expectativas y cómo utilizar/colaborar&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;“Release early, release often”&lt;/em&gt; es una de las frases más repetidas cuando pensamos en liberar un proyecto software. Hacer público un proyecto open source es sólo el principio. Por ello, lo primero que debemos hacer es dejar claras las expectativas a cualquier desarrollador que se encuentre con él.&lt;/p&gt;
-
-&lt;p&gt;Fundamentalmente necesitamos clarificar lo máximo posible los siguientes puntos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;El objetivo del proyecto.&lt;/strong&gt; ¿Qué es? Por ejemplo: una kata, una librería, un framework en construcción, etc..&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Las instrucciones y dependencias&lt;/strong&gt; que necesita para ser ejecutado&lt;/li&gt;
-&lt;li&gt;Un &lt;strong&gt;changelog&lt;/strong&gt; accesible sobre los cambios de versiones y las versiones disponibles.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;checklist-de-tareas-antes-de-liberar-un-proyecto-open-source&#34;&gt;Checklist de tareas antes de liberar un proyecto Open Source&lt;/h1&gt;
-
-&lt;h2 id=&#34;el-clásico-readme&#34;&gt;El clásico README&lt;/h2&gt;
-
-&lt;p&gt;Es el lugar principal y donde cualquier desarrollador irá a buscar información. Debe estar localizado como un fichero de texto markdown en la raíz del proyecto. &lt;a href=&#34;https://help.github.com/articles/about-readmes/&#34;&gt;Github hace especial énfasis&lt;/a&gt; de que cada proyecto cuente con su correspondiente README.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Revisa el nombre&lt;/strong&gt; Quizás el nombre sea lo primero que creaste, al menos, cuando le dedicaste horas de trabajo en privado, pero ahora que va a ser público debes asegurate que antes de lanzarlo no entra en conflicto con ninguno ya existente y ni mucho menos con alguna marca registrada.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Añade una descripción al proyecto&lt;/strong&gt; Debemos explicar el objetivo, las motivaciones por las que existe este proyecto. También debemos enumerar las características del proyecto, incluyendo sus funcionalidades.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cómo debo usarlo o integrarlo&lt;/strong&gt; Si nos encontramos con un nuevo proyecto, lo más razonables es poder ser capaces de instalarlo, hacerlo arrancar o integrar en nuestra aplicación. Así que es fundamental que buena parte del README se trate de explicar las dependencias y las instrucciones para poder usarlo/integrarlo. Y no te olvides de explicar los test de los que cuenta, seguro que alguien que quiera probar su integridad o colaborar le será de ayuda lanzar los tests antes de crear una build desde el código.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Facilita la forma de descargar el artifact o la build&lt;/strong&gt; Lo más habitual es que hayamos usado algun gestor de dependencias o un sistema de construcción del proyecto, ya sea con node, maven, gradle, makefile, etc… así como que el binario del proyecto se pueda descargar de algún lugar como maven central o con un sencillo npm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Automatiza todo lo que puedas&lt;/strong&gt; Es fundamental que a parte de que lo expliques en el README cuentes con un sencillo script que facilite la vida a los desarrolladores que quieran construir por ellos mismos la build. Usa bash, gradle, ant, maven, npm, etc.. para tu proyecto.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No te olvides del marketing&lt;/strong&gt; Aprovecha para incluir algun logo o imagen que represente tu proyecto, nunca se sabe cuando alguien quiere hablar de él quizás, algún blog. Incluir un imagen representativa de tu librerías nunca es mala idea. Y si no lo tienes claro, piensa en los animales de la portadas de los libros de O’Really.&lt;/p&gt;
-
-&lt;h2 id=&#34;añade-una-licencia&#34;&gt;Añade una licencia&lt;/h2&gt;
-
-&lt;p&gt;Liberar algo al público se debe hacer con cuidado. Revisa los componentes que utilizas y decide una libería acorde a tus intenciones y que cumpla los requisitos de tu proyecto. Entre las más populares se encuentran la Apache 2, MIT o GPL. Si te lías con los derechos y obligaciones que implican puedes consultar alguna recomendaciones de Github o alguna de estas webs: &lt;a href=&#34;https://choosealicense.com/&#34;&gt;Choose a License&lt;/a&gt; o &lt;a href=&#34;https://tldrlegal.com/&#34;&gt;TLDR Legal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;cómo-contribuir&#34;&gt;¿Cómo contribuir?&lt;/h2&gt;
-
-&lt;p&gt;Esta sección va indicada especialmente para tus futuros colaboradores, así que se claro indicando una serie de issues abiertas para ir empezando, así como un pequeño roadmap con las tareas a futuro del proyecto.&lt;/p&gt;
-
-&lt;p&gt;Y es fundamental que dejes a disposición de los contributors un checkstyle del código del proyecto y una serie de reglas para incorporar contribuciones como un codestyle o algun hook preparado. Así como los pasos a realizar una Pull Request, ahora que Github permite los template eso debería ser obligatorio para que no se les escape ningún apartado que explica en la PR. Es recomendable que lo expliques en un fichero CONTRIBUTING.&lt;/p&gt;
-
-&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
-
-&lt;p&gt;Añade un listado con los cambios de cada versión. Es fundamental para tus usuarios conocer que se va incorporando progresivamente en cada “salto de versión”. Respeta el versionado estándar utilizando adecuadamente la numeración de &lt;em&gt;MAJOR.MINOR.PATCH&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Intenta separar cada cambio del siguiente modo:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nuevos componentes que has introducido, ya sean componentes, APIs nuevas, funcionalidades, etc..&lt;/li&gt;
-&lt;li&gt;Elementos deprecated, es decir, lo que en próximas versiones será eliminado y remplazado por otros elementos. No olvides indicar el que se debería usar o la estrategia de migración.&lt;/li&gt;
-&lt;li&gt;Elementos que han sido eliminados. Recuerda la retrocompatilidad. No borres nada en un cambio de versión que no haya sido anteriormente marcado como deprecated.&lt;/li&gt;
-&lt;li&gt;Y por fin, los bugs que se han ido resolviendo en cada nueva versión. Añade si es posible la issue correspondiente para poder hacer un mejor seguimiento del problema que originaba. Seguro que alguien que se haya dado cabezazos con él se sentirá reconfortado al ver que ya está solucionado.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Github nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de publicar nuestro código en Github si cumple una serie de pasos previos.</description>
     </item>
     
     <item>
@@ -199,16 +52,8 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Tue, 14 Mar 2017 19:53:02 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/002/</guid>
-      <description>&lt;p&gt;Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.&lt;/p&gt;
-
-&lt;p&gt;Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Por eso me e decidido con empezar con GitHub, y realmente &amp;hellip; se a quedado una cosa muy fea, pero al menos tengo un center para poder guiarme un poco mejor por estos terrenos.&lt;/p&gt;
-
-&lt;p&gt;Tengo pensado actualizar todos los repos para tenerlos bien organizados y documentados, pero hasta el momento tendre que ir tirando de este metodo que, aunque es feo, es lo mas rapido que puedo montar, para que no interfiera en el TFG y otros proyectos activos en este momento.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.
+Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;</description>
     </item>
     
     <item>
@@ -217,66 +62,14 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
-      <description>
+      <description>Unity Preloader Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
+Esta version esta probada para Unity3D 5.5.1p4.
+El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.
 
-&lt;h1 id=&#34;unity-preloader&#34;&gt;Unity Preloader&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.&lt;/p&gt;
-
-&lt;p&gt;Esta version esta probada para &lt;strong&gt;Unity3D 5.5.1p4&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader0.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;antes-de-empezar&#34;&gt;Antes de empezar:&lt;/h2&gt;
-
-&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;UGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.&lt;/p&gt;
-
-&lt;p&gt;Para &lt;strong&gt;&lt;em&gt;NGUI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.preloader, sino podras tener errores en las escenas de los ejemplos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;En la definicion de simbolos (Scripting Define Symbols), hay que definirle NGUI para que reconozca que tienes NGUI en tu proyecto.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader1.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Por ultimo solo tienes que desactivar el Canvas y activar el RootUI.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader2.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;acabado&#34;&gt;Acabado&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/github/preloader3.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;assets&#34;&gt;Assets:&lt;/h2&gt;
-
-&lt;p&gt;La imagen del logo de prueba es de &lt;a href=&#34;http://www.pixiv.net/member.php?id=2243289&#34;&gt;ナダレ&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;repositorio&#34;&gt;Repositorio&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/lPinchol/u.preloader&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+Antes de empezar: Para UGUI
+Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.
+Para NGUI
+  Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.</description>
     </item>
     
   </channel>

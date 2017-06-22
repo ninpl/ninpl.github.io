@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moon Antonio on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/moon-antonio/index.xml</link>
+    <link>https://moonantonio.github.io/tags/moon-antonio/</link>
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Sat, 10 Jun 2017 22:27:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Actualizacion GAIA</title>
@@ -15,38 +18,12 @@
       <pubDate>Sat, 10 Jun 2017 22:27:45 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
-      <description>
-
-&lt;h1 id=&#34;actualizado-nuevos-modelos-de-gaia&#34;&gt;Actualizado nuevos modelos de Gaia&lt;/h1&gt;
-
-&lt;p&gt;He agregado nuevos modelos de mecanicas al repositorio de &lt;a href=&#34;https://github.com/Nerve-Alexandria/Gaia&#34;&gt;Gaia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
-
-&lt;p&gt;2048
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/011.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;ShooterISO
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/012.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Cut
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/013.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Saltos
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/014.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Actualizado nuevos modelos de Gaia He agregado nuevos modelos de mecanicas al repositorio de Gaia.
+Blend Color 2048 
+ShooterISO 
+Cut 
+Saltos 
+.\Moon</description>
     </item>
     
     <item>
@@ -55,63 +32,9 @@
       <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
-      <description>
-
-&lt;h1 id=&#34;investigacion-de-basemesh-unity3d&#34;&gt;Investigacion de BaseMesh Unity3d&lt;/h1&gt;
-
-&lt;p&gt;El otro dia intentando crear &lt;strong&gt;efectos en la nueva GUI&lt;/strong&gt; de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, &lt;strong&gt;modificar los vertices&lt;/strong&gt; de la lista a gusto.&lt;/p&gt;
-
-&lt;p&gt;Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;El &lt;a href=&#34;https://github.com/MoonAntonio/UGUI-Effect&#34;&gt;repositorio&lt;/a&gt; lo dejo en &lt;strong&gt;GitHub&lt;/strong&gt; para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los efectos creados son simples, nada del otro mundo, pero creo que el acabado es aceptable. &lt;strong&gt;La documentacion&lt;/strong&gt; que he investigado la dejo a continuacion para uso de cada uno:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.unity3d.com/es/current/ScriptReference/UI.BaseMeshEffect.html&#34;&gt;API Unity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MattRix/UnityDecompiled/blob/master/UnityEngine.UI/UnityEngine.UI/BaseMeshEffect.cs&#34;&gt;MattRix&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los efectos desarrollados son los siguientes:&lt;/p&gt;
-
-&lt;h2 id=&#34;blend-color&#34;&gt;Blend Color&lt;/h2&gt;
-
-&lt;p&gt;Blend Color es la tecnica que se usa en la &lt;strong&gt;mezcla de colores&lt;/strong&gt;.
-Los diferentes modos son -&amp;gt; &lt;strong&gt;Multiply/Additive/Subtractive/Override&lt;/strong&gt; y &lt;strong&gt;ninguno&lt;/strong&gt;.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/008.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;gradient-alpha&#34;&gt;Gradient Alpha&lt;/h2&gt;
-
-&lt;p&gt;Degradado del alpha.
-Puedes hacer un &lt;strong&gt;degradado del alpha&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear, puedes hacerlo desde la parte horizontal y vertical.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/009.gif&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;gradient-color&#34;&gt;Gradient Color&lt;/h2&gt;
-
-&lt;p&gt;GradientColor.
-Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier parte &lt;strong&gt;(Top/bot..)&lt;/strong&gt; y despues si lo quieres ladear el color, puedes hacerlo desde la parte horizontal y vertical.
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/010.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;He usado una &lt;strong&gt;libreria de Unity3D&lt;/strong&gt; como origen de la base clase y la e modificado para obtener toda la lista de objetos.&lt;/p&gt;
-
-&lt;p&gt;Actualmente tengo pensado seguir investigando y tambien crear algun &lt;strong&gt;efecto para el texto&lt;/strong&gt;, como &lt;strong&gt;sombreado, outline&lt;/strong&gt;, etc..&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Investigacion de BaseMesh Unity3d El otro dia intentando crear efectos en la nueva GUI de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, modificar los vertices de la lista a gusto.
+Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.
+ El repositorio lo dejo en GitHub para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.</description>
     </item>
     
     <item>
@@ -120,32 +43,9 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Thu, 01 Jun 2017 14:23:09 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/recuerdo/001/</guid>
-      <description>
-
-&lt;h1 id=&#34;estructura-tfg-practicas-finales&#34;&gt;Estructura TFG &amp;amp; practicas Finales&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ya esta casi terminado el grado y tengo 4 practicas que entregar, digital paint, sistemas expertos en inteligencia artificial, setup de rig y animacion 3D.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Digital Paint&lt;/strong&gt;: La practica final es una serie de &lt;strong&gt;10 ilustraciones digitales&lt;/strong&gt; que, hay que aportar en fisico y digital para crear un portfolio (&lt;strong&gt;Preferible en ArtStation&lt;/strong&gt;).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;IA&lt;/strong&gt;: La practica final es crear la IA de un &lt;strong&gt;roomba&lt;/strong&gt;, hacer un analisis del &lt;strong&gt;algoritmo de Minimax&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Setup&lt;/strong&gt;: Crear la &lt;strong&gt;setup&lt;/strong&gt;(Rig/Pesado) de un modelo simple.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;_ &lt;strong&gt;Animacion&lt;/strong&gt;: Puesta en marcha de una &lt;strong&gt;animacion&lt;/strong&gt; de mas de 10s con una documentacion del tipo de plano y la historia.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Por parte del &lt;strong&gt;TFG&lt;/strong&gt;, creo que hay que dividir el trabajo en &lt;strong&gt;2 secciones&lt;/strong&gt;, la gestion y la tactica.&lt;/p&gt;
-
-&lt;p&gt;Proximamente me enfocare a diseñar toda la gestion y por ultimo (espero que de tiempo) desarrollare el sistema tactico.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Estructura TFG &amp;amp; practicas Finales Ya esta casi terminado el grado y tengo 4 practicas que entregar, digital paint, sistemas expertos en inteligencia artificial, setup de rig y animacion 3D.
+ Digital Paint: La practica final es una serie de 10 ilustraciones digitales que, hay que aportar en fisico y digital para crear un portfolio (Preferible en ArtStation).
+ IA: La practica final es crear la IA de un roomba, hacer un analisis del algoritmo de Minimax.</description>
     </item>
     
     <item>
@@ -154,46 +54,8 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Mon, 22 May 2017 18:08:50 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/012/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/001.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La idea general es la de que un videojuego debe comenzar con una dificultad reducida que se va aumentando progresivamente con el avance del jugador, de forma que el nivel del reto sea cada vez más elevado y la experiencia o el mayor conocimiento de las mecánicas sean las que permitan afrontar esas situaciones cada vez más complejas.&lt;/p&gt;
-
-&lt;p&gt;Esta idea de reto cada vez mayor es algo lógico y, de hecho, cuadraba con esos tiempos donde las recreativas eran tan influyentes: debes hacer que el jugador se divierta durante un tiempo determinado, pero asegurándote de que no podrá pasar de X niveles sin gastarse más dinero o, directamente, siendo todo un experto en tu juego. Esa era la filosofía: la dificultad era una herramienta para alargar títulos que, de otra forma, difícilmente durarían más de dos horas.&lt;/p&gt;
-
-&lt;p&gt;Pero los videojuegos evolucionaron: con la posibilidad de guardar la partida, se pudieron crear más títulos extensos y las consolas no tenían esa necesidad de forzar al jugador en un gasto continuo, se podían crear títulos con una dificultad más suavizada.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/002.jpg&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Esa expansión hacia un mayor número de jugadores hizo que también muchos programadores olvidasen la filosofía de usar la dificultad como herramienta básica para alargar un título: el desarrollo de la trama, los acontecimientos de la misma, misiones opcionales&amp;hellip; ya se podían hacer títulos lo suficientemente largos y complejos para que no hiciera falta una alta cantidad de situaciones injustas para poder &amp;ldquo;rellenar&amp;rdquo; tiempo de juego.&lt;/p&gt;
-
-&lt;p&gt;La cuestión es que en múltiples géneros la dificultad es algo relativamente fácil de plantear: enemigos que causen más daño o sean más veloces, fases con plataformas más enrevesadas, puzles más elaborados&amp;hellip; Pero, sin embargo, en el género RPG hay un problema a este planteamiento: los jugadores no tienen unas estadísticas estables, pueden modificarlas subiendo de nivel.&lt;/p&gt;
-
-&lt;p&gt;Desde luego, no podemos discutir que la existencia de una evolución en nuestros personajes es algo prácticamente básico del género RPG, pero también una problemática a la hora de calibrar una dificultad en un título donde el reto no es tan fácilmente adaptable sobre la marcha. Hemos comprobado la ineficacia de multitud de títulos que intentaron crear enemigos que suban de nivel con nuestro grupo (Final Fantasy VIII, por ejemplo) y que, al final, acababan por dejarnos planteamientos erróneos: al existir técnicas, habilidades, equipo o multitud de otros elementos externos al nivel para mejorar a nuestro grupo, esa clase de títulos eran fáciles si el jugador optaba por no entrenar y, eventualmente, hasta subir de nivel indiscriminadamente seguía siendo la solución para todo, ya que esa es la respuesta universal para la mayoría de RPGs y, bueno, ya comprobamos lo que pasó cuando se intentó evitar eso en The Last Remnant donde, llegados a cierto nivel, un jefe se hacía tan ridículamente fuerte que hacía al título imposible. Intentar bloquear esa solución hacía a tu juego un gran mal, ya que los que querían disfrutar al máximo de todas sus posibilidades acababan chocando contra un muro.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/003.jpg&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Así, pues, ¿cómo se puede lograr crear una dificultad correcta en un RPG? ¿Y qué definimos como &amp;ldquo;correcta&amp;rdquo;, de hecho? Cada jugador lo puede interpretar de una manera. Hay quien disfruta con largas sesiones de combates contra enemigos de relleno, quien ve al &amp;ldquo;entrenamiento&amp;rdquo; como una forma totalmente pura de jugar a un RPG, fan completo de los Dungeon Crawlers y, claro, esa clase de jugadores que entienden la dificultad como un reto que tiene en cuenta que el jugador gusta y va a entrenar seriamente en todo momento, es totalmente diferente a los que consideran que la dificultad adecuada es la que te permite disfrutar de la historia sin obligarte a entrenar.&lt;/p&gt;
-
-&lt;p&gt;Y luego tenemos multitud de niveles intermedios: en general, muchos aceptan periodos cortos de farmeo y, quien más y quien menos, trata de acabar con todos los enemigos a la vista de la zona (en los juegos donde no son infinitos, claro) porque entiende que esa es la forma en la que el juego te está pidiendo que lo enfoques. Casi todos &amp;ldquo;caemos&amp;rdquo; en dar dos o tres vueltas matando enemigos si tenemos una fuente de curación perpetua y gratuita a nuestros alcance, ya que nos permite abusar de nuestras mejores técnicas sin preocuparnos del desgaste, lo cual hace que ese proceso sea bastante agradable.&lt;/p&gt;
-
-&lt;p&gt;Pero, fuera parte de tendencias y formas de jugar, hay títulos que, en términos generales, tienen una dificultad muy polarizada en torno a sus momentos iniciales y/o finales, ya que son los que más perduran en el jugador. Seguramente, todos podáis recordar algún RPG con ese problema: podíamos avanzar con buen ritmo hasta que cierto jefe resultaba absurdamente fuerte, provocando un pico de dificultad totalmente descompensado. Igualmente, muchos títulos (aquí podría citar a los últimos Shin Megami Tensei y Persona) te daban tantas posibilidades que, llegados al punto final, nos dejaban a un grupo tan fuerte que podíamos arrasar a casi cualquier cosa que nos pusieran por delante, lo cual nos dejaba una cierta sensación de sencillez, porque olvidábamos esos momentos iniciales donde no estábamos tan boyantes y lo pasamos realmente mal contra alguno de los primeros jefes.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/004.jpg&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Y, por si fuese poco, ahora estamos teniendo también una fuerte implementación de los diferentes modos de dificultad en el género RPG, lo cual tampoco es que se esté elaborando demasiado, y también está creando problemas porque parece que muchos títulos fallan al encontrar el equilibrio entre Normal y Difícil: nos encontramos con una dificultad básica bastante reducida si jugamos en Normal (The Witcher III o el reciente Fire Emblem Echoes: Shadows of Valentia son algunos ejemplos bastante claros) y, en caso de ponerlos en Difícil, podemos acabar sufriendo más de la cuenta en determinados momentos, lo cual cuadra con la dificultad escogida, pero es que en muchos casos es la salida que el jugador medio tuvo que escoger porque, de otro modo, jugar en Normal le resultaba un paseo sin ningún tipo de complejidad.&lt;/p&gt;
-
-&lt;p&gt;Este es un gran problema que debe enfocar el género RPG en la actualidad y que se suma a todos los comentados previamente: plantear títulos con un reto creciente sabiendo que las herramientas del jugador aumentarán también y difícilmente vas a encontrar un punto de equilibrio perfecto en el que, tanto el fan del entrenamiento como el que avanza sin necesidad de parar, puedan disfrutar de una dificultad adaptada a lo que buscan hace que se asuma una dificultad concreta difícilmente calibrable por los propios programadores. Quizás, de las mejores soluciones son las que plantearon títulos como The World Ends With You y que, posteriormente, hemos podido ver en varios RPGs como los Tales of: donde la dificultad sea posible de alterar en todo momento por el propio jugador y haya algún tipo de incentivo por elevar el reto.&lt;/p&gt;
-
-&lt;p&gt;Claro, muchos pensaréis que, de existir incentivos, los que juegan en Normal se están perdiendo elementos importantes del título, pero se trata de una forma de incentivar la rejugabilidad, de hacer que el modo Difícil no sea un simple &amp;ldquo;estoy jugando contra enemigos más fuertes porque quiero que me compliquen&amp;rdquo;, que también suponga una variación del reto, que nos pida una mayor variedad estratégica, explotar mejor las posibilidades del juego&amp;hellip; Sin llegar a romperlo, como pasa con los Bravely. Si una misma solución sirve para completar todo el juego, la dificultad es un elemento absurdo que solo cambia el daño recibido o el tiempo que nos llevamos combatiendo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/investigacion/005.jpg&#34; alt=&#34;005&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Desde luego, este es uno de los grandes retos para cualquier desarrollador de RPGs y que cualquiera que haya trasteado con RPG Maker o similares conoce perfectamente: crear una dificultad bien calibrada y que acompañe el crecimiento errático de cualquier tipo de jugador es algo casi imposible. Soluciones como la de enemigos subiendo de nivel con el grupo no acaban de funcionar y, al final, no queda claro cuál es el método correcto, ya que hemos tenido éxitos recientes de multitud de juegos con dificultades realmente dispares&amp;hellip; Lo cual hace que nos preguntemos hasta qué punto la dificultad es un elemento importante para definir un buen RPG.&lt;/p&gt;
-
-&lt;p&gt;Sabemos que una baja dificultad suele ser un arma arrojadiza contra títulos que no gustaron, como Golden Sun: Oscuro Amanecer o Pokémon Rubí Omega/Zafiro Alfa, por citar ejemplos más o menos conocidos, pero no es un problema cuando en Skyrim los enemigos casi dejaban de hacernos daño o Geralt descuartiza a todos los que se nos ponen por delante. Al final, quien busca el reto acaba jugando a determinados títulos para ello y acepta casi cualquier dificultad en el resto, sabiendo que va a disfrutar de otros elementos, como su trama o su libertad.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>La idea general es la de que un videojuego debe comenzar con una dificultad reducida que se va aumentando progresivamente con el avance del jugador, de forma que el nivel del reto sea cada vez más elevado y la experiencia o el mayor conocimiento de las mecánicas sean las que permitan afrontar esas situaciones cada vez más complejas.
+Esta idea de reto cada vez mayor es algo lógico y, de hecho, cuadraba con esos tiempos donde las recreativas eran tan influyentes: debes hacer que el jugador se divierta durante un tiempo determinado, pero asegurándote de que no podrá pasar de X niveles sin gastarse más dinero o, directamente, siendo todo un experto en tu juego.</description>
     </item>
     
     <item>
@@ -202,14 +64,8 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Sat, 20 May 2017 23:14:15 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/007/</guid>
-      <description>
-
-&lt;h1 id=&#34;center-imagen-del-dia-20-05-2017-center-br&#34;&gt;&lt;center&gt;Imagen del dia [20.05.2017]&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/pinturadia/48.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;La princesa con el plateado&amp;rdquo;.Danmachi.&lt;/p&gt;
-</description>
+      <description>Imagen del dia [20.05.2017] 
+&amp;ldquo;La princesa con el plateado&amp;rdquo;.Danmachi.</description>
     </item>
     
     <item>
@@ -218,77 +74,7 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/011/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de &lt;strong&gt;publicar nuestro código en Github&lt;/strong&gt; si cumple una serie de pasos previos.&lt;/p&gt;
-
-&lt;p&gt;Vamos a repasar una serie de puntos interesantes para cualquier proyecto Open Source. Un pequeño &lt;strong&gt;checklist de recomendaciones&lt;/strong&gt;, desde la visión tanto de un maintainer de proyectos de software Open Source como de un desarrollador que se encuentra un proyecto en Github y quiere usarlo.&lt;/p&gt;
-
-&lt;h1 id=&#34;razones-por-las-que-liberar-tu-código-como-open-source&#34;&gt;Razones por las que liberar tu código como Open Source&lt;/h1&gt;
-
-&lt;p&gt;Hay muchas razones por qué un desarrollador u organización querría hacer Open Source un proyecto. Algunos ejemplos para ilustrar la situación sería:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pura colaboración.&lt;/strong&gt; Quizás estemos desarrollando un proyecto por nuestra cuenta, lo hayamos mencionado en algún grupo de slack o meetup de desarrolladores, y nos lancemos a hacerlo abierto para que el resto de desarrolladores sean contributors ayudándonos a avanzar.&lt;/li&gt;
-&lt;li&gt;De forma individual simplemente buscar &lt;strong&gt;hacer público alguno de tus pet project&lt;/strong&gt;. De esta forma la gente verá cómo programas y encuentres futuras colaboraciones.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparencia:&lt;/strong&gt; Existen muchas instituciones que ven el Open Source como la forma de hacer público en lo que están trabajando para que cualquiera pueda revisarlo sin problema.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;deja-claro-el-objetivo-las-expectativas-y-cómo-utilizar-colaborar&#34;&gt;Deja claro el objetivo, las expectativas y cómo utilizar/colaborar&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;“Release early, release often”&lt;/em&gt; es una de las frases más repetidas cuando pensamos en liberar un proyecto software. Hacer público un proyecto open source es sólo el principio. Por ello, lo primero que debemos hacer es dejar claras las expectativas a cualquier desarrollador que se encuentre con él.&lt;/p&gt;
-
-&lt;p&gt;Fundamentalmente necesitamos clarificar lo máximo posible los siguientes puntos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;El objetivo del proyecto.&lt;/strong&gt; ¿Qué es? Por ejemplo: una kata, una librería, un framework en construcción, etc..&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Las instrucciones y dependencias&lt;/strong&gt; que necesita para ser ejecutado&lt;/li&gt;
-&lt;li&gt;Un &lt;strong&gt;changelog&lt;/strong&gt; accesible sobre los cambios de versiones y las versiones disponibles.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;checklist-de-tareas-antes-de-liberar-un-proyecto-open-source&#34;&gt;Checklist de tareas antes de liberar un proyecto Open Source&lt;/h1&gt;
-
-&lt;h2 id=&#34;el-clásico-readme&#34;&gt;El clásico README&lt;/h2&gt;
-
-&lt;p&gt;Es el lugar principal y donde cualquier desarrollador irá a buscar información. Debe estar localizado como un fichero de texto markdown en la raíz del proyecto. &lt;a href=&#34;https://help.github.com/articles/about-readmes/&#34;&gt;Github hace especial énfasis&lt;/a&gt; de que cada proyecto cuente con su correspondiente README.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Revisa el nombre&lt;/strong&gt; Quizás el nombre sea lo primero que creaste, al menos, cuando le dedicaste horas de trabajo en privado, pero ahora que va a ser público debes asegurate que antes de lanzarlo no entra en conflicto con ninguno ya existente y ni mucho menos con alguna marca registrada.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Añade una descripción al proyecto&lt;/strong&gt; Debemos explicar el objetivo, las motivaciones por las que existe este proyecto. También debemos enumerar las características del proyecto, incluyendo sus funcionalidades.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cómo debo usarlo o integrarlo&lt;/strong&gt; Si nos encontramos con un nuevo proyecto, lo más razonables es poder ser capaces de instalarlo, hacerlo arrancar o integrar en nuestra aplicación. Así que es fundamental que buena parte del README se trate de explicar las dependencias y las instrucciones para poder usarlo/integrarlo. Y no te olvides de explicar los test de los que cuenta, seguro que alguien que quiera probar su integridad o colaborar le será de ayuda lanzar los tests antes de crear una build desde el código.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Facilita la forma de descargar el artifact o la build&lt;/strong&gt; Lo más habitual es que hayamos usado algun gestor de dependencias o un sistema de construcción del proyecto, ya sea con node, maven, gradle, makefile, etc… así como que el binario del proyecto se pueda descargar de algún lugar como maven central o con un sencillo npm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Automatiza todo lo que puedas&lt;/strong&gt; Es fundamental que a parte de que lo expliques en el README cuentes con un sencillo script que facilite la vida a los desarrolladores que quieran construir por ellos mismos la build. Usa bash, gradle, ant, maven, npm, etc.. para tu proyecto.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No te olvides del marketing&lt;/strong&gt; Aprovecha para incluir algun logo o imagen que represente tu proyecto, nunca se sabe cuando alguien quiere hablar de él quizás, algún blog. Incluir un imagen representativa de tu librerías nunca es mala idea. Y si no lo tienes claro, piensa en los animales de la portadas de los libros de O’Really.&lt;/p&gt;
-
-&lt;h2 id=&#34;añade-una-licencia&#34;&gt;Añade una licencia&lt;/h2&gt;
-
-&lt;p&gt;Liberar algo al público se debe hacer con cuidado. Revisa los componentes que utilizas y decide una libería acorde a tus intenciones y que cumpla los requisitos de tu proyecto. Entre las más populares se encuentran la Apache 2, MIT o GPL. Si te lías con los derechos y obligaciones que implican puedes consultar alguna recomendaciones de Github o alguna de estas webs: &lt;a href=&#34;https://choosealicense.com/&#34;&gt;Choose a License&lt;/a&gt; o &lt;a href=&#34;https://tldrlegal.com/&#34;&gt;TLDR Legal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;cómo-contribuir&#34;&gt;¿Cómo contribuir?&lt;/h2&gt;
-
-&lt;p&gt;Esta sección va indicada especialmente para tus futuros colaboradores, así que se claro indicando una serie de issues abiertas para ir empezando, así como un pequeño roadmap con las tareas a futuro del proyecto.&lt;/p&gt;
-
-&lt;p&gt;Y es fundamental que dejes a disposición de los contributors un checkstyle del código del proyecto y una serie de reglas para incorporar contribuciones como un codestyle o algun hook preparado. Así como los pasos a realizar una Pull Request, ahora que Github permite los template eso debería ser obligatorio para que no se les escape ningún apartado que explica en la PR. Es recomendable que lo expliques en un fichero CONTRIBUTING.&lt;/p&gt;
-
-&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
-
-&lt;p&gt;Añade un listado con los cambios de cada versión. Es fundamental para tus usuarios conocer que se va incorporando progresivamente en cada “salto de versión”. Respeta el versionado estándar utilizando adecuadamente la numeración de &lt;em&gt;MAJOR.MINOR.PATCH&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Intenta separar cada cambio del siguiente modo:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nuevos componentes que has introducido, ya sean componentes, APIs nuevas, funcionalidades, etc..&lt;/li&gt;
-&lt;li&gt;Elementos deprecated, es decir, lo que en próximas versiones será eliminado y remplazado por otros elementos. No olvides indicar el que se debería usar o la estrategia de migración.&lt;/li&gt;
-&lt;li&gt;Elementos que han sido eliminados. Recuerda la retrocompatilidad. No borres nada en un cambio de versión que no haya sido anteriormente marcado como deprecated.&lt;/li&gt;
-&lt;li&gt;Y por fin, los bugs que se han ido resolviendo en cada nueva versión. Añade si es posible la issue correspondiente para poder hacer un mejor seguimiento del problema que originaba. Seguro que alguien que se haya dado cabezazos con él se sentirá reconfortado al ver que ya está solucionado.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Github nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de publicar nuestro código en Github si cumple una serie de pasos previos.</description>
     </item>
     
     <item>
@@ -297,28 +83,9 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Tue, 09 May 2017 21:11:52 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/006/</guid>
-      <description>
-
-&lt;h1 id=&#34;que-es-mdev&#34;&gt;¿Que es MDev?&lt;/h1&gt;
-
-&lt;p&gt;MDev es una consola, para Unity3D, con la que puedes llamar a comandos predefinidos anteriormente y llamarlos en runtime.&lt;/p&gt;
-
-&lt;h1 id=&#34;por-que-la-necesidad-de-mdev&#34;&gt;¿Por que la necesidad de MDev?&lt;/h1&gt;
-
-&lt;p&gt;Para el proyecto fin de carrera decidi desarrollar un videojuego, por lo que en este proceso me vi en la obligacion de crear alguna herramienta para testear en runtime diferentes procesos y englobarlo en una herramienta.&lt;/p&gt;
-
-&lt;h1 id=&#34;que-referencias-e-cogido&#34;&gt;¿Que referencias e cogido?&lt;/h1&gt;
-
-&lt;p&gt;Las referencias que e cogido estan en un juego llamado Citizen, que tiene una consola de comandos para los usuarios (Con acceso restringido) pero que me gusta mucho, ya que es limpia y con facil visualizacion.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Esta herramienta se diseñara para los frameworks de UGUI y NGUI, que en base son los mas utilizados, pero se puede portear facilmente a otros frameworks, ya que como se ve en el proyecto, solo se necesita un scroll y un componente de texto.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>¿Que es MDev? MDev es una consola, para Unity3D, con la que puedes llamar a comandos predefinidos anteriormente y llamarlos en runtime.
+¿Por que la necesidad de MDev? Para el proyecto fin de carrera decidi desarrollar un videojuego, por lo que en este proceso me vi en la obligacion de crear alguna herramienta para testear en runtime diferentes procesos y englobarlo en una herramienta.
+¿Que referencias e cogido? Las referencias que e cogido estan en un juego llamado Citizen, que tiene una consola de comandos para los usuarios (Con acceso restringido) pero que me gusta mucho, ya que es limpia y con facil visualizacion.</description>
     </item>
     
     <item>
@@ -327,130 +94,10 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Sat, 06 May 2017 03:19:13 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/009/</guid>
-      <description>
-
-&lt;p&gt;Antes de nada, es precisa una customizacion rapida ya que Pros Proccesing Stack no esta integrado aun de forma natica en Unity.&lt;/p&gt;
-
-&lt;p&gt;Primero en la camara, activar HDR y desactivar MSA, por otro lado tambien poner defered para aumentar el realismo de la iluminacion.&lt;/p&gt;
-
-&lt;p&gt;Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por defecto de unity.&lt;/p&gt;
-
-&lt;h1 id=&#34;anti-aliased&#34;&gt;Anti-Aliased&lt;/h1&gt;
-
-&lt;p&gt;Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.&lt;/p&gt;
-
-&lt;p&gt;Hay dos tipos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fast Approximate Anti-aliasing&lt;/strong&gt;: Como su nombre indica es un proceso mas rapido pero con menor calidad.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Temporal Anti-aliasing&lt;/strong&gt;: Es mucha mas calidad pero con un coste algo de calculo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Normalmente siempre se usa la rapida y se va ajustando calidades en runtime con forme lo veamos necesario.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;ambient-oclusion&#34;&gt;Ambient Oclusion&lt;/h1&gt;
-
-&lt;p&gt;Agrega sombreado donde la luz debe crear una sombra y resalta mejor las curvas de los modelos por su sombra.&lt;/p&gt;
-
-&lt;p&gt;Su configuracion:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intensidad&lt;/strong&gt;: Es la intensidad de las sombras de los modelos&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Radio&lt;/strong&gt;: Es lo lejos que queramos que se expandan las sombras de los modelos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample count&lt;/strong&gt;: Determina la suavidad de los pixeles. A menudo medio va bien.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Downsampling&lt;/strong&gt;: Aumenta el rendimiento bajando la calidad.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;screen-space-reflection&#34;&gt;Screen Space Reflection&lt;/h1&gt;
-
-&lt;p&gt;Calcula reflexiones basadas en la rugosidad de la superficie de los modelos. Los modelos se ven mas realistas ya que las zonas reflejan el ambiente. Claro esta, los materiales tienen que reflejar.&lt;/p&gt;
-
-&lt;h1 id=&#34;depth-of-field&#34;&gt;Depth of Field&lt;/h1&gt;
-
-&lt;p&gt;Simula las propiedades de una verdadera lente de camara, lo que significa que se aplica cuando enfocamos a un cierto objeto ya que la profundidad se distorsionara.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Focus Distance&lt;/strong&gt;: Es la distancia de la camara hasta la posicion del objetivo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Apertura&lt;/strong&gt;: Filma una longitud focal graduada, se basa en la desenfocacion.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Camera FOV&lt;/strong&gt;: Si quieres que afecte el FOV de la escena al objetivo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;motion-blur&#34;&gt;Motion Blur&lt;/h1&gt;
-
-&lt;p&gt;El movimiento de desenfoque, simula el desenfoque de la camara cuando se mueve esta.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Shutter Angle&lt;/strong&gt;: Fija el nivel de desenfoque.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample Count&lt;/strong&gt;: Fija el volumen de desenfoque, pero tiene un gran impacto en GPU.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Frame Blending&lt;/strong&gt;: Hace una especie de borrado artistico en el movimiento, me gusta.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;eye-adaptation&#34;&gt;Eye Adaptation&lt;/h1&gt;
-
-&lt;p&gt;Crea la ilusion de un ojo ajustandose a una iluminacion ambiental, como por ejemplo mirar hacia una luz direccional y ver un flare con el suceso de que progresivamente el haz de luz se hace del tamaño habitual.&lt;/p&gt;
-
-&lt;p&gt;No e tocado mucho este parametro, asique no digo mas. :P&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;bloom&#34;&gt;Bloom&lt;/h1&gt;
-
-&lt;p&gt;Hace que la iluminacion de un objeto brille. Lo que hace que objetos con iluminaciones o diferentes FX se vean mas brillantes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Intensidad&lt;/strong&gt;: Aumenta el brillo de los objetos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Threshold&lt;/strong&gt;: Aumenta la tonalidad del brillo general en camara por cada nivel mas bajo.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Radio&lt;/strong&gt;: Aumenta o disminulle el radio de efecto del brillo desde cada objeto.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;color-gradient&#34;&gt;Color Gradient&lt;/h1&gt;
-
-&lt;p&gt;Es el mejor de los efectos, ya que permite controlar el aspecto general de nuestra imagen en terminos de color y exposicion.&lt;/p&gt;
-
-&lt;p&gt;Tocar todos los parametros, ya que son simples, como los 3 canales de colores o la intensidad&amp;hellip;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;user-lut&#34;&gt;User Lut&lt;/h1&gt;
-
-&lt;p&gt;Lookup Textura es una textura que se usa para sacar los colores genericos de una imagen y agregarlos a otra exactamente igual, esta textura se suele hacer en otros sitios como photoshop.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;chromatic-aberration&#34;&gt;Chromatic Aberration&lt;/h1&gt;
-
-&lt;p&gt;Este efecto simula distorsion crhomatica en los bordes de la pantalla, se le puede añadir una textura o no, hay ejemplos en la carpeta que viene con unity &amp;ldquo;Spectral LUTS&amp;rdquo;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;grain&#34;&gt;Grain&lt;/h1&gt;
-
-&lt;p&gt;Agrega un toque granulado a la escena.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;vignette&#34;&gt;Vignette&lt;/h1&gt;
-
-&lt;p&gt;Oscurece los bordes y esquinas de una imagen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;dithering&#34;&gt;Dithering&lt;/h1&gt;
-
-&lt;p&gt;Es la reduccion de bandas en areas de gradiente, mediante la introduccion de algunos controladores de ruida en la imagen.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Antes de nada, es precisa una customizacion rapida ya que Pros Proccesing Stack no esta integrado aun de forma natica en Unity.
+Primero en la camara, activar HDR y desactivar MSA, por otro lado tambien poner defered para aumentar el realismo de la iluminacion.
+Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por defecto de unity.
+Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.</description>
     </item>
     
     <item>
@@ -459,60 +106,8 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Thu, 04 May 2017 18:23:01 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/noticias/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;sorpresas-buenas&#34;&gt;Sorpresas buenas !!&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/mayo01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño del que recibe si llegas a dominarlo y encontrarle sus bondades. Si no, lo aborrecerás al momento. Al fin y al cabo, quedar encerrado en un mundo digital viviendo permanentemente tus tiempos de instituto para olvidar tu sufrimiento en el mundo real también genera un debate en muchas personas, por lo que le sienta bien que sea un título difícil de definir.&lt;/p&gt;
-
-&lt;p&gt;Disponible sólo en formato digital y en inglés, resultará un juego apto para todos los públicos, pero si tienes una Vita y quieres probar algo diferente, puede ser uno de tus descubrimientos del año&amp;hellip; o una de tus decepciones.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/mayo02.jpg&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Diez años después de su lanzamiento original, el cierre de la trilogía Trails in the Sky llega por fin a occidente, completamente en inglés, en formato digital y sin previsiones de que lo veamos en consolas, pero con la odisea que ha tenido que pasar su distribuidora XSeed para traérnoslo, la verdad es que resulta algo completamente perdonable.&lt;/p&gt;
-
-&lt;p&gt;Tened en cuenta que este título es diferente a sus predecesores y se centrará en una historia alternativa, de Kevin Graham y Ries Argent, encerrados en la mazmorra Phantomas, donde podrán revivir diferentes momentos de sus vidas y las de sus aliados. El juego sirve como epílogo que solvente muchas de las cuestiones abiertas de los dos anteriores títulos (también disponibles en PC) y nos enlace a los próximos acontecimientos de esta maravillosa región, que vivimos en los Trails of Cold Steel (disponibles en PlayStation 3, Vita y, próximamente, en PC) y Trails To Zero/Azure (nombres occidentales por confirmar, puesto que todavía no han sido localizados en nuestras regiones).&lt;/p&gt;
-
-&lt;p&gt;Evidentemente, si no habéis jugado a los dos primeros Trails in the Sky no es un título que podáis entender, pero en caso afirmativo, es de esos juegos que os permitirá conocer todavía más del maravilloso mundo de Zemuria.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/mayo03.jpg&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El mundo se ha quedado encerrado en un bucle que repite indefinidamente el mismo domingo y los únicos que pueden solventar esta situación es un grupo de adolescentes que sólo piensa en divertirse. Con esta trama dará partida este Akiba&amp;rsquo;s Beat, un título que nos llevará al barrio tecnológico de Akihabara, donde tendremos que investigar diferentes distorsiones que nos llevarán a mazmorras temáticas con un misterioso hombre de capa rosa dispuesto a anular nuestros esfuerzos.&lt;/p&gt;
-
-&lt;p&gt;El sistema de combate del título recordará a la serie Tales of (aunque muy inferior en varios aspectos), un aspecto técnico algo flojo, gran Banda Sonora (plagada de temas pop-rock-dance japonés), buen nivel artístico y una trama que tampoco aspirará a complicarse en demasía. El juego será interesante para los fans de la cultura nipona del manganime, aunque se quedará algo flojo como ARPG.&lt;/p&gt;
-
-&lt;p&gt;Nos llegará solo en inglés, pero si tenéis ganas de un título con ritmo propio que tampoco se toma muy en serio a sí mismo, puede ser el juego que estéis buscando.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/mayo04.jpg&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Tras los acontecimientos vividos en Operation Abyss: New Tokyo Legacy (PC/Vita), el Dungeon Crawler de Experience contará con esta secuela que nos obligará a enfrentarnos a un nuevo enemigo: el misterioso (y gigantesco) objeto llamado Embryo, que guarda muchos secretos y laberintos en su interior.&lt;/p&gt;
-
-&lt;p&gt;Como la mayor parte de este subgénero, en Operation Babel tendremos que crear nuestro propio grupo perfecto (con hasta seis miembros) de entre una serie de clases disponibles (que ahora podrán contar con sub-clases, lo que expandirá nuestras opciones) para afrontar los retos que nos esperan en una serie de mazmorras plagadas de enemigos y trampas que exploraremos con una vista en primera persona.&lt;/p&gt;
-
-&lt;p&gt;Una buena dificultad, textos en inglés y la necesidad de jugar al primero, si no queréis perderos un poco al comienzo, hace que necesitéis ciertos requisitos para que os interese este lanzamiento, pero si tenéis ganas de mazmorras complejas, podéis darle un oportunidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/mayo05.jpg&#34; alt=&#34;005&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Fire Emblem Echoes: Shadows of Valentia supone una revisión del clásico Fire Emblem Gaiden de Famicom que nunca salió de Japón, donde dos amigos deberán encontrar su propio camino para salvar su región.&lt;/p&gt;
-
-&lt;p&gt;Moviéndonos entre las historias de Alm y Celica, recorreremos Valentia de una forma bastante diferente a la que hemos podido explorar en los últimos juegos de la saga: en lugar de combates que marcan cada capítulo, tendremos la opción de seleccionar qué y cuántas batallas queremos luchar moviéndonos por el mapeado, a veces incluso con una vista en tercera persona, recorriendo mazmorras y poblados o investigando con vista en primera persona diferentes localizaciones.&lt;/p&gt;
-
-&lt;p&gt;Con el regreso del sistema clásico de daño entre armas, particularidades en el sistema de conjuros o arquería, equipo irrompible o la supresión de la posibilidad de emparejar a nuestros personajes, este título será un interesante experimento que mezclará elementos poco comunes en la franquicia, tanto clásicos como nuevos, con parte de lo que ha hecho que esta saga haya alcanzado la popularidad que tiene en la actualidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/juegos/mayo06.jpg&#34; alt=&#34;006&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Lanzado hace un par de años en PlayStation 4, Disgaea 5 llegará para expandir el todavía escueto catálogo de Nintendo Switch con una edición completa que incluye todo el contenido descargable del título, como personajes de los juegos anteriores de la serie, escenarios y clases extra.&lt;/p&gt;
-
-&lt;p&gt;Será, pues, la mejor versión para disfrutar de un SRPG complicado, con cientos de horas (opcionales) por delante, muchas posibilidades y el divertido sentido del humor clásico de la saga, lo que no evitará que haya una historia interesante por delante en este título, donde Killia deberá dirigir un ejército que se oponga al nuevo Overlord, Void Dark, que pretende dominar todos los mundos infernales.&lt;/p&gt;
-
-&lt;p&gt;Disgaea 5 ya fue de los SRPGs más interesantes el año de su lanzamiento, así que si os gusta el subgénero, no tenéis problemas con el inglés y queréis expandir vuestro catálogo de Switch, es un título muy interesante.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Sorpresas buenas !! 
+Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño del que recibe si llegas a dominarlo y encontrarle sus bondades. Si no, lo aborrecerás al momento. Al fin y al cabo, quedar encerrado en un mundo digital viviendo permanentemente tus tiempos de instituto para olvidar tu sufrimiento en el mundo real también genera un debate en muchas personas, por lo que le sienta bien que sea un título difícil de definir.</description>
     </item>
     
     <item>
@@ -521,18 +116,10 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Thu, 04 May 2017 18:12:24 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/006/</guid>
-      <description>
-
-&lt;h1 id=&#34;center-imagen-del-dia-04-05-2017-center-br&#34;&gt;&lt;center&gt;Imagen del dia [04.05.2017]&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/pinturadia/47.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Lagrimas de princesa&amp;rdquo;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.deviantart.com/art/Hello-Sister-676736634&#34;&gt;Sakimichan&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description> Imagen del dia [04.05.2017] 
+&amp;ldquo;Lagrimas de princesa&amp;rdquo;.
+ Sakimichan
+ </description>
     </item>
     
     <item>
@@ -541,298 +128,8 @@ Puedes hacer un &lt;strong&gt;degradado del color&lt;/strong&gt; desde cualquier
       <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;investigacion-rpg-tactico&#34;&gt;Investigacion RPG-Tactico&lt;/h1&gt;
-
-&lt;h2 id=&#34;qué-se-considera-combate-tactico&#34;&gt;¿Qué se considera combate tactico?&lt;/h2&gt;
-
-&lt;p&gt;La definicion de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.&lt;/p&gt;
-
-&lt;p&gt;El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.&lt;/p&gt;
-
-&lt;p&gt;Un combate tactico es una mezcla entre el primer y segundo parrafo.&lt;/p&gt;
-
-&lt;h2 id=&#34;atributos-de-un-personaje&#34;&gt;Atributos de un personaje&lt;/h2&gt;
-
-&lt;p&gt;Los atributos de los personajes representan una parte vital en el diseño de un sistema de combate. Muchas veces se tiende a tomar como referencia un sistema que ya existe como base y realizar pequeños cambios para adaptarlo a las necesidades del proyecto. Sin embargo, entender el porqué de esos atributos nos dará la posibilidad de crear un sistema único y más rico.&lt;/p&gt;
-
-&lt;p&gt;Antes de centrarse en los atributos debemos centrarnos en el sistema de combate y, concretamente, en &lt;strong&gt;qué partes del mismo van a ser invariables y cuáles van a depender de los personajes&lt;/strong&gt;. Por ejemplo, los turnos pueden estar fijados (primero aliados, luego enemigos) o pueden depender de la velocidad de los personajes; en el primer caso será una constante, mientras que en el segundo habría un atributo que afecta al orden del turno (independientemente de si lo llamamos velocidad o no).&lt;/p&gt;
-
-&lt;p&gt;Algunas variables que podemos tener en cuenta son: vida máxima, energía (maná o equivalente), orden de turnos, daño infligido (posibilidad de separar según elementos o fuente), daño reducido (porcentaje, logarítmico, etc.), probabilidad de acierto o esquiva, probabilidad de crítico y multiplicador, resistencias elementales, etc&amp;hellip; Muchas de ellas pueden no aparecer en ciertos juegos y otras pueden fijarse en diseño, las que resten serán probablemente atributos de los personajes.&lt;/p&gt;
-
-&lt;p&gt;Cabe destacar que una variable como el daño no tiene por qué estar influenciada por un único atributo como pueda ser la fuerza física del personaje, puede también ser una combinación de varios atributos y equipo. Es conveniente tener en cuenta esto cuando el juego permite al jugador distribuir puntos en sus atributos, ya que puede producir que el jugador especialice sus personajes en un número reducido de atributos o haga una distribución más esparcida; aunque conocer esto requiere un estudio más específico de las fórmulas implicadas.&lt;/p&gt;
-
-&lt;h2 id=&#34;representación-numérica&#34;&gt;Representación numérica&lt;/h2&gt;
-
-&lt;p&gt;La forma en la que se muestra la información al jugador es vital para transmitir ciertas sensaciones al jugador. Una parte vital en un combate son los indicadores de vida y/o energía que se muestran al jugador, que al ser valores numéricos suelen mostrarse con números o barras.&lt;/p&gt;
-
-&lt;p&gt;A continuación se muestran algunas formas de representación junto con sus ventajas y desventajas. Es conveniente destacar que no siempre se usa la misma representación para los datos de los aliados y los enemigos, ya que en muchos juegos se limita la información sobre los enemigos.&lt;/p&gt;
-
-&lt;h2 id=&#34;números-grandes-vs-números-pequeños&#34;&gt;Números grandes vs números pequeños&lt;/h2&gt;
-
-&lt;p&gt;A la hora de diseñar un sistema de combate o una progresión numérica tenemos que tener en cuenta si vamos a usar números más grandes o más pequeños. No existe un valor específico a partir del cual podemos considerar un número grande o pequeño, pero sí hay ciertas condiciones que se cumplen al usar unos u otros.&lt;/p&gt;
-
-&lt;p&gt;Los números grandes suelen dar sensación de epicidad; un ataque en el cual aparezca un número largo va a parecer mucho más potente que uno en el que aparezca un número más corto, independientemente del porcentaje del total de vida que inflija. Un jugador tendrá muy complicado realizar cálculos con números elevados y tenderá a obviar todos los dígitos salvo los dos o tres primeros, lo que hará que el combate parezca más aleatorio y difícil de predecir.&lt;/p&gt;
-
-&lt;p&gt;Por el contrario los números pequeños, aunque carecen de esa sensación de poder, se usan para establecer al jugador el control de la situación en todo momento. El uso de cálculos más simples permite al jugador adelantarse varios turnos al resultado y, por tanto, dan un enfoque más estratégico al combate.&lt;/p&gt;
-
-&lt;p&gt;Como se ha mencionado anteriormente, no existe una línea que separe los números grandes de los pequeños, por lo que para cada juego debemos definir qué números vamos a usar y según las fórmulas que dispongamos veremos qué sensación producen y si hay que aumentar el rango o disminuirlo.&lt;/p&gt;
-
-&lt;h2 id=&#34;porcentajes&#34;&gt;Porcentajes&lt;/h2&gt;
-
-&lt;p&gt;Usar porcentajes permite al jugador centrarse en números más pequeños y mantener un control más directo de los eventos que ocurren en el combate. Sin embargo, al ser un número decimal (ya esté representado como entero o con dos dígitos decimales) dificulta realizar cálculos al vuelo y el redondeo puede dar cierta sensación de aleatoriedad.&lt;/p&gt;
-
-&lt;h2 id=&#34;barras&#34;&gt;Barras&lt;/h2&gt;
-
-&lt;p&gt;En ciertos casos se puede optar por no mostrar ningún número y dejar simplemente una barra. Esta forma de representación suele provocar que el jugador tenga que depender de su agudeza visual para realizar sus cálculos, lo que hará que sea más errático e impredecible. En el caso de que una barra de vida necesite muchos golpes para vaciarse puede causar cierta angustia.&lt;/p&gt;
-
-&lt;h2 id=&#34;otras-formas-de-representación&#34;&gt;Otras formas de representación&lt;/h2&gt;
-
-&lt;p&gt;En algunos juegos se usan textos para indicar el estado vital de un personaje, por ejemplo: “Malherido” o “Moribundo”. También existe la posibilidad de no mostrar absolutamente ningún indicativo al jugador. Estas opciones pueden aumentar la incertidumbre del jugador; esto provocará que juegue más a la defensiva si los enemigos tienen un alto índice de supervivencia o muy ofensivo si los enemigos mueren rápido.&lt;/p&gt;
-
-&lt;h2 id=&#34;el-aleatorio&#34;&gt;El Aleatorio&lt;/h2&gt;
-
-&lt;p&gt;En un gran porcentaje de juegos existe una variación aleatoria ya sea en determinar los resultados de ciertas acciones, en la generación procedural del mundo o en el comportamiento de la inteligencia artificial.&lt;/p&gt;
-
-&lt;p&gt;Sin embargo, los valores aleatorios no existen en computación tradicional (esto puede quedar obsoleto con la llegada de la computación cuántica u otras tecnologías) y para generar valores arbitrarios se utilizan algoritmos de generación de números pseudoaleatorios.&lt;/p&gt;
-
-&lt;p&gt;Aunque a día de hoy la mayoría de generadores aleatorios realizan bastante bien su trabajo es conveniente estudiar sus propiedades y conocer cuál se va a usar en un juego. Entre otras propiedades podemos destacar:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;La velocidad del algoritmo: generar un número aleatorio lleva un coste computacional y en juegos donde se requiera una cantidad elevada de los mismos es conveniente considerar la velocidad por encima de la calidad para asegurar un gameplay fluido.&lt;/li&gt;
-&lt;li&gt;Distribución de los números: en un generador ideal todos los números dentro del rango de posibilidades deben tener la misma probabilidad de ser generados. Hay algunos algoritmos donde números como el cero pueden no aparecer en absoluto.&lt;/li&gt;
-&lt;li&gt;Distribución entre grupos: dado tres grupos (números pequeños, números intermedios y números grandes), en un caso idílico tras un número de un grupo existen las mismas posibilidades de generar un número de cualquiera de los otros grupos. Antiguamente, algunos algoritmos tendían a generar un número grande tras un número pequeño y viceversa, lo que hace que el jugador pueda prever el resultado de un evento aleatorio.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cuando el algoritmo que se usa no realiza una distribución correcta hay que estudiar bien las repercusiones que tendrá estadísticamente en el gameplay y cómo podemos usarlo para mejorar la experiencia del jugador.&lt;/p&gt;
-
-&lt;p&gt;En aplicaciones multiplataforma es común que cada una de las plataformas tenga su propio generador aleatorio implementado.&lt;/p&gt;
-
-&lt;h2 id=&#34;cuándo-y-cómo-usarlo&#34;&gt;¿Cuándo y cómo usarlo?&lt;/h2&gt;
-
-&lt;p&gt;Añadir un factor variable al combate lo hace siempre más errático. En última instancia cada variable aleatoria añade una capa de complejidad a la estrategia que ha de usar el jugador y hace más difícil adelantarse a los acontecimientos.&lt;/p&gt;
-
-&lt;p&gt;En combates de larga duración un factor aleatorio se ejecuta más veces y por tanto tendrá una tendencia, mientras que en combates más cortos la repercusión es mucho mayor.&lt;/p&gt;
-
-&lt;p&gt;Usos frecuentes del aleatorio son:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Elegir contra qué grupo de enemigos se enfrenta el jugador.&lt;/li&gt;
-&lt;li&gt;Realizar una variación en el daño infligido, por ejemplo +/- 10%.&lt;/li&gt;
-&lt;li&gt;Probabilidad de esquiva y crítico.&lt;/li&gt;
-&lt;li&gt;Inteligencia artificial de los enemigos.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cada vez que apliquemos el aleatorio debemos tener en cuenta la repercusión que tendrá, ya que forzar al jugador a depender de él para ganar una batalla podría suponer mucha frustración, mientras que no usar ningún tipo de aleatorio puede derivar en combates muy previsibles y puede aburrir a un jugador que busque una experiencia menos estratégica.&lt;/p&gt;
-
-&lt;h2 id=&#34;savescum-como-metamecánica&#34;&gt;Savescum como metamecánica&lt;/h2&gt;
-
-&lt;p&gt;Se conoce como savescum al abuso del sistema de guardar/cargar partida para alterar el siguiente valor aleatorio. Aunque muchos puedan considerar savescum como un bug o un error de diseño no tiene necesariamente por qué serlo.&lt;/p&gt;
-
-&lt;p&gt;¿Alguna vez has llegado a un punto en el juego donde todo depende del resultado de una única acción? Ese momento donde si no consigues acertar tienes que reiniciar horas y horas de juego. Pues bien, ahí es cuando un jugador puede dejar ese juego de lado por evitar invertir su valioso tiempo en volver a pasarse una sección concreta, a no ser que pueda salvarse cargando la partida y volviendo a intentar esa acción.&lt;/p&gt;
-
-&lt;p&gt;Hay gente que argumentará que dejar una vía de savescum llevará al jugador a guardar y cargar hasta que todos los resultados salgan como quiere. Yo opino que la mayoría no perderá el tiempo salvo en decisiones realmente vitales, pero oye, si lo hacen es porque quieren jugar así al juego, así que tampoco veo un problema.&lt;/p&gt;
-
-&lt;p&gt;Ahora bien, es posible que la experiencia de juego busque ser más dura con el jugador o que sea importante arrastrar esos fallos durante la historia para transmitir ciertas sensaciones. En ese caso deberíamos deshacernos del savescum. ¿Cómo hacemos eso? Lo más fácil es guardar la semilla del generador aleatorio junto con los datos del juego y cargar siempre la misma semilla.&lt;/p&gt;
-
-&lt;p&gt;En juegos más complejos guardar la semilla no siempre da los resultados que queremos. Si puedes seleccionar una acción distinta que no requiera aleatorio estás guardando ese valor para el siguiente, que bien podría ser el ataque de un enemigo. O en el caso de poder seleccionar qué personaje usar podrías decidir quién se queda con la “mala tirada”. Por suerte hay alternativas: usar un generador aleatorio por personaje es la más simple de ellas; el resto depende del proyecto y la creatividad que tenga el equipo.&lt;/p&gt;
-
-&lt;p&gt;También es importante destacar que el savescum puede afectar a cualquier resultado aleatorio, no solamente a resultados de las acciones del jugador. Algunos casos son: encuentros aleatorios, comportamientos de enemigos, objetos aleatorios de un cofre, subidas de nivel que dependan del aleatorio, … Conviene revisar qué savescums es necesario evitar y cuáles se pueden dejar pasar.&lt;/p&gt;
-
-&lt;p&gt;En casos en los que se bloquee el uso de savescums es necesario asegurarse que el jugador no puede quedar atascado y tener que reiniciar el juego desde cero o una sección larga. El uso de autoguardado en varios slots es una forma bastante buena para resolver este inconveniente.&lt;/p&gt;
-
-&lt;p&gt;Al final, decidir qué savescums hay que bloquear y cuáles se pueden (o se quieren) dejar usar va a depender del tipo de juego en cuestión y del público al que va dirigido. Por ejemplo, un juego con permadeath por diseño evitará lo máximo posible los savescums, mientras que otro en cuyo público potencial hay speedrunners puede ser más permisivo.&lt;/p&gt;
-
-&lt;h2 id=&#34;progresión-del-juego&#34;&gt;Progresión del juego&lt;/h2&gt;
-
-&lt;p&gt;En la mayoría de juegos de rol existe una progresión de poder en los personajes y enemigos envueltos en el combate. La forma de progresión más habitual es el crecimiento de los atributos de los personajes cuando suben de nivel o cuando se alcanza cierto punto en el juego.&lt;/p&gt;
-
-&lt;p&gt;Estas fórmulas se pueden usar para aumentar los atributos o, en caso de que el jugador pudiera decidir qué atributos suben, el número de puntos disponibles o el coste de cada atributo según su valor actual.&lt;/p&gt;
-
-&lt;p&gt;Al usar estas fórmulas siempre podemos combinarlas entre sí o modificarlas sumando valores o multiplicando el resultado o, en general, usando cualquier operación que veamos apropiada. Siempre hay que recordar que el crecimiento de una función matemática viene determinado por el mayor crecimiento dentro de sus términos.&lt;/p&gt;
-
-&lt;p&gt;Las diferentes progresiones que aparecen a continuación son sólo algunos ejemplos existentes. Es más, es posible incluso combinar diferentes progresiones en el mismo juego; por ejemplo: progresión lineal al subir de nivel y unos valores prefijados cuando el personaje llega a cierto punto en la historia.&lt;/p&gt;
-
-&lt;h2 id=&#34;progresiones-matemáticas&#34;&gt;Progresiones matemáticas&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Progresión lineal &lt;strong&gt;[y=x]&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG001.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La progresión lineal es aquella en la que en cada nivel los atributos se incrementan en un valor fijo. Es una progresión sencilla que deja entrever fácilmente las repercusiones de una subida de nivel.
-Cabe destacar que no es obligatorio usar valores enteros (por ejemplo: +2 por nivel) y el uso de decimales como +1,5 por nivel daría como resultado que en niveles impares un atributo entero suba 1 punto y en niveles pares 2 puntos.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Progresión exponencial &lt;strong&gt;[y=x^a]&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG002.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;En una progresión exponencial (y=x^a) el crecimiento se va acelerando si a &amp;gt; 1 y decelerando si 0 &amp;lt; a &amp;lt; 1, siendo a el exponente. En el caso de que a fuese 1 estaríamos hablando de una progresión lineal.&lt;/p&gt;
-
-&lt;p&gt;En la imagen podemos observar en azul y=x², en rojo y=x^1.2 y en verde y=x^0.5 (raíz cuadrada de x).&lt;/p&gt;
-
-&lt;p&gt;En el caso de crecimiento acelerado los valores comenzarán siendo pequeños dándole cierto control al jugador y acabarán siendo bastante grandes y generando sensación de epicidad. Una subida de nivel en una progresión exponencial acelerada supone un incremento sustancial en los atributos.&lt;/p&gt;
-
-&lt;p&gt;Mientras tanto, con crecimiento decelerado los primeros niveles son los que suponen el mayor incremento de atributos y las subidas de nivel posteriores tienen menos importancia. Como el crecimiento es menor en niveles altos pone el foco en la estrategia en lugar de la fuerza bruta.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Progresión logarítmica &lt;strong&gt;[y=ln(x)]&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG003.png&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;En las progresiones logarítmicas vemos una aceleración no uniforme en la que la mayor progresión se realiza en los primeros niveles y se estabiliza muy pronto manteniendo un crecimiento bajo. En cierto modo el jugador las percibirá de manera similar a las exponenciales con el exponente menor que 1.&lt;/p&gt;
-
-&lt;p&gt;El crecimiento de un logaritmo se puede personalizar cambiando la base del mismo (véase diferencia entre logaritmo en base 10 y logaritmo neperiano).&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Series matemáticas&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Existen a su vez numerosas series matemáticas que podemos usar y que no siguen una fórmula concreta. Un ejemplo podría ser la serie de Fibonacci, donde se suman los dos últimos números obtenidos en la serie para calcular el siguiente dando el siguiente resultado: 1, 1, 2, 3, 5, 8, 13, 21, 34, …&lt;/p&gt;
-
-&lt;p&gt;Otro ejemplo podría ser sumar la mitad menos 1 del número obtenido anteriormente: 10, 14, 20, 29, 42, 62, …&lt;/p&gt;
-
-&lt;p&gt;Hay que tener cuidado con ciertas series matemáticas ya que hay algunas que computacionalmente necesitan hacerse de manera recursiva y pueden llegar a suponer una sobrecarga en el procesador si se buscan números frecuentemente.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Crecimiento aleatorio&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Una forma de aumentar los atributos es sumar un valor aleatorio en un rango determinado por nivel.&lt;/p&gt;
-
-&lt;p&gt;En este caso, para un número elevado de niveles, podremos inferir un valor en alto nivel a través de una aproximación estadística. Por ejemplo: si cada nivel un atributo sube 1, 2 o 3 puntos estadísticamente en un punto infinito habrá subido 2 ([1+2+3]/3) puntos por nivel. Sin embargo, en un número finito y reducido podemos encontrarnos con que los jugadores pueden experimentar más resultados pequeños produciendo personajes más débiles o una mayor concentración de resultados altos con personajes más poderosos.&lt;/p&gt;
-
-&lt;p&gt;Es posible que el jugador experimente mala suerte en el aleatorio y un mal crecimiento irreversible de uno o varios personajes, lo cual le puede llevar a frustrarse enormemente. En el caso de que busquemos una tendencia uniforme podemos balancear el aleatorio hacia un valor central. Esto se puede hacer aumentando la probabilidad de obtener un valor aleatorio mayor cuando el valor del atributo esté por debajo del esperado o tender hacia números menores en el caso contrario. En ocasiones es útil considerar si debemos balancear sólo positivamente para evitar una posible frustración al jugador a pesar de que los personajes resultantes estadísticamente serán más poderosos.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Progresiones no-matemáticas&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Existe también la posibilidad de usar progresiones que no se pueden traducir a una fórmula. El caso más común es usar una serie de valores prefijados por cada nivel.&lt;/p&gt;
-
-&lt;p&gt;Si queremos dotar al jugador de control sobre el juego sería conveniente mostrarle la tabla de crecimiento apropiada ya sea dentro del propio juego o en un manual o web accesible.&lt;/p&gt;
-
-&lt;h2 id=&#34;curva-de-dificultad&#34;&gt;Curva de dificultad&lt;/h2&gt;
-
-&lt;p&gt;No es normal en un juego que sólo los personajes aliados crezcan en poder, eso haría que la dificultad del juego disminuyese progresivamente. Lo más habitual es que la dificultad tienda a crecer conforme el jugador avanza y por ello los enemigos se hacen más fuertes o aparecen enemigos más poderosos.&lt;/p&gt;
-
-&lt;p&gt;Uno de los puntos más difíciles de balancear al hacer un combate por turnos. Para facilitar esto podemos calcular la curva de dificultad. El valor de la dificultad se puede obtener restando al crecimiento de los enemigos el de los personajes aliados y el crecimiento de la dificultad se calcula como la división entre las progresiones de los enemigos y los aliados. Nótese que los enemigos deben tener un crecimiento mayor para que la dificultad aumente. A continuación un ejemplo:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/Dev/invRPG004.png&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Suponemos un crecimiento de m&lt;em&gt;(Log(x+1,3)+10) (en verde) para los atributos de los personajes del jugador, donde m es un multiplicador (un bárbaro tiene más fuerza que un mago, por ejemplo). El crecimiento de los enemigos es m&lt;/em&gt;(x^0.7+5) (en rojo). Con esos datos obtenemos la dificultad (en azul) y su crecimiento (en azul claro).&lt;/p&gt;
-
-&lt;p&gt;Podemos observar en la gráfica que existe un punto de inflexión donde los enemigos pasan a ser más poderosos que el jugador; dependiendo de la dificultad general del juego ese punto puede ser el final del tutorial o el punto a partir del cual el jugador necesita de estrategia para vencer a cada oponente.&lt;/p&gt;
-
-&lt;h2 id=&#34;progresión-variable-objetos-y-habilidades&#34;&gt;Progresión variable: objetos y habilidades&lt;/h2&gt;
-
-&lt;p&gt;El efecto que produce el equipo o las habilidades de los personajes en el combate puede tener un factor más que determinante en la dificultad del mismo. Instancias donde un equipo de un valor o bonificador percentual concreto y esté accesible a partir de cierto nivel o cierto punto en la historia son fáciles de calcular, ya que basta con agruparlos en una fórmula y sumarlos a la fórmula de progresión del jugador.&lt;/p&gt;
-
-&lt;p&gt;Sin embargo, hay casos en los que determinar el impacto de una habilidad que, por ejemplo, haga daño según el dinero acumulado o tenga una fórmula especialmente compleja o con gran factor aleatorio hacen que los cálculos sean tremendamente complicados o imposibles. También puede ser darse la misma situación cuando usamos estados alterados muy variopintos y con cierta frecuencia en el combate.&lt;/p&gt;
-
-&lt;p&gt;Para simplificar el tema, debemos suponer que siempre que el jugador tenga acceso a objetos, equipos o habilidades muy dispares la progresión será mayor de lo esperado y, por lo tanto, la curva dificultad se verá afectada.&lt;/p&gt;
-
-&lt;h2 id=&#34;efecto-de-la-ia-en-la-dificultad&#34;&gt;Efecto de la IA en la dificultad&lt;/h2&gt;
-
-&lt;p&gt;La inteligencia artificial de los personajes controlador por el ordenador tiene un gran efecto en la dificultad del juego. Determinar el factor exacto en el cual afecta es una tarea que puede requerir muchísima destreza matemática pero podemos tomar una aproximación.&lt;/p&gt;
-
-&lt;p&gt;Sabemos que en todo turno hay una acción a ejecutar por la IA que asegura la mayor posibilidad de ganar el combate (o de dejar al jugador en peores condiciones para el siguiente); a dicha acción la llamaremos acierto y al resto fallo. Con esto en mente podemos determinar el porcentaje de acierto de una IA; por ejemplo, si los enemigos usan arbitrariamente una acción de cuatro que tienen disponibles, la IA tendrá un 25% de acierto. En casos con inteligencia artificial más avanzada es conveniente aproximar un porcentaje de acierto para tenerlo en cuenta. Y, en el caso de que el combate incluya varios personajes por cada equipo, tendremos que tener en cuenta también en el acierto si ejecuta la acción contra el objetivo apropiado.&lt;/p&gt;
-
-&lt;p&gt;Determinar si la dificultad aumenta o disminuye una vez conocemos el porcentaje de acierto es imposible, ya que debemos compararlo con la estrategia que use el jugador. Si el porcentaje de acierto del jugador es menor que el de la IA la dificultad se verá aumentada y viceversa.&lt;/p&gt;
-
-&lt;p&gt;Aunque una acción se considere como fallo sigue teniendo un efecto en el combate por lo que balancear enemigos individuales se convierte en un tema más complejo.&lt;/p&gt;
-
-&lt;h2 id=&#34;técnicas-de-balance-de-dificultad&#34;&gt;Técnicas de balance de dificultad&lt;/h2&gt;
-
-&lt;p&gt;Lo mejor para asegurar que el juego está balanceado es asegurarse de que partimos de una progresión como las que se han descrito anteriormente. Técnicamente, si un punto en un atributo vale lo mismo que un punto en otro, es decir, tienen la misma repercusión en el combate, el juego estará completamente balanceado. Sin embargo este no suele el caso, por lo que debemos tomar cartas en el asunto.&lt;/p&gt;
-
-&lt;p&gt;El mejor método con diferencia es “prueba y error”. Como su nombre indica, consiste en probar todos los casos posibles y determinar cuándo un enemigo es demasiado poderoso o demasiado débil y corregir los valores que se consideren oportunos. Por supuesto el problema aparece con la gran cantidad de horas humanas que se tienen que invertir, por ello se proponen otras técnicas automatizadas.&lt;/p&gt;
-
-&lt;h2 id=&#34;comparación-entre-enemigos&#34;&gt;Comparación entre enemigos&lt;/h2&gt;
-
-&lt;p&gt;Para determinar si, efectivamente, la fuerza de los enemigos es progresivamente mayor podemos recurrir a comparar cada uno de los enemigos con todos los demás. Si la IA o el propio combate tienen un factor aleatorio debemos hacer varios combates para hallar una estadística para cada enemigo.&lt;/p&gt;
-
-&lt;p&gt;En un caso idílico dicha comparación nos dará que para cualquier enemigo el porcentaje de victoria con enemigos de menor nivel será mayor del 50% y subirá según la diferencia de nivel. Justo lo contrario contra enemigos de mayor nivel.&lt;/p&gt;
-
-&lt;p&gt;Por desgracia, los casos idílicos y las situaciones perfectas se darán en contadas ocasiones. Cualquier factor aleatorio, que un enemigo sea especialmente fuerte contra otro o que estés comparando un boss con un enemigo común, entre otras circunstancias, pueden provocar fuertes variaciones en el porcentaje de victorias.&lt;/p&gt;
-
-&lt;p&gt;Como resultado de todo lo mencionado anteriormente: esta técnica puede usarse para comparar enemigos comunes (excluyendo bosses, minibosses y demás) y asegurarse que no hay ninguno especialmente desbalanceado.&lt;/p&gt;
-
-&lt;h2 id=&#34;autobalance-genético&#34;&gt;Autobalance genético&lt;/h2&gt;
-
-&lt;p&gt;Se trata de un método técnicamente muy complejo pero que puede adaptarse para conseguir cualquier resultado que se busque. Al ser una técnica que requiere el apoyo de un programador hábil versado en el uso de algoritmos genéticos u otras técnicas de inteligencia artificial avanzadas sólo se darán unas pautas concretas.&lt;/p&gt;
-
-&lt;p&gt;Para cada enemigo (o grupo de ellos según nivel) se toma un grupo de aliados (o aliado) al que se prevé que se enfrentarán según su nivel o posición en la trama. Para conseguir el mejor efecto los enemigos deben tener inicialmente unos valores exagerando sus virtudes y defectos.&lt;/p&gt;
-
-&lt;p&gt;El algoritmo genético (u otro elegido por el programador) comenzará a realizar simulaciones de combate y aproximando los atributos de los enemigos hasta que la batalla contra el grupo de aliados propuesto se acerque lo máximo posible a un empate.&lt;/p&gt;
-
-&lt;p&gt;A partir de ese momento se pueden usar modificadores porcentuales para hacer a ciertos enemigos más o menos poderosos (como minibosses).&lt;/p&gt;
-
-&lt;h2 id=&#34;fórmulas-de-ataque-defensa&#34;&gt;Fórmulas de ataque/defensa&lt;/h2&gt;
-
-&lt;p&gt;Existen multitud de fórmulas que podemos usar para determinar los efectos de las habilidades o ataques y, seguramente, tendrán un gran impacto en el juego. Por esto es importantísimo tener en cuenta los siguientes detalles:
-&amp;gt;* Cuando una habilidad puede fallar y tiene un porcentaje de acierto, estadísticamente el daño de esa habilidad es el daño total multiplicado por el porcentaje de acierto. El riesgo de usar esa habilidad depende del porcentaje de fallo.
-* El valor del daño puede calcularse a partir de valores de ataque y defensa de los personajes y puede tener un crecimiento distinto a la vida de los mismos. Por ejemplo, si los atributos crecen de manera lineal, la vida se calcula como el cuadrado de uno de los atributos y el daño como el atributo de fuerza elevado a 1.5; veremos cómo el número de ataques necesarios para acabar con un personaje aumenta conforme crece el nivel.
-* Fórmulas sencillas como [daño=ataque-defensa] permiten al jugador prever el resultado y hace el combate más estratégico, mientras que fórmulas que presenten variaciones aleatorias o fórmulas más complejas lo hacen más errático e imprevisible.
-* Es interesante determinar el número de turnos que un ataque básico necesita para acabar con un personaje. Este número nos da una idea de la longitud del combate y podremos estimar si será muy tedioso y forzará al jugador a usar habilidades más poderosas para no aburrirse o si es demasiado corto. Para un RPG por turnos clásicos números entre 2 y 10 son habituales, mientras que el número puede ser mayor en juegos más dinámicos.
-* Si usamos una fórmula como [daño=ataque-defensa], ataque y defensa pueden ser valores calculados a partir de muchos atributos, variables o variaciones aleatorias, no tienen por qué ser necesariamente un único atributo.
-* Existe la posibilidad de usar la defensa como una reducción porcentual de daño. En ese caso necesitamos una fórmula para calcularlo. Si la defensa base tiene un límite fijo podemos usar un logaritmo o una fórmula exponencial por ejemplo, mientras que si puede crecer indefinidamente es recomendable que la propia fórmula tenga un límite para evitar una reducción completa del daño a partir de cierto valor de defensa.&lt;/p&gt;
-
-&lt;p&gt;Independientemente de las decisiones que se tomen es especialmente útil comprobar valores medios y extremos en una hoja de cálculo para asegurarse de que las fórmulas elegidas funcionan según lo esperado.&lt;/p&gt;
-
-&lt;h2 id=&#34;tempo&#34;&gt;Tempo&lt;/h2&gt;
-
-&lt;p&gt;La forma en la que ejecutamos los turnos es una parte vital dentro del diseño de un combate por turnos. Según el método que utilicemos podremos observar un combate más estratégico y pausado o mucho más dinámico y caótico.&lt;/p&gt;
-
-&lt;h2 id=&#34;turnos-por-equipo&#34;&gt;Turnos por equipo&lt;/h2&gt;
-
-&lt;p&gt;Es la variante más pausada y estratégica ya que da al jugador todo el tiempo que necesite para plantearse las acciones de los personajes que controla y sus consecuencias.&lt;/p&gt;
-
-&lt;p&gt;Existen un par de variaciones que pueden usarse en estos casos:
-&amp;gt;* Turnos libres: el jugador puede seleccionar unidades y realizar turnos individuales libremente en el orden que elija. Esto aumenta el factor estratégico especialmente cuando las acciones de un personaje alteran las posibilidades del siguiente o existen combinaciones que favorezcan un orden concreto de habilidades.
-* Turnos prefijados: el orden de los turnos dentro de un equipo está prefijado o se fija al inicio del turno. Mientras que puede dar lugar a factores estratégicos interesantes hay que tener cuidado porque no poder seleccionar el orden puede frustrar al jugador.
-* Puntos de comando: el jugador tiene a su disposición un número de puntos de comandos cada turno y puede usarlos para usar habilidades de los personajes o activar turnos de los mismos. Esta fórmula puede o no permitir turnos dobles de un personaje.&lt;/p&gt;
-
-&lt;h2 id=&#34;combate-por-turnos-puro&#34;&gt;Combate por turnos puro&lt;/h2&gt;
-
-&lt;p&gt;En un combate por turnos puro el orden de los turnos viene prefijado al inicio del combate (normalmente usando un atributo que marca la velocidad en combate) y es inalterable a lo largo del mismo. Los turnos se comportan de manera cíclica.&lt;/p&gt;
-
-&lt;p&gt;Existe la posibilidad de mostrar al jugador el orden de turnos durante el combate, esto hace que tenga la posibilidad de elaborar estrategias más complejas.&lt;/p&gt;
-
-&lt;p&gt;Este sistema presenta más dinamicidad que los turnos por equipo.&lt;/p&gt;
-
-&lt;h2 id=&#34;alterar-el-orden-de-turnos&#34;&gt;Alterar el orden de turnos&lt;/h2&gt;
-
-&lt;p&gt;Podemos tomar como base un combate por turnos puro y alterar durante el combate el orden de dichos turnos. Una forma de hacerlo es añadir a cada habilidad un coste de tiempo o energía y hacer que cuanto mayor sea ese valor más tarde recibirá el personaje su turno.&lt;/p&gt;
-
-&lt;p&gt;También es posible que el orden de los turnos cambia cuando un personaje resulta paralizado o cambia su velocidad.&lt;/p&gt;
-
-&lt;p&gt;Uno de los problemas de alterar el orden de los turnos es que puedan existir turnos dobles para algunos personajes. Es conveniente barajar si puede existir o no esa posibilidad si se decide alterar el orden.&lt;/p&gt;
-
-&lt;h2 id=&#34;combate-por-turnos-activo&#34;&gt;Combate por turnos activo&lt;/h2&gt;
-
-&lt;p&gt;En el combate por turnos activo existe una barra (visible o no) por cada personaje que va rellenándose en función de su velocidad (o valor calculado equivalente). Cuando dicha barra se llena el personaje puede realizar su turno.&lt;/p&gt;
-
-&lt;p&gt;Los cambios en la velocidad afectan instantáneamente al combate desde el momento que son aplicados y alterarán el orden de turnos consiguientemente.&lt;/p&gt;
-
-&lt;p&gt;Mientras el jugador está seleccionando una acción las barras de turno pueden o no incrementarse. Si lo hacen puede haber turnos “simultáneos”. En el caso de que dos personajes del jugador estén activos al mismo tiempo se puede dotar al jugador la posibilidad de seleccionar con cuál de ellos actuar, alterando así el orden de turnos.&lt;/p&gt;
-
-&lt;p&gt;Cuando llega el turno de un enemigo mientras el jugador está seleccionando la acción de uno de sus personajes, el enemigo puede actuar instantáneamente (modo activo) o puede esperar a que el jugador seleccione la acción y se ejecute (modo espera).&lt;/p&gt;
-
-&lt;p&gt;El combate por turnos activo en modo activo es la variante del combate por turnos más dinámica y, para muchos jugadores, ni siquiera es considerada como combate por turnos. Mientras que en modo espera sí se mantiene la sensación del turno en su totalidad.
- &lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Investigacion RPG-Tactico ¿Qué se considera combate tactico? La definicion de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.
+El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.</description>
     </item>
     
     <item>
@@ -841,29 +138,9 @@ Cabe destacar que no es obligatorio usar valores enteros (por ejemplo: +2 por ni
       <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/008/</guid>
-      <description>
-
-&lt;h1 id=&#34;diario-glitch-1&#34;&gt;Diario Glitch #1&lt;/h1&gt;
-
-&lt;p&gt;Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.&lt;/p&gt;
-
-&lt;p&gt;Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion.
-Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.&lt;/p&gt;
-
-&lt;p&gt;Generalmente, como siempre hago, creare un tablero &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; y seguire una metodologia kanban scrum.&lt;/p&gt;
-
-&lt;p&gt;Con la gestion realizara y la estimacion de tiempo presente, iniciare la documentacion especifica, usando como nube GD, para una mayor integracion con Trello.&lt;/p&gt;
-
-&lt;p&gt;La documentacion la estoy dividiendo en 3 partes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. Propuesta&lt;/li&gt;
-&lt;li&gt;2. DDJ&lt;/li&gt;
-&lt;li&gt;3. Manual de Juego&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Por hoy, ya que la propuesta esta entregada, empezare a crear el DDJ y la creacion de Trello.&lt;/p&gt;
-</description>
+      <description>Diario Glitch #1 Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.
+Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion. Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.
+Generalmente, como siempre hago, creare un tablero Trello y seguire una metodologia kanban scrum.</description>
     </item>
     
     <item>
@@ -872,35 +149,11 @@ Asignare 1 semana para la creacion de la documentacion inicial y otra para el de
       <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/007/</guid>
-      <description>&lt;p&gt;Al final del proceso de implementacion de la escena, bakear los elementos que se quieran navegar.&lt;/p&gt;
-
-&lt;p&gt;Abrir el inspector Navigation.&lt;/p&gt;
-
-&lt;p&gt;Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos vavegables.&lt;/p&gt;
-
-&lt;p&gt;Bake para bakear la escena.&lt;/p&gt;
-
-&lt;p&gt;Areas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rapido.&lt;/p&gt;
-
-&lt;p&gt;Sobre el Terrain, nunca crear el navMesh.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;En ultimo caso, si es necesario usar el terrain, Crear planos invisibles encima de la malla del terrain y con ellos bakear los planos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Los agentes tienen que ser mas pequeños que el radio minimo del nav.&lt;/p&gt;
-
-&lt;p&gt;Los parametros del bake son:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Agent Radius: Radio de los agentes&lt;/li&gt;
-&lt;li&gt;Agent Height: Altura maxima de los agentes&lt;/li&gt;
-&lt;li&gt;Max Slope: Maximo de inclinacion de rampas&lt;/li&gt;
-&lt;li&gt;Step Height: Altura de los pasos&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Al final del proceso de implementacion de la escena, bakear los elementos que se quieran navegar.
+Abrir el inspector Navigation.
+Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos vavegables.
+Bake para bakear la escena.
+Areas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rapido.</description>
     </item>
     
     <item>
@@ -909,39 +162,8 @@ Asignare 1 semana para la creacion de la documentacion inicial y otra para el de
       <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/006/</guid>
-      <description>
-
-&lt;h1 id=&#34;algoritmos-de-busqueda&#34;&gt;Algoritmos de Busqueda&lt;/h1&gt;
-
-&lt;h2 id=&#34;a&#34;&gt;A*&lt;/h2&gt;
-
-&lt;p&gt;Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A&lt;em&gt;, LPA&lt;/em&gt;, o D*.&lt;/p&gt;
-
-&lt;p&gt;El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos.
-El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case004.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La complejidad computacional del algoritmo está íntimamente relacionada con la calidad de la heurística que se utilice en el problema. En el caso peor, con una heurística de pésima calidad, la complejidad será exponencial, mientras que en el caso mejor, con una buena, el algoritmo se ejecutará en tiempo lineal.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Para que esto último suceda, se debe cumplir que donde h&amp;rsquo; es una heurística óptima para el problema, como por ejemplo, el coste real de alcanzar el objetivo.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case005.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;dijkstra&#34;&gt;Dijkstra&lt;/h2&gt;
-
-&lt;p&gt;El algoritmo de Dijkstra, también llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del camino más corto dado un vértice origen al resto de los vértices en un grafo con pesos en cada arista.&lt;/p&gt;
-
-&lt;p&gt;La idea subyacente en este algoritmo consiste en ir explorando todos los caminos más cortos que parten del vértice origen y que llevan a todos los demás vértices; cuando se obtiene el camino más corto desde el vértice origen, al resto de vértices que componen el grafo, el algoritmo se detiene. El algoritmo es una especialización de la búsqueda de costo uniforme, y como tal, no funciona en grafos con aristas de coste negativo (al elegir siempre el nodo con distancia menor, pueden quedar excluidos de la búsqueda nodos que en próximas iteraciones bajarían el costo general del camino al pasar por una arista con costo negativo).&lt;/p&gt;
-
-&lt;p&gt;Una de sus aplicaciones más importantes reside en el campo de la telemática, gracias a el, podemos resolver grafos con muchos nodos, los cuales serian muy complicados de hacer sin dicho algoritmo, encontrando así las rutas más cortas entre un origen y todos los destinos en una red.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case006.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Algoritmos de Busqueda A* Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A, LPA, o D*.
+El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos. El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.</description>
     </item>
     
     <item>
@@ -950,34 +172,95 @@ El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condici
       <pubDate>Mon, 10 Apr 2017 15:47:12 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/010/</guid>
-      <description>
+      <description>¿Que son los Steam Backgrounds? Sólo escuchar las palabras &amp;ldquo;Background&amp;rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la Muestra de ilustraciones y pantalla Escaparate transparente, que pueda ver el fondo que ha solicitado. En realidad, no hacen transparentes, no son más que la perfección las piezas recortadas de los antecedentes añadidos en el puesto. Aquí está un ejemplo de lo que se verá después de la finalización:</description>
+    </item>
+    
+    <item>
+      <title>¿Como subir Long Artworks a Steam?</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/009/</link>
+      <pubDate>Mon, 10 Apr 2017 14:34:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/009/</guid>
+      <description>Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera! 
+Para el Long Artworks https://steam.design/ puede hacer los Long Artworks ahora!
+Simplemente haga clic en el botón en la parte superior derecha.
 
-&lt;h1 id=&#34;que-son-los-steam-backgrounds&#34;&gt;¿Que son los Steam Backgrounds?&lt;/h1&gt;
+Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.</description>
+    </item>
+    
+    <item>
+      <title>¿Como subir gifs al perfil de steam?</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/008/</link>
+      <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/008/</guid>
+      <description>Subir un gif a modo de exposicion a Steam 
+Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
+Paso 1 
+Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
 
-&lt;p&gt;Sólo escuchar las palabras &amp;ldquo;Background&amp;rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la Muestra de ilustraciones y pantalla Escaparate transparente, que pueda ver el fondo que ha solicitado. En realidad, no hacen transparentes, no son más que la perfección las piezas recortadas de los antecedentes añadidos en el puesto. Aquí está un ejemplo de lo que se verá después de la finalización:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/20.jpg&#34; alt=&#34;020&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Puede parecer difícil, pero es sorprendentemente fácil.&lt;/p&gt;
-
-&lt;p&gt;Este proceso no funciona bien en todos los orígenes, sin embargo, escoger el más adecuado es el primer paso y es posiblemente el paso más importante. Dado que este se centra en las vitrinas que están situados en el centro que tiene que conseguir algo con contenido localizado allí. A continuación se presentan dos fondos, un fondo malo está arriba y uno bueno abajo. Usted no quiere terminar con secciones completamente en negro, a veces es inevitable, pero desea minimizar tanto como sea posible. &lt;strong&gt;Nota&lt;/strong&gt;: Para utilizar dos vitrinas a la vez se necesita estar al mismo nivel o por encima de 20, si está por debajo de este es posible que desee omitir la mayor parte de la guía.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/21.jpg&#34; alt=&#34;021&#34; /&gt;&lt;/center&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/22.jpg&#34; alt=&#34;022&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;el-recorte&#34;&gt;El recorte&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;El recorte automático&lt;/strong&gt;
-Gracias a TrueCarry, el proceso de obtención de todas las herramientas necesarias para que el escaparate sea automatizado. Es bastante sencillo de hacer, sólo tiene que ir primero a &lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; y carga una página de perfil de steam. Para cambiar la imagen que está en el fondo basta con acceder a su cuenta de steam en la parte superior derecha y cargará todos los fondos en su inventario. El Bicho raro hizo un script para Tapermokey que pone un preliminar en Sapic botón en todas las páginas de fondo del mercado y las previsualizaciones de inventario. Simplemente instale y se vinculará directamente a ese fondo en Sapic. Encontrar &lt;a href=&#34;https://github.com/theoddball/sapic-preview-button&#34;&gt;Aquí&lt;/a&gt;. También puede utilizar una URL si así lo desea, sólo tiene que ir a la página de mercado o de inventario para el fondo y haga clic en Ver tamaño completo y copiar y pegar la URL en la barra de URL personalizada. Una vez que se selecciona el fondo se puede cambiar el tamaño de las vitrinas por el acaparamiento de la parte inferior de la imagen más grande o haciendo clic en el cambio de tamaño botón y mediante el control deslizante.
-Si también tiene otras vitrinas puede moverlos alrededor para conseguir la posicion perfecta si usted está en el sistema. Después de eso esta hecha la descarga y va a recortar el fondo, empacar en un archivo .zip y descarga a la vez . Rápida, sencilla y eficaz.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;El recorte manual&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;(Ahora utilice &lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/23.png&#34; alt=&#34;023&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=299701202&#34;&gt;SloWolfe&lt;/a&gt;&lt;/p&gt;
-</description>
+Paso 2 
+Ir a la consola y pegar el siguiente código:</description>
+    </item>
+    
+    <item>
+      <title>Neregate cierra sus puertas</title>
+      <link>https://moonantonio.github.io/post/2017/diario/007/</link>
+      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/007/</guid>
+      <description>Neregate cierra a medio mes Bueno pues aqui esta, neregate cierra, para los que no lo sepan, neregate a sido una web administrada por Zana, un usuario que monto desde 0 un blog que en principio estaba destinado a ser un pequeño sitio para publicar anime, cosas sobre programacion y algun que otro log, pero que poco a poco en estos 7 años se ha convertido en una referencia para ver muchas cosas.</description>
+    </item>
+    
+    <item>
+      <title>Unity &#43; GeForce Share (Shadow Play) [Tips]</title>
+      <link>https://moonantonio.github.io/post/2017/dev/004/</link>
+      <pubDate>Fri, 31 Mar 2017 00:32:33 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/004/</guid>
+      <description>De esta manera tus jugadores con tarjetas Nvidia podrán usar esta característica sin ningún problema. GeForce Experience es una herramienta de las tarjetas Nvidia que permite gestionar tus juegos y optimizarlos, mantener los controladores actualizados y por supuesto la función “Share” que permite a los gamers compartir sus jugadas con los demás, esto es gracias a que la herramienta puede grabar nativamente una partida o bien una porción.
+Quizás no lo hayas considerado pero esto es parte vital de la experiencia que tu juego debería brindarle a sus jugadores, y es posible que hayas compilado tu juego de manera que no sea compatible con esta característica, si no has configurado las siguientes opciones en Edit &amp;gt; Project Settings &amp;gt; Player.</description>
+    </item>
+    
+    <item>
+      <title>Artistas 2D</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/007/</link>
+      <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/007/</guid>
+      <description>Mis artistas favoritos de 2D  Desde hace 7 años sigo la trayectoria de varios artistas que han ido evolucionando y llegando a ser los mejores en sus sectores. Aqui recopilo los artistas que a dia de hoy son los que estoy siguiendo.</description>
+    </item>
+    
+    <item>
+      <title>Square Enix y las secuelas</title>
+      <link>https://moonantonio.github.io/post/2017/diario/006/</link>
+      <pubDate>Sun, 26 Mar 2017 20:06:35 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/006/</guid>
+      <description>El complicado camino de la secuela en Square Enix 
+Una de las ideas más extendidas en la industria de los videojuegos es que cualquier compañía estaría encantada de tener tal cantidad de sagas fácilmente explotables como Square Enix: Dragon Quest, Final Fantasy y Kingdom Hearts son los grandes motores (si obviamos el trabajo de Eidos, claro) de una locomotora que tiene infinidad de vagones.
+La cuestión es que no es sencillo realizar una secuela de una saga que tuvo cierto éxito.</description>
+    </item>
+    
+    <item>
+      <title>Atlus &amp; Nintendo</title>
+      <link>https://moonantonio.github.io/post/2017/diario/005/</link>
+      <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/005/</guid>
+      <description>Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS 
+Teníamos mucho interés en conocer qué títulos anunciaría Atlus en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.
+Así, el primero que ya sabíamos que iba a aparecer fue Radiant Historia: Perfect Chronology (N3DS), remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.</description>
+    </item>
+    
+    <item>
+      <title>Final Fantasy IX: Alternate Fantasy [Mod]</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/006/</link>
+      <pubDate>Thu, 23 Mar 2017 19:21:13 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/006/</guid>
+      <description>Final Fantasy IX: Alternate Fantasy es un mod que apunta a aumentar la dificultad y, sobre todo, a dar una nueva experiencia de FF9 para aquellos que ya conocen bien el juego. Para la versión PSX, se instala mediante la aplicación de un parche PPF a los archivos de juego original. Puede utilizar la herramienta PPF-O-MATIC que se incluye en el archivo de mod.
+Para la versión de Steam, reemplazas directamente algunos de los archivos del juego por los modificados.</description>
     </item>
     
   </channel>

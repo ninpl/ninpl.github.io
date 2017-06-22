@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/open-source/index.xml</link>
+    <link>https://moonantonio.github.io/categories/open-source/</link>
     <description>Recent content in Open Source on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Wed, 10 May 2017 12:29:53 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Open Source en Github</title>
@@ -15,77 +18,7 @@
       <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/011/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de &lt;strong&gt;publicar nuestro código en Github&lt;/strong&gt; si cumple una serie de pasos previos.&lt;/p&gt;
-
-&lt;p&gt;Vamos a repasar una serie de puntos interesantes para cualquier proyecto Open Source. Un pequeño &lt;strong&gt;checklist de recomendaciones&lt;/strong&gt;, desde la visión tanto de un maintainer de proyectos de software Open Source como de un desarrollador que se encuentra un proyecto en Github y quiere usarlo.&lt;/p&gt;
-
-&lt;h1 id=&#34;razones-por-las-que-liberar-tu-código-como-open-source&#34;&gt;Razones por las que liberar tu código como Open Source&lt;/h1&gt;
-
-&lt;p&gt;Hay muchas razones por qué un desarrollador u organización querría hacer Open Source un proyecto. Algunos ejemplos para ilustrar la situación sería:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pura colaboración.&lt;/strong&gt; Quizás estemos desarrollando un proyecto por nuestra cuenta, lo hayamos mencionado en algún grupo de slack o meetup de desarrolladores, y nos lancemos a hacerlo abierto para que el resto de desarrolladores sean contributors ayudándonos a avanzar.&lt;/li&gt;
-&lt;li&gt;De forma individual simplemente buscar &lt;strong&gt;hacer público alguno de tus pet project&lt;/strong&gt;. De esta forma la gente verá cómo programas y encuentres futuras colaboraciones.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparencia:&lt;/strong&gt; Existen muchas instituciones que ven el Open Source como la forma de hacer público en lo que están trabajando para que cualquiera pueda revisarlo sin problema.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;deja-claro-el-objetivo-las-expectativas-y-cómo-utilizar-colaborar&#34;&gt;Deja claro el objetivo, las expectativas y cómo utilizar/colaborar&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;“Release early, release often”&lt;/em&gt; es una de las frases más repetidas cuando pensamos en liberar un proyecto software. Hacer público un proyecto open source es sólo el principio. Por ello, lo primero que debemos hacer es dejar claras las expectativas a cualquier desarrollador que se encuentre con él.&lt;/p&gt;
-
-&lt;p&gt;Fundamentalmente necesitamos clarificar lo máximo posible los siguientes puntos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;El objetivo del proyecto.&lt;/strong&gt; ¿Qué es? Por ejemplo: una kata, una librería, un framework en construcción, etc..&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Las instrucciones y dependencias&lt;/strong&gt; que necesita para ser ejecutado&lt;/li&gt;
-&lt;li&gt;Un &lt;strong&gt;changelog&lt;/strong&gt; accesible sobre los cambios de versiones y las versiones disponibles.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;checklist-de-tareas-antes-de-liberar-un-proyecto-open-source&#34;&gt;Checklist de tareas antes de liberar un proyecto Open Source&lt;/h1&gt;
-
-&lt;h2 id=&#34;el-clásico-readme&#34;&gt;El clásico README&lt;/h2&gt;
-
-&lt;p&gt;Es el lugar principal y donde cualquier desarrollador irá a buscar información. Debe estar localizado como un fichero de texto markdown en la raíz del proyecto. &lt;a href=&#34;https://help.github.com/articles/about-readmes/&#34;&gt;Github hace especial énfasis&lt;/a&gt; de que cada proyecto cuente con su correspondiente README.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Revisa el nombre&lt;/strong&gt; Quizás el nombre sea lo primero que creaste, al menos, cuando le dedicaste horas de trabajo en privado, pero ahora que va a ser público debes asegurate que antes de lanzarlo no entra en conflicto con ninguno ya existente y ni mucho menos con alguna marca registrada.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Añade una descripción al proyecto&lt;/strong&gt; Debemos explicar el objetivo, las motivaciones por las que existe este proyecto. También debemos enumerar las características del proyecto, incluyendo sus funcionalidades.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cómo debo usarlo o integrarlo&lt;/strong&gt; Si nos encontramos con un nuevo proyecto, lo más razonables es poder ser capaces de instalarlo, hacerlo arrancar o integrar en nuestra aplicación. Así que es fundamental que buena parte del README se trate de explicar las dependencias y las instrucciones para poder usarlo/integrarlo. Y no te olvides de explicar los test de los que cuenta, seguro que alguien que quiera probar su integridad o colaborar le será de ayuda lanzar los tests antes de crear una build desde el código.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Facilita la forma de descargar el artifact o la build&lt;/strong&gt; Lo más habitual es que hayamos usado algun gestor de dependencias o un sistema de construcción del proyecto, ya sea con node, maven, gradle, makefile, etc… así como que el binario del proyecto se pueda descargar de algún lugar como maven central o con un sencillo npm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Automatiza todo lo que puedas&lt;/strong&gt; Es fundamental que a parte de que lo expliques en el README cuentes con un sencillo script que facilite la vida a los desarrolladores que quieran construir por ellos mismos la build. Usa bash, gradle, ant, maven, npm, etc.. para tu proyecto.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No te olvides del marketing&lt;/strong&gt; Aprovecha para incluir algun logo o imagen que represente tu proyecto, nunca se sabe cuando alguien quiere hablar de él quizás, algún blog. Incluir un imagen representativa de tu librerías nunca es mala idea. Y si no lo tienes claro, piensa en los animales de la portadas de los libros de O’Really.&lt;/p&gt;
-
-&lt;h2 id=&#34;añade-una-licencia&#34;&gt;Añade una licencia&lt;/h2&gt;
-
-&lt;p&gt;Liberar algo al público se debe hacer con cuidado. Revisa los componentes que utilizas y decide una libería acorde a tus intenciones y que cumpla los requisitos de tu proyecto. Entre las más populares se encuentran la Apache 2, MIT o GPL. Si te lías con los derechos y obligaciones que implican puedes consultar alguna recomendaciones de Github o alguna de estas webs: &lt;a href=&#34;https://choosealicense.com/&#34;&gt;Choose a License&lt;/a&gt; o &lt;a href=&#34;https://tldrlegal.com/&#34;&gt;TLDR Legal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;cómo-contribuir&#34;&gt;¿Cómo contribuir?&lt;/h2&gt;
-
-&lt;p&gt;Esta sección va indicada especialmente para tus futuros colaboradores, así que se claro indicando una serie de issues abiertas para ir empezando, así como un pequeño roadmap con las tareas a futuro del proyecto.&lt;/p&gt;
-
-&lt;p&gt;Y es fundamental que dejes a disposición de los contributors un checkstyle del código del proyecto y una serie de reglas para incorporar contribuciones como un codestyle o algun hook preparado. Así como los pasos a realizar una Pull Request, ahora que Github permite los template eso debería ser obligatorio para que no se les escape ningún apartado que explica en la PR. Es recomendable que lo expliques en un fichero CONTRIBUTING.&lt;/p&gt;
-
-&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
-
-&lt;p&gt;Añade un listado con los cambios de cada versión. Es fundamental para tus usuarios conocer que se va incorporando progresivamente en cada “salto de versión”. Respeta el versionado estándar utilizando adecuadamente la numeración de &lt;em&gt;MAJOR.MINOR.PATCH&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Intenta separar cada cambio del siguiente modo:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nuevos componentes que has introducido, ya sean componentes, APIs nuevas, funcionalidades, etc..&lt;/li&gt;
-&lt;li&gt;Elementos deprecated, es decir, lo que en próximas versiones será eliminado y remplazado por otros elementos. No olvides indicar el que se debería usar o la estrategia de migración.&lt;/li&gt;
-&lt;li&gt;Elementos que han sido eliminados. Recuerda la retrocompatilidad. No borres nada en un cambio de versión que no haya sido anteriormente marcado como deprecated.&lt;/li&gt;
-&lt;li&gt;Y por fin, los bugs que se han ido resolviendo en cada nueva versión. Añade si es posible la issue correspondiente para poder hacer un mejor seguimiento del problema que originaba. Seguro que alguien que se haya dado cabezazos con él se sentirá reconfortado al ver que ya está solucionado.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Github nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de publicar nuestro código en Github si cumple una serie de pasos previos.</description>
     </item>
     
   </channel>

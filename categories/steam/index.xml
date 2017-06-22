@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steam on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/steam/index.xml</link>
+    <link>https://moonantonio.github.io/categories/steam/</link>
     <description>Recent content in Steam on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/steam/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Mon, 10 Apr 2017 15:47:12 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/steam/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Crear Steam backgrounds</title>
@@ -15,34 +18,7 @@
       <pubDate>Mon, 10 Apr 2017 15:47:12 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/010/</guid>
-      <description>
-
-&lt;h1 id=&#34;que-son-los-steam-backgrounds&#34;&gt;¿Que son los Steam Backgrounds?&lt;/h1&gt;
-
-&lt;p&gt;Sólo escuchar las palabras &amp;ldquo;Background&amp;rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la Muestra de ilustraciones y pantalla Escaparate transparente, que pueda ver el fondo que ha solicitado. En realidad, no hacen transparentes, no son más que la perfección las piezas recortadas de los antecedentes añadidos en el puesto. Aquí está un ejemplo de lo que se verá después de la finalización:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/20.jpg&#34; alt=&#34;020&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Puede parecer difícil, pero es sorprendentemente fácil.&lt;/p&gt;
-
-&lt;p&gt;Este proceso no funciona bien en todos los orígenes, sin embargo, escoger el más adecuado es el primer paso y es posiblemente el paso más importante. Dado que este se centra en las vitrinas que están situados en el centro que tiene que conseguir algo con contenido localizado allí. A continuación se presentan dos fondos, un fondo malo está arriba y uno bueno abajo. Usted no quiere terminar con secciones completamente en negro, a veces es inevitable, pero desea minimizar tanto como sea posible. &lt;strong&gt;Nota&lt;/strong&gt;: Para utilizar dos vitrinas a la vez se necesita estar al mismo nivel o por encima de 20, si está por debajo de este es posible que desee omitir la mayor parte de la guía.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/21.jpg&#34; alt=&#34;021&#34; /&gt;&lt;/center&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/22.jpg&#34; alt=&#34;022&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;el-recorte&#34;&gt;El recorte&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;El recorte automático&lt;/strong&gt;
-Gracias a TrueCarry, el proceso de obtención de todas las herramientas necesarias para que el escaparate sea automatizado. Es bastante sencillo de hacer, sólo tiene que ir primero a &lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; y carga una página de perfil de steam. Para cambiar la imagen que está en el fondo basta con acceder a su cuenta de steam en la parte superior derecha y cargará todos los fondos en su inventario. El Bicho raro hizo un script para Tapermokey que pone un preliminar en Sapic botón en todas las páginas de fondo del mercado y las previsualizaciones de inventario. Simplemente instale y se vinculará directamente a ese fondo en Sapic. Encontrar &lt;a href=&#34;https://github.com/theoddball/sapic-preview-button&#34;&gt;Aquí&lt;/a&gt;. También puede utilizar una URL si así lo desea, sólo tiene que ir a la página de mercado o de inventario para el fondo y haga clic en Ver tamaño completo y copiar y pegar la URL en la barra de URL personalizada. Una vez que se selecciona el fondo se puede cambiar el tamaño de las vitrinas por el acaparamiento de la parte inferior de la imagen más grande o haciendo clic en el cambio de tamaño botón y mediante el control deslizante.
-Si también tiene otras vitrinas puede moverlos alrededor para conseguir la posicion perfecta si usted está en el sistema. Después de eso esta hecha la descarga y va a recortar el fondo, empacar en un archivo .zip y descarga a la vez . Rápida, sencilla y eficaz.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;El recorte manual&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;(Ahora utilice &lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/23.png&#34; alt=&#34;023&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=299701202&#34;&gt;SloWolfe&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>¿Que son los Steam Backgrounds? Sólo escuchar las palabras &amp;ldquo;Background&amp;rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la Muestra de ilustraciones y pantalla Escaparate transparente, que pueda ver el fondo que ha solicitado. En realidad, no hacen transparentes, no son más que la perfección las piezas recortadas de los antecedentes añadidos en el puesto. Aquí está un ejemplo de lo que se verá después de la finalización:</description>
     </item>
     
     <item>
@@ -51,77 +27,11 @@ Si también tiene otras vitrinas puede moverlos alrededor para conseguir la posi
       <pubDate>Mon, 10 Apr 2017 14:34:04 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/009/</guid>
-      <description>
+      <description>Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera! 
+Para el Long Artworks https://steam.design/ puede hacer los Long Artworks ahora!
+Simplemente haga clic en el botón en la parte superior derecha.
 
-&lt;h1 id=&#34;una-guía-sencilla-para-cargar-long-artworks-con-una-altura-tan-grande-como-usted-quiera&#34;&gt;Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera!&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/10.gif&#34; alt=&#34;010&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;para-el-long-artworks&#34;&gt;Para el Long Artworks&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://steam.design/&#34;&gt;https://steam.design/&lt;/a&gt; puede hacer los Long Artworks ahora!&lt;/p&gt;
-
-&lt;p&gt;Simplemente haga clic en el botón en la parte superior derecha.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/11.PNG&#34; alt=&#34;011&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;cuidado&#34;&gt;Cuidado&lt;/h2&gt;
-
-&lt;p&gt;Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.&lt;/p&gt;
-
-&lt;p&gt;Esto se aplica a casi nadie, ya que todos los gifs que se hacen en la resolución de todos modos, no se preocupe.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/12.png&#34; alt=&#34;012&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Abrir enlace en chrome (otros navegadores probablemente funcionarán si usted tiene acceso a su consola) y seleccione su gif &amp;lsquo;Seleccione su archivo para el artwork&amp;rsquo;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-http://steamcommunity.com/sharedfiles/edititem/767/3/
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/13.gif&#34; alt=&#34;013&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/14.png&#34; alt=&#34;014&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cuando se puede ver el gif en la página&lt;/strong&gt;; haga clic derecho en cualquier lugar de la página y revisar o inspeccionar elemento.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/15.gif&#34; alt=&#34;015&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/16.png&#34; alt=&#34;016&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Haga clic en la consola en la parte superior del menú elemento de inspeccionar y escribir esta línea:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-document.getElementsByName ( &amp;quot;image_width&amp;quot;) [0] .value = 1,000; document.getElementsByName ( &amp;quot;IMAGE_HEIGHT&amp;quot;) [0] .value = 1;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;O si lo desea cargar como captura de pantalla:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-document.getElementsByName ( &amp;quot;image_width&amp;quot;) [0] .value = 1,000; document.getElementsByName ( &amp;quot;IMAGE_HEIGHT&amp;quot;) [0] .value = 1; document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pulsa enter después de pegarlo&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/17.gif&#34; alt=&#34;017&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/18.png&#34; alt=&#34;018&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora simplemente darle un título y una descripción, Clicar que &amp;ldquo;Certifico que he creado esta obra de arte&amp;rdquo; y haga &amp;ldquo;Guardar y continuar&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/19.gif&#34; alt=&#34;019&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.</description>
     </item>
     
     <item>
@@ -130,70 +40,13 @@ document.getElementsByName ( &amp;quot;image_width&amp;quot;) [0] .value = 1,000
       <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/008/</guid>
-      <description>
+      <description>Subir un gif a modo de exposicion a Steam 
+Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
+Paso 1 
+Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
 
-&lt;h1 id=&#34;subir-un-gif-a-modo-de-exposicion-a-steam&#34;&gt;Subir un gif a modo de exposicion a Steam&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/01.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
-
-&lt;p&gt;Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam.
-Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-1&#34;&gt;Paso 1&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/02.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Abrir este &lt;a href=&#34;http://steamcommunity.com/sharedfiles/edititem/767/3/&#34;&gt;link&lt;/a&gt; en un navegador y hacer clic derecho - inspeccionar elemento&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/03.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-2&#34;&gt;Paso 2&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/04.png&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Ir a la consola y pegar el siguiente código:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;
-document.getElementsByName ( &amp;quot;file_type&amp;quot;) [0] .value = 5;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;y pulsa enter.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/05.gif&#34; alt=&#34;005&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-3&#34;&gt;Paso 3&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/06.png&#34; alt=&#34;006&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Cargar el archivo gif, darle un título y una descripción.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/07.gif&#34; alt=&#34;007&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paso-4&#34;&gt;Paso 4&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/08.png&#34; alt=&#34;008&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Marque la casilla &amp;ldquo;Certifico que he creado esta obra de arte&amp;rdquo; y haga clic en &amp;ldquo;Guardar y continuar&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/steam/09.gif&#34; alt=&#34;009&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon &amp;amp; &lt;a href=&#34;http://steamcommunity.com/sharedfiles/filedetails/?id=693118839&#34;&gt;Curse&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
+Paso 2 
+Ir a la consola y pegar el siguiente código:</description>
     </item>
     
   </channel>

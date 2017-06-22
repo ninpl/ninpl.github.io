@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moon Pincho on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/moon-pincho/index.xml</link>
+    <link>https://moonantonio.github.io/categories/moon-pincho/</link>
     <description>Recent content in Moon Pincho on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/moon-pincho/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Thu, 23 Mar 2017 04:58:48 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/moon-pincho/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Pintura Del Dia -23-03-2017-</title>
@@ -15,18 +18,10 @@
       <pubDate>Thu, 23 Mar 2017 04:58:48 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;center-imagen-del-dia-22-03-2017-center-br&#34;&gt;&lt;center&gt;Imagen del dia [22.03.2017]&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/pinturadia/46.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;La noche agil y femenina es a su vez gentil pero peligrosa&amp;rdquo;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Artista desconocido&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description> Imagen del dia [22.03.2017] 
+&amp;ldquo;La noche agil y femenina es a su vez gentil pero peligrosa&amp;rdquo;.
+ Artista desconocido
+ </description>
     </item>
     
     <item>
@@ -35,18 +30,10 @@
       <pubDate>Wed, 22 Mar 2017 18:18:58 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/004/</guid>
-      <description>
-
-&lt;h1 id=&#34;center-imagen-del-dia-22-03-2017-center-br&#34;&gt;&lt;center&gt;Imagen del dia [22.03.2017]&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/pinturadia/45.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Impactante pero cierto, solo con photoshop.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://www.facebook.com/kyrie0201/&#34; class=&#34;button&#34;&gt;Kyrie&lt;/a&gt;&lt;/center&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description> Imagen del dia [22.03.2017] 
+Impactante pero cierto, solo con photoshop.
+ Kyrie
+ </description>
     </item>
     
     <item>
@@ -55,28 +42,8 @@
       <pubDate>Mon, 20 Mar 2017 16:00:38 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;textmesh-pro-se-une-a-unity&#34;&gt;TEXTMESH PRO SE UNE A UNITY.&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Unity se complace en anunciar una nueva y poderosa adición a nuestra suite de herramientas creativa: TextMesh Pro y su creador, Stephan Bouchard, se han unido a la unidad!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;TextMesh Pro es un reemplazo de componentes existentes de la unidad de texto como texto de malla y la interfaz de usuario de texto. TextMesh Pro utiliza Firmado Distancia Field (SDF) como su principal canal de renderizado de texto por lo que es posible representar el texto limpiamente en cualquier tamaño de punto y la resolución. El uso de un conjunto de shaders personalizados diseñados para aprovechar el poder de representación de texto SDF, TextMesh Pro hace que sea posible cambiar dinámicamente la apariencia visual del texto, simplemente cambiando las propiedades del material para añadir estilos visuales, tales como la dilatación, de línea, sombreado suave, biselado, texturas, brillo, etc., y para guardar y recuperar estos estilos visuales mediante la creación / utilización de los preajustes materiales.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/tmp01.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;TextMesh Pro proporciona un mejor control sobre el diseño y formato de texto a los usuarios que proporciona un control sobre el carácter, palabra, línea y el espacio entre párrafos, el apoyo para el ajuste entre caracteres y la separación silábica básica, modos de alineación de texto adicionales como texto justificado y rasante, más de &lt;a href=&#34;http://digitalnativestudios.com/textmeshpro/docs/rich-text/&#34;&gt;30 de texto enriquecido etiquetas&lt;/a&gt; están disponibles dar el control a los usuarios sobre los márgenes, sangría, el usuario puede definir &lt;a href=&#34;https://www.youtube.com/watch?v=BHUDw9vd-Pw&#34;&gt;estilos&lt;/a&gt; , &lt;a href=&#34;https://www.youtube.com/watch?v=78G15jJ1DHU&#34;&gt;enlaces&lt;/a&gt; e incluso soporte para el uso &lt;a href=&#34;https://www.youtube.com/watch?v=1viRWrd0T3Q&#34;&gt;de múltiples fuentes y gráficos en línea&lt;/a&gt; con el texto.&lt;/p&gt;
-
-&lt;p&gt;Optimizada para móvil y PC, la cabeza al almacén de activos hoy en día para &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/84126&#34;&gt;descargar la nueva versión&lt;/a&gt;, la libre disposición de TextMesh Pro hoy (Unidad 5.3 o superior es necesario, la Unidad 5.6 versión compatible próximamente).&lt;/p&gt;
-
-&lt;p&gt;Ya hemos empezado a trabajar para integrar la funcionalidad de TextMesh Pro en la unidad 2017, y continuaremos apoyando el activo con actualizaciones periódicas a la funcionalidad y compatibilidad para asegurar una experiencia perfecta para los usuarios de Pro TextMesh.&lt;/p&gt;
-
-&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/MX_pM8QKTAc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/84126&#34; class=&#34;button&#34;&gt;TextMesh Pro AssetStore&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>TEXTMESH PRO SE UNE A UNITY.  Unity se complace en anunciar una nueva y poderosa adición a nuestra suite de herramientas creativa: TextMesh Pro y su creador, Stephan Bouchard, se han unido a la unidad!
+ TextMesh Pro es un reemplazo de componentes existentes de la unidad de texto como texto de malla y la interfaz de usuario de texto. TextMesh Pro utiliza Firmado Distancia Field (SDF) como su principal canal de renderizado de texto por lo que es posible representar el texto limpiamente en cualquier tamaño de punto y la resolución.</description>
     </item>
     
     <item>
@@ -85,88 +52,9 @@
       <pubDate>Sat, 18 Mar 2017 18:59:13 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/004/</guid>
-      <description>
+      <description>Jeryce Dianingana compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.
 
-&lt;p&gt;&lt;a href=&#34;https://index.artstation.com/artist/jeydia&#34;&gt;Jeryce Dianingana&lt;/a&gt; compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi01.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;poner-a-prueba-la-iluminación-de-unity&#34;&gt;Poner a prueba la iluminación de Unity&lt;/h2&gt;
-
-&lt;p&gt;Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia. Yo estaba buscando una escena rápida, yo no quería pasar muchas veces en la modelización, y caí en esta foto &amp;ldquo;Abandonado Hospital de Chicago&amp;rdquo; tomada por Jordan Nicolette creo, se puede encontrar el origen de cada imagen en &lt;a href=&#34;https://es.pinterest.com/&#34;&gt;Pinterest&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi02.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Cogí una gran cantidad de referencias de The División de Tom Clancy también, me gusta la forma en que logró tener esto realista, esas luces volumétricas dinámicas suaves y una comprensible escena con todos los activos mencionados en la cámara.&lt;/p&gt;
-
-&lt;h2 id=&#34;el-posicionamiento-de-iluminación&#34;&gt;El posicionamiento de iluminación&lt;/h2&gt;
-
-&lt;p&gt;Traté de hacer coincidir las luces de la referencia tanto como sea posible.&lt;/p&gt;
-
-&lt;p&gt;Hice muchas pruebas en el etiquetado para encontrar la posición perfecta, la colocación de las puertas era difícil al principio, ya que puede cambiar la iluminación mucho.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi03.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Me dieron 3 puntos de luz dinámicas, uno cerca del vaso de la izquierda, el segundo cerca de la mesa y el último frente a las puertas del ascensor.&lt;/p&gt;
-
-&lt;p&gt;Estas luces puntuales me han ayudado a conseguir un buen especular dinámico que no puedo tener con el bake en los objetos.&lt;/p&gt;
-
-&lt;p&gt;Pongo las grandes luces bakeadas en un lugar cerca de las puertas, era difícil al principio para tener el mismo aspecto, y aproximadamente la misma intensidad, rebotar y otros ajustes de la luz para la misma sensación que la de la foto, la dificultad principal era mantener alguna zona oscura y otra luminosa sin mover el punto o la adición de uno porque esto puede hacer una gran diferencia en comparación con la referencia principal.&lt;/p&gt;
-
-&lt;h2 id=&#34;los-avances-de-unity&#34;&gt;Los avances de Unity&lt;/h2&gt;
-
-&lt;p&gt;Desde que Unity 5.4 añade la &amp;ldquo;Eliminación de ruido&amp;rdquo; para la final se reúnen con inteligencia lo que reduce el ruido producido por las luces estáticas. Siempre lo uso cuando hago mi bake final, tenga cuidado cuando se activa recoger la final, cuesta más tiempo para calcular.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi04.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Skybox de color en tiempo real para calentar la escena y evitar algún problema con zonas de mucho contraste, gracias a Iluminacion global puedo ver los rebotes de las luces en tiempo real.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi05.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi06.png&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La nueva &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/83912&#34;&gt;Post Processing Stack&lt;/a&gt;  me ayudó mucho para acercarme a la referencia. Personalmente, no puedo hacer una escena sin más, muy simple para importar, utilizar y se puede tener diferentes perfiles de procesamiento de correos, antes de eso, he usado para duplicar las cámaras y guardar como una casa prefabricada para tener distintas configuraciones.&lt;/p&gt;
-
-&lt;p&gt;La próxima versión de la Unidad (5.6) tendrá un lightmapper y progresiva una nueva forma completa a utilizar las luces de Unity llamados modos de luz.&lt;/p&gt;
-
-&lt;h2 id=&#34;cámaras&#34;&gt;Cámaras&lt;/h2&gt;
-
-&lt;p&gt;He creado el material con el &lt;a href=&#34;https://www.allegorithmic.com/&#34;&gt;substance&lt;/a&gt; , no dejaba todos los parámetros &amp;ldquo;Base de color&amp;rdquo; en Unity, para poder cambiar en tiempo real y el color de cada material para ver el resultado después de el mapa de luz. También me dio unas grandes reglas con base de color.&lt;/p&gt;
-
-&lt;p&gt;Yo siempre trato de estar entre sRGB 20 - 230 a evitar grandes saltos de luces.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi07.gif&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El material del agua era muy importante también, hize una sustancia en el que puedo ajustar la cantidad, la posición, el contraste de los charcos y la transparencia, mezclé este material con el piso de mi Lino.&lt;/p&gt;
-
-&lt;p&gt;He utilizado el sombreado de &lt;a href=&#34;https://www.assetstore.unity3d.com/en/#!/content/39959&#34;&gt;Uber&lt;/a&gt; para la mezcla de materiales y la asignación de la oclusión en el techo&lt;/p&gt;
-
-&lt;p&gt;El único consejo que puedo dar es evitar el ruido en su textura, por ejemplo, por tener un mapa fuerte normales, o una gran cantidad de datos en su textura y bordes afilados. Por bordes afilados que estoy hablando de tratar de tener un pequeño chaflán en su malla 3D o un bake normal que no afilado para tener una buena luz en el borde.&lt;/p&gt;
-
-&lt;h2 id=&#34;luz-o-polígonos&#34;&gt;Luz o polígonos&lt;/h2&gt;
-
-&lt;p&gt;Yo siempre digo que no es una cuestión de polígonos, sino más de la iluminación, la composición y la textura, gracias a Allegorithmic y Quixel Es muy sencillo tener un material en buen estado.&lt;/p&gt;
-
-&lt;p&gt;El procesamiento posterior es muy importante también, el efecto de reflexión espacio de pantalla ayudan mucho no creo que mi escena sería creíble sin ella.&lt;/p&gt;
-
-&lt;p&gt;En la gradación de color, he utilizado la fílmico (ACES), me encanta la forma en que contrastar fácilmente la escena y mejorar los rayos de luz.&lt;/p&gt;
-
-&lt;p&gt;Como he dicho antes, biseles son muy importantes, se puede ver que en todos los objetos hechos por el hombre, que ha evitado que, con el alias también.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi08.gif&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Cambiar su proyecto en linear color space, da la representación más realista que trabaja en el color gamma.&lt;/p&gt;
-
-&lt;p&gt;La unidad tiene algunos tutoriales en vídeo agradables en su canal de youtube y una gran documentación que explicó todo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ilumi09.jpg&#34; alt=&#34;ilumi&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://index.artstation.com/artist/jeydia&#34;&gt;Jeryce Dianingana&lt;/a&gt;,  artista 3D ambiente&lt;/p&gt;
-
-&lt;p&gt;Entrevista realizada por &lt;a href=&#34;https://ua.linkedin.com/in/kikatok&#34;&gt;Kirill Tokarev&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+Poner a prueba la iluminación de Unity Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia.</description>
     </item>
     
     <item>
@@ -175,131 +63,8 @@
       <pubDate>Sat, 18 Mar 2017 18:36:29 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/004/</guid>
-      <description>
-
-&lt;p&gt;Estos son los siete principios que rigen el código de Bushido. Estos principios basados en la filosofía a de Lao Tse y en los cuales se funda el primer emperador para la unificación china.  Existe en china  un lugar donde estas siete palabras están sostenidas en una serie de arcos consecutivos de tamaño considerable, bajo los cuales se pasa andando y que tienen su correspondiente leyenda.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Ser fieles a él y vuestro KI crecerá. Romperlo y vuestro nombre será denostado por las generaciones venideras.&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;1. YU – Coraje - Valor Heroico- &lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simYu.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-Un samurai lleva implícito el  coraje; es coraje. Vive la vida de forma plena, completa, maravillosa. El coraje heroico no es ciego, es inteligente y fuerte. El samurai desarrolla el coraje y hace que su cuerpo lo sea ejerciendo el control sobre el mismo y reemplazando el miedo por el respeto y la precaución.
-&lt;center&gt;&lt;strong&gt;El valiente no sigue los pasos de la estupidez.&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;2. REI - Cortesía  &lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simRei.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-Un samurai es cortés con sus enemigos y no necesita demostrar su fuerza. Es por ello que un samurai recibe mas respeto por su manera de tratar a los demás que por su destreza en el campo del batalla. Es en las situaciones limites, en las que el samurai invoca y manifiesta la fuerza interior.
-&lt;center&gt;&lt;strong&gt;Un alma sin respeto es una morada en ruinas&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;3. JIN - Compasión&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simJin.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-Mediante el entrenamiento intenso el samurai se convierte en rápido y fuerte. No es como el resto de los hombres. Desarrolla un poder que emplea en beneficio  de todos. Aunque su lealtad sea al señor (Daimyo o ..), debe ser  compasivo ayudando a sus compañeros en cualquier circunstancia.
-&lt;center&gt;&lt;strong&gt;Si la oportunidad no surge, se sale de su camino para encontrarla.&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;4. GI - Justicia &lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simGi.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-Es honrado en su trato con todo el mundo. Cree en la Justicia, pero no en la que emana de los demás, sino en la suya propia.
-Para un samurai no existen las tonalidades de grises en lo que a justicia y honradez se refiere.
-&lt;center&gt;&lt;strong&gt;Sólo existe lo correcto y lo incorrecto .&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;5. MEIYO - Honor&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simMeiyo.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-El samurai solo tiene un juez para juzgar sus actos y es él mismo. Las decisiones que se toman y el cómo son ejecutadas son el reflejo de quien es.
-&lt;center&gt;&lt;strong&gt;La muerte no es eterna; el deshonor, sí&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;6. CHUGO - Lealtad&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simChugi.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-Un samurai es leal a su señor, y a todos aquellos bajo su cuidado; o no. Para aquellos de los que es responsable, siempre responde con su vida .&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;7. MAKOTO - Sinceridad –Verdad . &lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/simMakoto.jpg&#34; alt=&#34;img1&#34; /&gt;&lt;/center&gt;
-Cuando un samurai dice que hará algo, es como si ya estuviera hecho. Nada lo detendrá en la ejecución de lo dicho.
-No da su palabra. No promete. El simple hecho de hablar pone en movimiento el acto de hacer.
-&lt;center&gt;&lt;strong&gt;Las palabras de un hombre son como sus huellas; puedes seguirlas donde quiera que él vaya.
-Decir y hacer es la misma cosa.  Cuidado con el camino que sigues.&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;algunos-comentarios-de-mirumoto-jinto-rikugunshokan-del-clan-del-dragón-sobre-el-código-de-bushido&#34;&gt;Algunos comentarios de Mirumoto Jinto, Rikugunshokan del Clan del Dragón, sobre el código de Bushido:&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre el valor:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;El camino del valiente no sigue los pasos de la estupidez.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre la lealtad:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Un perro sin amo vagabundea libre. El halcón de un Daimyo (Señor Feudal) vuela más alto.&lt;/p&gt;
-
-&lt;p&gt;Solo hay una lealtad superior a la del samurai hacia su Daimyo: la del Daimyo hacia sus súbditos.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre el Respeto:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Un alma sin respeto es una morada en ruinas. Debe ser demolida para construir una nueva.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre la Excelencia:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La perfección es una montaña inescalable que debe ser escalada a diario.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre la Venganza:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La ofensa es como un buen haiku (Breve poema japonés de tres versos): puede ignorarse, desconocerse, perdonarse o borrarse, pero nunca puede ser olvidada.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre la Espada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Mi hoja es mi alma. Mi alma pertenece a mi Daimyo. Ultrajar mi hoja es afrentar a mi Daimyo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre el Honor:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La muerte no es eterna; el deshonor, sí.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre la Muerte:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;El samurai nace para morir. La muerte, pues, no es una maldición a evitar, sino el fin natural de toda vida.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;el-credo-del-samurai&#34;&gt;El Credo del Samurai&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No tengo parientes, Yo hago que la Tierra y el Cielo lo sean.&lt;/li&gt;
-&lt;li&gt;No tengo hogar, Yo hago que el Tan T ien lo sea.&lt;/li&gt;
-&lt;li&gt;No tengo poder divino, Yo hago de la honestidad mi poder divino.&lt;/li&gt;
-&lt;li&gt;No tengo medios, Yo hago mis medios de la docilidad.&lt;/li&gt;
-&lt;li&gt;No tengo poder mágico, Yo hago de mi personalidad mi poder mágico.&lt;/li&gt;
-&lt;li&gt;No tengo cuerpo, Yo hago del estoicismo mi cuerpo.&lt;/li&gt;
-&lt;li&gt;No tengo ojos, Yo hago del relámpago mis ojos.&lt;/li&gt;
-&lt;li&gt;No tengo oídos, Yo hago de mi sensibilidad mis oídos.&lt;/li&gt;
-&lt;li&gt;No tengo extremidades, Yo hago de la rapidez mis extremidades.&lt;/li&gt;
-&lt;li&gt;No tengo leyes, Yo hago de mi auto-defensa mis leyes.&lt;/li&gt;
-&lt;li&gt;No tengo estrategia, Yo hago de lo correcto para matar y de lo correcto para restituir la vida mi estrategia.&lt;/li&gt;
-&lt;li&gt;No tengo ideas, Yo hago de tomar la oportunidad de antemano mis ideas.&lt;/li&gt;
-&lt;li&gt;No tengo milagros, Yo hago de las leyes correctas mis milagros.&lt;/li&gt;
-&lt;li&gt;No tengo principios, Yo hago de la adaptabilidad a todas las circunstancias mis principios.&lt;/li&gt;
-&lt;li&gt;No tengo tácticas, Yo hago del vacío y la plenitud mis tácticas.&lt;/li&gt;
-&lt;li&gt;No tengo talento, Yo hago que mi astucia sea mi talento.&lt;/li&gt;
-&lt;li&gt;No tengo amigos, Yo hago de mi mente mi amiga.&lt;/li&gt;
-&lt;li&gt;No tengo enemigos, Yo hago del descuido mi enemigo.&lt;/li&gt;
-&lt;li&gt;No tengo armadura, Yo hago de la benevolencia mi armadura.&lt;/li&gt;
-&lt;li&gt;No tengo castillo, Yo hago de mi mente inamovible mi castillo.&lt;/li&gt;
-&lt;li&gt;No tengo espada, Yo hago de mi No mente mi espada.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Estos son los siete principios que rigen el código de Bushido. Estos principios basados en la filosofía a de Lao Tse y en los cuales se funda el primer emperador para la unificación china. Existe en china un lugar donde estas siete palabras están sostenidas en una serie de arcos consecutivos de tamaño considerable, bajo los cuales se pasa andando y que tienen su correspondiente leyenda.
+Ser fieles a él y vuestro KI crecerá.</description>
     </item>
     
     <item>
@@ -308,217 +73,10 @@ Decir y hacer es la misma cosa.  Cuidado con el camino que sigues.&lt;/strong&gt
       <pubDate>Wed, 15 Mar 2017 17:27:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;por-que&#34;&gt;¿Por que?&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Esta entrada la escribo para tener constancia del &lt;strong&gt;workflow&lt;/strong&gt; que se hace en animacion y nada mas.&lt;/p&gt;
-
-&lt;p&gt;Los pasos a seguir serian :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crear o buscar referencias.&lt;/li&gt;
-&lt;li&gt;Puesta a punto de camaras.&lt;/li&gt;
-&lt;li&gt;Bloquin con la malla justa del modelo animado.&lt;/li&gt;
-&lt;li&gt;Generacion de keys claves de la animacion.&lt;/li&gt;
-&lt;li&gt;Pulido final.&lt;/li&gt;
-&lt;li&gt;VFX y preprocesado&lt;/li&gt;
-&lt;li&gt;Render&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pero aqui &lt;strong&gt;solo pondre los puntos&lt;/strong&gt; 1.3. y 5.&lt;/p&gt;
-
-&lt;p&gt;Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo. Empecemos.&lt;/p&gt;
-
-&lt;h2 id=&#34;crear-o-buscar-referencias&#34;&gt;Crear o buscar referencias.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ahora que a salido &lt;strong&gt;Nier Automata&lt;/strong&gt;, se ha visto que los chicos de &lt;strong&gt;Platinum Games&lt;/strong&gt; se lo han currado mucho para recrear esas animaciones, han mimado su obra hasta tal punto que llegan al nivel de los mejores animadores de videojuegos.&lt;/p&gt;
-
-&lt;p&gt;Por ello, e cogido a la protagonista como referencia, no usare su modelo ya que esta animacion es para un proyecto diferente y el modelo es el del videojuego este. ( Pero no descarto en un futuro, recrear a modo de fanart con el modelo de nier).&lt;/p&gt;
-
-&lt;p&gt;Las referencias son las siguientes:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/007.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La referencia esta formada por varias animaciones de ataques que dividire en 4.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Ataque #1&lt;/td&gt;
-&lt;td&gt;10f-25f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #2&lt;/td&gt;
-&lt;td&gt;29f-80f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #3&lt;/td&gt;
-&lt;td&gt;170f-205f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #4&lt;/td&gt;
-&lt;td&gt;254f-299f&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;bloquin-con-la-malla-justa-del-modelo-animado&#34;&gt;Bloquin con la malla justa del modelo animado.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;En este punto, en vez de usar la malla justa, usare el modelo tal cual el equipo a proporcionado, que creo que es el que se usara en el juego en si. Antes de empezar, un pequeño tip, si estais usando referencias con difernetes fotogramas, restar al ultimo resultado de fotogramas, el resultado anterior y os saldran los fotogramas que hay entre medias, es una cosa de niños, pero a veces la gente no cae. ^^&lt;/p&gt;
-
-&lt;p&gt;Tiempo estimado del total de la animacion: &lt;strong&gt;6.2s&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La primera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada&lt;/td&gt;
-&lt;td&gt;0f(10f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada en lo alto&lt;/td&gt;
-&lt;td&gt;5f(15f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico ataque bajo con espada&lt;/td&gt;
-&lt;td&gt;15f(25f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La segunda animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico girandose&lt;/td&gt;
-&lt;td&gt;16f(29f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico coge la espada&lt;/td&gt;
-&lt;td&gt;27f(40f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a caer&lt;/td&gt;
-&lt;td&gt;46f(59f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico toca el suelo&lt;/td&gt;
-&lt;td&gt;51f(64f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico lanza la espada&lt;/td&gt;
-&lt;td&gt;55f(68f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico se incorpora&lt;/td&gt;
-&lt;td&gt;67f(80f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La tercera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico cogiendo espada&lt;/td&gt;
-&lt;td&gt;68f(170f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a girar&lt;/td&gt;
-&lt;td&gt;79f(181f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y coge pose&lt;/td&gt;
-&lt;td&gt;103f(205f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La cuarta animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico en posicion&lt;/td&gt;
-&lt;td&gt;104f(254)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico giro maximo&lt;/td&gt;
-&lt;td&gt;118f(268f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y reposa espada&lt;/td&gt;
-&lt;td&gt;149f(299f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;pulido-final&#34;&gt;Pulido Final.&lt;/h2&gt;
-
-&lt;p&gt;En el pulido, hay que dejarlo todo perfecto, como su nombre indica, ir puliendo frame a frame hasta dejarlo al gusto.
-Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo con las keys para que solo coja esos valores.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>¿Por que? Esta entrada la escribo para tener constancia del workflow que se hace en animacion y nada mas.
+Los pasos a seguir serian :
+ Crear o buscar referencias. Puesta a punto de camaras. Bloquin con la malla justa del modelo animado. Generacion de keys claves de la animacion. Pulido final. VFX y preprocesado Render  Pero aqui solo pondre los puntos 1.3. y 5.
+Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo.</description>
     </item>
     
     <item>
@@ -527,132 +85,9 @@ Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo co
       <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/005/</guid>
-      <description>&lt;p&gt;Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Editor -&amp;gt; cambiar generalmente de forma rapida y precisa.
-Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Por ello propuse un &lt;strong&gt;Gestor de Escenas&lt;/strong&gt; en la que uno mismo podria cambiar siempre de escena en cualquier lado.&lt;/p&gt;
-
-&lt;p&gt;El sistema es llamado &lt;strong&gt;Proteo&lt;/strong&gt; que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.&lt;/p&gt;
-
-&lt;p&gt;En la escena de test, queria sacar 3 funcionalidades.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cambiar de forma normal la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cambiar de forma Asyncrona la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Descargar alguna escena anterior.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bien ahora empezare por el sistema runtime.&lt;/p&gt;
-
-&lt;p&gt;Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.&lt;/p&gt;
-
-&lt;p&gt;Al sumar escenas hay un modo llamado &lt;strong&gt;LoadSceneMode.Additive&lt;/strong&gt; que seria sumar la nueva escena a la actual.&lt;/p&gt;
-
-&lt;p&gt;Bueno y despues de esto -&amp;gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                              
-// SProteo.cs (15/03/2017)                                      
-// Autor: Antonio Mateo (Moon Pincho)                              
-// Descripcion:     Sistema que gestiona el cambio de escenas.      
-// Fecha Mod:       15/03/2017                                  
-// Ultima Mod:      Version Inicial                             
-//****************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
-#endregion
-
-namespace MoonPincho
-{
-    /// &amp;lt;summary&amp;gt;
-    /// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
-    /// &amp;lt;/summary&amp;gt;
-    [AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
-    public class SProteo : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public UISlider progressBar;                                            // NGUI progress bar para la carga
-        #endregion
-
-        #region API
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-        {
-            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void UnLoadScene(string nombre)// Descarga la escena dada
-        {
-            SceneManager.UnloadSceneAsync(nombre);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-        {
-            StartCoroutine(UpdateProgress(nombre));
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public void UnLoadActual()// Descarga la escena actual.
-        {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        }
-        #endregion
-
-        #region Funcionalidad
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        /// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
-        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-        {
-            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
-
-            while (!cargando.isDone)
-            {
-                this.progressBar.value = cargando.progress;
-                Debug.Log(cargando.progress);
-                yield return null;
-            }
-        }
-        #endregion
-    }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MoonAntonio/GestorEscenasUnity&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.
+ Editor -&amp;gt; cambiar generalmente de forma rapida y precisa. Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.
+ Por ello propuse un Gestor de Escenas en la que uno mismo podria cambiar siempre de escena en cualquier lado.</description>
     </item>
     
     <item>
@@ -661,16 +96,8 @@ namespace MoonPincho
       <pubDate>Tue, 14 Mar 2017 19:53:02 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/002/</guid>
-      <description>&lt;p&gt;Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.&lt;/p&gt;
-
-&lt;p&gt;Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Por eso me e decidido con empezar con GitHub, y realmente &amp;hellip; se a quedado una cosa muy fea, pero al menos tengo un center para poder guiarme un poco mejor por estos terrenos.&lt;/p&gt;
-
-&lt;p&gt;Tengo pensado actualizar todos los repos para tenerlos bien organizados y documentados, pero hasta el momento tendre que ir tirando de este metodo que, aunque es feo, es lo mas rapido que puedo montar, para que no interfiera en el TFG y otros proyectos activos en este momento.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.
+Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;</description>
     </item>
     
     <item>
@@ -679,85 +106,7 @@ namespace MoonPincho
       <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;presentacion&#34;&gt;Presentacion&lt;/h1&gt;
-
-&lt;p&gt;Bueno, despues de darle varias vueltas y buscar mucha informacion, e decidido por fin redactar una investigacion sobre los rpgs y sus puntos.
-Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que han tenido exito y los &lt;strong&gt;puntos fuertes&lt;/strong&gt; de cada juego, en su resumen la globalidad de todo eso (aunque no sea una investigacion total), sera una linea por la que seguir y ver todas las referencias de los padres de los RPGs.&lt;/p&gt;
-
-&lt;p&gt;Para el primer videojuego, vamos a hablar mas que de un videojuego, de una saga. &lt;strong&gt;Final Fantasy&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;final-fantasy&#34;&gt;Final Fantasy&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Square Soft fue la empresa asignada que creo la saga Final Fantasy (Desde ahora FF), la saga comenzo en el 87, siendo el ultimo videojuego que &lt;strong&gt;Hironobu Sakaguchi&lt;/strong&gt; desarrollaria en el caso de que saliera mal.&lt;/p&gt;
-
-&lt;p&gt;La mayoria de las entregas son &lt;strong&gt;historias propias con diferentes personajes y escenarios&lt;/strong&gt;, existen ciertos temas recurrentes que definen a la franquicia. Algunos de estos temas incluyen elementos argumentales, nombres de personajes y mecanicas de jugabilidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;La trama&lt;/strong&gt; normalmente se constituye en un grupo de heroes, normalmente jovenes, que luchan contra un mal mayor, mientras enfrentan ciertos problemas personales y se exploran sus personalidades y relaciones con otros personajes.&lt;/p&gt;
-
-&lt;p&gt;Normalmente FF chupa mucho de &lt;strong&gt;diferentes culturas y mitologias&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los elementos comunes entre cada FF, eran varios, como por ejemplo las espadas &lt;strong&gt;Excalibur&lt;/strong&gt; ( Leyenda Arturiana ) y &lt;strong&gt;Masamune&lt;/strong&gt; ( Famoso herrero de espadas ), estos lugares y nombres, como ** Midgar y Nibelheim** provienen de la &lt;strong&gt;Mitologia Nordica&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Tambien hay diferentes personajes, invocaciones y magias, que en otras entregas pasan a ser &lt;strong&gt;temas recurrentes&lt;/strong&gt;, como en el caso de Meteor que puede ser un npc o una magia.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;El &lt;strong&gt;conflicto principal&lt;/strong&gt; de FF recae en un grupo de personajes luchando contra un mal, normalmente antiguo que domina el mundo.&lt;/p&gt;
-
-&lt;p&gt;Normalmente tienen &lt;strong&gt;2 Villanos&lt;/strong&gt;, el primero parece ser el jefe final, pero luego cuando es derrotado sale la verdadera identidad del segundo villano.&lt;/p&gt;
-
-&lt;p&gt;Tienen una &lt;strong&gt;trama principal&lt;/strong&gt; que a su vez, se divide en una aventura donde la historia enfatiza en los &lt;strong&gt;problemas internos de los personajes principales&lt;/strong&gt;, relaciones con otros personajes o incluso amor, guerra, amistad, rivalidad&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Uno de los elementos mas presentes en FF son &lt;strong&gt;los cristales&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;FF tiene variedad de personajes, pero tambien muchos &lt;strong&gt;personajes recurrentes&lt;/strong&gt; con ciertos arquetipos que se definen en el &lt;strong&gt;monomito&lt;/strong&gt;, de lo cual ya hable e investigue en &lt;a href=&#34;https://moonantonio.github.io/post/2017/dev/001/&#34;&gt;¿Que es Monomito?&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;El personaje mas recurrente de FF sin duda alguna es &lt;strong&gt;Cid&lt;/strong&gt;, normalmente aunque cambien el sexo, el papel o cualquier otra cosa, al ser recurrentes siempre llevan un vinculo a los demas cids de otras versiones, como por ejemplo que arregla barcos o a tenido un gran papel en sus tiempos.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;, FF  desde sus inicios a sabido bien lo que hacer, Square Soft, desde hace tiempo Square Enix por la fusion de compañias, han sacado partido de la IP de FF con diferentes patrones fijados y muy bien pensados.&lt;/p&gt;
-
-&lt;p&gt;Las historias siguen el patron del monomito.&lt;/p&gt;
-
-&lt;p&gt;Siempre usan personajes recurrentes a lo que cada jugador le dara un valor sentimental.&lt;/p&gt;
-
-&lt;p&gt;Han ido evolucionando y creando momentos muy bonitos mezclando las diferentes mitologias y leyendas siempre sin salir de la linea general de la trama.&lt;/p&gt;
-
-&lt;p&gt;Han usado muy bien la musica a su favor, FF tiene muchas de las mejores bandas sonoras de los videojuegos.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;the-legend-of-zelda&#34;&gt;The Legend of Zelda&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Bueno, despues de hablar de Final Fantasy, tambien hay que hablar de The Legend of Zelda, uno de los videojuegos con mayor publico y con derecho de Nintendo.&lt;/p&gt;
-
-&lt;p&gt;En este videojuego, vuelve a aparecer los mismos patrones que hablamos en el principio, siguen una seria de &lt;strong&gt;trama&lt;/strong&gt; en la que se vincula entre videojuegos, tiene un heroe principal y unos seguidores, en cual ** su mision** es derrotar a un ** ser maligno**.&lt;/p&gt;
-
-&lt;p&gt;Tambien tienen &lt;strong&gt;personajes recurrentes&lt;/strong&gt; , pero con mas razon, en este IP, la historia sigue a un elegido por su viaje y la mayoria de los juegos (sin contar los spin-off) se basan en &lt;strong&gt;Link, zelda y Ganon&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sigue teniendo una linea definida por el monomito, pero aqui las leyendas han sido creadas por los creadores mismos, con alguna referencia que otra, pero sin usar los mismos nombres que en las &lt;strong&gt;leyendas&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;La verdad que han sabido &lt;strong&gt;diferenciarse&lt;/strong&gt; de los demas rpgs incorporando muchas mecanicas imnovadoras y con un toque artistico muy caracteristico.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;, todos los rpgs siguen con el mismo patron , pero se diferencian en aspectos basicos, tales como la autenticidad de sus historias.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
+      <description>Presentacion Bueno, despues de darle varias vueltas y buscar mucha informacion, e decidido por fin redactar una investigacion sobre los rpgs y sus puntos. Esto sera una copilacion de diferentes juegos que han tenido exito y los puntos fuertes de cada juego, en su resumen la globalidad de todo eso (aunque no sea una investigacion total), sera una linea por la que seguir y ver todas las referencias de los padres de los RPGs.</description>
     </item>
     
     <item>
@@ -766,113 +115,7 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
       <pubDate>Mon, 13 Mar 2017 19:36:17 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/003/</guid>
-      <description>
-
-&lt;p&gt;Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características. Esto también es cierto con respecto a cualquier proyecto de Unity3D. Éstos son (en mi opinión) los más importantes consejos que le ayudarán a mantener su proyecto organizado.&lt;/p&gt;
-
-&lt;h1 id=&#34;estructura-del-directorio&#34;&gt;Estructura del Directorio&lt;/h1&gt;
-
-&lt;p&gt;No podemos hablar de la organización sin mencionar la organización de la estructura de directorios del proyecto. Unity le da una total libertad en esa materia, pero debido a que, con frecuencia puede ser muy desordenado. Esta es la estructura de directorios que utilizo personalmente:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Third party&lt;/p&gt;
-
-&lt;p&gt;-Plugins&lt;/p&gt;
-
-&lt;p&gt;-Nombre proyecto&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Resources&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Animaciones&lt;/p&gt;
-
-&lt;p&gt;-Audio&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Música&lt;/p&gt;
-
-&lt;p&gt;-SFX&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;-Modelos&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Materiales&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;-Texturas&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;-Shaders&lt;/p&gt;
-
-&lt;p&gt;-Prefabs&lt;/p&gt;
-
-&lt;p&gt;-Escenas&lt;/p&gt;
-
-&lt;p&gt;-Scripts&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;-Editor&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;1.- &lt;strong&gt;No guarde los archivos de assets en el directorio raíz&lt;/strong&gt;. Utilizar subdirectorios siempre que sea posible.&lt;/p&gt;
-
-&lt;p&gt;2.- &lt;strong&gt;No crear los directorios adicionales en el directorio raíz&lt;/strong&gt;, a menos que realmente sea necesario.&lt;/p&gt;
-
-&lt;p&gt;3.- &lt;strong&gt;Sea consistente con el nombramiento&lt;/strong&gt;. Utilizar nombres predictivos.&lt;/p&gt;
-
-&lt;p&gt;4.- &lt;strong&gt;No trate de mover assets del contexto específico que los directorios generales&lt;/strong&gt;. Por ejemplo, si hay materiales generados a partir del modelo, no moverlos a Materiales porque después no sabrá dónde viene esto.&lt;/p&gt;
-
-&lt;p&gt;5.- &lt;strong&gt;Utilice 3ª Party para almacenar los bienes importados desde el almacén de activos&lt;/strong&gt;. Por lo general tienen su propia estructura que no debe ser alterada.&lt;/p&gt;
-
-&lt;p&gt;6.- &lt;strong&gt;Utilice recinto de seguridad  del directorio para todos los experimentos&lt;/strong&gt;. Mientras se trabaja en este tipo de cosas, la última cosa que desea tener en cuenta es una organización adecuada. Hagan lo que quieran, y luego quitarlo u organizar cuando usted está seguro de que lo desea incluir en su proyecto. Cuando estás trabajando en un proyecto con otras personas, crear el subdirectorio de recinto de seguridad personal como:  Alexandria/MoonPincho .&lt;/p&gt;
-
-&lt;h1 id=&#34;estructura-de-la-jerarquía-de-escena&#34;&gt;Estructura de la jerarquía de escena&lt;/h1&gt;
-
-&lt;p&gt;Al lado de la jerarquía del proyecto también hay jerarquía de la escena. Al igual que antes, le presento una plantilla. Puede ajustarlo a sus necesidades.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Manager&lt;/li&gt;
-&lt;li&gt;GUI&lt;/li&gt;
-&lt;li&gt;Indispensables&lt;/li&gt;
-&lt;li&gt;Luces&lt;/li&gt;
-&lt;li&gt;Environment&lt;/li&gt;
-&lt;li&gt;Dinamicos&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hay varias reglas que debe seguir:&lt;/p&gt;
-
-&lt;p&gt;1.- Todos los objetos vacíos deben estar ubicados en 0,0,0 con la rotación y la escala predeterminada.&lt;/p&gt;
-
-&lt;p&gt;2.- Manten siempre la jerarquia aun instanciando objetos.&lt;/p&gt;
-
-&lt;p&gt;3.- Para los objetos vacíos que sólo son contenedores para los scripts, el uso de &amp;ldquo;@&amp;rdquo; como prefijo - por ejemplo @Cheats&lt;/p&gt;
-
-&lt;h1 id=&#34;usar-prefabs-para-todo&#34;&gt;Usar prefabs para todo&lt;/h1&gt;
-
-&lt;p&gt;Prefabs en Unity3D no son perfectos, pero son lo mejor que encontrará en jerarquías preconfiguradas de objetos. En términos generales, intentar crear prefabs de todo lo que se pone en sus escenas . Usted debe ser capaz de crear un nuevo nivel de una escena vacía simplemente añadiendo uno o más prefabs.&lt;/p&gt;
-
-&lt;p&gt;La razón por la que debe usar los prefabs es que cuando cambias un prefabs, todos los prefabs cambian también. Si tienes 100 niveles y desea agregar un efecto de cámara en todos ellos? ¡No es un problema! Si la cámara es un prefabs, basta con añadir un efecto de cámara a la cámara prefab!&lt;/p&gt;
-
-&lt;p&gt;Tenga en cuenta que no se puede tener un prefab en otro prefab.&lt;/p&gt;
-
-&lt;h1 id=&#34;aprende-a-usar-el-sistema-de-control-de-versiones-vcs&#34;&gt;Aprende a usar el sistema de control de versiones (VCS)&lt;/h1&gt;
-
-&lt;p&gt;Usted ya sabe algo acerca de GIT, subversión o cualquier otro VCS por ahí. Como cuestión de hecho, &amp;ldquo;saber algo&amp;rdquo; es sólo una pequeña parte de lo que usted puede aprender. Usted debe centrarse en el aprendizaje acerca de las características mas importantes de uso poco frecuente de VCS de su elección. ¿Por qué? Sobre todo porque los sistemas de control de versiones son mucho más potentes que usted piensa, y por desgracia muchos usuarios están utilizando estos como nada más que una copia de seguridad y soluciones sincronizadas. Por ejemplo, ¿sabía que le permite GIT guardar los cambios, para que pueda trabajar en ellos más adelante sin cometer cualquier cosa a su rama principal?&lt;/p&gt;
-
-&lt;p&gt;Los programadores suelen comentar bloques de código en caso de que sea necesario más adelante. No hagas eso! Si está utilizando VCS, aprender a navegar rápidamente a versiones anteriores de un archivo. Cuando esté familiarizado con ella, su código sera mucho más agradable sin un bloque innecesario de código comentado.&lt;/p&gt;
-
-&lt;p&gt;Aquí hay un buen recurso de consejos para los usuarios GIT:  &lt;a href=&#34;http://gitready.com/&#34;&gt;http://gitready.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;aprender-a-escribir-scripts-del-editor&#34;&gt;Aprender a escribir scripts del editor&lt;/h1&gt;
-
-&lt;p&gt;Unity3D es un gran motor de juego en materia de extensibilidad. Aprender a escribir scripts del editor. Sí es necesario, no es necesario crear GUI de lujo para los scripts, puede ser algo simple, como las entradas de menú que están haciendo algo útil.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características.</description>
     </item>
     
     <item>
@@ -881,52 +124,7 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
       <pubDate>Mon, 13 Mar 2017 19:10:22 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/002/</guid>
-      <description>
-
-&lt;p&gt;Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.&lt;/p&gt;
-
-&lt;h1 id=&#34;organizar-bien-su-proyecto&#34;&gt;Organizar bien su proyecto&lt;/h1&gt;
-
-&lt;p&gt;Antes de avanzar más lejos que hay que asegurarse de que su proyecto está bien organizado. Es un requisito importante porque el proyecto no organizado es muy difícil de mantener. No es imposible trabajar en estos proyectos por todos los medios, pero cada vez que se verán obligados a trabajar en él, se puede sentir un deseo imparable de asesinar a alguien en su proximidad cercana. Y este sentimiento empeorará a medida que el proyecto va a crecer.&lt;/p&gt;
-
-&lt;h1 id=&#34;configuración-de-un-gestor-de-incidencias&#34;&gt;Configuración de un gestor de incidencias&lt;/h1&gt;
-
-&lt;p&gt;Si no está utilizando uno ya entonces estoy seguro de que usted ha escuchado al menos aproximadamente Jira , Redmine , Trac o Mantis . De hecho, hay un  montón de ellos  y que pueden tener un serio problema al decidir cuál elegir. Desde mi experiencia no hay una solución que puede ser llamada &amp;ldquo;la mejor&amp;rdquo;. Todos estos tiene algunas ventajas y desventajas. Le recomiendo a usted para comprobar al menos 3 de ellos antes de decidir uno, será lo suficientemente bueno para sus necesidades. Tenga en cuenta que va a aprender lo que realmente  necesita sólo después de unos meses de trabajo con cualquiera de él.&lt;/p&gt;
-
-&lt;p&gt;¿Por qué el seguimiento de problemas es importante? Cuando se trabaja en equipo, la buena comunicación es la clave. Los seres humanos son criaturas perezosas y olvidadizas. Si le dices a alguien que él/ella tiene que hacer algo, él/ella recuerda esa tarea con claridad hasta que toneladas de tareas similares caen del cielo. Tienes que aceptar ese simple hecho. Asimismo, no confíe en su propia memoria - se ha demostrado que la necesidad de recordar un montón de cosas aumenta significativamente su estrés.&lt;/p&gt;
-
-&lt;h1 id=&#34;cambie-sus-proyectos-a-modo-de-texto-método-de-serialización&#34;&gt;Cambie sus proyectos a modo de texto (método de serialización)&lt;/h1&gt;
-
-&lt;p&gt;Es obvio, pero puede a menudo olvidarse. Unity3D está utilizando el método de serialización binaria para sus activos de forma predeterminada (hey, chicos de Unity3D! ¿Quién os dijo que sería una buena idea?). Esto simplemente significa que si dos personas van a modificar una escena, el ajuste de animación o un prefab, al mismo tiempo, una persona tendrá que renunciar a sus cambios a causa de un conflicto. La situación es similat a aquel en el que dos chicos salen con la misma chica. Uno de ellos, tarde o temprano va a tener que renunciar (no hablemos acerca de las alternativas, ¿de acuerdo?).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Asset Serialization&lt;/strong&gt; | Mode |  Force Text : se puede activar en el menú Edición -&amp;gt; Ajustes del proyecto -&amp;gt; Editor&lt;/p&gt;
-
-&lt;h1 id=&#34;ponerse-de-acuerdo-sobre-un-estilo-común-de-codificación&#34;&gt;Ponerse de acuerdo sobre un estilo común de codificación&lt;/h1&gt;
-
-&lt;p&gt;Esté preparado para una gran pelea - a los programadores no les gusta cambiar sus hábitos. Pero usted y sus colegas todavía tiene que hacerlo, de lo contrario causará una gran cantidad de conflictos desagradables en fusiones de código. Además, usted tiene que decidir si los archivos de origen deben utilizar tabuladores o espacios para el sangrado de código. Es posible que busque algo así como una guía oficial o comunidad de estilo para un idioma específico. Hay uno para C #   que pueden serle de utilidad. Usted no tiene que seguir ciegamente si usted no está de acuerdo con algunas partes de ella, pero cuando haya un desacuerdo dentro de su equipo, puede ser una buena fuente de posible solución.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Recuerda no forzar ninguna decisión sobre su equipo si hay un fuerte desafío en esa materia&lt;/strong&gt;. Si usted quiere que le dan todo lo que tienen a su proyecto, usted tiene que hacer que les encanta trabajar en él, no lo odio!&lt;/p&gt;
-
-&lt;h1 id=&#34;acordar-activo-cambia-la-política&#34;&gt;Acordar activo cambia la política&lt;/h1&gt;
-
-&lt;p&gt;Algunos assets pueden ser difíciles de combinar, incluso si se cambia el modo de serialización de texto . Puede que sea necesario decidir sobre una política sobre cómo y cuándo comunicar que alguien está a punto de editar un assets. Algunos VCS como Perforce o PlasticSCM ofrecen una función de llamada  de pago exclusiva . Esto significa que todos los archivos son de sólo lectura hasta que alguien se decida a editarlo. Si la segunda persona trata de editar ese archivo en el mismo tiempo, él/ella recibirá una advertencia de que el archivo está siendo revisado por otra persona.&lt;/p&gt;
-
-&lt;p&gt;También es posible que desee tener más enfoque humano similar. Conocí a una empresa que tenía una mesa magnética con notas post-it en él. Cada nota tenía un nombre escrito en la escena. Si alguien decide editar una escena, él o ella toma nota a juego con su escritorio para que nadie más modifique esa escena.&lt;/p&gt;
-
-&lt;h1 id=&#34;comunicar-a-menudo-pero-observe-las-interrupciones&#34;&gt;Comunicar a menudo, pero observe las interrupciones&lt;/h1&gt;
-
-&lt;p&gt;Hablar a menudo con su equipo acerca de lo que hicieron y lo que están a punto de hacer. Hágalo todos los días si es posible y que sea corto. Discutir acerca de posibles problemas y cómo resolverlos, si es necesario.&lt;/p&gt;
-
-&lt;p&gt;Hablar con sus compañeros de equipo a menudo si es necesario , pero cuidado con la interrupción de su trabajo. Evitar llamarlos o hablar con ellos personalmente sin previo aviso anterior. Si lo hace, usted niega su derecho a reaccionar cada vez que les conviene. Pueden perder de inmediato el contexto de la labor que estaban haciendo y se centren en su cosa - es una cosa muy egoísta. Incluso si usted tiene prisa, tratar de notificarles mediante un mensaje de correo electrónico o de mensajería instantánea en primer lugar.&lt;/p&gt;
-
-&lt;p&gt;Elegir el software de comunicación que permite configurar libremente su nivel de detalle. Algunas personas no les importa ser interrumpido, algunos lo hacen. Casi cada cliente de correo electrónico permite configurar libremente las notificaciones de nivel así que si quieres hablar de algo y no tiene prisa, utilizar e-mails. Hay cosas que no pueden esperar demasiado tiempo, por lo que necesita de mensajería instantánea de algún tipo. Recomiendo encarecidamente que intenta Slack . Slack respeta altamente derecho de todos a no ser interrumpido y le da una opción para permitir la interrupción en cuestiones realmente importantes. Slack también permite a su equipo crear canales. Canal es un lugar cuando dos o más personas pueden hablar entre sí acerca de un tema específico.&lt;/p&gt;
-
-&lt;h1 id=&#34;qué-más&#34;&gt;¿Qué más?&lt;/h1&gt;
-
-&lt;p&gt;No hay dos proyectos idénticos y dos equipos nunca serán los mismos. Usted debe mantener sus ojos y la mente abierta, y ver cualquier problema de sus encuentros del equipo que vale la pena resolver. No todos los problemas se pueden resolver con facilidad y muchos directores de proyectos comete un error con la solución de un problema con una solución que hace que sea aún peor. Intentarlo no es un pecado, pero no admitir que cometió un error y una regresión en el trabajo que ya se ha hecho por desgracia.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.</description>
     </item>
     
     <item>
@@ -935,16 +133,9 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
       <pubDate>Sun, 12 Mar 2017 23:50:54 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;center-imagen-del-dia-12-03-2017-center-br&#34;&gt;&lt;center&gt;Imagen del dia [12.03.2017]&lt;/center&gt;&lt;/br&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/pinturadia/44.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;center&gt; ^^&lt;/center&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description> Imagen del dia [12.03.2017] 
+  ^^
+ </description>
     </item>
     
     <item>
@@ -953,918 +144,8 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
       <pubDate>Thu, 09 Mar 2017 22:27:20 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/002/</guid>
-      <description>
-
-&lt;h1 id=&#34;guía-de-bravely-default&#34;&gt;Guía de Bravely Default&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_01.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Como es evidente, esta no será una guía &amp;ldquo;al uso&amp;rdquo; y responderá más a decisiones personales de mi propia partida más que a criterios objetivos especialmente efectivos para cada situación, así que espero que comprendáis que mientras esté realizando este proyecto, muchas partes serán susceptibles de cambio porque, al avanzar en la partida, puede que descubra que cierta cosa que hice se podría haber hecho de otra forma o igual me dejé algo atrás&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;ÍNDICE&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;- Demo&lt;/li&gt;
-&lt;li&gt;- Preguntas frecuentes&lt;/li&gt;
-&lt;li&gt;- Trabajos&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;3.1 - Aprendiz&lt;/p&gt;
-
-&lt;p&gt;3.2 - Monje&lt;/p&gt;
-
-&lt;p&gt;3.3 - Mago Blanco&lt;/p&gt;
-
-&lt;p&gt;3.4 - Mago Negro&lt;/p&gt;
-
-&lt;p&gt;3.5 - Caballero&lt;/p&gt;
-
-&lt;p&gt;3.6 - Ladrón (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.7 - Mercader (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.8 - Esgrimago (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.9 - Mago del tiempo (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.10 - Cazador (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.11 - Invocador (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.12 - Valquiria (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.13 - Mago Rojo (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.14 - Creador de bálsamos (Trabajo opcional) + Lista de combinaciones&lt;/p&gt;
-
-&lt;p&gt;3.15 - Artista (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.16 - Pirata (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.17 - Ninja (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.18 - Maestro espadachín (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.19 - Ocultista&lt;/p&gt;
-
-&lt;p&gt;3.20 - Maestro espiritual&lt;/p&gt;
-
-&lt;p&gt;3.21 - Templario&lt;/p&gt;
-
-&lt;p&gt;3.22 - Caballero oscuro&lt;/p&gt;
-
-&lt;p&gt;3.23 - Vampiro (Trabajo opcional)&lt;/p&gt;
-
-&lt;p&gt;3.24 - Hechicero (Trabajo opcional)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;- abilidades especiales.&lt;/li&gt;
-&lt;li&gt;- La reconstrucción de Norende y los Némesis.&lt;/li&gt;
-&lt;li&gt;- Bestiario: Localización de todos los monstruos para completar el Diario de D.&lt;/li&gt;
-&lt;li&gt;- Objetos y equipo.&lt;/li&gt;
-&lt;li&gt;- Cómo se hizo, dibujos y curiosidades&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;8.1 - Introducción: La sima de la desesperanza.&lt;/p&gt;
-
-&lt;p&gt;8.2 - Capítulo 1: Sentarse es para perros.&lt;/p&gt;
-
-&lt;p&gt;8.3 - Capítulo 2: Un día, bajo el cielo azul.&lt;/p&gt;
-
-&lt;p&gt;8.4 - Capítulo 3: Lazos amados.&lt;/p&gt;
-
-&lt;p&gt;8.5 - Capítulo 4: Blanco y negro.&lt;/p&gt;
-
-&lt;p&gt;8.6 - Capítulo 5: Escenario de ayer&lt;/p&gt;
-
-&lt;p&gt;8.7 - Capítulo 6: Resonancias: Inquietud.&lt;/p&gt;
-
-&lt;p&gt;8.8 - Capítulo 7: Resonancias: Desesperación.&lt;/p&gt;
-
-&lt;p&gt;8.9 - Capítulo 8: Resonancias: Paz.&lt;/p&gt;
-
-&lt;p&gt;8.10 - Final alternativo: Spoiler.&lt;/p&gt;
-
-&lt;p&gt;8.11 - Final: Bravely Default.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;1 - DEMO&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_02.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;la demo de Bravely Default es una de esas demos que vale la pena jugar por el impacto que tendrá en el juego real, ya que completar los diferentes retos de la misma nos otorga objetos extra al comenzar la versión definitiva y los datos de Street Pass se conservan, lo cual es un aliciente extra para probarla.&lt;/p&gt;
-
-&lt;p&gt;Pero pasemos a lo interesante: Los oficios disponibles. Son 9 (Habrá 24 en la versión final) y limitados a 4 niveles (14 en el juego), pero ya podemos hacernos una idea de cuáles podrán ser nuestros favoritos para empezar.&lt;/p&gt;
-
-&lt;p&gt;Recuerdo que la versión definitiva estará traducida al español, así que ni los nombres de las habilidades ni el nivel en el que se aprenden serán las mismas que en la versión final del juego.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;FREELANCER&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_03.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; Todos nivel C&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; Todos a nivel B&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Late Bloomer -&amp;gt;&lt;/strong&gt; Sus parametros aumentan en un 1% por cada oficio llevado al maximo.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Examine:&lt;/strong&gt; El Libra de toda la vida para conocer la VIT restante de nuestros enemigos. Bastante útil contra jefazos, sobre todo para jugadores impacientes.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dungeon Master:&lt;/strong&gt; Anula el daño y el efecto causado por el terreno fuera de combate. En la demo es útil en la zona del bosque, con esos pozos de veneno. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mislead:&lt;/strong&gt; Reduce las posibilidades de ser atacado por el enemigo. Puede ser útil en magos, pero yo prefiero usar Default para defenderme.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Divining Rod:&lt;/strong&gt; Revela cuántos cofres quedan por abrir en una mazmorra. Interesante para la versión final, bastante inútil en la demo, con una sola sala oculta. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;El oficio &amp;ldquo;Caballero Cebolla&amp;rdquo; del juego no es de los más interesantes, ya que su habilidad base no brilla demasiado con solo 9 oficios. Solo veo útiles su Examine y las habilidades de soporte en momentos puntuales, pero poco más.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;KNIGHT&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_04.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT B, Ataque B, Defensa S, Espíritu B. Todo lo demás: D.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; Espadas y Escudos S, Lanzas, cascos y armaduras, A, resto: B o inferior.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Protect Ally -&amp;gt;&lt;/strong&gt; Defiende automáticamente a un aliado que esté a punto de morir.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Ironclad:&lt;/strong&gt; Maximiza la defensa (+150%) durante un turno. Coste: 5 PM. No es muy útil, hay habilidades mejores.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Two Handed:&lt;/strong&gt; Permite usar la mano del escudo para coger el arma con dos manos y duplicar su poder. Muy útil en composiciones ofensivas. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Full Cover:&lt;/strong&gt; Defiende a un aliado de los ataques directos durante todo un turno. En el juego final es una habilidad de nivel 10, así que imaginad lo OP que está. Ideal para cubrir a curanderos, magos negros o ninjas.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chivalrous Spirit:&lt;/strong&gt; Aumenta tu defensa un 25% por cada habilidad protectora que uses. Hay habilidades de apoyo mejores en la demo. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;El clásico caballero combina habilidades defensivas y ofensivas, lo cual lo hacen apto para cualquier situación. En los momentos finales de la demo, lo usaba con escudo para cubrir a mi Ninja, que era quien recibía más daño, pero también lo probé como guerrero ofensivo con arma a dos manos y pega bastante.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;BLACK MAGE&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_05.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT: C, MP: A, INT: A, SPIRIT: B, Rapidez: C, Resto: D o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; S en bastones, B en varas y dagas. Resto: E.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Black Resonance -&amp;gt;&lt;/strong&gt; Aumenta el daño de los conjuros si hay más magos negros en el grupo.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Black Magic LV. 1:&lt;/strong&gt; Piro, Hielo y Electro. Los clásicos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Black Magic LV. 2:&lt;/strong&gt; Mutis, Veneno y Morfeo. Solo Veneno es realmente interesante contra ciertos enemigos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Damage Dispersion:&lt;/strong&gt; Reduce el daño recibido compartiéndolo con los aliados. Hay habilidades mejores. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Black Magic LV. 3:&lt;/strong&gt; Piro+, Hielo+  y Electro+. Sinceramente: Ni los he usado.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;No sé si es que es cosa de la demo o que estoy muy exquisito, pero la impresión que me deja este oficio es que su daño no es muy superior al de los oficios físicos que, además, no tienen que consumir PM. Puede que en el juego real este oficio sí tenga la importancia que siempre ha tenido, pero lo dicho: En la demo no se la he visto.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;WHITE MAGE&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_06.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT: D, MP: S, SPIRIT: A, Resto: C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; S en bastones, B en varas y escudos, C en dagas. Resto: E.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Self Healing -&amp;gt;&lt;/strong&gt; Te recupera de los estados alterados tras el combate. (MUY útil en los comienzos del juego, con serpientes que te envenenan).&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;White Magic LV. 1:&lt;/strong&gt; Cure, Poisona, Blinda. La Cura vital para cualquier grupo y un par de estados alterados corregidos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;White Magic LV. 2:&lt;/strong&gt; Aero, Coraza, Escudo. Aero puede hacer daño al principio del juego y las habilidades defensivas pueden ser útiles&amp;hellip; Hasta que pruebas al Performer.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Angelic Ward:&lt;/strong&gt; 50% de posibilidades de que el daño recibido disminuya un 50%. (Habilidad de Apoyo: 1 Ranura) La habilidad más rota de la demo. Con diferencia. VITAL para todo tu grupo, ya que reduce el daño recibido una barbaridad y, por supuesto, esta habilidad está nerfeada a tope en la versión final, donde costará 3 Ranuras y el % de activarse baja al 25%.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;White Magic LV. 3:&lt;/strong&gt; Cura+, Lázaro, Esna. Lázaro es caro (18 PM), pero vale la pena tenerlo y Cura+ es vital en los momentos finales de la demo, así que alguien con White Magic es un &amp;ldquo;must have&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Un Mago Blanco es indispensable para cualquier grupo que se precie, así que por lo menos uno de tus personajes deberá tener sus habilidades disponibles. Además, con lo OP que está Angelic Ward, casi que todo el mundo va a dominar este oficio en la demo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;RED MAGE&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_07.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT/DEF/VEL: C, MP/ATK/SPI/INT: B, DESTREZA: A.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; A en espadas, B en casi todas las armas y C en escudos, cascos y armaduras.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Revenge -&amp;gt;&lt;/strong&gt; 25% de posibilidades de ganar 1 BP por recibir daño.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;B/W Magic LV. 1:&lt;/strong&gt; Puede usar los hechizos de nivel 1 de Mago Blanco y Negro.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Turn Table:&lt;/strong&gt; Gana 1 BP por ataque esquivado. Útil en ciertos roles. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;B/W Magic LV. 2:&lt;/strong&gt; Sobre todo resulta interesante tener Veneno, pero ya hemos visto que no son habilidades muy allá.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Adrenaline:&lt;/strong&gt; +1 BP por enemigo que derrote el Mago Rojo. MUY interesante, sobre todo para el juego definitivo.  (Habilidad de Apoyo: 2 Ranuras).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;El Mago Rojo es una buena opción para seguir llevando a un Mago (Blanco, principalmente) como segundo rol y así aprovechar sus estadísticas superiores para el combate físico. Puede que no sea tan buen mago, pero sus Cura+ son lo suficientemente buenas para mantener al grupo sin problemas y siempre podrás tirar de las habilidades de nivel 2 del Mago Negro si te hacen falta.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;NINJA&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_08.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; DESTREZA: A, VEL: S, INT: B, Resto C menos DEF y SPI, que es D.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; Dagas S, Katana B, resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Dual Wield -&amp;gt;&lt;/strong&gt; Puede llevar dos armas y ambas causan el mismo daño.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Utsusemi:&lt;/strong&gt; Esquiva el primer ataque físico que reciba. Muy útil si está con poca vida.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transcience:&lt;/strong&gt; Contraataca tras esquivar un ataque. Combinado con Utsusemi es un chiste. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Comeback Kid:&lt;/strong&gt; Aumenta su ataque un 25% tras esquivar un ataque. Puede ser muy buena habilidad. (Habilidad de Apoyo: 1 Ranura).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Ikkikasei:&lt;/strong&gt; Duplica los ataques que realiza en este turno. Bien usado, resulta un abuso.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Su habilidad Dual Wield y las buenas dagas que se pueden lograr desbloqueando la tienda en la reconstrucción de Norende hacen de este oficio a uno de los más efectivos a la hora de hacer un daño masivo a los enemigos. Eso sí, su resistencia será de las más bajas del juego, así que procura tenerla bien defendida por un Knight si no quieres llevarte una desagradable sorpresa.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;PERFORMER&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_09.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT/DEF: B, Resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; Varas, Dagas y cetros: S, Espadas A, resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Save Singing MP -&amp;gt;&lt;/strong&gt; Las canciones cuestan menos PM. Vamos, lo que viene a ser un &amp;ldquo;si quieres cantar, usa este oficio o gasta PMs a saco&amp;rdquo;.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Love Power:&lt;/strong&gt; Sube un 25% el ataque del grupo. Coste: 30 PM (15 si eres Performer) No merece la pena salvo que tengas mucha prisa.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;One More For You:&lt;/strong&gt; Le da 1 BP a un aliado. Coste: 26 PM. Para mi gusto, no merece demasiado la pena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Catch Me:&lt;/strong&gt; Aumenta las posibilidades de ser objetivo de losa taques del enemigo en los siguientes turnos. Coste: 10 PM. Viene bien para tanques.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Buff Up:&lt;/strong&gt; Aumenta un 5% todos tus stats al final de cada turno. Es decir, que en 5 turnos tus personajes irán más petados que con Love Power y una ración de Corazas/Escudos y en 10 estarán a tope. Una chetada de proporciones épicas. (Habilidad de Apoyo: 2 Ranuras).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sus canciones no son la panacea, aunque resultan útiles contra los jefes del juego, pero lo de Buff Up es tal abuso que vale la pena que todos lo aprendan. Además, su diseño es chulísimo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;VALKYRIE&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_10.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT/ATK/DEF/VEL: B, Resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; Lanzas S, Armaduras/Escudos/Cascos: A, resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Soul Mates -&amp;gt;&lt;/strong&gt; Gana un +25% en su ataque durante 5 turnos si un aliado muere.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jump:&lt;/strong&gt; Desaparece como posible objetivo del enemigo durante un turno y cae en el siguiente causando daño extra. Útil al principio y bastante pasable al final de la demo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Crescent Moon:&lt;/strong&gt; Un ataque que acierta a todos los enemigos. Muy útil para grupos grandes.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pierce Default:&lt;/strong&gt; Causa el mismo daño incluso cuando el enemigo usa Default. No merece mucha la pena por 2 ranuras. (Habilidad de Apoyo: 2 Ranuras).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;BP Skill Amp:&lt;/strong&gt; Aumenta el coste de las habilidades que consumen BP, pero éstas cuasan un 1.5 más de daño. Puede ser muy fuerte, pero por 3 ranuras no lo veo. (Habilidad de Apoyo: 3 Ranuras).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Diseño espectacular, buenos stats, habilidades útiles para buena parte del juego&amp;hellip; Es un oficio por el que pasar sí o sí cuando quieres tener a un personaje fuerte.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;SWORDMASTER&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_11.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Parametros:&lt;/strong&gt; VIT/MP/ATK: B, SPI/VEL: A, Resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Dominio de equipo:&lt;/strong&gt; Katanas S, Armaduras/Escudos/Cascos: A, Dagas y Espadas B, resto C o menos.&lt;/center&gt;
-&lt;center&gt;&lt;strong&gt;Habilidad base: Counter -&amp;gt;&lt;/strong&gt; Puede contraatacar a los enemigos que le causen daño.&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Nothing Ventured:&lt;/strong&gt; Reduce el daño recibido en un 50% durante un turno y contraataca si es atacado. Es MUY buena habilidad, sobre todo si sabes que el enemigo te va a atacar.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mustitask:&lt;/strong&gt; Tienes un 25% de posibilidades de ejecutar un ataque extra este turno. Puede venir bien, pero por el coste de 2 Ranuras, no es TAN rentable en la demo, con 4 Ranuras como límite.(Habilidad de Apoyo: 2 Ranuras).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Squeaky Wheel:&lt;/strong&gt; Reduce en 1 el BP del enemigo. Este ataque tiene un 30% de posibilidades de funcionar contra jefes. Y por esa penalización, la habilidad es practicamente inútil. Muy pocos enemigos de relleno de la demo pueden ser verdaderamente peligrosos con muchos BP.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Redoubled Effort:&lt;/strong&gt; Aumenta el daño causado en un 1.1 si tienes i BP, en 1.21 si tienes 2 BP, en 1.33 si tienes 3 BP y en 1.46 si tienes 4 BP. No sé por qué, pero en la demo no se notaba tanto el efecto y el tiempo que pierdes haciendo Default para cargar BP no compensaba el daño extra. (Habilidad de Apoyo: 2 Ranuras).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;EL oficio ofensivo de la demo. A sus buenos stats se le une la posibilidad de contraatacar, lo cual hace que cause más daño a largo plazo que otros roles basados en el daño físico. Además, puede hacerse muy resistente con Nothing Ventured y llevando una katana a dos manos se convierte en un monstruo. Genial.&lt;/p&gt;
-
-&lt;p&gt;Con estos roles, yo acabé la demo (Nivel &lt;sup&gt;19&lt;/sup&gt;&amp;frasl;&lt;sub&gt;20&lt;/sub&gt;, todos los roles en nivel 4) con un Swordmaster (Buff Up, Two Handed y Angelic Ward), un Mago Rojo (Buff Up, Angelic Ward, Turn Table y Mago Blanco de segundo rol), un Ninja (Buff Up, Angelic Ward y Transcience) y un Knight (Buff Up, Angelic Ward y Chivalrous Spirit) y no tuve problemas para acabar con los mega-enemigos extra que salían al final: Dragon y Automaton.&lt;/p&gt;
-
-&lt;p&gt;Me bastaba con atacar con Ninja, Sowrdmaster y Mago Rojo, mientras que con el Knight usaba Full Cover sobre el Ninja para anular el posible daño que ésta pudiera recibir. El resto, con equipo de Norende a nivel 4, podía aguantar sin problemas los ataques de esos enemigos especiales y con Cura podía recuperarlos tras cada oleada de ataques que soltaban los jefazos.&lt;/p&gt;
-
-&lt;p&gt;Para subir de nivel, una vez que te dicen que vayas al bosque, bastaba con encontrar un grupo de setas o escorpiones y que se dedicaran a llamar a sus compañeros para tener un combate sin fin en el que ganar experiencia y puntos de oficio a saco. Una vez que has completado la torre, me dediqué a farmear a la tortuga-jefe de la zona del bosque, que daba 70 JP y permitía maximizar los oficios en nada y menos, aunque en la costa hay también unos enemigos más que interesantes para esa labor.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_12.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;En la versión final el primer jefazo del juego acaba como enemigo de relleno, imaginad lo grande que será.&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;En cuanto a la reconstrucción de la ciudad, tuve la suerte de encontrarme con dos personas que tenían la demo, así que con 4 señores (El tercero te lo dan al completar las 3 mazmorras de los alrededores de la ciudad) no costaba casi nada reconstruir cada zona, bastaba con dejar cargando la N3DS encendida, con la demo puesta, para finiquitar la reconstrucción y poder comprar el equipo gordo que te venden allí. Además, completar la reconstrucción de Norende en la demo desbloquea una recompensa extra para la versión final:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Empezar la demo: 2 Antídotos, 2 Colirio y 2 Hierbas de eco.&lt;/li&gt;
-&lt;li&gt;Derrotar a Melousine: 3 Pociones y 1 Ultrapoción.&lt;/li&gt;
-&lt;li&gt;Derrotar al Minotaur: 1 Bastón y 1Éter.&lt;/li&gt;
-&lt;li&gt;Derrotar a la Adamant Turtle: 1 Vara y 1 Éter.&lt;/li&gt;
-&lt;li&gt;Derrotar al Dragon: 1 Yelmo de bronce y 1 Armadura de cuero.&lt;/li&gt;
-&lt;li&gt;Derrotar al Automaton: 1 Espada ancha y 1 Broquel.&lt;/li&gt;
-&lt;li&gt;Completar la reconstrucción de Norende (Desbloquear 2 caminos y subir 4 tiendas a nivel 3): Aro de bronce y 2 Plumas de fénix.&lt;/li&gt;
-&lt;li&gt;Por completarlo todo: 2 ciudadanos para la población de Norende y hasta un máximo de 20 si has logrado aumentar la población de la ciudad usando la demo.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;2 - PREGUNTAS FRECUENTES&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_13.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Con el fin de ayudar más fácilmente a los nuevos lectores que tengan una duda concreta y no quieran buscarla en toda la guía (Vag@s :P) esta entrada resolverá las dudas más frecuentes que pueden tener los jugadores y no-jugadores de Bravely Default.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿De verdad merece la pena este juego? ¿Cómo es?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Esta es una pregunta muy común de los poseedores de una Nintendo 3DS y siempre digo lo mismo: Si te gustan los Final Fantasy clásicos y JRPGs similares, el juego te va a gustar, sin duda.&lt;/p&gt;
-
-&lt;p&gt;Evidentemente, este título no tiene la complejidad argumental de los Final Fantasy más importantes, pero sí que ofrece a unos personajes muy carismáticos, tanto aliados como enemigos que harán la aventura muy amena, divertida y con sus sorpresas, que siempre se agradecen.&lt;/p&gt;
-
-&lt;p&gt;La dificultad está bien ajustada (Puedes poner el juego en Difícil desde el primer momento si te quieres asegurar de afrontar un reto importante), hay muchos secretos, el sistema de combate es muy dinámico, la frecuencia de los combates aleatorios es adecuada (Y se puede modificar en todo momento) y la duración supera las 60 horas tranquilamente.&lt;/p&gt;
-
-&lt;p&gt;Las únicas quejas más o menos importantes residen en que tras el Capitulo 4 la historia se toma un respiro y tenemos 4 capítulos bastante flojos en ese aspecto, donde nuestra labor será disfrutar más de los combates que de otra cosa. Al final, todo se volverá mucho más épico, pero hay gente con poca paciencia a la que ese momento del juego les mata completamente.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_14.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Qué pasa con esos cofres azules? ¿Cómo los abro?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tranquilidad, no podrás abrir los cofres azules hasta que logres la Llave de cofre en el Capítulo 6, así que simplemente necesitarás paciencia hasta llegar a ese capítulo. ;)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tengo al Invocador, pero solo a una invocación. ¿Dónde consigo al resto?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para lograr más invocaciones, deberás encontrar a los anacoretas ocultos en diferentes zonas del mundo y sobrevivir a la invocación que te lancen. Su localización es la siguiente:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hresvelgr&lt;/strong&gt; -&amp;gt; Templo del Viento, P1. (Capítulo 2 en adelante)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Ziusudra&lt;/strong&gt; -&amp;gt; Monte Fragmentum. (Capítulo 2 en adelante)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Fuego Prometeo&lt;/strong&gt; -&amp;gt; Templo del Fuego. (Capítulo 3 en adelante)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Deus ex Máchina&lt;/strong&gt; -&amp;gt; Torre Perpetua, P1. (Capítulo 4 en adelante)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Susano&amp;rsquo;o&lt;/strong&gt; -&amp;gt; Isla al noreste del mapa con forma de media Luna, en la parte más lejana del puerto. (Capítulo 3 en adelante)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para sobrevivir a estos potentes ataques, es altamente recomendable tener mucha resistencia mágica y, si es posible, toda la defensa elemental que puedas llevar, ya que salvo Susano&amp;rsquo;o el resto están afiliados a un elemento y, de hecho, podrías anular por completo su daño llevando cierto equipo.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Qué es eso de que el juego tiene dos finales?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sí, Bravely Default tiene dos finales distintos, pero NO voy a spoilear nada. Simplemente quiero tranquilizarte: DA IGUAL el final que tomes, una vez lo acabes te devolverán al momento previo a la toma de decisión y podrás hacer el otro sin ningún problema.&lt;/p&gt;
-
-&lt;p&gt;Si no, siempre podrás empezar una Partida+ desde el comienzo manteniendo todo lo logrado en la partida anterior, así que hay varias opciones para que no te tengas que preocupar demasiado sobre el camino a tomar.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Cómo logro más trabajadores para reconstruir el pueblo de Norende?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_15.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Hay muchos métodos para lograrlos, así que será difícil que no tengas a suficientes trabajadores para reconstruir Norende.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Completar la demo de Bravely Default. Esto nos otorgará un mínimo de 2 nuevos habitantes y un máximo de 20 de forma directa.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Entablar Street Pass (Ya sabéis, llevaros la consola con el Wireless encendido por la calle) con otra Nintendo 3DS en la que se haya jugado a Bravely Default. Con cada encuentro, recibiremos un nuevo habitante.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usar Act. datos en el menú de guardado del Aventurero. Esto requerirá tener conexión a internet con la consola y nos otorgará 3-4 nuevos habitantes a los que podremos también invocar en combate. Esto sólo se puede hacer una vez por día.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usar Añad. amigos en el menú de guardado del Aventurero. Dependiendo de si nuestro amigo está al lado nuestro o tenemos que usar internet variará la opción a escoger, pero sea en el caso que sea, nos otorgará un nuevo habitante para nuestro poblado.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Y dónde compro los objetos que desbloqueo en Norende?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Simplemente, habla con el Avenutrero que guarda la partida, él nos ofrecerá la opción de comprar los objetos o el equipo que hemos desbloqueado.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Cuál es el mejor sitio para entrenar?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Esto es algo que cambia en cada capítulo, pero en general se podría decir que en los 4 primeros vale cualquier zona nueva y, una vez que lleguemos al capítulo 5, el mejor punto será el Jardín Florem o Madera Vieja, donde salen grupos de 6 Raflesia que dan muchisima EXP y PT. Eso sí, lleva protección contra el sueño o muerte, por las Hamadriades que salen por la zona.&lt;/p&gt;
-
-&lt;p&gt;Si estás en el Capítulo Final, el Cierre de Dimensión es también un buen punto donde subir como la espuma.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Dónde está el barco fantasma? ¿Qué pasa si le doy a &amp;ldquo;no subir&amp;rdquo; y lo pierdo?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_16.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El barco fantasma que nos comentan en el Capítulo 3 aparece de noche en la zona al norte o al sur de Grandeza, oculto en la niebla que veis en la imagen.&lt;/p&gt;
-
-&lt;p&gt;Si tenéis mala suerte y le dais por error a la opción de dejar pasar el barco, tendréis que esperar a que se vuelva a hacer de noche y buscar de nuevo la niebla. No, no lo perderéis para siempre. ;)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Cómo llego a la mazmorra secreta de la que he oído hablar?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;El Cierre de Dimensión se encuentra en el centro de la isla de media Luna donde logramos a Susano&amp;rsquo;o, pero solo podremos acceder ahí en el capítulo final cuando nos hayan dado permiso.&lt;/p&gt;
-
-&lt;p&gt;En el &amp;ldquo;final largo&amp;rdquo; el permiso nos lo dan en el transcurso normal de la aventura, pero en el &amp;ldquo;final rápido&amp;rdquo; tendremos que ir al Castillo Vampiro y hablar con su poseedor para que nos deje acceder a esa mazmorra.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;He visto que mucha gente tiene unos trajes raros que no se corresponden a ninguno de los trabajos del juego, ¿cómo los consigo?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Estos trajes especiales se equipan en una zona nueva de nuestro equipo y sustituyen la apariencia normal del trabajo que estén usando nuestros personajes. 4 de ellos se consiguen en diferentes tiendas de Norende y valen 200.000 pg. De hecho, hay un quinto traje a la venta allí que permite cambiar la apariencia para que nuestros personajes sean como si estuvieran usando el trabajo Aprendiz.&lt;/p&gt;
-
-&lt;p&gt;Además, en el Capítulo 5, al derrotar al enemigo opcional de Florem lograremos un nuevo traje opcional exclusivo de Edea y si completamos el &amp;ldquo;final spoiler&amp;rdquo; nos entregarán un traje opcional extra para Agnès.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Cómo borro mi partida?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;En la pantalla del título, dale a una especie de flecha que hay en la esquina inferior derecha, eso revelará un desplegable que te permitirá borrar/copiar la partida.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;¿Cómo derroto a X enemigo?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_17.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;En Bravely Default hay muchas estrategias y combinaciones posibles para derrotar a casi cualquier enemigo sin muchos problemas, en la guía explico diferentes estrategias para cada situación, así que basta con buscar ese enemigo que te mata siempre y ver lo que comento.&lt;/p&gt;
-
-&lt;p&gt;Si te vas por el final del Capitulo 4 en adelante, la estrategia más rota del juego a mi parecer es la del Maestro Espiritual con 3 compañeros que puedan usar técnicas de Ninja:&lt;/p&gt;
-
-&lt;p&gt;Simplemente nos tenemos que asegurar de que nuestro Maestro Espiritual sea el personaje más rápido del combate (Ser Ninja, usar las habilidades de apoyo que aumenta la Agilidad y el accesorio Reloj dorado nos garantiza esa posibilidad), no se vaya a quedar con PBs en negativo (Presteza universal del Mago del Tiempo arregla eso) y que los compañeros puedan atacar antes que él (Los Ninjas tienen la técnica Golpe Rápido que se adelanta a TODO) para que la situación sea insuperable para el enemigo: El Maestro Espiritual usa Quietud cada dos turnos. Con eso, no nos pueden dañar y nosotros podremos efectuar 12 ataques con Golpe rápido cada dos turnos antes de que el Maestro Espiritual vuelva a usar Quietud para mantener la inmunidad.&lt;/p&gt;
-
-&lt;p&gt;Solo los estados alterados nos podrían poner en un aprieto, pero para algo tenemos Guardahada, que nos confiere inmunidad a ellos.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;No encuentro los pergaminos de magias definitivos. ¿Dónde están?&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Grandeza no es solo una nave, también tiene tiendas en su interior. Simplemente espera al Capítulo 5 y entra en sus tiendas para comprar esos conjuros.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;3 - TRABAJOS&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;3.1 - APRENDIZ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_18.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El Aprendiz es el trabajo inicial y, por tanto, nos acompañará en las primeras horas de la aventura. Sus habilidades iniciales son realmente útiles, ya que Libra es básica para conocer la fuerza y debilidades del enemigo, Obsequio es la mejor cura inicial, Vara divina impedirá que nos saltemos algún cofre oculto y Señor mazmorras hace que algunas zonas sean un paseo en el parque.&lt;/p&gt;
-
-&lt;p&gt;No obstante, tras el nivel 4, su utilidad como trabajo principal va mermando conforme logramos nuevos trabajos más especializados. Podríamos intentar llevarlo al nivel 10, para aumentar la ganancia de PT, lo cual se costearía por sí mismo, pero esto es algo que solo se podría plantear en el capítulo 4, donde se ganan suficientes PT para llegar &amp;ldquo;rápido&amp;rdquo; a ese nivel.&lt;/p&gt;
-
-&lt;p&gt;Su especialidad, Lento desarrollo, solo tendría una utilidad real con casi todos los demás trabajos dominados y, la verdad, eso no es tarea fácil. Además, cuesta pensar en llevar este trabajo como principal con las buenas habilidades que tienen disponibles otros trabajos.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Especialidades:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Lento Desarrollo&lt;/strong&gt;: PS máximos, PM máximos, ataque físico, ataque mágico, defensa física y defensa mágica aumentan un 1% con cada trabajo dominado.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;PS&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;PM&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Fuerza&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Inteligencia&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Destreza&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Vigor&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Mente&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Agilidad&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Espadas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Hachas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Lanzas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Varas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Bastones&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Dagas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Arcos&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Katanas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Mitones&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Escudos&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Cascos&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Armaduras&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Habilidades: Miscelánea&lt;/strong&gt; &lt;/center&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Habilidad&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Nivel de Trabajo&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Coste&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Descripción&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Libra&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Muestra información del enemigo. (PS, debilidades y familia)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Obsequio&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Recupera el 20% de los PS de un aliado. (No afectado por Mutis)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Vara divina&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Sabes cuántos cofres te quedan por abrir en la zona.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Señor mazmorras&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Anula el daño de trucos, trampas y otros dispositivos de las mazmorras.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Confundir&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Reduce al mínimo la posibilidad de ser objetivo de ataques del enemigo.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Plegaria&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;8 PM&lt;/td&gt;
-&lt;td&gt;Las habilidades basadas en probabilidad aumentan en un 1,5 sus probabilidades de éxito durante los 10 próximos turnos.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;PM +10%&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta los PM máximos un 10%.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Vigor&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Aumenta la defensa física y mágica un 25% durante 4 turnos.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Antiveneno&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Confiere inmunidad a Veneno en los combates.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Más PT&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Consigue 1,2 veces más PT de lo normal.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Huir&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Huyes del combate (Si puedes huir)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Atraer enemigos&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Duplica el número de encuentros.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Entereza&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;3 Ranura&lt;/td&gt;
-&lt;td&gt;75% de probabilidad de sobrevivir con 1 PS a un daño que te mataría.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Mímica&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Copia el último ataque/habilidad usado por otro compañero sin coste alguno.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;3.2 - MONJE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/guiabravelydefault/guiabravelydefault_19.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Se obtiene en: La introducción, tras derrotar a Barras Lehr y Holly White.&lt;/p&gt;
-
-&lt;p&gt;Bajas defensas, un gran ataque y muchos PS. Estas son las tres directrices principales del Monje. Quizás en un principio sus habilidades son un poco&amp;hellip; Simples, pero Alquimia Interior te puede sacar de más de un aprieto.&lt;/p&gt;
-
-&lt;p&gt;Una vez que va aumentando de nivel, Dragón Oculto (Nivel 6), Carga de Energía (Nivel 7), Punto de presión (Nivel 11) y Vuelo del Fénix (Nivel 13) completan una terna de ataques realmente temibles para cualquier enemigo. Si, encima, aprendemos su habilidad definitiva, Talento Natural, y le damos uso&amp;hellip; Ríete tú de esos otros oficios que agradecen lograr piezas nuevas de equipo.&lt;/p&gt;
-
-&lt;p&gt;El &amp;ldquo;Monje nudista&amp;rdquo; tendrá tanto ataque que ni las mejores armas del juego podrán acercarse a esos 500+ de ataque físico.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Especialidades:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Saber de Mitones&lt;/strong&gt;: Aumenta el poder de ataque con puños desnudos y mitones, además de aumentar el daño causado por atacar sin armas.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;PS&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;PM&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Fuerza&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Inteligencia&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Destreza&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Vigor&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Mente&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Agilidad&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;A&lt;/td&gt;
-&lt;td&gt;D&lt;/td&gt;
-&lt;td&gt;A&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;C&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;D&lt;/td&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Espadas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Hachas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Lanzas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Varas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Bastones&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Dagas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Arcos&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Katanas&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Mitones&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Escudos&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Cascos&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Armaduras&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;S&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;S&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;td&gt;E&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;strong&gt;Habilidades: Miscelánea&lt;/strong&gt; &lt;/center&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Habilidad&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Nivel de Trabajo&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Coste&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Descripción&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Impacto Fuerte&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Causa el doble de daño, pero tiene un 50% de posibilidades de acertar.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Tonificación&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Aumenta el ataque un 25% durante dos turnos. Tiene un 25% de posibilidades de fallar, en cuyo caso pierdes el 20% de tus PS máximos.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Alquimia interior&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;5 PM&lt;/td&gt;
-&lt;td&gt;Te curas de los estados alterados Veneno, Ceguera, Mutis, Canguelo y Confusión.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;PS +10%&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta tu máximo de PS en un 10%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Saber de mitones&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta el poder de ataque con puños desnudos y mitones, además de aumentar el daño causado por atacar sin armas.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Dragón oculto&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;Ataca al final del turno para causar un 1,25 más de daño.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Carga de energía&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;12 PM&lt;/td&gt;
-&lt;td&gt;Causa 1,25 más de daño que se salta la reducción de daño de Default.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Anticeguera&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Confiere inmunidad a Ceguera.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Ataque f +10%&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta el ataque físico un 10%.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;PS +20%&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;2 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta tu máximo de PS en un 20%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Punto de presión&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;1 PB&lt;/td&gt;
-&lt;td&gt;Dobla el daño del ataque normal y se salta la defensa del objetivo.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;PS + 30%&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta tu máximo de PS en un 30%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Vuelo del fénix&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;3 Ranura&lt;/td&gt;
-&lt;td&gt;Reduce a 1 tus PS y causa un daño igual a los PS perdidos.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Talento natural&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;1 Ranura&lt;/td&gt;
-&lt;td&gt;Aumenta tu ataque físico si no llevas nada equipado.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Continuara &amp;hellip;&lt;/p&gt;
-</description>
+      <description>Guía de Bravely Default 
+Como es evidente, esta no será una guía &amp;ldquo;al uso&amp;rdquo; y responderá más a decisiones personales de mi propia partida más que a criterios objetivos especialmente efectivos para cada situación, así que espero que comprendáis que mientras esté realizando este proyecto, muchas partes serán susceptibles de cambio porque, al avanzar en la partida, puede que descubra que cierta cosa que hice se podría haber hecho de otra forma o igual me dejé algo atrás&amp;hellip;</description>
     </item>
     
     <item>
@@ -1873,58 +154,12 @@ Esto sera una &lt;strong&gt;copilacion de diferentes juegos&lt;/strong&gt; que h
       <pubDate>Thu, 09 Mar 2017 22:24:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
-      <description>
+      <description>Bakeo simple en Unity3d 
+Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una esfera.
 
-&lt;h1 id=&#34;bakeo-simple-en-unity3d&#34;&gt;Bakeo simple en Unity3d&lt;/h1&gt;
+Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh00.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una
-esfera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh02.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-public float v = 5;
-private void Update(){transform.Rotate(new Vector3(0,v,0),Space.World);}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Despues de ver que todo funciona correctamente.
-Implementar un Reflection Probe para ver el reflejo de las zonas donde se quieran reflejar.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh03.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Configurar el probe:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Tipo de reflejo&lt;/li&gt;
-&lt;li&gt;Cuando refresca&lt;/li&gt;
-&lt;li&gt;Resolucion&lt;/li&gt;
-&lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;Etc..&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Luego importamos el paquete de unity de characters y instanciamos unos cuantos personajes con AI y un nav mesh para que se pueda mover.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh04.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego ponemos una esfera o un cubo de objetivo y al darle play el personaje seguira al objetivo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh05.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero el jugador no se ilumina bien por lo que creamos grupos de probes para conseguir toda la reflexion posible.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh06.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
     </item>
     
     <item>
@@ -1933,95 +168,213 @@ Implementar un Reflection Probe para ver el reflejo de las zonas donde se quiera
       <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
-      <description>
+      <description>Ambiente Algunos puntos a destacar sobre el ambiente:
+ Realidad aumentada. Arboles holografiados Muscan  
+ Neonizada Wadim  
+ Muy vivoBravo  
+ Realismo Touho  
+ Variacion de profundida Touho  
+Datos tecnicos  Edificios:
+ LOD desde 2 planta hacia arriba.
+3 Tipos de LOD.
+3 tipos generales y props para modular.
+   Circulacion:
+ Coches solo vuelan por arriba.</description>
+    </item>
+    
+    <item>
+      <title>Clase de sistemas de particulas - Unity3D</title>
+      <link>https://moonantonio.github.io/post/2017/clase/004/</link>
+      <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
+      <description>Clase de sistemas de particulas - Unity3D 
+Los parametros mas usados son, Base, emision y renderer.
+ Parametros Base
+ Duracion: La vida que tendra todas las particulas.
+Looping: Crea un loop por el cual crea un loop de las particulas.
+Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).
+Start Delay: El tiempo que tardan en empezar.
+Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
+    </item>
+    
+    <item>
+      <title>Nier Automata</title>
+      <link>https://moonantonio.github.io/post/2017/juegos/002/</link>
+      <pubDate>Thu, 09 Mar 2017 21:57:40 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/juegos/002/</guid>
+      <description>Nuevos vídeos de juego y personajes de NieR: Automata  Hoy se ha celebrado un evento dedicado a NieR: Automata desde el que nos dejan detalles de nuevos personajes y nuevos vídeos varios.
+ 
+ El primero de ellos es YoRHa No.9 Type S, o 9S, que es tan amable y sincero como infantil, siendo especialista en conseguir información gracias a sus capacidades como hacker. Su voz es la de Yui Ishikawa.</description>
+    </item>
+    
+    <item>
+      <title>MTodo Tool - Unity3D</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/004/</link>
+      <pubDate>Thu, 09 Mar 2017 21:54:00 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/004/</guid>
+      <description>MTodo Tool - Unity3D Herramienta sencilla para hacer un seguimiento del codigo en Unity3D
 
-&lt;h1 id=&#34;ambiente&#34;&gt;Ambiente&lt;/h1&gt;
+MTodo analiza la sintaxis de tu codigo con categorias. Por ejemplo, supongamos que tienes una categoria de BUG.
+En la linea de tu codigo donde se encuentra ese bug, pondria :
+ // &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;
+// BUG Aqui hay un bug.
+ De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.</description>
+    </item>
+    
+    <item>
+      <title>MDevScripts y por que.</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/003/</link>
+      <pubDate>Thu, 09 Mar 2017 21:50:01 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/003/</guid>
+      <description>¿Por que publicar algo tan sencillo? Bueno, simplemente para poder hacer rapidamente funcionalidades sin tener que crear scripts nuevos y sin tener que arbitrar entre la solucion mas optima, ya que es un prototipado lo que primero se hace.
+Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rapidamente y asi concentrarme en la mecanica que en si es la que mas trabajo lleva de un prototipo.</description>
+    </item>
+    
+    <item>
+      <title>Bravely</title>
+      <link>https://moonantonio.github.io/post/2017/juegos/001/</link>
+      <pubDate>Wed, 08 Mar 2017 23:47:13 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/juegos/001/</guid>
+      <description>La franquicia Bravely celebra su 4º aniversario insinuando posibles novedades  Hoy es 11 de octubre, día que marca el cuarto aniversario de la franquicia Bravely. La cuenta oficial de Twitter de la misma ha lanzado un tweet con una ilustración para conmemorar la ocasión y ha dejado caer que pronto podría haber novedades.
+ El tweet reza: “¡Es el cuarto aniversario de Bravely! Sentimos la reciente falta de noticias.</description>
+    </item>
+    
+    <item>
+      <title>Agentes de Busqueda y demas.</title>
+      <link>https://moonantonio.github.io/post/2017/clase/003/</link>
+      <pubDate>Mon, 06 Mar 2017 12:36:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/003/</guid>
+      <description>Agentes Los agentes de busqueda, son agentes que tienen un objetivo, seguiran haciendo su funcion hasta terminar su busqueda.
+Identifica una solucion adecuada dentro del arbol de busqueda.
+Primero se formula el objetivo y luego se formula el problema.
+ Formulacion del problema:   Estado inicial: El estado inicial del agente.
+Estados: Todos los posibles estados a los que el agente puede evolucionar a traves de una secuencia.</description>
+    </item>
+    
+    <item>
+      <title>Mecanicas TFG - Investigacion</title>
+      <link>https://moonantonio.github.io/post/2017/clase/002/</link>
+      <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
+      <description>Mecanicas presentadas para el TFG Al comienzo de la investigacion, se propuso unas mecanicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecanicas &amp;amp; algunas funcionalidades previstas:
+  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rapido. Ataque a distancia. Salto / Salto doble.   Tambien tiene extras como:</description>
+    </item>
+    
+    <item>
+      <title>Unity3D Preloader [Logo]</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/002/</link>
+      <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
+      <description>Unity Preloader Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
+Esta version esta probada para Unity3D 5.5.1p4.
+El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.
 
-&lt;p&gt;Algunos puntos a destacar  sobre el ambiente:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Realidad aumentada.&lt;/li&gt;
-&lt;li&gt;Arboles holografiados &lt;a href=&#34;https://www.artstation.com/artwork/nvLa4&#34;&gt;Muscan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/003/387/951/large/mihai-muscan-1.jpg?1473170024&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Neonizada &lt;a href=&#34;https://www.artstation.com/artwork/3dN9E&#34;&gt;Wadim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/000/434/113/large/wadim-kashin-cyberpunk2.jpg?1422308666&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Muy vivo&lt;a href=&#34;https://www.artstation.com/artwork/OP238&#34;&gt;Bravo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdna.artstation.com/p/assets/images/images/002/958/960/large/victor-bravo-tuk-tuk3.jpg?1467766031&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Realismo &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Variacion de profundida &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;datos-tecnicos&#34;&gt;Datos tecnicos&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Edificios:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;LOD desde 2 planta hacia arriba.&lt;/p&gt;
-
-&lt;p&gt;3 Tipos de LOD.&lt;/p&gt;
-
-&lt;p&gt;3 tipos generales y props para modular.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Circulacion:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Coches solo vuelan por arriba.&lt;/p&gt;
-
-&lt;p&gt;Pasos de cebra para los peatones.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Especificaciones:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Publicidad holografica (AR).&lt;/p&gt;
-
-&lt;p&gt;Mucho Rascacielos.&lt;/p&gt;
-
-&lt;p&gt;Barrios bajos.&lt;/p&gt;
-
-&lt;p&gt;Carpas&lt;/p&gt;
-
-&lt;p&gt;Mucho cableado, tuverias y ventiladores.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ciudad superpoblada, debajo los sectores pobres y con forme subes a la parte superior, la nobleza o la zona mas rica.&lt;/p&gt;
-
-&lt;p&gt;Minimo de ancho de 6 metros.&lt;/p&gt;
-
-&lt;h1 id=&#34;finalidad&#34;&gt;Finalidad&lt;/h1&gt;
-
-&lt;p&gt;Resultado en &lt;a href=&#34;https://www.youtube.com/watch?v=5hcJbQuWv0U&#34;&gt;Video&lt;/a&gt;&lt;/p&gt;
-</description>
+Antes de empezar: Para UGUI
+Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.
+Para NGUI
+  Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.</description>
+    </item>
+    
+    <item>
+      <title>Pintura Del Dia -03-03-2017-</title>
+      <link>https://moonantonio.github.io/post/2017/imagen/002/</link>
+      <pubDate>Thu, 02 Mar 2017 22:42:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/imagen/002/</guid>
+      <description>Imagen del dia [03.03.2017] 
+ Cazadora pelirroja con su lobo ^^
+ Mu si</description>
+    </item>
+    
+    <item>
+      <title>Pintura Del Dia -02-03-2017-</title>
+      <link>https://moonantonio.github.io/post/2017/imagen/001/</link>
+      <pubDate>Thu, 02 Mar 2017 19:28:34 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/imagen/001/</guid>
+      <description> Imagen del dia [02.03.2017] 
+ Samus metroid, epica ^^
+ </description>
+    </item>
+    
+    <item>
+      <title>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles</title>
+      <link>https://moonantonio.github.io/post/2017/noticias/002/</link>
+      <pubDate>Thu, 02 Mar 2017 18:44:00 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/noticias/002/</guid>
+      <description>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles FuRyu ha liberado el primer tráiler y dado más detalles de The Alliance Alive, su nuevo RPG para Nintendo 3DS desarrollado por Cattle Call (Legend of Legacy) y que cuenta con historia de Yoshitaka Murayama, creador de Suikoden.
+La historia
+Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias.</description>
+    </item>
+    
+    <item>
+      <title>Investigacion Monomito</title>
+      <link>https://moonantonio.github.io/post/2017/dev/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:38:17 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/001/</guid>
+      <description>¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra.</description>
+    </item>
+    
+    <item>
+      <title>C#: utilizar MEGA API CLIENT</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:32:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/001/</guid>
+      <description>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
+En esta entrada mostraré como desde un proyecto en .</description>
+    </item>
+    
+    <item>
+      <title>The Witch and the Hundred Knight 2</title>
+      <link>https://moonantonio.github.io/post/2017/noticias/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:28:47 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/noticias/001/</guid>
+      <description>Anunciado The Witch and the Hundred Knight 2 para PlayStation 4  El último número de la revista Famitsu revela que The Witch and the Hundred Knight 2 se lanzará en invierno de 2017 en las PlayStation 4 japonesas.
+El juego contará una nueva historia en un mundo diferente al de la primera entrega. En esta ocasión el tema será “brujas” y “enfermedad”, tomando los jugadores el rol del Hundred Knight (voz de Kaoru Mizuhara), invocado por la bruja Cerca para combatir bajo sus órdenes.</description>
+    </item>
+    
+    <item>
+      <title>Explicacion IA basica</title>
+      <link>https://moonantonio.github.io/post/2017/clase/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
+      <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
+Los mas comunes en videojuegos son:
+ Juegos de suma cero: Minimax Busqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neutonales Algoritmos geneticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la eleccion de la mejor accion para ganar.</description>
+    </item>
+    
+    <item>
+      <title>Comandos Git Fundamentales</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/001/</guid>
+      <description>Los comandos fundamentales que se usan en git. Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.
+Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</description>
+    </item>
+    
+    <item>
+      <title>Nuevo Blog</title>
+      <link>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</link>
+      <pubDate>Mon, 27 Feb 2017 12:39:36 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</guid>
+      <description>Nuevo blog con una nueva estructura. Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.
+Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.
+Ahora va todo por secciones. ^^</description>
     </item>
     
   </channel>

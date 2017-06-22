@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Atlus on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/atlus/index.xml</link>
+    <link>https://moonantonio.github.io/tags/atlus/</link>
     <description>Recent content in Atlus on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/tags/atlus/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Sun, 26 Mar 2017 19:55:55 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/atlus/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Atlus &amp; Nintendo</title>
@@ -15,32 +18,9 @@
       <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;atlus-se-agarra-a-nintendo-ds-para-sus-próximos-lanzamientos-en-3ds&#34;&gt;Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/at01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Teníamos mucho interés en conocer qué títulos anunciaría &lt;strong&gt;Atlus&lt;/strong&gt; en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.&lt;/p&gt;
-
-&lt;p&gt;Así, el primero que ya sabíamos que iba a aparecer fue &lt;strong&gt;Radiant Historia: Perfect Chronology (N3DS)&lt;/strong&gt;, remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/oEJG_7Foqic&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Otro regreso es el de &lt;strong&gt;Etrian Mystery Dungeon 2 (N3DS)&lt;/strong&gt;, secuela del título que era lanzado hace un par de años en occidente, que llegará el 31 de agosto a Japón para volver a ofrecer una colaboración entre el estilo &amp;ldquo;Mundo Misterioso&amp;rdquo; de Spike Chunsoft y los elementos de la saga Etrian Odyssey.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/T5oy9acYGGo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Y el tercer título presentado fue &lt;strong&gt;Shin Megami Tensei: Deep Strange Journey (N3DS)&lt;/strong&gt;, remake del título que fue lanzado hace siete años en Nintendo DS que ofrecerá una dificultad algo más calibrada, doblaje, nuevos demonios e ilustraciones, múltiples mejoras en la interfaz, combate y mazmorras, un nuevo personaje y toda una ruta extra alternativa. Llegará este otoño a Japón.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/6kXOfSFb2EU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Para cerrar también han vuelto a mostrar el tráiler del &lt;strong&gt;Shin Megami Tensei&lt;/strong&gt; realizado en Unreal Engine para Switch, con un par de segundos extra que nos mostraba un desierto. Nada que sea realmente relevante ni que merezca la pena comentar, salvo que sigue sin llamarse oficialmente Shin Megami Tensei V.&lt;/p&gt;
-
-&lt;p&gt;Pero, bueno, al menos los usuarios de Nintendo 3DS pueden estar muy contentos porque tienen tres títulos en camino con una calidad más que contrastada. Eso sí, ninguno es completamente original.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS 
+Teníamos mucho interés en conocer qué títulos anunciaría Atlus en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.
+Así, el primero que ya sabíamos que iba a aparecer fue Radiant Historia: Perfect Chronology (N3DS), remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.</description>
     </item>
     
   </channel>

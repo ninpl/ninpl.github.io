@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finalfantasix on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/finalfantasix/index.xml</link>
+    <link>https://moonantonio.github.io/categories/finalfantasix/</link>
     <description>Recent content in Finalfantasix on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/finalfantasix/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Thu, 23 Mar 2017 19:21:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/finalfantasix/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Final Fantasy IX: Alternate Fantasy [Mod]</title>
@@ -15,167 +18,8 @@
       <pubDate>Thu, 23 Mar 2017 19:21:13 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/006/</guid>
-      <description>
-
-&lt;h2 id=&#34;final-fantasy-ix-alternate-fantasy-http-steamcommunity-com-app-377840-discussions-0-353915953249510749-ctp-21-es-un-mod-que-apunta-a-aumentar-la-dificultad-y-sobre-todo-a-dar-una-nueva-experiencia-de-ff9-para-aquellos-que-ya-conocen-bien-el-juego&#34;&gt;&lt;a href=&#34;http://steamcommunity.com/app/377840/discussions/0/353915953249510749/?ctp=21&#34;&gt;Final Fantasy IX: Alternate Fantasy&lt;/a&gt; es un mod que apunta a aumentar la dificultad y, sobre todo, a dar una nueva experiencia de FF9 para aquellos que ya conocen bien el juego.&lt;/h2&gt;
-
-&lt;p&gt;Para la versión PSX, se instala mediante la aplicación de un parche PPF a los archivos de juego original. Puede utilizar la herramienta PPF-O-MATIC que se incluye en el archivo de mod.&lt;/p&gt;
-
-&lt;p&gt;Para la versión de Steam, reemplazas directamente algunos de los archivos del juego por los modificados.&lt;/p&gt;
-
-&lt;h2 id=&#34;cuáles-son-las-modificaciones&#34;&gt;¿Cuáles son las modificaciones?&lt;/h2&gt;
-
-&lt;p&gt;Muchos de ellos. La mayoría son juegos relacionados, pero algunos de ellos también son escenográficos. Hay dos tipos de cambios escenográficos:
-1) Algunos cuadros de diálogo que se suprimieron durante el desarrollo del juego fueron puestos de nuevo en este mod. Incluye los diálogos del parche &amp;ldquo;Diálogos ocultos&amp;rdquo;, más algunos otros para los que sólo se guardaron los textos.
-2) Beatrix puede ser contratado permanentemente después de obtener el dirigible (opcional). Cutscenes se cambian a partir de este punto para incluir a Beatrix en ellos (Steam versión solamente).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Las cosas principales ahora.&lt;/p&gt;
-
-&lt;p&gt;Las habilidades, ya sean los personajes del jugador o las de los enemigos, han sido modificadas.
-Uno de los puntos del mod es también mejorar los estados. Algunos hechizos básicos tratan de estatus además de su daño.&lt;/p&gt;
-
-&lt;p&gt;Esta es una lista de los principales cambios en las habilidades del jugador:&lt;/p&gt;
-
-&lt;h2 id=&#34;zidane&#34;&gt;Zidane&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Trance habilidades mucho menos daño&lt;/li&gt;
-&lt;li&gt;¡¿Que es eso?! Inflige ceguera a todos ahora&lt;/li&gt;
-&lt;li&gt;Annoy ha sido reemplazado por Free Energy: un ataque regular con 100% de precisión y sin backrow reducir&lt;/li&gt;
-&lt;li&gt;Sacrificio ha sido reemplazado por Regenerar: utilizar un éter en el equipo&lt;/li&gt;
-&lt;li&gt;Lucky Seven ha sido reemplazado por Warm Up: aumenta la fuerza de Zidane en un 25%&lt;/li&gt;
-&lt;li&gt;Thievery ha sido reemplazado por Transcend: trae a Zidane al Trance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;vivi&#34;&gt;Vivi&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Los hechizos de fuego tienen la oportunidad de infligir calor (base: 5%, 10% y luego 20%)&lt;/li&gt;
-&lt;li&gt;Los hechizos de hielo tienen la oportunidad de infligir Congelación (base: 5%, 10% y luego 20%)&lt;/li&gt;
-&lt;li&gt;Los hechizos de trueno tienen la posibilidad de infligir Lento (base: 10%, 20% y luego 40%)&lt;/li&gt;
-&lt;li&gt;Slow ha sido reemplazado por Annoy (80% de los problemas de infligir)&lt;/li&gt;
-&lt;li&gt;Demi se ha equilibrado desde el 30% de la HP máxima con un 40% de precisión hasta el 25% de la HP máxima con una precisión del 80%&lt;/li&gt;
-&lt;li&gt;La muerte ha sido reemplazada por Gradual Petrify (75% de precisión)&lt;/li&gt;
-&lt;li&gt;Break es ahora un ataque elemental de la Tierra además de infligir Petrify (30% de precisión)&lt;/li&gt;
-&lt;li&gt;El agua a veces inflige a Shell sus objetivos&lt;/li&gt;
-&lt;li&gt;Meteor ha sido reemplazado por Waterga: Water damage plus Silence (50% de precisión)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;magia-blanca&#34;&gt;Magia blanca&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Panacea sólo cura el veneno, pero es multi-targeting&lt;/li&gt;
-&lt;li&gt;Stona solo cura Petrifica Gradual pero tiene múltiples objetivos&lt;/li&gt;
-&lt;li&gt;Confuse y Berserk ahora son ataques mágicos además de infligir status&lt;/li&gt;
-&lt;li&gt;La mayoría de los hechizos que infligen el estatus tienen su precisión aumentada&lt;/li&gt;
-&lt;li&gt;Santo a veces inflige Regen a su objetivo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;daga&#34;&gt;Daga&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La Arma llena de energía ahora repartirá daño dos veces, permitiendo tratar más de 9999&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;eiko&#34;&gt;Eiko&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fenril es un viento eidolon por defecto&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;quina&#34;&gt;Quina&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;LV5 La muerte ha sido reemplazada por LV5 Flare: inflige daño no elemental a los enemigos con lvl múltiplo de 5&lt;/li&gt;
-&lt;li&gt;LV4 Holy ha sido reemplazado por LV4 Def-less: aleatoriamente disminuye la defensa de los enemigos con lvl múltiplo de 4&lt;/li&gt;
-&lt;li&gt;LV3 Def-less ha sido reemplazado por LV3 Aerial Slash: inflige daño de viento a los enemigos con lvl múltiplo de 3&lt;/li&gt;
-&lt;li&gt;Doom ha sido reemplazado por Lightning: Thunder damage plus Silence a un objetivo (50% de precisión)&lt;/li&gt;
-&lt;li&gt;La ruleta ha sido reemplazada por Self-Destruct: convierte el HP actual de Quina en daño en todos los enemigos&lt;/li&gt;
-&lt;li&gt;Aqua Breath tiene 75% de precisión en lugar de 50%&lt;/li&gt;
-&lt;li&gt;Matra Magic ha sido reemplazado por Zombie Breath: daño no elemental más Zombie en un objetivo (20% de precisión)&lt;/li&gt;
-&lt;li&gt;Limit Glove ha sido reemplazado por HP Switching: cambiar el actual HP de Quina con uno de sus aliados&lt;/li&gt;
-&lt;li&gt;Twister tiene un 50% para infligir Float además de su daño de viento&lt;/li&gt;
-&lt;li&gt;Earth Shake tiene 100% de infligir lento, además de su daño a la Tierra&lt;/li&gt;
-&lt;li&gt;Frog Drop ha sido reemplazado por Devil&amp;rsquo;s Snack: usa un Dead Pepper en todos los enemigos&lt;/li&gt;
-&lt;li&gt;El congelamiento ha sido reemplazado por Cocytos: Daño al hielo e infligir Lento en un objetivo (100%)&lt;/li&gt;
-&lt;li&gt;Bomba de mostaza ha sido reemplazada por Phlegethon: Daño de Fuego e infligir Haste en un objetivo (100%)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;freya&#34;&gt;Freya&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;El daño de Lancer se incrementa, así como su coste de MP&lt;/li&gt;
-&lt;li&gt;Dragon Breath ha sido reemplazado por Dragon Life: aplica Auto-Life en Freya&lt;/li&gt;
-&lt;li&gt;Seis Dragones se ha convertido en single-targeting para 15 MP&lt;/li&gt;
-&lt;li&gt;Cherry Blossom es más potente&lt;/li&gt;
-&lt;li&gt;La cresta del dragón ha sido reemplazada por Ikari: inflige daño físico y problemas a todos los enemigos (50%)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;amarant&#34;&gt;Amarant&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Aura ha sido reemplazada por Starburst: reparte 60 veces el nivel de un enemigo como daño&lt;/li&gt;
-&lt;li&gt;La exactitud de Demi Shock ha aumentado de 50% a 80%&lt;/li&gt;
-&lt;li&gt;Cuenta atrás ha sido reemplazada por Concentrado: aumenta el Magic de un aliado en un 33% para 28 MP&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;steiner&#34;&gt;Steiner&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Iai Strike ha sido reemplazado por Quadraslash: un ataque físico usando el poder elemental de Fuego, Hielo, Trueno y Agua&lt;/li&gt;
-&lt;li&gt;La precisión de las 4 habilidades de rotura ha sido aumentada&lt;/li&gt;
-&lt;li&gt;Thunder Slash ahora inflige el 21% del máximo de HP objetivo como daño de trueno&lt;/li&gt;
-&lt;li&gt;Climhazzard ha sido reemplazado por un Shock más débil: reparte 2 veces el daño físico en un objetivo&lt;/li&gt;
-&lt;li&gt;Shock ha sido reemplazado por Sword Dance: reparte 2 veces el daño físico en todos los enemigos; Es un ataque mágico&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;marcus&#34;&gt;Marcus&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Añadido 2 habilidades para el tiempo que está con usted en el disco 2: Golpe Fuerte (más daño pero daño Marcus) y Contaminate (100% para infligir Veneno)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;También,
-+ Ragtime Mouses Quizz ha sido actualizado
-+ Los enemigos son más fuertes y más resistentes
-+ El error más frustrante del juego ha sido corregido: el último rango Tetra Master aparece correctamente
-+ Pocas armas pueden ser utilizadas por varios personajes (por ejemplo, Dagger puede usar la &amp;hellip; daga)
-+ Las últimas armas dan un gran impulso a las principales características (Fuerza, Magia, Velocidad y Espíritu)
-+ Los hechizos de los enemigos han sido modificados usando principios similares a los hechizos del jugador
-+ Los piñones de Phoenix ahora curan la condenación; También cuestan y venden más barato
-+ Un mini-juego se ha re-añadido al principio del disco 3. Estaba medio presente en el código del juego y tenía el siguiente comentario en la versión japonesa:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;また制作途中なのでバグレポート不要で〜す&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lo que significa en resumen que era demasiado buggy y aburrido para estar en el juego final. Si bien los errores han sido corregidos, es probable que no te mantendrá en tenterhooks durante horas ^^ &amp;ldquo;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Excalibur II ahora se puede adquirir por dos métodos diferentes:&lt;/li&gt;
-&lt;li&gt;1) Alcanzar y vencer a Hades en menos de 14 horas,&lt;/li&gt;
-&lt;li&gt;2) Obtener todos los tesoros del juego (hay 3 errores pequeños permitidos) para obtener el mayor rango del tesoro. Algunos casos particulares no cuentan (las ventas de Stilzkin y las recompensas de Ragtime Mouses / Ozma / Hades principalmente). Las tuercas Kupo no cuentan por sí mismas, pero todas las recompensas de una sola vez cuentan (aproximadamente 1 por disco del disco 2). Del mismo modo, los Chocógrafos no cuentan cuando los desenterrar, pero el propio tesoro cuenta. Además, Mimics cuenta. Al final, eso hace 404 tesoros únicos para encontrar.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y mucho más &amp;hellip; No voy a decirte nada pero te permite descubrirlo por ti mismo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://www.hiveworkshop.com/attachments/alternatefantasy_v4-3-zip.261830/&#34; class=&#34;button&#34;&gt;Descarga AF&lt;/a&gt;&lt;a href=&#34;https://trello-attachments.s3.amazonaws.com/58d41688af466b86ba11af39/58d4195f4dc59d669095e16f/eb4a5aae0b91c7472ffafcefe856b485/AlternateFantasy_v4.3.zip&#34; class=&#34;button&#34;&gt;AF Trello&lt;/a&gt;&lt;/center&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;EDIT: Ya que el archivo Mod está disponible, la gente puede hacer variaciones de la misma. Ésos no son acoplamientos de fantasía alterna sino mods basados en él.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mediafire.com/file/uz2bxric3guoqnl/Beatrix%2BSupport+After+Scene.zip&#34;&gt;Beatrix con habilidades de apoyo + escenas ocultas&lt;/a&gt;&lt;a href=&#34;https://trello-attachments.s3.amazonaws.com/58d41688af466b86ba11af39/58d416bedd398436567d462e/9ed56aaf0357c77ecb91ca5af34e5fe1/Beatrix%2BSupport_After_Scene.zip&#34;&gt;Trello&lt;/a&gt;[Basado en AF 4.2]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mediafire.com/file/xnckdyvkrrn5ak9/AlternateFantasy_v4.3+-+lvl1.hws&#34;&gt;Alternate Fantasy v4.3 + Tweaks para permitir el juego lvl 1&lt;/a&gt;&lt;a href=&#34;https://trello-attachments.s3.amazonaws.com/58d41688af466b86ba11af39/58d41929e604739a8296fd87/bfde908bd09a1ec0dcdb5adecac3a384/AlternateFantasy_v4.3_-_lvl1.hws&#34;&gt;Trello&lt;/a&gt;[Sin subir de lvl]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;moon&#34;&gt;.\Moon&lt;/h2&gt;
-</description>
+      <description>Final Fantasy IX: Alternate Fantasy es un mod que apunta a aumentar la dificultad y, sobre todo, a dar una nueva experiencia de FF9 para aquellos que ya conocen bien el juego. Para la versión PSX, se instala mediante la aplicación de un parche PPF a los archivos de juego original. Puede utilizar la herramienta PPF-O-MATIC que se incluye en el archivo de mod.
+Para la versión de Steam, reemplazas directamente algunos de los archivos del juego por los modificados.</description>
     </item>
     
   </channel>

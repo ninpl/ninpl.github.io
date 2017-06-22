@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algoritmos on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/algoritmos/index.xml</link>
+    <link>https://moonantonio.github.io/tags/algoritmos/</link>
     <description>Recent content in Algoritmos on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/tags/algoritmos/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Sun, 23 Apr 2017 17:17:22 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/algoritmos/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Algoritmos de busqueda</title>
@@ -15,39 +18,8 @@
       <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/006/</guid>
-      <description>
-
-&lt;h1 id=&#34;algoritmos-de-busqueda&#34;&gt;Algoritmos de Busqueda&lt;/h1&gt;
-
-&lt;h2 id=&#34;a&#34;&gt;A*&lt;/h2&gt;
-
-&lt;p&gt;Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A&lt;em&gt;, LPA&lt;/em&gt;, o D*.&lt;/p&gt;
-
-&lt;p&gt;El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos.
-El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case004.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La complejidad computacional del algoritmo está íntimamente relacionada con la calidad de la heurística que se utilice en el problema. En el caso peor, con una heurística de pésima calidad, la complejidad será exponencial, mientras que en el caso mejor, con una buena, el algoritmo se ejecutará en tiempo lineal.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Para que esto último suceda, se debe cumplir que donde h&amp;rsquo; es una heurística óptima para el problema, como por ejemplo, el coste real de alcanzar el objetivo.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case005.png&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;dijkstra&#34;&gt;Dijkstra&lt;/h2&gt;
-
-&lt;p&gt;El algoritmo de Dijkstra, también llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del camino más corto dado un vértice origen al resto de los vértices en un grafo con pesos en cada arista.&lt;/p&gt;
-
-&lt;p&gt;La idea subyacente en este algoritmo consiste en ir explorando todos los caminos más cortos que parten del vértice origen y que llevan a todos los demás vértices; cuando se obtiene el camino más corto desde el vértice origen, al resto de vértices que componen el grafo, el algoritmo se detiene. El algoritmo es una especialización de la búsqueda de costo uniforme, y como tal, no funciona en grafos con aristas de coste negativo (al elegir siempre el nodo con distancia menor, pueden quedar excluidos de la búsqueda nodos que en próximas iteraciones bajarían el costo general del camino al pasar por una arista con costo negativo).&lt;/p&gt;
-
-&lt;p&gt;Una de sus aplicaciones más importantes reside en el campo de la telemática, gracias a el, podemos resolver grafos con muchos nodos, los cuales serian muy complicados de hacer sin dicho algoritmo, encontrando así las rutas más cortas entre un origen y todos los destinos en una red.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/case/case006.gif&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Algoritmos de Busqueda A* Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A, LPA, o D*.
+El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos. El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.</description>
     </item>
     
   </channel>

@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clase on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/clase/index.xml</link>
+    <link>https://moonantonio.github.io/categories/clase/</link>
     <description>Recent content in Clase on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/clase/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Mon, 24 Apr 2017 12:52:34 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/clase/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>NavMesh Unity3D</title>
@@ -15,35 +18,11 @@
       <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/007/</guid>
-      <description>&lt;p&gt;Al final del proceso de implementacion de la escena, bakear los elementos que se quieran navegar.&lt;/p&gt;
-
-&lt;p&gt;Abrir el inspector Navigation.&lt;/p&gt;
-
-&lt;p&gt;Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos vavegables.&lt;/p&gt;
-
-&lt;p&gt;Bake para bakear la escena.&lt;/p&gt;
-
-&lt;p&gt;Areas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rapido.&lt;/p&gt;
-
-&lt;p&gt;Sobre el Terrain, nunca crear el navMesh.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;En ultimo caso, si es necesario usar el terrain, Crear planos invisibles encima de la malla del terrain y con ellos bakear los planos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Los agentes tienen que ser mas pequeños que el radio minimo del nav.&lt;/p&gt;
-
-&lt;p&gt;Los parametros del bake son:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Agent Radius: Radio de los agentes&lt;/li&gt;
-&lt;li&gt;Agent Height: Altura maxima de los agentes&lt;/li&gt;
-&lt;li&gt;Max Slope: Maximo de inclinacion de rampas&lt;/li&gt;
-&lt;li&gt;Step Height: Altura de los pasos&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Al final del proceso de implementacion de la escena, bakear los elementos que se quieran navegar.
+Abrir el inspector Navigation.
+Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos vavegables.
+Bake para bakear la escena.
+Areas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rapido.</description>
     </item>
     
     <item>
@@ -52,58 +31,12 @@
       <pubDate>Thu, 09 Mar 2017 22:24:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
-      <description>
+      <description>Bakeo simple en Unity3d 
+Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una esfera.
 
-&lt;h1 id=&#34;bakeo-simple-en-unity3d&#34;&gt;Bakeo simple en Unity3d&lt;/h1&gt;
+Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh00.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una
-esfera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh02.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-public float v = 5;
-private void Update(){transform.Rotate(new Vector3(0,v,0),Space.World);}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Despues de ver que todo funciona correctamente.
-Implementar un Reflection Probe para ver el reflejo de las zonas donde se quieran reflejar.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh03.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Configurar el probe:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Tipo de reflejo&lt;/li&gt;
-&lt;li&gt;Cuando refresca&lt;/li&gt;
-&lt;li&gt;Resolucion&lt;/li&gt;
-&lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;Etc..&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Luego importamos el paquete de unity de characters y instanciamos unos cuantos personajes con AI y un nav mesh para que se pueda mover.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh04.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Luego ponemos una esfera o un cubo de objetivo y al darle play el personaje seguira al objetivo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh05.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero el jugador no se ilumina bien por lo que creamos grupos de probes para conseguir toda la reflexion posible.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/unity/ligh06.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
     </item>
     
     <item>
@@ -112,95 +45,18 @@ Implementar un Reflection Probe para ver el reflejo de las zonas donde se quiera
       <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;ambiente&#34;&gt;Ambiente&lt;/h1&gt;
-
-&lt;p&gt;Algunos puntos a destacar  sobre el ambiente:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Realidad aumentada.&lt;/li&gt;
-&lt;li&gt;Arboles holografiados &lt;a href=&#34;https://www.artstation.com/artwork/nvLa4&#34;&gt;Muscan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/003/387/951/large/mihai-muscan-1.jpg?1473170024&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Neonizada &lt;a href=&#34;https://www.artstation.com/artwork/3dN9E&#34;&gt;Wadim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/000/434/113/large/wadim-kashin-cyberpunk2.jpg?1422308666&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Muy vivo&lt;a href=&#34;https://www.artstation.com/artwork/OP238&#34;&gt;Bravo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdna.artstation.com/p/assets/images/images/002/958/960/large/victor-bravo-tuk-tuk3.jpg?1467766031&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Realismo &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Variacion de profundida &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;datos-tecnicos&#34;&gt;Datos tecnicos&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Edificios:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;LOD desde 2 planta hacia arriba.&lt;/p&gt;
-
-&lt;p&gt;3 Tipos de LOD.&lt;/p&gt;
-
-&lt;p&gt;3 tipos generales y props para modular.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Circulacion:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Coches solo vuelan por arriba.&lt;/p&gt;
-
-&lt;p&gt;Pasos de cebra para los peatones.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Especificaciones:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Publicidad holografica (AR).&lt;/p&gt;
-
-&lt;p&gt;Mucho Rascacielos.&lt;/p&gt;
-
-&lt;p&gt;Barrios bajos.&lt;/p&gt;
-
-&lt;p&gt;Carpas&lt;/p&gt;
-
-&lt;p&gt;Mucho cableado, tuverias y ventiladores.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ciudad superpoblada, debajo los sectores pobres y con forme subes a la parte superior, la nobleza o la zona mas rica.&lt;/p&gt;
-
-&lt;p&gt;Minimo de ancho de 6 metros.&lt;/p&gt;
-
-&lt;h1 id=&#34;finalidad&#34;&gt;Finalidad&lt;/h1&gt;
-
-&lt;p&gt;Resultado en &lt;a href=&#34;https://www.youtube.com/watch?v=5hcJbQuWv0U&#34;&gt;Video&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ambiente Algunos puntos a destacar sobre el ambiente:
+ Realidad aumentada. Arboles holografiados Muscan  
+ Neonizada Wadim  
+ Muy vivoBravo  
+ Realismo Touho  
+ Variacion de profundida Touho  
+Datos tecnicos  Edificios:
+ LOD desde 2 planta hacia arriba.
+3 Tipos de LOD.
+3 tipos generales y props para modular.
+   Circulacion:
+ Coches solo vuelan por arriba.</description>
     </item>
     
     <item>
@@ -209,107 +65,14 @@ Implementar un Reflection Probe para ver el reflejo de las zonas donde se quiera
       <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
-      <description>
-
-&lt;h1 id=&#34;clase-de-sistemas-de-particulas-unity3d&#34;&gt;Clase de sistemas de particulas - Unity3D&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/clases/part.png&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Los parametros mas usados son, Base, emision y renderer.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Base&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Duracion: La vida que tendra todas las particulas.&lt;/p&gt;
-
-&lt;p&gt;Looping: Crea un loop por el cual crea un loop de las particulas.&lt;/p&gt;
-
-&lt;p&gt;Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).&lt;/p&gt;
-
-&lt;p&gt;Start Delay: El tiempo que tardan en empezar.&lt;/p&gt;
-
-&lt;p&gt;Start Lifetime: El tiempo desde que sale hasta que desaparece.&lt;/p&gt;
-
-&lt;p&gt;Start Speed: La velocidad inicial de las particulas.&lt;/p&gt;
-
-&lt;p&gt;3D Start Size: Modifica la malla para estirar las particulas.&lt;/p&gt;
-
-&lt;p&gt;Start Size: Tamaño inicial de las particulas.&lt;/p&gt;
-
-&lt;p&gt;3D Start Rotacion: Modifica la rotacion de las particulas.&lt;/p&gt;
-
-&lt;p&gt;Randomize Rotacion: Rotacion aleatoria.&lt;/p&gt;
-
-&lt;p&gt;Start Color: Color inicial.&lt;/p&gt;
-
-&lt;p&gt;Gravity Modifier: Gravedad para las particulas.&lt;/p&gt;
-
-&lt;p&gt;Simulation Space: Cambiar el pivote.&lt;/p&gt;
-
-&lt;p&gt;Scaling Mode: Escalar en el espacio global o loca.&lt;/p&gt;
-
-&lt;p&gt;Play On Awake: Reproducir cuando uses Awake.&lt;/p&gt;
-
-&lt;p&gt;Max particle: Numero maximo de particulas del sistema.&lt;/p&gt;
-
-&lt;p&gt;Auto Random Seed: Donde van a aparecer desde el punto de vision las particulas.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Emission&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Rate: Numero de particulas por segundo que se van a emitir.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Shape&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Shape: La forma que va a coger la particula.&lt;/p&gt;
-
-&lt;p&gt;Angle: Angulo de las particulas&lt;/p&gt;
-
-&lt;p&gt;Radius: Aumenta o disminuye el radio.&lt;/p&gt;
-
-&lt;p&gt;Emit from: Modifica la zona de emision.&lt;/p&gt;
-
-&lt;p&gt;Random Direction: Direccion aleatoria.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Parametros Renderer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Render Mode: Billboard (Orientado a la camara), tipo de renderizado
-Normal Direction: Direccion de la normal&lt;/p&gt;
-
-&lt;p&gt;Material: Material a renderizar&lt;/p&gt;
-
-&lt;p&gt;Sort Mode: Que particulas iran por delante de lo demas.&lt;/p&gt;
-
-&lt;p&gt;Sorting Fugde: Lo mismo&lt;/p&gt;
-
-&lt;p&gt;Cast Shadorws: Proyecten sombras&lt;/p&gt;
-
-&lt;p&gt;Receiver Shadows: Recibir sombras&lt;/p&gt;
-
-&lt;p&gt;Min Particle Size: Tamaño de las particulas minimo.&lt;/p&gt;
-
-&lt;p&gt;Max Particle Size: Tamaño de las particulas maximo.&lt;/p&gt;
-
-&lt;p&gt;Sorting Layer: La capa&lt;/p&gt;
-
-&lt;p&gt;Order in Layer: Orden de la capa.&lt;/p&gt;
-
-&lt;p&gt;Billboard alignment: Alineacion del billboard.&lt;/p&gt;
-
-&lt;p&gt;Pivot: Pivote general&lt;/p&gt;
-
-&lt;p&gt;Light Probes: Si se utilizan los probes&lt;/p&gt;
-
-&lt;p&gt;Reflection Probes: Si se utiliza reflection&lt;/p&gt;
-
-&lt;p&gt;Anchor override: La posicion&lt;/p&gt;
-</description>
+      <description>Clase de sistemas de particulas - Unity3D 
+Los parametros mas usados son, Base, emision y renderer.
+ Parametros Base
+ Duracion: La vida que tendra todas las particulas.
+Looping: Crea un loop por el cual crea un loop de las particulas.
+Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).
+Start Delay: El tiempo que tardan en empezar.
+Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
     </item>
     
     <item>
@@ -318,52 +81,11 @@ Normal Direction: Direccion de la normal&lt;/p&gt;
       <pubDate>Mon, 06 Mar 2017 12:36:44 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;agentes&#34;&gt;Agentes&lt;/h1&gt;
-
-&lt;p&gt;Los agentes de busqueda, son agentes que tienen un objetivo, seguiran haciendo su funcion hasta terminar su busqueda.&lt;/p&gt;
-
-&lt;p&gt;Identifica una solucion adecuada dentro del arbol de busqueda.&lt;/p&gt;
-
-&lt;p&gt;Primero se formula el objetivo y luego se formula el problema.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Formulacion del problema:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Estado inicial: El estado inicial del agente.&lt;/p&gt;
-
-&lt;p&gt;Estados: Todos los posibles estados a los que el agente puede evolucionar a traves de una secuencia.&lt;/p&gt;
-
-&lt;p&gt;Acciones: Que acciones se pueden hacer en la resolucion.&lt;/p&gt;
-
-&lt;p&gt;Modelo de transicion: Es la formula para resolver el problema.&lt;/p&gt;
-
-&lt;p&gt;Funcion de evaluacion de exito: Es la comprobacion de si se ha completado el objetivo.&lt;/p&gt;
-
-&lt;p&gt;Calculo de coste: Es la cantidad de coste que se puede hacer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Solucion a Pizzle 8 Reinas:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Estado inicial: Un tablero 8x8 y colocamos 8 reinas.&lt;/p&gt;
-
-&lt;p&gt;Estados: Las casillas ocupadas por un 0xVacias y las 1xReinas.&lt;/p&gt;
-
-&lt;p&gt;Acciones: Colocar una reina(Cambiar de 0 a 1 el estado de la casilla).&lt;/p&gt;
-
-&lt;p&gt;Modelo de transicion: accion.Result(x,a).&lt;/p&gt;
-
-&lt;p&gt;Funcion de evaluacion de exito: if(isvalid &amp;amp;&amp;amp; reinas.count = 8) = true;&lt;/p&gt;
-
-&lt;p&gt;Calculo de coste: 8&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Agentes Los agentes de busqueda, son agentes que tienen un objetivo, seguiran haciendo su funcion hasta terminar su busqueda.
+Identifica una solucion adecuada dentro del arbol de busqueda.
+Primero se formula el objetivo y luego se formula el problema.
+ Formulacion del problema:   Estado inicial: El estado inicial del agente.
+Estados: Todos los posibles estados a los que el agente puede evolucionar a traves de una secuencia.</description>
     </item>
     
     <item>
@@ -372,127 +94,8 @@ Normal Direction: Direccion de la normal&lt;/p&gt;
       <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
-      <description>
-
-&lt;h1 id=&#34;mecanicas-presentadas-para-el-tfg&#34;&gt;Mecanicas presentadas para el TFG&lt;/h1&gt;
-
-&lt;p&gt;Al comienzo de la investigacion, se propuso unas mecanicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las &lt;strong&gt;mecanicas&lt;/strong&gt; &amp;amp; algunas &lt;strong&gt;funcionalidades&lt;/strong&gt; previstas:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Accionar y combinar combos, entre 4 estilos de lucha:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Ataque fuerte.&lt;/li&gt;
-&lt;li&gt;Ataque rapido.&lt;/li&gt;
-&lt;li&gt;Ataque a distancia.&lt;/li&gt;
-&lt;li&gt;Salto / Salto doble.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tambien tiene extras como:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Esquive.&lt;/li&gt;
-&lt;li&gt;Bloqueo.&lt;/li&gt;
-&lt;li&gt;Cambio.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Camara en 3ª Persona.&lt;/li&gt;
-&lt;li&gt;El pivote de la camara siempre esta fijada en la cabeza del personaje.&lt;/li&gt;
-&lt;li&gt;La camara no cambia el pivote nunca, solo el campo de vision se altera.&lt;/li&gt;
-&lt;li&gt;Combinacion de acciones para realizar combos.&lt;/li&gt;
-&lt;li&gt;El jugado podra ir desbloqueando partes del combo con forme luche.&lt;/li&gt;
-&lt;li&gt;El jugador podra cambiar al personaje, con lo que cambia el estilo de lucha (Ej: Armas =&amp;gt; Mele)&lt;/li&gt;
-&lt;li&gt;Con cada combo sin cortar la cadena, el jugador recibe como recompensa rabia, la rabia puede llegar a nivel 3, cuando esta llega, el jugador puede consumir toda la rabia y ser imparable durante un tiempo.&lt;/li&gt;
-&lt;li&gt;Cuando el jugador derrota a todos los enemigos de la zona, al ultimo le realiza un fatality en camara lenta.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Asi que teniendo todas las mecanicas pensadas, habria que ver si entran en un controller, que con pc no habria problema pero al ser un controller de mando, hay que crear una pequeña tabla.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Boton&lt;/th&gt;
-&lt;th&gt;Accion&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;A&lt;/td&gt;
-&lt;td&gt;Salto&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;Ataque Distancia&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Y&lt;/td&gt;
-&lt;td&gt;Ataque Fuerte&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;Ataque Rapido&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;RB&lt;/td&gt;
-&lt;td&gt;Fijar Objetivo&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;RT&lt;/td&gt;
-&lt;td&gt;Esquivar&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;LB&lt;/td&gt;
-&lt;td&gt;Cambio&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;LT&lt;/td&gt;
-&lt;td&gt;Bloquear&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Start&lt;/td&gt;
-&lt;td&gt;Menu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Back&lt;/td&gt;
-&lt;td&gt;Habilidades&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Stick derecho&lt;/td&gt;
-&lt;td&gt;Mover Camara&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Stick Izquierdo&lt;/td&gt;
-&lt;td&gt;Mover Personaje&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Ahora como objetivo, me queria enfocar mas al tema &lt;strong&gt;Nier : Automata&lt;/strong&gt;, se asemeja mucho a Devil May Cry, pero es mucho mas rapido e intuitivo, realmente nier esta pensado para una lucha rapida y tactica en su nivel normal, de lo que me e dado cuenta es que DMC en su nivel normal es simplemente atacar atacar y mas atacar.&lt;/p&gt;
-
-&lt;p&gt;En esta parte entrare mas adelante, ya que creo que tiene mucho que ver la combinacion de ataques y la IA de los diferentes enemigos, por lo que se nos sale de lo que quiero tener para el miercoles.&lt;/p&gt;
-
-&lt;p&gt;.Save&lt;/p&gt;
-</description>
+      <description>Mecanicas presentadas para el TFG Al comienzo de la investigacion, se propuso unas mecanicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecanicas &amp;amp; algunas funcionalidades previstas:
+  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rapido. Ataque a distancia. Salto / Salto doble.   Tambien tiene extras como:</description>
     </item>
     
     <item>
@@ -501,84 +104,9 @@ Normal Direction: Direccion de la normal&lt;/p&gt;
       <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
-      <description>
-
-&lt;h1 id=&#34;ia-en-videojuegos-clase&#34;&gt;IA en Videojuegos (Clase)&lt;/h1&gt;
-
-&lt;p&gt;Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.&lt;/p&gt;
-
-&lt;p&gt;Los mas comunes en videojuegos son:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Juegos de suma cero: Minimax&lt;/li&gt;
-&lt;li&gt;Busqueda de caminos: A*&lt;/li&gt;
-&lt;li&gt;Agentes inteligentes&lt;/li&gt;
-&lt;li&gt;Maquina de estados finitos&lt;/li&gt;
-&lt;li&gt;Redes neutonales&lt;/li&gt;
-&lt;li&gt;Algoritmos geneticos&lt;/li&gt;
-&lt;li&gt;Redes evolutivas: rtNeat&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3.
-Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la eleccion de la mejor accion para ganar.&lt;/p&gt;
-
-&lt;p&gt;Algoritmo Minimax: se basa en probar todas las posibles jugadas y sus respuestas hasta un nivel maximo.(Tic Tac Toe)&lt;/p&gt;
-
-&lt;p&gt;El algoritmo responde con la mejor jugada posible suponiendo que el adversario tambien elige su mejor jugada.&lt;/p&gt;
-
-&lt;p&gt;El termino poda alfa-beta es como bien dice la poda de ramas del arbol de eleccion para ahorrar tiempo y memoria de computacion.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Busqueda de caminos, A* es el algoritmo para que un objeto encuentre el camino y lo siga a voluntad.&lt;/p&gt;
-
-&lt;p&gt;Este tipo de algoritmos se llaman pathfinding.&lt;/p&gt;
-
-&lt;p&gt;Son algoritmos que buscan un camino existente entre un nodo inicial y un nodo final de un grafo.&lt;/p&gt;
-
-&lt;p&gt;Se tienen en cuenta un coste entre nodos ( distancia, dificultad de l terreno).&lt;/p&gt;
-
-&lt;p&gt;Algoritmos tipicos: Dijkstra, escalada, primero el mejor, A*&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Agentes inteligentes son algoritmos que cambian segun el estado del entorno.&lt;/p&gt;
-
-&lt;p&gt;Un agente inteligente es una entidad que percibe y actua sobre un entorno de forma razonada.&lt;/p&gt;
-
-&lt;p&gt;Las propiedades de un agente inteligente son:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Autonomia: actual por su cuenta propia.&lt;/li&gt;
-&lt;li&gt;Inteligencia: cerrada o adaptable (Apendizaje)&lt;/li&gt;
-&lt;li&gt;Actividad Reactiva: actua despues de algun suceso producido en el entorno.&lt;/li&gt;
-&lt;li&gt;Actividad Proactivo: decide actuar antes de que se de un suceso.&lt;/li&gt;
-&lt;li&gt;Sociabilidad: Cooperar con los aliados o ayudar sin que nos pidan ayuda.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Una maquina de estados finitos (SFM) es una entidad abstracta formada por estados y transiciones entre dichos estados.&lt;/p&gt;
-
-&lt;p&gt;Cada estado representa una accion: moverse, disparar, perseguir &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Cuando se produce un evento, hay una transicion de un estado a otro: no hay enemigos, moverse, poca municion, etc&amp;hellip;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Una red de neuronas artificiales (RNA) es un sistema computacional que imita las capacidades de los sistemas biologicos utilizando muchos elementos simples interconectados.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Clasifica patrones de entrada.&lt;/li&gt;
-&lt;li&gt;Necesitan entrenamiento supervisado con muchos ejemplos.&lt;/li&gt;
-&lt;li&gt;Son capaces de generalizar el reconocimiento de patrones.&lt;/li&gt;
-&lt;li&gt;Una vez entrenadas, funcionan en tiempo real.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;\.Moon Pincho&lt;/p&gt;
-</description>
+      <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
+Los mas comunes en videojuegos son:
+ Juegos de suma cero: Minimax Busqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neutonales Algoritmos geneticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la eleccion de la mejor accion para ganar.</description>
     </item>
     
   </channel>

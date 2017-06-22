@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Piezas De Juego on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/piezas-de-juego/index.xml</link>
+    <link>https://moonantonio.github.io/categories/piezas-de-juego/</link>
     <description>Recent content in Piezas De Juego on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/categories/piezas-de-juego/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Tue, 25 Apr 2017 19:14:58 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/piezas-de-juego/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Diario Glitch #1</title>
@@ -15,29 +18,9 @@
       <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/008/</guid>
-      <description>
-
-&lt;h1 id=&#34;diario-glitch-1&#34;&gt;Diario Glitch #1&lt;/h1&gt;
-
-&lt;p&gt;Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.&lt;/p&gt;
-
-&lt;p&gt;Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion.
-Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.&lt;/p&gt;
-
-&lt;p&gt;Generalmente, como siempre hago, creare un tablero &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; y seguire una metodologia kanban scrum.&lt;/p&gt;
-
-&lt;p&gt;Con la gestion realizara y la estimacion de tiempo presente, iniciare la documentacion especifica, usando como nube GD, para una mayor integracion con Trello.&lt;/p&gt;
-
-&lt;p&gt;La documentacion la estoy dividiendo en 3 partes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. Propuesta&lt;/li&gt;
-&lt;li&gt;2. DDJ&lt;/li&gt;
-&lt;li&gt;3. Manual de Juego&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Por hoy, ya que la propuesta esta entregada, empezare a crear el DDJ y la creacion de Trello.&lt;/p&gt;
-</description>
+      <description>Diario Glitch #1 Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.
+Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion. Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.
+Generalmente, como siempre hago, creare un tablero Trello y seguire una metodologia kanban scrum.</description>
     </item>
     
   </channel>

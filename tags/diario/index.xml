@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diario on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/diario/index.xml</link>
+    <link>https://moonantonio.github.io/tags/diario/</link>
     <description>Recent content in Diario on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/tags/diario/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Tue, 04 Apr 2017 23:04:52 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/diario/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Neregate cierra sus puertas</title>
@@ -15,28 +18,7 @@
       <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/007/</guid>
-      <description>
-
-&lt;h1 id=&#34;neregate-cierra-a-medio-mes&#34;&gt;Neregate cierra a medio mes&lt;/h1&gt;
-
-&lt;p&gt;Bueno pues aqui esta, neregate cierra, para los que no lo sepan, &lt;a href=&#34;https://neregate.com/blog/&#34;&gt;neregate&lt;/a&gt; a sido una web administrada por Zana, un usuario que monto desde 0 un blog que en principio estaba destinado a ser un pequeño sitio para publicar anime, cosas sobre programacion y algun que otro log, pero que poco a poco en estos &lt;strong&gt;7 años&lt;/strong&gt; se ha convertido en una referencia para ver muchas cosas.&lt;/p&gt;
-
-&lt;p&gt;Conoceras los tipicos chart que van rondando por internet sobre las temporadas de anime proximas, pues son sacadas de aqui, el autor, &lt;strong&gt;Zana&lt;/strong&gt; se creo una herramienta para crear chart desde la web, entonces cada temporada investigaba en todos los sitios de noticias de anime empezando por &lt;a href=&#34;https://myanimelist.net/&#34;&gt;MyAnimeList&lt;/a&gt; hasta llegar a &lt;a href=&#34;https://www.livechart.me/spring-2017/tv&#34;&gt;Livechart&lt;/a&gt;, creando un chart personal que publicaba antes de las nuevas temporadas.&lt;/p&gt;
-
-&lt;p&gt;Tambien creaba ciertas herramientas, como redireccionadores o diferentes sitios de estadisticas en open source.&lt;/p&gt;
-
-&lt;p&gt;Esta semana Zana a posteado en su blog que &lt;strong&gt;Neregate cierra&lt;/strong&gt; , ultimamente tiene mucho trabajo, y despues de tantos años no le llena mucho seguir con neregate, claro esta que lo a estado pensando mucho tiempo.&lt;/p&gt;
-
-&lt;p&gt;Tambien hay que ver que el es el unico posteador (quitando el foro), por lo que tiene que mantener el contenido el mismo y pagar claramente lo que con ello viene.&lt;/p&gt;
-
-&lt;p&gt;De momento su cierre esta pevisto para el 15 de abril de 2017.&lt;/p&gt;
-
-&lt;p&gt;A la espera de nuevas webs de referencia.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
+      <description>Neregate cierra a medio mes Bueno pues aqui esta, neregate cierra, para los que no lo sepan, neregate a sido una web administrada por Zana, un usuario que monto desde 0 un blog que en principio estaba destinado a ser un pequeño sitio para publicar anime, cosas sobre programacion y algun que otro log, pero que poco a poco en estos 7 años se ha convertido en una referencia para ver muchas cosas.</description>
     </item>
     
     <item>
@@ -45,32 +27,9 @@
       <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;atlus-se-agarra-a-nintendo-ds-para-sus-próximos-lanzamientos-en-3ds&#34;&gt;Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS&lt;/h1&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/personal/at01.jpg&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Teníamos mucho interés en conocer qué títulos anunciaría &lt;strong&gt;Atlus&lt;/strong&gt; en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.&lt;/p&gt;
-
-&lt;p&gt;Así, el primero que ya sabíamos que iba a aparecer fue &lt;strong&gt;Radiant Historia: Perfect Chronology (N3DS)&lt;/strong&gt;, remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/oEJG_7Foqic&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Otro regreso es el de &lt;strong&gt;Etrian Mystery Dungeon 2 (N3DS)&lt;/strong&gt;, secuela del título que era lanzado hace un par de años en occidente, que llegará el 31 de agosto a Japón para volver a ofrecer una colaboración entre el estilo &amp;ldquo;Mundo Misterioso&amp;rdquo; de Spike Chunsoft y los elementos de la saga Etrian Odyssey.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/T5oy9acYGGo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Y el tercer título presentado fue &lt;strong&gt;Shin Megami Tensei: Deep Strange Journey (N3DS)&lt;/strong&gt;, remake del título que fue lanzado hace siete años en Nintendo DS que ofrecerá una dificultad algo más calibrada, doblaje, nuevos demonios e ilustraciones, múltiples mejoras en la interfaz, combate y mazmorras, un nuevo personaje y toda una ruta extra alternativa. Llegará este otoño a Japón.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/6kXOfSFb2EU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Para cerrar también han vuelto a mostrar el tráiler del &lt;strong&gt;Shin Megami Tensei&lt;/strong&gt; realizado en Unreal Engine para Switch, con un par de segundos extra que nos mostraba un desierto. Nada que sea realmente relevante ni que merezca la pena comentar, salvo que sigue sin llamarse oficialmente Shin Megami Tensei V.&lt;/p&gt;
-
-&lt;p&gt;Pero, bueno, al menos los usuarios de Nintendo 3DS pueden estar muy contentos porque tienen tres títulos en camino con una calidad más que contrastada. Eso sí, ninguno es completamente original.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS 
+Teníamos mucho interés en conocer qué títulos anunciaría Atlus en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.
+Así, el primero que ya sabíamos que iba a aparecer fue Radiant Historia: Perfect Chronology (N3DS), remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.</description>
     </item>
     
     <item>
@@ -79,217 +38,10 @@
       <pubDate>Wed, 15 Mar 2017 17:27:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;por-que&#34;&gt;¿Por que?&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Esta entrada la escribo para tener constancia del &lt;strong&gt;workflow&lt;/strong&gt; que se hace en animacion y nada mas.&lt;/p&gt;
-
-&lt;p&gt;Los pasos a seguir serian :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crear o buscar referencias.&lt;/li&gt;
-&lt;li&gt;Puesta a punto de camaras.&lt;/li&gt;
-&lt;li&gt;Bloquin con la malla justa del modelo animado.&lt;/li&gt;
-&lt;li&gt;Generacion de keys claves de la animacion.&lt;/li&gt;
-&lt;li&gt;Pulido final.&lt;/li&gt;
-&lt;li&gt;VFX y preprocesado&lt;/li&gt;
-&lt;li&gt;Render&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pero aqui &lt;strong&gt;solo pondre los puntos&lt;/strong&gt; 1.3. y 5.&lt;/p&gt;
-
-&lt;p&gt;Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo. Empecemos.&lt;/p&gt;
-
-&lt;h2 id=&#34;crear-o-buscar-referencias&#34;&gt;Crear o buscar referencias.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ahora que a salido &lt;strong&gt;Nier Automata&lt;/strong&gt;, se ha visto que los chicos de &lt;strong&gt;Platinum Games&lt;/strong&gt; se lo han currado mucho para recrear esas animaciones, han mimado su obra hasta tal punto que llegan al nivel de los mejores animadores de videojuegos.&lt;/p&gt;
-
-&lt;p&gt;Por ello, e cogido a la protagonista como referencia, no usare su modelo ya que esta animacion es para un proyecto diferente y el modelo es el del videojuego este. ( Pero no descarto en un futuro, recrear a modo de fanart con el modelo de nier).&lt;/p&gt;
-
-&lt;p&gt;Las referencias son las siguientes:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/007.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La referencia esta formada por varias animaciones de ataques que dividire en 4.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Ataque #1&lt;/td&gt;
-&lt;td&gt;10f-25f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #2&lt;/td&gt;
-&lt;td&gt;29f-80f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #3&lt;/td&gt;
-&lt;td&gt;170f-205f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #4&lt;/td&gt;
-&lt;td&gt;254f-299f&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;bloquin-con-la-malla-justa-del-modelo-animado&#34;&gt;Bloquin con la malla justa del modelo animado.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;En este punto, en vez de usar la malla justa, usare el modelo tal cual el equipo a proporcionado, que creo que es el que se usara en el juego en si. Antes de empezar, un pequeño tip, si estais usando referencias con difernetes fotogramas, restar al ultimo resultado de fotogramas, el resultado anterior y os saldran los fotogramas que hay entre medias, es una cosa de niños, pero a veces la gente no cae. ^^&lt;/p&gt;
-
-&lt;p&gt;Tiempo estimado del total de la animacion: &lt;strong&gt;6.2s&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La primera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada&lt;/td&gt;
-&lt;td&gt;0f(10f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada en lo alto&lt;/td&gt;
-&lt;td&gt;5f(15f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico ataque bajo con espada&lt;/td&gt;
-&lt;td&gt;15f(25f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La segunda animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico girandose&lt;/td&gt;
-&lt;td&gt;16f(29f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico coge la espada&lt;/td&gt;
-&lt;td&gt;27f(40f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a caer&lt;/td&gt;
-&lt;td&gt;46f(59f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico toca el suelo&lt;/td&gt;
-&lt;td&gt;51f(64f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico lanza la espada&lt;/td&gt;
-&lt;td&gt;55f(68f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico se incorpora&lt;/td&gt;
-&lt;td&gt;67f(80f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La tercera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico cogiendo espada&lt;/td&gt;
-&lt;td&gt;68f(170f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a girar&lt;/td&gt;
-&lt;td&gt;79f(181f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y coge pose&lt;/td&gt;
-&lt;td&gt;103f(205f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La cuarta animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico en posicion&lt;/td&gt;
-&lt;td&gt;104f(254)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico giro maximo&lt;/td&gt;
-&lt;td&gt;118f(268f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y reposa espada&lt;/td&gt;
-&lt;td&gt;149f(299f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;pulido-final&#34;&gt;Pulido Final.&lt;/h2&gt;
-
-&lt;p&gt;En el pulido, hay que dejarlo todo perfecto, como su nombre indica, ir puliendo frame a frame hasta dejarlo al gusto.
-Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo con las keys para que solo coja esos valores.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>¿Por que? Esta entrada la escribo para tener constancia del workflow que se hace en animacion y nada mas.
+Los pasos a seguir serian :
+ Crear o buscar referencias. Puesta a punto de camaras. Bloquin con la malla justa del modelo animado. Generacion de keys claves de la animacion. Pulido final. VFX y preprocesado Render  Pero aqui solo pondre los puntos 1.3. y 5.
+Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo.</description>
     </item>
     
     <item>
@@ -298,16 +50,8 @@ Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo co
       <pubDate>Tue, 14 Mar 2017 19:53:02 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/002/</guid>
-      <description>&lt;p&gt;Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.&lt;/p&gt;
-
-&lt;p&gt;Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Por eso me e decidido con empezar con GitHub, y realmente &amp;hellip; se a quedado una cosa muy fea, pero al menos tengo un center para poder guiarme un poco mejor por estos terrenos.&lt;/p&gt;
-
-&lt;p&gt;Tengo pensado actualizar todos los repos para tenerlos bien organizados y documentados, pero hasta el momento tendre que ir tirando de este metodo que, aunque es feo, es lo mas rapido que puedo montar, para que no interfiera en el TFG y otros proyectos activos en este momento.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.
+Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;</description>
     </item>
     
     <item>
@@ -316,16 +60,9 @@ Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo co
       <pubDate>Mon, 27 Feb 2017 12:39:36 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</guid>
-      <description>
-
-&lt;h1 id=&#34;nuevo-blog-con-una-nueva-estructura&#34;&gt;Nuevo blog con una nueva estructura.&lt;/h1&gt;
-
-&lt;p&gt;Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.&lt;/p&gt;
-
-&lt;p&gt;Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.&lt;/p&gt;
-
-&lt;p&gt;Ahora va todo por secciones. ^^&lt;/p&gt;
-</description>
+      <description>Nuevo blog con una nueva estructura. Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.
+Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.
+Ahora va todo por secciones. ^^</description>
     </item>
     
   </channel>

@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tfg on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/tfg/index.xml</link>
+    <link>https://moonantonio.github.io/tags/tfg/</link>
     <description>Recent content in Tfg on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>© Moon Antonio.&lt;br&gt;Tecnologia de [Hugo](//gohugo.io/) con el [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <atom:link href="https://moonantonio.github.io/tags/tfg/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Tue, 25 Apr 2017 19:14:58 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/tfg/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Diario Glitch #1</title>
@@ -15,29 +18,9 @@
       <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/008/</guid>
-      <description>
-
-&lt;h1 id=&#34;diario-glitch-1&#34;&gt;Diario Glitch #1&lt;/h1&gt;
-
-&lt;p&gt;Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.&lt;/p&gt;
-
-&lt;p&gt;Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion.
-Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.&lt;/p&gt;
-
-&lt;p&gt;Generalmente, como siempre hago, creare un tablero &lt;a href=&#34;https://trello.com&#34;&gt;Trello&lt;/a&gt; y seguire una metodologia kanban scrum.&lt;/p&gt;
-
-&lt;p&gt;Con la gestion realizara y la estimacion de tiempo presente, iniciare la documentacion especifica, usando como nube GD, para una mayor integracion con Trello.&lt;/p&gt;
-
-&lt;p&gt;La documentacion la estoy dividiendo en 3 partes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. Propuesta&lt;/li&gt;
-&lt;li&gt;2. DDJ&lt;/li&gt;
-&lt;li&gt;3. Manual de Juego&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Por hoy, ya que la propuesta esta entregada, empezare a crear el DDJ y la creacion de Trello.&lt;/p&gt;
-</description>
+      <description>Diario Glitch #1 Lo primero es generar la documentacion necesaria para poder empezar el desarrollo.
+Normalmente se utiliza mas tiempo, pero ya que no tengo ese tiempo, me e puesto unas dos semanas para la finalizacion de la preproduccion. Asignare 1 semana para la creacion de la documentacion inicial y otra para el desarrollo del prototipo y analizar los diferentes patrones.
+Generalmente, como siempre hago, creare un tablero Trello y seguire una metodologia kanban scrum.</description>
     </item>
     
     <item>
@@ -46,217 +29,10 @@ Asignare 1 semana para la creacion de la documentacion inicial y otra para el de
       <pubDate>Wed, 15 Mar 2017 17:27:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/003/</guid>
-      <description>
-
-&lt;h1 id=&#34;por-que&#34;&gt;¿Por que?&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Esta entrada la escribo para tener constancia del &lt;strong&gt;workflow&lt;/strong&gt; que se hace en animacion y nada mas.&lt;/p&gt;
-
-&lt;p&gt;Los pasos a seguir serian :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crear o buscar referencias.&lt;/li&gt;
-&lt;li&gt;Puesta a punto de camaras.&lt;/li&gt;
-&lt;li&gt;Bloquin con la malla justa del modelo animado.&lt;/li&gt;
-&lt;li&gt;Generacion de keys claves de la animacion.&lt;/li&gt;
-&lt;li&gt;Pulido final.&lt;/li&gt;
-&lt;li&gt;VFX y preprocesado&lt;/li&gt;
-&lt;li&gt;Render&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pero aqui &lt;strong&gt;solo pondre los puntos&lt;/strong&gt; 1.3. y 5.&lt;/p&gt;
-
-&lt;p&gt;Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo. Empecemos.&lt;/p&gt;
-
-&lt;h2 id=&#34;crear-o-buscar-referencias&#34;&gt;Crear o buscar referencias.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ahora que a salido &lt;strong&gt;Nier Automata&lt;/strong&gt;, se ha visto que los chicos de &lt;strong&gt;Platinum Games&lt;/strong&gt; se lo han currado mucho para recrear esas animaciones, han mimado su obra hasta tal punto que llegan al nivel de los mejores animadores de videojuegos.&lt;/p&gt;
-
-&lt;p&gt;Por ello, e cogido a la protagonista como referencia, no usare su modelo ya que esta animacion es para un proyecto diferente y el modelo es el del videojuego este. ( Pero no descarto en un futuro, recrear a modo de fanart con el modelo de nier).&lt;/p&gt;
-
-&lt;p&gt;Las referencias son las siguientes:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://moonantonio.github.io/img/gif/007.gif&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La referencia esta formada por varias animaciones de ataques que dividire en 4.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Ataque #1&lt;/td&gt;
-&lt;td&gt;10f-25f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #2&lt;/td&gt;
-&lt;td&gt;29f-80f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #3&lt;/td&gt;
-&lt;td&gt;170f-205f&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Ataque #4&lt;/td&gt;
-&lt;td&gt;254f-299f&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;bloquin-con-la-malla-justa-del-modelo-animado&#34;&gt;Bloquin con la malla justa del modelo animado.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;En este punto, en vez de usar la malla justa, usare el modelo tal cual el equipo a proporcionado, que creo que es el que se usara en el juego en si. Antes de empezar, un pequeño tip, si estais usando referencias con difernetes fotogramas, restar al ultimo resultado de fotogramas, el resultado anterior y os saldran los fotogramas que hay entre medias, es una cosa de niños, pero a veces la gente no cae. ^^&lt;/p&gt;
-
-&lt;p&gt;Tiempo estimado del total de la animacion: &lt;strong&gt;6.2s&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La primera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada&lt;/td&gt;
-&lt;td&gt;0f(10f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico sugetando la espada en lo alto&lt;/td&gt;
-&lt;td&gt;5f(15f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico ataque bajo con espada&lt;/td&gt;
-&lt;td&gt;15f(25f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La segunda animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico girandose&lt;/td&gt;
-&lt;td&gt;16f(29f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico coge la espada&lt;/td&gt;
-&lt;td&gt;27f(40f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a caer&lt;/td&gt;
-&lt;td&gt;46f(59f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico toca el suelo&lt;/td&gt;
-&lt;td&gt;51f(64f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico lanza la espada&lt;/td&gt;
-&lt;td&gt;55f(68f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico se incorpora&lt;/td&gt;
-&lt;td&gt;67f(80f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La tercera animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico cogiendo espada&lt;/td&gt;
-&lt;td&gt;68f(170f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico empieza a girar&lt;/td&gt;
-&lt;td&gt;79f(181f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y coge pose&lt;/td&gt;
-&lt;td&gt;103f(205f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;La cuarta animacion es :&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Nombre&lt;/th&gt;
-&lt;th&gt;Fotogramas&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chico en posicion&lt;/td&gt;
-&lt;td&gt;104f(254)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico giro maximo&lt;/td&gt;
-&lt;td&gt;118f(268f)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chico termina giro y reposa espada&lt;/td&gt;
-&lt;td&gt;149f(299f)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;pulido-final&#34;&gt;Pulido Final.&lt;/h2&gt;
-
-&lt;p&gt;En el pulido, hay que dejarlo todo perfecto, como su nombre indica, ir puliendo frame a frame hasta dejarlo al gusto.
-Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo con las keys para que solo coja esos valores.&lt;/p&gt;
-
-&lt;p&gt;.\Moon&lt;/p&gt;
-</description>
+      <description>¿Por que? Esta entrada la escribo para tener constancia del workflow que se hace en animacion y nada mas.
+Los pasos a seguir serian :
+ Crear o buscar referencias. Puesta a punto de camaras. Bloquin con la malla justa del modelo animado. Generacion de keys claves de la animacion. Pulido final. VFX y preprocesado Render  Pero aqui solo pondre los puntos 1.3. y 5.
+Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo.</description>
     </item>
     
     <item>
@@ -265,132 +41,9 @@ Al terminar el pulido hay que rellenar todos los frames de la linea de tiempo co
       <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/005/</guid>
-      <description>&lt;p&gt;Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Editor -&amp;gt; cambiar generalmente de forma rapida y precisa.
-Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Por ello propuse un &lt;strong&gt;Gestor de Escenas&lt;/strong&gt; en la que uno mismo podria cambiar siempre de escena en cualquier lado.&lt;/p&gt;
-
-&lt;p&gt;El sistema es llamado &lt;strong&gt;Proteo&lt;/strong&gt; que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.&lt;/p&gt;
-
-&lt;p&gt;En la escena de test, queria sacar 3 funcionalidades.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cambiar de forma normal la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cambiar de forma Asyncrona la escena.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Descargar alguna escena anterior.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bien ahora empezare por el sistema runtime.&lt;/p&gt;
-
-&lt;p&gt;Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.&lt;/p&gt;
-
-&lt;p&gt;Al sumar escenas hay un modo llamado &lt;strong&gt;LoadSceneMode.Additive&lt;/strong&gt; que seria sumar la nueva escena a la actual.&lt;/p&gt;
-
-&lt;p&gt;Bueno y despues de esto -&amp;gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-C#&#34;&gt;//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                              
-// SProteo.cs (15/03/2017)                                      
-// Autor: Antonio Mateo (Moon Pincho)                              
-// Descripcion:     Sistema que gestiona el cambio de escenas.      
-// Fecha Mod:       15/03/2017                                  
-// Ultima Mod:      Version Inicial                             
-//****************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
-#endregion
-
-namespace MoonPincho
-{
-    /// &amp;lt;summary&amp;gt;
-    /// &amp;lt;para&amp;gt;Sistema que gestiona el cambio de escenas&amp;lt;/para&amp;gt;
-    /// &amp;lt;/summary&amp;gt;
-    [AddComponentMenu(&amp;quot;Moon Pincho/Sistemas/SProteo&amp;quot;)]
-    public class SProteo : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;NGUI progress bar para la carga.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public UISlider progressBar;                                            // NGUI progress bar para la carga
-        #endregion
-
-        #region API
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada en modo Additive.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-        {
-            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena dada.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void UnLoadScene(string nombre)// Descarga la escena dada
-        {
-            SceneManager.UnloadSceneAsync(nombre);
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Carga la escena dada asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-        {
-            StartCoroutine(UpdateProgress(nombre));
-        }
-
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Descarga la escena actual.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        public void UnLoadActual()// Descarga la escena actual.
-        {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        }
-        #endregion
-
-        #region Funcionalidad
-        /// &amp;lt;summary&amp;gt;
-        /// &amp;lt;para&amp;gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&amp;lt;/para&amp;gt;
-        /// &amp;lt;/summary&amp;gt;
-        /// &amp;lt;param name=&amp;quot;nombre&amp;quot;&amp;gt;Nombre de la escena.&amp;lt;/param&amp;gt;
-        /// &amp;lt;returns&amp;gt;Null&amp;lt;/returns&amp;gt;
-        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-        {
-            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
-
-            while (!cargando.isDone)
-            {
-                this.progressBar.value = cargando.progress;
-                Debug.Log(cargando.progress);
-                yield return null;
-            }
-        }
-        #endregion
-    }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;https://github.com/MoonAntonio/GestorEscenasUnity&#34; class=&#34;button&#34;&gt;Moon Pincho Github&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.
+ Editor -&amp;gt; cambiar generalmente de forma rapida y precisa. Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.
+ Por ello propuse un Gestor de Escenas en la que uno mismo podria cambiar siempre de escena en cualquier lado.</description>
     </item>
     
     <item>
@@ -399,95 +52,18 @@ namespace MoonPincho
       <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
-      <description>
-
-&lt;h1 id=&#34;ambiente&#34;&gt;Ambiente&lt;/h1&gt;
-
-&lt;p&gt;Algunos puntos a destacar  sobre el ambiente:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Realidad aumentada.&lt;/li&gt;
-&lt;li&gt;Arboles holografiados &lt;a href=&#34;https://www.artstation.com/artwork/nvLa4&#34;&gt;Muscan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/003/387/951/large/mihai-muscan-1.jpg?1473170024&#34; alt=&#34;001&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Neonizada &lt;a href=&#34;https://www.artstation.com/artwork/3dN9E&#34;&gt;Wadim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/000/434/113/large/wadim-kashin-cyberpunk2.jpg?1422308666&#34; alt=&#34;002&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Muy vivo&lt;a href=&#34;https://www.artstation.com/artwork/OP238&#34;&gt;Bravo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdna.artstation.com/p/assets/images/images/002/958/960/large/victor-bravo-tuk-tuk3.jpg?1467766031&#34; alt=&#34;003&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Realismo &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Variacion de profundida &lt;a href=&#34;https://www.artstation.com/artwork/z9KR6&#34;&gt;Touho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://cdnb.artstation.com/p/assets/images/images/004/572/977/large/t-h-fire-strike-05.jpg?1484677987&#34; alt=&#34;004&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;datos-tecnicos&#34;&gt;Datos tecnicos&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Edificios:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;LOD desde 2 planta hacia arriba.&lt;/p&gt;
-
-&lt;p&gt;3 Tipos de LOD.&lt;/p&gt;
-
-&lt;p&gt;3 tipos generales y props para modular.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Circulacion:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Coches solo vuelan por arriba.&lt;/p&gt;
-
-&lt;p&gt;Pasos de cebra para los peatones.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Especificaciones:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Publicidad holografica (AR).&lt;/p&gt;
-
-&lt;p&gt;Mucho Rascacielos.&lt;/p&gt;
-
-&lt;p&gt;Barrios bajos.&lt;/p&gt;
-
-&lt;p&gt;Carpas&lt;/p&gt;
-
-&lt;p&gt;Mucho cableado, tuverias y ventiladores.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ciudad superpoblada, debajo los sectores pobres y con forme subes a la parte superior, la nobleza o la zona mas rica.&lt;/p&gt;
-
-&lt;p&gt;Minimo de ancho de 6 metros.&lt;/p&gt;
-
-&lt;h1 id=&#34;finalidad&#34;&gt;Finalidad&lt;/h1&gt;
-
-&lt;p&gt;Resultado en &lt;a href=&#34;https://www.youtube.com/watch?v=5hcJbQuWv0U&#34;&gt;Video&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ambiente Algunos puntos a destacar sobre el ambiente:
+ Realidad aumentada. Arboles holografiados Muscan  
+ Neonizada Wadim  
+ Muy vivoBravo  
+ Realismo Touho  
+ Variacion de profundida Touho  
+Datos tecnicos  Edificios:
+ LOD desde 2 planta hacia arriba.
+3 Tipos de LOD.
+3 tipos generales y props para modular.
+   Circulacion:
+ Coches solo vuelan por arriba.</description>
     </item>
     
     <item>
@@ -496,127 +72,8 @@ namespace MoonPincho
       <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
-      <description>
-
-&lt;h1 id=&#34;mecanicas-presentadas-para-el-tfg&#34;&gt;Mecanicas presentadas para el TFG&lt;/h1&gt;
-
-&lt;p&gt;Al comienzo de la investigacion, se propuso unas mecanicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las &lt;strong&gt;mecanicas&lt;/strong&gt; &amp;amp; algunas &lt;strong&gt;funcionalidades&lt;/strong&gt; previstas:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Accionar y combinar combos, entre 4 estilos de lucha:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Ataque fuerte.&lt;/li&gt;
-&lt;li&gt;Ataque rapido.&lt;/li&gt;
-&lt;li&gt;Ataque a distancia.&lt;/li&gt;
-&lt;li&gt;Salto / Salto doble.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tambien tiene extras como:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Esquive.&lt;/li&gt;
-&lt;li&gt;Bloqueo.&lt;/li&gt;
-&lt;li&gt;Cambio.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Camara en 3ª Persona.&lt;/li&gt;
-&lt;li&gt;El pivote de la camara siempre esta fijada en la cabeza del personaje.&lt;/li&gt;
-&lt;li&gt;La camara no cambia el pivote nunca, solo el campo de vision se altera.&lt;/li&gt;
-&lt;li&gt;Combinacion de acciones para realizar combos.&lt;/li&gt;
-&lt;li&gt;El jugado podra ir desbloqueando partes del combo con forme luche.&lt;/li&gt;
-&lt;li&gt;El jugador podra cambiar al personaje, con lo que cambia el estilo de lucha (Ej: Armas =&amp;gt; Mele)&lt;/li&gt;
-&lt;li&gt;Con cada combo sin cortar la cadena, el jugador recibe como recompensa rabia, la rabia puede llegar a nivel 3, cuando esta llega, el jugador puede consumir toda la rabia y ser imparable durante un tiempo.&lt;/li&gt;
-&lt;li&gt;Cuando el jugador derrota a todos los enemigos de la zona, al ultimo le realiza un fatality en camara lenta.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Asi que teniendo todas las mecanicas pensadas, habria que ver si entran en un controller, que con pc no habria problema pero al ser un controller de mando, hay que crear una pequeña tabla.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Boton&lt;/th&gt;
-&lt;th&gt;Accion&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;A&lt;/td&gt;
-&lt;td&gt;Salto&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;Ataque Distancia&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Y&lt;/td&gt;
-&lt;td&gt;Ataque Fuerte&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;Ataque Rapido&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;RB&lt;/td&gt;
-&lt;td&gt;Fijar Objetivo&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;RT&lt;/td&gt;
-&lt;td&gt;Esquivar&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;LB&lt;/td&gt;
-&lt;td&gt;Cambio&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;LT&lt;/td&gt;
-&lt;td&gt;Bloquear&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Start&lt;/td&gt;
-&lt;td&gt;Menu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Back&lt;/td&gt;
-&lt;td&gt;Habilidades&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Stick derecho&lt;/td&gt;
-&lt;td&gt;Mover Camara&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Stick Izquierdo&lt;/td&gt;
-&lt;td&gt;Mover Personaje&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Ahora como objetivo, me queria enfocar mas al tema &lt;strong&gt;Nier : Automata&lt;/strong&gt;, se asemeja mucho a Devil May Cry, pero es mucho mas rapido e intuitivo, realmente nier esta pensado para una lucha rapida y tactica en su nivel normal, de lo que me e dado cuenta es que DMC en su nivel normal es simplemente atacar atacar y mas atacar.&lt;/p&gt;
-
-&lt;p&gt;En esta parte entrare mas adelante, ya que creo que tiene mucho que ver la combinacion de ataques y la IA de los diferentes enemigos, por lo que se nos sale de lo que quiero tener para el miercoles.&lt;/p&gt;
-
-&lt;p&gt;.Save&lt;/p&gt;
-</description>
+      <description>Mecanicas presentadas para el TFG Al comienzo de la investigacion, se propuso unas mecanicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecanicas &amp;amp; algunas funcionalidades previstas:
+  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rapido. Ataque a distancia. Salto / Salto doble.   Tambien tiene extras como:</description>
     </item>
     
   </channel>
