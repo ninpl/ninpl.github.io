@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Tue, 27 Jun 2017 13:55:04 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 18:59:56 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Maquina de estados Finitos</title>
+      <link>https://moonantonio.github.io/post/2017/dev/010/</link>
+      <pubDate>Wed, 05 Jul 2017 18:59:56 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/010/</guid>
+      <description>Las aplicaciones del sistema FSM en general y en videojuegos Se denomina máquina de estados a un modelo de comportamiento de un sistema con entradas y salidas, en donde las salidas dependen no sólo de las señales de entradas actuales sino también de las anteriores.
+Finito, si el conjunto de estados de la máquina es finito, este es el único tipo de máquinas de estados que podemos modelar en un computador en la actualidad; debido a esto se suelen utilizar los términos máquina de estados y máquina de estados finitos de forma intercambiable.</description>
+    </item>
     
     <item>
       <title>Pequeño proyecto manager escenas en memoria</title>
