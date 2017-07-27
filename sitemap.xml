@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/dev/011/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/dev/010/</loc>
     <lastmod>2017-07-05T18:59:56+02:00</lastmod>
   </url>
@@ -325,7 +330,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -392,6 +397,30 @@
   <url>
     <loc>https://moonantonio.github.io/categories/clase/</loc>
     <lastmod>2017-04-24T12:52:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/comandos/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/comandos/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/consola/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/consola/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -565,13 +594,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -673,7 +702,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
