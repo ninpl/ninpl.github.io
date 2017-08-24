@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Thu, 27 Jul 2017 19:35:28 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 24 Aug 2017 21:07:09 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Atlus &amp; Europa</title>
+      <link>https://moonantonio.github.io/post/2017/juegos/003/</link>
+      <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/juegos/003/</guid>
+      <description>Atlus crea una división para lanzar sus propios títulos en Europa 
+Desde Atlus han anunciado que de ahora en adelante se encargarán de publicar sus propios títulos en Europa desde una nueva oficina que han fundado en Londres. Anteriormente la compañía usaba terceras compañías como NIS America o Deep Silver para lanzar sus títulos en territorio europeo.
+El nuevo equipo cuenta con Simon Inch como director comercial y en breve contará con su propio gestor de relaciones públicas y gerente de márketing.</description>
+    </item>
     
     <item>
       <title>Comandos de consola Windows</title>
@@ -18,9 +29,9 @@
       <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/011/</guid>
-      <description>Diferentes comandos utiles y basicos ###Cat
+      <description>Diferentes comandos utiles y basicos ##Cat
 Cat (de concatenar), es una maravillosa utilidad que nos permite visualizar el contenido de un archivo de texto sin la necesidad de un editor. Para utilizarlo solo debemos mencionarlo junto al archivo que deseamos visualizar:
-$ cat prueba.txt  ###Ls
+$ cat prueba.txt  ##Ls
 Ls (de listar), permite listar el contenido de un directorio o fichero. La sintaxis es:
 $ ls /home/directorio  El comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande.</description>
     </item>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/juegos/003/</loc>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/dev/011/</loc>
     <lastmod>2017-07-27T19:35:28+02:00</lastmod>
   </url>
@@ -330,7 +335,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -348,13 +353,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/atlus/</loc>
-    <lastmod>2017-03-26T19:55:55+02:00</lastmod>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/atlus/</loc>
-    <lastmod>2017-03-26T19:55:55+02:00</lastmod>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -445,6 +450,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/diario/</loc>
     <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/europa/</loc>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/europa/</loc>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -594,13 +611,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -702,7 +719,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
