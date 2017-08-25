@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Thu, 24 Aug 2017 21:07:09 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 25 Aug 2017 22:40:40 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conceptos Generacion</title>
+      <link>https://moonantonio.github.io/post/2017/dev/012/</link>
+      <pubDate>Fri, 25 Aug 2017 22:40:40 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/012/</guid>
+      <description>Generacion de contenido procedural - Basico ¿Qué es el PCG? Aquí debo comenzar diciendo que en realidad una definición certera y aceptada por toda la academia no existe, es por eso que voy a mencionar diversas definiciones que obtuve de las referencias en las que me base:
+ El PCG es la creación algorítmica de contenido de un juego, con entrada de información limitada o indirecta por parte del usuario.</description>
+    </item>
     
     <item>
       <title>Atlus &amp; Europa</title>

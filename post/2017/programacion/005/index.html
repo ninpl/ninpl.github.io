@@ -151,12 +151,12 @@ Runtime -&gt; cambiar entre cargar escena copleta y cargar mediante Sync.</p>
 <hr />
 
 <pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                              
-// SProteo.cs (15/03/2017)                                      
-// Autor: Antonio Mateo (Moon Pincho)                              
-// Descripcion:     Sistema que gestiona el cambio de escenas.      
-// Fecha Mod:       15/03/2017                                  
-// Ultima Mod:      Version Inicial                             
+//																
+// SProteo.cs (15/03/2017)										
+// Autor: Antonio Mateo (Moon Pincho) 						       
+// Descripcion:		Sistema que gestiona el cambio de escenas.		
+// Fecha Mod:		15/03/2017									
+// Ultima Mod:		Version Inicial								
 //****************************************************************\\
 
 #region Librerias
@@ -168,75 +168,75 @@ using UnityEngine.SceneManagement;
 
 namespace MoonPincho
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Sistema que gestiona el cambio de escenas&lt;/para&gt;
-    /// &lt;/summary&gt;
-    [AddComponentMenu(&quot;Moon Pincho/Sistemas/SProteo&quot;)]
-    public class SProteo : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &lt;summary&gt;
-        /// &lt;para&gt;NGUI progress bar para la carga.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        public UISlider progressBar;                                            // NGUI progress bar para la carga
-        #endregion
+	/// &lt;summary&gt;
+	/// &lt;para&gt;Sistema que gestiona el cambio de escenas&lt;/para&gt;
+	/// &lt;/summary&gt;
+	[AddComponentMenu(&quot;Moon Pincho/Sistemas/SProteo&quot;)]
+	public class SProteo : MonoBehaviour 
+	{
+		#region Variables Publicas
+		/// &lt;summary&gt;
+		/// &lt;para&gt;NGUI progress bar para la carga.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		public UISlider progressBar;                                            // NGUI progress bar para la carga
+		#endregion
 
-        #region API
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Carga la escena dada en modo Additive.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-        {
-            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-        }
+		#region API
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Carga la escena dada en modo Additive.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		public void LoadScene(string nombre)// Carga la escena dada en modo Additive
+		{
+			SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
+		}
 
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Descarga la escena dada.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        public void UnLoadScene(string nombre)// Descarga la escena dada
-        {
-            SceneManager.UnloadSceneAsync(nombre);
-        }
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Descarga la escena dada.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		public void UnLoadScene(string nombre)// Descarga la escena dada
+		{
+			SceneManager.UnloadSceneAsync(nombre);
+		}
 
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Carga la escena dada asyncronamente.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-        {
-            StartCoroutine(UpdateProgress(nombre));
-        }
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Carga la escena dada asyncronamente.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
+		{
+			StartCoroutine(UpdateProgress(nombre));
+		}
 
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Descarga la escena actual.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        public void UnLoadActual()// Descarga la escena actual.
-        {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        }
-        #endregion
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Descarga la escena actual.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		public void UnLoadActual()// Descarga la escena actual.
+		{
+			SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+		}
+		#endregion
 
-        #region Funcionalidad
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        /// &lt;returns&gt;Null&lt;/returns&gt;
-        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-        {
-            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
+		#region Funcionalidad
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		/// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
+		/// &lt;returns&gt;Null&lt;/returns&gt;
+		public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
+		{
+			AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
 
-            while (!cargando.isDone)
-            {
-                this.progressBar.value = cargando.progress;
-                Debug.Log(cargando.progress);
-                yield return null;
-            }
-        }
-        #endregion
-    }
+			while (!cargando.isDone)
+			{
+				this.progressBar.value = cargando.progress;
+				Debug.Log(cargando.progress);
+				yield return null;
+			}
+		}
+		#endregion
+	}
 }
 
 </code></pre>
