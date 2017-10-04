@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Mon, 24 Apr 2017 12:52:34 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2017 21:24:19 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/ia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sistema Gambits</title>
+      <link>https://moonantonio.github.io/post/2017/dev/013/</link>
+      <pubDate>Tue, 03 Oct 2017 21:24:19 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/013/</guid>
+      <description>Descripción del S. Gambit. El sistema gambit, es un sistema que controla el comportamiento o acciones de un agente. Este agente tiene unas listas de prioridades en las que tiene comportamientos o acciones. El agente siempre accionara iteradamente su acción, siempre y cuando cumpla la condición, sino, pasara a la siguiente acción en la lista.
+¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV.</description>
+    </item>
     
     <item>
       <title>NavMesh Unity3D</title>
