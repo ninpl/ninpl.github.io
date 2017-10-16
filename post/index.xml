@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Tue, 03 Oct 2017 21:24:19 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2017 19:07:21 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Buenas Practicas de programacion</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/013/</link>
+      <pubDate>Mon, 16 Oct 2017 19:07:21 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/013/</guid>
+      <description>Estoy seguro de que si te dedicas a programar, conoces a Robert &amp;ldquo;Uncle&amp;rdquo; Martin. Su libro Clean Code es uno de los más recomendados en la lista de libros que todo desarrollador debería leer. Martin, con sus cosas buenas y malas, es uno de los desarrolladores más influyentes del panorama ingenieril. Fuerte defensor de TDD, de la cobertura de tests y otras buenas prácticas, y además cuenta con muchas personas que siguen sus enseñanzas a rajatabla.</description>
+    </item>
     
     <item>
       <title>Sistema Gambits</title>
