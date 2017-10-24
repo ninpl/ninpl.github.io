@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Criptomonedas on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/criptomonedas/</link>
+    <description>Recent content in Criptomonedas on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Tue, 24 Oct 2017 09:14:13 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/criptomonedas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Criptomonedas</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/014/</link>
+      <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/014/</guid>
+      <description>Criptomonedas Introducción En 2008 un ciudadano de japon, que se hacia llamar &amp;ldquo;Satoshi Nakamoto&amp;rdquo; , compartio una idea que llamo la atencion de todos los usuarios.
+Satoshi propuso una idea para crear una moneda digital. Una moneda basada en bits.
+En la actualidad, cada persona necesita ingresar un dinero en una entidad bancaria, un dinero fisico, el cual es depositado digitalmente en nuestra cuenta. Por ese motivo dependemos de los bancos 100%, otro caso es la privazidad y la inflaccion, son problemas que actualmente tenemos en la sociedad actual con el sistema monetario actual.</description>
+    </item>
+    
+  </channel>
+</rss>
