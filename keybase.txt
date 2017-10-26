@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/antmoon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://moonantonio.github.io
+  * I am antmoon (https://keybase.io/antmoon) on keybase.
+  * I have a public key with fingerprint C864 7A43 5B1F 356A BA08  F2D8 66DB ACBF BA47 FF10
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012087db2c04a66e6c96a69224bb1ee1eedc10755691bfa2f8890724612fe06560c70a",
+      "fingerprint": "c8647a435b1f356aba08f2d866dbacbfba47ff10",
+      "host": "keybase.io",
+      "key_id": "66dbacbfba47ff10",
+      "kid": "01010cdbff2b2b9516ad7d28ae5d25aa82b04167ddf9349d15c3828c845afb9f950a0a",
+      "uid": "f6ec08aaf1b6380fe16d514cd5db7719",
+      "username": "antmoon"
+    },
+    "service": {
+      "hostname": "moonantonio.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1508982544,
+  "expire_in": 157680000,
+  "prev": "a9898e1f04dbb5bb01308b6e638c8023fa4883cda746f332da66202674a598cb",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMN0AnicbZJ/UBRlGMcPUBCE+DEWNNEMbE7HxEm7e/vzcoSRIXNMaAZrKqDjfffH
+3QrsXnvLISLcyJh/ZJSgMHGSoBYZUSCeMkM4iRU0B9PcMJQjiEyaMhhhTDhQKLRL
++l/vvjPv7Luf5/t8n2ef72PCTFEh4kTnt307VuNChgfayk1vzWfGVSFQ4SsRWxVS
+IqwdQikvuDV7icQjNgTFcJSheYhzKAEoSqA4lgIUi+MEhJgg6JvnMJQmSYrFoAhw
+kWFYlMYJCsNFAaVICuVoFCAWRJRkh6C6VEnWdFmOoQgaEFYSYqKVpAAEKCPiPENR
+PAQcFCEgaFHEUD3QqbiNCN0cBG4hQ1L0O/3Fvmbvf/jHvvWH46Eo4hCHLIlRgKd5
+nAECyeMkAAwOUQKjaJ4XWSvB8hjJWRmc4RiCBCJkRZZEwZrv8jU5kRI4lAFAxCBl
+ZVBRwCiexAiOJ3lI0xhrgG5BlUGZoNNA1soURUaqLYh+6ZE4weirUcgjwPiqQ4os
+KRkOSXOWw//qcqmKpnBKqY44Nc3lthkSWqXLiKkQoP2Rmh1KMq/3U4/wCKpb0lPZ
+MJ3kNMmQx0iUYRmcJAgLIuxzSapglwyCpCkG1ZeRR/AYPlmdEzARJXgISQhRzIoy
+UP/JVr0RKG4VAcEwVo4HNEGJVivO6xOAozhFE4BkGQ4iRn3vyoqujek+gUPXdEsO
+GWjlqoBUXxkoXGcKiTKFrw81Bs0UFRn3ePw6n49dLZ92xdx5dlNvoD/on438/eX6
+e8nhL3rpKfV+opLZMpdU9epXRcpWT84bkwvw1pj5+LaCXfbZ+LSH3VsSigafie4a
+vSCa78qdtoSpBKTsOr/FeX1jeni0dDY+hnsCHihqvV+UWLf0W4/6kb1vTEt5Kf9U
+RCp5pHPw6vD764p2L3kbUvJutH6QvliX6X3wz6FXGt9c9MkVE3TI3OZA6J64nCs5
+80+nCe+l5G+AqeNh5HxsknOppZo+kVWbtX+2/7J5KK9059WTOWfG8MZP+7I8zZbB
+1OwzX3RMjRSUFNb4I/u4utHXtMhdwXwyPDsm/bnPaxar0K2+lk8mer39t33nc4/3
+n2u/1l0mmbf5b/meDK7m3nU2jez+mDr9ozjiSt6Ur24Y2thec9588Ztsi8/R7N+3
+s/bg2ZnND7dfq2x7EPR1ZO/4OV1NnHb3jBbPxbcfWyz6O3rae8J/z/LTl47xS1+/
+Xv928Cj9GdbuO2hquhBbRie25jXV536XH7P9j0NHPT2eXwZn6RDzkbSTWU7namOE
+dSUQISX/NU7vJb13wn+d7F/enyvOjC+TXesP1Pc2UVMTgeKO5cCS83Q79dTCjZtR
+K12esMuFFntrg/uwzZ54rrg2+OfQzT3dbRc/9A6cOmx6YWJvxg8rrjy1IDgcOrkQ
+uNSgNlc0kXIUvD2T1BX5zjH/v7cCyX0=
+=9tqF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/antmoon
+
+==================================================================
