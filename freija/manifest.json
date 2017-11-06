@@ -1,13 +1,13 @@
 {
-  "name": "Checklist Plus PowerUp",
+  "name": "Freija Beta",
   "description": "",
-  "details": "Custom Checklist PowerUp that displays checklist as a custom field",
+  "details": "Power-Up para gestionar Trello",
   "icon": {
-    "url": "./assets/upgrd-checklist-logo_color.png"
+    "url": "./img/logo.png"
   },
-  "author": "Herzum",
+  "author": "Antonio Moon",
   "capabilities": [
-   "authorization-status",
+    "authorization-status",
     "attachment-sections",
     "attachment-thumbnail",
     "board-buttons",
