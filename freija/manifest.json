@@ -3,7 +3,7 @@
   "description": "",
   "details": "Power-Up para gestionar Trello",
   "icon": {
-    "url": "./img/logo.png"
+    "url": "./images/logo.png"
   },
   "author": "Antonio Moon",
   "capabilities": [
