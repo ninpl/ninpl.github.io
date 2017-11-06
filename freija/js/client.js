@@ -61,6 +61,9 @@ var getBadges = function(t){
   });
 };
 
+
+// 
+
 var boardButtonCallback = function(t){
   return t.popup({
     title: 'Freija Setup',
