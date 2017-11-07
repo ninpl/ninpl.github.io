@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Fri, 31 Mar 2017 00:32:33 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 07 Nov 2017 22:18:34 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MVC simplificado.</title>
+      <link>https://moonantonio.github.io/post/2017/dev/014/</link>
+      <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/014/</guid>
+      <description>Introduccion Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+Cuanto más grande es el proyecto, más grande es el espagueti.
+
+Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.</description>
+    </item>
     
     <item>
       <title>Unity &#43; GeForce Share (Shadow Play) [Tips]</title>

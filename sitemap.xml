@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/dev/014/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/utiles/014/</loc>
     <lastmod>2017-10-24T09:14:13+02:00</lastmod>
   </url>
@@ -360,7 +365,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -480,13 +485,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/dev/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/dev/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -671,14 +676,26 @@
   </url>
   
   <url>
+    <loc>https://moonantonio.github.io/tags/moon/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/moon/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -691,6 +708,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
     <lastmod>2017-03-23T04:58:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/mvc/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/mvc/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -755,6 +784,18 @@
   </url>
   
   <url>
+    <loc>https://moonantonio.github.io/tags/patron-de-dise%C3%B1o/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/patron-de-dise%C3%B1o/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/tags/piezas-de-juego/</loc>
     <lastmod>2017-04-25T19:14:58+02:00</lastmod>
     <priority>0</priority>
@@ -780,7 +821,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -876,13 +917,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/unity/</loc>
-    <lastmod>2017-03-31T00:32:33+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/unity/</loc>
-    <lastmod>2017-03-31T00:32:33+02:00</lastmod>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
