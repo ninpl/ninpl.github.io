@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2017/utiles/015/</loc>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2017/dev/014/</loc>
     <lastmod>2017-11-07T22:18:34+01:00</lastmod>
   </url>
@@ -365,7 +370,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -617,13 +622,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/investigacion/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/investigacion/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -689,13 +694,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -821,7 +826,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -858,6 +863,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/rpg-tactico/</loc>
     <lastmod>2017-04-26T20:39:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/sinopsis/</loc>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/sinopsis/</loc>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
