@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videojuegos on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/videojuegos/</link>
+    <description>Recent content in Videojuegos on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Moon Antonio</copyright>
+    <lastBuildDate>Tue, 19 Dec 2017 19:27:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/videojuegos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motores para Videojuegos</title>
+      <link>https://moonantonio.github.io/post/2017/utiles/016/</link>
+      <pubDate>Tue, 19 Dec 2017 19:27:13 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/utiles/016/</guid>
+      <description>Diferentes motores graficos para videojuegos Si deseas desarrollar y lanzar tu propio juego en el mundo, hay algunas cosas muy importantes a tener en cuenta antes de comenzar en este viaje. Hay muchos “game engines” libres que tienen las características que necesitas para crear tu juego, pero la cuestión es: ¿que engine debo elegir?
+En los últimos años han aparecido muchos engines al alcance del gran público , dando la oportunidad para que los aspirantes a desarrolladores independientes, puedan crear el juego que siempre tuvieron en mente.</description>
+    </item>
+    
+  </channel>
+</rss>
