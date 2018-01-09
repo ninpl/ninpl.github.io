@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Tue, 19 Dec 2017 19:27:13 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jan 2018 03:50:03 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Feliz 2018 y nuevas noticias con el</title>
+      <link>https://moonantonio.github.io/post/2017/diario/010/</link>
+      <pubDate>Tue, 09 Jan 2018 03:50:03 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/diario/010/</guid>
+      <description>Empezamos el año con nuevas noticias De primeras, feliz año 2018 a los lectores, ^^. Queria traer estas noticias a principios de año, asique aqui las dejo.
+Unity dejara de dar soporte para MonoDevelop-Unity a partir de la Unity 2018.1, esto quiere decir que en Unity 2018.1 no vendra con el IDE de MonoDevelop, ya que no admite muchas de las caracteristicas a las que esta migrando Unity con .</description>
+    </item>
     
     <item>
       <title>Motores para Videojuegos</title>
