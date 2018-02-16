@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Tue, 09 Jan 2018 03:50:03 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2018 10:40:58 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clase Abstracta VS Interfaces</title>
+      <link>https://moonantonio.github.io/post/2017/programacion/007/</link>
+      <pubDate>Fri, 16 Feb 2018 10:40:58 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/programacion/007/</guid>
+      <description>El uso de clases abstractas y herencia para organizar la lógica de nuestras aplicaciones se puede sustituir o complementar con interfaces y métodos de extensión usando C#. En este artículo veremos un ejemplo de ambas aproximaciones así como sus ventajas e inconvenientes.
+Clases Abstractas Las clases abstractas nos permiten tener una clase base con cierta funcionalidad común ya implementada, sobre la que podemos heredar y especificar algunos métodos. Para este ejemplo, la clase Transporte implementa el método Mover, y las clases Coche y Bicicleta especifican el número de ruedas.</description>
+    </item>
     
     <item>
       <title>Feliz 2018 y nuevas noticias con el</title>
