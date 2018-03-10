@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Moon Antonio</copyright>
-    <lastBuildDate>Tue, 09 Jan 2018 03:50:03 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 Mar 2018 20:34:29 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MonoBehavior en Unity</title>
+      <link>https://moonantonio.github.io/post/2018/dev/001/</link>
+      <pubDate>Sat, 10 Mar 2018 20:34:29 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/001/</guid>
+      <description>Unity puede estar desperdiciando mucho rendimiento de la CPU simplemente llamando a sus funciones MonoBehaviour. Realmente no importa lo que estén haciendo tus scripts. Si tiene cientos o miles de ellos, hay que tener en cuenta que hay un nuevo campo de optimización.
+Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy hablando de funciones como Update() , LateUpdate(), OnRender(), etc. Son los llamados métodos mágicos, y si estas familiarizado con los lenguajes de programación orientados a objetos, este concepto parece llamar a un método usando mecanismo de reflexión (la reflexión habilita llamadas de métodos incluso si no conoce la interfaz).</description>
+    </item>
     
     <item>
       <title>Feliz 2018 y nuevas noticias con el</title>
