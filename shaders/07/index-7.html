@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Shapes</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="froebel.jpg" alt="Элис Хаббард, Провиденс, США, 1892. Фото: Zindman/Freemont."></p>
+<h2>Фигуры</h2>
+<p>Наконец то! Мы долго тренировались, и вот этот момент настал! Вы изучили большую часть зяыка GLSL, его типы и функции. Вы раз за разом упражнялись с одномерными функциями, составляя их в сложные формулы. И мы готовы к очередному витку синтеза полученных знаний. Вперёд! В этой главе мы научимся процедурно рисовать простые геометрические фигуры с помощью параллельных вычислений.</p>
+<h3>Прямоугольник</h3>
+<p>Вообразите листок бумаги в клетку, как на уроке математики, где нам задали на дом нарисовать квадрат. Размер листа - 10х10, а квадрат должен быть 8х8. Справитесь?</p>
+<p><img src="grid_paper.jpg" alt=""></p>
+<p>Наверное, вы бы закрасили всё кроме верхней и нижней строки и кроме крайних столбцов, так?</p>
+<p>Как это относится к шейдерам? Каждая клетка нашего листка - это один поток выполнения (то есть пиксель). Каждая клетка знает своё положение, будто это координаты на шахматной доске. В предыдущей главе мы отображали <em>x</em> и <em>y</em> в <em>красный</em> и <em>зелёный</em> цветовые каналы, и изучили как использовать узкий участок двумерной территории между 0.0 и 1.0. Как с помощью этого нарисовать квадрат в центре окна?</p>
+<p>Начнём с псевдокода, использующего ветвление (<code>if</code>) над пространством. Принцип здесь тот же, что и в случае с бумагой в клеточку.</p>
+<pre><code class="language-glsl">if ( (X GREATER THAN 1) AND (Y GREATER THAN 1) ) // если ((х больше 1) и (y больше 1))
+    paint white // красим в белый
+else // иначе
+    paint black // красим в чёрный</code></pre>
+<p>Теперь, когда мы знаем что делать, давайте заменим <code>if</code> на функцию <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>, а вместо листа 10х10 используем нормированные значения между 0.0 и 1.0.</p>
+<pre><code class="language-glsl">uniform vec2 u_resolution;
+
+void main(){
+    vec2 st = gl_FragCoord.xy/u_resolution.xy;
+    vec3 color = vec3(0.0);
+
+    // Каждый вызов вернёт 1.0 (белый) или 0.0 (чёрный).
+    float left = step(0.1,st.x);   // То же, что ( X больше 0.1 )
+    float bottom = step(0.1,st.y); // То же, что ( Y больше 0.1 )
+
+    // Умножение left*bottom работает как логическое И.
+    color = vec3( left * bottom );
+
+    gl_FragColor = vec4(color,1.0);
+}</code></pre>
+<p>Функция <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> окрасит пиксели ниже 0.1 в чёрный (<code>vec3(0.0)</code>), а остальные - в белый (<code>vec3(1.0)</code>). Умножение <code>left</code> на <code>bottom</code> работает как логическое <code>И</code>, где оба значения должны быть равны 1.0 чтобы вернуть 1.0. Этот код нарисует две чёрных линии: снизу и слева изображения.</p>
+<p><img src="rect-01.jpg" alt=""></p>
+<p>В коде выше мы повторяем одно и то же действие для обеих осей. Мы можем сэкономить несколько строк кода, передав в <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> два значения вместо одного:</p>
+<pre><code class="language-glsl">vec2 borders = step(vec2(0.1),st);
+float pct = borders.x * borders.y;</code></pre>
+<p>Итак, мы нарисовали две границы прямоугольника: нижнюю и левую. Давайте дорисуем верхнюю и правую. Рассмотрим следующий код:</p>
+<div class="codeAndCanvas" data="rect-making.frag"></div>
+<p>Раскомментируйте строки 21-22, чтобы обратить координаты <code>st</code> и повторить вызов <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>. Теперь <code>vec2(0.0,0.0)</code> окажется в верхнем правом углу. Это переворот страницы с повторением предыдущей процедуры.</p>
+<p><img src="rect-02.jpg" alt=""></p>
+<p>Заметим, что в строках 18 и 22 все стороны прямоугольника перемножаются. В более развёрнутом виде это выглядит так:</p>
+<pre><code class="language-glsl">vec2 bl = step(vec2(0.1),st);       // низ и лево
+vec2 tr = step(vec2(0.1),1.0-st);   // верх и право
+color = vec3(bl.x * bl.y * tr.x * tr.y);</code></pre>
+<p>Интересно? Вся эта техника направлена на использование <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>, умножения в качестве логической операции и переворот координат.</p>
+<p>Перед тем как продолжить, попробуйте выполнить упражнения:</p>
+<ul>
+<li>
+<p>Измените размер и пропорции прямоугольника.</p>
+</li>
+<li>
+<p>Поэкпериментируйте с тем же кодом, используя <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> вместо <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>. Изменяя значения интервала перехода, можно варьировать вид границ от размыливания до элегантного сглаживания.</p>
+</li>
+<li>
+<p>Реализуйте то же самое с помощью функции <a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a>.</p>
+</li>
+<li>
+<p>Выберете наиболее понравившуюся реализацию и сделайте из неё функцию, которую сможете использовать в будущем. Сделайте эту функцию гибкой и эффективной.</p>
+</li>
+<li>
+<p>Напишите функцию, которая рисует только контур прямоугольника.</p>
+</li>
+<li>Каким образом вы будете рисовать несколько прямоугольников в одном окне и перемещать их? Если догадаетесь как это делается, попробуйте повторить композицию <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B4%D1%80%D0%B8%D0%B0%D0%BD,_%D0%9F%D0%B8%D1%82">Пита Мондриана</a>.</li>
+</ul>
+<p><img src="mondrian.jpg" alt="Пит Мондриан - Композиция (1921)"></p>
+<h3>Круги</h3>
+<p>Очень просто рисовать квадраты на клетчатой бумаге и прямоугольники в декартовых координатах, но круги требуют иного подхода, особенно в наших попиксельных алгоритмах. Одно из решений - перейти к другим пространственным координатам, так чтобы можно было использовать функцию <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> для рисования кругов.</p>
+<p>Как? Давайте вернёмся к уроку математики и бумаге в клеточку. Раскроем циркуль на радиус круга, поставим иглу циркуля в центр и нарисуем окружность поворотом циркуля.</p>
+<p><img src="compass.jpg" alt=""></p>
+<p>Переводя на язык шейдеров, где каждый пиксель подобен клетке на бумаге, мы должны будем <em>спросить</em> каждый пиксель (поток), лежит ли он внутри круга. Сделаем это, вычислив расстояние от пикселя до центра круга.</p>
+<p><img src="circle.jpg" alt=""></p>
+<p>Есть несколько способов вычислить это расстояние. В простейшем случае используется функция <a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a>, внутри которой вычисляется длина (<a href="..\glossary\index-24.html?search=length"><code>length()</code></a>) разности между двумя точками (в нашем случае это пиксель и центр изображения). Функция <code>length()</code> - ни что иное, как короткое название для формулы длины <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%83%D0%B7%D0%B0">гипотенузы</a>, в которой используется квадратный корень (<a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>).</p>
+<p><img src="hypotenuse.png" alt=""></p>
+<p>Для вычисления расстояния от центра изображения можно использовать <a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a>, <a href="..\glossary\index-24.html?search=length"><code>length()</code></a> или <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>. Следующий код демонстрирует все три функции и тот неудивительный факт, что они возвращают один и тот же результат.</p>
+<ul>
+<li>Закомментируйте и раскомментируйте строки, чтобы попробовать различные способы достижения одного и того же.</li>
+</ul>
+<div class="codeAndCanvas" data="circle-making.frag"></div>
+<p>В предыдущем примере мы отображаем расстояние от центра изображения в яркость пикселя. Чем ближе пиксель к центру, тем он темнее. Заметим, что яркость не становится слишком большой, так как максимальное расстояние до центра (<code>vec2(0.5, 0.5)</code>) не превышает 0.5. Внимательно рассмотрите это отображение и подумайте:</p>
+<ul>
+<li>
+<p>Что из него можно вывести?</p>
+</li>
+<li>
+<p>Как им пользоваться для рисования круга?</p>
+</li>
+<li>Измените код, чтобы весь весь круговой градиент вошёл в изображение.</li>
+</ul>
+<h3>Поле расстояний</h3>
+<p>Пример выше можно рассматривать как карту высот, где темнее значит выше. Тогда круговой градиент является картой конуса. Представим, что мы стоим на вершине конуса. Расстояние до границы конуса по горизонтали равно 0.5, и оно одинаково во всех направлениях. Выбирая высоту разреза конуса горизонтальной плоскостью, мы можем получить окружность большего или меньшего размера.</p>
+<p><img src="distance-field.jpg" alt=""></p>
+<p>Фактически, мы интерпретируем пространство в терминах расстояния до центра чтобы рисовать фигуры. Этот подход, известный как «поле расстояний», используется во многих областях, начиная от контуров шрифтов и заканчивая 3D-графикой.</p>
+<p>Выполните следующие упражнения:</p>
+<ul>
+<li>
+<p>Используйте <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> чтобы превратить все что больше 0.5 в белый, а что меньше - в чёрный.</p>
+</li>
+<li>
+<p>Поменяйте местами цвета фона и фигуры.</p>
+</li>
+<li>
+<p>Используя <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>, добейтесь красивой гладкой границы круга.</p>
+</li>
+<li>
+<p>Возьмите понравившуюся реализацию и смастерите функцию для использования в будущем.</p>
+</li>
+<li>
+<p>Добавьте кругу цвет.</p>
+</li>
+<li>
+<p>Сделайте анимации увеличения и уменьшения круга, похожую на сердцебиение. Подчерпните вдохновение из анимаций в предыдущей главе.</p>
+</li>
+<li>
+<p>Как насчёт перемещения круга? Попробуйте подвинуть его и разместить несколько кругов на одном рисунке.</p>
+</li>
+<li>Что произойдёт, если скомбинировать поля расстояний используя несколько функций и операций?</li>
+</ul>
+<pre><code class="language-glsl">pct = distance(st,vec2(0.4)) + distance(st,vec2(0.6));
+pct = distance(st,vec2(0.4)) * distance(st,vec2(0.6));
+pct = min(distance(st,vec2(0.4)),distance(st,vec2(0.6)));
+pct = max(distance(st,vec2(0.4)),distance(st,vec2(0.6)));
+pct = pow(distance(st,vec2(0.4)),distance(st,vec2(0.6)));</code></pre>
+<ul>
+<li>Сделайте три композиции с помощью этой техники. Ещё лучше, если они будут движущимися!</li>
+</ul>
+<h4>Инструментарий</h4>
+<p>В терминах вычислительной мощности функция <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a> и все зависимые от неё функции довольно затратны. Есть другой способ создания круглых полей расстояний с помощью скалярного произведения (<a href="..\glossary\index-26.html?search=dot"><code>dot()</code></a>).</p>
+<div class="codeAndCanvas" data="circle.frag"></div>
+<h3>Полезные свойства поля расстояний</h3>
+<p><img src="zen-garden.jpg" alt="Дзенский сад"></p>
+<p>С помощью поля расстояний можно нарисовать что угодно. Очевидно, чем сложнее фигура, тем сложнее будет уравнение. Но при наличии формул для создания поля расстояний определённой формы, вы можете с лёгкостью комбинировать фигуры и применять к ним различные эффекты: сглаживание границ, рисование нескольких контуров и т.п. Поэтому поля расстояний находят широкое применение в рисовании шрифтов, например <a href="https://www.mapbox.com/blog/text-signed-distance-fields/">Mapbox GL Labels</a>, <a href="http://mattdesl.svbtle.com/material-design-on-the-gpu">шрифты Material Design</a> от <a href="https://twitter.com/mattdesl">Matt DesLauriers</a> и <a href="http://chimera.labs.oreilly.com/books/1234000001814/ch07.html#ch07_id36000921">7 глава книги iPhone 3D Programming, издательство O’Reilly</a>.</p>
+<p>Рассмотрим следующий код:</p>
+<div class="codeAndCanvas" data="rect-df.frag"></div>
+<p>Начнём со сдвига системы координат в центр и сжатия её в 2 раза, чтобы отобразить координаты в пространство между -1.0 и 1.0. В <em>строке 24</em> мы визуализируем поле расстояний с помощью <a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a>, чтобы было проще рассмотреть его рисунок. Рисунок поля расстояний повторяется снова и снова, как круги в дзенском саду.</p>
+<p>Посмотрите на формулу поля расстояний в 19 строке. в ней мы рассчитываем расстояние до точки <code>(0.3, 0.3)</code> во всех четырёх квадрантах (именно для этого там нужен <a href="..\glossary\index-12.html?search=abs"><code>abs()</code></a>.</p>
+<p>Раскомментируя <em>строку 20</em>, мы сравним эти расстояния с нулём используя функцию <a href="..\glossary\index-18.html?search=min"><code>min()</code></a>. В результате получится новый интересный рисунок.</p>
+<p>Теперь раскомментируйте <em>строку 21</em>. Произойдёт то же самое, но с функцией <a href="..\glossary\index-19.html?search=max"><code>max()</code></a>, что даст на выходе прямоугольник со скругленными углами. Обратите внимание как кольца поля расстояний становятся более гладкими с удалением от центра.</p>
+<p>Наконец, раскомментируйте <em>строки 27 - 29</em> одну за другой и рассмотрите различные применения поля расстояний.</p>
+<h3>Фигуры в полярных координатах</h3>
+<p><img src="mangold.jpg" alt="Роберт Мангольд - Без названия (2008)"></p>
+<p>В главе про цвет мы переходили от декартовых координат в полярным, вычисляя <em>радиус</em> и <em>угол</em> каждого пикселя с помощью формул:</p>
+<pre><code class="language-glsl">vec2 pos = vec2(0.5)-st;
+float r = length(pos)*2.0;
+float a = atan(pos.y,pos.x);</code></pre>
+<p>В начале главы мы использовали часть этих формул для рисования круга. Мы вычисляли расстояние до центра функцией <a href="..\glossary\index-24.html?search=length"><code>length()</code></a>. Теперь, вооружившись знаниями о полях расстояний, мы изучим другой способ рисования фигур в полярных координатах.</p>
+<p>Этот подход немного ограничен, но очень прост. Мы будем изменять радиус окружности в зависимости от угла, чтобы получить различные фигуры. Как это работает? Конечно же, с помощью функций формы!</p>
+<p>Ниже представлены одни и те же функции в декартовых и в полярных координатах (строки 21 - 25). Раскомментируйте функции одну за одной, обращая внимание на соотношение между системами координат.</p>
+<p><div class="simpleFunction" data="y = cos(x*3.);
+//y = abs(cos(x*3.));
+//y = abs(cos(x*2.5))*0.5+0.3;
+//y = abs(cos(x*12.)*sin(x*3.))*.8+.1;
+//y = smoothstep(-.5,1., cos(x*10.))*0.2+0.5;"></div></p>
+<div class="codeAndCanvas" data="polar.frag"></div>
+<p>Попробуйте:</p>
+<ul>
+<li>Привести графики в движение.</li>
+<li>Комбинировать функции формы для <em>вырезания отверстий</em> в фигурах, чтобы создать цветы, снежинки и шестерёнки.</li>
+<li>Используйте <code>plot()</code> из <em>главы о функциях формы</em> чтобы нарисовать только контур.</li>
+</ul>
+<h3>Сила комбинаций</h3>
+<p>Мы научились рисовать фигуры, манипулируя радиусом круга в зависимости от угла с помощью функции <a href="..\glossary\index-7.html?search=atan"><code>atan()</code></a>. Теперь давайте попробуем использовать <code>atan()</code> совместно с полем расстояний чтобы применить его возможности к фигурам в полярных координатах.</p>
+<p>В этом трюке для конструирования поля расстояний в полярных координатах используется количество граней многогранника. Изучите <a href="http://thndl.com/square-shaped-shaders.html">следующий код</a>, написанный <a href="https://twitter.com/baldand">Эндрю Болдуином</a>.</p>
+<div class="codeAndCanvas" data="shapes.frag"></div>
+<ul>
+<li>
+<p>Используя этот пример, напишите функцию, которая принимает положение и количество углов многогранника и возвращает значение поля расстояний в точке.</p>
+</li>
+<li>
+<p>Смешайте поля расстояний с помощью функции <a href="..\glossary\index-18.html?search=min"><code>min()</code></a> и <a href="..\glossary\index-19.html?search=max"><code>max()</code></a>.</p>
+</li>
+<li>Найдите какой-нибудь логотип из геометрических фигур и воспроизведите его в виде поля расстояний.</li>
+</ul>
+<p>Поздравляю! Мы прошли трудную тему! Вдохните и дайте изученным принципам устояться. Рисовать фигуры - это просто в Processing, но не здесь. В мире шейдеров алгоритмы рисования фигур очень заковыристы, и адаптация к такой парадигме программирования может стоить значительных усилий.</p>
+<p>Теперь, когда вы умеете рисовать фигуры, новые идеи будут появляться в вашей голове с огромной скоростью. В следующей главе мы научимся двигать, вращать и масштабировать фигуры. Вы сможете делать композиции!</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

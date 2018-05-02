@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Hello world!</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>Hola mundo</h2>
+<p>Usualmente el &quot;Hola mundo&quot; es el primer ejemplo con el que se aprende un lenguaje de programación. Se trata de una simple linea de código que imprime un entusiasta mensaje de bienvenida.</p>
+<p>En el mundo de las GPU renderizar texto es una tarea complicada para ser el primer paso, por lo tanto nosotros vamos a imprimir un brillante color de bienvenida para mostrar nuestro entusiasmo.</p>
+<div class="codeAndCanvas" data="hello_world.frag"></div>
+<p>Si estás leyendo este libro en un navegador, el código anterior es interactivo, eso significa que puedes hacer click y cambiar cualquier línea de código para explorar cómo funciona. Los cambios se reflejaran automáticamente gracias a que la arquitectura de la GPU se encarga de compilar y reemplazar los shaders al instante. Intenta modificar el contenido de la línea 6.</p>
+<p>Aunque estas simples líneas de código no parezcan mucho, podemos inferir mucha información importante de ellas:</p>
+<ol>
+<li>
+<p>Los shaders tienen una función <code>main</code> principal que devuelven un color al final. Esto es muy similar a C.</p>
+</li>
+<li>
+<p>El color final del pixel es guardado en la variable global reservada <code>gl_FragColor</code>.</p>
+</li>
+<li>
+<p>Este lenguaje similar a C tiene <em>variables</em> reservadas (como <code>gl_FragColor</code>), <em>funciones</em> y <em>tipos de variables</em>. En este caso vemos que existe <code>vec4</code> que es un tipo de variable de 4 dimensiones de punto flotante. Mas adelante veremos otros tipos de variables como <code>vec3</code> y <code>vec2</code> junto con las populares: <code>float</code>, <code>int</code> y <code>bool</code>.</p>
+</li>
+<li>
+<p>Si miramos detenidamente el <code>vec4</code> podemos inferir que los cuatro argumentos pasados son el canal RED (rojo), el canal GREEN (verde), el canal BLUE (azul) y el canal ALPHA (transparencia). Además podemos ver que los valores se encuentran <em>normalizados</em>, eso significa que van desde <code>0.0</code> a <code>1.0</code>. Mas adelante aprenderemos que normalizar valores vuelve mucho mas fácil nuestro trabajo con las variables.</p>
+</li>
+<li>
+<p>Otra <em>función de C</em> que vemos en el ejemplo son los macros al preprocesador. Los macros son parte del proceso de precompilado. Con ellos es posible definir variables globales (con <code>#define</code>) y hacer operaciones condicionales básicas ( con <code>#ifdef</code> y <code>#endif</code>). Todos los comandos macro comienzan con un numeral (<code>#</code>). La pre-compilación sucede en el momento previo a la compilación y chequea todos los  <code>#defines</code>, y los condicionales <code>#ifdef</code> (esta definido) y <code>#ifndef</code> (no esta definido). En nuestro ejemplo, el &quot;Hola mundo&quot;, solamente insertamos la segunda línea de código si <code>GL_ES</code> esta definida, que la mayoría de las veces se encuentra definida cuando el código es compilado en mobile o en navegadores.</p>
+</li>
+<li>
+<p>Los valores flotantes son vitales en los shaders, ya que el nivel de  <em>precisión</em> es crucial. A menor precisión mayor velocidad de render, pero peor calidad. Podemos ser meticulosos y especificar la precisión de cada variable que use punto flotante. En la primera línea (<code>precision mediump float;</code>) estamos ajustando todos los valores flotantes a una precisión media. Pero podríamos configurarlos en low (<code>precision lowp float;</code>) o high (<code>precision highp float;</code>).</p>
+</li>
+<li>El último detalle, y quizá el mas importante, es que las especificaciones de GLSL  no garantizan que las variables sean automáticamente convertidas. ¿Qué significa eso? Los manufacturadores de GPU tienen diferentes estrategias para acelerar los gráficos pero están forzados a entregar especificaciones mínimas, por lo que la conversión automática de variables no es algo importante. Si queremos que nuestro código sea consistente y no pasar horas depurando pantallas blancas, tenemos que acostumbrarnos a usar el punto ( <code>.</code> ) en los flotantes. Este código no siempre funcionará:</li>
+</ol>
+<pre><code class="language-glsl">void main() {
+    gl_FragColor = vec4(1,0,0,1);   // ERROR
+}</code></pre>
+<p>Ahora que ya describimos los elementos mas importantes de nuestro &quot;Hola mundo&quot;, es hora de hacer click en el código y poner en práctica nuestros conocimientos aprendidos. Notarás que cuando hay errores, el programa no compilará, y mostrará una pantalla blanca. Aqui hay algunas cosas interesantes que puedes probar, por ejemplo:</p>
+<ul>
+<li>
+<p>Intenta modificar los flotantes y poner enteros, es posible que tu placa de video no tolere esto.</p>
+</li>
+<li>
+<p>Prueba comentar la línea 6 y no asignar ningún valor a la función.</p>
+</li>
+<li>Intenta crear una función separada que devuelva un color específico y usalo dentro del <code>main()</code>. Una pista, aqui esta el código que usaríamos para devolver el color rojo:</li>
+</ul>
+<pre><code class="language-glsl">vec4 red(){
+    return vec4(1.0,0.0,0.0,1.0);
+}</code></pre>
+<ul>
+<li>Hay muchas formas de construir un <code>vec4</code>, intenta descubrir nuevas formas de hacerlo. La siguiente es un ejemplo:</li>
+</ul>
+<pre><code class="language-glsl">vec4 color = vec4(vec3(1.0,0.0,1.0),1.0);</code></pre>
+<p>Mas alla de que el ejemplo no sea muy emocionante, es el ejemplo más básico que podemos crear - estamos cambiando todos los pixeles de la pantalla al mismo tiempo y asignándole a todos el mismo color. En el siguiente capítulo veremos cómo cambiar los colores de los pixeles utilizando dos tipos de entradas: espacio (la posición del pixel en la pantalla) y tiempo (el número de segundos desde que la página fue cargada).</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

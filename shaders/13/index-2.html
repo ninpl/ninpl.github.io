@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Fractal Brownian Motion</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-5.html?lan=jp">日本語</a> - <a href="index-1.html?lan=ch">中文版</a> - <a href="index-6.html?lan=kr">한국어</a> - <a href="index-7.html?lan=es">Español</a> - <a href="index-2.html?lan=fr">Français</a> - <a href="index-8.html?lan=it">Italiano</a> - <a href="index-3.html?lan=de">Deutsch</a> - <a href="index-4.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="rangel.jpg" alt="Due East over Shadequarter Mountain - Matthew Rangel (2005) "></p>
+<h2>Fractional Brownian Motion</h2>
+<p>Le bruit peut avoir plusieurs significations selon les personnes. Les musiciens le trouveront dérangeant, les communicants le considèrent comme une interférence et les astrophysiciens comme un rayonnement cosmique.</p>
+<p>Toutes ces qualifications, nous ramènent à l'ancrage <em>physique</em> du bruit dans notre environnement. Commençons toutefois par quelque chose de plus simple et de plus fondamental ; les ondes et leurs propriétés.
+Une onde peut être considérée comme la variation d'une propriété dans le temps ; le son est une variation de la pression de l'air au fil du temps, une onde électro-magnétique est la fluctuation dans le temps d'un champs électrique et magnétique etc.
+Les deux caractéristiques importantes d'une onde sont sa <em>fréquence</em> et son <em>amplitude</em>.</p>
+<p>L'équation d'une onde à une dimension peut s'écrire comme suit:</p>
+<p><div class="simpleFunction" data="
+float amplitude = 1.;
+float frequency = 1.;
+y = amplitude * sin(x * frequency);
+"></div></p>
+<ul>
+<li>Essayez de changer les valeurs de fréquence et d'amplitude pour comprendre leurs effets.</li>
+<li>À l'aide des fonctions de formes, faites varier l'amplitude au fil du temps.</li>
+<li>Faites de même avec la fréquence.</li>
+</ul>
+<p>Félicitations! en suivant les deux dernières instructions, vous avez réussi à &quot;moduler&quot; l'onde et à créer une modulation de fréquence (FM) et d'amplitude (AM), et oui, exactement comme des ondes radio!</p>
+<p>Une seconde propriété intéressante des ondes est leur capacité à s'additionner, ce qu'on appelle la superposition.
+Commentez/décommentez et jouez avec les les lignes suivantes en vous intéressant à la forme que prend l'onde lorsqu'on la combine à d'autres.</p>
+<p><div class="simpleFunction" data="
+float amplitude = 1.;
+float frequency = 1.;
+y = sin(x * frequency);
+float t = 0.01*(-u_time*130.0);
+y += sin(x*frequency*2.1 + t)*4.5;
+y += sin(x*frequency*1.72 + t*1.121)*4.0;
+y += sin(x*frequency*2.221 + t*0.437)*5.0;
+y += sin(x*frequency*3.1122+ t*4.269)*2.5;
+y *= amplitude*0.06;
+"></div></p>
+<ul>
+<li>Changez les valeurs de fréquence et d'amplitude des ondes additionnelles.</li>
+<li>Pouvez vous créer deux ondes qui s'annulent? à quoi ressemblera l'onde finale?</li>
+<li>Est-il possible d'additionner des ondes de manière à ce qu'elles s'amplifient l'une l'autre?</li>
+</ul>
+<p>En musique, chaque note est associée à une fréquence particulière. Les fréquences correspondent aux <em>notes</em> de musique et doubler ou diviser par deux une fréquence permet de changer d'<em>octave</em>.</p>
+<p>Utilisons à présent un bruit de Perlin au lieu d'une sinusoïde!
+Un bruit de Perlin de base ressemble globalement à une sinusoïde.
+Son amplitude et sa fréquence varient un peu mais l'amplitude reste globalement la même tandis que la fréquence
+reste cantonnée dans une zone restreinte autour de la fréquence centrale.
+Cependant, ce n'est pas une sinusoïde régulière et il est plus simple d'atteindre un résultat pseudo-aléatoire
+en ajoutatnt plusieurs versions du bruit à différentes échelles (amplitudes).
+Il est possible d'obtenir le même résultat avec des sinusoïdes mais il est nécessaire de combiner un nombre d'ondes important pour masquer leur nature périodique.</p>
+<p>En ajoutant différentes itérations du <strong>bruit</strong> (différents <em>octaves</em>),
+dont on augmente la fréquence (la <em>lacunarité</em>) et dont on réduit l'amplitude (le <em>gain</em>), on obtient une granularité
+qui nous permet de préserver les détails fins d'un bruit.</p>
+<p>Cette technique s'appelle &quot;Fractional Brownian Motion&quot; (<em>FBM</em>) ou simplement <em>bruit fractal</em>
+Voici un exemple d'implémentation:</p>
+<p><div class="simpleFunction" data="// Properties
+const int octaves = 1;
+float lacunarity = 2.0;
+float gain = 0.5;
+//
+// Initial values
+float amplitude = 0.5;
+float frequency = 1.;
+//
+// Loop of octaves
+for (int i = 0; i < octaves; i++) {
+&#9;y += amplitude * noise(frequency*x);
+&#9;frequency *= lacunarity;
+&#9;amplitude *= gain;
+}"></div></p>
+<ul>
+<li>Changez progressivement le nombre d'octaves de 1 à 10 et regardez ce qui se produit.</li>
+<li>Au delà de 4 octaves, changez la valeur de lacunarité.</li>
+<li>toujours au delà de 4 octaves, changez le gain et observez le résultat.</li>
+</ul>
+<p>Notez comment, à chaque nouvel octave, la courbe semble gagner en détail.
+Notez également lors de l'ajout d'octaves que lorsqu'on zoome sur la courbe, les plus petits éléments ressemblent à l'ensemble et inversement ; c'est ce qu'on appelle l'<em>auto-similarité</em>:
+C'est une propriété importante des fractales et nous la simulons dans notre boucle.
+Nous ne créons pas une fractale à proprement parler puisque nous arrêtons l'ajout de bruit après quelques itérations mais d'un point de vue théorique,
+si nous pouvions laisser la boucle tourner indéfiniment et ajouter une somme infinies de bruits, nous obtiendrions une courbe fractale.</p>
+<p>Dans un shader, la finesse du détail est limitée par la résolution écran ; si le résultat devient plus petit qu'un pixel, il n'ya pas vraiment de raison (ni de moyen) de le représenter à l'écran.
+Nous avons donc pas besoin de boucles infinies pour obtenir une apparence fractale, il faut parfois un grand nombre d'itérations mais jamais une inifinité.</p>
+<p>le code suivant est un exemple d'implémentation de <strong>FBM</strong> en 2 dimensions:</p>
+<div class='codeAndCanvas' data='2d-fbm.frag'></div>
+<ul>
+<li>Réduisez le nombre d'octaves en changeant la ligne 37</li>
+<li>Changez la lacunarité du FBM à la ligne 47</li>
+<li>Changez le gain ligne 48</li>
+</ul>
+<p>Cette technique est communément utilisée pour créer des terrains procéduraux.
+l'<em>auto-similarité</em> du FBM se prête bien au rendu de montagnes ; le processus d'érosion qui donne leur forme aux montagnes
+produit le même genre de motifs auto-similaires à grande échelle.</p>
+<p>Si le sujet vous intéresse, nous vous invitons à lire <a href="http://www.iquilezles.org/www/articles/morenoise/morenoise.htm">cet article d'Inigo Quiles sur les techniques de bruit avancées</a>.</p>
+<p><img src="holdsworth.jpg" alt="Blackout - Dan Holdsworth (2010)"></p>
+<p>Le principe du <strong>FBM</strong> peut être amendé pour obtenir différents effets comme par exemple cette <strong>turbulence</strong>.
+On part de la structure de notre FBM mais au lieu d'accumuler la valeur signée(+/-) du bruit, on accumule sa valeur absolue(+) ce qui crée des <em>vallées</em> et des <em>collines</em>.</p>
+<pre><code class="language-glsl">for (int i = 0; i &lt; OCTAVES; i++) {
+    value += amplitude * abs(snoise(st));
+    st *= 2.;
+    amplitude *= .5;
+}</code></pre>
+<p><a href="..\edit.html#13/turbulence.frag"><img src="turbulence-long.png" width="520px" height="200px"></a></p>
+<p>Une seconde variante dite <em>ridge noise</em> (bruit de <em>crête</em> ou d'<em>arête</em>) consiste à inverser les vallées:</p>
+<pre><code class="language-glsl">    n = abs(n);     // create creases
+    n = offset - n; // invert so creases are at top
+    n = n * n;      // sharpen creases</code></pre>
+<p><a href="..\edit.html#13/ridge.frag"><img src="ridge-long.png" width="520px" height="200px"></a></p>
+<p>Une autre variante consiste à multiplier les valeurs de bruit au lieu de les additionner.
+Il est intéressant de modifier l'échelle d'une itération de bruit en fonction du bruit de l'itération precédente.
+En faisant ce genre de chose, nous nous éloignons du monde des fractales et entrons dans le monde méconnu des <em>multifractales</em>.
+Les <em>multifractales</em> ne sont pas aussi clairement définies mathématiquement que les fractales ce qui ne nous empêche pas de nous en servir dans les shaders.
+Les simulations <em>multifractales</em> sont d'ailleurs très répandues dans les logiciels de génération de terrain.
+Vous trouverez plus d'informations sur ce sujet au chapitre 16 de &quot;Texturing and Modeling: a Procedural Approach&quot; (3ème édition), de Kenton Musgrave.
+Malheureusement le livre n'est plus édité depuis quelques années déjà mais vous le trouverez en bibliothèque ou d'occasion.
+Il est possible d'acheter un PDF de la première édition en ligne mais ça ne vaut pas le coup ; elle date de 1994 et ne contient aucune information sur la génération de terrain.</p>
+<h3>Domain Warping</h3>
+<p><a href="http://www.iquilezles.org/www/articles/warp/warp.htm">Inigo Quiles a également écrit cet article fascinant</a> sur le fait de &quot;plier&quot; ou &quot;recouvrir&quot; (<em>wrap</em>) l'espace d'un FBM à l'aide d'un FBM.
+ce serait le <em>rêve dans le rêve</em> d'Inception.</p>
+<p><img src="quiles.jpg" alt=" f(p) = fbm( p + fbm( p + fbm( p ) ) ) - Inigo Quiles (2002)"></p>
+<p>Le code suivant est une variation moins spectaculaire de cette technique, on utilise le <em>wrapping</em> (pliage, recouvrement, emballage) pour créer une sorte de nuage.
+Notez la part que joue l'<em>auto-similarité</em> dans le résultat final.</p>
+<div class='codeAndCanvas' data='clouds.frag'></div>
+<p>Le fait de <em>wrapper</em> (plier, recouvrir, emballer) ainsi les coordonnées de textures peut être extrêmement utile, relativement amusant et terriblement dur à maîtriser.
+C'est un outil puissant qui demande beaucoup de pratique pour être correctement utilisé.
+<a href="http://evasion.imag.fr/Publications/2001/PN01/">&quot;Flow noise&quot;, un célèbre article de Ken Perlin et Fabrice Neyret</a> explique comment utiliser les dérivées (ou dégradés) du bruit pour atteindre ce résultat.
+Les implémentations récentes du bruit de Perlin se servent à la fois de la fonction et de sa dérivée.
+Si la <em>vraie</em> dérivée n'est pas disponible, on peut toujours se rabattre sur les différences finies pour l'approcher bien que ce soit moins précis et demande plus de travail.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>
+
+<!-- <li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li> -->

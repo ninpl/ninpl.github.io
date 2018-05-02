@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders</title>
+        <link href="..\..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\css\github.css">
+        <script type="text/javascript" src="..\..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-5.html?lan=jp">日本語</a> - <a href="index-6.html?lan=ch">中文版</a> - <a href="index-7.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index.html?lan=fr">Français</a> - <a href="index-1.html?lan=it">Italiano</a> - <a href="index-2.html?lan=de">Deutsch</a> - <a href="index-3.html?lan=ru">Русский</a> - <a href="index-4.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>Как запустить примеры на Raspberry Pi?</h2>
+<p>Несколько лет назад было бы слишком опрометчиво предположить, что у каждого есть компьютер с графическим ускорителем. Теперь же большинство компьютеров содержат GPU, но требование обязательного его наличия является завышенным для учебной лаборатории или класса.</p>
+<p>Благодаря <a href="http://www.raspberrypi.org/">Raspberry Pi Foundation</a>, в учебных классах появился новый тип небольших и дешёвых компьютеров (около $35 за штуку). Что более важно для данной книги, <a href="http://www.raspberrypi.org/">Raspberry Pi</a> поставляется с приличным GPU фирмы Broadcom, который доступен напрямую из консоли. Я написал гибкий инструмент для программирования на GLSL в реальном времени под названием <a href="https://github.com/patriciogonzalezvivo/glslViewer"><strong>glslViewer</strong></a>. С его помощью можно запустить все примеры из этой книги. Эта программа может выполнять обновление автоматически когда пользователь сохраняет изменения в коде. Что это означает? Каждый раз, когда вы сохраняете шейдер в процессе редактирования, он будет перезапущен и перерисует изображение.</p>
+<p>Сделав локальную копию репозитория книги (см. <a href="..\00\index-3.html?lan=ru">предыдущий параграф</a>) и установив <a href="https://github.com/patriciogonzalezvivo/glslViewer"><code>glslViewer</code></a>, вы можете запустить примеры. Используя флаг <code>-l</code>, вы можете рендерить примеры в углу экрана прямо во время редактирования любым редактором (<code>nano</code>, <code>pico</code>, <code>vi</code>, <code>vim</code> или <code>emacs</code>). Это так же работает при подключении по ssh или sftp.</p>
+<p>Чтобы установить всё необходимое на Raspberry Pi, после установки <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> и входа в систему, выполните следующие команды:</p>
+<pre><code class="language-bash">sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git-core glslviewer
+cd ~
+git clone https://github.com/patriciogonzalezvivo/thebookofshaders.git
+cd thebookofshaders</code></pre>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

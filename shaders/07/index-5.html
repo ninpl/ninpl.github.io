@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Shapes</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="froebel.jpg" alt="Alice Hubbard, Providence, United States, ca. 1892. Photo: Zindman/Freemont."></p>
+<h2>Figure</h2>
+<p>Finalmente! Abbiamo costruito e allenato le nostre abilità per questo momento! Avete imparato la maggior parte delle basi, dei tipi e delle funzioni in GLSL. Vi siete esercitati continuamente sulle equazioni di forma. Ora è arrivato il momento di collegare tutti gli elementi. Siete all’altezza di questa sfida! In questo capitolo imparerete a disegnare forme semplici con una procedura in parallelo.</p>
+<h3>Rettangolo</h3>
+<p>Immaginate di avere una carta millimetrata, come quelle che si usano per le lezioni di matematica, e che il nostro compito sia quello di disegnare un quadrato. Le dimensioni del foglio sono 10x10 e il quadrato dovrebbe essere 8x8. Cosa fareste?</p>
+<p><img src="grid_paper.jpg" alt=""></p>
+<p>Colorereste tutto tranne la prima e l’ultima riga e la prima e l’ultima colonna, giusto?</p>
+<p>Come si collega ciò agli shaders? Ogni piccolo quadrato della vostra carta millimetrata è un thread (un pixel). Ogni piccolo quadretto conosce la propria posizione, come per le coordinate di una scacchiera. Nei capitoli precedenti abbiamo associato <em>x</em> e <em>y</em> ai canali di colore <em>rosso</em> e <em>verde</em>, e abbiamo imparato come usare il limitato spazio bidimensionale tra 0.0 e 1.0. Come possiamo utilizzare tutto questo per disegnare un quadrato centrato nel mezzo del nostro canvas?</p>
+<p>Iniziamo facendo uno pseudocodice che usi la dichiarazione <code>if</code>  sul campo dello spazio. I principi per fare ciò sono straordinariamente simili a come immaginiamo lo scenario della carta millimetrata.</p>
+<pre><code class="language-glsl">    if ( (X più grande di 1) AND (Y più grande di 1) )
+        colora di bianco
+    else
+        colora di nero</code></pre>
+<p>Ora che abbiamo un’idea più chiara di come funziona, sostituiamo la dichiarazione <code>if</code> con <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>, e invece di usare 10x10, usiamo i valori normalizzati tra 0.0 e 1.0.</p>
+<pre><code class="language-glsl">uniform vec2 u_resolution;
+
+void main(){
+    vec2 st = gl_FragCoord.xy/u_resolution.xy;
+    vec3 color = vec3(0.0);
+
+    // per ogni valore restituirà 1.0 (bianco) o 0.0 (nero).
+    float left = step(0.1,st.x);   // Simile a ( X più grande di 0.1 )
+    float bottom = step(0.1,st.y); // Simile a ( Y più grande di 0.1 )
+
+    // La moltiplicazione di left*bottom sarà simile alla porta logica AND.
+    color = vec3( left * bottom );
+
+    gl_FragColor = vec4(color,1.0);
+}</code></pre>
+<p>La funzione <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> trasformerà ogni pixel al di sotto di 0.1 in nero (<code>vec3(0.0)</code>) e il resto in bianco (<code>vec3(1.0)</code>). La moltiplicazione tra left e bottom funziona come l’operazione logica AND, dove entrambi devono essere tra 1.0 per tornare a 1.0.  Questo traccia due linee nere, una alla base e l’altra sul lato sinistro del canvas.</p>
+<p><img src="rect-01.jpg" alt=""></p>
+<p>Nel codice precedente abbiamo ripetuto la struttura per ciascun asse (sinistra e base). Possiamo risparmiare alcune linee di codice passando due valori, invece di uno, direttamente a <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> Ecco com’è:</p>
+<pre><code class="language-glsl">    vec2 borders = step(vec2(0.1),st);
+    float pct = borders.x * borders.y;</code></pre>
+<p>Fino ad ora abbiamo disegnato solamente due bordi (base-sinistra) del nostro rettangolo. Facciamo gli altri due (alto-destra). Osserva il seguente codice:</p>
+<div class="codeAndCanvas" data="rect-making.frag"></div>
+<p>Togliete il commento alle righe 21-22 e osservate come invertiamo le coordinate <code>st</code> e ripetiamo la stessa funzione <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>. In questo modo il <code>vec2(0.0,0.0)</code> sarà nell’angolo in alto a destra. Questo è l’equivalente digitale del capovolgimento della pagina e della ripetizione della procedura precedente.</p>
+<p><img src="rect-02.jpg" alt=""></p>
+<p>Osservate che alla <em>riga 18 e alla riga 22</em> ogni lato è stato moltiplicato insieme. Questo equivale a scrivere:</p>
+<pre><code class="language-glsl">    vec2 bl = step(vec2(0.1),st);       // sotto-sinistra
+    vec2 tr = step(vec2(0.1),1.0-st);   // sopra-destra
+    color = vec3(bl.x * bl.y * tr.x * tr.y);</code></pre>
+<p>Interessante, vero? Questa tecnica si basa tutta sull’uso di <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>, della moltiplicazione per le operazioni logiche e il capovolgimento delle coordinate.</p>
+<p>Prima di proseguire, provate i seguenti esercizi:</p>
+<ul>
+<li>
+<p>Cambiate le misure e le proporzioni del rettangolo.</p>
+</li>
+<li>
+<p>Provate con lo stesso codice ma usando <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> al posto di <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>. Notate che cambiando valori, potete passare da margini indistinti a lati eleganti e lisci.</p>
+</li>
+<li>
+<p>Fate un’altra implementazione che usi <a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a>.</p>
+</li>
+<li>
+<p>Scegliete l’implementazione che preferite e create una sua funzione che potrete riusare in futuro. Rendete la vostra funzione flessibile ed efficiente.</p>
+</li>
+<li>
+<p>Create un’altra funzione che semplicemente tracci il contorno di un rettangolo.</p>
+</li>
+<li>Come pensate di poter importare e spostare diversi rettangoli sullo stesso canvas? Se immaginate come, dimostrate le vostre capacità costruendo una composizione di rettangoli e colori che ricordi il dipinto di <a href="https://it.wikipedia.org/wiki/Piet_Mondrian">Piet Mondrian</a>.</li>
+</ul>
+<p><img src="mondrian.jpg" alt="Piet Mondrian - Tableau (1921)"></p>
+<h3>Circonferenze</h3>
+<p>Disegnare quadrati e rettangoli su carta millimetrata con coordinate cartesiane è semplice, ma le circonferenze richiedono un approccio diverso, specialmente per il fatto che abbiamo bisogno di un algoritmo “per-pixel”. Una soluzione è riassegnare le coordinate spaziali, in modo tale da poter usare la funzione <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> per disegnare una circonferenza.</p>
+<p>Come? Iniziamo tornando indietro alla lezione di matematica e al foglio a quadretti, sul quale abbiamo aperto il compasso con il raggio della circonferenza, abbiamo premuto l’ago del compasso al centro della circonferenza e tracciato il perimetro della circonferenza con una semplice rotazione.</p>
+<p><img src="compass.jpg" alt=""></p>
+<p>Tradurre ciò in un shader, dove ogni quadrato sul foglio a quadretti è un pixel, implica <em>chiedere</em> ad ogni pixel (o thread) se si trova all’interno dell’area della circonferenza. Lo facciamo calcolando la distanza tra il pixel e il centro della circonferenza.</p>
+<p><img src="circle.jpg" alt=""></p>
+<p>Esistono diversi modi per calcolare questa distanza. Il più semplice utilizza la funzione <a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a>, che al suo interno calcola la funzione <a href="..\glossary\index-24.html?search=length"><code>length()</code></a> della differenza tra due punti ( nel nostro caso le coordinate del pixel e il centro del canvas). La funzione <code>length()</code> non è altro che una scorciatoia dell’<a href="https://it.wikipedia.org/wiki/Ipotenusa">equazione dell’ipotenusa</a>, che usa al suo interno la radice quadrata ((<a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>)).</p>
+<p><img src="hypotenuse.png" alt=""></p>
+<p>Potete usare <a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a>, <a href="..\glossary\index-24.html?search=length"><code>length()</code></a> o <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a> per calcolare la distanza dal centro del canvas. Il codice seguente contiene queste tre funzioni e il fatto non sorprendente è che ciascuna restituisce esattamente lo stesso risultato.</p>
+<ul>
+<li>Commentate e togliete il commento alle righe per provare i diversi modi di ottenere il medesimo risultato.</li>
+</ul>
+<div class="codeAndCanvas" data="circle-making.frag"></div>
+<p>Nell’esempio precedente abbiamo mappato la distanza dal centro del canvas con la luminosità del colore del pixel. Più un pixel è vicino al centro, minore ( più scuro) è il suo valore. Notate che i valori non diventano troppo alti perché la massima distanza dal centro ( <code>vec2(0.5, 0.5)</code> ) va a malapena oltre 0.5. Osservate attentamente questa mappa e pensate:</p>
+<ul>
+<li>
+<p>Cosa potete dedurre da essa?</p>
+</li>
+<li>
+<p>Come possiamo usarla per tracciare una circonferenza?</p>
+</li>
+<li>Modificate il codice qui sopra per far sì che l’intero gradiente circolare sia contenuto nel canvas.</li>
+</ul>
+<h3>Campo di distanza</h3>
+<p>Possiamo anche immaginare l’esempio soprastante come una carta delle altitudini, dove più scuro implica più alto. Il gradiente ci mostra qualcosa di simile al modello creato da un cono. Immaginate di trovarvi sulla cima di un cono. La distanza orizzontale dal bordo del cono è 0.5. Questa sarà costante in ogni direzione. Scegliendo dove “tagliare” il cono, otterrete una superficie circolare più grande o più piccola.</p>
+<p><img src="distance-field.jpg" alt=""></p>
+<p>In sostanza, per creare delle forme, stiamo utilizzando una reinterpretazione dello spazio basata sulla distanza dal centro. Questa tecnica è conosciuta come “campo di distanza” (distance field) ed è usata in modi diversi, dai profili dei caratteri (font) alla grafica 3D.</p>
+<p>Esercitatevi con i seguenti esercizi:</p>
+<ul>
+<li>
+<p>Usate <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> per trasformare in bianco tutto ciò che è al di sopra di 0.5 e al di sotto di 0.0.</p>
+</li>
+<li>
+<p>Invertite i colori dello sfondo e del primo piano.</p>
+</li>
+<li>
+<p>Usate <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>, provate con valori diversi per ottenere dei margini lisci sulla vostra circonferenza.</p>
+</li>
+<li>
+<p>Una volta che siete soddisfatti con un’implementazione, createne una funzione, che potrete riutilizzare in futuro.</p>
+</li>
+<li>
+<p>Aggiungete il colore alla circonferenza.</p>
+</li>
+<li>
+<p>Riuscite a creare animazioni sulla circonferenza per farla crescere e rimpicciolire, simulando il battito del cuore? (Potete trarre ispirazione dalle animazioni nel capitolo precedente).</p>
+</li>
+<li>
+<p>Che ne dite di spostare questa circonferenza? Riuscite a spostarla e a mettere altre circonferenze su uno stesso canvas?</p>
+</li>
+<li>Cosa succede se combinate i campi di distanza con diverse operazioni e funzioni?</li>
+</ul>
+<pre><code class="language-glsl">pct = distance(st,vec2(0.4)) + distance(st,vec2(0.6));
+pct = distance(st,vec2(0.4)) * distance(st,vec2(0.6));
+pct = min(distance(st,vec2(0.4)),distance(st,vec2(0.6)));
+pct = max(distance(st,vec2(0.4)),distance(st,vec2(0.6)));
+pct = pow(distance(st,vec2(0.4)),distance(st,vec2(0.6)));</code></pre>
+<ul>
+<li>Create tre composizioni usando questa tecnica. Se poi riuscite ad animarle, ancora meglio!</li>
+</ul>
+<h4>Per la vostra cassetta degli attrezzi</h4>
+<p>In termini di potenza computazionale, la funzione <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>, e le altre funzioni che dipendono da essa, possono essere dispendiose. Ecco un altro modo per creare un campo di distanza circolare, basato sulla funzione <a href="..\glossary\index-26.html?search=dot"><code>dot()</code></a>.</p>
+<div class="codeAndCanvas" data="circle.frag"></div>
+<h3>Proprietà utili dei campi di distanza</h3>
+<p><img src="zen-garden.jpg" alt="Zen garden"></p>
+<p>I campi di distanza possono essere usati per disegnare quasi qualsiasi cosa. Ovviamente, più una forma è complessa, più sarà complicata la sua equazione, ma una volta che avete la formula per creare un campo di distanza di una certa forma è molto facile combinare e/o applicare degli effetti ad essa, come lati lisci e profili multipli. Per questo motivo, i campi di distanza hanno molto successo nella rappresentazione dei caratteri (font), come <a href="https://www.mapbox.com/blog/text-signed-distance-fields/">Mapbox GL Labels</a>, <a href="https://twitter.com/mattdesl">Matt DesLauriers</a> <a href="http://mattdesl.svbtle.com/material-design-on-the-gpu">Material Design Fonts</a> e come è descritto nel <a href="http://chimera.labs.oreilly.com/books/1234000001814/ch07.html#ch07_id36000921">Capitolo 7 del libro &quot;iPhone 3D Programming&quot;, O’Reilly</a></p>
+<p>Osservate il codice seguente.</p>
+<div class="codeAndCanvas" data="rect-df.frag"></div>
+<p>Iniziamo spostando il sistema di coordinate al centro e riducendolo a metà per riassegnare i valori di posizione tra -1 e 1. Alla <em>riga 24</em> stiamo vedendo i valori del campo di distanza usando una funzione <a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a>, semplificando la visualizzazione dei motivi che essi creano. Il motivo del campo di distanza si continua a ripetere come i cerchi in un giardino zen.</p>
+<p>Osserviamo la formula del campo di distanza alla <em>riga 19</em>. Lì stiamo calcolando la distanza dalla posizione su <code>(.3,.3)</code> o <code>vec3(.3)</code> in tutti e quattro i quadranti ( questo è ciò che fa <a href="..\glossary\index-12.html?search=abs"><code>abs()</code></a> qui) .</p>
+<p>Se togliete il commento alla <em>riga 20</em>, noterete che stiamo collegando le distanze a questi quattro punti usando il <a href="..\glossary\index-18.html?search=min"><code>min()</code></a> a zero. Il risultato produce un nuovo motivo interessante.</p>
+<p>Ora provate a togliere il commento alla <em>riga 21</em>; stiamo facendo la stessa cosa ma usando la funzione <a href="..\glossary\index-19.html?search=max"><code>max()</code></a>. Il risultato è un rettangolo con gli angoli arrotondati. Notate come gli anelli del campo di distanza diventano più lisci mano a mano che si allontanano dal centro.</p>
+<p>Terminate togliendo il commento una ad una alle <em>righe da 27 a 29</em>, per capire i diversi usi dei motivi di un campo di distanza.</p>
+<h3>Forme polari</h3>
+<p><img src="mangold.jpg" alt="Robert Mangold - Untitled (2008)"></p>
+<p>Nel capitolo sul colore, abbiamo assegnato alle coordinate cartesiane le coordinate polari, calcolando il <em>raggio</em> e gli <em>angoli</em> di ciascun pixel con la seguente formula:</p>
+<pre><code class="language-glsl">    vec2 pos = vec2(0.5)-st;
+    float r = length(pos)*2.0;
+    float a = atan(pos.y,pos.x);</code></pre>
+<p>Usiamo parte di questa formula all’inizio del capitolo per tracciare una circonferenza. Abbiamo calcolato la distanza dal centro usando <a href="..\glossary\index-24.html?search=length"><code>length()</code></a>. Ora che conosciamo i campi di distanza, possiamo imparare un altro modo per disegnare le forme usando le coordinate polari.</p>
+<p>Questa tecnica è un po’ restrittiva ma molto semplice. Consiste nel cambiare il raggio di una circonferenza in funzione dell’angolo per realizzare forme diverse. Come funziona la modulazione? Esatto, usando le funzioni di forma!</p>
+<p>Qui sotto troverete le medesime funzioni sul diagramma cartesiano e in un esempio shader nelle coordinate polari ( tra le <em>righe 21 e 25</em>). Togliete il commento alle funzioni una alla volta, facendo attenzione alla relazione tra un sistema di coordinate e l’altro.</p>
+<p><div class="simpleFunction" data="y = cos(x*3.);
+//y = abs(cos(x*3.));
+//y = abs(cos(x*2.5))*0.5+0.3;
+//y = abs(cos(x*12.)*sin(x*3.))*.8+.1;
+//y = smoothstep(-.5,1., cos(x*10.))*0.2+0.5;"></div></p>
+<div class="codeAndCanvas" data="polar.frag"></div>
+<p>Provate a:</p>
+<ul>
+<li>Animare queste forme.</li>
+<li>Combinare diverse funzioni di forma per fare dei <em>buchi</em> nella forma e creare fiori, fiocchi di neve e degli ingranaggi.</li>
+<li>Usare la funzione <code>plot()</code> che abbiamo usato nel capitolo sulle <em>funzioni di forma</em>, per disegnare solamente la sagoma.</li>
+</ul>
+<h3>Unire i poteri</h3>
+<p>Ora che abbiamo imparato come modulare il raggio di una circonferenza in relazione all’angolo, usando la funzione <a href="..\glossary\index-7.html?search=atan"><code>atan()</code></a> per disegnare diverse forme, possiamo imparare come usare <code>atan()</code> con i campi di distanza e applicare tutti i trucchi e gli effetti possibili con i campi di distanza.</p>
+<p>Il nostro trucco userà il numero di lati di un poligono per costruire il campo di distanza, usando le coordinate polari. Controllate <a href="http://thndl.com/square-shaped-shaders.html">il seguente codice</a> di <a href="https://twitter.com/baldand">Andrew Baldwin</a>.</p>
+<div class="codeAndCanvas" data="shapes.frag"></div>
+<ul>
+<li>
+<p>Usando quest’esempio, create una funzione che inserisca la posizione e il numero degli angoli di una forma desiderata e restituisca il valore di un campo di distanza.</p>
+</li>
+<li>
+<p>Mescolate i campi di distanza usando <a href="..\glossary\index-18.html?search=min"><code>min()</code></a> e <a href="..\glossary\index-19.html?search=max"><code>max()</code></a>.</p>
+</li>
+<li>Scegliete un logo geometrico da riprodurre usando i campi di distanza.</li>
+</ul>
+<p>Congratulazioni! Avete affrontato la parte più complicata! Fate una pausa per poter assimilare questi concetti: disegnare delle semplici forme con Processing è facile, ma qui no. Nella “terra degli Shader”, disegnare le forme è contorto e può essere faticoso adattarsi al nuovo paradigma di codificazione.</p>
+<p>Ora che sapete come disegnare le forme, sono sicuro che vi verranno in mente nuove idee. Nel capitolo successivo imparerete a spostare, ruotare e ridimensionare le forme. Questo vi permetterà di fare delle composizioni!</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

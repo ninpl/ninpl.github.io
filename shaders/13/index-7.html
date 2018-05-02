@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Fractal Brownian Motion</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-5.html?lan=jp">日本語</a> - <a href="index-1.html?lan=ch">中文版</a> - <a href="index-6.html?lan=kr">한국어</a> - <a href="index-7.html?lan=es">Español</a> - <a href="index-2.html?lan=fr">Français</a> - <a href="index-8.html?lan=it">Italiano</a> - <a href="index-3.html?lan=de">Deutsch</a> - <a href="index-4.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="rangel.jpg" alt="Due East over Shadequarter Mountain - Matthew Rangel (2005) "></p>
+<h2>Fractal Brownian Motion</h2>
+<p>Noise tends to mean different things to different people. Musicians will think of it in terms of disturbing sounds, communicators as interference and astrophysicists as cosmic microwave background radiation. These concepts bring us back to the physical reasons behind randomness in the world around us. However, let's start with something more fundamental, and more simple: waves and their properties. A wave is a fluctuation over time of some property. Audio waves are fluctuations in air pressure, electromagnetical waves are fluctuations in electrical and magnetic fields. Two important characteristics of a wave are its amplitude and frequency. The equation for a simple linear (one-dimensional) wave looks like this:</p>
+<p><div class="simpleFunction" data="
+float amplitude = 1.;
+float frequency = 1.;
+y = amplitude * sin(x * frequency);
+"></div></p>
+<ul>
+<li>Try changing the values of the frequency and amplitude to understand how they behave.</li>
+<li>Using shaping functions, try changing the amplitude over time.</li>
+<li>Using shaping functions, try changing the frequency over time.</li>
+</ul>
+<p>By doing the last two exercises you have managed to &quot;modulate&quot; a sine wave, and you just created AM (amplitude modulated) and FM (frequency modulated) waves. Congratulations!</p>
+<p>Another interesting property of waves is their ability to add up, which is formally called superposition. Comment/uncomment and tweak the following lines. Pay attention to how the overall appearance changes as we add waves of different amplitudes and frequencies together.</p>
+<p><div class="simpleFunction" data="
+float amplitude = 1.;
+float frequency = 1.;
+y = sin(x * frequency);
+float t = 0.01*(-u_time*130.0);
+y += sin(x*frequency*2.1 + t)*4.5;
+y += sin(x*frequency*1.72 + t*1.121)*4.0;
+y += sin(x*frequency*2.221 + t*0.437)*5.0;
+y += sin(x*frequency*3.1122+ t*4.269)*2.5;
+y *= amplitude*0.06;
+"></div></p>
+<ul>
+<li>Experiment by changing the frequency and amplitude for the additional waves.</li>
+<li>Is it possible to make two waves cancel each other out? What will that look like?</li>
+<li>Is it possible to add waves in such a way that they will amplify each other?</li>
+</ul>
+<p>In music, each note is associated with a specific frequency. The frequencies for these notes follow a pattern which we call a scale, where a doubling or halving of the frequency corresponds to a jump of one octave.</p>
+<p>Now, let's use Perlin noise instead of a sine wave! Perlin noise in its basic form has the same general look and feel as a sine wave. Its amplitude and frequency vary somewhat, but the amplitude remains reasonably consistent, and the frequency is restricted to a fairly narrow range around a center frequency. It's not as regular as a sine wave, though, and it's easier to create an appearance of randomness by summing up several scaled versions of noise. It is possible to make a sum of sine waves appear random as well, but it takes many different waves to hide their periodic, regular nature.</p>
+<p>By adding different iterations of noise (<em>octaves</em>), where we successively increment the frequencies in regular steps (<em>lacunarity</em>) and decrease the amplitude (<em>gain</em>) of the <strong>noise</strong> we can obtain a finer granularity in the noise and get more fine detail. This technique is called &quot;fractal Brownian Motion&quot; (<em>fBM</em>), or simply &quot;fractal noise&quot;, and in its simplest form it can be created by the following code:</p>
+<p><div class="simpleFunction" data="// Properties
+const int octaves = 1;
+float lacunarity = 2.0;
+float gain = 0.5;
+//
+// Initial values
+float amplitude = 0.5;
+float frequency = 1.;
+//
+// Loop of octaves
+for (int i = 0; i < octaves; i++) {
+&#9;y += amplitude * noise(frequency*x);
+&#9;frequency *= lacunarity;
+&#9;amplitude *= gain;
+}"></div></p>
+<ul>
+<li>Progressively change the number of octaves to iterate from 1 to 2, 4, 8 and 10. See what happens.</li>
+<li>When you have more than 4 octaves, try changing the lacunarity value.</li>
+<li>Also with &gt;4 octaves, change the gain value and see what happens.</li>
+</ul>
+<p>Note how with each additional octave, the curve seems to get more detail. Also note the self-similarity while more octaves are added. If you zoom in on the curve, a smaller part looks about the same as the whole thing, and each section looks more or less the same as any other section. This is an important property of mathematical fractals, and we are simulating that property in our loop. We are not creating a <em>true</em> fractal, because we stop the summation after a few iterations, but theoretically speaking, we would get a true mathematical fractal if we allowed the loop to continue forever and add an infinite number of noise components. In computer graphics, we always have a limit to how small details we can resolve, for example when objects become smaller than a pixel, so there is no need to make infinite sums to create the appearance of a fractal. A lot of terms may be needed sometimes, but never an infinite number.</p>
+<p>The following code is an example of how fBm could be implemented in two dimensions to create a fractal-looking pattern:</p>
+<div class='codeAndCanvas' data='2d-fbm.frag'></div>
+<ul>
+<li>Reduce the number of octaves by changing the value on line 37</li>
+<li>Modify the lacunarity of the fBm on line 47</li>
+<li>Explore by changing the gain on line 48</li>
+</ul>
+<p>This technique is commonly used to construct procedural landscapes. The self-similarity of the fBm is perfect for mountains, because the erosion processes that create mountains work in a manner that yields this kind of self-similarity across a large range of scales. If you are interested in this, use you should definitly read <a href="http://www.iquilezles.org/www/articles/morenoise/morenoise.htm">this great article by Inigo Quiles about advance noise</a>.</p>
+<p><img src="holdsworth.jpg" alt="Blackout - Dan Holdsworth (2010)"></p>
+<p>Using more or less the same technique, it's also possible to obtain other effects like what is known as <strong>turbulence</strong>. It's essentially an fBm, but constructed from the absolute value of a signed noise to create sharp valleys in the function.</p>
+<pre><code class="language-glsl">for (int i = 0; i &lt; OCTAVES; i++) {
+    value += amplitude * abs(snoise(st));
+    st *= 2.;
+    amplitude *= .5;
+}</code></pre>
+<p><a href="..\edit.html#13/turbulence.frag"><img src="turbulence-long.png" width="520px" height="200px"></a></p>
+<p>Another member of this family of algorithms is the <strong>ridge</strong>, where the sharp valleys are turned upside down to create sharp ridges instead:</p>
+<pre><code class="language-glsl">    n = abs(n);     // create creases
+    n = offset - n; // invert so creases are at top
+    n = n * n;      // sharpen creases</code></pre>
+<p><a href="..\edit.html#13/ridge.frag"><img src="ridge-long.png" width="520px" height="200px"></a></p>
+<p>Another variant which can create useful variations is to multiply the noise components together instead of adding them. It's also interesting to scale subsequent noise functions with something that depends on the previous terms in the loop. When we do things like that, we are moving away from the strict definition of a fractal and into the relatively unknown field of &quot;multifractals&quot;. Multifractals are not as strictly defined mathematically, but that doesn't make them less useful for graphics. In fact, multifractal simulations are very common in modern commercial software for terrain generation. For further reading, you could read chapter 16 of the book &quot;Texturing and Modeling: a Procedural Approach&quot; (3rd edition), by Kenton Musgrave. Sadly, that book is out of print since a few years back, but you can still find it in libraries and on the second hand market. (There's a PDF version of the 1st edition available for purchase online, but don't buy that - it's a waste of money. It's from 1994, and it doesn't contain any of the terrain modeling stuff from the 3rd edition.)</p>
+<h3>Domain Warping</h3>
+<p><a href="http://www.iquilezles.org/www/articles/warp/warp.htm">Inigo Quiles wrote this other fascinating article</a> about how it's possible to use fBm to warp a space of a fBm. Mind blowing, Right? It's like the dream inside the dream of Inception.</p>
+<p><img src="quiles.jpg" alt=" f(p) = fbm( p + fbm( p + fbm( p ) ) ) - Inigo Quiles (2002)"></p>
+<p>A less extreme example of this technique is the following code where the wrap is used to produce this clouds-like texture. Note how the self-similarity property is still present in the result.</p>
+<div class='codeAndCanvas' data='clouds.frag'></div>
+<p>Warping the texture coordinates with noise in this manner can be very useful, a lot of fun, and fiendishly difficult to master. It's a powerful tool, but it takes quite a bit of experience to use it well. A useful tool for this is to displace the coordinates with the derivative (gradient) of the noise. <a href="http://evasion.imag.fr/Publications/2001/PN01/">A famous article by Ken Perlin and Fabrice Neyret called &quot;flow noise&quot;</a> is based on this idea. Some modern implementations of Perlin noise include a variant that computes both the function and it's analytical gradient. If the &quot;true&quot; gradient is not available for a procedural function, you can always compute finite differences to approximate it, although this is less accurate and involves more work.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>
+
+<!-- <li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li> -->

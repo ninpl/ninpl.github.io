@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: What is a shader?</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h1>Bien démarrer</h1>
+<h2>Qu'est-ce qu'un fragment shader ?</h2>
+<p>Au chapitre précédent, nous avons décrit les shaders comme l'équivalent de l'avènement de la presse par Gutenberg pour l'impression. Pourquoi cette comparaison mais surtout : Qu'est-ce qu'un shader ?</p>
+<p><img src="print.png" alt="De la copie manuelle, lettre à lettre, à l'édition page à page (gauche: William Blades 1891, droite: Rolt-Wheeler 1920)"></p>
+<p>Si vous avez déjà dessiné avec un ordinateur, vous savez qu'il faut dessiner un cercle, puis un rectangle, une ligne, quelques triangles jusqu'à pouvoir composer l'image qu'on veut.
+Ce processus est très similaire à l'écriture d'une lettre ou d'un livre voire à la peinture, c'est un ensemble d'instructions, exécutées en série, l'une après l'autre.</p>
+<p>Les shaders sont également des ensembles d'instructions, mais à la différence des API de dessin classiques, <em>toutes les instructions sont exécutées sur chaque pixel de l'écran</em>.
+Cela signifie que le code va devoir se comporter différemment selon la position du pixel à l'écran.
+Comme la presse d'imprimerie, le fragment shader est une fonction à laquelle on passe une position et qui nous renvoie une couleur.
+Une fois <em>compilé</em>, ce programme peut s'exécuter extrêmement rapidement.</p>
+<p><img src="typepress.jpg" alt="Presse chinoise à caractères amovibles"></p>
+<h2>Pourquoi sont-ils si rapides ?</h2>
+<p>La réponse est le <em>traitement parallèle</em>.</p>
+<p>Imaginez le CPU de votre ordinateur comme un <em>tuyau</em> et chacune des tâches que vous lui demandez d'exécuter comme <em>quelque chose</em> qui passe par ce tuyau, comme dans une usine.
+Certaines tâches seront sans doute plus importantes que d'autres, elles demanderont plus de temps et d'énergie pour être traitées, on dit qu'elles nécessitent plus de ressources ou de puissance de calcul.
+Du fait de l'architecture des ordinateurs, les tâches sont traitées en série ; chaque tâche doit être terminée avant que le CPU puisse traiter la suivante.
+Les ordinateurs récents ont généralement plusieurs processeurs qui jouent le rôle de <em>tuyaux</em>, ce qui permet d'enchaîner les tâches en série tout en gardant une certaines fluidité, ces tuyaux s'appellent des <em>threads</em>.</p>
+<p><img src="00.jpg" alt="CPU"></p>
+<p>Les jeux vidéos et autres applications graphiques demandent beaucoup plus de puissance de calcul que les autres programmes.
+Par nature, ils demandent de grandes quantités d'opérations au pixel, chaque changement d'image demandent de recalculer l'ensemble des pixels de l'écran.
+Dans les applications 3D, on doit également mettre à jour les modèles, les textures, les transformations etc... ce qui rajoute encore du poids à la charge CPU.</p>
+<p>Revenons à notre métaphore des tuyaux et des tâches où : <em>&quot;trouver la couleur d'un pixel à l'écran&quot;</em> représente une petite tâche toute simple.
+En soi, chaque tâche n'est pas bien méchante mais il faut l'appliquer sur chaque pixel de l'écran ! Et c'est là que ça se corse ; il nous faut à présent exécuter cette petite opération un nombre considérable de fois.
+Par exemple pour exécuter l'ensemble des tâches permettant de dessiner l'ensemble des pixels d'un vieux moniteur ayant une résolution de 800 x 600 pixels, il faut compter 800 x 600 = 480.000 appels à cette petite tâche.
+Ces 480.000 appels ne valent que pour dessiner une seule frame, si on veut animer notre écran à 30 images/seconde pendant une seconde, il nous en coûtera 11.520.000 appels et si on veut du 60fps, on passe à 28.800.000 tâches à traiter.</p>
+<p>Peut-être que le problème est plus facile à identifier lorsqu'on commence à parler de dizaines de millions d'opérations/seconde, si on prend une configuration moderne, 2880/1800 pixels devant tourner à 60 fps, on atteint 311.040.000 calculs / seconde.
+Des centaines de millions d'opérations par seconde, ce sont des quantités propres à freezer voire à détruire un microprocesseur. Alors comment fait-on ?</p>
+<p><img src="03.jpg" alt=""></p>
+<p>C'est là qu'intervient le traitement parallèle (parallel processing).
+Au lieu d'avoir quelques gros <em>tuyaux</em> (microprocesseurs), on préfère avoir de nombreux petits microprocesseurs qui tournent en parallèle et simultanément, c'est l'essence du GPU: Graphics Processing Unit.</p>
+<p><img src="04.jpg" alt="GPU"></p>
+<p>Imaginez ces petits microprocesseurs comme une trame de tuyaux, et les données de chaque pixel comme des balles de Ping Pong.
+14.400.000 balles de Ping Pong par secondes pourraient boucher à peu près n'importe quel tuyau.
+Mais une trame de 800 * 600 (480.000) petits tuyaux recevant 30 vagues de 480.000 balles de pingpong par secondes peuvent traiter la charge facilement.
+Et ça marche pour des résolutions plus élevées ; plus le matériel est capable de traiter d'informations en parallèle, plus il pourra traiter des flux importants.</p>
+<p>Un autre pouvoir magique des GPU c'est l'accélération matérielle de certaines fonctions mathématiques.
+Certaines fonctions souvent un peu complexes seront traitées directement par le matériel au lieu de passer par la couche logicielle.
+Ce qui signifie que certaines opérations mathématiques un peu complexes comme les transformations de matrices et les opérations trigonométriques seront traitées très vite, en fait, à la vitesse de l'électricité.</p>
+<h2>Qu'est ce que le GLSL ?</h2>
+<p>GLSL est l'acronyme de &quot;openGL Shading Language&quot; (où GL signifie Graphics Library), c'est une norme servant à écrire les programmes de shaders que nous aborderons dans les chapitres suivants.
+Il existe d'autres types de shaders, selon les plateformes et le matériel utilisé, nous nous concentrerons sur l'OpenGL, dont les spécifications sont faites par le <a href="https://www.khronos.org/opengl/">Khronos Group</a>.</p>
+<p>Comprendre l'histoire d'OpenGL peut être utile pour comprendre certaines conventions un peu bizarres, si cela vous intéresse, vous pouvez vous reporter à <a href="http://openglbook.com/chapter-0-preface-what-is-opengl.html">openglbook.com/chapter-0-preface-what-is-opengl.html</a>.</p>
+<h2>Pourquoi les gens tremblent en entendant le mot Shader ?</h2>
+<p>Comme dit <em>Uncle Ben</em> dans Spiderman: &quot;with great power comes great responsibility&quot;, le traitement parallèle ne déroge pas à cette règle et aussi puissante que soit la programmation GPU, elle apporte un cortège de contraintes et de restrictions.</p>
+<p>Pour pouvoir travailler avec une <em>trame</em> de <em>threads</em>, il faut que chaque thread soit indépendant des autres. On dit que le thread est <em>aveugle</em> à ce que font les autres threads.
+Cette restriction implique que toutes les données doivent aller dans le même sens, il est donc impossible de se servir ou simplement de connaître les résultat d'un autre thread.
+Autoriser la communication entre threads au moment de l'exécution pourrait compromettre l'intégrité des données en cours de traitement.</p>
+<p>Il faut également savoir que le GPU s'assure que tous ses microprocesseurs (la <em>trame de threads</em>) sont actifs en permanence ; dès qu'un thread a fini son traitement, le GPU lui ré-assigne une tâche à traiter.
+Le thread ne garde aucune trace de ce qu'il faisait la fois précédente ; s'il était en train de dessiner un le pixel d'un bouton sur une interface graphique, sa tâche suivante pourra être de rendre un bout du ciel dans un jeu, puis de rendre un bout de texte sur un client mail, etc.
+Donc un thread est non seulement <strong>aveugle</strong> mais aussi <strong>amnésique</strong> !</p>
+<p>En plus du niveau d'abstraction élevé requis pour coder une fonction générique qui saura rendre une image entière uniquement à partir de la variation d'une position, les deux contraintes des threads, <strong>aveuglement</strong> et <strong>amnésie</strong> rendent la programmation de shaders assez impopulaire auprès des programmeurs débutants.</p>
+<p>Mais n'ayez crainte ! Au cours des chapitres suivants, nous abordons les problèmes étape par étape et passerons d'un simple shader à des calculs avancés.
+Si vous lisez ceci dans un navigateur récent, vous apprécierez de pouvoir manipuler les exemples interactifs et beaucoup de ce qui vient d'être dit s'éclairera de soi même.
+Sans plus attendre, jetons nous dans le vif du sujet.</p>
+<p>Appuyez sur <em>Next &gt;&gt;</em> pour plonger dans le code !</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

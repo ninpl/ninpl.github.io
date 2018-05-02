@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Shaping functions</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+        <!-- Translation style -->
+        <link type="text/css" rel="stylesheet" href="..\css\style-jp.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h1>アルゴリズムで絵を描く</h1>
+<h2>シェイピング関数</h2>
+<p>この章は<a href="https://ja.wikipedia.org/wiki/%E3%83%99%E3%82%B9%E3%83%88%E3%83%BB%E3%82%AD%E3%83%83%E3%83%89">「ミヤギさんの壁塗りレッスン」</a>とでもすれば良かったかもしれません。以前の章では正規化したx座標とy座標の値をr（赤）とg（緑）のチャンネルに割り当てました。つまり私たちは既に、2次元のベクトル（x, y）を受け取って4次元のベクトル（r, g, b, a）を返す関数を作ったのです。
+しかし、次元をまたいでのデータの変形にさらに深く踏み込む前に、ずっとシンプルなことから修行を始めなければなりません。まずは1次元の関数を理解します。より多くの時間と労力を割いて鍛錬すれば、その分だけあなたのシェーダーカラテは強くなるでしょう。</p>
+<p><img src="mr_miyagi.jpg" alt="ベスト・キッド（1984）"></p>
+<p>私たちにとってミヤギさんの壁に当たるものは、下記に示すコードの枠組みです。この枠組みを使って、正規化されたx座標の値を2種類の方法で目に見えるようにしてみます。1つめの方法では色の明るさを使い（黒から白への綺麗なグラデーションを見てください）、2つめでは緑色の線を描画します（ここではx座標の値をそのままy座標に割り当てています）。<code>plot</code> 関数のことは今はあまり気にしないでください。すぐ後で詳しく説明します。</p>
+<div class="codeAndCanvas" data="linear.frag"></div>
+<p>上記のサンプルの20行目と26行目を見てください。
+<code>vec3</code> 型のコンストラクタに値を1つだけ渡すと、コンストラクタは3つの色のチャンネルに同じ値を割りてようとしているのだと解釈します。一方で <code>vec4</code> は三次元のベクトルともう1つの値（ここではalpha、つまり透明度）で初期化されています。</p>
+<p>このコードがミヤギさんの壁です。よく観察して理解しておくことが大切です。この 0.0 から 1.0 の空間には何度も立ち帰ることになるでしょう。そしてあなたはいずれ、色と形を操る技をマスターするのです。</p>
+<p>このサンプルのx座標とy座標（または明るさ）の1対1の対応は線形補間と呼ばれています。
+ここから私たちは数学的な関数を使って線を形作っていくことになります。例えばxを5乗すれば曲線を作ることができます。</p>
+<p>（訳注：ここでは x=0.0 から x=1.0 の間のグラフが一次方程式で書ける、つまりグラフが直線になることを指して線形補完 <em> Liniear Interpolation</em>という言葉が使われています。参考：<a href="https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E8%A3%9C%E9%96%93">Wikipedia: 線形補間</a>。このの章の原文ではInterpolateという単語が複数回登場しますが、厳密な使い方ではない箇所もあるため以下では「補完」という訳語はあてませんでした。興味がある方はコンピュータグラフィックスやアニメーションの世界で補完関数 <em>Interpolator</em> がどのように使われているか調べてみましょう。）</p>
+<div class="codeAndCanvas" data="expo.frag"></div>
+<p>面白いでしょう？ 19行目の指数（<code>5.0</code>）を他の数に変えてみましょう。例えば値を <code>20.0</code>, <code>2.0</code>, <code>1.0</code>, <code>0.0</code>, <code>0.2</code>, <code>0.02</code> に変えてみます。この値と指数の関係を理解しておくととても役立ちます。この例のように数学的な関数を様々な場面で用いると、コードを表現豊かに操ることができます。鍼で気の流れを操るようにデータの流れを操るのです。</p>
+<p>GLSLには多くのネイティブ関数が用意されており、<a href="..\glossary\index-8.html?search=pow"><code>pow()</code></a> はその中の1つです。ほとんどのネイティブ関数はハードウェアのレベルで高速に処理されるので、適切に使えばより速いコードを書くことができます。</p>
+<p>22行目のべき関数を <a href="..\glossary\index-9.html?search=exp"><code>exp(st.x) - 1.0</code></a>, <a href="..\glossary\index-10.html?search=log"><code>log(st.x - 1.0)</code></a>, <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt(st.x)</code></a> など他の関数で置き換えてみましょう。</p>
+<h3>StepとSmoothstep</h3>
+<p>GLSLには他にも、値を変化させるのに使うことができるネイティブ関数があります。これらもまたハードウェアで高速に処理されます。</p>
+<p><a href="..\glossary\index-21.html?search=step"><code>step()</code></a> 関数は2つのパラメーターを受け取ります。1つめは境界または閾値で、2つめはこの関数によってチェックされる値です。境界より小さい値には全て <code>0.0</code> を返し、境界以上の値には <code>1.0</code> を返します。</p>
+<p>下記のコードの20行目の閾値を変えて試してみてください。</p>
+<div class="codeAndCanvas" data="step.frag"></div>
+<p>もう1つ、<a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>と呼ばれる関数があります。2つの数値からなる範囲ともう1つの値を受け取ると、この関数はその範囲の間で0.0から1.0まで滑らかに変化する数値を返します。最初の2つのパラメータは値の変化の起こる範囲の始まりと終わりで、3つめのパラメータはチェックの対象になる値です。</p>
+<div class="codeAndCanvas" data="smoothstep.frag"></div>
+<p>上記の例の12行目では、<a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> が <code>plot()</code> 関数の中で緑色の線を描画するために使われていますね。この関数をx軸に沿って見ていくと、それぞれの点で特定のyの値に対して急激に高い値を返しています。どうなっているのでしょう。<code>plot</code> 関数は2つの <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> を組み合わせてこれを実現しています。下記の関数を見てください。上の20行目をこの関数で置き換えて、結果を <code>plot</code> 関数のグラフを垂直に切った断面だと考えてみましょう。背景が線のように見えるでしょう？</p>
+<pre><code class="language-glsl">    float y = smoothstep(0.2,0.5,st.x) - smoothstep(0.5,0.8,st.x);</code></pre>
+<p>（訳注：おまけ。<code>plot</code> 関数を理解するには引き算の片側を消して <code>smoothstep(0.2,0.5,st.x)</code> もしくは <code>smoothstep(0.5,0.8,st.x)</code> だけにしてみるのも良いと思います。2つのグラフの位置が少しずれていて、引き算をすると真ん中だけが残されるのが分かりますね。20行目の <code>smoothstep( pct-0.02, pct, st.y) - smoothstep( pct, pct+0.02, st.y)</code> でも同じことを試してみましょう。）</p>
+<h3>サインとコサイン</h3>
+<p>数学を使ってアニメーションや形を作ったり、値を組み合わせたりしたいのであれば、サインとコサインに親しんでおくに越したことはありません。</p>
+<p>この２つの基本的な三角関数を一緒に使うと円を作ることができます。これは<a href="https://ja.wikipedia.org/wiki/%E5%86%92%E9%99%BA%E9%87%8E%E9%83%8E%E3%83%9E%E3%82%AF%E3%82%AC%E3%82%A4%E3%83%90%E3%83%BC">冒険野郎マクガイバー</a>のスイスアーミーナイフ並みに便利です。サインとコサインがどのように振る舞い、どのような組み合わせで使えるのかを知っておくことが大事です。かいつまんで言うと、これらの関数は（ラジアンを単位とする）角度を受け取り、半径を1とする円周上の点のx座標 (<a href="..\glossary\index-3.html?search=cos">cosine</a>) とy座標(<a href="..\glossary\index-2.html?search=sin">sine</a>) を返します。滑らかに変化する正規化された値（-1から1の間の値）を返す性質のおかげでサインとコサインは非常に便利な道具になります。</p>
+<p><img src="sincos.gif" alt=""></p>
+<p>三角関数と円の関係について全てを言葉で説明するのは難しいのですが、上のアニメーションはそれを見事に示してくれています。</p>
+<div class="simpleFunction" data="y = sin(x);"></div>
+<p>このサイン波をよく見てください。y座標の値が+1から-1の間をスムーズに上下しているのがわかるでしょう。時間を使った以前のサンプルでも見たとおり、このサインの周期的な動きはアニメーションに使えます。ブラウザ上で読んでいる方は、上のサンプルの数式を書き換えて波の動きを変えてみることができます（行の最後のセミコロンを忘れないようにしてください）。</p>
+<p>下記を試して何が起きるか見てみましょう。</p>
+<ul>
+<li>
+<p><code>sin</code> を計算する前に時間の値（<code>u_time</code>）をxに足してみましょう。x座標に沿った動きを身につけましょう。</p>
+</li>
+<li>
+<p><code>sin</code> を計算する前に、xに <code>PI</code> を掛けてみましょう。波の幅が縮まり、xが 2 進むごとにyが1サイクル上下するのを確認しましょう。</p>
+</li>
+<li>
+<p><code>sin</code>を計算する前に時間の値（<code>u_time</code>）をxに掛けてみましょう。周波数が次第に増えて波の幅が狭くなっていく様子を見てください。u_timeが既に大きくなりすぎていてグラフが読めないほどになってしまっているかもしれないので注意してください。（訳注：もしグラフが線ではなく黒い靄のようなノイズになってしまう場合は、一度ページをリロードしてからもう一度試してください。u_timeはページを読み込んでからの累積時間なので、ここまで読み進める間にかなり大きな値になっている可能性があります）。</p>
+</li>
+<li>
+<p><code>sin(x)</code> に 1.0 を足してみましょう。値が 0.0 から 2.0 の間に収まるように波の位置が上にずれる様子を見てください。</p>
+</li>
+<li>
+<p><code>sin(x)</code> に 2.0 を掛けてみましょう。振幅が倍になります。</p>
+</li>
+<li>
+<p><code>sin(x)</code> の絶対値（<a href="..\glossary\index-12.html?search=abs"><code>abs()</code></a>）を計算してください。弾むボールの軌跡のように見えるでしょう。</p>
+</li>
+<li>
+<p><code>sin(x)</code> の値から少数部分だけを取り出してみましょう（<a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a>）。</p>
+</li>
+<li><a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a> の値を超える最小の整数（<a href="..\glossary\index-15.html?search=ceil"><code>ceil()</code></a>）と、それより小さい最大の整数（<a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a>）を足して、1 と -1 だけからなるデジタル波を作ってみましょう。</li>
+</ul>
+<h3>便利な関数あれこれ</h3>
+<p>上の課題の中ではいくつかの新しい関数を紹介しました。今度は下記のサンプルのコメントを1つ1つ外して実験してみましょう。それぞれの関数がどのような振る舞いをするか調べて理解しておいてください。どうしてこんなことが必要なのかと思っていますね？ Googleで「generative art」を検索してみれば答えがわかります。この関数たちは私たちにとってのミヤギさんの壁なのです。今は1次元、上下の動きをマスターしつつあります。すぐに2次元、3次元、そして4次元についても学んでいきます。</p>
+<p><img src="anthony-mattox-ribbon.jpg" alt="Anthony Mattox (2009)"></p>
+<p><div class="simpleFunction" data="y = mod(x,0.5); // return x modulo of 0.5
+//y = fract(x); // return only the fraction part of a number
+//y = ceil(x);  // nearest integer that is greater than or equal to x
+//y = floor(x); // nearest integer less than or equal to x
+//y = sign(x);  // extract the sign of x
+//y = abs(x);   // return the absolute value of x
+//y = clamp(x,0.0,1.0); // constrain x to lie between 0.0 and 1.0
+//y = min(0.0,x);   // return the lesser of x and 0.0
+//y = max(0.0,x);   // return the greater of x and 0.0 "></div></p>
+<h3>より高度なシェイピング関数</h3>
+<p><a href="http://www.flong.com/">Golan Levin</a>（Golan Levin）が書いた、より複雑で非常に便利なシェイピング関数についての素晴らしいドキュメントがあります。自分のスニペット集を作るために、これらの関数をGLSLに移植してみると良いでしょう。</p>
+<ul>
+<li>
+<p><a href="http://www.flong.com/texts/code/shapers_poly/">Polynomial Shaping Functions: www.flong.com/texts/code/shapers_poly</a></p>
+</li>
+<li>
+<p><a href="http://www.flong.com/texts/code/shapers_exp/">Exponential Shaping Functions: www.flong.com/texts/code/shapers_exp</a></p>
+</li>
+<li>
+<p><a href="http://www.flong.com/texts/code/shapers_circ/">Circular &amp; Elliptical Shaping Functions: www.flong.com/texts/code/shapers_circ</a></p>
+</li>
+<li><a href="http://www.flong.com/texts/code/shapers_bez/">Bezier and Other Parametric Shaping Functions: www.flong.com/texts/code/shapers_bez</a></li>
+</ul>
+<p>スパイスや珍しい食材を集めるシェフのように、デジタルアーティストやクリエィティブコーダーは自らシェイピング関数に取り組むのが大好きです。</p>
+<p><a href="http://www.iquilezles.org/">Iñigo Quiles</a>は便利な関数の<a href="http://www.iquilezles.org/www/articles/functions/functions.htm">素晴らしいコレクション</a>を持っています。 <a href="http://www.iquilezles.org/www/articles/functions/functions.htm">この記事</a>をまず読んでから、下記にあるGLSLへ翻訳したバージョンを見てみましょう。浮動小数点の数値に「.（小数点）」を追加したり、Cの関数をGLSL特有の関数名で置き換える、例えば <code>powf()</code> の代わりに <code>pow()</code> を使うなどの細かな変更点に注意してください。</p>
+<ul>
+<li><a href="..\edit.html#05/impulse.frag">Impulse</a></li>
+<li><a href="..\edit.html#05/cubicpulse.frag">Cubic Pulse</a></li>
+<li><a href="..\edit.html#05/expstep.frag">Exponential Step</a></li>
+<li><a href="..\edit.html#05/parabola.frag">Parabola</a></li>
+<li><a href="..\edit.html#05/pcurve.frag">Power Curve</a></li>
+</ul>
+<p>匠の技を見てモチベーションを上げましょう。<a href="https://www.shadertoy.com/user/Danguafer">Danguafer</a>の作品です。</p>
+<iframe width="800" height="450" frameborder="0" src="https://www.shadertoy.com/embed/XsXXDn?gui=true&t=10&paused=true" allowfullscreen=""></iframe>
+<p>次の章では新しい技を使います。まず色の調合から始めて、次に形を描いていきます。</p>
+<h4>演習</h4>
+<p><a href="http://www.kynd.info/log/">Kynd</a>が作った<a href="www.flickr.com/photos/kynd/9546075099/">数式の表</a>を見てください。数値と関数をどのように組み合わせて、0.0 から 1.0 の間で値をコントロールしているかを読み取りましょう。実際に関数を置き換えて練習してください。鍛える程にあなたのカラテは強くなります。</p>
+<p><img src="kynd.png" alt="Kynd - www.flickr.com/photos/kynd/9546075099/ (2013)"></p>
+<h4>便利なツール</h4>
+<p>この種の関数を簡単に視覚化するためのツールをいくつか紹介します。</p>
+<ul>
+<li>Grapher: MacOSを持っているならSpotlightで「grapher」とタイプするだけで、この素晴らしく便利なツールを使うことができます。</li>
+</ul>
+<p><img src="grapher.png" alt="OS X Grapher (2004)"></p>
+<ul>
+<li><a href="http://www.iquilezles.org/apps/graphtoy/">GraphToy</a>: 先ほども紹介した<a href="http://www.iquilezles.org">Iñigo Quilez</a>が作った、GLSLの関数をWebGLで視覚化するためのツールです。</li>
+</ul>
+<p><img src="graphtoy.png" alt="Iñigo Quilez - GraphToy (2010)"></p>
+<ul>
+<li><a href="http://tobyschachman.com/Shadershop/">Shadershop</a>: <a href="http://tobyschachman.com/">Toby Schachman</a>が作ったこの素晴らしいツールを使うと、複雑な関数を組み立てる方法を驚くほど直感的に、目に見える形で学ぶことができます。</li>
+</ul>
+<p><img src="shadershop.png" alt="Toby Schachman - Shadershop (2014)"></p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

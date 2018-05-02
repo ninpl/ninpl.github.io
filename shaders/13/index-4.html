@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Fractal Brownian Motion</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-5.html?lan=jp">日本語</a> - <a href="index-1.html?lan=ch">中文版</a> - <a href="index-6.html?lan=kr">한국어</a> - <a href="index-7.html?lan=es">Español</a> - <a href="index-2.html?lan=fr">Français</a> - <a href="index-8.html?lan=it">Italiano</a> - <a href="index-3.html?lan=de">Deutsch</a> - <a href="index-4.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="rangel.jpg" alt="Due East over Shadequarter Mountain - Matthew Rangel (2005) "></p>
+<h2>Фрактальное броуновское движение</h2>
+<p>Разные люди понимают слово «шум» по разному. Музыкант подумает о неприятных беспорядочных звуках, инженер связи - о помехах, а астрофизик - о микроволновом космическом фоне. Эти понятия заставляют задуматься о физической природе беспорядка в окружающем мире. Но всё же давайте начнём с более простых и более фундаментальных вещей: волн и их свойств. Волна - это изменение какого-то значения со временем. Звуковые волны - это флуктуации давления воздуха, электромагнитные волны - флуктуации электрического и магнитного полей. Амплитуда и частота являются очень важными характеристиками волны. Уравнение простой линейной (одномерной) волны выглядит примерно так:</p>
+<p><div class="simpleFunction" data="
+float amplitude = 1.;
+float frequency = 1.;
+y = amplitude * sin(x * frequency);
+"></div></p>
+<ul>
+<li>Попробуйте изменять значения частоты и амплитуды, чтобы понять их поведение.</li>
+<li>Используя функции формы, изменяйте амплитуду в зависимости от времени.</li>
+<li>Аналогично, варьируйте частоту в зависимости от времени.</li>
+</ul>
+<p>При выполнении двух последних упражнений вы модулировали синусоидальную волну, создав тем самым AM (амплитудную модуляцию) и FM (частотную модуляцию). Поздравляю!</p>
+<p>Ещё одна интересная особенность волн - это их способность суммироваться, то есть образовывать суперпозицию. Закомментируйте, раскомментируйте и изменяйте параметры в следующих строках. Понаблюдайте как при этом изменяется внешний вид графика суммы волн с различной амплитудой и частотой.</p>
+<p><div class="simpleFunction" data="
+float amplitude = 1.;
+float frequency = 1.;
+y = sin(x * frequency);
+float t = 0.01*(-u_time*130.0);
+y += sin(x*frequency*2.1 + t)*4.5;
+y += sin(x*frequency*1.72 + t*1.121)*4.0;
+y += sin(x*frequency*2.221 + t*0.437)*5.0;
+y += sin(x*frequency*3.1122+ t*4.269)*2.5;
+y *= amplitude*0.06;
+"></div></p>
+<ul>
+<li>Поэксперементируйте с изменением амплитуды и частоты суммируемых волн.</li>
+<li>Можно ли сделать две взаимоуничтожающихся волны? Как это будет выглядеть?</li>
+<li>Можно ли сложить волны таким образом, чтобы они усиливали друг друга?</li>
+</ul>
+<p>В музыке каждая нота ассоциируется с определённой частотой. Частоты музыкальных нот подчиняются определённому порядку, который мы называем гаммой. Удвоение или уменьшение чистоты вдвое соответствует изменению ноты на одну октаву.</p>
+<p>Теперь давайте воспользуемся шумом Перлина вместо синусоидальной волны! Шум Перлина в самой простой форме выглядит и ощущается так же, как синусоидальная волна. Его амплитуда и частота немного плавают, но амплитуда остаётся достаточно однородной, а частота ограничена довольно узким диапазоном вокруг центральной частоты. Поведение этого шума менее предсказуемо, чем синусоидальная волна, а значит с его помощью проще создать иллюзию беспорядка, сложив несколько волн шума с различными параметрами. Сумму синусоидальных волн тоже можно заставить выглядеть беспорядочно, но для этого понадобится очень много волн, чтобы скрыть их периодическую, регулярную природу.</p>
+<p>Складывая различные итерации шума (<em>октавы</em>), в которых мы последовательн увеличиваем частоту на одну и ту же величину (<em>лакунарность</em>) и понижаем амплитуду (<em>усиление</em>) шума, можно получить более качественный и детализированный рисунок шума. Эта методика называется «Фрактальным броуновским движением» (<em>фБД</em>), или попросту «фрактальным шумом». В простейшем варианте она реализуется следующим кодом:</p>
+<p><div class="simpleFunction" data="// Свойства
+const int octaves = 1;
+float lacunarity = 2.0;
+float gain = 0.5;
+//
+// Начальные значения
+float amplitude = 0.5;
+float frequency = 1.;
+//
+// Цикл по октавам
+for (int i = 0; i < octaves; i++) {
+&#9;y += amplitude * noise(frequency*x);
+&#9;frequency *= lacunarity;
+&#9;amplitude *= gain;
+}"></div></p>
+<ul>
+<li>Увеличивайте количество октав, так чтобы цикл совершал 1, 2, 4 8 и 10 итераций. Наблюдайте за происходящим.</li>
+<li>При количестве октав больше четырёх попробуйте изменить значение лакунарности.</li>
+<li>Так же, при количестве октав больше четырёх, измените усиление (gain) и посмотрите что произойдёт.</li>
+</ul>
+<p>Обратите внимание, как с каждой новой октавой кривая становится более детализированной. Так же обратите внимание на самоподобность, появляющуюся с увеличением количества октав. При увеличении кривой боле мелкие части выглядят почти так же, как и вся кривая, а любой участок кривой выглядит похожим на любой другой участок. Это важное свойство математических фракталов, которое мы симулируем с помощью цикла. Ме не создаём <em>настоящий</em> фрактал, потому что мы останавливаем симуляцию после нескольких итераций, но, теоретически, мы могли бы получить настоящий фрактал, если бы позволили циклу крутиться бесконечно долго, складывая бесконечно много компонент шума. В компьютерной графике всегда есть предел того, насколько малые объекты мы можем различить. Например, некоторые детали могут стать меньше размера пикселя, поэтому нет никакого смысла обсчитывать бесконечные суммы для создания математически точного фрактала. Иногда может пригодиться очень много слагаемых, но их никогда не понадобится бесконечно много.</p>
+<p>В следующем примере реализовано двумерное фБД, которое создаёт похожее на фрактал изображение:</p>
+<div class='codeAndCanvas' data='2d-fbm.frag'></div>
+<ul>
+<li>Уменьшите количество октав, изменив значение в строке 37</li>
+<li>Измените значение лакунарности фБД в строке 47</li>
+<li>Посмотрите что будет при изменении усиления в строке 48</li>
+</ul>
+<p>Эта техника обычно используется для создания процедурных ландшафтов. Самоподобность фБД идеальна для создания гор, потому что естественная эрозия, обрабатывающая настоящие горы, создёт самоподобные образы в большом диапазоне масштабов. Если вас это заинтересовало, вам определённо стоит прочитать <a href="http://www.iquilezles.org/www/articles/morenoise/morenoise.htm">замечательную статью Иниго Квилеса о подвинутых способах получения шума</a>.</p>
+<p><img src="holdsworth.jpg" alt=" Дэн Холдсворт - блэкаут (2010)"></p>
+<p>Используя этот подход практически в неизменном виде, можно получить много других эффектов, например так называемую <strong>турбулентность</strong>. Это то же самое фБД, составленное из абсолютных величин шума, что добавляет к изображению резкие впадины.</p>
+<pre><code class="language-glsl">for (int i = 0; i &lt; OCTAVES; i++) {
+    value += amplitude * abs(snoise(st));
+    st *= 2.;
+    amplitud *= .5;
+}</code></pre>
+<p><a href="..\edit.html#13/turbulence.frag"><img src="turbulence-long.png" width="520px" height="200px"></a></p>
+<p>Другой представитель этого семейства алгоритмов позволяет генерировать острые <strong>хребты</strong>, то есть перевёрнутые вверх дном впадины:</p>
+<pre><code class="language-glsl">    n = abs(n);     // создаём трещины
+    n = offset - n; // переворачиваем трещины вверх дном
+    n = n * n;      // делаем их ещё более острыми</code></pre>
+<p><a href="..\edit.html#13/ridge.frag"><img src="ridge-long.png" width="520px" height="200px"></a></p>
+<p>Так же можно получать функции с полезными свойствами, если перемножать компоненты шума вместо суммирования. Другого интересного эффекта можно достичь, масштабируя каждую функцию шума на величину, зависящую от предшествующих слагаемых. Делая подобные вещи, мы отклоняемся от строгого определения фрактала в сторону сравнительно малоизученной области «мультифракталов». Мультифракталы пока не имеют строгого математического определения, но это не делает их менее полезными для компьютерной графики. Наоборот, мультифракталы повсеместно встречаются в современном коммерческом программном обеспечении для генерации ландшафтов. Подробнее об этом можно прочитать в 16 главе книги Кентона Масгрейва «Текстурирование и моделирование: процедурный подход (третье издание)» (Texturing and Modeling: a Procedural Approach). К несчастью, эту книгу перестали издавать несколько лет назад, но её по прежнему можно найти в библиотеках или на вторичном рынке. В онлайн-магазинах есть PDF-версия первого издания, но я не советую её покупать - это пустая трата денег. Она издана в 1994 году и не содержит ничего о моделировании ландшафтов из третьего издания.</p>
+<h3>Искривление областей</h3>
+<p><a href="http://www.iquilezles.org/www/articles/warp/warp.htm">Иниго Квилес написал ещё одну замечательную статью</a> о свёртывании пространства фБД с помощью фБД. Взрыв мозга? Да, это как сон внутри сна в фильме «Начало».</p>
+<p><img src="quiles.jpg" alt=" Иниго Квилес - f(p) = fbm( p + fbm( p + fbm( p ) ) ) (2002)"></p>
+<p>Менее экстремальный пример такого подхода реализован в коде ниже, где сворачивание используется для создания текстуры, похожей на облака. Обратите внимание на сохранившееся самоподобие в этом примере.</p>
+<div class='codeAndCanvas' data='clouds.frag'></div>
+<p>Оборачивание текстурных координат шумом - это весело, полезно и возможно не просто в изучении. Это мощный инструмент, требующий некоторого опыта в использовании. Например, можно смещать координаты на величину производной (градиента) шума. На этой идее основана <a href="http://evasion.imag.fr/Publications/2001/PN01/">знаменитая статья Кена Перлина и Фабриса Нере под названием «Шум потока»</a>. Некоторые современные реализации шума Перлина основаны на вычислении функции и её аналитического градиента. Иногда «настоящий» градиент для процедурной функции вычислить невозможно, но всегда можно вычислить его приближение конечной разностью, хотя результат будет менее точным и потребует больше вычислений.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>
+
+<!-- <li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li> -->

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders</title>
+        <link href="..\..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\css\github.css">
+        <script type="text/javascript" src="..\..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-5.html?lan=jp">日本語</a> - <a href="index-6.html?lan=ch">中文版</a> - <a href="index-7.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index.html?lan=fr">Français</a> - <a href="index-1.html?lan=it">Italiano</a> - <a href="index-2.html?lan=de">Deutsch</a> - <a href="index-3.html?lan=ru">Русский</a> - <a href="index-4.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>Wie kann ich zu diesem Buch beitragen?</h2>
+<p>Schön, dass Du Interesse hast, an diesem Buch mitzuwirken. Zahlreiche Möglichkeiten bieten sich dafür an. Du kannst ...</p>
+<ul>
+<li>Inhalte übersetzen</li>
+<li>Das <a href="https://github.com/patriciogonzalezvivo/thebookofshaders/tree/master/glossary"><code>Glossar</code></a> verbessern</li>
+<li>Fehler bereinigen</li>
+<li>Deine eigenen GLSL-Shader über den <a href="http://editor.thebookofshaders.com/">Online Editor</a> mit anderen teilen</li>
+</ul>
+<h3>Inhalte übersetzen</h3>
+<p>Der Quelltext dieses Buches wurde in <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> verfasst. Dadurch ist es sehr einfach, den Text zu bearbeiten und zu erweitern.</p>
+<ol>
+<li>
+<p>Besuche zunächst die Internet-Ablage dieses Buches bei <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">Github unter <code>github.com/patriciogonzalezvivo/thebookofshaders</code></a>. Verschaffe Dir einen Überblick über die verschiedenen Verzeichnisse und die darin enthaltenen Dateien. Du wirst feststellen, dass die eigentlichen Textinhalte des Buches jeweils in der Datei <code>README.md</code> und in anderen Dateien enthalten sind, die Großbuchstaben im Namen tragen. Beispiele dafür sind etwa <code>TITLE.md</code>, <code>SUMMARY.md</code> usw. Die Übersetzungen dieser Texte stecken in Dateien, die am Ende des Namens ein Kürzel für die jeweilige Sprache tragen, also z.B. <code>README-jp.md</code>, <code>README-es.md</code> usw.</p>
+</li>
+<li>
+<p>Lege einen Fork der Ablage an und klone den Fork auf Deinen Computer.</p>
+</li>
+<li>
+<p>Lege jeweils eine Kopie der Datei an, die Du übersetzen möchtest, und vergiss dabei nicht, das Sprachkürzel im Dateinamen zu ergänzen.</p>
+</li>
+<li>
+<p>Übersetze den Inhalt des Dokuments Zeile für Zeile (siehe dazu auch die <strong>Übersetzungshinweise</strong> unten).</p>
+</li>
+<li>
+<p>Überprüfe den Inhalt hinsichtlich der Rechtschreibung und der korrekten Anzeige im Browser (siehe unten unter <strong>Testen</strong>).</p>
+</li>
+<li>Lade die veränderten Dateien in Deinen Fork hoch und setze einen <a href="https://help.github.com/articles/using-pull-requests/">Pull Request</a> ab.</li>
+</ol>
+<h4>Übersetzungshinweise</h4>
+<p>Lösche und verändere nichts an der Einbindung der Beispielprogramme innerhalb des Quelltextes. Dieses sehen wie folgt aus:</p>
+<pre><code class="language-html">    &lt;div class="codeAndCanvas" data="grid-making.frag"&gt;&lt;/div&gt;</code></pre>
+<p>oder</p>
+<pre><code class="language-html">&lt;div class="simpleFunction" data="y = mod(x,2.0);"&gt;&lt;/div&gt;</code></pre>
+<h4>Testen</h4>
+<p>Starte auf Deinem lokalen Rechner einen PHP-Server innerhalb des Verzeichnisses, in das Du das Buch geklont hast:</p>
+<pre><code class="language-bash">php -S localhost:8000</code></pre>
+<p>Rufe dann in Deinem Internet-Browser die URL <code>localhost:8000</code> auf. Klicke Dich bis zu dem Kapitel durch, an dem Du gerade arbeitest. Füge der angezeigten URL in der Adresszeile des Browsers den Zusatz <code>?lan=</code> hinzu, gefolgt von dem Sprachenkürzel, das Du bei der Benennung der jeweiligen Datei verwendet hast.</p>
+<p>Um ein Beispiel zu nennen: Wenn Du gerade das Kapitel <code>03</code> ins Französische übersetzt und dabei mit der Datei <code>03/README-fr.md</code> arbeitest, kannst Du diese Datei anzeigen, indem Du folgende URL eingibst: <code>http://localhost:8000/03/?lan=fr</code></p>
+<h3>Verbesserungen am Glossar</h3>
+<p>Das Glossar befindet sich noch in Arbeit. Wir freuen uns über Vorschläge, wie man das Glossar zu einem wertvollen Bestandteil des Buches ausbauen kann. Schick uns einfach eine Nachricht an <a href="https://twitter.com/bookofshaders">@bookofshaders</a>.</p>
+<h3>Fehler bereinigen</h3>
+<p>Irren ist menschlich! Wenn Dir ein Fehler auffällt, bereinige die Stelle und setze einfach einen entsprechenden Pull Request auf Github ab, oder eröffnete dort eine Diskussion zu dem Thema. Vielen Dank!</p>
+<h3>Teile Deine Shader mit Anderen</h3>
+<p>Du wirst im Quelltext des Buches bei den Beispielen viele Verweise auf den <a href="http://editor.thebookofshaders.com/">Online-Editor</a> sehen.
+Sobald Du einen Shader entwickelt hast, auf den Du stolz bist, klicke auf die „Export“-Schaltfläche (bzw. das <code>⇪</code>-Symbol) und kopiere anschließend die im Editor angezeigte „URL to code...“. Sende diese URL an <a href="https://twitter.com/bookofshaders">@bookofshaders</a> oder an <a href="https://twitter.com/kyndinfo">@kyndinfo</a>. Wir freuen uns auf tolle Shader und werden diese gerne unserer <a href="..\..\examples\index.html">Galerie mit Beispielen</a> hinzufügen.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

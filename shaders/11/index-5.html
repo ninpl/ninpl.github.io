@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Noise</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="mcb.jpg" alt="NASA / WMAP science team"></p>
+<h2>Rumore</h2>
+<p>È tempo di fare una pausa! Abbiamo giocato con le funzioni random che sembrano creare del rumore bianco di una televisione, la testa ci gira ancora solo al pensiero degli shader e i nostri occhi sono stanchi. È ora di andare a fare una passeggiata!</p>
+<p>Sentiamo l'aria sulla nostra pelle, il sole in faccia. Il mondo è un posto così vivido e ricco: colori, texture, suoni. Mentre camminiamo, non possiamo evitare di notare la superficie delle strade, rocce, alberi e nuvole.</p>
+<p><img src="texture-00.jpg" alt="">
+<img src="texture-01.jpg" alt="">
+<img src="texture-02.jpg" alt="">
+<img src="texture-03.jpg" alt="">
+<img src="texture-04.jpg" alt="">
+<img src="texture-05.jpg" alt="">
+<img src="texture-06.jpg" alt=""></p>
+<p>L'imprevedibilità di queste texture potrebbe essere intesa come &quot;random&quot;, ma non sembrano di certo il risultato delle funzioni random che abbiamo sperimentato in precedenza. Il &quot;mondo reale&quot; è un posto così ricco e complesso! Come possiamo approssimare questa varietà computazionale?</p>
+<p>Questa è stata la domanda che <a href="https://mrl.nyu.edu/~perlin/">Ken Perlin</a> stava cercando di risolvere nei prima anni '80 quando gli fu commissionato di generare delle texture più realistiche per il film &quot;Tron&quot;. Il risultato delle sue ricerche fu un elegante algoritmo di rumore <em>vincitore del premio Oscar</em>. (Non disperatevi.)</p>
+<p><img src="tron.jpg" alt="Disney - Tron (1982)"></p>
+<p>Quanto segue non è il classico algoritmo di Perlin, ma è un buon punto di partenza per capire come generare del rumore.</p>
+<p><div class="simpleFunction" data="
+float i = floor(x);  // intero
+float f = fract(x);  // frazione
+y = rand(i); //rand() è spiegata nel capitolo precedente
+//y = mix(rand(i), rand(i + 1.0), f);
+//y = mix(rand(i), rand(i + 1.0), smoothstep(0.,1.,f));
+"></div></p>
+<p>In queste righe stiamo facendo qualcosa di simile a quello che abbiamo fatto nel capitolo precedente. Stiamo suddividendo un numero floating continuo (<code>x</code>) nel suo intero (<code>i</code>) e nelle componenti frazionarie (<code>f</code>). Usiamo <a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a> per ottenere <code>i</code> e <a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a> per ottenere <code>f</code>. Poi applichiamo <code>rand()</code> per la parte intera di <code>x</code>, che dà un valore random unico a ogni integer.</p>
+<p>Dopo di che si osservino le due righe commentate. La prima interpola ogni valore random in modo lineare.</p>
+<pre><code class="language-glsl">y = mix(rand(i), rand(i + 1.0), f);</code></pre>
+<p>Andate avanti e rimuovete il commento di questa linea per vedere che cosa succede. Utilizziamo la parte frazionale <code>f</code> per mischiare (<a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a>) i due valori random.</p>
+<p>A questo punto del libro, abbiamo imparato che possiamo fare meglio d'una interpolazione lineare, giusto?
+Ora provate a decommentare la riga seguente, che utilizza una interpolazione <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> invece di una lineare.</p>
+<pre><code class="language-glsl">y = mix(rand(i), rand(i + 1.0), smoothstep(0.,1.,f));</code></pre>
+<p>Tolto il commento, si noti che la transizione tra i picchi diventa armoniosa. In alcune implementazioni del rumore, troverete che i programmatori preferiscono creare le proprie curve cubiche (come la seguente formula) invece di utilizzare la funzione <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>.</p>
+<pre><code class="language-glsl">float u = f * f * (3.0 - 2.0 * f ); // curva cubica personalizzata
+y = mix(rand(i), rand(i + 1.0), u); // e con un'interpolazione</code></pre>
+<p>Questo <em>casualità armoniosa</em> è un punto di svolta per gli ingegneri grafici o artisti perché fornisce la capacità di generare delle immagini e delle geometrie con un tocco organico. L'Algoritmo del Rumore di Perlin è stato implementato più e più volte in diversi linguaggi e spazio dimensionale per ottenere ogni tipo di uso creativo.</p>
+<p><img src="robert_hodgin.jpg" alt="Robert Hodgin - Written Images (2010)"></p>
+<p>Ora è il vostro turno:</p>
+<ul>
+<li>
+<p>Create la vostra funzione <code>float noise(float x)</code>.</p>
+</li>
+<li>
+<p>Utilizzate la funzione di rumore per animare una forma geometrica spostandola, ruotandola o ridimensionandola.</p>
+</li>
+<li>
+<p>Fate 'ballare' diverse forme geometriche usando il rumore.</p>
+</li>
+<li>
+<p>Costruite forme &quot;organiche&quot; utilizzando la funzione di rumore.</p>
+</li>
+<li>Una volta che avete la vostra &quot;creatura&quot;, cercate di svilupparla ulteriormente assegnandogli un particolare movimento.</li>
+</ul>
+<h2>Rumore 2D</h2>
+<p><img src="02.png" alt=""></p>
+<p>Ora che sappiamo come creare il rumore in una dimensione, è il momento di passare alla 2D. Nelle due dimensioni, invece di interpolare tra due punti di una linea (<code>fract(x)</code> e <code>fract(x)+1.0</code>), interpoleremo tra i quattro angoli di un piano quadrato (<code>fract(st)</code>, <code>fract(st)+vec2(1.,0.)</code>, <code>fract(st)+vec2(0.,1.)</code> e <code>fract(st)+vec2(1.,1.)</code>).</p>
+<p><img src="01.png" alt=""></p>
+<p>Allo stesso modo, se si vuole ottenere del rumore 3D dobbiamo interpolare tra gli otto angoli di un cubo. Questa tecnica consiste nell'interpolazione di valori random, che è il motivo per cui si chiama <strong>rumore del valore</strong> (<strong>value noise</strong>) .</p>
+<p><img src="04.jpg" alt=""></p>
+<p>Come per l'esempio 1D, questa interpolazione non è lineare, ma cubica, e interpola senza problemi tutti i punti all'interno di una griglia quadrata.</p>
+<p><img src="05.jpg" alt=""></p>
+<p>Date un'occhiata alla seguente funzione di rumore.</p>
+<div class="codeAndCanvas" data="2d-noise.frag"></div>
+<p>Iniziamo scalando lo spazio di 5 (linea 45) per vedere l'interpolazione tra i quadrati della griglia. Poi all'interno della funzione rumore suddividiamo lo spazio in celle. Memorizziamo la posizione &quot;integer&quot; della cella insieme alle posizioni frazionarie all'interno della cella. Usiamo la posizione dell'integer per calcolare le coordinate dei quattro angoli e ottenere un valore random per ciascuno di essi (linee 23-26). Infine, alla linea 35 interpoliamo tra i 4 valori random degli angoli utilizzando le posizioni frazionarie che abbiamo ricavato in precedenza.</p>
+<p>Ora è il vostro turno. Provate i seguenti esercizi:</p>
+<ul>
+<li>
+<p>Cambiate il moltiplicatore alla linea 45. Provate ad animarlo.</p>
+</li>
+<li>
+<p>A quale livello di zoom il rumore comincia a sembrare di nuovo random?</p>
+</li>
+<li>
+<p>A che livello di zoom il rumore è impercettibile?</p>
+</li>
+<li>
+<p>Provate a collegare questa funzione rumore alle coordinate del mouse.</p>
+</li>
+<li>
+<p>Che cosa succede se utilizziamo il gradiente del rumore come un campo di distanza? Fatene qualcosa di interessante.</p>
+</li>
+<li>Ora che avete raggiunto un certo controllo sull'ordine e il caos, è il momento di utilizzare tale conoscenza. Effettuate una composizione di rettangoli, colori e rumore che assomiglia a un dipinto di <a href="https://it.wikipedia.org/wiki/Mark_Rothko">Mark Rothko</a>.</li>
+</ul>
+<p><img src="rothko.jpg" alt="Mark Rothko - Three (1950)"></p>
+<h2>Usare il Rumore nella Progettazione Generativa</h2>
+<p>Gli algoritmi di rumore sono stati originariamente progettati per dare un naturale <em>je ne sais quoi</em> alle texture digitali. Le implementazioni 1D e 2D che abbiamo visto fino ad ora erano interpolazioni tra <em>valori random</em>, che è il motivo per cui sono chiamate <strong>valore di rumore</strong>, ma ci sono altri modi per ottenere il rumore...</p>
+<p><a href="..\edit.html#11/2d-vnoise.frag"> <img src="value-noise.png" alt="Inigo Quilez - Value Noise"> </a></p>
+<p>Come avete scoperto negli esercizi precedenti, il valore del rumore tende a sembrare a dei &quot;blocchi&quot;. Per ridurre questo effetto, nel 1985 <a href="https://mrl.nyu.edu/~perlin/">Ken Perlin</a> ha sviluppato un'altra implementazione dell'algoritmo denominato <strong>Rumore di Gradiente</strong> (<strong>Gradient Noise</strong>). Ken aveva capito come interpolare dei <em>gradienti</em> random invece che dei valori. Questi gradienti sono stati il risultato d'una funzione random 2D che restituisce le direzioni (rappresentata da un <code>vec2</code>) al posto di singoli valori (<code>float</code>). Clicca sull'immagine seguente per vedere il codice e come funziona.</p>
+<p><a href="..\edit.html#11/2d-gnoise.frag"> <img src="gradient-noise.png" alt="Inigo Quilez - Gradient Noise"> </a></p>
+<p>Guardate questi due esempi di <a href="http://www.iquilezles.org/">Inigo Quilez</a> e prestate attenzione alle differenze tra il <a href="https://www.shadertoy.com/view/lsf3WH">valore del rumore</a> e il <a href="https://www.shadertoy.com/view/XdXGW8">gradiente del rumore</a>.</p>
+<p>Come un pittore che capisce come i pigmenti funzionano, più sappiamo sulle varie implementazioni del rumore e meglio saremo in grado di usarle. Ad esempio, se si usa un'implementazione del rumore in due dimensioni per ruotare lo spazio in cui sono visualizzate delle linee rette, otterremo il seguente effetto visuale che sembra del legno. Anche in questo caso è possibile fare clic sull'immagine per vedere il codice.</p>
+<p><a href="..\edit.html#11/wood.frag"> <img src="wood-long.png" alt="Wood texture"> </a></p>
+<pre><code class="language-glsl">    pos = rotate2d( noise(pos) ) * pos; // ruota lo spazio
+    pattern = lines(pos,.5); // disegna delle linee</code></pre>
+<p>Un altro modo per ottenere dal rumore dei pattern interessanti è quello di trattarlo come un campo di distanza e applicare alcuni dei trucchi descritti nel <a href="..\07\index.html">capitolo sulle Figure</a>.</p>
+<p><a href="..\edit.html#11/splatter.frag"> <img src="splatter-long.png" alt="Splatter texture"> </a></p>
+<pre><code class="language-glsl">    color += smoothstep(.15,.2,noise(st*10.)); // schizzo nero
+    color -= smoothstep(.35,.4,noise(st*10.)); // buchi sugli schizzi</code></pre>
+<p>Un terzo modo di utilizzare la funzione di rumore è di modulare una forma. Questo richiede anche alcune delle tecniche che abbiamo imparato nel <a href="..\07\index.html">capitolo sulle figure</a>.</p>
+<p><a href="..\edit.html#11/circleWave-noise.frag"><canvas id="custom" class="canvas" data-fragment-url="circleWave-noise.frag" width="300px" height="300"></canvas></a></p>
+<p>Per la vostra pratica:</p>
+<ul>
+<li>Quali altri pattern generativi si possono fare? Che dire del granito? marmo? magma? acqua? Trovate tre immagini di texture di vostro interesse e come poterle realizzare algoritmicamente usando il rumore.</li>
+<li>Utilizzate il rumore per modulare una forma.</li>
+<li>Cosa succede se usate il rumore per il movimento? Tornate al <a href="..\08\index.html">capitolo sulle Matrici</a>. Utilizzate l'esempio per traslare il &quot;+&quot;, e applicateci alcuni movimenti <em>random</em> e derivati dal <em>rumore</em>.</li>
+<li>Fate un dipinto generativo alla Jackson Pollock.</li>
+</ul>
+<p><img src="pollock.jpg" alt="Jackson Pollock - Number 14 gray (1948)"></p>
+<h2>Rumore Simplesso</h2>
+<p>Per Ken Perlin il successo del suo algoritmo non è stato sufficiente. Ha pensato che avrebbe potuto funzionare meglio. Al Siggraph 2001 ha presentato il &quot;rumore simplesso&quot;, in cui ha ottenuto i seguenti miglioramenti rispetto al precedente algoritmo:</p>
+<ul>
+<li>Un algoritmo con una minore complessità computazionale e un minor numero di moltiplicazioni.</li>
+<li>Un rumore in grado di scalare a dimensioni superiori con meno costo computazionale.</li>
+<li>Un rumore senza artefatti direzionali.</li>
+<li>Un rumore con gradienti ben definiti e continui che possono essere calcolati abbastanza facilmente.</li>
+<li>Un algoritmo che è facile da implementare sull'hardware.</li>
+</ul>
+<p>So cosa state pensando... &quot;Chi è costui?&quot; Sì, il suo lavoro è fantastico! Ma sul serio, come ha fatto a migliorare l'algoritmo? Beh, abbiamo visto come per le due dimensioni ha interpolato 4 punti (angoli di un quadrato); allo stesso modo possiamo indovinare che per <a href="..\edit.html#11/3d-noise.frag">tre (vedi un'implementazione qui)</a> e quattro dimensioni abbiamo bisogno di interpolare rispettivamente 8 e 16 punti. Giusto? In altre parole per N dimensioni è necessario interpolare agevolmente dai 2 agli N punti(2^N). Ma Ken ha elegantemente notato che, anche se il quadrato è la scelta ovvia per riempire lo spazio, la figura più semplice in 2D è il triangolo equilatero. Così ha iniziato a sostituire la griglia quadrata (abbiamo appena appreso come usarla) per una griglia simplessa di triangoli equilateri.</p>
+<p><img src="simplex-grid-00.png" alt=""></p>
+<p>La figura simplessa per N dimensioni è una figura con N + 1 angoli. In altre parole, un angolo in meno da calcolare in 2D, 4 in meno in 3D e 11 in meno in 4D! Questo è un enorme miglioramento!</p>
+<p>In due dimensioni l'interpolazione avviene in modo simile al rumore regolare, interpolando i valori degli angoli di una sezione. Ma in questo caso, utilizzando una griglia simplessa, abbiamo solo bisogno di interpolare la somma di 3 angoli.</p>
+<p><img src="simplex-grid-01.png" alt=""></p>
+<p>Come è fatta la griglia simplessa? Con un'altra mossa brillante ed elegante, la griglia simplessa può essere ottenuta suddividendo le celle di una regolare griglia a 4 angoli in due triangoli isosceli e poi distorcendola finché ogni triangolo sia equilatero.</p>
+<p><img src="simplex-grid-02.png" alt=""></p>
+<p>Poi, come <a href="http://staffwww.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf">Stefan Gustavson descrive in questo articolo</a>: <em>&quot;.. cercando le parti intere delle coordinate trasformate (x,y) per il punto che vogliamo valutare, siamo in grado di determinare rapidamente quale cella di due simplessi contiene il punto. Confrontando anche le grandezze di x e y, siamo in grado di determinare se il punto è nel simplesso più alto o più basso, e percorrere i tre punti d'angolo corretti.&quot;</em></p>
+<p>Nel seguente codice è possibile rimuovere il commento alla linea 44 per vedere come la griglia è distorta, e poi rimuovere il commento alla linea 47 per vedere come una griglia simplessa può essere costruita. Notate come alla linea 22 stiamo suddividendo il quadrato distorto in due triangoli equilateri semplicemente controllando  se <code>x &gt; y</code> (triangolo &quot;inferiore&quot;) oppure <code>y &gt; x</code> (triangolo &quot;superiore&quot;).</p>
+<div class="codeAndCanvas" data="simplex-grid.frag"></div>
+<p>Un altro miglioramento introdotto da Perlin con il <strong>Rumore Simplesso</strong>, è la sostituzione della Curva Cubica di Hermite ( <em>f(x) = 3x^2-2x^3</em> , che è identica alla funzione <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> ) con una Curva Quintica di Hermite ( <em>f(x) = 6x^5-15x^4+10x^3</em> ). In questo modo entrambe le estremità della curva sono più &quot;piatte&quot; così che ogni limite si unisce con grazia con quello successivo. In altre parole si ottiene una transizione più continua tra le celle. Si può osservare ciò decommentando la seconda formula nel seguente esempio grafico (o osservando le <a href="https://www.desmos.com/calculator/2xvlk5xp8b">due equazioni fianco a fianco cliccando qui</a>).</p>
+<p><div class="simpleFunction" data="
+// Curva Cubica di Hermite.  Identica alla funzione SmoothStep()
+y = x*x*(3.0-2.0*x);
+// Curva Quintica di Hermite
+//y = x*x*x*(x*(x*6.-15.)+10.);
+"></div></p>
+<p>Si noti come le estremità della curva cambino. Si può leggere di più a proposito <a href="http://mrl.nyu.edu/~perlin/paper445.pdf">sul sito di Ken</a>.</p>
+<p>Tutti questi miglioramenti si traducono in un capolavoro algoritmico noto come <strong>Rumore Simplesso</strong>. La seguente è una implementazione GLSL di questo algoritmo fatta da Ian McEwan(e presentato in <a href="http://webstaff.itn.liu.se/~stegu/jgt2012/article.pdf">questo articolo</a>) che è troppo complicata per scopi didattici, ma sarete felici di fare un clic su di esso e vedere che è meno criptica di quanto si possa pensare.</p>
+<p><a href="..\edit.html#11/2d-snoise-clear.frag"> <img src="simplex-noise.png" alt="Ian McEwan of Ashima Arts - Simplex Noise"> </a></p>
+<p>Beh... direi che abbiamo avuto abbastanza tecnicismi, è il momento d'utilizzare queste risorse in modo creativo:</p>
+<ul>
+<li>
+<p>Osservate ogni implementazione del rumore. Immaginatele come delle materie grezze, come delle rocce di marmo per uno scultore. Che cosa si può dire a proposito delle &quot;sensazione&quot; che ci trasmettono? Chiudete gli occhi per far scattare la vostra immaginazione, come quando si cercano delle forme in una nuvola. Cosa vedi? Cosa ricorderai? Che cosa si potrebbe creare da ogni implementazione del rumore? Seguite le vostre ispirazioni e cercate di realizzarle con il codice.</p>
+</li>
+<li>Fate uno shader che crea l'illusione di un flusso. Come una lampada di lava, gocce d'inchiostro, dell'acqua, ecc.</li>
+</ul>
+<p><a href="..\edit.html#11/lava-lamp.frag"><canvas id="custom" class="canvas" data-fragment-url="lava-lamp.frag" width="520px" height="200px"></canvas></a></p>
+<ul>
+<li>Utilizzate il rumore simplesso per aggiungere delle texture a dei lavori precedenti.</li>
+</ul>
+<p><a href="..\edit.html#11/iching-03.frag"><canvas id="custom" class="canvas" data-fragment-url="iching-03.frag" width="520px" height="520px"></canvas></a></p>
+<p>In questo capitolo abbiamo preso controllo sul caos. Non è stato un lavoro facile! Diventare un maestro del rumore richiede tempo e impegno.</p>
+<p>Nei capitoli seguenti vedremo alcune tecniche ben note per perfezionare le proprie competenze e ottenere di più dal vostro rumore per progettare del contenuto generativo di qualità. Fino ad allora godetevi un po' di tempo all'aria aperta, contemplate la natura e i suoi pattern complicati. La capacità d'osservazione è altrettanto importante (se non di più) rispetto a quella di creare dei pattern. Andate fuori e godetevi il resto della giornata!</p>
+<p style="text-align:center; font-style: italic;">"Parla con l'albero, per farsi un amico." Bob Ross
+</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

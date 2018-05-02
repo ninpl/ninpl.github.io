@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders</title>
+        <link href="..\..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\css\github.css">
+        <script type="text/javascript" src="..\..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-5.html?lan=jp">日本語</a> - <a href="index-6.html?lan=ch">中文版</a> - <a href="index-7.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index.html?lan=fr">Français</a> - <a href="index-1.html?lan=it">Italiano</a> - <a href="index-2.html?lan=de">Deutsch</a> - <a href="index-3.html?lan=ru">Русский</a> - <a href="index-4.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>Wie kann ich die Beispielprogramme auf einem RaspberryPi ausführen?</h2>
+<p>Vor wenigen Jahren konnte man noch nicht davon ausgehen, dass jedermann über einen Computer mit einer GPU verfügt. Heutzutage gilt das nicht mehr. Doch im Bereich von Schulen, Universitäten und anderen Weiterbildungseichrichtungen ist dies immer noch eine hohe Anforderung.</p>
+<p>Durch das <a href="http://www.raspberrypi.org/">Raspberry Projekt</a> hat mittlerweile eine neue Generation kleiner und billiger Computer (das Stück ab ca. 40 Euro) ihren Weg in viele Klassenzimmer gefunden. Vor allem verfügt der <a href="http://www.raspberrypi.org/">RaspberryPi</a> über einen ansehnlichen Grafikchip mit GPU, der direkt aus der Kommandozeile angesprochen werden kann.</p>
+<p>Ich habe ein flexibles Werkzeug für die Programmierung von GLSL-Shadern entwickelt, den <a href="https://github.com/patriciogonzalezvivo/glslViewer"><strong>glslViewer</strong></a>. Damit können alle Beispiele aus diesem Buch ausgeführt werden. Sobald man Veränderungen am aktuellen Shader-Programmcode abspeichert, kompiliert das Programm den Shader erneut und bringt ihn zur Ausführung. Auf dem Bildschirm erscheint daraufhin die aktualisierte Anzeige des Shaders.</p>
+<p>Indem Du eine lokale Kopie dieses Buches und seiner Beispielprogramme auf Deinem Rechner anlegst (mehr dazu im vorhergehenden Kapitel) und den [<code>glslViewer</code>] (<a href="https://github.com/patriciogonzalezvivo/glslViewer">https://github.com/patriciogonzalezvivo/glslViewer</a>) installierst, kannst Du die Beispielprogramme mit dem <code>glslviewer</code> ausführen. Wenn Du beim Start dieses Programms den Kommandozeilenschalter <code>-l</code> angibst, erscheint die erzeugte Grafik in einer Ecke des Bildschirms, während Du gleichzeitig den Shader-Programmcode mit einem beliebigen Text-Editor (etwa <code>nano</code>, <code>pico</code>, <code>vi</code>, <code>vim</code> oder <code>emacs</code>) bearbeitest. Das funktioniert auch, wenn Du mit dem Terminal des RaspberryPi über ssh/sftp verbunden bist.</p>
+<p>Um die angesprochenen Tools auf einem RaspberryPi zu installieren, rufe nach dem Start des Betriebssystems und dem Einloggen folgende Befehle über die Kommandozeile auf:</p>
+<pre><code class="language-bash">sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git-core glslviewer
+cd ~
+git clone https://github.com/patriciogonzalezvivo/thebookofshaders.git
+cd thebookofshaders</code></pre>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

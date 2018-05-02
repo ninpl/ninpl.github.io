@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Shaping functions</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h1>Dessin Algorithmique</h1>
+<h2>Fonctions de formes</h2>
+<p>Ce chapitre aurait pu s'appeler &quot;la palissade de monsieur Miyagi&quot; (<a href="https://fr.wikipedia.org/wiki/Karat%C3%A9_Kid_(film,_1984)">pour ceux qui n'étaient pas nés en 1984</a>).</p>
+<p>Au chapitre précédent, nous avons <em>mappé</em> les coordonnées <em>x</em> et <em>y</em> <em>normalisées</em> sur les canaux <em>rouge</em> et <em>vert</em>.
+Nous avons créé une <em>fonction</em> qui prend un vecteur à deux dimensions (x et y) et retourne un vecteur à quatre dimensions (r, g, b et a).
+Avant de transformer des données à plusieurs dimensions, il nous faut commencer par des choses simples... beaucoup plus simples.
+Concrètement, nous devons comprendre commment marchent les fonctions à une dimension.
+Plus vous passerez de temps à apprendre et à maîtriser ces fonctions, plus votre Karaté-Shader sera redoutable.</p>
+<p><img src="mr_miyagi.jpg" alt="The Karate Kid (1984)"></p>
+<p>Le code suivant sera notre palissade.
+Sur cette palissade, nous visualisons la valeur normalisée de la position <em>x</em> (<code>st.x</code>) de deux façons : la luminosité (c'est le joli dégradé du noir au blanc en arrière plan) et une ligne verte dessinée par dessus (dans ce cas, la valeur <em>x</em> est assignée directement à <em>y</em>).
+Ne vous focalisez pas trop sur la fonction <code>plot</code> pour l'instant, nous y reviendrons en détail dans un moment.</p>
+<div class="codeAndCanvas" data="linear.frag"></div>
+<p><strong>Note</strong>: Le constructeur du type <code>vec3</code>, un vecteur à 3 dimensions (<code>r,g,b</code> ou <code>x,y,z</code> ; c'est la même chose), &quot;comprend&quot; que vous allez le construire avec la même valeur pour les trois canaux / dimensions.
+Il est donc possible d'ecrire <code>vec3 color = vec3(y);</code> pour construire un vecteur à 3 dimensions. Ce vecteur aura la valeur <code>y</code> assignée à chaque canal / dimension soit : <code>color.x = color.y = color.z = y</code> ou <code>color.r = color.g = color.b = y</code> (puisqu'on peut accéder aux variables du vecteur des 2 manières).
+Le constructeur du type <code>vec4</code> en revanche, &quot;comprend&quot; que vous allez le construire, soit en passant quatre valeurs dinstinctes : <code>vec4(0., 0.5, 1., 1.)</code>, soit en lui passant un <code>vec3</code> et un <code>float</code> (un nombre) : <code>vec4(color, 1.)</code>.
+Dans notre cas, la valeur du second paramètre (le <code>float</code>), permet de gérer l'<em>opacité</em> aussi appelé l'<em>alpha</em>.
+Référez vous aux lignes 20 et 26 dans l'exemple ci-dessus pour bien voir la différence de construction des 2 types.</p>
+<p>Ce code sera votre palissade ; il est important de bien l'observer et de bien le comprendre.
+Vous reviendrez souvent dans cet espace entre <em>0.0</em> et <em>1.0</em> pour maîtriser l'art de le transformer et de sculpter cette ligne.</p>
+<p>La relation entre <em>x</em> et <em>y</em> (la luminosité du dégradé), s'appelle une <em>interpolation</em>.
+Comme on passe une seule valeur (<em>y</em>) à la variable <em>color</em>, on obtient un niveau de gris et comme la valeur de <em>x</em> est <em>normalisée</em>, elle est comprise entre <em>0.0</em> et <em>1.0</em>, on obtient un dégradé du noir (<em>x=0.</em>) au blanc (<em>x=1.</em>).
+L'<em>interpolation</em> est un principe fondamental ; elle nous permet de faire passer progressivement une valeur de <em>A</em> vers <em>B</em> en fonction d'une troisième valeur <em>T</em> normalisée entre <em>0.0</em> et <em>1.0</em>.
+La ligne verte reflète ce qui se passe lors de l'interpolation, en l'occurrence, c'est une ligne droite puisque <em>x</em> passe de <em>0.0</em> à <em>1.0</em> de façon linéaire (<em>x</em> va de <em>0.0</em> à <em>1.0</em> de façon continue).
+A partir de là, nous pouvons utiliser des fonctions mathématiques pour <em>sculpter</em> la ligne. Par exemple, on peut passer <em>x</em> à la puissance 5 pour créer une ligne <em>courbe</em>.</p>
+<div class="codeAndCanvas" data="expo.frag"></div>
+<p>Intéressant n'est-ce-pas ? A la ligne 19, au lieu de <code>5.0</code> essayez différents exposants, par exemple: <code>20.0</code>, <code>2.0</code>, <code>1.0</code>, <code>0.0</code>, <code>0.2</code> et <code>0.02</code>.
+Comprendre la relation qui existe entre la valeur et l'exposant va nous être très utile.
+Ce genre de fonction mathématique nous donne un contrôle sur l'<em>expressivité</em> du code, c'est une sorte d'acupuncture qui permet de contrôle les flux de valeurs.</p>
+<p><a href="..\glossary\index-8.html?search=pow"><code>pow()</code></a> est une fonction native de GLSL et il y en a de nombreuses autres.
+La plupart sont accélérées matériellement, ce qui signifie que si on les utilise bien et avec parcimonie, elle permettent au code de s'exécuter plus vite.</p>
+<p>Essayez de remplacer la fonction <code>pow()</code> ligne 19 par: <a href="..\glossary\index-9.html?search=exp"><code>exp()</code></a>, <a href="..\glossary\index-10.html?search=log"><code>log()</code></a> ou <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>.
+Certaines de ces fonctions deviennent vraiment intéressantes quand on les utilise avec PI. Vous pouvez voir que j'ai déclaré une macro qui remplacera chaque appel à <code>PI</code> par la valeur <code>3.14159265359</code>.
+Par exemple : <code>sin(st.x * PI)</code>, produira une parabole, <code>pow(sin(st.x * PI), 5.)</code> effectuera un <em>pincement</em> de la parabole.</p>
+<h3>Step et Smoothstep</h3>
+<p>GLSL propose également des fonctions d'interpolation natives et accélérées matériellement.</p>
+<p>La fonction <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> prend 2 paramètres, le premier est une <em>limite</em> ou un <em>seuil</em> et le second est la valeur à tester.
+Toute valeur inférieure au <em>seuil</em> renverra <code>0.0</code> tandis que toute valeur supérieure au <em>seuil</em> renverra <code>1.0</code>.</p>
+<p>Essayez de changer la valeur de <em>seuil</em> à la ligne 20 du code suivant :</p>
+<div class="codeAndCanvas" data="step.frag"></div>
+<p>L'autre fonction d'interpolation s'appelle <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>.
+Avec deux nombres <em>A</em> et <em>B</em> et une valeur d'interpolation <em>T</em> comprise entre <em>0.0</em> et <em>1.0</em>, elle nous permet de passer de progressivement (et en souplesse) de <em>A</em> à <em>B</em> en fonction de <em>T</em>.
+Les deux premiers arguments sont les <em>bornes</em> (<em>A</em> et <em>B</em>) et le troisième est la valeur d'interpolation (<em>T</em>).</p>
+<div class="codeAndCanvas" data="smoothstep.frag"></div>
+<p>Dans l'exemple ci-dessus, ligne 12, vous remarquez qu'on a utilisé <code>smoothstep()</code> depuis le début dans la fonction <code>plot()</code> qui permet de dessiner la ligne verte.
+Pour chaque position le long de l'axe des <em>x</em>, cette fonction crée une <em>bosse</em> à un endroit précis de l'axe des <em>y</em>.
+Comment ? en combinant deux appels à <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>.
+Remplacez la ligne 20 par la fonction suivante et regardez l'arrière plan, on dirait une ligne floutée non ?
+En rapprochant les valeurs de <em>seuil</em> des <code>smoothstep()</code> (<em>0.45, 0.5</em> et <em>0.5, 0.55</em> par exemple), la ligne devient plus fine et moins floue.</p>
+<pre><code class="language-glsl">float y = smoothstep(0.2,0.5,st.x) - smoothstep(0.5,0.8,st.x);</code></pre>
+<h3>Sinus et Cosinus</h3>
+<p>Le mieux, si vous voulez utiliser les maths pour animer ou passer d'une valeur à une autre, c'est d'être copain avec les sinus et cosinus.</p>
+<p>Ces deux fonctions trigonométriques combinées permettent de dessiner des cercles qui sont plus utiles que le couteau suisse de MacGyver.
+Il est important de comprendre ce qu'elles font et comment les combiner.
+Dans un mouchoir de poche, à partir d'un angle en radians (1 radian = PI / 180), le <a href="..\glossary\index-3.html?search=cos">cosinus</a> renvoie la position <em>x</em> et le <a href="..\glossary\index-2.html?search=sin">sinus</a> renvoie la position <em>y</em> d'un point sur un cercle de rayon 1.
+Le fait que ces fonctions renvoient des valeurs <em>normalisées</em> (entre -1 et 1) de manière très &quot;continue&quot; ou très &quot;souple&quot;, en fait un outil indispensable.</p>
+<p><img src="sincos.gif" alt=""></p>
+<p>S'il est difficile de comprendre cette relation entre sinus / cosinus et le cercle unitaire (de rayon 1), l'animation ci-dessus la résume assez bien visuellement.</p>
+<div class="simpleFunction" data="y = sin(x);"></div>
+<p>Regardez attentivement cette sinusoïde et surtout comment la valeur <em>y</em> oscille entre -1 et 1.
+Comme nous l'avons vu sur l'exemple du temps au chapitre 3, on peut utiliser cette propriété temporelle de <a href="..\glossary\index-2.html?search=sin"><code>sin()</code></a> pour animer une valeur.
+Si vous regardez cet exemple dans un navigateur, vous pouvez changer le code de la formule ci-dessus pour voir comment la sinusoïde change (n'oubliez pas le point-virule en fin de ligne).</p>
+<p>Essayez les changements suivants et regardez ce qui se passe :</p>
+<ul>
+<li>
+<p>Ajoutez le temps (<code>u_time</code>) à <em>x</em> avant de calculer <code>sin</code>. Retenez ce <strong>mouvement</strong> le long des <em>x</em>.</p>
+</li>
+<li>
+<p>Multipliez <em>x</em> par <code>PI</code> avant de calculer <code>sin</code>. remarquez comme les deux <em>phases</em> <strong>rétrécissent</strong> de manière à ce que chaque cycle (tour complet) se répète entre deux valeurs entières.</p>
+</li>
+<li>
+<p>Multipliez le temps (<code>u_time</code>) par <em>x</em> avant de calculer <code>sin</code>. remarquez comme la <strong>fréquence</strong> entre phases se compresse. Notez qu'<code>u_time</code> peut déjà avoir une valeur très élevée, rendant le graphe illisible.</p>
+</li>
+<li>
+<p>Ajoutez 1.0 à <a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a>. Notez que toutes les vagues se <strong>déplacent</strong> vers le haut et comme toutes les valeurs sont maintenant comprises entre 0 et 2.</p>
+</li>
+<li>
+<p>Multipliez <a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a> par 2.0 et notez comme l'<strong>amplitude</strong> doubles de taille.</p>
+</li>
+<li>
+<p>Calculez la valeur absolue (<a href="..\glossary\index-12.html?search=abs"><code>abs()</code></a>) de <code>sin(x)</code>, on dirait que le tracé <strong>rebondit</strong>.</p>
+</li>
+<li>
+<p>Utilisez la partie fractionnelle (uniquement les chiffres après la virgule) (<a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a>) du résultat de <a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a>.</p>
+</li>
+<li>Ajoutez l'entier le plus grand (<a href="..\glossary\index-15.html?search=ceil"><code>ceil()</code></a>) à l'entier le plus petit (<a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a>) du résultat de <a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a> pour obtenir des <em>créneaux</em> entre -1 et 1.</li>
+</ul>
+<h3>Quelques fonctions indispensables</h3>
+<p>A la fin de l'exercice précédent, nous avons présenté quelques nouvelles fonctions, nous allons maintenant les tester.
+Pour ce faire, décommentez une ligne à la fois dans la liste suivante.
+Essayez de comprendre comment chacune fonctionne et comment vous pourriez les combiner.
+Vous vous demandez sans doute mais... pourquoi ?
+Une petite recherche de &quot;generative art&quot; sur Google vous apportera la réponse.
+Gardez à l'esprit que ces fonctions sont votre palissade, nous apprenons à maîtriser le mouvement sur une dimension, de bas en haut, puis de haut en bas.
+Bientôt, nous utiliserons, deux, trois et même quatre dimensions!</p>
+<p><img src="anthony-mattox-ribbon.jpg" alt="Anthony Mattox (2009)"></p>
+<p><div class="simpleFunction" data="y = mod(x,0.5); // renvoie x modulo 0.5
+//y = fract(x); // renvoie uniquement la partie fractionnelle d'un chiffre (les chiffres après la virgule)
+//y = ceil(x);  // renvoie le plus proche entier supérieur ou égal à x
+//y = floor(x); // renvoie le plus proche entier inférieur ou égal à x
+//y = sign(x);  // renvoie le signe de x (-1 ou 1)
+//y = abs(x);   // renvoie la valeur absolue de x
+//y = clamp(x,0.0,1.0); // force x à se retrouver entre 0.0 et 1.0
+//y = min(0.0,x);   // renvoie le plus petit chiffre entre 0 et x
+//y = max(0.0,x);   // renvoie le plus grand chiffre entre 0 et x"></div></p>
+<h3>Fonctions de formes avancées</h3>
+<p><a href="http://www.flong.com/">Golan Levin</a> a écrit quelques articles très instructifs sur des fonctions plus complexes.
+Les porter en GLSL est une bonne idée si vous souhaitez construire votre boîte à outils.</p>
+<ul>
+<li>
+<p>Fonctions Polynomiales : <a href="http://www.flong.com/texts/code/shapers_poly/">www.flong.com/texts/code/shapers_poly</a></p>
+</li>
+<li>
+<p>Fonctions Exponentielles : <a href="http://www.flong.com/texts/code/shapers_exp/">www.flong.com/texts/code/shapers_exp</a></p>
+</li>
+<li>
+<p>Fonctions Circulaires &amp; Elliptiques : <a href="http://www.flong.com/texts/code/shapers_circ/">www.flong.com/texts/code/shapers_circ</a></p>
+</li>
+<li>Fonctions de Bezier et autres fonctions paramétriques : <a href="http://www.flong.com/texts/code/shapers_bez/">www.flong.com/texts/code/shapers_bez</a></li>
+</ul>
+<p>Comme un chef qui collectionnerait les épices et autres ingrédients exotiques, les artistes digitaux et les codeurs créatifs en particulier aiment travailler leurs propres fonctions de forme.</p>
+<p><a href="http://www.iquilezles.org/">Iñigo Quiles</a> a écrit une liste de <a href="http://www.iquilezles.org/www/articles/functions/functions.htm">fonctions utiles</a>.
+Après avoir lu <a href="http://www.iquilezles.org/www/articles/functions/functions.htm">cet article</a> regardez leur traduction en GLSL.
+Notez bien les petits changements nécessaires, comme le &quot;.&quot; (point) sur les floats et l'utilisation des conventions de nommage GLSL pour les fonctions C ; par exemple <code>powf()</code> devient <code>pow()</code>:</p>
+<ul>
+<li><a href="..\edit.html#05/impulse.frag">Impulse</a></li>
+<li><a href="..\edit.html#05/cubicpulse.frag">Cubic Pulse</a></li>
+<li><a href="..\edit.html#05/expstep.frag">Exponential Step</a></li>
+<li><a href="..\edit.html#05/parabola.frag">Parabola</a></li>
+<li><a href="..\edit.html#05/pcurve.frag">Power Curve</a></li>
+</ul>
+<p>Pour vous motiver, voici un exemple élégant, fait par <a href="https://www.shadertoy.com/user/Danguafer">Danguafer</a> qui montre le karaté des fonctions de formes.</p>
+<iframe width="800" height="450" frameborder="0" src="https://www.shadertoy.com/embed/XsXXDn?gui=true&t=10&paused=true" allowfullscreen=""></iframe>
+<p>Au prochain chapitre, nous utiliserons ces nouveaux mouvements. D'abord pour mélanger des couleurs, puis pour dessiner des formes.</p>
+<h4>Exercices</h4>
+<p>Regardez cette table d'équations, réalisée par <a href="http://www.kynd.info/log/">Kynd</a>.
+Voyez comme il combine les fonctions et leurs propriétés pour contrôler les variations de valuer entre 0 et 1.
+A présent, c'est à votre tour de vous entraîner à reproduire ces fonctions.
+Souvenez vous que plus vous pratiquerez, meilleur sera votre karaté.</p>
+<p><img src="kynd.png" alt="Kynd - www.flickr.com/photos/kynd/9546075099/ (2013)"></p>
+<h4>Pour la boîte à outils</h4>
+<p>Voici quelques outils qui simplifient la visualisation des fonctions.</p>
+<ul>
+<li>Grapher : si vous avez MacOS, tapez <code>grapher</code> dans Spotlight et vous pourrez utiliser cet outil très pratique.</li>
+</ul>
+<p><img src="grapher.png" alt="OS X Grapher (2004)"></p>
+<ul>
+<li><a href="http://www.iquilezles.org/apps/graphtoy/">GraphToy</a> : <a href="http://www.iquilezles.org">Iñigo Quilez</a>, encore lui, a créé un outil pour visualiser les fonctions GLSL en WebGL.</li>
+</ul>
+<p><img src="graphtoy.png" alt="Iñigo Quilez - GraphToy (2010)"></p>
+<ul>
+<li><a href="http://tobyschachman.com/Shadershop/">Shadershop</a> : <a href="http://tobyschachman.com/">Toby Schachman</a> a créé cet outil génial qui permet de construire des fonctions de façon très intuitive.</li>
+</ul>
+<p><img src="shadershop.png" alt="Toby Schachman - Shadershop (2014)"></p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

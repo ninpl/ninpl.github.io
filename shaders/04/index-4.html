@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Running your shader</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>Exécuter vos shaders</h2>
+<p>Pour les besoins de ce livre comme pour ma pratique artistique, j'ai créé un écosystème d'outils permettant de créer, d'afficher, de partager et d'organiser mes shaders.
+Ces outils fonctionnent de la même manière sur Linux Desktop, MacOS, <a href="https://www.raspberrypi.org/">Raspberry Pi</a> et dans les navigateurs sans avoir besoin d'altérer le code.</p>
+<p><strong>Affichage</strong> : tous les exemples de ce livre sont affichés dans la page grâce à <a href="https://github.com/patriciogonzalezvivo/glslCanvas">glslCanvas</a> qui facilite grandement la fabrication et l'affichage de shaders autonomes.</p>
+<pre><code class="language-html">&lt;canvas class="glslCanvas" data-fragment-url=“yourShader.frag" data-textures=“yourInputImage.png” width="500" height="500"&gt;&lt;/canvas&gt;</code></pre>
+<p>Comme vous pouvez le voir, il suffit de créer un élément <code>canvas</code> auquel on applique la classe <code>class="glslCanvas"</code> et de lui passer l'url du fragment shader dans <code>data-fragment-url</code>.
+Pour en savoir plus, <a href="https://github.com/patriciogonzalezvivo/glslCanvas">vous pouvez lire ceci</a>.</p>
+<p>Si vous êtes comme moi, vous aurez sans doute envie de lancer vos shaders en lignes de commandes, dans ce cas vous devriez jeter un oeil à <a href="https://github.com/patriciogonzalezvivo/glslViewer">glslViewer</a>.
+Cette application permet d'incorporer un shader dans un script <code>bash</code> ou un pipeline Unix et de l'utiliser comme <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>.</p>
+<p><a href="https://github.com/patriciogonzalezvivo/glslViewer">glslViewer</a> est aussi un bon moyen de compiler vos shaders sur un <a href="https://www.raspberrypi.org/">Raspberry Pi</a> et c'est la raison pour laquelle <a href="http://openframe.io/">openFrame.io</a> l'utilise pour afficher les oeuvres.
+Pour en savoir plus, <a href="https://github.com/patriciogonzalezvivo/glslViewer">cliquez ici</a>.</p>
+<pre><code class="language-bash">glslViewer yourShader.frag yourInputImage.png —w 500 -h 500 -s 1 -o yourOutputImage.png</code></pre>
+<p><strong>Création</strong> : pour améliorer l'expérience de programmation des shaders, j'ai créé un éditeur disponible ici : <a href="https://github.com/patriciogonzalezvivo/glslEditor">glslEditor</a>.
+L'éditeur est embarqué dans les exemples de ce livre, il met à disposition une série de petits widgets qui rendent l'édition du code GLSL plus tangible et moins abstraite.
+Vous pouvez également le lancer dans une fenêtre de navigateur à cette adresse <a href="http://editor.thebookofshaders.com/">editor.thebookofshaders.com</a>.
+Pour en savoir plus, <a href="https://github.com/patriciogonzalezvivo/glslEditor">cliquez ici</a>.</p>
+<p><img src="glslEditor-01.gif" alt=""></p>
+<p>Si vous préférez travailler avec <a href="https://www.sublimetext.com/">SublimeText</a> vous pouvez installer le <a href="https://packagecontrol.io/packages/glslViewer">package pour glslViewer</a>.
+Pour en savoir plus, <a href="https://github.com/patriciogonzalezvivo/sublime-glslViewer">cliquez ici</a>.</p>
+<p><img src="glslViewer.gif" alt=""></p>
+<p><strong>Partager</strong> : l'éditeur en ligne (<a href="http://editor.thebookofshaders.com/">editor.thebookofshaders.com</a>) vous permet de partager vos shaders !
+La version autonome comme la version en ligne de l'éditeur permettent de sauver votre shader en ligne et d'obtenir une url unique.
+Il est également possible d'exporter le shader pour qu'il fonctionne sur <a href="http://openframe.io/">openFrame.io</a>.</p>
+<p><img src="glslEditor-00.gif" alt=""></p>
+<p><strong>Organiser</strong> : pouvoir partager ses shaders est une bonne chose, en plus de l'export vers <a href="http://openframe.io/">openFrame.io</a>,
+j'ai fait un outil permettant d'organiser vos shaders dans une galerie et d'intégrer cette galerie dans n'importe quel site.
+Il s'appelle <a href="https://github.com/patriciogonzalezvivo/glslGallery">glslGallery</a>, pour en savoir plus, <a href="https://github.com/patriciogonzalezvivo/glslGallery">cliquez ici</a>.</p>
+<p><img src="glslGallery.gif" alt=""></p>
+<h2>Lancer vos shaders depuis votre plateforme favorite</h2>
+<p>Si vous avez déjà programmé à l'aide de frameworks/APIs comme : <a href="https://processing.org/">Processing</a>, <a href="http://threejs.org/">Three.js</a> ou <a href="http://openframeworks.cc/">OpenFrameworks</a>,
+vous êtes sans doute impatients de tester vos shaders dans ces environnements.
+Les exemples suivants montrent comment intégrer les shaders sur ces plateformes en conservant les conventions de nommage que nous utiliserons dans ce livre.
+Vous retrouverez le code source complet sur le <a href="https://github.com/patriciogonzalezvivo/thebookofshaders/tree/master/04">dépôt GitHub de ce chapitre</a>.</p>
+<h3>Dans <strong>Three.js</strong></h3>
+<p>L'humble et brilliant Ricardo Cabello (alias <a href="https://twitter.com/mrdoob">MrDoob</a>) a développé avec d'autres <a href="https://github.com/mrdoob/three.js/graphs/contributors">contributeurs</a>, l'un des frameworks WebGL les plus utilisés : <a href="http://threejs.org/">Three.js</a>.
+Il existe de nombreuses ressources pour apprendre à se servir de ce framework JavaScript.</p>
+<p>L'exemple ci-dessous, vous donne le code nécessaire pour utiliser un shader dans Three.js.
+Notez bien la balise de script appelée <code>id="fragmentShader"</code>, c'est là qu'il faudra coller le code que vous trouverez dans ce livre.</p>
+<pre><code class="language-html">&lt;body&gt;
+    &lt;div id="container"&gt;&lt;/div&gt;
+    &lt;script src="js/three.min.js"&gt;&lt;/script&gt;
+    &lt;script id="vertexShader" type="x-shader/x-vertex"&gt;
+        void main() {
+            gl_Position = vec4( position, 1.0 );
+        }
+    &lt;/script&gt;
+    &lt;script id="fragmentShader" type="x-shader/x-fragment"&gt;
+        uniform vec2 u_resolution;
+        uniform float u_time;
+
+        void main() {
+            vec2 st = gl_FragCoord.xy/u_resolution.xy;
+            gl_FragColor=vec4(st.x,st.y,0.0,1.0);
+        }
+    &lt;/script&gt;
+    &lt;script&gt;
+        var container;
+        var camera, scene, renderer;
+        var uniforms;
+
+        init();
+        animate();
+
+        function init() {
+            container = document.getElementById( 'container' );
+
+            camera = new THREE.Camera();
+            camera.position.z = 1;
+
+            scene = new THREE.Scene();
+
+            var geometry = new THREE.PlaneBufferGeometry( 2, 2 );
+
+            uniforms = {
+                u_time: { type: "f", value: 1.0 },
+                u_resolution: { type: "v2", value: new THREE.Vector2() },
+                u_mouse: { type: "v2", value: new THREE.Vector2() }
+            };
+
+            var material = new THREE.ShaderMaterial( {
+                uniforms: uniforms,
+                vertexShader: document.getElementById( 'vertexShader' ).textContent,
+                fragmentShader: document.getElementById( 'fragmentShader' ).textContent
+            } );
+
+            var mesh = new THREE.Mesh( geometry, material );
+            scene.add( mesh );
+
+            renderer = new THREE.WebGLRenderer();
+            renderer.setPixelRatio( window.devicePixelRatio );
+
+            container.appendChild( renderer.domElement );
+
+            onWindowResize();
+            window.addEventListener( 'resize', onWindowResize, false );
+
+            document.onmousemove = function(e){
+              uniforms.u_mouse.value.x = e.pageX
+              uniforms.u_mouse.value.y = e.pageY
+            }
+        }
+
+        function onWindowResize( event ) {
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            uniforms.u_resolution.value.x = renderer.domElement.width;
+            uniforms.u_resolution.value.y = renderer.domElement.height;
+        }
+
+        function animate() {
+            requestAnimationFrame( animate );
+            render();
+        }
+
+        function render() {
+            uniforms.u_time.value += 0.05;
+            renderer.render( scene, camera );
+        }
+    &lt;/script&gt;
+&lt;/body&gt;</code></pre>
+<h3>Dans <strong>Processing</strong></h3>
+<p>Initié par <a href="http://benfry.com/">Ben Fry</a> et <a href="http://reas.com/">Casey Reas</a> en 2001, <a href="https://processing.org/">Processing</a> est un framework Java
+extraordinairement simple et très puissant qui vous aidera à faire vos premiers pas dans le code créatif (ça a été mon cas).
+<a href="https://codeanticode.wordpress.com/">Andres Colubri</a> a contribué des mises à jour importantes concernant OpenGL et la gestion vidéo dans Processing.
+Ces ajouts simplifient énormément l'intégration des shaders GLSL dans l'environnement de développement.
+Processing va chercher le shader appelé <code>"shader.frag"</code> dans le dossier <code>data</code> du sketch.
+Assurez vous de copier les exemples du livre dans ce dossier et de les renommer correctement.</p>
+<pre><code class="language-cpp">PShader shader;
+
+void setup() {
+  size(640, 360, P2D);
+  noStroke();
+
+  shader = loadShader("shader.frag");
+}
+
+void draw() {
+  shader.set("u_resolution", float(width), float(height));
+  shader.set("u_mouse", float(mouseX), float(mouseY));
+  shader.set("u_time", millis() / 1000.0);
+  shader(shader);
+  rect(0,0,width,height);
+}</code></pre>
+<p>Pour que le shader fonctionne dans les versions antérieures à Processing 2.1, il faut ajouter la ligne suivante : <code>#define PROCESSING_COLOR_SHADER</code> au début du shader.
+Il devrait ressembler à cela :</p>
+<pre><code class="language-glsl">#ifdef GL_ES
+precision mediump float;
+#endif
+
+#define PROCESSING_COLOR_SHADER
+
+uniform vec2 u_resolution;
+uniform vec3 u_mouse;
+uniform float u_time;
+
+void main() {
+    vec2 st = gl_FragCoord.st/u_resolution;
+    gl_FragColor = vec4(st.x,st.y,0.0,1.0);
+}</code></pre>
+<p>Pour en savoir plus sur les shaders dans Processing, vous pouvez vous reporter à ce <a href="https://processing.org/tutorials/pshader/">tutoriel</a>.</p>
+<h3>Dans <strong>openFrameworks</strong></h3>
+<p>Chacun a sa zone de confort, pour moi, cela reste <a href="http://openframeworks.cc/">la communité openFrameworks</a>.
+Ce framework C++ intègre OpenGL et d'autres librairies C++ open source.
+Il est très proche de Processing à ceci près que c'est un langage compilé et qu'il vaut donc mieux être habitué aux compilateurs C++.
+Comme Processing, openFrameworks va chercher le fichier du shader dans le dossier <code>data</code>, donc n'oubliez pas de créer un fichier <code>.frag</code>, d'y coller le contenu du shader et de spécifier le nom de ce fichier dans votre programme OF.</p>
+<pre><code class="language-cpp">void ofApp::draw(){
+    ofShader shader;
+    shader.load("","shader.frag");
+
+    shader.begin();
+    shader.setUniform1f("u_time", ofGetElapsedTimef());
+    shader.setUniform2f("u_resolution", ofGetWidth(), ofGetHeight());
+    ofRect(0,0,ofGetWidth(), ofGetHeight());
+    shader.end();
+}</code></pre>
+<p>Pour plus d'informations sur les shader OpenFrameworks, vous pouvez vous reporter à cet <a href="http://openframeworks.cc/ofBook/chapters/shaders.html">excellent tutoriel</a> écrit par <a href="http://thefactoryfactory.com/">Joshua Noble</a>.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

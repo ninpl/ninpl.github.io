@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Shapes</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+        <!-- Translation style -->
+        <link type="text/css" rel="stylesheet" href="..\css\style-jp.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>形について</h2>
+<p><img src="froebel.jpg" alt="Alice Hubbard, Providence, United States, ca. 1892. Photo: Zindman/Freemont."></p>
+<p>ついにこの時が来ました。私たちはこの瞬間のために技を磨いてきたのです。あなたはGLSLの基礎の大部分、値の型と関数について学びました。シェイピング関数も繰り返し練習してきました。今こそ学んだ全てを掛け合わせる時です。この挑戦を受けて立ちましょう。この章では並列処理ならではの方法でシンプルな形を描く方法を学びます。</p>
+<h3>長方形</h3>
+<p>数学の授業で使ったような方眼紙があって、そこに正方形を描く宿題が出たと想像してください。紙のサイズは10×10で正方形は8×8にする必要があります。あなたならどうしますか。</p>
+<p><img src="grid_paper.jpg" alt=""></p>
+<p>一番上と下の行、左右両端の列を除いてすべてを塗りつぶせばよいですね。</p>
+<p>これがシェーダーになんの関係があるのでしょう。方眼紙の小さな正方形1つ1つはスレッド（ピクセル）です。それぞれの小さな正方形は自分の位置を、チェス盤上の行と列のように把握しています。以前の章で私たちは x と y を赤と緑の色のチャンネルに割り当てました。また 0.0 から 1.0 の間の狭い二次元の領域を使う方法も学んできました。描画領域の中央に正方形を描くのに、これらの知識をどう活かせばよいでしょうか。</p>
+<p>描画する範囲についての <code>if</code> 文を使った疑似コードから始めてみましょう。基本的な考え方は方眼紙の宿題ととてもよく似ています。</p>
+<pre><code class="language-glsl">    if ( (X GREATER THAN 1) AND (Y GREATER THAN 1) )
+        paint white
+    else
+        paint black</code></pre>
+<p>方針がまとまったところで、 <code>if</code> 文を <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> に置き換えて、10×10のマス目の代わりに 0.0 から 1.0 に正規化された値を使ってみましょう。</p>
+<pre><code class="language-glsl">uniform vec2 u_resolution;
+
+void main(){
+    vec2 st = gl_FragCoord.xy/u_resolution.xy;
+    vec3 color = vec3(0.0);
+
+    // Each result will return 1.0 (white) or 0.0 (black).
+    float left = step(0.1,st.x);   // Similar to ( X greater than 0.1 )
+    float bottom = step(0.1,st.y); // Similar to ( Y greater than 0.1 )
+
+    // The multiplication of left*bottom will be similar to the logical AND.
+    color = vec3( left * bottom );
+
+    gl_FragColor = vec4(color,1.0);
+}</code></pre>
+<p><a href="..\glossary\index-21.html?search=step"><code>step()</code></a> 関数は、 x か y が 0.1 より小さくなるピクセルを黒（<code>vec3(0.0)</code>）に、他のすべてのピクセルを白（<code>vec3(1.0)</code>）に変えてくれます。<code>left</code> と <code>bottom</code> の掛け算は <code>AND</code> 演算の役割をして、両方ともの値が 1.0 だった場合にのみ 1.0 を返します。結果として描画領域の下側と左側に2本の黒い線が引かれることになります。</p>
+<p><img src="rect-01.jpg" alt=""></p>
+<p>このコードではそれぞれの軸（左側と下側）に対して同じ構造を繰り返しています。<a href="..\glossary\index-21.html?search=step"><code>step()</code></a>  に1つずつ値を渡す代わりに、2つの値を一度に渡せば数行分のコードを節約することができます。下記を見てください。</p>
+<pre><code class="language-glsl">    vec2 borders = step(vec2(0.1),st);
+    float pct = borders.x * borders.y;</code></pre>
+<p>ここまでではまだ2本の辺（左側と下側）しか描けていません。もう2本にも手をつけましょう。</p>
+<div class="codeAndCanvas" data="rect-making.frag"></div>
+<p>コメントを外すと、<code>st</code> 座標を反転させてから同じ <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> 関数を繰り返す様子が見られます。こうすると <code>vec2(0.0,0.0)</code> が右上の角になります。紙をひっくり返して作業を繰り返すのと同じことをデジタルに行っているわけです。</p>
+<p><img src="rect-02.jpg" alt=""></p>
+<p>18行目と22行目で全ての辺の値が掛け合わされていることに注目してください。これは下記のように書くこともできます。</p>
+<pre><code class="language-glsl">    vec2 bl = step(vec2(0.1),st);       // bottom-left
+    vec2 tr = step(vec2(0.1),1.0-st);   // top-right
+    color = vec3(bl.x * bl.y * tr.x * tr.y);</code></pre>
+<p>面白いでしょう。<a href="..\glossary\index-21.html?search=step"><code>step()</code></a> を使いこなし、掛け算を使って論理演算をして、さらに座標をひっくり返すとこんなことができるのです。</p>
+<p>さらに先に進む前に下記の課題に挑戦しましょう。</p>
+<ul>
+<li>
+<p>長方形の大きさと縦横比を変えてみましょう。</p>
+</li>
+<li>
+<p>同じコードを元に <a href="..\glossary\index-21.html?search=step"><code>step()</code></a> の代わりに <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> を使ってみましょう。値を調節するとぼやけた境界線からスムーズな枠線まで変化させることができます。</p>
+</li>
+<li>
+<p><a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a> を使ってみましょう。</p>
+</li>
+<li>
+<p>課題の中から気に入ったコードを選び、それを関数に変えて再利用できるようにしましょう。効率的でフレキシブルな関数を考えましょう。</p>
+</li>
+<li>
+<p>長方形を塗りつぶすのではなく、枠線だけを描く関数を作ってください。</p>
+</li>
+<li>どうすれば1つの描画領域の異なる位置に、複数の長方形を配置することができると思いますか。良い方法を考え出せたら<a href="http://en.wikipedia.org/wiki/Piet_Mondrian">モンドリアン</a>の絵のようなパターンを作ってみせてください。</li>
+</ul>
+<p><img src="mondrian.jpg" alt="Piet Mondria - Tableau (1921)"></p>
+<h3>円</h3>
+<p>方眼紙の上やデカルト座標系で長方形を描くのは簡単です。しかし円を描くには別のアプローチが必要です。しかもシェーダーではそれぞれのピクセルごとに処理するアルゴリズムを用いなければなりません。1つの方法は <a href="..\glossary\index-21.html?search=step"><code>step()</code></a>  関数を使って円が描けるように、空間座標を置き換えることです。</p>
+<p>どうすればいいのでしょう。数学の教室に戻って、方眼紙の上にコンパスを半径の長さに開いたところから始めましょう。片方の端を円の中心に置いて1回転させて円の淵をなぞります。</p>
+<p><img src="compass.jpg" alt=""></p>
+<p>シェーダーでは方眼のマス目の1つ1つがピクセルに対応します。方眼紙とコンパスからシェーダーに置き換えるということは、それぞれのピクセル（スレッド）に対して円の内側にあるかどうかを問い合わせることを意味します。これは円の中心からピクセルまでの距離を計算することで行うことができます。</p>
+<p><img src="circle.jpg" alt=""></p>
+<p>距離を計算するには幾つかの方法があります。最も簡単なのは <a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a> 関数を使うことです。この関数は内部的に2つの点の差を取りその <a href="..\glossary\index-24.html?search=length"><code>length()</code></a> を計算します（今回のケースではピクセルの座標と描画領域の中心対象にします）。<code>length()</code> 関数は<a href="https://ja.wikipedia.org/wiki/%E6%96%9C%E8%BE%BA">ピタゴラスの定理</a>のショートカットで内部的に平方根（<a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>）を使います。</p>
+<p><img src="hypotenuse.png" alt=""></p>
+<p><a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a>, <a href="..\glossary\index-24.html?search=length"><code>length()</code></a>, <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a> のいずれかを使って中心までの距離を計算することができます。下記のコードにはこれら3つの関数が全て含まれていますが、当然ながら全く同じ結果になります。</p>
+<ul>
+<li>コメントを付け替えて、違う方法を使っても同じ結果が得られることを確かめましょう。</li>
+</ul>
+<div class="codeAndCanvas" data="circle-making.frag"></div>
+<p>このサンプルでは中心からの距離をピクセルの明るさに割り当てました。中心に近いピクセルほど値が低く（暗く）なります。中心（ <code>vec2(0.5, 0.5)</code> ）からの距離は最大でルート2の半分にしかならないため一番明るいところでも真っ白にはなりません。このサンプルをよく見て考えてみてください。（訳注：原文では最大の距離は0.5はとなっていますが誤りです。中心から描画領域の角までの距離はルート2の半分です。）</p>
+<ul>
+<li>
+<p>何か気づいたことはありますか。</p>
+</li>
+<li>
+<p>これをどう使えば円が描けるでしょう。</p>
+</li>
+<li>コードを書き換えて円形のグラデーションの全体が描画領域に収まるようにしてください。</li>
+</ul>
+<h3>ディスタンスフィールド</h3>
+<p>上のサンプルは、暗い色ほど標高が高いことを示した、高低差を表す地図だと考えることもできます。このグラデーションは円錐のようなものを表しています。円錐の頂上に立ったところを想像してください。円錐の縁までの距離は 1.0 です（訳注：原文では0.5となっていますが、明るさが1.0に
+なるところを縁と考えると 1.0 です）。これはどの方角でも同じです。どこで円錐を「輪切りに」するかを決めることで、大きさの違う円を得ることができます。</p>
+<p><img src="distance-field.jpg" alt=""></p>
+<p>要するにここでは空間を中心からの距離に基づいて解釈し直すことによって形を作っています。この手法はディスタンスフィールドと呼ばれ、フォントのアウトラインから3Dグラフィクスまで様々な用途に使われています。
+(訳注：distance field の適当な訳語が見当たらなかったのでカタカナで「ディスタンスフィールド」とします。おおざっぱに、点や図形からの距離を空間上にマップしたものだと考えてください。)</p>
+<p>下記の課題に挑戦しましょう。</p>
+<ul>
+<li><a href="..\glossary\index-21.html?search=step"><code>step()</code></a> を使って、0.5 以上を全て白に、それ以外を黒にしてください。</li>
+<li>背景と図形の色を反転させてください。</li>
+<li>円の縁を滑らかにしてみましょう。<a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> を使って色々な値を試してください。</li>
+<li>うまくできたら後で再利用できるように関数として定義してください。</li>
+<li>円に色をつけてください。</li>
+<li>心臓の鼓動のように円を伸縮させるアニメーションを作ることはできますか。（前章のアニメーションを参考にしましょう。）</li>
+<li>円を移動させることはできますか。円を別の場所に動かして、さらにもう1つの円を別の場所に描くことはできますか。</li>
+<li>様々な演算や関数を使って、複数のディスタンスフィールドを組み合わせると何が起きるでしょう。</li>
+</ul>
+<pre><code class="language-glsl">pct = distance(st,vec2(0.4)) + distance(st,vec2(0.6));
+pct = distance(st,vec2(0.4)) * distance(st,vec2(0.6));
+pct = min(distance(st,vec2(0.4)),distance(st,vec2(0.6)));
+pct = max(distance(st,vec2(0.4)),distance(st,vec2(0.6)));
+pct = pow(distance(st,vec2(0.4)),distance(st,vec2(0.6)));</code></pre>
+<ul>
+<li>これらのテクニックを使った作品を3つ作ってください。アニメーションにできればさらに素敵です。</li>
+</ul>
+<h4>便利な道具箱</h4>
+<p>平方根（<a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>）や、それに依存した関数はどれもコンピュータの処理能力に負荷をかける可能性があります。下記は円形のディスタンスフィールドを作る別の方法で、平方根の代わりに内積（<a href="..\glossary\index-26.html?search=dot"><code>dot()</code></a> ）を使います。</p>
+<div class="codeAndCanvas" data="circle.frag"></div>
+<h3>ディスタンスフィールドの便利な性質</h3>
+<p><img src="zen-garden.jpg" alt="Zen garden"></p>
+<p>ディスタンスフィールドを使うと、ほぼどんなものでも描くことができます。もちろん形が複雑なほどより計算式がもより複雑になりますが、一旦ある形のディスタンスフィールドを作り出すための式を手に入れれば、複数の形を組み合わせたり、縁をぼかしたり何重にも線を引いたり様々なエフェクトをかけたりすることはとても簡単にできます。そのため下記の例に見られるようにディスタンスフィールドはフォントのレンダリングによく使われています。</p>
+<ul>
+<li><a href="https://www.mapbox.com/blog/text-signed-distance-fields/">Mapbox GL Labels</a></li>
+<li><a href="https://twitter.com/mattdesl">Matt DesLauriers</a></li>
+<li><a href="http://mattdesl.svbtle.com/material-design-on-the-gpu">Material Design Fonts</a></li>
+<li><a href="http://chimera.labs.oreilly.com/books/1234000001814/ch07.html#ch07_id36000921">Chapter 7 of iPhone 3D Programming, O’Reilly</a></li>
+</ul>
+<p>下記のコードをみてください</p>
+<div class="codeAndCanvas" data="rect-df.frag"></div>
+<p>まず座標系を中心に動かして半分の大きさに縮小することで値が -1 から 1の間に収まるようにします（訳注：16行目の式の <code>2.</code> と <code>1.</code> を書き換えて見ると理解の助けになります）。24行目では <a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a> 関数を使ってディスタンスフィールドが作り出すパターンが見やすいように視覚化しています。ディスタンスフィールドは禅寺の庭
+のような繰り返しの模様を作り出します。</p>
+<p>19行目のディスタンスフィールドを作り出す式を見てみましょう。4つの象限すべてで <code>vec3(.3)</code>、つまり <code>(.3,.3)</code> までの
+距離を計算しています（<a href="..\glossary\index-12.html?search=abs"><code>abs()</code></a> を使って座標を絶対値にしてから距離を求めています）。</p>
+<p>20行目のコメントを外すと 0 との <a href="..\glossary\index-18.html?search=min"><code>min()</code></a> を使って、4つの点への距離を組み合わせた場合を見ることができます。これは新く面白いパターンを作り出します。</p>
+<p>さて21行目のコメントを外して見ましょう。<a href="..\glossary\index-19.html?search=max"><code>max()</code></a> を使っていること以外は同じです。結果は角丸の四角形になります。ディスタンスフィールドの輪は中心から遠ざかるほど半径が大きくなっていることに注目しましょう。</p>
+<p>27行目から29行目までのコメントを順番に外して、ディスタンスフィールドを使ってパターンを作る様々な方法を学びましょう。</p>
+<h3>極座標を使った図形</h3>
+<p><img src="mangold.jpg" alt="Robert Mangold - Untitled (2008)"></p>
+<p>色についての章では下記の式を使って、それぞれのピクセルについて半径と角度を計算し、デカルト座標を極座標に変換しました。</p>
+<pre><code class="language-glsl">    vec2 pos = vec2(0.5)-st;
+    float r = length(pos)*2.0;
+    float a = atan(pos.y,pos.x);</code></pre>
+<p>本章の前半ではこの式の一部を利用して円を描きました。<a href="..\glossary\index-24.html?search=length"><code>length()</code></a>を使って中心からそれぞれのピクセルまでの距離を計算したのですね。ディスタンスフィールドのことを知った今、我々は極座標を使って図形を描く新たな手法について学ぶことができます。</p>
+<p>この手法は少し用途が限られますがとてもシンプルです。様々な異なる図形を描くために、角度に対する半径の大きさをいろいろと変化させます。どのように変化させるのでしょう。そうです、シェイピング関数を使います。</p>
+<p>下記の2つのサンプルでは、同じ関数がデカルト座標と極座標（21行目から25行目）の両方で使われているのが分かるでしょう。一方の座標系ともう片方の座標系との関係に注意しながら、コメントを1つつ外してください。</p>
+<p><div class="simpleFunction" data="y = cos(x*3.);
+//y = abs(cos(x*3.));
+//y = abs(cos(x*2.5))*0.5+0.3;
+//y = abs(cos(x*12.)*sin(x*3.))*.8+.1;
+//y = smoothstep(-.5,1., cos(x*10.))*0.2+0.5;"></div></p>
+<div class="codeAndCanvas" data="polar.frag"></div>
+<p>下記を試してみましょう。</p>
+<ul>
+<li>
+<p>図形をアニメーションにしてください。</p>
+</li>
+<li>
+<p>異なるシェイピング関数を組み合わせて図形の中に穴を開けてください。花や雪の結晶、歯車などを描いてみましょう。</p>
+</li>
+<li>シェイピング関数の章で使った <code>plot()</code> 関数を利用して輪郭線だけを描いてください。</li>
+</ul>
+<h3>技を掛け合わせる</h3>
+<p>さて <a href="..\glossary\index-7.html?search=atan"><code>atan()</code></a>を使い、角度に対する半径の大きさを変化させて図形を描く方法について学びました。次は <code>atan()</code> をディスタンスフィールドと組み合わせて、すべての技を駆使する方法を学びます。</p>
+<p>この方法では多角形の辺の数を元に極座標を使ってディスタンスフィールドを構成します。<a href="https://twitter.com/baldand">Andrew Baldwin</a>による、<a href="http://thndl.com/square-shaped-shaders.html">下記のコード</a>をご覧ください。</p>
+<div class="codeAndCanvas" data="shapes.frag"></div>
+<ul>
+<li>
+<p>このサンプルを使って、ピクセルの位置と描きたい図形の頂点の数を入力とし、ディスタンスフィールドの値を返す関数を作ってください。</p>
+</li>
+<li>
+<p><a href="..\glossary\index-18.html?search=min"><code>min()</code></a> と <a href="..\glossary\index-19.html?search=max"><code>max()</code></a> を使ってディスタンスフィールドを組み合わせてみましょう。</p>
+</li>
+<li>幾何学的なロゴをなにか1つ選んでディスタンスフィールドを使って再現してみましょう。</li>
+</ul>
+<p>おめでとうございます。これで山を乗り越えました。<a href="https://processing.org/">Processing</a>を使えばシンプルな形を描くのは簡単なことですが、ここで学んだ方法は違います。シェーダーの世界では形を描くのにもひねくれたやり方をしなくてはなりませんし、新しいコーディングの考え方に慣れるのは大変なことです。一息入れて、学んだ概念を頭に馴染ませましょう。</p>
+<p>図形の描きかたを学んだので、新しいアイデアが頭の中に浮かんでくることでしょう。次の章ではこれらを移動、回転、そして拡大・縮小させる方法を学びます。これで図形を様々に組み合わせることができるようになります。</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

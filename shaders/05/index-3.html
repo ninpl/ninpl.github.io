@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Shaping functions</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h1>Algorithmic drawing</h1>
+<h2>Shaping functions</h2>
+<p>이번 챕터는 &quot;미야기씨의 울타리 수업&quot;이라고 표현할수 있겠다. 전에는, 노멀라이즈된 ,<em>x</em>와 <em>y</em>를 <em>red</em>와 <em>green</em>채널들에 적용해 보았다.
+원래는 2차원 벡터(x and y)를 받아, 4차원 벡터(r, g, b and a)를 리턴하는 함수가 좀더 자연스럽니다. 하지만 지금 이런문제를 해결하기 전에, 간단한것부터 시작해보자... 훨씬더 간단한것부터. 이말은 1차원 함수에 대한 정의에서부터 시작한다. 시간과 에너지를 많이 투자하고 배우고 마스터하려고 하다보면, 우리는 더욱더 강한 쉐이더 카라테를 배울수 있을것이다.</p>
+<p><img src="mr_miyagi.jpg" alt="베스트 키드 (1985)"></p>
+<p>아래 코드는 우리의 울타리가 될것이다. 여기서 우린 <em>x</em> 위치정보(<code>st.x</code>)의 노멀라이즈된 값을 2가지 방법으로 시각화 하는데: 하나는 밝기로 (검은색에서 흰색으로 잘 묻어져 나가는 색), 다른 하나는 그 위에 초록색 선( <em>x</em> 값이 바로 <em>y</em> 값에 적용된)으로 나타낼 것이다. 지금은 선을 그리는 함수에 대해 너무 신경쓰지말자. 그부분은 나중에 더 자세히 다루게 될것이다.</p>
+<div class="codeAndCanvas" data="linear.frag"></div>
+<p><strong>퀵노트</strong>: <code>vec3</code> 타입 생성자는 유저가 세가지 컬러 채널들을 입력하려는 것을 &quot;이해&quot; 한다. 또한, <code>vec4</code> 타입생성자역시, 3차원 벡터와, 1개의 실수(보통 alpha나 opacity라고 일컫는)로 이루어진 4차원 벡터를 만들려고 한다는 점 또한 이해한다. 라인 20과 26을 위에 코드에서 찾아보라.</p>
+<p>이 코드는 다시한번 당신의 울타리이다; 받아들이고 이해하는것이 중요하다. 앞으로도 계쏙 이 <em>0.0</em> 에서 <em>1.0</em>의 공간을 계속 사용하게 될것이다. 여기서 당신은 블렌딩과, 선그리기를 마스터 해야한다.</p>
+<p><em>x</em>와 <em>y</em> (또는 밝기)의 1:1 대응은 흔히 <em>선형 보간법</em> 이라고 알려져 있다. 여기서 우린 수학적 함수로 선을 <em>그릴수</em> 있다. 예로, <em>x</em>값이 지수로 5를 갖는다면 이 선은 <em>구부러</em> 진다.</p>
+<div class="codeAndCanvas" data="expo.frag"></div>
+<p>흥미로운일이지 않은가? 라인 19에서 다른 값들을 시도해보자: 20.0, 2.0, 1.0, 0.0, 0.2, 0.02. 지수를 통해 나오는 값에 대한 상관관계를 이해하는 것은 앞으로 매우 유용한 권법이 될것이다. 이런 종류의 수학적 함수를 코드의 공간에서 이용하는것은 엄청난 표현 컨트롤을 할수 있도록 허용한다. 마치 데이터를 이용한 한방권법이라고 저자는 소개한다.</p>
+<p><a href="..\glossary\index-8.html?search=pow"><code>pow()</code></a> 는 GLSL의 내장형 함수이고 GLSL은 이런 수학함수를 많이 제공한다. 거의 모든 함수들은 하드웨어 레벨에서 구동되도록 '가속화' 되어 있다. 다시말해, 이런 이점을 잘 활용하면 굉장히 빠른 코드를 쓸수 있게 된다.</p>
+<p>라인 19의 power 함수를 다른 함수로 교체해보자.: <a href="..\glossary\index-9.html?search=exp"><code>exp()</code></a>, <a href="..\glossary\index-10.html?search=log"><code>log()</code></a>, <a href="..\glossary\index-11.html?search=sqrt"><code>sqrt()</code></a>. 어떤함수들은 인자로 PI값을 넣었을때 재밌는 결과를 내기도 한다. 라인 5에 <code>PI</code>값을 <code>3.14159265359</code>로 define해 둔것을 알수 있다.</p>
+<h3>Step and Smoothstep</h3>
+<p>GLSL에는 하드웨어 가속화된 내장 보간법 함수들이 존재한다.</p>
+<p><a href="..\glossary\index-21.html?search=step"><code>step()</code></a> 보간법은 2개의 인자를 받는다. 첫번째것은 경계나, 한계점이고, 두번째것은 체크하거나 넘길 값이다. 어떤값이든 이 한계점보다 낮은 값은 <code>0</code>으로 처리되어 리턴될것이고, 한계점보다 높은 값은 <code>1.0</code>으로 처리되어 리턴될것이다.</p>
+<p>라인 20의 한계점 값을 바꾸어 보자.</p>
+<div class="codeAndCanvas" data="step.frag"></div>
+<p>또 하나의 잘 알려진 함수중 하나는 <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a>이다. 두값의 레인지를 주고, 그 사이의 값으로 보간시켜주는 방법이다. 처음 두개의 인자는 레인지의 시작점과 끝점이고, 세번째 인자는 두 점사이에서 보간되고 리턴되는 값이다.</p>
+<div class="codeAndCanvas" data="smoothstep.frag"></div>
+<p>전 예제의 라인 12를 보면, smoothstep을 <code>plot()</code>에 사용하여 초록색 선을 그린것을 알수 있다. 각 <em>x</em>값에 대한 <em>y</em>값을 <em>bump</em>시킨 것으로 표현되고 있는데. 실제로 <a href="..\glossary\index-22.html?search=smoothstep"><code>smoothstep()</code></a> 를 통해 그려진 쉐이프 A를 같은 방법으로 그려진 쉐이프 B에서 그냥 빼준것이다. 아래 예제를 보고 라인 20과 바꿔보아라. ght?</p>
+<pre><code class="language-glsl">    float y = smoothstep(0.2,0.5,st.x) - smoothstep(0.5,0.8,st.x);</code></pre>
+<h3>Sine과 Cosine 함수</h3>
+<p>수학으로 애니메이션, 쉐이프등을 만들거나 섞을때는, sine과 cosine만큼 좋은 친구도 없다.</p>
+<p>이 두개의 삼각함수로 원을 그리는 유명한 예제를 보면 마치 맥가이버의 스위스 군용 나이프와도 같다. 이들이 왜 이렇게 작동되고, 서로 영향을 주는지 확실히 이해를 해볼 필요가 있다. 요약하자면, 이 함수들로 전해지는 인자값(흔히 radians 값)에 따라, 반지름이 1인 동그라미 모양을 그리는 선 위에 모든 <em>x</em> (<a href="..\glossary\index-3.html?search=cos">cosine</a>) 와 <em>y</em> (<a href="..\glossary\index-2.html?search=sin">sine</a>)가 나타내어 진다고 볼수 있다. 그리고, 이 값들은 노멀라이즈된 값(-1 에서 1 사이의 값)으로 리턴되는 이 방식은 굉장히 유용한 툴로 알려져 있다.</p>
+<p><img src="sincos.gif" alt=""></p>
+<p>삼각함수들과 동그라미에 대한 해석등을 전부 다를수는 없지만, 위에 애니메이션을 통해 이들이 할수 있는 일이 얼마나 간단하고 아름다운지 살펴볼수 있다.</p>
+<div class="simpleFunction" data="y = sin(x);"></div>
+<p>전 챕터의 time 예제에서 봤듯이, sine wave를 통해, <em>y</em>값이 얼마나 부드럽게 +1에서 -1으로 이동되는지 확인해보라. <a href="..\glossary\index-2.html?search=sin"><code>sin()</code></a>의 리드믹한 결과값은 애니메이션에 굉장히 유용하다. 브라우져에서 이 예제를 읽고 있다면 코드를 변경해서 변화를 시도해보자. (노트: 끝에 semicolon은 까먹지 말고 붙히자.)</p>
+<p>아래의 예제들을 실행해보고, 어떤일들이 벌어지는지 관찰해보자:</p>
+<ul>
+<li>
+<p><code>sin</code>을 계산하기 전에 time(<code>u_time</code>)을 <em>x</em> 적용해보자. <em>x</em>에 대한 <strong>움직임</strong>을 습득해보자.</p>
+</li>
+<li>
+<p><code>sin</code>을 계산하기 전에 <em>x</em>에 <code>PI</code>를 곱해보자. 반복구간이 <strong>좁혀</strong> 지는것을 확인할수 있다.</p>
+</li>
+<li>
+<p>time (<code>u_time</code>) 와 <em>x</em>값을 <code>sin</code>에 적용되기 전에 곱해보자. *<em>반복성</em>이 잦아지는것을 확인할수 있다. u_time이 커지면서 그래프를 점차 읽기 힘들어지게 된다는 것 또한 확인할수 있다.</p>
+</li>
+<li>
+<p><a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a>에 1.0을 더해보자. 전체 웨이브가 <strong>이동</strong> 되는 것을 확인할수 있다. 이제 모든 값들은 0.0에서 2.0사이로 구간이 바뀌었다.</p>
+</li>
+<li>
+<p><a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a>에 2.0을 곱해보자. 웨이브의 전체적 <strong>강도</strong>가 2배로 변하는 것을 알수 있다.</p>
+</li>
+<li>
+<p>절대값(<a href="..\glossary\index-12.html?search=abs"><code>abs()</code></a>)을 <code>sin(x)</code>에 적용해보자. 공이 튕기는것 같은 효과를 볼수 있다.</p>
+</li>
+<li>
+<p>소수점 구간(<a href="..\glossary\index-16.html?search=fract"><code>fract()</code></a>)만 취하고, 이를 <a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a>에 적용해보자.</p>
+</li>
+<li>올림 (<a href="..\glossary\index-15.html?search=ceil"><code>ceil()</code></a>)된 수나 내림(<a href="..\glossary\index-14.html?search=floor"><code>floor()</code></a>)된 수 역시 <a href="..\glossary\index-2.html?search=sin"><code>sin(x)</code></a>에 적용해보고, -1에서 1값이 어떻게 리턴되는지 살펴보자.</li>
+</ul>
+<h3>키타 유용한 함수들</h3>
+<p>마지막에 여러 새로운 함수들을 소개했다. 이제 이들을 가지고 하나씩 적용을 해볼차례이다. 하나씩 uncomment를 하면 결과를 확인할수 있을것이다.이들에 대해 샅샅히 파내어 익혀보자. 혹시나 왜그래야 하는지에 대한 의문이 든다면, 좋은 대답중 하나는 &quot;generative art&quot;에 대한 것이다. 이 함수들이 우리의 울타리 하는 것을 생각하자. 우리는 지금 1차원에서 권법을 연마하는 중인것이다. 곧, 2차원, 3차원, 4차원까지 우리는 진입하게 될것이다!</p>
+<p><img src="anthony-mattox-ribbon.jpg" alt="Anthony Mattox (2009)"></p>
+<p><div class="simpleFunction" data="y = mod(x,0.5); // 0.5로 나눈 나머지
+//y = fract(x); // 소수점 구간만 취하기.
+//y = ceil(x);  // x값보다 큰 정수, 올림.
+//y = floor(x); // x값보다 작은 정수, 내림.
+//y = sign(x);  // x의 부호 취득.
+//y = abs(x);   // x의 절대값 구하기.
+//y = clamp(x,0.0,1.0); // x값이 0.0과 1.0에 존재하도록 자른다.
+//y = min(0.0,x);   // x가 0.0보다 작으면 x, 크면 0.0
+//y = max(0.0,x);   // x가 0.0보다 크면 x, 작으면 0.0 "></div></p>
+<h3>고급 쉐이핑 함수들</h3>
+<p><a href="http://www.flong.com/">Golan Levin</a> 는 제법 복잡하지만 굉장히 유용한 쉐이핑 함수들을 잘 정리해 두었다. 이들을 GLSL로 포팅하는것또한 굉장히 유용한 공부방법일 것이다. 자신만의 쉐이핑 펑션 라이브러리를 개설해보자.</p>
+<ul>
+<li>
+<p><a href="http://www.flong.com/texts/code/shapers_poly/">Polynomial Shaping Functions: www.flong.com/texts/code/shapers_poly</a></p>
+</li>
+<li>
+<p><a href="http://www.flong.com/texts/code/shapers_exp/">Exponential Shaping Functions: www.flong.com/texts/code/shapers_exp</a></p>
+</li>
+<li>
+<p><a href="http://www.flong.com/texts/code/shapers_circ/">Circular &amp; Elliptical Shaping Functions: www.flong.com/texts/code/shapers_circ</a></p>
+</li>
+<li><a href="http://www.flong.com/texts/code/shapers_bez/">Bezier and Other Parametric Shaping Functions: www.flong.com/texts/code/shapers_bez</a></li>
+</ul>
+<p>요리사가 자신만의 요리재료와 소스 노하우를 모으듯, digital artist들이나, creative coder들 역시 그들만의 쉐이핑 펑션을 만드는 버릇을 가져야 할것이다.</p>
+<p>[Iñigo Quiles](<a href="http://www">http://www</a> .iquilezles.org/)가 가지고 있는 <a href="http://www.iquilezles.org/www/articles/functions/functions.htm">useful functions</a>정리는 매우 유용하다. <a href="http://www.iquilezles.org/www/articles/functions/functions.htm">이 글</a>을 읽고, GLSL로 번역해보는 작업도 해볼수 있다. 조심해야 될 점들은, &quot;.&quot;(점)을 실수 뒤에 꼭 넣어야 한다는 점이다. 함수의 이름이 <code>powf()</code> 에서 <code>pow()</code>등으로 바뀌어 구현되는 점등이다.</p>
+<ul>
+<li><a href="..\edit.html#05/impulse.frag">Impulse</a></li>
+<li><a href="..\edit.html#05/cubicpulse.frag">Cubic Pulse</a></li>
+<li><a href="..\edit.html#05/expstep.frag">Exponential Step</a></li>
+<li><a href="..\edit.html#05/parabola.frag">Parabola</a></li>
+<li><a href="..\edit.html#05/pcurve.frag">Power Curve</a></li>
+</ul>
+<p>계속 작업이 뜨겁게 진행되는것을 도울수 있게 여기 멋진 작업도 소개해본다. (made by <a href="https://www.shadertoy.com/user/Danguafer">Danguafer</a>)</p>
+<iframe width="800" height="450" frameborder="0" src="https://www.shadertoy.com/embed/XsXXDn?gui=true&t=10&paused=true" allowfullscreen=""></iframe>
+<p><em>다음 &gt;&gt;</em> 챕터에서 우리는 새로운 동작에 대해 배우게 될것이다. 색에 조합에 대해 배우고, 쉐이프를 창조하는 작업일것이다.</p>
+<h4>연습</h4>
+<p>아래의 공식 테이블을 한번 살펴보자. <a href="http://www.kynd.info/log/">Kynd</a> 수학함수들이 서로 어떻게 섞여지는지 살펴보고, 이 값들이 0.0에서 1.0사이에서 어떻게 바뀌어 가는지 보자. 이제 스스로 함수들을 복제하고 조합해볼 차례이다. 기억하자. 연습을 할수록 당신의 카라테가 늘게 될것이라는 것을.</p>
+<p><img src="kynd.png" alt="Kynd - www.flickr.com/photos/kynd/9546075099/ (2013)"></p>
+<h4>당신의 툴박스를 위해</h4>
+<p>수학함수를 쉽게 시각화 할수있는 툴을 소개해보고자 한다.</p>
+<ul>
+<li>Grapher: 맥북에서 OSX를 쓴다면, <code>grapher</code>를 스팟라이트에서 검색하면 사용할수 있다.</li>
+</ul>
+<p><img src="grapher.png" alt="OS X Grapher (2004)"></p>
+<ul>
+<li><a href="http://www.iquilezles.org/apps/graphtoy/">GraphToy</a>: <a href="http://www.iquilezles.org">Iñigo Quilez</a>의  GLSL함수들을 WebGL에서 시각화 하는 툴이다.</li>
+</ul>
+<p><img src="graphtoy.png" alt="Iñigo Quilez - GraphToy (2010)"></p>
+<ul>
+<li><a href="http://tobyschachman.com/Shadershop/">Shadershop</a>: <a href="http://tobyschachman.com/">Toby Schachman</a>가 만든 복잡한 함수들을 만들고, 직관적인 시각화를 할수 있게 해주는 툴중 하나이다.</li>
+</ul>
+<p><img src="shadershop.png" alt="Toby Schachman - Shadershop (2014)"></p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

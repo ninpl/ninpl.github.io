@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: color</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+        <!-- Translation style -->
+        <link type="text/css" rel="stylesheet" href="..\css\style-jp.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>色について</h2>
+<p><img src="klee.jpg" alt="Paul Klee - Color Chart (1931)"></p>
+<p>GLSLのベクトル型について、まだあまり話す機会がありませんでした。先に進む前にこれらの変数についてもっと学んでおくことが大事です。ここで色について考えることはベクトル型をより良く理解するためのとても良い題材になります。</p>
+<p>オブジェクト指向のプログラミングに慣れている方であれば、ここまでベクトルの中のデータに、C言語の <code>struct</code> やその種の構造体と同様の方法でアクセスしてきたことに気づいたでしょう。</p>
+<pre><code class="language-glsl">vec3 red = vec3(1.0,0.0,0.0);
+red.x = 1.0;
+red.y = 0.0;
+red.z = 0.0;</code></pre>
+<p>色をx, y, zで表して定義するのは分かりにくいし誤解を招きそうですね。そのため、ベクトル型の変数では同じ情報に違う名前を使ってアクセスできるようになっています。<code>.x</code> <code>.y</code> <code>.z</code> の代わりに <code>.r</code> <code>.g</code> <code>.b</code> もしくは <code>.s</code> <code>.t</code> <code>.p</code> を使うことができるのです（<code>.s</code> <code>.t</code> <code>.p</code> は通常、テクスチャ空間の座標を示すのに使われます。これについては後の章で学びます)。ベクトル型のデータにはまた、 <code>[0]</code> <code>[1]</code>  <code>[2]</code>  といったインデックスを使ってアクセスすることもできます。</p>
+<p>下記のコードでは同じデータにアクセスするための全て方法を示しています。</p>
+<pre><code class="language-glsl">vec4 vector;
+vector[0] = vector.r = vector.x = vector.s;
+vector[1] = vector.g = vector.y = vector.t;
+vector[2] = vector.b = vector.z = vector.p;
+vector[3] = vector.a = vector.w = vector.q;</code></pre>
+<p>ベクトルの中の値を呼び表すためのこれらの方法は、分かりやすいコードを書くために用意された仕組みです。シェーダー言語に備わったこの柔軟性は、色と空間座標を交換可能なものとして考える足がかりになります。</p>
+<p>もう1つ、GLSLのベクトル型の素晴らしい機能として、これらの値の名前を好きな順番で組み合わせて使えることが挙げられます。このおかげで簡単に値を入れ替えたり、異なる型へ変換することができます。この機能はswizzleと呼ばれています。</p>
+<pre><code class="language-glsl">vec3 yellow, magenta, green;
+
+// Making Yellow
+yellow.rg = vec2(1.0);  // Assigning 1. to red and green channels
+yellow[2] = 0.0;        // Assigning 0. to blue channel
+
+// Making Magenta
+magenta = yellow.rbg;   // Assign the channels with green and blue swapped
+
+// Making Green
+green.rgb = yellow.bgb; // Assign the blue channel of Yellow (0) to red and blue channels</code></pre>
+<h4>便利な道具</h4>
+<p>数値を使って色を指定するのに慣れていないかもしれません。なかなか直感的ではありませんからね。ありがたいことに、手助けになる良くできたプログラムが数多くあります。あなたの使い道にあったものを見つけて <code>vec3</code> や <code>vec4</code> の形式で色を取り出せるように設定しておきましょう。例えば、下記は私が<a href="http://www.eigenlogik.com/spectrum/mac">Spectrum</a>で使っているテンプレートです。</p>
+<pre><code>    vec3({{rn}},{{gn}},{{bn}})
+    vec4({{rn}},{{gn}},{{bn}},1.0)</code></pre>
+<h3>色の調合</h3>
+<p>色がどのように定義されるか分かったところで、これまでに学んだ知識と組み合わせてみましょう。GLSLにはとても便利な <a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a> 関数があり、2つの値をパーセンテージを指定して混ぜ合わせることができます。
+パーセンテージの範囲はわかりますか？ そう、0.0 から 1.0 ですね。長い時間をかけてミヤギさんの壁でカラテの修行を積んだあなたにはピッタリです。さあ学んだ技を披露しましょう。</p>
+<p><img src="mix-f.jpg" alt=""></p>
+<p>下記のコードの18行目で、サイン波の値の絶対値が <code>colorA</code> と <code>colorB</code> を混ぜ合わせるために使われている様子を見てください。</p>
+<div class="codeAndCanvas" data="mix.frag"></div>
+<p>さあ、あなたの技を披露する番です。</p>
+<ul>
+<li>色を表情豊かに変化させてください。なにか特定の感情を思い浮かべてみましょう。一番ふさわしいのは何色ですか? どのように現れてどのように消えていくのでしょう? もう1つ別の感情について考えて、ふさわしい色を選んでください。上記のサンプルの始まりと終わりの色をこの2つの感情の色に変えてください。次にシェイピング関数を使って色を滑らかに変化させましょう。</li>
+</ul>
+<p>Robert Pennerは<a href="http://easings.net/">イージング関数</a>と呼ばれる、コンピューターアニメーションでよく使われる一連の関数を開発しました。<a href="..\edit.html#06/easing.frag">このサンプル</a>を使って研究したりインスピレーションを得ることもできますが、一番良いのはあなた自身で関数を作ってみることでしょう。</p>
+<h3>グラデーションで遊ぶ</h3>
+<p><a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a> 関数には幅広い使い道があります。3つ目の引数として単に <code>float</code> で割合を指定する代わりに、最初の2つの引数に対応する型の値を渡すことができます。上記のサンプルでは <code>vec3</code> を使いました。こうすることで <code>r</code>, <code>g</code>,  <code>b</code> のそれぞれのチャンネルを個別のパーセンテージで混ぜ合わせることができます。</p>
+<p><img src="mix-vec.jpg" alt=""></p>
+<p>下記のサンプルを見てください。前章のサンプルと同じように、色の変化を正規化されたxの値に対応させて線で示しています。今のところ全ての色のチャンネルはこの同じ線に対応しています。</p>
+<p>25行目のコメントを外してどうなるか見てみましょう。26行目と27行目のコメントも外してみてください。</p>
+<div class="codeAndCanvas" data="gradient.frag"></div>
+<p>おそらく、25〜27行目で3つの異なるシェイピング関数が使われていることに気づいたでしょう。これらの関数を書き換えて遊んでみましょう。色々と実験をして面白いグラデーションを作り、前章で学んだ技を披露するチャンスです。下記を試してみましょう。</p>
+<p><img src="turner.jpg" alt="William Turner - The Fighting Temeraire (1838)"></p>
+<ul>
+<li>
+<p>ウィリアム・ターナーの夕日のようなグラデーションを作り出してみましょう。</p>
+</li>
+<li>
+<p><code>u_time</code> を使って日の出から日の入りまでの変化のアニメーションを作ってみましょう。</p>
+</li>
+<li>
+<p>今までに学んだことを使って虹を作り出すことはできますか?</p>
+</li>
+<li><code>step()</code> 関数を使ってカラフルな旗を作ってください。</li>
+</ul>
+<h3>HSB</h3>
+<p>色空間を抜きにして色のことを語ることはできません。おそらくご存知の通り、赤、緑、青のチャンネルで表す以外にも色を体系化する方法があります。</p>
+<p><a href="http://en.wikipedia.org/wiki/HSL_and_HSV">HSB</a>は色相（Hue）、彩度（Saturation）、明度（Brightness または Value）の頭文字を取ったもので、より直感的で便利な色の体系です。<code>rgb2hsv()</code> と <code>hsv2rgb()</code> の2つの関数をよく読んでみてください。</p>
+<p>x軸を色相、y軸を明度に割り当てると色のスペクトルを作ることができます。HSBの空間的な色の配置は非常に便利で、HSBを使うと、RGBよりも直感的に色を選ぶことができます。</p>
+<div class="codeAndCanvas" data="hsb.frag"></div>
+<h3>HSBと極座標</h3>
+<p>HSBはもともとデカルト座標（xとy）ではなく、極座標（中心からの角度と距離）で色を示す仕組みです。私たちのHSB関数を極座標に対応させるには、ピクセル座標を元に、描画領域の中心からの角度と距離を求めなくてはなりません。そのためには <a href="..\glossary\index-24.html?search=length"><code>length()</code></a> 関数と <a href="..\glossary\index-7.html?search=atan"><code>atan(y,x)</code></a> 関数を使います。  <code>atan(y,x)</code> は一般的な言語で使われている <code>atan2(y,x)</code> のGLSL版です。</p>
+<p>ベクトルや三角関数を扱う際には <code>vec2</code>, <code>vec3</code> や <code>vec4</code> を、それらが色を表している場合でもベクトルと見なします。私たちは色とベクトルを同等に扱います。そして、このフレキシブルな考え方が様々なことを実現する支えになるのを目の当たりにするでしょう。</p>
+<p>もし興味があれば、 <a href="..\glossary\index-24.html?search=length"><code>length</code></a> の他にも沢山の幾何学関数があります。</p>
+<ul>
+<li><a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a></li>
+<li><a href="..\glossary\index-26.html?search=dot"><code>dot()</code></a></li>
+<li><a href="..\glossary\index-27.html?search=cross"><code>cross</code></a></li>
+<li><a href="..\glossary\index-28.html?search=normalize"><code>normalize()</code></a></li>
+<li><a href="..\glossary\index-29.html?search=faceforward"><code>faceforward()</code></a></li>
+<li><a href="..\glossary\index-30.html?search=reflect"><code>reflect()</code></a></li>
+<li><a href="..\glossary\index-31.html?search=refract"><code>refract()</code></a></li>
+</ul>
+<p>また、GLSLにはベクトル型の値を比較するための特別な関数があります。</p>
+<ul>
+<li><a href="..\glossary\index-32.html?search=lessThan"><code>lessThan()</code></a></li>
+<li><a href="..\glossary\index-33.html?search=lessThanEqual"><code>lessThanEqual()</code></a></li>
+<li><a href="..\glossary\index-34.html?search=greaterThan"><code>greaterThan()</code></a></li>
+<li><a href="..\glossary\index-35.html?search=greaterThanEqual"><code>greaterThanEqual()</code></a></li>
+<li><a href="..\glossary\index-36.html?search=equal"><code>equal()</code></a></li>
+<li><a href="..\glossary\index-37.html?search=notEqual"><code>notEqual()</code></a>.</li>
+</ul>
+<p>角度と距離を求めたら、それを正規化して 0.0 から 1.0 の間に収める必要があります。下のサンプルの27行目の <a href="..\glossary\index-7.html?search=atan"><code>atan(y,x)</code></a> は角度を -π から π（-3.14...から3.14...）の間の値で返すので、これをコードの冒頭で定義されている <code>TWO_PI</code> で割って -0.5 から 0.5 の値にします。そして単純に 0.5 を足せば望み通りの 0.0 から 1.0 の値が手に入ります。描画領域の中心から距離を測っているので、半径は最大で 0.5 になります。最大値を 1.0 にするためにはこの幅を倍にする（2を掛ける）必要があります。</p>
+<p>このように、値の範囲を変換して 0.0 から 1.0 の扱いやすい値にすることが大事です。</p>
+<p>（訳注：この半径についての説明は正確ではありません。例えば描画領域の中心から角までの距離を2倍にするとルート2になるので1.0を超えてしまいます。必ず値が0.0から1.0に収まるようにするにはどうすればいいか、また <code>hsb2rgb</code> 関数に想定外の大きな値や小さな値を渡すとどうなるか考えて試してみましょう。）</p>
+<div class="codeAndCanvas" data="hsb-colorwheel.frag"></div>
+<p>下記の課題に挑戦してみましょう。</p>
+<ul>
+<li>
+<p>上の極座標のサンプルをMacOSのレインボーカーソルのような、回転する色の輪に変えてください。</p>
+</li>
+<li>シェイピング関数と、HSBをRGBへ変換する関数とを組み合わせて、特定の色相を広げてその他の色相が狭くなるようにしてください。</li>
+</ul>
+<p><img src="spectrums.jpg" alt="William Home Lizars - Red, blue and yellow spectra, with the solar spectrum (1834)"></p>
+<ul>
+<li>下の画像を見てください。カラーピッカーで使われている色の輪をよく見ると、サンプルコードとは違う<a href="https://en.wikipedia.org/wiki/RYB_color_model">RYB色空間</a>に基づく色のスペクトルが使われていることに気づくでしょう（訳注：これはアプリケーション次第です。必ずこうなっているとは限りません）。例えば赤の反対は緑のはずですが、サンプルコードではシアンになっています。これを修正して下の画像とまったく同じに見えるようにする方法を考えられるでしょうか（ヒント：シェイピング関数を使うチャンスです）。</li>
+</ul>
+<p><img src="colorwheel.png" alt=""></p>
+<h4>関数と引数についての注釈</h4>
+<p>次の章に進む前にちょっと立ち止まって振り返ってみましょう。引数の型の前にある <code>in</code> に気づいたでしょう。これは<a href="http://www.shaderific.com/glsl-qualifiers/#inputqualifier">修飾子（qualifier）</a> と呼ばれるもので、この場合は引数が読み取り専用であることを示しています。この後の章では引数を <code>out</code> （書き出し専用） や <code>inout</code> （読み書き両方可能） に指定する例も出てきます。最後の <code>inout</code> は参照を引数として渡すのと概念的に同じで、渡された変数を変更するようにしてくれます。（訳注：関数の中で変数の値を変更すると、関数に引数として渡した元々の変数の値にも反映されます。）</p>
+<pre><code class="language-glsl">int newFunction(in vec4 aVec4,   // read-only
+                out vec3 aVec3,    // write-only
+                inout int aInt);   // read-write</code></pre>
+<p>今はまだ信じられないかもしれませんが、もう私たちはクールな絵を描くために必要な全てを手に入れました。次の章では全ての技を組み合わせて幾何学的な図形を描く方法を学びます。</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

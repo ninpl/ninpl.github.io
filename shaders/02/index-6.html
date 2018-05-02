@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Hello world!</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>Hallo Welt</h2>
+<p>Beim Erlernen einer neuen Programmiersprache beginnt man häufig mit dem berühmten „Hello world!“-Beispiel. Dabei handelt es sich um einen simplen Einzeiler, der die Meldung „Hello world!“ auf den Bildschirm bringt - als Gruß an die Welt und als Ausdruck der Vorfreude auf die kommenden Möglichkeiten.</p>
+<p>In der Welt der Shader-Programmierung ist die Textausgabe eine zu komplizierte Angelegenheit, um gleich damit zu beginnen. Stattdessen wollen wir eine leuchtende Farbe als Willkommensgruß auf den Bildschirm zaubern.</p>
+<div class="codeAndCanvas" data="hello_world.frag"></div>
+<p>Falls Du dieses Buch in einem Internet-Browser liest, ist der obige Programmcode interaktiv. Du kannst in das Listing hineinklicken und jeden Teil des Programmcodes ändern. Deine Änderungen werden sofort innerhalb der Zeichenfläche sichtbar, weil der Shader-Code automatisch kompiliert und ausgeführt wird. Versuche es doch einfach einmal, indem Du die Zahlenwerte in der <em>Programmzeile 6</em> änderst.</p>
+<p>Obwohl diese wenigen, einfachen Programmzeilen noch nicht nach viel aussehen, können wir daraus bereits einige Erkenntnisse gewinnen:</p>
+<ol>
+<li>
+<p>Shader-Programme verfügen über genau eine <code>main</code>-Funktion, die an ihrem Ende einen Farbcode zurückliefert. Das erinnert stark an die Programmiersprache C, nur dass es dort nicht immer um Farbcodes geht.</p>
+</li>
+<li>
+<p>Der berechnete Farbwert wird für die Rückgabe in die reservierte globale Variable <code>gl_FragColor</code> eingetragen.</p>
+</li>
+<li>
+<p>Die stark von C beeinflusste Programmiersprache für Shader verfügt über eingebaute <em>Variablen</em> (so wie <code>gl_FragColor</code>), <em>Funktionen</em> und <em>Datentypen</em>. Im obigen Beispiel sehen wir bereits den Datentyp <code>vec4</code>, der einen vierdimensionalen Vektor aus Fließkommazahlen repräsentiert. Im weiteren Verlauf des Buches werden wir noch die Typen <code>vec3</code> und <code>vec2</code> kennen lernen, ebenso die wichtigen Typen <code>float</code>, <code>int</code> und <code>bool</code>.</p>
+</li>
+<li>
+<p>Wenn wir uns den <code>vec4</code> Datentyp im obigen Beispiel genau anschauen, können wir bereits erahnen, dass die vier Zahlenwerte für die Farbkanäle Rot, Grün, Blau und Alpha (ein Maß für die Deckkraft) stehen. Außerdem erkennen wir, dass diese Werte offensichtlich normalisiert sind, sich also zwischen <code>0.0</code> und <code>1.0</code> bewegen. Später werden wir noch sehen, dass es uns diese Normalisierung vereinfacht, die Inhalte von Variablen auf Farbwerte <em>abzubilden</em>.</p>
+</li>
+<li>
+<p>Eine weiteres aus C bekanntes Element sind die Präprozessor-Makros, die auch in unserem obigen Beispiel auftauchen. Mit ihrer Hilfe lassen sich Konstanten definieren (<code>#define</code>) und konditionale Festlegungen treffen (mit <code>#ifdef</code> und <code>#endif</code>). Alle diese Makrobefehle beginnen mit einer Raute (<code>#</code>). Ihre Auswertung erfolgt als erster Schritt noch vor der eigentlichen Kompilierung des Shaders. Das Ergebnis dieser Auswertung bestimmt jeweils, welche Zeilen und Ausdrücke tatsächlich in den Programmcode einfließen, der anschließend kompiliert wird. In unserem obigen Beispiel wird die <em>Programmzeile 2</em> beispielsweise nur dann übernommen, wenn das Symbol <code>GL_ES</code> definiert ist. Dies ist in der Regel nur in Umgebungen auf mobilen Geräten der Fall, d.h. wenn das obige Programm beispielsweise auf einem Smartphone kompiliert wird, ist die Zeile 2 darin vorhanden und wirkt sich entsprechend aus. Beim Kompilieren auf einem Laptop oder PC taucht die Zeile 2 aber gar nicht auf, weil dort auch das Symbol <code>GL_ES</code> nicht definiert ist.</p>
+</li>
+<li>
+<p>Fließkomma-Datentypen sind ganz entscheidend für die Berechnungen innerhalb von Shadern. Deshalb spielt die <em>Genauigkeit</em> dieser Operationen eine wichtige Rolle. Eine geringere Genauigkeit bedeutet weniger Aufwand und geht deshalb mit einer schnelleren Berechnung einher. Der Preis dafür sind allerdings Einbußen bei der Qualität der Berechnungen. Wenn man will, kann man die Genauigkeit jeder einzelnen Fließkommavariablen genau festlegen. Meist unterscheidet man jedoch grundsätzlich, je nach den Möglichkeiten der Plattform, auf der ein Shader zur Ausführung kommen soll. So setzen wir hier in der zweiten Programmzeile die Genauigkeit auf Medium (<code>precision mediump float;</code>), wenn der Shader auf einem Mobilgerät kompiliert wird. Darüber hinaus gibt es noch die Genauigkeitsstufen „niedrig“ (<code>precision lowp float;</code>) und „hoch“ (<code>precision highp float;</code>). Letzteres ist auf vielen Plattformen die Vorgabe, sofern wir nichts Anderes festlegen.</p>
+</li>
+<li>Die letzte und für die Praxis vielleicht wichtigste Erkenntnis aus dem obigen Programmcode ist, dass wir Fließkommawerte immer mit einem Punkt („.“) versehen sollten, auch wenn der Nachkommateil leer bleibt (Null ist). Denn sonst macht der Compiler möglicherweise Integer-Werte (Ganzzahlen) daraus, und das kann während der Ausführung des Shaders zu hässlichen Programmfehlern führen. Die Zeichenfläche bleibt dann einfach weiß, weil es nicht weitergeht. Wenn du guten und auf vielen Shader-Plattformen ausführbaren Code entwickeln möchtest, gewöhne Dir die Kennzeichnung als Fließkommazahl durch den Punkt am besten gleich an. Denn der folgende Programmcode wird beispielsweise auf einigen Shader-Plattformen funktionieren, auf anderen hingegen nicht:</li>
+</ol>
+<pre><code class="language-glsl">void main() {
+    gl_FragColor = vec4(1,0,0,1);   // potenzielle Fehlerquelle!
+}</code></pre>
+<p>So, wo wir nun die wichtigen Elemente unseres kleinen „Hello world!“-Programms beschrieben haben, ist es an der Zeit, mit Veränderungen am Programmcode zu experimentieren. Du wirst feststellen, dass sich das Programm bei Syntaxfehlern oder unbekannten Befehlen weigert, zu kompilieren, und die Zeichenfläche deshalb weiß bleibt. Es gibt einige interessante Dinge, die Du direkt einmal ausprobieren kannst, beispielsweise:</p>
+<ul>
+<li>
+<p>Versuche, die Fließkommazahlen durch Ganzzahlen zu ersetzen. Dann wirst Du unmittelbar feststellen, ob Deine aktuelle Umgebung/Grafikkarte damit umgehen kann.</p>
+</li>
+<li>
+<p>Versuche, die <em>Programmzeile 6</em> auszukommentieren, und schau was passiert, wenn der Code dadurch keinen Farbwert zurückliefert.</p>
+</li>
+<li>Versuche, eine zusätzliche Funktion in den Programmcode einzufügen, die eine von Dir gewählte Farbe zurückliefert und rufe diese Funktion innerhalb von <code>main()</code> auf. Dazu ein Tipp: Hier folgt der Programmcode für eine Funktion, die Rot zurückliefert:</li>
+</ul>
+<pre><code class="language-glsl">vec4 red(){
+    return vec4(1.0,0.0,0.0,1.0);
+}</code></pre>
+<ul>
+<li>Es gibt verschiedene Wege, um einen Wert vom Typ <code>vec4</code> zu konstruieren. Versuche, weitere Wege zu entdecken. So geht es zum Beispiel auch:</li>
+</ul>
+<pre><code class="language-glsl">vec4 color = vec4(vec3(1.0,0.0,1.0),1.0);</code></pre>
+<p>Obwohl dieses „Hello world!“-Programm noch nicht so wahnsinnig aufregend daherkommt, ist es doch das simpelste Beispiel aus der Welt der Shader. Wir beeinflussen damit die Farbe aller Bildpunkte innerhalb unserer Zeichenfläche. In den nun folgenden Kapiteln werden wir die Farbe der einzelnen Bildpunkte aufgrund von zwei unterschiedlichen Arten von Eingabewerten steuern: Ihrer Position (d.h. die Lage des zu bearbeitenden Pixels innerhalb der Zeichenfläche) und der Zeit (d.h. der Zeitspanne, die seit dem Laden einer Seite vergangen ist).</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

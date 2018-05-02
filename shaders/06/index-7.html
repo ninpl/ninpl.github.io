@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: color</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="klee.jpg" alt="Пол Кли - диаграмма цвета (1931)"></p>
+<h2>Цвета</h2>
+<p>Ранее мы не очень подробно раскрывали тему работы с векторами в GLSL. Прежде чем двинуться дальше, не помешает изучить векторы  поглубже, и работа с цветом как нельзя лучше подходит для этого.</p>
+<p>Если вы знакомы с объектно-ориентированной парадигмой программирования, вы скорее всего заметили, что мы обращаемся к данным в векторах на манер структур (<code>struct</code>) в языке С.</p>
+<pre><code class="language-glsl">vec3 red = vec3(1.0,0.0,0.0);
+red.x = 1.0;
+red.y = 0.0;
+red.z = 0.0;</code></pre>
+<p>Работа с цветом через <em>x</em>, <em>y</em> и <em>z</em> может сбить с толку и ввести в заблуждение, не так ли? Поэтому в GLSL можно получить доступ к тем же самым данным через другие имена. Значения <code>.x</code>, <code>.y</code> и <code>.z</code> так же именуются <code>.r</code>, <code>.g</code> и <code>.b</code>, и <code>.s</code>, <code>.t</code> и <code>.p</code>. Последний набор имён обычно используется для пространственных координат текстур, с которыми мы познакомимся в следующих главах. Кроме того, для доступа к элементам вектора можно использовать численные индексы <code>[0]</code>, <code>[1]</code> и <code>[2]</code>.</p>
+<p>Следующие строки демонстрируют все способы доступа к одним и тем же данным:</p>
+<pre><code class="language-glsl">vec4 vector;
+vector[0] = vector.r = vector.x = vector.s;
+vector[1] = vector.g = vector.y = vector.t;
+vector[2] = vector.b = vector.z = vector.p;
+vector[3] = vector.a = vector.w = vector.q;</code></pre>
+<p>Все эти способы - всего лишь дополнительные имена для доступа к одним и тем же данным, которые призваны помочь вам в создании более понятного кода. Эта гибкость языка шейдеров станет путеводной нитью, помогающей вам мыслить о значениях цвета и координатах пространства как о взаимозаменяемых сущностях.</p>
+<p>Другое замечательное свойство векторных типов GLSL - это возможность доступа к координатам в произвольном порядке, которая упрощает преобразование и смешивание значений.</p>
+<pre><code class="language-glsl">vec3 yellow, magenta, green;
+
+// Задаём жёлтый цвет
+yellow.rg = vec2(1.0);  // Записываем 1.0 в красный и зелёный каналы
+yellow[2] = 0.0;        // Записываем 0.0 в синий
+
+// Задаём малиновый цвет
+magenta = yellow.rbg;   // Меняем местами зелёный и синий
+
+// Задаём зелёный цвет
+green.rgb = yellow.bgb; // Записываем значение синего канала жёлтого цвета (0) в красный и синий</code></pre>
+<h4>Инструментарий</h4>
+<p>Возможно, вам ранее не приходилось подбирать цвет с помощью чисел. Это выглядит очень контринтуитивно. К счастью, есть множество умных программ, которые упрощают это занятие. Найдите наиболее подходящую для себя и научите её представлять цвета в форматах <code>vec3</code> или <code>vec4</code>. Например, вот такие шаблоны я использую в <a href="http://www.eigenlogik.com/spectrum/mac">Spectrum</a>:</p>
+<pre><code>vec3({{rn}},{{gn}},{{bn}})
+vec4({{rn}},{{gn}},{{bn}},1.0)</code></pre>
+<h3>Смешивание цветов</h3>
+<p>Теперь, когда вы знаете как задаются цвета, мы можем собрать все новые знания воедино. В GLSL есть очень полезная функция <a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a>, которая смешивает значения в указанной пропорции. Угадайте, как задаются пропорции? Конечно же, числом от 0.0 до 1.0! И это просто отлично, учитывая те долгие часы, что вы практиковали движения карате с забором. Самое время применить их на практике!</p>
+<p><img src="mix-f.jpg" alt=""></p>
+<p>В строке 18 в следующем куске кода мы используем абсолютное значение синуса от времени для смешивания цветов <code>A</code> и <code>B</code>.</p>
+<div class="codeAndCanvas" data="mix.frag"></div>
+<p>Покажите, что вы можете:</p>
+<ul>
+<li>Создайте экспрессивный переход между цветами. Вообразите какую-нибудь эмоцию. Какой цвет больше всего ассоциируется с ней? Как она появляется? Как она сходит на нет? Придумайте другую эмоцию и подходящий для неё цвет. Поменяйте начальный и конечный цвета в коде выше в соответствии с этими эмоциями. Анимируйте переход с помощью функций формы. Роберт Пеннер разработал набор популярных функций для компьютерной анимации, известный под названием <a href="http://easings.net/">упрощающих функций</a>. Вы можете использовать <a href="..\edit.html#06/easing.frag">этот пример</a> для исследования и поиска вдохновения, но вы сможете достигнуть наилучшего результата только создав собственные функции перехода.</li>
+</ul>
+<h3>Играемся с градиентами</h3>
+<p>Функция <a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a> способна на большее. Вместо одного числа с плавающей точкой мы можем передать переменную того же типа, что и первые два аргумента (<code>vec3</code> в нашем случае). Таким образом мы можем управлять пропорциями каждого канала <code>r</code>, <code>g</code> и <code>b</code> по отдельности.</p>
+<p><img src="mix-vec.jpg" alt=""></p>
+<p>Рассмотрим следующий пример. Как и в примерах предыдущей главы, мы преобразуем значение перехода к нормализованной координате <em>x</em> и визуализируем его с помощью линии. Сейчас все каналы изменяются по одному и тому же закону.</p>
+<p>Теперь раскомментируйте строку 25 и посмотрите что произойдёт. Затем попробуйте раскомментировать строки 26 и 27. Помните, что линии показывают пропорции каждого канала при смешивании цветов <code>A</code> и <code>B</code>.</p>
+<div class="codeAndCanvas" data="gradient.frag"></div>
+<p>Вы скорее всего узнали три функции, которые мы используем в строках 25-27. Поиграйте с ними! Исследуйте и демонстрируйте ваши находки, используя умения из предыдущей главы для создания интересных градиентов. Попробуйте выполнить следующие упражнения:</p>
+<p><img src="turner.jpg" alt="Вильям Тёрнер - Последний рейс корабля Отважный (1838)"></p>
+<ul>
+<li>
+<p>Создайте градиент, повторяющий закат Вильяма Тёрнера.</p>
+</li>
+<li>
+<p>Сделайте анимацию перехода от рассвета к закату с помощью <code>u_time</code>.</p>
+</li>
+<li>
+<p>Можете ли вы сделать радугу, используя изученный материал?</p>
+</li>
+<li>Используйте функцию <code>step()</code> для создания цветного флага.</li>
+</ul>
+<h3>HSB</h3>
+<p>Нельзя рассказать о цветах, не упомянув цветовое пространство. Как вы возможно знаете, есть множество способов задания цвета кроме красного, зелёного и синего каналов.</p>
+<p><a href="https://ru.wikipedia.org/wiki/HSV_(%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C)">HSB</a> расшифровывается как оттенок (Hue), насыщенность (Saturation) и яркость (Brightness или Value), и является более интуитивным способом представления цвета. Прочитайте код функций <code>rgb2hsv()</code> и <code>hsv2rgb()</code> в примере ниже.</p>
+<p>Отображая координату <code>x</code> в оттенок, а координату <code>y</code> - в яркость, мы получаем красивый спектр видимых цветов. Такое пространственное распределение цветов очень удобно. Выбор цветов в пространстве HSB более интуитивен, чем RGB.</p>
+<div class="codeAndCanvas" data="hsb.frag"></div>
+<h3>HSB в полярных координатах</h3>
+<p>Пространство HSB изначально было разработано для представления в полярных координатах (на основе угла и радиуса), вместо декартовых (x и y). Чтобы перевести нашу функцию HSB в полярные координаты, нужно вычислить угол и расстояние, используя центр области рисования и декартовы координаты пикселя. Для этого мы используем функцию вычисления расстояния <a href="..\glossary\index-24.html?search=length"><code>length()</code></a> и двухаргументный арктангенс (<a href="..\glossary\index-7.html?search=atan"><code>atan(y,x)</code></a>, GLSL-версия известной функции <code>atan2(y,x)</code>).</p>
+<p>Тригонометрические функции от векторного аргумента вычисляются покомпонетно, даже если вы используете векторы для представления цветов. Мы начинаем использовать цвета и векторы одинаковым способом. Такая концептуальная гибкость является очень мощным инструментом.</p>
+<p><strong>На заметку:</strong> Возможно, вы спросите, какие ещё есть геометрически функции кроме длины (<a href="..\glossary\index-24.html?search=length"><code>length</code></a>)? Их довольно много: <a href="..\glossary\index-26.html?search=dot"><code>dot()</code></a> (скалярное произведение), <a href="..\glossary\index-27.html?search=cross"><code>cross</code></a> (векторное произведение), <a href="..\glossary\index-28.html?search=normalize"><code>normalize()</code></a> (привести вектор к единичной длине), <a href="..\glossary\index-29.html?search=faceforward"><code>faceforward()</code></a> (вернуть вектор, указывающий в то же полупространство, что и данный), <a href="..\glossary\index-30.html?search=reflect"><code>reflect()</code></a> (отражение) и <a href="..\glossary\index-31.html?search=refract"><code>refract()</code></a> (преломление). Так же в GLSL есть векторные функции сравнения: <a href="..\glossary\index-32.html?search=lessThan"><code>lessThan()</code></a> (меньше), <a href="..\glossary\index-33.html?search=lessThanEqual"><code>lessThanEqual()</code></a> (меньше либо равно), <a href="..\glossary\index-34.html?search=greaterThan"><code>greaterThan()</code></a> (больше), <a href="..\glossary\index-35.html?search=greaterThanEqual"><code>greaterThanEqual()</code></a> (больше либо равно), <a href="..\glossary\index-36.html?search=equal"><code>equal()</code></a> (равно) и <a href="..\glossary\index-37.html?search=notEqual"><code>notEqual()</code></a> (не равно).</p>
+<p>Получив угол и длину, мы должны нормировать их значения в интервал от 0.0 до 1.0. В строке 27 <a href="..\glossary\index-7.html?search=atan"><code>atan(y,x)</code></a> возвращает угол в радианах от минус пи до пи, поэтому сначала мы разделим его на удвоенное пи (<code>TWO_PI</code>, определено вначале кода), и к полученному числу от -0.5 до 0.5 прибавим 0.5, чтобы перейти в нужный интервал от 0.0 до 1.0. Максимальный радиус будет равен 0.5 (мы вычисляли расстояние от центра окна), поэтому его нужно удвоить.</p>
+<p>Как видите, в этом разделе мы в основном играли с преобразованием значений в нужный нам промежуток от 0.0 до 1.0.</p>
+<div class="codeAndCanvas" data="hsb-colorwheel.frag"></div>
+<p>Попробуйте выполнить следующие упражнения:</p>
+<ul>
+<li>
+<p>Модифицируйте пример с полярными координатами так, чтобы цветовой круг вращался, как указатель мыши в режиме ожидания.</p>
+</li>
+<li>Используйте функции формы совместно с функцией преобразования HSB-&gt;RGB для расширения области круга с каким-нибудь одним оттенком и урезания других оттенков.</li>
+</ul>
+<p><img src="spectrums.jpg" alt="Вильям Хоум Лизарс - Красный, синий и жёлтый спектры в составе солнечного спектра (1834)"></p>
+<ul>
+<li>Присмотревшись к цветовому кругу в программах для подбора цвета (изображён ниже), можно заметить, что он пострен на основе красного, жёлтого и синего цветов. Например, напротив красного должен быть зелёный, но в нашем примере выше там находится голубой. Исправьте пример, так чтобы он выглядел в точности как изображение ниже (подсказка: используйте функции формы).</li>
+</ul>
+<p><img src="colorwheel.png" alt=""></p>
+<ul>
+<li>Прочитайте книгу <a href="http://www.goodreads.com/book/show/111113.Interaction_of_Color">«Взаимодействие цветов» Джозефа Альберса</a> и воспользуйтесь следующим примером для практики.</li>
+</ul>
+<div class="glslGallery" data="160505191155,160505193939,160505200330,160509131554,160509131509,160509131420,160509131240" data-properties="clickRun:editor,openFrameIcon:false,showAuthor:false"></div>
+<h4>Заметки о функциях и аргументах</h4>
+<p>Перед тем как нырнуть в следующую главу, давайте остановимся и немного отмотаем назад. Вернитесь и взгляните на функции в предыдущих примерах. Вы заметите слово <code>in</code> перед типами аргументов. Это - <a href="http://www.shaderific.com/glsl-qualifiers/#inputqualifier"><em>квалификатор</em></a>, и в данном случае он означает, что переменная предназначена только для чтения. В последующих примерах мы увидим так же аргументы с квалификаторами <code>out</code> и <code>inout</code>. Последний эквивалентен передаче переменной по ссылке, при которой мы можем изменить переданное значение так, что изменения становятся видны за пределами функции.</p>
+<pre><code class="language-glsl">int newFunction(in vec4 aVec4,      // только для чтения
+                out vec3 aVec3,     // только на запись
+                inout int aInt);    // чтение и запись</code></pre>
+<p>Вы не поверите, но мы уже изучили всё необходимое для создания крутой графики. В следующей главе мы научимся комбинировать все эти трюки для создания геометрических фигур с помощью смешивания пространства. Именно, <em>смешивание</em> пространства!</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

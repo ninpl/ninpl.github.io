@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: What is a shader?</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h1>Введение</h1>
+<h2>Что такое фрагментный шейдер?</h2>
+<p>В предыдущем параграфе мы описали шейдеры как эквивалент печатного станка Гутенберга для графики. Почему? И вообще, что такое шейдер?</p>
+<p><img src="print.png" alt="Слева: буква за буквой (монах-переписчик за работой, Вильям Блэйдс, 1891). Справа: страница за страницей (печатный станок, Ролт-Уилер, 1920)."></p>
+<p>Если у вас уже есть опыт рисования с помощью компьютера, вы скорее всего сначала рисовали круг, затем прямоугольник, линию, несколько треугольников, получая в итоге желаемую композицию. Процесс похож на написание письма или книги вручную - это набор инструкций, которые последовательно решают задачи одну за другой.</p>
+<p>Шейдеры так же являются наборами инструкций, и эти инструкции исполняются одновременно для каждого пикселя на экране. Это означает, что код должен работать по разному в зависимости от положения пикселя на экране. Подобно печатному станку, ваша программа будет работать как функция, принимающая на вход координаты пикселя, и возвращающая цвет. После компиляции она будет работать невероятно быстро.</p>
+<p><img src="typepress.jpg" alt="Китайский наборный шрифт"></p>
+<h2>Почему шейдеры работают быстро?</h2>
+<p>Ответить на этот вопрос помогут <em>параллельные вычисления</em>.</p>
+<p>Представьте процессор компьютера в виде трубы, а каждую задачу как что-то проходящее через неё, как на фабричной производственной линии. Некоторые задачи больше остальных, то есть требуют больше времени и энергии на выполнение. В наших терминах, они требуют больше вычислительной мощности. Из-за особенностей архитектуры компьютера задачи запускаются последовательно, и каждая задача должна быть завершена вовремя. Современные компьютеры обычно содержат несколько процессоров, каждый из которых можно представить в виде трубы, обрабатывающей задания одно за другим, создавая иллюзию плавности и непрерывности работы. Каждая такая труба называется <em>потоком</em>.</p>
+<p><img src="00.jpg" alt="Центральный процессор"></p>
+<p>Видеоигры и другие графические приложения требуют намного больше вычислительной мощности, чем другие программы. Они вынуждены совершать огромное количество попиксельных операций над графическим контентом. Каждый пиксель на экране должен быть обсчитан, а в 3D-играх нужно рассчитать ещё и геометрию с перспективой.</p>
+<p>Давайте вернёмся к нашей метафоре с трубами и задачами. Каждый пиксель на экране является небольшой простой задачей. По отдельности такие задачи не представляют трудности для CPU, но проблема в том, что эти небольшие задания должны быть выполнены для каждого пикселя на экране. Таким образом, даже для старого экрана с разрешением 800х600 нужно обработать 480 000 пикселей, то есть произвести 14 400 000 вычислений в секунду! И это становится непосильной задачей для центрального процессора. На современном ретина-дисплее с разрешением 2880х1800 вывод видео с частотой 60 кадров в секунду увеличит количество вычислений до 311 040 000 в секунду. Как же инженеры графических систем решают эту проблему?</p>
+<p><img src="03.jpg" alt=""></p>
+<p>На помощь приходят параллельные вычисления. Вместо нескольких больших и мощных процессоров разумнее использовать большое количество небольших процессоров, работающих параллельно. Именно так и устроен графический процессор (GPU).</p>
+<p><img src="04.jpg" alt="GPU"></p>
+<p>Представьте небольшие процессоры в виде стола из труб, а данные для каждого пикселя - в виде теннисного шарика. 14 400 000 шариков в секунду могут засорить какую угодно трубу, в то время как стол из 800х600 небольших труб сможет спокойно пропустить в секунду 30 волн по 480 000 пикселей. Это верно и на более высоких разрешениях - чем больше у вас параллельно работающего оборудования, тем больший поток оно сможет принять.</p>
+<p>Другая «суперспособность» GPU заключается в аппаратном ускорении математических функций. Таким образом, сложные математические операции обрабатываются оборудованием, а не программами. Это позволяет совершать тригонометрические и векторно-матричные операции сверхбыстро, практически со скоростью света.</p>
+<h2>Что такое GLSL?</h2>
+<p>GLSL расшифровывается как OpenGL Shading Language (язык шейдеров OpenGL) и является стандартизированным языком для написания шейдерных программ, которые будут рассмотрены далее. Существуют различные типы шейдеров, зависящие от аппаратуры и операционной системы. Эта книга опирается на спецификацию OpenGL, издаваемую <a href="https://www.khronos.org/opengl/">Khronos Group</a>. Понимание истории OpenGL может быть полезным для понимания многих странных соглашений, принятых в ней. Для этого вы можете пройти по следующей ссылке: <a href="http://openglbook.com/chapter-0-preface-what-is-opengl.html">openglbook.com/chapter-0-preface-what-is-opengl.html</a></p>
+<h2>Почему программирование шейдеров - это боль?</h2>
+<p>К параллельным вычислениям применим известный афоризм: «большая власть влечёт большую ответственность». Мощь архитектуры графических процессоров накладывает некоторые ограничения.</p>
+<p>Для параллельной работы каждый поток не должен зависеть от остальных потоков. Потоки «слепы» по отношению к тому, чем занимаются другие потоки. Из этого ограничения следует, что все данные должны перемещаться в одном направлении. Поэтому невозможно использовать результат соседнего потока, изменить входные данные или направить выход одного потока на вход другого. Попытка организации межпотокового взаимодействия несёт риск нарушения целостности данных.</p>
+<p>Кроме того, GPU постоянно поддерживает свои процессоры в занятом состоянии. Как только процессор освобождается, он сразу же получает новую порцию данных для обработки. Поток не может узнать что он делал в предыдущий момент времени. Он мог рисовать кнопку для графического интерфейса операционной системы, затем рисовать кусок неба в игре, а потом отображать текст почтового сообщения. Каждый поток не только <strong>слеп</strong>, но ещё и <strong>лишён памяти</strong>. Наряду с представлением в виде абстрактной функции, изменяющей свой результат в зависимости от положения пикселя, слепота и беспамятство потоков не добавляют шейдерам популярности среди начинающих программистов.</p>
+<p>Не волнуйтесь! В следующих главах мы пошагово рассмотрим шейдерные вычисления, начиная с самых простых. Если вы читаете книгу в современном браузере, вы оцените возможность поиграться с интерактивными примерами. Так давайте же не откладывать веселье в долгий ящик! Нажмите <em>Next &gt;&gt;</em> чтобы перейти к программированию!</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

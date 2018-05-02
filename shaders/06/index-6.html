@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: color</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="klee.jpg" alt="Paul Klee – Farbkarte (1931)"></p>
+<h2>Farben</h2>
+<p>Wir hatten bislang noch wenig Gelegenheit, um über die Vektortypen von GLSL zu sprechen. Bevor es mit anderen Inhalten weitergeht, ist es wichtig, mehr über diese Variablentypen zu erfahren. Das Thema „Farben“ bietet sich dafür an.</p>
+<p>Falls Du mit den Konzepten der objektorientierten Programmierung vertraut bist, ist Dir vielleicht schon aufgefallen, dass wir die verschiedenen Elemente innerhalb eines Vektors wie eine gewöhnliche <code>struct</code> in C ansprechen.</p>
+<pre><code class="language-glsl">vec3 red = vec3(1.0,0.0,0.0);
+red.x = 1.0;
+red.y = 0.0;
+red.z = 0.0;</code></pre>
+<p>Die Festlegung von Farben über die Komponenten <em>x</em>, <em>y</em> und <em>z</em> wirkt auf den ersten Blick etwas merkwürdig, nicht wahr? Aus diesem Grund gibt es weitere Möglichkeiten, um auf diese Elemente zuzugreifen. Die Inhalte von <code>.x</code>, <code>.y</code> und <code>.z</code> können auch als <code>.r</code>, <code>.g</code> und <code>.b</code>, sowie als <code>.s</code>, <code>.t</code> und <code>.p</code> angesprochen werden (<code>.s</code>, <code>.t</code> und <code>.p</code> werden typischerweise für die Raumkoordinaten von Texturen genutzt, wie wir in späteren Kapiteln noch sehen werden). Darüber hinaus lassen sich die Elemente eines Vektors auch über ihre Index-Position als <code>[0]</code>, <code>[1]</code> und <code>[2]</code> ansprechen.</p>
+<p>Die folgenden Programmzeilen zeigen die unterschiedlichen Ansätze, um jeweils auf die gleichen Vektorinhalte zuzugreifen:</p>
+<pre><code class="language-glsl">vec4 vector;
+vector[0] = vector.r = vector.x = vector.s;
+vector[1] = vector.g = vector.y = vector.t;
+vector[2] = vector.b = vector.z = vector.p;
+vector[3] = vector.a = vector.w = vector.q;</code></pre>
+<p>Tatsächlich handelt es sich bei den unterschiedlichen Namen nur um verschiedene Bezeichner für jeweils ein und dieselbe Sache. Die Namen sollen Dir helfen, verständlichen Code zu schreiben, je nachdem, wofür ein Vektor gerade zum Einsatz kommt (Farben, Koordinaten, Raumpunkte etc.)  </p>
+<p>Ein weiteres praktisches Merkmal der Vektortypen in GLSL ist die Möglichkeit, ihre Eigenschaften in beliebiger Weise zu kombinieren. Das macht es besonders einfach, Werte zu tauschen und in andere Datentypen zu konvertieren. Diese Fähigkeit wird im Englischen als <em>swizzle</em> bezeichnet, was so viel wie „umrühren“ oder „mischen“ bedeutet.</p>
+<pre><code class="language-glsl">vec3 yellow, magenta, green;
+
+// Zusammenruehren von Gelb
+yellow.rg = vec2(1.0);  // Zuweisung von 1. an den Rot- und den Gruen-Kanal von yellow
+yellow[2] = 0.0;        // Zuweisung von 0. an den Blau-Kanal von yellow
+
+// Zusammenruehren von Magenta
+magenta = yellow.rbg;   // Zuweisung von yellow an magenta bei gleichzeitigem Tausch der Kanaele fuer Blau und Gruen
+
+// Zusammenruehren von Gruen
+green.rgb = yellow.bgb; // Zuweisung des Blau-Kanals von yellow an den Rot- und Blau-Kanal von green</code></pre>
+<h4>Für Deine Werkzeugkiste</h4>
+<p>Vielleicht bist Du es nicht gewohnt, Farben über Zahlenwerte zu definieren. Und mal ganz ehrlich, das ist ja auch nicht sonderlich intuitiv. Glücklicherweise gibt es eine Menge intelligenter Programme und Webseiten, mit denen man Farben am Bildschirm auswählen kann und dann die zugehörigen Werte für Rot, Grün und Blau erhält. Am besten, man bekommt sie gleich als Definition für einen <code>vec3</code> oder <code>vec4</code> im GLSL-Format geliefert. Hier sind zum Beispiel die Vorlagen, die ich auf <a href="http://www.eigenlogik.com/spectrum/mac">Spectrum</a> nutze, um einen passenden Ausdruck für GLSL zu erhalten:</p>
+<pre><code>    vec3({{rn}},{{gn}},{{bn}})
+    vec4({{rn}},{{gn}},{{bn}},1.0)</code></pre>
+<h3>Mischen von Farben</h3>
+<p>Jetzt, wo Du weißt, wie man Farben definiert, wird es Zeit, dies mit unserem bisher gesammelten Wissen zu verknüpfen. In GLSL gibt es eine äußerst praktische Funktion mit dem Namen <a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a>, über die man zwei Werte in Form von Prozentangaben mischen kann. Vielleicht kannst Du Dir bereits denken, wie diese Prozentangaben auszusehen haben? Genau, als Werte zwischen <code>0.0</code> und <code>1.0</code>! Das passt doch perfekt, nachdem Du schon so viel Zahlen-Karate am Zaun geübt hast. Es ist an der Zeit, Dein Wissen umzusetzen.</p>
+<p><img src="mix-f.jpg" alt=""></p>
+<p>Lenke Dein Augenmerk im folgenden Programm besonders auf die <em>Zeile 18</em>. Schau Dir genau an, wie hier die absoluten Werte aus einer <em>Sinusfunktion</em> genutzt werden, um zeitabhängig und mit unterschiedlichen Verhältnissen die Farben aus den Variablen <code>colorA</code> und <code>colorB</code> zu mischen.</p>
+<div class="codeAndCanvas" data="mix.frag"></div>
+<p>Jetzt zeige Deine Fähigkeiten, indem Du:</p>
+<ul>
+<li>Einen ausdrucksstarken Übergang zwischen den Farben konstruierst. Denke an ein bestimmtes Gefühl, eine impulsive menschliche Regung. Welche Farbe vermag dieses Gefühl wohl am besten auszudrücken? Und wie soll sich diese Farbe entwickeln, um anschließend wieder zu verschwinden? Animiere den Übergang mit Hilfe formgebender Funktionen. Robert Penner hat eine Reihe populärer Übergangsfunktionen für Computeranimationen entwickelt, die als <a href="http://easings.net/">easing functions</a> bekannt sind. Du kannst für Deine Nachforschungen und als Inspiration auf <a href="..\edit.html#06/easing.frag">dieses Beispiel</a> zurückgreifen. Aber die besten Ergebnisse erzielst Du natürlich, wenn Du Deine ganz eigenen Übergänge kreierst.</li>
+</ul>
+<h3>Das Spiel mit Farbverläufen</h3>
+<p>Die <a href="..\glossary\index-23.html?search=mix"><code>mix()</code></a>-Funktion hat noch mehr zu bieten. Anstelle eines einzelnen Werts vom Typ <code>float</code>, können wir auch einen Datentyp übergeben, der zu den ersten beiden Argumenten passt. In unserem Fall ist das ein <code>vec3</code>. Dadurch gewinnen wir die Kontrolle über das Mischen in allen drei Farbkanälen <em>Rot</em>, <em>Grün</em> und <em>Blau</em> (<code>r</code>, <code>g</code> und <code>b</code>).</p>
+<p><img src="mix-vec.jpg" alt=""></p>
+<p>Wirf nun einen Blick auf das folgende Beispiel. Wie schon bei den Beispielen im letzten Kapitel verbinden wir den Übergang auch hier mit dem normalisierten Wert der <em>X-Ordinate</em> und visualisieren ihn als eine Linie. Im ersten Schritt folgen die Übergänge in allen drei Farbkanälen derselben Linie.</p>
+<p>Lösche jetzt die Kommentarzeichen aus der <em>Programmzeile 25</em>, damit diese ebenfalls ausgeführt wird. Dann schau, was daraufhin geschieht. Entferne anschließend auch die Kommentarzeichen vor den <em>Zeilen 26 und 27</em>. Achte darauf, dass diese drei Zeilen jeweils das Mischverhältnis für die <em>Rot-</em>, <em>Grün</em>, und <em>Blau-Kanäle</em> zwischen den Farben aus den Variablen <code>colorA</code> und <code>colorB</code> festlegen.</p>
+<div class="codeAndCanvas" data="gradient.frag"></div>
+<p>Vielleicht erkennst Du die drei formgebenden Funktionen in den <em>Zeilen 25 bis 27</em> wieder. Experimentiere mit ihnen. Es ist an der Zeit, dass Du die erlernten Fähigkeiten aus dem letzten Kapitel nutzt, um interessante Farbverläufe zu produzieren. Probiere die folgenden Übungen aus:</p>
+<p><img src="turner.jpg" alt="William Turner - The Fighting Temeraire (1838)"></p>
+<ul>
+<li>
+<p>Erzeuge einen Farbverlauf, der an den Sonnenuntergang bei William Turner erinnert.</p>
+</li>
+<li>
+<p>Animiere einen Übergang zwischen Sonnenaufgang und Sonnenuntergang mit Hilfe von <code>u_time</code>.</p>
+</li>
+<li>
+<p>Kannst Du mit Hilfe des bislang Erlernten einen Regenbogen entstehen lassen?</p>
+</li>
+<li>Nutze die <code>step()</code>-Funktion, um eine farbenfrohe Flagge zu erzeugen.</li>
+</ul>
+<h3>HSB</h3>
+<p>Beim Thema „Farben“ kommen wir nicht an dem Konzept der „Farbräume“ vorbei. Wie Du vielleicht weißt, gibt es unterschiedliche Möglichkeiten, Farben zu beschreiben, jenseits ihrer Auftrennung in <em>Rot-</em>, <em>Grün-</em> und <em>Blau-Anteile</em> (sprich: Kanäle).</p>
+<p><a href="https://de.wikipedia.org/wiki/HSV-Farbraum">HSB</a> steht für <em>Hue</em> (dt. Farbwert), <em>Saturation</em> (dt. Farbsättigung) und <em>Brightness</em> (dt. absolute Helligkeit). Dieses Farbsystem ist intuitiver und in vielen Fällen auch praktischer, wenn es um die Festlegung von Farben geht. Nimm Dir einen Moment Zeit, um die Konvertierungsfunktionen <code>rgb2hsv()</code> und <code>hsv2rgb()</code> im folgenden Programmcode zu studieren.</p>
+<p>Indem wir die Position auf der <em>X-Achse</em> auf den Farbwert und die Position auf der <em>Y-Achse</em> auf die Helligkeit abbilden, erhalten wir ein hübsches Spektralbild. Diese räumliche Verteilung der Farben kann sehr praktisch sei, wenn es um die Auswahl einer Farbe für einen bestimmten Zweck geht.</p>
+<div class="codeAndCanvas" data="hsb.frag"></div>
+<h3>HSB in Polarkoordinaten</h3>
+<p>Das <em>HSB-Farbmodell</em> wurde ursprünglich entwickelt, um Farben in Polarkoordinaten (bestehend aus einem <em>Winkel</em> und einem <em>Radius</em>) auszudrücken und nicht als kartesische Koordinaten (bestehend aus einer <em>X-</em> und einer <em>Y-Ordinate</em>). Um unsere <code>HSB</code>-Funktion mit Polarkoordinaten arbeiten zu lassen, müssen wir den Winkel und die Entfernung des jeweiligen Bildpunktes von der Mitte der Zeichenfläche berechnen. Dafür nutzen wir die <a href="..\glossary\index-24.html?search=length"><code>length()</code></a>-Funktion, sowie die Funktion <a href="..\glossary\index-7.html?search=atan"><code>atan(y,x)</code></a> (das ist die GLSL-Variante der in vielen Programmiersprachen verfügbaren Funktion <code>atan2(y,x)</code> zur Berechnung des Arkustangens).  </p>
+<p>Bei der Nutzung von Vektor- und Trigonometrie-Funktionen werden Variablen der Datentypen <code>vec2</code>, <code>vec3</code> und <code>vec4</code> wie Vektoren behandelt, auch wenn sie tatsächlich Farben verkörpern. Wir beginnen hier also, Farben und Vektoren gleichermaßen zu bearbeiten - eine Flexibilität, die sich noch als äußerst praktisch und weitreichend erweisen wird.</p>
+<p><strong>Hinweis:</strong> Nur, falls Du Dich fragst: Abgesehen von <a href="..\glossary\index-24.html?search=length"><code>length</code></a> gibt es noch viele weitere geometrische Funktionen. Dazu gehören beisielsweise: <a href="..\glossary\index-25.html?search=distance"><code>distance()</code></a>, <a href="..\glossary\index-26.html?search=dot"><code>dot()</code></a>, <a href="..\glossary\index-27.html?search=cross"><code>cross</code></a>, <a href="..\glossary\index-28.html?search=normalize"><code>normalize()</code></a>, <a href="..\glossary\index-29.html?search=faceforward"><code>faceforward()</code></a>, <a href="..\glossary\index-30.html?search=reflect"><code>reflect()</code></a> und <a href="..\glossary\index-31.html?search=refract"><code>refract()</code></a>.</p>
+<p>Außerdem bietet GLSL vergleichende Funktionen für Vektoren wie <a href="..\glossary\index-32.html?search=lessThan"><code>lessThan()</code></a>, <a href="..\glossary\index-33.html?search=lessThanEqual"><code>lessThanEqual()</code></a>, <a href="..\glossary\index-34.html?search=greaterThan"><code>greaterThan()</code></a>, <a href="..\glossary\index-35.html?search=greaterThanEqual"><code>greaterThanEqual()</code></a>, <a href="..\glossary\index-36.html?search=equal"><code>equal()</code></a> und <a href="..\glossary\index-37.html?search=notEqual"><code>notEqual()</code></a>.</p>
+<p>Nachdem wir den Winkel und die Entfernung (Länge) berechnet haben, müssen wir diese Werte normalisieren, indem wir sie auf den Wertebereich zwischen <code>0.0</code> und <code>1.0</code> abbilden. In der <em>Programmzeile 27</em> liefert der Aufruf von <a href="..\glossary\index-7.html?search=atan"><code>atan(y,x)</code></a> den Winkel als Bogenmaß zwischen <em>-PI</em> und <em>PI</em> (<code>-3.14</code> bis <code>3.14</code>) zurück. Deshalb müssen wir dieses Ergebnis durch <code>TWO_PI</code> (Zweimal <em>PI</em>, als Konstante oben im Programm definiert) teilen. Wir erhalten dadurch Werte zwischen <code>-0.5</code> und <code>0.5</code>, die wir durch einfache Addition von <code>0.5</code> auf den benötigten Wertebereich zwischen <code>0.0</code> und <code>1.0</code> abbilden. Allerdings werden wir hier als Ergebnis immer maximal <code>0.5</code> erhalten, weil wir ja die Entfernung von der Mitte der Zeichenfläche berechnen. Deshalb müssen wir dieses Ergebnis noch mit <code>2</code> multiplizieren, damit wir maximal auf den Wert von <code>1.0</code> kommen.</p>
+<p>Wie Du siehst, dreht sich also auch hier das ganze Spiel darum, Werte zwischen <code>0.0</code> und <code>1.0</code> zu erzielen, mit denen wir so gerne arbeiten.</p>
+<div class="codeAndCanvas" data="hsb-colorwheel.frag"></div>
+<p>Probiere die folgenden Übungen aus:</p>
+<ul>
+<li>
+<p>Verändere das obige Programmbeispiel so, dass sich das Farbrad dreht, wie der Mauszeiger bei einer länger währenden Operation.</p>
+</li>
+<li>Nutze eine formgebende Funktion in Verbindung mit der Konvertierungsfunktion von <em>HSB</em> nach <em>RGB</em>, um einen bestimmten Farbwert in den Vordergrund zu rücken und die anderen Farben „klein“ zu halten.</li>
+</ul>
+<p><img src="spectrums.jpg" alt="William Home Lizars - Das Rot-, Gelb- und Blau-Spektrum in Relation zum Spektrum des Sonnenlichts (1834)"></p>
+<ul>
+<li>Wenn Du Dir das Farbrad auf Farbauswahlfeldern (wie in der folgenden Abbildung) genau anschaust, erkennst Du, dass diese einen <em>RYB-Farbraum</em> repräsentieren. Die gegenüberliegende Farbe von Rot sollte z.B. Grün sein, doch in unserem obigen Beispielprogramm erscheint dort Zyan. Gelingt es Dir, einen Weg zu finden, damit unser Beispielprogramm das gleiche Farbbild liefert, wie auf der Abbildung unten? (Ein Tipp: Das ist der perfekte Moment, um eine passende formgebende Funktion zum Einsatz zu bringen.)</li>
+</ul>
+<p><img src="colorwheel.png" alt=""></p>
+<ul>
+<li>Lies <a href="http://www.goodreads.com/book/show/111113.Interaction_of_Color">Josep's Alvers Buch: „Interaction of Color“</a> und klicke die folgenden Shader an, um aus deren Programmcode zu lernen.</li>
+</ul>
+<div class="glslGallery" data="160505191155,160505193939,160505200330,160509131554,160509131509,160509131420,160509131240" data-properties="clickRun:editor,openFrameIcon:false,showAuthor:false"></div>
+<h4>Ein Hinweis zu Funktionen und ihren Argumenten</h4>
+<p>Bevor wir zum nächsten Kapitel springen, lass und kurz innehalten und einen Schritt zurückgehen. Schau Dir noch einmal die Funktionen aus den letzten Beispielprogrammen an. Vielleicht fällt Dir das Schüsselwort <code>in</code> im Kopf einer Funktion vor dem jeweiligen Argument auf. Es handelt sich dabei um einen sogenannten <a href="http://www.shaderific.com/glsl-qualifiers/#inputqualifier"><em>qualifier</em></a>, der in diesem Fall festlegt, dass der jeweilige Parameter von der Funktion nur ausgelesen und nicht überschrieben werden kann. In kommenden Programmbeispielen werden wir sehen, dass Parameter auch als <code>out</code> oder <code>inout</code> gekennzeichnet werden können. <code>inout</code> entspricht dabei der Übergabe eines Arguments „by reference“, so dass Änderungen an diesem Parameter auch an den Aufrufer und in die von ihm eingesetzte Variable zurückfließen.</p>
+<pre><code class="language-glsl">int newFunction(in vec4 aVec4,   // nur auslesbar
+                out vec3 aVec3,  // nicht initalisiert, nur beschreibbar
+                inout int aInt); // lesen und schreiben, Aenderungen fliessen zum Aufrufer zurueck</code></pre>
+<p>Du hast vielleicht nicht damit gerechnet, aber jetzt haben wir bereits alle Elemente beisammen, um aufregende Grafiken zu erstellen. Im nächsten Kapitel werden wir lernen, wie man alle unsere kleinen Tricks nutzen kann, um den Raum richtig in Wallung zu bringen. Ja, du hast richtig gehört. Genau darum geht's.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

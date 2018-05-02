@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: 2D Matrices</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>2D-Matrizen</h2>
+<canvas id="custom" class="canvas" data-fragment-url="matrix.frag" width="700px" height="200px"></canvas>
+<h3>Verschieben</h3>
+<p>Im letzten Kapitel haben wir gesehen, wie man unterschiedliche Formen zeichnet. Der Trick, um diese Formen auf der Zeichenfläche beliebig zu positionieren, besteht nun darin, das Koordinatensystem „unterhalb“ dieser Formen zu verschieben. Wir erreichen dies, indem wir einfach einen Vektor zu der <code>st</code>-Variable addieren, die die Lage des jeweiligen Objekts beim Zeichnen bestimmt. Dadurch verschiebt sich das gesamte Koordinatensystem.</p>
+<p><img src="translate.jpg" alt=""></p>
+<p>Es ist vermutlich einfacher, das Verfahren in der Praxis nachzuvollziehen, als es in der Theorie zu studieren. Schau einfach selbst:</p>
+<ul>
+<li>Entferne die Kommentarzeichen in der <em>Programmzeile 35</em>, und Du wirst sehen, wie sich das Zeichenobjekt gemeinsam mit dem darunterliegenden Koordinatenraum bewegt.</li>
+</ul>
+<div class="codeAndCanvas" data="cross-translate.frag"></div>
+<p>Jetzt versuche Dich an der folgenden Aufgabe:</p>
+<ul>
+<li>Nutze <code>u_time</code> in Verbindung mit einer formgebenden Funktion, um das kleine Kreuz auf interessante Weise über die Zeichenfläche zu bewegen. Das Vorbild dafür kann durchaus aus der realen Welt stammen, beispielsweise eine Wellenbewegung, das Schwingen eines Pendels, ein springender Ball, ein beschleunigendes Auto oder ein stoppendes Fahrrad.</li>
+</ul>
+<h3>Rotationen</h3>
+<p>Um Objekte rotieren zu lassen, müssen wir ebenfalls nur das zugrundeliegende Koordinatensystem transformieren. Wir verwenden dafür eine <a href="http://de.wikipedia.org/wiki/Matrix_(Mathematik)">Rotationsmatrix</a>. Eine Matrix ist eine geordnete Anordnung von Zahlen in Form von Zeilen und Spalten. Vektoren werden mit Matrizen nach einem festen vorgegebenen Verfahren multipliziert, um den Vektor auf eine bestimmte Art und Weise zu verändern.</p>
+<p><a href="http://de.wikipedia.org/wiki/Matrizenmultiplikation"><img src="matrixes.png" alt="Aus dem Wikipedia-Eintrag zur Matrizenmultiplikation"></a></p>
+<p>GLSL verfügt über eingebaute Unterstützung für zwei-, drei- und vierdimensionale Matrizen: <a href="..\glossary\index-38.html?search=mat2"><code>mat2</code></a> (2x2), <a href="..\glossary\index-39.html?search=mat3"><code>mat3</code></a> (3x3) und <a href="..\glossary\index-40.html?search=mat4"><code>mat4</code></a> (4x4). Außerdem unterstützt GLSL die Matrizenmultiplikation (<code>*</code>) mit einem Vektor sowie die Multiplikation zweier Matrizen mit der speziellen Funktion (<a href="..\glossary\index-41.html?search=matrixCompMult"><code>matrixCompMult()</code></a>).</p>
+<p>Darauf basierend, wie Matrizen funktionieren, kann man Matrizen mit einem bestimmten „Verhalten“ konstruieren. Beispielsweise können wir eine Matrix zum Verschieben eines Vektors nutzen:</p>
+<p><img src="3dtransmat.png" alt=""></p>
+<p>Noch interessanter wird es, wenn wir eine Matrix zur Drehung des Koordinatensystems verwenden:</p>
+<p><img src="rotmat.png" alt=""></p>
+<p>Schau Dir den folgenden Programmcode an, der die benötigte Matrix für eine Rotation des Koordinatensystems um einen vorgegebenen Winkel produziert. Diese Funktion folgt der obigen Formel für zweidimensionale Vektoren, um die Koordinaten um einen <code>vec2(0.0)</code>-Punkt rotieren zu lassen.</p>
+<pre><code class="language-glsl">mat2 rotate2d(float _angle){
+    return mat2(cos(_angle),-sin(_angle),
+                sin(_angle),cos(_angle));
+}</code></pre>
+<p>In Bezug auf die Art und Weise, wie wir Formen bislang gezeichnet haben, ist das noch nicht ganz das, was wir benötigen. Unser Kreuz wird auf der Mitte der Zeichenfläche generiert, ausgehend vom Punkt <code>vec2(0.5)</code>. Vor der Rotation müssen wir die Form deshalb von der Mitte des Koordinatensystem zum <code>vec2(0.0)</code> verschieben, anschließend die Drehung ausführen und das Objekt dann wieder an seinen ursprünglichen Platz bringen.</p>
+<p><img src="rotate.jpg" alt=""></p>
+<p>In Programmcode „gegossen“, sieht das dann wie folgt aus:</p>
+<div class="codeAndCanvas" data="cross-rotate.frag"></div>
+<p>Probiere die folgenden Übungen aus:</p>
+<ul>
+<li>
+<p>Entferne die Kommentarzeichnen aus der <em>Programmzeile 45</em> und beobachte, was dann passiert.</p>
+</li>
+<li>
+<p>Kommentiere das Verschieben vor und nach der Rotation in den <em>Zeilen 37 und 39</em> aus und beobachte die Konsequenzen.</p>
+</li>
+<li>Nutze Rotationen, um die Animation zu verbessern, die Du beim Beispiel zum Verschieben erstellt hast.</li>
+</ul>
+<h3>Skalieren</h3>
+<p>Wir haben gesehen, wie man die Verschiebung und die Rotation von Objekten realisiert, indem man mit Matrizen auf den Koordinatenraum einwirkt. Falls Du bereits mit 3D-Modellierungssoftware oder den Matrizenfunktionen in Procesing gearbeitet hast, weißt Du wahrscheinlich, dass man Matrizen auch für die Skalierung von Objekten verwenden kann.</p>
+<p><img src="scale.png" alt=""></p>
+<p>Indem wir uns an der obigen Formel orientieren, können wir eine 2D-Saklierungsmatrix für das gewünschte Vergrößern oder Verkleinern erstellen:</p>
+<pre><code class="language-glsl">mat2 scale(vec2 _scale){
+    return mat2(_scale.x,0.0,
+                0.0,_scale.y);
+}</code></pre>
+<div class="codeAndCanvas" data="cross-scale.frag"></div>
+<p>Probiere die folgenden Übungen aus, um noch besser zu verstehen, wie das Ganze funktioniert.</p>
+<ul>
+<li>
+<p>Entferne die Kommentare in der <em>Programmzeile 42</em>, um zu sehen, wie der Koordinatenraum skaliert wird.</p>
+</li>
+<li>
+<p>Schau Dir an, was geschieht, wenn Du die Verschiebung vor und nach der Skalierung in den <em>Programmzeilen 37 und 39</em> entfernst.</p>
+</li>
+<li>
+<p>Probiere eine Rotationsmatrix in Verbindung mit einer Skalierungsmatrix aus. Sei Dir bewusst, dass die Reihenfolge der Matrixoperationen dabei eine entscheidende Rolle spielt.</p>
+</li>
+<li>Jetzt, wo Du weißt, wie man unterschiedliche Formen malt, verschiebt, rotiert und skaliert, ist es an der Zeit, eine etwas komplexere Komposition zu erstellen. Designe und entwickle die Simulation einer <a href="https://www.pinterest.com/patriciogonzv/huds/">futuristischen Benutzeroberfläche bzw. eines Head-up-Displays</a>. Nutze das folgende Beispiel aus den Shadertoys von <a href="https://www.shadertoy.com/user/ndel">Ndel</a> als Inspirationsquelle und als Referenz.</li>
+</ul>
+<iframe width="800" height="450" frameborder="0" src="https://www.shadertoy.com/embed/4s2SRt?gui=true&t=10&paused=true" allowfullscreen=""></iframe>
+<h3>Ein anderes Einsatzgebiet für Matrizen: YUV-Farben</h3>
+<p><a href="https://de.wikipedia.org/wiki/YUV-Farbmodell"><em>YUV</em></a> ist ein Farbmodell, das für die analoge Kodierung von Fotos und Videos verwendet wird. Das Modell berücksichtigt die Grenzen der menschlichen Farbwahrnehmung und nutzt dies für die Beschränkung der Bandbreite (der benötigten Bits) bei der Kodierung der Farbigkeit (Chrominanz).</p>
+<p>Der folgende Programmcode zeigt eine interessante Einsatzmöglichkeit für den Einsatz von Matrizenfunktionen zur Konvertierung von Farben zwischen zwei Farbräumen bzw. Farbsystemen.</p>
+<div class="codeAndCanvas" data="yuv.frag"></div>
+<p>Wie Du siehst, behandeln wir Farben hier als Vektoren, indem wir sie mit Matrizen multiplizieren. Auf diese Weise können wir die Farben über ihre Farbwerte hin und her bewegen.</p>
+<p>In diesem Kapitel haben wir gelernt, wie man Matrixtransformationen für das Verschieben, Rotieren und Skalieren von Vektoren nutzt. Für die Erstellung von Kompositionen aus mehreren grafischen Formen und Objekten sind diese Transformationen essenziell. Im nächsten Kapitel werden wir all das Erlernte anwenden, um bezaubernde prozedurale Muster zu erstellen. Du wirst sehen, dass die Wiederholung und Variation von Programmcode höchst interessante Resultate liefern kann.</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

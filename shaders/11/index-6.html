@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Noise</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index-8.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><p><img src="mcb.jpg" alt="NASA / WMAP Wissenschaftsteam"></p>
+<h2>Rauschen</h2>
+<p>Im letzten Kapitel haben wir mit Zufallsfunktionen gearbeitet, die wie weißes Rauschen auf dem Fernsehbildschirm wirken. Nach so vielen Shader-Funktionen auf einmal dreht sich Dir bestimmt der Kopf und vielleicht sind auch Deine Augen etwas müde. Jetzt ist ein guter Moment, um einen kleinen Spaziergang zu unternehmen und ein wenig nach Luft zu schnappen.</p>
+<p>Draußen im Freien spüren wir den Luftzug auf unserer Haut und die Sonne in unserem Gesicht. Die Erde ist ein so lebendiger und vielgestaltiger Ort voller Farben, Texturen und Klängen. Während wir uns in der Natur bewegen, können wir gar nicht anders, als die unterschiedlichen Oberflächen von Straßen, Gestein, Bäumen und Wolken wahrzunehmen.</p>
+<p><img src="texture-00.jpg" alt="">
+<img src="texture-01.jpg" alt="">
+<img src="texture-02.jpg" alt="">
+<img src="texture-03.jpg" alt="">
+<img src="texture-04.jpg" alt="">
+<img src="texture-05.jpg" alt="">
+<img src="texture-06.jpg" alt=""></p>
+<p>Die Unvorhersehbarkeit dieser Texturen könnte man als „zufällig“ auffassen. Dabei wirken sie so gar nicht wie die Zufallsstrukturen, mit denen wir uns im letzten Kapitel befasst haben. Die Wirklichkeit ist ein so komplexer Ort! Wir kann es uns gelingen, ihr Antlitz mit Hilfe von Algorithmen nachzuahmen?</p>
+<p>Diese Frage beschäftigte <a href="https://mrl.nyu.edu/~perlin/">Ken Perlin</a> in den frühen 1980er Jahren, als er den Auftrag erhielt, realistische Texturen für den Hollywood-Film „Tron“ zu erschaffen. Er entwickelte damals eine elegante Vorgehensweise, die als „Noise Algorithmus“ bekannt und sogar mit einem Oskar prämiert wurde (kein Witz).</p>
+<p><img src="tron.jpg" alt="Disney - Tron (1982)"></p>
+<p>Die folgende Funktion entspricht nicht dem klassischen Noise-Algorithmus von Perlin, aber sie ist ein guter Ausgangspunkt, um die Erzeugung „verrauschter“-Strukturen zu begreifen.</p>
+<p><div class="simpleFunction" data="
+float i = floor(x);  // ganzzahliger Teil
+float f = fract(x);  // Nachkommateil
+y = rand(i); //rand() wurde im vorangegangenen Kapitel beschrieben
+//y = mix(rand(i), rand(i + 1.0), f);
+//y = mix(rand(i), rand(i + 1.0), smoothstep(0.,1.,f));
+"></div></p>
+<p>In diesen Zeilen gehen wir ähnlich vor, wie im vorangegangenen Kapitel. Wir teilen eine fortlaufende Fließkommazahl (<code>x</code>) in ihren ganzzahligen Vorkommateil (<code>i</code>) und ihren Nachkommateil (<code>f</code>) auf. Wir nutzen dabei <a href=".../glossary/?search=floor"><code>floor()</code></a>, um <code>i</code> zu erhalten, sowie <a href=".../glossary/?search=fract"><code>fract()</code></a> für die Berechnung von <code>f</code>. Dann wenden wir <code>rand()</code> auf den ganzzahligen Teil von <code>x</code> an, wodurch wir für jede Ganzzahl eine einzigartige Zufallszahl erhalten.</p>
+<p>Dahinter folgen zwei Programmzeilen, die zunächst auskommentiert sind. Die Erste davon interpoliert zwischen dem Zufallswert (<code>rand(i)</code>) und dem Zufallswert von (<code>rand(i+1)</code>) (also zwischen zwei ganz unterschiedlichen Zahlen) auf lineare Weise, wobei der Abstand für die Interpolation jeweils durch (<code>f</code>) bestimmt wird.</p>
+<pre><code class="language-glsl">y = mix(rand(i), rand(i + 1.0), f);</code></pre>
+<p>Fahre fort, indem Du die Kommentarzeichen für diese Zeile entfernst und Dir das Ergebnis anschaust.</p>
+<p>An diesem Punkt unseres kleinen GLSL-Kurses wissen wir bereits, dass es noch etwas besseres als eine simple lineare Interpolation gibt, nicht wahr? Entferne deshalb die Kommentarzeichen aus der nächsten Zeile, die <a href=".../glossary/?search=smoothstep"><code>smoothstep()</code></a> nutzt, um bei der Interpolation weichere Verläufe und Übergänge zu erzielen.</p>
+<pre><code class="language-glsl">y = mix(rand(i), rand(i + 1.0), smoothstep(0.,1.,f));</code></pre>
+<p>Sobald Du die Kommentarzeichen aus dieser Zeile entfernt hast, erscheint ein anderes Ergebnis. In einigen Implementationen für Rausch-Funktionen verwenden die Autoren lieber ihre eigenen kubischen Kurven an Stelle von <a href=".../glossary/?search=smoothstep"><code>smoothstep()</code></a>, wie etwa im folgenden Beispiel.</p>
+<pre><code class="language-glsl">float u = f * f * (3.0 - 2.0 * f ); // kubische Verlaufskurve
+y = mix(rand(i), rand(i + 1.0), u); // angewandt auf die Interpolation</code></pre>
+<p>Diese <em>sanfte Zufälligkeit</em> ist das entscheidende Merkmal, auf das es vielen Grafikkünstlern ankommt. Erst dadurch wird es möglich, geometrische Formen und Bilder zu erstellen, die so organisch wirken, als kämen sie direkt aus der Natur. Perlins Noise-Algorithmus wurde seit seiner Veröffentlichung immer wieder in ganz unterschiedlichen Programmiersprachen und für verschiedene Dimensionen implementiert. Er hat Grafiker und Grafikkünstler auf der ganzen Welt bei ihren Arbeiten unterstützt.</p>
+<p><img src="robert_hodgin.jpg" alt="Robert Hodgin - Written Images (2010)"></p>
+<p>Und nun bist Du dran:</p>
+<ul>
+<li>
+<p>Entwickle Deine eigene <code>float noise(float x)</code>-Funktion.</p>
+</li>
+<li>
+<p>Nutze Deine Noise-Funktion, um Formen zu animieren, indem Du sie bewegst, rotierst oder skalierst.</p>
+</li>
+<li>
+<p>Erstelle eine animierte Komposition aus mehreren Formen, die „miteinander“ tanzen, indem Du auf Noise-Funktionen zurückgreifst.</p>
+</li>
+<li>
+<p>Baue organisch wirkende Formen mit Hilfe der Noise-Funktion.</p>
+</li>
+<li>Sobald Du auf diese Weise eine eigene „Kreatur“ erschaffen hast, versuche ihr Lebendigkeit einzuhauchen, indem Du sie auf ganz charakteristische Weise bewegst.</li>
+</ul>
+<h2>2D-Rauschen</h2>
+<p><img src="02.png" alt=""></p>
+<p>Jetzt, wo wir wissen, wie man Rauschen in einer Dimension erzeugt, können wir uns dem zweidimensionalen Rauschen zuwenden. Während wir im eindimensionalen Raum entlang einer Linie zwischen zwei Punkten (<code>fract(x)</code> und <code>fract(x)+1.0</code>) interpolieren, geschieht dies im zweidimensionalen Raum zwischen den vier Eckpunkten eines Vierecks innerhalb einer Ebene (<code>fract(st)</code>, <code>fract(st)+vec2(1.,0.)</code>, <code>fract(st)+vec2(0.,1.)</code> und <code>fract(st)+vec2(1.,1.)</code>).</p>
+<p><img src="01.png" alt=""></p>
+<p>In ähnlicher Weise müssen wir im dreidimensionalen Raum vorgehen. Hier sind es die acht Ecken eines Kubus, zwischen denen es zu interpolieren gilt. Dabei dreht sich alles um die Interpolation von Zufallswerten (engl. random values), weshalb man in diesem Zusammenhang auch von <strong>Value Noise</strong> spricht.</p>
+<p><img src="04.jpg" alt=""></p>
+<p>Wie schon bei unserem Beispiel für den eindimensionalen Raum, erfolgt die Interpolation auch hier nicht linear, sondern kubisch, damit ein sanfter Verlauf zwischen allen Punkten des viereckigen Rasters entsteht.</p>
+<p><img src="05.jpg" alt=""></p>
+<p>Schau Dir die folgende Noise-Funktion an.</p>
+<div class="codeAndCanvas" data="2d-noise.frag"></div>
+<p>Wir „blasen“ den Raum zunächst auf das Fünffache auf (<em>Programmzeile 45</em>), damit wir die Interpolation zwischen den einzelnen Elementen unseres Rasters besser erkennen können. Innerhalb der Noise-Funktion erfolgt dann die Einteilung des Raumes in einzelne Zellen. Wir speichern die Integer-Position der Zelle, ebenso den Nachkommateil für die Position innerhalb der Zelle. Die Integer-Position nutzen wir, um einen Zufallswert für alle vier Eckpunkte der Zelle zu erhalten (<em>Programmzeilen 23-26</em>). Schließlich interpolieren wir in der <em>Programmzeile 35</em> zwischen den vier zufällig gewählten Eckpunkten auf Basis des Nachkommateils, den wir zuvor gespeichert haben.</p>
+<p>Jetzt bist Du wieder dran. Versuche Dich an den folgenden Aufgaben:</p>
+<ul>
+<li>
+<p>Ändere den Multiplikationsfaktor in <em>Programmzeile 45</em>. Versuche ihn zu animieren.</p>
+</li>
+<li>
+<p>Versuche herauszufinden, ab welcher Vergrößerungsstufe das Rauschen wieder vollkommen zufällig und unzusammenhängend (chaotisch) wirkt.</p>
+</li>
+<li>
+<p>Ab welcher Vergrößerungsstufe ist das Rauschen nicht mehr wahrnehmbar?</p>
+</li>
+<li>
+<p>Versuche die Noise-Funktion sinnvoll mit den Mauskoordinaten in Verbindung zu bringen.</p>
+</li>
+<li>
+<p>Was wäre, wenn wir den Farbverlauf des Rauschens als Distanzfeld behandeln? Versuche etwas Interessantes damit anzufangen.</p>
+</li>
+<li>Nun, da wir ein gewisses Maß an Kontrolle über Ordnung und Chaos erzielt haben, ist es an der Zeit, dieses Wissen umzusetzen. Erstelle eine Komposition aus Rechtecken, Farben und Rauschen, die an die Struktur eines Kunstwerks von <a href="http://de.wikipedia.org/wiki/Mark_Rothko">Mark Rothko</a> erinnert.</li>
+</ul>
+<p><img src="rothko.jpg" alt="Mark Rothko - Three (1950)"></p>
+<h2>Rauschen und seine Verwendung für generative Designs</h2>
+<p>Noise-Algorithmen wurden ursprünglich entwickelt, um digitalen Texturen ein natürliches Aussehen zu verleihen. Die ein- und zweidimensionale Implementation, die wir bislang betrachtet haben, verwendet dafür Interpolationen zwischen Zufallswerten (engl. <em>random values</em>), weshalb sie als <strong>Value Noise</strong> bezeichnet wird. Doch es gibt noch andere Verfahren, um Rauschen zu erzeugen.</p>
+<p><a href="..\edit.html#11/2d-vnoise.frag"> <img src="value-noise.png" alt="Inigo Quilez - Value Noise"> </a></p>
+<p>Wie die vorangegangenen Abschnitte gezeigt haben, tendiert <em>Value Noise</em> zur Erzeugung blockartiger Strukturen. Um diesen Blockeffekt zu reduzieren, hat <a href="https://mrl.nyu.edu/~perlin/">Ken Perlin</a> im Jahre 1985 einen weiteren Algorithmus mit Namen <strong>Gradient Noise</strong> entwickelt. Ken hatte herausgefunden, wie man zwischen zufälligen Gradienten (Verläufen) interpoliert, anstatt zwischen einfachen Zufallszahlen. Diese Gradienten waren das Ergebnis einer 2D-Zufallsfunktion, die Richtungsvektoren (bei GLSL in Form eines <code>vec2</code>) anstelle einfacher Fließkommazahlen (<code>float</code>) zurückliefert. Klicke auf das folgende Bild, um einen Blick auf den dahinterstehenden Programmcode zu werfen und zu verstehen, wie das Ganze funktioniert.</p>
+<p><a href="..\edit.html#11/2d-gnoise.frag"> <img src="gradient-noise.png" alt="Inigo Quilez - Gradient Noise"> </a></p>
+<p>Nimm Dir einen Moment Zeit, um die beiden folgenden Beispiele von <a href="http://www.iquilezles.org/">Inigo Quilez</a> zu studieren und richte Deine Aufmerksamkeit dabei besonders auf die Unterschiede zwischen <a href="https://www.shadertoy.com/view/lsf3WH"><em>Value Noise</em></a> und <a href="https://www.shadertoy.com/view/XdXGW8"><em>Gradient Noise</em></a>.</p>
+<p>Wie ein Maler, der genau weiß, wie die Farben auf seiner Staffelei miteinander harmonieren, werden auch wir die Noise-Funktionen umso besser nutzen können, je mehr wir deren Vorgehensweise verstehen. Wenn wir beispielsweise eine zweidimensionale Noise-Funktion nutzen, um den Raum zu drehen, während wir gerade Linien zeichnen, entsteht der folgende Dreheffekt, der stark an die Maserung von Holz erinnert. Auch hier kannst Du wieder auf die Grafik klicken, um der den Shader-Code dahinter anzuschauen.</p>
+<p><a href="..\edit.html#11/wood.frag"> <img src="wood-long.png" alt="Holzmaserung"> </a></p>
+<pre><code class="language-glsl">    pos = rotate2d( noise(pos) ) * pos; // drehe den Raum
+    pattern = lines(pos,.5);            // zeichne Linien</code></pre>
+<p>Ein anderer Weg zur Erzeugung interessanter Muster mit Hilfe von Noise-Funktionen besteht in ihrer Behandlung als Distanzfeld und der Anwendung einiger Tricks, die wir im <a href="..\07\index.html">Kapitel über Formen</a> kennengelernt haben.</p>
+<p><a href="..\edit.html#11/splatter.frag"> <img src="splatter-long.png" alt="Farbspritzer-Textur"> </a></p>
+<pre><code class="language-glsl">    color += smoothstep(.15,.2,noise(st*10.)); // schwarze Spritzer
+    color -= smoothstep(.35,.4,noise(st*10.)); // Löcher in den Spritzern</code></pre>
+<p>Ein dritter Weg basiert auf der Modulation einer Form mit Hilfe einer Noise-Funktion. Auch dabei kommen einige der Techniken zum Einsatz, die wir im <a href="..\07\index.html">Kapitel über Formen</a> kennengelernt haben.</p>
+<p><a href="..\edit.html#11/circleWave-noise.frag"><canvas id="custom" class="canvas" data-fragment-url="circleWave-noise.frag" width="300px" height="300"></canvas></a></p>
+<p>Empfohlene Übungen:</p>
+<ul>
+<li>
+<p>Welche anderen generativen Designs fallen Dir ein? Was ist mit Granitgestein? Marmor? Magma? Wasser? Suche Dir drei Fotos entsprechender Materialien und entwickle die zugehörigen Algorithmen unter Einbeziehung von Noise-Funktionen.</p>
+</li>
+<li>
+<p>Nutze Noise-Funktionen, um eine Form zu modulieren.</p>
+</li>
+<li>
+<p>Wie steht es um die Nutzung von Noise-Funktionen für Bewegungsabläufe? Schlage noch einmal im <a href="..\08\index.html">Kapitel über Matrizenoperationen</a> nach. Nutze das dortige Beispiel, in welchem das Kreuz über die Zeichenfläche bewegt wird, und füge dem Ganzen etwas Zufall und Noise hinzu.</p>
+</li>
+<li>Erzeuge ein generatives Design wie bei Jackson Pollocks Bildern.</li>
+</ul>
+<p><img src="pollock.jpg" alt="Jackson Pollock - Number 14 gray (1948)"></p>
+<h2>Verbesserte Noise-Funktionen</h2>
+<p>Eine Verbesserung von Perlin an seinem ursprünglichen <strong>Non-Simplex Noise</strong>-Algorithmus hin zu einem <strong>Simplex Noise</strong> ist der Ersatz der kubischen Hermite-Funktionn ( <em>f(x) = 3x^2-2x^3</em>, die der <a href=".../glossary/?search=smoothstep"><code>smoothstep()</code></a>-Funktion in GLSL entspricht) durch eine quintische Interpolationsfunktion ( <em>f(x) = 6x^5-15x^4+10x^3</em> ).</p>
+<p>Diese lässt die Interpolationskurve an ihren Enden flacher werden, so dass sie nahtloser in die nächste Interpolationskurve übergeht. Man erhält dadurch kontinuierlichere Übergänge zwischen den einzelnen Zellen. Du kannst Dir ein Bild davon machen, indem Du die Kommentare an der zweiten Formel in dem folgenden Graphen entfernst. (<a href="https://www.desmos.com/calculator/2xvlk5xp8b">Beide Graphen in einem Bild siehst Du auch hier</a>). Entscheidend ist wie immer der Bereich zwischen <code>0.0</code> und <code>1.0</code> auf der <em>x-Achse</em>.</p>
+<p><div class="simpleFunction" data="
+// Kubische Hermite-Funktion wie bei SmoothStep()
+y = x*x*(3.0-2.0*x);
+// Quintische Interpolationskurve
+//y = x*x*x*(x*(x*6.-15.)+10.);
+"></div></p>
+<p>Beachte, wie die beiden unterschiedlichen Kurven an ihren Endbereichen voneinander abweichen. Mehr dazu erfährst du in <a href="http://mrl.nyu.edu/~perlin/paper445.pdf">Ken s eigenen Worten hier</a>.</p>
+<h2>Simplex Noise</h2>
+<p>Für Ken Perlin war der Erfolg seines ersten Noise-Algorithmus noch nicht genug. Er suchte weiter nach Verbesserungen. Auf der berühmten Grafik-Konferenz <em>Siggraph</em> präsentierte er im Jahre 2001 den „Simplex Noise“-Algorithmus, mit dem er die folgenden Optimierungen gegenüber dem Vorgänger erzielte:</p>
+<ul>
+<li>
+<p>Geringerer Rechenaufwand und weniger Multiplikationen.</p>
+</li>
+<li>
+<p>Ein Rauschen, das sich auch für höhere Dimensionen berechnen lässt, ohne dass der Aufwand ins Astronomische steigt.</p>
+</li>
+<li>
+<p>Ein Rauschen ohne sichtbare Richtungsartefakte.</p>
+</li>
+<li>
+<p>Ein Rauschen mit sauber definierten und nahtlosen Übergangen, das sich einfach berechnen lässt.</p>
+</li>
+<li>Ein Algorithmus, der auch in der Hardware einfach zu implementieren ist.</li>
+</ul>
+<p>Ich weiß, was Du jetzt denkst... „Wow, wer ist dieser Mann?“ Ja, seine Leistungen sind wirklich großartig. Aber mal ganz im Ernst, wie ist es ihm gelungen, seinen Algorithmus zu verbessern? Nun, wir haben gesehen, dass er zur Berechnung des Rauschens in zwei Dimensionen zwischen den vier Eckpunkten eines Vierecks interpoliert. Man darf deshalb zurecht davon ausgehen, dass er für die Berechnung in drei Dimensionen (<a href="..\edit.html#11/3d-noise.frag">eine Implementierung in GLSL findest Du hier</a>) und vier Dimensionen zwischen 8 bzw. 16 einzelnen Eckpunkten interpolieren muss. Korrekt?</p>
+<p>In anderen Worten: Für die Berechnung des Rauschens in N Dimensionen muss man zwischen <em>2 hoch N</em> (<em>2^N</em>) verschiedenen Punkten interpolieren. Ken war jedoch aufgefallen, dass die offensichtliche „Bauweise“ für eine flächenfüllende Form zwar fraglos ein Viereck darstellt, die einfachste Form der Abdeckung jedoch mit gleichseitigen Dreiecken erzielt wird. Deshalb ersetzte er das rechtwinklige Gitternetz durch ein Netz aus gleichseitigen Dreiecken.</p>
+<p><img src="simplex-grid-00.png" alt=""></p>
+<p>Mit gleichseitigen Dreiecken besteht die einfachste Form für <em>N Dimensionen</em> aus einer Konstruktion mit <em>N+1 Eckpunkten</em>. Das bedeutet einen Eckpunkt weniger für zweidimensionales Rauschen, vier Eckpunkte weniger für dreidimensionales Rauschen und elf Eckpunkte weniger für vierdimensionales Rauschen. Diese „Ersparnis“ bringt einen enorm reduzierten Rechenaufwand und dadurch einen großen Geschwindigkeitszuwachs mit sich!</p>
+<p>In zwei Dimensionen erfolgt die Interpolation genau wie bei der Standard Noise-Funktion. Weil wir aber ein gleichseitiges Dreieck nutzen, müssen wir dabei nur drei Punkte einbeziehen.</p>
+<p><img src="simplex-grid-01.png" alt=""></p>
+<p>Doch wie wird dieses vereinfachte Gitternetz aufgebaut? In einem weiteren brillanten und äußerst eleganten Schritt, werden die Zellen des viereckigen Gitternetzes jeweils in zwei gleichschenklige Dreiecke (mit jeweils zwei gleich langen Seiten) aufgeteilt. Anschließend wird das Netz so verzerrt, dass alle Dreiecke auch gleichseitig sind (also mit jeweils drei gleich langen Seiten). Denn damit lässt sich am einfachsten interpolieren.</p>
+<p><img src="simplex-grid-02.png" alt=""></p>
+<p>Anschließend fahren wir fort, wie es <a href="http://staffwww.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf">Stefan Gustavson in seinen Ausführungen beschreibt</a>: &quot;<em>... indem wir uns die ganzzahligen Anteile der transformierten Koordinaten (x,y) des zu berechnenden Punktes anschauen, denn darüber können wir leicht feststellen, zu welchen zwei Dreiecken der Punkt gehört. Indem wir die Werte von x und y vergleichen, erfahren wir, ob sich der Punkt in dem oberen oder in dem unteren Dreieck befindet. So können wir die drei korrekten Eckpunkte in die Berechnung einbeziehen.</em>“</p>
+<p>Im folgenden Programmcode kannst Du die Kommentarzeichen aus der <em>Programmzeile 44</em> entfernen, um zu sehen, wie das Gitternetz gezerrt wird. Und sobald Du die Kommentierung von <em>Zeile 47</em> aufhebst, erkennst Du die Aufteilung der Fläche in gleichschenklige Dreiecke. Beachte, wie wir in <em>Zeile 22</em> das verzerrte Rechteck einfach in zwei gleichseitige Dreiecke aufteilen, indem wir testen, ob <code>x &gt; y</code> ist („unteres“ Dreieck) oder <code>y &gt; x</code> („oberes“ Dreieck).</p>
+<div class="codeAndCanvas" data="simplex-grid.frag"></div>
+<p>All diese Verbesserungen münden in das Meisterwerk, das als <strong>Simplex Noise</strong>-Algorithmus bekannt ist. Der folgende Programmcode ist eine Implementation dieses Algorithmus in GLSL, die von Ian McEwan und Stefan Gustavson entwickelt wurde (<a href="http://webstaff.itn.liu.se/~stegu/jgt2012/article.pdf">hier nachzulesen</a>). Für unsere Lernzwecke ist diese theoretische Erklärung vielleicht etwas zu aufwändig. Allerdings wirst Du beim Anklicken der Grafik und einem Blick auf den dahinterstehenden Programmcode feststellen, dass dieser weniger kryptisch daherkommt, als Du vielleicht erwartet hast. Außerdem ist der Code vergleichsweise kompakt und kann schnell ausgeführt werden.</p>
+<p><a href="..\edit.html#11/2d-snoise-clear.frag"> <img src="simplex-noise.png" alt="Ian McEwan von Ashima Arts - Simplex Noise"> </a></p>
+<p>Nun aber genug der technischen Spitzfindigkeiten. Es ist an der Zeit, dass Du den Simplex Noise-Algorithmus als eine wertvolle Ressource im Rahmen Deiner eigenen Projekte zum Einsatz bringst:</p>
+<ul>
+<li>
+<p>Versuche das Besondere an den verschiedenen Implementationen von Noise zu erkennen. Stelle Sie Dir wie Rohmaterialien vor, aus denen ein Bildhauer seine Skulptur herausschält. Wie fühlen sich die unterschiedlichen Ergebnisse für Dich an? Verziehe beim Betrachten deine Augen, um der Vorstellungskraft Raum zu geben, so wie Du die Wolken nach Mustern absuchst. Was erkennst Du? Woran erinnert es Dich? Was könnte man wohl mit den verschiedenen Noise-Implementationen anstellen? Höre auf Deine innere Stimme und probiere es einfach aus!</p>
+</li>
+<li>Entwickle einen Shader, der die Illusion einer Strömung von Flüssigkeiten erweckt. Etwa wie bei einer Lava-Lampe, Tintentropfen, Wasser etc.</li>
+</ul>
+<p><a href="..\edit.html#11/lava-lamp.frag"><canvas id="custom" class="canvas" data-fragment-url="lava-lamp.frag" width="520px" height="200px"></canvas></a></p>
+<ul>
+<li>Nutze den Simplex Noise-Algorithmus um Deinen bisherigen Arbeiten mehr Textur zu verleihen.</li>
+</ul>
+<p><a href="..\edit.html#11/iching-03.frag"><canvas id="custom" class="canvas" data-fragment-url="iching-03.frag" width="520px" height="520px"></canvas></a></p>
+<p>In diesem Kapitel haben wir versucht, Kontrolle über das Chaos zu erlangen. Das war keine leichte Aufgabe. Es braucht seine Zeit, um ein Meister des Rauschens und der Raumkrümmung zu werden.</p>
+<p>In den folgenden Kapiteln werden wir einige bekannte Techniken aufgreifen, mit Denen Du deine Fähigkeiten weiter verbessern kannst. Bis dahin genieße ein wenig Zeit draußen an der frischen Luft und lasse Dich von den Mustern und Strukturen der Natur inspirieren. Denn Deine Fähigkeiten zur Beobachtung müssen ähnlich gut entwickelt sein, wie Deine Programmierfähigkeiten. Vielleicht sogar noch besser. Genieße die wertvolle Zeit abseits des Computers!</p>
+<p style="text-align:center; font-style: italic;">"Sprich mit den Bäumen und werdet Freunde." Bob Ross
+</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>

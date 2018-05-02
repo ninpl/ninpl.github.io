@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>The Book of Shaders: Running your shader</title>
+        <link href="..\favicon.gif" rel="shortcut icon">
+        <meta name="keywords" content="shader,openGL,WebGL,GLSL,book,procedural,generative">
+        <meta name="description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+
+        <!— Open Graph data —>
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="The Book of Shaders">
+        <meta property="og:site_name" content="The Book of Shaders">
+        <meta property="og:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta property="og:image" content="http://thebookofshaders.com/thumb.png">
+        <meta property="og:image:secure_url" content="https://thebookofshaders.com/thumb.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="500">
+
+
+        <!— Twitter Card—>
+        <meta name="twitter:card" content="image">
+        <meta name="twitter:site" content="@bookofshaders">
+        <meta name="twitter:creator" content="@patriciogv">
+        <meta name="twitter:title" content="The Book Of Shaders">
+        <meta name="twitter:domain" content="thebookofshaders.com">
+        <meta name="twitter:description" content="Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.">
+        <meta name="twitter:image" content="https://thebookofshaders.com/thumb.png">
+        <meta name="twitter:image:width" content="500">
+        <meta name="twitter:image:height" content="500">
+
+
+        <link href="..\favicon.gif" rel="shortcut icon">
+
+        <!-- Highlight -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\github.css">
+        <script type="text/javascript" src="..\src\highlight.min.js"></script>
+        <!-- GlslCanvas -->
+
+        <script type="text/javascript" src="..\src\glslCanvas\build\GlslCanvas.js"></script>
+        <!-- GlslEditor -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslEditor\glslEditor.css">
+        <script type="application/javascript" src="..\glslEditor\glslEditor.js"></script>
+        <!-- GlslGallery -->
+
+        <link type="text/css" rel="stylesheet" href="..\glslGallery\glslGallery.css">
+        <script type="application/javascript" src="..\glslGallery\glslGallery.js"></script>
+        <!-- Main style -->
+
+        <link type="text/css" rel="stylesheet" href="..\css\style.css">
+        <!-- Translation style -->
+        <link type="text/css" rel="stylesheet" href="..\css\style-jp.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <p class="subtitle"><a href="..\index-8.html">The Book of Shaders</a> by <a href="http://patriciogonzalezvivo.com">Patricio Gonzalez Vivo</a> & <a href="http://jenlowe.net">Jen Lowe</a> </p>
+        <p> <a href="index-1.html?lan=jp">日本語</a> - <a href="index-2.html?lan=ch">中文版</a> - <a href="index-3.html?lan=kr">한국어</a> - <a href="index.html?lan=es">Español</a> - <a href="index-4.html?lan=fr">Français</a> - <a href="index-5.html?lan=it">Italiano</a> - <a href="index-6.html?lan=de">Deutsch</a> - <a href="index-7.html?lan=ru">Русский</a> - <a href="index-8.html">English</a></p>
+    </div>
+    <hr>
+<div id="content"><h2>シェーダーを使う</h2>
+<p>この本を書くに当たり自分自身の練習も兼ねて、シェーダーを書いて表示したり、シェアしたり、まとめたりする為のツールを作成しました。このツールはLinux Desktop、 MacOs、<a href="https://www.raspberrypi.org/">RaspberryPi</a>やブラウザ上で同じように動作します。あなたのコードを書き換える必要はありません。</p>
+<p><strong>表示する</strong>: この本のすべてのサンプルは<a href="https://github.com/patriciogonzalezvivo/glslCanvas">glslCanvas</a>を使って表示されています。glslCanvasを使うとシェーダーを単体で、とても簡単に走らせることができます。</p>
+<pre><code class="language-html">&lt;canvas class="glslCanvas" data-fragment-url=“yourShader.frag" data-textures=“yourInputImage.png” width="500" height="500"&gt;&lt;/canvas&gt;</code></pre>
+<p>ご覧の通り、必要なのは  <code>class="glslCanvas"</code> を指定した <code>canvas</code> 要素に <code>data-fragment-url</code>でシェーダーのURLを指定することだけです。詳しくは<a href="https://github.com/patriciogonzalezvivo/glslCanvas">こちら</a>をご覧ください。</p>
+<p>もしあなたが私のような人だったら、コンソールから直接シェーダーを走らせたいと思うでしょう。その場合は<a href="https://github.com/patriciogonzalezvivo/glslViewer">glslViewer</a>を試してみてください。このアプリケーションを利用すると<a href="http://www.imagemagick.org/script/index.php">ImageMagic</a>を使うのと同じような方法で、シェーダーをbashスクリプトやUNIXパイプラインで使うことができます。<a href="https://github.com/patriciogonzalezvivo/glslViewer">glslViewer</a>は<a href="https://www.raspberrypi.org/">RaspberryPi</a>でシェーダーをコンパイルするのにとても便利なので、<a href="http://openframe.io/">openFrame.io</a>でもglslViewerをシェーダーによる作品の表示に使っています。詳しくは<a href="https://github.com/patriciogonzalezvivo/glslViewer">こちら</a>をご覧ください。</p>
+<pre><code class="language-bash">glslViewer yourShader.frag yourInputImage.png —w 500 -h 500 -s 1 -o yourOutputImage.png</code></pre>
+<p><strong>作成する</strong>: シェーダーのコーディングを簡単にするため、<a href="https://github.com/patriciogonzalezvivo/glslEditor">glslEditor</a>というオンラインのエディターを用意しました。このエディターはこの本のサンプルにも埋め込まれています。glslEditorには幾つもの便利なウィジェットが備わっていて、直接触って具体的に結果を見ることで、抽象的なglslのコーディングをより理解しやすくしてくれます。<a href="http://editor.thebookofshaders.com/">editor.thebookofshaders.com/</a>から単体で使うこともできます。詳しくは<a href="https://github.com/patriciogonzalezvivo/glslEditor">こちら</a>をご覧ください。</p>
+<p><img src="glslEditor-01.gif" alt=""></p>
+<p>もしオフラインで<a href="https://www.sublimetext.com/">SublimeText</a>を使って作業したい場合はこの<a href="https://packagecontrol.io/packages/glslViewer">glslViewerのパッケージ</a>をインストールすることもできます。詳しくは<a href="https://github.com/patriciogonzalezvivo/sublime-glslViewer">こちら</a>をご覧ください。</p>
+<p><img src="glslViewer.gif" alt=""></p>
+<p><strong>シェアする</strong>: オンラインのglslEditorを使うとあなたのシェーダーをシェアすることもできます。ページに埋め込まれたものもスタンドアローン版にもexportボタンがあり、あなたのシェーダーのURLを取得することができます。また、<a href="http://openframe.io/">openFrame.io</a>に直接シェアすることもできます。</p>
+<p><img src="glslEditor-00.gif" alt=""></p>
+<p><strong>まとめる</strong>: コードをシェアしてあなたのシェーダーを作品として共有しましょう。<a href="http://openframe.io/">openFrame.io</a>に書き出す以外にも、あなたのシェーダーをまとめてウェブサイトに埋め込むことのできるツールを用意しました。このツールは<a href="https://github.com/patriciogonzalezvivo/glslGallery">glslGallery</a>と呼ばれています。詳しくは<a href="https://github.com/patriciogonzalezvivo/glslGallery">こちら</a>をご覧ください.</p>
+<p><img src="glslGallery.gif" alt=""></p>
+<h2>好みのフレームワークでシェーダーを実行する</h2>
+<p>もし<a href="https://processing.org/">Processing</a>、<a href="http://threejs.org/">Three.js</a> 、<a href="http://openframeworks.cc/">OpenFrameworks</a>などのフレームワークを使ったブログラミングの経験があるならば、慣れ親しんだ環境でシェーダーを試してみたいと思うでしょう。下記では人気のあるこれらのフレームワークで、この本で紹介するシェーダーを実行できるように設定する方法をお見せします（この本の<a href="https://github.com/patriciogonzalezvivo/thebookofshaders/tree/master/04">GitHubのリポジトリ</a>にはこれら3つのフレームワークのためのソースコードが丸ごと置いてあります）。</p>
+<h3><strong>Three.js</strong>を使う</h3>
+<p>謙虚で才気あふれる<a href="https://twitter.com/mrdoob">Ricardo Cabello（MrDoob）</a>と<a href="https://github.com/mrdoob/three.js/graphs/contributors">その他のメンバー</a>によって開発された<a href="http://threejs.org/">Three.js</a>は、おそらく最も良く知られたWebGLのフレームワークのひとつです。このJavascriptのライブラリを使って3Dグラフィックを作る方法を学べる、サンプルやチュートリアル、本も沢山あります。</p>
+<p>下記はシェーダーをThree.jsで使うために必要なHTMLとJavascriptのサンプルです。<code>id="fragmentShader"</code>と書かれたスクリプトに注目してください。ここに、この本に登場するシェーダーをコピーして実行することができます。</p>
+<pre><code class="language-html">&lt;body&gt;
+    &lt;div id="container"&gt;&lt;/div&gt;
+    &lt;script src="js/three.min.js"&gt;&lt;/script&gt;
+    &lt;script id="vertexShader" type="x-shader/x-vertex"&gt;
+        void main() {
+            gl_Position = vec4( position, 1.0 );
+        }
+    &lt;/script&gt;
+    &lt;script id="fragmentShader" type="x-shader/x-fragment"&gt;
+        uniform vec2 u_resolution;
+        uniform float u_time;
+
+        void main() {
+            vec2 st = gl_FragCoord.xy/u_resolution.xy;
+            gl_FragColor=vec4(st.x,st.y,0.0,1.0);
+        }
+    &lt;/script&gt;
+    &lt;script&gt;
+        var container;
+        var camera, scene, renderer;
+        var uniforms;
+
+        init();
+        animate();
+
+        function init() {
+            container = document.getElementById( 'container' );
+
+            camera = new THREE.Camera();
+            camera.position.z = 1;
+
+            scene = new THREE.Scene();
+
+            var geometry = new THREE.PlaneBufferGeometry( 2, 2 );
+
+            uniforms = {
+                u_time: { type: "f", value: 1.0 },
+                u_resolution: { type: "v2", value: new THREE.Vector2() },
+                u_mouse: { type: "v2", value: new THREE.Vector2() }
+            };
+
+            var material = new THREE.ShaderMaterial( {
+                uniforms: uniforms,
+                vertexShader: document.getElementById( 'vertexShader' ).textContent,
+                fragmentShader: document.getElementById( 'fragmentShader' ).textContent
+            } );
+
+            var mesh = new THREE.Mesh( geometry, material );
+            scene.add( mesh );
+
+            renderer = new THREE.WebGLRenderer();
+            renderer.setPixelRatio( window.devicePixelRatio );
+
+            container.appendChild( renderer.domElement );
+
+            onWindowResize();
+            window.addEventListener( 'resize', onWindowResize, false );
+
+            document.onmousemove = function(e){
+              uniforms.u_mouse.value.x = e.pageX
+              uniforms.u_mouse.value.y = e.pageY
+            }
+        }
+
+        function onWindowResize( event ) {
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            uniforms.u_resolution.value.x = renderer.domElement.width;
+            uniforms.u_resolution.value.y = renderer.domElement.height;
+        }
+
+        function animate() {
+            requestAnimationFrame( animate );
+            render();
+        }
+
+        function render() {
+            uniforms.u_time.value += 0.05;
+            renderer.render( scene, camera );
+        }
+    &lt;/script&gt;
+&lt;/body&gt;</code></pre>
+<h3><strong>Processing</strong>を使う</h3>
+<p><a href="http://benfry.com/">Ben Fry</a>と<a href="http://reas.com/">Casey Reas</a>が2001年に開発を始めた<a href="https://processing.org/">Processing</a> はコーディングを始めるのに最適な、驚くほどシンプルでパワフルな開発環境です（少なくとも私にとってはそうでした）。<a href="https://codeanticode.wordpress.com/">Andres Colubri</a>はopenGLとビデオに関する重要なアップデートを行いました。これによってProcessingでのシェーダーの使用が今まで以上に簡単になりました。Processingのスケッチは <code>data</code> フォルダーからシェーダーを検索します。このフォルダーにサンプルコードをコピーして <code>shader.frag</code> と名前を付けてください。</p>
+<pre><code class="language-cpp">PShader shader;
+
+void setup() {
+  size(640, 360, P2D);
+  noStroke();
+
+  shader = loadShader("shader.frag");
+}
+
+void draw() {
+  shader.set("u_resolution", float(width), float(height));
+  shader.set("u_mouse", float(mouseX), float(mouseY));
+  shader.set("u_time", millis() / 1000.0);
+  shader(shader);
+  rect(0,0,width,height);
+}</code></pre>
+<p>シェーダーを2.1以前のバージョンで使うには、最初に <code>#define PROCESSING_COLOR_SHADER</code> を追加する必要があります。つまり以下の様なプログラムになります。</p>
+<pre><code class="language-glsl">#ifdef GL_ES
+precision mediump float;
+#endif
+
+#define PROCESSING_COLOR_SHADER
+
+uniform vec2 u_resolution;
+uniform vec3 u_mouse;
+uniform float u_time;
+
+void main() {
+    vec2 st = gl_FragCoord.st/u_resolution;
+    gl_FragColor = vec4(st.x,st.y,0.0,1.0);
+}</code></pre>
+<p>Processingでシェーダーを使う方法についてより詳しく知りたい場合は、<a href="https://processing.org/tutorials/pshader/">このチュートリアル</a>を参照してください。</p>
+<h3><strong>openFrameworks</strong>を使う</h3>
+<p>誰にでも落ち着ける場所があるものです。私にとっては今でも<a href="http://openframeworks.cc/">openFrameworks</a>のコミュニティがそうです。このC++のフレームワークは、openGLやその他のC++のライブラリを内包して使いやすくしてくれます。様々な意味でProcessingに似ていますが、C++のコンパイラを扱う分だけ明らかに複雑です。openFrameworksはProcessingと同様に <code>data</code> フォルダー以下のシェーダーのファイルを検索します。サンプルを <code>shader.frag</code> にコピーして読み込むようにしてください。</p>
+<pre><code class="language-cpp">void ofApp::draw(){
+    ofShader shader;
+    shader.load("","shader.frag");
+
+    shader.begin();
+    shader.setUniform1f("u_time", ofGetElapsedTimef());
+    shader.setUniform2f("u_resolution", ofGetWidth(), ofGetHeight());
+    ofRect(0,0,ofGetWidth(), ofGetHeight());
+    shader.end();
+}</code></pre>
+<p>openFrameworksでシェーダーを使う方法についてより詳しく知りたい場合は<a href="http://openframeworks.cc/ofBook/chapters/shaders.html">Joshua Noble</a>の<a href="http://openframeworks.cc/tutorials/graphics/shaders.html">素晴らしいチュートリアル</a> を参照してください。</p>
+	</div>
+	<hr>
+	<ul class="navigationBar">
+		<li class="navigationBar" onclick="previusPage()">&lt; &lt; Previous</li>
+		<li class="navigationBar" onclick="homePage()"> Home </li>
+		<li class="navigationBar" onclick="nextPage()">Next &gt; &gt;</li>
+	</ul>
+
+        <footer>
+            <p> Copyright 2015 <a href="http://www.patriciogonzalezvivo.com" target="_blank">Patricio Gonzalez Vivo</a> </p>
+        </footer>
+
+        <script type="text/javascript" src="..\src\main.js" defer=""></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+            ga("create", "UA-18824436-2", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
+</html>
