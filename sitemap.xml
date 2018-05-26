@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2018/dev/004/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2018/dev/003/</loc>
     <lastmod>2018-05-26T00:57:20+02:00</lastmod>
   </url>
@@ -399,8 +404,20 @@
   </url>
   
   <url>
+    <loc>https://moonantonio.github.io/tags/alto-nivel/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/alto-nivel/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -425,6 +442,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/atlus/</loc>
     <lastmod>2017-08-24T21:07:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/bajo-nivel/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/bajo-nivel/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -736,13 +765,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -904,7 +933,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   

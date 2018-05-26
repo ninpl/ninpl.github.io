@@ -17,7 +17,7 @@
       <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/dev/003/</guid>
-      <description>Introduccion Hoy decidi compartir, algo que creo que no es un &amp;ldquo;conocimiento común&amp;rdquo; y no hay muchos recursos sobre ese tema en Internet, despues de que varios colegas que estan empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el SKD de Steam que esta en C++ o las librerias .JAR de Android decidi crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</description>
+      <description>Hoy decidi compartir, algo que creo que no es un &amp;ldquo;conocimiento común&amp;rdquo; y no hay muchos recursos sobre ese tema en Internet, despues de que varios colegas que estan empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el SKD de Steam que esta en C++ o las librerias .JAR de Android decidi crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</description>
     </item>
     
     <item>

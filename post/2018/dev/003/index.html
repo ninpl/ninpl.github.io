@@ -127,15 +127,17 @@
 		<section class="post-content">
 			
 
-<h2 id="introduccion">Introduccion</h2>
-
 <p>Hoy decidi compartir, algo que creo que no es un <strong>&ldquo;conocimiento común&rdquo;</strong> y no hay muchos recursos sobre ese tema en Internet, despues de que varios colegas que estan empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el <strong>SKD de Steam</strong> que esta en C++ o las librerias .JAR de Android decidi crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</p>
+
+<h2 id="introduccion">Introduccion</h2>
 
 <p>Alguna vez te has preguntado, <strong>¿Como los modders crean funcionalidad para los juegos?</strong>, pues la respuesta es esta, crean <strong>plugins que interferir la API publica</strong> de los juegos (Variables, metodos, funciones publicos) y luego con lenguaje pegamento crean la llamada si esque no se puede llamar desde el mismo core.</p>
 
+<hr />
+
 <p>Puede preguntar, <strong>¿por que deberia molestarme en escribir C o C++ cuando Unity admite C #?</strong></p>
 
-<p>La respuesta es simple. Es mucho <strong>más rápido</strong>. Decidi preparar algunos ejemplos solo para mostrar como C++ supera C# basado Mono.</p>
+<p>La respuesta es simple. Es mucho <strong>más rápido</strong>, trabajar a [bajo nivel][1] cambia mucho las cosas. Decidi preparar algunos ejemplos solo para mostrar como C++ supera C# basado Mono.</p>
 
 <p>Ejemplos:</p>
 
@@ -169,7 +171,31 @@
 </tbody>
 </table>
 
-<p>// TODO</p>
+<hr />
+
+<p>Pros y contras de C/C++ y Unity3D</p>
+
+<h3 id="pros">Pros</h3>
+
+<ol>
+<li>Triplica (en algunos casos) la velocidad de calculo.</li>
+<li>Las dlls no afectan al rendimiento de unity.</li>
+</ol>
+
+<h3 id="contras">Contras</h3>
+
+<ol>
+<li>Unity no admite directamente C++.</li>
+<li>La velocidad que se ahorra en runtime, se pierde realizando las dlls.</li>
+</ol>
+
+<hr />
+
+<h2 id="crear-biblioteca-c">Crear biblioteca C++</h2>
+
+<p>En este caso, yo usare Code :: Blocks pero podeis usar cualquier IDE que querais. Voy a crear un proyecto de libreria dinamica (.dll) llamado LowLevelPlugin. Ya que vamos a trabajar a bajo nivel.</p>
+
+<p>[1]:</p>
 
 
 			
