@@ -137,7 +137,7 @@
 
 <p>Puede preguntar, <strong>¿por que deberia molestarme en escribir C o C++ cuando Unity admite C #?</strong></p>
 
-<p>La respuesta es simple. Es mucho <strong>más rápido</strong>, trabajar a [bajo nivel][1] cambia mucho las cosas. Decidi preparar algunos ejemplos solo para mostrar como C++ supera C# basado Mono.</p>
+<p>La respuesta es simple. Es mucho <strong>más rápido</strong>, trabajar a <a href="https://moonantonio.github.io/post/2018/dev/004/">bajo nivel</a> cambia mucho las cosas. Decidi preparar algunos ejemplos solo para mostrar como C++ supera C# basado Mono.</p>
 
 <p>Ejemplos:</p>
 
@@ -193,9 +193,216 @@
 
 <h2 id="crear-biblioteca-c">Crear biblioteca C++</h2>
 
-<p>En este caso, yo usare Code :: Blocks pero podeis usar cualquier IDE que querais. Voy a crear un proyecto de libreria dinamica (.dll) llamado LowLevelPlugin. Ya que vamos a trabajar a bajo nivel.</p>
+<p>En este caso, yo usare Code::Blocks, pero podeis usar cualquier IDE que querais. Voy a crear un proyecto de libreria dinamica (.dll) llamado LowLevelPlugin. Ya que vamos a trabajar a bajo nivel.</p>
 
-<p>[1]:</p>
+<p>Nos iremos al encabezado main.h y eliminaremos todo el contenido que se ha generado automaticamente.</p>
+
+<hr />
+
+<pre><code class="language-C++">#ifndef __MAIN_H__
+#define __MAIN_H__
+
+#include &lt;windows.h&gt;
+
+/*  To use this exported function of dll, include this header
+ *  in your project.
+ */
+
+#ifdef BUILD_DLL
+    #define DLL_EXPORT __declspec(dllexport)
+#else
+    #define DLL_EXPORT __declspec(dllimport)
+#endif
+
+
+#ifdef __cplusplus
+extern &quot;C&quot;
+{
+#endif
+
+void DLL_EXPORT SomeFunction(const LPCSTR sometext);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // __MAIN_H__
+</code></pre>
+
+<hr />
+
+<p>En su caso colocaremos esto otro -&gt;</p>
+
+<hr />
+
+<pre><code class="language-C++">#pragma once
+#if UNITY_METRO
+#define EXPORT_API __declspec(dllexport) __stdcall
+#elif UNITY_WIN
+#define EXPORT_API __declspec(dllexport)
+#else
+#define EXPORT_API
+#endif
+</code></pre>
+
+<hr />
+
+<p>El propósito de este encabezado completo es comportarse de manera diferente basándose en qué plataforma está compilando actualmente su código. Significa que puede compilarlo fácilmente en Visual Studio.</p>
+
+<hr />
+
+<pre><code class="language-C++">#pragma once
+</code></pre>
+
+<hr />
+
+<ul>
+<li>#pragma once es una directiva específica C/C++ diseñada para hacer que el archivo fuente actual se incluya solo una vez en una sola compilación.</li>
+</ul>
+
+<hr />
+
+<pre><code class="language-C++">#if UNITY_METRO
+</code></pre>
+
+<hr />
+
+<ul>
+<li>Esto le dice al compilador que ejecute este bloque si solo estamos corriendo en Windows basado en Metro, por ejemplo, 8.1. Esto os sonara de Unity si habeis usado las <a href="https://docs.unity3d.com/es/current/Manual/PlatformDependentCompilation.html">directivas de compilacion de plataforma</a>.</li>
+</ul>
+
+<hr />
+
+<pre><code class="language-C++">#define EXPORT_API __declspec(dllexport) __stdcall
+</code></pre>
+
+<hr />
+
+<ul>
+<li>La palabra clave &ldquo;define&rdquo; funciona de manera similar a la función replace, su sintaxis se puede definir de la siguiente manera:</li>
+</ul>
+
+<p>define &lsquo;Esto&rsquo; &lsquo;Por esto&rsquo;.</p>
+
+<p>En nuestro caso, cada vez que el compilador ve la secuencia de caracteres EXPORT_API en el código, la reemplaza con la segunda parte. Del mismo modo, el compilador se comportará en caso de que compile su código en ventanas antiguas, reemplace EXPORT_API con __declspec(dllexport) y simplemente elimine EXPORT_API en cualquier otro caso.</p>
+
+<p>Eso es todo cuando se trata de encabezado. Ahora pasemos a algo que sea más interesante, el código fuente real. En el archivo main.cpp pegue el siguiente código:</p>
+
+<hr />
+
+<pre><code class="language-C++">#include &lt;stdlib.h&gt;
+#include &lt;math.h&gt;
+#include &quot;main.h&quot;
+
+extern &quot;C&quot; int ** EXPORT_API fillArray(int size)
+{
+    int i = 0, j = 0;
+    int ** array = (int**) calloc(size, sizeof(int*));
+
+    for(i = 0; i &lt; size; i++)
+    {
+        array[i] = (int*) calloc(size, sizeof(int));
+        for(j = 0; j &lt; size; j++)
+        {
+            array[i][j] = i * size + j;
+        }
+    }
+
+    return array;
+}
+</code></pre>
+
+<hr />
+
+<p>Las primeras tres líneas son en mi humilde opinión autoexplicativas. Simplemente estamos agregando algunas bibliotecas estándar y nuestro archivo de encabezado recién creado.</p>
+
+<p>El siguiente es:</p>
+
+<hr />
+
+<pre><code class="language-C++">extern &quot;C&quot; int ** EXPORT_API fillArray(int size) {
+</code></pre>
+
+<hr />
+
+<p>Esta es nuestra declaración de función. Nuestra función se llama &ldquo;fillArray&rdquo;, toma un argumento int y devuelve una matriz de enteros bidimensional. (Sí, ** significa dos dimensiones) Word &ldquo;extern&rdquo; extiende la visibilidad a todo el programa, las funciones se pueden usar en cualquier lugar en cualquiera de los archivos de todo el programa y fuera de nuestra biblioteca/plugin. También tenemos nuestra palabra clave EXPORT_API.</p>
+
+<p>La siguiente linea es:</p>
+
+<hr />
+
+<pre><code class="language-C++">int ** array = (int**) calloc(size, sizeof(int*));
+</code></pre>
+
+<hr />
+
+<p>Aquí estoy definiendo int-array bidimensional y luego estoy asignando memoria para ello. Como estoy escribiendo código en C++, no puedo simplemente crear una matriz y asignar valores. Tengo que reservar algo de espacio en memoria para eso y luego hacer cualquier operación. En este caso particular, estoy asignando las siguientes &ldquo;celdas&rdquo; de memoria de N de tamaño de int* y lo convierto al tipo bidimensional int array.</p>
+
+<p>Lo mismo que estoy haciendo aquí:</p>
+
+<hr />
+
+<pre><code class="language-C++">array[i] = (int*) calloc(size, sizeof(int));
+</code></pre>
+
+<hr />
+
+<p>La única diferencia es que ahora estoy asignando memoria para cada fila &ldquo;i&rsquo;t&rdquo; de una matriz.</p>
+
+<p>Y al final estoy devolviendo un conjunto lleno. Espero que para los bucles y la asignación de valores sea obvio, así que no lo explicaré.</p>
+
+<p>Ahora solo compilamos y se creara la dll.</p>
+
+<p><center><img src="/img/Dev/dll.png" alt="001" /></center></p>
+
+<h2 id="implementar-puente-en-unity3d">Implementar puente en Unity3D</h2>
+
+<p>Copia la dll en un Proyecto Unity3D dentro de la carpeta plugins en /Assets/Plugins. También debe crear un script C# en el directorio base para que la estructura de su proyecto tenga este aspecto:</p>
+
+<p><center><img src="/img/Dev/dll2.png" alt="001" /></center></p>
+
+<p>En la parte superior de tu script C # agrega &ldquo;Using System.Runtime.InteropServices;&rdquo;, luego la declaracion de la funcion de la dll, crea una matriz y por ultimo asigna a la variable la llamada.</p>
+
+<hr />
+
+<pre><code class="language-C#">public int size = 512;
+[DllImport(&quot;LowLevelPlugin&quot;)]
+private static extern int[,] fillArray(int size);
+
+private void Start()
+{
+    ArrayFillTest();
+}
+
+private void ArrayFillTest()
+{
+    var start = Time.realtimeSinceStartup;
+    int[,] tab = fillArray(size);
+    Debug.Log((Time.realtimeSinceStartup - start).ToString(&quot;f6&quot;) + &quot; secs&quot;);
+    start = Time.realtimeSinceStartup;
+    int[,] array = new int[size, size];
+    for (int i = 0; i &lt; size; i++)
+    {
+        for (int j = 0; j &lt; size; j++)
+        {
+            array[i, j] = i * size + j;
+        }
+    }
+    Debug.Log((Time.realtimeSinceStartup - start).ToString(&quot;f6&quot;) + &quot; secs&quot;);
+}
+</code></pre>
+
+<hr />
+
+<h2 id="conclusiones">Conclusiones</h2>
+
+<p>Siempre que ejecutes codigo de bajo nivel, tendras mejores resultados.</p>
+
+<hr />
+
+<h2 id="repositorio">Repositorio</h2>
+
+<p><center><a href="https://github.com/MoonAntonio/ScriptableObject-Resolucion" class="button">GitHub Source</a></center></p>
 
 
 			
