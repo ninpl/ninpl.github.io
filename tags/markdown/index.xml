@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 29 May 2018 00:10:41 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown - Lenguaje de marcado principal</title>
+      <link>https://moonantonio.github.io/post/2018/dev/005/</link>
+      <pubDate>Tue, 29 May 2018 00:10:41 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/005/</guid>
+      <description>A continuación, veremos qué es Markdown exactamente, cómo funciona, qué es necesario para usarlo, en que entornos resulta práctico y, por supuesto, repasaremos brevemente algunas de las muchas herramientas que existen para poder utilizarlo, tanto en local como en la web.
+Introducción Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML.</description>
+    </item>
+    
+  </channel>
+</rss>
