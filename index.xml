@@ -845,5 +845,14 @@ Visualmente es el mismo, pero internamente se han realizado unos cambios para un
 Ahora va todo por secciones. ^^</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://moonantonio.github.io/about/</link>
+      <pubDate>Sun, 31 Jul 2016 18:53:37 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/about/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
