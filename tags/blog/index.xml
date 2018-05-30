@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 30 May 2018 01:09:17 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mejora del blog</title>
+      <link>https://moonantonio.github.io/post/2018/comun/001/</link>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/001/</guid>
+      <description>Despues de ver la evolucion que esta sufriendo hugo con su tecnologia de paginas estaticas, me he puesto a investigar un poco sobre su lenguaje en especifico y como funciona internamente. Mi conclusion:
+Un lenguaje de subcapas, bastante lioso y dificil de llevar. Esta escrito en go, pero hablando de base, despues tiene unas subcapas de un mini-lenguaje que lo hacen un poco tedioso, a mi gusto. Aunque no puedo decir nada de su rapidez, ya que se ha puesto entre los primeros en muy poco tiempo y su comunidad a crecido numerosamente.</description>
+    </item>
+    
+  </channel>
+</rss>

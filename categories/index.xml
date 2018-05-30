@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Blog</title>
+      <link>https://moonantonio.github.io/categories/blog/</link>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bravely Default</title>
       <link>https://moonantonio.github.io/categories/bravely-default/</link>
       <pubDate>Thu, 09 Mar 2017 22:27:20 +0100</pubDate>
@@ -338,7 +347,7 @@
     <item>
       <title>Moon</title>
       <link>https://moonantonio.github.io/categories/moon/</link>
-      <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/moon/</guid>
       <description></description>
@@ -347,7 +356,7 @@
     <item>
       <title>Moon Antonio</title>
       <link>https://moonantonio.github.io/categories/moon-antonio/</link>
-      <pubDate>Tue, 29 May 2018 01:40:09 +0200</pubDate>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/moon-antonio/</guid>
       <description></description>
@@ -584,6 +593,15 @@
       <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/unity3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>https://moonantonio.github.io/categories/update/</link>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/update/</guid>
       <description></description>
     </item>
     
