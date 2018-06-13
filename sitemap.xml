@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2018/amv/004/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2018/comun/004/</loc>
     <lastmod>2018-06-05T17:17:37+02:00</lastmod>
   </url>
@@ -462,7 +467,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -649,6 +654,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/darkwar/</loc>
     <lastmod>2018-05-29T01:40:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/darling/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/darling/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -954,13 +971,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1122,7 +1139,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1159,6 +1176,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/que-es/</loc>
     <lastmod>2018-05-29T00:10:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/red/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/red/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1326,13 +1355,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/video/</loc>
-    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/video/</loc>
-    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1350,13 +1379,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/vine/</loc>
-    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/vine/</loc>
-    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
