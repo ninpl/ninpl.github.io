@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2018/comun/007/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2018/amv/005/</loc>
     <lastmod>2018-06-28T20:22:01+02:00</lastmod>
   </url>
@@ -494,7 +499,19 @@
   
   <url>
     <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/arte-del-dise%C3%B1o/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/arte-del-dise%C3%B1o/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -645,6 +662,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/compra/</loc>
     <lastmod>2018-06-05T17:04:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/comun/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/comun/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1010,13 +1039,13 @@
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1077,6 +1106,18 @@
   <url>
     <loc>https://moonantonio.github.io/categories/nintendo/</loc>
     <lastmod>2017-03-26T19:55:55+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/nociones/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/nociones/</loc>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1178,7 +1219,7 @@
   
   <url>
     <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
+    <lastmod>2018-06-28T20:34:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
