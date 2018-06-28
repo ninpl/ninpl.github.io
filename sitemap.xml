@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://moonantonio.github.io/post/2018/amv/005/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moonantonio.github.io/post/2018/comun/006/</loc>
     <lastmod>2018-06-28T19:37:55+02:00</lastmod>
   </url>
@@ -428,20 +433,14 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/2/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://moonantonio.github.io/tags/2/</loc>
     <lastmod>2018-06-28T19:37:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/2d/</loc>
-    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/2/</loc>
+    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -452,8 +451,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/algoritmos/</loc>
-    <lastmod>2017-04-23T17:17:22+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/2d/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -464,8 +463,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/alliance-alive/</loc>
-    <lastmod>2017-03-02T18:44:00+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/algoritmos/</loc>
+    <lastmod>2017-04-23T17:17:22+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -476,8 +475,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/alto-nivel/</loc>
-    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/alliance-alive/</loc>
+    <lastmod>2017-03-02T18:44:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -488,14 +487,14 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/alto-nivel/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/artistas/</loc>
-    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
+    <loc>https://moonantonio.github.io/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -506,8 +505,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/atlus/</loc>
-    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/artistas/</loc>
+    <lastmod>2017-03-29T14:43:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -518,8 +517,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/bajo-nivel/</loc>
-    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/atlus/</loc>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -530,8 +529,20 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/blog/</loc>
-    <lastmod>2018-05-30T01:09:17+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/bajo-nivel/</loc>
+    <lastmod>2018-05-26T02:38:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/tags/batgirl/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/batgirl/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -542,8 +553,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/bravely-default/</loc>
-    <lastmod>2017-03-09T22:27:20+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/blog/</loc>
+    <lastmod>2018-05-30T01:09:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -554,8 +565,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/buenas-practicas/</loc>
-    <lastmod>2017-10-16T19:07:21+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/bravely-default/</loc>
+    <lastmod>2017-03-09T22:27:20+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -566,13 +577,19 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/bushido/</loc>
-    <lastmod>2017-03-18T18:36:29+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/buenas-practicas/</loc>
+    <lastmod>2017-10-16T19:07:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/bushido/</loc>
+    <lastmod>2017-03-18T18:36:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/bushido/</loc>
     <lastmod>2017-03-18T18:36:29+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -584,20 +601,14 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/clase/</loc>
-    <lastmod>2017-04-24T12:52:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://moonantonio.github.io/tags/clase/</loc>
     <lastmod>2017-04-24T12:52:34+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/comandos/</loc>
-    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/clase/</loc>
+    <lastmod>2017-04-24T12:52:34+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -608,8 +619,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/compa%C3%B1ias/</loc>
-    <lastmod>2018-06-05T16:26:10+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/comandos/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -620,8 +631,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/compra/</loc>
-    <lastmod>2018-06-05T17:04:50+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/compa%C3%B1ias/</loc>
+    <lastmod>2018-06-05T16:26:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -632,8 +643,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/consola/</loc>
-    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/compra/</loc>
+    <lastmod>2018-06-05T17:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -644,8 +655,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/criptomonedas/</loc>
-    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/consola/</loc>
+    <lastmod>2017-07-27T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -656,8 +667,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/danmachi/</loc>
-    <lastmod>2018-05-29T01:40:09+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/criptomonedas/</loc>
+    <lastmod>2017-10-24T09:14:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -668,7 +679,7 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/darkwar/</loc>
+    <loc>https://moonantonio.github.io/categories/danmachi/</loc>
     <lastmod>2018-05-29T01:40:09+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -680,8 +691,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/darling/</loc>
-    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/darkwar/</loc>
+    <lastmod>2018-05-29T01:40:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -692,8 +703,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/dev/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/darling/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -704,8 +715,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/diario/</loc>
-    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/dev/</loc>
+    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -716,8 +727,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/dll/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/diario/</loc>
+    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -728,8 +739,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/e3-2018/</loc>
-    <lastmod>2018-06-05T16:26:10+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/dll/</loc>
+    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -740,8 +751,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/estudio/</loc>
-    <lastmod>2017-08-25T22:40:40+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/e3-2018/</loc>
+    <lastmod>2018-06-05T16:26:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -752,8 +763,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/europa/</loc>
-    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/estudio/</loc>
+    <lastmod>2017-08-25T22:40:40+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -764,8 +775,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/finalfantasix/</loc>
-    <lastmod>2017-03-23T19:21:13+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/europa/</loc>
+    <lastmod>2017-08-24T21:07:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -776,8 +787,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/fsm/</loc>
-    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/finalfantasix/</loc>
+    <lastmod>2017-03-23T19:21:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -788,8 +799,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/game-no-life/</loc>
-    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/fsm/</loc>
+    <lastmod>2017-07-05T18:59:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -800,8 +811,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/git/</loc>
-    <lastmod>2017-03-01T23:20:28+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/game-no-life/</loc>
+    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -812,8 +823,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/github/</loc>
-    <lastmod>2018-06-05T17:04:50+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/git/</loc>
+    <lastmod>2017-03-01T23:20:28+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -824,8 +835,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/glitch/</loc>
-    <lastmod>2017-04-25T19:14:58+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/github/</loc>
+    <lastmod>2018-06-05T17:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -836,8 +847,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/horarios/</loc>
-    <lastmod>2018-06-05T16:26:10+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/glitch/</loc>
+    <lastmod>2017-04-25T19:14:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -848,8 +859,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/ia/</loc>
-    <lastmod>2017-10-03T21:24:19+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/horarios/</loc>
+    <lastmod>2018-06-05T16:26:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -860,8 +871,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/iluminacion/</loc>
-    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/ia/</loc>
+    <lastmod>2017-10-03T21:24:19+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -872,8 +883,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/investigacion/</loc>
-    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/iluminacion/</loc>
+    <lastmod>2017-03-18T18:59:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -884,8 +895,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/juego/</loc>
-    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/investigacion/</loc>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -896,8 +907,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/juegos/</loc>
-    <lastmod>2017-09-27T23:27:21+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/juego/</loc>
+    <lastmod>2017-03-09T21:57:40+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -908,8 +919,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/lenguajes/</loc>
-    <lastmod>2018-05-29T00:10:41+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/juegos/</loc>
+    <lastmod>2017-09-27T23:27:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -920,7 +931,7 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/markdown/</loc>
+    <loc>https://moonantonio.github.io/categories/lenguajes/</loc>
     <lastmod>2018-05-29T00:10:41+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -932,8 +943,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/memoria/</loc>
-    <lastmod>2017-06-01T14:23:09+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/markdown/</loc>
+    <lastmod>2018-05-29T00:10:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -944,8 +955,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/microsoft/</loc>
-    <lastmod>2018-06-05T17:04:50+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/memoria/</loc>
+    <lastmod>2017-06-01T14:23:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -956,8 +967,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/miku/</loc>
-    <lastmod>2018-05-28T23:52:42+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/microsoft/</loc>
+    <lastmod>2018-06-05T17:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -968,8 +979,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/mod/</loc>
-    <lastmod>2017-03-23T19:21:13+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/miku/</loc>
+    <lastmod>2018-05-28T23:52:42+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -980,32 +991,32 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/moon/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/mod/</loc>
+    <lastmod>2017-03-23T19:21:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/moon/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/moon-antonio/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
-    <lastmod>2017-03-23T04:58:48+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/moon-antonio/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1016,8 +1027,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/motores/</loc>
-    <lastmod>2017-12-19T19:27:13+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/moon-pincho/</loc>
+    <lastmod>2017-03-23T04:58:48+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1028,8 +1039,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/mvc/</loc>
-    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/motores/</loc>
+    <lastmod>2017-12-19T19:27:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1040,8 +1051,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/neregate/</loc>
-    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/mvc/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1052,8 +1063,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/nintendo/</loc>
-    <lastmod>2017-03-26T19:55:55+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/neregate/</loc>
+    <lastmod>2017-04-04T23:04:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1064,8 +1075,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/noticia/</loc>
-    <lastmod>2017-03-01T23:28:47+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/nintendo/</loc>
+    <lastmod>2017-03-26T19:55:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1076,8 +1087,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/noticias/</loc>
-    <lastmod>2018-01-09T03:50:03+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/noticia/</loc>
+    <lastmod>2017-03-01T23:28:47+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1088,8 +1099,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/nvidia-gforce/</loc>
-    <lastmod>2017-03-31T00:32:33+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/noticias/</loc>
+    <lastmod>2018-01-09T03:50:03+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1100,8 +1111,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/open-source/</loc>
-    <lastmod>2017-05-10T12:29:53+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/nvidia-gforce/</loc>
+    <lastmod>2017-03-31T00:32:33+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1112,8 +1123,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/patron-de-dise%C3%B1o/</loc>
-    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/open-source/</loc>
+    <lastmod>2017-05-10T12:29:53+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1124,8 +1135,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/piezas-de-juego/</loc>
-    <lastmod>2017-04-25T19:14:58+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/patron-de-dise%C3%B1o/</loc>
+    <lastmod>2017-11-07T22:18:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1136,8 +1147,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/pintura/</loc>
-    <lastmod>2017-05-20T23:14:15+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/piezas-de-juego/</loc>
+    <lastmod>2017-04-25T19:14:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1148,8 +1159,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/plugins/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/pintura/</loc>
+    <lastmod>2017-05-20T23:14:15+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1160,14 +1171,14 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/post/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/plugins/</loc>
+    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/programacion/</loc>
-    <lastmod>2018-02-16T10:40:58+01:00</lastmod>
+    <loc>https://moonantonio.github.io/post/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1178,8 +1189,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/pruebas/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/programacion/</loc>
+    <lastmod>2018-02-16T10:40:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1190,8 +1201,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/que-es/</loc>
-    <lastmod>2018-05-29T00:10:41+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/pruebas/</loc>
+    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1202,8 +1213,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/red/</loc>
-    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/que-es/</loc>
+    <lastmod>2018-05-29T00:10:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1214,8 +1225,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/rpg/</loc>
-    <lastmod>2017-05-22T18:08:50+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/red/</loc>
+    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1226,8 +1237,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/rpg-tactico/</loc>
-    <lastmod>2017-04-26T20:39:00+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/rpg/</loc>
+    <lastmod>2017-05-22T18:08:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1238,8 +1249,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/scriptable/</loc>
-    <lastmod>2018-04-17T14:04:47+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/rpg-tactico/</loc>
+    <lastmod>2017-04-26T20:39:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1250,8 +1261,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/sinopsis/</loc>
-    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/scriptable/</loc>
+    <lastmod>2018-04-17T14:04:47+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1262,8 +1273,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/square-enix/</loc>
-    <lastmod>2017-03-26T20:06:35+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/sinopsis/</loc>
+    <lastmod>2017-11-15T19:39:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1274,8 +1285,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/steam/</loc>
-    <lastmod>2018-06-28T18:37:51+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/square-enix/</loc>
+    <lastmod>2017-03-26T20:06:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1286,13 +1297,19 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/study/</loc>
-    <lastmod>2018-05-29T00:10:41+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/steam/</loc>
+    <lastmod>2018-06-28T18:37:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/study/</loc>
+    <lastmod>2018-05-29T00:10:41+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/study/</loc>
     <lastmod>2018-05-29T00:10:41+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1304,20 +1321,14 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/terra-battle/</loc>
-    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://moonantonio.github.io/tags/terra-battle/</loc>
     <lastmod>2018-06-28T19:37:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/testeo/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/terra-battle/</loc>
+    <lastmod>2018-06-28T19:37:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1328,8 +1339,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/tfg/</loc>
-    <lastmod>2017-04-25T19:14:58+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/testeo/</loc>
+    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1340,8 +1351,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/tools/</loc>
-    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/tfg/</loc>
+    <lastmod>2017-04-25T19:14:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1352,8 +1363,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/unity/</loc>
-    <lastmod>2018-04-17T14:04:47+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/tools/</loc>
+    <lastmod>2017-05-06T03:19:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1364,8 +1375,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/unity3d/</loc>
-    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/unity/</loc>
+    <lastmod>2018-04-17T14:04:47+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1376,8 +1387,8 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/update/</loc>
-    <lastmod>2018-05-30T01:09:17+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/unity3d/</loc>
+    <lastmod>2018-05-26T00:57:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1388,20 +1399,20 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/video/</loc>
-    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/update/</loc>
+    <lastmod>2018-05-30T01:09:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/video/</loc>
-    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/videojuegos/</loc>
-    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/video/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1412,25 +1423,31 @@
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/vine/</loc>
-    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/videojuegos/</loc>
+    <lastmod>2018-06-05T17:17:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/vine/</loc>
-    <lastmod>2018-06-13T15:23:49+02:00</lastmod>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://moonantonio.github.io/categories/war/</loc>
-    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <loc>https://moonantonio.github.io/categories/vine/</loc>
+    <lastmod>2018-06-28T20:22:01+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moonantonio.github.io/tags/war/</loc>
+    <lastmod>2018-06-04T15:05:33+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonantonio.github.io/categories/war/</loc>
     <lastmod>2018-06-04T15:05:33+02:00</lastmod>
     <priority>0</priority>
   </url>
