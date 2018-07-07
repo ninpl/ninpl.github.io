@@ -6,10 +6,19 @@
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 28 Jun 2018 20:34:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jul 2018 23:46:32 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WebClient gestor de conexiones Unity3D</title>
+      <link>https://moonantonio.github.io/post/2018/dev/007/</link>
+      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/007/</guid>
+      <description>WebClient es un componente del lado del cliente, un modelo distribuido de aplicaciones de niveles múltiples utilizado para crear y desarrollar aplicaciones empresariales. Los componentes del lado del cliente son típicamente aplicaciones de computadora que se ejecutan en la computadora de un usuario y se conectan a un servidor. Estos componentes realizan operaciones en el lado del cliente, ya que pueden necesitar acceso a la información disponible solo en el lado del cliente, como la entrada del usuario, o porque el servidor carece de la potencia de procesamiento necesaria en tales operaciones.</description>
+    </item>
     
     <item>
       <title>El Arte del diseño</title>
