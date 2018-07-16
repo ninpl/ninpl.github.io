@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>Estudio de UNET&middot; Antonio Moon´s</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Moon Antonio">
+	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
+	<meta name="keywords" content="Moon,Antonio,Dev,Game">
+	<meta name="generator" content="Hugo 0.41" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="site-header">
+	<div class="branding">
+		<a href="https://moonantonio.github.io/">
+		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
+		</a>
+		<h1 class="site-title">
+			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+
+		<ul>
+			<li><a href="/about/">  </a></li>
+
+			<li class="list-group">
+  <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
+  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/about" title="About">
+  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+<li class="icon">
+	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/MoonAntonio" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" title="Trello">
+		<i class="fa fa-fw fa-trello"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+
+
+		</ul>
+	</nav>
+</header>
+
+
+	<div class="content">
+	<article class="feature-image">
+		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			<h1 class="title">Estudio de UNET</h1>
+		</header>
+
+		<section class="post-content">
+			
+
+<p>Esta entrada, es un recordatorio personal, despues de hablar con amigos y de hablarme tan bien de UNET (Yo solo toque NET en Unity 3.5, :S), me entro el gusanico de ver esta nueva tecnologia, por lo que decidi ponerme a investigar, pero descubri que hay muy poca información sobre esto.</p>
+
+<p>Detallo en más profundidad, hay información, pero del High API. Lo que yo queria ver es información sobre el Low API y de esto hay poco, asi que decidi crear esta entrada para guardar como recuerdo este estudio, por si proximamente tengo que volver a mirarlo (soy un neurotico del guardado de datos xD).</p>
+
+<p>También agradecer a <strong>Alejandro Rivas y Fernando Galan</strong> por la ayuda e info que me dieron y siguen dandome.</p>
+
+<h1 id="conceptos-necesarios">Conceptos necesarios</h1>
+
+<p>Un <strong>sistema de red</strong> en videojuegos implica que los <strong>participantes pueden jugar juntos a través de la conexión entre ellos</strong> por medio de una red, ya sea una red de área local o el Internet. Esto quiere decir que uno o varios clientes se conectan a un servidor, para intercambiar datos.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet001.png" alt="001" /></center></p>
+
+<hr />
+
+<p>En esencia, un <strong>cliente le dice al servidor lo que esta realizando y el servidor remite la información para todos los clientes</strong>, sincronizando sus estados. Este metodo se realiza desde cada cliente, haciendo asi que todos los clientes sean sincronizados por el servidor.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet002.png" alt="002" /></center></p>
+
+<hr />
+
+<p>Se le suele llamar a un servidor, <strong>servidor dedicado, ya que solo efectua el cambio de datos y no ejecuta ninguna instancia</strong>. Pero también existen otros tipos de servidores. Por ejemplo en Warcraft 3, cualquier cliente puede crear una partida desde su cliente, esto realmente es levantar un servidor para que otros jugadores puedan conectar con el como clientes, a la vez, el servidor tambien podra ser un cliente.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet003.png" alt="003" /></center></p>
+
+<hr />
+
+<p>Incluso se puede implementar una capa más, comunmente llamado <strong>matchmaker</strong>, que es la instancia de un servidor que congrega las partidas de otros servidores, de esta forma los clientes conectan con el servidor principal, que este a su vez conecta con los demas servidores.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet004.png" alt="004" /></center></p>
+
+<hr />
+
+<h1 id="empezamos-el-planteamiento">Empezamos el planteamiento</h1>
+
+<p>Como siempre al final de la entrada dejo el <strong>link del repositorio en Github</strong> para los que quieran descargarlo. Doy por sentado que ya conoceis Unity y teneis un conocimiento sobre su funcionamiento.</p>
+
+<p>Lo primero que necesitaremos, sera un <strong>Manager para gestionar toda la informacion de nuestro servidor</strong>. Este Manager no puede desaparecer nunca, ya que si lo hace, el servidor y todas las <strong>conexiones se caeran</strong>.</p>
+
+<p>Crearemos un objeto vacio y le agregaremos el componente <strong>Network Manager que sera nuestro objeto para administrar la red</strong>.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet005.png" alt="005" /></center></p>
+
+<hr />
+
+<p>Este componente nos proporcionara mucha funcionalidad necesaria que podriamos escribirla desde cero pero ya que esta y no buscamos un sistema mega optimizado vamos a usarlo. Este componente ya lleva un valor booleano<strong>(Dont destroy on load)</strong> para decirle si quereis que el objeto sea destruido o que no se destruya nunca. También dispone de otro valor<strong>(Run in Background)</strong> para decidir si se ejecutara en segundo plano, Unity si no tiene este valor activado, al salir de Unity o del juego, se queda sin el foco y por lo tanto se pausa, esto seria malo si queremos que nuestros clientes reciban la información a tiempo.</p>
+
+<p>Ahora vamos a agregarle un nuevo componente, llamado <strong>Network Manager HUD</strong>. Este componente nos facilita una <strong>interfaz con la funcionalidad necesaria</strong> para conectar con un servidor, levantar nuestro servidor o activar un matchmaker.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet006.png" alt="006" /></center></p>
+
+<hr />
+
+<p>Si construimos ahora mismo la aplicación, veremos como podemos crear dos o tres instancias de Unity y con ello poder conectarlas entre ellas.</p>
+
+<p>Ahora que ya tenemos un administrador de red, tenemos que ver en sus opciones <strong>spawn info</strong>, una opcion de player prefab. Esto nos indica que este cliente tiene que instanciar algo. Pero no se refiere a algo fisico, sino que tiene que tener una instancia de jugador en memoria. Digamoslo de la siguiente manera como vemos en la siguiente imagen.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet007.png" alt="007" /></center></p>
+
+<hr />
+
+<p>Cada jugador tiene que tener una <strong>presencia no fisica</strong>, es decir, pongamos el objeto que poneis como spawn, es un objeto que posteriormente es destruido o desactivado, esto quitaria la presencia del cliente en el servidor, por que no tiene ninguna instancia. Por ello tenemos que realizar una buena praxis.</p>
+
+<p>Creamos un objeto vacio, <strong>que contendra la información persistente del cliente/usuario</strong> y le <strong>agregaremos el componente network identity</strong>, que es un componente para obtener la identificacion del objeto en la red. Luego crearemos su prefab y la agregaremos al prefab del spawn. Básicamente es un puntero a nuestro objeto de red.</p>
+
+<p>Esto realiza más facil la relacion amor odio de nuestros clientes/servidor.</p>
+
+<hr />
+
+<blockquote>
+<p><strong><em>Representación Dramatica</em></strong></p>
+
+<ul>
+<li>Cliente : El jugador 18 tiene que moverse 3 pixeles a la derecha</li>
+<li>Servidor : Sincronizando &hellip;</li>
+<li>Cliente : Gracias</li>
+</ul>
+</blockquote>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet008.png" alt="008" /><img src="/img/Dev/unet009.png" alt="009" /></center></p>
+
+<hr />
+
+<p>Ahora tenemos un pequeño problema. Si comprobamos cuando iniciamos dos instancias o mas, <strong>cada jugador instancia el mismo objeto</strong>. Vamos a cambiar eso.
+He creado un script y se lo he agregado a nuestro prefab de player.</p>
+
+<p>Empezaremos por sincronizar la instancia fisica del jugador, en nuestro caso un cubo con todas sus caras y vertices.</p>
+
+<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
+//                                                                              \\
+// Player.cs (16/07/2018)                                                       \\
+// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
+// Descripcion:     Controller del jugador/Cliente.                             \\
+// Fecha Mod:       16/07/2018                                                  \\
+// Ultima Mod:      Version Inicial                                             \\
+//******************************************************************************\\
+
+#region Librerias
+using UnityEngine;
+#endregion
+
+namespace MoonAntonio
+{
+    /// &lt;summary&gt;
+    /// &lt;para&gt;Controller del jugador/Cliente.&lt;/para&gt;
+    /// &lt;/summary&gt;
+    public class Player : MonoBehaviour 
+    {
+        #region Variables Publicas
+        /// &lt;summary&gt;
+        /// &lt;para&gt;Prefab del cubo para instanciar.&lt;/para&gt;
+        /// &lt;/summary&gt;
+        public GameObject prefabCubo;                                                   // Prefab del cubo para instanciar
+        #endregion
+
+        #region Inicializadores
+        /// &lt;summary&gt;
+        /// &lt;para&gt;Inicializador de &lt;see cref=&quot;Player&quot;/&gt;.&lt;/para&gt;
+        /// &lt;/summary&gt;
+        private void Start()// Inicializador de Player
+        {
+            Instantiate(prefabCubo);
+        }
+        #endregion
+    }
+}
+</code></pre>
+
+<p>Solo teneis que crear un gameobject, como el modelado o cualquier cubo como el nuestro y vereis su funcionamiento. Como vemos, <strong>esto es lo que realizariamos si queremos crear un objeto en un single player</strong>, sin necesidad de ser multijugador, ahora vamos a realizar los cambios para poder crear la red.</p>
+
+<p>Primero agregaremos <strong>using UnityEngine.Networking;</strong> y heredaremos nuestro script de <strong>NetworkBehaviour</strong> en vez de <strong>MonoBehaviour</strong>. Con esto lo que conseguimos es obtener acceso a la funcionalidad Net de Unity.</p>
+
+<pre><code class="language-C#">private void Start()// Inicializador de Player
+{
+    // Comprobamos si es el objeto local
+    if (!isLocalPlayer)
+    {
+        // Este objeto es de otro jugador
+        return;
+    }
+
+    // Solo instanciara el cubo si es Local. Es decir, si soy el cliente.
+    Instantiate(prefabCubo);
+}
+</code></pre>
+
+<p>De esta manera, si el objeto no es nuestro, no instanciaremos nada, ya que no es nuestra autoridad. Solo podemos darle autoridad sobre los clientes al servidor. Los demas clientes no tienen que tener autoridad sobre ningun cliente que no sea el suyo propio.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet010.png" alt="010" /></center></p>
+
+<hr />
+
+<p>Bien, ahora con todo esto, tenemos que aprender unos nuevos conceptos. ¿Por que la instanciacion debe de realizarse desde el cliente? En realidad no, deberia realizarse desde el servidor. Vamos a ver esto en mas profundidad.</p>
+
+<p>En el metodo Start(), donde teniamos la instanciacion de nuestra unidad, deberiamos borrarla y colocar lo siguiente.</p>
+
+<pre><code class="language-C#">// Decir al servidor que instancie nuestra unidad
+CmdSpawnUnidad();
+</code></pre>
+
+<p>Simplemente indicamos que se llame a un metodo, lo interesante viene en ese metodo. <strong>Una nota antes de seguir, es ver que el prefijo del metodo es <code>Cmd</code></strong>, esto es una decisión que se tomo por parte de Unity3D, no se bien por que, pero es un protocolo a seguir si no quieres que te de un error. Todos los metodos que sean llamados desde el servidor deberan llevar el prefijo <strong>Cmd</strong>.</p>
+
+<pre><code class="language-C#">/// &lt;summary&gt;
+/// &lt;para&gt;Le dice al servidor que instancie la unidad.&lt;/para&gt;
+/// &lt;/summary&gt;
+[Command]
+private void CmdSpawnUnidad()
+{
+    GInstantiate(prefabCubo);
+}
+</code></pre>
+
+<p>Ahora en nuestro metodo, vemos como colocamos el atributo [Command], esto indica, que este metodo sera ejecutado por el servidor, en vez de por nuestro cliente. Por lo que creara el objeto y lo propagara hasta los clientes.</p>
+
+<p>Al ejecutar os dara un error, esto es por que nuestro objeto Unidad, no tiene un identificador de red, es decir el componente NetworkIdentity. Todos los objetos que van a ser modificados por la red, tienen que tener un identificador.</p>
+
+<p>Tambien todos los objetos tienen que ser agregados en <strong>Registered Spawnable Prefabs</strong>.</p>
+
+<hr />
+
+<p><center><img src="/img/Dev/unet011.png" alt="011" /></center></p>
+
+<hr />
+
+<p>Despues tenemos un atributo muy peculiar que puede ser agregado a las variables que necesiten que se sincronizen desde el servidor hasta los clientes. Este atributo es <strong>[SyncVar]</strong>.</p>
+
+<pre><code class="language-C#">/// &lt;summary&gt;
+/// &lt;para&gt;Nombre del player.&lt;/para&gt;
+/// &lt;/summary&gt;
+[SyncVar] public string nombre = &quot;name&quot;;
+</code></pre>
+
+<p>Ahora tenemos que usar el atributo <strong>RPC</strong>, que lo que realiza es que cuando llama el servidor a este metodo, es ejecutado en todos los clientes. Cuando usamos este atributo, también hay que modificar el prefijo con Rpc.</p>
+
+<pre><code class="language-C#">/// &lt;summary&gt;
+/// &lt;para&gt;Cambia el nombre del jugador.&lt;/para&gt;
+/// &lt;/summary&gt;
+/// &lt;param name=&quot;newNombre&quot;&gt;&lt;/param&gt;
+[ClientRpc]
+public void RpcCambiarNombre(string newNombre)// Cambia el nombre del jugador
+{
+    nombre = newNombre;
+}
+</code></pre>
+
+<p>De momento eso es lo principal para poder crear las conexiones entre clientes y servidores. Animo a todo el mundo a descubrir esta especie de magia que seguro que os encantara como al 100% de la gente que aprende y terminareis construyendo e investigando mas y mas. Un saludo.</p>
+
+<p>PD: Hay mucha mas info y cosillas que explicar, pero eso sera otra historia.</p>
+
+<hr />
+
+<p><center><a href="https://github.com/MoonAntonio/UNetStudy" class="button">Repositorio</a></center></p>
+
+<p>.\Moon</p>
+
+
+			
+
+			
+				<hr>
+				
+
+<h3>Relacionado</h3>
+<ul>
+	
+	<li><a href="/post/2018/dev/002/">ScriptableObjects</a></li>
+	
+	<li><a href="/post/2018/dev/001/">MonoBehavior en Unity</a></li>
+	
+	<li><a href="/post/2017/dev/014/">MVC simplificado.</a></li>
+	
+	<li><a href="/post/2017/dev/004/">Unity &#43; GeForce Share (Shadow Play) [Tips]</a></li>
+	
+	<li><a href="/post/2018/dev/007/">WebClient gestor de conexiones Unity3D</a></li>
+	
+</ul>
+
+			
+		</section>
+	</article>
+	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Moon Antonio</p>
+</footer>
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-89564434-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>

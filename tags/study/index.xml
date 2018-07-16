@@ -6,10 +6,20 @@
     <description>Recent content in Study on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 29 May 2018 00:10:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jul 2018 17:18:59 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estudio de UNET</title>
+      <link>https://moonantonio.github.io/post/2018/dev/008/</link>
+      <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/008/</guid>
+      <description>Esta entrada, es un recordatorio personal, despues de hablar con amigos y de hablarme tan bien de UNET (Yo solo toque NET en Unity 3.5, :S), me entro el gusanico de ver esta nueva tecnologia, por lo que decidi ponerme a investigar, pero descubri que hay muy poca información sobre esto.
+Detallo en más profundidad, hay información, pero del High API. Lo que yo queria ver es información sobre el Low API y de esto hay poco, asi que decidi crear esta entrada para guardar como recuerdo este estudio, por si proximamente tengo que volver a mirarlo (soy un neurotico del guardado de datos xD).</description>
+    </item>
     
     <item>
       <title>Markdown - Lenguaje de marcado principal</title>
