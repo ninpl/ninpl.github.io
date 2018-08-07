@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/categories/general/</link>
+    <description>Recent content in General on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 08 Aug 2018 00:26:04 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¿Por qué podemos recuperar archivos eliminados?</title>
+      <link>https://moonantonio.github.io/post/2018/comun/008/</link>
+      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/008/</guid>
+      <description>Probablemente alguna vez has escuchado hablar de personas que han logrado recuperar archivos después de haber sido borrados (y no hablo de archivos que solamente estaban en la papelera). Si te interesa saber cómo es posible hacer esto, sigue leyendo.
+¿Cómo funcionan los discos duros? Antes de explicar por qué es posible recuperar un archivo es necesario comprender cómo funciona un disco duro. A diferencia de los discos de estado sólido o SSD, los discos duros o HDD almacenan la información en estado físico.</description>
+    </item>
+    
+  </channel>
+</rss>
