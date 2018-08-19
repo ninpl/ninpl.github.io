@@ -166,11 +166,9 @@ Si utilizáis programación orientada a objetos, seguro que conocéis los concep
 <h2 id="cohesión">Cohesión</h2>
 
 <ul>
-<li><p>The Reuse/Release Equivalence Principle: que nos dice que los componentes deben poder ser desplegados de forma independiente sin afectar a los demás. Las clases, o código que van en ese componente, deben tener una relación, y por tanto deben poderse desplegar de forma conjunta.</p></li>
-
-<li><p>The common closure principle: se podría decir que hablamos del principio de responsabilidad única (SRP) aplicado a componentes. La idea es agrupar clases que puedan cambiar por la misma razón en un solo componente. Si tenemos que hacer un cambio, y hay que tocar varios componentes, esto supondrá tener que desplegarlos todos, en lugar de sólo uno.</p></li>
-
-<li><p>The common reuse principle: este principio nos habla de evitar a aquellos que utilizan un componente depender de cosas que no necesitan. Si un componente depende de otro, hay que intentar que sea porque necesita todas las clases que lo componen. Lo contrario nos obligará a trabajar más cuando nos toque hacer el despliegue. De esta manera será más fácil reutilizar componentes.</p></li>
+<li>The Reuse/Release Equivalence Principle: que nos dice que los componentes deben poder ser desplegados de forma independiente sin afectar a los demás. Las clases, o código que van en ese componente, deben tener una relación, y por tanto deben poderse desplegar de forma conjunta.</li>
+<li>The common closure principle: se podría decir que hablamos del principio de responsabilidad única (SRP) aplicado a componentes. La idea es agrupar clases que puedan cambiar por la misma razón en un solo componente. Si tenemos que hacer un cambio, y hay que tocar varios componentes, esto supondrá tener que desplegarlos todos, en lugar de sólo uno.</li>
+<li>The common reuse principle: este principio nos habla de evitar a aquellos que utilizan un componente depender de cosas que no necesitan. Si un componente depende de otro, hay que intentar que sea porque necesita todas las clases que lo componen. Lo contrario nos obligará a trabajar más cuando nos toque hacer el despliegue. De esta manera será más fácil reutilizar componentes.</li>
 </ul>
 
 <p>Conseguir cumplir estos tres principios a la vez es algo bastante difícil, por lo que a veces hay que aceptar compromisos. Por ejemplo es común sacrificar un poco la reusabilidad, para conseguir que los componentes sean fáciles de desplegar.</p>
@@ -178,11 +176,9 @@ Si utilizáis programación orientada a objetos, seguro que conocéis los concep
 <h2 id="acoplamiento">Acoplamiento</h2>
 
 <ul>
-<li><p>The Acyclic Dependencies Principle: si trazamos líneas entre los componentes para representar las dependencias entre ellos, tenemos que intentar que no existan ciclos. Es decir, que el cambio en un componente, no acabe desencadenando en la necesidad de hacer cambios en cadena en los demás componentes, que obliguen a volver a modificar el componente inicial. Cuando eso sucede, es difícil conseguir una versión estable del sistema, ya que hay que hacer multitud de cambios en los distintos componentes hasta que todo vuelve a funcionar.</p></li>
-
-<li><p>The stable dependencies Principle: todo sistema tiende a cambiar y evolucionar, pero no todos los componentes cambian con la misma frecuencia, ni es igual de fácil modificarlos. Este principio nos dice que un componente que cambia a menudo no debería depender de otro que es difícil modificar, ya que entonces será también difícil de modificar.</p></li>
-
-<li><p>The stable Abstractions Principle: este principio nos dice que si un componente de nuestro sistema va a cambiar poco ya que es difícil modificarlo, debe estar compuesto mayoritariamente por interfaces y clases abstractas. De esta manera el componente será fácilmente extensible, y no afectará tanto al resto de la arquitectura.</p></li>
+<li>The Acyclic Dependencies Principle: si trazamos líneas entre los componentes para representar las dependencias entre ellos, tenemos que intentar que no existan ciclos. Es decir, que el cambio en un componente, no acabe desencadenando en la necesidad de hacer cambios en cadena en los demás componentes, que obliguen a volver a modificar el componente inicial. Cuando eso sucede, es difícil conseguir una versión estable del sistema, ya que hay que hacer multitud de cambios en los distintos componentes hasta que todo vuelve a funcionar.</li>
+<li>The stable dependencies Principle: todo sistema tiende a cambiar y evolucionar, pero no todos los componentes cambian con la misma frecuencia, ni es igual de fácil modificarlos. Este principio nos dice que un componente que cambia a menudo no debería depender de otro que es difícil modificar, ya que entonces será también difícil de modificar.</li>
+<li>The stable Abstractions Principle: este principio nos dice que si un componente de nuestro sistema va a cambiar poco ya que es difícil modificarlo, debe estar compuesto mayoritariamente por interfaces y clases abstractas. De esta manera el componente será fácilmente extensible, y no afectará tanto al resto de la arquitectura.</li>
 </ul>
 
 <h1 id="características-de-una-arquitectura-limpia">Características de una arquitectura limpia</h1>
@@ -190,15 +186,11 @@ Si utilizáis programación orientada a objetos, seguro que conocéis los concep
 <p>Además de cumplir los principios anteriormente descritos, una arquitectura limpia se caracteriza por:</p>
 
 <ul>
-<li><p>Independiente de los frameworks. Los frameworks deberían ser herramientas, y no obligarnos a actuar de una determinada manera debido a sus restricciones.</p></li>
-
-<li><p>Testable. Debemos poder probar nuestras reglas de negocio sin pensar en base de datos, interface gráfica u otros componentes no esenciales de nuestro sistema.</p></li>
-
-<li><p>Independiente de la UI. Si la UI cambia a menudo esto no puede afectar al resto de nuestro sistema, que tiene que ser independiente.</p></li>
-
-<li><p>Independiente de la base de datos. Deberíamos poder cambiar de Oracle, a SQL Server, a MongoDB, a Casandra o a cualquier otra base de datos sin que afectara demasiado a nuestro sistema.</p></li>
-
-<li><p>Independiente de cualquier entidad externa. No deberíamos saber nada de entidades externas, por lo que no deberemos depender de ellas.</p></li>
+<li>Independiente de los frameworks. Los frameworks deberían ser herramientas, y no obligarnos a actuar de una determinada manera debido a sus restricciones.</li>
+<li>Testable. Debemos poder probar nuestras reglas de negocio sin pensar en base de datos, interface gráfica u otros componentes no esenciales de nuestro sistema.</li>
+<li>Independiente de la UI. Si la UI cambia a menudo esto no puede afectar al resto de nuestro sistema, que tiene que ser independiente.</li>
+<li>Independiente de la base de datos. Deberíamos poder cambiar de Oracle, a SQL Server, a MongoDB, a Casandra o a cualquier otra base de datos sin que afectara demasiado a nuestro sistema.</li>
+<li>Independiente de cualquier entidad externa. No deberíamos saber nada de entidades externas, por lo que no deberemos depender de ellas.</li>
 </ul>
 
 <h1 id="partes-de-una-arquitectura-limpia">Partes de una arquitectura limpia</h1>

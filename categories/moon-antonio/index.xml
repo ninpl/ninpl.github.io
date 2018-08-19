@@ -6,10 +6,19 @@
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 19 Aug 2018 04:49:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 05:26:46 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tu primer script</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/002/</link>
+      <pubDate>Sun, 19 Aug 2018 05:26:46 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/002/</guid>
+      <description>Si nunca antes has creado un script, no te preocupes, no es exactamente ciencia de cohetes. Aprender a programar es como aprender un nuevo idioma, pero estás &amp;ldquo;hablando&amp;rdquo; con la maquina. Al igual que un lenguaje humano se puede dividir en oraciones que consisten en un sustantivo y un verbo, los lenguajes de programación se pueden dividir en variables (el sustantivo) y métodos (el verbo) que a menudo se combinan en enunciados (la oración).</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Introducción</title>
