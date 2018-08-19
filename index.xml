@@ -6,10 +6,20 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 13 Aug 2018 03:26:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 04:49:04 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Introducción</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/001/</link>
+      <pubDate>Sun, 19 Aug 2018 04:49:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/001/</guid>
+      <description>Esta serie de ayudas están diseñada para una introducción rápida a la programación en C# usando Unity. Introducirá brevemente la mayoría de las características del lenguaje, pero desde la perspectiva del uso dentro de Unity en lugar de casos de uso general, y con suerte, será más interesante aprender de él. Escribiré asumiendo que ya tienes Unity y tienes una comprensión básica del programa.
+¿Cómo empezar? Necesitará el motor Unity 3D.</description>
+    </item>
     
     <item>
       <title>El rol del diseñador de videojuegos</title>
@@ -1029,6 +1039,15 @@ Ahora va todo por secciones. ^^</description>
       <description>Antonio Mateo is a videogame designer and programmer from Spain. Curious since childhood, I discovered the creation of worlds, writing stories and showing them to my friends.In 2008 I discovered the programming.
 I&amp;rsquo;ve always been familiar with video games. But there was always a lot missing in them. So I decided to know the world of video game development and to show the stories I had as a child.
 PortFolio</description>
+    </item>
+    
+    <item>
+      <title>. BackDoor .</title>
+      <link>https://moonantonio.github.io/backdoor/</link>
+      <pubDate>Sun, 31 Jul 2016 18:53:37 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/backdoor/</guid>
+      <description>Generalmente suelo publicar entradas en su mayoria aleatorias, según lo que veo a diario, investigaciones de mi interes, consultas de otros compañeros, vines que realizo, intentos de ilustraciones entre muchas otras cosas. Esto a lo largo de mucho tiempo ha ocasionado que la gente se pierda entre tanta información, por eso he creado la backdoor, CodeBackDoor es una puerta trasera que dirige directamente a lo que creo que es más relevante del blog (Las entradas que no esten aqui, tendrán que seguir en vuestros marcadores ).</description>
     </item>
     
   </channel>

@@ -6,10 +6,20 @@
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 13 Aug 2018 03:26:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 04:49:04 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Introducción</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/001/</link>
+      <pubDate>Sun, 19 Aug 2018 04:49:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/001/</guid>
+      <description>Esta serie de ayudas están diseñada para una introducción rápida a la programación en C# usando Unity. Introducirá brevemente la mayoría de las características del lenguaje, pero desde la perspectiva del uso dentro de Unity en lugar de casos de uso general, y con suerte, será más interesante aprender de él. Escribiré asumiendo que ya tienes Unity y tienes una comprensión básica del programa.
+¿Cómo empezar? Necesitará el motor Unity 3D.</description>
+    </item>
     
     <item>
       <title>El rol del diseñador de videojuegos</title>
