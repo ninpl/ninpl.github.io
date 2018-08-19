@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>Aprende C# con Unity - Métodos&middot; Antonio Moon´s</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Moon Antonio">
+	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
+	<meta name="keywords" content="Moon,Antonio,Dev,Game">
+	<meta name="generator" content="Hugo 0.41" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="site-header">
+	<div class="branding">
+		<a href="https://moonantonio.github.io/">
+		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
+		</a>
+		<h1 class="site-title">
+			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+
+		<ul>
+			<li><a href="/about/">  </a></li>
+
+			<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
+  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
+  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
+  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+<li class="icon">
+	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/MoonAntonio" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" title="Trello">
+		<i class="fa fa-fw fa-trello"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+
+
+		</ul>
+	</nav>
+</header>
+
+
+	<div class="content">
+	<article class="feature-image">
+		<header style="background-image: url('https://moonantonio.github.io/img/img103.png')">
+			<h1 class="title">Aprende C# con Unity - Métodos</h1>
+		</header>
+
+		<section class="post-content">
+			
+
+<p>La parte de &ldquo;acción&rdquo; de la programación proviene de &ldquo;llamar&rdquo; (también conocido como &ldquo;invocar&rdquo;) algo llamado &ldquo;método&rdquo; (también conocido como &ldquo;función&rdquo;). En esta lección aprenderemos cómo definir y llamar a nuestros propios métodos, y luego revisaremos algunos más que son especiales para Unity. Finalmente, crearemos nuestra propia demo de &ldquo;Magic 8 Ball&rdquo; y explicaremos cómo vincular un método con el clic de un botón y generar el resultado de una etiqueta.</p>
+
+<p><center><a href="https://github.com/CodeBackDoor/LearnCSharpUnity" class="button"><i class="fa fa-github-alt"></i>GitHub Repo</a><a href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" class="button"><i class="fa fa-gitlab"></i>GitLab Repo</a></center></p>
+
+<h2 id="declaraciones-de-métodos">Declaraciones de métodos</h2>
+
+<p>Un método requiere al menos tres cosas, pero generalmente tiene cuatro:</p>
+
+<ul>
+<li>un tipo de datos de retorno</li>
+<li>un nombre de identificador</li>
+<li>un conjunto de parámetros</li>
+<li>un cuerpo (opcional si también marca el método como &ldquo;abstracto&rdquo;, &ldquo;externo&rdquo; o &ldquo;parcial&rdquo;, pero esas son características avanzadas para más adelante).</li>
+</ul>
+
+<p>Aquí están algunas muestras:</p>
+
+<hr />
+
+<pre><code class="language-C#">private void MetodoQueRealizaAlgo()
+{
+    Debug.Log(&quot;Hola Mundo!&quot;);
+}
+</code></pre>
+
+<hr />
+
+<p>Este método se declara con un tipo de devolución de &ldquo;vacío&rdquo;, que es un caso especial y significa que no devuelve nada. El nombre del identificador es &ldquo;MetodoQueRealizaAlgo&rdquo; y el conjunto de parámetros está vacío (hay paréntesis sin nada dentro). El &ldquo;cuerpo&rdquo; del método es todo, desde el corchete abierto hasta el corchete de cierre &ldquo;{&rdquo; y &ldquo;}&rdquo;. Puede colocar &ldquo;declaraciones&rdquo; dentro de un cuerpo de método como he hecho aquí. Cuando se llame a nuestro método, veremos el mensaje &ldquo;Hola Mundo!&rdquo; impreso en la consola.</p>
+
+<hr />
+
+<pre><code class="language-C#">public bool IsRegistrado (string myID) {
+    return string.Equals(myID, &quot;Moon&quot;);
+}
+</code></pre>
+
+<hr />
+
+<p>Este método de ejemplo comienza con la palabra clave &ldquo;public&rdquo;, que puede recordar al usar las variables en la lección anterior. Al igual que las variables, los métodos predeterminados son &ldquo;privados&rdquo; a menos que especifique lo contrario. Al hacer público este método, otras clases pueden &ldquo;invocarlo&rdquo;. Luego vemos un tipo de retorno de &ldquo;bool&rdquo; (verdadero o falso). Tenga en cuenta que a menos que el tipo de devolución de su método sea &ldquo;vacío&rdquo; debe tener una declaración dentro del método que realmente &ldquo;devuelva&rdquo; un valor del tipo que indicó, o el compilador se quejará , &ldquo;no todas las rutas de códigos devuelven un valor&rdquo; . Por lo general, esta será la última línea del método, ya que las instrucciones posteriores al &ldquo;retorno&rdquo; no se podrán ejecutar. El identificador es &ldquo;IsRegistrado&rdquo; y tomamos un único parámetro llamado &ldquo;myID&rdquo; que debe ser un tipo de &ldquo;string&rdquo;.</p>
+
+<hr />
+
+<pre><code class="language-C#">private int Multiplicar (int a, int b) {
+    return a * b;
+}
+</code></pre>
+
+<hr />
+
+<p>Marqué el último método de ejemplo &ldquo;privado&rdquo;, que es innecesario ya que es privado de forma predeterminada, pero a veces es posible que desee volver a repetir sus intenciones a otros programadores. Este método devolverá un &ldquo;int&rdquo; (un valor numérico que usa números enteros). El identificador es &ldquo;Multiplicar&rdquo; y toma dos parámetros. Tenga en cuenta que cada parámetro debe especificar su propio tipo de datos, nombre de identificador y múltiples parámetros están separados por comas.</p>
+
+<h2 id="invocaciones-de-método">Invocaciones de método</h2>
+
+<p>Para &ldquo;invocar&rdquo; su método, utiliza una declaración que hace referencia al identificador del método seguido de los parámetros necesarios, y luego a un punto y coma. Tenga en cuenta que no necesita volver a especificar el tipo o el nombre del parámetro, y puede pasar cualquier valor o variable existente, siempre que el tipo de datos coincida.</p>
+
+<p>En un minuto mostraré el código que llama a cada uno de nuestros métodos de demostración, pero antes de eso, agreguemos algunas variables a nuestra clase para hacerlo más interesante.</p>
+
+<hr />
+
+<pre><code class="language-C#">public string test;
+public int value1;
+public int value2;
+</code></pre>
+
+<hr />
+
+<p>Las declaraciones que escribimos que llaman a nuestros métodos deben ser &ldquo;ejecutadas&rdquo; ellas mismas, y la manera más fácil de hacerlo es conectarnos a un método que Unity que llamará por nosotros. Agregue el siguiente código en el método de Start:</p>
+
+<hr />
+
+<pre><code class="language-C#">void Start ()
+{
+    MetodoQueRealizaAlgo();
+ 
+    if (IsRegistrado(test)) {
+        Debug.Log(&quot;Registrado.&quot;);
+    } else {
+        Debug.Log(&quot;No Registrado.&quot;);
+    }
+ 
+    int value = Multiplicar(value1, value2);
+    Debug.Log(&quot;Resultado: &quot; + value);
+}
+</code></pre>
+
+<hr />
+
+<p>La primera afirmación que hemos hecho &ldquo;llama&rdquo; a nuestro primer método de ejemplo &ldquo;MetodoQueRealizaAlgo&rdquo;. Es muy simple porque no acepta ni devuelve ningún valor.</p>
+
+<p>Luego tenemos algo llamado &ldquo;instrucción if&rdquo; que nos permite ramificar y ejecutar código selectivamente. Lo que aparece dentro del paréntesis de apertura y cierre se evalúa como verdadero o falso y esa evaluación determina qué camino seguir. Debido a que nuestro método arroja un valor verdadero o falso, podemos simplemente invocarlo en su lugar. Si el valor que devuelve nuestro método &ldquo;IsRegistrado&rdquo; es &ldquo;verdadero&rdquo;, entonces veremos el mensaje &ldquo;Registrado&rdquo; impreso en la consola. De lo contrario, la condición &ldquo;else&rdquo; se hace cargo y veremos el mensaje &ldquo;No registrado&rdquo; impreso en su lugar. Al igual que un método, las instrucciones de código que se ejecutan selectivamente están envueltas por un corchete de abrir y cerrar.</p>
+
+<h3 id="consejo">Consejo:</h3>
+
+<ul>
+<li>Una &ldquo;declaración if&rdquo; es un tipo especial de declaración de &ldquo;selección&rdquo;. Hay algunas características adicionales que no se muestran en este ejemplo, como la capacidad de usar una o más ramas &ldquo;else if&rdquo; y la capacidad de crear condiciones compuestas (como &ldquo;condition1 o condition2&rdquo; y &ldquo;condition1 y condition2&rdquo; ) Consulte la referencia para obtener más información: <a href="https://msdn.microsoft.com/en-us/library/5011f09h.aspx">https://msdn.microsoft.com/en-us/library/5011f09h.aspx</a></li>
+</ul>
+
+<p>Debemos pasar una cadena como parámetro cuando invocamos &ldquo;IsRegistrado&rdquo;, pero no nos confundamos por el nombre del parámetro en nuestra declaración de método y el nombre de lo que pasamos en nuestra declaración: los nombres no tienen que coincidir. De hecho, el valor ni siquiera tiene que ser nombrado. Podría haber pasado un valor literal como &ldquo;Moon&rdquo; (tenga en cuenta que habría incluido las comillas en el código). El nombre en la declaración del parámetro se usa en la implementación del método (las declaraciones que aparecen dentro del método), pero de lo contrario no importa. Lo que sí importa es que pasemos &ldquo;algo&rdquo; del tipo de datos correcto. Si accidentalmente pasa el tipo de datos incorrecto, el compilador generará un error, &ldquo;La mejor coincidencia de método sobrecargado para &lsquo;CLASS.METHOD (ARG)&rsquo; tiene algunos argumentos inválidos&rdquo;. En este ejemplo, usamos la variable de cadena llamada &ldquo;test&rdquo; que definimos anteriormente en nuestra clase.</p>
+
+<p>El método &ldquo;IsRegistrado&rdquo; se marcó como público, lo que no hace diferencia en el ejemplo presentado aquí. Una clase puede llamar a cualquiera de sus métodos independientemente de si el método está marcado como público, privado o protegido. Sin embargo, si otra clase tuviera una referencia a una instancia de esta clase, podríamos &ldquo;llamar&rdquo; cualquier método público que contenga a través de la notación de puntos con una declaración como la siguiente:</p>
+
+<hr />
+
+<pre><code class="language-C#">bool resultado = instance.IsRegistrado(&quot;Moon&quot;);
+</code></pre>
+
+<hr />
+
+<p>Finalmente llamamos al método &ldquo;Multiplicar&rdquo; pasando dos variables separadas por comas del tipo correcto, en este caso nuestras variables &ldquo;value1&rdquo; y &ldquo;value2&rdquo;. El valor devuelto de un método se puede asignar a una variable y volver a utilizarlo más tarde, cuando imprimimos un mensaje que nos dice el resultado de la multiplicación.</p>
+
+<p>Crea una nueva escena y adjunta tu guión a algo en la escena (la cámara o un objeto de juego vacío está bien). Use el inspector para asignar valores a las variables y luego ejecutar la escena. Para ver el resultado del ejemplo, asegúrese de mirar en la ventana de la consola (desde la barra de menú, seleccione &ldquo;Windows -&gt; Console&rdquo;).</p>
+
+<h2 id="métodos-monobehaviour">Métodos MonoBehaviour</h2>
+
+<p>Los dos métodos más comunes para familiarizarse son los dos incluidos en la plantilla (&ldquo;Start&rdquo; y &ldquo;Update&rdquo;). Sin embargo, hay muchos más métodos de plantilla en los que puede conectarse. Los siguientes son algunos de los que uso con más frecuencia.</p>
+
+<p>&ldquo;Awake&rdquo; se llama inmediatamente después de la instanciación de un objeto. Es la primera llamada a método con la que puede conectarse, y puede ser una buena ubicación para &ldquo;inicialización&rdquo; (esto puede incluir obtener referencias a otros componentes o crear instancias de prefabricados, etc.) aunque en otras ocasiones podría necesitar esperar hasta &ldquo; Start &ldquo;para asegurarse de que todo esté activo y configurado correctamente. Tenga en cuenta que tanto Awake como Start solo se llamarán una vez en la vida de un objeto.</p>
+
+<p>&ldquo;OnEnable&rdquo; se llama despues. A menudo uso OnEnable para registrar oyentes de eventos y OnDisable para eliminarlos. Una diferencia clave entre este método y Awake o Start es que se puede invocar varias veces, cada vez que cambia el estado &ldquo;habilitado&rdquo; del objeto, por lo que solo tiene sentido ir a ciertos tipos de código de inicialización.</p>
+
+<p>Se llamará a &ldquo;Start&rdquo; antes del primer frame del método de &ldquo;Update&rdquo;(después de que todos los objetos hayan ejecutado sus métodos Awake y OnEnable) siempre que el objeto en el que está activado esté habilitado. Al igual que el método &ldquo;Awake&rdquo;, puede ser un buen lugar para inicializar tus objetos.</p>
+
+<p>&ldquo;Update&rdquo; se llama una vez por frame, en un intervalo de tiempo variable, y proporciona un manejo conveniente para el &ldquo;bucle del juego&rdquo;. &ldquo;FixedUpdate&rdquo; es similar pero se ejecuta en un intervalo de tiempo fijo y se usa para interactuar con Física. Se llama a &ldquo;LateUpdate&rdquo; después de que la Actualización haya finalizado y proporciona una opción para que tenga lógica en respuesta a otros cambios.</p>
+
+<p>Se llama a &ldquo;OnDestroy&rdquo; cuando eliminas un GameObject de la escena. Solo se llama una vez en la vida de un objeto y puede ser un buen lugar para limpiar todo lo que se creó durante la inicialización. Por ejemplo, si creaste una textura o malla, querrás asegurarte de que también se destruyan aquí.</p>
+
+<h3 id="consejo-1">Consejo:</h3>
+
+<ul>
+<li>Consulte la referencia de la clase MonoBehaviour para familiarizarse con todos los métodos disponibles:
+<a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.html">http://docs.unity3d.com/ScriptReference/MonoBehaviour.html</a> . Luego, consulte este enlace en el &ldquo;orden de ejecución&rdquo; (qué método se llamará y en qué momento) aquí: <a href="http://docs.unity3d.com/Manual/ExecutionOrder.html">http://docs.unity3d.com/Manual/ExecutionOrder.html</a></li>
+</ul>
+
+<h2 id="magic-8-ball">Magic 8 Ball</h2>
+
+<p>Crea una nueva escena y agregue un Panel (desde la barra de menú elija GameObject -&gt; UI -&gt; Panel). Luego agregue un objeto de Botón y Texto y agregalos a ambos al panel. El botón se usará para activar una respuesta de nuestra Bola mágica 8, y el texto es la etiqueta donde se mostrará la respuesta. Crea un nuevo script llamado &ldquo;Magic&rdquo; y pega el siguiente código:</p>
+
+<hr />
+
+<pre><code class="language-C#">using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+ 
+public class Magic : MonoBehaviour 
+{
+        public string[] respuestas;
+        [SerializeField] Text _label;
+
+        public void Pregunta()
+        {
+            int index = UnityEngine.Random.Range(0, respuestas.Length);
+            _label.text = respuestas[index];
+        }
+}
+</code></pre>
+
+<hr />
+
+<p>En la línea 7 de este script, hemos declarado un tipo especial de variable que aún no te he mostrado: una matriz o array. Una matriz es una colección de valores del tipo especificado. La declaración de nuestra variable &ldquo;respuestas&rdquo; tiene el mismo aspecto que declarar una variable de string normal, excepto que agregamos un corchete de abrir y cerrar después del tipo de datos. Puede hacer que cualquier declaración de variable sea una matriz utilizando este ejemplo. Como nuestra variable es pública, aparecerá en el inspector y llenaremos sus valores allí.</p>
+
+<h3 id="consejo-2">Consejo:</h3>
+
+<ul>
+<li>Hay muchos tipos de matrices, incluidas matrices unidimensionales, multidimensionales e irregulares. También hay muchas formas de inicializarlos. Valdría la pena investigar la gama completa de opciones disponibles aqui: <a href="https://msdn.microsoft.com/en-us/library/aa288453(v=vs.71).aspx">https://msdn.microsoft.com/en-us/library/aa288453(v=vs.71).aspx</a></li>
+</ul>
+
+<p>También creamos una variable para mantener una referencia a un componente de texto. Usamos la marca &ldquo;[SerializeField]&rdquo; en lugar de &ldquo;public&rdquo; porque necesitamos asignar la referencia en el inspector, pero ningún otro script &ldquo;necesita saber&rdquo; sobre esta etiqueta o su uso, es algo &ldquo;interno&rdquo; para la implementación de nuestro script y podría cambiar fácilmente en cualquier momento.</p>
+
+<p>En la línea 10, definimos un método que usaremos como un &ldquo;detector de eventos&rdquo;, un método que se invoca automáticamente en función de los eventos activados. En este caso, nuestro &ldquo;evento&rdquo; es presionar un botón de UI. Tenga en cuenta que nuestro método debe ser público para poder conectarlo al botón a través del inspector.</p>
+
+<p>Nuestro método tiene dos declaraciones. La primera (línea 12) crea una variable temporal llamada índice, a la que asignamos un número aleatorio. Generamos nuestro número aleatorio utilizando el método &ldquo;Range&rdquo;, que nos permite especificar un valor mínimo (incluido) y máximo (exclusivo) para producir el resultado. Si nuestra matriz de respuestas tuviera 3 strings, entonces generaríamos 0, 1 o 2 de este método, porque el valor que especificamos para &ldquo;min&rdquo; es 0 y el valor que especificamos para &ldquo;max&rdquo; es dinámico basado en la cantidad de respuestas en la matriz.</p>
+
+<p>La siguiente declaración (línea 13) asigna a la variable de texto de nuestra etiqueta una de las respuestas de nuestra matriz. Se accede a los valores individuales dentro de la matriz mediante &ldquo;índice&rdquo; (un valor numérico dentro de corchetes). Tenga en cuenta que las matrices están basadas en cero, lo que significa que el primer elemento de la matriz se encuentra en el índice 0.</p>
+
+<p>Regresa a Unity y adjunta el script a algo de la escena. Tenga en cuenta que realmente no importa dónde lo conecte, pero un objeto de nivel raíz como el &ldquo;Canvas&rdquo; o un objeto de juego &ldquo;Controlador&rdquo; especialmente creado (solo un GameObject vacío) son candidatos bastante buenos que alguien podría esperar usar.</p>
+
+<p>Asigne la referencia de la etiqueta del script (tenga en cuenta que aparecerá como &ldquo;Texto&rdquo; en el inspector aunque usemos &ldquo;texto label&rdquo; en el código) arrastrando y soltando el objeto Texto de la escena en el campo en el inspector de nuestro guión.</p>
+
+<p>Expanda el campo &ldquo;Respuestas&rdquo; haciendo clic en la flecha y establezca el tamaño para contener tantas respuestas como desee (debe ser al menos una o la demostración generará un error, porque mi código de muestra no muestra errores). Agregue algunas respuestas como: &ldquo;Sí Definitivamente&rdquo;, &ldquo;No es una oportunidad&rdquo; y &ldquo;Quizás&rdquo; a la matriz.</p>
+
+<p>Seleccione el botón en el panel Jerarquía. Ahora mira la parte inferior del componente &ldquo;Button&rdquo; en el inspector y verás un grupo &ldquo;OnClick&rdquo; que está actualmente vacío. Haga clic en &ldquo;+&rdquo; en la parte inferior de ese grupo para agregar un &ldquo;detector de eventos&rdquo;. Arrastra cualquier objeto que tenga tu script Mágico en el nuevo campo de objeto que apareció. A la derecha del campo de objeto hay un selector de función, actualmente dice &ldquo;Sin función&rdquo;. Úselo para seleccionar &ldquo;Magic -&gt; Pregunta()&rdquo;.</p>
+
+<p>Ahora todo está configurado. Ejecuta la escena. Haga su pregunta y haga clic para obtener una respuesta, que se elegirá al azar y se mostrará en nuestro Texto.</p>
+
+<p><center><img src="/img/codebackdoor/learncsharpunity/05.gif" alt="003" /></center></p>
+
+<h1 id="resumen">Resumen</h1>
+
+<p>En esta lección aprendimos cómo escribir e invocar métodos personalizados. Cubrimos métodos con y sin tipos de devolución, así como con y sin parámetros, incluida la opción de múltiples parámetros. Revisamos algunos de los métodos que con frecuencia puede encontrar útiles como desarrolladores de Unity, que tienen un significado especial cuando se incluyen en cualquier script basado en MonoBehaviour. Finalmente, creamos un programa de ejemplo basado en Magic 8 Ball. Allí creamos un método que funcionaba como una especie de &ldquo;controlador de eventos&rdquo;, lo que significa que pudimos activar algunos de nuestros códigos en función de la interacción del usuario.</p>
+
+
+			
+
+			
+				<hr>
+				
+
+<h3>Relacionado</h3>
+<ul>
+	
+	<li><a href="/post/2018/csharpunity/003/">Aprende C# con Unity - Variables</a></li>
+	
+	<li><a href="/post/2018/csharpunity/002/">Aprende C# con Unity - Tu primer script</a></li>
+	
+	<li><a href="/post/2018/csharpunity/001/">Aprende C# con Unity - Introducción</a></li>
+	
+	<li><a href="/post/2018/comun/010/">El rol del diseñador de videojuegos</a></li>
+	
+	<li><a href="/post/2018/icon/001/">Darling in the FranXX Icon Folder</a></li>
+	
+</ul>
+
+			
+		</section>
+	</article>
+	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Moon Antonio</p>
+</footer>
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-89564434-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>

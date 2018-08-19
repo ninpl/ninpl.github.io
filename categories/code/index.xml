@@ -6,10 +6,19 @@
     <description>Recent content in Code on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 19 Aug 2018 06:55:40 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 08:32:53 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Métodos</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/004/</link>
+      <pubDate>Sun, 19 Aug 2018 08:32:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/004/</guid>
+      <description>La parte de &amp;ldquo;acción&amp;rdquo; de la programación proviene de &amp;ldquo;llamar&amp;rdquo; (también conocido como &amp;ldquo;invocar&amp;rdquo;) algo llamado &amp;ldquo;método&amp;rdquo; (también conocido como &amp;ldquo;función&amp;rdquo;). En esta lección aprenderemos cómo definir y llamar a nuestros propios métodos, y luego revisaremos algunos más que son especiales para Unity. Finalmente, crearemos nuestra propia demo de &amp;ldquo;Magic 8 Ball&amp;rdquo; y explicaremos cómo vincular un método con el clic de un botón y generar el resultado de una etiqueta.</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Variables</title>
