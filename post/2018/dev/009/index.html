@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>Unity : Aseprite Workflow&middot; Antonio Moon´s</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Moon Antonio">
+	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
+	<meta name="keywords" content="Moon,Antonio,Dev,Game">
+	<meta name="generator" content="Hugo 0.41" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="site-header">
+	<div class="branding">
+		<a href="https://moonantonio.github.io/">
+		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
+		</a>
+		<h1 class="site-title">
+			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+
+		<ul>
+			<li><a href="/about/">  </a></li>
+
+			<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
+  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
+  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
+  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+<li class="icon">
+	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/MoonAntonio" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" title="Trello">
+		<i class="fa fa-fw fa-trello"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+
+
+		</ul>
+	</nav>
+</header>
+
+
+	<div class="content">
+	<article class="feature-image">
+		<header style="background-image: url('https://moonantonio.github.io/img/img104.png')">
+			<h1 class="title">Unity : Aseprite Workflow</h1>
+		</header>
+
+		<section class="post-content">
+			
+
+<p><center><img src="/img/externo/000.gif" alt="001" /></center></p>
+
+<p>Administrar las <strong>hojas de sprites y las animaciones de pixel art</strong> dentro de Unity sin herramientas personalizadas <strong>es una pesadilla</strong>. Esto es lo que tiene que hacer solo para crear los assets para un solo personaje:</p>
+
+<ol>
+<li>Crea una textura (png) a través de un programa de pintura como Photoshop e importa un png en el proyecto de Unity.</li>
+<li>Establezca las configuraciones de importación deseadas para que la textura importada coincida con la misma configuración que ha utilizado para cada textura que haya importado.</li>
+<li>Corta la hoja de sprites en una cuadrícula de sprites dentro del editor de Sprite ingresando el tamaño de la celda.</li>
+<li>Cree clips de animación uno por uno para recrear los mismos clips que planeó cuando creó su arte.</li>
+<li>Da la vuelta a tu escritorio en un ataque de ira.</li>
+</ol>
+
+<p>Este <strong>flujo de trabajo claramente no es sostenible y es un desperdicio de tiempo de desarrollo</strong>. Y tampoco es tan laborioso cuando necesitas actualizar el arte.</p>
+
+<p>Pasamos semanas durante la infancia entreteniéndonos con diferentes programas de pintura y herramientas personalizadas para descubrir cómo aceleraríamos <strong>nuestro flujo de trabajo de pixel art</strong>.</p>
+
+<p>Así es como haces todo eso con el <a href="http://bit.ly/2Bxz7Q5">Importador de animación</a>:</p>
+
+<p><center><img src="/img/externo/001.gif" alt="001" /></center></p>
+
+<ol>
+<li>Crea tu textura (png) a través de <a href="http://bit.ly/2BC8Pft">Aseprite</a> o <a href="http://bit.ly/2LjsmB1">Pyxel Edit</a>.</li>
+<li>Arrastra y suelta el archivo en Importador de animación en Unity.</li>
+<li>Mira los pasos <strong>2, 3 y 4 de la lista anterior que suceden automáticamente</strong>.</li>
+</ol>
+
+<p>Así que aquí hay un tutorial sobre cómo usar el <strong>Importador de animación en su proyecto de pixel art</strong>. En este tutorial crearemos un personaje en Aseprite, lo animaremos y le daremos vida dentro de Unity. Lo he escrito para principiantes de Unity y con Aseprite en mente, pero los expertos deberían poder leerlo rápidamente para entender la herramienta.</p>
+
+<h3 id="requisitos-previos">Requisitos previos</h3>
+
+<p>Antes de comenzar, asegúrese de haber instalado <a href="http://bit.ly/2BC8Pft">Aseprite</a> , que <strong>vale los $15</strong>, pero también hay una demostración si quiere probarlo. Obviamente, también necesitará un proyecto de <a href="http://bit.ly/2LkBwwW">Unity</a> listo para funcionar.</p>
+
+<hr />
+
+<h1 id="descargar-instalar-y-configurar">Descargar, instalar y configurar</h1>
+
+<p>Esta sección explica todo lo que necesita saber para instalar el <a href="http://bit.ly/2Bxz7Q5">Importador de animación</a> y prepararlo para que trabaje bien.</p>
+
+<h2 id="descargue-la-herramienta-importador-de-animación">Descargue la herramienta Importador de animación</h2>
+
+<p><center><img src="/img/externo/002.png" alt="001" /></center></p>
+
+<p>Obtenga la última versión de la herramienta del <a href="http://bit.ly/2o0QqiN">repositorio de github</a>. Este es un  <strong>.unitypackage</strong> , que es como un <strong>zip que contiene los archivos de los assets</strong>.</p>
+
+<h2 id="importar-el-paquete-en-unity">Importar el paquete en Unity</h2>
+
+<p><center><img src="/img/externo/003.png" alt="001" /></center></p>
+
+<p>Después de descargar el paquete, <a href="http://bit.ly/2BEDRDy">impórtelo en Unity</a> a través de <strong>Assets &gt; Import Package &gt; Custom Package&hellip;</strong></p>
+
+<h2 id="instalar-el-importador-de-animación">Instalar el importador de animación</h2>
+
+<ul>
+<li>Abra el importador a través de <strong>Window &gt; Animation Importer</strong></li>
+<li>Primero asegúrese de que la <strong>ruta a su aplicación Aseprite sea la correcta</strong>. Debería ser correcto a menos que lo haya movido a una ubicación además del predeterminado.</li>
+<li>Target Object debe dejarse como SpriteRenderer. Esto se usa para <strong>crear animaciones para elementos de la interfaz de usuario</strong>, pero como ahora estamos creando un personaje, lo dejamos en SpriteRenderer.</li>
+<li>Especifique los <strong>Píxeles por unidad</strong> de su proyecto. Este es el número de píxeles en el sprite que corresponden a una unidad en el mundo. Solo usamos 1 para mantenerlo simple (1 píxel es 1 unidad), pero podemos cambiarlo a nuestro tamaño de mosaico de 16 debido a las preocupaciones sobre la precisión del punto flotante.</li>
+<li>Decide dónde quieres que salgan tus Sprites, Animaciones y AnimatorControllers. Estos son los activos generados en la importación. Usamos el mismo directorio porque mantiene todos los archivos en un solo lugar. Hace que sea fácil eliminarlos a todos o renombrarlos todos (a granel) si es necesario.</li>
+<li>Elige un esquema de nombres de sprites si lo deseas. Usamos el <strong>valor predeterminado</strong> porque rara vez tenemos que mirar los nombres de los sprites para que no nos moleste.</li>
+<li>Optamos por no participar en la importación automática. Puede ser increíble, pero no hemos tenido ningún problema con el flujo de trabajo manual.</li>
+<li>Los ajustes de <strong>Non-Looping</strong> son donde especifica qué clips deben <em>no</em> estar en bucle. Querrá volver a esto cuando agregue animaciones, pero por ahora puede dejar los valores predeterminados.</li>
+</ul>
+
+<p>Felicidades! Ya terminaste con la configuración.</p>
+
+<p><center><img src="/img/externo/004.png" alt="001" /></center></p>
+
+<h1 id="crea-tu-archivo-aseprite">Crea tu archivo Aseprite</h1>
+
+<p>A continuación, explicaré los conceptos básicos del uso de Aseprite para crear tu personaje. Si desea saber más sobre las cosas que puede hacer en Aseprite, puede <a href="http://bit.ly/2PtFTt0">consultar su documentación</a>.</p>
+
+<h2 id="crear-un-nuevo-archivo-en-aseprite">Crear un nuevo archivo en Aseprite</h2>
+
+<p>Abra Aseprite y cree un nuevo archivo. Establezca el <strong>tamaño de Sprite en el tamaño deseado de cada celda</strong>. Esto será lo mismo para cada celda de la animación, por lo que debe ser lo más grande que pueda necesitar.</p>
+
+<p><center><img src="/img/externo/005.png" alt="001" /></center></p>
+
+<h2 id="crea-el-primer-cuadro">Crea el primer cuadro</h2>
+
+<p>Luego usa las <strong>herramientas de pintura para crear el primer cuadro de la animación</strong> de tu personaje. También puede agregar capas que afectan a todos los marcos y son especialmente útiles para guías o sombras de puntos. Cada capa se puede bloquear u ocultar, como se muestra en este gif.</p>
+
+<p><center><img src="/img/externo/006.gif" alt="001" /></center></p>
+
+<p>Avancemos y guardemos el archivo ahora. El Importador de animación requiere que los archivos Aseprite se almacenen en el proyecto, así que adelante, guárdelo en la carpeta que elija. Ponemos todos nuestros archivos Aseprite dentro de una única carpeta Aseprite con subcarpetas para varios tipos de objetos, como Doodads y Characters.</p>
+
+<h2 id="agregar-cuadros">Agregar cuadros</h2>
+
+<p><center><img src="/img/externo/007.gif" alt="001" /></center></p>
+
+<p>Añada marcos haciendo clic con el botón derecho en la celda y seleccionando <strong>&lsquo;Nuevo Frame&rsquo;</strong> o <strong>&lsquo;Nuevo empty frame&rsquo;</strong>. El pequeño círculo dentro de cada celda indica que tiene píxeles dibujados en él. Agregue <strong>tantos marcos como necesite para su inactividad</strong>. Terminamos usando 6 en nuestro tiempo libre. También puede editar cada cuadro para establecer la duración en milisegundos.</p>
+
+<h2 id="nombrar-etiquetar-la-animación">Nombrar (etiquetar) la animación</h2>
+
+<p><center><img src="/img/externo/008.gif" alt="001" /></center></p>
+
+<p>A continuación, tenemos que <strong>agrupar los marcos como una animación</strong>. Esto ayuda a Unity a saber qué cuadros crear en los clips de animación. Aseprite <strong>usa lo que llama &ldquo;Etiquetas&rdquo; para designar marcos como parte de una sola animación</strong>. Para etiquetar su animación, seleccione todas las celdas haciendo clic y arrastrando los números, haga clic derecho y seleccione &ldquo;Nueva etiqueta&rdquo;. Nombra la etiqueta, dale un color opcional y selecciona &ldquo;Aceptar&rdquo;.</p>
+
+<p>Puede <strong>crear tantas etiquetas como necesite</strong> e incluso superponerlas.</p>
+
+<p>Aquí he hecho un héroe con dos animaciones, un Inactivo y un Ataque. Como estamos haciendo un juego de arriba abajo, tenemos que <strong>animar en varias direcciones</strong>. Así que nombramos nuestras animaciones con la dirección como un sufijo, como <strong>Idle_D y Attack_D</strong> como se muestra en la siguiente captura de pantalla.</p>
+
+<p><center><img src="/img/externo/009.png" alt="001" /></center></p>
+
+<h2 id="importe-el-archivo-aseprite-en-la-unidad">Importe el archivo Aseprite en la unidad</h2>
+
+<p>A continuación, tenemos que importar el archivo a Unity para que podamos animar un personaje. Aquí es donde entra la herramienta Importador de animación.</p>
+
+<p><center><img src="/img/externo/010.gif" alt="001" /></center></p>
+
+<p>Ve a <strong>Window &gt; Animation Importer</strong> y abrir el Importador. Verás tres botones grandes en la parte superior de la ventana, con tres encabezados. Cada uno de estos <strong>representa un método para importar</strong> el archivo Aseprite. Los métodos son Animaciones , Animator Controller + Animations y Animator Override Controller + Animations . Cada uno de estos tiene un propósito ligeramente diferente, pero todos importan las animaciones del archivo Aseprite. Para entender cuándo usar cada uno y cuál es el mejor para su flujo de trabajo, es mejor comprender qué es un <a href="http://bit.ly/2MtnJKa">Animator Controller</a> y qué un <a href="http://bit.ly/2Mv9WCC">Animator Override Controller</a>.</p>
+
+<p>Por ahora queremos &ldquo; Animator Controller and Animations &ldquo;, así que haga clic en su archivo Aseprite y arrástrelo y suéltelo en la ventana donde dice &rdquo; Animator Controller + Animations &ldquo; como se muestra en el GIF. Después de la barra de progreso, verá 4 archivos nuevos como se muestra (tenga en cuenta que pueden estar en subdirectorios según la configuración del Importador de animación).</p>
+
+<p><center><img src="/img/externo/011.png" alt="001" /></center></p>
+
+<ul>
+<li>La <strong>hoja de Sprites es la textura y los sprites en fragmentos</strong> a los que hacen referencia los clips de animación. También puede utilizar estos sprites como sprites únicos en todo su proyecto.</li>
+<li>El <strong>Controlador Animator se usa en Animators para vincular clips</strong> de animación al objeto. Si abre el Controlador, verá los dos estados, uno para cada clip de animación.</li>
+</ul>
+
+<p><center><img src="/img/externo/012.png" alt="001" /></center></p>
+
+<p>Actualizar estos activos es tan simple como arrastrar y soltar el archivo en el Importador de Animación nuevamente. Esto hará que los activos se regeneren sin destruir las referencias a ellos.</p>
+
+<h1 id="poniendo-los-activos-a-trabajar">Poniendo los activos a trabajar</h1>
+
+<p>Has creado todos los recursos que necesitas para animar a tu personaje en el juego. La siguiente tarea es <strong>crear un GameObject que pueda usar estas animaciones y un script para controlarlo</strong>.</p>
+
+<h1 id="conclusión">Conclusión</h1>
+
+<p>Con un poco de práctica, este <strong>flujo de trabajo se convertirá en una optimización</strong> de tiempo bestial. Al agilizar la creación y actualización de controladores y clips, el flujo de trabajo de <strong>Aseprite a Importador de Animaciones elimina todas las molestias</strong> de los flujos de trabajo predeterminados de Unity. Ahora puede pasar su tiempo iterando en su arte en lugar de buscar con Unity.</p>
+
+<p>.\Moon</p>
+
+
+			
+
+			
+				<hr>
+				
+
+<h3>Relacionado</h3>
+<ul>
+	
+	<li><a href="/post/2017/dev/014/">MVC simplificado.</a></li>
+	
+	<li><a href="/post/2018/comun/010/">El rol del diseñador de videojuegos</a></li>
+	
+	<li><a href="/post/2018/icon/001/">Darling in the FranXX Icon Folder</a></li>
+	
+	<li><a href="/post/2018/amv/006/">[Vine] - Danmachi Superacion</a></li>
+	
+	<li><a href="/post/2018/comun/009/">Consejos para agilizar tu trabajo como programador</a></li>
+	
+</ul>
+
+			
+		</section>
+	</article>
+	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Moon Antonio</p>
+</footer>
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-89564434-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
