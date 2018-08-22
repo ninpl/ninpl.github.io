@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indie on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/indie/</link>
+    <description>Recent content in Indie on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 22 Aug 2018 23:26:13 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/indie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Las herramientas de bajo coste usadas en un Indie Game Studio</title>
+      <link>https://moonantonio.github.io/post/2018/comun/011/</link>
+      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/011/</guid>
+      <description>Cuando se es un pequeño estudio, puede ser difícil encontrar el paquete de software adecuado, manteniendo los gastos mensuales razonables. Hacer la tarea más difícil es el hecho de que muchas herramientas tienen más funciones completas que las necesidades de un estudio pequeño, o están diseñadas para ser incluidas con otras herramientas premium por el mismo desarrollador.
+
+He recogido una serie de herramientas que evita niveles premium y lock-in de proveedores.</description>
+    </item>
+    
+  </channel>
+</rss>
