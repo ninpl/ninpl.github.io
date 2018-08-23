@@ -6,10 +6,19 @@
     <description>Recent content in C# on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 23 Aug 2018 01:03:45 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 02:40:43 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Genéricos</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/006/</link>
+      <pubDate>Thu, 23 Aug 2018 02:40:43 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/006/</guid>
+      <description>Los genéricos proporcionan una forma de hacer una especie de &amp;ldquo;plantilla&amp;rdquo; de su código que funciona de la misma manera en una variedad de tipos de datos diferentes. Si bien podría considerarse un tema más avanzado, existen algunos beneficios importantes al usarlos desde el principio. En esta lección, presentaré listas genéricas y diccionarios, y mostraré cómo se usan los genéricos para funcionalidades específicas de Unity, como obtener componentes y cargar recursos.</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Bucles</title>
