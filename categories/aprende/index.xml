@@ -6,10 +6,19 @@
     <description>Recent content in Aprende on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 19 Aug 2018 08:32:53 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 01:03:45 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/aprende/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Bucles</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/005/</link>
+      <pubDate>Thu, 23 Aug 2018 01:03:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/005/</guid>
+      <description>Como programador, con frecuencia trabajará con un &amp;ldquo;grupo&amp;rdquo; de datos (como una matriz o array que presenté en la lección anterior). Tic Tac Toe, por ejemplo, tiene un tablero de 3 × 3 con nueve celdas totales. Si estuviera creando un método para operar en ese grupo de datos, como limpiar un tablero para un nuevo juego, no querría tener que aplicar manualmente los cambios a todos y cada uno de los valores de la matriz.</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Métodos</title>
