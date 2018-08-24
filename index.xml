@@ -6,10 +6,19 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 23 Aug 2018 02:40:43 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 24 Aug 2018 02:48:35 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Corrutinas</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/007/</link>
+      <pubDate>Fri, 24 Aug 2018 02:48:35 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/007/</guid>
+      <description>Una corrutina es una forma especial de hacer que la lógica suceda con el tiempo. Debo admitir que nunca usé corrutinas hasta Unity, había estado usando programación basada en eventos en cualquier otro escenario comparable. Sin embargo, corrutinas son una alternativa rápida y fácil que definitivamente vale la pena ver. En esta lección, mostraré cómo funciona Unity con corrutinas, incluidas varias formas de ceder el control e incluso vincular corrutinas para tener un control total sobre la lógica basada en el tiempo.</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Genéricos</title>
