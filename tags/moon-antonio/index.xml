@@ -6,10 +6,21 @@
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 24 Aug 2018 02:48:35 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 24 Aug 2018 12:36:08 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Clases</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/008/</link>
+      <pubDate>Fri, 24 Aug 2018 12:36:08 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/008/</guid>
+      <description>Ya sea que lo recuerdes o no, has estado creando clases todo el tiempo en las lecciones anteriores. He comentado brevemente varias características de clases como herencia y constructores, pero hay mucho más por cubrir. En esta lección, nos enfocaremos en esos temas con mayor profundidad e introduciremos algunos temas más avanzados como polimorfismo, constructores estáticos, clases abstractas y clases estáticas.
+GitHub RepoGitLab Repo
+Herencia La herencia es el concepto de que una clase toma todas las funcionalidades de una clase &amp;ldquo;padre&amp;rdquo; o &amp;ldquo;base&amp;rdquo; al mismo tiempo que brinda la oportunidad de ampliar o modificar la lógica previamente disponible.</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Corrutinas</title>
