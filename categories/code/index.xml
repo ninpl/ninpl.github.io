@@ -6,10 +6,21 @@
     <description>Recent content in Code on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 24 Aug 2018 17:42:37 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 25 Aug 2018 14:38:15 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aprende C# con Unity - Enums y Flags</title>
+      <link>https://moonantonio.github.io/post/2018/csharpunity/010/</link>
+      <pubDate>Sat, 25 Aug 2018 14:38:15 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/csharpunity/010/</guid>
+      <description>Mencionamos brevemente los enums en nuestra última lección, por lo que sentí que ahora sería un buen momento para tratarla en mayor profundidad. Al mismo tiempo, podemos ampliar el tema e introducir Flags (máscaras de bits). Algo de esto se profundiza en el lado nerd de la programación, pero intentaré que todo sea fácil de entender.
+GitHub RepoGitLab Repo
+El tipo &amp;ldquo;Enum&amp;rdquo; Primero introduje la enumeración en la lección anterior con la configuración de &amp;ldquo;Difficulties&amp;rdquo;:</description>
+    </item>
     
     <item>
       <title>Aprende C# con Unity - Guardando datos</title>
