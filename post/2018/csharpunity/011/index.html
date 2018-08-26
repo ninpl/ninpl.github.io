@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>Aprende C# con Unity - Structs&middot; Antonio Moon´s</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Moon Antonio">
+	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
+	<meta name="keywords" content="Moon,Antonio,Dev,Game">
+	<meta name="generator" content="Hugo 0.41" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="site-header">
+	<div class="branding">
+		<a href="https://moonantonio.github.io/">
+		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
+		</a>
+		<h1 class="site-title">
+			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+
+		<ul>
+			<li><a href="/about/">  </a></li>
+
+			<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
+  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
+  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
+  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+<li class="icon">
+	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/MoonAntonio" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" title="Trello">
+		<i class="fa fa-fw fa-trello"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+
+
+		</ul>
+	</nav>
+</header>
+
+
+	<div class="content">
+	<article class="feature-image">
+		<header style="background-image: url('https://moonantonio.github.io/img/img103.png')">
+			<h1 class="title">Aprende C# con Unity - Structs</h1>
+		</header>
+
+		<section class="post-content">
+			
+
+<p>Las estructuras son como Clases, pero completamente diferentes. Si no sabe qué es una estructura o cuándo la usaría, o si no conoce la diferencia entre pasar por referencia y pasar por valor, esta lección es para usted.</p>
+
+<p><center><a href="https://github.com/CodeBackDoor/LearnCSharpUnity" class="button"><i class="fa fa-github-alt"></i>GitHub Repo</a><a href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" class="button"><i class="fa fa-gitlab"></i>GitLab Repo</a></center></p>
+
+<h1 id="structs-en-unidad">Structs en Unidad</h1>
+
+<p>Dado que esta serie se basa en aprender C# para Unity, comencemos por señalar algunos lugares donde es posible que ya haya estado utilizando Structs:</p>
+
+<ul>
+<li>Vector2, Vector3 and Vector4</li>
+<li>Rect</li>
+<li>Color y Color32</li>
+<li>Bounds</li>
+<li>Touch</li>
+</ul>
+
+<p>En particular, las diversas formas de Vector (2-4) se utilizan en todas partes. Verá que se utilizan para almacenar todo, desde la posición, la rotación y la escala de una transformación hasta la velocidad de un cuerpo rígido, o la ubicación de un toque o un clic del mouse en la pantalla.</p>
+
+<h1 id="qué-es-una-struct">¿Qué es una Struct?</h1>
+
+<p>Una estructura es algo así como un tipo de datos compuestos. Se ve muy similar a una clase, porque puede definir campos y métodos de la misma manera. El siguiente ejemplo define una estructura y clase que son casi idénticas:</p>
+
+<hr />
+
+<pre><code class="language-C#">public struct PointA
+{
+  public int x;
+  public int y;
+}
+
+public class PointB
+{
+  public int x;
+  public int y;
+}
+</code></pre>
+
+<hr />
+
+<p>En este ejemplo, la única diferencia notable se encuentra en las palabras clave: &ldquo;struct&rdquo; en lugar de &ldquo;class&rdquo;. Algunas otras diferencias entre los dos incluyen:</p>
+
+<ul>
+<li>Una estructura no puede heredar de un tipo base como una clase</li>
+<li>Las estructuras no pueden tener constructores sin parámetros</li>
+<li>Todos los campos de una estructura se deben asignar antes de dejar un constructor</li>
+<li>Las estructuras se pasan por valor, mientras que una instancia de una clase se pasa por referencia</li>
+</ul>
+
+<p>El último punto, para mí, es el más importante. Existen muchas diferencias significativas entre los tipos de &ldquo;valor&rdquo; y los tipos de &ldquo;referencia&rdquo; que impactan cuándo y cómo debe usarlos.</p>
+
+<h1 id="tipos-de-referencia">Tipos de referencia</h1>
+
+<p>Cuando decimos que una instancia de una clase se pasa por referencia, lo que realmente está sucediendo es que obtenemos un &ldquo;puntero&rdquo; a la dirección en la memoria del objeto y luego pasamos ese &ldquo;valor&rdquo;. Esto es importante porque una instancia de una clase en realidad puede ser muy grande, que contiene muchos campos e incluso otros objetos. En ese tipo de escenario, copiar y transmitir todo puede afectar negativamente el rendimiento, y es por eso que solo pasa la dirección.</p>
+
+<p>Los tipos de referencia se asignan en el &ldquo;montón&rdquo; y se limpian mediante algo llamado &ldquo;recolección de basura&rdquo;. La recolección de basura es un proceso que ocurre de manera automática pero que es lento y, en general, da cuenta de los contratiempos en la velocidad de fotogramas de tu juego. Por este motivo, no desea crear objetos con frecuencia y permitir que salgan del alcance. El siguiente ejemplo es un gran no-no :</p>
+
+<hr />
+
+<pre><code class="language-C#">// NO DEBERÍAS HACER ESTO
+void Update ()
+{
+  // Crear una instancia de una clase con ámbito local en el ciclo de actualización (llamado cada frame)
+  List&lt;GameObject&gt; objects = new List&lt;GameObject&gt;();
+  // Imagina que las cosas se hacen con esta lista de objetos (se completa e itera etc.)
+  for (int i = 0; i &lt; objects.Count; i++) 
+  {
+  }
+  // Cuando el método finaliza, la lista de objetos sale del alcance y en algún momento necesitará
+  // ser basura recogida
+}
+</code></pre>
+
+<hr />
+
+<h1 id="tipos-de-valor">Tipos de valor</h1>
+
+<p>Cuando decimos que algo se pasa por valor, lo que realmente está sucediendo es que la variable se clona/copia por completo, y la copia se transfiere mientras el original se deja intacto. Las estructuras son tipos de valores y se pasan por valor. Esto significa que las estructuras son idealmente pequeñas estructuras de datos.</p>
+
+<p>Los tipos de valores se asignan en la &ldquo;pila&rdquo;, lo que significa que su memoria es fácil de recuperar y no tienen ningún efecto en &ldquo;recolección de basura&rdquo;. A diferencia del ejemplo de ciclo de actualización con tipos de referencia, es totalmente aceptable crear tipos de valores y permitir que salgan del alcance sin temor a una desaceleración inminente o un problema de memoria. Por ejemplo, lo siguiente es totalmente aceptable:</p>
+
+<hr />
+
+<pre><code class="language-C#">// Esto esta bien
+void Update ()
+{
+  // Crea una variable local de un tipo de valor - struct 
+  Vector3 offset = new Vector3 (UnityEngine.Random.Range (-1, 1), 0, 0);
+  // Hacer cosas con eso
+  Vector3 pos = transform.localPosition;
+  pos += offset * Time.deltaTime;
+  transform.localPosition = pos;
+  // Tu memoria de estructuras será recuperada fácilmente ya que sale del alcance
+}
+</code></pre>
+
+<hr />
+
+<h1 id="gotchas">Gotchas</h1>
+
+<p>Es tentador tratar de usar una estructura como una instancia de una clase, pero dado que se pasa por valor, hay varios errores que se encuentran a menudo. Considere el siguiente ejemplo:</p>
+
+<hr />
+
+<pre><code class="language-C#">#region Librerias
+using UnityEngine;
+#endregion
+
+namespace MoonAntonio
+{
+    public class GotchasA : MonoBehaviour 
+    {
+        public Vector3 v1;
+        public Vector3 v2 { get; private set; }
+
+        void Start()
+        {
+            v1.Set(1, 2, 3);
+            v1.x = 4;
+            v2.Set(1, 2, 3);      // ** (Nota 2)
+            //v2.x = 4;           // * (Nota 1)
+
+            Debug.Log(v1.ToString());
+            Debug.Log(v2.ToString());
+        }
+    }
+}
+</code></pre>
+
+<hr />
+
+<ul>
+<li>(Nota 1) Esta muestra no se compilará debido a esta línea. Obtendrá el error &ldquo;error CS1612: no se puede modificar un valor de retorno del tipo de valor de v2 . Considere almacenar el valor en una variable temporal&rdquo;. El compilador intenta protegerte de un error lógico (que explicaré en un minuto), y sugiere que primero obtengas una nueva estructura, modifiques esa nueva estructura y la vuelvas a asignar.</li>
+<li>(Nota 2) Esta línea es mucho más peligrosa porque se compilará y ejecutará pero no parece haber funcionado.</li>
+</ul>
+
+<p>Si este código se compilara y ejecutara, vería el siguiente resultado:</p>
+
+<hr />
+
+<pre><code class="language-C#">( 4.0 , 2.0 , 3.0 )
+( 0.0 , 0.0 , 0.0 )
+</code></pre>
+
+<hr />
+
+<p>Esto NO es lo que podrías haber esperado. Entonces, ¿qué está pasando? C# crea automáticamente una propiedad de respaldo oculto para &lsquo;v2&rsquo;. Cuando utiliza el getter (simplemente haciendo referencia a &lsquo;v2&rsquo;) C# proporciona una copia del respaldo, no del respaldo real: recuerde que esto se debe a que las estructuras se pasan por valor no por referencia. En la línea marcada por la Nota 2, lo que sucede es que obtienes una copia del respaldo, modificas la copia en su lugar, y luego la información se pierde de inmediato porque no está asignada a nada.</p>
+
+<p>El siguiente ejemplo es similar: ilustra cómo a menudo se pasa por alto el concepto de un tipo de referencia frente a un tipo de valor y causa problemas. Aquí tenemos una referencia a una lista, que contiene referencias a Vector3:</p>
+
+<hr />
+
+<pre><code class="language-C#">#region Librerias
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+#endregion
+
+namespace MoonAntonio
+{
+    public class GotchasB : MonoBehaviour 
+    {
+        void Start()
+        {
+            List&lt;Vector3&gt; coords = new List&lt;Vector3&gt;();
+            coords.Add(new Vector3(0, 0, 0));
+            coords[0].Set(1, 2, 3);
+            //coords[0].x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)
+            Debug.Log(coords[0].ToString());  // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!
+        }
+    }
+}
+</code></pre>
+
+<hr />
+
+<p>Por el contrario, el siguiente ejemplo funcionará como usted espera (o al menos como esperaría antes de que comenzara a asustarlo/confundirlo con los ejemplos anteriores)</p>
+
+<hr />
+
+<pre><code class="language-C#">#region Librerias
+using UnityEngine;
+#endregion
+
+namespace MoonAntonio
+{
+    public class Foo
+    {
+        public Vector3 pos;
+    }
+
+    public class GotchasC : MonoBehaviour 
+    {
+        void Start()
+        {
+            Foo myFoo = new Foo();
+            myFoo.pos.Set(1, 2, 3);
+            myFoo.pos.x = 4; // Sin error de compilación
+            Debug.Log(myFoo.pos.ToString()); //Será (4.0, 2.0, 3.0) - ¡Como esperabas!
+        }
+    }
+}
+</code></pre>
+
+<hr />
+
+<p>¿Por qué este ejemplo funciona cuando los otros no? La respuesta es porque tenemos una referencia al objeto &lsquo;myFoo&rsquo;, no una referencia al campo del objeto. El objeto mantiene los valores de la estructura directamente (como un campo) y lo modifica directamente sin ningún problema.</p>
+
+<p>Si el Moo hubiera implementado su Vector3 como una propiedad en lugar de como un campo (incluso con un campo de respaldo específico), habría sido un problema - vea el siguiente ejemplo:</p>
+
+<hr />
+
+<pre><code class="language-C#">#region Librerias
+using UnityEngine;
+#endregion
+
+namespace MoonAntonio
+{
+    public class Moo
+    {
+        public Vector3 pos { get { return _pos; } set { _pos = value; } }
+        private Vector3 _pos;
+    }
+
+    public class GotchasD : MonoBehaviour 
+    {
+        void Start()
+        {
+            Moo myMoo = new Moo();
+            myMoo.pos.Set(1, 2, 3);
+            // myMoo.pos.x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)
+            Debug.Log(myMoo.pos.ToString()); // // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!
+        }
+    }
+}
+</code></pre>
+
+<hr />
+
+<p>Muchos de estos problemas se alivian si puede entrar en la mentalidad de tratar sus estructuras como &ldquo;inmutables&rdquo; (esto significa que nunca cambia los valores de ningún campo), o hacerlos inmutables (si es su estructura).</p>
+
+<h1 id="resumen">Resumen</h1>
+
+<p>En esta lección, presentamos la estructura y comparamos cuándo, dónde y por qué usaría uno sobre una clase. Mostramos algunas de las limitaciones y errores de las estructuras, pero también sus beneficios. Usadas correctamente, las estructuras son una herramienta muy valiosa y eficiente para agregar a tu arsenal de programación.</p>
+
+
+			
+
+			
+				<hr>
+				
+
+<h3>Relacionado</h3>
+<ul>
+	
+	<li><a href="/post/2018/csharpunity/010/">Aprende C# con Unity - Enums y Flags</a></li>
+	
+	<li><a href="/post/2018/csharpunity/009/">Aprende C# con Unity - Guardando datos</a></li>
+	
+	<li><a href="/post/2018/csharpunity/008/">Aprende C# con Unity - Clases</a></li>
+	
+	<li><a href="/post/2018/csharpunity/007/">Aprende C# con Unity - Corrutinas</a></li>
+	
+	<li><a href="/post/2018/csharpunity/006/">Aprende C# con Unity - Genéricos</a></li>
+	
+</ul>
+
+			
+		</section>
+	</article>
+	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Moon Antonio</p>
+</footer>
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-89564434-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
