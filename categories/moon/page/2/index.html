@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Comandos Git Fundamentales&middot; Antonio Moon´s</title>
+	<title>Moon&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -15,7 +15,9 @@
 	<!--Favicon-->
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
 
-	
+	<!-- RSS -->
+		<link href="https://moonantonio.github.io/categories/moon/index.xml" rel="alternate" type="application/rss+xml" title="Antonio Moon´s" />
+		<link href="https://moonantonio.github.io/categories/moon/index.xml" rel="feed" type="application/rss+xml" title="Antonio Moon´s" />
 
 	<!-- Font Awesome -->
 	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -138,102 +140,52 @@
 
 
 	<div class="content">
-	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img050.png')">
-			<h1 class="title">Comandos Git Fundamentales</h1>
+	<div class="posts">
+	
+	<div class="post-teaser">
+		<header>
+			<h1>
+				<i class='' aria-hidden="true"></i>
+				MVC simplificado.
+			</h1>
+			<p class="meta">
+    November 7, 2017 &middot; 14 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/dev">Dev</a>
+            , <a href="https://moonantonio.github.io/tags/mvc">MVC</a>
+            , <a href="https://moonantonio.github.io/tags/moon">Moon</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/patron-de-dise%c3%b1o">Patron de diseño</a>
+            , <a href="https://moonantonio.github.io/tags/unity">Unity</a>
+            
+</p>
+
 		</header>
 
-		<section class="post-content">
-			
+		<div class="excerpt">
+			Introduccion Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+Cuanto más grande es el proyecto, más grande es el espagueti.
 
-<h1 id="los-comandos-fundamentales-que-se-usan-en-git">Los comandos fundamentales que se usan en git.</h1>
+Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/dev/014/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div>
+</div>
 
-<p>Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.</p>
+	<div class="pagination">
+	<a href="/categories/moon/" class="button" >
+			<i class="fa fa-chevron-left"></i>
+			Prev
+		</a>
 
-<p>Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</p>
+		
+</div>
 
-<hr />
-
-<h2 id="inicializar">Inicializar:</h2>
-
-<pre><code class="language-git">git init {Crea un nuevo repositorio}
-git clone /path/to/repository {Crea una copia local del repositorio}
-</code></pre>
-
-<hr />
-
-<h2 id="registro">Registro</h2>
-
-<pre><code class="language-git">git add &lt;filename&gt; {Agrega solo el fichero dado al registro}
-git add . {Agrega todos los cambios realizados al registro}
-</code></pre>
-
-<hr />
-
-<h2 id="empaquetado">Empaquetado</h2>
-
-<pre><code class="language-git">git commit -m &quot;Mensaje&quot; {Empaqueta el registro para ser mandado}
-</code></pre>
-
-<hr />
-
-<h2 id="envio">Envio</h2>
-
-<pre><code class="language-git">git push origin master {Envia el paquete(Commit) por la rama &quot;master&quot; al repositorio}
-</code></pre>
-
-<hr />
-
-<h2 id="ramas">Ramas</h2>
-
-<pre><code class="language-git">git checkout -b dev {Crea una rama llamada &quot;dev&quot; y cambiate a ella}
-git checkout master {Cambiar de rama}
-git branch -d dev {Borra la rama &quot;dev&quot;}
-git push origin &lt;branch&gt; {Envia al repositorio la nueva rama para actualizarla a todo el mundo}
-</code></pre>
-
-<hr />
-
-<h2 id="actualizacion">Actualizacion</h2>
-
-<pre><code class="language-git">git pull {Descarga los nuevos cambios del repositorio}
-git merge &lt;branch&gt; {Fusiona la rama dada con tu rama actual}
-</code></pre>
-
-<hr />
-
-<h2 id="etiquetas">Etiquetas</h2>
-
-<pre><code class="language-git">git tag 1.0.0 {Creas una nueva etiqueta llamada 1.0.0}
-git tag 1.0.0 1b2e1d63ff {Creas una nueva etiqueta haciendo referencia a 1b2e1d63ff, que es el id del commit}
-git log {Sacas el id del commit}
-</code></pre>
-
-<p>y eso es todo de momento. Estos son los comandos que mas usaras. Pero si quieres pasar de usar consola y te ves mas comodo con una interfaz grafica, puedes usar diferentes clientes tales como:</p>
-
-<p><a href="https://desktop.github.com/" class="button">GitHub Desktop(Win &amp; Mac)</a><a href="https://www.sourcetreeapp.com/" class="button">SourceTree(Win &amp; Mac)</a><a href="https://www.gitkraken.com/" class="button">GitKraken(Win/Mac/Linux)</a></p>
-
-
-			
-
-			
-				<hr>
-				
-
-<h3>Relacionado</h3>
-<ul>
-	
-	<li><a href="/post/2017/diario/nuevo-blog/">Nuevo Blog</a></li>
-	
-	<li><a href="/backdoor/">. BackDoor .</a></li>
-	
-	<li><a href="/about/"></a></li>
-	
-</ul>
-
-			
-		</section>
-	</article>
 	</div>
 
 	<footer class="site-footer">

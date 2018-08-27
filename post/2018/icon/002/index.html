@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Comandos Git Fundamentales&middot; Antonio Moon´s</title>
+	<title>Dungeon Danmachi Icon Folder&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -139,79 +139,28 @@
 
 	<div class="content">
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img050.png')">
-			<h1 class="title">Comandos Git Fundamentales</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/img105.png')">
+			<h1 class="title">Dungeon Danmachi Icon Folder</h1>
 		</header>
 
 		<section class="post-content">
-			
+			<p><strong>DUNGEON DANMACHI</strong> es una serie de novelas ligeras escritas por Fujino Ōmori e ilustradas por Suzuhito Yasuda. Ha sido la novela ligera más votada por los fans en los premios Sugoi Japan Awards de la edición de 2016.</p>
 
-<h1 id="los-comandos-fundamentales-que-se-usan-en-git">Los comandos fundamentales que se usan en git.</h1>
+<p>La historia toma lugar en el país ficticio de Orario cuyo lugar principal es el Dungeon (ダンジョン Danjon?, lit. calabozo) que contiene toda clase de monstruos, desde elfos, hasta dragones. Los aventureros visitan el Dungeon para derrotar monstruos y tomar sus fragmentos de cristal, los cuales pueden usar para crear objetos mágicos, cambiarlos por dinero, etc. La gente de Orario se une en grupos llamados Familias, las cuales sirven en varias funciones que van desde adentrarse en el Dungeon hasta crear objetos. Cada Familia es nombrada y sirve a una deidad residente. En una forma similar a los RPG, los aventureros se agrupan en niveles, incrementando sus niveles y habilidades acordando a sus logros.</p>
 
-<p>Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.</p>
+<p><center><img src="/img/iconfolder/danmachi1/01.png" alt="001" /></center></p>
 
-<p>Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</p>
+<blockquote>
+<p>Bell Cranel es un aventurero novato que vive en Orario, ciudad también conocida como “Mazmorra”, uno de los motivos por los que ha querido serlo es para encontrar chicas en sus aventuras dentro de los calabozos.
+En una de sus aventuras Bell es atacado por un minotauro mucho mas fuerte que el , pero aparece Aiz Warenstein para salvarle justo a tiempo, una de las mejores aventureras de la ciudad. Bell se enamora de ella inmediatamente y se propone convertirse en un aventurero de alto nivel. Sin embargo, cuando llega a casa le espera Hestia, “la diosa lolita”, que aumenta las estadisticas de Bell despues de cada aventura y que esta enamorada de el y se pondra muy celosa al escuchar la historia de su aventura.</p>
+</blockquote>
 
-<hr />
+<p><center><img src="/img/iconfolder/danmachi1/02.png" alt="001" /><img src="/img/iconfolder/danmachi1/03.png" alt="001" /></center>
+<center><img src="/img/iconfolder/danmachi1/04.png" alt="001" /><img src="/img/iconfolder/danmachi1/05.png" alt="001" /></center></p>
 
-<h2 id="inicializar">Inicializar:</h2>
+<p>Como suponeis, me gusto mucho, aqui dejo el link a <strong><a href="http://bit.ly/2BLSu82">Anilist</a></strong>, he creado unos iconos para las carpetas personales y aqui os lo dejo en <strong>formatos png/ico</strong> los diferentes ejemplos.</p>
 
-<pre><code class="language-git">git init {Crea un nuevo repositorio}
-git clone /path/to/repository {Crea una copia local del repositorio}
-</code></pre>
-
-<hr />
-
-<h2 id="registro">Registro</h2>
-
-<pre><code class="language-git">git add &lt;filename&gt; {Agrega solo el fichero dado al registro}
-git add . {Agrega todos los cambios realizados al registro}
-</code></pre>
-
-<hr />
-
-<h2 id="empaquetado">Empaquetado</h2>
-
-<pre><code class="language-git">git commit -m &quot;Mensaje&quot; {Empaqueta el registro para ser mandado}
-</code></pre>
-
-<hr />
-
-<h2 id="envio">Envio</h2>
-
-<pre><code class="language-git">git push origin master {Envia el paquete(Commit) por la rama &quot;master&quot; al repositorio}
-</code></pre>
-
-<hr />
-
-<h2 id="ramas">Ramas</h2>
-
-<pre><code class="language-git">git checkout -b dev {Crea una rama llamada &quot;dev&quot; y cambiate a ella}
-git checkout master {Cambiar de rama}
-git branch -d dev {Borra la rama &quot;dev&quot;}
-git push origin &lt;branch&gt; {Envia al repositorio la nueva rama para actualizarla a todo el mundo}
-</code></pre>
-
-<hr />
-
-<h2 id="actualizacion">Actualizacion</h2>
-
-<pre><code class="language-git">git pull {Descarga los nuevos cambios del repositorio}
-git merge &lt;branch&gt; {Fusiona la rama dada con tu rama actual}
-</code></pre>
-
-<hr />
-
-<h2 id="etiquetas">Etiquetas</h2>
-
-<pre><code class="language-git">git tag 1.0.0 {Creas una nueva etiqueta llamada 1.0.0}
-git tag 1.0.0 1b2e1d63ff {Creas una nueva etiqueta haciendo referencia a 1b2e1d63ff, que es el id del commit}
-git log {Sacas el id del commit}
-</code></pre>
-
-<p>y eso es todo de momento. Estos son los comandos que mas usaras. Pero si quieres pasar de usar consola y te ves mas comodo con una interfaz grafica, puedes usar diferentes clientes tales como:</p>
-
-<p><a href="https://desktop.github.com/" class="button">GitHub Desktop(Win &amp; Mac)</a><a href="https://www.sourcetreeapp.com/" class="button">SourceTree(Win &amp; Mac)</a><a href="https://www.gitkraken.com/" class="button">GitKraken(Win/Mac/Linux)</a></p>
+<p><center><a href="http://bit.ly/2Pansc2" class="button">DeviantArt</a></center></p>
 
 
 			
@@ -223,11 +172,15 @@ git log {Sacas el id del commit}
 <h3>Relacionado</h3>
 <ul>
 	
-	<li><a href="/post/2017/diario/nuevo-blog/">Nuevo Blog</a></li>
+	<li><a href="/post/2018/icon/001/">Darling in the FranXX Icon Folder</a></li>
 	
-	<li><a href="/backdoor/">. BackDoor .</a></li>
+	<li><a href="/post/2018/amv/006/">[Vine] - Danmachi Superacion</a></li>
 	
-	<li><a href="/about/"></a></li>
+	<li><a href="/post/2018/comun/011/">Las herramientas de bajo coste usadas en un Indie Game Studio</a></li>
+	
+	<li><a href="/post/2018/dev/009/">Unity : Aseprite Workflow</a></li>
+	
+	<li><a href="/post/2018/comun/010/">El rol del diseñador de videojuegos</a></li>
 	
 </ul>
 
