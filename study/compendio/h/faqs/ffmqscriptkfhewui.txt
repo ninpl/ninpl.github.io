@@ -1,0 +1,575 @@
+0123456789012345678901234567890123456789012345678901234567890123456789012345678
+
+Final Fantasy Mystic Quest Script
+"Unpublished work"
+By KFHEWUI
+
+All trademarks and copyrights contained in this document are owned by
+their respective trademark and copyright holders.
+Copyright 2005 Timothy Johnson
+
+
+!Warning!
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other web
+site or as a part of any public display is strictly prohibited, and a violation
+of copyright.  If you have any questions, you found a mistake or spelling
+error, or have a question then email me at bobvila_16@yahoo.com.
+
+MAJOR WARNING!!!!!!!!!!!
+THIS FOLLOWING GUIDE IS FOR USE ON AND ONLY ON
+www.gamefaqs.com
+www.neoseeker.com
+
+WEBSITES THAT DO NOT HAVE PERMISSION TO USE THIS GUIDE
+www.rpgup.com
+
+If you see this guide on any website that is NOT mentioned above then please
+contact me immediately and tell me. I have all ready found this guide one site
+that DID NOT ask me permission to use it and they did not give credit to me. So
+please contact me if you see this guide on any site that is not mentioned
+above.
+
+
+Contents
+1. Guide
+2. Final Word
+
+1. Guide
+Benjamin: My village is gone!! What is going on?
+Man: This place is going to sink any second! Let's climb up quick!
+Man: Press the "B" Button, and jump across!
+
+(Benjamin and Man look at a tower)
+Man: Look over there. That's the Focus Tower, once the heart of the World. An
+old Prophecy says, "The vile 4 will steal the Power, and divide the World
+behind 4 doors. At that time the Knight will appear!" The Prophecy has now come
+true. 4 monsters have locked the doors of the Focus Tower and escaped with the
+keys. They're draining the light from the 4 Crystals of the Earth, and the
+World is in Chaos. The people are in desperate need of help. Benjamin, only you
+can save the Crystals and the world.
+Benjamin: Me?
+Man: Yes, you Benjamin! Only you could be the Knight spoken in the Prophecy...
+(Monster appears)
+Man: Look out! A monster!
+
+(After battle)
+Man: Seems I was right! At last I've found a true knight!
+Benjamin: But you said you were SURE I was the one!
+Man: Well, actually it was more of a guess...
+Benjamin: Forget it. Just tell me where I can find the Crystals.
+Man: It's up to you to find them.
+(Mountain shakes)
+Man: This place is becoming dangerous! Follow me to the Level Forest!
+(Old Man leaves)
+Benjamin: Got to get out of here. Who is that guy, any way?
+
+(Level Forest)
+Benjamin: There you are! What do you think I should do first?
+Man: Save the Crystal of Earth. See you!
+(Old Man leaves)
+
+Old Man: That boulder is blocking my way back to town. Would you shove it
+aside?
+(After moving rock)
+Old Man: Thank you! If you want to go through this forest, find Kaeli in
+Foresta and show her this.
+
+(Foresta)
+Kaeli: I'm Kaeli. There's a tree blocking the north exit of the Level Forest. I
+can chop down the tree, but monsters have taken over the forest, and I cannot
+get to it.
+Benjamin: I can help you with that. Come one, let's go!
+Mother: Don't you dare take Kaeli anywhere dangerous!
+Kaeli: Listen, Mom... Hey that Tree Whither looks awful! How much the trees must
+be suffering OK, you win.
+(Grabs Axe)
+Kaeli: Don't worry, Mom.
+
+(Level Forest)
+Kaeli: Let me cut this with my Axe.
+(Cuts down tree)
+We've got to reach the north exit.
+
+(North Exit of Level Forest)
+Kaeli: This is the evil tree I was talking about.
+Monster: Uwa ha ha! Surprise!
+Kaeli: He poisoned me... Just as he d...did the t. t... trees!
+(After battle)
+Mother: Kaeli! What happened?
+Kaeli: I'll be okay...as soon as I take Elixir...
+Mother: That's in the Sand Temple.
+Benjamin: Do not worry. I'll get it!
+Kaeli: Then take this Axe with you...
+Benjamin: I'll be back.
+
+(Sand Temple)
+Tristam: Looking for some Cure, kid?
+Benjamin: First of all, my name is Benjamin, and I am looking for Elixir.
+Tristam: I'll sell you some for, say 9000GP. Well?
+Benjamin: Whoa! That's way to much!
+Tristam: Listen kid, this stuff is precious, right?
+Benjamin: My allowance is only 2GP a month!
+Tristam: Then let's do it this way. I'm going to the Bone Dungeon to find
+treasure. You come with me and help. If I get treasure, you get the Elixir.
+Benjamin: Do I have any choice? When Do we go?
+Tristam: There's a Battle field near by. Why don't you whack a few monsters
+there, and maybe win something kid.
+Benjamin: The name is Benjamin!
+
+(Bone Dungeon)
+Tristam: The doors are sealed shut. Well, here goes... Watch this!
+(places bomb)
+Aren't these something? I sell you some cheap! How about 50 Explosives for
+30GP?
+Benjamin: (Choose Okay or sorry.) (If you say Sorry)
+Tristam: All right, I'll cut you a deal. How about 50 Explosives for 15GP?
+
+Flamerus Rex: Grr... You'll never beat me. I have the power of the Crystal of
+Earth.
+(After battle)
+Benjamin: Look! The Crystal!
+Tristam: Never mind that, get a load of this stuff! I'll keep this. Oh, here's
+what you wanted.
+(Exit of Crystal room)
+Tristam: Look. I've got to go. See you around, kid.
+(Tristam leaves)
+
+(Foresta)
+Kaeli: Benjamin... is it really you?
+Benjamin: Here's the Elixir.
+Kaeli: Thank you. Now I can visit Spencer in Aquaria...
+Benjamin: Why don't I go to Aquaria first and look around? Where is it?
+Kaeli: It's through the Focus Tower, and to the north east.
+
+(Focus Tower)
+Man: Well done, Benjamin. Remember, Captain Mac will be crucial to your quest.
+A girl named Phoebe can help you.
+Benjamin: But I am going to Aquaria!
+Man: Maybe you'll find her along the way...
+
+(Libra Temple)
+Benjamin: Hi!
+Girl: It's hopeless, I give up... Aquaria is frozen, people are sick, Grandpa is
+trapped...
+(Girl starts to leave)
+Benjamin: Wait, have you ever heard of a man Spencer?
+Girl: Why... He's my Grandpa.
+Benjamin: What luck! Let's go free him.
+Girl: But we can't! I'm going home...
+(Girl starts to leave again)
+Benjamin: Hey! What's your name? Where are you from?
+Phoebe: Oh, I am sorry. I'm Phoebe from Aquaria.
+Benjamin: YOU are Phoebe? Then I'm going with you!
+
+(Aquaria)
+Benjamin: So, Phoebe, where's Spencer trapped?
+Phoebe: In the tunnel he was digging under here. The dirt is frozen solid, so
+he can't get out.
+Benjamin: Can't we melt?
+Phoebe: Not until we get Wakewater from the Spring of Life. But a monster from
+in the Wintry Cave stole the Libra Crest which Warps to the Life Temple.
+Benjamin: Anyway, first we have to get that whatcha-ma-call-it Crest back,
+right?
+Phoebe: Right! To the Wintry Cave!
+
+(Wintry Cave, after falling)
+Phoebe: This claw saved me! Here's how you use it. Select Claw, hold down A
+Button, and press the control pad. Now it's yours!
+
+(After the battle with Squidite)
+Phoebe: That must be the Libra Crest! Let's take it and go to the Libra Temple.
+There's a mark there that just looks like the design on the Crest. Stand on it,
+and we'll be Warped to the Life Temple!
+
+(Temple of Life)
+Phoebe: That must be the Spring of Life.
+(Phoebe walks over to lake, and Benjamin walks over to Phoebe)
+Phoebe: It's hopeless now.
+Benjamin: Don't give up yet. There's some one inside. Let's have a look.
+(After looking around)
+Benjamin: Aquaria's in great danger!
+Man: I know that. We need Wake Water to melt the ice...
+Phoebe: But the Wake Water has dried up! It's hopeless!
+Man: Hear me! All that's left is in this bag. Take it and go back to Aquaria.
+
+(Aquaria)
+Phoebe: Wake water, please save our town!
+(Plant turns green)
+Phoebe: That's it! I guess this town will stay frozen until the Crystal of
+Water shines again.
+Benjamin: Then we'd better hurry to the Ice Pyramid!
+
+(Falls Basin)
+Phoebe: Let's push this out of our way.
+
+(After battle with crab)
+Phoebe: You can use Explosives, right? Here's how to use a Jumbo Bomb.
+
+(Ice Pyramid)
+Phoebe: I see a switch in the statue, but can't reach it. Let's push it with
+some thing...
+
+Ice Golem: Mwa ha! I'm enjoying our little game...
+
+(Top of Pyramid)
+Ice Golem: You think you're a Knight, huh? Fwa ha! Take this
+
+(After battle)
+Phoebe: The Crystal! I'll go back to Aquaria and see if the ice melted. Don't
+forget to see Grandpa!
+Benjamin: Right, bye!
+
+(Aquaria)
+Spencer: The ice has melted! How did it happen?
+Benjamin: Phoebe and I restored the Crystal of Water's light.
+Spencer: Then you're the Knight in the Prophecy! The shield has found it's
+owner! A shield used by a Knight in days gone by. Captain Mac found it.
+Benjamin: Captain Mac! I've heard that name before!
+Spencer: For years Mac's been studying the Prophecy. On his way back from doing
+some research the lake dried up and his ship ended up on a rock ledge. But
+that's no problem. If we dig from here, we'll be able to reach the ship. Any
+way here is a key. The shield is hidden in the Focus Tower. By the way,
+Fireburg's been having strong earthquakes lately.
+
+(Focus Tower)
+Man: Some awful news made Captain Mac race from his home. Anyway seek Reuben in
+Fire burg. Say what's this statue for?
+
+(Fireburg)
+Benjamin: You're Reuben, huh? Have you heard about the Crystal of Fire?
+Reuben: I can't deal with that now. I've got to help Dad.
+Benjamin: Well, why don't you let me help you!
+Reuben: He's stuck behind a bolder. There'd be no problem if we had a Mega
+Grenade, but only Dad's friends can use them.
+Benjamin: Where's the guy's house?
+Reuben: In this town, but he's shut himself in.
+Benjamin: We'll pay him a visit any way. Come on!
+
+(Fireburg Inn)
+Tristam: What's up?
+Benjamin: We went to the house in the pit, but the guy wouldn't let us in.
+Tristam: You two want in? Then take this.
+
+(House)
+Friend: I ran when I saw the monster in the volcano. A huge boulder fell and
+trapped Arion... Only a Mega Grenade can free him.
+Benjamin: How do you use one?
+Friend: Just throw it!
+Reuben: Go trough the abandoned Mine to reach the boulder.
+
+(Mine exit)
+Reuben: We're close enough to blow up the boulder! Dad! Stand back! We did it!
+Arion: Reuben.... I knew you'd save me!
+Reuben: Please head home to Mom!
+Arion: Right. You two be careful!
+Reuben: Let's return to Fireburg.
+
+(Sealed Temple)
+Man: Do you have 10GP for a cup of coffee?
+
+(Lava Dome)
+Dual Head Hydra: It's the end of the line for you!
+(After fight)
+Benjamin: We did it! There's one Crystal left to go!
+Reuben: I remember a person from Windia saying something about a Crystal....
+Benjamin: Windia? Where's that?
+Reuben: To the south east exit of Focus Tower....
+
+(Focus Tower)
+Man: Hurry to Windia, but be on the lookout for Captain Mac's ship!
+
+(Rope Bridge)
+Mummy: Gotcha!
+Reuben: Stay back, Benjamin, and leave this monster to me!
+(After fight)
+Benjamin: Reuben!
+Reuben: I'm all right! Keep going, and I'll catch up!
+Tristam: Your buddy fell, kid?
+Benjamin: Yes, but he's okay.
+Tristam: All right, then I'll tag along with you for a bit.
+
+(Coming soon Alive Forest)
+
+Windia
+Benjamin: Excuse me, are you Otto?
+Otto: Later...
+
+Otto: My daughter Norma went to the Tower up north using my Rainbow Road. But
+the powerful wind from Mt. Gale broke the road-making machine. Norma's stuck
+until the wind die down.
+Kaeli: Benjamin, let's keep going. The Crystal of Wind might be in that
+mountain air.
+
+Top of Mount Gale
+Benjamin: So you're the one who's draining the Crystal of Wind's power!
+Dullahan: Nah, it's Pazuzu. But you'll never meet him!
+
+Windia
+Otto: The wind has suddenly stopped. I'll try to make the Rainbow Road!
+
+Otto: It worked!
+Benjamin: Otto, we're going to save Norma and the Crystal!
+Otto: Wait! In the Tower, you will see switches on even-numbered floors. Flick
+them with your Axe. Then the elevator won't go past that floor!
+
+Pazuzu's Tower
+Benjamin: Are you Norma?
+Norma: I was afraid no one would find me, but now I can go home!
+Benjamin: You Dad's waiting for you.
+
+3F
+Pazuzu: I was waiting for you, little beasts!
+
+4F
+Pazuzu: Mwa ha! You can't catch me!
+
+2F
+Pazuzu: Mwa ha! You can't catch me!
+
+1F
+Pazuzu: Playtime's over! Prepare to meet your doom! And you can forget about
+Captain Mac!
+
+Windia
+Benjamin: We sill have Captain Mac to worry about. Spencer said you'd help...
+(Reuben enters)
+Benjamin: Reuben! Are you okay?
+Reuben: Yeah! And guess what I found when I fell? A stairway to the top of the
+Focus Tower!
+Benjamin: Stairway?!
+Otto: I've got it! If we refill the dry lake, we can save Captain Mac.
+Benjamin: How?
+Otto: Go to Spencer's tunnel. Set a bomb there, and the water from the Upper
+Lake will spill into the dry lake!
+Benjamin: But Spencer's tunnel has caved in.
+Otto: There is one way... If you power up the Rainbow Road machine with Thunder
+Rock, you can reach Spencer's Place!
+Reuben: Dad will know about this!
+Benjamin: Kaeli, will you take care of Norma? Reuben and I know the Focus Tower
+well, so we'll be back from Fireburg in no time.
+Kaeli: Of course.
+
+Fireburg
+Benjamin: Arion, you ever heard of Thunder Rock?
+Arion: Of course! Wait a second. Here. Take it.
+
+Windia
+Otto: Found some Thunder Rock, huh?
+(uses rock)
+Otto: Power up completed! Now you can go to Spencer's Place!
+
+Spencer's Place
+Reuben: Let's blow that area up with a Mega Grenade.
+
+Benjamin: We did!
+Reuben: Let's tell, Kaeli.
+
+Windia
+Benjamin: It worked! The ship is afloat.
+Kaeli: Thanks. I'll head there now!
+Benjamin: But the ship's full of monsters. Let us go first
+Kaeli: Give this Captain Cap to Dad when you find him. Then he'll know I'm
+coming.
+
+Mac's Ship
+B1
+Mac: Is...Isn't th...that my Captain Cap?!
+Benjamin: Kaeli asked us to give it to you. Are you okay?
+(Kaeli enters)
+Kaeli: Dad! I was worried about you. You look awful..
+Mac: I'm...okay, but I have some bad news... The Dark King... Prophecy...
+Kaeli: Dad, tell us about the Prophecy later! Let's cure your wounds in Windia
+first.
+Mac: But...
+(Kaeli and Mac leave; Reuben falls)
+Reuben: I'm okay. I guess I haven't recovered from that fall off the bridge.
+Benjamin: Reuben! Let's go to Windia and put you to bed!
+
+Ship Dock
+Spencer: There you are!
+Benjamin: Spencer! Phoebe's been looking for you.
+Spencer: I met her at the Inn in Windia, and now she wants to see you. We're
+done here. Let's go!
+Tristam: Right! See you again, kid!
+
+Windia (Inn)
+Benjamin: Reuben's Hurt!
+Phoebe: I'm surprised you even made it here with such a bad wound! Off to bed
+with you.
+(Reuben leaves)
+Phoebe: Benjamin, you need to hear Mac's news. You're not going to like it...
+
+(Inn; 2F)
+Benjamin: What can be so important?
+Mac: I've discovered a lost part of the Prophecy. "The one behind the 4 is
+darker than the night, and rises midst the land!" You've saved the Crystals,
+but our real enemy is the Dark King. He's in Focus Tower. Reach the tower with
+my ship, Stan by the steering wheel and press the A button.
+
+Doom Castle
+Statue: ... Benjamin, Phoebe, knights of Light... We Crystals now entrust you
+with
+our power.
+
+Doom Castle
+Benjamin: Dark King, we meet at last...
+Dark King: Indeed, and now you will serve me...
+Benjamin: I don't think so! We won't allow you to ruin our World.
+Dark King: Alas, silly humans, I must share a terrible secret! That Prophecy?
+Ages ago I started that rumor! Welcome to the power of Darkness!
+
+(During battle)
+Before changing to second form
+Dark King: How amusing! Is that all that you can muster?
+
+Before changing to third form
+Dark King: Grrr... Now see what I really am!
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++SPOILER++++++++ENDING+++++++++++++++++++++++++++++++++++++++++++++++
+++++YOU+++++++++HAVE++++++++++++BEEN++++++++++WARNED+++++++++++++++++++
+++ENDING+++++OF++++++GAME++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|
+|-----------
+	     |
+           |
+          \ /
+         Final warning.
+            |
+            |
+            |
+           \ /
+           Okay here it is.
+
+
+
+
+
+(After Battle)
+Benjamin: Yes, yes!! We have defeated the Dark King!
+Phoebe: At last! It's all over!
+(Man appears)
+Man: Disguised as a human I, the Crystal of Light, have guided you.
+Evil can
+not thrive if you keep hope alive, use your courage, and respect your
+World. A
+bright future awaits you now. Go, and enjoy all that he World has to
+offer.
+Benjamin: Thank you!
+
+Windia
+Otto: Benjamin! You say Dark King was the problem, and you beat him?!
+Benjamin: But of course! Say, what's become of Reuben and Captain Mac?
+Otto: They're fine! They've already headed home.
+Benjamin: Great. Sometime I'll drop by and say "Hi!"
+
+Foresta
+Kaeli: You're safe! What are you going to do next?
+Benjamin: Maybe you can answer that, Mac, how about lending me that
+ship? I
+need a little more adventure in my life.
+(Turns to face Kaeli)
+Benjamin: Don't worry, Kaeli!
+Mac: Alright. But let me see if it's still seaworthy.
+Mother: Don't forget your Cap again!
+
+Aquaria
+Benjamin: Spencer! You still digging?
+Spencer: Yep. All because of you guys!
+Benjamin: Any one seen Tristam?
+Spencer: That jerk. He's gone treasure hunting again!
+Benjamin: Well, tell him I said "Hi!"
+
+Fireburg
+Reuben: How's it going?
+Benjamin: Reuben! Couldn't be better!
+Reuben: Why don't you hang out in this town?
+Benjamin: No way! I'm off for more adventure in Captain Mac's ship.
+Reuben: At least let me see you off!
+
+Ship's dock
+Mac: The ship's better off then new!
+Benjamin: Thanks, Mac.
+Mother: Three cheers for Captain Benjamin!
+Otto: Wait until you see my next invention!
+Norma: Can you come over again?
+Arion: Have a good trip.
+Reuben's Mother: Do it up while you're young!
+Reuben: I think I've had all the adventure I can stand!
+Spencer: How about taking me along? You'll need an expert treasure
+hunter!
+Phoebe: You don't know what you're saying, Grandpa!
+Phoebe: You'll be back in no time. See the World for me!
+Kaeli: We're going to miss you.
+Benjamin: I'm going to miss you, too. Farewell!
+(Kaeli and Phoebe run up. Shows ship going off)
+
+Deck
+Benjamin: What are you doing here?
+Tristam: I can't resist it when I hear about an adventure. I'm going to
+keep an
+eye on you, kid.
+Benjamin: That's Benjamin, you nut!
+
+~The End!
+
+2. Final Word
+!Warning!
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other web
+site or as a part of any public display is strictly prohibited, and a violation
+of copyright.  If you have any questions, you found a mistake or spelling
+error, or have a question then email me at bobvila_16@yahoo.com.
+
+MAJOR WARNING!!!!!!!!!!!
+THIS FOLLOWING GUIDE IS FOR USE ON AND ONLY ON
+www.gamefaqs.com
+www.neoseeker.com
+
+WEBSITES THAT DO NOT HAVE PERMISSION TO USE THIS GUIDE
+www.rpgup.com
+
+If you see this guide on any website that is NOT mentioned above then please
+contact me immediately and tell me. I have all ready found this guide one site
+that DID NOT ask me permission to use it and they did not give credit to me. So
+please contact me if you see this guide on any site that is not mentioned
+above.
+
+If you decide to e-mail then please do not e-mail any of the follow
+things listed below.
+
+1. Chain letters
+2. Porn
+3. A virus
+4. Any thing about a new diet pill or body enhancing pills (viagra for
+example)
+5. A new appliance that is a must have
+
+E-mails you can send me
+1. Ask a question about the guide
+2. You found an error in my guide
+3. You like to submit the story from the book
+4. YOU FIND THIS GUIDE ON ANOTHER SITE that is not listed at the list
+at the beginning of this guide.
+
+Now if you must e-mail me then my e-mail address is
+bobvila_16@yahoo.com.
+
+
+Credits
+I would like to thank
+Squaresoft for making for this great game & FF series
+Nintendo for making the SNES
+My best friends and class mates
+And I would love to give a big thanks to Andre Pasteur II. Thank you
+for telling me about that site.
+I would also like to give a big thanks to CJayC for creating
+Gamefaqs.
+
+All trademarks and copyrights contained in this document are owned by
+their respective trademark and copyright holders.
+Copyright 2005 Timothy Johnson.

@@ -1,0 +1,3631 @@
+Final Fantasy: Dirge of Cerberus
+EXTRA MISSIONS GUIDE
+by Utilael
+
+V 1.2
+
+==================================
+Legal Stuff
+==================================
+
+	This document was written by me, and only me, everyone that 
+helped me and how they helped is credited at the bottom of this FAQ.  
+This FAQ is Copyright (c) 2006 Utilael.  Anyone found using this FAQ 
+for anything other than personal use will be violating this copyright. 
+Anyone may use this guide to help write a FAQ of there own or anything
+of that sort, but please give me some credit for helping if the 
+document becomes public.  This document may not be copied or reproduced 
+without my permission and may only be posted at www.gamefaqs.com until 
+further notice.  If you wish to use this guide for anything other than 
+personal use, please contact me about it, and if you wish to post this 
+guide on another site not listed, get my permission first.
+
+Questions, Comments and Criticisms about this FAQ can be emailed to 
+Utilael@aol.com.
+Please do not abuse this FAQ or my email address.
+Lastly, if you wish to email me, it would be helpful if you would put 
+Final Fantasy in the subject so I won't delete it as Spam.
+
+==================================
+
+Use the side letters to locate a specific part of this guide, or the 
+mission numbers/names to locate a specific mission using the find 
+feature in whatever text viewer you are using. (e.g. if you're looking 
+for mission 10, then type in the finder 'Mission 10 - Missile')
+
+==================================
+Table of Contents		ToC
+==================================
+
+I. 	Table of Contents...................... ToC
+
+II.	Introduction........................... Int
+
+III.	About the FAQ.......................... AtF
+
+IV.	Extra Mission.......................... EM
+      a.	   Mission 1 - Zyphyr Heathlands
+      b.	   Mission 2 - Widow Missileer
+      c.	   Mission 3 - Wastelings
+      d.	   Mission 4 - Vincent the Mage
+      e.	   Mission 5 - Deep Labyrinth
+      f.	   Mission 6 - Boxemon
+      g.	   Mission 7 - Gatling in the Wastes
+      h.	   Mission 8 - Lord of the Jungle
+      i.	   Mission 9 - Cait Versus the World
+      j.	   Mission 10 - Missilebreaker Melee
+      k.	   Mission 11 - Collector's Mind
+      l.	   Mission 12 - Vincent the Destroyer
+      m.	   Mission 13 - Rains of Gehenna
+      n.	   Mission 14 - Vincent the Grappler
+      o.	   Mission 15 - Red and Blue
+      p.	   Mission 16 - Stygian Sewers
+      q.	   Mission 17 - Messenger from Hell
+      r.	   Mission 18 - Badlands
+      s.	   Mission 19 - Chamber of Ghosts
+      t.	   Mission 20 - Deep Tower
+      u.	   Mission 21 - Cait Versus the Crimson
+      v.	   Mission 22 - Shinra Manor Prime
+      w.	   Mission 23 - Rampart Rumble
+      x.	   Mission 24 - Contra Kalm
+      y.	   Mission 25 - Missilebreaker Deathmatch
+      z.	   Mission 26 - Cait Versus the Cerulean
+      A.	   Mission 27 - Vincent the Beast
+      B.	   Mission 28 - Cyclopean Causeway
+      C.	   Mission 29 - Trick Arc
+      D.	   Mission 30 - 100,000 Needles
+      E.	   Mission 31 - Cait Versus the Bull
+      F.	   Mission 32 - Deepground Soldiers
+      G.	   Mission 33 - Shieldbreaker
+      H.	   Mission 34 - Spiral
+      I.	   Mission 35 - One-Handed
+      J.	   Mission 36 - Black Widow Tetra
+      K.	   Mission 37 - Gatling Shower
+      L.	   Mission 38 - Go with the Flow
+      M.	   Mission 39 - Brotherly Love
+      N.	   Mission 40 - Unlimited DG
+      O.	   Mission 41 - Drumline
+      P.	   Mission 42 - Two-Handed
+      Q.	   Mission 43 - Cait Versus the Empowered
+      R.	   Mission 44 - Deepground
+      S.	   Mission 45 - Stronghold Impervious
+      T.	   Mission 46 - An Invitation to Illusion
+
+
+V.	Version History........................ VeH
+
+VI.	Credits/Contact........................ Crd
+
+==================================
+Introduction			Int
+==================================
+
+	Hi, my name is Mark and my screen name is Utilael.  I am the 
+creator of this guide.
+
+What this guide is:
+	Hey, this FAQ was made to help anyone with the Extra Missions. 
+Whether your stuck, need to find the best way to get something done, or 
+wondering where a capsule is on a level, this guide will help you.  
+This guide will have expected you to have gone through the main story 
+line at least once on normal, but don't worry though, I'll explain 
+everything, even stuff that would only confuse someone who hasn't 
+touched the game.
+
+What this guide is not:
+	This FAQ was not made to help people through any part of the main 
+storyline, on any difficulty, for anything.  This guide was not made to 
+help you on the tutorial that you can get to at the main screen (why in 
+the world would you need help on a tutorial?).  This guide was also not 
+created to help you learn how to play the game, go to the tutorial and 
+play through it if you want to do that.  Please do not email me 
+concerning any of these subjects.
+
+==================================
+About the FAQ			AtF
+==================================
+
+	This FAQ will help you through any aspect of the Extra Missions 
+in the Extra Features of the Square Enix game, Final Fantasy: Dirge of 
+Cerberus.  I will make sure to explain all that I can step by step, 
+but, due to how hard it can be to use the map, and the different things 
+that can happen if you choose to follow the guide step by step, it will 
+be hard to simply just begin using a guide on a level when you are half 
+way through, so do yourself a favor, and start from the beginning when 
+you use a guide for a level.
+	These guides will help you through a level, but no guarantees.  I 
+would recommend only using this guide when you get stuck and have tried 
+to get through a level a few times, but nevertheless, the choice of how 
+to use this guide is up to you.  I will sometimes use the map to tell 
+you where things are, or give a direction based on the maps definition 
+of north, but if I use either of those two to tell you where to go, I 
+will always give you a relative way to get there also (e.g. Head to the 
+north (to the right of where you start) through the door.).
+
+Here is an example of a mission guide:
+
+==================================
+
+Mission # - Title
+
+Mission:       -What you're supposed to do
+Defeat:        -How you will loose
+Time Limit:    -The allotted time given to achieve victory
+Goal Point:    -The map location of the goal point
+
+Difficulty: ?/5 -(1 = Very Easy; 5 = Very Hard)
+
+Capsule:                -Location based on objects around the capsule
+	                  -What you get from the capsule
+	Location:         -Map co-ordinates of the capsule
+	How to Destroy:   -How to destroy the capsule
+
+Starting...
+	Health: ???/???               -Your starting Health
+	Magic: 0                      -Your starting Magic
+	Rifle Bullets: ???            -Your starting Rifle Ammo
+	Handgun Bullets: ???          -Your starting Handgun Ammo
+	Machine Gun Bullets: ???      -Your starting Machine Gun Ammo
+
+My Best Time: -My best time on the level.
+
+==================================
+
+-Description and notes on the map.
+
+	-The step by step guide on how to get through the map.
+
+-Any extra things you should know.
+
+==================================
+
+
+And here's the names of the enemies:
+
+Actual Name		Small Description		What I call them
+----------------------------------------------------------
+Dual Horn         A large, red bull       Dual Horn
+Twin Sentry       A stationary turret     Twin Sentry/Turret
+Bizarre Bug       An orange beetle        Bizarre Bug/Beetle
+Gaurd Hound       A blue hound            Blue Hound
+Epiolnis          An ostridge             Epiolnis/Ostridge
+Sahagin           A turtle w/ pitchfork   Sahagin/Turtle
+Red Saucer        A small orance machine  Red Saucer/Orange Machine
+Gargoyle          A flying purple beast   Gargoyle
+Aerial Mine       A floating mine         Floating Mine
+Bull Head         A protection machine    Bull Head/Shield Machine
+Cactuar           A small green cactus    Cactuar
+
+Deepground:
+Soldier           A black & blue soldier  Deepground Soldier/Soldier
+Sniper            A black & blue sniper   Sniper
+Shrike            A floating soldier      Floating Soldier/Flying Soldier
+Beast             A soldier on all fours  Deepground Hound/Hound
+Sergeant          A white soldier         Deepground Sergeant/Soldier
+Commander         A soldier w/ hat, cloak Elite Soldier/Commander
+Elite             Heavily dressed soldier Elite Soldier/Shield Soldier
+SOLDIER           A soldier with a sword  Ninja's/SOLDIER
+
+
+And now to the...
+
+==================================
+EXTRA MISSIONS			EM
+==================================
+
+Mission 1 - Zyphyr Heathlands
+
+Mission:    Locate the Goal Point
+Defeat:     KO / Time Limit
+Time Limit: 10 Minutes
+Goal Point: J-2
+
+Difficulty: 2/5
+
+Capsule: Sitting on a ledge.
+	Character Viewer; The WRO
+	Location: G-11
+	How to Destroy: Gunshot
+
+Starting....
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 1:48
+
+==================================
+
+This is a rather easy map, that is hard to get through at first, but 
+after a few tries on your own, you'll wonder why it was so hard the 
+first time... Or you can just follow this guide.
+
+	Now, E-13 is the location of the first cardkey you need to get to 
+the second part of the level.  But however, when you start out, there 
+is a red gate keeping you from getting there, so your going to have to 
+take the long way.  From your starting position, to the left is a dog 
+and a deepground SOLDIER Class Robot that will jump off the ledge and 
+attack, immediately after that, another SOLDIER Class Robot (which I'll 
+call ninja's from now on), will come at you from your right, kill him, 
+grab the EX File (1) in the cargo, and go through the arch in which he 
+came from (after going through this part a few times, I realized that 
+it is often that all of these men may take different paths then what 
+I've specified here, so be ready for anything to happen, but you need 
+only expect three enemies).
+	Once through the tunnel, destroy the second cargo with EX File 
+(2) in it, and kill the deepground soldier that is standing on a ledge 
+to the left.  Go towards the ledge that the soldier was just on, and on 
+your right will be another soldier, kill him, but continue running 
+towards the explosive barrel in the NW.  Another soldier will be 
+standing on a ledge right next to an explosive barrel, destroy the 
+barrel for an instant kill, or just kill the soldier, then turn to your 
+left and run southwards through the arches until you reach a building, 
+there may also be another soldier on a ledge, depending on which arch 
+you went under.
+	After reaching the building, go inside and grab the cardkey (this 
+is E-13 by the way).  Head back out and go left, so your heading in a 
+NNW direction.  Once you reach the wall, run up to the gate and use the 
+cardkey you just got to get through.  There is a possibility, if you 
+didn't kill everyone on your way to the cardkey that, once you make it 
+up, you'll be shot at, so pull out a sniper and shoot back if this 
+happens.  Continue heading north and, if you so wish, kill the two 
+snipers on the roofs, and the third sniper behind a gate to the east.  
+Then continue north until you come to the wall, then head east towards 
+the large pit in the ground.  Carefully look over the edge and snipe 
+the two soldiers at the bottom of the pit.  Then jump down and either 
+pull out your machine gun, or start meleeing the little Red Saucer 
+robots that will begin to attack.  Once your finished, head east and 
+turn around the corner on your right and kill the soldier, then turn 
+around and head north into the building immediately in front of you,
+step into the blue circle and your done!
+
+==================================
+
+Mission 2 - Widow Missileer
+
+Mission:    Eradicate the Black Widow Squad
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 1/5
+
+Capsule: Behind some crates.
+	Sound Gallery; The System
+	Location: I-6
+	How to Destroy: Materia Shot (Get an ether from right side of map)
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 0:09
+
+==================================
+
+This is a very simple mission, just kill the Black Widow Squad.
+
+	All you need to do on this level is either run back and forth 
+dodging the missiles and taking shots at on of the Black Widows, or 
+simply run to the right of your starting position and pick up an ether 
+(or run to the front of the right most barrel and pick up magic there) 
+and take two or three fire magic shots at them and destroy them all.  
+But either way, once you kill but one of these machines, you kill them 
+all.
+
+==================================
+
+Mission 3 - Wastelings
+
+Mission:    Defeat the Dual Horn
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Sitting on a ledge.
+	Trailer; Tokyo Game Show
+	Location: B-9
+	How to Destroy: Gunshot
+
+Starting...
+
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 7:12
+
+==================================
+This is actually, quite an easy mission, however, the only reason I'd 
+give this a 3/5 difficulty is due to how long it takes to kill Dual 
+Horn and the annoying hounds that'll attack you constantly while your 
+at it.
+
+	Start out by running north, taking out all hounds on the way, 
+you'll have one large group come at first, then they come about one to 
+three at a time, and keep coming that way.  There are some Cactuars up 
+in the NE area of the map that will drop Limit Breaks, and all the 
+hounds may drop some kind of item or ammo when you kill them.  I find 
+that also, you hurt Dual Horn more if he is not facing you, so try to 
+get to his back side if you can.  A very easy way to beat Dual Horn 
+(thanks to sephirosuy for the idea) is to get 3 limit breaks from the 
+Cactuars, then run over to a trench and jump over, and continue doing 
+this back and forth until Dual Horn falls in, then just start unloading 
+on him and using you limit breaks until he either dies, or gets out.  
+If he gets out, just start jumping across the trench until he falls 
+back in again.  Once you've finished him off, you done!
+
+==================================
+
+Mission 4 - Vincent the Mage
+
+Mission:    Defeat 100 Enemies Using Only Magic
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: On a roof.
+	Sound Gallery; Battlefields
+	Location: C-12
+	How to Destroy: Materia Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 11:50
+
+==================================
+
+This is also a rather easy mission, however, due to the fact that 
+getting magic can be quite a hassle, this mission is a bit more 
+difficult.
+
+	Start out by grabbing the ether and using it to get yourself some 
+magic, then start unloading on the hounds (if you need some materia, 
+there's all Blizzard, Thunder, and Fire all on the broken bridge across 
+from where you start),  the best way to kill these guys is to do it in 
+groups, as one shot can take out a lot of hounds if they're close 
+together.  The hounds will also drop a lot of Red Ethers, which can be 
+very helpful, so target these guys often.  Once you start moving 
+around, more guys start to appear, such as Dual Horns, Ninja's, and 
+flying Deepground Soldiers.  When a soldier appears, make it your top 
+priority until you kill it, because they have long range, have Dual 
+Horns be your second top priority, as they are annoying and painful.  
+Everything else is up to you really, there are items scattered all 
+throughout the level, and they do respawn after a while, so don't be 
+rushed, take your time and kill everyone one by one.
+
+==================================
+
+Mission 5 - Deep Labyrinth
+
+Mission:    Locate the Goal Point
+Defeat:     KO
+Time Limit: None
+Goal Point: L-13
+
+Difficulty: 2/5
+
+Capsule: By a wall in a room.
+	Side Mission; Boxemon
+	Location: K-14
+	How to Destroy: Shot the Barrel sitting on the ledge above it.
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 30
+	Handgun Bullets: 90
+	Machine Gun Bullets: 140
+
+My Best Time: 12:03
+
+==================================
+
+This mission took me forever to figure out how to beat, but it is in 
+fact, one of the easier missions in the game and I'll tell you step by 
+step how I beat it.
+
+Room 1: Weak Deepground Soldier x3
+	I started off by just running out with my rifle and giving one 
+hit kills to all three men in the room, it is also just as easy to use 
+a handgun and take them out the same way.
+
+Room 2: Deepground Soldier x4
+	These soldiers will take a lot more hits to kill than the 
+previous ones, probably about two hits from a handgun.  So what I did 
+was I ran into the room until the soldiers came out, then I back 
+peddled back into the hall and headshotted each soldier one by one, 
+nice and easy.
+
+Room 3: Elite Ninja x3
+	All you need to do on this one is pull out your rifle, zoom in on 
+the block at the end of the hall, and walk foreword until the ninja's 
+come out, then if you headshot them, it should only take two hits each. 
+You can also use your handgun just as easily here, just once the 
+ninja's are about to reach you, jump over them shoot them as you back 
+peddle.
+
+Room 4: Deepground Soldier x7
+	This is a very easy room, but if you don't know the secret, it's 
+one of the most painful.  All you need to do is pull out a handgun and 
+shoot the barrel that's sitting on a ledge above the seven soldiers, 
+and blam, their all dead.
+
+Room 5: Red Saucer x20
+	There's two easy ways to defeat this area, either pull out your 
+machine gun, run towards the machines and start unloading, then once 
+they start coming towards you, make your way back into the red keycard 
+room to your right and shoot any machine that comes in until they're 
+all dead.  Or you an just run into the middle of the machines and start 
+meleeing your way through them until you win.  The latter choice will 
+probably get you hurt a bit more than the first choice, so I would 
+choose depending on your health.
+
+Room 6: Deepground Soldier x3, Bull Head x2, Elite Soldier x1
+	The Elite Soldier won't come into the battle until you come near 
+the second room, so wait until you've finished off the other enemies 
+before going that way.  Start by either finishing off the Bull Heads 
+with one to two rounds of melee attacks, or begin by just killing of 
+the soldiers, or do both at the same time, depending on which is more 
+of a threat.  Then once all five are finished off, head towards the 
+second room and kill the Elite Soldier and your done!, with this room 
+that is.
+
+There's also a Hi-Potion and Cardkey in the east room behind a gate, if 
+you're low on health.
+
+Room 7: N/A
+	This is a nice rest room, and your goal is actually just on the 
+other side, however, you can't get there at the moment.  So start by 
+shooting the explosive barrel on the ledge to get the Boxemon level, 
+and then melee the red box down to get lots of supplies, DO NOT 
+however, shot the red box, as you will not get the supplies if you do 
+so, rendering the level impossible.  When your ready, head north to the 
+next area.
+
+Room 8: Floating Mine x10
+	Now your trapped in a small box and you need to keep the floating 
+mines from getting too close and blowing up (if they do, you may get a 
+nice chain effect and not be able to stand for a while).  Well, this is 
+rather easy to counter, simply zoom into first person with a handgun, 
+position yourself so your reticule is between to of the blue bars, and 
+shoot any floating mine that enters the hallway, ta-da!  Next room.
+
+Room 9: Black Widow x1
+	This is probably the hardest room to win in, but what you have to 
+do is rather easy, just run in circles unloading on the machine until 
+he dies, using items as needed.  Magic does help here, but not that 
+much.
+
+Room 10: Epiolnis x4
+	Very simple room, just pull out a handgun and take two/three 
+shoots on each Epiolnis, EZ.
+
+There's also a Cardkey and Potion to in a room to the east.
+
+Room 11: Deepground Rocketeer x3
+	Another easy room, once you enter the room, begin running back 
+and forth, shooting the Rocketeers until they're dead.
+
+A Cardkey and Ether can be found in the dead end going east.
+
+Room 12: Deepground Soldier x2, Ninja x3, Elite Soldier x3
+	Yet another simple room, run around the barrels and unload your 
+handgun on the ninja's and soldiers, then head to about where they were 
+standing to get the Elite Soldiers to come out, finish them off and 
+continue on.
+
+Hi-Potion and Cardkey in a room to the south. (and if you like 
+climbing, try getting on top of every stack of boxes in the room, 
+you'll need plenty of machine gun ammo to get to figure out how to get 
+onto the ones in the SW corner though. [shows you what I do in my free 
+time]  =P. Alright, next room!)
+
+Room 13: Bizarre Bug x4
+	Yet ANOTHER easy room, if your feeling conservative, it's rather 
+easy just to melee the Bizarre Bugs to death, but of course, you can 
+always just shoot them all to death.
+
+Room 14: Ninja x8, Elite Ninja x2
+	It gets a tad bit harder here, due to their numbers, just shoot 
+'em all down, or magic the group to death, your choice.  You don't have 
+to worry about the Elite Ninja's until you either kill all the other 
+ninja's, or shoot at an Elite Ninja (or get too close, but I haven’t 
+tried that one yet).
+
+An Ether and Cardkey in the west hall.
+
+Room 15: Cactuar x3
+	This room can be easy or hard, depending on how quick you kill 
+the Cactuars, if you go a little too slow, the Cactuars will begin 
+attacking and it will be like going through hell to try and stop their 
+constant bouncing!  So rule of the room, kill the Cactuars quickly!
+
+Room 16: Deepground Soldiers (with shield materia) x10
+	Get your magic ready, heal yourself up and put your item choice 
+onto ether/elixir, run in, head towards the barrels, and (once the 
+soldiers come out) start unloading your magic and letting loose your 
+melee attacks.  A Limit Breaker can be used here, but due to how slow 
+Vincent is when in is transformed state, I wouldn't recommend using it.  
+Once you've killed all the soldiers, grab the cardkey and your done! 
+... Seriously this time.
+
+There's also an EX File (3) in the SW corner of the room (I'm not sure 
+if it's there in room 7...).
+
+==================================
+
+Mission 6 - Boxemon (Side Mission)
+
+Mission:    Defeat 3 Cactuars
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 1/5
+
+Capsule: None
+	N/A
+	Location: N/A
+	How to Destroy: N/A
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 0:23
+
+==================================
+
+This is an extremely simple level, and I'm sorry for anyone who has any 
+trouble with it.
+
+	All you need do is destroy a box, and kill what's in it, if a 
+Dual Horn comes out, restart.  Simple as that.  There's only one Dual 
+Horn, so you should be able to get all three Cactuars before you find 
+him, and if all else fails (I haven't actually tried this) just run 
+around destroying all the boxes killing only Cactuars, Red Saucer 
+machines and soldiers (as the Dual Horn takes to long to kill and the 
+machines will slow you down if Dual Horn is chasing you).
+
+==================================
+
+Mission 7 - Gatling in the Wastes
+
+Mission:    Earn 500 Points
+Defeat:     KO / Time Limit
+Time Limit: 5 Minutes
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating above a torch.
+	Sound Gallery; Events
+	Location: F-9
+	How to Destroy: Materia Shot
+
+To get the capsule, if you run to the NWish corner (by the small crevice) 
+alot of cactuars will spawn, and only cactuars will drop ethers, and only
+near the end of the level.
+Thanks to nmj7towa@hotmail.com
+
+Alternatively, adhvt@hotmail.com has informed me that if you kill the
+Dual Horn in level 6 without him leaving the screen in hard mode, he
+will drop a Manaheart, which is an item you can use to replenish your
+magic so you can shoot the capsule.  Thank you adhvt!
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 3:
+
+==================================
+
+Here's how the point system goes on this level:
+        Purple Hound:   1 point
+        Red Hound:      3 points
+        Epiolnis:       5 points
+        Cactuar:        20 points
+        Dual Horn:      30 points
+
+	So start out by jumping on the gatling gun to the right of you, 
+and start shooting away at everything below you, once you either reach 
+50 points, or a Dual Horn or two appear, jump down and head behind you, 
+to the nearest gatling gun sitting on a mound to the west of your 
+starting point, and start shooting until either your health starts 
+getting low, or there's a lack of spawn of enemies.  If either of those 
+things happen, jump off and head west until you reach a potion, use it 
+and jump on the gatling gun to the right (north) of the potion and 
+finish off the level.  There's 3 or 4 other guns around the place, and 
+potions spread all over the level, so run towards these as needed (just 
+be aware of the time it'll take to do so).  Make sure the Cactuars and 
+Dual Horns are your top priority (that's not just for points) and 
+constantly do a check around you every time you get a free moment, to 
+make sure no ones coming from behind.
+
+==================================
+
+Mission 8 - Lord of the Jungle
+
+Mission:    Defeat the Gargoyles
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Hidden in some bushes
+	Art Gallery; Weapons
+	Location: J-7
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 120
+	Handgun Bullets: 360
+	Machine Gun Bullets: 400
+	Items: Potion x4
+
+My Best Time: 7:15
+
+==================================
+
+For sake of easiness, I'm going to tell the gargoyle areas by Location 
+on the map relative to the center area, e-mail me if you need 
+clarification on any of them.
+
+Center Gargoyle: Purple Hounds
+	Run around the mountain in the middle killing any hounds that 
+spawn until a gargoyle spawns, kill the gargoyle and continue on.
+
+North Gargoyle: Red Hounds
+	Head north, then west along the half circle path, a gate will 
+come up behind you.  Continue on until you grab a potoin, then turn 
+back and before you get to the gate, a gargoyle and some hounds will 
+spawn.  Killing the hounds first will probably be the easiest way to 
+defeat this.
+
+East Gargoyle #1: Epiolnis's
+	If you can kill this gargoyle fast enough, you won't have to 
+worry about killing anything else, if not, then you have to circle 
+around killing anything that spawns up while trying to finish off the 
+gargoyle (I've found that if you've got enough life and a few potions, 
+you can just run after the gargoyle and dodge the Epiolnis's on the 
+way).
+	
+East Gargoyle #2: Red Hounds
+	Just unload on the gargoyle ignoring the hounds, once the 
+gargoyle dies, the hounds will as well.
+
+South Gargoyle: Purple Hounds
+	Run around in circles taking out the hounds first, then finish 
+off the gargoyle.
+
+South West Gargoyle: Bizarre Bugs
+	Run in circles aiming for the gargoyle, the Bizarre Bugs 
+shouldn't be able to catch you if you continue running, and once the 
+gargoyles dead that Bizarre Bugs die also.
+
+West Gargoyle: Sahagins
+	Make a full circle around the center area (you have to get the 
+gargoyle to spawn) using the machine gun to kill the Sahagins, as this 
+is the most useful weapon versus them.  Once you've done that, head up 
+the center from the west and a gargoyle and a lot of Sahagins will 
+spawn, I would recommend aiming solely for the gargoyle with a handgun, 
+but that's just my preference.
+
+Final Gargoyle: Gargoyles
+	Head back to the northern gargoyle area, except go left into the 
+castle, and get ready for a battle.
+	Now for the hard part (that is if you don't have a lot of ammo 
+like I did).  I didn't count exactly how many gargoyles there are, nor 
+do I want to go back through the level to find out, so I'm just going 
+to stick with 8-9 of them and they each have 2000 health.  All you can 
+really do is just shoot, shoot, heal, shoot and hope.  I'd say that if 
+you want the best chance for living however, back out of the castle 
+area and kill them as they come through.  Good Luck.
+
+==================================
+
+Mission 9 - Cait Versus the World
+
+Mission:    Defeat 100 Enemies
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: 
+	Art Gallery; Locations
+	Location: J-6
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 999/999
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 7:43
+
+==================================
+
+This is a very frustrating map, for the most part, it just takes 
+persistent trying and re-trying to win.  Cait Sith's lag time is 
+horrendous, and will get you attacked if you don't time your attacks 
+perfectly.  Also another annoying feature of Cait is how long he'll lay 
+down if he gets hit too hard, and you'll probably be half dead by the 
+time you get back up.
+
+	Here's each animals life:
+		Blue Hound:       1
+		Red Hound:        3
+		Sahagin:          3
+		Bizarre Bug:      4
+		Ninja:            4
+
+	And the locations of each moogle (which will heal 300pts each):
+		J-9	- Inside the train.
+		M-13	- Behind the fire.
+		H-10	- On top of the barrels and crates.
+		8-B	- Behind a large crate.
+
+	At first, just run around and kill all the hounds you find, Red 
+Hounds will start spawning somewhere in between 5-10 kills and then 
+Beetles will begin spawning when you have between 15-20 kills.  Once 
+you see/hear the first Bizarre Bug, go and find a low ledge (such as 
+the hitch on the train housing the moogle - which will probably be your 
+best choice, as this is where the most guys go - or a crate or barrel) 
+and just continue doing your first attack unless some one tries to jump 
+on with you, then press attack again to do your back flip and kick them 
+off.  Whatever you do, don't do your third attack however, as this will 
+most likely throw you off the edge and you may not get back up again.  
+At 40 kills, the amphibians will begin popping up, jump off your 
+platform and attack these guys from the ground, due to their slowness, 
+they're fairly easy to win against (Cait's third attack is the best 
+against these guys, as it can hit a lot of them, and will most likely 
+kill them right away).  Once you hit 60 kills, Ninja's will begin 
+coming to fight, the best way to kill these is to get them to make an 
+attack first, then while they're recuperating, attack them.  Upon 
+killing 80 animals, everything begins spawning, from hounds to Ninja's, 
+so now just go all out using the skill you've gained with Cait Sith to 
+get this far to finish up this level.
+
+==================================
+
+Mission 10 - Missilebreaker Melee
+
+Mission:    Survive the Missile Assault
+Defeat:     KO
+Time Limit: 3 Minutes
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: To the right of the ledge you start on, down in open crate on the 
+         ground.
+	Trailer; DC Presentation
+	Location: I-7
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: --:--
+
+==================================
+
+This can be extremely hard, or extremely easy, depending on what you 
+do...
+
+	Start off by getting the scope off of your rifle, and having an 
+auto reload on all of your weapons (you can do this between missile 
+fire at the start), as these are essential.  Now position yourself 
+between the plane and the barrel, (zoom in so you can get this 
+positioning right) just at a position so that you can still shoot over 
+the barrel but just barely (so that you have to aim higher than normal 
+to get over the barrel) and place yourself a little more to the right 
+than seems comfortable, as the missiles coming from the left seem to 
+get around the barrel easier than the ones on the right (don't go to 
+far right though, just like one step).  If you did it right, not a 
+single missile will hit you, and you can relax... however, you won't 
+know if you did it right unless you get blown up!  So just act like the 
+barrels only there to get in the way and won't save you, and start 
+firing at any missiles that come at you!  Keep this up for three 
+minutes and your good... oh, and if you didn't figure it out by now, 
+there gets more and more missiles the longer you stay alive.
+
+==================================
+
+Mission 11 - Collector's Mind
+
+Mission:    Collect the EX Medals
+Defeat:     KO / Time Limit
+Time Limit: 5 Minutes
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Up in a castle window above the house.
+	Character Viewer; Monster
+	Location: D-5
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 4:35
+
+==================================
+
+Collect the medals, not really as hard as it sounds, you just can't 
+mess up really...
+
+	Start by turning around and grabbing the potion, then run up the 
+stairs, kill the soldier through the fence, continue up the stairs and 
+kill the soldier on your way up.  Once at the top, turn right and kill 
+the soldier, run to his body, turn right, and begin your descent.  Grab 
+the medal half way down, then continue down towards the bottom.  At the 
+bottom, turn left and head up the stair case until you grab the EX 
+Medal, then jump off to the right so you land on the other side of the 
+red fence.  Run into the house turn left and head up the stairs, kill 
+the guy at the top, grab the medal, and head back down and out the door 
+in front of the stairs.  Run along the wall until you come to some 
+stairs on the left, run up them and turn around and run towards the 
+house.  Kill the two soldiers, then run past the door and turn around 
+the corner to the left, jump up the crates and grab the medal, kill the 
+guy that falls down, then go into the house.  Get up the two flights of 
+stairs and run out the back window, onto the wall.  Turn left and kill 
+the soldier and grab the medal by his body.  Run back towards the 
+house, then continue on past it.  Head into the chapel and turn to your 
+left, grab the medal and jump off, grab the medal at the bottom, turn 
+towards the large double doors and kill the soldier.  
+	Stand on the magic replenisher (you'll need it) then run out the 
+doors, turn right and jump off the gap between the wall grabbing the 
+medal on the way down, turn to your right and head back up the stairs.  
+Head back to the front of the chapel, run past the doors and turn right 
+around the corner, kill the soldier, grab the medal by his body, and 
+head back into the chapel.  Once inside, go behind the stand in the 
+back center, and head up the construction stairs, climb up the ladder, 
+and head across the walkway to the other side of the chapel.  Turn 
+right and head up the two sets of ladders, kill the soldier at the top 
+of the tower, grab the medal and jump back down.  Now go midway across 
+the walkway and turn right and head out the opening onto the wall.  
+Follow the wall until you see a ladder sticking up to your right with a 
+gap in the wall (just before the cargo).  Jump off there and grab the 
+medal, then climb back up, turn to your right and continue along the 
+wall.  Kill the soldier, grab the medal and head right, down the stairs 
+to the bottom.  A soldier with a shield materia will drop down,  shot 
+him with a fireball, run and melee him once or twice (not three or else 
+you'll fall off the ledge).  Turn to the left and grab the medal, then 
+finish the soldier off with a fireball and possibly another melee.  Now 
+head along the wall to your right (south wall) until you come to a gap 
+in the houses on your right, grab the medal, then head back and 
+continue along the wall until you reach the east end, there will be one 
+last soldier and the last EX Medal to your right, kill him and grab it 
+and you finished! Phew!
+
+==================================
+
+Mission 12 - Vincent the Destroyer
+
+Mission:    Defeat 100 Targets
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: Sitting on a broken wall.
+	Art Gallery; Event Related
+	Location: D-5
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 4:35
+
+==================================
+
+Something must have inspired Square Enix, as we have yet another dodge the 
+explosions level.  Really easy, just keep the concept of corners in 
+your mind.
+
+	Now, if you get knocked of the wall, you have 5 seconds (from the 
+second you begin falling) to get back on, which is really hard to do, 
+due to the size of the wall, and how mines will be flying at you while 
+you try to do so, so in short, stay on the wall.  Now, all you really 
+have to do, is make sure your handgun and machine gun both have auto 
+reload on, then run onto the skinny ledge to the right, just in front 
+of you and back up to the very, very back of it (because some mines 
+will get really close, so you don't want to get hit because you were 
+too scared to get close to the edge).  Now aim forewords (so you're 
+looking down the small path you just came from, and kill anything that 
+steps in front of you.  Do not sway too much trying to kill mines you 
+see in the edges of your vision, as you there may just be a mine that 
+will come at you while you turn to destroy the other one, and you won't 
+be able to see it, so just try to stay looking foreword and only 
+killing things that step in your way.  If you do that, you'll be just 
+fine.
+	If you have troubles with this method, I'd suggest you experiment 
+and find a way that works for you.
+
+==================================
+
+Mission 13 - Rains of Gehenna
+
+Mission:    Collect the EX Medals
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: Floating above the canyon a little ways away from the broken 
+         bridge.
+	Art Gallery; Monsters
+	Location: J-13
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 4
+	Handgun Bullets: 12
+	Machine Gun Bullets: 20
+
+My Best Time: 15:48
+
+==================================
+
+The only way to beat this map, is to learn where the snipers are at the 
+beginning.  And there's only one good way to do that, and that's by 
+going through the start a lot... sigh*, let's get started.
+
+	You start out with barely any ammo, so you have to be very 
+accurate and conservative.  Use only your sniper, it shouldn't take 
+more shots than 2 for anything (you'll have about 4 shots left at the 
+end if you kill everyone with one or two shots depending on the 
+enemy... which means you have a few shots leniency).
+	Alright!  Start out by moving to your left a little, and looking 
+up at the ridge of the canyon, where a broken bridge sticks out, head 
+shot the soldier up there, then continue going left until you hit the 
+canyon wall, then walk foreword, training you scope on the top of the 
+canyon, above where you just were.  Take out the soldier up there with 
+one shot.  Now look at the red fence, then follow along the path 
+upwards, until you see a stationary turret (Twin Sentry), destroy the 
+Twin Sentry in two shots (by aiming in the center).  Continue along the 
+canyon wall, keeping you reticule focused across the canyon at the 
+corner on the right (past the broken bridge) and you'll see a soldier 
+as you move across.  Immediately to the right of that soldier, standing 
+behind the broken bridge at the bottom of the canyon, is another 
+soldier, kill both of them with one shot (don't forget to grab the ammo 
+to the left/behind you).  Head up the hill on the left and grab the EX 
+Medal, then head to the opposite side of the canyon, training you view 
+across the canyon, on the left corner, until you see another soldier, 
+kill him.  Now run under the broken bridge and grab the medal, then run 
+up the bridge and look onto the ledge across the canyon for a 
+rocketeer, make sure you get two head shots, then head onto the ledge 
+and grab the medal up there.  Look out and kill the Rocketeer on the 
+ledge on the right with two headshots (you must get two headshots to 
+kill him in two shots, but don't worry too much if you use and extra 
+shot).  Jump down and grab the ammo then  turn to your left and follow 
+the top of the canyon around the corner, once you see the soldier up 
+there, kill him.  Then run towards the medal under the tower, but don't 
+grab it yet, instead kill the rocketeer that is standing across the 
+canyon directly in front of you.  Then head closer to the medal, 
+looking above and to the left of the rocketeer you just killed (up on 
+the ledge) until you find and kill the soldier up there.  Now grab the 
+medal if you haven’t then run up the ledge behind/to the right of you 
+(along the back of the canyon) and grab the ammo.  
+	Head back down, looking across the canyon, until a Twin Sentry 
+appears, kill it with two shots to its center, and now head up the 
+ledge.  There's a soldier sniping across the canyon, on the other side 
+from where you are, take him out, and now if you've missed anyone, 
+you'll now it once you reach the top of the ledge, kill them if you 
+have.  As you head over the peak of the ledge towards the ammo, there 
+will be a soldier with his head sticking up just over the edge, kill 
+him, then grab the medal on the broken bridge to your left and head 
+further along the ledge, grabbing the ammo on your way.  As you near 
+the end of the ledge, slowly move yourself over, to the edge until you 
+either see a head, or get shot at (you'll probably get shot at first).  
+Kill the soldier, then begin making your way closer to the building in 
+front of you, but still move slowly until you see and kill the soldier 
+that is crouching to the right of the soldier you just killed.  Now 
+look at the building, there are two Twin Sentries, if you have enough 
+ammo to take one of them out (if you have enough to take both out, I'm 
+impressed!), then do so, but instead of heading towards the building, 
+turn and jump off the ledge to your left, grab the ammo, and run along 
+the canyon bottom going away from the building, grab the medal that is 
+sitting on the broken bridge and the ammo that’s under it, and head 
+along the west wall (the one you should be closest to) and grab the 
+medal down there.  Now head back to the building for the last medal, 
+take out any remaining Twin Sentries, and make your way towards the 
+building, but don't go in... unless you have a death wish.  Now come up 
+against the wall of the building (or at least close to it) and aim 
+inside the building through the door.  Shot the rocketeer inside once, 
+then run out of view (do otherwise and you'll be committing yourself to 
+about 500pts of damage), then run back in and try to shot him as 
+accurately as you can, repeat if he isn't dead, and continue repeating 
+until he does die.  Now run to the other side and repeat all your 
+motions for the rocketeer on the other side (don't worry if you end up 
+having to use some handgun ammo to finish the job).  Yay!  Now you can 
+run in and grab the eighth and final medal!
+...NOT!
+Yay, now you must get 20 medals!
+	SIGH*, should've seen that coming... Now head back the way you 
+came, open the blue gate, but don't go through it, instead, head back 
+to the starting point, and climb up the now accessible ladder and grab 
+the Elixor at the top, then use it.  Now head back to the steps where 
+you opened the blue gate and pull out your machine gun (if you have any 
+handgun bullets, use the handgun instead), ready your materia, and step 
+up the last few steps around the corner and shot a fireball (or 
+something) at the rocketeer around the corner, two ninja's will also 
+jump out, and if you timed it right, you'll hit all three of them.  
+Make sure you finish off the rocketeer at all costs however, as he 
+hurts!  The ninja's will now spawn in groups of two's from now on, 
+every fifteen seconds or so, until you kill everyone (the ninja's will 
+also be your source of ammo until then).  Now turn to your right and 
+make your way over the hill, kill the three soldiers and head towards 
+the building.  Get up against the left wall, like you did with the 
+rocketeers in the other building, and shoot the Elite Soldier in the 
+corner, then you can go in safely and pick up the loot.  Also, I'd 
+actually recommend killing the rocketeer and soldier to the right 
+before taking on the Elite Soldier, but your choice of order here.  
+Either way, kill the two, but don't head towards them, we're gonna go 
+backwards here (I found it was easier that way).  So head up to the 
+ledge (don't jump off!)  and run along it, picking up the two medals on 
+the overhangs as you go across, and killing whoever you can target to 
+the right with your sniper.  After getting the two medals by the ledge, 
+run back and forth along the edge and continue killing guys (including 
+ninja's) until it seems no one's left.  Now run in, wherever you want, 
+and run along the edge of the town collecting all the medals.  It 
+shouldn't be too hard, but here are all the medals locations (not 
+including the one in the second building or the two on the ledges).
+
+E-11
+C-12
+D-10
+E-8
+D-7 (rocketeer will fall in front of you)
+E-6
+
+	Once you have 17 medals, head to the last building (on the 
+opposite side as the second building you went in) with a red fence.  
+Jump over the red fence and, you guessed it, a catch, a Dual Horn is 
+waiting for you (it's rather entertaining to come around the corner of 
+the door zoomed in on your rifle, and see a large bull face on your 
+screen).  It's not hard though, just run around collecting the last 
+three medals, and since the dual horn can't turn fast enough, if you go 
+for the back ones first, then head for the middle one, he won't even 
+touch you.  NOW you're done!  Congratulations!
+
+==================================
+
+Mission 14 - Vincent the Grappler
+
+Mission:    Defeat 100 Enemies Using Only Melee Attacks
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: In a cage be the chapel.
+	Art Gallery; Shinra
+	Location: J-11
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 7:41
+
+==================================
+
+This level wasn't too hard, I did it on my second try without a 
+problem, since the guys are a lot weaker, it doesn't take that long to 
+kill them, the only hard part is watching your health, as sometimes you 
+forget about it and die (or get close to it).  A quick tip is to heal, 
+heal, heal, even if you only have a little damage done to you, because 
+one: it'll keep you alive, and two: you get lots of potions anyways.
+
+	For the most part, just run around killing all the hounds and 
+ninja's that spawn up.  If a gargoyle spawns, kill it as fast as you 
+can, since they have long range, and you don't have to worry, they 
+can't fly up higher to where you can't reach in this level. Careful for 
+the Elite Swordsmen (Ninja), because they can pack a punch, and they 
+won't fall over on the third attack, but for the most part, there 
+fairly easy, as usually, your melee attack will push you to the back of 
+the swordsman right as he attacks, allowing you to attack again and 
+finish him off. The gargoyles will drop Hi-Potions when you kill them, 
+and the Elite Swordsmen will drop X-Potions (which with only 780 
+health, they both do the same thing, but it lets you carry 4 potions, 
+instead of 2).  One last guy to talk about, the Cactuar.  Some where 
+around 75+ kills, a Cactuar will spawn and begin running around the 
+level at a very high pace.  Don't chase him, as you probably figured, 
+you won't be able to catch him, instead, if you stand by the door of 
+the chapel and continue fighting like normal, the Cactuar will come to 
+you by running up the stairs, then taking a little detour around the 
+front of the chapel, this is where you can hit him nice and easy, if 
+you miss, don't worry, he'll come back again.  You don't have to worry 
+about the Cactuar attacking you either, because he won't.  Once you 
+kill him however, he'll drop a cardkey, which you can then use to open 
+up the gate surrounding the capsule, or the other gate by the two 
+towers, which I actually have no clue as to what's in there.
+
+==================================
+
+Mission 15 - Red and Blue
+
+Mission:    Defeat Azul and Rosso
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: Floating between two mako lights.  Jump on the light, then jump 
+         again and melee attack in the air to reach it.
+	Art Gallery; WRO Headquarters
+	Location: G-12
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 0:26
+
+==================================
+
+This is probably the easiest map so far, besides the Widow Missileer.  
+Azul and Rosso both have practically no health, and neither of them 
+transform into a more stronger being upon their initial defeat.  I was 
+really tempted to give this map a 1/5 difficulty, but decided that it 
+could be kind of hard if you ended up getting in the way of Azul's gun 
+too often, but Rosso isn't even a problem.
+
+	Start out by pulling out a handgun, circling around the pillar in 
+a widish curve, and unloading on Azul.  He should be dead in a matter 
+of seconds, and with how slow he is, he probably will only be able to 
+shot you once or twice.  With Azul dead, just run towards Rosso, and in 
+a few shots, she'll be a goner.  Your done.
+
+==================================
+
+Mission 16 - Stygian Sewers
+
+Mission:    Retrieve the EX Medal
+Defeat:     KO / Time Limit
+Time Limit: 15 Minutes
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: By a gate at the end of the level.
+	Art Gallery; Shinra Building
+	Location: K-4
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 3:40
+
+==================================
+
+This level was pretty hard at first, but after doing some thinking and 
+looking around, I discovered how easy it really was, so if you can't 
+seem to get the insight I had, then read on.  Oh, and two things you 
+should know about this level that may help you, one: don't shot the 
+barrels when you're (practically) in the same room as them, as they 
+will kill anyone in a large radius with a one hit kill, including you.  
+Two: be cautious and trigger happy, which I find don't usually mix, but 
+they do here, walk around corners slowly, and once you see someone, 
+don't stop shooting until they're dead... get my drift?
+
+	Turn right and head towards the tunnel on your left after you've 
+spawned.  Once facing down the tunnel, take as many shots as you can at 
+the rocketeer at the end, you'll probably on get one or two shots in.  
+Follow him.  As you turn the corner, a soldier will run up, if you shot 
+fast enough (which isn't really fast) you'll kill him before he even 
+figures out what happened.  Once you pass his body and turn around the 
+corner, the rocketeer may take an extra shot at you before he resumes 
+running away, so be ready to dodge a rocket.  After the rocketeer 
+leaves (or you've gone around the corner), head foreword towards the 
+room, but don't go in, or you'll be ruthlessly shot at by two guys at 
+the bottom of the room, and two at the top.  Instead head into the 
+alcove on the right, and climb up the ladder, then, crouch and sneak up 
+to the ledge, the soldiers will begin shooting at you, but don't worry, 
+they can't hit you from where you're standing.  So look down off the 
+ledge at a barrel in the center of the room behind a pillar, shoot it 
+and you'll kill all four of the soldiers with out taking a hit.  Now 
+jump off the ledge.  There's a good chance that the pestering rocketeer 
+is in some odd place waiting for you when you drop down, so, if he's to 
+the right of you, don't run towards him, but back up and shot at him 
+until he runs away or dies, and if he's behind/in front/to the left of 
+you, pursue him until he's dead.  Now, head back to where you fell down 
+if you're not there, then walk around the corner to your right and shot 
+the barrel that comes into view (don't worry, this barrel won't kill 
+you, but it will kill the person next to it).  Now turn left and head 
+down the hall.  As you do so, there's a terrible chance that a Widow 
+will come and fire a beam that may or may not kill you, but as for me, 
+I've died from it on every hit so far, so just run forward until you 
+see it coming, then immediately turn begin backing up and head up the 
+stairs to the right.  Now just continue taking quick shots going back 
+and forth on the stairs until you finish it off.  
+	Once your finished, go and make sure that you kill the rocketeer 
+you saw at first, as you will not be able to beat this level unless he 
+is dead.  Once he's dead, head down the hall were you killed the Widow, 
+and head through the sewers until you come to the last underground 
+pipe, and past that is a ladder around the corner.  Head up the stairs 
+to the left of the pipe, and then up the stairs just above the pipe, 
+and up the ladder.  At the top, sneak over to the ledge and shot the 
+barrel that comes into sight on the ground.  Then go around the corner 
+to your right and kill the soldier by the ladder there.  Now continue 
+heading towards the three gaps by the soldier you just killed 
+(southward from the soldier) and go towards the pipe on the left.  
+Three ninja's will spawn up.  Kill them, and head down the tube and 
+grab the cardkey at the bottom, then head back up and drop off the 
+ledge to the bottom of the room, and head towards the 'C' on the wall 
+straight in front of you.  As you come around the corner on the right, 
+shoot the barrel, which should kill one or two soldiers (if any more 
+come, kill them... of course).  Now go unlock the gate and head inside 
+(yet another chance of getting picked on by anywhere from 1-3 more 
+soldiers).  As you walk into the room, there will be a rocketeer and a 
+couple soldiers standing on the top platform, on the platform below 
+them (and closer to you) is a barrel, which if you shoot, will kill at 
+least one of the three or four soldiers in the room.  I had two 
+soldiers on the top level that I killed with the barrel, and one 
+soldier that came to the right of me and starting hitting me with a 
+melee attack... odd tactic.  Well, whatever happens, kill off all the 
+soldiers how you see fit, and jump up and down (or however you want to 
+do it) and kill the rocketeer.  Once he dies, the screen will shake, a 
+medal will spawn, and the blue gates will diminish.  Now go get your 
+medal... NOT... again... one last fight, a Elite Ninja will fall down 
+on top of a box (which I have found if you just shoot at him and don't 
+get too close, he'll just glitch and stay put on the box).  Once you 
+finish him off, now you can go grab your reward. (BTW - for anyone that 
+might not be able to get past the gate, and see no other rocketeer in 
+the last room, that means you didn't kill the first rocketeer you saw 
+at the beginning of the level, go do so now)
+
+==================================
+
+Mission 17 - Messenger From Hell
+
+Mission:    Escape from the Megastructure
+Defeat:     KO / Time Limit
+Time Limit: 3 Minutes
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: Behind the red gate in front of you when you start
+	Sound Gallery; WRO
+	Location: G-12
+	How to Destroy: Materia Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 45
+	Handgun Bullets: 120
+	Machine Gun Bullets: 450
+
+My Best Time: 1:32
+
+==================================
+
+Alright, this is a fairly diverse map, for so small of a map, you need 
+to get past a large group of undead (and unkillable) soldiers, by 
+running up to the top of the structure you start in.  There are, 
+however, cargo boxes that have a lot of health (or high resistance for 
+that matter), that stand in your way.  Any attack will deal damage to 
+these boxes, and I have absolutely no idea which is best.  What I did 
+was use a machine gun, combined with a few melee attacks and materia 
+shots to break them... but the way you get through these is entirely up 
+to you.  Also, many of these boxes will hold something like an Ether or 
+Potion to aid you in your fight to the top, so if you want to take the 
+time to destroy some of the side boxes, then go right ahead.
+
+	Start by turning immediately around and heading up the ramp, 
+destroying at least two of the boxes on your way up (so you can get 
+up).  This level is really, very self-explanatory, but anyways... head 
+to your left down the hall, then turn to your right and head up and 
+destroy to levels of boxes, then shoot the barrel that's about a third 
+of the way up and destroy any more boxes that keep you from making it 
+up further.  At the top of that hall, turn to your right and shot the 
+barrel and destroy any more boxes that stand in your way.  Once at the 
+top, head towards the now visible goal on your left.  You won't be able 
+to get there without having a large stack of boxes appear before you 
+and a boss health bar appear in the top right hand side of the 
+screen.... time to start shooting.  Let loose all your materia and 
+bullets, and even melee attacks... try not to worry about anything that 
+comes up and attacks you.. unless you have to.  I found that if you 
+stand by the ramp and shoot at the boxes, then move back and forth 
+between visibility (from the top of the ramp towards the goal, then 
+back) of anyone down the hall, that you'll stall them from getting up 
+as fast as they'll stop and get ready to shot, then when you move, 
+they'll stop and start moving again, then when you come back they'll 
+stop and prepare to shot again... etc.  However you do it, go stand in 
+the goal when you are finished.
+
+==================================
+
+Mission 18 - Badlands
+
+Mission:    Locate the Goal Point
+Defeat:     KO / Time Limit
+Time Limit: 15 Minutes
+Goal Point: E-1
+
+Difficulty: 3/5
+
+Capsule: Sitting on a ledge in the center tower.
+	Side Mission; Chamber of Ghosts
+	Location: F-8
+	How to Destroy: Explosive Barrel, shot the box sitting on top of the 
+                        building.
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 6:20
+
+==================================
+
+Kk, there's three main points you should know about this level, point 
+one: it will only take one shot to kill most of the snipers (no 
+guarantees), two: there are hidden mines floating all around the map, 
+and you won't be able to see them until you get very close to them, at 
+which point you'll probably have set it off... the only way to really 
+get past these are to either be lucky and miss them or get close enough 
+and notice so you can shoot them without having to worry about getting 
+hurt, or to notice before the blow up and run away, in which you have 
+about a second or two to get away once you step too close.  Lastly: 
+keep on the lookout, there are snipers everywhere, and people will 
+spawn all the time, so don't expect that since you killed one guy, that 
+area is safe.
+
+	Look out the door, there are three people you'll be able to kill 
+from standing in the door from, one person on top of the tower in front 
+of you, another on top of the building waaaaay back there, standing by 
+a barrel to the right of the tower, and another guy by the cargo box to 
+your right, and upon moving to your left, out of the building a little, 
+you'll be able to see the very top of a guy's head poking out of the 
+sand.  Now as you move foreword, there will be a soldier standing by a 
+rock to your right, and ninja's will begin spawning.  Also, floating 
+above the cargo box that was by the soldier at the beginning, is a 
+mine, just to warn you.  Behind the broken bridge by the tower is yet 
+another soldier, and behind a gate on the left side of the is a soldier 
+with a machine gun, but don't go out of your way to kill him, because 
+you'll get to in an easier fashion later.  To the right, is a building 
+that has some refreshments in a red box inside (which you must shoot, 
+not melee to get anything out of it this time)... for a price of 
+course, and a soldier that is standing in the front of the building by 
+some cargo... btw, there's also a mine floating above the cargo, so be 
+cautious.  Now head to the backside of the tower (it would actually be 
+the front... wouldn't it?) and head in, but watch out for the mine 
+sitting in the door way.  
+	When you walk in, 4 Stygians will spawn, kill them, and shot the 
+barrel through the window to your right (which will kill the soldier 
+with the machine gun if you haven’t killed him yet), then head around 
+past the barrel and up the ramp to the outside.  Three ninja's will 
+spawn and attack you, and if you go stand by the gate that just dropped 
+by the ladder at the edge, and shoot the barrel as they fall down, 
+you'll kill (or knock off) them all.  Head up the ladder and watch out 
+for the mine at the top... In front of you two soldiers will spawn on 
+the tower, kill them, then make your way on the edge to the left around 
+the tower, when you come to the third corner, three soldiers will spawn 
+on the tower in front of you.  After killing them and going around the 
+corner, three cactuars will spawn, finish them off, then, being wary of 
+the mine sitting right by the cardkey, grab the cardkey and head down 
+and forewords (north) until a large blue gate appears.  Use the cardkey 
+and get through.  To your right is a soldier in front of a building, 
+upon getting closer to the structure, two Black Widows will spawn, 
+thankfully, nothing else will spawn however, and you can grab the 
+cardkey inside in peace.  Now head towards the building across the 
+canyon to the west.  Upon getting closer, three Stygians will appear 
+and a gate will go up, kill them and the soldier to the left and begin 
+heading forewords.  If you have the mine detector, it will be going 
+crazy right now, or in other words, there are mines everywhere, so be 
+very careful.  There are no more mines past the gate however, so once 
+you get there, your home free!
+
+==================================
+
+Mission 19 - Chamber of Ghosts
+
+Mission:    Exorcise the Undead Soldier
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule:
+	None
+	Location: N/A
+	How to Destroy: N/A
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 5:18
+
+==================================
+
+This level is mostly, just annoying.  If you've actually played through 
+the game to get here, you'll notice the ghosts tactic is that of 
+Weiss'.  He'll warp around, a lot.  He does not, however, have any 
+attack, so you need not worry about him hurting you, but there are 
+three different kinds of monsters that will be spawning randomly, and 
+killing them could offer you the reward of more ammo, but no potions or 
+ethers here.
+
+	There's not much I can say about this level, since everything in 
+it's random really... one nice thing is that the undead soldier will 
+sometimes slow down or even stop for a moment, and I've found that 
+shooting him will sometimes trigger him to do so.  So my main tactic 
+was to either shoot repeatedly with my handgun until I finally hit him, 
+then unload until he began moving again, or use my machine gun to get 
+him to stop, then quickly change to my handgun and continue from there.  
+Continue doing this until he's dead... easy as that.
+
+==================================
+
+Mission 20 - Deep Tower
+
+Mission:    Take Control of the Tower
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating above the world map between the third and forth levels.
+	Character Viewer; Shinra
+	Location: K-8
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 6:08
+
+==================================
+
+This mission would be more descriptively titled if it where said 
+"Defeat 100 Rocketeers".  But there's variety, so I'm not disappointed 
+at it, just telling you that you're going to have to fight against 100 
+enemies going up and down floors in intervals of 10's and 20's, and not 
+just any enemies, Rocketeers.  This level wouldn't be as hard if it 
+weren't for the terrible shooting of the rocketeers, as you will notice 
+throughout this level, these guys aiming sucks, and because of that, 
+you're gonna have rockets flying every which way, and with a ratio of 
+1:10 in accuracy, most likely one of those will be headed at you, so 
+staying put, and moving around are both dangerous chances you're going 
+to have to take.  Now that I'm done telling you that, here we go!
+
+	 Run outside, a 0/10 will appear, the first number is how many 
+rocketeers you've killed, and the second, how many you need to kill 
+before getting the cardkey to move onto the next part of the level.  
+Upon grabbing the items, 10 rocketeers will appear on the first and 
+second floors, most of them are in your view from where you're standing 
+when they spawn, so just avoid the rockets and take them out one by 
+one, using kill chains to make it easier on yourself.  Run up the next 
+floor, there are 5 rocketeers that spawn if you get close to the red 
+gate (south wall) in front of you, and five that spawn across from 
+there (north wall) by the items.  After completing that, head up 
+another flight.  Now, halfway across the walkway, ten guys will all 
+spawn on the north end of the building, finish them off however way 
+works best for you, grab the cardkey that appears above you and go up 
+another floor.  To your left (south), is an item that will be guarded 
+by a rocketeer when you get to close, and heading back to the north 
+end, seven rocketeers will spawn around the walkways along the east and 
+north walls.  Upon heading along the eastern walkway, four more guys 
+will appear, and when you walk to the Limit Breaker at the end of the 
+catwalk, four guys will spawn on the level below you (and you can shoot 
+at them through the catwalk) and four on the top floor.  Upon finishing 
+them off, head down the stairs on the east end of the building.  Walk 
+across the catwalk and when you are about to make it across, a gate 
+appears, head halfway back, and look down on the floor.  Rocketeers 
+will begin spawning in growing intervals until you've killed twenty of 
+them.  Then you can move on.  If you head along the walkway on the 
+south wall, five rocketeers will spawn, and upon heading north along 
+the west wall, five more guys will appear.  Head down to the last floor 
+after finishing them off.  Now, once you reach the center of the bottom 
+floor, rocketeers will spawn every which way on all different floors, 
+including falling from the ceiling... I tried to count who was where, 
+but it got a little out of control, so just start shooting and spinning 
+around looking for anyone.  The game will automatically save and end 
+the level upon killing the 100th rocketeer.
+
+==================================
+
+Mission 21 - Cait Versus the Crimson
+
+Mission:    Defeat Rosso the Crimson
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Sitting between some construction gates behind the monument.
+	Art Gallery; Deepground
+	Location: G-9
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 999/999
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 2:04
+
+==================================
+
+Weeeee, Cait again.... ugn.  A few things to take note of here... Rosso 
+is fast, Cait Sith is slow, Rosso hurts, Cait Sith.. well.. doesn't 
+hurt, and Rosso can attack long ranged, Cait Sith can't.  However, 
+there is one upside to Cait Sith... and that's you, you can actually 
+think about what you're doing, Rosso however, will just consistently 
+attack in a few second intervals.
+
+	And of course, the moogle locations for your 300hp break:
+
+		G-14	- In an alley way behind where you spawn.
+		J-11	- In front of a door.
+		G-10	- Behind the monument.
+		G-6	- In an alley opposite of the G-14 moogle.
+
+	So with that said, start out by circling around Rosso until she 
+attacks, if you get hit, continue circling around her, if not, attack 
+her and resume running around her.  Repeat until she's dead or you need 
+a moogle, or of course, you die.  Continue doing that until she's dead 
+and you'll be done, easy as that.
+
+==================================
+
+Mission 22 - Shinra Manor Prime
+
+Mission:    Locate the Goal Point
+Defeat:     KO / Time Limit
+Time Limit: 2 Minutes 40 Seconds
+Goal Point: F-2
+
+Difficulty: 3/5
+
+Capsule: Sitting behind a red gate by a magic replenisher.
+	Trailer; Retail Display Trailer
+	Location: H-15
+	How to Destroy: Gun Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 2:40
+
+==================================
+
+This is a very, very... Very self explanatory map, you only have one 
+guy that you must kill, so in essence, this is just a race to the 
+finish map.  You probably don't need all the directions I'm going to 
+give, but, it wouldn't be a complete guide on the Extra Missions 
+without it... so here it is. Oh, and... All you need to do on this 
+level is follow the item pickups found all throughout the level, if 
+there's not an item showing you the way, then there's a gate that's 
+blocking it, simple enough.  You may have some troubles getting through 
+the level quick enough, but just keep trying until you can get it.
+
+	Run through the door and to your right, then straight through the 
+next two doors and now turn left.  Head foreword and through the door 
+down the hall in front of you.  Go left, and then take another left, 
+then head right down the hall and through the next door in front of 
+you.  Then continue circling around the halls until you enter a cave, 
+head straight through the cave until coming upon some barrels, shoot at 
+least one of them (the leftmost being the best choice) and run past 
+where it used to be and take a shallow left turn.  Jump over the red 
+gates (if you get caught on any of them, turn yourself around so your 
+back is facing where you want to go and press backwards and jump 
+repeatedly) and head around the corner and foreword towards more 
+barrels, destroy any you need to get through (I choose the right most 
+ones) and head on foreword through the cavern.  Upon coming to the pit, 
+do a delayed double jump (jump once, then wait a second and jump again) 
+to get onto the platform (if you fall here, restart, as there's no way 
+you'll be able to make it now), then jump onto the other side, turn 
+right and continue on down the winding path.  Upon coming to the cargo 
+boxes, just shoot them down (machine gun being the best way to get 
+through with the least time) and run up the long spiral ramp to the top 
+floor.  Head through the door at the top and turn right at the back of 
+the room and go through the next door and right again and head to the 
+back of that room and go through that door.  Turn left, jump (or run) 
+down to the bottom ignoring the rocketeers, and head through the only 
+open door to your right/in front of you (west).  Turn right through the 
+door and wind through the maze of red gates, jumping over anything that 
+gets in your way and the lowered gate at the end, then turn right 
+through the door along the east wall.  Kill the rocketeer by shooting 
+while either jumping over, or sliding under (with a melee attack) any 
+rockets shot at you.  Then head through the door and to the left 
+through the next door.  Turn left again, then make a right and jump 
+over the lowered gates.  Run through the arrow made of items at the end 
+of the winding hall, and go through the door, run around the machine 
+and into the goal.. tada!
+
+==================================
+
+Mission 23 - Rampart Rumble
+
+Mission:    Locate the Goal Point
+Defeat:     KO / Time Limit
+Time Limit: 15 Minutes
+Goal Point: B-5
+
+Difficulty: 2/5
+
+Capsule: 
+	Art Gallery; Deepground Soldiers
+	Location: M-11
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 1:32
+
+==================================
+
+This level has only two different enemies, a Elite swordsmen, and Elite 
+Soldiers, the soldiers hurt like mad, so make sure you get the first 
+shot or else you'll have a hard time living through that fight, let 
+alone the rest of the level.  This level isn't very difficult however, 
+and here's how to get through it...
+
+	Begin by running through the arch you can see on the left side of 
+your screen when you start out.  There is a soldier on the other side 
+of this arch waiting for you, so be cautious.  Go straight until you 
+can see an explosive barrel, then head over the mound to the left of 
+the barrel and through the arch on the left.  Head straight, past the 
+open field on your left, and make two right turns at the corner.  Then 
+look to your left and kill the soldier standing in the arch.  Then 
+continue heading the way you were before you turned to kill him (to the 
+right/north).  There's an opening between the gate and the wall, go 
+past the gate through this opening and make a right turn around the 
+corner, then a left turn through the arch, and another right around the 
+block.  Head right into the open field, and go straight forewords 
+through the opening in the wall.  Walk into the building, kill the 
+swordsman that spawns, and grab the cardkey.  Now head back across the 
+field and open the gate in the arch to your right.  Kill the soldier on 
+the left side (on the other side of the arch) first, then turn around 
+and kill the swordsman (to the north).  Now you're almost done, run up 
+the mound and over the block, and repeat for the next block in front of 
+you, and run to the doorway of the building, three swordsmen will 
+spawn, kill them and run into the goal... you are now halfway done with 
+the Extra Missions!
+
+==================================
+
+Mission 24 - Contra Kalm
+
+Mission:    Locate the Goal Point
+Defeat:     KO
+Time Limit: None
+Goal Point: F-5
+
+Difficulty: 4/5
+
+Capsule: Floating around in a fountain, destroy the nearest mine to get it.
+	Side Mission; Missilebreaker Deathmatch
+	Location: J-13
+	How to Destroy: Explosive Mine
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 11:02
+
+==================================
+
+I thought this mission was rather challenging, until I learned that you 
+can just beat up the Turk Robots, instead of having to go into a very 
+hard battle with them (in which they will hurt very badly), then I just 
+found this level time consuming... due to the fact that no items or 
+ammo is dropped, there's two ways you can go about this level, either 
+use all your ammo at the start and end up having to beat people to 
+death at the end, or beat people to death at the start, and use your 
+ammo at the end... not much of a choice.  One thing you should know 
+however, is that the last guy in the area you kill drops the cardkey, 
+not the Turk.
+
+	Begin by running foreword towards the gate, kill the three 
+soldiers that spawn, then turn around and head into the alley way 
+between the fence and the starting point (I got three Cait Sith's to 
+spawn out of the red crates, but it only happened once for me, so I'm 
+not sure what really happens or how to get it to occur everytime, 
+because of such, I infact wrote this guide without the Cait Sith's and 
+re-checked it with the Cait Sith's).  A soldier will spawn halfway 
+through, kill him, and kill the soldier that spawns once you make it to 
+the other end of the alley.  Head left and down to the open area, two 
+ninja's and a soldier will spawn to your left, kill them, and continue 
+down the hall.  In the area right before the gate, a soldier and a Turk 
+will spawn, kill the soldier then use the following tactic to kill the 
+Turk, if you didn't know how to do this before hand: (Turk's won't 
+attack until they've been attacked, so run up to it, hit it until it's 
+on the floor, then shoot until it begins to get back up, then melee it 
+back to the floor again and continue doing this until he's dead).  
+Failure to do this tactic will result in you playing an impossible 
+level, so have fun!  Grab the cardkey and run on to the next area.  
+Kill the two soldiers that spawn behind the barrel, then the next two 
+that spawn behind the barrels on the left and the barrel on the right.  
+In the little alcove to the left, two ninja's will spawn, kill them, 
+and in the alcove in the back of the area, three ninja's will appear.  
+	I do not know exactly what triggers the Turk to spawn here 
+though, so just run around touching corners and walls until he does, 
+then kill him, get the cardkey and head on.  Make two lefts around the 
+corners and kill the two soldiers that spawn behind the crates on the 
+other side of the fence, then kill the two soldiers that spawn on top 
+of crates to the left of the last two soldiers.  Run around the gate 
+and kill the two soldiers that spawn behind the crate, two gates in 
+front of you, and the one to the right, beside a box, and another 
+soldier to the right of the last soldier.  Run around the rest of the 
+fences, and head towards the boxes in the middle.  Two Turk's will 
+spawn, kill them one at a time (it gets really hard if you accidentally 
+hit both of them), grab the cardkey and go on to the next sector.  Head 
+down the stairs... then back up the stairs, then head to the back of 
+the area (where the red gate is) then head back towards the stairs and 
+10 ninja's will spawn and attack, finish them off to trigger the spawn 
+of two Turk's, kill them one by one if you can, either way, kill them, 
+and grab the cardkey, head back down the stairs and through the gate.  
+Now head left up the stairs and you'll spawn a Turk, kill him however 
+you can and head down the hallway to the right and make a right turn, 
+another Turk will spawn, kill him in any manner and head down to the 
+dead in in front of you (across from the door) to spawn the third Turk, 
+kill him, grab the cardkey and head through the door to the last 
+sector.  Now six Turk's will spawn around the center complex.  This is 
+where the Cait Sith's can become an annoyance if they get out of hand, 
+because they'll make some.. or even all if you're unlucky, of the 
+Turk's start attacking, which is terrible to have to fight against more 
+than one of them.  Either way, once you bash them to death, or shoot 
+them with whatever you have left (or just left them to the cat's) you 
+can get the last cardkey that lets you head up to the goal point.
+
+==================================
+
+Mission 25 - Missilebreaker Deathmatch
+
+Mission:    Survive the Missile Assault
+Defeat:     KO
+Time Limit: 3 Minutes
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: 
+	None
+	Location: N/A
+	How to Destroy: N/A
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+	Items: Potion x4; Hi-Potion x1
+
+My Best Time: 3:00
+
+==================================
+
+This is just like Missilebreaker Melee, except now you have three 
+planes to keep track of (and no barrel =P ).  The missiles will come in 
+growing intervals, just like in the first one.  Keep your eye on the 
+center plain, as it shoots the fastest missiles (but they're the 
+easiest to dodge), and make sure to keep good track of the right plane, 
+as it's missiles are quick as well.  The plane's missiles on the left 
+however, will take forever before they actually get to you, making them 
+very, very hard to dodge.
+
+	Well, you have a pretty low supply of ammo, so my recommendation 
+would be to use the rifle until you get to about a 1:15 left on the 
+timer, then pull out your hand gun and use it for the rest of the time, 
+but what you use is entirely up to you.  Everyone in a while, you will 
+NEED to dodge a missile, and what I can say with that is, have fun 
+dodging anything from the plan on the left, dodge the ones on the right 
+by either running from the right side to the left, then jumping over 
+the missile, or run from the left side to the right and go under it, 
+and any missiles from the center plane, just run back and forth, as 
+they are moving too fast to be able to follow you quick enough.  Try 
+not to rely on any potions until after one minute... then make sure you 
+use your potions, as you will be bounced around left and right and if 
+you can get through this level without using all of your potions, I'll 
+be very impressed.
+
+==================================
+
+Mission 26 - Cait Versus the Cerulean
+
+Mission:    Defeat Azul the Cerulean
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Sitting between two light posts
+	Art Gallery; Bosses
+	Location: H-5
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 999/999
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 1:11
+
+==================================
+
+Yet another Cait Sith level, yay... this one is a lot like Cait Versus 
+the Crimson, except now you must fight Azul, but the tactic is pretty 
+much the same... Azul is about as slow as you are now though =\ and he 
+only has two attacks.
+
+	And of course, the moogles that heal 300hp:
+		G-10	-Opposite of where you start, behind the pillar
+		K-9	-Off to the side by some lamps
+		D-7	-Off to the side, opposite of K-9 moogle
+
+	All you really need to do is run around Azul, making sure to keep 
+close to him so he has less of a chance to fire his weapon (which I 
+cannot find a way to dodge) and more of a chance to do his slow kick.  
+Once he kicks, make sure your out of his way and attack him (also make 
+sure you're beginning your attack as he's putting his foot down, doing 
+the attack after that will result in him making his next attack on you 
+before you can get away), then resume running around him and repeat 
+until he dies.
+
+==================================
+
+Mission 27 - Vincent the Beast
+
+Mission:    Survive the Onslaught
+Defeat:     KO
+Time Limit: 5:00
+Goal Point: N/A
+
+Difficulty: 1/5
+
+Capsule: In an elevator in front of you when you start, a soldier will drop one 
+         about 3 minutes in.
+	Art Gallery; Attack on Midgar
+	Location: H-5
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 5:00
+
+==================================
+
+There is nothing... I repeat, Nothing, hard about this level, you could 
+just sit around and press right whenever your limit wears down and pick 
+up any Limit Breaker's Cait drops, due to the fact that you are 
+invincible when you are transforming and when you are in your limit 
+break... well, here's a guide for this anyways.
+
+	Cait will drop Limit Breaker's periodically, pick them up and 
+transform whenever you can.  You won't have to worry about not having 
+enough Limit Breaker's as Cait will drop them about every 2/3 of the 
+length of a Limit Break, which means you'll have a plentiful amount of 
+them at the end.  Just run around and do you're melee attack over and 
+over again at anything that comes, pick up any Limit Breaks that come, 
+and immediately use them once your previous one runs out and you'll win 
+this level no matter what.
+
+==================================
+
+Mission 28 - Cyclopean Causeway
+
+Mission:    Locate the Goal Point
+Defeat:     KO / Time Limit
+Time Limit: 4 Minutes
+Goal Point: G-14
+
+Difficulty: 3/5
+
+Capsule: (I can't find this one, email me if you know where it is)
+	Character Viewer; Bosses
+	Location: 
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 1:39
+
+==================================
+
+I thought this level was rather creative, and I like that.  It might 
+not be the hardest of levels, but I found it rather fun.
+
+	Run up to the popping noises your hearing on the right.  Behind a 
+crate is a line of four Red Saucers, killing them will end the 
+obnoxious popping... or you can have fun and try to hop over them =P.  
+Once you get to the end, go right around the door and down the stairs.  
+Upon grabbing the X-Potion in the back of the hallway, gates will come 
+up and you must fight off three dark blobs before the blue gate will 
+come down.  Now for some dodging.  Come up to the now available hall 
+and wait for a black blob to come forward and disperse before it gets 
+into the room, immediately run down a shot ways through the hall, to 
+the little hole on the left.  Wait for the blob to pass again, then run 
+forewords to the barrel and explode it at such a time that you kill a 
+blob.  Now go stand right were the barrel was and look down the hall, 
+wait for endlessly coming blob to disperse, then run into the small 
+hiding area to the right a short ways down the hall from your current 
+position.  Now wait for the blob to pass by again and run down the hall 
+to past the red gate and up against the wall.  Look down the hall at 
+the barrel, shoot it and wait for the blob to come at you and disperse, 
+then run to where the barrel was.  Now wait for the blob to pass by 
+again and head to down the hall into the alcove to the left, wait again 
+for the dark mass to pass and head into the next alcove on the left, 
+and wait one more time for the black blob to pass by, then run down the 
+hall and up the stairs.  One thing left, and this is rather easy, just 
+run foreword and jump over the Bull Head's as they near you, do this 2-
+3 times and you'll be at the goal.  Yay!
+
+==================================
+
+Mission 29 - Trick Arc
+
+Mission:    Collect the EX Medals
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: Sitting on a bridge.
+	Sound Gallery; Bosses
+	Location: L-7
+	How to Destroy: Materia Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 6:38
+
+==================================
+
+This level's hard to stay alive on, there's endlessly spawning robots 
+that will shoot, and shoot, and shoot at you.  So only take the time to 
+kill the closer, more threatening ones.  Due to the randomness of the 
+level, I will only give possibilities of someone being somewhere, if 
+that.
+
+	Begin by running outside and making an immediate turn to the 
+left, run up the broken beam and jump off the edge and fall into the 
+blue gate, grabbing the cardkey and EX Medal.  Use the cardkey to bring 
+the gate down then head off going forewords (south) off the ledge and 
+down by a barrel and another ledge with a medal on it, jump onto the 
+barrel then onto the ledge, grab the medal and turn around.  Jump off 
+and make your way onto the ledge in front of you (east) and into the 
+man made tunnel.  Head through the tunnel making two rights then a left 
+(there's a good chance 1-3 people will be waiting in the room here) 
+head through to the other side of the room and make two more rights 
+then a left (watch out for a could-be soldier to your right) and 
+another left.  When you come out, there will most likely be a soldier 
+on the ledge in front of you, head up to the top of that ledge and then 
+up the ramp onto the bridge (most likely 1-3 soldiers up here to your 
+left).  Head down the ramp to your right and grab the EX Medal on top 
+of the barrel, then jump off making sure you land in the between the 
+triangle of red gates, grab the medal, jump onto the barrel, and jump 
+out.  Head up the ledge behind you, and run up the beam to the right.  
+At the very top by the end of the beam, jump off to the left and grab 
+the medal, jump onto the barrel and get back onto the beam.  Now jump 
+over to the Limit Breaker and Materia Recharger, then turn around and 
+jump down to the ledge with the medal on it.  Jump off of the ledge and 
+run over to the bottom of the large beam in front of you and walk up 
+past the items to the very end of the beam, then jump off to the right 
+and grab the medal.  Now jump off, run back up the beam stopping at the 
+items on the right, jump off grabbing the items and landing on the 
+other side of the fence.  Head north towards the structure and grab the 
+medal that is most likely being guarded by a soldier.  Head into the 
+man made tunnel to your right and head up and right, then left into a 
+room that probably has between 1 and 3 soldiers in it.  Head to the 
+other end and head right, then right at the first hall, killing the 
+soldier at the top, then head left and at the split, kill the soldier 
+to the right, but head up to the left.  Once you reach the top, kill 
+the soldier that is most likely there and turn all the way around to 
+your left and kill any soldier that are standing by the structure in 
+front of you, then run over in that direction.  Run down along the 
+ledge to the right and then turn left at the split in the path, head 
+all the way up and into the building (which is being guarded by a pink 
+soldier) and grab the EX Medal.  Head back out and down to the split in 
+the path and head straight down to the next medal down by the red gate 
+and your finished!
+
+And to help, I'll give re-explain where the medals are and how to get 
+them in a list:
+        1: D-8          Run to the top of the beam above this medal and 
+                        drop down into the triad of gates.
+
+        2: D-10 	Jump on top of the barrel beside the ledge and 
+                        then jump onto the ledge.
+
+        3: I-7          After running to the top of the structure, head 
+                        down a ramp in the bridge and jump on top of a 
+                        barrel by the edge.
+
+        4: H-7          Jump down from the bridge (after collecting #3) 
+                        and land in between the three gates, use the 
+                        barrel to get out.
+
+        5: G-10         Fall of the top of the broken beam by the 
+                        bridge on the SE side, use the barrel/crate 
+                        to get back up.
+
+        6: G-9          Jump, to the east, off the ledge that has the 
+                        Limit Breaker and Mataria Recharger on it 
+                        (west of #5).
+
+        7: E-9          Jump of to the west at the top of the third 
+                        beam onto a small ledge.
+
+        8: D-4          Run up (about halfway) the third beam until you 
+                        get to some floating items off to the west (your 
+                        right) then jump off grabbing the items on your 
+                        way down so you fall on the other side of 
+                        the fences, then run northward (to the right) 
+                        and the medals sitting under the small tower.
+
+        9: N-3          After running up through the tunnels to the 
+                        right (east) of #8, head east along the path, 
+                        then north up to a building behind a rock.
+
+        10: K-7         From the building housing medal #9 head south 
+                        then west down the path, to the medal sitting 
+                        by a gate.
+
+==================================
+
+Mission 30 - 100,000 Needles
+
+Mission:    Defeat 100 Cactuars
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating inside a building.
+	Character Viewer; Deepground
+	Location: L-7
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 30
+	Handgun Bullets: 80
+	Machine Gun Bullets: 150
+
+My Best Time: 
+
+==================================
+
+Probably the hardest part of this level is the mines... at least at 
+first, but then the cactuars start getting pretty hard later on, and 
+the mines are all gone anyways.  Two things that you probably already 
+know, watch out for the mines (turn off all your music so you can hear 
+the beeping) and watch out for the cactuars 100,000 needles attack, 
+even though it's not that bad, once you have 10 cactuars all doing it 
+at the same time, it starts getting a little scary.  Oh, and there's a 
+cactuar that floats across the level, and upon killing him gives you a 
+cardkey that allows you to access the building to your right when you 
+first spawn (at about L-7) where you can get the capsule and grab some 
+nice helpful items.
+
+	Start out by grabbing the item in front of you, it's a mine 
+detector and will help you a lot in the rest of this level.  Two 
+cactuars will spawn on the other side of this item and three will spawn 
+down below you right as you start out, so be ready.  And to kill the 
+floating cactaur that will miss you just barely if you just stand right 
+where you spawn, just follow it with your gun as it comes towards you, 
+and start shooting like mad and you'll probably get it as it gets 
+closer.  If you miss, don't worry, he'll comes back around and do it 
+again in a few seconds.  For the rest of the level, more and more 
+cactuars spawn depending on your kills, so just run around destroying 
+mines in your down time, and kill anything that spawns.  Once you get 
+around 70+, the numbers of cactuars will begin increasing dramatically, 
+and it's probably a good time to use something like a Limit Breaker or 
+Machine Gun.  Once you hit 100 kills, you can move on.
+
+(P.S. I actually have no clue where the capsule really is, as I was 
+just stuck in the building with the items once, and a cactuar did 
+100,000 needles on me and I suddenly saw the saving pic up in the 
+corner, so I'm not sure exactly where it is, I'm just guessing it's in 
+the back middle of the building)
+
+==================================
+
+Mission 31 - Cait Versus the Bull
+
+Mission:    Defeat Arch Azul
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating on Azul's Tail
+	Art Gallery; Miscellaneous
+	Location: On Azul's Tail
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 999/999
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 1:05
+
+==================================
+
+Azul's slow enough that you can dodge his attacks fairly easily, the 
+only problem is getting out of the way before his next attack, so only 
+attack Azul if he's still/just finishing off his attack, and only 
+attack him on the side, or he'll be able to pull a faster attack on you 
+if you're attacking him from the front.
+
+Here's Azul's attacks and how you should avoid them: (actual damage 
+amounts can vary greatly depending on where you are when you are 
+attacked)
+
+	Tail Whip: 
+		Azul will whip his body and tail around in a 180
+		Deals a little less than 700 damage
+		Jump over his tail as is swings around.
+
+	Claw:
+		Azul will lift up his paw and bring it down and outwards in 
+                a sweeping motion.
+		Deals a little less than 300 damage.
+		Run to the opposite side of the foot he is using and it'll 
+                miss you.
+
+	Head Butt:
+		Azul will run towards you then dip his head in and scoop 
+                his horns up
+		Deals close to 400 damage.
+		Try to run to his nearest side when he dips his head, as if 
+                you try to run away when he's doing so, you'll get smashed 
+                no matter how fast you are.
+
+	Electric Charge:
+		Azul will charge up a ball of electricity between his 
+                horns, then let out 4 individual balls into the air, 
+                they will then begin to home you.
+		Deals about 150 damage per electrical ball.
+		Run to Azul's side and begin attacking him, if you're close 
+                enough to him, the electrical balls won't hit you.
+
+	And of course, the locations of the moogles:
+                I-5     - By the door in the alley.
+                F-4     - By the front of a door to a house.
+                E-5     - On the opposite side of the pillar from where you 
+                          start.
+                D-7     - By an open door in an alley.
+
+	Begin by running up to his foot and doing a quick attack, then 
+dodge each attack that he does in the manner listed above, and attack 
+periodically, whenever you feel safe.  Due to the fact you have no time 
+limit you can take your time and make sure you stay alive, instead of 
+making sure you do as much damage as fast as possible.
+
+One last thing, getting the capsule.  I found this rather easy, just 
+get Azul to do his tail whip attack by standing close to one of his 
+sides, then run back as he begins the attack and do your own attack 
+once your fairly far away from Azul, the tip of the tail will whip 
+around and hit your attack, causing you to break the capsule.
+
+==================================
+
+Mission 32 - Deepground Soldiers
+
+Mission:    Defeat all the Enemies
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: On top of a crate at the beginning of the level.
+	Art Gallery; Mako Reactor
+	Location: K-6
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 3:08
+
+==================================
+
+This mission is a lot like Deep Tower, except you have to fight 
+different guys, and it's a lot easier.  A few pointers: explosive 
+barrels are nice, not very much ammo is not nice... try saving your 
+handgun ammo until the end.  I'm going to go through this like I did 
+with the Deep Labyrinth, so here goes.
+
+Sector 1: Deepground Soldier x20
+	Once you stand on the Materia Replenisher 5 soldiers will spawn 
+in front of you, and a few seconds after that, 5 more will spawn behind 
+you.  Upon killing these ten, ten soldiers will spawn along the 
+spiraling ramp in the middle of the area.  Once you've finished all 20, 
+the blue gates go down and you can move on.
+
+Sector 2: Deepground Hound x30
+	Beginning with five hounds, hounds will be spawning periodically 
+one by one after that until you get to 40, then they will spawn in a 
+large group of 10, so just use your resources and finish them all off.
+
+Sector 3: Deepground Sergeant x30
+	Once you stand on the materia replenisher, 5 Sergeants will spawn 
+in front of you, following that, 10 more will spawn in a line (which if 
+you get onto one of the ends of the line and just take them out one by 
+one, it's really easy), then 15 will spawn in a circle around you, this 
+is a great time to use your materia shots and take them out quickly 
+when they all clump together.
+
+==================================
+
+Mission 33 - Shieldbreaker
+
+Mission:    Defeat 100 Enemies
+Defeat:     KO / Time Limit
+Time Limit: 5 Minutes
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating by a lamp post; jump onto a barrel, then onto the crate 
+         nearby to reach it.
+	Art Gallery; Final Chaotic
+	Location: G-12
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 5:00
+
+==================================
+
+This was a fairly challenging level, I must say, but, it wasn't that 
+hard, just the time limit was what made it the hardest.  First things 
+first, kill the Bull Head's by either doing a melee attack (I'd 
+recommend trying to only melee them to death when your kill chain is 
+above 2, so you can kill them in one round, or by running in circles 
+and shooting their backs.  The only real problem here is the soldiers 
+that will spawn up and ruin your day by shooting you and taking off 
+your kill chain, which will make it very hard to get back up again.  If 
+you need to get your kill chain up quickly sometime in the middle of 
+the level, pull out your machine gun and unload on a group of Bull 
+Heads to aggravate them and have them come running towards you, then go 
+run to the other side of a barrel and blow it up when they get close, 
+and bam, your kill chain will go up nice and quick, then you can resume 
+doing melee attacks to finish them off.
+
+	Head out into the field and kill the 3 Bull Heads with the barrel 
+beside them.  Then 3 Bull Heads and 2 Soldiers will spawn a few times 
+in a row by some barrels, kill them by shooting the nearest barrel, 
+then finishing off anyone else left alive.  Now Bull Heads will begin 
+spawning periodically, so just take 'em out as quick as you can, and 
+make sure to keep a look out for any soldiers that may spawn, because 
+like I said above, they'll ruin your day.  Also remember, kill chains 
+will be the only way you're gonna finish this level, so do your best to 
+keep them up high.
+
+==================================
+
+Mission 34 - Spiral
+
+Mission:    Complete 5 Laps
+Defeat:     KO / Time Limit
+Time Limit: 5 Minutes Per Lap
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: In an alcove to the back left in the last room.
+	Sound Gallery; Vincent
+	Location: D-5
+	How to Destroy: Materia Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 13:03
+
+==================================
+
+I thought this level was rather fun, Square really did a good job on 
+making these abstract levels that you wouldn't expect to find in a 
+popular shooter, and I like that.  This level wasn't overly hard, but 
+it was terrible how you would spend 12 minutes running around the level 
+then die at the very end, I did that 3 times before actually making it 
+through.  This level was nice and challenging, kept you on your toes, 
+and you didn't have to worry too much about your ammo, but enough to be 
+constantly looking at it to make sure you weren't getting too low.  
+Anyways... this level is just running around the complex 5 times, each 
+time more amounts and more powerful enemies will appear as you make 
+your way through.  To make this easy on myself, I'm going to go by 
+room, and for each room, tell you about each level... if you're 
+confused, read on and you'll see what I mean.
+
+	Head to the right and up through the blue gate, down the hall and 
+into...
+
+Room 1 - Level...
+
+	1: Deepground Soldier x1; Handgun Bullets x90
+                Just kill the soldier, easy as that.
+	2: Deepground Soldier x3; Handgun Bullets x75
+                The two on the left nicely lined up for you, take them out 
+                then move to the one on the right, kill him and head on.
+	3: Deepground Soldier x3; Deepground Sergeant x1; Handgun Bullets x60
+                They're lined nicely in pairs of two's, take a few shots at 
+                them until they're dead and you should easily get past this 
+                room without getting hurt.
+	4: Deepground Soldier x1; Deepground Sergeant x4; Handgun Bullets x45
+                Again, like level 3, they're lined in pairs, they just take 
+                a bit longer to kill, resulting in a better chance to get 
+                shot.
+	5: Deepground Soldier x2; Deepground Sergeant x 4; Handgun Bullets x15
+                These guys make two nice 3 person lines to fire down.  
+                Grant them their obvious wish (which wish is to kill 
+                them), and maybe moving back and forth a little to dodge 
+                anything thrown back at you, you shouldn't have any trouble 
+                here though.
+
+	Leave the room and head into the next room around the corner.
+
+Room 2 - Level...
+
+	1: Floating Mine x1; Rifle Bullets x30
+                If you run along the wall, then turn once you get to the 
+                other side and leave out the other side, you don't really 
+                need to worry about the ammo unless you want to though... 
+                I never used the rifle.
+	2: Floating Mine x3; Rifle Bullets x25
+                Also another easy room, just run to the east wall (to your
+                left when you come in) and run along being careful not to 
+                hit anything on your way across.
+	3: Floating Mine x4; Rifle Bullets x20
+                This ones just about as easy as the last one, run to the 
+                east wall again, and make your way across to the other 
+                side while avoiding the mines... they are moving a bit 
+                faster then last time though...
+	4: Floating Mine x6; Rifle Bullets x15
+                This is where the mines become a bit more challenging.  
+                Run to the first gap and wait for the mine to pass and 
+                head east, follow it and run in between the two pillars, 
+                then wait for it to pass heading the opposite way and 
+                run to the other side of the pillar, where you can now 
+                easily make your way from gap to gap to the end of the 
+                room (be patient on the last line of mines, as one of 
+                them moves faster, so you may have to wait for the timing
+                to become right).
+	5: Floating Mine x8; Rifle Bullets x5
+                Now it gets more fun here.  Head to the first gap, then 
+                head across to the second gap.  Now you can go either 
+                left our right when you do this, either way, wait for 
+                the second mine to head away from you, then run as fast 
+                as possible into the gap between the pillars, then when
+                the second mine is out of sight (which will be immediately
+                once you get in between the pillars) head onto the other 
+                side of the pillar to the east wall (door in this case), 
+                then you're pretty much home free to do what you've
+                practiced and get across to the opposite hall while
+                avoiding mines.  The last two mines are fairly challenging
+                however, and I haven’t been able to get past them without
+                getting blown up by one of them, so do your best and run
+                at just the right time and you might make it, if not,
+                you should be blown into a corner that the other mine can't
+                reach, and you'll be able to continue on in peace...es.
+
+	Head down the hall past the...
+Level 1 - Machine Gun Bullets x150
+Level 2 - Machine Gun Bullets x125
+Level 3 - Machine Gun Bullets x100
+Level 4 - Machine Gun Bullets x75
+Level 5 - Machine Gun Bullets x25
+
+	Then continue down the hall into what I'm going to call a room... 
+even though it's a hall.
+
+Room 3 - Level...
+
+	1: Deepground Soldier x1; X-Potion x1
+                Just kill the soldier like you did in room 1, nice and 
+                easy... head on.
+	2: Deepground Soldier x1; Mega-Potion x1
+                Repeat the process that you did in level 1... yay...
+	3: Deepground Soldier x2; Hi-Potion x1
+                Do exactly what you did in level 2 & 1, except twice... 
+                there nicely lined up for you, so no worries.
+	4: Deepground Soldier x2; Vital Rations x1
+                Repeat level 3's instructions... there's a lot of 
+                backtracking for this rooms guide.
+	5: Deepground Rocketeer x3; Potoin x1
+                Run back and forth in and out of the door way making 
+                sure not to get hit by any rockets and taking quick shots 
+                on the nicely lined men until they're all dead.
+
+	Follow the hall, past all the windows until you come to a door on 
+your right hand side, go into...
+
+Room 4 - Level... (the numbers may vary for each of the four separate 
+rooms in this area)
+
+	1: Gargoyle x1
+                You have to go through four of these rooms, so it's 
+                really four gargoyles, but that's alright, for now, 
+                it's easy just kill the gargoyle floating around, or if 
+                you don't want to waste the ammo, you can just run on to 
+                the next room just as easy.  Just make sure you jump a lot 
+                when your heading down the windowed hall on the other side.
+	2: Gargoyle x2 
+                For the most part, just kill the gargoyle's that get in 
+                your way, and don't worry about any that are somewhere 
+                else in the room... unless of course, you want to kill them.
+                Continue jumping when you're running down the hall though, 
+                and do it for all the other level's so I don't have to repeat 
+                this.
+	3: Gargoyle x2; Turk Robot x1
+                Whatever you do, don't shoot the Turk, leave him alone, he 
+                leaves you alone.  Forgetting about the Turk's, all you need 
+                to is repeat what you did in level 2, just with extra caution 
+                to avoid the Turk's.
+	4: Gargoyle x3; Turk Robot x1 (only two gargoyles in the other 
+three rooms)
+                Again, don't hurt the Turk, or else the Turk hurts you.  Now 
+                you have 3 gargoyles to deal with, so just take out any that 
+                get in your way again, which will probably be two, and for the 
+                first room, take the long way around so you can avoid the Turk, 
+                and in the third room, make sure you're careful not to hit the 
+                Turk when you're about to go into the fourth room.
+	5: Gargoyle x3; Turk Robot x2 (one less gargoyle in the other 
+three rooms, hard to tell though)
+                Now it becomes a hassle to avoid the Turk's, but it's well worth
+                your time.  For the first two rooms, you're going to have to 
+                take the long way to get around and avoid the Turk's, but do so 
+                anyways.  You'll probably leave the most gargoyles alive then 
+                you ever have so far this time around, but don't worry, as long 
+                as you jump around a lot when you're running away.
+
+	Head down the hall jumping up as much as you can to avoid any 
+more gargoyle attacks, once you make it into a room with boxes, you can 
+stop jumping.  Head through the door and down the hall into...
+
+Room 5 - Level...
+
+	1: Deepground Soldier x3; Elixir x1; Red Potion x1
+                Nice and easy, once will spawn in front of you, another to 
+                your right, and another to your left, just take them out, 
+                grab anything you want, and head on.
+	2: Deepground Soldier x3; Limit Breaker x1; Red Potion x1
+                Again, only three guys, kill them the same way you did the
+                first time.
+	3: Deepground Soldier x3; Ether x1; Red Potion x1
+                Only three soldiers again, kill them like you did in levels
+                1 & 2.
+	4: Deepground Soldier x3; Spirit Rations x1; Red Potion x1
+                Once again, only three... you know what to do.
+	5: Deepground Soldier x3; Potoin x1; Potoin x1
+                For the last time, only three soldiers...
+
+	Once out of there, head down the hall and into a room with boxes 
+to find a little item area to your left with...
+Level 1 - Potoin x1
+Level 2 - Potoin x1
+Level 3 - Potoin x1
+Level 4 - Cait Sith in a Supply Box
+Level 5 - Nothing
+
+	On the opposite side of the room is...
+
+Room 6 - Level...
+
+	1: Floating Mine x1; Fire Materia
+                Nice and easy, use the alcoves on the sides to avoid the 
+                mine as it passes down the hall and get to the other side 
+                and...
+	2: Floating Mine x3
+                There are two easily seeable mines when you first walk in, 
+                and one in the back left alcove, so make sure you remember 
+                that.  It doesn't get too hard yet though, just use the 
+                alcoves and wait for the mines to pass, then run to the 
+                next alcove until you make it to the other side.
+	3: Floating Mine x4
+                Now only the alcoves on the right are safe, to walk along, 
+                so only use the left ones to stand in the gap, but don't 
+                go into the halls that they lead to.  Run back and forth 
+                avoiding the mines in the center and get to the end of 
+                the hallway.
+	4: Floating Mine x4
+                Now instead of the first mine being on the left side, it's 
+                switched to the right side, so keep that in mind and repeat 
+                the steps for level 3 to get to the end.
+	5: Floating Mine x6; Deepground Rocketeer x1
+                Last room, now there's two mines in the middle, and four in 
+                the side alcoves.  As you walk in, make the rocketeer your 
+                top priority, avoiding the mine that may come at you when 
+                doing so by just standing in the doorway and moving out of 
+                the way if it gets too close.  Once the rocketeer's gone, 
+                just run back and forth dodging the mines in the center, and 
+                only using the gaps and you won't have to worry about the 
+                other four mines.  Just keep going back and forth until you 
+                get to the gate and WIN!
+
+	Head out and past the elevator to head onto the next level (if 
+you didn't win here, go back up to the top and repeat the process 
+corresponding the number with what level your on).
+
+==================================
+
+Mission 35 - One-Handed
+
+Mission:    Defeat 100 enemies
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating up by a pipe in the room you spawn in.
+	Art Gallery; Vincent
+	Location: F-11
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 13:06
+
+==================================
+
+This mission is really just another kill 100 enemies with only melee... 
+except you can shoot and use magic... but for almost everything, you're 
+meleeing.  The explosive barrels can be nice, but they are also the 
+worst thing around, because of the explosions gigantic radius, you 
+might want to make sure your clear of the area when you shoot a barrel.  
+Also, the Elite Soldiers guns do almost nothing in comparison to the 
+normal gun that would be shot at you, so you really don't have much to 
+worry about.
+
+	In the beginning, one guy will spawn... then two guys... then 
+three guys, etc.  The spawning will go by areas, so if things die down, 
+then head onto sector 'C' and more enemies will begin spawning again.  
+Resume your normal butt kicking until they’re no one spawning any more, 
+then head onto sector 'A' and you'll finish things off there and in 
+between A and B.  At the end, you don't have to fret too much, when 
+you're standing by the stairs and lots of guys spawn and start shooting 
+you, you can just stand there and watch how slowly your health will go 
+down... so don't worry.  Also, there's Limit Breakers all over the map, 
+so if you need health, just use one.  Lastly, ammo will spawn randomly 
+every where, which I don't really get since shooting will do nothing 
+for you, but just in case...
+
+==================================
+
+Mission 36 - Black Widow Tetra
+
+Mission:    Eradicate the Black Widow Squad
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: (I do not know where this is, if you do, please email me)
+	Character Viewer; Vincent
+	Location: I-5 (thnx lifelessdummy)
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 0:17
+
+==================================
+
+I thought this map was rather easy, but that's because I ended up 
+getting the last shot in right as I would have died, but ended up 
+winning instead.  Really just shoot, shoot, shoot, shoot and you should 
+make it out alive.  I think it would have been better if they had maybe 
+given you some potions and made you have to kill all four individually, 
+instead of just killing one.
+
+	When you start out, just choose one of the Black Widow's and 
+start shooting.  To avoid the beams, run back and forth, going north to 
+south doing periodic double jumps (if you want to, but you'll still 
+avoid the beams if you don't) over and over again, you shouldn't get 
+hit once... it might be close though.  They die pretty fast, so just 
+shoot and shoot and they'll be dead before you know it.
+
+==================================
+
+Mission 37 - Gatling Shower
+
+Mission:    Collect 100 EX Medals
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating around a tower, shooting the barrel on top will cause 
+         it to fall northward, so you must time it precisely.
+	Side Mission; Go With the Flow
+	Location: I-14
+	How to Destroy: Explosion
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 14:08
+
+==================================
+
+This level seemed impossible when I first began playing, I couldn't get 
+past 30 EX Medals without running out of ammo and having to bash people 
+to death... which takes a loooong time by the way.  But then I hit one 
+of the red crates for the millionth time and Vuala! out popped a 
+Gatling Gun!  I was wondering why they had named the level so and not 
+had any Gatling Gun... any ways, upon destroying one of the red crates 
+(I'm not sure what method of destruction you might have to use, I 
+always just bashed them) a Gatling Gun will spawn, making the level in 
+fact possible, and more so, easy.  
+
+If you get the capsule, unlock the 38th mission and beat it, a gatling
+gun will spawn in the red crates.  They will not spawn until you have
+done so.
+Thank you stuffmatters247@hotmail.com for this!
+
+There's between a 25-50% chance of 
+having the guy you kill drop an EX Medal, and I'll tell you my strategy 
+in the next paragraph, for now, just know that you start out having to 
+fight the flying Soldiers (some that only stay on the ground, and some 
+that literally fly) then around 25+ medals, gargoyles begin spawning, 
+and there are some gargoyles that will stay on the ground, and some 
+that like to fly even higher then the soldiers, so once gargoyles begin 
+spawning, make sure to check way above often.
+
+Here's my guessed chance of what someone will drop:
+	50%	Nothing
+	40%	Mini EX Medal	Worth 1 point.
+	5%	Gigas EX Medal	Worth 3 points.
+	4%	Hi-Potion
+	1%	Ether
+
+	Well, start out by going around and bashing all the red crates 
+(restart if none of them have a Gatling Gun) until a Gatling Gun 
+spawns, hop in it and take out anyone that comes.  You're pretty much 
+invincible in a Gatling gun as you have increased defense (so much that 
+you can't get hurt) and a super powerful weapon that will kill anyone 
+in your way with 9999 damage.  And you can take your time because (from 
+what I've seen anyway) the EX Medals don't disappear, so only take a 
+few times to get off and grab the medals, then hope right back on and 
+start shooting again.  Upon collecting 100 medals, level 39 opens.
+
+Lastly, I decided to put all the red crates whereabouts, just to be 
+helpful:
+	H-9	On top of the board leading across two trains.
+	H-12	Sitting between some trains, a tower and some crates.
+	L-9	On top of a cart.
+	F-10	On top of some large crates.
+	G-6	Behind some barrels and a train.
+
+==================================
+
+Mission 38 - Go With the Flow
+
+Mission:    Destroy All the Targets
+Defeat:     KO / Time Limit
+Time Limit: 5 Minutes
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: 
+	None
+	Location: N/A
+	How to Destroy: N/A
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 1:55
+
+==================================
+
+I thought this mission was very easy, you get more than enough ammo, 
+WAY more time than you need, and everyone dies in one or two shots and 
+the creatures respawn back up at the top if you miss them...
+
+	All you really need to do is go stand in front of the water fall 
+and look downstream, at first, Red Saucers will come, upon killing ten 
+of them Sahagin's will begin appearing.  The Sahagin’s are just as easy 
+as the Red Saucers, except they're bigger... which I would imagine 
+would make it even easier.  Once ten Sahagin's die, Cactuars come.  
+These guys are the fastest, and smallest of the bunch, but are still 
+very easy to kill, so don't worry, sit back and take out ten of these 
+guys to make a final total of 30 kills... and you're done!  That's IT! 
+I'm not kidding too...
+
+==================================
+
+Mission 39 - Brotherly Love
+
+Mission:    Defeat Nero and Weiss
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 2/5
+
+Capsule: Floating on the edge of a broken down machine.
+	Sound Gallery; Tsviets
+	Location: G-3
+	How to Destroy: Materia Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 0:32
+
+==================================
+
+Sigh, if you though Red and Blue was easy, then you'll find this one 
+just as easy.  Sadly, they both have very little health, so you don't 
+even have to worry about your own life...
+
+	Just start firing away at anyone that comes close, jumping around 
+a lot will help you dodge Weiss, and Nero just doesn't really attack 
+much, and when he does, its not all that painful... if you need any 
+additional help, email me I guess.
+
+==================================
+
+Mission 40 - Unlimited DG
+
+Mission:    Defeat All the Enemies
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating by a catwalk by a gate.
+	Art Gallery; Tsviets
+	Location: L-13
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 2:30
+
+==================================
+
+This mission is very easy if you keep on your toes, but if you let the 
+soldiers turn super, you'll have to work hard to finish them off.  
+There's a random chance (except for the ten soldiers at the end) that 
+when you've killed a soldier, they'll turn super and move really fast 
+and have really high defense, but they take a second to change, so if 
+you shoot at them while they're transforming, they'll be dead before 
+they can move, if you don't, then you have to fight against a really 
+fast, high defense person ^_^.
+
+	Start by running down the walkway, weaving your way around the 
+pillars, taking out any soldier that spawns, and freaking out and 
+shooting repeatedly anyone that glows orange.  After that, walk along 
+the broken pathway for three more guys to do the same to.  Then head 
+through the now open path and towards the blue gate, two guys spawn, 
+kill them, then head up the stairs and kill all the soldiers on the 
+next two platforms.  Then jump off at the top (here's where you can get 
+the capsule) and head onwards along the walkway.  Kill all that spawn 
+and extra kill all that try to go super.  Head up the stairs and kill 
+everyone that spawns as you make your way back across the walkway (also 
+a last guy on the left through the blue gate).  Walk through the newly 
+opened gate and head over to the stairs, wait for all ten soldiers to 
+spawn, then shoot the barrel in the middle, then start shooting at all 
+ten of the guys who will begin turning super.  Upon finishing this, 
+you'll have won the level!
+
+==================================
+
+Mission 41 - Drumline
+
+Mission:    Defeat the Dual Horn
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: In the building in the pit.
+	Character Viewer; Tsviets
+	Location: J-2
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 2:55
+
+==================================
+
+This mission is rather easy, except that the Dual Horn will hit you 
+repeatedly if you get stuck anywhere, and it's pretty much bye bye to 
+you if that happens.
+
+	Alright, the Dual Horn can't get hurt by your attacks, so instead 
+you've got to lure it to an explosive barrel by running past the 
+barrel, turning around at a safe distance, aim at the barrel and wait 
+for the Dual Horn to get close, then BLAM! 900 damage!  Keep doing 
+this... and try not to fall down the ledge, as it's hard and very 
+painful to get back up... at least if you take the ladder.  So there's 
+not much else to say about this level, you can see the barrels 
+everywhere, and because of such, I'd recommend not using any of the 
+barrels near corners, as you don't want to get yourself stuck.  Then 
+just keep it up until he's dead.
+
+==================================
+
+Mission 42 - Two Handed
+
+Mission:    Defeat 100 Enemies
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 5/5
+
+Capsule: Sitting behind the bull that's behind the jukebox, use Cait to 
+         get an Ether or Elixir for a Materia Shot.
+	Sound Gallery; Omega
+	Location: K-6
+	How to Destroy: Materia Shot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 39:29
+
+==================================
+
+This level is looooooooong and has two purposes to it, to make you hate 
+Dual Horns, and make you LOVE Cait Sith's (probably so you aren't so 
+angry with the fact that the next level involves killing Weiss with 
+Cait Sith).  You have to kill 100 Dual Horn's (one of them being Arch 
+Azul if you free Shelke).  Each Dual Horn will also drop a Gigas EX 
+Medal which you can use to go "buy" yourself something... I'll list all 
+the jukeboxes and what they give you in a moment.  This level will also 
+get easier as you go on, as you get more stuff and can kill the Dual 
+Horn's a lot faster... but it still takes a long while.  What really 
+sucks is if you get pretty far in and then die, so just... don't die.
+
+The Jukeboxes:
+        Location        Cost            What you get
+        ------------------------------------
+        B-10            2 Coins	        A Cait Sith that will spawn 
+                                        you items every once in a while.
+
+        G-10            2 Coins	        Raises your maximum health (max 
+                                        of 3000).
+
+        D-6             3 Coins	        The Ultima Weapon Handle.
+
+        G-5             3 Coins	        A Cait Sith that will attack the 
+                                        Dual Horns for 500 damage per 
+                                        attack.
+
+        K-10            4 Coins	        A Cait Sith that will attack 
+                                        the Dual Horns for anywhere between 
+                                        100 and 1200 damage.
+
+        N-8             7 Coins	        Spawns Shelke, take her to Shalua
+                                        to get a manasoul. 
+                                        (Thanks stuffmatters@homtail.com)
+
+        K-6             8 Coins	        Give you the power of Chaos 
+                                        (you'll move faster) for the rest 
+                                        of the level.
+
+        I-8             10 Coins	Calls in an air strike, a plane 
+                                        will come in and shoot missiles 
+                                        all over the map causing 9999 
+                                        damage to anything it hits (I 
+                                        never tried it on myself), best 
+                                        to use this when you have a lot 
+                                        of Dual Horns after you and not 
+                                        just a few.
+
+Also, Cait Sith will drop:
+	Machine Gun Ammo x240
+	Handgun Ammo x144
+	Rifle Ammo x
+	Potion x1
+	Hi-Potion x1
+	Ether x1
+	Elixir x1
+
+	Well, when you start, Shalua, if talked to, will give you a 
+cardkey and three Gigas EX Medals to start you off, use them to get the 
+Cait Sith in the jukebox right by you so you can begin having a supply 
+of ammo to fight the Dual Horn's with.  I wouldn't ever recommend 
+getting the Ultima Weapon at D-6, it's just not worth it.  I would go 
+through a long explanation of how many guys come, and when, etc. but it 
+would be a waste of everyone’s time, so I'm just gonna shorten things 
+into what you should know.  Of course, as you go on, more and more Dual 
+Horn's will enter the arena, but don't be frightened at first when you 
+walk about 1/4 of the way down the level and all the Dual Horn's 
+suddenly come up and loom over the edge, they'll only come a few at a 
+time for a while.  Once you get to about 30 kills go and grab Shelke 
+and spawn Azul, then run to the air strike jukebox at I-8 (hope you 
+saved up for it) and use it to take a lot of them out.  When there's a 
+big group you can either do the air strike, run around waiting for the 
+Cait Sith's to kill all the Dual Horn's while you make circles and take 
+shots at them, or use a Limit Breaker and run in and melee, melee, fall 
+down, melee (make sure you press jump right as you're hitting the 
+ground when you fall down so you get right back up).  Do this for 30-40 
+minutes and you'll have this level made.
+
+==================================
+
+Mission 43 - Cait Versus the Empowered
+
+Mission:    Defeat Weiss the Immaculate
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: By a machine in the wall.
+	Art Gallery; Omega
+	Location: K-8
+	How to Destroy: Melee Attack
+
+Starting...
+	Health: 999/999
+	Magic: 0
+	Rifle Bullets: 0
+	Handgun Bullets: 0
+	Machine Gun Bullets: 0
+
+My Best Time: 2:27
+
+==================================
+
+Yet another Cait Sith level, good thing, this is the last one.  You 
+must now kill Weiss with the Cait Sith you came to love from the last 
+level... ugn.  Some things about Weiss: he's much faster than any of 
+the other bosses you've had to defeat using Cait Sith; he doesn't hurt 
+as bad as the other bosses; he'll take nice long breaks sometimes, at 
+which you can sit and beat up on him.
+
+I'm going to list his attacks:
+
+	Normal Attack:
+		Weiss will run up to you and make a quick slash at you.
+		About 100 damage.
+		This is probably the second hardest attack to dodge, just 
+                jump away from him, and if you get the right timing, he'll 
+                miss.
+
+	Gun Shot:
+		Weiss will point his sword at you and let a few shots 
+                loose.
+		(Don't know, I couldn't get Weiss to hit me with this)
+		I can't even get Weiss to hit me with this attack, just 
+                stay out of his direct line of vision and you'll miss it 
+                by a long shot.
+
+	Speed Attack:
+		Weiss will fly across the level in different directions a 
+                few times.
+		About 50-100 damage.
+		This one can really only be dodged by luck.
+
+	Circle Speed Attack:
+		Weiss will fly around the arena in a closing circle.
+		About 50-100 damage.
+		Start by standing in the inside when you notice he's doing 
+                this, then run to the outer edge and wait for him to finish.
+
+	Dual Image:
+		Weiss will create two 'clones' of himself, the 'clones' and 
+                Weiss will then come at you.
+		About 200-300 damage.
+		The hardest attack to dodge, I've only done it once, and 
+                that was lucky.  Just try your best to jump away from the 
+                attack, if you have problems dodging this, you're not alone.
+
+And the 300hp healing moogles:
+	I-9		In the little Alcove in the wall.
+	I-8		By an opening.
+	J-8		Behind the blue pillar.
+	K-7		By an opening (opposite of the I-8 moogle).
+
+	Sigh*, what else can I say, run out into the field, Weiss will 
+spawn, use the dodging tactics shown above to get out of the way, make 
+good use of your moogles, don't be afraid to get hit, because it's very 
+hard to attack him and not get attacked back and wait for his stall 
+periods as often as you can to keep yourself alive and to get nice 
+free, full combo shots on him.  This level really isn't that hard once 
+you get the hang of Weiss' attacks.
+
+==================================
+
+Mission 44 - Deepground
+
+Mission:    Defeat the Tsviets
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 3/5
+
+Capsule: Floating by the pillar in the center (look up and to the right 
+of the pillar right after you spawn).
+	Character Viewer; Omega
+	Location: J-8
+	How to Destroy: Gunshot
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 120
+	Handgun Bullets: 360
+	Machine Gun Bullets: 500
+
+My Best Time: 1:40
+
+==================================
+
+No items, no extra things, just whatever you start with and 4 bosses to 
+fight against... but like all the re-inaction of the boss fights, they 
+all have a low amount of health, making them significantly easier.
+
+	Run into the arena and start shooting like you did for all the 
+other boss battles.  Jump away from Weiss' attacks and take quick shots 
+on him like you did with Cait Sith, just charge at Rosso and Azul until 
+they're dead, and run in circles while shooting at Nero to finish him 
+off (I actually killed them by getting Rosso out of my hair first, then 
+Nero, then Azul and ending with Weiss) but just kill anyone who suits 
+your fancy (Weiss would probably be best to kill first if you're having 
+troubles staying alive).  Yay, only two more levels to go!
+
+==================================
+
+Mission 45 - Stronghold Impervious
+
+Mission:    Defeat All the Enemies
+Defeat:     KO
+Time Limit: None
+Goal Point: N/A
+
+Difficulty: 5/5
+
+Capsule: Floating in front of the central pillar, look up and shoot it 
+with the gatlin gun you get in the second area.
+	Side Mission; An Invitation to Illusion
+	Location: H-8
+	How to Destroy: Explosion
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 22:49
+
+==================================
+
+Ahh, the last 'real' level, the level after this is just a side mission 
+maze, so I consider this the real last level.  And of course, all last 
+level's should be hard!  Thankfully, Square Enix didn't fail in that 
+aspect.  Though, I think I'd actually rate this level with a 4, I'll 
+give it a 5 just because...  Alright, this level is basically just 
+making your way throughout the entire structure fighting enemies on 
+your way through. Here we go!
+
+Sector 1:
+	You begin with having to fight off 3 Black Widow's, this is 
+fairly easy though if you just learn to use the pillars as blockades 
+for the missiles, you should receive minimal damage.  Once you're 
+finished with that, head not towards any of the blue gates but instead 
+head to a ramp across from the blue gate, it leads up to a structure, 
+watch out for the many mines that litter the way up to the building, if 
+I counted correctly, there are 12 mines in total. 4 up the ramp, 2 at 
+the top of the ramp, 2 around the corner to the left, 3 in front of the 
+building and 1 inside.  Inside the building is a red box that contains 
+a Cait Sith (who believe makes the level much too easy but the levels 
+practically impossible without him), and a Limit Breaker and Materia 
+Recharger are behind the crate.  Make you're way back out and head back 
+towards where you spawned (so not the gate that's directly in front of 
+you when you're coming down the ramp) and head through the gate at the 
+base of that ramp (it's on the western side of the sector) and head 
+into the extra sector.
+
+Extra Sector:
+	In here, there are 9 really strong guys (Elite Soldiers) that 
+hurt like crazy if they even take one shot at you with their machine 
+guns.  There are three of them at the base of the fortress, one guy 
+that walks along the edge if you look up after killing the first three, 
+and two more by the top or along the ramp leading up to the building.  
+Then two more will come at you sometime during your trek up to the 
+building, and the final one will come out of the building as you near 
+the front door.  Inside are some goodies that have things like a 
+Phoenix Down and Ether, etc.  Now head back down and through the blue 
+gate on the other side of sector 1.
+
+Sector 2:
+	Now I thought this was pretty hard... at least before I knew 
+about Cait Sith... anyways, jump onto the Gatling Gun once you're all 
+stocked up and ready to go and look one level below you, across the 
+hole.  Two Gatling Guns will appear on either side of the pillar, and 
+starting with the right gun (and going back and forth, left to right), 
+one by one a soldier will run up to the gun and get in and start 
+shooting at you, you're job is to kill all twenty (10 on each side) 
+before getting there, but it's really easy because they only come one 
+at a time, the only problem is if you get behind.  After killing all 
+twenty, don't get out, instead sit and guard the right side, as a new 
+gun will spawn up over there, now you have to cover three guns and take 
+out the rocketeers that spawn on the level above them.  Once again, the 
+soldiers will spawn from right, to left, then spawn on the right again, 
+except now a little faster to compensate for the new turret.  And 
+whenever you can, take quick shots at the rocketeers on the upper 
+level.  After finishing all 40 off, you can head on.
+
+Sector 3:
+	Now to re-enact the extra cactuar level, one of the crates holds 
+the cardkey, but which one?  Just shoot the box and keep shooting until 
+whatever in it is dead or you find out it is the cardkey inside.  
+You'll either see a Black Widow or some kind of rank of soldier 
+(including one on a Gatling Gun) inside the boxes, just to keep you 
+prepared.  Once you get lucky enough to get the cardkey, go to the next 
+sector.
+
+Sector 4:
+	Go jump off the water fall to the left and get up onto the 
+construct.  Now watch the waterfall, a total of 10 soldiers will fall 
+from the top, just shot anyone that comes down, then head into the 
+underground floor.  Here you will now need to get your kills up to 20.  
+And you have to do it by killing rocketeers!  Ten rocketeers will spawn 
+at different times, just kill them as they come in, it only gets bad if 
+one of them hits you, because then they all get to take a shot on you 
+xD.
+
+Sector 5:
+	Now it's time to do some sniping... or to be sniped.  There are 
+12 snipers waiting somewhere along the 4 different levels of the 
+construct, so just run around (or sneak around) until you get shot at 
+or see someone (there's also 1 guy on the first floor to the right of 
+where you came in by the gate around the corner), and if you get stuck 
+at ten guys, try aiming you reticule at the glass walkways on the 
+fourth floor and you'll find there are two guys on either side shooting 
+at you through the walkway.  Once you've finished them off, you're not 
+done yet, now you must face off with all the main bosses... and then 
+some.  First it's Rosso.  Jump around and back peddle a lot while 
+taking shots and you shouldn't have a problem (ugn, they need to give 
+these bosses more health).
+
+Sector 6:
+	Nero wants a fight with you now, if you just pull out a handgun 
+or something you can finish him off before he can even attack (what I 
+did), if you can't, then just charge him, since he's a long range 
+character and shoot and shoot and shoot 'till he's dead... I don't know 
+what else to say.
+
+Sector 7:
+	Now it's Azul's turn to take a shot at you.  Because he's so big 
+and painful, you're just gonna want to back peddle and shoot, you 
+shouldn't have any problem avoiding anything however, due to how slow 
+he is.  Once you've taken him out, it's time for Weiss.
+
+Sector 8:
+	As I said before, Weiss's turn, and you get to fight him in the 
+confines of the tiny little hall... yay!  With Weiss' quick and spacey 
+attacks, the fact you're in a hall makes him very hard to dodge, so 
+expect to get mowed over a few times, but for the most part, just keep 
+out of his way and shoot, using all your knowledge about Weiss and his 
+attacks to take him out.  Only one guy left to go.
+
+Sector 9:
+	Of course, Chaos, should've known.  I had no problems whatsoever 
+on this battle due to the fact that Chaos decided to attack Cait Sith 
+the entire time and let me just sit there and shoot him.  Because of 
+that, I have to earthly idea what he might be like to go up against.  
+I'd imagine you'd want to stay as far away from this fast moving 
+character as possible, and make sure to be ready for any shot that 
+might come out of his deadly gun.. all in all however, his health is 
+low enough you should be able to finish him off quickly enough so you 
+won't have to worry about getting beaten around too much.
+
+YAY! Now you’re only got level 46 to go and you've finished 'em all!
+
+==================================
+
+Mission 46 - An Invitation to Illusion
+
+Mission:    Collect the EX Medals
+Defeat:     KO / Time Limit
+Time Limit: 2 Minutes
+Goal Point: N/A
+
+Difficulty: 4/5
+
+Capsule: 
+	None
+	Location: N/A
+	How to Destroy: N/A
+
+Starting...
+	Health: 780/780
+	Magic: 0
+	Rifle Bullets: 60
+	Handgun Bullets: 180
+	Machine Gun Bullets: 300
+
+My Best Time: 1:19
+
+==================================
+
+LAST LEVEL! Please try to do this one on your own, as it's fun, and the 
+only thing this guide will do is ruin that fun.  If you've decided to 
+skip that warning, then here I go.  This level is about getting through 
+a maze of 'invisible walls' or gates to be more specific.  I'm going to 
+put the locations of all the medals for your convenience:
+
+	H-4	Under the stairs.
+	G-5	In a box of gates by the starting.
+	G-4	At the top center of the main stairway.
+	F-6	Behind some crates in the room to the west of the starting.
+	F-6	In some gates that has two cardkeys, jump on the crates on 
+the outside to get in.
+	G-5	Under the main stairs, you have to use the cardkey from F-6 
+to get in from the southern side.
+	F-4	On top of some crates.
+	G-4	In between two gates (one of which you can jump over to get 
+in) in the main hall.
+	H-6	Behind some crates in a floating cargo box.
+	H-5	Behind some crates in a floating explosive barrel.
+
+So with that said, I'm now going to have to come up with an easy way to 
+tell you how to get through the maze... hmmm... let me try ASCII art 
+(beware, I'm not that great)... this is a map of the rooms without the 
+pass through able gates:
+
+start! = starting point
+w = blue gate
+o = EX Medal
+j = Jump over the gate here
+
+Room 1:
+         _____________
+        |            o|
+        |w|   | |  /--/ <- Stairs to balcony
+        | |__o| | /--/
+        | | |  _| --/_
+        | |  _| _     | 
+to      | |_  |__  |  |         
+room 2<-  |o__|  __|___-> to room 3              
+              | |            
+              |start!
+
+Room 2:
+             ________
+            /        \
+            |        |______________
+            /o____j|__________j o |_
+           | ________|  
+           |_______  |
+            \______  |
+            | _______|
+            | |___
+            |_____-> to room 1
+
+Room 3 and the balcony I'm not going to draw out because there are no 
+passable walls there.
+
+Hopefully this gave you some help one how these rooms work, if not, I'm 
+now going to go through a step by step procedure on how to get all the 
+medals.
+
+	Run out from the starting hall and make an immediate turn right, 
+head along the fences until you can't go foreword any more, turn left 
+and head towards the stairs, but turn right once you get up to them, 
+then make another turn right and head down into the sideways doorway 
+and get the medal in the cargo behind the crates.  Go out and turn left 
+into the hallway.  Follow the hallway into a room on the left, shoot 
+the barrel behind the crates and grab that medal.  Now head back into 
+the first room.  Head right up to the stairs, then left, then turn 
+right so you're standing at the base of the stairs, but go a little 
+past the base and make a turn right and grab the medal under the 
+stairs.  Turn around and instead of taking a left towards the stairs, 
+go right (north) through the gate, then make a left turn around the 
+gate and go through the gate directly in front of you, take a left and 
+grab the medal, then head back to the last gate you walked through and 
+turn right and head down until you hit a gate, turn right then left, 
+then make another right through the gate, go forewords and left through 
+the gates in front of you, then forewords and right through those two 
+gates and grab the medal.  Turn around and head back to the base of the 
+stairs, this time go up them, grab the medal at the top and jump off on 
+the other side to the southern (left) side of the gate below you, or 
+else you'll have to run all the way around again.  Now run into the 
+room directly in front of you (the one with the sideways doorway) and 
+grab the medal behind the crates, then jump on top of the crates and 
+into the fence box.  Use the cardkey to get out and head out of the 
+room and down the hallway to the left.  Once you're in the last room 
+(room 2 on the map), head right all the way to the wall, then walk 
+through the next to gates in front of you, then turn left and make your 
+way to the dinning table, go around it (through the two gates) and head 
+all the way back to the other side of the room, jump on the stack of 
+crates and grab the item to get over the fence.  To you're left is a 
+medal on top of some crates, and if you turn to the right around the 
+fence, you head into a hallway of 3 passable gates and one gate you 
+must jump over to grab the final medal.  YAY! You're done with all the 
+Extra Missions! Congratulations!
+
+==================================
+Version History			VeH
+==================================
+
+0.1	9/01/06	Guide up to Mission
+                  # 24.
+
+0.2	9/02/06	Added Table of Contents
+                  Added Introduction
+                  Added About this FAQ
+                  Added Version History
+                  Added Credits/Contact
+
+0.3	9/03/06	Guide up to Mission
+                  # 37.
+
+0.4	9/04/06	Guide up to Mission
+                  # 45.
+
+0.5	9/05/06	Finished Mission
+                  # 46.
+
+0.6	9/06/06	Finished Mission
+                  # 45.
+
+1.0	9/06/06	Added final revisions
+                  to get to post.
+                  Did a spell check.
+                  Finished all unfinished
+                  missions.
+                  Checked over missions
+                  for mistakes.
+
+1.1	9/06/06	Erased tabs, to make it universal.
+                Correct some mistakes.
+
+1.2	9/09/06 Fixed more of the tab mistakes.
+                Added capsule info on level 7.
+                Added how to get the galting gun in level 37
+                Added what Shelke does in level 42.
+                Made alot of the format more 'visually pleasing',
+                I found that it help readability alot.
+                  
+
+==================================
+Credits/Contact			Crd
+==================================
+
+	Everything was written solely by me, Mark.  I went through every 
+level and located each capsule, used the games resources to get the 
+mission briefings and starting ammo/health.  I gave all of my best 
+times to give you something to beat or help you in any other way, I 
+went through each level at least three times, and some up to seven 
+times, to get all the information as accurate as possible and to give 
+my understanding of the level's difficulty, and I went through each 
+level and gave a my own description/notes and guide on how to get 
+through the level.  Everything is in my own words except some of the 
+mission briefings given, from which, credit to whom I may have gotten 
+the information will be given.
+
+Thanks to:
+	Square Enix       -For the game and most of the mission 
+                           briefings.
+	sephirosuy        -For help on some of the levels that I got 
+                           stuck on.
+	4tonMANTIS        -For being cool
+	lifelessdummy     -For helping me to find a large percentage of 
+                           the capsules (I'm lazy sometimes).
+
+        stuffmatters247@hotmail.com; nmj7towa@hotmail.com; adhvt@hotmail.com
+        for many answers to questions and contributions to the guide.
+
+	All my friends, even though they probably don't know even I'm 
+                           making this guide... heh*
+	And any sites this FAQ is posted on.
+
+I will not post contact for anyone in the Thanks to section because I 
+don't feel like emailing them and asking them if it's alright... they 
+can be found, however, somewhere in GameFAQs (more easily found in the 
+Dirge of Cerberus section) if you really need to contact them.
+
+If you find anything wrong with this guide, find something missing, 
+want to give me some tips on how to make it better/readable, need 
+clarification on anything, or have any questions concerning anything 
+about in the Extra Features, you can contact me at Utilael@aol.com 
+(also given at the top).
+
+What you should email me:
+	Problems or things wrong with the FAQ, anything that may need 
+correcting, fixing or clarification.  Anything that I might have 
+forgoten to complete or left out.
+
+What you shouldn't email me:
+	Dumb questions or questions that have nothing to do with the 
+Extra Missions.  Questions that will not help me with this FAQ (e.g. 
+'Where is the capsule on level 21?' instead say, 'I believe the capsule 
+location on level 21 is incorrect' and if you know where it actually 
+is, tell me).
+
+~And thanks to you for reading this!
+
+==================================
+
+Copyright (c) 2006 Utilael.
+All Rights Reserved.

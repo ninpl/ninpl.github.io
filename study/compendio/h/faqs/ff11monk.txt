@@ -1,0 +1,1043 @@
+Monk FAQ .991
+
+by Akumu X
+for Final Fantasy XI
+on Seraph server
+character name Kirei (75Mithra MNK)
+E-mail - AkumuX@hotmail.com
+Live Journal: http://www.livejournal.com/users/goushoryuuken/
+
+
+To start - thanks for being interested in my FAQ. Please report any
+grammar/spelling errors, or just errors in general.
+
+===================
+=====Contents======
+===================
+
+I.Intro to Monk
+II. Ver. History
+III. Job Abilities
+IV. Job Traits
+V. Stat Equipment Importance
+   Vb. Artifact Armor
+   Vc. Artifact II Armor/Relic Knuckles
+   Vd. Dynamis Explination
+   Ve. The Black Belt
+   Vf. Shura Set (Dryadic Abjuration Set)
+   Vg. God Armor	
+VI.Job Combinations
+VII. Playing as a Monk
+VIII. Listed Equipment
+IX. FAQ (Maat FAQ in this section)
+X. Credits & Thanks
+XI. Summary
+
+
+====================================================================
+I. Welcome to Monk.
+
+It is pretty much fact, that by most NA players Monk is one of the
+more overlooked jobs. It's not "advanced", we get no damn "circles"
+abilities or "killer" traits. We just do damage. It is a pretty
+simple class to play, however still possible to screw up. Wielding
+a set of knuckles, a monk attacks twice per round. These two
+attacks are actually considered as one by the game. Boosting before
+battle gets your first series of attacks a boost in damage. NOT just
+the first punch. (I've done extensive research on this.) Well, that
+said. Let's see what this "simple" job has going for it.
+
+====================================================================
+
+II. This is version 
+.1 More revisions will be forthcoming as they are deamed necessary.
+.2 Added a question and answer to the FAQ chapter.
+.3 Fixed a spelling error, added the to be more updated, Equipment
+section.
+.4 Added an AF How to guide, under Equipment.
+.5 It seems I left out a whole damned section "Playing as a Monk"
+>.> That's now corrected.
+.6 Added a FAQ, Added Artifact II Armor Stats and Location
+.7 cleared up a few typos
+.8 Added in Tourney Patas (40)
+.9 With the new Oct-Dec 2004 Update I added the equips that I thought
+should take over the "old" equips position. (What's better for you.)
+Also, added in Black Belt quest how to, since I literally had to 
+figure out how to do it myself. (Yea, I got my Black Belt ^_^) Also
+added Monk/Samurai/Ninja cursed gear. Shura set. Also added God
+Armor.
+.99 Small word changes.
+====================================================================
+
+III. Job Abilities
+  
+Hundred Fists - Level 1 - 2:00:00 timer - 1:00 Duration
+
+If you've seen this, you know the beauty of it. Hundred Fists is
+awesome, there's no way around it. Assuming you can actually hit
+the target, it not being IT+++, this will take a significant chunk
+out of a target's HP. However, it will draw hate onto you, so the 
+healer had better be prepared to shell out some cures. Use this for
+a chain 5, or if your group maybe pulls a link into camp.
+
+Boost - Level 5 - :15 timer - 3:00 Duration
+
+Many monks don't know if boost is worth it or not. Yes, it can seem
+repetitious to keep boosting while the puller is out getting a new
+mob. I can only tell you that it is indeed worth it. It is even more
+worth it when you get Chi Blast, which is highly effected my how
+many times you've boosted, and yet even more worth it when you get 
+you AF gloves (Temple Gloves) which increase the power of boost yet
+further. Please boost before new fights, I would not recommend boosting
+during fights, as it slows do your attacks, unless you, for some reason
+are tanking. Boost draws small aggro, and a Monk tanking can use
+that to an advantage.
+
+Dodge - Level 15 - 5:00 timer - 2:00 Duration
+
+Dodge is what is says. Once every 5 minutes, for 2 minutes you get a
+slight evasion increase. The increase strenghtens with AF boots
+(Temple Gaiters), this is primarily a hate generating tool for when 
+you're tanking. There really is no reason to use it otherwise. The
+evasion bonus isn't too noticeable, and especially not to IT monsters.
+
+Focus - Level 25 - 5:00 timer - 2:00 Duration
+
+Focus is a beautiful thing. It noticeably increases you accuracy for
+two minutes. Use this as soon as it's up.
+
+Chakra - Level 35 - 5:00 timer - Instant (on self)
+
+Chakra is simply a healing ability. Your VIT multiplied by 2
+(or 3 with AF body gear Temple Cyclas). Very good for farming, also
+very good when fighting mobs with nasty AOEs.
+
+Chi Blast - Level 41 - 3:00 timer - Instant (to monster)
+
+Chi Blast, early on, is simply a means for the Monk to tack on more
+damage as the mob is coming in to the camp. Chi Blast power is 
+affected by how many times you've boosted in conjunction with your
+MND stat. Late game, for HNM fights Monks are called on to use 
+Boost and Chi Blast (along with as much MND gear as they can get their
+hands on) to Chi Blast the HNM. Doing 700-1100 damage is NOT
+uncommon. Use this ability whenever it's up, and properly boosted.
+It's more damage done by you, the damage dealer.
+
+Counterstance - Level 45 - 5:00 timer - 5:00 Duration
+
+Counterstane drops you def down to 30-60, while greatly increasing 
+your chance to counter. It's typically not worth it to use 
+Counterstance unless you have a large amount of +counter gear
+or the AF2 boots (Melee Gaiters) and even then. It's still more
+of a personal preferance to use. You either like this ability, or
+you don't. I don't use it that much, maybe when farming if I can 
+remember, but I'd rather not play around with Counterstancing
+on VT/ITs. That's just me.
+======================================================================
+
+IV. Job Traits
+
+Martials Arts Level 1, 31, 46, 61, 75.
+Unlike any other job save Ninja, Monk get their own built in Haste.
+Monk's Hand to Hand fighting has a default delay of 480. The chart
+below shows how your base delay drops, as your levels rise.
+ 
+HTH Delay = 480 
+HTH Delay with Martial Arts I [Monk Lv1] 400 
+HTH Delay with Martial Arts II [Monk Lv16] 380 
+HTH Delay with Martial Arts III [Monk Lv31] 360 
+HTH Delay with Martial Arts IV [Monk Lv46] 340 
+HTH Delay with Martial Arts V [Monk Lv61] 320 
+HTH Delay with Martial Arts VI [Monk Lv75] 300 
+
+As you can see, Monks get quite speedy come 61+ - 75. Tack on your
+weapon delay (usally +86, +96, +112) and you have a not so bad
+damage over time situation. ^_^
+
+Counter - 10 - You will occasionally counter a mobs attack, directed
+at you. (Will never hear anyone complain about this)
+
+Max HP Boost - 15, 35, 55, 70. Ahh, what monks are known for before
+the fights even begin. Is that an Elvaan WAR? No, it's a Taru MNK.
+Monk get sick HP, which is very nice, considering we need an offset
+to our pretty damn low defense. You Galka monks better get used to
+being 150-400 HP above the next highest HP character in your party.
+
+Kick Attacks - 51, 71. 
+Kicks are completely random, but do generate TP and are an extra 
+attack in the Monk's favor. They typically do roughly 1/2 of the
+damage of a punch. Fun to watch, more damage on the mob, who can
+complain?
+======================================================================
+
+V. Stat Equipment Importance
+
+Being a damager dealer, the main purpose of the job is to (of course)
+deal damage. However, Monk are the most straight-forward damage 
+dealers in the game. No spells to debuff, no break WSs to use for
+the benefit of the party, no acid/sleep etc arrows/bolts. Just 
+straight out damage. That being said, Monk is pretty easy to go shopping
+for. My list of importance for all Monks save Elvaan, and maybe Galka
+goes STR>ACC>ATK>DEX. Elvaan would be ACC>STR>ATK>DEX, due to their 
+high STR. Build your gear accordingly. Haste items are more often than
+not, a luxury. If you can afford them, and can still hit hard and often
+with them, more power to you.
+
+======================================================================
+
+VI. Job Combinations
+
+First off, I'm just gonna list possible VIABLE combinations. Crap like
+MNK/DRG is RIGHT OUT. (Don't give me that haste earring crap, it's 
+RIGHT OUT!)
+
+MNK/WAR - This subjob leads the Monk in it's highest dmg output w/o relying
+on skillchains. Double Attack, Berserk, Warcry, Atk Bonus, Defense Bonus.
+These things can not be disputed. However, there are situations when
+you'll be forced to sub THF.
+
+MNK/THF - Not worth it before 67. Gaining Steal, Gilfinder, and Sneak 
+Attack. While discarding Double Attack, Berserk, Atk Bonus and Def Bonus
+is not a choice you should willingly want to make. However after 67
+in bones parties if there isn't a Dark Knight closing the Light 
+skillchain. You WILL be asked to close it, and if you value your life
+and the sanity of your Paladin and White Mage, you WILL sub THF (with
+it being at least level 30, for Trick Attack) You don't sub THF in a bones
+party, you die or AT LEAST have unnecessary cures burned on you while 
+the Paladin tried frantically to get hate back, not to mention doing less
+damage because both hits of your Dragon Kick aren't guarenteed to connect
+like with /THF. (Also use /THF for farming. Treasure Hunter at 15, and
+Flee (which is really fun) at 25. Why not just take the bugger to 30
+for the Trick Attack? Right?)
+
+MNK/SAM - I'm not a fan of it. Monks are already typically waiting for 
+every other job besides RNG and SAM (maybe a non tanking WAR/NIN) to
+get TP. Thus being at being at 175TP (due to your Store TP traits)
+when the DRK, DRG, PLD and what have you get 100, isn't worth it. That 
+extra TP means just about bugger. Try it sometime. Do a 100TP Howling
+Fist. The a 175TP Howling Fist, the difference makes you wonder. ...and
+Meditate then soloing your WS. >.> Why bother? Especially since this 
+game is built on leveling off of things like crabs and beetles. As 
+mentioned in the MNK/THF part. Come 67, if you're in a bones party, 
+that MNK/SAM just don't play. Cuz now you're hitting too damn HARD.
+Thus screwing up the hate system for the PLD, draining the healers MP, 
+trying to heal our gross HP. Causing unnecessary agg on the WHM for
+having to spam Cure IVs. It just doesn't fly...on bones MNK are Dragon
+Kick closers or using Raging Fists to make Fusion for the DRK/THF.
+And a DRK/THF no way, no how can keep up with a MNK/SAM in TP.
+
+
+MNK/Mage - No. Only time a MNK/mage works is for HNM battles. The hard
+ones. And that's MNK/WHM (MAYBE MNK/SMN) for the MND bonus. From, if 
+you were paying attention, Chi Blast being directly related to MND
+(and Boost). MNK/WHM with +MND gear = SICK Chi Blast dmg. Especially 
+if the MNK is Elvaan, and to a lesser degree Galka.
+========================================================================
+VII. Playing as a Monk
+
+Hit Control+A or type in /assist (name of tank here, minus parenthesis)
+Congrats. You can now play as a Monk! 
+
+Honestly folks, this is the easiest job in the game to play. There is
+no debuffing, tanking, jumping, repeated skillchaining, or anything 
+else the melee do except damage. The reason why Monks are so great at 
+damage is because that's ALL they do. A good DRK will toss out some
+Absorb spells or Aspir on the inevitable crab you're fighting. Dragoons,
+well they're next simple, but they at least jump. We Berserk (if WAR
+sub) and Focus. Dodge is an utter waste, Chakra only when hit by AOE,
+Boost in battle is a no no unless you're trying to hold hate, and Chi
+Blast is horrible unless Boosted up. That is the simplicity of the 
+Monk. However, some thing that simple job = unfun or even "bad" job.
+Simply not the case. All through my levels I never got tired of Monk.
+Never "stopped for a break", LOVED pounding the hell outta things, and
+did so in a sound, and better manner than many a Monk I've partied with.
+The extras definately help. Boost before every fight while the puller is
+out getting the mob. Once you get Chi Blast, boost then Chi Blast as the 
+mob is coming in. However, please don't boost too high (post 54) lest 
+you screw up the PLD getting hate. It is possible to do 300-500 damage
+Chi Blast to the mob as it's coming in. A Paladin provoking after that,
+means nothing. The Paladin would have to flash as well, as they should,
+and even then you're on thin ice till full hate is established.
+
+So, some extra steps to playing your job to it's pinnacle.
+-Boost before all fights, but NOT during them.
+-Boost Chi Blast mob as incoming, though don't get crazy.
+-WAR subbers, if with a NIN tank and see NIN having trouble casting
+Utsusemi, voke, take a few hits to let the NIN cast.
+-If hit with a blind, or poison (paralysis after 58) attack/AOE try
+telling the WHM not to worry about you. You have Chakra to clear that
+out of your system. (Then use Chakra, thus saving them some MP)
+-EAT YOUR MEATS, sadly I dont see this early on, Monk LIVE off STR.
+EAT THEM MEATS!
+-Keep your gear UP TO DATE. Sadly, yes this means take time out to
+go and farm/fish/raise a craft. Please guys, just do it. You're so
+much better of a Monk with better equips.
+
+I'm sure I'll think of some more. That's it for now. Any suggestions?
+Holler at me.
+
+========================================================================
+VIII. Listed Equipment
+
+This is the list such as it is. Will update from time to time with any
+new items that S-E adds. Also, please keep in mind, expensive things
+like Cross-counters, Scorpion Harness and Peacock Charm, aren't expected.
+They're just added into the list for completeness sake. This layout is
+very similar to Effen's layout. (He has a FAQ on Allakazham, it's similar
+because I agree on ALL of his choices. He seems very wise in the way of
+the Monk. ^_^;)
+
+Disclaimer of sorts: There are indeed many items in here that are not
+mentioned. The Shura set, God Armor, HIGH gold smithing items, RSE1/2,
+Diving Might earring, Triumph Earring, +1 lvl 72 Rings etc.
+These are not mentioned for basically the following reasons. 1. They
+all costs millions/are crafted from very very high level synthesis, or 
+are God armor or Rare/Ex. I don't add these because I don't want to
+insult the intelligence of my FAQ readers, you all know that you'd want
+Byakko's Haidate for the 5% Haste, you don't need me to tell you which
+god peices you'd want, I'm sure you're already drooling over them.
+Likewise for the Shura set, especially for the Shura set because many
+of it's peices are strictly judgement calls on how you'd like your Monk
+to be. As far as Triumph Earrings, they cost millions, 2STR is never
+worth millions. Alky Bracellets push it, they're barely worth the money
+because you're adding 2STR for (on Seraph) 1.6mil. Once again though,
+this is my judgement call, in these regards I ask you to make yours. 
+
+Hand To Hand: 
+Cesti(1), Ryl Ftm Cesti(10), Republic Knuckles (15), Impact Knuckles(32),
+Mythril Knuckles(38), Tourney Patas(40), Pata +1(48), Tactician Magician's
+Hooks(50) Cross-Counters (50), Bone Pata+1(56), Spartan Cesti(58),
+Feral Fangs (66) > Avengers (68) Indra Katars (73) or Narasimha/Vishnu
+Cesti (67)
+
+Notes: First off, your AF1. As SOON as Oggbi hands them to you, DROP
+THEM. They are complete crap, and you shouldn't even entertain the notion
+of using them in an XP pt. (Yea you can still do AF quests if you don't 
+have your Beat Cesti) This is how I figure Monk knuckles. On the skill
+chain chart, 85% of the time, Monks are skillchain closers, typically
+closing Fusion. With high dmg knuckles you, of course, get higher 
+damage closing Fusion. Which leads to higher damage Fusion, which leads
+to the mob dying faster, which leads to quicker XP. Monks attack fast
+enough that they don't need a 0 delay weapon. Please purchase what's 
+on the list. I can assure you, it is what's best for your Monk, and for 
+your XP pt.
+
+Newly added: Updated to show Indras and Nara Cesti, also Avengers as nice
+as there are to look at are placed IMO on the same pedistal as Ferals.
+The thing Ferals has over Avengers is, of course, the one damage, but
+also more importantly. Ferals can be bought. Avengers are rare/ex drop
+off of the Bomb Queen in Ifrit's, and she is a stingy one. Indras are
+a semi-rare drop off of Steam Cleaner, a pot that is a sky trigger.
+If you have sky, and your LS is going to be doing Gods, they'll need to
+kill Steam Cleaner if they want his drop.(Gem Of the East) used to spawn
+a god. Now as far as the Cesti go, I really can't recommend them, until
+your delay drops to 300 base. That is to say 75. At 75 Cesti, to be
+honest, rip mobs up. You lose a few dmg per fist, surprising not much, 
+and a nice chunk off of your weapon skills, but good lord the attack 
+speed.It gets down right crazy if you add your haste gear, and maybe
+Haste from a RDM or WHM. Usually don't use Cesti in xp on anything 
+other than bones, but it's not unheard of to use them for everything.
+I do not add Kaiser/Koening. Koenig is only better from Ferals because 
+of some acc, acc that is nice, but you don't need. Kaiser, have never
+been sold on Seraph. They are a +1 of Koenig, which is a lvl 90+ synth.
+Kaiser are beautiful indeed, however, not attainable.
+
+Head: 
+Bronze Cap(1), Hachimaki(8), Monk's Headgear(11), Merc. Hachimaki(20), 
+Emperor Haripin(24), Merc Cpt Headgear(30), Voyager Sallet (41), AF
+(56) [If you like "The complete AF look"], Melee Crown (75) or 
+Optical Hat (70) depending on what you're doing.
+
+Notes: Hairpin is nice, I don't expect you to have it. But at that low
+of a level, DEX is your friend since ACC isn't around yet. Voyager Sallet
+added Dec 9th 2004 has that nice +3STR, great for a Monk. Toss up 
+between Opt Hat and Melee Crown, depending on your task. Whether you
+need the accuracy or not, of course. (Crown is +5STR amongst other 
+things.)
+
+Body: 
+Bronze Harness(1), Kenpogi(8), Power Gi(13), Beetle Harness(21), 
+Merc. Cpt. Doublet(30), Jujitsu Gi(40), Shinobi Gi(49), Master Gi(55),
+ Scorpian Harness(57)[Hope ya got $$], AF(58) 
+
+Notes: Our AF body is beautiful, look forward to it. Before then get
+yourself a Jiujitsu Gi at 40~ish, and if ya got some extra bucks. A
+Masters at 55 for added D. No need for a Shinobi if you have Jujitsu,
+it's just on the list for those Monks that don't have Jujitsu.
+
+Hands: 
+Any, Battle Gloves(14), Fed. Tekko(25), Hume RSE [if you're Hume of course]
+(27), Gigas Bracelets (30), Ochiudo Kote(34), AF(54), Pallas's Bracelets (60),
+Alkyoneus's Bracelet(70) 
+
+Notes: Definate pick up them Battle Gloves. Gigas Bracelets have nice
++HP and +STR come level 30 if you wish to gettem. As far as Ochi's Kote.
+There is so indistinguishable difference between Ochi's and AF gloves
+that I just sold Ochi's and used the 700k (at the time) and put it 
+towards my Spectacles fund. Alky Bracelets at 70, are PLENTY rare, and
+plenty expensive. 2 mil on Seraph. Got my pair from killing the NM 
+(w/ help of course, thanks Gork) these haven't been sold in a month
+on Seraph, they're THAT damn rare. o.o;
+
+Legs: 
+Bronze Subligar(1), Sitabaki(8), Linen Slops(12), Beetle Subligar(21),
+Republic Subligar(25), Jujitsu Sitabaki(37), Shinobi Hakama(49), Master
+Sitabaki/+1(53), AF(60), Rasetsu Hakama(72) 
+
+Notes: Straight forward. Make sure to pick up Republic Subligar. Has
+a decent +ATK. Wear that for as long as you like, and aren't taking hits.
+Because the other Legs are pretty much just more D/for the looks. AF is
+debatable. Whether you wanna stick to Master Sita +1 or AF is up to
+you, and depends on how you like the look/how you play.
+
+Feet: 
+Bronze Leggings(1), Kyahan(8), Light Soleas(13), Beetle Leggings(21),
+Windurstian or Fed. Kyahan(25), Merc. Cpt. Gaiters(30), Fuma Kyahan(39),
+AF(52), Rasetsu Sune-Ate(72) or Fuma Sune-Ate (72) or Melee Gaiters (71)
+Once again, it all lies in what you're doing...that dictates what you
+need.
+
+Notes: Pretty straight forward. I don't have the "Kung-Fu Shoes" series
+in here. They have a hidden effect to increase kick damage, but are
+SO rarely on the AH that they aren't even worth mentioning. If you get
+tired of Orange, at 72 you can buy the Rasetsu boots, some +ATK.
+Usually I just wear the whole Rasetsu set or the whole AF set. They
+look stupid mixed. (Also, I'm not a big fan of Fuma, give me AF boots)
+
+Belt: 
+White Belt(1), Purple Belt(18), Brown Belt(40), Life Belt(48), Black
+Belt(70)
+
+Notes: ACC > Haste. Those are my "words of wisdom". Once you find that
+your attacks are being missed. Then try removing Life Belt for Brown.
+If you still hit well (or have 2 Sniper's) then Brown Belt can stay on. 
+About the Black Belt, oh man what a trip that thing is to get. You won't
+get it at 70. 75 More likely, since you need to kill 3 HNM (King versions
+drop the items 100%) WELL worth it!
+
+Earring: 
+Bone Earrings +1 (16), Beetle Earrings +1(21), Spike Earrings(55),
+Tortoise Earring+1 [if you can find them] (45)Coral Earrings(63) 
+
+Notes: Nothing hard here, +ATK earrings all the way. 
+
+Necklace: 
+Spike Necklace(21), Peacock Charm(33), Spectacles(59), 
+
+Notes: Spike Necklace is your friend. STR is more important that ATK.
+STR, not only is a calculation of ATK, it also *gasp* raises your
+STR. (ATK *gasp* doesn't raise your STR) Specs are entirely up to you.
+The sure were nice to have for me, but if you feel you don't need them,
+then give it a try w/o them.   
+
+Rings: 
+Courage Ring(14), Puissance Ring(36), Sniper's Ring(40),
+Sun/Victory Ring(54), Ruby Ring (72) 
+
+Note: I have Sniper's Rings in there. Because some Monks like to get
+their +acc out of the Rings slot, and use Brown Belt. Of course,
+this way is also more expensive, but viable. Either way you should
+have either 2 sniper's or a Life Belt. You decide, how you want to
+play it.
+
+Back: Wolf Mantle +1 (28) > Amemit Mantle (61)
+
+Note: If +Agi, or +Eva is your thing, feel free to go that route.
+
+
+
+
+
+    Vb. Artifact Armor
+
+AF Quest name: Wandering Ghost
+Lvl req: 40
+Talk to whom: Oggbi, Port Bastok/The Restaraunt
+AF Name: Beat Cesti
+AF Stats: Lv 42, Damage +4, Delay +48, DEX +2, VIT +2, Hit +3
+How To: Bring the 'Pendant of Pickaxe' dropped by Wandering Ghost,
+which appears when A pickaxe is used to A small hole at the inner 
+Gusgen Mines.  
+Tips: Trade a Pickaxe to the ??? At (I'll add the <pos>
+shortly) in Gusgen Mines. Go through 2  door,staying on the left hand
+side. Drop down a hole in the floor, and go to the ??? in the left
+corner there. You will see a ???. (If lost, maybe ask a miner there) 
+Kill the Wandering Ghost and get the Pendant. And bring it to Oggbi. 
+PT Needed: 2 LV55 OR 6 members of LV45 at least. (Ghost type mob resist
+physical attacks) 
+
+
+AF2 Quest name: Re-encounter
+Lvl req: Monk lvl 50 (having completed MNK AF1)
+Talk to whom: Oggbi, Port Bastok/The Restaraunt
+AF Name: Temple Gaiters (Feet)
+AF Stats: Lv 52, Def 12, HP +12, DEX +3, Light Resist +10, Enhances
+'Dodge' Effect
+How To: Go to Fei'yin, get into the fighting arena and leave. (I'll
+add the <pos> when I can. Suffice to say you need sneak oils and it's
+on the 2nd map Eastern side.)
+An event will take place. After that, investigate the tent at
+F-6,7 IN Davoi. The two NM Orcs appear. After killing them, investigate
+the tent again, the get a key item (You'll have to run around to look
+for a new flap to lift up. The book will be under that)
+'The Book On Martial Arts of San d'Oria'. Take it to Oggbi. 
+PT Needed: 5 members of LV55 at least. 
+
+
+AF3 Quest name: Something To Protect
+Lvl req: Monk lvl 50 (cleared 'Re-encounter')
+Talk to whom: Ayame, Bastok Metalworks, Gun Powder Room, Left Side.
+AF Name: Temple Hose (Legs)
+AF Stats: Lv 60, Def 29, HP +18, Guard Skill +10, Counter +1
+How to: Trade A Yaqgudo Drink to the ??? that is in front of the
+room with a brass door at the top of Castle Oztrjoa. (Just keep going
+up in Castle O. Top of the steps on a torch you'll see the ???) 
+An NM 'Huu Xalmo the Savage' appears. Kill it and get the 
+'Xalmo Feather'. Trade it to Ayame, and the quest is completed.
+PT Needed: 15 members of LV58 at least.
+
+Note: This bird counters ALOT. Make sure the Monks are healed, since
+we attack twice a round it hurts ALOT to fight this thing. And the
+higher the level of the tank, the better. Tank should probably use
+Invincible during the Bird's Hundred Fists.
+
+AF Quest: Boghertz's Gloves
+LVl req: Monk lvl 50 (cleared 'Re-encounter')
+Talk to whom: Guslam, Upper Jeuno, Armor Shop
+AF Name: Temple Gloves (Hands)
+AF Stats: Lv 54, Def 14, HP +14, STR +4, Dark Resist +10, Enhances
+'Boost' effect (about doubles the power of it)
+How to: Get a Crawlers' Nest Coffer Key (dropped off of Helm Beetle,
+Crawler Hunter, Knight Crawler, Water Elemental and Wespe) Now search 
+the area for a coffer. (I recommmend going to MysterTour and going 
+to there Map1 section, then Crawlers' Nest to look up the exact
+coffer spots) Now that you have the "old gauntlets" go talk to Guslam.
+Then go to Port Jeuno near the Auction House/Chocobo station. You'll see
+a ???. Touch it to get a cutscene. Go Castle Zvahl Baileys talk a straight
+path (no lefts/rights off of the main hall. (Stay sneaked and invis, and
+in the MIDDLE of the path once you get to a 4-way intersection. Come to
+a gate with for torches. Touch a torch to spawn Dark Spark (bomb NM).
+Defeat him and touch the torch again to get your flame. Now go back to
+Port Jeuno and touch the ??? again. Grats, done.
+PT Needed: Basically just an XP PT to do some Helm Beetles, but DS
+requires 6~ish ppl 55+. Of course, the higher the better.
+
+AF Quest: Garlaige Citadel Coffer
+Lvl req/conditions: Having completed Boghertz's Gloves AF quest.
+AF Name: Temple Crown (Head)
+AF Stats: Lv56, Def 21, HP +16, MND +5, Enhances 'Focus' effect
+How to: The Coffer Key drops off of Fallen Mages, Fallen Majors, Wraith
+Hellmine, Over Weapon, Vault Weapon, Magic Jug, and Tainted Flesh. I 
+recommend sticking with the first two. The most abundant, and you hit
+hard on skeletons. Once you have the coffer key you need to go behind
+the 2nd/3rd Banishing Gates. The map is on
+http://mysterytour.web.infoseek.co.jp/ffxi/us/index.html under Map1
+Garlaige Citadel. (better than trying to explain the spawns). You 
+WILL need 4 people to get you behind the gates, and their are platforms
+you need to stand on.
+
+AF Quest: Beadeaux Coffer
+Lvl req/conditions: Having completed (or even started?) Boghertz's
+Gloves AF quest.
+AF Name: Temple Cyclas (Body)
+AF Stats: Lv 58, Def 41, HP +20, VIT +3, Accuracy +5, Enhances 'Chakra'
+effect.
+How to: The Coffer Key drops off of Darksteel Quadav, Sapphire Quadav,
+Ancient Quadav and Platinum Quadav. Once you get the key the coffer area 
+is very close, and very easy (though you might have to eat a death)
+Once again, check MysteryTour for the map. (You have the Beadeaux map, 
+right? If not, buy it in Bastok)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~Vc.~~~~~~~~~~~~~~Artifact II Armor~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Head: Melee Crown  Lvl 75 Def 23
+Effects: HP+5% STR+5 Enmity-3  "Subtle Blow" +6 
+Dropped where?: Hell. Er, Dynamis - Xarcabard.
+ 
+Body: Melee Cyclas Lvl 74 Def 44
+Effects: HP+5%  VIT+5  HP Regen  HealingHP +6 
+Dropped where?: Dynamis - Beaucedine
+ 
+Hands: Melee Gloves Lvl 73 Def 15
+Effects: HP+3% Attack+16 "Subtle Blow"+4  Enhances "Chakra" effect 
+Dropped where?: Dynamis - Jeuno
+ 
+Legs: Melee Hose Lvl 72 Def 31
+Effects: HP+6% AGI+4  "Kick Attacks"+5  "Subtle Blow"+5 
+Dropped where?: Dynamis - San d'Oria
+
+Feet: Melee Gaiters Lvl 71 Def 15
+Effects: HP+4%  DEX+4  Guard skill+12  Enhances "Counterstance" effect 
+Dropped where?:Dynamis - Bastok
+
+Weapon: Relic Knuckles
+Dmg 1 Delay 999
+Dynamis Dmg/Delay: Same
+Dropped where?: Dynamis - Windurst
+
+Upgrade 1 of Relic Knuckles - Militant Knuckles
+Dmg 1 Delay 96
+Dynamis Dmg/Delay: +16/96 (Water +7)
+
+Upgrade 2 of Relic Knuckles - Dynamis Knuckles
+Dmg 16 Delay 96
+Dynamis Dmg/Delay: +18/96 (Water +9)
+
+Upgrade 3 of Relic Knuckles - Caestus
+Dmg 23 Delay 96
+Dynamis Dmg/Delay: Same
+Additional Effect: In Dynamis, may use "Final Heaven" Weaponskill
+
+Final Upgrade Relic Knuckles - Spharai
+Dmg 23 Delay 86
+Dynamis Dmg/Delay: Same
+Additional Effect: May use "Final Heaven" Weaponskill out of Dynamis.
+Attack +20, Enhances "Counter" effect.
+
+How to upgrade your knuckles:
+
+Relic Knuckles + Koh-I-Noor, Griffon Leather, and Adaman Sheet
+= Militant Knuckles 
+
+Militant Knuckles + ? = Dynamis Knuckles 
+
+Dynamis Knuckles + Attestion of Might = Caestus 
+
+Caestus + Mysitc Fragment = Sparhai. 
+
+To make Koh-I-Noor, a 10million gil item that is an HQ3 of the Sparkling
+Stone dropped in all Dynamis, you need XXXX amount of Byne Bills.
+I'm currently working on just how many Byne Bills, I do beleive it's 300
+or 400. Though, I could be very wrong. Also working on the forumula to 
+make Militant Knuckles in Dynamis Knuckles.
+
+========================================================================
+Vd. Dynamis Explination:
+========================================================================
+
+For those of you that don't know what Dynamis is, you need an alliance of
+AT LEAST 30 people if you hope to clear an area. There are 6 areas.
+
+Dynamis - Bastok (Takes place in the Bastok Mines)
+Dynamis - San D'Oria (Takes place in Southern San D'Oria)
+Dynamis - Windurst (Takes place in Windurst Walls)
+Dynamis - Jeuno (Takes place in Ru'Lude Gardens)
+Dynamis - Beaucedine Glacier
+Dynamis - Xarcabard
+
+Upon leveling to level 65, if you visit Xarcabard you will be treated to 
+a cutscene with Raogrimm. (Assuming you've defeated the Shadow Lord)
+You may now enter Dynamis from the Trail Markings spots in the area
+above that I've mentioned. You trade a perpetual hourglass, which is 
+purchased for 1,000,000 gil from the Goblin in Castle. Oztroja, trade this
+hourglass to the trail markings. If it's your first time to that Dynamis
+you will get a cutscene. Congrats, you're now in the chaos that is Dynamis.
+
+I can only recommend, as a Monk, going there at 70+. And to be honest, most
+Dynamis Linkshells require you to be 70+. Honestly,  65-69 you can't hit a
+damn thing. 70 you start to do well, at 75 you're on easy street. In Dynamis
+every mob you fight has a job, and uses two hour when at a certain amount of
+health. There are even jobs that you've never seen before Orc Ninja and such.
+
+I won't go into further detail, because this isn't a Dynamis FAQ. It's a Monk
+FAQ. I will impart some advice to the Dynamis bound Monks. Sub Ninja. These
+Dynamis area are FULL of vicious AOEs (from statues, and the []Mega Boss[])
+subbing Ninja will make your party WHM very happy, also your party PLD.
+The WHM needs to worry about curing the PLD, not your ass. Subbing NIN helps
+this as much as it can be helping. Utsusemi:Ni come 74 is preferrable, but 
+honestly even Ichi is fine. Another tidbit, for Ninja and Thief mobs don't 
+bother using Raging/Asuran Fists unless you're a Focussed 74-75. Stick with
+Dragon Kick or Howling Fist. Keep an eye out for the PLD and THF two hour.
+You, of course, can not hurt them unless you're a mage at this time. When
+you defeat the []Mega Boss[] where the boss was defeated a ??? will appear.
+You must click this if you haven't cleared the area already. This will
+give you a key item and change your title to Dynamis <enter defeated area here>
+Interloper. You must defeat Dynamis Bastok, San D'Oria, Windurst, and Jeuno
+to gain access to Dynamis Beaucedine. Pretty sure you must beat Beaucedine
+to get to Xarcabard.
+
+========================================================================
+Ve. The Black Belt:
+========================================================================
+
+1. Prereqs: Have your high Norg fame (Riceballs @144 for me) Have completed
+Purple Belt, and Brown Belt quests.
+2. Talk to Vola, you'll get a small cut.
+3. Go to leave Neptune's Spire the way you came in.
+4. When you open the door to leave you'll get a cutscene with Atori-Tutori
+he will tell you the items you need. (Wyrm Beard, Behemoth Tongue and 
+Adamantoise Egg)
+5. When you aquire the Wyrm Beard walk up to the door in the main hall of
+Neptune's Spire (the one with the first Tenshodo member you see behind it.)
+6. Trade the Wyrm Beard to the door, you'll get a cut with Atori-Tutori,
+he will tell you clues, who you want to talk to next is Degenhard in Bastok
+(I-10 in Bastok Markets) you will get a small cut with him, I beleive he
+should tell you to aquire a Behemoth Tongue.
+7. Next, when you get the Behemoth Tongue. Again trade it to the door 
+(I don't think you'll get a cut [I traded two at the same time]) you'll
+remember from your cut with Degenhard that he mentioned his friend Maat.
+(We ALL know who Maat is.)
+8. Go talk to Maat (Ru'Lude Gardens I-6) you will get a cut with him, he
+tells you to get an Adamantoise Egg.
+9. When you have gotten one, trade it to the previously mentioned main hall
+Neptune's Spire door.
+10. You will be asked to trade your Brown Belt to the door also. Trade your
+Brown Belt to the door, and prepare to be entertained =p That's it, you now
+have the Black Belt.
+
+Keep in mind, you only talk to Vola once. All the other transactions are to
+the main hallway door (not the door to get into the place by the Mithra clerk,
+the one further back.) Also, I had the tongue and beard and I can not remember
+which I traded to the door first, I beleive it was the Beard, if not, then
+definately the Tongue. Just switch their orders. Enjoy that belt, I know I am.
+
+========================================================================
+Vf. Shura Set (Dryadic Abjuration Set.)
+
+First off please tell me if you know of an error with which God/HNM drops
+which abjuration. My information may not be complete as far as drops.
+
+------------------------------------------------------------------------
+Dryadic Abjuration: Head
+
+Cursed Kabuto makes Shura Zunari Kabuto
+Lv 73 Def 20 HP-25 STR+5 Accuracy+5
+ 
+Cursed Kabuto -1 makes Shura Zunari Kabuto+1  
+Lv 73 Def 21 HP-30 STR+6 Accuracy+6
+ 
+Dropped off of: Aspidochelone, Seiryu.
+
+Ingredients/Skill needed to make the Cursed Kabuto:
+Woodworking 97
+
+Items needed: Earth Crystal, Ancient Lumber, Divine Lumber 
+Animal Glue, Urushi, Zunari Kabuto
+
+Comment: Not bad...Opt Hat for accuracy but if you ever don't need the 
+accuracy there's this or the Melee Crown for +5STR on ya. Dunno if it's 
+worth the money for the ingredients, though.
+ 
+------------------------------------------------------------------------
+Dryadic Abjuration: Body
+
+Cursed Togi makes Shura Togi
+Lvl 73 Def 40 HP-50 Acc. +10 Atk. +20
+
+Cursed Togi -1 makes Shura Togi +1
+Lv 73  Def 41 HP-55 Acc. +11 Atk. +22
+ 
+Dropped off of: Kirin
+
+Ingredients/Skill needed to make the Cursed Togi:
+Woodworking 99, Leathercraft: Unknown but supposedly needed
+
+Items needed: Wind Crystal, Ancient Lumber x2, Divine Lumber x2
+Urushi, Animal Glue, Tiger Leather, Hara-Ate
+
+Comment: Also prettttty nice. The Acc is lovely, the Atk never hurt, it's
+just a matter of choosing this Melee Cyclas (for soloing maybe?), Scorp
+Harness (also for soloing, due to evasion), or Osode for raw power w/
+no Acc.
+
+------------------------------------------------------------------------ 
+
+Dryadic Abjuration: Hands
+
+Cursed Kote makes Shura Kote
+Lv 73 Def. 16 HP-20 Acc. +4 Enhances "Resist Paralyze" effect
+
+Cursed Kote -1 makes Shura Kote+1
+Lv 73 Def. 17 HP-25 Acc. +5 Enhances "Resist Paralyze" effect 
+
+Dropped off of: Suzaku
+
+Ingredients/Skill needed to make the Cursed Kote:
+Woodworking 96
+
+Items needed: Wind Crystal, Kote, Divine Lumber, Ancient Lumber 
+Animal Glue, Urushi
+
+Comment: Crap. The Acc is nice, the Resist enhace is a joke. +5Acc
+over the +STR bracellets/gloves (or +Atk if that's your thing)? 
+No thanks.
+
+------------------------------------------------------------------------ 
+
+Dryadic Abjuration: Legs
+
+Cursed Haidate makes Shura Haidate
+Lv 73 Def. 30 HP-35 STR+5 Acc.+7
+
+Cursed Haidate -1 makes Shura Haidate +1
+Lv 73 Def. 31 HP-40 STR+6 Accuracy+8
+ 
+Dropped off of: Byakko
+
+Ingredients/Skill needed to make the Cursed Haidate:
+Woodworking 93
+
+Items needed: Earth Crystal, Divine Lumber, Animal Glue, Urushi 
+Haidate
+
+Comment: IMO the best peice in the set. We need STR, we get it here.
+We need Acc, we get it here. Like all Abj set it all comes down to
+"Is it worth the price, due to the fact that I can not sell it once
+it's made." IMO that's a borderline question. Right now AF2 Pants w/
+Dune Boots (More Kick Attacks from Pants, Harder Kick Attack from Boots)
+is going just great. Even Byakko's is nice...yummy haste. Lots of
+good pants for Monk, take your pick people.
+
+------------------------------------------------------------------------ 
+
+Dryadic Abjuration: Feet
+
+Cursed Sune-Ate makes Shura Sune-Ate
+Lv 73 Def. 16 HP-20 Acc. +4 Enhances "Resist Gravity" effect
+
+Cursed Sune-Ate -1 makes Shura Sune-Ate+1
+Lv 73 Def. 17 HP-25 Acc. +5 Enhances "Resist Gravity" effect 
+
+Dropped off of: Aspidochelone, Byakko 
+
+Ingredients/Skill needed to make the Cursed Sune-Ate:
+Woodworking 94
+
+Items needed: Wind Crystal, Divine Lumber, Animal Glue, Urushi 
+Sune-Ate
+
+Comment: Crap. The Acc is nice, teh Resist Gravity is a joke. Boots are
+a weak spot for Monk. Probably best off with AF2 when soloing stuff you
+think you can counter, and Dune Boots for power. (Maybe some Fuma Sune's
+for that haste...)
+
+
+========================================================================
+Vg. God Armor
+========================================================================
+
+I add this section on request, it's probably nice to have it seeing as 
+Monk benefit from a good many God Armors. May I also say, unlink Shura
+this entire set looks GREAT.
+
+Body 
+
+Kirin's Osode: Lv 75 Def. 52
+Used by: WAR/MNK/BST/BRD/RNG/SAM/NIN 
+Stats: MP+30 STR+10 DEX+10 VIT+10 AGI+10 INT+10 MND+10 CHR+10 [LIT]+50
+Comment: As you can see, yea...that's +10STR and what is it (besides 
+Acc that adds the most to Monk dmg? Yea. This is THE Monk armor if you
+have enough Acc on your person.)
+
+Head
+
+Genbu's Kabuto Lv 75 Def. 35
+Used by: WAR/MNK/BST/BRD/RNG/SAM/NIN 
+StatsL HP+50 VIT+15 [WTR]+50
+Comment: Chakra macro? Yup.
+
+Hands
+
+Seiryu's Kote Lv 75 Def. 26
+Used by: WAR/MNK/BST/BRD/RNG/SAM/NIN 
+Stats: HP+50 AGI+15 Ranged Accuracy+10 
+Comment: No use for Monk at all, really. 
+
+Legs
+
+Byakko's Haidate Lv 75 Def. 42
+Used by: WAR/MNK/BST/BRD/RNG/SAM/NIN 
+Stats: DEX+15 [LTG]+50 Haste+5%
+Comment: Meh, DEX. But that Haste...hey now. A very fine set of pants.
+Right up there with AF2 Pants, and Shura Haidate.
+
+Feet
+
+Suzaku's Sune-Ate Lv 75 Def. 30
+Used by: WAR/MNK/BST/BRD/RNG/SAM/NIN 
+Stats: MND+15 [FIR]+50 Blaze Spikes when damage is taken. 
+Comment: Chi Blasting gear, plain and simple. 
+
+
+========================================================================
+IX. Frequently Asked Questions
+
+Feel free to send me your questions. There are some FAQs on other forums.
+If you need my opinion on what to do I'd be happy to add it into the FAQ.
+Typical questions are:
+
+"What's the best race for Monk?"
+Answer: Elvaan > Galka > Mithra = Hume > Taru.
+Explination: Elvaan have the highest STR, and the highest MND. The
+difference between an Elvaan Monk and a Mithra, Hume, Taru Monk of the 
+same level with the same gear (like that ever happens) is pretty 
+noticeable. Difference between Elvaan and Galka, in both categorys isn't
+that noticeable. Keeping in mind there is nothing wrong with being any
+kind of Monk so long as you respect yourself enough to always have the
+best equipment you can get, w/o going crazy (Peacock Charms, Scorp
+Harnesses and what have you). Also, please keep in mind, I'm a Mithra.
+^_^; not biased to the Elvaan at all. Just stating what I see to be fact.
+
+"Why do I get picked last for parties?"
+Answer: Because pre-60 in the cookie cutter leveling places that many 
+people have set in their minds. Distortion is THE skillchain. Monks can
+NOT makes Distortion before 60.
+Explination: Get used to making your own parties, and doing second hand
+skillchains till 60. (Cept on beetles, they're weak to Fusion.) People
+love to level on the crabs. They think there's "no other place to level"
+Which is bull, they just don't wanna deviate from the proven semi-effective
+norm. You get picked last for parties also, because many many players
+like to see what I call "big stupid numbers" they'd rather see another 
+job hit for 76 a swing, then a Monk hit for 40 each punch. This view 
+changes VERY MUCH come "late game" when everyone is begging you to party
+on the fastest XP in the game with them. (Bones with Light skillchain)
+In the mean time, you're gonna have to suffer through it. Make your own
+parties, and try and keep your chin up. 
+
+Fox The Sly asks "I have a question though. Besides Meat Mithkabobs, what
+other foods benefit Monks? At the Monk board on ffxionline, Red Limit
+mentioned a certain food with a French sounding name (I forgot, sorry).
+Do you know what I'm talking about? What benefits does that give?"
+
+My reply: Yup, I do post on Ffxionline.com. Love there forums. As far as
+alternative food, asides from Meats and Chiefs being the best (chiefs for
+later lvls when you're pretty sure you aren't gonna die. >.> Don't ever
+pop a chief in the dunes/qufim/jungle/garlaige.) The only real alternatives
+are as follows 
+
+Red Curry (I'll be damned if you EVER see these sell) +7 STR +2 AGI -1 INT
++24%ATK lasts 1hr 30min.
+
+Dragon Steak (also never seen sold) +7STR -3INT +15%ATK lasts 1hour
+
+and
+
+Dragon Soup (seen a few sell, but if I remember correctly like the others
+above, they don't stack) +6STR +2AGI +2VIT -1INT +11%ATK last 1 hour.
+
+So, as you can see, the Miths/Chief pretty much crush the competition, in
+price and availability.
+
+The "french sounding name" I'll bet is an 'au lait' product. There are many,
+they range in price from 200gil to 2.4-2.5k they are as follows. (please
+note they're under []Drinks[] and can be drank whilst you have food on.
+
+Orange au Lait HP+1/3sec 100hp gained 5minutes  <-- garbage
+
+Apple au Lait HP+2/3sec 120hp gained 3minutes
+
+Pear au Lait HP+3/3sec 300hp gained 5minutes
+
+Pamama au Lait HP+2/3sec 400hp gained 10minutes
+
+Persikos au lait HP+4/3sec 800hp gained 10minutes
+
+A little secret, if you are soloing early on. I'd say lvl 7-15, these are
+beautiful to have. Virtually ZERO down time, with Pamama and Persikos I dare
+say you can even make your own exp chains. These are also particularly 
+usefull for genkai 5. The Maat fight, which I will be adding to this FAQ
+shortly. Keep the questions coming. ^_^
+
+(from a recent post on the GameFAQs forums) "Which are better Ochiudo's
+Kote or Temple Gloves?" 
+(My reply in the post) First off, been there done that with the "Boost with
+AF gloves, fight with Kote" crap. Just not worth your character blinking 
+every damn fight so you can get a good strong Chi Blast off, and fight with
+Kote on.
+
+Second, it is my beleif that Temple Gloves > Kote 54+. Especially come 65+
+you have TOO much damn atk (especially if subbing WAR and having Berserk,
+eating meat miths) for 20attack to mean a damned thing. ATK caps, STR
+doesn't. ATK is a function of STR!
+
+I've also parsed this damage on various mobs. Bones, crabs, crawlers. The
+damage from Kote seems to help WS damage bottom come up a bit, but straight
+punching it's all Temple Gloves. (Though my Mithra ass uses Alkyoneus's
+bracellets). +STR > +ATK for a Monk. 
+
+It's just that at 34 when the Kotes become available the amount of ATK they
+add outshines the STR you can get at that level, but rest assured as levels
+rise, the returns diminish. If you're doing more damage with Kote then with
+Temple Gloves on you still need to sell them Kote get your $$ and buy some
+more +STR gear. A whole damn lot of it you could get with the price of them
+Kote. (650+K)
+
+Besides even if you are a +ATK freak Melee Gloves (AFII) > O. Kote. Though
+I'd use those just to stack the "Enhance Chakra" on with Temple Cyclas.
+
+"How does a Monk defeat Maat?"
+
+I didn't add it in my monk faq because there are WAY too many ways to go
+about it.
+
+My way hasn't worked for but 2 people and I, my way specifically didn't
+work for some people, there's too many damn ways to go about it.
+
+Try mysterytour genkai 5 information.
+
+Though if you need to know, what I did was:
+
+Sleep to 100% TP with Opo-Opo Necklace
+Boost 9, yes 9 times
+Focus and Dodge
+Engage turned around so as not to hit him
+Activate 100 Fists
+Chi Blast
+Icarus Wing
+Raging Fists 
+Wait for TP from Hundred Fists 
+Raging Fists
+
+I don't mean to brag, but no one, but NO ONE has killed Maat, and had
+as much HP left over as me, and I know every 70+ NA Monk. Try and 
+beat my record of 580HP left over. ^_^ My friend Zeroth beat him in
+record time, but only because he didn't sleep with Opo.
+
+WS
+=========================================================================
+
+X. Credits
+
+Thanks to the Gamefaqs.com board trolls for having me fall asleep laughing
+every night. Keep up the funny XXX vs YYY threads! Thanks to the people 
+in game that helped me get my Monk to were it is. ...and that's about it.
+Take care. See you again!
+
+Copyright Akumu X 2004 
+
+Thank you to Novina on Carbuncle for an update on new bracelets.
+=========================================================================
+
+XI. Summary
+
+Monk is straight damage that can't make distortion till 60, and doesn't 
+hit particularly hard on beetles, and is pretty much double wammied on
+crabs. However, these set-backs make end game all the more bitter
+sweet. Come 67, the XP just don't stop. You may not get too many JP
+invites, but once you take some NA down into Gustav Tunnel and you're 
+chain 4ing your first time there, everyone will decide that's where
+they want to level. I've been invited solely because people wanted to lvl
+there. I being the only NA Monk 67-74 at the time, there was little
+option. It was if Kirei's on, get her. (Though I'm a guy, people call me
+"her" because I am a Mithra) This is what you have to look forward to.
+Struggle on to acheive it, because I guarentee, you won't be disappointed.
+On a final note, as much as I'd like to help people out, please don't 
+ask me to help with your Genkai and AF quests. Rather, you can ask, but 
+don't be dissapointed if I can't come. Strangely enough, I'm usually
+pretty damn busy in game. Leveling Ranger (next job), HNMs, Missions,
+helping LS members, I'll try and help my fellow Monks, but I can't make
+you any promises. ^_^; That said, enjoy the job. Eat your meats. Get
+the best gear you can afford, while understanding that your gear, is 
+your damage. Lastly, no matter the sub job you choose...KEEP IT 
+AT 1/2 of YOUR MAIN! ^_^;
+
+==========================================================================
+
+
+
+
+
+
+

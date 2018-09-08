@@ -1,0 +1,1216 @@
+From: KasketDarkfyre@aol.com
+Date: Sun, 26 Sep 1999 16:10:06 EDT
+
+Final Fantasy VIII Triple Triad - Version 1.2
+-------------------------------------------------
+
+Section 1: Introduction
+Section 2: The Cards
+ -Level 1 Monster Cards
+ -Level 2 Monster Cards
+ -Level 3 Monster Cards
+ -Level 4 Monster Cards
+ -Level 5 Monster Cards (1 Rare Card/Side Quest)
+ -Level 6 Boss Cards
+ -Level 7 Boss Cards
+ -Level 8 GF Cards (All Rare Cards)
+ -Level 9 GF Cards (All Rare Cards)
+ -Level 10 Player Cards (All Rare Cards)
+Section 3: Rare Card Locations
+Section 4: The Triple Triad Rules
+Section 5: Side Quests
+ -Card Queen
+ -CC Members
+ -UFO Chasing
+Section 6: Credits
+
+**This document is copyrighted, don't sell it, don't print it in a magizine, 
+don't expect to make monster money with it. Thank you**
+
+**Fixed in this FAQ: The Elemental Rules**
+
+Introduction
+------------
+
+     After hours of playing this game, trading cards with numerous players, 
+including the Card Queen, I've compiled a listing of Card Level Types, Rare 
+Card Locations, how to get them, the Items you can get with the Card Mod 
+Ability and the Card Queen's traveling pattern to complete the side quest 
+during the second and third disc. Also, I will explain the appearence and 
+locations of the CC Members in Balamb Garden, and the order in which to face 
+them, along with 
+the rules of Triple Triad throughout the World.
+
+The Cards
+---------
+
+Gained from Monsters, or when Monsters are turned into Cards, Monster Cards 
+are the easiest to come by. I've found, that you need to strike a monster 
+once or twice, before attempting a Card Transform. Bosses and Rare Cards 
+cannot be attained by the Card Ability.
+
+The cards are set up with numeral notations, which denote power levels, a 
+number per side, the higher the number, the stronger the side. Most Cards 
+however, have one to three high sides, and a low side. Call it a balance of 
+power, you may be able to best a card on one side, but be ready to have that 
+strong card taken if you leave a weak side open to your opponent. I've spent 
+more time with the Triple Triad portion, than the actual Quest, and lost more 
+Cards than I care to think about. Just remember to save your game before you 
+start playing with high/rare Cards, it will save you both time and 
+money...time for playing to get your Cards back, and money from throwing your 
+controller against the wall when you lose.
+
+
+Card Example:
+
+  7
+ 4 8 : Card Numbering ranging from 1-10, the 10 being an A
+  3
+
+(Card Name): Name of the Monster/Boss/GF/Player Card
+
+(Elemental/Non Elemental): Weither the Card holds an Elemental Value
+
+(Card Modification Item): What you recieve per Card. Sometimes, you need 
+several of one particular Card to receive anything on a Modification.
+
+-Level 1 Monster Cards-
+-----------------------
+
+  1
+ 5 4
+  1
+Geezard
+Non Elemental
+1 Card = 5 Screws
+
+  5
+ 3 1
+  1
+Funguar
+Non Elemental
+1 Card = 1 M-Stone Piece
+
+  1
+ 5 3
+  3
+Bite Bug
+Non Elemental
+1 Card = 1 M-Stone Piece
+
+  6
+ 2 1
+  1
+Red Bat
+Non Elemental
+1 Card = 1 Vampire Fang
+
+  2
+ 5 3
+  1
+Blobra
+Non Elemental
+4 Cards = 1 Rune Armlet
+
+  2
+ 4 1
+  4
+Gayla
+Thunder Elemental
+1 Card = 1 Mystery Fluid
+
+  1
+ 1 5
+  4
+Gesper
+Non Elemental
+1 Card = 1 Black Hole
+
+  3
+ 1 5
+  2
+Fastitocalon-F
+Earth Elemental
+5 Cards = 1 Water Crystal
+
+  2
+ 1 1
+  6
+Blood Soul
+Non Elemental
+1 Card = 1 Zombie Powder
+
+  4
+ 3 2
+  4
+Caterchipillar
+Non Elemental
+1 Card = 1 Spider Web
+
+  2
+ 6 1
+  2
+Cockatrice
+Thunder Elemental
+1 Card = 1 Cockatrice Pinion
+
+----------------------------
+
+-Level 2 Monster Cards-
+-----------------------
+
+  7
+ 1 1
+  3
+Grat
+Non Elemental
+1 Card = 1 Magic Stone
+
+  6
+ 3 2
+  2
+Buel
+Non Elemental
+1 Card = 1 Magic Stone
+
+  5
+ 4 3
+  3
+Mesmerize
+Non Elemental
+1 Card = 1 Mesmerize Blade
+
+  6
+ 3 1
+  4
+Glacial Eye
+Ice Elemental
+1 Card = 1 Arctic Wind
+
+  3
+ 3 4
+  5
+Belhelmel
+Non Elemental
+1 Card = 1 Saw Blade
+
+  5
+ 5 3
+  2
+Thrustaevis
+Wind Elemental
+1 Card = 1 Shear Feather
+
+  5
+ 5 1
+  3
+Anacondaur
+Poison Elemental
+1 Card = 1 Venom Fang
+
+  5
+ 2 2
+  5
+Creeps
+Thunder Elemental
+1 Card = 1 Coral Fragment
+
+  4
+ 2 4
+  5
+Grendal
+Thunder Elemental
+1 Card = 1 Dragon Fin
+
+  3
+ 7 2
+  1
+Jelleye
+Non Elemental
+1 Card = 1 Magic Stone
+
+  5
+ 3 2
+  5
+Grand Mantis
+Non Elemental
+1 Card = 1 Sharp Spike
+
+----------------------------
+
+-Level 3 Monster Cards-
+-----------------------
+
+  6
+ 2 6
+  3
+Forbidden
+Non Elemental
+1 Card = 1 Betrayal Sword
+
+  6
+ 6 3
+  1
+Armadodo
+Earth Elemental
+1 Card = 1 Dino Bone
+
+  3
+ 5 5
+  5
+Tri-Face
+Poison Elemental
+1 Card = 1 Curse Spike
+
+  7
+ 3 5
+  1
+Fastitocalon
+Earth Elemental
+1 Card = 1 Water Crystal
+
+  7
+ 3 1
+  5
+Snow Lion
+Ice Elemental
+1 Card = 1 North Wind
+
+  5
+ 3 6 
+  3
+Ochu
+Non Elemental
+1 Card = 1 Ochu Tentacle
+
+  5
+ 4 6
+  2
+SAM08G
+Fire Elemental
+1 Card = 1 Running Fire
+
+  4
+ 2 4
+  7
+Death Claw
+Fire Elemental
+1 Card = 1 Sharp Spike
+
+  6
+ 3 2
+  6
+Cactuar
+Non Elemental
+1 Card = 1 Cactus Thorn
+
+  3
+ 4 6
+  4
+Tonberry
+Non Elemental
+1 Card = 1 Chef's Knife
+
+  7
+ 5 2
+  3
+Abyss Worm
+Earth Elemental
+1 Card = 1 Windmill
+
+----------------------------
+
+-Level 4 Monster Cards-
+-----------------------
+
+  2
+ 7 6
+  3
+Turtapod
+Non Elemental
+5 Cards = 1 Healing Mail
+
+  6
+ 5 5 
+  4
+Vysage
+Non Elemental
+1 Card = 1 Wizard Stone
+
+  4
+ 7 6
+  2
+T-Rexaur
+Non Elemental
+2 Cards = 1 Dino Bone
+
+  2
+ 3 7
+  6
+Bomb
+Fire Elemental
+1 Card = 1 Bomb Fragment
+
+  1
+ 7 6
+  4
+Blitz
+Thunder Elemental
+1 Card = 1 Dynamite Stone
+
+  7
+ 6 3
+  1
+Wendigo
+Non Elemental
+1 Card = 1 Steel Orb
+
+  7
+ 4 4
+  4
+Torama
+Non Elemental
+5 Cards = 1 Life Ring
+
+  3
+ 6 7
+  3
+Imp
+Non Elemental
+1 Card = 1 Wizard Stone
+
+  6
+ 3 2
+  7
+Blue Dragon
+Poison Elemental
+4 Cards = 1 Fury Fragment
+
+  4
+ 6 5
+  5
+Adamantoise
+Earth Elemental
+3 Cards = 1 Turtle Shell
+
+  7
+ 3 5
+  4
+HexDragon
+Non Elemental
+1 Card = 1 Sharp Spike
+
+----------------------------
+
+-Level 5 Monster Cards-
+-----------------------
+
+  6
+ 5 5
+  6
+Iron Giant
+Non Elemental
+3 Cards = 1 Star Fragment
+
+  3
+ 7 6
+  5
+Behemoth
+Earth Elemental
+10 Cards = 1 Barrier
+
+  7
+ 3 6
+  5
+Chimera
+Water Elemental
+10 Cards = 1 Regen Ring
+
+  3
+ 1 A
+  2
+Pupu (Rare Card - Need to Complete the UFO Chase to Acquire)
+Non Elemental
+1 Card = 1 Hungry Cookpot
+
+  6
+ 7 2
+  6
+Elastoid
+Non Elemental
+1 Card = 1 Steel Pipe
+
+  5
+ 4 5
+  7
+GIM47N
+Non Elemental
+1 Card = 10 Fast Ammo
+
+  7
+ 2 7
+  4
+Malboro
+Poison Elemental
+4 Cards = 1 Malboro Tentacle
+
+  7
+ 4 2
+  7
+Ruby Dragon
+Fire Elemental
+10 Cards = 1 Inferno Ring
+
+  5
+ 6 3
+  7
+Elnoyle
+Non Elemental
+10 Cards = 1 Energy Crystal
+
+  4
+ 4 7
+  6
+Tonberry King
+Non Elemental
+1 Card = 1 Chef's Knife
+
+  6
+ 7 6
+  2
+Wedge, Biggs
+Non Elemental
+1 Card = 1 X Potion
+
+----------------------------
+
+-Level 6 Boss Cards-
+--------------------
+
+  2
+ 4 8
+  8
+Fujin, Rajin
+Non Elemental
+1 Card = 1 X Potion
+
+  7
+ 4 8
+  3
+Elvoret
+Wind Elemental
+1 Card = 1o Death Stones
+
+  4
+ 3 8
+  7
+X-ATM092
+Non Elemental
+2 Cards = 1 Turtle Shell
+
+  7
+ 5 2
+  8
+Granaldo
+Non Elemental
+1 Card = 1 G-Returner
+
+  1
+ 3 8
+  8
+Gerogero
+Poison Elemental
+10 Cards = 1 Circlet
+
+  8
+ 2 2
+  8
+Iguion
+Non Elemental
+1 Card = 1 Cocktrice Pinion
+
+  6
+ 5 8
+  4
+Abadon
+Non Elemental
+ 1 Card = 30 Dark Ammo
+
+  4
+ 6 8
+  5
+Trauma
+Non Elemental
+1 Card = 30 Demolition Ammo
+
+  1
+ 8 8
+  4
+Oilboyle
+Non Elemental
+1 Card = 30 Fire Ammo
+
+  6
+ 4 5
+  8
+Shumi Tribe
+Non Elemental
+5 Cards = 1 Gambler's Spirit
+
+  7
+ 1 5
+  8
+Krysta
+Non Elemental
+1 Card = 10 Holy Stones
+
+----------------------------
+
+-Level 7 Boss Cards-
+--------------------
+
+  8 
+ 8 4
+  4
+Propagator
+Non Elemental
+1 Card = 1 G-Mega Potion
+
+  8
+ 4 8
+  4
+Jumbo Cactuar
+Non Elemental
+1 Card = 1 Cactus Thorn
+
+  8
+ 8 6
+  6
+Tri-Point
+Thunder Elemental
+40 Cards = 1 Jet Engine
+
+  5
+ 8 6
+  6
+Gargantua
+Non Elemental
+10 Cards = 1 Strength Love
+
+  8
+ 3 6
+  7
+Moblie Type B
+Non Elemental
+1 Card = 10 Shell Stones
+
+  8
+ 8 3
+  5
+Sphinxara
+Non Elemental
+1 Card = 1 G-Mega Potion
+
+  8
+ 4 8
+  5
+Tiamat
+Non Elemental
+1 Card = 10 Flare Stones
+
+  5
+ 5 7
+  8
+BGH251F2
+Non Elemental
+1 Card = 10 Protect Stones
+
+  6
+ 7 8
+  4
+Red Giant
+Non Elemental
+1 Card = 5 Meteor Stones
+
+  1
+ 7 8
+  7
+Catoblepas
+Non Elemental
+1 Card = 1 Rename Card
+
+  7
+ 8 7
+  1
+Ultima Weapon
+Non Elemental
+1 Card = 1 Ultima Stone
+
+----------------------------
+
+-Level 8 GF Cards- (All Rare Cards)
+------------------
+
+  4
+ 9 4
+  8
+Chubby Chocobo
+Non Elemental
+1 Card = 100 LuvLuvG's
+
+  9
+ 3 6
+  7
+Angelo
+Wind Elemental
+1 Card = 100 Elixers
+
+  3
+ 6 7
+  9
+Gilgamesh
+Non Elemental
+1 Card = 10 Holy Wars
+
+  9
+ 2 3
+  9
+Mini Mog
+Ice Elemental
+1 Card = 100 Pet Houses
+
+  9
+ 4 4
+  8
+Chicobo
+Poison Elemental
+1 Card = 100 Gysahi Greens
+
+  2
+ 4 9
+  9
+Quezacoyl
+Thunder Elemental
+1 Card = 100 Dynamite Stones
+
+  6
+ 9 7
+  4
+Shiva
+Ice Elemental
+1 Card = 100 North Winds
+
+  9
+ 8 6
+  2
+Ifrit
+Fire Elemental
+1 Card = 3 Elemental Attacks
+
+  8
+ 2 9
+  6
+Siren
+Non Elemental
+1 Card = 3 Status Attacks
+
+  5
+ 9 1
+  9
+Sacred
+Earth Elemental
+1 Card = 100 Dino Bones
+
+  9
+ 9 5
+  2
+Minotaur
+Earth Elemental
+1 Card = 10 Adamantines
+
+----------------------------
+
+-Level 9 GF Cards- (All Rare Cards)
+------------------
+
+  8
+ 4 4
+  8
+Carbuncle
+Non Elemental
+1 Card = 3 Glow Curtains
+
+  5
+ 3 8
+  8
+Diablos
+Non Elemental
+1 Card = 100 Black Holes
+
+  7
+ 7 A
+  1
+Leviathan
+Water Elemental
+1 Card = 3 Doc's Codes
+
+  8
+ 5 A 
+  3
+Odin
+Non Elemental
+1 Card = 100 Dead Spirits
+
+  8
+ 7 1
+  7
+Pandemona
+Wind Elemental
+1 Card = 100 Windmills
+
+  7
+ A 4
+  6
+Cerberus
+Non Elemental
+1 Card = 100 Lightweights
+
+  9
+ 2 A
+  4
+Alexander
+Holy Elemental
+1 Card = 3 Moon Curtains
+
+  7
+ A 2
+  7
+Phoenix
+Fire Elemental
+1 Card = 3 Phoneix Spirits
+
+  8
+ 6 8
+  2
+Bahamut
+Non Elemental
+1 Card = 100 Mega Elixers
+
+  3
+ A 1
+  A
+Doomtrain
+Poison Elemental
+1 Card = 3 Status Guards
+
+  4
+ A 4
+  9
+Eden
+Non Elemental
+1 Card = 3 Monk's Codes
+
+----------------------------
+
+-Level 10 Player's Cards- (All Rare)
+------------------------
+
+  A
+ 8 7
+  2
+Ward
+Non Elemental
+1 Card = 3 Gaea's Rings
+
+  6
+ A 7
+  6
+Kiros
+Non Elemental
+1 Card = 3 Accelerators
+
+  5
+ 9 A
+  3
+Laguana
+Non Elemental
+1 Card = 100 Heros
+
+  A
+ 4 8
+  6
+Selphie
+Non Elemental
+1 Card = 3 Elemental Guards
+
+  9
+ 2 6
+  A
+Quistis
+Non Elemental
+1 Card = 3 Samantha Souls
+
+  2
+ A 6
+  9
+Irvine
+Non Elemental
+1 Card = 3 Rocket Engines
+
+  8
+ 6 5
+  A
+Zell
+Non Elemental
+1 Card = 3 Hyper Wrists
+
+  4
+ A A
+  2
+Rinoa
+Non Elemental
+1 Card = 3 Magic Armlets
+
+  A
+ 3 A
+  3
+Edea
+Non Elemental
+1 Card = 3 Royal Crowns
+
+  6
+ 4 9
+  A
+Seifer
+Non Elemental
+1 Card = 3 Diamond Armors
+
+  A
+ 9 4
+  6
+Squall
+Non Elemental
+1 Card = 3 Three Stars
+
+----------------------------
+
+-Rare Card Locations-
+
+  -Level 5 Cards-
+  ---------------
+  Pupu Card - Must Complete the UFO Chase and give the Alien 5 Elixers, if 
+the Alien dies, the Card is lost. (Location: Balamb Area)
+
+  -Level 8 Cards-
+  ---------------
+  Chubby Chocobo - Must take part in the Queen of Cards Quest. A Male student 
+sitting on a bench outside the library has this Card. (Location: Balamb 
+Garden)
+
+  Angelo - Must win from Watts(Forest Owls), in Disc One, or the White SeeD 
+Ship on Disc 3. 
+
+  Gilgamesh - Must Complete the CC Group Quest, beat all of the Members, and 
+then King to recieve this Card. (Location: Balamb Garden)
+
+  Mini Mog - Win from the jogging lower classman in the main hall. (Location: 
+Balamb Garden)
+
+  Chicobo - Visit each Chocobo Forest and solve the puzzles. Then head to the 
+Chocobo Sanctuary to receive the Card.
+
+  Quezacoyl - Win from Mayor Dobe when you first arrive in FH. (Location: 
+Fisherman's Horizion)
+
+  Shiva - Win from Zone of the Forest Owls in Disc Three. Must have the "Girl 
+Next Door" Magizine from the Timber Maniac's Office in your items. Give up 
+the magizine for free to recieve the Card. (Location: White SeeD Ship)
+
+  Ifrit - Beat Ifrit in the Fire Cavern
+
+  Siren - Go to the Pub in Dollet, and challenge the pub manager on the 
+second floor. Defeat him, and you'll go to a back room to challenge him 
+again. Win the Siren Card normally.
+
+  Sacred - Defeat the Brothers in the Tomb of the Unknown King.
+
+  Minotaur - Defeat the Brothers in the Tomb of the Unknown King.
+
+
+  -Level 9 Cards-
+  ---------------
+
+  Carbuncle - Must partake in the CC Group Quest. Win from The CC Member: 
+Heart.
+  (Location: Balamb Garden)
+
+  Diablos - Use the Magical Lamp to face Diablos. Win to recieve the Card. 
+(Location: Balamb Garden)
+
+  Leviathan - Challenge the CC Member: Joker and win. (Location: Balamb 
+Training Area)
+  **Note: He appears randomly in the Training area near the bridge, may take 
+several tries**
+
+  Odin - Complete the Centra Ruins and defeat Odin. (Location: Centra Ruins)
+
+  Pandemona - Challenge the Hotel Owner in the streets of Balamb. After the 
+invasion by Galbadia Army has ended. (Location: Balamb)
+
+  Cerberus - Defeat Cerberus at the Galbadia Garden during the Battle of the 
+Gardens on Disc Two. (Location: Galbadia Garden/Disc Two Only!!!)
+
+  Alexander - Challenge Piet of the Lunar Base. (Location: Lunar Base/Disc 
+Three Only!!!)
+
+  Phoenix - An additional part of the Queen of Cards Quest. The Presidential 
+Aide inside the Palace has the Card. The aide is in the first room of the 
+inital visit. (Location: Esthar)
+
+  Bahamut - Challenge and defeat Bahamut in the Deep Sea Laboratory.
+  **Note: There is a particular way this has to be done, follow the 
+instruction below**
+    Questions and Answers are as follows:
+
+     Bahamut: "So you wish to challenge me.."
+
+     Choose: "It's not our will to fight.."
+
+     Bahamut: "Begging me for mercy?"
+
+     Choose: "Never."
+
+     Bahamut: "Damned Imbeciles. Why do you wish to fight?"
+
+     Choose: Select a hidden answer, pressing down twice: "None of your 
+business."
+
+     Doing all of this will initate battle. Win and you gain both the Card 
+and the GF.
+
+  Doomtrain - Additional part of the Queen of Cards Quest. The Pub owner has 
+it in his deck.
+  (Location: Timber)
+
+  Eden - Solve the steam puzzle in the Deep Sea Research Center after 
+defeating Bahamut. Destroy the Ultimate Weapon (Good Luck!) who carries both 
+the Eden Card and the Eden GF.
+
+ 
+  -Level 10 Player Cards-
+  -----------------------
+
+  Ward - Beat Dr. Odine in a game of Cards. (Disc Three) (Location: Esthar)
+
+  Kiros - Additional part of the Queen of Cards Quest. A man in black across 
+from the shops across from Deling City has the Card. (Location: Deling City)
+
+  Laguna - Receive the Card from Ellone at the Lunar Base on Disc Three. If 
+not, get it from the Card Queen on Disc Four. (Location: Lunar Base)
+
+  Selphie - Selphie's friend near the gargoyle has the Card. Challenge after 
+the first visit to the Trabia Garden. (Location: Trabia Garden)
+
+  Quistis - Beat the guy in the cafeteria at the table (Select the man in the 
+back) to receive the Quistis Card. (Location: Balamb Garden)
+
+  Irvine - Additional Part of the Queen of Cards Quest. Defeat Flo at FH to 
+recieve the Irvine Card. (Location: Fisherman's Horizon)
+
+  Zell - Defeat Zell's mother in a game of Cards. (Location: Balamb Garden)
+
+  Rinoa - General Caraway has the card, but never uses it. Intentionally lose 
+the Ifrit Card, and he'll use the Rinoa Card on a regular basis. However...in 
+order to get the Ifrit Card back, you must defeat Martine at the Galbadia 
+Garden.(Location: Deling City)
+
+  Seifer - Headmaster Cid has the Card in his deck. Challenge him at the 
+Balamb Garden or at Edea's House. (Location: Balamb Garden/Edea's House)
+
+  Squall - Laguna has the Squall Card. Defeat him on the Ragnarok before the 
+end of Disc Three.
+(Location: Esthar/Ragnorok)
+
+----------------------------
+
+-Triple Triad Rules-
+--------------------
+
+  Ok...now some of these rules are going to annoy you, but from 
+experience...DO NOT, let the Random Rule get spread....you will lose Cards 
+left and right...sometimes, ones you don't want to lose.
+
+
+  
+  Open Rule: You can see your opponents Cards, but on the downside, they can 
+compensate by seeing your Cards as well. It's a fairly good bet in the 
+earlier Card Games, you'll win with brute force by choosing your higher Cards 
+to use.
+
+  Same Rule: This is a tricky rule to learn. If you have a Card, that matches 
+two adjacent Cards. You'll switch them both to your color. Here is an example:
+
+    4    5
+   7 3  3 5
+    8    5
+
+    8
+   3 7
+    6
+
+  The top-left Card is your Card. The one to the right and below are your 
+opponent's Cards. If you notice, the top-left Card has matching numbers on 
+the right side and bottom. That will change both of the Cards to the right 
+and bottom because of the match, or Same rule.
+
+  Plus Rule: An easier rule to learn. If your Card adds up with two other 
+Cards, you can change the other two Cards in your favor. Here is an Example:
+
+    5    6
+   3 3  1 1
+    3    2
+
+    1
+   5 4
+    1
+
+  The top-left Card is your Card. The one to the right and below are your 
+opponent's Cards. On the right side of your Card and the left side of the 
+opponents right Card add up to the number 4. The bottom portion of your Card 
+and the top number of the opponents bottom Card add to 4 as well. This is 
+known as a Plus. The Cards that you make a solid number with, in this case 4, 
+will turn over in your favor.
+
+  Combo Rule: I'm not sure how to initate this, but I have taken all of the 
+opponents Cards with it. I think it has somethin to do with having a straight 
+number set 1 through 10 on all of the Cards. Difficult at best, it can be 
+turned right around and thrown into your face.
+
+  Elemental Rule: (From DarkPaladinSSU)Some cards have elements strapped to 
+them and when you play Elemental, the spots on the board correspond to the 
+elements of the cards. If you put down a card with the same element as the 
+space, you will get a +1. If it is no element or is the wrong one you will 
+get a -1. The +1 adds 1 point to all of the attributes on your card, North, 
+South, East and West. -1 subtracts 1 from the attributes on your card from 
+all sides as well. The effects aren't permanent but it requires a bit more 
+strategy once you get the hang of it!
+
+  Random Rule: The killer of Card Players. It will aggrivate you to no end. 
+I've lost Cards that I never, ever intended to use, such as Player Cards and 
+GF Cards. You don't get to choose your Cards, the computer does it for you. 
+In most cases, you want to try not to spread the rule around...or you'll run 
+into it more often. Good Luck if you play by this rule.
+
+  
+  Same Wall Rule: I have run into this twice. It works a little like this, if 
+you have matching Cards along an edge of the Triad Board, all of the Cards 
+will fall into your favor, or the opponents depending on who has the third 
+Card drop.
+
+----------------------------
+
+-Side Quest 1: The Queen of Cards-
+----------------------------------
+
+  In order to gain some of the Rare Cards, you must lose some of the Rare 
+Cards that you have to the Card Queen. Once she has the Card that she 
+requests, she will give you a clue to her whereabouts and move to another 
+city and her father will create a new Rare Card based on the one that you 
+gave up in a Card Game to her. Once you have the new Rare Cards, you can win 
+back the Cards that you lost to her in normal fashion. Here is the listing of 
+what Cards come with the forfeit of the Cards the Card Queen requests.
+
+Forfeit    New Card    Location
+-------------------------------
+Mini Mog - Kiros (Can be gained in Deling City from the man in black)
+Sacred - Irvine (Can be gained in Fisherman's Horizon from the mayors wife)
+Doomtrain - Phoenix (Can be gained in Esthar at the Presidential Palace from 
+the Aide)
+Chicobo - Chubby Chocobo (Can be gained in Balamb Garden from the student 
+outside the library)
+Alexander - Doomtrain (Can be gained in Timber from the Pub's owner behind 
+the bar)
+
+
+-Side Quest 2: CC Members-
+--------------------------
+
+  There are 6 members of the CC Group in Balamb Garden. You must go through 
+them in order to get the Carbuncle, Leviathan, and Gilgamesh Cards.
+
+CC Member: Jack
+  Location: Balamb Garden hallway near the Directory. He has no Rare Cards. 
+Defeat him to face Club.
+
+CC Member: Club
+  Location: Balamb Hallway near the Cafeteria. Appears randomly. Has no Rare 
+Cards. Defeat him to face Diamond.
+
+CC Member: Diamond
+  Location: In front of the Balamb Directory. Diamond is actually a pair of 
+girls. No Rare Cards. Defeat them to face Spade.
+
+CC Member: Spade
+  Location: On the second floor next to the elevator. Has no Rare Cards. 
+Defeat him to face Heart.
+
+CC Member: Heart
+  Location: On the bridge, it's Xu, and she has the Carbuncle Card. 
+
+CC Member: Joker
+  Location: In the Training Center of Balamb Garden, he appears randomly, so 
+don't be mad if you don't see him the first time around. He has the Leviathan 
+Card, and will upgrade your Battle Meter to include GF information. You can 
+find him anytime after beating Jack.
+
+CC Member: King
+  Location: Speak with Nida on the bridge and go to the infirmary. Challenge 
+Dr. Kadowaki, after defeating her, she will tell you to find King. Go to your 
+dorm, and sleep, when you awake, King will appear. He has the Gilgamesh Card.
+
+----------------------------
+
+-Side Quest: The UFO Chase-
+---------------------------
+
+ 
+  There are four locations that you need to find, in order, to meet up with 
+the alien. To do this in the easiest way possible, use the GF Ability from 
+Diablos; Enc-None. Start out with the Windhill Bluffs, which is outside of 
+Windhill. The second encounter will happen on Mandy Beach, which is to the 
+south of Timber. The third encounter is on the Kashkabald Desert, an island 
+on the east side of the Centra Ruins. The final encounter will happen on a 
+pennisula, east of Trabia Garden. Now, return to Balamb and search the area 
+where the Garden once stood and you'll meet with the alien: PuPu
+
+
+  When you finally meet with the Alien, he will ask you for an Elixer, make 
+sure that you have several on hand. After 4 or 5, he will give you the PuPu 
+Card. Or, if you wish to be malicious, you can fight the alien, and win an 
+Accelerator, but lose the PuPu Card.
+
+----------------------------
+
+-Credits-
+---------
+
+First and foremost, I wish to thank my girlfriend Mary for showing 
+exceptional patience with me while I've played this game, sorry for all the 
+late nights.
+
+To Squaresoft for an amazing storyline, graphical intensity, and a killer 
+game.
+
+To every Triple Triad player for using this guide to help you in your Card 
+Game. You win some, you lose some.
+
+To DarkPaladinSSU@Hotmail.Com(DPaladin)&
+   lupin@laurentides.net (Arsene Lupin Jr)for their helpful tips with the 
+Elemental Rule. Thanks guys!
+   
+
+©Copyright 1999 to Kasket Darkfyre
+----------------------------
+
+
+

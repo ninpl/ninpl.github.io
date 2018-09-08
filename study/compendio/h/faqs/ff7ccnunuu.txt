@@ -1,0 +1,3469 @@
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    
+         MATERIA FUSION GUIDE
+                      for Crisis Core:  Final Fantasy VII
+                                                      Version 0.5.0
+                                      
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+                                                      Written by Kouryuu/nunuu
+                                              koukoupuffs ~AT~ gmail ~DOT~ com
+                          Crisis Core -Final Fantasy VII- (c) 2007 Square Enix
+
+0============================================================================0
+
+CONTENTS
+========
+Note:  To quick jump to a specific section, do a Find for the section code -- 
+       i.e. the number-letter combination (like 1r) on the right side in this
+       table of contents.
+
+Revisions ............................................................... (1r)
+Read Me First ........................................................... (2r)
+Materia List ............................................................ (1m)
+     Magic Materia .................................................... (1m-m)
+     Command Materia .................................................. (1m-c)
+     Independent Materia .............................................. (1m-i)
+     Support Materia .................................................. (1m-s)
+Introduction to Materia Fusion ...........................................(1f)
+Basic Rules of Fusion ................................................... (2f)
+Materia Classes ......................................................... (3f)
+Materia Product List .................................................... (4f)
+Grade List .............................................................. (5f)
+Fusion List ............................................................. (6f)
+Basics of Raising Attributes ............................................ (7f)
+Items & Accessories
+     The Rules ........................................................   (8f)
+     The Lists ........................................................ (8f-l)
+Tutorial for Getting HP+999%  ........................................... (ex)
+FAQs .................................................................... (1q)
+Acknowledgements ........................................................ (1a)
+
+0============================================================================0
+
+(1r) REVISIONS
+==============
+
+[ 0.5.0 -- April 3, 2008 ]
+
+- Converted all fan-translated Status, Materia, Item, and Parameter names to
+  the official English ones.  Due to this, some of the layout may be a bit
+  messed up.  Rest assured, I'm working on cleaning things up. :3
+- Added info to some Materia in (1m) MATERIA LIST.
+- Added two more rules to (2f) BASIC RULES OF FUSION.
+- Corrected and greatly expanded on the item fusion rule in (2f).
+- For some reason, Energy was missing in the Fusion List (6f) so that's been
+  put in now.
+- Added another SP conversion question in the FAQs (1q).
+- Added the BradyGames strategy guide as a source in the Acknowledgements
+  section (1a).
+
+[ 0.4.0 -- January 7, 2008 ]
+
+- Fixed some information in 2f and 7f.
+- Started Items & Accessories section.  Still gotta fix up the chart a bit.
+- Added Tutorial for Getting HP+999% (ex).
+- added Crisis Core game to the list of Acknowledgements.
+
+[ 0.3.0 -- December 14, 2007 ]
+
+- Completed the Materia Product List (4f).
+
+[ 0.2.1 -- December 7, 2007 ]
+
+- Reduced the version numbers since, at the rate I'm updating, I'm going to
+  end up with something like version 20 or 21 alpha before fully completing
+  the guide. :P
+- Completed the Fusion List (6f).  So now, fans can go wild fusing without
+  worrying of accidentally using up "rare" Materia.
+
+[ 2.0 alpha -- December 2, 2007 ]
+
+- Swapped 4f and 5f around since it didn't seem to make sense to have the
+  Grade List BEFORE the Product List.
+- Filled in all the cost & description info and whether or not a Materia can
+  be obtained through fusion for the Materia List in (1m).
+- Completed the Grade List (5f).
+- 6 classes now have complete equations and results in the Materia Product
+  List section (4f).
+- Some of the more sought after fusions are now available under (6f) FUSION
+  LIST.
+
+[ 1.1 alpha -- November 27, 2007 ]
+
+- Made some minor corrections here and there.
+- Added some more info to 1f.
+- Started on (5f) GRADE LIST.
+- Added (1q) FAQs.
+
+[ 1.0 alpha -- November 22, 2007 ]
+
+- Just started. :3  Only sections 3f, 7f, and 1a are complete.  1m is partial-
+  ly complete.
+
+0============================================================================0
+
+(2r) READ ME FIRST
+==================
+   
+This section contains important info about this file!  Please read this
+thoroughly before e-mailing since if your questions are answered in this file,
+I will *NOT* reply.
+
+1)  I am NOT affiliated with Square Enix.  I am merely a fan of their works
+    and as such, it should be noted that this guide is a non-profit, fan-made
+    piece of work.  It is all right to post this at your site but it is NOT
+    all right to modify it in any way, sell it, or to claim ownership over
+    it.
+
+2)  This guide was initially written before the English version of the game
+    came out.  I have since changed all the fan-translated Materia, Item,
+    and Parameter names to the official ones.  However, I left in some origi-
+    nal Japanese text for the benefit of those playing the Japanese version
+    (plus it's more work than it's worth to remove all the kanji and kana.
+    :P)
+
+3)  For the charts, you may want to consider printing them out on separate
+    sheets of paper since it'll make for more easy reading and referencing
+    than scrolling up and down on the computer screen.
+
+4)  It really helps if you know the basic mechanics of the game before per-
+    using this file -- specifically, HOW to equip and use Materia.
+
+5)  The items and accessories in this guide only list their grade level and
+    the quantity required for fusion.  Since this is NOT an items and/or
+    accessories guide, I WILL NOT go into detail as to WHAT they do and WHERE
+    you can find them.  Please refer to other guides for that information.
+    
+6)  DO NOT write to me asking for the easiest way to get Zack's defense up to
+    255 or anything to that effect.  You will be wasting your time since the
+    purpose of this guide is to GIVE YOU the knowledge to achieve what you
+    want from Materia fusions.  Whether there are shortcuts or not, go dis-
+    cover them yourself.
+    
+7)  To see the gibberish text in this file, you'll have to switch your brow-
+    ser's character encoding to Japanese Shift-JIS or use a text editor capa-
+    ble of displaying Shift-JIS.
+
+8)  My e-mail address is at the top of this document underneath the title. To
+    e-mail me, substitute the ~AT~ and ~DOT~ with their respective symbols.
+    Corrections, additions, critiques, and compliments are welcomed.
+
+0============================================================================0
+
+(1m) MATERIA LIST 
+==================
+
+Materia are your ticket to success in this game.  Of course, you CAN go
+through the entire game without equipping any but why be so masochistic?
+With Materia, you can cast magic, use special skills, enhance stats, and a
+whole lot more which makes your life and Zack's life a heck of a lot easier
+in the long run.
+
+There are a total of 143 obtainable Materia in the game and they are divided
+onto 4 categories:  Magic, Command, Independent, and Support.
+
+Magic type Materia can be offensive, restorative, or defensive.  Their colours
+are dark green, green, yellow respectively.
+
+Command Materia enable Zack perform various physical techniques as well as
+allow him to steal and hurl money at enemies.  Contrary to what you might
+think, the money being chucked at enemies is used to hurt them, not pay them.
+These Materia are bronze and gold in colour.
+
+The third category is Independent Materia.  They come in two shades of purple
+and these ones help Zack by either boosting his stats, grant him the ability
+to double cast magic, increase his running speed around the battlefield, or
+make certain DMW reels appear more often.
+
+Finally, there are Support Materia (dark and light blue).  Most of these
+consist of attacking with or defending against status effects and attributes
+as well as SP expenditure to help with offense and defense.  Oh, the Materia
+that lets you peep at the enemy's HP is also in this group.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                            !
+! How to read the list:                                                      !
+! -------------------------------------------------------------------------  !
+! Name of Materia | Name of Materia in Japanese | Default Parameter | Cost*  !
+! -------------------------------------------------------------------------  !
+! Description of the Materia                                                 !
+! Where it can be obtained**                                                 !
+! Whether or not it could be created through fusion***                       !
+!                                                                            !
+! * Not all Materia can be purchased at a store so if you don't see a value  !
+! then it's a Materia that can only be found, won, stolen, or obtained       !
+! through fusion.                                                            !
+!                                                                            !
+! ** These are just SOME of the places and enemies that have the Materia.    !
+!                                                                            !
+! *** For fusions, see (6f) FUSION LIST                                      !
+!                                                                            !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+Notes!
+- The following list will be the only time you will see the Japanese names
+  of the Materia so if you have to search further in this file, search
+  with the English name.
+- All Materia are listed in their default arrangements in the Materia menu.
+  So, sorry, no alphabetical order. :P
+
+
+(1m-m) MAGIC MATERIA
+~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
+Fire | ファイア | MAG (魔力) | 1000 Gil
+---------------------------------------
+Description:  Cast 1 fireball at an enemy.
+Shop:  調査課支援室
+Story Map:  Shinra Building Floor 67
+Mission:  5-1-1, 9-3-4
+Drop:  ウータイ 兵長 (rare), Remedy Bomb (rare)
+Steal:  Foulander (rare), Bandersnatch
+Made with fusion?:  Yes
+
+-------------------------------------------
+Blizzard | ブリザド | MAG (魔力) | 1000 Gil
+-------------------------------------------
+Description:  Drop a small block of ice over on ene-
+              mies.  Will most likely NOT hit more
+              than one enemy.
+              May inflict Stun status effect.
+Shop:  調査課支援室
+Story Map:  Shinra Building Floor 67
+Mission:  7-2-1. 10-2-1
+Drop:  ウータイ 士卒, G-Diver (rare), Sahagin
+Steal:  A Sahagin (rare), Sahagin
+Made with fusion?:  Yes
+
+------------------------------------------
+Thunder | サンダー | MAG (魔力) | 1000 Gil
+------------------------------------------
+Description:  Shoot 2 bolts of lighting.
+              Could hit more than one enemy.
+Shop:  調査課支援室
+Story Map:  Shinra Building Floor 67
+Mission:  8-1-2, 4-1-4
+Drop:  ウータイ 曹長 (rare), Thunderbird
+Steal:  雷神鳥 (rare), Needle Kiss
+Made with fusion?:  Yes
+
+----------------------------------------
+Fira | ファイラ |  MAG (魔力) | 3000 Gil
+----------------------------------------
+Description:  Cast 2 fireballs.  May be homing.
+              Could hit more than one enemy.
+Shop:  かめ道楽本舗
+Story Map:  N/A
+Mission:  6-1-5, 6-2-4, 8-2-6
+Drop:  Bahan (rare), Shumba, Barahorow, Mine (rare)
+Steal:  Bahan
+Made with fusion?:  Yes
+
+* Note: Bahan, Shumba, and Barahorows are all vari-
+ations of the Bandersnatch.  They all look the same
+but the difference is their levels. *
+
+-------------------------------------------
+Blizzara | ブリザラ | MAG (魔力) | 3000 Gil 
+-------------------------------------------
+Description:  Drop a medium block of ice on enemies.
+              May inflict Stun status effect.
+Shop:  かめ道楽本舗
+Story Map:  Modeoheim
+Mission:  7-1-5, 7-1-6, 9-3-4
+Drop:  G Mariner (rare), Water Knight,
+       Experiment specimen No. 112, Grenade
+Steal:  Sahagin (rare)
+Made with fusion?:  Yes
+
+-------------------------------------------
+Thundara | サンダラ | MAG (魔力) | 3000 Gil
+-------------------------------------------
+Description:  Shoot more bolts of lightning.
+              Could hit more than one enemy.
+Shop:  かめ道楽本舗
+Story Map:  N/A
+Mission:  3-2-3, 7-2-3
+Drop:  Needle Kiss (rare), Bahamut Reitsu (under a
+       certain condition?)
+Steal:  N/A
+Made with fusion?:  Yes
+
+------------------------------------------
+Firaga | ファイガ | MAG (魔力) | 10000 Gil
+------------------------------------------
+Description:  Cast 3 fireballs.  May be homing.
+              Could hit more than one enemy.
+Shop:  調査課極秘支援室
+Made with fusion?:  Yes
+
+--------------------------------------------
+Blizzaga | ブリザガ | MAG (魔力) | 10000 Gil
+--------------------------------------------
+Description:  Drop a large block of ice on enemies.
+              May inflict Stun status effect.
+Shop:  調査課極秘支援室
+Made with fusion?:  Yes
+
+--------------------------------------------
+Thundaga | サンダガ | MAG (魔力) | 10000 Gil
+--------------------------------------------
+Description:  Shoot even more bolts of lightning.
+              Could hit more than one enemy.
+Shop:  調査課極秘支援室
+Made with fusion?:  Yes
+
+----------------------------------------
+Cure | ケアル | SPR (精神) | 1000 Gil
+----------------------------------------
+Description:  Restore some HP.
+Made with fusion?:  Yes
+
+------------------------------------------
+Cura | ケアルラ | SPR (精神) | 3000 Gil
+------------------------------------------
+Description:  Restore more HP.
+Made with fusion?:  Yes
+
+---------------------------------
+Curaga | ケアルガ | SPR (精神)
+---------------------------------
+Description:  Restore lots of HP.
+Made with fusion?:  Yes
+
+------------------------------------
+Full Cure | フルケア | SPR (精神)
+------------------------------------
+Description:  Restore all HP.
+Made with fusion?:  No
+
+-------------------------------------------
+Regen | リジェネ | SPR (精神) | 5000 Gil
+-------------------------------------------
+Description:  Slowly regain HP over time.
+Made with fusion?:  Yes
+
+-----------------------------------------
+Esuna | エスナ | SPR (精神) | 3000 Gil
+-----------------------------------------
+Description:  Removes status effects Poison
+              and Curse.  Common sense should
+              tell you that if Zack is Silenced,
+              Stunned, or Stopped
+              he can't cast this or any magic.
+Made with fusion?:  Yes
+
+--------------------------------------------
+Dispel | デスペル | SPR (精神) | 5000 Gil
+--------------------------------------------
+Description:  Removes status buffs (such as
+              Barrier, MBarrier, Regen, etc.
+              from an enemy.)
+Made with fusion?:  Yes
+
+-------------------------------------------
+Barrier | バリア | SPR (精神) | 4000 Gil
+-------------------------------------------
+Description:  Reduce physical attack damage
+              for a period of time.  Also known
+              as Protect. 
+Made with fusion?:  Yes
+
+----------------------------------------------
+MBarrier | マバリア | SPR (精神) | 4000 Gil
+----------------------------------------------
+Description:  Reduce magic attack damage for
+              a period of time.  Also known as
+              Shell.
+Made with fusion?:  Yes
+
+-------------------------------
+Wall | ウォール | SPR (精神)
+-------------------------------
+Description:  Reduce physical and magic attack
+              damage for a period of time.
+Made with fusion?:  Yes
+
+--------------------------------
+Drain | ドレイン | HP | 5000 Gil
+--------------------------------
+Description:  Absorb some HP from an enemy.
+Made with fusion?:  Yes
+
+-----------------------
+Drainra | ドレイラ | HP
+-----------------------
+Description:  Absorb more HP from an enemy.
+Made with fusion?:  Yes
+
+-----------------------------------
+Drainga | ドレイガ | HP | 18000 Gil
+-----------------------------------
+Description:  Absorb lots of HP from an enemy.
+Made with fusion?:  Yes
+
+---------------------------------
+Osmose | アスピル | MP | 4000 Gil
+---------------------------------
+Description:  Absorb some MP from an enemy.
+Made with fusion?:  Yes
+
+-----------------------
+Osmoga | アスピガ | MP
+-----------------------
+Description:  Absorb lots of MP from an enemy.
+Made with fusion?:  Yes
+
+-----------------------------------------
+Poison | ポイズン | MAG (魔力) | 1000 Gil
+-----------------------------------------
+Description:  Reduce an enemy's HP over a period
+              of time.
+Made with fusion?:  Yes
+
+--------------------------------------------------
+Silence | サイレス | MAG (魔力) | 1000 Gil
+--------------------------------------------------
+Description:  Prevent an enemy from casting magic
+              and using abilities(?).
+Made with fusion?:  Yes
+
+------------------------------------
+Stop | ストップ | MAG (魔力)
+------------------------------------
+Description:  Briefly prevent an enemy from moving
+              and attacking.
+Made with fusion?:  Yes
+
+---------------------------------
+Death | デス | MAG (魔力)
+---------------------------------
+Description:  Instantly kill one enemy.
+Made with fusion?:  Yes
+
+-----------------------------------------------
+Dark Fire | ダークファイア | MAG (魔力)
+-----------------------------------------------
+Description:  Like Fire except it can inflict Poison
+              and Silence.
+Made with fusion?:  Yes
+
+---------------------------------------------------
+Dark Blizzard | ダークブリザド | MAG (魔力)
+---------------------------------------------------
+Description:  Like Blizzard except it can inflict
+              Poison and Silence as well.
+Made with fusion?:  Yes
+
+--------------------------------------------------
+Dark Thunder | ダークサンダー | MAG (魔力)
+--------------------------------------------------
+Description:  Like Thunder except it can inflict
+              Poison and Silence.
+Made with fusion?:  Yes
+
+-----------------------------------------------
+Dark Fira | ダークファイラ | MAG (魔力)
+-----------------------------------------------
+Description:  Like Fira except it can inflict Poison
+              and Silence.
+Made with fusion?:  Yes
+
+---------------------------------------------------
+Dark Blizzara | ダークブリザラ | MAG (魔力)
+---------------------------------------------------
+Description:  Like Blizzara except it can inflict Poison
+              and Silence as well.
+Made with fusion?:  Yes
+
+---------------------------------------------------
+Dark Thundara | ダークサンダラ | MAG (魔力)
+---------------------------------------------------
+Description:  Like Thundara except it can inflict Poison
+              and Silence.
+Made with fusion?:  Yes
+
+-------------------------------------------------
+Dark Firaga | ダークファイガ | MAG (魔力)
+-------------------------------------------------
+Description:  Like Firaga except it can inflict Poison
+              and Silence.
+Made with fusion?:  Yes
+
+---------------------------------------------------
+Dark Blizzaga | ダークブリザガ | MAG (魔力)
+---------------------------------------------------
+Description:  Like Blizzaga except it can inflict Poison
+              and Silence as well.
+Made with fusion?:  Yes
+
+---------------------------------------------------
+Dark Thundaga | ダークサンダガ | MAG (魔力)
+---------------------------------------------------
+Description:  Like Thundaga except it can inflict Poison
+              and Silence.
+Made with fusion?:  Yes
+
+-----------------------------------------------------------
+Hell Firaga | ヘルファイガ | MAG (魔力) | 15000 Gil
+-----------------------------------------------------------
+Description:  Like Firaga except it can inflict Poison, Silence,
+              Stop, and Death.
+Made with fusion?:  Yes
+
+-------------------------------------------------------------
+Hell Blizzaga | ヘルブリザガ | MAG (魔力) | 15000 Gil
+-------------------------------------------------------------
+Description:  Like Blizzaga except it can inflict Poison, Silence,
+              Stop, and Death as well.
+Made with fusion?:  Yes
+
+-------------------------------------------------------------
+Hell Thundaga | ヘルサンダガ | MAG (魔力) | 15000 Gil
+-------------------------------------------------------------
+Description:  Like Thundaga except it can inflict Poison, Silence,
+              Stop, and Death.
+Made with fusion?:  Yes
+
+---------------------------------------
+Gravity | グラビデ | MAG (魔力)
+---------------------------------------
+Description:  Reduce enemy HP by 25%.  Can affect more than
+              one enemy.
+Made with fusion?:  Yes
+
+---------------------------------------------------
+Graviga | グラビガ | MAG (魔力) | 15000 Gil
+---------------------------------------------------
+Description:  Reduce enemy HP by 50%.  Can affect more than one
+              enemy.
+Made with fusion?:  Yes
+
+---------------------------------------------
+Quake | クエイク | MAG (魔力) | 18000
+---------------------------------------------
+Description:  Create an earthquake to damage enemies
+              within its area of effect.  Does not
+              affect aerial monsters (duh).
+Made with fusion?:  Yes
+
+-------------------------------
+Tri-Thundaga | 3連サンダガ | MP
+-------------------------------
+Description:  Shoot bolts of lightning that disperse
+              outward in three lines.
+Made with fusion?:  Yes
+
+---------------------------
+Tri-Fire | 3連ファイア | MP
+---------------------------
+Description:  It looks and acts like Firaga but does more
+              damage.
+Made with fusion?:  Yes
+
+-----------------------
+Electrocute | 電撃 | MP
+-----------------------
+Description:  Call down lightning strikes in the
+              surrounding area.  Ideal for close encoun-
+              ters/melee enemies.
+Made with fusion?:  Yes
+
+-------------------
+Flare | フレア | MP
+-------------------
+Description:  Destroy enemies with a flash of blinding orange
+              light.  Affects entire area.  Also can take a
+              bit longer to cast.
+              Cannot be used with Dualcast.
+Made with fusion?:  Yes
+
+----------------------
+Energy | エナジー | MP
+----------------------
+Description:  Shoot a ball of light that can hit multiple times.
+              Can be homing.  Can affect more than one enemy.
+Made with fusion?:  Yes
+
+----------------------
+Ultima | アルテマ | MP
+----------------------
+Description:  Destroy enemies with a flash of blinding blue
+              light.  Affects entire area.  Charge time is
+              the longest out of all Magic Materia.
+              Cannot be used with Dualcast.
+Made with fusion?:  Yes
+
+                                  *******
+
+(1m-c) COMMAND MATERIA
+~~~~~~~~~~~~~~~~~~~~~~
+--------------------
+Darkness | 暗黒 | HP
+--------------------
+Description:  Zack consumes 1/8th of his own HP to damage nearby
+              enemies.  This is one of the very few Materia that
+              cares not for an enemy's Vitality stat.
+Made with fusion?:  Yes
+
+-------------------------------
+Jump | ジャンプ | ATK (力)
+-------------------------------
+Description:  A jump attack that deals extra damage to
+              one enemy.  Zack cannot be hit while
+              off-screen/in the air.
+Made with fusion?:  Yes
+
+----------------------------------------
+High Jump | ハイジャンプ | ATK (力)
+----------------------------------------
+Description:  A jump attack that deals more damage than
+              Jump to one enemy.  Zack cannot be hit while
+              off-screen/in the air.
+Made with fusion?:  Yes
+
+-------------------------------------------
+Poison Aerial | スカイポイズン | ATK (力)
+-------------------------------------------
+Description:  A jump attack that inflicts Poison on
+              one enemy.  Zack cannot be hit while
+              off-screen/in the air.
+             
+Made with fusion?:  Yes
+
+-----------------------------------------------
+Silence Aerial | スカイサイレス | ATK (力)
+-----------------------------------------------
+Description:  A jump attack that inflicts Silence on
+              one enemy.  Zack cannot be hit while
+              off-screen/in the air.
+Made with fusion?:  Yes
+
+-----------------------------------------
+Death Jump | 死のジャンプ | ATK (力)
+-----------------------------------------
+Description:  A jump attack that inflicts Death on
+              one enemy.  Zack cannot be hit while
+              off-screen/in the air.
+Made with fusion?:  Yes
+
+------------------------------------------
+Assault Twister | 回転攻撃 | ATK (力)
+------------------------------------------
+Description:  A spin attack that hits multiple enemies nearby.
+Made with fusion?:  Yes
+
+-----------------------------------------------
+Assault Twister+ | 回転攻撃・改 | ATK (力)
+-----------------------------------------------
+Description:  Would you believe it's a stronger version
+              of Assault Twister?  No?  Well, it is.  Hits
+              multiple enemies.
+Made with fusion?:  Yes
+
+-----------------------------------------------
+Poison Twister | ポイズンターン | ATK (力)
+-----------------------------------------------
+Description:  A spin attack that poisons enemies.
+Made with fusion?:  Yes
+
+---------------------------------------------
+Stop Twister | ストップターン | ATK (力)
+---------------------------------------------
+Description:  A spin attack that stops enemies.
+Made with fusion?:  Yes
+
+------------------------------------------
+Death Twister | デスターン | ATK (力)
+------------------------------------------
+Description:  A spin attack that instantly kills enemies.
+Made with fusion?:  Yes
+
+---------------------------------------------
+Power Attack | パワーアタック | ATK (力)
+---------------------------------------------
+Description:  Strong sword attack that can cause Stun.
+Made with fusion?:  Yes
+
+--------------------------------------
+Vital Slash | 急所斬り | ATK (力)
+--------------------------------------
+Descriptions:  Strong sword attack that does Critical damage.
+Made with fusion?:  Yes
+
+---------------------------------------
+Exploder Blade | 爆裂剣 | ATK (力)
+---------------------------------------
+Description:  Strong sword attack that creates a shockwave
+              upon impact.  Can hit multiple enemies.
+Made with fusion?:  Yes
+
+--------------------------------------
+Blast Wave | ふきとばし | ATK (力)
+--------------------------------------
+Description:  Strong sword attack that can send an enemy
+              or enemies flying out of the battlefield.
+Made with fusion?:  Yes
+
+-----------------------------------------
+Poison Blade | ポイズン剣 | ATK (力)
+-----------------------------------------
+Description:  Sword attack that causes Poison.
+Made with fusion?:  Yes
+
+------------------------------------------
+Silence Blade | サイレス剣 | ATK (力)
+------------------------------------------
+Description:  Sword attack that causes Silence.
+Made with fusion?:  Yes
+
+---------------------------------------
+Stop Blade | ストップ剣 | ATK (力)
+---------------------------------------
+Description:  Sword attack that causes Stop.
+Made with fusion?:  Yes
+
+------------------------------------
+Death Blade | 死の剣 | ATK (力)
+------------------------------------
+Description:  Sword attack that causes Death.
+Made with fusion?:  Yes
+
+----------------------------------------------
+Dispel Blade | デスペル剣 | MAG (魔力)
+----------------------------------------------
+Description:  Sword attack that can remove enemy buffs.
+Made with fusion?:  Yes
+
+------------------------------------------------
+Fire Blade | 魔法剣ファイア | MAG (魔力)
+------------------------------------------------
+Description:  Sword attack that ends with a shockwave
+              of fire.  Can affect multiple enemies.
+Made with fusion?:  Yes
+
+----------------------------------------------------
+Blizzard Blade | 魔法剣ブリザド | MAG (魔力)
+----------------------------------------------------
+Description:  Sword attack that ends with a shockwave
+              of ice.  Can affect multiple enemies.
+Made with fusion?:  Yes
+
+-------------------------------------------------
+Thunder Blade | 魔法剣サンダー MAG (魔力)
+-------------------------------------------------
+Description:  Sword attack that ends with a shockwave
+              with lightning.  Can affect multiple
+              enemies.
+Made with fusion?:  Yes
+
+------------------------------------------------
+Fira Blade | 魔法剣ファイラ | MAG (魔力)
+------------------------------------------------
+Description:  Sword attack that ends with a shockwave
+              of fire.  Can affect multiple enemies.
+
+Made with fusion?:  Yes
+
+----------------------------------------------------
+Blizzara Blade | 魔法剣ブリザラ | MAG (魔力)
+----------------------------------------------------
+Description:  Sword attack that ends with a shockwave
+              of ice.  Can affect multiple enemies.
+Made with fusion?:  Yes
+
+----------------------------------------------------
+Thundara Blade | 魔法剣サンダラ | MAG (魔力)
+----------------------------------------------------
+Description:  Sword attack that ends with a shockwave
+              w/ lightning.  Can affect multiple enemies.
+Made with fusion?:  Yes
+
+------------------------------------------------------
+Firaga Blade | 魔法剣ファイガ | MAG (魔力) | 10000 Gil
+------------------------------------------------------
+Description:  Sword attack that ends with a shockwave of fire.
+              Can affect multiple enemies.
+Made with fusion?:  Yes
+
+--------------------------------------------------------
+Blizzaga Blade | 魔法剣ブリザガ | MAG (魔力) | 10000 Gil
+--------------------------------------------------------
+Description:  Sword attack that ends with a shockwave of ice.
+              Can affect multiple enemies.
+Made with fusion?:  Yes
+
+---------------------------------------------------------
+Thundaga Blade | 魔法剣サンダガ |  MAG (魔力) | 10000 Gil
+---------------------------------------------------------
+Description:  Sword attack that ends with a shockwave w/ lightning.
+              Can affect multiple enemies.
+Made with fusion?:  Yes
+
+-----------------------------------------
+Drain Blade | ドレイン剣 | HP | 10000 Gil
+-----------------------------------------
+Description:  Sword attack that absorbs some enemy HP.
+Made with fusion?:  Yes
+
+---------------------------------------------
+Power Drain | パワードレイン | HP | 14000 Gil
+---------------------------------------------
+Description:  Strong sword attack that absorbs some
+              enemy HP.
+Made with fusion?:  Yes
+
+-------------------------------------------
+Sky Drain | スカイドレイン | HP | 18000 Gil
+-------------------------------------------
+Description:  Zack jumps up and then comes down.  He
+              ends up stealing some enemy HP with his
+              sword in the process.
+Made with fusion?:  Yes
+
+-----------------------------
+Osmose Blade | アスピル剣 | MP
+-----------------------------
+Description:  With his weapon, Zack takes enemy MP.
+Made with fusion?:  Yes
+
+--------------------------------
+Power Osmose | パワーアスピル | MP
+--------------------------------
+Description:  Strong sword attack that gobbles enemy
+              MP.
+Made with fusion?:  Yes
+
+-----------------
+Steal | 盗む | AP
+-----------------
+Description:  Zack robs an enemy of one of its possessions
+              that it so obviously does not need.
+Made with fusion?:  Yes
+
+-------------------
+Mug | ぶんどる | AP
+-------------------
+Description:  Steal an item and attack at the same time!
+              What a deal!
+Made with fusion?:  Yes
+
+---------------------------------
+Gil Toss | 銭投げ | ATK (力)
+---------------------------------
+Description:  Throw money to hurt enemies multiple times (i.e. up to
+              five times).  Tons of Gil in Zack's wallet = tons of
+              damage to enemies.  Unfortunately, it also means his wallet
+              will go empty very quickly since the amount of Gil lost in
+              chucking it at enemies is FIVE TIMES the damage dealt
+              with EACH hit.
+Made with fusion?:  Yes
+
+---------------------------------------------
+Goblin Punch | ゴブリンパンチ | ATK (力)
+---------------------------------------------
+Description:  Give an enemy a good ol' punch in the gut!
+Made with fusion?:  Yes
+
+--------------------------------------
+Iron Fist | 鉄拳パンチ | ATK (力)
+--------------------------------------
+Description:  A punch that does not take enemy defense into
+              consideration.  Note that some enemies are
+              immune or take no damage from this.
+Made with fusion?:  Yes
+
+-----------------------------------
+Magical Punch | マジカルパンチ | MP
+-----------------------------------
+Description:  A punch that does not take enemy defense into
+              consideration.  Consumes MP.  The more MP Zack has,
+              the greater the damage.  Note that some enemies are
+              immune or take no damage from this.
+Made with fusion?:  Yes
+
+----------------------------------
+Hammer Punch | ハンマーパンチ | AP
+----------------------------------
+Description:  A punch that does not take enemy defense into
+              consideration.  Consumes AP.  The more AP Zack has,
+              the greater the damage.  Note that some enemies
+              are immune or take no damage from this.
+Made with fusion?:  Yes
+              
+-------------------------------------------
+Costly Punch | すてみパンチ | ATK (力)
+-------------------------------------------
+Description:  Like the three punches above, enemy defense means
+              nothing.  Consumes HP.  Will increase in damage the
+              lower Zack's HP is.
+
+              This Materia is also a bit of a gamble though as
+              once Zack's HP reaches 1.11 times above his cur-
+              rent maximum HP, he will do 0 damage.  So basi-
+              cally, anytime HP goes into BREAK mode, just let
+              Zack take a beating so his health goes back to
+              or below the max HP and he'll dish out major
+              damage.
+              
+              If HP is in BREAK outside of battle, unequip Ma-
+              teria or accessories that are boosting HP to bring
+              his hitpoints back down.  Remember to re-equip them
+              though. :P
+Made with fusion?:  Yes
+
+                                  *******
+
+(1m-i) INDEPENDENT MATERIA
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
+HP Up | HPアップ | HP | 1000 Gil
+--------------------------------
+Description:  Can raise HP up to a max of 50% (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------
+HP Up+ | HPアップ改 | HP
+-------------------------
+Description:  Can raise HP up to a max of 100% (at Master
+              level).
+Made with fusion?:  Yes
+
+---------------------------
+HP Up++ | HPアップ改弐 | HP
+---------------------------
+Description:  Can raise HP up to a max of 150% (at Master
+              level).
+Made with fusion?:  Yes
+
+--------------------------------
+MP Up | MPアップ | MP | 1000 Gil
+--------------------------------
+Description:  Can raise MP up to a max of 50% (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------
+MP Up+ | MPアップ改 | MP
+-------------------------
+Description:  Can raise MP up to a max of 100% (at Master
+              level).
+Made with fusion?:  Yes
+
+---------------------------
+MP Up++ | MPアップ改弐 | MP
+---------------------------
+Description:  Can raise MP up to a max of 150% (at Master
+              level).
+Made with fusion?:  Yes
+
+--------------------------------
+AP Up | APアップ | AP | 1000 Gil
+--------------------------------
+Description:  Can raise AP up to a max of 50% (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------
+AP Up+ | APアップ改 | AP
+-------------------------
+Description:  Can raise AP up to a max of 100% (at Master
+              level).
+Made with fusion?:  Yes
+
+---------------------------
+AP Up++ | APアップ改弐 | AP
+---------------------------
+Description:  Can raise AP up to a max of 150% (at Master
+              level).
+Made with fusion?:  Yes
+
+--------------------------------------------
+ATK Up | 力アップ | ATK (力) | 1000 Gil
+--------------------------------------------
+Description:  Can raise Strength up to a max of 9 (at Master
+              level).
+Made with fusion?:  Yes
+
+-----------------------------------
+ATK Up+| 力アップ改 | ATK (力)
+-----------------------------------
+Description:  Can raise Strength up to a max of 12 (at Master
+              level).
+Made with fusion?:  Yes
+
+--------------------------------------
+ATK Up++| 力アップ改弐 | ATK (力)
+--------------------------------------
+Description:  Can raise Strength up to a max of 19 (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------------------------------
+VIT Up | 体力アップ | VIT (体力) |  1000 Gil
+-------------------------------------------------
+Description:  Can raise Vitality up to a max of 9 (at Master
+              level).
+Made with fusion?:  Yes
+
+----------------------------------------
+VIT Up+ | 体力アップ改 | VIT (体力)
+----------------------------------------
+Description:  Can raise Vitality up to a max of 12 (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------------------------
+VIT Up++ | 体力アップ改弐 | VIT (体力)
+-------------------------------------------
+Description:  Can raise Vitality up to a max of 19 (at Master
+              level).
+Made with fusion?:  Yes
+
+-----------------------------------------------------------
+MAG Up | 魔力アップ | MAG (魔力) | 1000 Gil
+-----------------------------------------------------------
+Description:  Can raise Magic Power up to a max of 9 (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------------------------
+MAG Up+ | 魔力アップ改 | MAG (魔力)
+-------------------------------------------
+Description:  Can raise Magic Power to a max of 12 (at Master
+              level).
+Made with fusion?:  Yes
+
+----------------------------------------------
+MAG Up++ | 魔力アップ改弐 | MAG (魔力)
+----------------------------------------------
+Description:  Can raise Magic Power up to a max of 19 (at Master
+              level).
+Made with fusion?:  Yes
+
+----------------------------------------------
+SPR Up | 精神アップ | SPR (精神) | 1000 Gil
+----------------------------------------------
+Description:  Can raise Spirit up to a max of 9 (at Master
+              level).
+Made with fusion?:  Yes
+
+--------------------------------------
+SPR Up+ | 精神アップ改 | SPR (精神)
+--------------------------------------
+Description:  Can raise Spirit up to a max of 12 (at Master
+              level).
+Made with fusion?:  Yes
+
+------------------------------------------
+SPR Up++ | 精神アップ改弐  | SPR (精神)
+-----------------------------------------
+Description:  Can raise Spirit up to a max of 19 (at Master
+              level).
+Made with fusion?:  Yes
+
+-------------------------------
+Dash | ダッシュ | AP | 5000 Gil
+-------------------------------
+Description:  Allows Zack to run around the battlefield quickly.
+              Equipping the Dash Materia negates Block as you
+              use the Triangle button to perform a dash. 
+Made with fusion?:  No
+
+--------------------------------------
+Dualcast | れんぞくま | MP | 30000 Gil
+--------------------------------------
+Description:  Cast magic twice in succession excluding Flare and
+              Ultima.
+Made with fusion?:  No
+
+----------------------------------
+Smart Consumer | アイテム達人 | AP
+----------------------------------
+Description:  Increases the potency of recovery items.
+Made with fusion?:  Yes
+
+------------------------------------------------
+Octaslash | 八刀一閃 | ATK (力) | 10000 Gil
+------------------------------------------------
+Description:  Increases the chances of getting Sephiroth among
+              the DMW reels.
+Made with fusion?:  No
+
+---------------------------------------------------------
+Rush Assault | ハードラッシュ | ATK (力) | 10000 Gil
+---------------------------------------------------------
+Description:  Increases the chances of getting Angeal among the
+              DMW reels.
+Made with fusion?:  No
+
+---------------------------------------------------------
+Air Strike | エアストライク | VIT (体力) | 10000 Gil
+---------------------------------------------------------
+Description:  Increases the chances of getting Tseng among the
+              DMW reels.
+Made with fusion?:  No
+
+----------------------------------------------------------
+Meteor Shot | メテオショット | VIT (体力) | 10000 Gil
+----------------------------------------------------------
+Description:  Increases the chances of getting Cloud among the
+              DMW reels.
+Made with fusion?:  No
+
+-------------------------------------------------------
+Healing Wave | いやしの波動 | SPR (精神) | 10000 Gil
+-------------------------------------------------------
+Description:  Increases the chances of getting Aerith among the
+              DMW reels.
+Made with fusion?:  No
+
+--------------------------------------------------------
+Lucky Stars | ラッキースター | SPR (精神) | 10000 Gil
+--------------------------------------------------------
+Description:  Increases the chances of getting Cissnei among the
+              DMW reels.
+Made with fusion?:  No
+
+-----------------------------------------------------------
+Apocalypse | アポカリプス |  MAG (魔力) | 10000 Gil
+-----------------------------------------------------------
+Description:  Increases the chances of getting Genesis among the
+              DMW reels.
+Made with fusion?:  No
+
+-------------------------------------------------
+Hellfire | 地獄の火炎 | ATK (力) | 10000 Gil
+-------------------------------------------------
+Description:  Increases the chances of getting Ifrit among the
+              DMW reels.
+Made with fusion?:  No
+
+-------------------------------------------------------
+Megaflare | メガフレア | MAG (魔力) | 10000 Gil
+-------------------------------------------------------
+Description:  Increases the chances of getting Bahamut among the
+              DMW reels.
+Made with fusion?:  No
+
+--------------------------------------------------
+Zantetsuken | 斬鉄剣 | VIT (体力) | 10000 Gil
+--------------------------------------------------
+Description:  Increases the chances of getting Odin among the
+              DMW reels.
+Made with fusion?:  No
+
+----------------------------------------------------
+Rebirth Flame | 転生の炎 | SPR (精神) | 10000 Gil
+----------------------------------------------------
+Description:  Increases the chances of getting Phoenix among the
+              DMW reels.
+Made with fusion?:  No
+
+--------------------------------------------------------
+Exaflare | エクサフレア | MAG (魔力) | 10000 Gil
+--------------------------------------------------------
+Description:  Increases the chances of getting Bahamut Fury
+              among the DMW reels.
+Made with fusion?:  No
+
+-----------------------------------------------
+Chocobo Stomp | チョコボキック | AP | 10000 Gil
+-----------------------------------------------
+Description:  Increases the chances of getting Chocobo among
+              the DMW reels.
+Made with fusion?:  No
+
+--------------------------------------
+1000 Needles | 針千本 | AP | 10000 Gil
+--------------------------------------
+Description:  Increases the chances of getting Cactuar among
+              the DMW reels.
+Made with fusion?:  No
+
+----------------------------------------------
+Murderous Thrust | 殺意の一撃 | HP | 10000 Gil
+----------------------------------------------
+Description:  Increases the chances of getting Tonberry among
+              the DMW reels.
+Made with fusion?:  No
+
+--------------------------------------------
+Courage Boost! | 勇気百倍！ | MP | 10000 Gil
+--------------------------------------------
+Description:  Increases the chances of getting Cait Sith among
+              the DMW reels.
+Made with fusion?:  No
+
+----------------------------------------------
+Moogle Power | モーグリパワー | MP | 10000 Gil
+----------------------------------------------
+Description:  Increases the chances of getting Moogle among
+              the DMW reels.
+Made with fusion?:  No
+
+-------------------------------------------
+Item Mugger | アイテム強奪 | HP | 10000 Gil
+-------------------------------------------
+Description:  Increases the chances of getting Magic Pot among
+              the DMW reels.
+Made with fusion?:  Yes
+
+                                  *******
+
+(1m-s) SUPPORT MATERIA
+~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
+Libra | ライブラ | ATK (力) | 1000 Gil
+-------------------------------------------
+Description:  Ability to view a target's HP, MP, status ailments
+              and/or buffs.  Also known as Scan.
+Made with fusion?:  Yes
+
+---------------------------------------------------------------
+Status Strike | ステータス攻撃 | MAG (魔力) | 40000 Gil
+---------------------------------------------------------------
+Description:  Imbues magic and skills with the status effects of
+              equipped Materia such as any Materia that can in-
+              flict Poison, Stun, Stop, etc.
+Made with fusion?:  Yes
+
+---------------------------------------------------------
+Status Ward | ステータス防御 | SPR (精神) | 40000 Gil
+---------------------------------------------------------
+Description:  Defends against the status effects that are the
+              same as equipped Materia.  Ex. If Zack is armed
+              with Poison, then he can't affected with poison.
+Made with fusion?:  Yes
+
+------------------------------------------------------------
+Elemental Strike | 属性攻撃 | MAG (魔力) | 40000 Gil
+------------------------------------------------------------
+Description:  Magic and skills become enhanced with the pro-
+              perties of elemental Materia.
+Made with fusion?:  Yes
+
+-----------------------------------------------------
+Elemental Ward | 属性防御 | SPR (精神) | 40000 Gil
+-----------------------------------------------------
+Description:  Fend off attacks that have the same attributes
+              as the equipped elemental Materia.
+Made with fusion?:  Yes
+
+--------------------------------------------------
+SP Turbo Magic | SPターボ魔法 | MAG (魔力)
+--------------------------------------------------
+Description:  Beef up magic attacks with SP.
+Made with fusion?:  Yes
+
+----------------------------------------------
+SP Turbo Attack | SPターボ攻撃 | ATK (力)
+----------------------------------------------
+Description:  Consume SP to strengthen physical attacks.
+Made with fusion?:  Yes
+
+------------------------
+SP Turbo | SPターボ | HP
+------------------------
+Description:  SP is used to increase physical or magic attacks.
+Made with fusion?:  Yes
+
+---------------------------------------
+SP Barrier | SPバリア | VIT (体力)
+---------------------------------------
+Description:  Lessen the amount of damage taken with SP.
+Made with fusion?:  Yes
+
+---------------------------
+SP Master | SPマスター | HP
+---------------------------
+Description:  Get the benefits of SP Turbo and SP Barrier with
+              this one Materia!
+Made with fusion?:  Yes
+
+0============================================================================0
+
+(1f) INTRODUCTION TO MATERIA FUSION
+===================================
+
+Isn't it strange how the game doesn't give a thorough tutorial of Materia fu-
+sion?  Yes, it's obvious that it's about mashing two Materia together to get a
+new Materia.  Well, that's one aspect of it.  The other part of it is combi-
+ning two Materia and an item as a means to boost stats.  In fact, doing fu-
+sion with items is the ONLY way to max out Zack's stats; getting him to level
+99 means almost nothing.
+
+But what determines the result you get?  Why is it that sometimes a seemingly
+completely unrelated Materia ends up as the final product?  How the heck does
+one boost the stat on Costly Punch or change it into another stat?  Why does
+the parameter change even when an item isn't used?
+
+This following sections strive to explain the concepts used to figure how syn-
+thesis works so players can minimize the amount of guesswork and trial and
+error.
+
+However, before any mixing should be done, it'd be a good idea to familiarize
+yourself with the fundamentals:
+
+1)  Surely, you don't need to know that, to fuse, you need to go to the
+    マテリア合成 (Materia Fusion) menu, select one Materia to put in the first
+    Materia slot and another Materia to put in the second Materia slot and
+    then choose 決定 (it literally means "decision"), do you?
+
+2)  Before committing to a fusion, you get a preview of the result as well as
+    your current SP and the amount of SP required to do the synthesis.  If you
+    lack the needed SP, the game will flag you.  If that happens, convert some
+    Materia into SP (from the Materia menu) or sic Zack on some Movers and
+    their relatives.  (See FAQ [Q3] in regards to enemies that reward you with
+    oodles of SP.)
+    
+    To cancel the process, simply choose いいえ (No) or hit the X button.
+    Otherwise, select はい (Yes).
+    
+3)  The Item slot will never appear until you obtain the key item, Item Fusion
+    Tome (アイテム合成の書), from mission 7-2-1.  Do this simply by defeating
+    the mission boss.
+    
+    And when the slot does appear, it'll be under the two Materia ones.
+    
+4)  A newly produced Materia will appear in the first available line in the
+    Materia inventory.
+
+Now with all that out of the way, you'll need to understand some terms before
+proceeding further into this guide!
+
+Materia Level = The level of an individual Materia.  It can be from level 1
+                to Master (or level 5).  
+
+                An increase in a level occurs when either two or all three DMW
+                reels display the exact same number.  This number MUST corre-
+                spond with the Materia slot the Materia is equipped in.  For
+                example, Cure is in the second slot and the reels show 212,
+                221, 122, or 222.  If two numbers are the same, the Materia
+                will level up once.  If all three numbers are the same, the
+                Materia levels up twice.
+                
+                A level up also occurs when the Moogle summon ability, Moogle
+                Power, happens.  In this instance, ALL equipped Materia are
+                affected and they level up the number of times indicated by
+                the level of the summon.  Example~ Level 5 Moogle Power maxes
+                out all Materia to Master level.
+                
+                The benefits of levelling is that Materia increase in power
+                and the parameter -- whether default or modified -- attached to
+                them also increase which gives Zack some helpful boosts in his
+                stats.
+                
+                In Materia fusion, the level of the resulting Materia will
+                only change if a new Materia is formed.  The level will be 1.
+                Otherwise, if the Materia that comes out of a combining pro-
+                cess is the same as one of the Materia that was used, the
+                level will remain the same.
+                
+Materia Grade = A grade is what the game uses to weigh the "value" of one
+                Materia against another.  The scale is from grade 1 (lowest)
+                to grade 8 (highest).  Understanding this is vital in properly
+                obtaining the results you want.  See (5f) GRADE LIST.
+                
+Materia Class = This is different than the categories in that all like-Materia
+                are further divided into smaller groups; that is, all restora-
+                tive Materia are grouped together, all Punch-type Materia are
+                in their own little clique, etc.  See (3f) MATERIA CLASSES.
+                
+Now we are ready to move onto the rules!
+
+0============================================================================0
+
+(2f) BASIC RULES OF MATERIA FUSION
+==================================
+
+Although the grades of each Materia have not been shown yet, still try and
+understand these concepts as they will help you make sense of the sections
+4f and 5f.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                           !
+! 1.  The placement of the Materia has no effect on the outcome UNLESS they !
+!     both are of the same grade AND level.                                 !
+!                                                                           !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fiddle around with some combinations and various levels and you will see
+some differences!
+
+In the following examples, both Materia are of grade 2 but same level:
+
+  Silence Blade Lv. 1
++ Drain Lv. 1
+  -------------------
+  Osmose Blade Lv. 1
+  
+Now let's reverse the positions of the fusion Materia.
+
+  Drain Lv. 1
++ Silence Blade Lv. 1
+  -------------------
+  Drain Lv. 1
+  
+Do note that there are Materia that will never retain their traits such as
+those in the Other class.  In such a case, placement is ignored and rule #3
+comes in effect.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                           !
+! 2.  If the grades are the same between both Materia but their levels are  !
+!     different, then the higher level Materia will be the base.            !
+!                                                                           !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Let's use Silence Blade and Drain again for conveninece's sake.
+
+  Silence Blade Lv. 4
++ Drain Lv. 1
+  -------------------
+  Osmose Blade Lv. 1
+  
+And by flipping the two Materia around, we get ...
+  
+  Drain Lv. 1
++ Silence Blade Lv. 4
+  -------------------
+  Osmose Blade Lv. 1
+  
+These examples simply show that Silence Blade Lv. 4 was always the determinant
+regardless of whether it was on the top slot or the bottom slot in the fusion.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                         !
+! 3. The higher grade Materia serves as the base between the two Materia  !
+!    and is the determinant of the product.                               !
+!                                                                         !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+This is the probably the most ultilized rule outsince chances are, much of
+the fusion that players do will consist of Materias of the same level but
+of different grades.
+
+Easiest way to visualize this is to conjure up demented, illogical math equa-
+tions such as 2 + 1 = 2 or 7 + 4 = 7 or 6 + 5 = 6.  These numbers symbolize
+grade levels.
+
+Basically, the general rule of thumb is that the Materia you get from any
+union will have the same grade as the highest grade Materia that was used.
+Once you start throwing in Master Materia and items though ...
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                           !
+! 4. If the level of one of the two Materia is at Master level, the product !
+!    grade will increase by 1. If both are Master Materia, then the grade   !
+!    will increase by 2.                                                    !
+!                                                                           !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using the highly illogical equations again as examples, we can view this rule
+as this.  Keep in mind that the numbers are grades not levels:
+
+Master 2 + 1 = 3 -- In this example, a merging with level 1 - 4 Materia would
+                    have resulted in a grade 2.  But because there was a Mas-
+                    ter level Materia involved, the product grade was in-
+                    creased by 1.
+
+Master 1 + Master 3 = 5 -- The product would have been 3 if no Master levels
+                           were involved.  Due to the fact that both Materia
+                           were at their max levels, the 3 becomes a 5 since
+                           the end grade is boosted by 2.
+
+Master 7 + Master 4 = 8 -- Remember that 8 is the maximum grade.
+ 
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                         !
+! 5. An item grade can determine the maximum grade of the resulting Mate- !
+!    ria.                                                                 !
+!                                                                         !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What this means is that if an item is used during a fusion, the product's
+grade can increase if the grade of both Materia are lower than the item.
+However, if the grade of either Materia is higher than that of the item's,
+then the item grade is ignored.
+
+But!  This isn't as straight forward as any of the above rules!  The trick
+with item fusion is that for every quantity of 1 added to the item, the
+grade of the resulting Materia is increased by 1 until its grade matches
+that of the item's grade.
+
+Example A:
+
+1) MBarrier + Gravity + 1x Mythril Armlet = Elemental Ward
+2) MBarrier + Gravity + 2x Mythril Armlet = Elemental Ward
+3) MBarrier + Gravity + 3x Mythril Armlet = Elemental Ward
+4) MBarrier + Gravity + 4x Mythril Armlet = Wall
+
+Explanation:
+
+MBarrier is a grade 3 Defensive Materia
+Gravity is a grade 2 Gravity Materia
+Mythril Armlet is a grade 7 item
+
+Obviously, the item had the highest grade so it influenced the outcome.
+
+Aside from the grade level, the Materia classes also played a role in 
+this.  For the example above, it was Defensive class + Gravity class + 
+Item = Defensive Class.  (Don't worry -- you'll get a better understanding
+of all this in the sections that follow.)
+
+So why all the Elemental Wards and Wall then?  Here are the reasons:
+
+1)  3 + 2 + 7 = 3 (+ 1) which resulted in a grade 4 Defensive Materia.
+2)  3 + 2 + 7 = 3 (+ 2) which resulted in a grade 5 Defensive Materia.
+3)  3 + 2 + 7 = 3 (+ 3) which resulted in a grade 6 Defensive Materia.
+4)  3 + 2 + 7 = 3 (+ 4) which resulted in a grade 7 Defensive Materia.
+
+Note that the product grade actually remained 3 as if the item was never
+part of the equation.  However, which each subsequent addition of an
+Mythril Armlet, the rank grew by 1.
+
+I stopped the example with 4 Mythril Armlets because even if you cram 5,
+6, or 99 of them into the fusion, you'll always get a Wall since it's a grade
+7 Materia which is equal to the item's rank.
+
+Now, had there been no Mythril Armlet, the Materia that would have come out
+of the MBarrier and Gravity union would be an MBarrier since the calculation
+would have been 3 + 2 = 3.
+
+When Master Materia are involved in item fusion, an additional grade is
+added ON TOP of the increase an item may give.
+
+Example B:
+
+1) Master Barrier + Gravity + 1x Mythril Armlet = Elemental Ward
+
+This is 2 + 2 + 7 = 2 (+1+1) as the item added 1 grade and so did the
+Master rank.  Due to this, a grade 4 Defensive Materia was produced.
+
+Had it been just a plain old Barrier instead of the Master Barrier, the
+end result would have been MBarrier, a grade 3 Defensive Materia as there
+would be no extra grade increase.
+
+To gain a more thorough understanding of the determinants, check sections
+3f through 5f.
+
+Now with all that out of the way, I bring you the unfortunate news that
+there are two items that make things even MORE complicated as they actually
+each have their own little class.   These items are the Elixir (Restorative
+class) and the Phoenix Down (HP class).
+
+What does this mean for you?  Well, after all that mumble jumble above, you
+probably need a breather so I won't get into the quirks of the Elixir and
+Phoenix Down until (8f) ITEMS & ACCESSORIES.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!                                                                            !
+! 6.  Full Cure, Dualcast, Dash, and all DMW Materia will NEVER retain       !
+!     their original properties.                                             !
+!                                                                            !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you ever try to synthesize these, they will always become a different Mate-
+ria altogether.  Terrible, isn't it?
+
+0============================================================================0
+
+(3f) MATERIA CLASSES
+====================
+
+Note that this list of the 32 Materia classes is meant to be used in conjunc-
+tion with the Materia Product List since simply knowing the classes and base
+grades used in fusing isn't enough for successful mixing.
+
+These base grades are used in the fusion equation only to determine the
+weight/value of one Materia to another Materia.  It does not represent the on-
+ly possible grades in each class.  Almost every class has Materia assigned to
+each grade level from 1 to 8.  See (5f) GRADE LIST.
+
+
+The list is read as thus: 
+---------------------------------
+Class | Materia Name (Base Grade)
+---------------------------------
+
+------------------------------------------------------------------------------
+Fire                  | Fire (1), Fira (3), Firaga (5)
+------------------------------------------------------------------------------
+Ice                   | Blizzard (1), Blizzara (3), Blizzaga (5)
+------------------------------------------------------------------------------
+Lightning             | Thunder (1), Thundara (3), Thundaga (5)
+------------------------------------------------------------------------------
+Restorative           | Cure (1), Cura (2), Curaga (4), Full Cure (6),
+                      | Regen (3)
+------------------------------------------------------------------------------
+Defensive             | Barrier (2), MBarrier (3), Wall (7), Elemental
+                      | Ward (5)
+------------------------------------------------------------------------------
+Status Defense        | Esuna (1), Dispel (2), Status Ward (4)
+------------------------------------------------------------------------------
+Absorb Magic          | Drain (2), Drainra (5), Drainga (7), Osmose (3),
+                      | Osmoga (6)
+------------------------------------------------------------------------------
+Magic w/ Status       | Poison (2), Silence (2), Stop (4), Death (5)
+------------------------------------------------------------------------------
+Fire w/ Status        | Dark Fire (1), Dark Fira (3), Dark Firaga (5), Hell
+                      | Firaga (7)
+------------------------------------------------------------------------------
+Ice w/ Status         | Dark Blizzard (1), Dark Blizzara (3), Dark
+                      | Blizzaga (5), Hell Blizzaga (7)
+------------------------------------------------------------------------------
+Lightning w/ Status   | Dark Thunder (1), Dark Thundara (3), Dark
+                      | Thundaga (5), Hell Thundaga (7)
+------------------------------------------------------------------------------
+Gravity               | Gravity (2), Graviga (4), Quake (7), Darkness (6)
+------------------------------------------------------------------------------
+Ultimate              | Tri-Thundaga (3), Tri-Fire (4), Electric
+                      | Shock (5), Flare (6), Energy (7), Ultima (8)
+------------------------------------------------------------------------------
+Quick Sword           | Jump (1), High Jump (5), Assault Twister (3), Assault
+                      | Twister+ (7)
+------------------------------------------------------------------------------
+Quick Sword w/ Status | Poison Aerial (3), Silence Aerial (5), Death Jump (6),
+                      | Poison Twister (2), Stop Twister (4), Death
+                      | Twister (7), Status Strike (8)
+------------------------------------------------------------------------------
+Sword Art             | Power Attack (1), Vital Slash (3), Exploder Blade (6),
+                      | Blast Wave (5), Elemental Strike (7)
+------------------------------------------------------------------------------
+Sword Art w/ Status   | Poison Blade (1), Silence Blade (2), Stop Blade (4),
+                      | Death Blade (5), Dispel Blade (7)
+------------------------------------------------------------------------------
+Fire Sword            | Fire Blade (1), Fira Blade (3), Firaga Blade (5)
+------------------------------------------------------------------------------
+Ice Sword             | Blizzard Blade (1), Blizzara Blade (3), Blizzaga
+                      | Blade (5)
+------------------------------------------------------------------------------
+Lightning Sword       | Thunder Blade (1), Thundara Blade (3), Thundaga
+                      | Blade (5)
+------------------------------------------------------------------------------
+Absorption Sword Art  | Drain Blade (2), Power Drain (5), Sky Drain (8),
+                      | Osmose Blade (3), Power Osmose (6)
+------------------------------------------------------------------------------
+Item                  | Steal (2), Mug (6), Gil Toss (8), Smart Consumer (4)
+------------------------------------------------------------------------------
+Punch                 | Goblin Punch (1), Iron Fist (2), Magical Punch (4),
+                      | Hammer Punch (6), Costly Punch (8)
+------------------------------------------------------------------------------
+HP                    | HP Up (1), HP Up+ (3), HP Up++ (5)
+------------------------------------------------------------------------------
+MP                    | MP Up (1), MP Up+ (3), MP Up++ (5)
+------------------------------------------------------------------------------
+AP                    | AP Up (1), AP Up+ (3), AP Up++ (5)
+------------------------------------------------------------------------------
+Strength              | ATK Up (1), ATK Up+(3), ATK Up++(5)
+------------------------------------------------------------------------------
+Vitality              | VIT Up (1), VIT Up+ (3), VIT Up++ (5)
+------------------------------------------------------------------------------
+Magic Power           | MAG Up (1), MAG Up+ (3), MAG Up++ (5)
+------------------------------------------------------------------------------
+Spirit                | SPR Up (1), SPR Up+ (3), SPR Up++ (5)
+------------------------------------------------------------------------------
+SP Turbo              | SP Turbo Magic (4), SP Turbo Attack (5), SP Turbo (6),
+                      | SP Barrier (7), SP Master (8)
+------------------------------------------------------------------------------
+Other                 | Libra (1), Dash (3), Dualcast (8), All DMW (8)
+------------------------------------------------------------------------------
+
+0============================================================================0
+
+(4f) MATERIA PRODUCT LIST
+=========================
+
+Below are the many formulas in determining the outcome from fusing two Mate-
+ria.  This DOES NOT take items or parameter modifiers into account.
+
+This list is divided into classes and is to be read as:
+------------------------------------------------------------------------------
+Class
+------------------------------------------------------------------------------
+Materia #1 (Base Class) + Materia #2 (Same or Other Class) = Resulting
+                                                             Materia
+                                                             
+                                                             
+Legend
+~~~~~~
+Please refer to breakdown of classes in (3f) MATERIA CLASSES for the list of
+corresponding Materia.
+
+F = Fire
+I = Ice
+L = Lightning
+Rest = Restorative
+Def = Defensive
+StDef = Status Defense
+AbMg = Absorb Magic
+StMg = Magic w/ Status
+StF = Fire w/ Status
+StI = Ice w/ Status
+StL = Lightning w/ Status
+G = Gravity
+U = Ultimate
+QkSw = Quick Sword
+StQkSw = Quick Sword w/ Status
+SwArt = Sword Art
+StSwArt = Sword Art w/ Status
+FSword = Fire Sword
+ISword = Ice Sword
+LSword = Lightning Sword
+AbSwArt = Absorption Sword Art
+Item = Item
+Punch = Punch
+HP = HP
+MP = MP
+AP = AP
+Str = Strength
+Vit = Vitality
+MgPw = Magic Power
+Sp = Spirit
+SPTb = SP Turbo
+Other = Other
+
+------------------------------------------------------------------------------
+Fire                           Ice                         Lightning
+------------------------------------------------------------------------------
+F + F = F                      I + F = L                   L + F = I
+F + I = L                      I + I = I                   L + I = F
+F + L = I                      I + L = F                   L + L = L
+F + Rest = F                   I + Rest = I                L + Rest = L
+F + Def = F                    I + Def = I                 L + Def = L
+F + StDef = StF                I + StDef = StI             L + StDef = StL
+F + AbMg = AbMg                I + AbMg = AbMg             L + AbMg = AbMg
+F + StMg = StF                 I + StMg = StI              L + StMg = StL
+F + StF = StF                  I + StF = StL               L + StF = StI
+F + StI = StLg                 I + StI = StI               L + StI = StF
+F + StL = StI                  I + StL = StF               L + StL = StL
+F + G = F                      I + G = I                   L + G = L
+F + U = F                      I + U = I                   L + U = L
+F + QkSw = FSword              I + QkSw = ISword           L + QkSw = LSword
+F + StQkSw = StF               I + StQkSw = StI            L + StQkSw = StL
+F + SwArt = FSword             I + SwArt = ISword          L + SwArt = LSword
+F + StSwArt = StFire           I + StSwArt = StI           L + StSwArt = StL
+F + FSword = FSword            I + FSword = LSword         L + FSword = ISword
+F + ISword = LSword            I + ISword = ISword         L + ISword = FSword
+F + LSword = ISword            I + LSword = FSword         L + LSword = LSword
+F + AbSwArt = AbMg             I + AbSwArt = AbMg          L + AbSwArt = AbMg
+F + Item = F                   I + Item = I                L + Item = L
+F + Punch = F                  I + Punch = I               L + Punch = L
+F + HP = Def                   I + HP = Def                L + HP = Def
+F + MP = F                     I + MP = I                  L + MP = L
+F + AP = F                     I + AP = I                  L + AP = L
+F + Str = FSword               I + Str = ISword            L + Str = LSword
+F + Vit = Def                  I + Vit = Def               L + Vit = Def
+F + MgPw = F                   I + MgPw = I                L + MgPw = L
+F + Sp = Def                   I + Sp = Def                L + Sp = Def
+F + SPTb = F                   I + SPTb = I                L + SPTb = L
+F + Other = Fire               I + Other = I               L + Other = L
+
+------------------------------------------------------------------------------
+Restorative                Defensive                  Status Defense
+------------------------------------------------------------------------------
+Rest + F = Rest            Def + F = Def              StDef + F = StDef
+Rest + I = Rest            Def + I = Def              StDef + I = StDef
+Rest + L = Rest            Def + L = Def              StDef + L = StDef
+Rest + Rest = Rest         Def + Rest = Def           StDef + Rest = StDef
+Rest + Def = Rest          Def + Def = Def            StDef + Def = Def
+Rest + StDef = Rest        Def + StDef = Def          StDef + StDef = StDef
+Rest + AbMg = Rest         Def + AbMg = Def           StDef + AbMg = StDef
+Rest + StMg = Rest         Def + StMg = StDef         StDef + StMg = StDef
+Rest + StF = Rest          Def + StF = StDef          StDef + StF = StDef
+Rest + StI = Rest          Def + StI = StDef          StDef + StI = StDef
+Rest + StL = Rest          Def + StL = StDef          StDef + StL = StDef
+Rest + G = Rest            Def + G = Def              StDef + G = StDef
+Rest + U = Rest            Def + U = Def              StDef + U = StDef
+Rest + QkSw = Rest         Def + QkSw = Def           StDef + QkSw = Def
+Rest + StQkSw = Rest       Def + StQkSw = StDef       StDef + StQkSw = StDef
+Rest + SwArt = Rest        Def + SwArt = Def          StDef + SwArt = Def
+Rest + StSwArt = Rest      Def + StSwArt = StDef      StDef + StSwArt = StDef
+Rest + FSword = Rest       Def + FSword = Def         StDef + FSword = Def
+Rest + ISword = Rest       Def + ISword = Def         StDef + ISword = Def
+Rest + LSword = Rest       Def + LSword = Def         StDef + LSword = Def
+Rest + AbSwArt = Rest      Def + AbSwArt = Def        StDef + AbSwArt = StDef
+Rest + Item = Rest         Def + Item = Def           StDef + Item = StDef
+Rest + Punch = Rest        Def + Punch = Def          StDef + Punch = StDef
+Rest + HP = Rest           Def + HP = Def             StDef + HP = StDef
+Rest + MP = Rest           Def + MP = Def             StDef + MP = StDef
+Rest + AP = Rest           Def + AP = Def             StDef + AP = StDef
+Rest + Str = Rest          Def + Str = Def            StDef + Str = StDef
+Rest + Vit = Rest          Def + Vit = Def            StDef + Vit = StDef
+Rest + MgPw = Rest         Def + MgPw = Def           StDef + MgPw = StDef
+Rest + Sp = Rest           Def + Sp = Def             StDef + Sp = StDef
+Rest + SPTb = Rest         Def + SPTb = Def           StDef + SPTb = StDef
+Rest + Other = Rest        Def + Other = Def          StDef + Other = StDef
+
+------------------------------------------------------------------------------
+Absorb Magic               Magic w/ Status              Fire w/ Status
+------------------------------------------------------------------------------
+AbMg + F = AbMg            StMg + F = StF               StF + F = StF
+AbMg + I = AbMg            StMg + I = StI               StF + I = StL
+AbMg + L = AbMg            StMg + L = StL               StF + L = StI
+AbMg + Rest = AbMg         StMg + Rest = Rest           StF + Rest = F
+AbMg + Def = AbMg          StMg + Def = StMg            StF + Def = StF
+AbMg + StDef = AbMg        StMg + StDef = StMg          StF + StDef = F
+AbMg + AbMg = AbMg         StMg + AbMg = AbMg           StF + AbMg = AbMg
+AbMg + StMg = AbMg         StMg + StMg = StMg           StF + StMg = StF
+AbMg + StF = AbMg          StMg + StF = StF             StF + StF = StF
+AbMg + StI = AbMg          StMg + StI = StI             StF + StI = StL
+AbMg + StL = AbMg          StMg + StL = StL             StF + StL = StI
+AbMg + G = AbMg            StMg + G = StMg              StF + G = StF
+AbMg + U = AbMg            StMg + U = StMg              StF + U = StF
+AbMg + QkSw = AbMg         StMg + QkSw = StSwArt        StF + QkSw = FSword
+AbMg + StQkSw = AbMg       StMg + StQkSw = StMg         StF + StQkSw = StF
+AbMg + SwArt = AbMg        StMg + SwArt = StSwArt       StF + SwArt = FSword
+AbMg + StSwArt = AbMg      StMg + StSwArt = StMg        StF + StSwArt = StF
+AbMg + FSword = AbMg       StMg + FSword = StSwArt      StF + FSword = StF
+AbMg + ISword = AbMg       StMg + ISword = StSwArt      StF + ISword = StL
+AbMg + LSword = AbMg       StMg + LSword = StSwArt      StF + LSword = StI
+AbMg + AbSwArt = AbMg      StMg + AbSwArt = AbMg        StF + AbSwArt = AbMg
+AbMg + Item = AbMg         StMg + Item = StMg           StF + Item = StF
+AbMg + Punch = AbMg        StMg + Punch = StMg          StF + Punch = StF
+AbMg + HP = AbMg           StMg + HP = StDef            StF + HP = StDef
+AbMg + MP = AbMg           StMg + MP = StMg             StF + MP = StF
+AbMg + AP = AbMg           StMg + AP = StMg             StF + AP = StF
+AbMg + Str = AbSwArt       StMg + Str = StDef           StF + Str = FSword
+AbMg + Vit = AbSwArt       StMg + Vit = StDef           StF + Vit = StDef
+AbMg + MgPw = AbMg         StMg + MgPw = StMg           StF + MgPw = StF
+AbMg + Sp = AbMg           StMg + Sp = StDef            StF + Sp = StDef
+AbMg + SPTb = AbMg         StMg + SPTb = StMg           StF + SPTb = StF
+AbMg + Other = AbMg        StMg + Other = StMg          StF + Other = StF
+
+------------------------------------------------------------------------------
+Ice w/ Status                 Lightning w/ Status         Gravity
+------------------------------------------------------------------------------
+StI + F = StL                 StL + F = StI               G + F = G
+StI + I = StI                 StL + I = StF               G + I = G
+StI + L = StF                 StL + L = StL               G + L = G
+StI + Rest = I                StL + Rest = L              G + Rest = G
+StI + Def = StI               StL + Def = StL             G + Def = G
+StI + StDef = I               StL + StDef = L             G + StDef = G
+StI + AbMg = AbMg             StL + AbMg = AbMg           G + AbMg = AbMg
+StI + StMg = StI              StL + StMg = StL            G + StMg = StMag
+StI + StF = StL               StL + StF = StI             G + StF = G
+StI + StI = StI               StL + StI = StF             G + StI = G
+StI + StL = StF               StL + StL = StL             G + StL = G
+StI + G = StI                 StL + G = StL               G + G = G
+StI + U = StI                 StL + U = StL               G + U = G
+StI + QkSw = ISword           StL + QkSw = LSword         G + QkSw = SwArt
+StI + StQkSw = StI            StL + StQkSw = StL          G + StQkSw = G
+StI + SwArt = ISword          StL + SwArt = LSword        G + SwArt = SwArt
+StI + StSwArt = StI           StL + StSwArt = StL         G + StSwArt = G
+StI + FSword = StL            StL + FSword = StI          G + FSword = SwArt
+StI + ISword = StI            StL + ISword = StF          G + ISword = SwArt
+StI + LSword = StF            StL + LSword = StL          G + LSword = SwArt
+StI + AbSwArt = AbSwArt       StL + AbSwArt = AbMg        G + AbSwArt = AbMg
+StI + Item = StI              StL + Item = StL            G + Item = G
+StI + Punch = StI             StL + Punch = StL           G + Punch = G
+StI + HP = StDef              StL + HP = StDef            G + HP = Def
+StI + MP = StI                StL + MP = StL              G + MP = G
+StI + AP = StI                StL + AP = StL              G + AP = QkSw
+StI + Str = ISword            StL + Str = LSword          G + Str = SwArt
+StI + Vit = StDef             StL + Vit = StDef           G + Vit = Def
+StI + MgPw = StI              StL + MgPw = StL            G + MgPw = G
+StI + Sp = StDef              StL + Sp = StDef            G + Sp = Def
+StI + SPTb = StI              StL + SPTb = StL            G + SPTb = G
+StI + Other = StI             StL + Other = StL           G + Other = G
+
+------------------------------------------------------------------------------
+Ultimate                Quick Sword                Quick Sword w/ Status
+------------------------------------------------------------------------------
+U + F = F               QkSw + F = FSword          StQkSw + F = StQkSw
+U + I = I               QkSw + I = ISword          StQkSw + I = StQkSw
+U + L = L               QkSw + L = LSword          StQkSw + L = StQkSw
+U + Rest = Rest         QkSw + Rest = QkSw         StQkSw + Rest = StQkSw
+U + Def = Def           QkSw + Def = QkSw          StQkSw + Def = StQkSw
+U + StDef = StDef       QkSw + StDef = QkSw        StQkSw + StDef = StQkSw
+U + AbMg = AbMg         QkSw + AbMg = AbSwArt      StQkSw + AbMg = AbSwArt
+U + StMg = StMg         QkSw + StMg = StSwArt      StQkSw + StMg = StQkSw
+U + StF = StF           QkSw + StF = FSword        StQkSw + StF = StQkSw
+U + StI = StI           QkSw + StI = ISword        StQkSw + StI = StQkSw
+U + StL = StL           QkSw + StL = LSword        StQkSw + StL = StQkSw
+U + G = G               QkSw + G = QkSw            StQkSw + G = StQkSw
+U + U = U               QkSw + U = QkSw            StQkSw + U = StQkSw
+U + QkSw = QkSw         QkSw + QkSw = QkSw         StQkSw + QkSw = StQkSw
+U + StQkSw = StQkSw     QkSw + StQkSw = StQkSw     StQkSw + StQkSw = StQkSw
+U + SwArt = SwArt       QkSw + SwArt = QkSw        StQkSw + SwArt = StQkSw
+U + StSwArt = StSwArt   QkSw + StSwArt = StSwArt   StQkSw + StSwArt = StQkSw
+U + FSword = FSword     QkSw + FSword = FSword     StQkSw + FSword = StQkSw
+U + ISword = ISword     QkSw + ISword = ISword     StQkSw + ISword = StQkSw
+U + LSword = LSword     QkSw + LSword = LSword     StQkSw + LSword = StQkSw
+U + AbSwArt = AbSwArt   QkSw + AbSwArt = AbSwArt   StQkSw + AbSwArt = AbSwArt
+U + Item = Item         QkSw + Item = QkSw         StQkSw + Item = StQkSw
+U + Punch = U           QkSw + Punch = QkSw        StQkSw + Punch = StQkSw
+U + HP = HP             QkSw + HP = QkSw           StQkSw + HP = StDef
+U + MP = MP             QkSw + MP = QkSw           StQkSw + MP = StMg
+U + AP = AP             QkSw + AP = QkSw           StQkSw + AP = QkSw
+U + Str = Str           QkSw + Str = QkSw          StQkSw + Str = StQkSw
+U + Vit = Vit           QkSw + Vit = QkSw          StQkSw + Vit = StDef
+U + MgPw = MgPw         QkSw + MgPw = QkSw         StQkSw + MgPw = StMg
+U + Sp = Sp             QkSw + Sp = QkSw           StQkSw + Sp = StDef
+U + SPTb = SPTb         QkSw + SPTb = QkSw         StQkSw + SPTb = StQkSw
+U + Other = U           QkSw + Other = QkSw        StQkSw + Other = StQkSw
+
+------------------------------------------------------------------------------
+Sword Art                                          Sword Art w/ Status
+------------------------------------------------------------------------------
+SwArt + F = FSword                                 StSwArt + F = StSwArt
+SwArt + I = ISword                                 StSwArt + I = StSwArt
+SwArt + L = LSword                                 StSwArt + L = StSwArt
+SwArt + Rest = SwArt                               StSwArt + Rest = StSwArt
+SwArt + Def = SwArt                                StSwArt + Def = StSwArt
+SwArt + StDef = SwArt                              StSwArt + StDef = StSwArt
+SwArt + AbMg = AbSwArt                             StSwArt + AbMg = AbSwArt
+SwArt + StMg = StSwArt                             StSwArt + StMg = StSwArt
+SwArt + StF = FSword                               StSwArt + StF = StSwArt
+SwArt + StI = ISword                               StSwArt + StI = StSwArt
+SwArt + StL = LSword                               StSwArt + StL = StSwArt
+SwArt + G = SwArt                                  StSwArt + G = StSwArt
+SwArt + U = SwArt                                  StSwArt + U = StSwArt
+SwArt + QkSw = SwArt                               StSwArt + QkSw = StSwArt
+SwArt + StQkSw = SwArt                             StSwArt + StQkSw = StSwArt
+SwArt + SwArt = SwArt                              StSwArt + SwArt = StSwArt
+SwArt + StSwArt = StSwArt                          StSwArt + StSwArt = StSwArt
+SwArt + FSword = FSword                            StSwArt + FSword = StSwArt
+SwArt + ISword = ISword                            StSwArt + ISword = StSwArt
+SwArt + LSword = LSword                            StSwArt + LSword = StSwArt
+SwArt + AbSwArt = AbSwArt                          StSwArt + AbSwArt = AbSwArt
+SwArt + Item = SwArt                               StSwArt + Item = StSwArt
+SwArt + Punch = SwArt                              StSwArt + Punch = StSwArt
+SwArt + HP = SwArt                                 StSwArt + HP = StDef
+SwArt + MP = SwArt                                 StSwArt + MP = StMg
+SwArt + AP = QkSw                                  StSwArt + AP = QkSw
+SwArt + Str = SwArt                                StSwArt + Str = StSwArt
+SwArt + Vit = SwArt                                StSwArt + Vit = StDef
+SwArt + MgPw = SwArt                               StSwArt + MgPw = StMg
+SwArt + Sp = SwArt                                 StSwArt + Sp = StDef
+SwArt + SPTb = SwArt                               StSwArt + SPTb = StSwArt
+SwArt + Other = SwArt                              StSwArt + Other = StSwArt
+
+------------------------------------------------------------------------------
+Fire Sword                 Ice Sword                 Lightning Sword
+------------------------------------------------------------------------------
+FSword + F = FSword        ISword + F = LSword       LSword + F = ISword
+FSword + I = LSword        ISword + I = ISword       LSword + I = FSword
+FSword + L = ISword        ISword + L = FSword       LSword + L = LSword
+FSword + Rest = FSword     ISword + Rest = ISword    LSword + Rest = LSword
+FSword + Def = FSword      ISword + Def = ISword     LSword + Def = LSword
+FSword + StDef = FSword    ISword + StDef = ISword   LSword + StDef = LSword
+FSword + AbMg = FSword     ISword + AbMg = ISword    LSword + AbMg = LSword
+FSword + StMg = FSword     ISword + StMg = LSword    LSword + StMg = ISword
+FSword + StF = StF         ISword + StF = StF        LSword + StF = StL
+FSword + StI = StI         ISword + StI = StL        LSword + StI = StI
+FSword + StL = StL         ISword + StL = StI        LSword + StL = StF
+FSword + G = QkSw          ISword + G = QkSw         LSword + G = QkSw
+FSword + U = FSword        ISword + U = ISword       LSword + U = LSword
+FSword + QkSw = FSword     ISword + QkSw = ISword    LSword + QkSw = LSword
+FSword + StQkSw = FSword   ISword + StQkSw = ISword  LSword + StQkSw = LSword
+FSword + SwArt = FSword    ISword + SwArt = ISword   LSword + SwArt = LSword
+FSword + StSwArt = FSword  ISword + StSwArt = ISword LSword + StSwArt = LSword
+FSword + FSword = FSword   ISword + FSword = LSword  LSword + FSword = ISword
+FSword + ISword = LSword   ISword + ISword = ISword  LSword + ISword = FSword
+FSword + LSword = ISword   ISword + LSword = FSword  LSword + LSword = LSword
+FSword + AbSwArt = FSword  ISword + AbSwArt = ISword LSword + AbSwArt = LSword
+FSword + Item = FSword     ISword + Item = ISword    LSword + Item = LSword
+FSword + Punch = FSword    ISword + Punch = ISword   LSword + Punch = LSword
+FSword + HP = StDef        ISword + HP = StDef       LSword + HP = StDef
+FSword + MP = StF          ISword + MP = StI         LSword + MP = StL
+FSword + AP = QkSw         ISword + AP = QkSw        LSword + AP = QkSw
+FSword + Str = FSword      ISword + Str = ISword     LSword + Str = LSword
+FSword + Vit = StDef       ISword + Vit = StDef      LSword + Vit = StDef
+FSword + MgPw = StF        ISword + MgPw = StI       LSword + MgPw = StL
+FSword + Sp = StDef        ISword + Sp = StDef       LSword + Sp = StDef
+FSword + SPTb = FSword     ISword + SPTb = ISword    LSword + SPTb = LSword
+FSword + Other = FSword    ISword + Other = ISword   LSword + Other = LSword
+
+------------------------------------------------------------------------------
+Absorb Sword Art             Item                   Punch
+------------------------------------------------------------------------------
+AbSwArt + F = AbSwArt        Item + F = Item        Punch + F = F
+AbSwArt + I = AbSwArt        Item + I = Item        Punch + I = I
+AbSwArt + L = AbSwArt        Item + L = Item        Punch + L = L
+AbSwArt + Rest = AbSwArt     Item + Rest = Item     Punch + Rest = Rest
+AbSwArt + Def = AbSwArt      Item + Def = Item      Punch + Def = Def
+AbSwArt + StDef = AbSwArt    Item + StDef = Item    Punch + StDef = StDef
+AbSwArt + AbMg = AbSwArt     Item + AbMg = Item     Punch + AbMg = AbMg
+AbSwArt + StMg = AbSwArt     Item + StMg = Item     Punch + StMg = StMg
+AbSwArt + StF = AbSwArt      Item + StF = Item      Punch + StF = StF
+AbSwArt + StI = AbSwArt      Item + StI = Item      Punch + StI = StI
+AbSwArt + StL = AbSwArt      Item + StL = Item      Punch + StL = StL
+AbSwArt + G = AbSwArt        Item + G = Item        Punch + G = G
+AbSwArt + U = AbSwArt        Item + U = Item        Punch + U = Punch
+AbSwArt + QkSw = AbSwArt     Item + QkSw = Item     Punch + QkSw = QkSw
+AbSwArt + StQkSw = AbSwArt   Item + StQkSw = Item   Punch + StQkSw = StQkSw
+AbSwArt + SwArt = AbSwArt    Item + SwArt = Item    Punch + SwArt = SwArt
+AbSwArt + StSwArt = AbSwArt  Item + StSwArt = Item  Punch + StSwArt = StQkSw
+AbSwArt + FSword = AbSwArt   Item + FSword = Item   Punch + FSword = FSword
+AbSwArt + ISword = AbSwArt   Item + ISword = Item   Punch + ISword = ISword
+AbSwArt + LSword = AbSwArt   Item + LSword = Item   Punch + LSword = LSword
+AbSwArt + AbSwArt = AbSwArt  Item + AbSwArt = Item  Punch + AbSwArt = AbSwArt
+AbSwArt + Item = AbSwArt     Item + Item = Item     Punch + Item = Item
+AbSwArt + Punch = AbSwArt    Item + Punch = Item    Punch + Punch = Punch
+AbSwArt + HP = AbSwArt       Item + HP = Item       Punch + HP = HP
+AbSwArt + MP = AbSwArt       Item + MP = Item       Punch + MP = MP
+AbSwArt + AP = AbSwArt       Item + AP = Item       Punch + AP = AP
+AbSwArt + Str = AbSwArt      Item + Str = Item      Punch + Str = Str
+AbSwArt + Vit = AbSwArt      Item + Vit = Item      Punch + Vit = Vit
+AbSwArt + MgPw = AbMg        Item + MgPw = Item     Punch + MgPw = MgPw
+AbSwArt + Sp = AbMg          Item + Sp = Item       Punch + Sp = Sp
+AbSwArt + SPTb = AbSwArt     Item + SPTb = Item     Punch + SPTb = SPTb
+AbSwArt + Other = AbSwArt    Item + Other = Item    Punch + Other = Punch
+
+------------------------------------------------------------------------------
+HP                             MP                            AP
+------------------------------------------------------------------------------
+HP + F = HP                    MP + F = MP                   AP + F = AP
+HP + I = HP                    MP + I = MP                   AP + I = AP
+HP + L = HP                    MP + L = MP                   AP + L = AP
+HP + Rest = HP                 MP + Rest = MP                AP + Rest = AP
+HP + Def = HP                  MP + Def = MP                 AP + Def = AP
+HP + StDef = HP                MP + StDef = MP               AP + StDef = AP
+HP + AbMg = HP                 MP + AbMg = MP                AP + AbMg = AP
+HP + StMg = HP                 MP + StMg = MP                AP + StMg = AP
+HP + StF = HP                  MP + StF = MP                 AP + StF = AP
+HP + StI = HP                  MP + StI = MP                 AP + StI = AP
+HP + StL = HP                  MP + StL = MP                 AP + StL = AP
+HP + G = HP                    MP + G = MP                   AP + G = AP
+HP + U = HP                    MP + U = MP                   AP + U = AP
+HP + QkSw = HP                 MP + QkSw = MP                AP + QkSw = AP
+HP + StQkSw = HP               MP + StQkSw = MP              AP + StQkSw = AP
+HP + SwArt = HP                MP + SwArt = MP               AP + SwArt = AP
+HP + StSwArt = HP              MP + StSwArt = MP             AP + StSwArt = AP
+HP + FSword = HP               MP + FSword = MP              AP + FSword = AP
+HP + ISword = HP               MP + ISword = MP              AP + ISword = AP
+HP + LSword = HP               MP + LSword = MP              AP + LSword = AP
+HP + AbSwArt = HP              MP + AbSwArt = MP             AP + AbSwArt = AP
+HP + Item = HP                 MP + Item = MP                AP + Item = AP
+HP + Punch = HP                MP + Punch = MP               AP + Punch = AP
+HP + HP = HP                   MP + HP = MP                  AP + HP = AP
+HP + MP = HP                   MP + MP = MP                  AP + MP = AP
+HP + AP = HP                   MP + AP = MP                  AP + AP = AP
+HP + Str = HP                  MP + Str = MP                 AP + Str = AP
+HP + Vit = HP                  MP + Vit = MP                 AP + Vit = AP
+HP + MgPw = HP                 MP + MgPw = MP                AP + MgPw = AP
+HP + Sp = HP                   MP + Sp = MP                  AP + Sp = AP
+HP + SPTb = HP                 MP + SPTb = MP                AP + SPTb = AP
+HP + Other = HP                MP + Other = MP               AP + Other = AP
+
+------------------------------------------------------------------------------
+Str                          Vit                         MgPw
+------------------------------------------------------------------------------
+Str + F = Str                Vit + F = Vit               MgPw + F = MgPw
+Str + I = Str                Vit + I = Vit               MgPw + I = MgPw
+Str + L = Str                Vit + L = Vit               MgPw + L = MgPw
+Str + Rest = Str             Vit + Rest = Vit            MgPw + Rest = MgPw
+Str + Def = Str              Vit + Def = Vit             MgPw + Def = MgPw
+Str + StDef = Str            Vit + StDef = Vit           MgPw + StDef = MgPw
+Str + AbMg = Str             Vit + AbMg = Vit            MgPw + AbMg = MgPw
+Str + StMg = Str             Vit + StMg = Vit            MgPw + StMg = MgPw
+Str + StF = Str              Vit + StF = Vit             MgPw + StF = MgPw
+Str + StI = Str              Vit + StI = Vit             MgPw + StI = MgPw
+Str + StL = Str              Vit + StL = Vit             MgPw + StL = MgPw
+Str + G = Str                Vit + G = Vit               MgPw + G = MgPw
+Str + U = Str                Vit + U = Vit               MgPw + U = MgPw
+Str + QkSw = Str             Vit + QkSw = Vit            MgPw + QkSw = MgPw
+Str + StQkSw = Str           Vit + StQkSw = Vit          MgPw + StQkSw = MgPw
+Str + SwArt = Str            Vit + SwArt = Vit           MgPw + SwArt = MgPw
+Str + StSwArt = Str          Vit + StSwArt = Vit         MgPw + StSwArt = MgPw
+Str + FSword = Str           Vit + FSword = Vit          MgPw + FSword = MgPw
+Str + ISword = Str           Vit + ISword = Vit          MgPw + ISword = MgPw
+Str + LSword = Str           Vit + LSword = Vit          MgPw + LSword = MgPw
+Str + AbSwArt = Str          Vit + AbSwArt = Vit         MgPw + AbSwArt = MgPw
+Str + Item = Str             Vit + Item = Vit            MgPw + Item = MgPw
+Str + Punch = Str            Vit + Punch = Vit           MgPw + Punch = MgPw
+Str + HP = Str               Vit + HP = Vit              MgPw + HP = MgPw
+Str + MP = Str               Vit + MP = Vit              MgPw + MP = MgPw
+Str + AP = Str               Vit + AP = Vit              MgPw + AP = MgPw
+Str + Str = Str              Vit + Str = Vit             MgPw + Str = MgPw
+Str + Vit = Str              Vit + Vit = Vit             MgPw + Vit = MgPw
+Str + MgPw = Str             Vit + MgPw = Vit            MgPw + MgPw = MgPw
+Str + Sp = Str               Vit + Sp = Vit              MgPw + Sp = MgPw
+Str + SPTb = Str             Vit + SPTb = Vit            MgPw + SPTb = MgPw
+Str + Other = Str            Vit + Other = Vit           MgPw + Other = MgPw
+
+------------------------------------------------------------------------------
+Sp                       SPTb                        Other
+------------------------------------------------------------------------------
+Sp + F = Sp              SPTb + F = SPTb             Other + F = F
+Sp + I = Sp              SPTb + I = SPTb             Other + I = I
+Sp + L = Sp              SPTb + L = SPTb             Other + L = L
+Sp + Rest = Sp           SPTb + Rest = SPTb          Other + Rest = Rest
+Sp + Def = Sp            SPTb + Def = SPTb           Other + Def = Def
+Sp + StDef = Sp          SPTb + StDef = SPTb         Other + StDef = StDef
+Sp + AbMg = Sp           SPTb + AbMg = SPTb          Other + AbMg = AbMg
+Sp + StMg = Sp           SPTb + StMg = SPTb          Other + StMg = StMg
+Sp + StF = Sp            SPTb + StF = SPTb           Other + StF = StF
+Sp + StI = Sp            SPTb + StI = SPTb           Other + StI = StI
+Sp + StL = Sp            SPTb + StL = SPTb           Other + StL = StL
+Sp + G = Sp              SPTb + G = SPTb             Other + G = G
+Sp + U = Sp              SPTb + U = SPTb             Other + U = U
+Sp + QkSw = Sp           SPTb + QkSw = SPTb          Other + QkSw = QkSw
+Sp + StQkSw = Sp         SPTb + StQkSw = SPTb        Other + StQkSw = StQkSw
+Sp + SwArt = Sp          SPTb + SwArt = SPTb         Other + SwArt = SwArt
+Sp + StSwArt = Sp        SPTb + StSwArt = SPTb       Other + StSwArt = StSwArt
+Sp + FSword = Sp         SPTb + FSword = SPTb        Other + FSword = FSword
+Sp + ISword = Sp         SPTb + ISword = SPTb        Other + ISword = ISword
+Sp + LSword = Sp         SPTb + LSword = SPTb        Other + LSword = LSword
+Sp + AbSwArt = Sp        SPTb + AbSwArt = SPTb       Other + AbSwArt = AbSwArt
+Sp + Item = Sp           SPTb + Item = SPTb          Other + Item = Item
+Sp + Punch = Sp          SPTb + Punch = SPTb         Other + Punch = Punch
+Sp + HP = Sp             SPTb + HP = SPTb            Other + HP = HP
+Sp + MP = Sp             SPTb + MP = SPTb            Other + MP = MP
+Sp + AP = Sp             SPTb + AP = SPTb            Other + AP = AP
+Sp + Str = Sp            SPTb + Str = SPTb           Other + Str = Str
+Sp + Vit = Sp            SPTb + Vit = SPTb           Other + Vit = Vit
+Sp + MgPw = Sp           SPTb + MgPw = SPTb          Other + MgPw = MgPw
+Sp + Sp = Sp             SPTb + Sp = SPTb            Other + Sp = Sp
+Sp + SPTb = Sp           SPTb + SPTb = SPTb          Other + SPTb = SPTb
+Sp + Other = Sp          SPTb + Other = SPTb         Other + Other = Other
+
+0============================================================================0
+
+(5f) GRADE LIST
+===============
+
+As shown in the list of Materia classes (3f), each and every Materia class has
+Materia for most grades.  But what of all the grades everything in between?
+This section will list all grades and their Materia of each class.  Note that
+unlike the chart in (3f) where the grades there are used to determine bases in
+an equation, what you see here are the grades of Materia products.
+
+Yeah, things would be a lot simplier if it were one unique Materia to each
+rank but then, you'd have a billion more useless Materia in the game and I'm
+sure most players wouldn't appreciate that. :P
+
+Now, this Grade List can't exactly be used by itself since it's like Jeopardy!
+-- that is, all you'll be looking at is a bunch of answers.  The question part
+of this is formed by consulting section (4f) MATERIA PRODUCT LIST and maybe
+(3f) too until you get familiar with the classes and the Materia that belong
+to each.
+
+To really get the point across, here are some examples of why you need the
+two previous sections:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #1:  Firaga + Drain = Drainra
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Reasons:  Grade 5 + Grade 2 = Grade 5
+          Fire Class + Absorb Magic = Absorb Magic
+          
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #2:  Master Mug + MBarrier = Gil Toss
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Reasons:   Grade 6 + Grade 3 = Grade 7 (because the Master adds 1 grade level
+                                        to the highest grade)
+           Item + Defensive = Item
+           
+It should be obvious that you would have never been able to know the results
+of either fusion without knowing the combinations and also the grade of the
+Materia produced.
+
+So now, at last, you are ready to peruse the chart!
+
+How to read:
+-----------------------------
+Class | (Grade) Materia Name
+-----------------------------
+
+Note!!!! There will be some classes where there will an N/A next to the rank
+number.  This is due to the fact that there is no Materia assigned to it.
+
+------------------------------------------------------------------------------
+Fire                  | (1) Fire               (5) Firaga
+                      | (2) Fire               (6) Firaga
+                      | (3) Fira               (7) Firaga
+                      | (4) Fira               (8) Firaga
+------------------------------------------------------------------------------
+Ice                   | (1) Blizzard           (5) Blizzaga
+                      | (2) Blizzard           (6) Blizzaga
+                      | (3) Blizzara           (7) Blizzaga
+                      | (4) Blizzara           (8) Blizzaga
+------------------------------------------------------------------------------
+Lightning             | (1) Thunder            (5) Thundaga
+                      | (2) Thunder            (6) Thundaga
+                      | (3) Thundara           (7) Thundaga
+                      | (4) Thundara           (8) Thundaga
+------------------------------------------------------------------------------
+Restorative           | (1) Cure               (5) Curaga
+                      | (2) Cura               (6) Curaga
+                      | (3) Regen              (7) Curaga
+                      | (4) Curaga             (8) Curaga
+------------------------------------------------------------------------------
+Defensive             | (1) Barrier            (5) Elemental Ward
+                      | (2) Barrier            (6) Elemental Ward
+                      | (3) MBarrier           (7) Wall
+                      | (4) Elemental Ward     (8) Wall
+------------------------------------------------------------------------------
+Status Defense        | (1) Esuna              (5) Dispel
+                      | (2) Dispel             (6) Status Ward
+                      | (3) Esuna              (7) Status Ward
+                      | (4) Status Ward        (8) Status Ward
+------------------------------------------------------------------------------
+Absorb Magic          | (1) N/A                (5) Drainra
+                      | (2) Drain              (6) Osmoga
+                      | (3) Osmose             (7) Drainga
+                      | (4) Drain              (8) Drainga
+------------------------------------------------------------------------------
+Magic w/ Status       | (1) Poison             (5) Death
+                      | (2) Silence            (6) Death
+                      | (3) Silence            (7) Death
+                      | (4) Stop               (8) Death
+------------------------------------------------------------------------------
+Fire w/ Status        | (1) Dark Fire          (5) Dark Firaga
+                      | (2) Dark Fire          (6) Dark Firaga
+                      | (3) Dark Fira          (7) Hell Firaga
+                      | (4) Dark Fira          (8) Hell Firaga
+------------------------------------------------------------------------------
+Ice w/ Status         | (1) Dark Blizzard      (5) Dark Blizzaga
+                      | (2) Dark Blizzard      (6) Dark Blizzaga
+                      | (3) Dark Blizzara      (7) Hell Blizzaga
+                      | (4) Dark Blizzara      (8) Hell Blizzaga
+------------------------------------------------------------------------------
+Lightning w/ Status   | (1) Dark Thunder       (5) Dark Thundaga
+                      | (2) Dark Thunder       (6) Dark Thundaga
+                      | (3) Dark Thundara      (7) Hell Thundaga
+                      | (4) Dark Thundara      (8) Hell Thundaga
+------------------------------------------------------------------------------
+Gravity               | (1) N/A                (5) Darkness
+                      | (2) Gravity            (6) Darkness
+                      | (3) Graviga            (7) Quake
+                      | (4) Graviga            (8) Quake
+------------------------------------------------------------------------------
+Ultimate              | (1) N/A                (5) Electrocute
+                      | (2) N/A                (6) Flare
+                      | (3) Tri-Thundaga       (7) Energy
+                      | (4) Tri-Fire           (8) Ultima
+------------------------------------------------------------------------------
+Quick Sword           | (1) Jump               (5) High Jump
+                      | (2) Jump               (6) High Jump
+                      | (3) Assault Twister    (7) Assault Twister+
+                      | (4) Assault Twister    (8) Assault Twister+
+------------------------------------------------------------------------------
+Quick Sword w/ Status | (1) N/A                (5) Silence Aerial
+                      | (2) Poison Twister     (6) Death Jump
+                      | (3) Poison Aerial      (7) Death Twister
+                      | (4) Stop Twister       (8) Status Strike
+------------------------------------------------------------------------------
+Sword Art             | (1) Power Attack       (5) Blast Wave
+                      | (2) Power Attack       (6) Exploder Blade
+                      | (3) Vital Slash        (7) Exploder Blade
+                      | (4) Vital Slash        (8) Exploder Blade
+------------------------------------------------------------------------------
+Sword Art w/ Status   | (1) Poison Blade       (5) Death Blade
+                      | (2) Silence Blade      (6) Death Blade
+                      | (3) Silence Blade      (7) Dispel Blade
+                      | (4) Stop Blade         (8) Dispel Blade
+------------------------------------------------------------------------------
+Fire Sword            | (1) Fire Blade         (5) Firaga Blade
+                      | (2) Fire Blade         (6) Firaga Blade
+                      | (3) Fira Blade         (7) Elemental Strike
+                      | (4) Fira Blade         (8) Elemental Strike
+------------------------------------------------------------------------------
+Ice Sword             | (1) Blizzard Blade     (5) Blizzaga Blade
+                      | (2) Blizzard Blade     (6) Blizzaga Blade
+                      | (3) Blizzara Blade     (7) Elemental Strike
+                      | (4) Blizzara Blade     (8) Elemental Strike
+------------------------------------------------------------------------------
+Lightning Sword       | (1) Thunder Blade      (5) Thundaga Blade
+                      | (2) Thunder Blade      (6) Thundaga Blade
+                      | (3) Thundara Blade     (7) Elemental Strike
+                      | (4) Thundara Blade     (8) Elemental Strike 
+------------------------------------------------------------------------------
+Absorption Sword Art  | (1) N/A                (5) Power Osmose
+                      | (2) Osmose Blade       (6) Power Drain
+                      | (3) Drain Blade        (7) Sky Drain
+                      | (4) Power Drain        (8) Sky Drain
+------------------------------------------------------------------------------
+Item                  | (1) N/A                (5) Mug
+                      | (2) Steal              (6) Mug
+                      | (3) Smart Consumer     (7) Gil Toss
+                      | (4) Smart Consumer     (8) Gil Toss
+------------------------------------------------------------------------------
+Punch                 | (1) Goblin Punch       (5) Magical Punch
+                      | (2) Iron Fist          (6) Hammer Punch
+                      | (3) Iron Fist          (7) Hammer Punch
+                      | (4) Magical Punch      (8) Costly Punch
+------------------------------------------------------------------------------
+HP                    | (1) HP Up              (5) HP Up++
+                      | (2) HP Up              (6) HP Up++
+                      | (3) HP Up+             (7) HP Up++
+                      | (4) HP Up+             (8) HP Up++
+------------------------------------------------------------------------------
+MP                    | (1) MP Up              (5) MP Up++
+                      | (2) MP Up              (6) MP Up++
+                      | (3) MP Up+             (7) MP Up++
+                      | (4) MP Up+             (8) MP Up++
+------------------------------------------------------------------------------
+AP                    | (1) AP Up              (5) AP Up++
+                      | (2) AP Up              (6) AP Up++
+                      | (3) AP Up+             (7) AP Up++
+                      | (4) AP Up+             (8) AP Up++
+------------------------------------------------------------------------------
+Strength              | (1) ATK Up             (5) ATK Up 3
+                      | (2) ATK Up             (6) ATK Up 3
+                      | (3) ATK Up+            (7) ATK Up 3
+                      | (4) ATK Up+            (8) ATK Up 3
+------------------------------------------------------------------------------
+Vitality              | (1) VIT Up             (5) VIT Up++
+                      | (2) VIT Up             (6) VIT Up++
+                      | (3) VIT Up+            (7) VIT Up++
+                      | (4) VIT Up+            (8) VIT Up++
+------------------------------------------------------------------------------
+Magic Power           | (1) MAG Up             (5) MAG Up++
+                      | (2) MAG Up             (6) MAG Up++
+                      | (3) MAG Up+            (7) MAG Up++
+                      | (4) MAG Up+            (8) MAG Up++
+------------------------------------------------------------------------------
+Spirit                | (1) SPR Up             (5) SPR Up++
+                      | (2) SPR Up             (6) SPR Up++
+                      | (3) SPR Up+            (7) SPR Up++
+                      | (4) SPR Up+            (8) SPR Up++
+------------------------------------------------------------------------------
+SP Turbo              | (1) N/A                (5) SP Turbo Attack
+                      | (2) N/A                (6) SP Turbo
+                      | (3) N/A                (7) SP Barrier
+                      | (4) SP Turbo Magic     (8) SP Master
+------------------------------------------------------------------------------
+Other                 | (1) Libra              (5) Libra
+                      | (2) Libra              (6) Libra
+                      | (3) Libra              (7) Libra
+                      | (4) Libra              (8) Libra
+------------------------------------------------------------------------------
+
+0============================================================================0
+
+(6f) FUSION LIST
+================
+
+This section contains the formulas for all the Materia that can be created
+through fusion.
+
+I still recommend that players try and understand the whys and hows of crea-
+ting Materia so they won't go mad looking for a particular Materia in a recipe
+while another one in inventory could have easily substituted it.  Afterall,
+for many Materia, what you see below are just some of the *possible* combina-
+tions.
+
+So if you understand the class equations from the product list as well as
+Materia grades, you can actually figure out all the possible mixtures yourself.
+(It'll be a bit time-consuming though. ^^)
+
+About the chart:
+- Like the Materia List, the order of the Materia are listed as they appear
+  in the Materia menu (after auto-arranging).
+- (M) indicates Master level.  In an equation where there is only one (M),
+  please note that EITHER Materia can be at Master level.
+
+------------------------------------------------------------------------------
+Fire             | == Blizzard + Thunder
+                 | == Dark Fire + Cure
+------------------------------------------------------------------------------
+Blizzard         | == Fire + Thunder
+                 | == Dark Blizzard + Cure
+------------------------------------------------------------------------------
+Thunder          | == Fire + Blizzard
+                 | == Dark Thunder + Cure
+------------------------------------------------------------------------------
+Fira             | == Blizzara + Thunder
+                 | == Fire (M) + Libra (M)
+------------------------------------------------------------------------------
+Blizzara         | == Thundara + Fire
+                 | == Blizzard (M) + Libra (M)
+------------------------------------------------------------------------------
+Thundara         | == Fira + Blizzard
+                 | == Thunder (M) + Libra (M)
+------------------------------------------------------------------------------
+Firaga           | == Blizzaga + Thunder
+                 | == Thundara (M) + Blizzara (M)
+------------------------------------------------------------------------------
+Blizzaga         | == Thundaga + Fire
+                 | == Blizzara (M) + Libra (M)
+------------------------------------------------------------------------------
+Thundaga         | == Firaga + Blizzard
+                 | == Fira (M) + Blizzard (M)
+------------------------------------------------------------------------------
+Cure             | == Cure + Cure
+                 | == Cure + Esuna
+------------------------------------------------------------------------------
+Cura             | == Cure (M) + Cure
+                 | == Cure + Silence
+------------------------------------------------------------------------------
+Curaga           | == Regen (M) + Libra
+                 | == Cure + Death
+------------------------------------------------------------------------------
+Regen            | == Cura (M) + Cure
+                 | == Cure + Dash
+------------------------------------------------------------------------------
+Esuna            | == Dispel (M) + Libra
+                 | == Poison + VIT Up
+------------------------------------------------------------------------------
+Dispel           | == Esuna (M) + Libra
+                 | == Silence + SPR Up
+------------------------------------------------------------------------------
+Barrier          | == Fire + HP Up
+                 | == Dispel + Jump
+------------------------------------------------------------------------------
+MBarrier         | == Barrier (M) + Libra
+                 | == Blizzara + SPR Up
+                 | == Gravity + HP Up (M)
+------------------------------------------------------------------------------
+Wall             | == Elemental Ward (M) + Libra
+                 | == Barrier + any DMW
+                 | == Quake + any HP Up
+------------------------------------------------------------------------------
+Drain            | == Osmose (M) + Libra
+                 | == Drain Blade + MAG Up
+------------------------------------------------------------------------------
+Drainra          | == Osmose (M) + Libra (M)
+                 | == Firaga, Blizzaga, or Thundaga + Drain
+                 | == Graviga (M) + Drain
+------------------------------------------------------------------------------
+Drainga          | == Drain + any DMW
+                 | == Sky Drain + MAG Up
+                 | == Osmoga + any Master Materia that is grade 6 or lower
+------------------------------------------------------------------------------
+Osmose           | == Drain (M) + Libra
+                 | == Osmose Blade + MAG Up
+------------------------------------------------------------------------------
+Osmoga           | == Drainra (M) + Libra
+                 | == Power Osmose + SPR Up
+------------------------------------------------------------------------------
+Poison           | == Poison + Poison
+                 | == Power Blade + MAG Up
+------------------------------------------------------------------------------
+Silence          | == Poison (M) + Libra
+                 | == Poison + Dash
+------------------------------------------------------------------------------
+Stop             | == Poison (M) + Dash
+                 | == Stop Blade + MAG Up
+------------------------------------------------------------------------------
+Death            | == Stop (M) + Libra
+                 | == Poison + any DMW
+------------------------------------------------------------------------------
+Dark Fire        | == Fire + Poison
+                 | == Fire + Esuna
+------------------------------------------------------------------------------
+Dark Blizzard    | == Blizzard + Poison
+                 | == Blizzard + Esuna
+------------------------------------------------------------------------------
+Dark Thunder     | == Thunder + Poison
+                 | == Thunder + Esuna
+------------------------------------------------------------------------------
+Dark Fira        | == Fira + Esuna
+                 | == Dark Blizzara + Thunder
+------------------------------------------------------------------------------
+Dark Blizzard    | == Blizzara + Silence
+                 | == Dark Thundara + Fire
+------------------------------------------------------------------------------
+Dark Thundara    | == Thundara + Dispel
+                 | == Dark Fira + Blizzard
+------------------------------------------------------------------------------
+Dark Firaga      | == Firaga + Esuna
+                 | == Dark Blizzaga + Thunder
+------------------------------------------------------------------------------
+Dark Blizzaga    | == Blizzaga + Esuna
+                 | == Dark Thundaga + Fira
+------------------------------------------------------------------------------
+Dark Thundaga    | == Thundaga + Esuna
+                 | == Dark Firaga + Blizzard
+------------------------------------------------------------------------------
+Hell Firaga      | == Firaga (M) + Poison (M)
+                 | == Dark Fire + any DMW
+------------------------------------------------------------------------------
+Hell Blizzaga    | == Blizzaga (M) + Esuna (M)
+                 | == Dark Blizzard + any DMW
+------------------------------------------------------------------------------
+Hell Thundaga    | == Thundaga (M) + Dispel (M)
+                 | == Dark Thunder + any DMW
+------------------------------------------------------------------------------
+Gravity          | == Gravity + Libra
+                 | == Gravity + Cure
+------------------------------------------------------------------------------
+Graviga          | == Gravity (M) + Libra
+                 | == Gravity + Dash
+------------------------------------------------------------------------------
+Quake            | == Darkness (M) + Libra
+                 | == Gravity + any DMW
+                 | == Electrocute (M) + Darkness
+------------------------------------------------------------------------------
+Tri-Thundaga     | == Tri-Thundaga + Libra
+                 | == Tri-Thundaga + Goblin Punch
+------------------------------------------------------------------------------
+Tri-Fire         | == Tri-Thundaga (M) + Libra
+                 | == Tri-Fire + Tri-Thundaga
+------------------------------------------------------------------------------
+Electrocute      | == Tri-Fire (M) + Libra
+                 | == Tri-Fire (M) + Tri-Thundaga
+                 | == Tri-Thundaga (M) + Libra (M)
+------------------------------------------------------------------------------
+Flare            | == Electrocute (M) + any of the following Materia:
+                 |    Libra, Dash, Tri-Fire, Tri-Thundaga, Goblin
+                 |    Punch, Iron Fist, or Magical Punch
+                 | == Tri-Fire (M) + Libra (M)
+------------------------------------------------------------------------------
+Energy           | == Flare (M) ) + any of the following Materia:
+                 |    Libra, Dash, Tri-Fire, Tri-Thundaga, Goblin
+                 |    Punch, Iron Fist, or Magical Punch
+                 | == Electrocute (M) + Libra (M)
+------------------------------------------------------------------------------
+Ultima           | == Energy (M) + Libra
+                 | == Any DMW + any of the following:
+                 |    Tri-Fire, Tri-Thundaga, Electrocute, Flare,
+                 |    or Energy
+------------------------------------------------------------------------------
+Darkness         | == Graviga (M) + Libra
+                 | == Gravity (M) + Dash (M)
+                 | == Gravity (M) + Graviga
+------------------------------------------------------------------------------
+Jump             | == Jump + Jump
+                 | == Power Attack + AP Up
+------------------------------------------------------------------------------
+High Jump        | == Assault Twister (M) + Libra (M)
+                 | == Firaga Blade + AP Up
+------------------------------------------------------------------------------
+Poison Aerial    | == Poison Twister (M) + Libra
+                 | == Poison Twister + Dash
+------------------------------------------------------------------------------
+Silence Aerial   | == Stop Twister (M) + Libra
+                 | == High Jump + Poison Twister
+------------------------------------------------------------------------------
+Death Jump       | == Silence Aerial (M) + Libra
+                 | == High Jump (M) + Poison Twister
+------------------------------------------------------------------------------
+Assault Twister  | == Jump (M) + Libra (M)
+                 | == Vital Slash + AP Up
+------------------------------------------------------------------------------
+Assault Twister+ | == High Jump (M) + Libra (M)
+                 | == Jump + any DMW
+                 | == Exploder Blade + AP Up (M)
+------------------------------------------------------------------------------
+Poison Twister   | == Poison Twister + Libra
+                 | == Poison Twister + Jump
+------------------------------------------------------------------------------
+Stop Twister     | == Poison Aerial (M) + Libra
+                 | == Assault Twister (M) + Poison Twister
+------------------------------------------------------------------------------
+Death Twister    | == Death Jump (M) + Libra
+                 | == Assault Twister 2 + Poison Twister
+------------------------------------------------------------------------------
+Power Attack     | == Gravity + Jump
+                 | == Power Attack + Jump
+------------------------------------------------------------------------------
+Vital Slash      | == Power Attack (M) + Libra (M)
+                 | == Power Attack + Gravity 2
+------------------------------------------------------------------------------
+Exploder Blade   | == Quake + Jump
+                 | == Power Attack + any DMW
+------------------------------------------------------------------------------
+Blast Wave       | == Vital Slash (M) + Libra (M)
+                 | == Graviga (M) + either of the following:  Jump or Assault
+                 |    Twister
+------------------------------------------------------------------------------
+Poison Blade     | == Power Attack +  Poison
+                 | == Poison + ATK Up
+------------------------------------------------------------------------------
+Silence Blade    | == Assault Twister +  Poison
+                 | == Silence + ATK Up
+------------------------------------------------------------------------------
+Stop Blade       | == Assault Twister (M) +  Poison
+                 | == Stop + ATK Up
+------------------------------------------------------------------------------
+Death Blade      | == Power Attack +  Death
+                 | == Death + ATK Up
+------------------------------------------------------------------------------
+Dispel Blade     | == Elemental Strike +  Poison
+                 | == Poison Death + any DMW
+------------------------------------------------------------------------------
+Fire Blade       | == Fire + Power Attack
+                 | == Fire + ATK Up
+------------------------------------------------------------------------------
+Blizzard Blade   | == Blizzard + Power Attack
+                 | == Blizzard + ATK Up
+------------------------------------------------------------------------------
+Thunder Blade    | == Thunder + Power Attack
+                 | == Thunder + ATK Up
+------------------------------------------------------------------------------
+Fira Blade       | == Fira + Jump
+                 | == Fire + Assault Twister
+------------------------------------------------------------------------------
+Blizzara Blade   | == Blizzara + Jump
+                 | == Blizzard + Assault Twister
+------------------------------------------------------------------------------
+Thundara Blade   | == Thundara + Jump
+                 | == Thunder + Assault Twister
+------------------------------------------------------------------------------
+Firaga Blade     | == Firaga + ATK Up
+                 | == Fire + High Jump
+------------------------------------------------------------------------------
+Blizzaga Blade   | == Blizzaga + ATK Up
+                 | == Blizzard + High Jump
+------------------------------------------------------------------------------
+Thundaga Blade   | == Thundaga + ATK Up
+                 | == Thunder + High Jump
+------------------------------------------------------------------------------
+Drain Blade      | == Drain + Assault Twister
+                 | == Osmose + ATK Up
+------------------------------------------------------------------------------
+Power Drain      | == Drain Blade (M) + Libra (M)
+                 | == Osmoga + ATK Up
+------------------------------------------------------------------------------
+Sky Drain        | == Drainga + ATK Up
+                 | == Drain Blade + any DMW
+------------------------------------------------------------------------------
+Osmose Blade     | == Drain + ATK Up
+                 | == Drain + Silence Blade
+------------------------------------------------------------------------------
+Power Osmose     | == Drainra + ATK Up
+                 | == Drain + High Jump
+------------------------------------------------------------------------------
+Mug              | == Smart Consumer (M) + Libra or any Materia with a grade
+                 |     that is less than or equal to 4.
+                 | == Steal + Electrocute
+------------------------------------------------------------------------------
+Gil Toss         | == Mug (M) + Libra or any Materia with a grade that is less
+                 |    than or equal to 6.
+                 | == Steal + any DMW
+                 | == Steal (M) + any Punch
+                 | == Costly Punch + any Item
+------------------------------------------------------------------------------
+Goblin Punch     | == Goblin Punch + Libra
+                 | == Goblin Punch + Goblin Punch
+------------------------------------------------------------------------------
+Iron Fist        | == Goblin Punch + Dash
+                 | == Goblin Punch (M) + Libra
+------------------------------------------------------------------------------
+Magical Punch    | == Iron Fist (M) + Libra (M)
+                 | == Magical Punch + Libra
+------------------------------------------------------------------------------
+Hammer Punch     | == Magical Punch (M) + Libra
+                 | == Hammer Punch + Libra
+------------------------------------------------------------------------------
+Costly Punch     | == Hammer Punch (M) + Libra (M)
+                 | == any Punch + any DMW
+------------------------------------------------------------------------------
+HP Up            | == HP Up + Libra
+                 | == HP Up + ATK Up
+------------------------------------------------------------------------------
+HP Up+           | == HP Up (M) + Libra (M)
+                 | == HP Up + Dash
+------------------------------------------------------------------------------
+HP Up++          | == HP Up+ (M) + Libra (M)
+                 | == any HP Up + any DMW
+------------------------------------------------------------------------------
+MP Up            | == MP Up + Libra
+                 | == MP Up + SPR Up
+------------------------------------------------------------------------------
+MP Up+           | == MP Up (M) + Libra (M)
+                 | == MP Up + Dash
+------------------------------------------------------------------------------
+MP Up++          | == MP Up+ (M) + Libra (M)
+                 | == any MP Up + any DMW
+------------------------------------------------------------------------------
+AP Up            | == AP Up + Libra
+                 | == AP Up + VIT Up
+------------------------------------------------------------------------------
+AP Up+           | == AP Up (M) + Libra (M)
+                 | == AP Up + Dash
+------------------------------------------------------------------------------
+AP Up++          | == AP Up+ (M) + Libra (M)
+                 | == any AP Up + DMW
+------------------------------------------------------------------------------
+ATK Up           | == ATK Up + Libra
+                 | == ATK Up + MAG Up
+------------------------------------------------------------------------------
+ATK Up+          | == ATK Up (M) + Libra (M)
+                 | == ATK Up + Dash
+------------------------------------------------------------------------------
+ATK Up++         | == ATK Up+(M) + Libra (M)
+                 | == any ATK Up + any DMW
+------------------------------------------------------------------------------
+VIT Up           | == VIT Up + Libra
+                 | == VIT Up + MP Up
+-----------------------------------------------------------------------------
+VIT Up+          | == VIT Up (M) + Libra (M)
+                 | == VIT Up + Dash
+------------------------------------------------------------------------------
+VIT Up++         | == VIT Up+ (M) + Libra (M)
+                 | == any VIT Up + any DMW
+------------------------------------------------------------------------------
+MAG Up           | == MAG Up + Libra
+                 | == MAG Up + AP Up
+------------------------------------------------------------------------------
+MAG Up+          | == MAG Up (M) + Libra (M)
+                 | == MAG Up + Dash
+------------------------------------------------------------------------------
+MAG Up++         | == MAG Up+ (M) + Libra (M)
+                 | == any MAG Up + any DMW
+------------------------------------------------------------------------------
+SPR Up           | == SPR Up + Libra
+                 | == SPR Up + HP Up
+------------------------------------------------------------------------------
+SPR Up+          | == SPR Up (M) + Libra (M)
+                 | == SPR Up + Dash
+------------------------------------------------------------------------------
+SPR Up++         | == SPR Up+ (M) + Libra (M)
+                 | == any SPR Up + any DMW
+------------------------------------------------------------------------------
+Smart Consumer   | == Steal (M) + Libra 
+                 | == Steal + Dash
+------------------------------------------------------------------------------
+Libra            | == any Other + any Other (example:  any DMW + any DMW,
+                 |    Dash + any DMW, Libra + Libra, etc.)
+------------------------------------------------------------------------------
+Status Strike    | == Death Twister (M) + Libra
+                 | == Poison Twister + any DMW
+------------------------------------------------------------------------------
+Status Ward      | == Dispel (M) + Libra (M)
+                 | == Stop + HP Up
+------------------------------------------------------------------------------
+Elemental Strike | == Assault Twister 2 + Fire
+                 | == Fire Blade + any DMW
+------------------------------------------------------------------------------
+Elemental Ward   | == MBarrier (M) + Libra
+                 | == Firaga + VIT Up
+------------------------------------------------------------------------------
+SP Turbo Magic   | == SP Turbo Magic + Libra
+                 | == SP Turbo Magic + Tri-Thundaga
+------------------------------------------------------------------------------
+SP Turbo Attack  | == SP Turbo Magic (M) + Libra
+                 | == SP Turbo Magic + Electrocute
+                 | == SP Turbo Magic + Magical Punch (M)
+------------------------------------------------------------------------------
+SP Turbo         | == SP Turbo Attack (M) + Libra
+                 | == SP Turbo Magic or Attack + Flare
+                 | == SP Turbo Magic or Attack + Hammer Punch
+------------------------------------------------------------------------------
+SP Turbo Barrier | == SP Turbo (M) + Libra
+                 | == SP Turbo Magic or Attack + Energy
+                 | == SP Turbo Magic or Attack + Hammer Punch (M)
+------------------------------------------------------------------------------
+SP Turbo Master  | == SP Barrier (M) + Libra
+                 | == any SP Turbo + any DMW
+                 | == any SP Turbo + Costly Punch 
+------------------------------------------------------------------------------
+
+0============================================================================0
+
+(7f) BASICS OF RAISING ATTRIBUTES
+=================================
+
+Boosting the hero's stats is probably THE primary reason for players giving
+up their free time in life to spend some quality time with Materia fusion.
+Afterall, as noted in section 1f, upping the parameters attached to Materia is
+the only way to get the 99999 hit points, 999 MP and AP, and 255 on ATK, VIT,
+MAG, SPR, and LCK.
+
+Well, all right.  So you'll need some barrier breaking accessories as well but
+that's besides the point here. :P
+
+The parameters on Materia can be manipulated to your liking as long as you
+know the specific formula used to determine a parameter's outcome.  Of course,
+the basic rules of Materia fusion remain in effect.
+
+The equation to figure out a parameter/stat boost is the following:
+
+Stronger/Higher value Parameter + (Weaker/lower value Parameter divided by 2)
++ Item modifier.
+
+The attribute that comes out at the end is the stronger one.  So yes, it's
+like Materia grades.  The exception to this is the Independent Materia as
+their default parameter CANNOT be altered in any way.
+
+The most basic synthesis, of course, is one without any attributes.  What
+results then is a Materia with its basic attribute attached to it.  See the
+Materia list (1m) for a run-down of all the Materia and their base parameters.
+
+                               XXXXXXXXXXXXX
+
+Following that, there is a fusion of a Materia without an attribute and one
+with an attribute attached ot it.  In this case, the Materia that forms from
+this union will have the attribute from the equation linked to it.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example :  MBarrier + Drain HP+10% = MBarrier HP+20%
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Further investigation is needed for this part since there seems to be quite
+a few oddities in determining an attribute increase in such a fusion.
+
+                               XXXXXXXXXXXXX
+                               
+The following are several examples of SINGLE fusions just to get you familiar
+with how raising attributes works.  However, to considerably boost a stat, you
+will need a lot of SP, possibly a lot of gil, parameter-boosting items, and
+MUTLIPLE fusions (unless you're lucky enough to have 99 of certain items and
+can raise a stat in one shot).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #1:  Cure SPR+40 + Darkness MAG+30 = Darkness SPR+55
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In this case, the 30 was divided by 2 which gave 15 so 40+15=55.
+
+With an item modifier - let's say 6 Mind Stones -- the final parameter value
+will go up by 2 making it Darkness SPR+57. 
+
+For percentages, they're divided by 10% to determine if they're lower valued
+(number-wise. Drop the % for an easier time) than the non-percentage number in
+the fusion.  Likewise, non-percentage numbers are mulitplied by 10% if the
+resulting parameter is a percentage.
+
+All numbers remain as whole numbers so whenever your calculations give you
+decimal numbers, drop the digit to the right of the decimal point.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #2: Mug AP+130% + Quake MAG+50 = Quake MAG+56
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+130% divided by 10% = 13%.
+13 is lower than 50 so it'll be the one divided by 2 which results in 6.5.
+The .5 is dropped leaving us with 6.
+
+The final equation will be 6+50=56.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #3: Master Mug AP+130% + Firaga Blade MAG+3 = Gil Toss AP+140%
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+130% divided by 10% = 13
+3 < 13 so it is divided by 2. Result = 1.5.
+.5 is dropped.
+Final equation is 13+1=14
+14 x 10%=140%
+
+As for the reason some parameters never go up after a certain point, it's
+because the maximum has been reached with the item modifier.  So no matter how
+many ATK Mako Stones (力の魔晄石) you cram into a fusion, if there's a
+ATK+40 or higher attached to any of the Materia you're using, it won't
+increase.
+
+If this happens, that same ATK+40 can only be raised if the other Materia
+in the fusion has a higher ATK number/value (the item, though, will be ignored)
+or if an item with a higher limit is used.
+
+This will be further explained in the next section.
+
+0============================================================================0
+
+(8f) ITEMS & ACCESSORIES
+========================
+
+THE RULES
+~~~~~~~~~
+Ah, SquEnix likes to make our lives complicated, huh?  Just when you have
+fusion with only Materia figured out, they throw in items and accessories and
+ATTACH GRADES TO THEM.  Are they really necessary?  I don't think so but for
+some reason, someone or some people on the Crisis Core team decided that it'll
+be a mighty swell idea to make it so that you can get a completely different
+Materia if you threw an item into the equation!
+
+Well, if you have the basics down, the calculations aren't that much more
+complex.  All you have to remember is that the item grade only becomes the
+determinant of the resulting Materia if both Materia used are of lower grade.
+Take a look at the examples shown in the fifth rule under (2f) BASIC RULES OF
+MATERIA FUSION if you need more clarification.
+
+                               XXXXXXXXXXXXX
+
+Elixir and Phoenix Down weirdness to be inserted here.
+
+                               XXXXXXXXXXXXX
+
+Another important matter is that the item modifier WILL NOT be taken into
+account UNLESS one of the Materia in the fusion has the SAME attribute as the
+item.  So yeah, trying to boost Spirit with Materia that have Attack and
+Magic Power attached to them isn't going to do very much. :P
+
+Finally, the other thing that the CC team threw in to make every player's mind
+spin is item boost maximums.  As mentioned near the end of section 7f, there's
+a restriction as to how many times a certain item can increase an attribute.
+
+Here's the list in figuring out what those maximums are.  In terms of attri-
+butes like HP, MP, and AP, just multiply the number by 10%.  For 100, the 
+limit will obviously be 999%:
+
+An item that requires:
+- a quantity of 99 per +1 or +10% boost gives a max increase of 2.
+- a quantity of 20 per +1 or +10% boost gives a max increase of 10.
+- a quantity of 10 per +1 or +10% boost gives a max increase of 20.
+- a quantity of 8 per +1 or +10% boost gives a max increase of 25.
+- a quantity of 5 per +1 or +10% boost gives a max increase of 40.
+- a quantity of 3 per +1 or +10% boost gives a max increase of 66.
+- a quantity of 2 per +1 or +10% boost gives a max increase of 100.
+- a quantity of 1 per +1 or +10% boost gives a max increase of 100.
+
+As usual, it's easier to get a better understanding of something when there
+are visuals so below are several examples of increasing attributes with items
+that illustrate the above rules:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #1:  Fira MAG+1
+           + Fira MAG+1
+           + 20 x Circlets
+             ------------------
+             Fira MAG+5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The parameter was raised a total of 4 times.  The MAG value from the Materia
+couldn't be divided any further so it would remain as 1.
+
+5 Circlets are needed for 1 increase of MAG.  Since 20 of them were used,
+simple division of 20 / 5 would tell you that +4 was added to the existing
+MAG+1.
+
+Now let's try a more complicated example.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #2:  Cure SPR+40
+           + Tri-Thundaga MP+60%
+           + 29 x Mind Stone
+             ------------------
+             Regen SPR+52
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Recall that the lowest attribute value gets divided by 2.  Also recall that
+any percentages are divided by 10%.  So, the reason SPR was raised by 52 is:
+
+60% divided by 10% = 6.
+6 < 40 so SPR is the stronger attribute.  It would also mean that the 6
+would have to be reduced further.  So the value used in the equation would
+be 3 (6 divided by 2).
+3 Mind Stones are needed to make the stat go up by 1.  As 29 Mind Stones were
+used in the example, the game rounds it down to the nearest multiple of 3
+which would be 27.
+27 divided by 3 = 9
+
+In the end, the calculation is this: 40 + 3 + 9 = 52
+
+Regen was the Materia that came out of the fusion since Cure (grade 1, Re-
+storative) and Tri-Thundaga (grade 3, Ultimate) results in a grade 3 Resto-
+rative Materia.  The Mind Stone has no grade so it was not taken into consi-
+deration.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #3:  Quake Master MAG+50
+           + Quake MAG+1
+           + 50 x MAG Mako Stone
+             ----------------------------
+             Quake Master MAG+50
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This one's a no-brainer.  The maximum any Mako Stone has for stat increases is
+40.  The Master Quake already has +50 attached to it.  Case closed.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example #4:  Energy Master MP+50%
+           + HP Up++ HP+30%
+           + 9 x MP Stone
+             --------------------
+             HP Up++ HP+60%
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+30% divided by 10% = 3
+3 < 50 so 3 will be divided by 2.  This leaves us with 1.
+9 MP Stones should boost MP by 3.  However, due to the fact that an
+Independent Materia is involved (HP Up++), the item and the higher stat is
+completely ignored.
+
+To get the HP+60% result in this, the 1 is mutiplied by 10% and the HP takes
+the 50% away from the MP.
+
+Try using items that only require a quantity of 1 to boost a stat such as
+some Adamantite (アダマンタイト) and see what happens when an Independent
+Materia is involved. :O
+
+
+(8f-l) THE LIST
+~~~~~~~~~~~~~~~
+And now, the list of items and accessories in order of their auto-sort place-
+ment.  It is to be read like this:
+
+------------------------------------------------------------------------------
+Name | Japanese name | Quantity needed per single increase | (Grade, if
+                                                             applicable)
+------------------------------------------------------------------------------
+
+NOTES!!
+- Super Ribbon (スーパーリボン), Fury Ring (怒りの指輪), all Genji equipment
+  (anything with 源氏 in it), Divine Slayer (ゴッドスレイヤー) and Heike Soul
+  (平家の魂) cannot be used for fusing.
+- Key Items can't be fused.
+- List is sorted in order of auto-arrangement in the game.
+
+------------------------------------------------------------------------------
+Potion                      | ポーション          | 20 per HP+10%
+------------------------------------------------------------------------------
+Hi-Potion                   | ハイポーション      | 10 per HP+10%
+------------------------------------------------------------------------------
+X-Potion                    | エクスポーション    | 5 per HP+10%
+------------------------------------------------------------------------------
+Ether                       | エーテル            | 10 per MP+10%
+------------------------------------------------------------------------------
+Soma                        | ソーマ              | 10 per AP+10%
+------------------------------------------------------------------------------
+Remedy                      | 万能薬              | 10 per SPR+1
+------------------------------------------------------------------------------
+Elixir                      | エリクサー          | 1 per HP+10%      | (3)
+------------------------------------------------------------------------------
+Phoenix Down                | フェニックスの尾    | 1 per HP+10%      | (4)
+------------------------------------------------------------------------------
+Bronze Bangle               | ブロンズバングル    | 10 per HP+10%     | (1)
+------------------------------------------------------------------------------
+Iron Bangle                 | アイアンバングル    | 8 per HP+10%      | (2)
+------------------------------------------------------------------------------
+Titanium Bangle             | チタンバングル      | 5 per HP+10%      | (4)
+------------------------------------------------------------------------------
+Carbon Bangle               | カーボンバングル    | 3 per HP+10%      | (6)
+------------------------------------------------------------------------------
+Platinum Bangle             | プラチナバングル    | 2 per HP+10%      | (7)
+------------------------------------------------------------------------------
+Bronze Armlet               | 銅の腕輪            | 10 per MP+10%     | (1)
+------------------------------------------------------------------------------
+Silver Armlet               | 銀の腕輪            | 5 per MP+10%      | (2)
+------------------------------------------------------------------------------
+Gold Armlet                 | 金の腕輪            | 3 per MP+10%      | (4)
+------------------------------------------------------------------------------
+Rune Armlet                 | ルーンの腕輪        | 2 per MP+10%      | (6)
+------------------------------------------------------------------------------
+Mythril Armlet              | ミスリルの腕輪      | 1 per MP+10%      | (7)
+------------------------------------------------------------------------------
+Chocobo Armlet              | チョコボの腕輪      | 10 per AP+10%     | (1)
+------------------------------------------------------------------------------
+Mountain Chocobo Armlet     | 山チョコボの腕輪    | 5 per AP+10%      | (2)
+------------------------------------------------------------------------------
+River Chocobo Armlet        | 川チョコボの腕輪    | 3 per AP+10%      | (4)
+------------------------------------------------------------------------------
+Sea Chocobo Armlet          | 海チョコボの腕輪    | 2 per AP+10%      | (6)
+------------------------------------------------------------------------------
+Sky Chocobo Armlet          | 空チョコボの腕輪    | 1 per AP+10%      | (7)
+------------------------------------------------------------------------------
+Wristband                   | リストバンド        | 10 per ATK+1      | (1)
+------------------------------------------------------------------------------
+Power Wrist                 | パワーリスト        | 5 per ATK+1       | (3)
+------------------------------------------------------------------------------
+Hyper Wrist                 | ハイパーリスト      | 3 per ATK+1       | (5)
+------------------------------------------------------------------------------
+Kaiser Knuckles             | カイザーナックル    | 2 per ATK+1       | (7)
+------------------------------------------------------------------------------
+Bulletproof Vest            | 防弾チョッキ        | 10 per VIT+1      | (1)
+------------------------------------------------------------------------------
+Shinra Alpha                | 神羅保式防具        | 5 per VIT+1       | (3)
+------------------------------------------------------------------------------
+Shinra Beta                 | 神羅安式防具        | 3 per VIT+1       | (5)
+------------------------------------------------------------------------------
+Shinra Beta+                | 神羅安式防具改      | 2 per VIT+1       | (7)
+------------------------------------------------------------------------------
+Earrings                    | イヤリング          | 10 per MAG+1      | (1)
+------------------------------------------------------------------------------
+Circlet                     | サークレット        | 5 per MAG+1       | (3)
+------------------------------------------------------------------------------
+Hypno Crown                 | ヒュプノクラウン    | 3 per MAG+1       | (5)
+------------------------------------------------------------------------------
+Royal Crown                 | ロイヤルクラウン    | 2 per MAG+1       | (7)
+------------------------------------------------------------------------------
+Amulet                      | アミュレット        | 10 per SPR+1      | (1)
+------------------------------------------------------------------------------
+Talisman                    | タリスマン          | 5 per SPR+1       | (3)
+------------------------------------------------------------------------------
+Tarot Cards                 | タロットカード      | 3 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Crystal Orb                 | クリスタルオーブ    | 2 per SPR+1       | (7)
+------------------------------------------------------------------------------
+Muscle Belt                 | マッスルベルト      | 5 per ATK+1       | (2)
+------------------------------------------------------------------------------
+Champion Belt               | チャンプベルト      | 3 per ATK+1       | (4)
+------------------------------------------------------------------------------
+Black Belt                  | ブラックベルト      | 2 per ATK+1       | (6)
+------------------------------------------------------------------------------
+Mythril Gloves              | ミスリルの小手      | 5 per MAG+1       | (2)
+------------------------------------------------------------------------------
+Diamond Gloves              | ダイヤの小手        | 3 per MAG+1       | (4)
+------------------------------------------------------------------------------
+Crystal Gloves              | クリスタルの小手    | 2 per MAG+1       | (6)
+------------------------------------------------------------------------------
+Force Bracelet              | フォースブレス      | 5 per SPR+1       | (2)
+------------------------------------------------------------------------------
+Diamond Bracelet            | ダイヤブレス        | 3 per SPR+1       | (4)
+------------------------------------------------------------------------------
+Crystal Bracelet            | クリスタルブレス    | 1 per SPR+1       | (6)
+------------------------------------------------------------------------------
+Four Slots                  | フォウスロット      | 5 per VIT+1       | (2)
+------------------------------------------------------------------------------
+Mystile                     | ミスティール        | 3 per VIT+1       | (4)
+------------------------------------------------------------------------------
+Aegis Armlet                | エイジスの腕輪      | 1 per VIT+1       | (6)
+------------------------------------------------------------------------------
+Good-Luck Charm             | お守り              | 1 per LCK+1       | (2)
+------------------------------------------------------------------------------
+Fire Ring                   | 炎の指輪            | 3 per ATK+1       | (3)
+------------------------------------------------------------------------------
+Fire Armlet                 | 炎の腕輪            | 5 per SPR+1       | (3)
+------------------------------------------------------------------------------
+Flame Bracelet              | 火炎の腕輪          | 3 per SPR+1       | (4)
+------------------------------------------------------------------------------
+Blaze Bracelet              | 烈火の腕輪          | 1 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Ice Ring                    | 氷の指輪            | 3 per ATK+1       | (3)
+------------------------------------------------------------------------------
+Ice Armlet                  | 氷の腕輪            | 5 per SPR+1       | (3)
+------------------------------------------------------------------------------
+Frost Armlet                | 冷気の腕輪          | 3 per SPR+1       | (4)
+------------------------------------------------------------------------------
+Snow Armlet                 | 極光の腕輪          | 1 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Lightning Ring              | 雷の指輪            | 3 per ATK+1       | (3)
+------------------------------------------------------------------------------
+Lightning Armlet            | 雷の腕輪            | 5 per SPR+1       | (3)
+------------------------------------------------------------------------------
+Thunder Armlet              | 雷鳴の腕輪          | 3 per SPR+1       | (4)
+------------------------------------------------------------------------------
+Bolt Armlet                 | 天雷の腕輪          | 1 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Dragon Armlet               | ドラゴンの腕輪      | 1 per SPR+1       | (4)
+------------------------------------------------------------------------------
+Escort Guard                | エスコートガード    | 1 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Wizard Bracelet             | ウィザードブレス    | 1 per SPR+1       | (6)
+------------------------------------------------------------------------------
+Element Blade               | 属性剣              | 1 per MAG+1       | (7)
+------------------------------------------------------------------------------
+Force of Nature             | 属性王              | 1 per MAG+1       | (7)
+------------------------------------------------------------------------------
+Mortal Shock                | 死の衝撃            | 3 per MAG+1       | (6)
+------------------------------------------------------------------------------
+Venom Shock                 | 毒の衝撃            | 3 per MAG+1       | (5)
+------------------------------------------------------------------------------
+Mute Shock                  | 沈黙の衝撃          | 3 per MAG+1       | (5)
+------------------------------------------------------------------------------
+System Shock                | 停止の衝撃          | 3 per MAG+1       | (6)
+------------------------------------------------------------------------------
+Paralyzing Shock            | ショックの衝撃      | 3 per MAG+1       | (6)
+------------------------------------------------------------------------------
+Safety Bit                  | セーフティビット    | 2 per SPR+1       | (6)
+------------------------------------------------------------------------------
+Star Pendant                | 星のペンダント      | 2 per SPR+1       | (5)
+------------------------------------------------------------------------------
+White Cape                  | ホワイトケープ      | 3 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Gris-Gris Bag               | 魔よけのおふだ      | 3 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Headband                    | ハチマキ            | 3 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Sprint Shoes                | エルメスのくつ      | 3 per SPR+1       | (5)
+------------------------------------------------------------------------------
+Pearl Necklace              | 真珠のネックレス    | 2 per SPR+1       | (6)
+------------------------------------------------------------------------------
+Ribbon                      | リボン              | 1 per SPR+1       | (7)
+------------------------------------------------------------------------------
+Cursed Ring                 | 呪いの指輪          | 1 per HP+10%      | (1)
+------------------------------------------------------------------------------
+Moon Bracer                 | 月の腕輪            | 1 per VIT+1       | (7)
+------------------------------------------------------------------------------
+Shining Bracer              | 光の腕輪            | 1 per SPR+1       | (7)
+------------------------------------------------------------------------------
+Protect Ring                | 守りの指輪          | 1 per VIT+1       | (7)
+------------------------------------------------------------------------------
+Faerie Ring                 | 妖精の指輪          | 1 per HP+10%      | (7)
+------------------------------------------------------------------------------
+Twisted Headband            | ねじりハチマキ      | 1 per VIT+1       | (7)
+------------------------------------------------------------------------------
+Sniper Eye                  | スナイパーアイ      | 1 per ATK+1       | (7)
+------------------------------------------------------------------------------
+Precious Watch              | 高級腕時計          | 1 per AP+10%      | (7)
+------------------------------------------------------------------------------
+Jewel Ring                  | ジュエルリング      | 1 per AP+10%      | (7)
+------------------------------------------------------------------------------
+Mog's Charm                 | モグのお守り        | 1 per LCK+1*      | (7)
+------------------------------------------------------------------------------
+Brigand's Gloves            | 盗賊の小手          | 1 per AP+10%      | (7)
+------------------------------------------------------------------------------
+Doc's Code                  | 医術の心得          | 1 per AP+10%      | (6)
+------------------------------------------------------------------------------
+Feather Cap                 | 羽根つき帽子        | 1 per HP+10%      | (7)
+------------------------------------------------------------------------------
+Powered Suit                | パワードスーツ      | 1 per ATK+1       | (7)
+------------------------------------------------------------------------------
+Energy Suit                 | エネルギースーツ    | 1 per MAG+1       | (2)
+------------------------------------------------------------------------------
+Assault Targe               | マーシャルネイ      | 1 per ATK+1       | (2)
+------------------------------------------------------------------------------
+Impervious                  | マーシャルダブー    | 1 per VIT+1       | (2)
+------------------------------------------------------------------------------
+Gold Hairpin                | 金のかみかざり      | 1 per MP+10%      | (7)
+------------------------------------------------------------------------------
+Black Cowl                  | 黒頭巾              | 1 per AP+10%      | (7)
+------------------------------------------------------------------------------
+Soul of Thamasa             | ソウルオブサマサ    | 1 per MP+10%      | (7)
+------------------------------------------------------------------------------
+Laurel Crown                | 月桂樹の冠          | 1 per AP+10%      | (7)
+------------------------------------------------------------------------------
+Magic Master                | マジックマスター    | 1 per MP+10%      | (2)
+------------------------------------------------------------------------------
+Dark Agent                  | 黒装束              | 1 per AP+10%      | (2)
+------------------------------------------------------------------------------
+Adaman Bangle               | アダマンバングル    | 1 per HP+10%      | (7)
+------------------------------------------------------------------------------
+Brutal                      | インビンシブル      | 1 per ATK+1       | (7)
+------------------------------------------------------------------------------
+Ziedrich                    | ザイドリッツ        | 1 per HP+10%      | (7)
+------------------------------------------------------------------------------
+ATK Mako Stone              | 力の魔晄石          | 5 per ATK+1
+------------------------------------------------------------------------------
+VIT Mako Stone              | 体力の魔晄石        | 5 per VIT+1
+------------------------------------------------------------------------------
+MAG Mako Stone              | 魔力の魔晄石        | 5 per MAG+1
+------------------------------------------------------------------------------
+SPR Mako Stone              | 精神の魔晄石        | 5 per SPR+1
+------------------------------------------------------------------------------
+LCK Mako Stone              | 運の魔晄石          | 5 per LCK+1
+------------------------------------------------------------------------------
+HP Mako Stone               | HPの魔晄石          | 5 per HP+10%
+------------------------------------------------------------------------------
+MP Mako Stone               | MPの魔晄石          | 5 per MP+10%
+------------------------------------------------------------------------------
+AP Mako Stone               | APの魔晄石          | 5 per AP+10%
+------------------------------------------------------------------------------
+Power Stone                 | パワーストーン      | 3 per ATK+1
+------------------------------------------------------------------------------
+Guard Stone                 | ガードストーン      | 3 per VIT+1
+------------------------------------------------------------------------------
+Magic Stone                 | マジックストーン    | 3 per MAG+1
+------------------------------------------------------------------------------
+Mind Stone                  | マインドストーン    | 3 per SPR+1
+------------------------------------------------------------------------------
+Luck Stone                  | ラックストーン      | 3 per Luck+1
+------------------------------------------------------------------------------
+HP Stone                    | HPストーン          | 3 per HP+10%
+------------------------------------------------------------------------------
+MP Stone                    | MPストーン          | 3 per MP+10%
+------------------------------------------------------------------------------
+AP Stone                    | APストーン          | 3 per AP+10%
+------------------------------------------------------------------------------
+Hero Drink                  | 英雄の薬            | 1 per ATK+1
+------------------------------------------------------------------------------
+Adamantite                  | アダマンタイト      | 1 per VIT+1
+------------------------------------------------------------------------------
+Dark Matter                 | ダークマター        | 1 per MAG+1
+------------------------------------------------------------------------------
+Mythril                     | ミスリル            | 1 per SPR+1
+------------------------------------------------------------------------------
+Gysahl Greens               | ギザールの野菜      | 1 per LCK+1
+------------------------------------------------------------------------------
+Fat Chocobo Feather         | デブチョコボの羽    | 1 per HP+10%
+------------------------------------------------------------------------------
+Lunar Harp                  | ルナハープ          | 1 per MP+10%
+------------------------------------------------------------------------------
+Zeio Nut                    | ゼイオの実          | 1 per AP+10%
+------------------------------------------------------------------------------
+
+* Mog's Charm note: (to be translated ^^)
+
+
+0============================================================================0
+
+(ex) TUTORIAL FOR GETTING HP+999%
+=================================
+
+~ in progress ~
+
+Please don't take this as the ONLY way of achieving HP+999% because it's not.
+I've only included this here to serve as a more comprehensive example of boo-
+sting a parameter.
+
+Basically, it consists of constantly using Potions and HP Materia.
+
+A = HP Up HP+50% (2 x HP Up + 80 Potions)
+B = HP Up HP+50% (2 x HP Up + 80 Potions)
+C = HP Up HP+100% (A + B + 60 Potions.  Yes, it's 60 Potions here not 80.)
+
+Now do another round of A + B = C so you have 2 x HP Up HP+100%.
+
+Fuse them together to get HP Up HP+150%.
+
+Repeat everything above to get yet another HP Up HP+150% Mash the two HP Up
+HP+150% to get HP+220%.
+
+Keep making either HP+50% or HP+100% and combining them with the HP Up Materia
+that already has a large HP value next to it.
+
+Alternatively, you can substitute Potions with other HP-increasing items.  How-
+ever, take heed of the boost limit for those other items.
+
+Note that this above method DOES NOT COME CHEAP since you'll be spending quite
+a bit of time buying (or stealing) Potions and HP Up Materia.  Also take into 
+account that the higher the attribute, the more SP is needed to successfully
+complete a fusion.
+
+0============================================================================0
+
+(1q) FAQs
+=========
+
+[Q1] What's the fastest/easiest/best way to get < Name of Parameter >+100 or
+     +999% on < Name of Materia >?
+       
+[A1] See point number 6 under (2r) READ ME FIRST.
+
+                                  *******
+
+[Q2] What are the best Materia to have/use/equip?
+
+[A2] This is only something you can really answer yourself.  Every player is
+     different.  I know a lot of fans are quite partial to Darkness but I've
+     never been a big fan of it.  Sure, it can help you take out the damnable
+     Grand Horn from 2-4-6 but aside from that, I hardly used it.
+
+     Although there is one thing I can agree with and it's the general consen-
+     sus that Costly Punch is very VERY useful.
+
+                                  *******
+
+[Q3] I need lots of gil and SP for fusion!  What are the best places for them?
+
+[A3] For gil, the Tonberry Guards and Tonberry Kings from mission 9-4-5
+     (ソルジャーだけの世界) give 5000 and 10000 Gil respectively.  Equip the
+     Luxurious Wristwatch (高級腕時計) and you'll double what you get! :D
+     
+     SP-wise, every Mover-type enemy (those three bouncing balls of annoyance)
+     tends to give quite a bit of SP per kill.  The lowest is 2000 SP and the
+     most you can get is 20000 SP.
+     
+     Movers are regular map enemies in one part of the final dungeon but are
+     also found in some missions like 8-5-2.
+     
+     RE Movers (4000 SP) are found in 2-3-3, 6-4-1, 8-6-1.
+     EX Movers (8000 SP) are in 2-5-2 (as the mission boss), 6-5-5, 6-6-1,
+     6-6-2 and 6-6-3, and 7-6-5 (they frequently appear in this one).
+     Three Stars (20000 SP) show up in 9-5-2 and 9-5-3.
+     
+     Side note:  The nasty Zabotender in 9-6-1 gives 24000 SP.  They don't
+     seem to appear as much as the Movers do though and be thankful because
+     Zack could easily fall victim to its death-inducing 10,000 Needles.
+     And that's 10,000 Needles as in each needle attack does 10,000 damage
+     and since it tends to shoot them 10 times in succession ...
+
+     Now, if you're having trouble sending any of the enemies to their respec-
+     tive heavens, you can always fight for enemy drops and steals and then
+     sell them off to a store for money.
+     
+     Likewise, you can get Materia from enemies too and convert them to SP.
+     
+     Finally, you can use gil to buy Materia from stores and change them into
+     SP.  Sadly, you can't sell Materia. :/
+     
+                                  *******
+
+[Q4] Uh, how do I convert Materia to SP?
+
+[A4] In the Materia (NOT Materia Fusion) menu, there is an option to the far
+     right entitled SP変換 (SP Convert).  Click on it and then select a
+     Materia.  You will be shown the value of the Materia in terms of SP.
+     The higher the Materia level, the greater the SP.
+     
+     SP Convert is actually a great way to get rid of Materia since if
+     you keep every Materia Zack finds, wins, buys, and steals, and you clog
+     up the Materia inventory to the maximum with them, he won't be able to
+     get any more of the shiny colourful spheres. :(
+
+                                  *******
+
+[Q5] Which Materia give the most SP?
+
+[A5] Well, the higher the level of a Materia and the higher tha parameter
+     attached to it is, the more you'll get from a conversion.  Common
+     sense should also tell you that stronger or harder to obtain Materia
+     such as Ultima and SP Turbo would yield lots of SP.
+     
+     There's actually a formula to figure this out but since I didn't go into
+     any details about the SP Conversion Co-efficient (I can hear you going
+     "HUH?"!), there's no sense in writing about it here.  'Sides, who's
+     going to sit around and calculate things when you can select a Master
+     Materia with ATK+50 and hit SP Convert and know, without a doubt, that
+     you'll get a healthy amount of SOLDIER Points?
+     
+     But to answer the question, the two Materia that can net you the largest
+     sum of SP are Dualcast (18040 SP at Lv. 1) and SP Master (24010 SP at 
+     Lv. 1).  Between the two, only Dualcast can be purchased so chances 
+     are, this would be the best to use.
+
+
+                                  *******
+
+0============================================================================0
+
+(1a) ACKNOWLEDGEMENTS
+=====================
+Just crediting my sources. :3
+
+Crisis Core -Final Fantasy VII-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dur hur hur hur.  I had the PSP with Crisis Core running at my computer desk
+every time I worked on this file. XD  Most of the examples I have in the file
+were from fusions that I fooled around with to get a better understanding of
+why and how certain things worked and all.
+
+                                  *******
+
+Crisis Core -Final Fantasy VII- Ultimania
+クライシスコア-ファイナルファンタジーVII- アルティマニア
+ISBN 978-4-7575-2126-1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+It's the bible for Crisis Core and it's where I got the bulk of the facts.
+BradyGames and all American companies will NEVER provide the wealth of infor-
+mation this book provides.  Sure, the official English guidebook will probably
+give you everything I provided since the information is quite vital to a pla-
+yer's success but I'm pretty sure some other things will be omitted.  It hap-
+pened with the Kingdom Hearts II guide afterall. :P
+
+                                  *******
+
+Crisis Core FF7 Walkthrough Guide Wiki
+クライシスコア FF7 攻略ガイドwiki -クライシス コア -ファイナルファンタジーVII-
+攻略サイト-
+http://ccff7.gkwiki2.com/index.html
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The primary Japanese site I turned to when I needed help with certain things
+in the game including Materia synthesis.  It's quite thorough and has links
+to spiffy Materia Fusion "calculators".  I never used them though. ^^
+
+                                  *******
+
+Crisis Core -Final Fantasy VII- Walkthrough
+CRISIS CORE -FINAL FANTASY VII-　クライシス コア -ファイナルファンタジーVII-
+攻略
+http://www.adventureisland.org/ccff7.html
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This page is being credited as it's the one that listed all the items usable
+in fusions, the quantities needed, and their maximum limits.
+
+                                  *******
+
+Crisis Core - Final Fantasy VII - BradyGames Strategy Guide
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+I have dubbed this book the English version of the Ultimania since that's
+pretty much what it is even though it's missing the Mail archive, interviews,
+storyboards, and some other little things.  Almost everything else is intact
+though.  Strange thing is, they don't even credit the Japanese guide.  Anyway,
+I used this to get all the names of the Materia and Items since I've yet to
+get much of either in the game. :P  And also, to get a better understanding of
+item fusion.
+
+                                  *******
+
+Final Fantasy VII: Monster/Treasure Chart by SAxeswinger
+http://www.gamefaqs.com/console/psx/file/197341/2390
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Used this for its list of monster names.
+
+                                  *******
+
+Megs, Shaz, and Pipps
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+I have to thank my friends for helping me with translating 殺意の一撃 and
+勇気百倍！  The translations I ended up using may not be entirely accurate but
+I seriously did not want to use literal translations since they both sound
+kind of funky. :/  In such cases, I strongly believe conveying the meaning and
+gist of something is better and more natural in English.
+
+                                  *******
+
+DeltaExe
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This GameFAQs member pointed out that Materia placement mattered in the High
+Jump + Elemental Ward example.

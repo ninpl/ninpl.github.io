@@ -1,0 +1,1943 @@
+
+[Imagine totally awsome ASCII art logo here]
+
+[ Line Width Check: 79 characters ]
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza
+
+|=============================================================================|
+|                                                                             |
+|FINAL FANTASY: CRYSTAL CHRONICLES: My Life as a King                         |
+|Buildings FAQ v1.0                                                           |
+|by Grant Dotter                                                              |
+|                                                                             |
+|=============================================================================|
+
+This guide uses section tags for easy navigation. Section tags are in brackets
+at the end of each heading in the contents and each section.
+Press Ctrl-F, enter the tag, and press Find to jump to that location.
+
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | CONTENTS                                                           |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+1 - About This FAQ [BA01]
+
+   1.1 - About the Game [BA02]
+
+   1.2 - About This FAQ [BA03]
+
+      1.2.1 - Format [BA04]
+
+      1.3.1 - Version History [BA05]
+
+2 - Construction / Destruction [BC01]
+
+   2.1 - How to Build [BC02]
+
+   2.2 - Dismantling Structures
+
+3 - The Buildings [BB01]
+
+   3.1 - Houses [BB02]
+
+      3.1.1 - Small House [BB03]
+
+      3.1.2 - Large House [BB04]
+
+      3.1.3 - Spacious House [BB05]
+
+      3.1.4 - Luxurious House [BB06]
+
+      3.1.5 - Yuke Shack [BB07]
+
+      3.1.6 - Lilty Hut [BB08]
+
+      3.1.7 - Selkie Den [BB09]
+
+   3.2 - Citizen Shops [BB10]
+
+      3.2.1 - Bakery [BB11]
+
+      3.2.2 - Emporium [BB12]
+
+   3.3 - Adventurer Shops [BB13]
+
+      3.3.1 - Weapon Shop [BB14]
+
+      3.3.2 - Armor Shop [BB15]
+
+      3.3.3 - Item Shop [BB16]
+
+   3.4 - Adventurer Job-related Buildings [BB17]
+
+      3.4.1 - Black Mage Academy [BB18]
+
+      3.4.2 - White mage Temple [BB19]
+
+      3.4.3 - Gaming Hall [BB20]
+
+      3.4.4 - Training Hall [BB21]
+
+      3.4.5 - Library [BB31]
+
+   3.5 - Special Buildings [BB22]
+
+      3.5.1 - Guild Hall [BB23]
+
+      3.5.2 - Tavern [BB24]
+
+      3.5.3 - Inn [BB25]
+
+   3.6 - Parks [BB26]
+
+      3.6.1 - Fountain Park [BB27]
+
+      3.6.2 - Bulletin Park [BB28]
+
+      3.6.3 - Sacred Shrine [BB29]
+
+   3.7 - Other Stuff [BB30]
+
+      3.7.1 - Castle (and Castle Upgrade) [BB32]
+
+      3.7.2 - The Pavlov Informer [BB33]
+
+4 - Common Questions [BQ01]
+
+   4.1 - Tips From the Mail Bag [BQ02]
+
+5 - Contact Info [BCON]
+
+6 - Legal Mumbo-Jumbo and Permissions [BLGL]
+
+7 - Credits and Thanks [CRED]
+
+
+
+Ok, so here we go!
+
+
+      
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 1 - About This FAQ [BA01]                                          |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+This section has everything you should know before you read the good stuff.
+
+   00 00 00 
+   \\ || // 
+    \\||//  1.1 - About the Game [BA02]
+   ++++++++ 
+   ========
+
+FINAL FANTASY: CRYSTAL CHRONICLES- My life as a King Takes both Final Fantasy
+and Crystal Chronicles in an entirely new direction with a unique simulation-
+based game in which you are the little king of a lost kingdom, which you must
+rebuild and lead to greatness, whilst unravelling the mystery of what happened
+to the old kingdom and your missing father. You do this by building up a new
+city (What this FAQ covers), commissioning adventurers from your population to
+do your dirty work for you by issuing royal behests (orders) to hunt for re-
+sources, allowing you to build more stuf and advance the game's story.
+
+   00 00 00 
+   \\ || // 
+    \\||//  1.2 - About This FAQ [BA03]
+   ++++++++ 
+   ========
+
+This FAQ is specifically focused on the city-building aspect of the game. It
+is designed to give you all the details about every building in the game and
+how they are used. If after reading the sections about each individual 
+structure, See section 4 for answers to some common questions. Below I will
+describe the format for the building info and what all of it means. Each
+building's section uses the below heading style.
+
+      === 1.2.1 - Format [BA04] ===
+
+Name: Obviously, the name of the building. Part of the section heading,
+      but here for completeness.
+
+Category: Again, here for completeness, this is the section in the building
+          menu where the structure is found.
+
+Requires DLC: Indicates if the building is part of a DownLoadable Content
+              (DLC) package.
+
+Cost: This is the amount of Elementite required to build the structure.
+      Elementite is gained by sending your adventurers into dungeons.
+
+Morale Spheres provided: Citizen Shops only. Indicates how much the morale
+                         sphere limit is increased.
+
+Tithes provided: The amount of gil you recieve each day from the family
+                 living here. For the efficency-inclined, also includes
+                 tithes-per-square calculations. Houses only.
+
+Medals: Lists any medals that may be awarded by families with a full heart
+        meter whom live near this building. The head of household must be
+        present when you visit to recieve the medal.
+
+Size: the length and width of the building in tiles. All buildings are either
+      1x1, 2x1, 2x2, or 3x2.
+
+Limits: The maximum number of the structure you may have. This is the final
+        limit, and may be lower when the building is initially available.
+
+Description: General description of the building's function, more or less as
+             the game describes.
+
+Data: More in-depth information about the building.
+
+Placement tips: Suggestions on how to locate the building in your city.
+
+      === 1.3.1 - Version History [BA05] ===
+
+v1.0  5/23/2008 - First release. Mostly complete but need more tips. Also
+                  limited info about unreleased buildings. Need Luxurious
+                  info.
+
+v1.1  5/27/2008 - Fixed some factual errors, added lots of info to the question
+                  section, and added some more info and tips to several of the
+                  buildings. Added Tithes field to house buildings. Added
+                  Pavlov's building-like screen.
+
+v1.2  5/29/2008 - More fact fixes, expanded info in several sections, and
+                  fixed erroneous section numbering. Added Credits section.
+                  Revised legal mumbo jumbo.
+
+v1.21 5/30/2008 - Fixed some typos and copy-paste related errors pointed out
+                  to me in e-mails. (Thanks Psycho Snyder)
+
+v1.3  6/2/2008  - Fixed erroneous information about the Sacred Shrine (thanks
+                  Jeffry) and added section on the Castle and known info on
+                  the Castle Upgrade DLC add-on.
+
+v1.4 6/5/2008   - Added Medals field- Happy families near certain buildings may
+                  award certain medals, which one depends on the building.
+                  Plus more minor corrections.
+
+v1.5 6/15/2008  - Finally defeated Titan on Hard (yay) and got the luxurious
+                  house, so updated that section. Also updated weapon, armor,
+                  and item shop details, including charts with basic gear
+                  info.
+
+v1.6 7/1/2008   - **Ginormous update!**
+                  Updated FAQ in accordance with the release of the new DLC
+                  released this week. Library information updated and moved
+                  to it's correct building category. Castle information
+                  updated to include info on Chime's Room. Other misc. tweaks
+                  and changes.
+
+v1.7 7/2/2008   - Added several additional abilities to the Library, which
+                  I initally did not know about because they require the
+                  Guild Hall as a prerequisite.
+
+v1.8 8/11/2008  - Added miscellaneous new info to the Library, item, and armor
+                  shop sections about costs, and special sales days. Added
+                  a new notice about the Castle Renovation DLC regarding a bug
+                  experienced by some people. Updated permissions.
+
+
+      
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 2 - Construction / Destruction [BC01]                              |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+   00 00 00 
+   \\ || // 
+    \\||//  2.1 - How to Build [BC02]
+   ++++++++ 
+   ========
+
+In order to construct buildings, you must move King Leo (you) onto or very
+near a building site, denoted by ground that glows when you do so. Then, you
+must summon Chime, either by flicking the wiimote sideways or by pressing the
+(-) button on the wiimote, then selecting "Let's Build!" and pressing the A
+button. This will bring up the building menu. Press left or right on the
+Nunchuk Control Stick or the wiimote D-pad to switch between categories, and
+up or down to select the type of building. When you find the building you
+want, Press A and choose how you want the building to face. The entrance to a
+building MUST face a sidewalk- The game will automatically prevent you from
+choosing an invalid facing. Once the building is positioned how you want,
+press A to call upon the magical powers of Architek to summon the building
+and it's inhabitants. A maximum of two people will warp in with any given
+building- If the building has more people than that, the rest will be flown
+in the next day on Mogcid's Skysphere, where they will emerge from the
+castle. Shops and parks will not be used by anyone until the following day,
+although you may visit them yourself (And research upgrades if applicable.)
+
+   00 00 00 
+   \\ || // 
+    \\||//  2.2 - Dismantling Structures
+   ++++++++ 
+   ========
+
+If you make a mistake whilst building something, or just want to get rid of
+something you've built, you can dismantle it and free that space for another
+building, however you must be on Chapter 3 or later in the story. When you
+dismantle a structure, the resources spent on it are returned to you. When
+you dismantle a building that researches technology (such as the weapon shop)
+you do not lose any research progress. When you build the building again, you
+will still have all the research you paid for. When you dismantle a house,
+the family is temporairly moved into the castle until you build another
+suitable structure that can house as many or more people than were living in
+it before, at which point they will move into that house. You will be
+refunded the elementite you spent on the building when you dismantle it.
+Dismantling buildings which offer upgrade research will not undo your
+investment in that research. When you rebuild the building, the upgrades
+will be at the same level they were when you dismanlted the building.
+
+*** WARNING! *** There is a glitch, the exact circumstances of which are not
+clear, that can cause you to lose adventurers if you dismantle the home of
+a sanctioned adventurer. When this happens, the family moves into the castle
+but never comes out, and new families move into the houses you build. The
+adventurer is completely stuck and since you cannot fire adventurers, you
+will be unable to replace them, taking away from your maximum limit of them.
+I strongly advise players to not dismantle more than one house at a time!
+This only applies to houses and not other buildings. *** END WARNING! ***
+
+To dismantle a structure, stand in front of it such that the building's name
+appears at the top of the screen, summon chime, and choose Dismantle. Chime
+will explain what happens, and prompt for confirmation. When you O.K. it, the
+building's entrance is blocked with a red 'X' sign and will disappear the
+next day. You may dismantle up to 5 buildings (heeding the above
+warning) per day, but Chime will require you to leave at least one adventurer 
+house standing.
+
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 3 - The Buildings [BB01]                                           |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+And now the section you've all been waiting for! The buildings are listed more
+or less the way they appear in the building menu. Keep in mind that, on Hard /
+Very Hard mode in particular, you will not have enough space to build the
+maximum number of every building.
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.1 - Houses [BB02]
+   ++++++++ 
+   ========
+
+There is a collective limit for all houses. The maximum is 40, or 50 with
+certain DLC.
+
+Houses are where all of your citizens and adventurers live. Common to all
+houses is the ability to view the list of family members and their status.
+While ignored by most players, you can learn alot of interesting tidbits
+about families if you follow them. You may see drama, where spouses kick
+eachother out of the house, adventurers pick on other siblings or look up
+to their parents, etc. Inside any house you will also see a heart meter.
+This meter shows the overall happiness of the family. It is primarily
+influenced by two things: proximity to citizen shops, and talking with the
+player while under Chime's "Raise Morale!" effect. The first time a house's
+heart meter is filled, if you visit the house while a family member is
+present, they will give you an adventurer medal.
+
+Visiting an adventurer's home when they have been KO'd in battle will boost
+their own morale making them feel better when they go back on the job the next
+day. Wouldn't you feel good if you were visited by your king?
+
+      === 3.1.1 - Small House [BB03] ===
+
+
+Name: Small House
+
+Category: Houses
+
+Requires DLC: No
+
+Cost: 100 Elementite
+
+Tithes provided: 10 gil / day. (Tithes per square: 10)
+
+Size: 1x1
+
+Limits: See section 3.1
+
+Description: Builds a small house and recalls a citizen to live within.  
+             Provides 10 gil in tithes. 1 aspiring adventurer will also be
+             recalled.
+
+Data: The most basic structure. You are required to build a few of these
+      the first day, before anything else. All houses provide income in the
+      form of tithes. If the citizens within are kept happy, a bonus is added
+      to the usual tithes. This house recalls a Clavaat adventurer to
+      potentially serve you.
+
+Placement tips: Clavats can be any job. Position them when possible near a
+                job building for the job you wish the adventurer to become.
+                Adventurers will gain a small bonus to the relevant stats for
+                the job if positioned near such a building. For example, if
+                you wish for your next Clavaat to become a Black Mage,
+                building a house near a Black mage Academy will promote a
+                higher Intellect stat in the adventurer within. These bonuses
+                only apply when the adventurer is a Novice, before they have
+                been commissioned by the king. Relocating the family to be
+                nearer to a different job building will remove the previous
+                bonus and add the new bonus.
+
+
+      === 3.1.2 - Large House [BB04] ===
+
+
+Name: Large House
+
+Category: Houses
+
+Requires DLC: No, but only available on Hard or Very Hard difficulty without.
+
+Cost: 250 Elementite
+
+Tithes provided: 20 gil / day. (Tithes per square: 20)
+
+Size: 1x1
+
+Limits: See section 3.1
+
+Description: Builds a large house and recalls a family of citizens to live
+             within. We will recieve 20 additional gil in tithes. 1 aspiring
+             adventurer will also be recalled.
+
+Data: Same size as Small but holds two citizens and an adventurer. All
+      houses provide income in the form of tithes. If the citizens within are
+      kept happy, a bonus is added to the usual tithes. This house recalls a
+      Clavaat adventurer to potentially serve you.
+
+Placement tips: Same as Small House. when you unlock this building, you will
+                want to gradually replace small houses with large ones.
+
+
+      === 3.1.3 - Spacious House [BB05] ===
+
+
+Name: Spacious House
+
+Category: Houses
+
+Requires DLC: No
+
+Cost: 300 Elementite
+
+Tithes provided: 30 gil / day. (Tithes per square: 15)
+
+Size: 2x1
+
+Limits: See section 3.1
+
+Description: Builds a spacious house and recalls a large family of citizens
+             to live within. We will recieve 30 additional gil in tithes. 1
+             aspiring adventurer will also be recalled.
+
+Data: Takes up two spaces instead of one, and houses a total of 4 people.
+      Thus, it provides the same population as two Large Houses, but only
+      one adventurer and 10 fewer gil in tithes. They are cheaper than the
+      two large houses, however. 
+
+Placement tips: Same as the above houses. However, since Large Houses are
+                slightly superior, I reccomend only building one, when you
+                first unlock it, then only build Large Houses if/when they
+                are available, unless you like how they look or something.
+
+
+
+      === 3.1.4 - Luxurious House [BB06] ===
+
+
+Name: Luxurious House
+
+Category: Houses
+
+Requires DLC: Yes (Luxurious House Pack)
+
+Cost: 550 Elementite
+
+Tithes provided: 70 gil / day. (Tithes per square: 17.5)
+
+Size: 2x2
+
+Limits: 3 Maximum, but also limited by house cap (see section 3.1)
+
+Description: Builds a luxurious house and recalls a large family of citizens
+             to live within. We will recieve 70 additional gil in tithes. 1
+             aspiring adventurer will also be recalled.
+
+Data:  Takes up four spaces, and houses 8 people, providing more taxes.
+       *IMPORTANT NOTE* On Hard difficulty the dungeon to unlock this house
+       is level 60, and on Very Hard it is level 100. It is STRONGLY advised
+       that you clear this dungeon on your first play-through if possible.
+       Provides 10 less gil in tithes each day than four Large Houses in the
+       same amount of space. They are cheaper than supporting the same
+       population in Large Houses though. The luxurious house increases your
+       population quickly.
+
+       Mario Cleanstuff on the GameFAQs forums makes an interesting
+       observation. Say you have a 2x2 plot of space open, but don't have
+       four houses left on your building limit. In this case, the
+       luxurious house is a better choice. If you go for the maximum
+       population at the expense of adventurer services, getting three of
+       these beats three of any other house.
+
+Placement tips: Same as the above houses. However, due to their large size,
+                you should consider placement carefully so you don't squeeze
+                anything out unnecessarily. 
+
+
+
+      === 3.1.5 - Yuke Shack [BB07] ===
+
+
+Name: Yuke Shack
+
+Category: Houses
+
+Requires DLC: Yes (Yuke Race Pack or Three Race Pack)
+
+Cost: 200 Elementite
+
+Tithes provided: 20 gil / day. (Tithes per square: 20)
+
+Size: 1x1
+
+Limits: 5 maximum. Also counts toward total house limit: See Section 3.1.
+
+Description: Build a Yuke Shack to recall a family of Yukes to the kingdom.
+             Gives 20 gil in tithes. 1 aspiring Yuke adventurer will also be
+             recalled. This studious race has an affinity for the magical
+             disciplines, and make the best mages.
+
+Data: Statistically identical to Large Houses, except cheaper. The Yuke
+      adventurer is restricted to Black Mage if male, or White Mage if
+      female, and may not change jobs.
+
+Placement tips: A Yuke's stats already favor Intellect and Willpower, so
+                placement is not crucial. Additionally, you can't pick
+                which gender you get (NOTE: Resetting the game after building
+                will let you reroll the family makeup), it is random.
+                That said, if you wish, once you see what the gender of the
+                adventurer is, you can relocate the building to be near a
+                Black Mage Academy if you get a male, or near a White Mage
+                Temple if you get a female.
+
+
+
+      === 3.1.6 - Lilty Hut [BB08] ===
+
+
+Name: Lilty Hut
+
+Category: Houses
+
+Requires DLC: Yes (Lilty Race Pack or Three Race Pack)
+
+Cost: 200 Elementite
+
+Tithes provided: 20 gil / day. (Tithes per square: 20)
+
+Size: 1x1
+
+Limits: 5 maximum. Also counts toward total house limit: See Section 3.1.
+
+Description: Build a Lilty Hut to recall a family of Lilties to the kingdom.
+             Gives 20 gil in tithes. 1 aspiring Lilty adventurer will also be
+             recalled. This stalwart race has an affinity for the martial
+             disciplines, and make the best warriors.
+
+Data: Statistically identical to Large Houses, except cheaper. The Lilty
+      adventurer is restricted to Warrior and may not change jobs.
+
+Placement tips: A Lilty's stats already favor being a warrior, so placement
+                is not crucial. That said, placement near the Training Hall
+                is ideal.
+
+
+
+      === 3.1.7 - Selkie Den [BB09] ===
+
+
+Name: Selkie Den
+
+Category: Houses
+
+Requires DLC: Yes (Selkie Race Pack or Three Race Pack)
+
+Cost: 200 Elementite
+
+Tithes provided: 20 gil / day. (Tithes per square: 20)
+
+Size: 1x1
+
+Limits: 5 maximum. Also counts toward total house limit: See Section 3.1.
+
+Description: Build a Selkie to recall a family of Selkies to the kingdom.
+             Gives 20 gil in tithes. 1 aspiring Selkie adventurer will also 
+             be recalled. This stalwart race has an affinity for stealth and
+             trickery, and make the best thieves.
+
+Data: Statistically identical to Large Houses, except cheaper. The Selkie
+      adventurer is restricted to Thief and may not change jobs. Note also
+      That all selkies are female in this game (though males exist in the
+      other Crystal Chronicles games).
+
+Placement tips: A Selkie's stats already favor being a Thief, so placement
+                is not crucial. That said, placement near a Gaming Hall is
+                ideal.
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.2 - Citizen Shops [BB10]
+   ++++++++ 
+   ========
+
+These buildings primarily serve to:
+1) Give citizens something to do when they're out and about, thus creating
+oppertunities for them to meet and interact, which also leads to:
+2) allows shopping, which directly helps improve the happiness of the
+citizens- which will also sometimes result in a conversation topic, allowing
+the king to talk to them and bolster their morale and family relations, if
+Chime's Raise Morale! effect is active.
+3) Each citizen shop increases your morale sphere limit. Morale spheres are
+used to upgade the kingdom's development status and are also used in
+conjunction with talking to people in town to improve family relations and
+slightly boost a random stat on adventurers you talk to. The effect is
+different from "Morale fever" which merely increases the rate at which the
+morale meter is filled.
+
+
+
+      === 3.2.1 - Bakery [BB11] ===
+
+
+Name: Bakery
+
+Category: Citizen Shops
+
+Requires DLC: No
+
+Cost: 200 Elementite
+
+Medals: Nearby happy families may give you Mop-Up medals.
+
+Size: 2x1
+
+Limits: 3 maximum. May be only possible to get three on Normal with DLC.
+        Otherwise, it requires Hard/Very Hard mode to get three.
+
+Morale Spheres provided: 1 each.
+
+Description: This building will give our citizens a Morale Boost every time
+             they make a purchase in this establishment.
+
+Data: This is the first non-house building you aquire. It provides all of the
+      effects described in section 3.2.
+
+Placement tips: Spread them evenly about the kingdom, minimizing the distance
+                any one citizen must travel to reach one.
+
+
+
+      === 3.2.1 - Emporium [BB12] ===
+
+
+Name: Emporium
+
+Category: Citizen Shops
+
+Requires DLC: No
+
+Cost: 600 Elementite
+
+Medals: Nearby happy families may give you Vanguard medals.
+
+Size: 3x2
+
+Limits: 1 maximum.
+
+Morale Spheres provided: 2.
+
+Description: This building will give our citizens a Morale Boost every time
+             they make a purchase in this establishment.
+
+Data: Provides all the benefits of a bakery, and also allows Adventurer Shops
+      to sell new items:
+      
+      -Item Shops will sell Antidotes
+      -Weapon Shops will sell Daggers
+      -Armor Shops will sell Shields
+
+Placement tips: Find a nice 3x2 plot in the most populated part of the city
+                maximum benefit.
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.3 - Adventurer Shops [BB13]
+   ++++++++ 
+   ========
+
+These shops allow your adventurers to buy= equipment and items, and allow you
+to upgrade the available types of equipment to be more effective. Adventurers
+will buy items and equipment of a level within 5 of their own; The inventory
+at each shop only lists the highest level of item available- but items of
+every level below that are also available.
+
+Periodically, Adventurer Shops will hold special sales days. On these days,
+Armor and Weapon shops will sell eXperimental or + (Sword X, Sallet+ for
+example) items; Item shops will sell Hi-Potions. Note that Special Sales may
+still occur when you declare a national holiday- and no adventurers will go
+shopping on a holiday. So check when a special sale is coming up and avoid
+declaring holidays when a special sale is going to happen. While the job
+related buildings also sell stuff, only Weapon, Armor, and Item shops have
+special sales days.
+
+(Experimental items add a large amount to one stat, and take the same amount
+away from another stat or half that amount away from two stats. + items boost
+a single stat by a smaller amount without any penalty to any other stats.)
+
+Characters can only carry one of any given consumable item at a time. The
+exception is with potions- an adventurer can carry both a normal potion sold
+most days and a Hi-Potion sold on special sales days.
+
+
+
+      === 3.3.1 - Weapon Shop [BB14] ===
+
+
+Name: Weapon Shop
+
+Category: Adventurer Shops
+
+Requires DLC: No, except for third one.
+
+Cost: 200 Elementite
+
+Medals: Nearby happy families may give you Weapon Buff OR Tenacity medals.
+        Funding research here will earn you medals corresponding to what you
+        researched.
+
+Size: 2x2
+
+Limits: 3 maximum. DLC required to achieve maximum.
+
+Description: Build a structure that sells adventurer Weapons. New and
+             improved weapons can be researched with funding. Better weapons
+             will enable adventurers to defeat more heavily armored foes.
+
+Data: The type of weapons available depend on the shop (and Emporium):
+      
+      -The first shop will sell/research Swords
+      -The second shop will sell/research Hammers
+      -The third shop (DLC only) will sell/research Axes
+      -All shops will sell/research Rods/Staves once you have at least one 
+       Black Mage or White Mage in your adventurer lineup.
+      -All shops will sell/research Daggers once you build an Emporium.
+
+      Basic guide to weapons:          Jobs: Warrior= WAR     White Mage= WHM
+                                             Thief= THF       Black Mage= BLM
+
+ Weapon     |  Accuracy |  Attack  |  Other                   | Jobs
+ ===========|===========|==========|==========================|===============
+ Swords     | Average   | Average  |                          | WAR/THF
+ Daggers    | Very High | Very low |                          | WAR/THF/BLM
+ Hammers    | Low       | High     | Effective vs heavy armor | WAR/WHM
+ Rods/Staves| High      | Low      | Ignore weapon resistance@| WHM/BLM
+ Axes *     | Very Low  | Very High| Strong vs plant momsters | WAR
+
+ * Only available with DLC, OR can also be found in treasure chests.
+   (unknown if they only appear in chests with the DLC present)
+ @ Note: Because of the job restrictions, Lilties cannot equip any rods. If
+   you have the Library built, however, Lilties can gain an ability that gives
+   a chance for this Ignore Weapon Resistance bonus to be applied to any
+   weapon the Lilty can use.
+      
+      On Special Sales Days, shops may sell versions of their usual stock 
+      with special enhancements. The possible enhancements are:
+
+      -eXperimental: Denoted by an X after the weapon name, this weapon
+       increases 1 of the wearer's stats by (Level/2, rounded to nearest)+1,
+       and reduces 1 other stat by the same amount, unless negated by an
+       ability.
+      -High Quality: Denoted by a + after the weapon name, this weapon raises
+       1 of the wearer's stats by (Level/4, rounded to nearest)+1, with no
+       penalties or disadvantages.
+      -Elemental: Denoted by a F, B, or T after the armor name, these weapons
+       cause Fire (F), Ice (B), or Thunder (T) damage instead of physical
+       damage. This enables weapon attacks to be effective against enemies
+       with a weapon damage resistance.
+
+
+      Beware- the third weapon shop is guarded by a life-bar boss, which
+      may be difficult to defeat until near the end of the game. Don't
+      forget to unlock this before starting a New Game +!
+
+Placement tips: Place your first of each of these three shops near each other
+                to minimize the amount of time adventurers spend running
+                between each shop before they head to their destination.
+
+
+
+      === 3.3.2 - Armor Shop [BB15] ===
+
+
+Name: Armor Shop
+
+Category: Adventurer Shops
+
+Requires DLC: No, except for third one.
+
+Cost: 350 Elementite
+
+Medals: Nearby happy families may give you Armor Buff OR Safety medals. 
+        Funding research here will earn you medals corresponding to what you
+        researched.
+
+Size: 2x2
+
+Limits: 3 maximum. DLC required to achieve maximum.
+
+Description: Build a structure that sells adventurer Armor. New and
+             improved armor can be researched with funding. Better armor is
+             essential to our adventurer's survial.
+
+Data: The type of weapons available depend on the shop (and Emporium):
+      
+      -The first shop will sell/research Body Armor
+      -The second shop will sell/research Helms
+      -The third shop (DLC only) will sell/research Gauntlets
+      -All shops will sell/research Robes once you have at least one 
+       Black Mage or White Mage in your adventurer lineup.
+      -All shops will sell/research Shields when you build an Emporium.
+
+      Basic guide to equipment:        Jobs: Warrior= WAR     White Mage= WHM
+                                             Thief= THF       Black Mage= BLM
+
+ Equipment type | Defense | Other info                    | Jobs
+ ===============|=========|===============================|==================
+ Body Armor     | Highest |                               | WAR/THF
+ Robes          | Average |                               | WHM/BLM/THF*/WAR*
+ Helms          | Lowest  | Reduces damage from Hammers.  | WAR
+ Gauntlets @    | Average | Reduces damage from swords.   | WAR/THF
+ Shields        | Average |                               | WAR
+ Accessories    | None    | Always has stat X/+ effect.   | WAR/THF/WHM/BLM
+                |         | Found on enemies/chests only. |    
+ 
+ * Some robes can only be used by White and Black mages.
+ @ Only available with DLC.
+
+      On Special Sales Days, shops may sell versions of their usual stock 
+      with special enhancements. The possible enhancements are:
+
+      -eXperimental: Denoted by an X after the armor name, this armor
+       increases 1 of the wearer's stats by (Level/2, rounded to nearest)+1,
+       and reduces 1 other stat by the same amount, unless negated by an
+       ability.
+      -High Quality: Denoted by a + after the armor name, this armor raises
+       1 of the wearer's stats by (Level/4, rounded to nearest)+1, with no
+       penalties or disadvantages.
+      -Elemental: Denoted by a F, B, or T after the armor name, this armor
+       reduces damage taken by Fire- (F), Ice- (B), or Thunder- (T) based
+       attacks.
+
+      Beware- the third Armor shop is also guarded by a life-bar boss, which
+      may be difficult to defeat until near the end of the game. Don't
+      forget to unlock this before starting a New Game +!
+
+Placement tips: Place your first of each of these three shops near each other
+                to minimize the amount of time adventurers spend running
+                between each shop before they head to their destination.
+
+
+
+      === 3.3.3 - Item Shop [BB16] ===
+
+
+Name: Item Shop
+
+Category: Adventurer Shops
+
+Requires DLC: No, except for third one.
+
+Cost: 250 Elementite
+
+Medals: Nearby happy families may give you Item Buff OR Bargain Hunter medals.
+        Funding research here will earn you medals corresponding to what you
+        researched.
+
+Size: 2x2
+
+Limits: 3 maximum. DLC required to achieve maximum.
+
+Description: Build a structure that sells adventurer Items. New and
+             improved items can be researched with funding. Better items will
+             enable adventurers to heal and recover status ailments.
+
+Data: The type of weapons available depend on the shop (and Emporium):
+      
+      -The first shop will sell/research Potions
+      -The second shop will sell/research Antidotes (cures poison)
+      -The third shop (DLC only) will sell/research Revival Items
+       (Phoenix Pinions)
+      -All shops sell/research Survival Items when you build an Emporium.
+
+      -Potions heal HP, depending on the item level. 
+      -Magic Torches: These allow adventurers to stay in a dungeon closer to
+       midnight.
+      -Phoenix Down: In battle, if any members of the party are KO'd, any
+       survivng party member may use this to revive a KO'd party member.
+      -Antidotes: Adventurers will attempt to use these to recover from
+       being poisoned. The enemy's level dictates the strength of the poison,
+       and the Antidote must be of a similar level to successfuly cure it.
+
+      All shops sell different items on special sales days:
+
+      -The first shop will sell Hi-potions, which heal more HP than a Potion.
+       Adventurers may carry both a Potion and a Hi-potion at the same time.
+      -The second shop will sell Remedies. A Remedy has a chance to heal any
+       status ailment, including Poison, Silence, and Slow. As with the
+       Hi-potion, adventurers may carry both an antidote and a remedy.
+      -The third shop will sell Phoenix Pinions, which can be used to revive
+       all KO'd allies, instead of just one. Restores less HP than the
+       Phoenix Down, however. This is the most expensive consumable item
+       available for purchase.
+
+      Beware- the third item shop is also guarded by a life-bar boss, which
+      may be difficult to defeat until near the end of the game. Don't
+      forget to unlock this before starting a New Game +!
+
+Placement tips: Place your first of each of these three shops near each other
+                to minimize the amount of time adventurers spend running
+                between each shop before they head to their destination.
+                Bonus Tip: If you are running out of space, once you build
+                your third item shop, you may want to dismantle the second
+                one as antidotes are of limited usefulness (and may not work
+                at all if the adventurer doesnt buy a potent enough one to
+                counter the poison).
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.4 - Adventurer Job-related Buildings [BB17]
+   ++++++++ 
+   ========
+
+These buildings enable your adventurers to change to a particular job. When
+an adventurer changes jobs, they lose their abilities/spells from the
+previous job, and must buy them again, so keep that in mind. To change jobs,
+you must issue a Behest at the castle. Interested adventurers will appear at
+the behest board and you can tell them to change jobs at that time.
+
+They also sell and research the abilities/spells associated with that
+particular job, and adventurers will shop at these buildings just like an
+armor/item/weapon shop whenever they think they need an upgrade. Each copy
+of the same Job building offers different spells or abilities. For some
+spells and abilities, additional buildings are required before they can be
+researched.
+
+      === 3.4.1 - Black Mage Academy [BB18] ===
+
+
+Name: Black Mage Academy
+
+Category: Job-related
+
+Requires DLC: No. DLC is required in order to teach Thunder spells, however.
+
+Cost: 500 Elementite
+
+Medals: Nearby happy families may give you Preemptive medals.
+        Funding research here will earn you Proficiency medals corresponding
+        to the research you funded.
+
+Size: 3x2
+
+Limits: 2 maximum. Hard/Very Hard difficulty required for maximum.
+
+Description: Build a structure to train Black mages. These mages are
+             essential to defeating foes that are resistant to physical
+             damage. You can also fund Black Magic research to create
+             better spells.
+
+Data:  Constructing this building allows you to issue behests giving people
+       the oppertunity to change jobs to Black Mage. People with the Black
+       Mage job will shop here to get new/improved spells.
+
+       The magic research available depends on the Academy:
+      
+      -The first Academy will sell/research Fire spells
+       (Fire, Fira, Firaga)
+
+      -The second Academy will sell/research Blizzard spells
+       (Blizzard, Blizzara, Blizzaga)
+
+      -Both academies will sell/research Enfeebling spells when you build an
+       Inn:
+       Poison: inflicts poison status on an enemy.
+       Slow: Slows a target, causing them to act later in each turn.
+
+      -Both Academies will sell/research Thunder spells when you build a
+       Sacred Shrine (DLC Only)
+       (Thunder, Thundara, Thundaga)
+
+Placement tips: Place these near where you plan to build homes for novice
+                adventurers you want to turn into Black Mages.
+
+
+
+      === 3.4.2 - White Mage Temple [BB19] ===
+
+
+Name: White Mage Temple
+
+Category: Job-related
+
+Requires DLC: No. DLC is required in order to teach Protection spells, however.
+
+Cost: 500 Elementite
+
+Medals: Nearby happy families may give you Last Stand medals.
+        Funding research here will earn you Proficiency medals corresponding
+        to the research you funded.
+
+Size: 3x2
+
+Limits: 2 maximum. Hard/Very Hard difficulty required for maximum.
+
+Description: Build a structure to train White Mages. These mages and their
+             healing spells are the backbone of any party. You can also fund
+             White Magic research to create better spells.
+
+Data:  Constructing this building allows you to issue behests giving people
+       the oppertunity to change jobs to White Mage. People with the White
+       Mage job will shop here to get new/improved spells.
+
+       The magic research available depends on the Temple:
+      
+      -The first Academy will sell/research Cure spells
+       (Cure, Cura, Curaga)
+
+      -The second Academy will sell/research Enhancing spells:
+       Regen: Restores some HP every turn to a target.
+       Haste: Increases Dexterity and Agility of a target.
+
+      -Both academies will sell/research the Holy spell when you build an
+       Inn. Holy deals holy damage to a single target, the White Mage's
+       only offensive spell.
+
+      -Both Academies will sell/research Protection spells when you build a
+       Sacred Shrine (DLC Only):
+
+       Clear: Removes status ailments from target.
+       Protect: Increases defense against weapons.
+       Shell: Increases defense against magic.
+
+Placement tips: Place these near where you plan to build homes for novice
+                adventurers you want to turn into White Mages.
+
+
+
+      === 3.4.3 - Gaming Hall [BB20] ===
+
+
+Name: Gaming Hall
+
+Category: Job-related
+
+Requires DLC: No, except DLC required to build 3rd gaming hall.
+
+Cost: 350 Elementite
+
+Medals: Nearby happy families may give you Game Guru OR Forced March medals.
+
+Size: 2x1
+
+Limits: 3 maximum. Hard/Very Hard difficulty required for maximum.
+
+Description: Build a structure to provide a place for adventurers to relax
+             and win prizes. You can also recruit Thieves and research
+             Thief abilities.
+
+Data:  This building is a little different from the academies. Once built,
+       adventurers may randomly decide to go to the gaming hall to try to win
+       money or prizes. (Note that if you ask about the adventurers here,
+       the owner will only mention anyone if they are currently there and
+       gambling). Besides that, the usual info applies:
+
+       Constructing this building allows you to issue behests giving people
+       the oppertunity to change jobs to Thief. People with the Thief
+       job will shop here to get new/improved abilities.
+
+       The ability research available depends on the Gaming Hall:
+      
+      -The first Gaming Hall will sell/research Adventuring Skills:
+       Keen Eyes: Increases the elementite recieved when clearing a dungeon.
+       Inner Compass: Prevents the character or his party from getting lost.
+       Mapper: The character will increase the exploration rate of a dungeon
+               faster than normal.
+
+      -The second Gaming Hall will sell/research Exploration Skills:
+       Stealth: Allows the character/party to avoid battles against monsters
+                whose level are lower than the ability's level.
+       Lockpicking: Allows the character to always open treasure chests.
+       Pathfinding: Makes it easier for the character to find shortcuts.
+
+      -The third Gaming Hall (DLC Only) will sell/research Dirty Tricks:
+       Critical Attack: Grants the ability to inflict critical hits on foes.
+       Poison Sting: Deals damage and poisons the target.
+       Mug: Steals additional elementite from a target.
+
+Placement tips: Place these near where you plan to build homes for novice
+                adventurers you want to turn into Thieves. This trumps the
+                ability of any job to come there to gamble, but since you can
+                build three of them, chances are there's one nearby.
+
+
+
+      === 3.4.4 - Training Hall [BB21] ===
+
+
+Name: Training Hall
+
+Category: Job-related
+
+Requires DLC: No, but some research depends on DLC-enabled buildings.
+
+Cost: 450 Elementite
+
+Medals: Nearby happy families may give you Vitality or Training Freak medals.
+
+Size: 3x2
+
+Limits: 1 maximum.
+
+Description: Build a structure to provide a place for adventurers to train
+             their skills and gain Experience. You can also fund research
+             for weapon techniques and Warrior abilities.
+
+Data:  This building is a little different from the academies, as well.
+       The warrior job is available by default, however once a Clavaat
+       switches to another job, they won't be able to change back unless
+       you have a Training Hall.
+
+       The training hall has a unique effect- Any adventurers who do not
+       take on a behest or are told to Gain EXP may choose to go to the
+       Training Hall and have Sir Hugh Yurg spar with them, gaining EXP in
+       complete safety. This helps your late recruited adventurers catch up
+       in level to the first few adventurers you commissioned. At low levels
+       they will almost always choose the Training hall, though as their level
+       gets higher they may choose to go to a dungeon to train as usual.
+
+       This building allows you to issue behests giving people the chance to
+       change their job back to Warrior. People with the Warrior job will
+       shop here to get new/improved abilities, and adventurers of any job
+       can shop here for abilities for the weapon they have equipped.
+
+       The ability research available depends on the weapons available from
+       your Weapon Shops. Any job that can use the given weapon can learn
+       abilities here:
+      
+      -The Training Hall always sells/researches Warrior Abilities:
+       Guard: Gives a chance to lower damage taken by half.
+       Cover: The adventurer can move to protect another party member,
+       taking damage instead of them.
+
+      -The first weapon shop allows the sale/research of Sword Skills:
+       Double Attack: Gives a chance to attack an enemy twice in one turn.
+       Shadow Blade: The adventurer can consume some of his own HP to cause
+                     additional damage.
+
+      -The second weapon shop allows the sale/research of Hammer Skills:
+       Shock Bomb: deals damage and disorients target, causing them to miss
+                   a turn.
+       Wave Bomb: Temporarily reduce a target's weapon resistance by a lot.
+       Power Bomb: Charge-up attack- takes two turns to deal heavy damage.
+
+      -The Third weapon shop (DLC Only) allows sale/research of Axe skills:
+       Flurry: The adventurer occasionally hits up to three targets at once
+               but may also hit allies.
+       Avalanche: Two-turn attack: The adventurer deals heavy damage on the
+                  first turn, but must spend a turn recovering afterward.
+
+      -Having both any weapon shop and an Emporium allows the sale/research
+       of Dagger Skills:
+       Parry: The adventurer has a chance to parry an incoming attack.
+              (Warrior, Thief, Black Mage only)
+       Pommel Strike: Allows the adventurer to interrupt an enemy spellcast.
+                      (Appears to be Thief Only)
+       Backstab: Sneaks behind target for a guaranteed hit, and ignores a
+                 portion of the enemy's defense, greatly increasing damage.
+                 (Appears to be thief only)
+
+
+Placement tips: Chances are you have most of your warriors already, so no
+                special consideration is really required, although to be
+                technical, placing this near the houses of any to-be-
+                recruited adventurers will bolster warrior stats.
+
+
+
+      === 3.4.5 - Library [BB31] ===
+
+Name: Library
+
+Category: Adventurer Buildings
+
+Requires DLC: Yes.
+
+Cost: 550 Elementite
+
+Medals: Funding research here will earn you No Specialty medals.
+
+Size: 2x2
+
+Limits: 1 maximum.
+
+Description: Build a structure to study and store lore and knowldge from all
+            races. This knowledge is used to uncover hidden Racial Abilities.
+
+Data: Allows research of new abilities, specific to each race. An adventurer
+      of any given race may only purchase the ability that corresponds with
+      his or her race. Research on the abilities must be funded individually.
+      The research and abilities for each race are as follows:
+
+      Clavatian Might:
+
+        - Spirits Within: Converts party members' morale into damage. The
+          damage is based on the ability level and the user's Wisdom. (?)
+          (it is currently believed that Wisdom is supposed to be Willpower.)
+        - Great Ambition: Allows the character to buy and equip gear further
+          above their character level. Potency of the effect varies with
+          ability level.
+
+      Liltian Might:
+
+        - Whirlwind: Increases accuracy and the chance to dodge enemy attacks.
+                     Strength of the dodge bonus increases with ability level.
+
+      Selkic Might:
+  
+        - Coup De Grace: Defeats a weakened enemy in a single attack. Also
+          works on bosses. Chance to use increases with ability level.
+
+      Yukish Might:
+
+        - Fast Cast: Gives a chance for a spell to be cast instantly. Chance
+          to use increases with ability level.
+
+      * All Might research has a maximum cost per research of 750 gil @ Lv50.
+
+      The following research requires a guild hall in order to be available:
+
+      Clavatian Lore:
+
+        - Fast Learner: The character gains a bonus to all EXP earned. Bonus
+          EXP increases with ability level.
+        - Halve Penalties: Cuts stat penalties on equipment below the user's
+          ability level in half.
+        * Max cost per research level 750 @ Lv50.
+
+      Liltian Lore:
+
+        - Weapon Mastery: The character's attacks have a chance to ignore the
+          enemy's weapon resistances. Chance increases with ability level.
+          (This is just like the special effect of Rods, but Lilties cannot
+          equip them.
+        - Negate Penalties: Negates penalties to Strength and Toughness found
+          on the character's equipment that is lower than the ability level.
+          (This means that if the character is wearing an X item that has
+          any - Strength or - Toughness on it, that deduction is ignored.
+          This won't happen too often unless the user has a Bargain hunter
+          medal, which will cause his gear to fall a bit more behind than
+          normal since he will only normally buy at special sales)
+        * Max cost per research level 500 @ Lv50.
+
+      Selkic Lore:
+
+        - Luck's Favor: The character has a chance to survive an attack
+          dealing damage in excess of his current HP, leaving him/her with
+          1 HP instead. Chance to use increases with ability level.
+        - Negate Penalties: Same as the Lilty ability above, but negates
+          Dexterity and Agility penalties instead.
+        *Max cost per research level 500 @ Lv50.
+
+      Yukish Lore:
+
+        - Spell Mastery: The character's spells have a chance to bypass
+          enemies' elemental resistances. Chance to use increases with ability
+          level. (Example: Gives chance for Blizzard spells to do full damage
+          to a Snow Mu.)
+        - Negate Penalties: Same as the Lilty and Selkie abilities above, but
+          negates Intelligence and Willpower penalties instead.
+        * Max cost per research level 750 @ Lv50.
+
+
+      Note that the research upgrades are a bit pricey- If you've been
+      sitting at 9999 gil for a while, this will eat that up in a heartbeat.
+      The Might research costs more than the Lore research.
+
+      Beware- the Library is guarded by a life-bar boss, which may be
+      difficult to defeat until near the end of the game. Don't forget to
+      unlock this before starting a New Game +!
+
+Placement tips: Your adventurers aquire abilities here like any other
+                adventurer shop, so place this in a convinent location
+                along the way from one shop to another to minimize travel
+                times.
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.5 - Special Buildings [BB22]
+   ++++++++ 
+   ========
+
+These are buildings that have a special purpose that don't really fit into
+the other categories.
+
+
+
+      === 3.5.1 - Guild Hall [BB23] ===
+
+
+Name: Guild Hall
+
+Category: Special
+
+Requires DLC: No
+
+Cost: 300 Elementite
+
+Medals: Nearby happy families may give you Adventurer or Balance medals.
+
+Size: 2x2
+
+Limits: 1 maximum.
+
+Description: Build a structure to administer your adventurers. You can raise
+             the cap on the number of active adventurers and increase their
+             daily pay rank.
+
+Data: This building has five functions:
+      
+      -Reduces the cost of posting behests.
+
+      -Allows you to view the list of adventurers and check on what they're
+       up to (Although Pavlov does this too)
+
+      -Allows you to raise the limit on the number of adventurers (Max 16)
+
+      -Allows you to raise the Pay Rank which dictates how much an adventurer
+       is paid (which is also affected by their level)
+
+      -If you have built the Library, the Guild Hall is required for certain
+       ability research to be available. The research is only available as
+       long as the guild hall is built. Dismantling it will remove the
+       research until it is built again.
+
+Placement tips: If you like using this to check on your adventurers, I
+                personally suggest placing it near the starting behest board,
+                across from your first house. Besides this though, the only
+                function the building serves after getting all the upgrades
+                is a reduction in behest costs. If you don't care about this,
+                you can dismantle this building after getting all of the
+                upgrades and free the space for something else.
+
+                As of the June 30, 2008 (North America) releases, the Guild
+                Hall is now a prerequisite for several abilities to be
+                available from the Library. You may not want to dismantle it
+                as a result.
+
+
+
+      === 3.5.2 - Tavern [BB24] ===
+
+
+Name: Tavern
+
+Category: Special
+
+Requires DLC: No.
+
+Cost: 500 Elementite
+
+Medals: Nearby happy families may give you Tavern Lurker medals.
+
+Size: 2x1
+
+Limits: 3 Maximum. Hard/Very Hard difficulty is required to achieve maximum.
+
+Description: Build a structure to provide a place for your adventurers to
+             form parties. You can also form your own parties.
+
+Data: This building has two funcitons:
+       
+      - Allows adventurers to form parties on their own, when more than one
+        adventurer is assigned to the same behest or more than one person of
+        a similar level is planning to gain EXP.
+
+      - Allows you to to form set parties of Royal Knights. This has an
+        added effect of only the leader of the party showing up at the behest
+        boards, which can be beneficial when more people would otherwise want
+        to show up at a behest board than the maximum of 5.
+
+Placement tips: I can suggest two strategies here: Place one near each exit
+                out of the kingdom, or place them near other services the
+                adventurers must visit. In either case the goal is to reduce
+                time wasted by the adventurers. Keep in mind that the Tavern
+                is visited last on any adventurers travel itenerary, before
+                either going out and about or to the Training Hall to gain
+                EXP.
+
+
+
+      === 3.5.3 - Inn [BB25] ===
+
+
+Name: Inn
+
+Category: Special
+
+Requires DLC: No.
+
+Cost: 400 Elementite
+
+Size: 2x1
+
+Limits: 1 Maximum.
+
+Description: Build a structure to provide a place for your adventurers to
+             form parties. You can also form your own parties.
+
+Data: This building has three funcitons:
+       
+      - Allows traveling adventurers to visit your kingdom, at which point
+        they may stay for a period of time during which they may show up at
+        the behest board or randomly join adventurers going out to Gain EXP.
+
+      - Allows travelling merchants and other non-adventurer type people to
+        visit the kingdom, at which point they will wander around during the
+        day, effectively boosting morale as they interact with any citizens
+        they encounter.
+
+        * Up to three traveling adventurers and one non-adventurer may visit
+          at a time.
+        * As long as a party includes one of your own people, item drops
+          from battles should always go to your own adventurers.
+
+      - Enables your White/Black Mage schools to teach new spells (Thunder
+        spells and Holy, respectively)
+
+Placement tips: I personally like to place this by the "main" (south)
+                entrance to the kingdom, though you can really put it just
+                about anywhere. Probably, however, the most ideal location
+                is near a Bulletin Park to reduce the distance the traveling
+                adventurers must walk.
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.6 - Parks [BB26]
+   ++++++++ 
+   ========
+
+Parks are outdoor platform-like structures that adventurers can gather around
+for various purposes.
+
+      === 3.6.1 - Fountain Park [BB27] ===
+
+
+Name: Fountain Park
+
+Category: Special
+
+Requires DLC: No, but DLC required for maximum building limit.
+
+Cost: 200 Elementite
+
+Medals: Nearby happy families may give you Tree Hugger medals.
+
+Size: 2x1
+
+Limits: 3 Maximum. DLC is required to achieve the maximum building limit.
+
+Description: Build a structure to provide a place for your adventurers to
+             share battle stories, as well as recouperate their morale.
+
+Data: This building has two funcitons:
+       
+      - Adventurers that are feeling a little down (but not severly) will
+        stop here briefly on their way to the behest board and regain their
+        spirits.
+
+      - Adventurers that are feeling gloomy/tired from being overworked will
+        stop here with a ! over their heads and wait for a while. If you talk
+        to them you will give them a pep talk. Depending on if you tell them
+        to "Do their best!" or "Go rest," they will either regain some
+        happiness or go home for the day, acting as if you visited them at
+        home after a KO.
+
+Placement tips: You will want to place one near a Bulletin Park or the main
+                behest board, such that most adventurers will find it on the
+                way. However, if you have the Sacred Shrine DLC, you may want
+                to only build one of these and allow the Sacred Shrines to
+                serve the first function described above.
+
+
+      === 3.6.2 - Bulletin Park [BB28] ===
+
+
+Name: Bulletin Park
+
+Category: Special
+
+Requires DLC: No.
+
+Cost: 150 Elementite
+
+Medals: None that I know of.
+
+Size: 2x2
+
+Limits: 3 Maximum. Hard/Very Hard difficulty is required for the maximum.
+
+Description: Building this structure will increase the number of behests
+             that may be posted by 1. It will also slightly reduce the cost
+             of posting behests.
+
+Data: Self-explanitory. It also effectively increases the number of
+      adventurers that can show up for behests as each bulletin board
+      can be viewed by a maximum of 5 people at a time. As long as you form
+      at least one party, you never "need" more than three bulletin boards
+      (total boards, not parks).
+
+      The maximum number of behests possible with all the boards is 4.
+
+Placement tips: Technically, for the adventurers, placing these to equally
+                serve all of the houses may slightly reduce travel time,
+                but chances are they're going to be standing there waiting
+                while you figure out who is going to do what.
+
+                Becuase of this, I suggest you place them in a way that's
+                convinent for you, i.e. near the original behest board, in
+                front of the castle.
+
+      === 3.6.3 - Sacred Shrine [BB29] ===
+
+
+Name: Sacred Shrine
+
+Category: Special
+
+Requires DLC: Yes.
+
+Cost: 500 Elementite
+
+Medals: Nearby happy families may give you Vanguard medals.
+
+Size: 1x1
+
+Limits: 3 Maximum. Only one of each type of shrine may be built.
+
+Description: Build a structure for adventurers to pray for the crystal's
+             blessings. It will also add spells to the Black Mage Academy
+             and White Mage Temple research lines.
+
+Data: This building has three functions:
+
+      - It serves the exact same purpose as the Fountain Park's first
+        function- it will revitalize adventurers who are feeling slightly
+        down.
+
+      - If any adventurers are currently out and about (Especially battling
+        bosses), walking up to the shrine yourself and pressing the A button
+        will have the following effects:
+
+        -The 1st Sacred Shrine will raise the Strength and Toughness of
+         your adventurers in the field.
+
+        -The 2nd Sacred Shrine will do the same for Intellect and Willpower.
+
+        -The 3rd Sacred Shrine will restore the HP of all adventurers in the
+         field.
+      
+      - The first Sacred Shrine will add Protection Spells to the White Mage
+        Temple and Thunder Spells to the Black Mage Academy.
+
+Placement tips: Because this can serve one of the important functions of a
+                fountain park, if you have purchased this DLC you may want
+                to carefully position these in place of building more
+                fountain parks. Place them such that adventurers will pass
+                by them on the way to the behest board to reduce travel time.
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.7 - Other stuff [BB30]
+   ++++++++ 
+   ========
+
+This section contains what info is known about yet-to-be released buildings
+and other miscellaneous stuff.
+
+
+
+      === 3.7.1 - Castle (and Castle Upgrade) [BB32] ===
+
+Name: Castle of <Your City Name Here>
+
+Category: N/A
+
+Requires DLC: No, but DLC is required for full functionality.
+
+Cost: Free! The king scores big time!
+
+Size: Enormous. Every 10 year old should be so lucky.
+
+Limits: 1. It's already there when you start. Upgrade available with DLC.
+
+Description: The castle is your home. You live there because you're the king!
+
+Data: The castle has the following functions:
+
+      - Adventurers come to the castle to collect their daily pay from Chime.
+
+      - Novice adventurers gather at the castle under the watchful eye of Sir
+        Hugh Yurg, awaiting you to pay 100 gil to allow them to become
+        sancitoned adventurers. Up to 4 prospective adventurers can be there
+        at a time.
+
+      - Visit chime, who has the following functions:
+        
+        - Chat with chime. Chime will have various random things to say,
+          depending on what chapter you're on and possibly the current
+          development stage.
+
+        - Review the morning reports after the day has already started.
+
+        - Use Morale Spheres to develop the realm: Each time you do this,
+          the specified number of morale spheres is consumed and used to fill
+          the bar at the top right. When the bar is full, a crystal is added
+          to the crown icon at top right and the development of the kingdom
+          is advanced:
+
+          - You start as a settlement. 3 Morale spheres consumed 1 at a time
+            to advance to:
+          - Town: 6 morale spheres consumed 2 at a time to advance to:
+          - City: 12 morale spheres consumed 3 at a time to advance to:
+          - Kingdom: 16 morale spheres consumed 4 at a time to advance to:
+          - Empire: 25 morale spheres consumed 5 at a time to advance to:
+          - The Promised Land, the final stage.
+          
+        - Other:
+
+          - View Medals: Shows an inventory of all the special medals in your
+            posession.
+
+          - View closet: Shows an inventory of all the clothing available to
+            you and Chime. Only useful once you've purchased at least one DLC
+            costume.
+          
+          - Chime's Room: Available after obtaining the Castle Renovation
+            bonus (Requires DLC), Chime offers you the following options:
+            
+            - Adventurers: Allows you to rename your hired adventurers**, get
+              information on them, and view rankings of the top 5 adventurers
+              in several stat categories including highest level, most HP,
+              and highest amount of any given attribute.
+            
+            - Buildings: Allows you to see lists of your buildings, grouped
+              by type, and view most information from them as if you visited
+              that building directly. You can also see at a glance which
+              shops are going to or are currently having a special sales day.
+
+            - Jukebox: Allows you to listen to any of the music from the game.
+              the normal music returns once you exit the music list.
+
+        - Purchase Add-on content: This is where the King goes shopping, with
+          YOUR Wii Points. Nice of him, eh? Allows you to spend your Wii
+          Points on DLC. Some content may require you to reset the game to
+          take effect upon downloading. This can also be accessed from the
+          game's main menu.
+
+ **NOTICE** There have been reports from a number of users on the GameFAQs
+           forums that they are unable to use this function even after fully
+           unlocking it and attempting to use it correctly. They select an
+           adventurer's name from the list, and the Name Entry screen simply
+           does not appear. My current theory on this is that it's a bug in
+           copies of the game downloaded AFTER the release of the 2nd wave of
+           DLC, at which time there was a patch to the game for previous
+           owners to support the new conent and make some minor improvements
+           to the game. If you experience this problem, All I can suggest is
+           first try deleting both the game channel and DLC save file from
+           the Wii System Memory in the Wii Menu's Data Management area.
+           (Re-downloading any wii shop and DLC content is free of charge)
+           If that doesn't work, your only option is to call Nintendo's
+           Wi-Fi Connection support line (They handle support for Wii Shop
+           content), have them tell you to do the same things I told you here
+           and conclude it's a bug after it still doesn't work. Hopefully
+           if everyone who has this issue complains about it, the bug will
+           get fixed in a patch, which Square-Enix has proven able to do (but
+           don't hold your breath). ** END NOTICE **
+
+Placement tips: N/A
+
+
+
+      === 3.7.2 - The Pavlov Informer [BB33] ===
+
+
+Name: Pavlov
+
+Category: None
+
+Requires DLC: No
+
+Cost: 0 to -100 Elementite (see Data)
+
+Size: N/A
+
+Limits: 1. Do you really want more than one penguin in your city?
+
+Description: Pavlov the Penguin is an associate of the player's father.
+
+Data: I included this here becuase while you don't "build" it, per se,
+      when you talk to him you visit a screen like that of any other building.
+      This section is mean to cover what you can do with this. Pavolov
+      provides the following functions, several of which are available at
+      other buildings, but may be more convinent because Pavlov follows you
+      around:
+
+      -View Adventurer Info: Provides a list of all adventurers so you can check
+       up on them. Exactly the same as at the Guild Hall.
+      -View Party Info: Shows the list of currently formed parties, same as at
+       the Tavern. You must visit the actual tavern to change set-up parties,
+       however.
+      -View Dungeon Info: Brings up the world map allowing you to view info on
+       all known dungeons. This is the same map you view when issuing behests.
+      -View Headlines: This is a log of all messages that have appeared in the
+       Info Panel that pops up in the upper right corner of the screen, when
+       anything of interest happens.
+      -Change Camera Settings: Access the game's Options screen which lets you
+       invert the direction the camera moves when you look up/down or
+       left/right.
+
+      -About the "Cost": When Pavlov initially shows up, you are thrust into
+       a minigame to "catch" him. Each time you press the A button within
+       a certain distance of him, you hear a sound and you gain 10 elementite.
+       You can do this a maximum of 10 times, so you can get up to 100 
+       elementite as compensation for having the annoying bird in your city.
+
+Placement tips: Once you reach the development level of Empire, you can tell
+                Pavlov to "Talk to everyone." He will slowly turn in a circle,
+                talking to anyone that happens to walk by as if the king
+                was doing it, having the same morale meter boost effect.
+                This effectively lets you talk to more people in a day, so if
+                you want to use it, pick a high traffic area, such as near the
+                crystal, to make him stand at.
+
+
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 4 - Common questions [BQ01]                                        |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+-- HELP HELP HELP! I can't beat The Jungle Ruins Of Si Khem dungeon (Or insert
+   dungeon whose exploration rate resets to 0 every day here)! No matter how
+   many thieves or other adventurers I send, no matter what I do, nothing seems
+   to help clear it! Is there any change I can make to my city to help?
+
+   This is a REALLY common problem, I know of some people who have spent over
+   100 game days trying to clear these dungeons (especially the jungle ruins).
+   There IS a trick that will help! First, a bit of an explanation. These
+   shape-shifting dungeons can only be cleared after raising the exploration
+   rate sufficiently in a SINGLE DAY to discover the cause and stop the shape
+   shifting. DUNOTS on the GameFAQs forums found a way to help increase the
+   exploration rate more. This is mostly for the Jungle Ruins, which seems
+   to have a much higher exploration rate requirement to stop the shape-
+   shifting than other dungeons like it. DISMANTLE any and all taverns in
+   the city, and issue a behest for the dungeon the next day. I tried this
+   myself, and after trying the dungeon for WEEKS of game time, I stopped
+   the shapeshifting the next day. 
+
+   Through my own testing, I found the reason to be this:
+   The more groups or seperate individuals sent to explore any kind of
+   dungeon, the faster the exploration rate is increased (more so if the sent
+   adventurers have the Mapper ability. If you have a tavern, chances are
+   even if you send everyone at the bulletin board into the dungeon, they
+   will form into one or two groups and will never raise the exploration rate
+   high enough to overcome the shape-shifting. You will only overcome it if
+   you get lucky enough for the adventurers form into at least 3 groups.
+   5 individuals, NOT IN A PARTY, will raise the exploration rate more than
+   6 people in two parties will.
+
+   MYTHS about this: The thief ability to discover shortcuts will NOT help,
+   as they do not raise the exploration rate and any shortcut discovered will
+   be undone the next day. 
+
+-- I dismantled some buildings and they aren't moving back in!
+
+   Still little is understood about this glitch. The only work around I can
+   suggest is to only dismantle one House type structure at a time. All I
+   can say is if someone you care about gets stuck in the castle, they're
+   as good as gone until your next New Game+ where you can build their
+   house and hire the adventurer again as usual.
+
+-- I want to maximize my population, but I don't want to comprimise the
+   performance of my adventurers (too much). Any suggestions?
+
+   If you want to break out the bulldozer, I have a few suggestions:
+   1) Once all the upgrades are researched, the Guild Hall is pretty much the
+      most useless building in the game. It does have a lasting effect in
+      lowering behest costs, but you can make up for that by building large
+      houses on the space it occupied. While it has some limited use after
+      the upgrades, this is the first thing to get rid of if you need more
+      space.
+   2) After you've built all three item shops, you may consider dismantling
+      the second one, which sells antidotes. The antidotes are of limited
+      usefulness, especially since A) they must be near or above the level of
+      the poison to have a real chance of working; B) Not that many enemies
+      use poison attacks and they are rarely leathal (The poison your black
+      mages can cast can be far more potent if their intellect is high); and
+      C) as a consumable they drain your adventurers gil as they use them
+      without much benefit, causing them to have less gil for more important
+      stuff.
+      Note that you need DLC to get the third item shop (which sells phoenix
+      downs and is really good to have).
+   3) After you've built all three weapon shops, you may consider dismantling
+      the first shop (sells swords), though you shouldn't do this if you gave
+      anyone a preference for swords. As long as you don't mind the chance
+      of your warriors accidentally hitting other allies, Axes are the best
+      warrior weapons. (However, they are warrior only, swords can be used
+      by warriors or thieves).
+   4) After you've built all three gaming halls and have cleared all of
+      the shapeshifting dungeons, you may want to dismantle the first two
+      as long as you dont plan to change of your clavats to Thief later.
+      The first two halls primarily enhance the thieve's dungeon delving
+      ability- But the most important abilities all have a fixed level,
+      and your thieves only need to buy them once. Once they all have them,
+      you can dismantle the halls that sell them, keeping the third one.
+      Note that DLC is required for the third gaming hall.
+   5) For most purposes, you really only need one tavern and one set party.
+      Unless you actively use three or four bulletin boards, one tavern is
+      all you need.
+   6) On Hard or Very hard, you will get Large Houses, which are the most
+      efficient houses in the game, along with the three race's houses.
+      Once you unlock the Large house, replace your Small Houses with Large
+      ones. If you're playing on normal, you can only get 15 of these in the
+      form of the three race's homes with DLC. After that, Luxurious Houses
+      are the next best, and you should replace small houses with those when
+      possible, but Luxurious Houses are 2x2 so they won't fit everywhere.
+      Never build more than one Spacious house unless you like variety more
+      than population.
+
+   One thing to keep in mind is that the more dense your population gets, the
+   lower the game's frame rate performance will get. If this bothers you,
+   then avoid going population crazy.
+
+-- Unlocking DLC content
+
+   With any DLC that adds new buildings, I strongly reccomend you unlock them
+   on normal difficulty (Which means you should purchase all the DLC you will
+   consider using as early as possible.
+
+   The reason for this is many of the DLC dungeons used for unlocking content
+   are the highest level dungeons, which will be at or near level 60 on Hard
+   and at or near level 100 on very hard- Which means you won't unlock them
+   until their usefulness is diminished.
+
+   NO DLC DEPENDS ON ANY OTHER! If you are playing on Normal and can't seem to
+   reach a DLC dungeon, chances are you either have not revealed and explored
+   the preceeding dungeons, or if you have, you didn't explore them fully
+   enough to make the connection to the next dungeon. Make sure the only
+   behest available is "Gain Experience in this area."
+
+
+   00 00 00 
+   \\ || // 
+    \\||//  3.7 - Tips From the Mail Bag. [BQ02]
+   ++++++++ 
+   ========
+
+I will fill this section in with any information people send me by email.
+
+
+
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 5 - Contact info [BCON]                                            |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+You can email me with any questions NOT answered by this FAQ at
+
+tahngarthdk [at] hotmail dot com
+
+Please do send me any tips, corrections, comments, etc. I will include them
+here if you want me to. If you do, be sure to give me a name to credit the
+information to.
+
+PLEASE do not send me your spam, pyramid schemes, viruses, trojans, etc.
+or I will return the favor 100 fold. Please be specific in the subject line
+and be sure to include MLAAK or FFCC in it.
+
+You can also IM me via my AIM name tahngarthdk. Expect the same warm welcome
+I give for email spam if you think about abusing this.
+
+I am a regular player of Final Fantasy XI Online, and if you happen to play
+the game and are on Shiva server, feel free to send me (Tahngarthor) a /tell.
+
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 6 - Legal Mumbo-Jumbo [BLGL]                                       |
+++++++++ |                                                                    |
+======== |====================================================================|
+
+This FF:CC:MLAAK Building FAQ is (C) 2008 Grant Dotter. Some Rights Reserved.
+
+Specifically:
+
+I have only granted the right to host this to
+
+gameFAQs.com 
+neoseeker.com
+ffcompendium.com
+
+IF YOU ASK, I may
+consider granting your request. PLEASE ask first. I have final say in who
+is hosting it. You may, without my permission, LINK TO the guide on GameFAQs
+as long as you link to the HTML headered version.
+
+I may consider requests to include peices of information from this guide in
+your own FULL guide if you ask for permission.
+
+Feel free to print this FAQ out for refrence, or to use as kindling for a
+massive bonfire, or whatever other PERSONAL use you can imagine.
+
+All rights to the content itself are reserved. You may not modify this FAQ or
+exploit it for any commercial purpose.
+
+Thank you for reading and have a nice day!
+
+00 00 00 |====================================================================|
+\\ || // |                                                                    |
+ \\||//  | 7 - Credits and Thanks [CRED]                                      |
+++++++++ |                                                                    |
+======== |====================================================================|
+(Please do not ask to be put here, I will put names of anyone here that I get
+information from. If you would like your name removed, tell me and I can list
+you as Anonymous.)
+
+- Thanks to Mario Cleanstuff for being so helpful on the forums and the info 
+on Luxurious houses.
+
+-Thanks to DUNOTS on the GameFAQs forums for the Jungle Ruins strategy.
+
+-Psycho Snyder for pointing out some glaringly obvious mistakes and typos
+that I walked right over even after three revisions!
+
+-Jeffry Asbury for correcting my Sacred Shrine blunder. :)
+
+- Emessai_Zeal for finding yet another copypaste artifact :p

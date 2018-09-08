@@ -1,0 +1,656 @@
+     THE FFVI HUNTER'S QUICK GUIDE TO RAGES AND LORES  --  Version 1.5
+                              by Jared Johnson
+
+In case you're thinking "Why the heck do I need another Final Fantasy VI
+enemies list?", let me explain what this is for.  I originally wrote this
+file for myself, as a way to easily track the Rages that my Gau had gotten,
+and to remember what Lores I did and didn't have (and from which enemies I
+could get the ones I was missing).  Once I got done with the Chart, though,
+I thought it could benefit other serious, as well as new, Final Fantasy VI
+fans.
+
+There is an additional benefit to this file--for the first time ever (as far
+as I am aware--my apologies if I'm wrong), a complete Rages list (including
+those elusive two near the top of the list) has been created.  The Chart is
+arranged by name so you can more easily locate each enemy's entry.
+
+Oh, and I tried to keep the Chart pretty simple--I didn't put HP counts or
+anything of that sort on them because, not only would this clutter the Chart
+up more than it already is, but you can easily get that info from any number
+of sources.  All you really need are the names of the enemies and the "LORE"
+column to use the Chart effectively.
+
+
+-----------------------------------------------------------------------------
+
+
+INSTRUCTIONS:
+It's really pretty simple.  Just print the Chart off and have it with you
+whenever you go to the Veldt to increase your Rage numbers.  Because the
+enemies are in alphabetical order on the Chart, you'll be able to easily find
+and write down what enemies you've Raged so far (as opposed to the normal
+method of searching for the position of every single enemy on Gau's subscreen
+to check whether you have that particular enemy's Rage yet or not).  If
+you're like me, and you want to get a complete Rages list, then you can save
+a ton of time with this Chart.
+
+Tips on Using the Chart:
+When using the Chart, I've found that it works best to write an "R" next to
+an enemy's name, underneath the "R" column (in pencil!), whenever I've gotten
+that enemy's Rage.  Enemies that have a "---" under the "R" column cannot be
+Raged.  They are listed on the Chart because they either appear on the Veldt,
+or they can teach Strago a Lore.  By the way, the numbers next to the "R"
+column, in the “RAGESORT” column, show the order in which the enemies appear
+on Gau's subscreen.  I numbered the enemies from left to right, then top to
+bottom.  In other words, Guard gets #1, Soldier gets #2, Templar gets #3,
+etc.  Enemies with no number in this column obviously don't show up on Gau's
+subscreen.  This numbering system gives you another advantage--when you're in
+the heat of battle, and you know what Rage you want but can't find it, just
+look at the Chart and you'll be immediately able to discern where it is on
+Gau's list.  Oh, and remember to save often!  You don't want to learn several
+Rages, just to lose them all by dying suddenly.  Believe me, I've learned
+from personal experience that this is not fun!
+
+All About Rages:
+Remember that you only get the Rages of the enemies on-screen whenever you
+Leap, and the enemies who you defeat in the battle after which Gau shows back
+up.  You will encounter any enemy on the Veldt that you have previously
+fought against in the game, excluding most bosses and some regular enemies;
+in order for it to appear, you must either have defeated the enemy previously
+or successfully gotten away from it.  This does NOT include enemies that you
+fight in the Colloseum--you will not find them on the Veldt until you fight
+them elsewhere in the game.
+
+Lores:
+Numbers listed under the "Lore" column correspond to one (or more) of
+Strago's twenty-four Lores.  Check the listing underneath the Chart for the
+spells that correspond to each number.  If a number is listed next to an
+enemy, then that enemy can teach Strago that particular Lore either through
+fighting it, using its Rage in battle, or Sketching/Controlling it in battle.
+In the future, and if the demand is great enough, I plan to show which is
+which.
+
+Other Stuff:
+By the way, this file was originally created in Microsoft Works and it best
+displays in spreadsheet format.  Notepad really mutilated this file!  If you
+would like an original copy of this file (which looks great IMHO), then email
+me and I'll gladly send you one.  My email address is at the end of this
+file.
+
+I've spaced this file so that the Chart will begin at the top of the next
+page whenever you print it.  I'm assuming that you're printing it at 60 lines
+per page, which is pretty typical for a page with 1" margins all around.
+It's spaced at the other end to allow for this as well.  I thought you might
+appreciate my consideration.  :)
+
+
+-----------------------------------------------------------------------------
+
+
+NOTE:  Enemy #256 of Gau's Rage List, according to the FFVI enemy ROM data,
+should be Pugs.  However, Pugs is not Rageable.  In other words, 255 Rages
+are available and the final space on Gau's subscreen will remain blank.  In
+addition, #56 (Siegfried), #65 (Chupon), and possibly #188 (Allo Ver) do not
+normally appear on the Veldt.  You may only Rage them, as far as I know, by
+using Game Genie codes.  Also, I'm not too sure about Chupon's Rage attack.
+"W. Wind" is my best guess on that one.  Are there any other possibilities?
+I can't think of any, unless you get to use Sneeze.
+
+Special thanks to Anonymous (whoever posted the FFIII Enemy List at RPGamer
+on March 10) for his/her info on Chupon and Pugs.  This list really made
+completing the Rages list easy!  It's got all (or at least most) of the other
+info--HP counts, etc.--that you may want to know about FFVI enemies.  Also,
+special thanks to whoever came up with the original three Game Genie codes
+that I have listed down below.  I'm sorry but I don't remember the source of
+those codes.  In addition, in some instances I used data from Nintendo
+Power's Final Fantasy III Player's Guide.
+
+If you find a mistake, please tell me!  Believe it or not, I'm fairly new to
+the FFIII world.  I've checked the below Chart several times but I still
+could have something wrong.  Don't hesitate to tell me, no matter how minor
+the mistake is.  Also, this is the first file I've submitted to be posted
+online.  Please tell me what you think.  Is this something you can't do
+without?  Is it totally useless?  I'd like to improve/change it as needed but
+I must have feedback to do that.  Thanks.  And now, finally, on to the good
+part!
+
+
+-----------------------------------------------------------------------------
+
+
+    NAME    | R  RAGESORT | LORE            RAGE
+------------|-------------|-----------------------------
+*1st Class  |        240  | 21              Stone
+ Abolisher  |        236  | 9               Poison
+*Actaneon   |         95  | 4               Clamp
+*Adamanchyt |        215  |                 Acid Rain
+------------|-------------|-----------------------------
+ Allo Ver   |        188  |                 Quake
+*Allosaurus |        134  |                 Doom
+ Anemone    |        181  |                 Giga Volt
+ Anguiform  |         59  | 4               Aqua Rake
+------------|-------------|-----------------------------
+*Apokryphos |         13  | 11,12           L.3 Muddle
+ Apparite   |        111  |                 Imp
+ Aquila     |        237  |                 Cyclonic
+*Areneid    |         94  |                 Numb
+------------|-------------|-----------------------------
+*Aspik      |         90  |                 Giga Volt
+ Atma       | ---         | 3
+ Balloon    |        223  | 24              Exploder
+ Barb-e     |        191  |                 Love Token
+------------|-------------|-----------------------------
+*Baskervor  |         30  |                 Cyclonic
+*Beakor     |         42  |                 Duster
+ Behemoth   |         33  |                 Meteor
+ Black Drgn |        214  |                 Storm
+------------|-------------|-----------------------------
+*Bleary     |        100  |                 Doom
+ Bloompire  |         54  |                 Bio
+ Blue Drgn  | ---         | 3,4,20
+*Bogy       |        212  |                 OogyBoogy
+------------|-------------|-----------------------------
+*Bomb       |         80  | 24              Exploder
+ Borras     |        243  | 8               Revenge
+ Bounty Man |        122  |                 Bite
+ Boxed Set  |         82  |                 Meteor
+------------|-------------|-----------------------------
+ Brachosaur |         39  | 15              Disaster
+ Brainpan   |         75  | 6               Blow Fish
+*Brawler    |         12  | 21              Stone
+*Brontaur   |        133  |                 Fire3
+------------|-------------|-----------------------------
+*Buffalax   |         89  |                 Slow2
+ Bug        |        233  |                 Stop
+ Cactrot    |         77  | 6               Blow Fish
+ Cephaler   |        151  |                 Husk
+------------|-------------|-----------------------------
+ Ceritops   |        199  |                 Giga Volt
+ Chaos Drgn |        227  |                 Disaster
+ Chaser     |        161  | 17              Plasma
+ ChickenLip |         62  |                 Quake
+------------|-------------|-----------------------------
+*Chimera    |         32  | 4               Aqua Rake
+ Chitonid   |        125  |                 Stop
+ Chupon     |         65  | ?               W. Wind?
+*Cirpius    |        135  |                 Haste2
+------------|-------------|-----------------------------
+ Cluck      |        155  |                 Quake
+ Coelecite  |        180  |                 Magnitude8
+
+    NAME    | R  RAGESORT | LORE            RAGE
+------------|-------------|-----------------------------
+*Commander  |         18  |                 Break
+*Commando   |        200  |                 Rflect
+------------|-------------|-----------------------------
+*Covert     |        104  |                 Wind Slash
+*CrassHoppr |         48  |                 Bserk
+*Crawler    |         92  | 15,17           Step Mine
+*Crawly     |         99  |                 Heart Burn
+------------|-------------|-----------------------------
+ Critic     |        172  | 1,2,14          Condemned
+ Cruller    |         76  |                 Slimer
+ Crusher    |        147  |                 Lifeshaver
+ Curley     | ---         | 9
+------------|-------------|-----------------------------
+*Dahling    |         10  |                 Cure2
+ Dante      |        216  | 12              L.3 Muddle
+*Dark Force |         14  | All except 23   Cleansweep
+*Dark Side  |         97  |                 Ice2
+------------|-------------|-----------------------------
+*Dark Wind  |         41  |                 Break
+*Deep Eye   |        168  |                 Dread
+ Delta Bug  |         49  |                 Mega Volt
+ Didalos    |        250  | 10              Merton
+------------|-------------|-----------------------------
+ Displayer  |        113  |                 Doom
+*Doberman   |         27  |                 Bite
+ Doom       | ---         | 16
+ Doom Drgn  |         38  |                 N. Cross
+------------|-------------|-----------------------------
+ Doom Gaze  | ---         | 5
+*Dragon     |        132  | 8               Revenge
+ Drop       |        140  |                 Muddle
+ Dueller    |        218  | 10,11           Mega Volt
+------------|-------------|-----------------------------
+ Dullahan   | ---         | 14
+ Earthguard |        179  | 7               Big Guard
+ Eland      |        166  |                 Bio
+ Enuo       |        167  | 3,4             Cleansweep
+------------|-------------|-----------------------------
+*Evil Oscar |        184  | 18              Bio
+ Exocite    |         58  |                 Scissors
+ Exoray     |        146  |                 Virite
+*Fidor      |         29  |                 Pounce
+------------|-------------|-----------------------------
+*Figaliz    |         88  | 17              Dischord
+*Flan       |         72  | 19              Slimer
+ Fortis     |        235  |                 Fire Ball
+ FossilFang |         36  |                 Sand Storm
+------------|-------------|-----------------------------
+*Gabbldegak |        224  |                 Vanish
+ Garm       |        204  |                 Demi
+ Geckorex   |        154  |                 Break
+*General    |        103  |                 Cure2
+------------|-------------|-----------------------------
+*Ghost      |         91  |                 Bolt2
+ Gigan Toad |        153  |                 Slimer
+ Gigantos   |        175  | 8               Magnitude8
+ Gilomantis |         50  |                 Shrapnel
+
+    NAME    | R  RAGESORT | LORE            RAGE
+------------|-------------|-----------------------------
+ Gloomshell |        139  |                 Net
+ Gobbler    |        137  |                 Shimsham
+ Goblin     |        110  | 10,11,12        Bolt3
+ Goddess    | ---         | 22
+------------|-------------|-----------------------------
+ Gold Bear  |        246  |                 Gouge
+ Greasemonk |        169  | 15              Shell
+ Grenade    |        171  | 24              Blaze
+ GtBehemoth |        225  |                 Meteor
+------------|-------------|-----------------------------
+ Guard      |          1  |                 Critical
+ Guardian   | ---         | 7,21
+ HadesGigas |         84  |                 Magnitude8
+ Harpiai    |        138  | 5               Aero
+------------|-------------|-----------------------------
+*Harpy      |         44  | 5               Cyclonic
+ Harvester  |         79  |                 Haste
+*Hazer      |          9  |                 Bolt2
+*HeavyArmor |        160  |                 Tek Laser
+------------|-------------|-----------------------------
+ Hemophyte  |        194  |                 Flash Rain
+*HermitCrab |         45  |                 Net
+ Hidon      | ---         | 23
+ Hipocampus |        182  |                 Flash Rain
+------------|-------------|-----------------------------
+ Hoover     |         63  |                 Sand Storm
+*Hornet     |         47  |                 IronNeedle
+ Humpty     |         74  |                 Poison
+ Ing        |         73  |                 Lifeshaver
+------------|-------------|-----------------------------
+ Innoc      |        247  | 14              Virite
+*Insecare   |        209  |                 Wing Wisp
+ Intangir   |        164  | 15,19           Pep Up
+ Io         |        255  |                 Flare Star
+------------|-------------|-----------------------------
+ Iron Fist  |        109  | 21              Stone
+ IronHitman |        254  | 17              Dischord
+ Joker      |        108  |                 Bolt2
+ Junk       |        238  | 19,24           Pep Up
+------------|-------------|-----------------------------
+ Karkass    |        221  |                 Bolt3
+ KatanaSoul | ---         | 6
+ Kiwok      |        206  |                 Imp
+ LandWorm   |        156  |                 Magnitude8
+------------|-------------|-----------------------------
+ Latimeria  |        186  |                 Magnitude8
+*Leafer     |         24  |                 Incisor
+ Lethal Wpn |         70  |                 GravBomb
+ Lich       |        230  |                 Fire2
+------------|-------------|-----------------------------
+ Lizard     |         61  | 17              Break
+*Lobo       |         26  |                 Tusk
+ Lunaris    |        203  |                 Face Bite
+ Luridan    |        143  |                 Land Slide
+------------|-------------|-----------------------------
+*Mad Oscar  |         98  | 18              Sour Mouth
+ Madam      |        107  |                 Pearl
+
+    NAME    | R  RAGESORT | LORE            RAGE
+------------|-------------|-----------------------------
+ Mag Roader |          7  |                 Bio
+*Mag Roader |        176  |                 Mute
+------------|-------------|-----------------------------
+*Mag Roader |        232  |                 Haste
+ Mag Roader |        244  | 11              L.4 Flare
+ Magic Urn  |         86  |                 Cure3
+*Maliga     |        152  |                 Remedy
+------------|-------------|-----------------------------
+ Mandrake   |        239  |                 Raid
+*Mantodea   |        211  |                 Wind Slash
+*Marshal    |        101  |                 Wind Slash
+ Master Pug | ---         | 15
+------------|-------------|-----------------------------
+ Mesosaur   |         34  | 15              Step Mine
+ Mind Candy |        141  |                 SleepSting
+ Misfit     |        165  |                 Lifeshaver
+ Mover      |         87  | 6,7             Merton
+------------|-------------|-----------------------------
+ M-TekArmor |         67  |                 Tek Laser
+ Muus       |        220  | 19              Pep Up
+ Nastidon   |        207  |                 Blizzard
+ Nautiloid  |         57  |                 Ink
+------------|-------------|-----------------------------
+ NeckHunter |        170  |                 Imp
+ Necromancr |        242  |                 Doom
+ Nerapa     | ---         | 1
+ Nightshade |         52  |                 Charm
+------------|-------------|-----------------------------
+ Ninja      |          4  |                 Water Edge
+ Nohrabbit  |        196  |                 Cure2
+ Ogor       |        105  | 9               Storm
+ Opinicus   |        201  |                 Slide
+------------|-------------|-----------------------------
+ Orog       |          6  |                 Pearl
+ Osprey     |        231  |                 Shimsham
+*Osteosaur  |         17  |                 X-Zone
+ Outsider   |        190  |                 Pearl
+------------|-------------|-----------------------------
+ Over Grunk |        145  |                 Bane Touch
+*Over-Mind  |         16  |                 Elf Fire
+ Pan Dora   |        173  | 8               Revenge
+ Parasite   |        178  |                 Giga Volt
+------------|-------------|-----------------------------
+*Parasoul   |        192  |                 Flash Rain
+ Peepers    |        115  | 9               Pearl Wind
+ Phase      |        189  | 6               Blow Fish
+ Phunbaba   | ---         | 6
+------------|-------------|-----------------------------
+ Pipsqueak  |         66  | 2,17,24         Imp
+ PlutoArmor |        158  |                 Tek Laser
+ pm Stalker |        193  |                 Drain
+ Poltrgeist | ---         | 5
+------------|-------------|-----------------------------
+ Poplium    |        163  |                 Cling
+ Poppers    |        202  | 21              Stone
+*PowerDemon |        112  |                 Flare
+ Presenter  | ---         | 6
+
+    NAME    | R  RAGESORT | LORE            RAGE
+------------|-------------|-----------------------------
+ Primordite |        149  |                 Numblade
+ ProtoArmor | ---         |
+*Prussian   |        213  |                 Land Slide
+ Psychot    |        219  |                 Lifeshaver
+------------|-------------|-----------------------------
+ Pterodon   |         35  |                 Fire Ball
+ Pug        |         85  | 15              Break
+ Pugs       | ---         |
+ Punisher   |        222  |                 Bolt3
+------------|-------------|-----------------------------
+*Rain Man   |         11  |                 Bolt3
+ Ralph      |        124  |                 Tackle
+ Reach Frog |         60  | 20              Slimer
+ Red Fang   |        121  |                 Drain
+------------|-------------|-----------------------------
+ Red Wolf   |        249  | 8               Rush
+ RepoMan    |         78  | 24              Exploder
+*Retainer   |          8  |                 Shock
+*Rhinotaur  |         22  |                 Mega Volt
+------------|-------------|-----------------------------
+ Rhinox     |        118  |                 Life3
+ Rhobite    |        119  |                 Life
+*Rhodox     |         19  |                 Snare
+ Rhyos      |        127  | 4,5             Surge
+------------|-------------|-----------------------------
+*Rider      |         64  |                 Virite
+*Rinn       |        208  |                 Fire
+ Samurai    |          5  |                 Lullaby
+*Sand Horse |         96  |                 Sand Storm
+------------|-------------|-----------------------------
+*Sand Ray   |         93  |                 Tail
+ Scorpion   |        226  |                 Poison
+ Scrapper   |        198  |                 Elf Fire
+ Scullion   |        162  | 17,24           Dischord
+------------|-------------|-----------------------------
+ Sea Flower |        234  |                 Sleep
+ Sewer Rat  |        116  |                 Incisor
+*Siegfried  |         56  |                 Flare
+ Sky Armor  |         68  |                 Tek Laser
+------------|-------------|-----------------------------
+ Sky Base   |        253  | 10              Doom
+ Sky Cap    |        150  |                 Megazerk
+ SlamDancer |         83  |                 Ice2
+ Slatter    |        117  |                 Cave-In
+------------|-------------|-----------------------------
+ Slurm      |        185  |                 Slimer
+ Soldier    |          2  |                 Fire
+ SoulDancer |        174  |                 Osmose
+ Sp Forces  |        195  |                 Safe
+------------|-------------|-----------------------------
+ Spectre    |        183  |                 Fire
+ Spek Tor   |        177  |                 Blaster
+ Spit Fire  |        228  |                 Tek Laser
+*Sprinter   |        136  | 5,9             Aero
+------------|-------------|-----------------------------
+*SrBehemoth |        128  |                 Fire3
+*Steroidite |         23  |                 Blizzard
+
+    NAME    | R  RAGESORT | LORE            RAGE
+------------|-------------|-----------------------------
+ Still Life |         81  | 1               Lullaby
+ StillGoing |        187  |                 Osmose
+------------|-------------|-----------------------------
+ Storm Drgn | ---         | 5,9
+*Stray Cat  |         25  |                 Catscratch
+*Suriander  |         31  | 4               Aqua Rake
+ Tap Dancer |        241  |                 Slow2
+------------|-------------|-----------------------------
+ Telstar    |         69  |                 Sonic Boom
+ Templar    |          3  |                 Fire2
+ Test Rider |        157  |                 Flash Rain
+*Toe Cutter |        144  |                 Shrapnel
+------------|-------------|-----------------------------
+ Tomb Thumb |        159  | 15              Step Mine
+*Trapper    |         46  | 10,11,12        L.3 Muddle
+ Trilium    |         51  |                 Bio
+ Trilobiter |         55  |                 PoisonBarb
+------------|-------------|-----------------------------
+*Trixter    |        248  |                 Fire2
+*Trooper    |        102  |                 Swing
+ Tumbleweed |         53  |                 Lifeshaver
+ Tusker     |        123  |                 Blizzard
+------------|-------------|-----------------------------
+*Tyranosaur |         40  | 5               Meteor
+ Uroburos   |        148  |                 Quake
+*Ursus      |         21  |                 Net
+ Vaporite   |         71  |                 Blaze
+------------|-------------|-----------------------------
+ Vectagoyle |        229  | 4               Aqua Rake
+*Vectaur    |        129  | 9               Pearl Wind
+ Vector Pup |        114  |                 Bite
+*Vermin     |        210  |                 Scan
+------------|-------------|-----------------------------
+ Veteran    |        252  | 1,2             Roulette
+ Vindr      |        205  |                 Acid Rain
+*Vomammoth  |         28  |                 Blizzard
+*Vulture    |         43  |                 Shimsham
+------------|-------------|-----------------------------
+ Warlock    |        106  |                 Pearl
+ Wart Puck  |        126  | 24              Shimsham
+ WeedFeeder |        142  |                 Bserk
+*Were-Rat   |         20  |                 Poison
+------------|-------------|-----------------------------
+*Whisper    |         15  |                 Demi
+ White Drgn |         37  |                 Pearl
+*Wild Cat   |        120  |                 Blaster
+ Wild Rat   |        245  |                 Scratch
+------------|-------------|-----------------------------
+ Wirey Drgn |        217  |                 Cyclonic
+ Wizard     |        197  |                 Demi
+ Woolly     |        251  |                 Ice3
+*Wyvern     |        130  |                 Cyclonic
+------------|-------------|-----------------------------
+*Zombone    |        131  | 1               Condemned
+------------|-------------|-----------------------------
+     Total Rages:  255       Obtained:
+
+
+(Use the numbers listed along the left side of this chart to interpret the
+numbers in the "Lore" column above.  For example, a "1" is next to Zombone in
+the Chart above.  Zombone will teach you the Lore "Condemned".  Spells are
+listed here in the order they appear on Strago's subscreen.)
+
+LORE NAME   LEARN FROM THESE ENEMIES (FIGHT, RAGE, OR SKETCH/CONTROL)
+-----------------------------------------------------------------------------
+ 1  Condemned         Critic, Dark Force, Nerapa, Still Life, Veteran,
+                      Zombone
+ 2  Roulette          Critic, Dark Force, Pipsqueak, Veteran
+
+ 3  Clean Sweep       Atma, Blue Drgn, Dark Force, Enuo
+
+ 4  Aqua Rake         Actaneon, Anguiform, Blue Drgn, Chimera, Dark Force,
+                      Enuo, Rhyos, Suriander, Vectagoyle
+ 5  Aero              Dark Force, Doom Gaze, Harpiai, Harpy, Poltrgeist,
+                      Rhyos, Sprinter, Storm Drgn, Tyranosaur
+ 6  Blow Fish         Brain Pan, Cactrot, Dark Force, KatanaSoul, Mover,
+                      Phase, Phunbaba, Presenter
+ 7  Big Guard         Dark Force, Earthguard, Guardian, Mover
+
+ 8  Revenge           Borras, Dark Force, Dragon, Gigantos, Pan Dora,
+                      Red Wolf
+ 9  Pearl Wind        Abolisher, Curley, Dark Force, Ogor, Peepers, Sprinter,
+                      Storm Drgn, Vectaur
+10  Level 5 Doom      Dark Force, Didalos, Dueller, Goblin, Sky Base, Trapper
+
+11  Level 4 Flare     Apokryphos, Dark Force, Dueller, Goblin,
+                      Mag Roader(#4), Trapper
+12  Level 3 Muddle    Apokryphos, Dante, Dark Force, Goblin, Trapper
+
+13  Reflect           Dark Force
+
+14  Level (GP) Pearl  Critic, Dark Force, Dullahan, Innoc
+
+15  Step Mine         Brachosaur, Crawler, Dark Force, Greasemonk, Intangir,
+                      Master Pug, Mesosaur, Pug, Tomb Thumb
+16  Force Field       Dark Force, Doom
+
+17  Dischord          Chaser, Crawler, Dark Force, Figaliz, Iron Hitman,
+                      Lizard, Pipsqueak, Scullion
+18  Sour Mouth        Dark Force, Evil Oscar, Mad Oscar
+
+19  Pep Up            Dark Force, Flan, Intangir, Junk, Muus
+
+20  Rippler           Blue Drgn, Dark Force, Reach Frog
+
+21  Stone             1st Class, Brawler, Dark Force, Guardian, Iron Fist,
+                      Poppers
+22  Quasar            Dark Force, Goddess
+
+23  Grand Train       Hidon
+
+24  Exploder          Balloon, Bomb, Dark Force, Grenade, Junk, Pipsqueak,
+                      Repo Man, Scullion, Wart Puck
+
+
+-----------------------------------------------------------------------------
+
+
+TO GET A COMPLETE RAGES LIST:
+Most enemies you can Leap normally.  However, Chupon, Siegfried, and Allo Ver
+do not, to my knowledge, appear on the Veldt.  Yet they each have a Rage.
+How do you access their powers?  You must use Game Genie codes.  Below I have
+written out how I got the Allo Ver and Siegfried Rages.  As far as I know, no
+one has come up with a way to Rage Chupon yet.  Stay tuned.  If one is
+discovered I'll put it in my update.  For both of the following two tricks,
+you need to save the game file you want to "alter" on the Veldt.
+
+
+To Rage Siegfried (#56):  (Game Genie code CE17-7DD6 or CE37-7DD6)
+If you plan to Rage both Siegfried and Allo Ver, you need to do this one
+first.  That is because, if you try to Rage Allo Ver first, then Siegfried
+second, Allo Ver's entry will be erased.  Enter one of the two Game Genie
+codes I've listed above--depending on your version of FFVI only one of them
+may work--and open up the file you saved on the Veldt.  Make sure the Game
+Genie is on.  Now, to get this trick to work, you need to equip an Esper on
+a member of your party.  It doesn't matter which Esper you use.  Be sure Gau
+and at least one other person is in your party.  Walk around on the Veldt
+until you encounter a group of enemies.  Defeat the enemies (it doesn't
+matter which ones they are) and wait for a little while--your characters will
+do the victory dance quite a bit longer than usual, but this is to be
+expected.  The game has not frozen.  After a minute, the game will report
+that each of the characters in your party have learned all Esper-type spells
+that they have not already learned before this point.  Once you get out of
+the battle screen, check out Gau's subscreen.  Every eighth Rage--plus some
+odd ones here and there--will appear, but all other Rages that were learned
+before this point will be gone.  Among the Rages Gau now has is the Siegfried
+Rage.  Oh, and one side effect of this code is that your game file settings
+are fried--in other words, you will have to reset your action/wait selection,
+window color, etc.  But that's a small price to pay. 
+
+After further experimentation with this code, I have found that there is a
+way to avoid the side effects I have listed above.  Simply wait to turn your
+Game Genie on until you find a group of enemies that will not give you any
+Magic Points.  You will not gain any additional spells and your game settings
+will remain the same as before the battle, but you will still gain the same
+Rages.  The Rages that you will get if you use this code are marked with an
+asterisk on the Chart.
+
+
+To Rage Chupon (#65):
+Heck if I know!  I'll be sure to fill in this section as soon as I figure out
+some way to get Chupon's Rage.
+
+
+To Rage Allo Ver (#188):  (Game Genie code 8AA3-846D or 8A03-846D)
+If you plan to Rage both Siegfried and Allo Ver, then please read Siegfried's
+section first.  For this Rage, basically all you have to do is enter this
+code, start your game, and walk around until you encounter an Allo Ver.  Then
+Leap him.  That's it.  One remark though--if you don't encounter Allo Ver
+within the first ten enemy groups, then it will probably be a LONG time
+before you find one.  So you may want to reset your game to "randomize" the
+Veldt again.  I was lucky for this one because my third enemy was an Allo
+Ver.  Yours might take longer.
+
+
+To Rage Io (#255):  (Game Genie code 74A3-846D or 7403-846D)
+Some people say they are having trouble finding Io.  If you are, then use the
+above Game Genie code and follow the instructions listed for Raging Allo Ver.
+
+
+-----------------------------------------------------------------------------
+
+
+RANDOM THOUGHTS:
+What happens if Gau is the only person in your party and you Leap an enemy?
+
+What happens if you Vanish/Doom Phunbaba in the battle that Terra is destined
+to lose?  (It CAN be done!)
+
+Wouldn't it be great if Chupon's Rage was Sneeze?  You could instantly get
+rid of any enemy!
+
+Try Gau's Retainer Rage out...Remind you of anybody?
+
+Have you ever tried Sketching/Controlling Gau?
+
+The best way to Rage self-destructing enemies such as Earthguard and Peepers
+is to equip one member of your party with the RunningShoes Relic, and then
+have that member cast Stop on the enemy before it self-destructs.  Or, if you
+are lucky, Gau will return after you’ve met one of this type of enemy.
+
+
+-----------------------------------------------------------------------------
+
+
+Obviously this isn't a complete Final Fantasy VI enemies list.  It is not
+meant to be.  It is merely a guide to help you on your quest to obtain all
+Rages and/or Lores.  There are plenty of other resources available on the
+Internet if you wish to find a complete enemies list.
+
+I am not certain how the Final Fantasy VI re-release will affect the above
+data.  I am assuming it will remain the same; however, this chart is meant to
+be used only with the original version of Final Fantasy VI.
+
+As always, Square/Squaresoft owns the rights to the Final Fantasy series,
+including Final Fantasy III/VI, and all characters, enemies, spells, etc.
+that are listed in this document.  The aforementioned names and elements are
+under international copyright protection.  Used without permission.
+
+If you use any or all of the information out of this document, no problem.
+Just give me credit for it in your FAQ!
+
+
+-----------------------------------------------------------------------------
+
+
+email:  mjohnson@carolnet.com
+
+Happy Hunting!  --Jared "BattleLord" Johnson
+
+Copyright © Jared Johnson, 1999
+
+Last edited March 14, 1999
+

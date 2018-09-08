@@ -1,0 +1,584 @@
+===============================================================================
+ 
+                         Final Fantasy Tactics Advance
+                                   Laws FAQ:
+
+===============================================================================
+
+Table of Contents
+-----------------
+1@. Contact Info
+2@. Special Thanks
+3@. Explanation of Ranking System
+4@. Punishments
+5@. Law Cards
+6@. Format
+7@. List of Laws
+8@. Version History
+9@. Legal Stuff
+
+Use "Ctrl+F" to search for sections quicker with @
+-------------------------------------------------------------------------------
+                               1@. Contact Info:
+-------------------------------------------------------------------------------
+I welcome any questions, comments, suggestions, or corrections. This faq is not
+complete, so if you know of any laws or any other bits of information that are 
+missing be sure to send them to me at oipl@adelphia.net. I'll add them in, and 
+add you to the special thanks section.
+
+-------------------------------------------------------------------------------
+                                2@. Special Thanks:
+-------------------------------------------------------------------------------
+SquareEnix - For bringing FF back to Nintendo
+J Dogg - For letting me use his Equipment List faq as a source. Be sure to 
+         check it out.
+Ben L. - For submitting info on: Dmg. 2 Enemies, Charm, Color Magic,
+         Elementals, Wind, Gunmanship, Skills, Techniques, Corner, Target All, 
+         and Target Area.
+Seph Hexen - For submitting info on color magic.
+MysicalMoon - For suggesting a section on Law Ranks.
+Smashnuke - For submitting info on: Skills, Techniques, Dmg. 2, Status, Law
+         Cards, NoClr Magic, punishments, as well as law conflict.
+Yeshaih - For submitting info on: Charge, Spirit Magic, Gunmanship, Dmg2: 
+         Animals, Healing, as well as some minor grammar corrections.
+M. Karpa - For submitting info on spirit magic.
+L. Engelsman - For submitting info on all the weapon laws.
+T. Lin - For submitting info on punishments and Copycat.
+Omnipota - For helping clear up copycat for everyone.
+Dave - For submitting info on Soul.
+Reptile Tim - For suggesting the addition of the main character warning to
+         "Punishments".
+Keir - For confirming status changes.
+Jesse M. - For info on Monster run, AP fine, and status change.
+Zairlmakai - For info on Monster run.
+Steven M. - For confirming status change.
+Matt - For confirming status changes.
+Nikos S - For confirming status changes.
+Angel - For confirming status changes.
+NuType51 - For confirming status changes.
+MagicalChimpanz - For confirming status changes.
+SeanTheHatGuy - For info on Monster Run.
+Rob I. - For info on Monster Run.
+Everyone who suggested I add a law card explanation.
+
+-------------------------------------------------------------------------------
+                       3@. Explanation of Ranking System:
+-------------------------------------------------------------------------------
+I've gotten feedback saying that some people are confused by the ranks of each
+law. They're not quite sure what ranks mean. First of all, each law is ranked
+from R1 to R6. The penalty for breaking an R6 law is immediate red card. The 
+penalty for breaking an R1 law is a yellow card. Now, the difference in ranks
+comes in through at the end of the engagement. The higher ranked the law, the 
+stiffer penalty you'll have to pay at the end of the engagement. This can be 
+anywhere from the confiscation of Gil, Items, or Cards, to the forfeiture of
+the rewards that you would have recieved for winning the egagement. I plan on
+listing possible penalties for each rank as soon as I can, so keep checking
+back.
+
+-------------------------------------------------------------------------------
+                                4@. Punishments
+-------------------------------------------------------------------------------
+I'm listing as many punishments as I could find. If you know of one I left out, 
+please email me:
+
+Note:*=Unconfirmed
+
+Card Fine - Confiscate Card(s).
+EqpItem Fine - Confiscate Equipped Item(s)
+Gil Fine - Confiscate Gil.
+Item Fine - Confiscate Item(s).
+Status Changes - Random stat will be reduced permanantly.
+Monster Run - Random monster freed from monster bank.
+Volunteer - Forfeit of reward.
+Empty Handed - Unequips all units' weapons.*
+AP Fine - A mastered ability's AP reduced, will need to be relearned.*
+
+WARNING - If the main character gets a red card, instant game over. Sorry. 
+Also if you bring him to prison to get pardoned, you will spend the time in 
+the prison. In other words, you won't be able to let him sit there while you
+adventure. You get to stick around and watch him stew.
+-------------------------------------------------------------------------------
+                                 5@. Law Cards:
+-------------------------------------------------------------------------------
+Many people have sent me email asking about how to use law cards and some 
+suggested that I explain how in my faq, so, I guess I will. To use law cards, 
+obviously, you need to be at a point in the story where they are available to 
+you and you can't be fighting in a jagd. During a battle, during one of your 
+units' turns, press "B". This puts you into select mode, where you can check 
+the stats on units and such. Once here, press "Start". This brings up a menu 
+with many options, one of them being "Law Cards". Select law cards and you'll 
+be shown the laws that are currently affecting the battle. While here, press 
+"A" and you be able to choose from a list of card that you have. Just remember 
+that light cards add laws, dark cards remove laws.
+
+-------------------------------------------------------------------------------
+                                  6@. Format:
+-------------------------------------------------------------------------------
+Name(Rank): - The Name and (Rank) of the law.
+
+"Game explanation." - How the game describes the law. Basically, what you have
+to do before you are either rewarded or penalized.
+
+My explanation. - What I feel is a clearer explanation, based on personal
+experimentation.
+
+Recommended: What is recommended when this law is forbidden.
+
+Forbidden: What is forbidden when this law is recommended.
+
+-------------------------------------------------------------------------------
+                               7@. List of Laws:
+-------------------------------------------------------------------------------
+
+Addle (R4):
+"Addling"
+You'll be rewarded/penalized for using causing "Forgetfulness" to a unit.
+Recommended: Stop
+Forbidden:
+
+Aim (R2):
+"'Aim' A-abilities."
+You'll be rewarded/penalized for using any of the archer's "Aim" abilities.
+i.e. (Boost, Blackout, Burial, etc...)
+Recommended: 
+Forbidden: Steal
+
+Berserk (R2):
+"Driving berserk."
+You'll be rewarded/penalized for causing a unit to go berserk.
+Recommended:
+Forbidden: Confuse
+
+Bind (R2):
+"Immobilizing/disabling."
+You'll be rewarded/penalized for imobilizing or disabling a unit.
+Recommended: Slow
+Forbidden:
+
+Blades (R3):
+"A blade hit."
+You'll be rewarded/penalized for successfully attacking with a blade.
+(i.e. Sweep Blade, Shadow Blade, Sun Blade, etc...)
+Recommended: Rods
+Forbidden:
+
+Broadswords:
+"A broadsword hit."
+You'll be rewarded/penalized for successfully attacking with a broadsword.
+(i.e. Samson Sword, Falchion, Predator, etc...)
+Recommended:
+Forbidden: Spears
+
+Call (R3):
+"'Call' A-abilities."
+You'll be rewarded/penalized for using an animist's "Call" ability.
+(i.e. Catnip, 100% Wool, Sheep Count, etc...)
+Recommended: Sharpshoot
+Forbidden:
+
+Charge (R3):
+"'Charge' A-abilities."
+You'll be rewarded/penalized for using a Mog Knight's "Charge" ability.
+Recommended: Chivalry
+Forbidden:
+
+Charm (R3):
+"Charming."
+You'll be rewarded/penalized for charming an enemy unit.
+Recommended: Confuse
+Forbidden:
+
+Chivalry:
+"'Chivalry' A-abilities."
+You'll be rewarded/penalized for using a paladin's "Chivalry" ability.
+Recommended:
+Forbidden: Charge
+
+Color Magic (R5):
+"White, black, red, or blue magic."
+You'll be rewarded/penalized for using any magic that's associated with a 
+color.
+Recommended: Missle
+Forbidden: Fight
+
+Confuse (R1):
+"Confusing."
+You'll be rewarded/penalized for confusing a unit.
+Recommended: Berserk
+Forbidden: Charm
+
+Control (R2):
+"'Control' A-abilities."
+You'll be rewarded/penalized for using a beastmaster's "Control" ability on a 
+monster.
+Recommended: Morph
+Forbidden: Morph
+
+Copycat (R6):
+"Mimicking action of previous unit."
+You'll be rewarded/penalized for performing the same action as the preceding 
+unit. If the preceding unit waited, or moved and waited, than no action is
+considered performed.
+Recommended: Ganging Up
+Forbidden:
+
+Corner (R5):
+"'Corner' A-abilities."
+You'll be rewarded/penalized for using an assassin's "Corner" ability.
+(i.e. Last Breath, Nightmare, Rockseal, etc...)
+Recommended: Target Area/Prayer
+Forbidden: 
+
+Dark:
+"Dark actions/A-abilities, Dark weapons are not rewarded/penalized."
+You'll be rewarded/penalized for performing dark actions or A-abilities. This 
+does not include using dark weapons.
+Recommended:
+Forbidden: Holy
+
+Defend (R3):
+"'Defend' A-abilities."
+You'll be rewarded/penalized for using a defender's "Defend" ability.
+Recommended: Hunt
+Forbidden: Hunt
+
+Dmg2: Animal  (R6):
+"Offensive actions against a monster."
+You'll be rewarded/penalized for offensive actions against enemies.
+Recommended: Status
+Forbidden:
+
+Elementals (R5):
+"'Spirit Magic' A-abilities."
+You'll be rewarded/penalized for using a Elementalist's "Spirit Magic" ability.
+Recommended: Time Magic
+Forbidden: Frog/Time Magic
+
+Fight (R2):
+"A successful 'Attack.' Abilities are not penalized."
+You'll be rewarded/penalized for using the "Fight" command.
+Recommended: Color Magic
+Forbidden:
+
+Fire (R1):
+"Fire actions/A-abilities, Fire weapons are not rewarded/penalized."
+You'll be rewarded/penalized for performing fire actions or A-abilities. This 
+does not include using fire weapons.
+Recommended:
+Forbidden:
+
+Frog (R4): 
+"Frogshaping."
+You'll be rewarded/penalized for changing a unit into a frog.
+Recommended: Elementals/Petrify
+Forbidden: Frog
+
+Ganging Up (R3): 
+"Using a combo, Only the initiating unit is rewarded/penalized."
+You'll be rewarded/penalized for performing a combo. Only the unit that begins 
+the combo is rewarded or punished.
+Recommended:
+Forbidden: Copycat
+
+Greatswords (R2):
+"A greatsword hit."
+You'll be rewarded/penalized for successfully attacking with a greatsword.
+Recommended: Rapiers
+Forbidden: Rapiers
+
+Gunmanship (R4):
+"'Gunmanship' A-abilities."
+You'll be rewarded/penalized for using a gunner's "Gunmanship" ability.
+(i.e. Iceshot, Confushot, Silenshot, etc...)
+Recommended: Summon
+Forbidden:
+
+Haste (R6):
+"Imbuing with 'haste.'"
+You'll be rewarded/penalized for causing haste to a unit.
+Recommended: Slow
+Fobidden:
+
+Healing (R6):
+"A-abilities that heal HP."
+You'll be rewarded/penalized for restoring a unit's HP.
+Recommended: Status
+Forbidden:
+
+Holy (R5): 
+"Holy actions/A-abilities, Holy Weapons are not rewarded/penalized."
+You'll be rewarded/penalized for performing holy actions or A-abilities. This 
+does not include using holy weapons.
+Recommended: Dark
+Forbidden:
+
+Hunt (R5): 
+"'Hunt' A-abilities."
+You'll be rewarded/penalized for using a hunter's "Hunt" ability.
+Recommended: Defend
+Forbidden: Defend
+
+Ice (R1):
+"Ice actions/A-abilities, Ice weapons are not rewarded/penalized."
+You'll be rewarded/penalized for performing ice actions or A-abilities. This 
+does not include using ice weapons.
+Recommended:
+Forbidden: Ice
+
+Instruments (R3):
+"An instrument hit."
+You'll be rewarded/penalized for successfully attacking with an instrument.
+Recommended: Knightswords
+Forbidden:
+
+Items (R2):
+""
+You'll be rewarded/penalized for using the "Item" command.
+Recommended: Dark
+Forbidden:
+
+Katanas (R4):
+"A katana hit."
+You'll be rewarded/penalized for successfully attacking with any katanas.
+Recommended: Maces
+Forbidden:
+
+Knives (R1):
+"A knife hit."
+You'll be rewarded/penalized for successfully attacking with any knives.
+(i.e. Jack knife, Kris knife, Khukuri, etc...)
+Recommended: Sabers
+Forbidden: Sabers
+
+Knightswords (R5):
+"A knightsword hit."
+You'll be rewarded/penalized for successfully attacking with knightswords.
+(i.e. Defender, Apocalypse, Lionheart, etc...)
+Recommended: Instruments
+Forbidden:
+
+Knuckles (R4):
+"A knuckles hit."
+You'll be rewarded/penalized for successfully attacking with any knuckle 
+weapon.
+Recommended: Soul
+Forbidden:
+
+Lightning (R1):
+"Lightning actions/A-abilities. Lightning weapons are not rewarded/penalized."
+You'll be rewarded/penalized for performing lightning actions or A-abilities. 
+this does not include using lightning weapons.
+Recommended: Wind
+Forbidden: Wind
+
+Maces:
+"A mace hit."
+You'll be rewarded/penalized for successfully attacking with any mace weapon.
+Recommended:
+Forbidden: Katanas
+
+Missle (R2):
+"A Bow/greatbow/gun hit."
+You'll be rewarded/penalized for successfully attacking with any projectile 
+weapon.
+Recommended: Swords
+Forbidden: Color Magic
+
+Morph (R5):
+"'Morph' A-abilities."
+You'll be rewarded/penalized for using a morpher's "Morph" ability.
+Recommmended: Control
+Forbidden: Control
+
+Petrify (R5):
+"Petrifying"
+You'll be rewarded/penalized for petrifying a unit.
+Recommended: Frog
+Forbidden: Frog
+
+Poison (R1):
+"Poisoning"
+You'll be rewarded/penalized for poisoning a unit.
+Recommended: Bind
+Forbidden: Protect/Slow
+
+Prayer:
+"'Prayer' A-abilites."
+You'll be rewarded/penalized for using a white monk's "Prayer" A-abilities.
+Recommended:
+Forbidden: Corner
+
+Protect (R1):
+"Imbuing with 'Protect'"
+You'll be rewarded/penalized for casting "Protect" on a unit.
+Recommended: Poison
+Forbidden:
+
+Rapiers (R2):
+"A rapier hit."
+You'll be rewarded/penalized for successfully attacking with a rapier.
+Recommended: Greatswords
+Forbidden: Greatswords
+
+Rods:
+"A rod hit."
+You'll be rewarded/penalized for successfully attacking with a rod.
+Recommended:
+Forbidden: Blades
+
+Sabers (R5):
+"A saber hit."
+You'll be rewarded/penalized for successfully attacking with a rod.
+Recommended: Knives
+Forbidden: Knives
+
+Sharpshoot:
+"'Sharpshoot' A-abilities."
+You'll be rewarded/penalized for using a sniper's "Sharpshoot" ability.
+Recommended: Call
+Forbidden: Call
+
+Shell (R1):
+"Imbuing with shell."
+You'll be rewarded/penalized for casting shell on a unit.
+Recommended:
+Forbidden:
+
+Silence (R1):
+"Silencing."
+You'll be rewarded/penalized for casting silence on any unit.
+Recommended: Addle
+Forbidden:
+
+Skills (R6):
+"'Skill' A-abilities. (ex: 'Ninja Skill')"
+You'll be rewarded/penalized for using skills.
+(i.e. Ninja Skill, Sagacity Skill, etc...)
+Recommended: Techniques
+Forbidden: Techniques
+
+Slow (R3):
+"Slowing a unit."
+You'll be rewarded/penalized for casting slow on a unit.
+Recommended: Poison
+Forbidden: Bind/Haste
+
+Soul (R5):
+"A soul hit."
+You'll be rewarded/penalized for successfully attacking with a soul weapon.
+Recommended:
+Forbidden: Knuckles
+
+Spears (R3):
+"A spear hit."
+You'll be rewarded/penalized for successfully attacking with a spear.
+Recommended: Broadswords
+Forbidden:
+
+Status (R6):
+"Causing status ailment."
+You'll be rewarded/penalized for causing status ailments to a unit.
+Recommended:
+Forbidden: Healing
+
+Steal (R3):
+"'Steal' A-abilities."
+You'll be rewarded/penalized for using a thief's "Steal" ability.
+Recommended: Aim
+Forbidden:
+
+Stop (R5):
+"Stopping a unit."
+You'll be rewarded/penalized for casting stop on any unit.
+Recommended: Silence
+Forbidden:
+
+Summon:
+"'Summon' A-abilities."
+You'll be rewarded/penalized for using a summoner's "Summon" ability.
+Recommended:
+Forbidden: Gunmanship
+
+Swords (R1):
+"A swords hit."
+You'll be rewarded/penalized for successfully attacking with a sword.
+Recommended: Staves
+Forbidden: Missle
+
+Target All (R5):
+"A-abilities affecting the entire field."
+You'll be rewarded/penalized for using attacks that take up the whole screen.
+(i.e. Totema, Illusionist skills, etc...)
+Recommended: Target Area
+Forbidden: Target Area
+
+Target Area (R4):
+"A-abilities with area effect of 2+ panels."
+You'll be rewarded/penalized for using attacks that take up 2+ squares.
+(i.e. Most magic, Breaths, etc...)
+Recommended: Target All
+Forbidden: Target All/Corner
+
+Techniques (R6):
+"'Tech' A-abilities. (ex: 'Combat Tech')"
+You'll be rewarded/penalized for using techniques.
+(i.e. Dragon Tech, Monk Tech, Fighter Tech, etc...)
+Recommended: Skills
+Forbidden: Skills
+
+Time Magic (R4):
+"'Time Magic' A-abilities."
+You'll be rewarded/penalized for using a time mage's "Time Magic" ability.
+Recommended: Elementals
+Forbidden:
+
+Wind (R4):
+"Wind actions/A-abilities. Wind weapons are not rewarded/penalized."
+You'll be rewarded/penalized for performing wind actions of A-abilities. This
+does not include wind weapons.
+(i.e. Aero, Air Render, etc...)
+Recommended: Lightning
+Forbidden: Lightning
+
+-------------------------------------------------------------------------------
+                              8@. Version History:
+-------------------------------------------------------------------------------
+Version 0.75 (9/16/03)
+ -This is the first draft.
+ -Setup basic layout and listed as much information as I could find.
+Version 0.80 (9/18/03)
+ -Added Wind, Gunmanship, Skills, Techniques, Corner, Target All, Target Area,
+  Charm, Dmg. 2 Enemies.
+ -Added "Explanation of Ranking System" section
+ -Corrected a few spelling errors.
+ -Updated "Special Thanks" section.
+Version .85 (9/24/03)
+ -Added "Punishments" section.
+ -Made submitted corrections.
+ -Updated "Special Thanks" section.
+Version .90 (10/21/03)
+ -Added many new laws.
+ -Updated "Special Thanks" section.
+Version .95 (11/3/03)
+ -Added Law Cards.
+ -Updated "Special Thanks" section.
+Version .98 (1/27/04)
+ -Yeah, yeah. It's been a while.
+ -Added several new laws.
+ -Updated "Punishments" section with some new and confirmed punishments.
+ -Revamped look of FAQ from traditional style. Personally, I feel Version 
+  histories and legal stuff are boring. Besides, special thanks are to people 
+  who really helped me out.
+ -Also made searching FAQ easier with @.
+
+-------------------------------------------------------------------------------
+                                9@. Legal Stuff:
+-------------------------------------------------------------------------------
+This file is Copyright (c)2003 Steve Ross. All rights reserved. This file may
+not be reproduced under any circumstances except for personal, private use. It 
+may not be placed on any web site or otherwise distributed publicly without
+advance written permission. Use of this guide on any other web site or as a
+part of any public display is strictly prohibited, and a violation of 
+copyright. All trademarks and copyrights contained in this document are owned 
+by their respective trademark and copyright holders.
+

@@ -1,0 +1,601 @@
+Final Fantasy Xi
+Acquiring Avatars for Dummies v1.0
+By: Ares Kaminari
+
+Welcome to my guide to getting those pesky avatars at level 20. Sure, Carbuncle
+is kind've cool and a lot of girls who play the game think he's soo incredibly 
+cute, but honestly there are a lot more possibilities for your Summoner, and 
+let's face it, after 20 levels of Carbuncle being the only avatar, you're
+ready to get out there.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+*~Table of Contents~*
+
+S1 - Acquiring your quests.
+
+S2 - Preparation.
+	S2.1 - Summoning Skill
+	S2.2 - Equipment
+	S2.3 - Items
+	S2.4 - Macros
+	S2.5 - Buffs
+	S2.6 - Days of the Vana'diel Week.
+
+S3 - Acquiring your Avatars.
+	S3.1 - 24-hour Rule
+	S3.2 - Before entering the Protocrystal
+	S3.3 - Strategy in Battle - Searing Light Trio
+	S3.4 - Notes on the Battle
+	S3.5 - Exceptions to the strategy
+	S3.6 - When things go wrong.
+
+S4 - Abilities your Acquired Avatars Acquire.
+	S4.1 - Ifrit
+	S4.2 - Shiva
+	S4.3 - Titan	
+	S4.4 - Ramuh
+	S4.5 - Garuda
+	S4.6 - Leviathan
+
+S5 - FAQ
+
+S6 - Special Thanks
+
+S7 - Character & Contact Info
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S1 - Acquiring your quests
+
+The first thing you'll need to know about your quests is that they all 
+require level 3 fame in the cities or areas that you need to go. I'll
+list them in the order in which I acquired them.
+
+	Ifrit - (J-9) in Kazham (Windurst Fame)
+	Shiva - (E-7) in Northern San d'Oria (San D'oria Fame)
+	Titan - (I-7) in Port Bastok (Bastok Fame)
+	Ramuh - (I-9) in Mhaura (Windurst Fame)
+	Garuda - (G-8) in Rabao (Bastok Fame)
+	Leviathan - (H-9) in Norg (Norg Fame)
+
+I think there are plenty of guides to getting fame, especially from 
+the other mini-avatar guide on GameFAQS already, but I'll list the 
+whole 3 quests in which I used to get all my fame:
+
+- Windurst fame - "Something Fishy" - Port Windurst - Tokaka (C-8)
+desires a Bastore Sardine because she supposedly can tell the
+quality of the upcoming fishing season from the fish size, weight, 
+etc. Who cares about that? The point is: You buy a stack of 
+Bastore Sardines for 700-800gil at the Windurst Auction House, and
+give her a single fish, but you have to zone out and back in every
+time. She'll give you 70gil per fish. resulting in 840gil per stack
+of fish. So this is a method of getting fame in which you actually
+MAKE gil. You could do this quest infinitely, get level 10 fame, 
+and actually make gil off of it. All you need is patience and time.
+
+- San D'oria AND Bastok Fame - "Only The Best" - Selbina - Melyon
+(I-9) wants something to feed his sheep, because they're sick, or
+something. Who gives? Anyway, this requires you to have a lot of
+gil, but it works. Buy a stack of Boyahda Moss at the AH for some
+high price (which is why you need a lot of gil), last time I believe
+it was like 15k. It's best to borrow some money if you don't have
+enough, or be prepared to go back and forth from Selbina to whatever
+city your AH is in. You'll trade him the moss one at a time, but
+you don't have to zone. You'll lose a bit of gil overall, but not so
+much that you can't give back what you borrowed. You borrow (if you
+need to) to prevent you from having to go back and forth. The great
+part about this quest is that it gives you fame for BOTH Sandy and
+Bastok. HOLY CRAP! THIS RULES! I did 2 stacks of moss, but I 
+believe I had some minor amount of fame in Sandy already (which is
+what I was doing it for: Shiva). So max is probably 4 stacks. 
+Once again: BOTH Sandy and Bastok!
+
+- Norg fame - "Mihgo's Amigo" - Windurst Woods - Nanaa Migho (J-3, 
+way up north) wants 4 yagudo necklaces because she likes them. She's
+a selfish cat pirate, big deal. So just give her some. I recommend
+using a level 30+ job (whatever you leveled to get SMN in the first
+place) and go hunt Yagudos in Giddeus. People say to do this quest
+about 15 times or so, some say 21, I did it 22 times. Some lady in
+Kazham on the way to Norg said that even 22 wasn't enough, screw her,
+she was wrong. I didn't believe her because she wastn't a SMN20, let
+alone she told me she wasn't a SMN at all, so if you're reading this
+lady, bite me (Okay, enough backstory ^_^;). This took me about 3
+hours straight of farming, including a level 52WHM/26BLM and myself
+(30DRK/15THF). The important part is that you have a lot of inventory
+space so you don't have to run back and forth. I had 16 slots open,
+she had 32 (Yes, if you have no idea how this occured, there are
+quests in which you can increase the amount of items you can carry,
+thus allowing her to have more than 30.)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S2 - Preparation
+
+Let's have some fun with preparation! This is honestly the most
+important part of the whole aspect. If you're dying too much. This
+means you probably didn't level your summoning skill, or didn't
+bring enough items to compensate for your low HP.
+
+
+
+S2.1 - Summoning Skill
+This is the smallest yet an important section of preparation. You
+MUST max out your summoning skill before even trying to fight the
+avatars. The higher your summoning skill, the more "oompf" 
+Carbuncle has. The max summoning skill you can have is (SMN Level + 1)*3.
+So if you're math-inept, this means your max is (20+1)*3=63. Make sure
+you have 63 summoning skill. The easiest way to do this is to buy an
+Earth Spirit pact and an Air Spirit pact. These cost about 3-4k each. 
+Then summon Carby->Earth Spirit->Air Spirit over and over again, until
+you gain max skill. These is the easiest way because Carbuncle has a 30
+second cooldown, so using him alone would take forever.
+
+
+
+S2.2 - Equipment
+Here's the recommended equipment:
+
+	Main Weapon: Hermit's wand - This item is NECCESSARY because of
+	the 25% interruption down that will save your from being 
+	interrupted when Carbuncle dies and you're not ready and you're
+	trying to resummon him as the avatar beats you.
+
+	Sub Weapon: NOTHING - Yeah, you'd think you can use a shield. But
+	there's no shields under level 20 for a Summoner. 
+
+	Head: Twisted Headband - You'd think you'd want a hairpin here,
+	but in all honesty HP matters way more than MP. Anybody with over
+	54MP could win this battle. The twisted headband is a +3 to evasion.
+
+	Earrings: Physical Earring x 2- These earrings convert 25mp to hp. 
+	The lower your HP rating on your race is, the more important they are. 
+
+	Body: Most people will probably have a doublet or a linen robe. If
+	you're a sub BLM, you could have a level 20 Black Tunic. However, most
+	people will be and want to be a WHM. If you have about 30-45k or so,
+	you can buy a Priest's Robe. I'm a rich man, so I did.
+
+	Arms: If you have some cash, get some Scentless Armlets for +5 evasion.
+	If not, just get some level 20 cloak set hands, which are White Mitts.
+
+	Rings: This is real toss up, some people grab rings for +2 AGI each for
+	more evasion, some people bring +2 MND rings if you'rea  WHM. BLMs
+	really don't need to have more INT, becuse you won't be casting any
+	black magic.
+
+	Back: Any cape will pretty much do for some defense. If you're a sub
+	white mage, and have way too much gil, spend 38-40k on a Mist Silk Cape
+	for +1 MND. This is probably pretty useless though.
+
+	Waist: Another neccessary item. A Heko Obi + 1 or a Silver Obi + 1. 
+	Both give 8% interruption down.
+
+	Legs: Black Slacks. Level 20 robe set.
+
+	Feet: Sandals. Level 20 robe set.
+
+
+
+S2.3 - Items
+Now the items you bring in are honestly extremely important. While I will list
+the MINIMUM items, you should probably bring more:
+
+	1 - Yagudo Drink (this is your "Refresh Effect")
+	1 - Hi-Potion (HP gain)
+	2 - Ethers (MP gain) or Hi-Ethers (If no ethers available)
+
+I actually brought 2 yag drinks, 2 hi-potions, and 4 hi-ethers (regular ethers
+recommended). If anything, you should bring 2 hi-potions. The rest I just 
+brought in EXTREME emergencies. Many people actually prefer to bring a boiled 
+crab as well. This raises your defense roughly 20% for the whole battle.
+
+
+
+S2.4 - Macros
+Let's creates some macros for the items and spells you will need to use in this
+battle. Most likely a whole new set of macros will be preferable. The following
+are the set-up I used for macros. You can set them up on whatever slot you want
+though, just be sure to use the same commands listed here so they function
+properly. Notice I use /p commands at the beginning of each macro. This is
+purely so I can visually know when I activate them; They're not needed.
+
+Control + 1 - Carbuncle
+	/p Summoning Carbuncle
+	/ma "Carbuncle" <me>
+
+Control + 2 - Sic
+	/p Sic'em <pet>
+	/pet "Assault" <t>
+
+Control + 3 - 2HR
+	/p Using 2-HR
+	/ja "Astral Flow" <me>
+
+Control + 4 - Searing Light
+	/p Searing Light!
+	/pet "Searing Light" <t>
+
+Alt + 1 - Yagudo Drink
+	/p Using Yagudo Drink
+	/item "Yagudo Drink" <me>
+
+Alt + 2 - Ether
+	/p Using Ether
+	/item "Ether" <me>
+
+Alt + 3 - Hi-potion
+	/p Using Hi-Potion
+	/item "Hi-Potion" <me>
+
+Alt + 4 - Cure (if you're sub-WHM)
+	/p Cure!
+	/ma "Cure" <me>
+
+These are the main macros you'll use. However, if you really want to macro 
+Aquaveil (which you will want to use as a sub-WHM, it lowers interrupt rate) or
+Boiled crab then I would use:
+
+Alt + 5 - Aquaveil
+	/p Aquaveil!
+	/ma "Aquaveil" <me>
+
+Alt + 6 - Boiled Crab
+	/p Using Boiled Crab!
+	/item "Boiled Crab" <me>
+
+
+
+S2.5 - Buffs
+A lot of people underestimate the neccessity of buffs. Always take a WHM/RDM/SMN
+with you of a higher level (preferably MUCH higher) to buff you before you trade
+your mini-fork to the larger of the two of a "summon pair" (discussed in 
+Acquiring your Avatars). These buffs seriously can make the fights WAY, WAY, WAY
+easier. In fact, against Ramuh I had Stoneskin, and two physical earrings, and 
+still had to use 2 hi-potions. The following are recommended buffs:
+
+WHM/RDM:
+	-Protect I-IV
+	-Shell I-IV
+	-Regen I-III
+	-Refresh
+	-Bar[element] (For example: Shiva, Barblizzara)
+	-Haste
+
+At no surprise, a 50+ SMN or so is one of the best buffers in the game for you.
+	-Earthen Ward from Titan will give you Stoneskin, which will block around
+	150hp in damage, and the damage blocked won't interrupt casting.
+	-Aerial Armor from Garuda will give you Blink, which will block 3 
+	attacks/magic casts. Any Area of Effect spell will cancel all of 
+	your blink.
+	-HasteGa from Garuda will also give you Haste, which a SMN cannot have 
+	while subbing.
+
+
+
+S2.6 - Days of the Vana'diel Week
+Every day of the week is afilliated with an element. For most people, it doesn't
+really matter at all. However, for avatar battles, it can give slight advantages
+or disadvantages. Each day of Vana'diel is 1 hour in real life time.
+
+The Vana'diel week goes in this order: 
+Firesday -> Earthsday -> Watersday -> Windsday ->
+Iceday -> Lightningsday -> Lightsday -> Darksday.
+Use this to plan accordingly.
+ 
+	Firesday - Ifrit is strong, Shiva is weak.
+	Earthsday - Titan is strong, Ramuh is weak.
+	Windsday - Garuda is strong, Titan is weak.
+	Iceday - Shiva is strong, Garuda is weak.
+	Lightningsday - Ramuh is strong, Leviathan is weak.
+	Lightsday - Carbuncle is strong, Fenrir is weak.
+	Darksday - Fenrir is strong, Carbuncle is weak.
+
+While the best day to fight would be the day the avatar you're after is weak, or
+lightsday for Carbuncle being strong, and you probably don't want to fight on 
+the day when the avatar is strong or darksday when carby is weak, you really can
+win on ANY day.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S3 - Acquiring your Avatars
+
+
+
+S3.1 - 24-hour rule
+Because the protocrystal only sends out vibrat-okay enough with the story
+explanation. You can only fight an avatar once per Japanese day, because the
+server resets at japanese midnight. I've created a list of the US time zones
+and the times at which the server resets.
+	Pacific Standard Time: 7:00am
+	Mountain Time: 8:00am
+	Central Standard Time: 9:00am
+	Eastern Standard Time: 10:00am
+
+Now while you can only fight an avatar once a day, there is no limit to the
+number of avatars you can challenge each day. This means you could fight all six
+in the same day if you really wanted to. But it will be expensive to travel 
+around that much.
+
+
+
+S3.2 - Before Entering the ProtoCrystal
+Now that you have everything prepared for your fight. Approach your
+"summon pair" for your area. Be sure you're fighting on the day you want to 
+(see section S2.6). A summon pair is two people standing together, one is always
+a taru, one is any of the other races (never two taru). They're pretty
+immistakable, except there's a Galka and Taru in Norg that looks like a summon
+pair, that aren't. Approach them, and talk to the taller non-taru. They'll talk
+about the prime avatar, and using a mini-fork. The taru will complain that while
+it lowers the avatars level to 20, it will to you as well (which doesn't matter,
+you ARE level 20!), and you can only summon Carbuncle. Everybody pretty much has
+the same conversation. Tell them to fork you..and you'll get a mini-fork of 
+[element]. Now is the time where you have your buffer-person cast all the spells
+ you want to have on you (Listed in S2.5), or if you don't have one, Enlist some
+ help from nearby people. I've only had two of my avatar battles buffed by
+people I actually know. When you're ready to go, trade it back to the taller of
+the two, who gave it to you, and the taru will warp you to the Cloister.
+Approach the crystal and target it. UNDER NO CIRCUMSTANCES SHOULD YOU HIT ENTER
+WHILE TARGETING THE CRYSTAL. This will send you into the full level 60 avatar
+battle by yourself, and I'll laugh as you'll get slaughtered. You MUST trade
+your fork to the crystal, thus entering the arena.
+
+
+
+S3.3 - Strategy in Battle
+This is the strategy that I use. This strategy is purely offensive. It works on
+all avatars.
+
+1) Run up to the second island (the first has the crystal, the third has the
+prime avatar, second is neutral - it has nothing on it), and cast Aquaveil on
+yourself if you have it, and if you brought a boiled crab, use that as well.
+2) Summon Carbuncle.
+3) Approach the avatar until you are just close enough to "Sic" Carby on the
+avatar. If you're too close, the avatar will aggro you first, and you'll take a
+few hits before Carby can gain enough aggro.
+4) Once they begin fighting, Use your yagudo drink for your refresh effect. Run
+up to the two, and use Astral Flow, and then target the Avatar and use Searing
+Light. It'll drain your MP to 0, but because you have refresh, Carby won't just
+dissapear.
+5) As soon as it goes off, run like the wind. Most people prefer to run as far
+as away as they can while they can still see Carby's health bar. I find that my
+Carby lasts so long, I run all the way down to the first island (with the
+crystal- where you started)
+6) If you an see his health, tap the Carbuncle macro as soon as he dies, if
+you're like me, standing a very-long safe distance- yet blind to Carby's HP,
+just stand there and tap your Carbuncle macro over and over until you resummon
+(indicating that carby has died).
+7) As soon as Carby is summoned, use your Ether. Don't worry about "sic"ing
+Carby. Carby apparently has a vendetta, so he'll automatically run towards
+the avatar and engage it without need of commands (commands give you more aggro
+anyway). Most likely though the avatar will take go past him and take a few
+swings at you anyway. Don't worry too much about those stray hits.
+8) Target the Prime Avatar, and run up to it and carby, and just keep tapping
+Searing Light until it goes off.
+9) After it does, run like the wind again, as far away as you can. If carby
+dies before you lose sight of his health, then re-summon him, if not, simply
+tap his macro until he is re-summoned.
+10) As soon as Carby is re-summoned, use another Ether. Carby will run off and
+re-engage the avatar by himself.
+11) Target the Prime Avatar, and run up to it and carby, and just keep tapping
+Searing Light until it goes off. Bang, you've got yourself an Avatar.
+
+S3.4 - Notes on the battle
+-If at any time. you become low on HP, simply use your hi-potion to regain
+anywhere from 50-100hp almost instantly.
+-All Avatars open the battle with their third acquired ability 90% of the time
+(which range from levels 19-26, those cheaters, using their abilities from 20+
+though supposedly only level 20 in power)
+	Ifrit: Burning Stirke - Fire-Elemental Damage
+	Shiva: Frost Armor - Applies "Frost Spikes" to Shiva
+	Titan: Rock Buster - Damages and binds the target.
+	Ramuh: Thunderspark - Area of Effect Damage and Paralyze status.
+	Garuda: Aerial Armor - "Blink" effect applied to Garuda (Note: Blink is
+	canceled by Searing Light, so don't worry about it not hitting)
+	Leviathan: Tail Whip - Damage and weight effect on target.
+-A lot of the time. Avatars feel the need to pulvarize you and Carbuncle with
+their own 2hr. I have found that the most likely time is right after your
+second searing light. These are extremely powerful abilities, and did about 170
+damage to me. Should you see the avatar preparing these abilities,
+RUN LIKE HELL. Carby will die instantly from it. If you're low on HP, which you
+probably will be if you're hit by the 2hr, be sure to use a hi-potion BEFORE
+summoning carby. If you don't have much distance between you the avatar when it
+goes off, the avatar will start beating you while you're trying to summon Carby.
+ This is why we have all that interruption down equipment, and cast Aquaveil.
+I've listed their 2hr abilities so you can watch out for them. (Most are re-used
+from other Final Fantasies, and should be recognizable by FF veterans)
+	Ifrit: Inferno - Area of Effect Fire Damage
+	Shiva: Diamond Dust - Area of Effect Ice Damage
+	Titan: Earthen Fury - Area of Effect Earth Damage
+	Ramuh: Judgement Bolt - Area of Effect Lightning Damage
+	Garuda: Aerial Blast - Area of Effect Wind Damage
+	Leviathan: Tidal Wave - Area of Effect Water Damage
+- Sometimes Searing Light will be resisted. On any day but lightsday, Searing
+Light damage cap is 210 (on lightsday is Carby's day, so you can do 230). If all
+three do 210 damage, the avatar should be toast. They can resist it downt to 104
+damage. And very very rarely resist it down to 51 damage.
+
+
+
+S3.5 - Exceptions to the strategy
+-Ramuh: That wily bastard. He'll use Thunderspark right away. and 99% of the
+time it'll paralyze you AND carbuncle. The problem with this is when you use an
+item, if it says "You are paralyzed," you will not only not activate the item,
+but you will use it as well. And there's a possiblity that Carbuncle could get
+paralyzed when using Searing Light, and not even have it go off. To counter-act
+this: Simply sub WHM, and fight smart. Summon Carbuncle, sic him on Ramuh, When
+he uses Thunderspark, cast Paralyna on yourself (Go WHM-Sub!) until you're
+un-paralyzed, and then run away like you normally would, and simply let
+Carbuncle die fighting (he won't have paralyze when re-summoned). You will have
+no problem with not having enough MP to let carbuncle fight this normal way for
+one life (as I told you before, you only need 54mp total to win these fights).
+The avatar will come after you as normal when Carby dies. Re-summon Carbuncle,
+then finally, when they engage use your yag drink, 2hr, and first searing light.
+Basically you just delay the start of the strategy.
+-Leviathan: He likes to tail whip you. Although I was lucky enough for this to
+miss Carbuncle, I'm not sure if weight will have some detrimental effects on
+Carby. Somebody let me know if it matters. If you want to play it safe, simply
+do the same thing you did for Ramuh: let Carby die once, and delay the start
+of the strategy.
+-Shiva: Shiva's "Frost Armor" is horrible. Because everytime Carby-- or you,
+for some awkward reason you would choose to hit her, which is incredibly
+stupid-- hit her with frost spikes on, it has a random chance of paralyzing
+the little guy. If this happens and you miss a Searing Light. 
+
+
+
+S3.6 - When things go wrong
+The more times you fight the avatar, which most people say they average 2
+fights per avatar, you'll find that basically the battles are all the same,
+and since you use the strategy so much (with exceptions from S3.4 in mind) it
+will become quite easy to do, and it's really more chance than anything that
+you will win. The most common problems for me were as followed:
+-The Avatar hits me with his 2hr. Ouch, this hurts. Taru and lower-HP
+summoners REALLY have to look out for this. Sometimes it's instant death.
+Medicate yourself with some sympathy food, and wait until the server resets.
+-I screwed up by hitting the wrong macro. This sucks. I did it a few times
+myself. I always brought hi-ethers so I would have a few extra mana to cast
+cure on myself if needed, but in two battles I accidentally hit it, and so I
+ended up running from the avatar and waiting 10 seconds for it to be
+interrupted so I could use another item. This really blows when you're
+trying to use a hi-potion and you end up with ether/hi-ether.
+-If too many of your searing lights are resisted, which all of them can be
+(I've had two out of three resisted), you can counter this by bringing more
+items than needed. Leviathan resisted two of mine, but then I used my second
+yagudo drink, and my third hi-ether, and Carby tanked him to death.
+
+My suggestion: Sometimes when things go awry, it's best to simply let
+yourself die, and save the use of some of your items (they all cost gil).
+This happens a lot with a macro you accidentally created wrong (and you
+didn't want to waste the 1.5k-2k item testing it), or you hit the wrong
+macro, or perhaps the avatar 2hrs you at a horribly inconvenient time, or
+maybe you don't navigate the terrain well due to a bad camera angle (this
+happens with low camera angles, as well as your first few times in battle
+in general). I screwed up on my first Ramuh battle, not knowing about the
+Thunderspark problem, and wasted both my yag drinks, and a hi-ether.
+That's about 5k down the toilet. Accept death, and move on.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S4 - Abilities your Acquired Avatars Acquire
+
+All abilities are listed as followed: Level - Name - Mana Cost - Description
+
+
+
+S4.1 - Ifrit
+2hr - Inferno - Level*2+4mp - Area of Effect Fire Damage
+Level 1 - Punch - 9mp - Melee Attack.
+Level 10 - Fire II - 24mp - Fire II spell.
+Level 23 - Burning Strike - 48mp - Fire Attack.
+Level 30 - Double Punch - 56mp - Melee Attack x 2.
+Level 38 - Crimson Roar - 84mp - Party attack power +15% for short time
+Level 60 - Fire IV - 118mp - Fire IV spell.
+Level 70 - Flame Crush - 164mp - Melee Attack x 3
+
+
+
+
+S4.2 - Shiva
+2hr - Diamond Dust - Level*2+4mp - Area of Effect Ice Damage
+Level 1 - Axe Kick - 10mp - Melee Attack.
+Level 10 - Blizzard II - 24mp - Blizzard II spell.
+Level 28 - Frost Armor - 68mp - Apply "Ice Spikes" to all party members.
+Level 40 - SleepGa - 54mp - Area of Effect Sleep.
+Level 50 - Double Slap - 96mp - Melee Attack x 2.
+Level 60 - Fire IV - 118mp - Blizzard IV spell.
+Level 70 - Rush - 164mp - Melee Attack x 5
+
+
+
+S4.3 - Titan
+2hr - Earthen Fury - Level*2+4mp - Area of Effect Earth Damage.
+Level 1- Rock Throw - 10mp - Area of Effect damage and slow.
+Level 10 - Stone II - 24mp - Stone II spell.
+Level 21 - Rock Buster - 39mp - Area of Effect damage and bind.
+Level 35 - Megalith Throw - 62mp - Area of effect damage and slow.
+Level 46 - Earthen Ward - 92mp - Apply "Stoneskin" to all party members.
+Level 60 - Stone IV - 118mp - Stone IV spell.
+Level 70 - Mountain Crash - 164mp - Area of Effect damage and bind.
+
+
+
+S4.4 - Ramuh
+2hr - Judgement Bolt - Level*2+4mp - Area of Effect Lightning Damage.
+Level 1 - Shock Strike - 6mp - Area of Effect damage and stun.
+Level 10 - Thunder II - 24mp - Thunder II spell.
+Level 19 - Thunderspark - 38mp - Area of Effect damage and paralysis.
+Level 31 - Rolling Thunder - 52mp - Apply "enthunder" to all party members.
+Level 42 - Lightning Armor - 91mp - Apply "Shock spikes" to all party members.
+Level 60 - Thunder IV - 118mp - Thunder IV spell.
+Level 70 - Chaos Strike - 164mp - Melee Attack x 3 and stun.
+
+
+
+S4.5 - Garuda
+2hr - Aerial Blast - Level*2+4mp - Area of Effect Wind Damage.
+Level 1 - Claw - 7mp - Melee Attack.
+Level 10 - Aero II - 24mp - Aero II spell.
+Level 25 - Aerial Armor - 92mp - Apply "blink" to all party members.
+Level 36 - Whispering Wind - 119mp - Heal all party members.
+Level 48 - HasteGa- 112mp - Apply "Haste" to all party members.
+Level 60 - Aero IV - 118mp - Aero IV spell.
+Level 70 - Predator Claw - 164mp - Melee Attack x 3.
+
+
+
+S4.6 - Leviathan
+2hr - Tidal Wave - Level*2+4mp - Area of Effect Water Damage.
+Level 1 - Baracude Dive - 8mp - Melee Attack.
+Level 10 - Water II - 24mp - Water II spell.
+Level 26 - Tail Whip - 49mp - Melee Attack and Gravity.
+Level 33 - SlowGa - 48mp - Area of Effect slow.
+Level 47 - Spring Water - 99mp - Heal party and remove negative statuses.
+Level 60 - Water IV - 118mp - Water IV spell.
+Level 70 - Spinning Dive - 164mp - Melee Attack.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S4 - FAQ
+
+[See Contact Information (S6) to ask some questions, which will be replied
+to promptly, and if intelligent, posted here]
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S6 - Special Thanks
+
+My only special thanks is to a few people on Asura server who helped me get
+my SMN and played an active role in helping me with battles:
+Greenknight - WHM (Helped me get Carbuncle's Ruby, Buffed me before battle)
+Fuyuka - WHM (Helped me get to Rabao, and buffed me a few times as well)
+Neopagan - SMN (Helped me with some SMN questions, and and buffed me)
+Alchemadian - WHM (Helped me get Carbuncle's Ruby)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+S7 - Character/Contact Info
+
+*~Character Info~*
+Server: Asura
+Name: Zareth
+Race: Elvaan Male
+Marital Status: Single
+Linkshell: BrightHonor (Own)
+Jobs: 30WAR, 15MNK, 15WHM, 20THF, 8PLD, 30DRK, 20SMN as of 11/15/2004
+Avatars: Carbuncle, Ifrit, Shiva, Ramuh, Titan, Garuda, Titan, Leviathan.
+- If you see me on Asura server or you're on Asura and just want to chat,
+give me a /tell or a /wave! I could always use another friend. Oh and let
+me know you read this, so I don't feel stupid that I made it for no reason ^_^;
+
+*~Contact Info~*
+E-Mail: AresKaminari@yahoo.com
+Please contact me with any questions/corrections/complaints, or maybe something
+you'd like to see added, etc.
+
+
+Oh, and Final Fantasy XI and all the non-factual information related herein is
+copyright Square-Enix 2002-2004. 
+Final Fantasy™ is a registered tradark of Square-Enix.
+
+Copyright 2004 Jason Wood

@@ -1,0 +1,457 @@
+**********************
+* FINAL FANTASY      *
+* CRYSTAL CHRONICLES *
+* MY LIFE AS A KING  *
+**********************
+* FAQ/Walkthrough    *
+**********************
+
+Version 1.0
+Jake Alley
+
+
+
+Contents:
+
+Sec01   Frequently Asked Questions
+Sec02   Downloadable Extras
+Sec03   Town Building
+Sec04   Your Daily Ritual (Or All About Morale)
+Sec05   Crazy Voodoo AI Tricks
+
+
+
+
+Sec01   Frequently Asked Questions
+
+Q: When do I actually get to form parties?
+   A: Once you get the ability to make a tavern.
+
+Q: How do I get access to the first tavern? This boss WON'T DIE!
+   A: The boss in question is immune to physical damage. You need to send in a
+   decent level black mage to kill it. It might help to send a fighter or 3 in
+   minute or so before the black mage to clear a path through the monsters.
+
+Q: What's the story with these shop materials bequests?
+   A: As you upgrade things in shops, periodically you hit a wall where you
+   need to post a bequest to get new materials. Once you hit one, click around
+   the map for a completed area with the new behest listed. It won't show up if
+   you haven't fully explored the area (but will be mentioned in the notes).
+   There's generally more than one such bequest, they have to be unlocked in
+   order. The boss' level is tied to the item level, not the area level, but
+   your adventurers don't take that into account, so completing these can be
+   tricky. Crazy voodoo AI tricks help.
+
+Q: What's with this "shape changing" dungeon?
+   A: If you get a high enough percentage of it explored in a single day, it
+   quits shifting around, allowing you to tackle it normally. Highly trained
+   thieves help, sending in as many people as you can helps, luck is still a
+   huge factor.
+
+Q: Can I rearrange things later?
+   A: Yes. Once you can make Black Mage Academies, you get the ability to
+   remove buildings from the map. Stand at the enterence and summon Chime to
+   mark them for demolition. The next morning, the building will be gone, you'll
+   get the building cost back, and as soon as you rebuild it, it will be just
+   like you left it. Oh, and for what it's worth, demolishing houses has no
+   effect on your active adventurers. They'll live inside the castle in the
+   short term, and move back into the next house of any size you build.
+
+Q: How many of everything can I eventually build?
+   A: If we're talking about your first time through the game, with no extra
+   downloads, you can, by the end, build a total of:
+      - 30 houses total (either small or spacious)
+      - 2 Bakeries
+      - 1 Emporium
+      - 1 of each shop (Weapon, Armor, Item)
+      - 1 of each training building (Warrior, Thief, White Mage, Black Mage)
+      - 2 Taverns
+      - 1 Guild Hall
+      - 2 Fountain Parks
+      - 1 Bulletin Park
+   This allows you to have:
+      - 16 max adventurers
+      - 2 fixed parties
+      - 2 bequests posted per day
+      - 4 max morale spheres
+      - the 2nd best level of kingdom development
+   Playing on hard or very hard (available after winning once), you gain the
+   ability to make an extra:
+      - 10 houses (40 total)
+      - 1 Bakery (3 total, giving the 5th morale sphere and best level of
+         development)
+      - 1 of each shop (Weapon, Armor, Item)
+      - 1 of each training building except Training Hall
+
+
+
+
+Sec02   Downloadable Extras
+
+There are a variety of additional features that can be added to the game by
+paying for downloadable extras. This guide will not be mentioning them for
+several reasons.
+
+1- Plenty of other people can tell you everything you want to know and more
+   about each download as it is released, so I'd just as soon not constantly be
+   updating this guide.
+2- The same basic strategies still apply.
+3- Personally, I'm not a fan of the whole practice of squeezing as much money
+   from people as possible with things like this.
+4 (And this is the most important one)- Thus far, none of them are honestly
+worth using. We have an extra large house, which while possibly nice for
+maximizing cash flow on normal mode just for the sake of doing so, is terribly
+inefficient for difficulties where that much money is actually useful. We have
+even more training buildings which add a wider variety of skills, but there's
+no way you can actually make use of all of them and not have your adventurers
+wasting half the day in town. Then of course we have the extra races, which
+while cosmetically would be a nice change of pace, and save you the hassle of
+getting everyone into the right class, aren't going to seem all that efficient
+when compared to the characters you've already built up by the time you unlock
+the ability to use them.
+
+
+
+
+Sec03   Town Building
+
+Laying out the various buildings in your town is one of the least time
+consuming, but by far most important aspects of the game. An inefficient layout
+won't have a really noticeable effect until about halfway through the game, but
+if you're careless, eventually you're going to wish you'd put more thought into
+it as you begin rebuilding your whole city to get people to stop taking until
+sundown to actually head out and explore.
+
+There's two basic things we need to worry about when planning out where to put
+each building. First, there's dealing with where everything is going to fit.
+Buildings come in four different sizes, taking up 1, 2, 4, or 6 spaces. There's
+only 13 places on the map where one of the largest buildings can be placed,
+you'll fill 4 of those on normal, 6 on hard. There's only 7 places you can fit
+a 4 space building without using part of one of those lots, we need 5 on
+normal, 8 on hard. There's a fair bit of leeway in both cases, but since we're
+going to be wanting to keep the more important buildings clustered together,
+you're going to want to reserve as many of the big open lots on the north side
+of town for shops and training buildings.
+
+The second major concern is adventurer travel time. The daily routine of your
+adventurers goes like this (skipping anything which hasn't been built
+entirely):
+- Wake up in their house, head to a random fountain park for a bit of morning
+  relaxation.
+- Head to the behest posting that most interests them, and wait for your
+  approval.
+- Go shopping, compulsively visiting every adventurer shop and their training
+  building, in a random order.
+- Head to the tavern to form a party.
+- Leave out the appropriate gate to reach their goal for the day.
+- Return through that same gate, and head to the castle for their wages.
+
+The major efficiency issue, generally speaking, comes from the shopping step of
+this process. Assuming you're building everything, that's 4 buildings any given
+character is going to run around between. If you have, say, the weapon and
+armor shops right by the bequest boards, and the item shop and training
+buildings clumped together elsewhere, it's quite possible that at least one
+adventurer will cut across the entire city four whole times because they don't
+want to look at swords until they're set on potions. It's also possible for
+someone to decide to run over to the fountain park you stuck down in the corner
+instead of the one right near their house.
+
+The solution, therefore, is to put your bulletin park right by your initial
+bequest post, keep the shops as close to the two as you can manage, and
+generally ring the whole shopping district with training buildings. When
+playing on hard, you have the added headache to contend with that you get extra
+versions of these buildings to deal with. The same basic logic still applies
+though. Keep all the 4 space shops in a tight clump, stick the 2 black mage
+buildings near each other, etc.
+
+It's generally a good idea to use the leftover space in the area to place
+fountain parks (if you're planning to bother with them), and taverns. Hitting
+the tavern is the last thing people do before heading out, so you might be
+tempted to place them by the 3 exits. There's no guarantee that they'll head to
+the one by the exit they plan to take though, so it's much more efficient to
+place them close to the stores.
+
+Everything else is going to be a low priority you're encouraged to stick off in
+the boonies down south. This means you'll have a few adventurers taking a long
+trip to the behest postings, but it's nothing compared to shopping time, since
+it can only happen once a day. If you really want to be extra efficient, make
+sure the leaders of the permanent parties you set up in your taverns live in
+single space housing by the bequest boards. Say, the lot adjacent to the first
+board, and the house built automatically at the start of the game. The leaders
+will be ready to take their orders right away, and the rest of their party
+members get to skip this step entirely.
+
+Now for a more in-depth look at all the things we'll be building.
+
+Houses: (Building limit goes by total houses, ultimate cap of 30 on normal, 40
+        on hard)
+   Small House   1 Space    100 El   Potential Adventurer +1 NPC, +10 Gil/Day
+ * Large House   1 Space    250 El   Potential Adventurer +2 NPC, +20 Gil/Day
+Spacious House   2 Spaces   300 El   Potential Adventurer +3 NPC, +30 Gil/Day
+
+Housing Placement Tips:
+On normal mode, you are eventually going to want to eventually replace all
+small houses with spacious ones. On hard, you will eventually want 20 spacious
+houses, 20 large. In either case, it's generally a good idea to place your
+first few houses in northern lots with odd numbers of spaces for easy access,
+but once you're just filling up all the space you can, concentrate on the
+southeastern section of town (by the lookout tower). It keeps them out of the
+way of higher priority buildings, and on hard mode allows for amazing morale
+farming with the final development upgrade.
+
+Citizen Shops: (1 Emporium, 2 Normal Bakeries +1 Hard Bakery)
+        Bakery   2 Spaces   200 El   +1 Morale Sphere, passive morale boost
+      Emporium   6 Spaces   600 El   +2 Morale Sphere, passive morale boost,
+                               adds shields/daggers/torches shop inventories
+
+Citizen Shop Placement Tips:
+Adventurers don't touch these buildings, but the NPCs living in your various
+houses like to periodically pop into them if they're nearby, giving you a
+slight morale gauge boost each time. Therefore, you want to surround them with
+as many houses as you can manage.
+
+Adventurer Shops: (1 each Normal, +1 each Hard)
+   Weapon Shop   4 Spaces   200 El   Sells weapons to adventurers
+    Armor Shop   4 Spaces   350 El   Sells armor to adventurers
+     Item Shop   4 Spaces   300 El   Sells potions and torches to adventurers
+
+Adventurer Shop Placement Tips:
+As previously stated, cram these as close to your behest boards as you can. On
+hard mode, if you want to completely fill in the town, one will need to go down
+in the 10 space lot just south of the crystal. It's one of two lots that will
+leave unusable space without a 4 space building on them, the other can hold the
+guild.
+
+Adventurer Training: (1 each Normal, +1 all but Training Hall Hard)
+ White Mage T.   6 Spaces   500 El   Switch to and get spells for White Mages
+ Black Mage A.   6 Spaces   500 El   Switch to and get spells for Black Mages
+ Training Hall   6 Spaces   450 El   Warrior stuff, can "Gain EXP" risk free
+   Gaming Hall   2 Spaces   350 El   Thief stuff, adventurers can get free gil
+
+Adventurer Training Placement Tips:
+These are essentially more shops. Only one will generally be hit by a given
+character, since they're class specific. Those not on behests might visit the
+Gaming and Training Halls for their alternate uses, but efficiency isn't a
+concern there, so don't worry.
+
+Special: (2 Taverns, 1 Guild Hall, 1 Inn)
+        Tavern   2 Spaces   500 El   Sells weapons to adventurers
+    Guild Hall   4 Spaces   300 El   Sells armor to adventurers
+           Inn   2 Spaces   400 El   Sells potions and torches to adventurers
+
+Special Placement Tips:
+Taverns are the last place adventurers visit before leaving town, after
+shopping. Keeping them near the shops is extremely important. It also helps to
+keep them where you can generally keep an eye on them, if you're inclined to
+give everyone stat boosts on their way out of town. The Inn is essentially a
+house for visiting, randomized, extra adventurers, and should thus go with your
+other houses (but not near citizen shops). The Guild Hall is a building only
+you personally ever visit, and thus can (and should) be crammed in the far
+southeast corner to fill the awkward lot shape, stay out of the way, and be
+visited while chatting with the citizenry.
+
+Parks: (2 Fountain, 1 Bulletin)
+      Fountain   2 Spaces   200 El   Chance of recovering adventurer morale
+      Bulletin   4 Spaces   150 El   Allows extra behest posting
+
+Park Placement Tips:
+You are going to want to keep your Bulletin Park right by the original behest
+board for reasons that should be obvious. Fountain parks should be in the same
+area as well, both for optimal adventurer pathing, and so you can clean out any
+demoralized adventurers who end up loitering while you assign everyone's tasks.
+
+There should be an image found in the same location of this guide with a
+suggested layout of a hard mode town. While not necessarily the most efficient
+possible, it has been proven to keep shopping time short enough not to cause
+problems, citizen visitation easy to manage, and evenly fills out the map. On
+normal, you have much more space than you need, and can therefore fit
+everything important in the northern portion of town, leaving the rest free for
+your 30 spacious houses.
+
+
+
+
+Sec04   Your Daily Ritual (Or All About Morale)
+
+Every day starts off with a review of the previous, and new behest posting. As
+a general rule of thumb, you want to clean out areas in ascending order of
+level. If you have a level 8 area and a level 9 area, hit the level 8 first
+even if you think you can handle it. There are generally extra incentives to
+going in order (dungeons assuming you'll have access to certain types of
+equipment for instance), and of particular concern, the boss of the dungeon
+containing the first available tavern absolutely requires a black mage to kill
+the boss, which you will unlock right before it sticking to sequence.
+
+Next, it's time to actually make sure everyone hits these. Adventurers
+generally line up to receive orders for the day fast enough that you should
+wait before doing anything else, but you can usually squeeze in a quick
+building or shop visit as they line up. We'll discuss some of the finer points
+of dispensing adventurers in the next section, but it should be noted that each
+dungeon only has so many monsters to be found in a given day. Send everyone to
+the same place, and most will miss out on experience. On the other hand, send
+two people to kill the same boss, and one might clear out the monsters so the
+other can reach it at full HP.
+
+With the adventurers on their way, it's time to start hitting the shops and
+summoning new buildings. Gil, generally, is a non-issue, and really, elementite
+flows in pretty reliably too. If you know you're getting a new building type
+the next day, you might want to save 200 El or so to make sure you can build it
+right away, otherwise, spend it when you can. For shop upgrades, I suggest the
+following priorities. First, get everything up to level 10 or 15, then hit the
+Guild Hall to crank the adventurer cap up to 8 (and hire the newbies,
+obviously), then max out the adventurer pay rank (for them, gil IS a concern,
+and this doesn't cut into your daily income beyond the one time costs). After
+that, max out the adventurer cap (and hire up to the full 16), then just keep
+investing in all the shops and training buildings, keeping everything at
+roughly the same level. You should be able to maintain an absurd lead on what
+the adventurers are actually capable of buying no matter what.
+
+That out of the way, it's time to set in on the daily morale grind. First, we
+need a bakery. On your second or third day, you should see someone standing
+around by the fountain talking about bakeries. Follow up on that, you'll end up
+getting a sketch from a moogle. Build one ASAP and you get access to the morale
+gauge.
+
+The morale gauge increases from talking to people. Either citizens with a green
+smile over their heads, or adventurers on their way out of town, or back for
+their daily pay. It also increases when citizens talk amongst themselves, or
+visit a citizen shop. Each time it fills, you get an extra bonus to the day's
+Gil income, and you get a morale sphere if there's an open slot for one. Each
+bakery adds a slot, the emporium adds two. These spheres have two uses. First,
+you can take them to the castle, and cash them in with Chime to work towards
+developing your city as a whole. The perks for doing so are as follows:
+
+1st upgrade: May build first fountain park
+2nd upgrade: May build spacious houses (very useful)
+3rd upgrade: May declare holidays (see below)
+4th upgrade: May have Pavlov talk to people, and access morale boosting fetch
+             quests.
+5th upgrade: May address people from tower (makes all citizens come out willing
+             to talk, not possible on normal).
+
+The first two upgrades are particularly handy, and quite easy to get, just by
+talking to every adventurer on their way out and back from behests. Once you
+have a nice flow of morale coming in though (or you just have time to kill
+during the huge lull between the second and third upgrades), it's time to shift
+your focus to the second, and more important use. Morale boosting.
+
+Every day, once this becomes feasible, summon chime before talking to your
+first citizen, and spend a sphere on the morale boost option. Your morale gauge
+will be replaced by a gradually depleting red bar (the original gauge will
+continue to fill as normal, it's just hidden). While this bar is up, you have
+two very useful abilities. First, talking to an adventurer will give them a
+minor stat boost for the day. Second, talking to a normal citizen will increase
+their household's happiness meter (which can be checked by visiting their
+house). This in turn has two very handy effects.
+
+First, when a meter fills, you can visit the house when the official owner is
+home to receive a random medal that can later be given to an adventurer after
+they kill a boss. Second, and much more importantly, that house will start
+leaving the lights on at night. The more houses that do this, the longer your
+period of activity becomes each day. Talking to everyone you can find with a
+morale boost active every day will eventually get you to the point where your
+days are two or three times their original length. This gives you enough time
+to talk to citizens (and they seem to become more talkative the later it gets),
+recovering the morale sphere you spent and then some, and rolling over the
+morale gauge another few times, leading to a bigger gil bonus. It also ensures
+you'll still be awake when your adventurers return, letting you console the
+unsuccessful ones, and potentially eliminate their resulting bad moods.
+
+How important any of this is is debatable. The only real benefit is that you
+will end up with more gil than you know what to do with, and more medals than
+you could possibly ever award. Once you're at the point where your adventurers'
+levels are in the mid-20s, and there's level 70 equipment gathering dust on
+store shelves, you might want to give it a rest and just go to bed early after
+sending everyone off and building up the town.
+
+The only catch to constantly operating in morale boost mode is that it prevents
+you from entering (or staying in) hyper morale mode. Any time an adventurer
+kills a boss, and you aren't in morale boost mode, your moral bar will begin
+glowing, and all gains to it are doubled. If you want to have your cake and eat
+it too, time your boosts on days you expect bosses to die so that they will
+expire just after everyone leaves town.
+
+After your third development upgrade, you gain the ability to declare holidays
+(as a behest in town). This an ability you are never going to want to actually
+use. All it does is put you in hyper morale mode for the entire day, which you
+can do on your own almost every day to begin with. It also costs a decent sized
+chunk of gil to do this, which is going to completely offset the extra cash it
+would bring in. Finally, it totally decommissions your adventurers for the day.
+Not only will they not take on behests, they won't gain experience on their
+own, or shop, or do anything but sit around at home. Now, you might be
+thinking, this would still be marginally useful as a way to pass the time if,
+say, every single adventurer is wiped out, and is going to spend a day resting
+anyway. Horrifyingly enough, even that doesn't work. They won't recover at all
+during the holiday, and end up taking the next day off on top of the day you're
+wasting declaring it. You'd be much better off just declaring no behests for
+the day. Everyone who needs it rests up, everyone who doesn't levels without
+being told to (or gambles for extra gil), you end up with about the same gil
+intake for the day, and don't have to take a day off from the upkeep of
+everyone's happiness meters.
+
+Eventually, your day of morale farming comes to an end, and it's time for a new
+set of reports. When things go badly, it sometimes helps to click each point to
+reveal more info (up to a complete round by round account of every battle
+fought). Otherwise, lather, rinse, repeat until the game is won.
+
+
+
+
+Sec05   Crazy Voodoo AI Tricks
+
+Let's face it. The AI of your adventurers is awful. This, really, is essential
+to the game's being any fun. If they always did what you wanted, things would
+just get boring. Sometimes though, they seem to be really dead set against what
+you want them to do. Here's a few tricks which have a more or less proven link
+to better behavior.
+
+First and foremost of course is having an efficient town layout. We've
+discussed this enough I think.
+
+Next, keep them happy. Maxing out the pay rank, talking to everyone twice a
+day, and not sending people on suicide runs will generally keep everyone from
+deciding to pass on behests.
+
+Always set up an obvious high level and low level behest. Each posting will
+attract at most half your available pool of adventurers, or have more than 5
+adventurers gathered around it. Specified parties count as 4 people for the
+first of these limits but only one for the second. More importantly, they will
+always consider one posting to be for higher level people, and the other for
+lower, and cluster accordingly as best they can.
+
+If you have 8 people around level 20, and 8 people around level 10, and behests
+for areas with those levels, great. If you have behests in 2 level 20 areas,
+the level 20 people are all going to pick the one and clump around it, the
+other will just attract level 10 folks with a death wish.
+
+Behests in town (changing levels, info gathering) are wildcards in this system.
+Post one, and a more standard one, they'll decide if the dungeon one is high or
+low, and send the other half of the population to the other one. This just
+plain sucks for class changes, since you generally want those spread out over a
+wide range of levels. The best solution is to either do a high level batch and
+a low level batch on two different days, or declare two in-town behests and
+leave it up to luck.
+
+If they're being really stubborn about something, reset it and switch which
+board has which posting. It seems to help break ties in the AI's calls, with
+the original board taking the higher priority.
+
+The parties adventurers form on their own go by when they enter the pub mainly.
+If you want people to clump up, approve their behests all at once. If you want
+a lot of soloing, spread them out between shop visits.
+
+Finally, as mentioned earlier, adventurers in the same dungeon step on each
+other's toes in terms of EXP gains. Left to their own devices, all your level 4
+characters will hit the same dungeon for EXP, and thus not really get any. Gain
+EXP behests help spread people out, not hiring multiple people the same day
+helps more.
+
+
+
+
+This concludes this guide. If you're wondering about anything I haven't
+covered, just keep playing until the game explains it to you. It's very linear,
+and you can't really miss anything important.
+
+If you'd like to contact me about this guide, you can find my e-mail address on
+my webpage- http://www.kekkai.org/google/

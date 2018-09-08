@@ -1,0 +1,702 @@
+[Image]
+
+                                   Items
+
+  This list is based on this file, which I assume was compiled from a hex
+  dump of the ROM.  You may want to grab it, it includes info that can be
+   used in cheat codes (I think), as well as dummy items and call beasts,
+                          which are left out here.
+
+  If it says a weapon deals '*something*' damage, it deals more damage to
+enemies weak against the named element, and less to monsters strong against
+  it. It might even heal monsters strong against that element. *something*
+        could be Fire, Ice, Lightning, Water, Wind, Holy or Poison.
+
+ Some of items may be missing battle or other effects. If you know of one,
+                        be sure to tell me about it.
+
+ Also, remember that this list was made based on the old patch for the FF5
+ROM, so some of the items' names may be different from the ones you're used
+             to. I'll add in the new item names sometime soon.
+
+                               General Items
+
+     ID #                   Item                        Effect(s)
+      E0      Potion                                  Recover 50 HP
+      E1      HiPotion                                Recover 500 HP
+      E2      Ether                                   Recover 40 MP
+      E3      Elixir                                Recover full HP/MP
+
+      E4      FenixDown                           Recover from 'Wounded'
+                                                          status
+      E5      MaidnKiss                             Cure 'Frog' status
+      E6      HolyWater                            Cure 'Zombie' status
+      E7      TurtlShell                            Ingredient for Mix
+      E8      Antidote                             Cure 'Poison' status
+      E9      Eyedrop                              Cure 'Blind' status
+      EA      DragnFang                             Ingredient for Mix
+      EB      DrkMatter                             Ingredient for Mix
+      EC      Soft                                 Cure 'Stone' status
+      ED      LuckMallet                            Cure 'Mini' status
+                                                  Summons call beasts in
+                                                  battle, starting with
+                                               Bahamut and working its way
+                                                down to Chocobo Kick.  Can
+      EF      MagicLamp                         be recharged by returning
+                                               it to the place you find it
+                                                (behind a waterfall in the
+                                                 3rd world).  (Thanks to
+                                                           Jon)
+
+      F0      Tent                               Rest a night to recover
+                                                          HP/MP
+
+      F1      Cottage                           Rest a night to recover to
+                                                        full HP/MP
+
+      F2      Giant                             Doubles max HP when drank
+                                                      during battle
+
+      F3      Power                              Raises attack power when
+                                                   drank during battle
+
+      F4      Speed                               Effect of 'Haste' when
+                                                   drank during battle
+
+      F5      Protect                           Raises defense power when
+                                                   drank during battle
+
+      F6      Hero                              Raises all abilities when
+                                                   drank during battle
+
+                                   Knives
+
+    ID #             Knife              Attack Power       Special Effects
+     02      Knife                           4                   None
+     03      Dagger                          11                  None
+     04      Mithril                         20                  None
+     05      Kunai                           26               +1 agility
+                                                           +1 magic power,
+     06      MageMasher                      28              occasionally
+                                                            mutes enemies.
+                                                           Randomly blocks
+                                                               physical
+     07      Guardian                        33               attacks.
+                                                              (Thanks to
+                                                               Keester)
+     08      Kodachi                         43               +1 agility
+     09      Orialcon                        38                  None
+
+     0A      Air Knife                       53              Deals 'Wind'
+                                                               damage.
+                                                             +1 agility,
+     0B      Assassin                        78             Randomly casts
+                                                              'Death'.
+                                                           (Thanks to Dan)
+                                                             +1 agility,
+                                                           Randomly blocks
+     0C      Sasuke                          96                physical
+                                                               attacks.
+                                                              (Thanks to
+                                                              Onion Kid)
+                                                            Causes you to
+                                                             run away in
+                                                            battle.  Takes
+                                                            a few runaways
+                                                              to get its
+     63      Chicken                       3-127             attack power
+                                                              up, using
+                                                            !Capture will
+                                                             prevent this
+                                                               effect.
+                                                           (Thanks to Jon)
+                                                           +2 magic power,
+                                                              vitality,
+                                                              strength,
+     6B      ManEater                        86                agility,
+                                                              effective
+                                                               against
+                                                               humanoid
+                                                               enemies.
+
+     6C      Thief                           63              +1 agility,
+                                                           chance of steal
+                                                           +1 magic power,
+     6D      Dancing                         48                agility,
+                                                             usually does
+                                                            random dances.
+
+                                   Swords
+
+    ID #            Sword               Attack Power       Special Effects
+     0D     Broad                            12                  None
+     0E     Long                             19                  None
+     0F     Mithril                          28                  None
+
+     10     Coral                            34             Deals 'Water'
+                                                               damage.
+                                                             Occasionally
+     11     Ancient                          40             causes enemies
+                                                               to age.
+     12     Great                            54                  None
+                                                             Occasionally
+     13     Slumber                          46            puts enemies to
+                                                                sleep.
+                                                           Randomly blocks
+                                                               physical
+     14     Defender                         96                attacks.
+                                                              (Thanks to
+                                                              Onion Kid)
+                                                             +5 strength,
+     15     Excalibur                       107              deals 'Holy'
+                                                               damage.
+     16     Ragnarok                        137                  None
+                                                           +5 magic power,
+                                                            Drain HP from
+                                                           enemies. Do NOT
+     55     Blood Sword                      81              use against
+                                                            undead. Misses
+                                                           often.  (Thanks
+                                                               to Jon)
+                                                            Consumes MP to
+     56     Rune Edge                        47             do a critical
+                                                            hit with every
+                                                               attack.
+
+     57     Flame                            60              Deals 'Fire'
+                                                               damage.
+
+     58     Ice Brand                        62              Deals 'Ice'
+                                                               damage.
+                                                           Says 100 attack
+                                                            power in game
+                                                            but acts as 0.
+     5C     Excalipur                        0              Still has 100
+                                                             attack power
+                                                            when Thrown.
+                                                           (Thanks to Dan)
+                                                             +5 strength,
+                                                             decreases in
+                                                           attack power by
+                                                            +/- 20 points
+     61     BraveBld                       144-23             if you run
+                                                                away,
+                                                            permanently.
+                                                            (Thanks to Jon
+                                                               and Dan)
+     6E     Enhancer                         99             +3 magic power
+
+                                   Spears
+
+    ID #            Spear              Attack Power        Special Effects
+     17     Javelin                         52               +1 strength
+     18     Spear                           22               +1 agility
+     19     Mithril                         27                  None
+                                                            Deals 'Water'
+     1A     Trident                         34                damage.
+                                                           (Thanks to Dan)
+                                                            Occasionally
+     1B     Wind                            41              attacks with
+                                                              'Aero 2'
+     1C     Partisan                        59                  None
+     1D     Heavy                           51                  None
+                                                            +3 strength,
+     1F     Holy                           106              deals 'Holy'
+                                                          damage.  (Thanks
+                                                               to Dan)
+                                                          Dragons are weak
+     20     Hiryuu                         119              against this
+                                                           weapon. (Thanks
+                                                             to Filter)
+
+                                    Axes
+
+    ID #             Axe              Attack Power        Special Effects
+     21     Battle                         20                   None
+     22     Mithril                        25                   None
+     23     Ogre                           30                   None
+     24     Warhammer                      35                   None
+                                                           Deals 'Poison'
+     25     Poison                         45            damage.   (Thanks
+                                                              to Dan)
+                                                          Randomly causes
+     26     Earth                          55             an earthquake.
+                                                          (Thanks to Jon)
+                                                          +3 magic power,
+                                                         consumes MP to do
+     27     Rune                           68              a critical hit
+                                                             with every
+                                                              attack.
+                                                         Deals 'Lightning'
+     28     Thor                           78            damage.   (Thanks
+                                                              to Dan)
+                                                           Randomly kills
+     69     DoomCut                        40            enemies.  (Thanks
+                                                              to Jon)
+     6A     Giant's                        88                   None
+
+                                  Katanas
+
+    ID #         Two-Handed Sword           Attack Power         Special
+                                                                 Effects
+     29     Ashura                               39               None
+                                                              Occasionally
+     2A     Airblade                             41           attacks with
+                                                                 a wind
+                                                                 attack.
+     2B     Kotetsu                              55               None
+     2C     Bizen                                48               None
+     2D     Kiku                                 84               None
+     2E     Murasame                             94               None
+                                                                 Always
+     2F     Masamune                             104          attack first
+                                                               in battle.
+                                                              Occasionally
+                                                                hits for
+     30     Nimbus                               117             double
+                                                                damage.
+                                                               (Thanks to
+                                                               ShaheenJim)
+
+                                    Rods
+
+    ID #           Rod              Attack Power         Special Effects
+     31    Rod                           5               +1 magic power
+                                                      Deals 'Fire' damage,
+     32    Fire                          13             casts 'Fire3' and
+                                                       shatters if used as
+                                                             an item
+                                                       Deals 'Ice' damage,
+     33    Ice                           13             casts 'Ice3' and
+                                                       shatters if used as
+                                                             an item
+                                                        Deals 'Lightning'
+     34    Thunder                       13               damage, casts
+                                                      'Bolt3' and shatters
+                                                       if used as an item
+
+     35    Poison                        29              Deals 'Poison'
+                                                             damage.
+     36    Lillith                       27              +3 magic power
+                                                         +2 magic power,
+                                                      occasionally casts a
+                                                       random spell on the
+     60    Wonder                        0                enemy, casts
+                                                       'Return' if used as
+                                                       an item.   (Thanks
+                                                             to Dan)
+                                                       Increases the power
+     37    Wizard                        37             of all Black and
+                                                      White spells by 50%.
+                                                          (Thanks to Dan)
+
+                                   Staffs
+
+   ID #           Staff              Attack Power         Special Effects
+    38     Staff                          6                    None
+    39     Mithril                        16                   None
+                                                           Attacks with
+    3A     Power                          0                'Berzerk'.
+                                                          (Thanks to Dan)
+                                                          +6 magic power,
+    3B     Cure                           0                attacks with
+                                                              'Cure2'
+    3C     Light                          42              +2 magic power
+                                                         Increases damage
+                                                          of "Holy", very
+    3D     Sage                           50             effective against
+                                                          Undead enemies.
+                                                         (Thanks to Onion
+                                                               Kid)
+                                                          +3 magic power,
+    3E     Judgement                      57               deals "Holy"
+                                                        damage. (Thanks to
+                                                            Onion Kid)
+
+                                   Canes
+
+ These can be equipped by anyone who can equip staffs; basically, they are
+        staffs which do the same amount of damage from the back row.
+
+   ID #            Cane              Attack Power         Special Effects
+
+    94     Flail                          13             Same damage from
+                                                             back row.
+
+    95     MornStar                       47             Same damage from
+                                                             back row.
+
+                                 Crossbows
+
+   ID #         Crossbow             Attack Power         Special Effects
+
+    3F     Flame                          36               Deals 'Fire'
+                                                              damage.
+
+    40     Frost                          36                Deals 'Ice'
+                                                              damage.
+
+    41     Thunder                        36             Deals 'Lightning'
+                                                              damage.
+                                                          Randomly causes
+    42     Darkness                       39            Blindness. (Thanks
+                                                          to Pootmonkey)
+                                                          Randomly casts
+    43     KillerBow                      46            'Death'.   (Thanks
+                                                              to Dan)
+    44     Elfin                          53                   None
+
+    45     Yoichi                         98               +3 strength,
+                                                              agility
+    46     Artemis                       108                   None
+    65     Silver                         35                   None
+                                                           Randomly does
+                                                           XFight (i.e.
+    66     Gust                           66            attacks 4 times at
+                                                         half strength).
+                                                          (Thanks to Jon)
+
+    67     Mafuuji                        0              Casts 'Quiet'.
+                                                          (Thanks to Dan)
+                                                         Double damage to
+    68     Avis                           88            any Avis.  (Thanks
+                                                              to Jon)
+
+                                Bard Weapons
+
+   ID #           Harp              Attack Power         Special Effects
+    47     Silver                        12                   None.
+                                                       Occasionally causes
+    48     Dream                         22              enemies to fall
+                                                             asleep.
+
+    49     Lamia                         32                Occasionally
+                                                        confuses enemies.
+
+    4A     Apollon                       42               Very effective
+                                                         against Undead.
+
+                                   Whips
+
+   ID #           Whip              Attack Power         Special Effects
+
+    4B     Whip                          23                Occasionally
+                                                        paralyzes enemies.
+
+    4C     Chain                         49                Occasionally
+                                                        paralyzes enemies.
+                                                        Deals 'Lightning'
+                                                             damage,
+    4D     Blitz                         39                occasionally
+                                                        attacks enemy with
+                                                        'Bolt'.   (Thanks
+                                                             to Dan)
+                                                           +2 strength,
+                                                          agility, deals
+    4E     Firebute                      79               'Fire' damage,
+                                                          randomly casts
+                                                       'Fire 3'.   (Thanks
+                                                         to Jon and Dan)
+    4F     Dragon                        89                  None (?)
+
+    5D     Beastkill                     69                Occasionally
+                                                        paralyzes enemies.
+
+                                   Bells
+
+   ID #         Elemental Weapon           Attack Power         Special
+                                                                Effects
+
+    50     Giyaman                              21            Same damage
+                                                            from back row.
+                                                              Same damage
+    51     Earth                                32          from back row,
+                                                            randomly casts
+                                                               "Quake".
+
+    52     Rune                                 42            Same damage
+                                                            from back row.
+
+    53     Tinker                               52            Same damage
+                                                            from back row.
+
+                            Ninja/Thief Weapons
+
+                     (these can also be used by Mimics)
+
+   ID #       Ninja/Thief Weapon         Attack Power      Special Effects
+
+    59    Crescent                            32          Same damage from
+                                                              back row.
+
+    64    RisingSun                           68          Same damage from
+                                                              back row.
+                                                           Attacks twice,
+    1E    TwinLance                           58            only counters
+                                                           once.  (Thanks
+                                                               to Jon)
+
+                               Thrown Weapons
+
+  ID #                                 Weapon
+   5A                                 Shuriken
+   5B                                   Fuuma
+   62                                   Soot
+   FC                                 FlameTech
+   FD                                 WaterTech
+   FE                                 BoltTech
+
+                                  Shields
+
+   ID #       Shield        Defense Power         Evade         Special
+                                                                Effects
+    81    Leather                 0                 10           None
+    82    Bronze                  1                 15           None
+    83    IronShld                2                 20           None
+    84    Mithril                 3                 25           None
+    85    GoldShld                4                 30           None
+                                                               +1 magic
+                                                                power,
+                                                               randomly
+    86    Aegis                   5                 33       evades magic
+                                                               attacks.
+                                                              (Thanks to
+                                                              Onion Kid)
+    87    Diamond                 6                 35           None
+    88    Crystal                 8                 45           None
+                                                               +5 magic
+                                                               defense,
+    C4    Flame                   7                 40       blocks 'Fire'
+                                                              attacks.
+                                                              (Thanks to
+                                                                 Dan)
+
+    C6    Genji                   9                 50         +1 magic
+                                                                defense
+                                                               +5 magic
+                                                               defense,
+    CD    IceShld                 7                 40       blocks 'Ice'
+                                                              attacks.
+                                                              (Thanks to
+                                                                 Dan)
+
+    CE    Bloodied                15                1          +5 magic
+                                                                defense
+
+                                  Helmets
+
+  ID #       Helmet       Defense Power     Magical Defense      Special
+                                                 Power           Effects
+   89   Leather                 1                  1              None
+   8A   Bronze                  2                  2              None
+   8B   IronHelm                4                  2              None
+   8C   Mithril                 6                  2              None
+   8D   GoldHelm                8                  2              None
+   8E   Diamond                 10                 2              None
+   8F   Crystal                 13                 2              None
+   90   Feather                 2                  2              None
+
+   91   Tricorn                 4                  2            +1 magic
+                                                                  power
+
+   92   Mitre                   6                  2            +2 magic
+                                                                  power
+
+   93   Socklet                 10                 2            +3 magic
+                                                                  power
+                                                                Halves MP
+   94   Hairpin                 0                  2             cost of
+                                                                spells in
+                                                                 battle.
+                                                              +5 strength,
+                                                                agility,
+                                                                vitality,
+                                                              magic power,
+   95   Ribbon                  12                 2            prevents
+                                                               most status
+                                                               ailments.
+                                                               (Thanks to
+                                                                  Jon)
+   96   Headband                6                  0           +3 strength
+
+   97   GrnBeret                3                  2          +1 strength,
+                                                                 agility
+   98   DarkHood                12                 2           +2 agility
+
+   99   Lamian                  3                  7            +3 magic
+                                                                  power
+   C3   TigrMask                9                  2            None (?)
+   C7   Genji                   22                 2              None
+                                                                +1 magic
+                                                                 power,
+                                                                 raises
+   CB   Hypno                   5                  4            !Control
+                                                                 success
+                                                                 rate.
+                                                               (Thanks to
+                                                                  Jon)
+                                                                -5 magic
+                                                                 power,
+   CC   Thornlet                20                 5             causes
+                                                               character's
+                                                               HP to fall
+                                                               in battle.
+
+                                   Armors
+
+  ID #       Armor       Defense Power      Magical Defense      Special
+                                                 Power           Effects
+   9A   Leather                1                   1              None
+   9B   Bronze                 4                   2              None
+   9C   Iron                   6                   2              None
+   9D   Mithril                9                   2              None
+   9E   Gold                   12                  2              None
+   9F   Diamond                15                  2              None
+   A0   Crystal                20                  2              None
+   A1   Copper                 3                   2              None
+   A3   Silver                 7                   2              None
+   A5   DiaPlate               13                  2              None
+
+   A6   DarkSuit               17                  2          +1 strength,
+                                                                 agility
+                                                              Gives wearer
+                                                                standard
+   BF   BoneMail               30                  5             undead
+                                                               weaknesses.
+                                                                 Beware!
+   C8   Genji                  22                  2              None
+
+                                   Robes
+
+  ID #        Robe        Defense Power   Magical Defense Power   Special
+                                                                  Effects
+
+   A2    Training               5                   2               +1
+                                                                 strength
+   A4    Stealth                9                   2           +1 agility
+   A7    Cotton                 2                   4              None
+   A8    SilkRobe               4                   6              None
+   A9    Earth                  8                   2              None
+   AA    Bard                   6                   8              None
+
+   AB    Lumina                11                   12           +2 magic
+                                                                   power
+
+   AC    Black                 14                   14           +5 magic
+                                                                   power
+                                                                 +3 magic
+   AD    White                 14                   14            power,
+                                                                 vitality
+                                                                  Causes
+                                                                   first
+                                                                  attack
+                                                                  towards
+   AE    Mirage                14                   4            wearer to
+                                                                  miss in
+                                                                   every
+                                                                 battle.
+                                                                (Thanks to
+                                                                   Jon)
+
+   B9    Strength              11                   0               +3
+                                                                 strength
+                                                                    +5
+                                                                 vitality,
+                                                                 prevents
+   BB    AngelGwn              10                   11             most
+                                                                  status
+                                                                 ailments.
+                                                                  (Thanks
+                                                                  to Dan)
+                                                                  Raises
+                                                                 chance of
+   CF    Rainbow               18                   3            Dancer's
+                                                                  "Sword
+                                                                  Dance".
+
+                                Accessories
+
+    ID #                   Ring                          Effects
+                                               +10 defense, magic defense,
+ AF         Protect                             +5 vitality, cast "Regen"
+                                                  on wearer.  (Thanks to
+                                                         Keester)
+
+ B0         Thief                                +4 defense, +1 agility,
+                                               successful 'Steal' rate up.
+                                                +5 strength, vitality, -5
+ B1         Giant                                agility, magic power, +9
+                                                defense, +1 magic defense
+                                                +3 magic defense, +1 magic
+                                                  power, agility, causes
+ B2         Elf Cape                             physical attacks against
+                                                    the wearer to miss
+                                                 occasionally. (Thanks to
+                                                        CyberTaco)
+
+ B3         Cursed                                +25 defense, +5 magic
+                                                 defense, cursed. (duh ;)
+                                                +1 defense, magic defense,
+ B4         Glasses                             prevents 'Blind' status.
+                                                     (Thanks to Dan)
+ B5         Hermes                               Casts 'Haste' on wearer.
+ B6         Mithril                                     +3 defense
+
+ B7         Silver                                 +2 defense, +3 magic
+                                                         defense
+
+ B8         Diamond                                +4 defense, +5 magic
+                                                         defense
+ BA         PwrWrist                              +3 defense, strength.
+                                                  +5 defense, +10 magic
+ BC         AngelRng                            defense, prevents 'Zombie'
+                                                   and 'Aging' status.
+                                                +5 defense, magic defense,
+                                                  absorbs Flame attacks,
+ BD         FlameRng                             causes weakness to Water
+                                                attacks, protects against
+                                                  Ice attacks.  (Thanks
+                                                          toJon)
+                                                +5 defense, magic defense,
+                                                  absorbs Water attacks,
+ BE         CoralRng                            causes weakness to Thunder
+                                                attacks, protects against
+                                                Flame attacks.  (Thanks to
+                                                           Jon)
+ C0         Leather                             +1 defense, magic defense
+
+ C1         KaiserKn                             +8 defense, +5 strength,
+                                                 'Brawl' attack power up.
+
+ C2         Gauntlet                               +6 defense, +1 magic
+                                                         defense
+                                                Makes it so you only have
+ C5         ConagoJr                            to reduce an enemies HP to
+                                                  1/2 instead of 1/8 to
+                                               !Catch it.  (Thanks to Jon)
+
+ C9         Genji                                 +12 defense, +1 magic
+                                                         defense
+ CA         WallRing                             Casts 'Wall' on wearer.
+                                                  +11 defense, +2 magic
+ D0         RedShoes                            defense, raises chance of
+                                                Dancer's "Sword Dance".
+                                                     (Thanks to Dan)
+
+                              Cool but Useless
+
+     ID #                  Item                        Description
+                                                You get this for beating
+      F7     DrgnCrest                         Shinryuu.  Does absolutely
+                                                        nothing.
+
+      F8     OmegaMedl                          You get this for beating
+                                               Omega.  Doesn't do a thing.
+                                                 Efuefu is Japanese for
+      FF     Efuefu                              'Final Fantasy'.  It's
+                                               unlikely it can be found in
+                                                       the game..
+      6F     L. Hand                              A Monk's best weapon.
+
+      70     R. Hand                            The perfect compliment to
+                                                      the L. Hand.

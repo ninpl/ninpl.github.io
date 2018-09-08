@@ -1,0 +1,1161 @@
+FFFFFF  II  NNN    NN       AAA       LL
+FF      II  NN N   NN      AA AA      LL
+FFFF    II  NN  N  NN     AA   AA     LL
+FF      II  NN   N NN    AAAAAAAAA    LL
+FF      II  NN    NNN   AA       AA   LL
+FF      II  NN     NN  AA         AA  LLLLLLL
+
+FFFFFF       AAA       NNN    NN  TTTTTT     AAA       SSSSS  YY    YY
+FF          AA AA      NN N   NN    TT      AA AA      SS      YY  YY
+FFFF       AA   AA     NN  N  NN    TT     AA   AA     SSSSS     YY
+FF        AAAAAAAAA    NN   N NN    TT    AAAAAAAAA       SS     YY
+FF       AA       AA   NN    NNN    TT   AA       AA      SS     YY
+FF      AA         AA  NN     NN    TT  AA         AA  SSSSS     YY
+
+  TT                           TT
+  TT                           TT
+TTTTTT     AAA       CCCCCC  TTTTTT  II  CCCCCC  SSSSS
+  TT      AA AA      CC        TT    II  CC      SS
+  TT     AA   AA     CC        TT    II  CC      SSSSS
+  TT    AAAAAAAAA    CC        TT    II  CC         SS
+  TT   AA       AA   CC        TT    II  CC         SS
+  TT  AA         AA  CCCCCC    TT    II  CCCCCC  SSSSS
+  \/                           \/
+
+
+                   HIDDEN SPECIAL CHARACTERS GUIDE
+
+      Written by Sword Seraph (imperium314@yahoo.com) (c) 2002
+
+      All damage formulas are (c) Aerostar (aerostar@fftactics.net) 2002,
+                             used with permission
+
+
+
+^
+|
+|
+|
+
+My bad attempt at ASCII art. =(
+
+
+
+[The Game]                Final Fantasy Tactics
+[The System]              PlayStation
+[The Genre]               Strategy RPG
+[The Version]             v. 1.03
+[The Author]              Peter Chickris (Sword Seraph)
+[Last Updated]            Friday, January 3, 2003
+
+
+
+                     _______________________________________
+____________________/LEGAL STUFF that SHOULD be Common Sense\_____________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+This document was created and maintained by Sword Seraph, it's author.
+It is the sole property of its author, whom bears the copyright and
+reserves all rights.  It is protected by "United States Code: Title 17 -
+Copyrights", the "Berne Convention for the Protection of Literacy and
+Artistic Works (Paris Text 1971)", any and all copyright and patent laws
+applicable and International Treaties.
+
+This document can only appear in one of two forms: electronic and a
+personal printed file for private use.  The ONLY website that can post this
+document is:
+
+- GameFAQs <www.gamefaqs.com>
+
+This document may not be reproduced or retransmitted (the above listed
+websites are the only sites exempted from this) in any way, shape, form,
+or medium.
+
+You may not alter, edit, format, remove, or add materials to any part of
+this document.  It may not be offered for money and/or compensation (even
+if profit attempt fails) or offered as a bonus or gift for accessing a web page
+or purchasing an item.  It may not be added to an archive of any type. It
+must always remain in the English Language.  It will not be translated to
+any language for any reason whatsoever.  It will not appear in any
+publication.  This document was in no way intended for commercial,
+promotional and/or profitable uses.  This guide is limited to personal and
+private use only.  The author, Sword Seraph, MUST approve any other uses,
+prior to being used.
+
+If this copyright is transgressed, the violators will face immediate civil
+and/or criminal penalties to the fullest extent possible.  Any breach of
+copyright (which includes acts of stealing, plagiarism, pirating, uses not
+private and personal, posting without permission, etc.) is considered a
+felony, and will be punished accordingly.
+
+By accessing, reading, viewing, or using this document in any way, you
+automatically agree to abide by this copyright.  This copyright supercedes
+any conversation, verbal exchange and written statements that have any
+affiliation with this guide.  The latest version of this document contains
+the copyright information that is valid for the latest version, and all
+prior versions.  There's no reason for not checking the latest version,
+their locations are listed above.  Ignorance to this, the copyright, or the law
+is no excuse.  Also, any part of this copyright may change at anytime,
+without prior warning.
+
+The FINAL FANTASY series, all characters and associated materials are
+copyright SQUARE CO., LTD.  No breach of copyright intended.  This guide,
+its author, and persons otherwise associated (through contributions,
+hosting, etc.)  Make no claims to the above stated articles.  All
+trademarks and copyrights not acknowledged in this document are respected.
+
+Information in this document is provided "as is," without warranty or
+guarantee of any kind, either express or implied.
+
+Under no circumstances will this guide, its author, and persons otherwise
+associated with this guide, be held responsible by any party for any
+direct, indirect, consequential, or special damages incurred through use
+of this document, including without limitation, lost profits, and loss of
+computer data.  If for any reason you do not agree with parts or the entire
+copyright, your only remedy shall be to not use this guide.
+
+As for AeroStar's damage formulas, he gave me permission to use them.
+If you want to use them, please e-mail him, not me.
+
+
+
+                     _______________
+____________________/On To The Info!\_____________________________________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+[--------------------]
+{Table of Contents   }
+[--------------------]
+
+_____________________
+                    /
+1. FAQ Information  \
+                    /
+     1.1 About      \
+     1.2 Updates    /
+                    \
+____________________/__________________________________________________
+                                                                      /
+2. The Hidden Special Characters of FFT (general information/bios)    \
+                                                                      /
+     2.1 Worker 8                                                     \
+     2.2 Beowulf Kadmas                                               /
+     2.3 Reis Dular                                                   \
+     2.4 Cloud Strife                                                 /
+     2.5 Byblos                                                       \
+                                                                      /        
+                                
+______________________________________________________________________\
+                                                                      /
+3. Obtaining the Hidden Special Characters of FFT (in 17 easy steps)  \
+                                                                      /
+     3.1 Obtaining Yon Specials!                                      \
+                                                                      /
+______________________________________________________________________\
+                                     /
+4. The Hidden Specials' Skillsets    \
+                                     /
+     4.1 Notes on How to Read        \
+     4.2 Common Abbreviations        /
+     4.3 Worker 8                    \
+     4.4 Beowulf Kadmas              /
+     4.5 Reis Dular                  \
+     4.6 Cloud Strife                /
+     4.7 Byblos                      \
+                                     /
+_____________________________________\
+                                /
+5. Setups                       \
+                                /
+     5.1 Noes on How to Read    \
+     5.2 Beowulf Kadmas         /
+     5.3 Reis Dular             \
+     5.4 Cloud Strife           /
+                                \
+                                /
+________________________________\___                                    \
+                                    \
+6. Miscellaneous                    /
+                                    \
+     5.1 Frequently Asked Questions /
+     5.2 Version History            \
+     5.3 Thank You!                 /
+                                    \
+____________________________________/
+
+
+
+
+
+
+
+                     ___________________
+____________________/ 1. FAQ Information\_________________________________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+-1.1 About-
+
+
+Ah yes, Final Fantasy Tactics.  It's possibly the jewel in Squaresoft's
+crown of games.  It's the jewel that fell between the cracks and has
+recently been recovered and re-mounted.
+
+Now, I've looked through most of these guides, and to my horror,
+none of them goes truly in-depth on getting all of the hidden
+special characters!
+
+They touch on it, of course, but none does _THAT_ great a job.
+
+So here I am, and I present to you a complete, tested FAQ of how to
+get all of the hidden special characters.  I've gotten some new
+information from board members as to the authenticity of this and
+I even learned some new things.
+
+I'm basically making this guide for 2 reasons:
+
+1) No other guide goes as in-depth on getting the hidden characters.
+
+And
+
+2) Maybe, just MAYBE it will quell the number of "How do I get _____?"
+topics on the FFT message board.  I do my best to keep a topic about
+it on the board, but, it does get purged every once in awhile.
+This is just a (hopefully) permanent source for this information.
+
+I've also decided to include the abilities these characters can use,
+and their damage formulas (thanks to AeroStar for letting me use this
+information.)
+
+Of course, there are _MASSIVE SPOILERS_ in this guide.  If you want to
+figure this stuff out for yourself, TURN BACK NOW.
+
+
+-1.2 Updates-
+
+
+Sunday, March 17, 2002: Made minor changes addressing slight errors in
+content.
+
+Monday, November 4, 2002: Made several setups to be posted soon, updated
+e-mail addy.
+
+Friday, January 3, 2002: More setups, finally had some time to do this.
+Will send update today or tomorrow. Setup section is FAR from complete,
+but I've at least started. =)
+
+
+
+                     _______________________________________
+____________________/2. The Hidden Special Characters of FFT\_____________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+I'm going to give you a short biography on each of the 5 characters.
+Background information 'n' such.  Quite a bit of it I got from the Record
+and the rest I pieced together from in-game scenes.
+
+
+-2.1 Worker 8-
+
+
+Class: Steel Giant
+Sex: N/A
+Zodiac Sign: Gemini
+Skillset: Work
+Class Bonuses: Inherent Innocent, Counter, Any Weather, Any Ground,
+               Defense UP, cannot enter water
+Class Equips: none (monster)
+
+
+Worker 8 is a relic from Saint Ajora's time when airships flew in the
+sky and humanoid robots helped man.  Steel Giants were demolition
+androids used to raze buildings and lift heavy objects.  Worker 8's
+power comes from the Aquarius Zodiac Stone.  In its unpowered state,
+Worker 8 resembles a large metal ball.  This ball was unearthed from
+beneath Goug Machine City by Besrodio Bunanza and subsequently powered
+up by the Aquarius Zodiac Stone found in the mines beneath Goland Coal
+City.  Worker 8 acknowledges Ramza as its master and follows his commands
+without question.  As a robot, Worker 8 has no belief in God.  Thus,
+Faith-based magic does not work on him (as Faith is belief in God.)
+
+
+-2.2 Beowulf Kadmas-
+
+
+Class: Temple Knight
+Sex: Male
+Zodiac Sign: Libra
+Skillset: Magic Sword
+Class Bonuses: Inherent Equip Knight Sword
+Class Equips: Swords, Knight Swords, Armor, all non-female accessories
+
+
+Beowulf was a Temple Knight working for the Glabados Church.  Note the
+"was."  He fell in love with a woman named Reis Dular.  Unfortunately, a
+Glabados priest, Buremonda, also had feelings for Reis.  But Reis had
+eyes only for Beowulf.  Consumed with rage, Buremonda attempted to cast a
+spell on Beowulf.  At the last second, Reis blocked the spell for Beowulf
+and she was transformed into the Holy Dragon.  Reis ran off, and Beowulf
+left the Temple Knights to find her and hopefully find a way to return
+her to her human form.  Beowulf meets Ramza and co. in the bar at Lesalia
+Castle.  They decide to investigate the rumors of monsters in the coal
+mines together, since the description of one of the monsters bears a
+striking resemblance to a Holy Dragon...
+
+
+-2.3 Reis Dular-
+
+
+Class: Holy Dragon/Dragoner
+Sex: Female
+Zodiac Sign: Pisces
+Skillset: Breath/Dragon
+Class Bonuses: Inherent Two Swords, Train, Monster Skill (as Dragoner)
+Class Equips: none (Holy Dragon)
+              Bags, Ribbons, Perfumes, Armlets (as Dragoner)
+
+
+Reis was employed by the Glabados Church.  She fell in love with Beowulf
+Kadmas, a Temple Knight.  She was also the object of lust for a Glabados
+Priest named Buremonda.  Buremonda attempted to curse Beowulf for his
+love for Reis but Reis intercepted the spell and turned into a Holy
+Dragon.  She then fled the Church and, one way or another, wound up
+beneath Goland Coal City, where an Archaic Demon and his Plague lackeys
+attacked her.  Ramza and Beowulf rescued her, and defeating the Demon
+yielded the Aquarius Zodiac Stone.  After defeating Worker 7 *NEW at
+Nelveska Temple, Reis was able to return to her human form using the
+Cancer Zodiac Stone.  She and Beowulf decided to stay with Ramza in his
+quest to defeat the Lucavi.
+
+
+-4.4 Cloud Strife-
+
+
+Class: SOLDIER
+Sex: Male
+Zodiac Sign: Aquarius
+Skillset: Limit
+Class Bonuses: Can equip Ribbons even though he is male
+Class Equips: Swords, Hats, Ribbons, Clothes, all non-female accessories
+
+
+Yes, it is Cloud from Final Fantasy VII.  After retrieving the Cancer
+Zodiac Stone, Ramza inserted it into another machine excavated from
+Goug: the Celestial Globe.  The energy of the stone reached across
+time and space and pulled Cloud from his home world to Ivalice.
+Nobody knows if this is the real Cloud or one of his memory clones from
+within the Lifestream.  After being summoned, Cloud runs off to defeat
+Sephiroth.  Ramza and co. find him at Zarghidas Trade City, protecting
+a flower girl named Aeris from a gang of brigands.  After slaying the
+villains, Cloud joins the party in an attempt to find a way home.
+Unlike all the other characters (excluding Agrias and Mustadio), Cloud
+starts at Level 1 instead of at the level of the highest party member.
+
+
+-4.5 Byblos (name varies in the game)-
+
+
+Class: Byblos
+Sex: N/A
+Zodiac Sign: varies
+Skillset: Byblos
+Class Bonuses: Inherent Counter, Secret Hunt, and Ignore Height, cannot
+               enter water
+Class Equips: none (monster)
+
+
+Not much is known about the enigmatic Byblos.  This one seems to be the
+last of its kind and does not reproduce.  The Byblos appears on the final
+level of Deep Dungeon, END, during the fight with Elidibs, possessor
+of the 13th Zodiac Stone, Serpentarius (the Sign of Neutrality.)  Elidibs
+senses the energy released by the Zodiac Stones that Ramza is carrying, and
+he wants them, so he attacks.  Byblos shows up to lend the team a helping
+hand...err...claw. After the battle, the Byblos joins your team (if he
+survives and is not crystallized/chestized.) He has sharp claws, a long
+skinny tail, stands on two feet, and closely resembles an Apanda.
+
+
+
+                     _________________________________________________
+____________________/3. Getting the Hidden Characters in 17 Easy Steps\___
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+-3.1 Getting Yon Specials!-
+
+
+Here are the steps to get ALL the special hidden characters (Worker 8,
+Beowulf, Reis, Cloud, and Byblos.)
+
+Requirements:
+
+MUST BE IN CHAPTER 4
+
+The biggest requirement: MUSTADIO MUST BE IN THE PARTY
+
+(HE CANNOT HAVE BEEN CRYSTALLIZED/CHESTIZED/DISMISSED)
+
+The reason: Many of these events center around excavations at Goug Machine
+City that Besrodio does.  If Mustadio is gone, his father (Besrodio) won't
+help you.
+
+If he isn't in the party, start a new game or start at an old save.  Or
+use a GameShark/FFTEdit/FFTastic to get him in the party.
+
+Also, whenever you head for the Goug area from the north, I suggest you
+save before crossing Bariaus Hill.  I would hate to see people working
+on this quest for an hour or two only to be wiped out by the powerful
+enemies in the Bariaus Hill Super Monster Battle.
+
+THE STEPS:
+
+1) Anytime in Chapter 4, head to Goug Machine City and view the "Steel
+Ball" Scene.  Besrodio comments that the Steel ball is unpowered.  It has
+an Aquarius sign etched into its surface.
+
+2) See the rumor at Goland Coal City's bar about monsters underground, and
+you return to the World Map.
+
+3) Meet Beowulf at Lesalia Castle's bar.  He's interested in exploring the
+coal mines, and Ramza decides to go with him.  Once you return to the
+world map, Goland Coal City has turned into a red dot, signifying a story
+batle.  What you'll face, however, is a battle series, so prepare
+accordingly.
+
+4) Go underground Goland and fight the Underground Colliery Battles.
+Eventually, you will have to save Reis (the purple dragon) from the
+Archaic Demon and Plagues.  You get the Aquarius Zodiac Stone.
+Beowulf and Reis (the Holy Dragon) join up.  It's not the "true" Reis.
+
+5) Go back to Goug and re-energize the Steel Ball using Aquarius.
+Worker 8 joins the party, and Ramza issues his first command to a Steel
+Giant, with hilarious results.  Continue the game until you can get to
+Zeltennia Castle.
+
+6) Unlock Nelveska Temple area at Zeltennia through rumor at bar.  Despite
+the red dot, there's no battle here yet (as noticed if you go to the dot,
+nothing happens.)  Just continue the game.
+
+7) Buy Aeris' flower at Zarghidas Trade City (plot event, there's only
+1 chance to do so, it is on the way to Limberry Castle to fight Elmdor.
+(It's just 1 gil! Buy it!)
+
+8) Return to Goug Machine City.  Besrodio has unearthed a new toy.  This
+strange device has a Cancer sign inscribed on it and is called a
+"Celestial Globe."
+
+9) Go back to Nelveska Temple.  The battle will now occur, the only
+battle there ever.  Fight Worker 7 *NEW (don't forget the 4 great items!)
+After the battle, you win the Cancer Zodiac Stone (Worker 7 *NEW's power
+source.)
+
+10) Try to leave and Reis regains her humanity by Cancer's power.  A
+touching reunion between lovers ensues (don't worry, nothing
+explicit.)
+
+11) Take the Cancer stone to Goug and summon Cloud from the Celestial
+Globe--he runs off (nothing you can do.)
+
+12) Continue the main quest until you reach the battles at Igros Castle.
+Defeat the Zodiac Demon Adramelk within the castle and the next leg of the
+journey will open up.
+
+13) Return to Zarghidas Trade City, view the scene, and save Cloud
+from the thieves.  Cloud joins up.  Retrieve his Materia Blade (the
+very top of Bervenia Volcano (Move-Find with low Brave) in order to use
+his Limits.
+
+14) Play until you defeat Vampiric Zalbag at Murond Holy Place.
+
+15) Go to Warjilis Trade City and view the rumor about a Deep Dungeon.
+
+16) Play the Deep Dungeon (don't miss the awesome items on every
+level.)
+
+17) Defeat Elidibs at END (learn Zodiac for your Summoner, it's now or
+never) and recruit the uber-Apanda, Byblos.
+
+THAT'S IT!  You should now have Worker 8, Beowulf, Reis (human,)
+Cloud, and Byblos in your party.  Congrats!
+
+If you want info on their powers, then read on...
+
+
+
+                     _________________________________
+____________________/4. The Hidden Specials' Skillsets\___________________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Here are the skillsets for the hidden special characters, including
+damage formulas (THANK YOU AEROSTAR!)
+
+First, the basics of how to read this.
+
+
+-4.1 How to Read the Charts-
+
+
+Attack Name: The name of the skill, as listed in the Skillset.
+
+MP Cost: The amount of MP expended using the ability.
+
+Ctr.: "Clockticks til resolution" (how long before attack is executed)
+
+***Range: The RANGE of an attack is the number of squares, counted in a
+straight line, that the attack has the potential to target (not counting
+the caster himself).  It is represented on the screen when an attack is
+selected by red, glowing panels.
+
+Usually, Range is independent of vertical height, but for some skills
+(e.g., TALK SKILL), it can be limited by height difference.  If this is
+so, it will be noted in the handbook with a "vX" after the range number,
+where X is the vertical tolerance of the attack in height units.  For
+instance, the range of 'Threaten' is 3v2.  - The EFFECT AREA of an attack
+determines which panels will actually be hit by the attack.  It is
+determined by counting the number of squares an attack can hit from the
+center to one corner of the effect area.  Effect area is usually
+restricted by vertical height.  Height restrictions will be noted in
+the guide with "vX" appended on to the effect number, with X being the
+vertical tolerance of the attack in height units.  For instance, the
+effect area of 'Haste 2' is 2v3.
+
+A combination of range and effect area is used to determine the attack's
+firing range.  We represent this in the guide as two numbers, the first
+being the range and the second the effect area.  For instance, a spell
+with firing range {5/1} means it has a range of 5 and an effect area of
+1. If there is an effect area greater than one, it can make the attack
+go further than the range.
+
+~~~
+
+MATHEMATICAL FUNCTIONS
+
+* signifies multiplication
+
+/ signifies division
+
+[X] means to truncate X -- that is, convert X to a decimal and then drop
+all decimal places, regardless of what numbers they contain. For
+instance, [3.001] = 3; [3.999] = 3; [0.556] = 0; [-0.872] = 0;
+[-7.25] = -7. Note that this differs from the greatest integer (floor)
+function in its treatment of negative numbers: [-9.1] = -9 while
+floor(-9.1) = -10. FFT uses truncation, not floor.
+
+RU{X}, the round-up function, means to truncate X and add 1 to the
+absolute value of X, while maintaining X's sign. That is,
+RU{X} = [X] + |X|/X. This means that if X is positive, RU{X} = [X] + 1,
+but if X is negative, RU{X} = [X] - 1.
+
+max{x,y} = (x if x > y) or (y if y > x)
+
+min{x,y} = (x if x < y) or (y if y < x)
+
+(x..y) means that the game generates a random integer between x and y,
+inclusive
+
+~~~
+
+{NOTE: Magic that depends on faith and causes a special effect -- such as
+a status abnormality, a reduction in stats, or a reduction in HP by a set
+percentage -- is governed by this equation:
+
+success % = [CFa/100 * TFa/100 * (MA + Y)] * (evasion factor)}
+
+where Y is a percentage multiplier peculiar to the spell
+
+CFa is the caster's faith
+
+TFa is the target's faith
+
+Evasion factor = (1 - (target's M.SEV)) * (1 - (target's M.AEV)).
+
+~~~
+
+JP cost: How much JP is required to learn the ability
+
+Effect: The formula for calculating the damage/effect done by the
+attack.
+
+The % sign represents the % chance for the attack to hit.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+-4.2 Common Abbreviations-
+
+
+PA = Physical Attack Power stat (number beside sword icon on status
+     screen)
+MA = Magical Attack Power stat (number beside rod icon on status
+     screen)
+Sp = Speed stat
+Br = Brave stat
+Fa = Faith stat
+C_MaxHP = caster's Max HP
+T_MaxHP = target's max HP
+C_CurrentHP = caster's current HP
+T_CurrentHP = target's current HP
+C_CurrentMP = caster's current MP
+T_CurrentMP = target's current MP
+CFa = caster's Faith
+TFa = target's Faith
+
+Status changes:
+
+BS : Blood Suck
+con: Confusion
+DA : Don't Act
+DM : Don't Move
+drk: Darkness
+fai: Faith
+frg: Frog
+has: Haste
+oil: Oil
+pet: Petrify
+poi: Poison
+pro: Protect
+ref: Reflect
+rer: Reraise
+rgn: Regen
+shl: Shell
+sil: Silence
+sle: Sleep
+slw: Slow
+stp: Stop
+zrk: Berserk
+
+
+'support status' means: haste, protect, shell, float, regen, reraise,
+and transparent
+
+Add: (status) = causes this status ailment
+
+[100%] = attack ignores evasion percentages and never misses (unless
+target is somehow protected from its effect -- for instance, equipped
+with an accessory that prevents the status that the attack inflicts)
+
+
+-4.3 Worker 8-
+
+Job Command: Work*
+
+
+Attack Name          Range          JP Cost          Effect
+
+
+Destroy              1v2/1             0          Damage: 10 * PA [100%]
+                                                to caster: [(10 * PA) / 8]
+
+Compress             1v2/1             0          Damage: 12 * PA [100%]
+                                                to caster: [(12 * PA) / 6]
+
+Dispose              8/1               0          Damage: 10 * PA [100%]
+                                                to caster: [(10 * PA) / 4]
+
+Crush                1v0/1             0          Damage: 16 * PA [100%]
+                                                to caster: [(16 * PA] / 4]
+
+
+
+
+* Backlash from the attack also does some damage to the caster, as noted
+
+
+-4.4 Beowulf Kadmas-
+
+Job Command: Magic Sword*
+
+
+Y : constant used in determining the success rate of the spell (number in
+the {}.
+
+For any spells of this type that cause damage, the damage is unaffected by
+Protect, Shell, Magic Attack UP and Magic Defend UP, but the success
+rate _is_ affected.
+
+
+Attack Name      MP Cost    Range        JP Cost          Effect
+
+
+Blind                6      4/1            50          Add: Darkness,
+                                                       {220}
+
+Aspel                2      4/1            0           Drain RU{T_MaxHP /
+                                                       4} {200}
+
+Drain                12     4/1            180         Drain RU{T_MaxMP /
+                                                       4} {200}
+
+Faith                10     4/1            200         Add: Faith, {200}
+
+Innocent             10     4/1            200         Add: Innocent,
+                                                       {200}
+
+Zombie               14     4/1            150         Add: Undead, {190}
+
+Silence              16     4/1            90          Add: Silence, {200}
+
+Berserk              16     4/1            200         Add: Berserk, {180}
+
+Chicken              12     4/1            500         Target's Brave -50,
+                                                       {200}
+
+Confuse              14     4/1            200         Add: Confusion,
+                                                       {190}
+
+Despair              20     4/1            300         Cancel: support
+                                                       status, fai, ref
+                                                       {190}
+
+Don't Act            14     4/1            50          Add: Don't Act,
+                                                       {200}
+
+Sleep                20     4/1            170         Add: Sleep, {190}
+
+Break                24     4/1            300         Add: Petrify, {180}
+
+Shock                20     8/1            600         Damage: [C_MaxHP -
+                                                       C_CurrentHP]
+
+* Must be equipped with a Sword/Knight Sword to use any Magic Sword
+attacks
+
+
+-4.5 Reis Dular-
+
+Job Command: Breath (Holy Dragon form)
+
+
+Attack Name          Range          JP Cost          Effect
+
+
+Fire Bracelet        2 (4dir)/1       0           Damage: MA * 5
+                                                  (Fire elemental)
+
+Ice Bracelet         2 (4dir)/1       0           Damage: MA * 5
+                                                  (Ice elemental)
+
+Thnder Brcelet       2 (4dir)/1       0           Damage: MA * 5
+                                                  (Lightning elemental)
+
+
+Job Command: Dragon (Dragoner form)
+
+
+Attack Name          Range          JP Cost          Effect
+
+
+Ice Bracelet*        2(4dir)/1        0           Damage: MA * 12
+                                                  (Ice elemental)
+
+Fire Bracelet*       2(4dir)/1        0           Damage: MA * 12
+                                                  (Fire elemental)
+
+Thndr Brcelet*       2(4dir)/1        0           Damage: MA * 12
+                                                  (Lightning elemental)
+
+Dragon Tame          2v2/1e           300         Add: Invite on dragon/
+                                                  hydra
+
+Dragon Care          2v2/1            300         'Wish' effect on
+                                                  dragon/hydra; cancel
+                                                  drk, con, sil, oil, zrk,
+                                                  frg, poi, stp, sle, DM,
+                                                  DA
+
+Dragon PowerUp       2v2/1            400         Sp +2, PA +2, MA +2,
+                                                  Br +5 to dragon/hydra
+
+Dragon LevelUp       2v2/1            400         Add: Quick on dragon/
+                                                  hydra
+
+Holy Bracelet        4/3v3            900         Damage: [(MA + 20) / 2]
+                                                  * MA (Holy, random
+                                                  targets, random number
+                                                  of strikes between 1 and
+                                                  4, inclusive)
+
+* Note that these are different versions of Ice Bracelet, Fire Bracelet,
+and Thunder Bracelet than the dragons use. Dragoner versions are
+stronger, with a MA multiplier of 12 instead of 5.
+
+
+-4.6 Cloud Strife-
+
+Job Command: Limit*
+
+
+Attack Name    ctr.    Range        JP Cost          Effect
+
+
+Braver          3      2/1            150         Damage: 12 * MA
+
+Cross-slash     4      2/2v0          200         Damage: 22 * MA
+
+Blade Beam      5      2/1            250         Damage: (C_MaxHP -
+                                                  C_CurrentHP)
+
+Climhazzard     7      2/1            450         Damage: (T_MaxHP -
+                                                  T_CurrentHP)
+
+Meteorain       10     3/3v0          560         Damage: 26 * MA
+
+Finish Touch    5      3/2v0          670         Add: Dead, Petrify,
+                                                  Stop [100%]**
+
+Omnislash       15     3/3v0          900         Damage: 40 * MA
+
+Cherry Blossom  20     3/3v0          1200        Damage: 60 * MA
+
+* A 'Materia Blade' must be equipped to use any of these skills!
+* All Limits have a 100% success rate and ignore evade percentages
+** One of these three status ailments will be added at random
+
+
+-4.7 Byblos-
+
+Job Command: Byblos
+
+
+Attack Name          Range          JP Cost          Effect
+
+
+Energy               4/1              0           Heals target by
+                                                  RU{C_MaxHP * .40}**
+
+Parasite             4/1              0           Add: pet, drk, con, sil,
+                                                  oil, frg, poi, sle [25%
+                                                  chance for each]
+
+Shock                5v3/1            0           Damage:   (C_MaxHP -
+                                                  C_CurrentHP) [100%]
+
+Difference           5v3/1            0           Damage: (T_CurrentMP)
+                                                  [100%]
+
+** Caster loses [half] the HP healed
+
+
+---------->I would like to make a note that ALL of these formulas came
+from AeroStar's Battle Mechanics Guide (AKA the FFT Bible.)  Thanks
+for letting me use them! For more formulas, feel free to consult the
+BMG.<----------
+
+
+                     _________
+____________________/5. Setups\___________________________________________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+-5.1 Notes on How To Read-
+
+I made setups currently for Beowulf, Reis, and Cloud in avariety of job
+classes. I obviously did not include Worker 8 and Byblos as they are not
+customizable in normal gamepley (i.e. without GameShark, FFTEdit, FFTastic,
+or other editors.)
+
+Feel free to submit setups THAT ARE PROVEN IN BATTLE TO BE GOOD. I may
+include setups for all Specials at a later date.
+
+*****THIS SECTION IS A WORK IN PROGRESS*****
+
+Setups will alwyas be given in the following format:
+
+Job
+Suggested Brave/Faith
+
+Primary Ability
+Secondary Ability
+Reaction Ability
+Support Ability
+Movement Ability
+
+Equip in Left Hand
+Equip in Right Hand
+Headgear
+Body Gear
+Accessory
+
+((Short description on the use of the setup))
+
+All of the abbreviations listed in [4.3] are the same.
+
+
+-5.2 Beowulf Kadmus-
+
+Temple Knight
+Brave 97, Faith 94
+
+Magic Sword
+Time Magic
+Blade Grasp
+Short Charge
+Teleport
+
+Excalibur
+Escutcheon II
+Grand Helm
+Robe of Lords
+Magic Gauntlet
+
+This setup takes full advantage of Beowulf's high MA and Faith. Both his
+magic abilities rely on the high Faith, and the MA boosts from Robe of
+Lords and Magic Gauntlet allow Magic Sword and Time Magic statuses to hit
+with close to 100% accuracy. Also, Meteor will do incredible damage. Short
+Charge is really for Time Magic, as Magic Sword is inherently non-charged.
+Excalibur gives auto-Haste, Robe of Lords gives Protect and Shell, and
+the Escutcheon II + Blade Grasp makes assault from all sides a waste of a
+turn. The only possible problem is that magic will be incredibly effective
+on Beowulf, but the Shell effect should help with that. Basically a strong
+mage and possible frontline fighter.
+
+
+-5.3 Reis Dular-
+
+Dragoner
+Brave 97, Faith 94
+
+Dragon
+Math Skill (all magic known)
+Counter Magic
+Equip Sword
+Move +2/Teleport
+
+Rune Blade
+Rune Blade
+Ribbon
+--
+Chantage
+
+This is one of the mage Reis setups. Reis can really do anything. She has
+naturally high PA, MA, HP...she's an all-around badass. Math Skill hits
+everything, Dragon of course to convert enemy units or beef up allied
+dragons. Counter Magic is nice since any spell can be countered. 2 Rune
+Blades give +4 MA and more decent physical punch. Ribbon + Chantage
+essentially makes her invincible to status and immortal.
+
+
+Dragoner
+
+Brave 97 Faith 03
+
+Dragon
+Punch Art
+Counter
+Martial Arts
+Move +2
+
+(bare fist)
+(bare fist)
+Ribbon
+--
+Setiemson
+
+Dragoner Reis has innately high PA, MA, HP. She lacks speed, but the Haste
+from Setiemson can help out with that...and starting Transparent. Punch Art +
+Martial Arts is a killer, especially on Reis. The high Brave enhances the
+bare fist damage even more. Counter basically ensures anything in her range
+that attacks her will get a chunk of HP taken out of it. Her naturally high
+HP makes killing her difficult, and she has Chakra just in case. Ribbon, of
+course, for status immunity. Basically a frontline Reis.
+
+
+
+-5.4 Cloud Strife-
+
+SOLDIER
+
+Brave 94, Faith 60
+
+Limit
+Draw Out
+Blade Grasp
+Short Charge
+Move +3
+
+Rune Blade
+--
+Ribbon
+Rubber Costume
+Genji Gauntlet
+
+Short Charge makes Limit come off at a reasonable time, and Ribbon
+prevents all negative statuses. The Materia Blade is crappy for
+attacking but necessary for Limit, so meh. Rubber Costume is
+almost exclusively for the HP boost. Draw Out to give positive
+statuses to self (Masamune and Kiyomori come to mind,) and for instant
+damage. Blade Grasp basically to evade the inevitable attacks. The
+low-ish Faith makes healing slightly tricky but prevents too much damage
+from enemy mages.
+
+
+Geomancer
+
+Brave 97, Faith 80
+
+Elemental
+Draw Out
+Auto-Potion
+Two Swords
+Teleport
+
+Rune Blade
+Rune Blade
+Flash Hat
+Wizard Robe
+Genji Gauntlet
+
+A classic hybrid unit. Elemental allows long range strikes, and Draw Out
+is incredibly versatile. The dual Rune Blades, Flash Hat, Wizard Robe, and
+Genji Gauntlet really boost MA (by 9!), which affects both Elemental and Draw
+Out.
+In addition, the Gauntlet enhances PA by 2, which affects Elemental. Cloud
+in this form can take the front, strike from long range, or hit in an area
+around him. Teleport gets him right where he needs to be, and Auto-Potion
+helps heal before a Murasame is necessary. Faith allows for magical healing.
+Incredibly versatile.
+
+
+
+                     ________________
+____________________/6. Miscellaneous\____________________________________
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+-5.1 Frequently Asked Questions-
+
+
+1. Q: How come Reis' Dragon Tame/Care/LevelUp/PowerUp always has a 0%
+success rate when I target one of my characters with it?
+
+   A: It only works on Dragon-type and Hydra-type monsters.
+
+2. Q: What's the best way to level up Cloud?
+
+   A: If you have extremely high level allies, let him pound on them
+      and he'll gain a level every few turns.  Cast Haste and/or Yell on
+      him to speed up the process.  It's possible to level him from level
+      1 to 70 in just one battle, since he does so little damage to them
+      at low levels.
+
+3. Q: How can you POSSIBLY say someone what starts as Level 1 can be
+      useful?  I don't want to level him all the way up!
+
+   A: OK, fine.  Cloud IS one of the strongest warriors in the game,
+      though, if you put enough work into him.  SOLDIER Job has nice
+      growth.
+
+4. Q: If Beowulf's attacks are Swordskills, how come Faith is in the
+      equation?
+
+   A: They're basically just spells with no charge time, and have the same
+      formulas and damage rules as all other spells.  They only have the
+      added requirement of needing a Sword/Knight Sword equipped to cast.
+
+5. Q: What is this Super Monster Battle at Bariaus Hill you mentioned?
+
+   A: It's a rare battle in which you face one Dragon, one Blue Dragon,
+one Red Dragon, one Behemoth, one King Behemoth, one Dark Behemoth, one
+Hyudra, one Hydra, and one Chocobo of a random color.  The enemies are
+usually quite a bit higher levelled than you are.  That's why I suggest
+you save, they can wipe unprepared parties out easily.  If you have human
+Reis, she can Invite 5 of the enemies to your side with Dragon Tame and
+turn the tide quickly.  You also have a few Guests of the types listed
+above to help you out.  Just always remember to save before going south
+through the hill and you'll be fine.
+
+6. Q: Why can't Cloud perform his Limits after I learn them?
+
+   A: He MUST be equipped with a Materia Blade to use Limit.  The one
+Materia Blade you can find is located on top of Bervenia Volcano, just
+south of Riovanes Castle.  Bervenia Volcano appears at the start of
+Chapter 4.  Get your Move-Finder in a class with good Jump and Speed stats
+(like Ninja or Thief) and tack on a pair of Germinas Boots for the extra
+boost. Once at Bervenia Volcano, you should notice the peak is extremely
+high up. The very top peak is your goal where the Materia Blade awaits.
+
+7. Q: How do I get to the next Deep Dungeon level? I beat the battle but
+there's no new level?!
+
+   A: You have to find the exit, which appears randomly on one of five
+possible squares. Once you find the exit and beat the battle, the next
+level opens up. I know what you're thinking..."Where are the exit squares?"
+Check out the "Deep Dungeon Exits FAQ." It never failed me.
+
+8. Q: What are some good setups for these characters?
+
+   A: I've put a couple in, but that section is nowhere near complete.
+I'll be adding more at a later date.  Ask on the board for now.
+
+
+-5.2 Version History-
+
+
+Version 1.1 (Sunday, March 10, 2002): Yes, I DID write this entire thing
+in one day.  No, I didn't have anything better to do.  Well, I did...but
+this won out once I started it.  I'm contemplating adding decent set-ups
+for these characters and such at a later date, and maybe adding the other
+Special Characters at some point.  Hmm...
+
+(Friday, March 15, 2002): Made a couple changes, re-sent the guide.
+It actually got posted this time.  =P
+
+Version 1.2 (Monday, April 1, 2002): FFT is the worst.  Game.  EVAR.
+April Fool's! =P  Sending updated Guide, and I plan to work on setups
+in the near future.
+
+Version 1.3 (Friday, January 3, 2003): Wow, I've been neglectful. Added
+a FEW setups. Many more to follow. Sorry for the wait. =)
+
+
+-5.3 Thank You!-
+
+
+I would like to take this time to thank:
+
+AeroStar, for letting me use his Battle Mechanics Guide formulas...this
+is what?  The 5th or so time I've thanked him in the guide?  Well he
+deserves it, he's one of the TRUE FFT Legends.  Also to everyone else
+who worked on the BMG, I know AeroStar wasn't the only one.
+
+CJayC for posting my FAQ even though the FFT FAQ page is pretty damn full.
+
+Ex Soldier Cloud for pointing out that you can get Dragoner Reis before
+beating Adramelk.  Well, I _THINK_ it was ESC... O_o
+
+Mooglelicious, MunkiBleedsGreen, Lew Uber Alles, and the rest of my
+friends on the Final Fantasy Tactics Social Board for not letting me
+become a 100% bitter vet. 95% is enough.
+
+Philsov and superaielman, for pointing out flaws right after the FAQ was
+put up.  Woo for revisions.
+
+nova314 for keeping me sane on long nights with humor and innuendo.
+
+Square Electronics (for making this game!  Yay!)
+
+Everyone who posts (intelligently) at the Final Fantasy Tactics Main
+Board (http://cgi.gamefaqs.com/boards/gentopic.asp?board=20051).  I made
+this for you guys, especially those who don't know this stuff.  If anyone
+sees an error in the FAQ, or if you discover something new, please e-mail me.
+I'll update the guide and I'll be sure to give you credit.
+
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+This guide is (c) 2002 Peter Chickris (AKA Sword Seraph or
+imperium314@yahoo.com)
+
+This guide has been posted at: GameFAQs.com.  If you find it anywhere else,
+please e-mail me so I can find out and sue whoever posted it for all
+they're worth.  >=)
+
+Final Fantasy, Final Fantasy Tactics, and Squaresoft are all trademarks
+of Square Electronic Arts, L.L.C.
+
+[End Transmission]
+

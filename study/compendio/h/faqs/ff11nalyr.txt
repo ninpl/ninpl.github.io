@@ -1,0 +1,865 @@
+ ______ _             _   ______          _                   __   _______ 
+|  ____(_)           | | |  ____|        | |                  \ \ / /_   _|
+| |__   _ _ __   __ _| | | |__ __ _ _ __ | |_ __ _ ___ _   _   \ V /  | |  
+|  __| | | '_ \ / _` | | |  __/ _` | '_ \| __/ _` / __| | | |   > <   | |  
+| |    | | | | | (_| | | | | | (_| | | | | || (_| \__ \ |_| |  / . \ _| |_ 
+|_|    |_|_| |_|\__,_|_| |_|  \__,_|_| |_|\__\__,_|___/\__, | /_/ \_\_____|
+                                                        __/ |              
+An FAQ to everything you wanted to know about commands |___/    VER. 2.0
+
+
+Written by: Nalyr
+FAQ Copyright 2003 Amanda Dean
+_______________________________________________________________________________
+
+__Version History______________________________________________________________
+11/9/03   - Added /localsettings and /volunteer.
+            Added additional information to /equip and /wait.
+            Included information about /[Emote Name] text.
+11/23/03  - Added more to the Targetting Tags section.
+            Added additional information to /search.
+            Added additional information to /nominate.
+            Clarified issues with /item and /assist.
+            Thanks to those who pointed out format errors.
+01/08/04  - Added /storage.
+            Added additional information to /search.
+            Added <call> tone descriptions.
+02/25/04  - Added <r> to the Targetting Tags section.
+            Updated /localsettings
+            Currently reflects 2/25/04 update.
+
+
+__Table of Contents____________________________________________________________
+1]  Main Menu Commands
+2]  Attacks
+3]  Parties, Alliances, and Linkshells
+       -Parties & Alliances
+       -Linkshells
+4]  Mog House
+5]  Chatting
+6]  Actions and Emotions
+       -Emotions
+       -Actions
+       -Sit Command
+7]  Friend Lists and Blacklists
+       -Friend Lists
+       -Blacklists
+8]  Searches
+       -Search Terms
+       -Search Examples
+9]  Miscellaneous Commands
+10] Targeting Tags and More
+11] Legal Information
+
+
+
+  1]  Main Menu Commands ______________________________________________________
+
+Anything in the main menus can be accessed through typed commands. Not sure of 
+where to find that one menu? Just type in its command instead!
+ 
+/mission                  Brings up your mission menus.
+
+/quest                    Brings up your quest menus.
+
+/keyitem                  Brings up your key items menu.
+
+/map                      Brings up the map for your current area (if you have
+                          a map for the current area).
+
+/regionmap (/rmap)        Brings up the regional map which displays conquest
+                          points and territorial information.
+
+/playtime (/playlog)      Shows your total playtime in Final Fantasy XI for 
+                          your current character. This is displayed in your
+                          chat log window.
+
+/clock                    Toggles the Vana'diel clock in the lower left corner 
+                          of the screen as well as displays the current date,
+                          time, and moon phase for Vana'diel in your chat log.
+                          Also displays the current day and time for Earth.
+
+/pol                      Temporarily logs you out to Playonline. Your
+                          character stays in FFXI, though, so you can still be
+                          attacked, etc. if you do not choose a safe area to
+                          temporarily log. Anyone searching for you through the
+                          search feature will see a blue icon by your name.
+                          Anyone who sees your character will notice a circular
+                          icon by your name with three blue dots. These icons
+                          will disappear once you log back into the game.
+
+/supportdesk (/sd)        Brings up the Help Desk menu.
+
+/helpdesk                 Brings up the Help Desk menu.
+
+/localsettings [Command]  This command is only available for PC users. It deals
+                          with various game settings.
+
+     shadows high/normal/off     Turns character shadows off or sets their
+                                   detail to normal or high.
+     charnum [Number]            Number of characters displayed at one time.
+                                   Must be between 25-50.
+     distance [Number]           Sets the draw distance. Must be between 1-10.
+     footeffect on/off           Turns footstep sound effects on or off.
+
+/logout                   Logs you out of Final Fantasy XI.
+
+
+  2]  Attacks  ________________________________________________________________
+
+The following commands can be very helpful for macros or just when you are not 
+in the mood to get into the various menus and submenus that can sometimes pop 
+up in the fray of things.
+
+/attack (/a) [Target]     You will begin to Auto-attack whatever you are
+                          currently targeting. If you are targeting an
+                          invalid target or no target at all, you will
+                          receive an error message. On/Off can also be added
+                          before specifying a target to start or end fighting,
+                          but it is not necessary.
+
+/attackoff                If you are Auto-attacking something, you will
+                          disengage from fighting it.
+
+/autotarget on/off        Toggles auto-targeting for battles. Auto-target
+                          will automatically shift your battle target to the
+                          next attacking enemy if you are fighting many enemies
+                          at once and your current enemy dies.
+
+/lockon [Target]          You will 'Lock On' to the specified target. Your
+                          character will follow this target if you have
+                          /automove engaged at the time. Typing the command
+                          again will take you out of 'Lock On' mode.
+
+/target (/ta)             Targets the closest item, person, enemy, etc. to you.
+
+/targetpc                 Targets the closest player character to you.
+
+/targetnpc                Targets the closest non-player character to you.
+
+/help (/h)                If your enemy turns out to be too much for you to 
+                          handle on your own, use this command to call for help
+                          from people in the area. You will continue to fight
+                          the enemy, but others can join in to help you. No
+                          experience can be gained if you call for help.
+
+/assist (/as) [Target]    If someone has called for help in a fight, this will
+                          auto-target their enemy for you to help fight it. If
+                          you are not in range of the enemy, nothing will
+                          happen. You can also use this to target an enemy that
+                          a party member has begun to attack.
+
+/item ''[Item]'' [Target] Allows you to use a consumable item in your inventory
+                          on yourself.
+
+/equip [Area] ''[Item]''  Allows you to equip an item such as weapons, armor,
+                          etc. Not specifying an item unequips the current
+                          weapon in that area. Area names are as follows:
+                          main     sub      range     ammo
+                          head     neck     L.ear     R.ear
+                          body     hands    L.ring    R.ring
+                          back     waist    legs      feet
+
+/magic (/ma) ''[Spell]'' [Target]     Allows you to cast a magic spell if you
+                                      are a mage of any type. The spell name
+                                      must be in double quotes and properly
+                                      spelled and capitalized. This can be used
+                                      for any spell type including ninjutsu and
+                                      songs.
+
+/weaponskill (/ws) ''[Skill]'' [Target]    Allows you to use a weapon skill
+                                           provided that you have enough TP and
+                                           you know the skill. The weapon skill
+                                           name must be in double quotes and
+                                           properly spelled and capitalized.
+
+/ninjutsu (/nin) ''[Spell]'' [Target] Allows you to cast a Ninjutsu spell if
+                                      you are a Ninja. The spell name must be
+                                      in double quotes and properly spelled and
+                                      capitalized.
+
+/song (/so) ''[Song]'' [Target]       Allows you to cast a Song spell if you
+                                      are a Bard. The spell name must be in
+                                      double quotes and properly spelled and
+                                      capitalized.
+
+/jobability (/ja) ''[Job Ability]'' [Target]  Allows you to use a job ability
+                                              provided that you know the
+                                              ability and that it is not in
+                                              'cool down' mode. The job ability
+                                              must be in double quotes and
+                                              properly spelled and capitalized.
+
+/pet ''[Pet Command]'' [Target]       Allows you to give your pet a command if
+                                      you have one. The command must be in
+                                      double quotes and properly spelled and
+                                      capitalized.
+
+/range (/ra) [Target]     Allows you to use a ranged attack provided
+                          that you have any ranged weapon equipped.
+
+/shoot [Target]           Allows you to use a ranged attack provided
+                          that you have a ranged weapon that can
+                          shoot (Gun, Bow, Crossbow, etc. with
+                          proper ammo) equipped.
+
+/throw [Target]           Allows you to use a ranged attack provided
+                          that you have a ranged weapon that can
+                          be thrown (Pebbles, Darts, Boomerang,
+                          etc.) equipped.
+
+/check (/c) [Target]      Allows you to check a target. If you are checking an
+                          enemy, you will receive a message in your chat log
+                          telling you roughly how difficult the enemy would be
+                          for you to fight. If you are checking another player,
+                          a screen will come up showing you their equipment,
+                          title, level(s) (if not anonymous), their bazaar
+                          message, and if they have a bazaar of items for sale
+                          or not.
+
+/fish                     Allows your character to go fishing if they have a
+                          fishing rod equipped with bait and are near a body of
+                          water.
+
+/dig                      Allows you to command your chocobo to dig provided
+                          that you are on a chocobo and you have Gyshal Greens
+                          in your inventory. (One Gyshal Green per dig)
+
+/dismount                 Allows you to dismount from your chocobo if you are
+                          riding one.
+
+/heal                     Your character will kneel down and go into healing
+                          mode. You will regain more health and magic the
+                          longer you stay down. Type the command again to stand
+                          up from healing or just move your character. This
+                          command also has an on/off subcommand.
+
+
+  3] Parties, Alliances, and Linkshells _______________________________________
+
+Managing a party or linkshell can be a lot of work. These quick commands should 
+help lessen the burden.
+
+---Parties & Alliances---
+
+/partycmd (/pcmd)               The main party command. This has a few
+                                special subcommands depending on whether
+                                or not you are a party leader:
+
+leave                    Leave current party. (Anyone)
+add [Player]             Invites a player to join your party. (Leader only)
+kick [Player]            Removes a member from the party. (Leader only)
+breakup                  Disbands the party and all members go to solo play.
+                                  (Leader only)
+
+/alliancecmd (/acmd)            The main alliance command. Alliance commands
+                                can only be used by party leaders.
+
+leave                    Removes your party from the alliance.
+add [Party Leader]       Invites a party to join your alliance.
+kick [Party Leader]      Removes a party from the alliance.
+breakup                  Disbands the alliance and all parties go back to
+                                  individual parties.
+
+
+/invite (/inv)                  Sets your character to seeking a party or
+                                playing solo. You can add 'on' or 'off'
+                                after the command, but it is not necessary.
+
+/autogroup (/ag)                Sets your character to seeking in auto-group
+                                mode. You will be placed in a party
+                                automatically with others in auto-group mode
+                                who are in the current area.
+
+/join                           Join a party or alliance that you have been
+                                invited to.
+
+/decline                        Turn down a party or alliance that you have
+                                been invited to.
+
+/nominate (/propose)            Asks a poll. Look at this example to see how
+                                it is used:
+
+                                /propose party ''Should we go to Davoi?'' Yes 
+No
+
+                                This would show to your party as:
+
+                                [Should we go to Davoi?]
+                                1: Yes
+                                2: No
+
+                                Spaces are seen as a divider between the
+                                question and options, so the question must be 
+                                in quotes. A poll can have up to 8 options.
+                                Although polls can be said in Say, Shout,
+                                Linkshell, and Party modes, it is most often
+                                used in parties. To respond to the poll, use 
+                                the /vote command. The poll results will be
+                                updated as votes come in anonymously. Typing
+                                /propose again ends the poll.
+
+/vote [Option #]                Vote if a proposition or nomination has been
+                                issued. Votes are anonymous.
+
+
+---Linkshells---
+
+/makelinkshell (/makeli)           Allows you to make a linkshell if you have
+                                   bought a linkshell.
+
+/breaklinkshell (/breakli)         Breaks the linkshell you are using.
+
+/linkshellmes (/lsmes)             Displays your equipped linkshell's server
+                                   message. This also has some subcommands:
+
+level [Level]            Sets the authority level allowed to change the
+                              message. Levels are: All (any member), LS
+                              (linksack members), and PS (perlsack members)
+set ''[Message]''        Sets a new message to display.
+clear                    Clears the linkshell message of any message.
+
+
+  4] Mog House ________________________________________________________________
+
+Don't like being social with your Moogle? Then these commands will help you out 
+while you are in your Mog House.
+
+/bank                              Bring up your Mog Safe. This also works
+                                   outside of the Mog House but you can not
+                                   add or take out items.
+
+/storage                           Brings up your Storage menu.
+
+/mailbox (/deliverybox)            Brings up your delivery box.
+
+/layout                            Takes you into layout mode for your Mog
+                                   House.
+
+/garden                            Takes you into gardening mode for your Mog
+                                   House.
+
+/tribune                           Temporarily logs you out of Final Fantasy XI
+                                   to read The Vana'diel Tribune newspaper.
+                                   This is basically a part of Playonline.
+
+
+  5] Chatting _________________________________________________________________
+
+There are a variety of ways to express yourself and communicate while in the 
+world of Final Fantasy XI. Here are the commands to help you do it:
+
+/say (/s) [Message]             The default talk mode when first turning on
+                                FFXI. Can be heard by any character within a
+                                short range of where your character is
+                                standing. This text is a white color by
+                                default.
+
+/shout (/sh) [Message]          A long range talk mode. Can be heard by any
+                                character in your current area. This text is a
+                                pink or reddish hue by default. 
+
+/tell (/t) [Player] [Message]   A one-on-one talk mode with another player who
+                                is online and currently playing Final Fantasy
+                                XI. This text is a purple color by default.
+
+/party (/p) [Message]           If you are in a party, you can use this chat
+                                mode to communicate with your party members
+                                anywhere in the world of Vana'diel. If you are
+                                not in a party and use this command, you will
+                                receive an error message. This text is a blue
+                                color by default.
+
+/linkshell (/l) [Message]       With a linkshell equipped, you can use this
+                                command to talk to anyone in your linkshell
+                                from anywhere in the world of Vana'diel. If
+                                you are not in a linkshell and use this, you
+                                will receive an error message. This text is a
+                                green color by default.
+
+/emote (/em) [Action]           This command allows you to express actions,
+                                similar to a /me command in an IRC environment.
+                                The emote message can be seen in the same range
+                                as a Say message and its color is purple by
+                                default. Unlike special pre-set emotes, these
+                                will not be accompanied by your character
+                                performing a special action unless you specify
+                                one in a macro. (See *Actions and Emotions* for
+                                more details)
+
+/chatmode (/cm) [Mode]          This works like the menus in allowing you to
+                                set a chat mode as your default to always speak
+                                in. Your default chat mode does not require
+                                that you put a command in front of every line
+                                you type. Shout can never be set as a default
+                                mode due to the obvious annoyance factors.
+                                Typing just /chatmode will show your current
+                                chat mode.
+
+
+  6] Actions and Emotions _____________________________________________________
+
+---Emotions---
+
+The following is a list of the current pre-set emote messages in the game. 
+These can be seen within the Say range and many are accompanied by your 
+character performing a unique animation. 
+
+Depending on if you are targeting something or not affects the resulting emote 
+message. The first line of each description is what you would see if not 
+targeting anything. The second is if you are targeting an object or person.
+
+/point                  [Character Name] points [cardinal direction].
+                        [Character Name] points.
+                        [Character Name] points at <t>.
+
+/bow                    [Character Name] bows.
+                        [Character Name] bows courteously at <t>.
+
+/salute                 [Character Name] salutes.
+                        [Character Name] salutes <t>.
+
+/kneel                  [Character Name] kneels respectfully.
+                        [Character Name] kneels respectfully before <t>.
+
+/laugh                  [Character Name] shakes with laughter!
+                        [Character Name] bursts out laughing beside <t>!
+
+/cry                    [Character Name]'s eyes bring over with tears.
+                        [Character Name] cries with sorrow before <t>.
+
+/no                     [Character Name] shakes his/her head.
+                        [Character Name] shakes his/her head at <t>.
+
+/nod (/yes)             [Character Name] nods.
+                        [Character Name] nods at <t>.
+
+/wave                   [Character Name] waves.
+                        [Character Name] waves at <t>.
+
+/goodbye (/farewell)    [Character Name] waves goodbye.
+                        [Character Name] waves goodbye at <t>.
+
+/welcome                [Character Name] motions in welcome.
+                        [Character Name] welcomes <t>.
+
+/joy                    [Character Name] motions joyfully.
+                        [Character Name] motions joyfully at <t>.
+
+/cheer                  [Character Name] cheers!
+                        [Character Name] cheers <t> on!
+
+/clap                   [Character Name] claps his/her hands.
+                        [Character Name] claps his/her hands at <t>.
+
+/praise                 [Character Name] praises.
+                        [Character Name] praises <t>.
+
+/smile                  [Character Name] smiles warmly.
+                        [Character Name] smiles warmly at <t>.
+
+/poke                   [Character Name] pokes.
+                        [Character Name] pokes <t>.
+
+/slap                   [Character Name] slaps his/her own face.
+                        [Character Name] slaps <t>.
+
+/stagger                [Character Name] can't help himself/herself and
+                          staggers.
+                        [Character Name] looks at <t> and staggers.
+
+/sigh                   [Character Name] sighs dejectedly.
+                        [Character Name] looks at <t> and sighs dejectedly.
+
+/comfort                [Character Name] seems to want to cheer someone up,
+                          badly!
+                        [Character Name] pats <t> consolingly.
+
+/surprised              [Character Name] looks surprised!
+                        [Character Name] looks at <t> in surprise.
+
+/amazed                 [Character Name] looks amazed but curious.
+                        [Character Name], amazed, motions questioningly at <t>.
+
+/stare                  [Character Name] stares blankly.
+                        [Character Name] stares at <t>...
+
+/blush                  [Character Name] blushes in embarrassment.
+                        [Character Name] looks at <t> embarrassingly.
+
+/angry                  [Character Name] looks angry.
+                        [Character Name] motions angrily at <t>.
+
+/disgusted (/upset)     [Character Name] looks disgusted.
+                        [Character Name] looks at <t> disgustedly.
+
+/muted                  [Character Name] is quiet as if he/she had a Silence
+                          spell cast on him/her.
+                        [Character Name] falls silent in front of <t>.
+
+/doze                   [Character Name] dozes off quietly.
+                        [Character Name] falls asleep in front of <t>.
+
+/panic                  [Character Name] freaks out in panic!
+                        [Character Name] looks at <t> and panics!
+
+/grin                   [Character Name] is grinning at himself/herself...
+                        [Character Name] grins roguishly at <t>.
+
+/dance                  [Character Name] dances happily.
+                        [Character Name] and <t> happily dance together.
+
+/think                  [Character Name] seems lost in thought.
+                        [Character Name] looks away from <t>, lost in thought.
+
+/fume                   [Character Name] fumes.
+                        [Character Name] fumes in front of <t>.
+
+/doubt                  [Character Name] looks doubtful.
+                        [Character Name] questions <t>.
+
+/sulk                   [Character Name] sulks.
+                        [Character Name] looks away from <t>, sulking.
+
+/psych                  [Character Name] psychs up!
+                        [Character Name] psychs up with <t>!
+
+/huh                    [Character Name] gives up, confused.
+                        [Character Name] stares at <t>, confused.
+
+/shocked                [Character Name] looks shocked!
+                        [Character Name] looks at <t>, shocked!
+
+
+---Actions---
+
+For any special emote message with a linked animation, you can have your 
+character perform the animation without the text phrase by using this command:
+
+/[Emote Name] motion
+
+For example, if you wanted to have your Tarutaru do the "Happy Taru Dance", 
+you'd just type:
+
+/panic motion
+
+If using this command in a macro, you'd use the same command:
+
+/em does the Happy Taru Dance!
+/panic motion
+
+The following special emote messages, however, do not have a corresponding 
+animation:
+
+/smile             /doze
+/slap              /grin
+/stare             /dance
+/muted
+
+To have just the text appear and not the animation, use this command:
+
+/[Emote Name] text
+
+
+---Sit Command---
+
+/sit is a newly added command where your character will sit down in a position 
+different from that of when you are kneeling or healing. Unlike /heal, you will 
+not regain health or magic. While in the sit position, you can perform the 
+following emotes:
+
+/yes (/nod)        /cry
+/no                /laugh
+/clap              /huh
+/wave              /farewell
+/goodbye 
+
+
+  7] Friend Lists and Blacklists ______________________________________________
+
+---Friend List---
+
+Want to keep in touch with a party leader after the party disbands? Make a new 
+friend while buying something from the Auction House? Keep track of them with 
+your friend list!
+
+/friendlist (/flist)               Brings up the friend list menus.
+
+/befriend [Player]                 Asks a person if they would like to join
+                                   your friend list.
+
+These commands control how you are seen to people whose friend lists you are 
+on:
+
+/online                            Shows you as online.
+/away                              Shows you as away.
+/busy                              Shows you as busy.
+/hide (/invisible)                 Hides your status from your friends.
+
+
+---Blacklist---
+
+And for those who annoy you to no end, there is the blacklist. By placing 
+someone on your blacklist, you will not see anything that person says or emotes 
+in any chat form.
+
+/blacklist (/blist)                Brings up your blacklist.
+
+/blist add/delete [Player]         Add or delete a person from your blacklist.
+
+
+  8] Searches _________________________________________________________________
+
+With over 3,000+ people per server, it quickly becomes a chore to find specific 
+people. The search command can help cut those numbers down quickly.
+
+/search (/sea)            The main search command. Just typing this in will
+                          show you all the people in your current area.
+
+/sea all                  The 'all' will broaden your search to the entire
+                          server.
+
+
+---Search Terms---
+
+These are used to help narrow down a search and are to be used after the 
+/search or /search all terms.
+
+friend                    Searches for people on your friend list.
+linkshell                 Searches for people in your linkshell (if equipped).
+name [Player]             Searches for a specific person.
+race [Race]               Searches for all people of a particular race. Race
+                                   terms are: Hum, Elv, Tar, Mit, and Gal.
+level [# Level]           Searches for people of a particular level. You can
+                                   search for a level range like this:
+                                   level [# Minimum Level]<[# Maximum Level]
+                                   -or-
+                                   level [# Minimum Level]-[# Maximum Level]
+rank [# Rank]             Searches for people of a specific rank. You can
+                                   search for a rank range like this:
+                                   rank [# Minimum Rank]<[# Maximum Rank]
+                                   -or-
+                                   rank [# Minimum Rank]-[# Maximum Rank]
+home [Hometown]           Searches for people of a specific hometown. Hometown
+                                   terms are: San, Bas, and Win.
+area [Area]               Searches for people in a specific area. You can only
+                                   search in areas you have been to before.
+region [Region]           Searches for people in a specific region. You can
+                                   only search in regions you have been to
+                                   before.
+job [Job]                 Searches for people with a specific main job. Job
+                                   terms are: WAR, MNK, WHM, BLM, RDM, THF,
+                                   DRK, PLD, BRD, BST, RNG, NIN, DRG, SAM, SMN.
+inv                       Searches for people who are looking for a party.
+away                      Searches for people who are marked as away.
+- (minus sign)            Sorts the search in descending order instead of
+                                   ascending.
+
+
+---Search Examples---
+
+The following are a variety of examples of how you can do searches in FFXI.
+
+/search all rank 6                 Searches the world for people of rank 6.
+/sea rank 6                        Searches your current area for people of
+                                            rank 6.
+/sea 6                             Searches your current area for people who
+                                            are level 6.
+/sea all bil                       Searches the world for people whose name
+                                            begins with 'Bil'.
+/search WAR 28                     Searches your current area for people who
+                                            are warriors of level 28.
+/sea all race Elv level 4<32       Searches the world for Elvaans that are
+                                            levels 4-32.
+/sea rank 2 level 10 job whm       Searches your current area for people who
+                                            are level 10 white mages of rank
+                                            2.
+/search region inv                 Searches your current region for people that
+                                            are looking for a party.
+/sea all -rank                     Searches the world and lists people by their
+                                            rank in a descending order.
+
+These are only a few examples, but as you can see, the searches can be quite 
+detailed if you want them to be. Capitalization of names and terms isn't always 
+necessary and you don't always have to indicate specifically what search type 
+you want as long as you are using the proper terms and spellings. You can also 
+narrow down your initial search by chooing the top line of the search results 
+window and then choosing one of the options on the given side menu.
+
+
+  9] Miscellaneous Commands ___________________________________________________
+
+Some commands just don't fit into any other specific category...
+
+/?                                 Lists all of the possible commands in FFXI.
+                                   By listing a command after /? you can get a
+                                   detailed description of the command.
+                                   Example: /? /lsmes or /? lsmes
+
+/servmes (/smes)                   Displays the current server message.
+
+/ver                               Displays your version number for FFXI.
+
+/echo [Message]                    Displays a message only you can see.
+
+/random                            Displays a random number of a dice roll to
+                                   anyone in the Say range.
+
+/automove                          Toggles auto-movement (auto-run) on and off.
+
+/follow [Target]                   Your character will auto-follow the
+                                   specified target as long as it is in range.
+                                   This can be turned off by typing /follow
+                                   again or manually moving your character with
+                                   the controller or keyboard.
+
+/names                             Toggles the names showing above the
+                                   characters. You can turn them back on by
+                                   typing the command again. This is helpful
+                                   for taking pictures.
+
+/anon                              Sets your character as anonymous. Your
+                                   job(s) and levels will not be visable to
+                                   people who 'Check' you. Your name will show
+                                   in general area searches, but your job,
+                                   level, rank, hometown, etc information will
+                                   not be shown. The name over your head will
+                                   also change to a dark blue color.
+
+/wait [Delay Amount]               Mainly for use with macros, this command
+                                   allows you to place a delay on performing
+                                   actions. The delay can range from 1-20.
+                                   Anything higher than 20 is read as zero.
+
+/volunteer (/vol)                  This command is not available to regular
+                                   players. It is for voluneteers only.
+
+
+  10] Targeting Tags and More _________________________________________________
+
+Whether working on an elaborate macro or just too lazy to type in a person's 
+name, target tags, also known as pronouns and these other nifty abilities can 
+help out a lot with the little things.
+
+<t>                 Selects whatever you are currently targeting.
+
+<st>                Allows you to select a target while you are locked on to
+                    another target. This is helpful for healing someone while
+                    you are attacking something at the same time. Also known as
+                    switch target or sub target.
+
+<lastst>            Targets the last sub target. Useful for macros with 
+                    personalized messages.
+
+<stpc>              Sub targets player characters only.
+
+<stnpc>             Sub targets non-player characters only.
+
+<bt>                Targets your party's current enemy that is highlighted in
+                    red. If there are multiple enemies being fought, they will
+                    be targeted in order.
+
+<ht>                Targets a monster that a person has called for help with.
+
+<p0>-<p5>           Selects a party member. 0 is yourself, the rest from the
+                    top of your party list going downwards with <p5> being the
+                    last member listed. (In a party of 6)
+
+<a1x>-<a2x>         This is similar to the party pronoun but this is for
+                    alliances. a1 is the topmost alliance party, a2 the second
+                    party. x is the player to be targeted from top to bottom, 
+                    0-5.
+
+<me>                Selects yourself. Just typing in your name works as well
+                    for macros targeted on yourself.
+
+<r>                 Targets who you last sent a /tell to. Useful for replying
+                    to someone if you don't like typing their name repeatedly.
+
+<pet>               Targets your current pet, wyvern, or avatar.
+
+<scan>              Targets monster tracked by ''Wide Scan''.
+
+<pos>               Lists your current position for your area according to the
+                    map grid coordinates. It will be displayed like this: (G-9)
+
+<mpos>              Lists your current position while on the boat.
+
+<call0>-<call21>    Plays a whistle or other sound effect along with a
+                    controller vibration (if applicable). Despite the
+                    annoyance, these are helpful for alerting party members to
+                    danger, starting skill chains, getting the attention of
+                    someone who is dozing off or AFK, etc. The call tones only
+                    work in party chat. The following is a guide to the call
+                    tone sounds:
+                    0-3      Whistle Blows
+                    4-5      Trumpet Fanfares
+                    6-9      Drums
+                    10-11    A few bars of the Final Fantasy Prelude tune
+                    12-13    Gongs
+                    14       Chime
+                    15       Buzz
+                    16-17    Phone Rings
+                    18-19    Boings
+                    20-21    Soft Chimes
+
+
+<scall0>-<scall21>  Plays a whistle or other sound effect but without the
+                    controller vibration. These only work in party chat.
+
+<ncall0>-<ncall21>  Only performs the controller vibration. These only work in
+                    party chat. If you do not have a vibration enabled
+                    controller or do not have vibration turned on, you will 
+                    just hear the tone.
+
+<job>               Displays your current job/sub job combination and levels in
+                    abbreviated format. Example: 10WHM/5BLM
+
+<mjob>              Displays your current main job and level in abbreviated
+                    format. Example: 10WHM
+
+<sjob>              Displays your current sub job and level in abbreviated
+                    format. Example: 5BLM
+
+<hp>                Displays your HP as a number out of your max HP.
+                    Example: 256/278
+
+<mp>                Displays your MP as a number out of your max MP.
+
+<tp>                Displays your TP as a percent.
+
+<hpp>               Displays your HP as a percent.
+
+<mpp>               Displays your MP as a percent.
+
+<pethpp>            Displays your pet's HP as a percent. Your pet must be in
+                    target range.
+
+
+  11] Legal Information _______________________________________________________
+
+This FAQ may only be placed on the following websites with my permission:
+
+  - GameFAQs (http://www.gamefaqs.com)  
+  - IGN FAQs (http://faqs.ign.com)
+  - DLH.net  (http://dlh.net)
+  - Final Fantasy Unleashed  (http://www.FinalFantasyUnleashed.com)
+  - The Grey Order  (http://www.thegreyorder.com)
+  - Clan Phoenix  (http://clik.to/ffxi)
+
+If you have found this FAQ on another site or wish to place this FAQ on your 
+own site, please contact me for permission at: icxfall20@xarthlink.nxt (Replace 
+the 'x's with 'e's.)
+
+This may not be reproduced under any circumstances except for personal, 
+private use. It may not be placed on any web site or otherwise distributed 
+publicly without advance written permission. This guide may not be sold or 
+altered in any shape or form. Use of this guide on any other web site or as a 
+part of any public display is strictly prohibited, and a violation of 
+copyright.
+
+All trademarks and copyrights contained in this document are owned by their 
+respective trademark and copyright holders.
+
+ASCII Art from: http://www.network-science.de/ascii/input.html
+FAQ Copyright 2003 Amanda Dean.

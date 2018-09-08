@@ -1,0 +1,3629 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                               Version 1.1                               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+__          ___     _ _         __  __                    ______      ____  
+\ \        / / |   (_) |       |  \/  |                  |  ____/\   / __ \ 
+ \ \  /\  / /| |__  _| |_ ___  | \  / | __ _  __ _  ___  | |__ /  \ | |  | |
+  \ \/  \/ / | '_ \| | __/ _ \ | |\/| |/ _` |/ _` |/ _ \ |  __/ /\ \| |  | |
+   \  /\  /  | | | | | ||  __/ | |  | | (_| | (_| |  __/ | | / ____ \ |__| |
+    \/  \/   |_| |_|_|\__\___| |_|  |_|\__,_|\__, |\___| |_|/_/    \_\___\_\
+                                              __/ |                         
+                                             |___/                          
+
+                                           Created By: Omlette
+                                           E-mail: omlette@omlette.net
+                                           Co-Authored By: Crudmonk
+                                           E-mail: draekon@dark-tempest.com
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                     Last Modified May 30, 2004                          |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Have something to contribute? See an error? False information? Well then,
+feel free to tell us about it! Just send an email to omlette@omlette.net
+or draekon@dark-tempest.com with the subject as "FFXI WHM FAQ"
+
+We really need confirmations on the spell descriptions and more information
+on the locations and prices. Please contribute any information you can. All
+credit will be given towards you, unless otherwise stated.
+
+Note: This guide may be outdated or have missing information due to the
+      amount of patches that massive multiplayer online rpg's have.
+
+---------------------------------------------------------------------------
+                            Version Information                           
+---------------------------------------------------------------------------
+
+=========================================
+Version 1.1                      5/30/04
+=========================================
+
+Updated the "Raises from Japanese" / Translation information,
+with an email from "mei ling".
+
+NOTE: Crudmonk seems to have disappeared, I've lost contact with him.
+Last time we spoke, he said he had quit FFXI. I also seem to be playing a
+lot less than I used to. Sorry for the lack of updates, and we hope you continue
+to enjoy this guide.
+
+=========================================
+Version 1.0                      12/24/03
+=========================================
+
+Have a Merry Christmas and this is our present to all you new and old White
+Mages out there!
+
+Well, here it is folks. The guide you've all been waiting for! Yeah, it
+took a lot of time and hopefully it was worth it. We hope you all enjoy the
+guide and find it useful. 
+
+Added info to the following sections:
+All but the Quest, Equipment and some Starting out sections.
+
+Updated sections:
+None
+
+---------------------------------------------------------------------------
+                             Table of Contents                             
+---------------------------------------------------------------------------
+
+000) Introduction
+001) Attributes
+002) Races
+003) Job Abilities & Traits
+004) - Abilities
+005) - Traits
+006) Sub-Jobs
+007) - Sub-Job Quests
+008) - Basic Sub-Job Descriptions
+009) - Advanced Sub-Job Descriptions
+010) Starting Out
+011) - Bastok
+012) - San d'Oria
+013) - Windurst
+014) Macros
+015) Partying
+016) Spells
+017) - Description
+018) - Location and Price
+019) - Level Order
+020) Equipment
+021) - Weapons
+022)   * Club
+023)   * Staff
+024)   * Projectile
+025) - Armor
+026)   * Headgear
+027)   * Body
+028)   * Hand
+029)   * Leg
+030)   * Foot
+031)   * Shield
+032) - Accessories
+033)   * Headgear
+034)   * Hand
+035)   * Earrings
+036)   * Neck
+037)   * Rings
+038)   * Belts
+039)   * Mantles
+040) Scroll Quests
+041) Artifact Quests
+042) Race Specific Equipment
+043) Job Specific Equipment
+044) Copyright Notice and Credits
+
+---------------------------------------------------------------------------
+Introduction                                                            000
+---------------------------------------------------------------------------
+
+Welcome to my Final Fantasy XI, White Mage Guide. While being a White Mage
+is not a very easy task, we hope you understand that when you undertake the
+job in Final Fantasy XI.
+
+===========================================
+Responsibilities
+===========================================
+
+As a White Mage, you have responsibilities to fulfill. Though, you do not
+have to help everyone at every given time/point/what have you. By picking
+this job, We sincerely hope that you have chosen it to help others. Though,
+if you didn't, that is fine too.
+
+---------------------
+To Charge or Not to
+---------------------
+
+When you hit level 25, you can acquire the spell "Raise." Raise will bring
+people back from their state of unconsciousness and they will regain some of
+their lost experience back as well. People tend to argue over if it is
+right or not to charge people who you are raising.
+
+Crudmonks Opinion:
+
+I feel that is it unethical to charge. Why you ask? We chose the job to help
+others, in the process of raising there will be people who will be willing
+to give you a donation for taking your time to raise him or her. That can
+easily give more than you purchased the spell for over time. From these
+donations, you will not have to charge people for a raise to gain back the
+money lost from buying the spell. However, there are a few exceptions to
+this of course. Like if a person were to be obnoxious and unkind to the
+White Mage while asking or even demanding for a raise. I would simply tell
+them they are out of luck as rude people don't get raised by me.
+
+Then there is the phrase, "Good deeds bring good things in the future."
+Which can always be true, if someone became really happy about it or
+something of the like.
+
+---------------------
+Raises from Japanese
+---------------------
+
+There are some Japanese out there who cannot speak English, causing many
+frustrated dead people. Here is a useful phrase that was found on the message
+boards, it can most likely get you a raise from a Japanese player:
+
+"Sumimasen. Boku wa shinda. Reizu onegaishimasu. Koko wa <pos>"
+
+Translation: "Sorry to bother you. I'm dead. Could you raise me? I'm at..."
+
+The <pos> in the Japanese phrase will give you the location on the map you
+are currently in, giving the player a general idea of where to head to so
+he or she can raise you.
+
+You can find some useful Japanese phrases here:
+http://xeubie.tripod.com/ff11jpn/
+
+[ ======= reader email from ======= ]
+[ =========  "mei ling" =========== ]
+[===================================]
+
+"Hello there,
+
+First off, thank you for creating a guide on WHM since I haven't seen many
+(or any at all online) and I was interested in becoming a WHM.
+
+I'm unsure if this guide is still being maintained, but what caught my eye 
+was the section:  Raises from Japanese.
+
+A phrase is listed..."Sumimasen. Boku wa shinda. Reizu onegaishimasu. Koko 
+wa "
+
+I just wanted to note that "Boku" is a form of "me" or "I" that is only
+proper for males to use. So in case any female character uses it, Japanese
+speakers may be quite confused. (Watashi is a neutral form of "me" or "I".)
+
+Also, a guide is listed....  http://xeubie.tripod.com/ff11jpn/
+
+I've read through this guide before along with another one of my friends and 
+there are multiple errors in this guide (spelling, grammatical, translation, 
+etc). One spelling error in particular is the usage of "PT ni haitemo ii?" 
+It translates to, "Do you want to throw up in my party?" In any case, a good 
+FFXI nihongo guide I've seen with good translations and spelling in romaji 
+has been http://shigemo.com/FFXI/nihongo_guide.html , in case you are 
+interested.
+
+Once again, thank you for the guide and good luck with your gaming!"
+
+
+---------------------------------------------------------------------------
+Attributes                                                              001
+---------------------------------------------------------------------------
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|        Agility        |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Evasion Chance
+- Ranged Attack Accuracy
+
+Agility can be considered a useful attribute, though, you shouldn't need it
+to terribly much. Just work on controlling your hate better and it will
+become obsolete for a White Mage.
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|        Charisma       |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Bardic Magic
+- Charming Monsters
+
+Charisma, a near worthless attribute unless you have Bard subbed for the
+limited song(s) he can actually sing.
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|       Dexterity       |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Melee Attack Accuracy
+- Critical Hit Chance
+
+Another useless attribute for a White Mage. After you get past the solo
+stage at early levels, you shouldn't be attacking monsters as it draws
+more hate towards you, the healer.
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|      Intelligence     |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Magic Damage
+
+Probably the second or third most important attribute. Divine spells will
+need this attribute to produce a decent amount of damage from them.
+Entirely up to the player however.
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|          Mind         |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Magic Defense
+- Healing Potency
+
+The most useful attribute for a White Mage, despite some belief. It ups the
+potency of healing, which means it increases the amount you heal for. Though,
+your Cure spell can not go past its cap, unless under one condition. The day
+must be Lightsday. For if it is Lightsday, the power of Light Spells increase
+giving you slightly more Cure ability, along with various other light-type
+spells.
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|        Strength       |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Physical Damage
+
+Utterly worthless for a White Mage since you shouldn't be dealing any
+physical damage what so ever. I wouldn't worry about it much, like Dex
+and Charisma.
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|        Vitality       |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+- Physical Defense
+
+Much like Agility, this attribute can be useful but once again you should
+not be getting hit very often, also making this attribute obsolete.
+
+---------------------------------------------------------------------------
+Races                                                                   002
+---------------------------------------------------------------------------
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|        TaruTaru       |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+A very widely used race for all mage-type jobs, White Mage especially. This
+race is probably one of the best due to its high mana, however, it has very
+low health which can turn a bad situation worse. Though, it's amount of MP
+can also keep a bad situation from happening. Due to their high mana, spell
+casting sub-jobs are not as required, giving them more freedom to sub what
+they want, although not subbing a spell casting job can easily be to your
+disadvantage.
+
+Pros:
+- Highest MP
+Cons:
+- Lowest HP
+- Lowest Mind
+- Lowest Defense
+
+Starting Stats without a sub-job:
+
+Hit Points: 23
+Magic Points: 28
+Strength: 5
+Dexterity: 5
+Vitality: 6
+Agility: 7
+Intelligence: 8
+Mind: 8
+Charisma: 7
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|          Hume         |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+A jack-of-all-trades which can be easily switched over to any other job if
+you wish to. Hume has the second highest MP along with Mithra. Due to its
+variance, it is widely used as a White Mage, but generally used by people
+who tend to want to play every job without bad disadvantages.
+
+Pros:
+- Second Highest MP
+- Second Highest Mind
+Cons:
+- Second Lowest HP
+- Second Lowest Defense
+
+Starting Stats without a sub-job:
+
+Hit Points: 27
+Magic Points: 22
+Strength: 6
+Dexterity: 5
+Vitality: 6
+Agility: 6
+Intelligence: 6
+Mind: 8
+Charisma: 7
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|         Elvaan        |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+The true race of those who seem to be able to govern the laws of healing.
+Elvaan have the second highest HP and the second to worst MP. Although,
+just because they don't have such great MP does not mean that the race is
+just horrible. Despite what people say, Mind improves ones healing ability,
+however you cannot go above the heal cap for that designated spell. Be
+warned.
+
+Pros:
+- Second Highest HP
+- Highest Mind
+- Second Highest Defense
+Cons:
+- Second Lowest MP
+
+Starting Stats without a sub-job:
+
+Hit Points: 29
+Magic Points: 20
+Strength: 7
+Dexterity: 5
+Vitality: 7
+Agility: 5
+Intelligence: 5
+Mind: 9
+Charisma: 7
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|         Mithra        |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Much like a Hume but with lower Charisma. A very useable race with the
+second highest MP along with Hume. At lower levels, the dexterity boost
+will provide a nice boost but if you plan on being a Bard at any time,
+a Hume would be better. Although, note at higher levels you will have
+a little worse attributes than Hume in Str, Vit, Mnd and Chr.
+
+Pros:
+- Second Highest MP
+Cons:
+- Second Lowest HP
+- Lowest Mind
+- Lowest Defense
+
+Starting Stats without a sub-job:
+
+Hit Points: 27
+Magic Points: 22
+Strength: 6
+Dexterity: 7
+Vitality: 6
+Agility: 7
+Intelligence: 6
+Mind: 8
+Charisma: 6
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|          Galka        |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Quite easily the worst possible race for a White Mage. Galka has the lowest
+MP but the highest HP. At higher levels, a Galka is very doable with a
+Summoner sub-job and a red mage in the party. This is definitely the race
+for those who want a challenge, be warned though.
+
+Pros:
+- Highest HP
+- Second Highest Mind
+- Highest Defense
+Cons:
+- Lowest MP
+
+Starting Stats without a sub-job:
+
+Hit Points: 32
+Magic Points: 16
+Strength: 7
+Dexterity: 5
+Vitality: 8
+Agility: 6
+Intelligence: 6
+Mind: 8
+Charisma: 6
+
+---------------------------------------------------------------------------
+Job Abilities & Traits                                                  003
+---------------------------------------------------------------------------
+
+Job Abilities and Job Traits can easily be key components in battles,
+depending on your job. As you're a White Mage you don't get to many
+abilities but the ones you do get will be very useful. Be sure to learn
+what each individual ability and trait does and make full use of it, to
+benefit everyone.
+
+=====================================================
+Job Abilities                                     004
+=====================================================
+
+Job abilities are special abilities for your job only. You also gain some
+abilities from your sub-job. However, you never gain your sub-job's 2-hour
+ability at all. Abilities with short timers should be used often to extract
+their full potential, especially while partying.
+
+-----------------------
+Benediction
+-----------------------
+Level: 1
+Duration: Instant
+Re-use Time: 2 Hours
+
+Description: Restores your party's HP to full within area of effect.
+
+Tip: This draws massive hate, the only other single ability which draws
+     more hate than Benediction is a Paladins 2-hour "Invincible." Should
+     only be used as a last resort after you've fully run out of MP and
+     your party is near death.
+
+-----------------------
+Divine Seal
+-----------------------
+Level: 15
+Duration: Next Spell Cast
+Re-use Time: 10 Minutes
+
+Description: Doubles the effect of your next heal spell.
+
+Tip: Wise to use it semi-often as it has a 10 minute re-use timer. Do not
+     be afraid to use it often because it is an ability. This is often best
+     used with Curaga's line of spells.
+
+=====================================================
+Traits                                            005
+=====================================================
+
+Job traits are what makes your job special. You gain all your job traits
+naturally as you gain levels, giving you personal, forever lasting buffs
+as you get higher in levels. They can be very useful, depending on the
+situation. You also gain all the traits a sub-job gets as well, as long as
+the sub-job is the correct level for that trait.
+
+-----------------------
+Magic Defense Bonus
+-----------------------
+Level: 10
+Description: Improves your defense to magic spells.
+
+-----------------------
+Clear Mind
+-----------------------
+Level: 20
+Description: Raises the amount of MP recovered while resting.
+
+-----------------------
+Auto Regen
+-----------------------
+Level: 25
+Description: Gradually recovers HP over time without needing to resting.
+
+-----------------------
+Magic Defense Bonus
+-----------------------
+Level: 30
+Description: Improves your defense to magic spells.
+
+-----------------------
+Magic Defense Bonus
+-----------------------
+Level: 50
+Description: Improves your defense to magic spells.
+
+
+---------------------------------------------------------------------------
+Sub-Jobs                                                                006
+---------------------------------------------------------------------------
+
+A sub-job must be leveled up separately from your main job as a White Mage.
+This means that you must go to your moogle house and set your sub-job as
+your main job in order to level it. When you transfer back to your main job
+you will still have the level you left off on. Sub-Jobs are also half of
+your given main job at any time.
+
+Example:
+Level 30 White Mage
+Level 20 Black Mage
+-> White Mage subs Black Mage
+-> Level 30/15 White Mage/Black Mage
+-> Player levels up his White Mage a dozen levels without leveling his sub
+-> Player is now level 42/20 White Mage/Black Mage
+
+To get a sub-job, you must be level 18 and complete a quest in either Mhaura
+or Selbina. Both quests will ask you to obtain three items to complete the
+quest.
+
+=====================================================
+Sub-Job Quests                                    007
+=====================================================
+
+-----------------------
+Selbina Sub-Job Quest
+-----------------------
+
+Name: Elder Memories
+Required Level: 18
+Quest Giver: Isacio
+Location: Selbina (G-10)
+Items Needed:
+- 1 Magicked Skull
+- 1 Damesfly Worm
+- 1 Crab Apron
+
+Description:
+- Magicked Skull dropped by Ghouls
+ * Ghouls are located in Valkurm Dunes at night time and also in Gusgen
+   Mines, Jugner Forest, Buburimu Peninsula, and many other places
+ * Ghouls level vary on location found, ideal locations are Gusgen and
+   Valkurm Dunes.
+- Damesfly Worm dropped by Damesfly
+ * Damesfly's are located in Valkurm Dunes
+- 1 Crab Apron dropped by Snippers
+ * Snippers are located in Valkurm Dunes
+
+After all three items are collected, head back to Selbina and talk to Isacio
+in G-10 to finish the quest. Once finished you can now return to your mog
+house and choose to apply a sub-job to your main job.
+
+-----------------------
+Mhaura Sub-Job Quest
+-----------------------
+
+Name: The Old Lady
+Required Level: 18
+Quest Giver: Vera
+Location: Mhaura (G-10)
+Items Needed:
+- 1 Bloody Robe
+- 1 Wild Rabbit's Tail
+- 1 Dhalmel Saliva
+
+Description:
+- Bloody Robe dropped by Bogys
+ * Bogys are located in Buburimu Peninsula at night as well as other
+   zones as well.
+ * Bogys level vary on the zone it is in, Buburimu Peninsula is an ideal
+   place to look for them.
+- Wild Rabbit's Tail dropped by Mighty Rahabs
+ * Mighty Rahabs are located at Buburimu Peninsula
+- Dhalmel Saliva dropped by Bull Dhalmels
+ * Bull Dhalmels are located at Buburimu Peninsula
+
+After all three items are collected, head back to Mhaura and talk to Vera
+in G-10 to finish the quest. Once finished you can now return to your mog
+house and choose to apply a sub-job to your main job.
+
+=====================================================
+Basic Sub-Job Descriptions                        008
+=====================================================
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|   White Mage/Warrior  |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Subbing a warrior probably isn't the smartest thing to do. It however may
+be good for soloing at early levels but that is about it. When you get into
+partying, you'll have less MP than most other subbed jobs, which can
+drastically effect your performance in the long run. The job abilities you
+get also will not help much as a White Mage shouldn't be taking hits or
+dealing any physical damage. Although War Cry would be a good ability to
+have, it would be at level 70 White Mage when you can have other jobs which
+give better stats, abilities and traits.
+
+Pros:
+- Defense Bonus (Trait)
+Cons:
+- No MP Gain.
+Pro/Con:
+- War Cry (Ability)
+ * Cannot be used until level 70 White Mage.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |35   |22   |8  |7  |7  |8  |7  |9  |8  |
+|Elvaan   | 1/1 |37   |20   |9  |7  |8  |7  |6  |10 |8  |
+|Tarutaru | 1/1 |31   |28   |7  |7  |7  |9  |9  |9  |8  |
+|Mithra   | 1/1 |35   |22   |8  |9  |7  |9  |7  |9  |7  |
+|Galka    | 1/1 |40   |16   |9  |7  |9  |8  |7  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|300  |155  |22 |18 |21 |20 |19 |25 |22 |
+|Elvaan   |20/10|321  |134  |25 |17 |23 |17 |16 |28 |22 |
+|Tarutaru |20/10|239  |218  |19 |18 |20 |22 |24 |24 |22 |
+|Mithra   |20/10|300  |155  |21 |23 |20 |23 |19 |24 |19 |
+|Galka    |20/10|362  |101  |24 |18 |26 |19 |18 |25 |19 |
+|-------------------------------------------------------|
+|Hume     |70/35|1063 |505  |65 |54 |61 |58 |55 |71 |64 |
+|Elvaan   |70/35|1174 |434  |73 |50 |65 |50 |47 |79 |64 |
+|Tarutaru |70/35|852  |718  |57 |54 |57 |62 |67 |67 |64 |
+|Mithra   |70/35|1063 |505  |61 |66 |57 |66 |55 |67 |56 |
+|Galka    |70/35|1315 |326  |69 |54 |73 |54 |51 |71 |56 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Defense Bonus  |10   |Adds points to physical defense          |
+|Resist Virus   |15   |Increased resistance to disease          |
+|Double Attack  |25   |Random, additional melee attacks will be |
+|               |     |made in battle depending on weapon skill |
+|Attack Bonus   |30   |Added points to physical attack          |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Provoke    |5    |30 Seconds  |Instant   |Taunts enemy                   |
+|Berserk    |15   |5 Minutes   |3 Minutes |Increase Attack                |
+|           |     |            |          |Decrease Defense               |
+|Defender   |35   |3 Minutes   |3 Minutes |Increase Defense               |
+|           |     |            |          |Decrease Attack                |
+|War Cry    |35   |5 Minutes   |30 Seconds|Party members in range gain an |
+|           |     |            |          |attack bonus                   |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|   White Mage/Thief    |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Like the warrior, subbing a thief isn't to terribly smart unless you're
+soloing at early levels. Their abilities and traits you get are pretty much
+useless as you should be staying away from area of effect skills and spells.
+Yeah, Gilfinder and Treasure Hunter are nice, but it's much better to recruit
+a thief into your party for that.
+
+Pros:
+- Flee (Ability)
+- Treasure Hunter (Trait)
+- Gilfinder (Trait)
+- Highest Evade.
+- Good job for farming.
+Cons:
+- No MP Gain.
+Pro/Con:
+- Mug & Steal
+ * Nice to use but can be very bad for the party if the White Mage gets
+   close to mobs.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |34   |22   |7  |7  |7  |8  |8  |9  |8  |
+|Elvaan   | 1/1 |36   |20   |8  |7  |8  |7  |7  |10 |8  |
+|Tarutaru | 1/1 |30   |28   |6  |7  |7  |9  |10 |9  |8  |
+|Mithra   | 1/1 |34   |22   |7  |9  |7  |9  |8  |9  |7  |
+|Galka    | 1/1 |39   |16   |8  |7  |9  |8  |8  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|290  |155  |21 |19 |21 |21 |20 |24 |21 |
+|Elvaan   |20/10|311  |134  |24 |18 |23 |18 |17 |27 |21 |
+|Tarutaru |20/10|229  |218  |18 |19 |20 |23 |25 |23 |21 |
+|Mithra   |20/10|290  |155  |20 |24 |20 |24 |20 |23 |18 |
+|Galka    |20/10|352  |101  |23 |19 |26 |20 |19 |24 |18 |
+|-------------------------------------------------------|
+|Hume     |70/35|1027 |505  |61 |57 |61 |59 |58 |70 |62 |
+|Elvaan   |70/35|1138 |434  |69 |53 |65 |51 |50 |78 |62 |
+|Tarutaru |70/35|816  |718  |53 |57 |57 |63 |70 |66 |62 |
+|Mithra   |70/35|1027 |505  |57 |69 |57 |67 |58 |66 |54 |
+|Galka    |70/35|1279 |326  |65 |57 |73 |55 |54 |70 |54 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait              |Level|Description                              |
+|-------------------------------------------------------------------|
+|Gilfinder          |5    |Multiplies the amount of gil dropped     |
+|Evasion Bonus      |10   |Improves evasion against physical attacks|
+|Treasure Hunter    |12   |Increases chance of getting treasure     |
+|Resist Gravity     |20   |Slight resistance against weight         |
+|Evasion Bonus      |30   |Improves evasion against physical attacks|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability      |Level|Re-Use Timer|Duration  |Description                  |
+|-------------------------------------------------------------------------|
+|Steal        |5    |5 Minutes   |Instant   |Can steal an item from enemy |
+|Sneak Attack |15   |1 Minute    |Instant   |Deals extra damage for one   |
+|             |     |            |          |hit behind the enemy.        |
+|Flee         |25   |5 Minutes   |30 Seconds|Increases movement speed     |
+|             |     |            |          |temporary                    |
+|Trick Attack |30   |1 Minute    |Instant   |Upgraded sneak attack        |
+|Mug          |35   |5 Minutes   |Instant   |Steals gil from the enemy    |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|   White Mage/Monk     |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Using a monk is still pretty much the same as subbing a thief or warrior.
+The only major difference is that you will end up with more HP. HP is always
+nice, however, extra MP is always better. This wouldn't even be to much of
+an ideal job to sub while you're at low levels.
+
+Pros:
+- Highest HP.
+Cons:
+- No MP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |36   |22   |8  |7  |8  |7  |7  |9  |8  |
+|Elvaan   | 1/1 |38   |20   |9  |7  |9  |6  |6  |10 |8  |
+|Tarutaru | 1/1 |32   |28   |7  |7  |8  |8  |9  |9  |8  |
+|Mithra   | 1/1 |36   |22   |8  |9  |8  |8  |7  |9  |7  |
+|Galka    | 1/1 |41   |16   |9  |7  |10 |7  |7  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|306  |155  |21 |19 |22 |19 |18 |26 |22 |
+|Elvaan   |20/10|327  |134  |24 |18 |24 |16 |15 |29 |22 |
+|Tarutaru |20/10|245  |218  |18 |19 |21 |21 |23 |25 |22 |
+|Mithra   |20/10|306  |155  |20 |24 |21 |22 |18 |25 |19 |
+|Galka    |20/10|368  |101  |23 |19 |27 |18 |17 |26 |19 |
+|-------------------------------------------------------|
+|Hume     |70/35|1141 |505  |62 |55 |65 |55 |54 |73 |64 |
+|Elvaan   |70/35|1252 |434  |70 |51 |69 |47 |46 |81 |64 |
+|Tarutaru |70/35|930  |718  |54 |55 |61 |59 |66 |69 |64 |
+|Mithra   |70/35|1141 |505  |58 |67 |61 |63 |54 |69 |56 |
+|Galka    |70/35|1393 |326  |66 |55 |77 |51 |50 |73 |56 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Martial Arts   |1    |Increases hand-to-hand attack speed      |
+|Counter        |10   |Can counter an enemy with your own attack|
+|Max HP Boost   |15   |Increases your maximum HP                |
+|Martial Arts   |15   |Increases hand-to-hand attack speed      |
+|Martial Arts   |30   |Increases hand-to-hand attack speed      |
+|Max HP Boost   |35   |Increases your maximum HP                |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Boost      |5    |15 Seconds  |3 Minutes |Enhances the power of your next|
+|           |     |            |          |attack                         |
+|Dodge      |15   |5 Minutes   |2 Minutes |Enhances evasion               |
+|Focus      |25   |5 Minutes   |2 Minutes |Enhances accuracy              |
+|Chakra     |35   |15 Minutes  |Instant   |Restores a small amount of HP  |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|  White Mage/Red Mage  |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Not to bad of a sub-job for a White Mage, though there are better ones. The
+main thing you'll probably be subbing a red mage for is their fast cast
+trait, which they get at level 15. It can be a rather nice feature when you
+get into dangerous situations from time to time, although you're still
+lacking some features that are given by other mage-type sub jobs.
+
+Pros:
+- Faster Cast (Trait)
+- Clear Mind (Trait)
+Cons:
+- None really.
+Pro/Con:
+- More Enfeeble Spells.
+ * Can help the party but can also create unnecessary hate.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |34   |27   |7  |6  |7  |7  |8  |10 |8  |
+|Elvaan   | 1/1 |36   |25   |8  |6  |8  |6  |7  |11 |8  |
+|Tarutaru | 1/1 |30   |33   |6  |6  |7  |8  |10 |10 |8  |
+|Mithra   | 1/1 |34   |27   |7  |8  |7  |8  |8  |10 |7  |
+|Galka    | 1/1 |39   |21   |8  |6  |9  |7  |8  |10 |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|290  |173  |21 |18 |20 |19 |20 |26 |23 |
+|Elvaan   |20/10|311  |152  |24 |17 |22 |16 |17 |29 |23 |
+|Tarutaru |20/10|229  |236  |18 |18 |19 |21 |25 |25 |23 |
+|Mithra   |20/10|290  |173  |20 |23 |19 |22 |20 |25 |20 |
+|Galka    |20/10|352  |119  |23 |18 |25 |18 |19 |26 |20 |
+|-------------------------------------------------------|
+|Hume     |70/35|1027 |561  |61 |53 |60 |56 |58 |74 |65 |
+|Elvaan   |70/35|1138 |490  |69 |49 |64 |48 |50 |82 |65 |
+|Tarutaru |70/35|816  |774  |53 |53 |56 |60 |70 |70 |65 |
+|Mithra   |70/35|1027 |561  |57 |65 |56 |64 |58 |70 |57 |
+|Galka    |70/35|1279 |382  |65 |53 |72 |52 |54 |74 |57 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                                |
+|-----------------------------------------------------------------|
+|Resist Petrify |10   |Slight resistance to petrification         |
+|Fast Cast      |15   |Quickens the casting of spells             |
+|Magic Atk Bonus|20   |Improves your power of magic spells        |
+|Magic Def Bonus|25   |Improves your defense against magic spells |
+|Resist Petrify |30   |Slight resistance to petrification         |
+|Clear Mind     |31   |Raises the MP Recovery amount while resting|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|None       |None |None        |None      |None                           |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+| White Mage/Black Mage |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Probably the most wanted sub-job. You get the second highest MP gain and
+you get a second Clear Mind to stack with that of your White Mages Clear
+Mind trait. While there is a big debate wether or not Black Magic is great
+with this sub, I think that it can go either way. Early on in levels,
+subbing a black mage will help out a bit from here to there with some spells.
+However, doing this can easily create excessive hate which can also make a
+situation turn bad easily. Though, if you think you can control the hate
+well enough, be my guest. (At higher levels having your sub-job halved, the
+black magic will become kind of useless as the monster you're fighting will
+be a much higher level than that of the spell you're using.)
+
+Pros:
+- Second Highest MP Gain.
+- Clear Mind (Trait)
+Cons:
+- Little HP Gain.
+Pro/Con:
+- Black Magic
+ * Can help the party but can also create unnecessary hate.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |32   |29   |7  |7  |7  |8  |8  |9  |8  |
+|Elvaan   | 1/1 |34   |27   |8  |7  |8  |7  |7  |10 |8  |
+|Tarutaru | 1/1 |28   |35   |6  |7  |7  |9  |10 |9  |8  |
+|Mithra   | 1/1 |32   |29   |7  |9  |7  |9  |8  |9  |7  |
+|Galka    | 1/1 |37   |23   |8  |7  |9  |8  |8  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|279  |184  |20 |18 |20 |20 |21 |25 |23 |
+|Elvaan   |20/10|300  |163  |23 |17 |22 |17 |18 |28 |23 |
+|Tarutaru |20/10|218  |247  |17 |18 |19 |22 |26 |24 |23 |
+|Mithra   |20/10|279  |184  |19 |23 |19 |23 |21 |24 |20 |
+|Galka    |20/10|341  |130  |22 |18 |25 |19 |20 |25 |20 |
+|-------------------------------------------------------|
+|Hume     |70/35|992  |597  |59 |54 |59 |58 |61 |72 |65 |
+|Elvaan   |70/35|1103 |526  |67 |50 |63 |50 |53 |80 |65 |
+|Tarutaru |70/35|781  |810  |51 |54 |55 |62 |73 |68 |65 |
+|Mithra   |70/35|992  |597  |55 |66 |55 |66 |61 |68 |57 |
+|Galka    |70/35|1244 |418  |63 |54 |71 |54 |57 |72 |57 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                                |
+|-----------------------------------------------------------------|
+|Magic Atk Bonus|10   |Improves your power of magic spells        |
+|Clear Mind     |15   |Raises the MP Recovery amount while resting|
+|Conserve MP    |20   |Occasionally cuts down MP cost of a spell  |
+|Magic Atk Bonus|30   |Improves your power of magic spells        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Elemental  |15   |10 Minutes  |1 Cast    |Enhances the accuracy of your  |
+|     Seal  |     |            |          |next spell cast                |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+=====================================================
+Advanced Sub-Job Descriptions                     009
+=====================================================
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|  White Mage/Paladin   |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+A better sub-job than a warrior, although it still doesn't stack up to the
+usefulness of mage-type sub-jobs. You'll get more defense and HP than
+mage-type subs but MP's importance factor outweighs that of defense and HP.
+It *can* be useful, but once again, I would recommend using a mage-type
+sub-job.
+
+Pros:
+- Holy Circle (Ability)
+- Sentinel (Ability)
+- Physical Defense Power Up (Trait)
+- Second Highest Mind.
+Cons:
+- Small MP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |35   |25   |8  |6  |8  |7  |7  |10 |9  |
+|Elvaan   | 1/1 |37   |23   |9  |6  |9  |6  |6  |11 |9  |
+|Tarutaru | 1/1 |31   |31   |7  |6  |8  |8  |9  |10 |9  |
+|Mithra   | 1/1 |35   |25   |8  |8  |8  |8  |7  |10 |8  |
+|Galka    | 1/1 |40   |19   |9  |6  |10 |7  |7  |10 |8  |
+|-------------------------------------------------------|
+|Hume     |20/10|295  |162  |22 |17 |22 |18 |18 |26 |23 |
+|Elvaan   |20/10|316  |141  |25 |16 |24 |15 |15 |29 |23 |
+|Tarutaru |20/10|234  |225  |19 |17 |21 |20 |23 |25 |23 |
+|Mithra   |20/10|295  |162  |21 |22 |21 |21 |18 |25 |20 |
+|Galka    |20/10|357  |108  |24 |17 |27 |17 |17 |26 |20 |
+|-------------------------------------------------------|
+|Hume     |70/35|1045 |525  |63 |52 |65 |54 |54 |74 |66 |
+|Elvaan   |70/35|1156 |454  |71 |48 |69 |46 |46 |82 |66 |
+|Tarutaru |70/35|834  |738  |55 |52 |61 |58 |66 |70 |66 |
+|Mithra   |70/35|1045 |525  |59 |64 |61 |62 |54 |70 |58 |
+|Galka    |70/35|1297 |346  |67 |52 |77 |50 |50 |74 |58 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Undead Killer  |5    |More damage versus undead enemies        |
+|Physical Def Up|10   |Raises your physical defense             |
+|Resist Sleep   |20   |Slight resistance to sleep               |
+|Physical Def Up|30   |Raises your physical defense             |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Holy Circle|5    |5 Minutes   |3 Minutes |Raises your parties defense    |
+|           |     |            |          |versus undead enemies          |
+|Shield Bash|15   |5 Minutes   |Instant   |Use shield to bash enemy target|
+|Sentinel   |30   |5 Minutes   |30 Seconds|Raises Defense                 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|White Mage/Dark Knight |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+One of the worst subs you could probably have with a White Mage. Since Dark
+Knight focuses around more of a melee fighter than that of a dark spell caster,
+a black mage would be more ideal of a sub-job to pick.
+
+Pros:
+- Arcane Circle (Ability)
+Cons:
+- Small MP Gain.
+- Very little black magic.
+ * The three stat absorb spells you wouldn't be getting until level 62+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |35   |25   |8  |7  |8  |7  |8  |9  |8  |
+|Elvaan   | 1/1 |37   |23   |9  |7  |9  |6  |7  |10 |8  |
+|Tarutaru | 1/1 |31   |31   |7  |7  |8  |8  |10 |9  |8  |
+|Mithra   | 1/1 |35   |25   |8  |9  |8  |8  |8  |9  |7  |
+|Galka    | 1/1 |40   |19   |9  |7  |10 |7  |8  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|295  |162  |22 |18 |21 |20 |20 |24 |21 |
+|Elvaan   |20/10|316  |141  |25 |17 |23 |17 |17 |27 |21 |
+|Tarutaru |20/10|234  |225  |19 |18 |20 |22 |25 |23 |21 |
+|Mithra   |20/10|295  |162  |21 |23 |20 |23 |20 |23 |18 |
+|Galka    |20/10|357  |108  |24 |18 |26 |19 |19 |24 |18 |
+|-------------------------------------------------------|
+|Hume     |70/35|1045 |525  |65 |54 |62 |57 |58 |70 |62 |
+|Elvaan   |70/35|1156 |454  |73 |50 |66 |49 |50 |78 |62 |
+|Tarutaru |70/35|834  |738  |57 |54 |58 |61 |70 |66 |62 |
+|Mithra   |70/35|1045 |525  |61 |66 |58 |65 |58 |66 |54 |
+|Galka    |70/35|1297 |346  |69 |54 |74 |53 |54 |70 |54 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Attack Bonus   |10   |Increases power of physical attacks      |
+|Resist Paralyze|20   |Slight resistance to paralysis           |
+|Arcana Killer  |25   |Increases damage versus arcana           |
+|Attack Bonus   |30   |Increases power of physical attacks      |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Arcane     |5    |5 Minutes   |3 Minutes |Raises your parties defense    |
+|  Circle   |     |            |          |versus arcana                  |
+|Last Resort|15   |5 Minutes   |30 Seconds|Enhances attacks, weakens      |
+|           |     |            |          |defense                        |
+|Weapon Bash|20   |5 Minutes   |Instant   |Delivers a stunning attack     |
+|           |     |            |          |*~Two-Handed Weapons Required~*|
+|Souleater  |30   |6 Minutes   |1 Minute  |Consumes HP to enhance attacks |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|White Mage/Beastmaster |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Not to useful of a sub-job. In early levels having a charmed monster help
+you out may be ideal, but towards higher levels they won't help much. Since
+they're not so useful at mid-high levels, it creates no MP gain at all,
+worsening the sub-job for a White Mage. I don't recommend using this to sub
+with a White Mage unless you're going through the first dozen levels solo.
+
+Pros:
+- Charm (Ability)
+Cons:
+- No MP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |35   |22   |7  |7  |7  |7  |7  |9  |9  |
+|Elvaan   | 1/1 |37   |20   |8  |7  |8  |6  |6  |10 |9  |
+|Tarutaru | 1/1 |31   |28   |6  |7  |7  |8  |9  |9  |9  |
+|Mithra   | 1/1 |35   |22   |7  |9  |7  |8  |7  |9  |8  |
+|Galka    | 1/1 |40   |16   |8  |7  |9  |7  |7  |9  |8  |
+|-------------------------------------------------------|
+|Hume     |20/10|295  |155  |21 |18 |21 |19 |19 |25 |24 |
+|Elvaan   |20/10|316  |134  |24 |17 |23 |16 |16 |28 |24 |
+|Tarutaru |20/10|234  |218  |18 |18 |20 |21 |24 |24 |24 |
+|Mithra   |20/10|295  |155  |20 |23 |20 |22 |19 |24 |21 |
+|Galka    |20/10|357  |101  |23 |18 |26 |18 |18 |25 |21 |
+|-------------------------------------------------------|
+|Hume     |70/35|1045 |505  |61 |54 |61 |55 |56 |72 |69 |
+|Elvaan   |70/35|1156 |434  |69 |50 |65 |47 |48 |80 |69 |
+|Tarutaru |70/35|834  |718  |53 |54 |57 |59 |68 |68 |69 |
+|Mithra   |70/35|1045 |505  |57 |66 |57 |63 |56 |68 |61 |
+|Galka    |70/35|1297 |326  |65 |54 |73 |51 |52 |72 |61 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Vermin Killer  |10   |Improves damage versus vermin            |
+|Resist Slow    |15   |Slight resistance against slow           |
+|Bird Killer    |20   |Improves damage versus birds             |
+|Amorph Killer  |30   |Improves damage versus armophs           |
+|Resist Slow    |35   |Slight resistance against slow           |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Charm      |1    |5 Minutes   |5 Minutes |Attempts to control a beast    |
+|Gauge      |10   |30 Seconds  |Instant   |Judge a target for charming    |
+|Reward     |12   |3 Minutes   |Instant   |Restore pets HP; Items Required|
+|Call Beast |23   |5 Minutes   |Instant   |Calls a beast from the contents|
+|           |     |            |          |of a jug                       |
+|Tame       |30   |10 Minutes  |Instant   |Makes target easier to charm   |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|   White Mage/Ranger   |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Yet another pretty useless sub-job for a White Mage. Since you cannot equip
+a bow most of its traits and abilities you obtain with a ranger sub become
+useless. Yet another sub-job I don't recommend for a White Mage. You're
+probably better off having a ranger as a main job and White Mage as a
+sub-job. Though, rangers have better subs than White Mage, so I wouldn't
+pick it.
+
+Pros:
+- Scavenge (Ability)
+- Camouflage (Ability)
+- Alertness (Trait)
+Cons:
+- No MP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |33   |22   |7  |6  |7  |8  |7  |9  |8  |
+|Elvaan   | 1/1 |35   |20   |8  |6  |8  |7  |6  |10 |8  |
+|Tarutaru | 1/1 |29   |28   |6  |6  |7  |9  |9  |9  |8  |
+|Mithra   | 1/1 |33   |22   |7  |8  |7  |9  |7  |9  |7  |
+|Galka    | 1/1 |38   |16   |8  |6  |9  |8  |7  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|285  |155  |20 |18 |21 |21 |19 |26 |22 |
+|Elvaan   |20/10|306  |134  |23 |17 |23 |18 |16 |29 |22 |
+|Tarutaru |20/10|224  |218  |17 |18 |20 |23 |24 |25 |22 |
+|Mithra   |20/10|285  |155  |19 |23 |20 |24 |19 |25 |19 |
+|Galka    |20/10|347  |101  |22 |18 |26 |20 |18 |26 |19 |
+|-------------------------------------------------------|
+|Hume     |70/35|1010 |505  |60 |53 |61 |61 |56 |73 |64 |
+|Elvaan   |70/35|1121 |434  |68 |49 |65 |53 |48 |81 |64 |
+|Tarutaru |70/35|799  |718  |52 |53 |57 |65 |68 |69 |64 |
+|Mithra   |70/35|1010 |505  |56 |65 |57 |69 |56 |69 |56 |
+|Galka    |70/35|1262 |326  |64 |53 |73 |57 |52 |73 |56 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                                |
+|-----------------------------------------------------------------|
+|Alertness      |5    |Lowers chance of being detected by enemies |
+|Accuracy Bonus |10   |Raises accuracy of physical attacks        |
+|Rapid Shot     |15   |Sometimes decreases attack intervals for   |
+|               |     |ranged attacks                             |
+|Resist Poison  |20   |Slight resistance to poison                |
+|Accuracy Bonus |30   |Raises accuracy of physical attacks        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Sharpshot  |1    |5 Minutes   |1 Minute  |Raises accuracy of ranged      |
+|           |     |            |          |attacks                        |
+|Scavenge   |10   |5 Minutes   |Instant   |Searches local area for items  |
+|Camouflage |20   |5 Minutes   |Random    |You become more difficult to   |
+|           |     |            |          |detect                         |
+|Barrage    |30   |5 Minutes   |Instant   |Fires multiple projectiles     |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|   White Mage/Bard     |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+This *would* be an awesome sub-job if you could equip your sub-jobs items as
+if he were your main job. Since you cannot equip instruments, you're stuck
+with singing only songs. It would be more wise to have a bard as your main
+and a White Mage as your sub-job. Although, doing that will result in very
+low MP, but you shouldn't be acting as the main healer if you did that.
+
+Pros:
+- Resistance to Silence.
+- Sing
+Cons:
+- No MP Gain.
+- Cannot use instruments.
+ * Due to this, only songs that you verbally sing will work.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |34   |22   |7  |6  |7  |7  |7  |9  |9  |
+|Elvaan   | 1/1 |36   |20   |8  |6  |8  |6  |6  |10 |9  |
+|Tarutaru | 1/1 |30   |28   |6  |6  |7  |8  |9  |9  |9  |
+|Mithra   | 1/1 |34   |22   |7  |8  |7  |8  |7  |9  |8  |
+|Galka    | 1/1 |39   |16   |8  |6  |9  |7  |7  |9  |8  |
+|-------------------------------------------------------|
+|Hume     |20/10|290  |155  |21 |18 |21 |19 |20 |26 |24 |
+|Elvaan   |20/10|311  |134  |24 |17 |23 |16 |17 |29 |24 |
+|Tarutaru |20/10|229  |218  |18 |18 |20 |21 |25 |25 |24 |
+|Mithra   |20/10|290  |155  |20 |23 |20 |22 |20 |25 |21 |
+|Galka    |20/10|193  |61   |16 |12 |18 |13 |14 |18 |14 |
+|-------------------------------------------------------|
+|Hume     |70/35|1027 |505  |61 |53 |61 |55 |57 |73 |67 |
+|Elvaan   |70/35|1138 |434  |69 |49 |65 |47 |49 |81 |67 |
+|Tarutaru |70/35|816  |718  |53 |53 |57 |59 |69 |69 |67 |
+|Mithra   |70/35|1027 |505  |57 |65 |57 |63 |57 |69 |59 |
+|Galka    |70/35|1279 |326  |65 |53 |73 |51 |53 |73 |59 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Resist Silence |5    |Slight resistance to silence             |
+|Resist Silence |25   |Slight resistance to silence             |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|None       |None |None        |None      |None                           |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|  White Mage/Summoner  |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+The best sub-job for a White Mage, in my opinion. You get the most MP, clear
+mind and also Auto-Refresh when you hit level 50 White Mage. Three very
+useful traits and Auto-Refresh stacks on top of the spell Refresh! People
+say the avatars suck because you're subbing a summoner, I tend to agree.
+Although, you're not subbing it for the avatars you can summon, you're using
+it for its traits that you get mentioned above and shown below. I highly
+recommend subbing this job, however it is harder to level a summoner than
+that of a black mage.
+
+
+Pros:
+- Largest MP Gain.
+- Auto-Refresh (Trait)
+- Clear Mind (Trait)
+- Highest Mind.
+Cons:
+- Weak Avatars.
+- Lowest HP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |32   |30   |7  |6  |7  |7  |8  |10 |9  |
+|Elvaan   | 1/1 |34   |28   |8  |6  |8  |6  |7  |11 |9  |
+|Tarutaru | 1/1 |28   |36   |6  |6  |7  |8  |10 |10 |9  |
+|Mithra   | 1/1 |32   |30   |7  |8  |7  |8  |8  |10 |8  |
+|Galka    | 1/1 |37   |24   |8  |6  |9  |7  |8  |10 |8  |
+|-------------------------------------------------------|
+|Hume     |20/10|274  |190  |20 |17 |20 |20 |21 |27 |24 |
+|Elvaan   |20/10|295  |169  |23 |16 |22 |17 |18 |30 |24 |
+|Tarutaru |20/10|213  |253  |17 |17 |19 |22 |26 |26 |24 |
+|Mithra   |20/10|274  |190  |19 |22 |19 |23 |21 |26 |21 |
+|Galka    |20/10|336  |136  |22 |17 |25 |19 |20 |27 |21 |
+|-------------------------------------------------------|
+|Hume     |70/35|974  |615  |59 |52 |59 |57 |59 |75 |67 |
+|Elvaan   |70/35|1085 |544  |67 |48 |63 |49 |51 |83 |67 |
+|Tarutaru |70/35|763  |828  |51 |52 |55 |61 |71 |71 |67 |
+|Mithra   |70/35|974  |615  |55 |64 |55 |65 |59 |71 |59 |
+|Galka    |70/35|1226 |436  |63 |52 |71 |53 |55 |75 |59 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                                |
+|-----------------------------------------------------------------|
+|Max MP Boost   |10   |Increases your maximum MP                  |
+|Clear Mind     |15   |Raises the MP Recovery amount while resting|
+|Resist Slow    |20   |Slight resistance to slow                  |
+|Auto Refresh   |25   |Gradually recovers MP                      |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|None       |None |None        |None      |None                           |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|  White Mage/Samurai   |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Woo, yet another pretty junky sub-job for a White Mage. Anyways, this is
+pretty bad as a sub like the other sub-jobs I mentioned above.
+
+Pros:
+- Moderate HP Gain.
+- Third Eye (Ability)
+Cons:
+- No MP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |35   |22   |8  |7  |8  |7  |7  |9  |8  |
+|Elvaan   | 1/1 |37   |20   |9  |7  |9  |6  |6  |10 |8  |
+|Tarutaru | 1/1 |31   |28   |7  |7  |8  |8  |9  |9  |8  |
+|Mithra   | 1/1 |35   |22   |8  |9  |8  |8  |7  |9  |7  |
+|Galka    | 1/1 |40   |16   |9  |7  |10 |7  |7  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|300  |155  |21 |18 |21 |19 |20 |26 |23 |
+|Elvaan   |20/10|321  |134  |24 |17 |23 |16 |17 |29 |23 |
+|Tarutaru |20/10|239  |218  |18 |18 |20 |21 |25 |25 |23 |
+|Mithra   |20/10|300  |155  |20 |23 |20 |22 |20 |25 |20 |
+|Galka    |20/10|362  |101  |23 |18 |26 |18 |19 |26 |20 |
+|-------------------------------------------------------|
+|Hume     |70/35|1063 |505  |62 |54 |62 |56 |57 |73 |65 |
+|Elvaan   |70/35|1174 |434  |70 |50 |66 |48 |49 |81 |65 |
+|Tarutaru |70/35|852  |718  |54 |54 |58 |60 |69 |69 |65 |
+|Mithra   |70/35|1063 |505  |58 |66 |58 |64 |57 |69 |57 |
+|Galka    |70/35|1315 |326  |66 |54 |74 |52 |53 |73 |57 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Resist Blind   |5    |Slight resistance against blind          |
+|Store TP       |10   |Raises amount of TP gained               |
+|Store TP       |30   |Raises amount of TP gained               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Warding    |5    |5 Minutes   |3 Minutes |Raises your parties defense    |
+|  Circle   |     |            |          |versus demons                  |
+|Third Eye  |15   |1 Minute    |Instant   |Automatically dodge the next   |
+|           |     |            |          |attack                         |
+|Meditate   |30   |1 Minute    |10 Seconds|Automatically gains TP         |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|   White Mage/Ninja    |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Once again, not a recommend sub-job for a White Mage. I don't even recommend
+subbing a Ninja at lower levels as most all other jobs are much more useful
+than that of a Ninja. Dual Wield is nice, however it's the only thing decent
+you'll probably get out of this sub.
+
+Pros:
+- Dual Wield.
+ * Wielding two one-handed clubs for stats.
+Cons:
+- No MP Gain.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |34   |22   |8  |7  |8  |8  |7  |9  |8  |
+|Elvaan   | 1/1 |36   |20   |9  |7  |9  |7  |6  |10 |8  |
+|Tarutaru | 1/1 |30   |28   |7  |7  |8  |9  |9  |9  |8  |
+|Mithra   | 1/1 |34   |22   |8  |9  |8  |9  |7  |9  |7  |
+|Galka    | 1/1 |39   |16   |9  |7  |10 |8  |7  |9  |7  |
+|-------------------------------------------------------|
+|Hume     |20/10|290  |155  |21 |19 |21 |21 |20 |24 |22 |
+|Elvaan   |20/10|311  |134  |24 |18 |23 |18 |17 |27 |22 |
+|Tarutaru |20/10|229  |218  |18 |19 |20 |23 |25 |23 |22 |
+|Mithra   |20/10|290  |155  |20 |24 |20 |24 |20 |23 |19 |
+|Galka    |20/10|352  |101  |23 |19 |26 |20 |19 |24 |19 |
+|-------------------------------------------------------|
+|Hume     |70/35|1027 |505  |62 |55 |62 |59 |57 |70 |63 |
+|Elvaan   |70/35|1138 |434  |70 |51 |66 |51 |49 |78 |63 |
+|Tarutaru |70/35|816  |718  |54 |55 |58 |63 |69 |66 |63 |
+|Mithra   |70/35|1027 |505  |58 |67 |58 |67 |57 |66 |55 |
+|Galka    |70/35|1279 |326  |66 |55 |74 |55 |53 |70 |55 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Stealth        |5    |Less chance of being detected by enemies |
+|Resist Blind   |10   |Slight resistance against blind          |
+|Dual Wield     |10   |Allows you to equip two weapons at once  |
+|Dual Wield     |25   |Allows you to equip two weapons at once  |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|None       |None |None        |None      |None                           |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|  White Mage/Dragoon   |
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+Last but not least, Dragoon. Like most other melee jobs, definitely not a
+recommended job to be. You can't summon a wyvern while it's subbed and the
+job traits are utterly useless to a White Mage.
+
+Pros:
+- Moderate HP Gain.
+- Ancient Circle (Ability)
+Cons:
+- No MP Gain.
+- No Wyvern.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Race     |Level|HP   |MP   |STR|DEX|VIT|AGI|INT|MND|CHR|
+|-------------------------------------------------------|
+|Hume     | 1/1 |35   |22   |8  |6  |8  |7  |7  |9  |9  |
+|Elvaan   | 1/1 |37   |20   |9  |6  |9  |6  |6  |10 |9  |
+|Tarutaru | 1/1 |31   |28   |7  |6  |8  |8  |9  |9  |9  |
+|Mithra   | 1/1 |35   |22   |8  |8  |8  |8  |7  |9  |8  |
+|Galka    | 1/1 |40   |16   |9  |6  |10 |7  |7  |9  |8  |
+|-------------------------------------------------------|
+|Hume     |20/10|295  |155  |22 |18 |21 |20 |19 |25 |23 |
+|Elvaan   |20/10|316  |134  |25 |17 |23 |17 |16 |28 |23 |
+|Tarutaru |20/10|234  |218  |19 |18 |20 |22 |24 |24 |23 |
+|Mithra   |20/10|295  |155  |21 |23 |20 |23 |19 |24 |20 |
+|Galka    |20/10|357  |101  |24 |18 |26 |19 |18 |25 |20 |
+|-------------------------------------------------------|
+|Hume     |70/35|1045 |505  |63 |53 |62 |57 |55 |72 |66 |
+|Elvaan   |70/35|1156 |434  |71 |49 |66 |49 |47 |80 |66 |
+|Tarutaru |70/35|834  |718  |55 |53 |58 |61 |67 |68 |66 |
+|Mithra   |70/35|1045 |505  |59 |65 |58 |65 |55 |68 |58 |
+|Galka    |70/35|1297 |326  |67 |53 |74 |53 |51 |72 |58 |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Trait          |Level|Description                              |
+|---------------------------------------------------------------|
+|Attack Bonus   |10   |Increases physical attack power          |
+|Dragon Killer  |25   |Improves damage versus dragons           |
+|Accuracy Bonus |30   |Increases accuracy of physical attacks   |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Ability    |Level|Re-Use Timer|Duration  |Description                    |
+|-------------------------------------------------------------------------|
+|Ancient    |5    |5 Minutes   |3 Minutes |Raises your parties defense    |
+|  Circle   |     |            |          |versus dragons                 |
+|Jump       |10   |1½ Minutes  |Instant   |A short jumping attack         |
+|High Jump  |35   |3 Minutes   |Instant   |A high jumping attack          |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+---------------------------------------------------------------------------
+Starting Out                                                            010
+---------------------------------------------------------------------------
+
+Starting out as a White Mage is no easy task. It is a little bit more costly
+than most other classes, with the exception of Ninja and Ranger. When you
+buy spells and memorize them, you will never ever lose them. That means if
+you change to a Red Mage, you keep all the spells you learned and you can
+use the ones that are allowable by a Red Mage!
+
+While you begin, make sure to keep up to date on Cure, Protect and -na type
+spells. Those will benefit your party the absolute most, as well as Regen
+and a few others. All I can say is, good luck and enjoy playing a White
+Mage! It won't be as easy as you think.
+
+Be warned, your first 10-12 levels will probably mostly soloing. There are
+not many who party below that due to "bad" experience gain. You can party
+below there but this section here is mainly devoted to soloing and becoming
+use to the game itself. If you do happen to party though, keep it to one
+or two other people until you hit 12.
+
+One more thing before we get into the actual low leveling guide for White
+Mages. You can transfer your nation in the game, so the place you pick does
+not need to be the one you will have in the long run. To transfer, you need
+to talk to some NPC in the town you wish to transfer to and pay him a total
+of 4k, 10k, or 40k. 4k being for if the nation is in Rank 3 and 40k for if
+the nation is in Rank 1. You can find the locations for the NPC's in the
+NPC FAQ on the website here:
+
+http://db.gamefaqs.com/console/ps2/file/final_fantasy_xi_npc.txt
+
+===================================
+Bastok                          011
+===================================
+
+Bastok, the Hume and Galka Capital of Vana'diel. A very small and compact
+city, which is easy to get around in. Specializing in melee jobs for the
+most part, this town is not recommended what so ever to start in as a
+mage-type job. Ring is also pretty useless for a White Mage, but it still
+helps none-the-less.
+
+Bastokan ring
+- 3 HP
+- 1 Vitality
+- 1 Dexterity
+
+===================================
+San d'Oria                      012
+===================================
+
+San d'Oria, the Elvaan Capital. If you picked your race to be an Elvaan,
+this is most likely the Nation you want to start in, even if you are a White
+Mage. I say that so you get the nations ring. It may not look good but it's
+a great ring for a White Mage to start with. I say it is better than then
+Windurstian Ring because 2 Defense and 1 Mind will do more for you than 3
+MP and 1 Agility at lower levels.
+
+San d'Orian Ring
+- 2 Defense
+- 1 Strength
+- 1 Mind
+
+-----------------------
+Leveling 1 to 3
+-----------------------
+
+Don't be afraid to take some time and get use to the controls before you
+start exploring. All low level monsters should be right outside the city
+limits, giving you easy access without going far and being able to stay
+away from aggressive monsters.
+
+East & West Ronfaure
+- Tunnel Worms
+- Wild Rabbits
+
+Either Ronfaure is a good place to begin your travels outside of town. Out
+of the two monsters listed above, you'll find that Tunnel Worms will be a
+bit easier than a Wild Rabbit, despite their level being the same. That is
+because Worms are magic users, if you're not within melee distance, they
+will cast spells on you as often as possible. So keep it in mind to stay
+close and melee.
+
+-----------------------
+Leveling 3 to 5
+-----------------------
+
+As soon as you hit level 3, it is wise to expand your explored territory a
+little and get use to your surroundings. Hopefully by now you should know
+the basics on fighting. You should now start being careful because of some
+aggressive monsters you may meet. Aggressive monsters such as orcs and
+goblins.
+
+East Ronfaure
+- Carrion Worm
+- Ding Bats
+- Forest Hare
+- Pugil
+- Mouse Bat
+- Scarab Beetle
+- Orcish Fodder
+- Goblin Thug
+- Goblin Fisher
+
+Monsters now begin to be spread out a bit more, but no worries, you can
+still easily find them. Try to stick to monsters listed above and try not
+to attack Funguar as they have a long lasting poison which can easily take
+you out after battle. I don't recommend fighting them right away, at least
+not until you get the spell Poisona. Be weary of aggressive monsters which
+consist of Orcs, Goblins, Undead and Bombs.
+
+West Ronfaure
+- Carrion Worm
+- Ding Bats
+- Forest Hare
+- Mouse Bat
+- Scarab Beetle
+- Orcish Fodder
+
+Just like East Ronfaure, spread out and try to stick to the monsters listed
+above. Keep away from the even and higher level monsters for they can kill
+you fairly easily most of the time, it's not always worth the gamble.
+
+-----------------------
+Leveling 5 to 8
+-----------------------
+
+Now that you've hit five, go sell all your stuff in town or in the auction
+house, whichever will provide more money. After you've got that money, go
+buy a hammer! You won't regret it, it is your best leveling weapon while
+you are soloing.
+
+East Ronfaure
+- Goblin Fisher
+- Goblin Thug
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+- Enchanted Bones (Night Only)
+- Goblin Weaver
+- Goblin Digger
+- Tainted Hound (Night Only)
+- Wild Sheep
+
+Now you can almost explore the entire map without much worry. Towards the
+bottom of the map, you'll find it to be the hardest in terms of monster
+levels. Just be careful of Orcish Grapplers as they are not mage job
+friendly at all.
+
+West Ronfaure
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+- Goblin Thug
+- Goblin Weaver
+- Enchanted Bones (Night Only)
+- Goblin Digger
+- Goblin Fisher
+- Tainted Hound (Night Only)
+- Wild Sheep
+
+Like East Ronfaure, the further south you go the harder the monsters tend
+to get. Once again, be weary of Orcish Grapplers and you should be fine.
+
+Ghelsba Outpost
+- Watch Lizards
+- Toadstool
+- Cheiropetra
+- Ghelsba Pugil
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+
+A highly sought out gil farming ground, making this place slightly more
+difficult to level in. The location of the entrance to here is located
+in West Ronfaure at E-4. You can buy the map for here in North San d'Oria
+from an NPC next to a fountain. Just be sure to watch out for getting a
+big mob of monsters on you as Orcs link as well as Watch Lizards. Also be
+careful of Orcish Grapplers, they are once again, not good for any
+mage-type job.
+
+King Ranperre's Tomb
+- Mouse Bat
+- Enchanted Bones (Night Only)
+- Goblin Thug
+- Goblin Weaver
+- Stone Eater
+
+The Tomb is located in the bottom left of East Ronfaure in H-11. The Tomb
+itself isn't a terribly good place to level. However, if you're on Mission
+2 of San d'Oria, you'll need to come here into I-10 of the Tomb map. To
+get the map though, you must complete a quest which is initially started
+in North San d'Oria by the Woodworkers/Carpenters Guild. Just make sure
+not to go in any further when you start seeing Goblin Tinkerers and Wind
+Bats.
+
+-----------------------
+Leveling 8 to 10
+-----------------------
+
+Leveling now has slowed down a lot. You can actually take a party and go
+to La Thiene Plateau and level up a bit there, but be careful if you do
+decide to do that. Otherwise, if your with just one other person then you
+can go ahead and stay in the listed solo areas.
+
+East Ronfaure
+- Goblin Fisher
+- Goblin Thug
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+- Enchanted Bones (Night Only)
+- Goblin Weaver
+- Goblin Digger
+- Tainted Hound (Night Only)
+- Wild Sheep
+- Bomb
+
+Just like levels 5 to 8, you'll be fighting the same things again. Just
+head to the southern areas of the map for the strongest monsters on the
+map. Be careful of bombs, they are levels 8-10 and have an ability to
+self-destruct which can do a LOT of damage, if he starts using the
+ability, you may want to run as far away as possible. If you do not
+think you can make it, then heal yourself up to full and hope it does
+not kill you.
+
+West Ronfaure
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+- Goblin Thug
+- Goblin Weaver
+- Enchanted Bones (Night Only)
+- Goblin Digger
+- Goblin Fisher
+- Tainted Hound (Night Only)
+- Wild Sheep
+- Bomb
+
+Just refer to the East Ronfaure description above, it's virtually the
+same thing except a different map.
+
+Ghelsba Outpost
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+- Orcish Stonelauncher
+
+Leveling has become harder now that there are less monsters you can go
+after. Be very careful of Stonelaunchers and do not try them until you
+are level 9, possibly 10. This isn't the best place to level at 9, but
+produces more experience than either Ronfaure if it isn't overly camped.
+
+King Ranperre's Tomb
+- Stone Eater
+
+Due to lack of monsters your level here without going deeper in with more
+hazardous monsters like Goblin Tinkerers, this is not a very good place
+to level at your levels.
+
+La Theine Plateau
+- Gale Bats
+- Steppe Hare
+- Strolling Sapling
+- Rock Eater
+- Acro Bat
+- Goblin Thug
+- Goblin Fisher
+- Goblin Weaver
+- Orcish Fodder
+- Orcish Grappler
+- Orcish Mesmerizer
+
+The Plateau is found by going through West Ronfaure at F-12, which is
+marked on the map. You can buy the map to the Plateau in the same place
+that you bought the map for Ghelsba. If you don't know where, scroll up
+and read the first Ghelsba insert. I do not recommend this place until
+you are at least level 9, usually 10 without a group. I say that because
+you are just now getting into partying, if not you will be fairly soon.
+It is a very wise idea to get down the partying basics as soon as
+possible and learn all the tricks you can.
+
+
+===================================
+Windurst                        013
+===================================
+
+Windurst, the Capital for Mithra and TaruTaru. A capital with a lot of
+natural beauty. Natural because you are basically living inside of nature
+itself (inside pun). A very good place to start for a mage-type job. I
+would definitely recommend this town as it will be slightly easier for a
+White Mage to level than that of the other two towns. You might also make
+a nice profit off of Silk Threads from Crawlers, if you know what you are
+doing. It may seem like a huge city and hard to navigate, but do not worry,
+there is a way around it. There are some NPC's that will quick warp you to
+other various sections of the town, giving you quick access all over. The
+Ring of Windurst would be great for a Black Mage, but you are a White Mage.
+Intelligence does little for a White Mage except for a few divine spells,
+which you don't get until later levels anyways. (at least for the most part)
+
+indurstian Ring
+- 3 MP
+- 1 Agility
+- 1 Intelligence
+
+
+---------------------------------------------------------------------------
+Macros                                                                  014
+---------------------------------------------------------------------------
+
+Macros are set commands within a game that can be activated at the touch of
+a button. They can perform many preset actions, spells, commands, and other
+stuff.
+
+To get to the area to edit your macros, first use the dash (-) key on your
+numeric pad twice, or click the scrollball on your mouse twice. Then select
+the "Macro" tab from the menu. Select any macro you want to edit, there are 
+10 different sets of macro's you can have pre-set for different occasions.
+To switch to a different macro set, open up the macro tab and push the up or
+down arrows to switch. You can also switch by holding Ctrl or Alt and using
+the up or down arrows if you're not in the macro tab in the menu.
+
+Setting up a macro is pretty simple once you do it a couple times, the
+abbreviation with variables instead of having to edit people's names or type
+them out. It is also recommended that you keep the text you use in macros
+to a bare minimum, it seems to easily frustrate people.
+
+Some people tend to call them tags, dependent commands or abbreviations. I
+just happen to call them variables myself and will use that as a term for
+them in this FAQ/Guide.
+
+-------------------
+      <t>     
+-------------------
+
+Description: Uses the current target for whatever purpose the command was
+             set up for.
+
+Example: 
+- /say Hello <t>, how are you today?
+  or
+- /ma "Cure" <t>
+
+-------------------
+    <stpc>    
+-------------------
+
+Description: Sub-targets player characters. This means that while you are
+             targeted with someone or something else, you may use this in
+             a command which brings up an arrow to select someone inside
+             of your party. Very useful for healing in parties.
+
+Example: 
+- /ma "Cure" <stpc>
+
+-------------------
+     <me>    
+-------------------
+
+Description: Puts your name in there so basically you don't have to
+
+Example: 
+- /ma "Cure" <me> 
+
+-------------------
+     <bt>    
+-------------------
+
+Description: Targets the monster your party is currently targeting and
+             is highlighted in red. If you are under attack by multiple
+             monsters, it targets the first monster which was targeted.
+             It can be cycled through, just like <stpc>.
+
+Example: 
+- /ma "Slow" <bt> 
+
+-------------------
+     <ht>    
+-------------------
+
+Description: Targets a monster that a person has called for help with. It
+             will target them in order of who called help first and so on.
+             In case multiple people called for help. Also cycles, like
+             <bt> and <stpc>
+
+Example: 
+- /ma "Holy" <ht> 
+
+-------------------
+ <p0> to <p5>
+-------------------
+
+Description: Targets people in your party, 0 being the person at the top,
+             who always happens to be you. 1-5 is everyone in order from
+             the top to the bottom.
+
+Example: 
+- /ma "Cure II" <p3> 
+
+-------------------
+<p10> to <p15>
+-------------------
+
+Description: Targets the upper alliance party members. This works the same
+             way as <p0> through <p5> except it targets your first made
+             alliance with another party. This party table appears as the
+             top one of the two alliance tables.
+
+Example: 
+- /ma "Cure II" <p12> 
+
+-------------------
+<p20> to <p25>
+-------------------
+
+Description: Targets the lower alliance party members. This works the same
+             way as <p0> through <p5> except it targets your second made
+             alliance with another party. This party table appears as the
+             bottom one of the two alliance tables.
+
+Example: 
+- /ma "Cure III" <p24> 
+
+-------------------
+     <tp>
+-------------------
+
+Description: Tells your current TP. Shows it in percentages as well.
+
+Example: 
+- /p I have <tp> tp to use! 
+
+-------------------
+  <hp> & <mp>
+-------------------
+
+Description: Tells your current HP or MP. It strictly shows the current
+             number of HP or MP you have at that given moment.
+
+Example: 
+- /p I only have <hp> left!
+
+-------------------
+ <hpp> & <mpp>
+-------------------
+
+Description: Tells your current HP or MP in percent at that given moment.
+
+Example: 
+- /p Most my of MP is gone! I have <mpp> left.
+
+-------------------
+     <pos>
+-------------------
+
+Description: Tells your current position on the map. It does not give the
+             map name in which you are currently located on.
+
+Example: 
+- /party I am at <pos>. 
+
+-------------------
+<call1> to <call21>
+-------------------
+
+Description: Activates a sound in all party members PC's, hopefully 
+             catching their attention.
+
+Example:
+- /p Wake up people! A monster spawned behind us! <call4>
+
+-------------------
+       /a
+-------------------
+
+Description: Go into auto-attack. Often used with the variable <t>.
+
+Example:
+- /a <t>
+
+-------------------
+    /lockon
+-------------------
+
+Description: Locks or Un-Locks on to the current target. If you unlock
+             it makes it easier to run without having to take the time
+             to put up your weapon if you have it out. Used in junction
+             with <t>.
+
+Example:
+- /lockon <t>
+
+-------------------
+      /ma
+-------------------
+
+Description: Shortcut for /magic, requires a spell and target.
+
+Example:
+- /ma "Cure II" <t>
+
+-------------------
+      /ws
+-------------------
+
+Description: Shortcut for /weaponskill, requires a skill and target. 
+
+Example:
+- /ws "Shining Strike" <bt>
+
+-------------------
+      /ja
+-------------------
+
+Description: Shortcut for /jobability, requires an ability and target. 
+
+Example:
+- /ja "Mighty Strikes" <me>
+
+-------------------
+     /ra
+-------------------
+
+Description: Shortcut for /range, requires a target.  
+
+Example:
+- /ra <bt>
+
+-------------------
+    /wait #
+-------------------
+
+Description: Sets a timer to wait to perform the next command. You
+             can only set the # up to 25. Often used in junction with
+             other spells.
+
+Example:
+- /ma "Protect" <t>
+- /wait 3
+- /ma "Shell" <t>
+
+-------------------
+   /echo <text>
+-------------------
+
+Description: Echo's a specific phrase to you and you only, most often
+             used in Provoke macros with a wait timer attached.
+
+Example:
+- /echo You just used Benediction!
+
+-------------------
+ /? <command>
+-------------------
+
+Description: The /? by itself will bring up a list of commands useable.
+             You can add the command after the /? to get a detailed
+             description of that command.
+
+Example:
+- /? /wait
+
+===================
+
+Other useful tips: 
+
+When you make a macro for a spell, ability or skill with multiple words in
+it, you absolutely need to put the entire spell/ability/skill in quotes.
+
+===================
+
+While making macros for a White Mage, you might find it easier to use some
+macros where it uses the current target to heal them. You may also find it
+easier to skip macros all together. I however find it easiest to make use
+of <stpc> and <bt> the most while being a white mage and any other job for
+that matter!
+
+If you want to know more about Macros, I suggest checking out hpsolo's
+excellent Macro Guide which explains this in much more detail. It is located
+at:
+
+http://db.gamefaqs.com/console/ps2/file/final_fantasy_xi_macros.txt
+
+You can also get a more complete list of variables in this guide, here:
+
+http://db.gamefaqs.com/computer/doswin/file/final_fantasy_xi_commands.txt
+
+---------------------------------------------------------------------------
+Partying                                                                015
+---------------------------------------------------------------------------
+
+Being a White Mage will provide many invites to random party's. It is wise
+to make sure you're using your abilities to your full potential to benefit
+your party. Referring to the Macro's section above can be very beneficial to
+you and your party, so be sure to get use to them.
+
+You should probably begin to party shortly after you hit 10, so when you
+start getting into tougher areas, you'll have a general idea of what to do.
+This section will not provide you with every helpful tip on becoming a
+successfull White Mage in a party. Depending on a guide for such things is
+not always good as everyone has a different feel for the game. However, here
+are a few tips that you may want to take interest in that I have found
+useful.
+
+- "Die monster, die! *Goes into attack mode*"
+
+Very bad idea. First of all, this is only really doable for the first dozen
+levels or so while monsters hit you for low damage. Attacking can create
+unnecessary hate which can ultimately draw more hate onto you, so it is very
+recommended that you don't go attacking monsters past level 10. Don't forget
+about those area of effect spells and skills that monsters do too. :P
+
+- "Eeek! I just got hit! What should I do..?"
+
+First of all, you should stay calm if you get hit. If you start running away
+it can create problems for your party. If you have a Paladin or a Red Mage
+in you party, you should establish before-hand that he is the one to heal
+you if you do happen to get hit so the hate will come back unto him quicker.
+Although, at lower levels, (1-10) you'll find it that you will be able to
+take hits, so if you do happen to party before then, it isn't as big of a
+problem yet.
+
+- "What is hate...? I don't understand..."
+
+"Hate" is basically how much a monster hates you. The more the monster hates
+you, the more inclined it is to attack you. Hate is generated by actions you
+do while a monster is attacking you or someone else. You as a White Mage
+should try to keep as little hate on you as possible.
+
+- "Yay! I just got a new Cure spell!! Should I use it right away?"
+
+The answer is no, you shouldn't use it often right away. Keep using your
+lower level Cure as your new Cure spell will be less mana efficient and can
+put you and your party into tight spots.
+
+Example:
+Cure I  ->  8 MP -> Cure for 30 HP
+Cure II -> 24 MP -> Cure for 78 HP
+
+In that scenario, you would use Cure I all the time, except for when there
+is a party member in low health in your party, then you would use Cure II.
+
+- "Hey, what do these Bar- spells do?"
+
+Bar spells are spells that increase or enhance your resistance to a certain
+element or a status effect. Since the December 15th update, they have been
+supposedly re-vamped, so they may be useful. Aside from that, elemental
+resistance Bar spells do help, even if it's just a little. Just be sure to
+cast these before battle.
+
+- "Hey, a status effect was just inflicted on a party member!"
+
+When a status effect is inflicted on a party member, it is usually wise to
+wait until the battle subsides, then go and use a -na spell to cure him or
+her. Using it in battle can have two effects. One, it creates hate and
+second, it could just be re-cast onto him or her by the monster, ultimately
+wasting MP.
+
+- "Protect and Protectra...huh?"
+
+Protect is the same as Protectra with one difference. Protectra is cast on
+all party members within the area of effect. Be sure to use the "-ra" area
+spells while in a party, such as Protectra and Shellra. You may need to
+tell your party to gather around when you are casting it though, as not to
+waste MP.
+
+- "Slow.. Paralyze... Silence... are they really that useful?"
+
+The answer is yes, they are very useful. Always cast them at the start of
+the battle. However if you're the main healer and someone else can cast the
+spell, then by all means have them cast it. You do not want unnecessary hate
+which might get you killed, causing problems for your party and you.
+
+- "Should I keep my parties health at full at all times?"
+
+Yes and no, it depends what you're fighting truthfully. If the monster has
+strong area of attack spells, then you should keep your entire party's HP
+as high as possible, but it doesn't need to be full. If not, then just
+heal them whenever they actually need to be healed or outside of battle.
+
+- "Regen doesn't seem to useful..."
+
+Of course it doesn't seem useful, it only heals small amounts when it does
+heal. Although it is VERY useful as it does it repeatedly, lessening your
+constant healing of the main tank. Be sure to cast it on the main tank
+before battle, otherwise you create unnecessary hate.
+
+---------------------------------------------------------------------------
+Spells                                                                  016
+---------------------------------------------------------------------------
+
+===================================
+Descriptions                    017
+===================================
+
+All White Mage spells listed in alphabetical order with their appropriate
+descriptions and such.
+
+-----------------------
+Aquaveil
+-----------------------
+Level: 10
+MP: 12
+Element: Water
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Reduces chances of being interrupted while casting from damage.
+
+-----------------------
+Banish
+-----------------------
+Level: 5
+MP: 18
+Element: Light
+Type: Divine
+Cast Time: 2 Second(s)
+Re-cast Time: 15 Second(s)
+Description: Deals light elemental damage to an enemy.
+
+-----------------------
+Banish II
+-----------------------
+Level: 30
+MP: 74 (57?) Need confirmation
+Element: Light
+Type: Divine
+Cast Time: 3.75 Second(s)
+Re-cast Time: 30 Second(s)
+Description: Deals light elemental damage to an enemy.
+
+-----------------------
+Banish III
+-----------------------
+Level: 55
+MP: 130
+Element: Light
+Type: Divine
+Cast Time: 4.5 Second(s)
+Re-cast Time: 45 Second(s)
+Description: Deals light elemental damage to an enemy.
+
+-----------------------
+Banishga
+-----------------------
+Level: 15
+MP: 115
+Element: Light
+Type: Divine
+Cast Time: 2.75 Second(s)
+Re-cast Time: 15 Second(s)
+Description: Deals light elemental damage to enemies within area of effect.
+
+-----------------------
+Banishga II
+-----------------------
+Level: 40
+MP: 243
+Element: Light
+Type: Divine
+Cast Time: 4.5 Second(s)
+Re-cast Time: 30 Second(s)
+Description: Deals light elemental damage to enemies within area of effect.
+
+-----------------------
+Banishga III
+-----------------------
+Level: 65
+MP: 369
+Element: Light
+Type: Divine
+Cast Time: 5.75 Second(s)
+Re-cast Time: 45 Second(s)
+Description: Deals light elemental damage to enemies within area of effect.
+
+-----------------------
+Barera
+-----------------------
+Level: 13
+MP: 12
+Element: Ice
+Type: Enhancing
+Cast Time: .5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases wind resistance of party members within area
+             of effect.
+
+-----------------------
+Barblindra
+-----------------------
+Level: 18
+MP: 26
+Element: Light
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases blind resistance of party members within area
+             of effect.
+
+-----------------------
+Barblizzara
+-----------------------
+Level: 21
+MP: 12
+Element: Fire
+Type: Enhancing
+Cast Time: .5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases ice resistance of party members within area
+             of effect.
+
+-----------------------
+Barfira
+-----------------------
+Level: 17
+MP: 18
+Element: Water
+Type: Enhancing
+Cast Time: .5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases fire resistance of party members within area
+             of effect.
+
+-----------------------
+Barparalyzra
+-----------------------
+Level: 12
+MP: 22
+Element: Fire
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases paralysis resistance of party members within
+             area of effect.
+
+-----------------------
+Barpetra
+-----------------------
+Level: 43
+MP: 40
+Element: Wind
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases petrification resistance of party members within
+             area of effect.
+
+-----------------------
+Barpoisonra
+-----------------------
+Level: 10
+MP: 18
+Element: Lightning
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases poison resistance of party members within
+             area of effect.
+
+-----------------------
+Barsilencera
+-----------------------
+Level: 23
+MP: 30
+Element: Ice
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases silence resistance of party members within
+             area of effect.
+
+-----------------------
+Barsleepra
+-----------------------
+Level: 7
+MP: 14
+Element: Light
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases sleep resistance of party members within
+             area of effect.
+
+-----------------------
+Barstonra
+-----------------------
+Level: 5
+MP: 12
+Element: Wind
+Type: Enhancing
+Cast Time: .5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases earth resistance of party members within
+             area of effect.
+
+-----------------------
+Barthundra
+-----------------------
+Level: 25
+MP: 12
+Element: Earth
+Type: Enhancing
+Cast Time: .5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases lightning resistance of party members within
+             area of effect.
+
+-----------------------
+Barvira
+-----------------------
+Level: 53 (39?) Need confirmation
+MP: 60 (50?) Need confirmation
+Element: Water
+Type: Enhancing
+Cast Time: 5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases virus resistance of party members within
+             area of effect.
+
+
+-----------------------
+Barwatera
+-----------------------
+Level: 9
+MP: 12
+Element: Lightning
+Type: Enhancing
+Cast Time: .5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Increases water resistance of party members within
+             area of effect.
+
+-----------------------
+Banishga
+-----------------------
+Level: 15
+MP: 44
+Element: Light
+Type: Divine
+Cast Time: 2.75 Second(s)
+Re-cast Time: 15 Second(s)
+Description: Deals light elemental damage to enemies within
+             area of effect.
+
+-----------------------
+Banishga II
+-----------------------
+Level: 40
+MP: 120
+Element: Light
+Type: Divine
+Cast Time: 4.5 Second(s)
+Re-cast Time: 30 Second(s)
+Description: Deals light elemental damage to enemies within
+             area of effect.
+
+-----------------------
+Blindna
+-----------------------
+Level: 14
+MP: 16
+Element: Light
+Type: Healing
+Cast Time: 3 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Removes target's blindness.
+
+-----------------------
+Blink
+-----------------------
+Level: 19
+MP: 20
+Element: Wind
+Type: Enhancing
+Cast Time: 6 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Creates shadow images that each absorb a single attack
+directed at you.
+
+-----------------------
+Curaga
+-----------------------
+Level: 16
+MP: 60
+Element: Light
+Type: Healing
+Cast Time: 4.5 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Restores HP of all party members within area of effect.
+
+-----------------------
+Curaga II
+-----------------------
+Level: 31
+MP: 120
+Element: Light
+Type: Healing
+Cast Time: 4.75 Second(s)
+Re-cast Time: 10.25 Second(s)
+Description: Restores HP of all party members within area of effect.
+
+-----------------------
+Curaga III
+-----------------------
+Level: 51
+MP: 180
+Element: Light
+Type: Healing
+Cast Time: 5.5 Second(s)
+Re-cast Time: 10.5 Second(s)
+Description: Restores HP of all party members within area of effect.
+
+-----------------------
+Curaga IV
+-----------------------
+Level: 71
+MP: 240
+Element: Light
+Type: Healing
+Cast Time: 6.25 Second(s)
+Re-cast Time: 10.75 Second(s)
+Description: Restores HP of all party members within area of effect.
+
+-----------------------
+Cure
+-----------------------
+Level: 1
+MP: 8
+Element: Light
+Type: Healing
+Cast Time: 2 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Restores target's HP.
+
+Tips: Max cure is 30
+
+-----------------------
+Cure II
+-----------------------
+Level: 11
+MP: 24
+Element: Light
+Type: Healing
+Cast Time: 2.25 Second(s)
+Re-cast Time: 5.5 Second(s)
+Description: Restores target's HP.
+
+Tips: Max cure is 90
+
+-----------------------
+Cure III
+-----------------------
+Level: 21
+MP: 48
+Element: Light
+Type: Healing
+Cast Time: 2.5 Second(s)
+Re-cast Time: 6 Second(s)
+Description: Restores target's HP.
+
+Tips: Max cure is 180
+
+-----------------------
+Cure IV
+-----------------------
+Level: 41
+MP: 96
+Element: Light
+Type: Healing
+Cast Time: 2.5 Second(s)
+Re-cast Time: 8 Second(s)
+Description: Restores target's HP.
+
+Tip: Max cure is 360
+
+-----------------------
+Cure V
+-----------------------
+Level: 61
+MP: 144
+Element: Light
+Type: Healing
+Cast Time: 2.5 Second(s)
+Re-cast Time: 9 Second(s)
+Description: Restores target's HP.
+
+Tips: Max cure is 540
+
+-----------------------
+Cursna
+-----------------------
+Level: 29
+MP: 30
+Element: Light
+Type: Healing
+Cast Time: 3 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Removes target's curse and bane.
+
+-----------------------
+Deodorize
+-----------------------
+Level: 15
+MP: 10
+Element: Wind
+Type: Enhancing
+Cast Time: 2 Second(s)
+Re-cast Time: 8 Second(s)
+Description: Lowers chance of being attacked from scent driven enemies.
+
+-----------------------
+Dia
+-----------------------
+Level: 3
+MP: 7
+Element: Light
+Type: Enfeebling
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+
+Description: Lowers an enemy's defense and gradually deals light
+             elemental damage over time.
+
+-----------------------
+Dia II
+-----------------------
+Level: 36
+MP: 59
+Element: Light
+Type: Enfeebling
+Cast Time: 1.5 Second(s)
+Re-cast Time: 6 Second(s)
+Description: Lowers an enemy's defense and gradually deals light
+             elemental damage over time.
+
+-----------------------
+Dia III 
+-----------------------
+Level: 69
+MP: 112
+Element: Light
+Type: Enfeebling
+Cast Time: 2 Second(s)
+Re-cast Time: 7 Second(s)
+Description: Lowers an enemy's defense and gradually deals light
+             elemental damage over time.
+
+-----------------------
+Diaga
+-----------------------
+Level: 18
+MP: 12
+Element: Light
+Type: Enfeebling
+Cast Time: 1.5 Second(s)
+Re-cast Time: 6 Second(s)
+Description: Lowers an enemies defense within area of effect
+             and gradually deals light elemental damage over time.
+
+-----------------------
+Diaga II
+-----------------------
+Level: 52
+MP: 60
+Element: Light
+Type: Enfeebling
+Cast Time: 2 Second(s)
+Re-cast Time: 6.5 Second(s)
+Description: Lowers an enemies defense within area of effect
+             and gradually deals light elemental damage over time.
+
+-----------------------
+Erase
+-----------------------
+Level: 32
+MP: 18
+Element: Light
+Type: Enhancing
+Cast Time: 2.5 Second(s)
+Re-cast Time: 15 Second(s)
+Description: Removes one detrimental magic effect from target.
+
+Tip: Detrimental means "damage causing"
+
+-----------------------
+Flash
+-----------------------
+Level: 45
+MP: ??
+Element: Light
+Type: Enfeebling
+Cast Time: ? Second(s)
+Re-cast Time: ? Second(s)
+Description: Temporarily blinds the enemy and greatly lowers its accuracy.
+
+-----------------------
+Haste
+-----------------------
+Level: 40
+MP: 40
+Element: Wind
+Type: Enhancing
+Cast Time: 3 Second(s)
+Re-cast Time: 20 Second(s)
+Description: Increases attack speed of target.
+
+-----------------------
+Holy
+-----------------------
+Level: 50
+MP: 100
+Element: Light
+Type: Divine
+Cast Time: .75 Second(s)
+Re-cast Time: 60 Second(s)
+Description: Deals light elemental damage to an enemy.
+
+-----------------------
+Holy II
+-----------------------
+Level: 102
+MP: ?
+Element: Light
+Type: Divine
+Cast Time: ? Second(s)
+Re-cast Time: ? Second(s)
+Description: Deals light elemental damage to an enemy.
+
+-----------------------
+Invisible
+-----------------------
+Level: 25
+MP: 15
+Element: Wind
+Type: Enhancing
+Cast Time: 3 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Lowers chance of being attacked from sight driven enemies.
+
+-----------------------
+Paralyze
+-----------------------
+Level: 4
+MP: 6
+Element: Ice
+Type: Enfeebling
+Cast Time: 3 Second(s)
+Re-cast Time: 10 Second(s)
+
+Description: Paralyzes target.
+
+-----------------------
+Paralyna
+-----------------------
+Level: 9
+MP: 12
+Element: Light
+Type: Healing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Removes target's paralasis.
+
+-----------------------
+Paralyna
+-----------------------
+Level: 9
+MP: 12
+Element: Light
+Type: Healing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Removes target's paralasis.
+
+-----------------------
+Poisona
+-----------------------
+Level: 6
+MP: 8
+Element: Light
+Type: Healing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Removes target's poison.
+
+-----------------------
+Protect
+-----------------------
+Level: 7
+MP: 9
+Element: Light
+Type: Enhancing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Improves target's defense.
+
+-----------------------
+Protect II
+-----------------------
+Level: 27
+MP: 28
+Element: Light
+Type: Enhancing
+Cast Time: 1.75 Second(s)
+Re-cast Time: 5.25 Second(s)
+Description: Improves target's defense.
+
+-----------------------
+Protect III
+-----------------------
+Level: 47
+MP: 46
+Element: Light
+Type: Enhancing
+Cast Time: 1.5 Second(s)
+Re-cast Time: 5.5 Second(s)
+Description: Improved target's defense.
+
+-----------------------
+Protect IV
+-----------------------
+Level: 67
+MP: 65 (64?) Need confirmation
+Element: Light
+Type: Enhancing
+Cast Time: 1.75 Second(s)
+Re-cast Time: 5.75 Second(s)
+Description: Improves target's defense.
+
+-----------------------
+Protect V
+-----------------------
+Level: 87
+MP: 84
+Element: Light
+Type: Enhancing
+Cast Time: 2 Second(s)
+Re-cast Time: 6 Second(s)
+Description: Improves target's defense.
+
+-----------------------
+Protectra
+-----------------------
+Level: 7
+MP: 9
+Element: Light
+Type: Enhancing
+Cast Time: 3 Second(s)
+Re-cast Time: 15 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Protectra II
+-----------------------
+Level: 27
+MP: 28
+Element: Light
+Type: Enhancing
+Cast Time: 3.75 Second(s)
+Re-cast Time: 16 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Protectra III
+-----------------------
+Level: 47
+MP: 46
+Element: Light
+Type: Enhancing
+Cast Time: 4.5 Second(s)
+Re-cast Time: 17 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Protectra IV
+-----------------------
+Level: 67
+MP: 64
+Element: Light
+Type: Enhancing
+Cast Time: 5.25 Second(s)
+Re-cast Time: 18 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Protectra V
+-----------------------
+Level: 90
+MP: 84
+Element: Light
+Type: Enhancing
+Cast Time: 6 Second(s)
+Re-cast Time: 19 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Raise
+-----------------------
+Level: 25
+MP: 150
+Element: Light
+Type: Healing
+Cast Time: 15 Second(s)
+Re-cast Time: 60 Second(s)
+Description: Revives a target from KO.
+
+Tip: 25% EXP is gained back from death, upon being raised.
+
+-----------------------
+Raise II
+-----------------------
+Level: 56
+MP: 200
+Element: Light
+Type: Healing
+Cast Time: 15 Second(s)
+Re-cast Time: 60 Second(s)
+Description: Revives a target from KO.
+
+Tip: 75% EXP is gained back from death, upon being raised.
+
+-----------------------
+Raise III
+-----------------------
+Level: 70
+MP: 250
+Element: Light
+Type: Healing
+Cast Time: 15 Second(s)
+Re-cast Time: 60 Second(s)
+Description: Revives a target from KO.
+
+Tip: 100% EXP is gained back from death, upon being raised.
+
+-----------------------
+Re-raise
+-----------------------
+Level: 33
+MP: 150
+Element: Light
+Type: Healing
+Cast Time: 8 Second(s)
+Re-cast Time: 60 Second(s)
+Description: "Raises" someone from the dead, removing KO status. This takes
+             place when the person is killed, so cast it beforehand.
+
+-----------------------
+Re-raise II
+-----------------------
+Level: 60
+MP: 150
+Element: Light
+Type: Healing
+Cast Time: ? Second(s)
+Re-cast Time: ? Second(s)
+Description: "Raises" someone from the dead, removing KO status. This takes
+             place when the person is killed, so cast it beforehand.
+
+-----------------------
+Re-raise III
+-----------------------
+Level: 75
+MP: 150
+Element: Light
+Type: Healing
+Cast Time: ? Second(s)
+Re-cast Time: ? Second(s)
+Description: "Raises" someone from the dead, removing KO status. This takes
+              place when the person is killed, so cast it beforehand.
+
+-----------------------
+Regen
+-----------------------
+Level: 21
+MP: 15
+Element: Light
+Type: Enhancing
+Cast Time: 4 Second(s)
+Re-cast Time: 12 Second(s)
+Description: Gradually restores targets HP over time
+
+-----------------------
+Regen II
+-----------------------
+Level: 44
+MP: 36
+Element: Light
+Type: Enhancing
+Cast Time: ? Second(s)
+Re-cast Time: ? Second(s)
+Description: Gradually restores targets HP over time.
+
+Tip: Regains 12 HP every 3 seconds.
+
+-----------------------
+Regen III
+-----------------------
+Level: 66
+MP: ?
+Element: Light
+Type: Enhancing
+Cast Time: ? Second(s)
+Re-cast Time: ? Second(s)
+Description: Gradually restores targets HP over time.
+
+-----------------------
+Shell
+-----------------------
+Level: 17
+MP: 18
+Element: Light
+Type: Enhancing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Improves target's magic resistance.
+
+-----------------------
+Shell II
+-----------------------
+Level: 37
+MP: 37
+Element: Light
+Type: Enhancing
+Cast Time: 1.25 Second(s)
+Re-cast Time: 5.25 Second(s)
+Description: Improves target's magic resistance.
+
+-----------------------
+Shell III
+-----------------------
+Level: 57
+MP: 56
+Element: Light
+Type: Enhancing
+Cast Time: 1.5 Second(s)
+Re-cast Time: 5.5 Second(s)
+Description: Improves target's magic defense.
+
+-----------------------
+Shellra
+-----------------------
+Level: 17
+MP: 18
+Element: Light
+Type: Enhancing
+Cast Time: 3 Second(s)
+Re-cast Time: 15 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Shellra II
+-----------------------
+Level: 37
+MP: 37
+Element: Light
+Type: Enhancing
+Cast Time: 3.75 Second(s)
+Re-cast Time: 16 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Shellra III
+-----------------------
+Level: 57
+MP: 56
+Element: Light
+Type: Enhancing
+Cast Time: 4.5 Second(s)
+Re-cast Time: 17 Second(s)
+Description: Improves defense of party members within area of effect.
+
+-----------------------
+Silena
+-----------------------
+Level: 19
+MP: 24
+Element: Light
+Type: Healing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Removes targets silence and mute.
+
+-----------------------
+Silence
+-----------------------
+Level: 15
+MP: 16
+Element: Wind
+Type: Enfeebling
+Cast Time: 3 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Makes target enemy unable to use spells.
+
+-----------------------
+Slow
+-----------------------
+Level: 13
+MP: 15
+Element: Earth
+Type: Enfeebling
+Cast Time: 2 Second(s)
+Re-cast Time: 20 Second(s)
+Description: Reduces target enemy's attack speed.
+
+-----------------------
+Sneak
+-----------------------
+Level: 20
+MP: 12
+Element: Wind
+Type: Enhancing
+Cast Time: 3 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Lowers chance of being attacked from sound driven enemies.
+
+-----------------------
+Stona
+-----------------------
+Level: 39
+MP: 40
+Element: Light
+Type: Healing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Removes target's petrification.
+
+-----------------------
+Stoneskin
+-----------------------
+Level: 28
+MP: 29
+Element: Earth
+Type: Enhancing
+Cast Time: 7 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Absorbs a certain amount of damage from
+             physical and magical attacks.
+
+-----------------------
+Teleport-Altep
+-----------------------
+Level: 38
+MP: 100
+Element: Wind
+Type: Enhancing
+Cast Time: 20 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Teleports qualified party members within area of
+             effect to Crag of Altep.
+
+Tip: Sends you to the Telepoint in Altepa Desert East.
+
+-----------------------
+Teleport-Dem
+-----------------------
+Level: 36
+MP: 75
+Element: Wind
+Type: Enhancing
+Cast Time: 20 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Teleports qualified party members within area of
+             effect to Crag of Dem.
+
+Tip: Sends you to the Crag in Konschtat Highlands.
+
+-----------------------
+Teleport-Holla
+-----------------------
+Level: 36
+MP: 75
+Element: Wind
+Type: Enhancing
+Cast Time: 20 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Teleports qualified party members within area of
+             effect to Crag of Holla.
+
+Tip: Sends you to the Crag in La Theine Plateau.
+
+-----------------------
+Teleport-Mea
+-----------------------
+Level: 36
+MP: 75
+Element: Wind
+Type: Enhancing
+Cast Time: 20 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Teleports qualified party members within area of
+             effect to Crag of Mea.
+
+Tip: Sends you to the Crag in Tahrongi Canyon.
+
+-----------------------
+Teleport-Vahzl
+-----------------------
+Level: 42
+MP: 75 (100?) Need confirmation
+Element: Wind
+Type: Enhancing
+Cast Time:  Second(s)
+Re-cast Time: Second(s)
+Description: Teleports qualified party members within area of
+             effect to Crag of Vahzl.
+
+Tip: Sends you to the Telepoint in Xarcabard.
+
+-----------------------
+Teleport-Yhoat
+-----------------------
+Level: 38
+MP: 100
+Element: Wind
+Type: Enhancing
+Cast Time: 20 Second(s)
+Re-cast Time: 10 Second(s)
+Description: Teleports qualified party members within area of
+             effect to Crag of Yhoat.
+
+Tip: Sends you to the Telepoint in Yhoator Jungle.
+
+-----------------------
+Viruna
+-----------------------
+Level: 34
+MP: 48
+Element: Light
+Type: Healing
+Cast Time: 1 Second(s)
+Re-cast Time: 5 Second(s)
+Description: Removes target's disease and plague.
+
+===================================
+Location and Price              018
+===================================
+
+Spell Locations in alphabetical order. Please also note that just because
+you can buy it in a place listed below does not mean it cannot be somewhere
+else as well.
+
+===================================
+Level Order                     019
+===================================
+
+Spells in level order without descriptions and such attached.
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells   1-10    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+Cure
+- Level: 1
+
+Dia
+- Level: 3
+
+Paralyze
+- Level: 4
+
+Banish
+- Level: 5
+
+Barstonra
+- Level: 5
+
+Poisona
+- Level: 6
+
+Protect
+- Level: 7
+
+Protectra
+- Level: 7
+
+Barsleepra
+- Level: 7
+
+Paralyna
+- Level: 9
+
+Barwatera
+- Level: 9
+
+Aquaveil
+- Level: 10
+
+Barpoisonra
+- Level: 10
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  11-20    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+
+Cure II
+- Level: 11
+
+Barparalyzra
+- Level: 12
+
+Barera
+- Level: 13
+
+Slow
+- Level: 13
+
+Blindna
+- Level: 14
+
+Banishga
+- Level: 15
+
+Deodorize
+- Level: 15
+
+Silence
+- Level: 15
+
+Curaga
+- Level: 16
+
+Barfira
+- Level: 17
+
+Shell
+- Level: 17
+
+Shellra
+- Level: 17
+
+Barblindra
+- Level: 18
+
+Diaga
+- Level: 18
+
+Blink
+- Level: 19
+
+Silena
+- Level: 19
+
+Sneak
+- Level: 20
+
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  21-30    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+
+Barblizzara
+- Level: 21
+
+Cure III
+- Level: 21
+
+Regen
+- Level: 21
+
+Barsilencera
+- Level: 23
+
+Barthundra
+- Level: 25
+
+Invisible
+- Level: 25
+
+Raise
+- Level: 25
+
+Protect II
+- Level: 27
+
+Protectra II
+- Level: 27
+
+Stoneskin
+- Level: 28
+
+Cursna
+- Level: 29
+
+Banish II
+- Level: 30
+
+
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  31-40    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+
+Curaga II
+- Level: 31
+
+Erase
+- Level: 32
+
+Reraise
+- Level: 33
+
+Viruna
+- Level: 34
+
+Dia II
+- Level: 36
+
+Teleport-Dem
+- Level: 36
+
+Teleport-Holla
+- Level: 36
+
+Teleport-Mea
+- Level: 36
+
+Shell II
+- Level: 37
+
+Shellra II
+- Level: 37
+
+Teleport-Altep
+- Level: 38
+
+Teleport-Yhoat
+- Level: 38
+
+Barvira
+- Level: 39
+
+Stona
+- Level: 39
+
+Banishga II
+- Level: 40
+
+Haste
+- Level: 40
+
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  41-50    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+Cure IV
+- Level: 41
+
+Teleport-Vahzl
+- Level: 42
+
+Barpetra
+- Level: 43
+
+Regen II
+- Level: 44
+
+Flash
+- Level: 45
+
+Protect III
+- Level: 47
+
+Protectra III
+- Level: 47
+
+Holy
+- Level: 50
+
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  51-60    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+Curaga III
+- Level: 51
+
+Diaga II
+- Level: 52
+
+Banish III
+- Level: 55
+
+Raise II
+- Level: 56
+
+Shell III
+- Level: 57
+
+Shellra III
+- Level: 57
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  61-70    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+Cure V
+- Level: 61
+
+Banishga III
+- Level: 65
+
+Regen III
+- Level: 66
+
+Protect IV
+- Level: 67
+
+Protectra IV
+- Level: 67
+
+Dia III
+- Level: 69
+
+Raise III
+- Level: 70
+
++-+-+-+-+-+-+-+-+-+-+-+
+|    Spells  71-75    |
++-+-+-+-+-+-+-+-+-+-+-+
+
+Curaga IV
+- Level: 71
+
+Reraise III
+- Level: 75
+
+---------------------------------------------------------------------------
+Equipment                                                               020
+---------------------------------------------------------------------------
+
+===================================
+Weapons                         021
+===================================
+
+=-=-=-=-=-=-=-=-=-=-=-=
+Clubs               022
+=-=-=-=-=-=-=-=-=-=-=-=
+
+=-=-=-=-=-=-=-=-=-=-=-=
+Staffs              023
+=-=-=-=-=-=-=-=-=-=-=-=
+
+=-=-=-=-=-=-=-=-=-=-=-=
+Projectiles         024
+=-=-=-=-=-=-=-=-=-=-=-=
+
+===================================
+Armor                           025
+===================================
+=-=-=-=-=-=-=-=-=-=-=-=
+Headgear            026
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Body                027
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Hand                028
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Leg                 029
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Foot                030
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Shields             031
+=-=-=-=-=-=-=-=-=-=-=-=
+===================================
+Accessories                     032
+===================================
+=-=-=-=-=-=-=-=-=-=-=-=
+Headgear            033
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Armlets             034
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Earrings            035
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Neck                036
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Rings               037
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Belts               038
+=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=
+Mantles             039
+=-=-=-=-=-=-=-=-=-=-=-=
+
+---------------------------------------------------------------------------
+Scroll Quests                                                           040
+---------------------------------------------------------------------------
+
+If you would like to add to this, feel free to email us the information at
+omlette@omlette.net or draekon@dark-tempest.com with the subject as
+"FFXI WHM FAQ."
+
+---------------------------------------------------------------------------
+Artifact Quests                                                         041
+---------------------------------------------------------------------------
+If you would like to add to this, feel free to email us the information at
+omlette@omlette.net or draekon@dark-tempest.com with the subject as
+"FFXI WHM FAQ."
+
+---------------------------------------------------------------------------
+Race Specific Equipment                                                 042
+---------------------------------------------------------------------------
+
+If you would like to add to this, feel free to email us the information at
+omlette@omlette.net or draekon@dark-tempest.com with the subject as
+"FFXI WHM FAQ."
+
+---------------------------------------------------------------------------
+Job Specific Equipment                                                  043
+---------------------------------------------------------------------------
+
+If you would like to add to this, feel free to email us the information at
+omlette@omlette.net or draekon@dark-tempest.com with the subject as
+"FFXI WHM FAQ.""
+
+---------------------------------------------------------------------------
+Copyright Notice and Credits                                            044
+---------------------------------------------------------------------------
+
+This FAQ is copyright by omlette and Crudmonk. It may not be modified,
+edited, reproduced, or otherwise distributed through any magazine, web
+site, or other form of media. This FAQ can be reproduced freely for personal
+use. The ONLY web site this should ever appear on is www.GameFAQs.com, where
+the latest and most current version will always be found. If this guide is
+posted anywhere else please contact omlette@omlette.net and/or
+draekon@dark-tempest.com with the subject "FFXI WHM FAQ".
+
+        (c) 2001-2003 SQUARE ENIX CO., LTD. All Rights Reserved. 
+            Title Design by Yoshitaka Amano. FINAL FANTASY, 
+        TETRA MASTER and VANA'DIEL are registered trademarks of 
+         Square Enix Co., Ltd. SQUARE ENIX, PLAYONLINE and the 
+        PlayOnline logo are trademarks of Square Enix Co., Ltd. 
+
+   All trademarks and copyrights contained in this document are owned
+         by their respective trademark and copyright holders.
+
+Thanks to...
+
+CJayC / GameFAQs.com for the great site
+Ninjakid69 for inspiring me (omlette) to write this FAQ
+Morgasaurus for macros and gameplay tips
+Bigbird22 for suggestions
+Balorn for macros and gameplay tips
+imperatrix for suggestions
+Edward9876 for subjob info
+Nalyr for suggestions
+LejesTheron for suggestions
+kpe12 for suggestions
+Lugia249 for spell information
+hotsoup for gameplay tips
+ADS for spell information
+And many, many others.
+http://nhz.host.sk/ffxi/ for spell information
+http://ffvault.ign.com for spell information
+http://www.shadow-dragons.com for spell information
+http://ffxi.allakhazam.com for misc information
+PS2 Magic FAQ by "JonnyRam" for Raise III spell information
+http://www.network-science.de/ascii/ for the ASCII "White Mage FAQ" title
+

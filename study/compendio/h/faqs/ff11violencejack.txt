@@ -1,0 +1,479 @@
+===============================================================================
+                       Final Fantasy XI - Fame Guide
+           Compiled by Elliot Nelson <violencejack@zebraflood.com>
+                                Version 0.92
+===============================================================================
+
+---------------------------------------------------------------------------
+i. Revision History
+---------------------------------------------------------------------------
+
+Version 0.96 02/16/2004
+
+- All kinds of updates, primarily to section 4.
+- Big correction (confirmed be me and several others) - Jeuno fame is not the
+  LOWEST of the 3 cities, but the AVERAGE. This is why you can do no quests in
+  one of the main cities and still have Jeuno fame.
+
+Version 0.95 01/20/2004
+
+- Fixed more NPC responses in section 4.
+
+Version 0.92 01/20/2004
+
+- Added Credits section
+
+- Fixed more NPC responses in section 4, added request for additional info.
+
+Version 0.9 12/30/2003
+
+- Added Revision History and Frequently Asked Questions section.
+
+- Corrected some of the NPC responses in section 4.
+
+Version 0.8 12/23/2003
+
+- This guide was submitted for the first time.
+
+---------------------------------------------------------------------------
+ii. Credits
+---------------------------------------------------------------------------
+
+The people at ffxi.allakhazam.com have found the original version of this
+guide at http://davidbowie.dyndns.tv/eriwilde/ffxi/quests/index.html.
+
+The following people, in no order, have submitted valuable info:
+ Kat, Paul, David, MadHatter, VvSlyguyvV@aol.com, Maujin, Raliddar,
+ Tahroh, yellow duck.
+
+---------------------------------------------------------------------------
+iii. Table of Contents
+---------------------------------------------------------------------------
+
+1. Introduction
+
+2. Fame Groups
+
+3. Increasing your Fame
+
+4. How to check your Fame
+
+5. Titles
+
+6. Frequently Asked Questions
+
+7. Copyright and Miscellaneous
+
+---------------------------------------------------------------------------
+1. Introduction
+---------------------------------------------------------------------------
+
+The fame system in FFXI Online is complex, and can be very confusing if you
+don't know what's going on. With this in mind, I have compiled this guide so
+that all of the questions about fame can be answered in one place.
+
+Some (but not all) of the information in this guide has been verified by me.
+The majority of it has been culled from various posts on many different message
+boards (ffxi.allakhazam.com being a primary source of info - thanks!). That
+said, I don't have any information about who has contributed what for this
+guide.
+
+If you see something that you personally should be credited for in this guide,
+please let me know and I will add you as a contributor. If you see a mistake or
+have additional information to add, please let me know that as well.
+
+If you have questions not answered by this guide I will do my best to answer
+them, but no guarantees. That said, let's begin!
+
+---------------------------------------------------------------------------
+2. Fame Groups
+---------------------------------------------------------------------------
+
+Every character in FFXI has 6 different fame groups. Each of these fame groups
+are tracked separately from each other, although your level in one can affect
+your level in another, as you will see.
+
+Here are the different fame groups.
+
+2.1 San d'Oria Fame
+
+This fame level measures quests done in the city of San d'Oria.
+
+2.2 Bastok Fame
+
+This fame level measures quests done in the city of Bastok.
+
+2.3 Windurst Fame
+
+This fame level measures quests done in the cities of Windurst, Mhaura and
+Khazam.
+
+2.4 Selbina Fame
+
+This fame level measures quests done in the cities of Selbina and Rabao.
+This fame level is also increased by the average of your San d'Oria and Bastok
+levels.
+
+2.5 Jeuno Fame
+
+This fame level measures quests done in the city of Jeuno.
+This fame level is also increased by the average of your San d'Oria, Bastok and
+Windurst levels.
+
+2.6 Tenshodo Fame
+
+This fame level measures quests done for Tenshodo HQ in Lower Jeuno and
+Tenshodo Branch in Bastok Port. This fame level also counts quests done for The
+Brugaire Consortium in San d'Oria Port, and for Nanaa Mihgo's thieves in
+Windurst. This fame level also includes quests done in the city of Norg.
+
+---------------------------------------------------------------------------
+3. Increasing your Fame
+---------------------------------------------------------------------------
+
+Here is the "quick and dirty" guide to increasing your fame in the various
+cities. This is just a list, if you need more detailed information on any of
+the quests mentioned check out one of the FFXI sites on the internet.
+
+Note that there are 9 different "levels" of fame in each group. As you do more
+quests you will raise in level. Some (many) quests have a minimum fame level
+to be obtained. If you can't start a quest, then you haven't reached the
+minimum fame level for that quest yet.
+
+Also note that many people believe that the non-repeatable quests count more
+towards your overall level than repeatable quests. For example, you may
+need to do the repeatable quest 'Fear of the Dark' 10 times to gain as much
+fame as doing 5 non-repeatable quests. This is offset by the fact that the
+repeatable quests are usually extremely easy, so they can be done more quickly.
+
+That said, here are the tips:
+
+3.1 Increasing San d'Oria Fame
+
+1: Trade many bat wings for the quest 'Fear of the Dark' in North San d'Oria.
+2: Trade many flints for the quest 'Starting a Flame' in South San d'Oria.
+3: Trade many rabbit skins for the quest 'The Merchant's Bidding' in South
+San d'Oria.
+4: Trade many honeys for the quest 'The Sweetest Things' in South San d'Oria.
+
+3.2 Increasing Bastok Fame
+
+1: Trade many treant bulbs for the quest 'Gourmet' in Bastok Market.
+2: Trade many rusty buckets for the quest 'Buckets of Gold' in Bastok Market.
+3: Trade many Quadav helms for the quest 'Hatred' in Bastok Mines.
+4: Trade many pinches of Zeruhn soot for the quest 'Minesweeper' in Bastok
+Mines.
+
+3.3 Increasing Windurst Fame
+
+1: Trade many beehive chips for the quest 'Paying Lip Service' in Windurst
+Woods.
+2: Trade many crawler calculi for the quest 'Creepy Crawlers' in Windurst
+Woods.
+3: Trade many cornets for the quest 'Mandragora-Mad' in Windurst Walls.
+4: Trade many 'bigbird feathers' for the quest 'A Feather In One's Cap' in
+Windurst Waters.
+
+3.4 Increasing Selbina Fame
+
+1: Trade many La Theine cabbages for the quest 'Only the Best' in Selbina.
+2: Enhance fame either in San d'Oria or Bastok. (either of lower fame)
+
+3.5 Increasing Jeuno Fame
+
+1: Repeat completing the quest 'Community Service' in Lower Jeuno.
+2: Complete quests which only require a certain level to undertake in Jeuno
+first.
+3: Enhance fame either in San d'Oria, Bastok or Windurst. (one with least fame)
+
+3.6 Increasing Tenshodo Fame
+
+1: Repeat completing the quest 'Shady Business' in Tenshodo, Bastok Port.
+2: Repeat completing the quest 'A Job for the Consortium' in San d'Oria Port.
+3: Repeat completing the quest 'Mihgo's Amigo' in Windurst Woods.
+
+---------------------------------------------------------------------------
+4. How to check your Fame
+---------------------------------------------------------------------------
+
+There are different NPCs that will tell you your current fame level, at least
+one for each fame group. Here are there locations and their responses for each
+fame level.
+
+Note: the fame responses marked with an asterisk (*) are translated from
+Japanese. I am currently looking for the actual text from the English version
+of the game, so if you have seen a response that isn't in this list please
+let me know.
+
+4.1 San d'Oria Fame
+
+The NPC is Namonutice in South San d'Oria, upper right K-6.
+
+*4.1.1 No, never heard of that name.
+
+*4.1.2 I might have heard that name before.
+
+*4.1.3 I have heard of your name before.
+
+4.1.4 Ah, <name>. That is a name I often hear. People speak well of you!
+       Your deeds for the kingdom have earned you much honor.
+
+4.1.5 <name>! You have become well known in these parts!
+      I hear much of your accomplishments. Keep up the good work, and
+      greatness lies in your future.
+
+4.1.6 Ah, <name>! You are famous in our kingdom!
+      Of you no ill is spoken. Give to the kingdom and she will give to you,
+      no?
+
+4.1.7 <name>! I would venture that much the kingdom has heard your name!
+      And your reputation sparkles. Indeed I am proud of you. And to think I
+      first knew you when you were a new recruit!
+
+4.1.8 <name>! People are talking about you! Every infant in his cradle knows
+      your name! And they hold you in the highest regard! I am so proud of
+      you! May your kind deeds continue!
+
+4.1.9 Sir <name>! There isn't a soul in the kingdom that doesn't consider you
+      a hero! As a representative of the people of San d'Oria, I humbly ask
+      you to continue your efforts for the good of the country. May the light
+      of the Goddess shine upon you!
+
+4.2 Bastok Fame
+
+The NPC is Flaco in Bastok Port, lower left E-6.
+
+*4.2.1 Unfortunately, I have never heard of your name before.
+
+*4.2.2 I wonder if I have heard of your name before...
+
+*4.2.3 I have heard of your name before.
+
+*4.2.4 Your name has become barely known by people.
+
+*4.2.5 Your name has become fairly known by people.
+
+4.2.6 Hello there <name>. A lot of people know about what you've done for
+      Bastok. People are saying good things about you. Keep up the good work!
+
+4.2.7 Most everyone in this country knows your name by now, <name>! People are
+      saying great things about you. You don't know how proud that makes me
+      feel--I've been following your progress ever since you came to Bastok!
+
+4.2.8 You must be <name>. Don't look so surprised, as everyone knows your name
+      and what you've done for Bastok. <name>, we're very proud to have
+      someone like you as a Bastoker.
+
+4.2.9 Master <name>! You are a hero to the people of Bastok! Everyone here
+      knows your name and what you've done for us! You are the example every
+      Bastoker should follow!
+
+4.3 Windurst Fame
+
+There are two NPCs for evaluating Windurst fame.
+The first is Zabirego-Hajigo in Windurst Waters North, upper right F-10.
+
+*4.3.1.1 Unfortunately, I have never heard of your name before.
+
+*4.3.1.2 I wonder if I have heard of your name before...
+
+4.3.1.3 Oh, you're the <name> that people are starting to talk about.
+        I've heard good things about you.
+
+4.3.1.4 Why if it isn't <name>! I heard some guys talking about you over
+        their dinners at the eatery last night. They had nothing but good
+        things to say about you. Keep up the good work!
+
+4.3.1.5 Hello there <name>! There aren't many Windurstians who don't know that
+        name. We're all proud to have you on our side! Keep up the great work!
+
+4.3.1.6 Mister <name>! You'd have to be living in a hole somewhere not to have
+        heard that name. All the bards in the land are singing songs of your
+        outstanding deeds. Keep up the extraordinary work!
+
+4.3.1.7 Mister <name>! There isn't a soul in all of Windurst that has yet to
+        hear the tales of your feats. Why, I remember when you were just a
+        fledgling adventurer. It seems like just yesterday...
+
+4.3.1.8 A day doesn't go by when I fail to hear a tale of your deeds. I am
+        proud to be a citizen of the same great country as Sir <name>! Keep
+        up the marvelous work!
+
+4.3.1.9 Lord <name>! I am honored to have the hero of Windurst in my presence.
+        Every man and woman in the country knows by heart the tales of your
+        courage. May the Goddess shine her light of grace upon you.
+
+The second is Ney Hiparujah in Kazahm, upper left I-11.
+
+*4.3.2.1 I'm sorry, but I ain't heard of your name before.
+
+*4.3.2.2 I don't think I've heard of your name before so much.
+
+*4.3.2.3 I have learned your name.
+
+*4.3.2.4 I have sung your praises to everyone.
+
+*4.3.2.5 Your name has become fairly known by people.
+
+*4.3.2.6 Most habitants know you.
+
+*4.3.2.7 Everyone knows you and cheers you.
+
+*4.3.2.8 How much you have been flourishing!
+
+*4.3.2.9 May Goddess bless you, a great hero!
+
+4.4 Selbina Fame
+
+The NPC is Waylea in Rabao, lower right G-9.
+
+*4.4.1 Who is it? I've never heard of the name.
+
+*4.4.2 I wonder if I have heard of your name before...
+
+*4.4.3 I have heard of your name before.
+
+*4.4.4 Your name has become barely known by people.
+
+*4.4.5 I've become to hear of you often.
+
+*4.4.6 It seems most people know you!
+
+*4.4.7 No on is unfamiliar with your name.
+
+*4.4.8 I have been hearing of rumors on your good showing.
+
+*4.4.9 I may say you are a hero for me.
+       I am invoking Goddess of Altana's blessing on you.
+
+4.5 Jeuno Fame
+
+The NPC is Mendi in Lower Jeuno, lower left H-8 (passage).
+
+*4.5.1 Unfortunately, I have never heard of your name before.
+
+*4.5.2 I wonder if I have heard of your name before somewhere...
+
+*4.5.3 I have heard of your name before.
+
+4.5.4 Oh, so you're <name>... Yes, I heard some travelers in a tavern talk
+      about you. It seems you've a fair reputation.
+
+*4.5.5 Your name has become fairly known by people.
+
+*4.5.6 Your name has been heard of here and there.
+
+4.5.7 Why, it's <name>. Your reputation precedes you. We hope your already
+      substantial contributions to our humble city will continue to grow
+      in time.
+
+4.5.8 Why hello <name>, I say, literally everyone in Jeuno knows your name. It
+      is my pleasure to inform you how impressed we are for your service to
+      Jeuno. We hope to see more of your commendable generosity in the future.
+
+4.5.9 You have emerged as a hero to the people of Jeuno. Just the sound of
+      your name strikes courage into their hearts. As a representative of its
+      citizens, I humbly ask you to continue your efforts for the good of
+      the duchy.
+
+4.6 Tenshodo Fame
+
+The NPC Vaultimand in Norg, upper right H-8.
+
+*4.6.1 I have never heard of your name before.
+
+*4.6.2 I wonder if I have heard of your name before somewhere...
+
+*4.6.3 I have heard of your name before.
+
+*4.6.4 I often hear of your name.
+
+*4.6.5 Your name has become fairly known by people.
+
+*4.6.6 There are very few people that don't know you.
+
+*4.6.7 No one is unfamiliar with your name here.
+
+*4.6.8 I have hear of your showing activity again!
+
+*4.6.9 Your existence is heroic for all the people living here.
+       May Great Goddess bless you!
+
+---------------------------------------------------------------------------
+5. Titles
+---------------------------------------------------------------------------
+
+This is not strictly fame related, but has to do with quests. Your title is the
+description displayed on your profile or when you are examined by another
+character. Completing certain quests will change your title. Note that your
+title does not affect your fame in any way, and most quests do not change your
+title.
+
+The NPCs listed below will change your title to any title you have received
+previously (you will need to pay them.)
+
+San d'Oria:   Moozo-Koozo in South San d'Oria, in restaurant in K-6.
+Bastok:	      Tuh Almobankha in Bastok Port, I-7 by riverside.
+Windurst:     Burute-Sorute in Windurst Walls, H-10 north of auction house.
+Selbina:      Yulon-Polon in Selbina, I-9 at sheepherders.
+Jeuno:        Tuh Almobankha in Lower Jeuno, I-8 in minstrel pub.
+Tenshodo:     Quntsu-Nointsu in Norg, G-7.
+
+---------------------------------------------------------------------------
+6. Frequently Asked Questions
+---------------------------------------------------------------------------
+
+6.1   I need Jeuno fame to do the (Gobbiebag/Goblin Tailor/etc.) quest!
+
+At this point no one has figured out exactly how Jeuno fame is calculated.
+According to the information above, doing 25-40 quests in every city should
+get you enough Jeuno fame to get these quests (this has been confirmed by
+several people.) However, I personally did 43 quests in San d'Oria, many
+(probably 60-70 all told) quests in my hometown of Windurst, and none in
+Bastok. I had enough fame after that. I have heard similar stories about
+many Bastok quests and 5-10 Windurst quests, etc.
+
+Assuming you have done a significant number of quests in your hometown, I
+would recommend going to San d'Oria or Bastok and doing 25-40 quests there and
+attempting to get the Jeuno quest you want. If it doesn't work, then do some
+more and try again.
+
+Note also that the Community Service quest in Jeuno seems to help quite a bit.
+
+If anyone has a more specific explanation for Jeuno fame, please let me know.
+
+6.2  I'm a Ninja and I need Norg fame to do Ninja scroll quests!
+
+Norg (Tenshodo) fame tends be a stopper for Ninjas. The general solution
+is to repeat one of the 3 quests listed in section 3.6 for Norg fame. However,
+these quests (and, I suspect, all repeatable quests) have different "pull"
+with the Tenshodo. Most people have had to the Mihgo's Amigo quest an average
+of 40-50 times to obtain their Ninja quests in Norg. The average for the
+Shady Business quest seems to be 25-30 times. I haven't confirmed how
+effective the Job for the Consortium quest is.
+
+If you have more detailed information, please let me know.
+
+---------------------------------------------------------------------------
+7. Copyright and Miscellaneous
+---------------------------------------------------------------------------
+
+This compilation is copyright (c) 2003 by Elliot Nelson. This guide may be
+freely copied and distributed without permission for any purpose, provided
+it is distributed unchanged and complete. The only exception to the
+"unchanged" rule is for formatting -- feel free to convert this guide into
+RTF, DOC, a spreadsheet, a PDF, etc.
+
+All trademarks and copyrights contained in this document are owned by their
+respective trademark and copyright holders. Final Fantasy XI is the work
+of Square Enix, and this guide is not endorsed by them in any way.
+
+As stated at the beginning of this guide, please contact me if you feel you
+are not being credited for your work.
+
+The most recent version of this guide will always be found at GameFAQs,
+http://www.gamefaqs.com.
+
+---------------------------------------------------------------------------
+8. THE END
+---------------------------------------------------------------------------

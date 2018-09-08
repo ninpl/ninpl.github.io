@@ -1,0 +1,273 @@
+Final Fantasy Crystal Chronicle Magic Chart
+v 1.2 (02.23.04)
+author: phantom42
+
+
+contents
+==============================================
+Single Player Weapon Fusing Chart: 	[MC01]
+Single Player Spell/Fusing Chart:	[MC02]
+Multi Player Spell/Fusing Chart: 	[MC03]
+Multi Player Timing Chart:		[MC04]
+Multi Player Timing Info:		[MC05]
+Legal:					[MC06]
+Contact:				[MC07]
+Credits:				[MC08]
+==============================================
+
+
+
+==============================================
+Single Player Weapon Fusing Chart - [MC01]
+==============================================
+
+In single player mode you can fuse a weapon added to a command slot with an
+attack spell in any previous command slot. 
+
+========================================================
++  weapon  +  slot 1  +  slot 2  +  slot 3  +  slot 4  +
+========================================================
+|  F-SWORD |   fire   |  weapon  |          |          |
+--------------------------------------------------------
+|  B-SWORD | blizzard |  weapon  |          |          |
+--------------------------------------------------------
+|  T-SWORD |  thunder |  weapon  |          |          |
+--------------------------------------------------------
+
+
+
+==============================================
+Single Player Spell/Fusing Chart - [MC02]
+==============================================
+
+Notes
+-f/t/b: Fire/Thunder/Blizzard - your choice of one
+-any spells using multiple f/t/b's must use different spells in each slot.
+-spells in ()'s must be fused first.
+
+========================================================
++  spell   +  slot 1  +  slot 2  +  slot 3  +  slot 4  +
+========================================================
+|   FIRE   |   fire   |          |          |          |
+--------------------------------------------------------
+|   FIRA   |   fire   |   fire   |          |          |
+--------------------------------------------------------
+|  FIRAGA  |  (fire)  |  (fire)  |   fire   |          |
+--------------------------------------------------------
+| BLIZZARD | blizzard |          |          |          |
+--------------------------------------------------------
+| BLIZZAGA |(blizzard)|(blizzard)| blizzard |          |
+--------------------------------------------------------
+|  THUNDER |  thunder |          |          |          |
+--------------------------------------------------------
+| THUNDARA |  thunder |  thunder |          |          |
+--------------------------------------------------------
+| THUNDAGA | (thunder)| (thunder)|  thunder |          |
+--------------------------------------------------------
+|   CURE   |   cure   |          |          |          |
+--------------------------------------------------------
+|   HASTE  |   life   |   cure   |   cure   |          |
+--------------------------------------------------------
+|   CLEAR  |   clear  |          |          |          |
+--------------------------------------------------------
+|   LIFE   |   life   |          |          |          |
+--------------------------------------------------------
+|   SLOW   |   life   |   f/t/b  |          |          |
+--------------------------------------------------------
+|   STOP   |   life   |   f/t/b  |   f/t/b  |          |
+--------------------------------------------------------
+|   HOLY   |   f/t/b  |   life   |          |          |
+--------------------------------------------------------
+|  GRAVITY |   f/t/b  |   f/t/b  |          |          |
+--------------------------------------------------------
+
+
+==============================================
+Multi Player Spell/Fusing Chart - [MC03]
+==============================================
+
+Notes
+-f/t/b: Fire/Thunder/Blizzard - your choice of one
+-any spells using multiple f/t/b's must use different spells in each slot.
+-spells in ()'s must be fused first.
+-spells in []'s are optional but add strength for each. They are commonly
+referred to as (spell name)+1 or (spell name)+2
+
+===================================================================
++  spell   +  slot 1  +  slot 2  +  slot 3  + player 4 +   delay  +
+===================================================================
+|   FIRE   |   fire   |          |          |          |          |
+-------------------------------------------------------------------
+|   FIRA   |   fire   |   fire   |  [fire]  |  [fire]  |  Type A  |
+-------------------------------------------------------------------
+|  FIRAGA  |   fire   |   fire   |  [fire]  |  [fire]  |  Type D  |
+-------------------------------------------------------------------
+| BLIZZARD | blizzard |          |          |          |          |
+-------------------------------------------------------------------
+| BLIZZARA | blizzard | blizzard |[blizzard]|[blizzard]|  Type A  |
+-------------------------------------------------------------------
+| BLIZZAGA | blizzard | blizzard |[blizzard]|[blizzard]|  Type D  |
+-------------------------------------------------------------------
+|  THUNDER |  thunder |          |          |          |          |
+-------------------------------------------------------------------
+| THUNDARA |  thunder |  thunder | [thunder]| [thunder]|  Type A  |
+-------------------------------------------------------------------
+| THUNDAGA |  thunder |  thunder | [thunder]| [thunder]|  Type D  |
+-------------------------------------------------------------------
+|   CURE   |   cure   |          |          |          |          |
+-------------------------------------------------------------------
+|  CURAGA  |   cure   |   cure   |          |          |  Type A  |
+-------------------------------------------------------------------
+|   HASTE  |   life   |   cure   |   cure   |          |  Type B  |
+-------------------------------------------------------------------
+|  HASTEGA |   life   |   cure   |   cure   |   cure   |  Type B  |
+-------------------------------------------------------------------
+|   CLEAR  |   clear  |          |          |          |          |
+-------------------------------------------------------------------
+| CLEARAGA |   clear  |   clear  |          |          |  Type A  |
+-------------------------------------------------------------------
+|   LIFE   |   life   |          |          |          |          |
+-------------------------------------------------------------------
+| FULL LIFE|   life   |   life   |          |          |  Type E  |
+-------------------------------------------------------------------
+|   SLOW   |   life   |   f/t/b  |          |          |  Type B  |
+-------------------------------------------------------------------
+|  SLOWGA  |   life   |   f/t/b  |   f/t/b  |          |  Type B  |
+-------------------------------------------------------------------
+|   STOP   |   life   |   f/t/b  |   f/t/b  |          |  Type E  |
+-------------------------------------------------------------------
+|   HOLY   |   f/t/b  |   life   |          |          |  Type A  |
+-------------------------------------------------------------------
+|  HOLYRA  |   f/t/b  |   life   |   life   |  [life]  |  Type C  |
+-------------------------------------------------------------------
+|  GRAVITY |   f/t/b  |   f/t/b  |          |          |  Type A  |
+-------------------------------------------------------------------
+|  GRAVIRA |   f/t/b  |   f/t/b  |  [f/t/b] |  [f/t/b] |  Type C  |
+-------------------------------------------------------------------
+|  GRAVIGA |   f/t/b  |   f/t/b  |  [f/t/b] |  [f/t/b] |  Type A  |
+-------------------------------------------------------------------
+
+
+==============================================
+MultiPlayer Timing Chart - [MC04]
+==============================================
+
+Instructions:
+After The first player (whoever initiates the spell) releases their focused
+spell, the following players must release their spells one after another within
+the amount of time indicated in the charts.
+
+ex: Fira+2 - Type A - everyone charges their Fire spells. Player 1 releases
+their charge. Players 2 through 4 must all release their charges within .33
+seconds of Player 1's release
+
+ex: Firaga+2 - Type D - everyone charges their Fire spells. Player 1 releases
+their charge. Player 2 must release their charge between .66 and 1.33 seconds
+of Player 1's release. Player 3 must release their charge between 1.33 and 2
+seconds of Player 1's release. Player 4 must release their charge between 2 and
+2.66 seconds of Player 1's release.
+
+
+Type A
+
+       0s   .33s   .66s    1.0s  1.33s  1.66s   2.0s  2.33s  2.66s
+       V      V      V      V      V      V      V      V      V
+----------------------------------------------------------------
+|  P2  |--M2--|      |      |      |      |      |      |      |
+----------------------------------------------------------------
+|  P3  |--M3--|      |      |      |      |      |      |      |
+----------------------------------------------------------------
+|  P4  |--M4--|      |      |      |      |      |      |      |
+----------------------------------------------------------------
+
+Type B
+
+       0s   .33s   .66s    1.0s  1.33s  1.66s   2.0s  2.33s  2.66s
+       V      V      V      V      V      V      V      V      V
+----------------------------------------------------------------
+|  P2  |      |--M2--|      |      |      |      |      |      |
+
+----------------------------------------------------------------
+|  P3  |      |--M3--|      |      |      |      |      |      |
+----------------------------------------------------------------
+|  P4  |      |--M4--|      |      |      |      |      |      |
+----------------------------------------------------------------
+
+Type C
+
+       0s   .33s   .66s    1.0s  1.33s  1.66s   2.0s  2.33s  2.66s
+       V      V      V      V      V      V      V      V      V
+----------------------------------------------------------------
+|  P2  |--M2--|      |      |      |      |      |      |      |
+----------------------------------------------------------------
+|  P3  |      |--M3--|      |      |      |      |      |      |
+----------------------------------------------------------------
+|  P4  |      |      |--M4--|      |      |      |      |      |
+----------------------------------------------------------------
+
+Type D
+
+       0s   .33s   .66s    1.0s  1.33s  1.66s   2.0s  2.33s  2.66s
+       V      V      V      V      V      V      V      V      V
+----------------------------------------------------------------
+|  P2  |      |      |------M2-----|      |      |      |      |
+----------------------------------------------------------------
+|  P3  |      |      |      |      |------M3-----|      |      |
+----------------------------------------------------------------
+|  P4  |      |      |      |      |      |      |------M4-----|
+----------------------------------------------------------------
+
+Type E
+
+       0s   .33s   .66s    1.0s  1.33s  1.66s   2.0s  2.33s  2.66s
+       V      V      V      V      V      V      V      V      V
+----------------------------------------------------------------
+|  P2  |      |--M2--|      |      |      |      |      |      |
+----------------------------------------------------------------
+|  P3  |      |      |--M3--|      |      |      |      |      |
+----------------------------------------------------------------
+
+
+==============================================
+Multi Player Timing Info - [MC05]
+==============================================
+
+The following was submitted by PerfectDar. The info is a bit unclear, but I'll
+look into it and see if I can find a clearer version.
+
+
+ Instead of counting seconds,  if you look closely, when you line 
+up spell cursors, the crystals on the cursor rotate.  Instead of 
+counting milliseconds - because it's too hard - count the rotations. 
+ I'm not exactly sure how to translate my "rotation theory" into 
+your seconds theory, but I can tell you that to cast thundaga + 
+1, we had everyone delay for a full rotation of the crystals.  This 
+means that the crystal on the top went down to the bottom position, 
+then came back up to the top.  Other spells that needed short delays 
+used a half rotation.  Of course, this method requires more coordination, 
+but as long as everyone agrees that a rotation begins at the top 
+and ends at the top, it is much more consistent then trial and error 
+using time.
+
+
+==============================================
+Legal - [MC06]
+==============================================
+Final Fantasy: Crystal Chronicles and everything related is owned and
+copyrighted to Square-Enix and/or The Game Designer Company. The Charts above
+may be used and/or reproduced for personal or private use only. It will only be
+posted to GameFaqs.com and ign.com.
+
+==============================================
+Contact - [MC07]
+==============================================
+If you have any corrections/suggestions, I may be contacted at
+justsomeguy@eudoramail.com
+
+==============================================
+Credits - [MC08]
+==============================================
+Hida Silverlight: for providing info on the multiplayer fusing chart
+JasonK: for corrections on the weapon fusing chart
+PerfectDar: for info on the Multi Player timing
+

@@ -1,0 +1,2286 @@
+-------------------------------------------------------------------------------
+
+                   FINAL FANTASY XII: REVENANT WINGS BESTIARY
+Version 1.1
+Created on January 2nd, 2008
+Written by PapillonReel
+Email: melomancy@yahoo.ca
+
+-------------------------------------------------------------------------------
+0.0 - Table of Contents
+------
+
+1.0 - General Information
+    1.1 - Legal Information
+    1.2 - Version History
+    1.3 - Purpose of this FAQ
+
+2.0 - Playable Characters
+    2.1 - Vaan
+    2.2 - Penelo
+    2.3 - Kytes
+    2.4 - Filo
+    2.5 - Llyud
+    2.6 - Ba'Gamnan
+    2.7 - Balthier
+    2.8 - Fran
+    2.9 - Ashe
+    2.10 - Basch
+
+3.0 - Guests
+    3.1 - Rikken
+    3.2 - Elza
+    3.3 - Raz
+    3.4 - Velis
+    3.5 - Dalmascan Soldier
+
+4.0 - Enemies
+    4.1 - Bwagi
+    4.2 - Rinok
+    4.3 - Gijuk
+    4.4 - Judge of Wings
+    4.5 - Mydia
+    4.6 - Feolthanos (Judge)
+    4.7 - Feolthanos Medi
+    4.8 - Feolthanos Dex
+    4.9 - Feolthanos Sinis
+    4.10 - Feolthanos
+
+5.0 - Generics
+    5.1 - Humes
+        5.1.1 - Sky Pirate
+        5.1.2 - Warrior
+        5.1.3 - Ninja
+        5.1.4 - White Mage
+    5.2 - Bangaa
+        5.2.1 - Monk
+        5.2.2 - Gladiator
+    5.3 - Viera
+        5.3.1 - Warmage
+        5.3.2 - Archer
+    5.4 - Moogle
+        5.4.1 - Fusilier
+        5.4.2 - Black Mage
+        5.4.3 - Time Mage
+    5.5 - Seeq
+        5.5.1 - Seeq
+    5.6 - Aegyl
+        5.6.1 - Sky Soldier
+        5.6.2 - Sky Warrior
+        5.6.3 - Dragon Knight
+        5.6.4 - Sky Samurai
+    5.7 - Master Jobs
+        5.7.1 - Berserker
+        5.7.2 - Assassin
+        5.7.3 - Champion
+        5.7.4 - Ballista
+        5.7.5 - Wizard
+        5.7.6 - War-Chief
+        5.7.7 - Dragoon
+
+6.0 - Espers
+    6.1 - Non-Elemental
+        6.1.1 - Alraune
+        6.1.2 - Chocobo
+        6.1.3 - Tonberry
+        6.1.4 - Odin
+        6.1.5 - Gilgamesh
+        6.1.6 - Sylph
+        6.1.7 - Zalera
+        6.1.8 - Zodiark
+        6.1.9 - Garchimacera
+        6.1.10 - Diabolos
+        6.1.11 - Bahamut
+    6.2 - Fire
+        6.2.1 - Djinn
+        6.2.2 - Balasa
+        6.2.3 - Ifrit
+        6.2.4 - Salamander
+        6.2.5 - Lamia
+        6.2.6 - Belias
+        6.2.7 - Bomb
+        6.2.8 - Wyvern
+        6.2.9 - Chaos
+    6.3 - Water
+        6.3.1 - Sahagin
+        6.3.2 - Cuchulainn
+        6.3.3 - Leviathan
+        6.3.4 - Shivan
+        6.3.5 - Shivar
+        6.3.6 - Shiva
+        6.3.7 - Famfrit
+        6.3.8 - Aquarius
+        6.3.9 - Siren
+        6.3.10 - Mateus
+    6.4 - Lightning
+        6.4.1 - Remora
+        6.4.2 - Ixion
+        6.4.3 - Shemhazai
+        6.4.4 - Quetzalcoatl
+        6.4.5 - Sagittarius
+        6.4.6 - Tiamat
+        6.4.7 - Ramih
+        6.4.8 - Raiden
+        6.4.9 - Ramuh
+    6.5 - Earth
+        6.5.1 - Goblin
+        6.5.2 - Golem
+        6.5.3 - Titan
+        6.5.4 - Cactoid
+        6.5.5 - Cu Sith
+        6.5.6 - Hashmal
+        6.5.7 - Gnoam
+        6.5.8 - Atomos
+        6.5.9 - Exodus
+    6.6 - Holy
+        6.6.1 - White Hare
+        6.6.2 - Carbuncle
+        6.6.3 - Ultima
+
+7.0 - Animals
+    7.1 - Monsters
+        7.1.1 - Red Flan
+        7.1.2 - Blue Flan
+        7.1.3 - Yellow Flan
+        7.1.4 - Green Flan
+        7.1.5 - Zombie
+        7.1.6 - Antlion
+        7.1.7 - Minotaur
+        7.1.8 - Malboro
+        7.1.9 - Great Tortoise
+        7.1.10 - Infernal Wolf
+        7.1.11 - Arctic Wolf
+        7.1.12 - Storm Wolf
+        7.1.13 - Rock Wolf
+        7.1.14 - Red Wyrm
+        7.1.15 - Blue Wyrm
+        7.1.16 - Yellow Wyrm
+        7.1.17 - Green Wyrm
+        7.1.18 - Fire Drake
+        7.1.19 - Ice Drake
+        7.1.20 - Thunder Drake
+        7.1.21 - Earth Drake
+        7.1.22 - Vampyr
+    7.2 - Rare Game
+        7.2.2 - Red Chocobo
+        7.2.3 - Black Chocobo
+        7.2.4 - Green Chocobo
+        7.2.1 - Mom Bomb
+        7.2.5 - Antlion Queen
+        7.2.6 - Aspidochelon
+        7.2.7 - Great Malboro
+        7.2.8 - Enkidu
+        7.2.9 - Velis
+        7.2.10 - Elder Wyrm
+        7.2.11 - King Bomb
+        7.2.12 - Trickster
+        7.2.13 - Yiazmat
+    7.3 - Miscellaneous
+        7.3.1 - Mimic
+        7.3.2 - Wing Wraith
+
+8.0 - Closing Notes & Thanks
+
+-------------------------------------------------------------------------------
+1.0 - General Information
+------
+
+    1.1 - Version History
+  Ver. 1.1 - FAQ created, all sections added, descriptions and abilities added.
+Still very bare-bones, but hopefully it should get cleaned up with future
+releases :).
+
+    1.2 - Legal Information
+This guide can only be used by GameFAQs and those I have given permission.
+Unauthorized use of this guide such as plagiarism, theft, and/or other such
+acts will result in legal action. If you wish to use my FAQ, in whole or in
+part, feel free to email me at anytime and I'll most likely give you permission 
+for it.
+
+    1.3 - Purpose of this Guide
+Revenant Wings is an enjoyable game, albeit surprisingly so, and one of the
+first games in a while to get me so involved. Naturally, since I have a habit
+of making lists such as this, and because I was curious as to the wealth of
+monsters available in this game, I felt like compiling this information
+together in the manner you see here.
+
+Generally, this guide is mostly to act as a reference for others, either to
+help plan a strategy for future battles or simply out of curiosity. So have
+a look-through and enjoy!
+
+-------------------------------------------------------------------------------
+2.0 - Playable Characters
+------
+
+    2.1 - Vaan
+Description: "A young sky pirate who saw freedom in the skies."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Dual Attack - Deal damage to one foe with two successive hits.
+-Sprint - Increase movement speed.
+-Steal Speed - Transfer Speed from one foe to the user.
+-Steal Endurance - Transfer Stamina from one foe to the user.
+-Steal Power - Transfer Strength from one foe to the user.
+-Timeslip - Inflict Stop on one foe.
+-Dervish - Drastically increase user's Attack Speed.
+
+Support Abilities
+-Swiftness - Increases group's movement speed.
+-Pain Chain - Gives user a chance to deal an extra attack with each hit.
+-Resist Immobilize - Grants group immunitiy to Immobilize.
+-Mistify - Increases rate of Mist Charge accumulation
+-Pirate's Monograph - Increases success rate of steal abilities.
+
+Quickening
+-Pyroclasm - Deal heavy damage to all foes in range.
+
+
+    2.2 - Penelo
+Description: "Vaan's trusted partner and friend."
+Type: Ranged (Healing)
+
+Attack
+-Cure - Restore HP to one ally.
+-Revitalize - Restore a small amout of HP to one ally and remove debuffs.
+
+Abilities
+-Curaga - Restore HP to all allies in range.
+-Mystic Dance - Give Faith to all allies in range.
+-Esunaga - Remove debuffs from all allies in range.
+-War Dance - Give Bravery to all allies in range.
+-Raise - Revive one KO'd ally.
+-Hypnotic Dance - Inflict Disable on surrounding foes.
+-Holy - Deal damage to one foe.
+
+Support Abilities
+-Clairvoyance - Increases group's Mind
+-Resist Silence - Grants group immunity to Silence.
+-Auto-Regen - Gives Regen to the group.
+-Healing Step - Increases potency of healing magicks on group.
+-Dancer's Monograph - Increases duration of dance abilities.
+
+Quickening
+-Dance of Rapture - Fully restore all allies' HP and remove debuffs.
+
+
+    2.3 - Kytes
+Description: "One of Vaan's oldest friends. Where Vaan goes, Kytes follows."
+Type: Ranged
+
+Attack
+-Fire - Deal fire damage to one foe.
+-Blizzard - Deal water damage to one foe.
+-Thunder - Deal lightning damage to one foe.
+-Stone - Deal earth damage to one foe.
+
+Abilities
+-Firaga - Deal fire damage to all foes in range.
+-Blizzaga - Deal water damage to all foes in range.
+-Bio - Inflict poison on all foes in range
+-Thundaga - Deal lightning damage to all foes in range.
+-Stonega - Deal earth damage to all foes in range.
+-Charge - Gather Magick power, increasing potency of next spell.
+-Flare - Deal heavy damage to one foe.
+
+Support Abilities
+-Intelligence - Increases group's Magick
+-Resist Poison - Grants group immunity to Poison
+-Treasure Hunter - Awards additional loot at the end of battle.
+-Tonguetwister - Reduces magick cast time.
+-Mage's Monograph - Increases magick damage.
+
+Quickening
+-Nature's Wrath - Deal heavy elemental damage to all foes in range.
+
+
+    2.4 - Filo
+Description: "A sky pirate in spirit, if not in fact."
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Sonic Wave - Deal damage to multiple foes.
+-Defense Snare - Set trap to lower Stamina and Mind.
+-Glide - Increase group's movement speed.
+-Speed Snare - Set trap to lower Speed and movement speed.
+-Decoy Bit - Divert damage from the group to the decoy.
+-Power Snare - Set trap to lower Strength and Magick.
+-Overdrive - Temporarily increase all attributes, then decrease them by the
+    same amount.
+
+Support Abilities
+-Rejuvenate - Increases group's Speed.
+-Resist Stop - Grants group immunity to Stop.
+-Materialism - Increases scavenging speed.
+-Havoc - Increases rate of AP accumulation
+-Aviator's Monograph - Increases duration of trap abilities.
+
+Quickening
+-Wind Soul - Allow allies to act immediately.
+
+
+    2.5 - Llyud
+Description: "A noble aegyl warrior."
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Jump - Deal damage to all foes in range.
+-Revive - Consume HP to revive one KO'd ally.
+-Lancet - Drain HP from one foe to the user.
+-Transfuse - Consume HP to restore HP to one ally.
+-Vanishga - Render all allies in range invisible.
+-Crimson Wings - Deal damage to foes in a line extending from the user.
+-Enfuse Spirit - Consume HP to raise all grou attributes.
+
+Support Abilities
+-Valor - Increases group's Strength
+-Resist Confuse - Grants group immunity to Confuse.
+-Auto-Float - Gives Float to the group.
+-Attunement - Increases Affinity.
+-Dragoon's Monograph - Increases HP drained by Lancet.
+
+Quickening
+-Fanfare - Fortify all friendly espers.
+
+
+    2.6 - Ba'Gamnan
+Description: "Bangaa headhunter renowned for his skill and cruelty."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Wild Swing - Deal damage to surrounding foes.
+-Drain - Transfer HP from one foe to the user.
+-Berserk - Cause one ally to mindlessly attack with weapon in hand.
+-Bad Breath - Inflict multiple debuffs
+-Souleater - Consume HP to deal damage to one foe.
+-Ba'Syphon - Transfer Magick and Mind from one foe to the caster.
+-Dark Aura - Deal ranged damage to multiple foes.
+
+Support Abilities
+-Will of Steel - Increases group's Stamina
+-Outlaw's Monograph - Increases HP drained by drain abilities.
+
+
+    2.7 - Balthier
+Description: "A legendary sky pirate who has a way with words and guns."
+Type: Ranged
+
+Attack
+-Guns - Deal ranged damage to one foe.
+
+Abilities
+-Tri-Shot - Deal ranged damage to one foe with three successive shots.
+-Percussive Slug - Deal ranged damage to one foe, knocking it back.
+-Sniper Eye - Increase attack range.
+-Quicksilver - Increase user's Strength.
+-Hamstring - Inflict Immobilize on one foe.
+-Maim - Inflict Disable on one foe.
+-Armor-Piercing Shot - Deal damage to one foe in a line extending from the
+    user.
+
+Support Abilities
+-Headhunter - Increases gil gained during battle.
+-Resist Blind - Grants group immunity to Blind.
+-Rapid Fire - Reduces time between attacks.
+-Aspect Blitz - Increases potency of quickenings.
+-Marksman's Monograph - Drastically increases attack range.
+
+Quickening
+-Element of Treachery - Deal heavy ranged damage to one foe.
+
+
+    2.8 - Fran
+Description: "Balthier's loyal viera partner. Her skill with a bow is
+    unmatched.
+Type: Ranged
+
+Attack
+-Bows - Deal ranged damage to one foe.
+
+Abilities
+-Blinding Arrow - Inflict Blind on one foe.
+-Sleep Arrow - Inflict Sleep on one foe.
+-Silencing Arrow - Inflict Silence on one foe.
+-Confusion Arrow - Inflict Confuse on one foe.
+-Dispelga - Remove buffs from all foes in range.
+-Barrage - Deal ranged damage to one foe with successive shots.
+-Ward of the Wood - Restore HP and remove debuffs from all allies in range.
+
+Support Abilities
+-Steady Grip - Increases group's ranged damage.
+-Resist Sleep - Grants group immunity to Sleep.
+-Attrition - Increases amount of HP restored when foraging.
+-Pinpoint - Increases duration of fletch abilities.
+-Hunter's Monograph - Increases potency of Barrage.
+
+Quickening
+-Gaze of the Void - Remove buffs from all foes.
+
+
+    2.9 - Ashe
+Description: "Dalmasca's strong-willed queen."
+Type: Ranged
+
+Attack
+-Hand-Bombs - Deal damage to all foes in range.
+
+Abilities
+-Slowga - Slow the actions of all foes in range.
+-Combustion - Increase attack radius.
+-Hastega - Increase Speed of all allies in range.
+-Regenga - Restore HP to all allies in range over time.
+-Pyrotechnics - Deal ranged damage to multiple foes.
+-Teleport - Teleport group's Espers to user's position.
+-Comet - Deal heavy damage to all foes in range.
+
+Support Abilities
+-Whistlewind - Reduces summoning time.
+-Knowledge to Power - Increases EXP gained during battle.
+-Full Protection - Increases group's Stamina and Mind when leader's HP is full.
+-Full Force - Increases group's Strength and Magick when leader's HP is full.
+-Monarch's Monograph - Increases group's resistance to debuffs.
+
+Quickening
+-Empyrean Edict - Prevent all foes from summoning Espers.
+
+
+    2.10 - Basch
+Description: "Loyal judge magister who guards his companions with his life."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Protectga - Increases Stamina of all allies in range.
+-Shellga - Increases Magick Defense of all allies in range.
+-Flash of Steel - Deal damage to foes in a line extending from the user.
+-Inner Peace - Give user Regen and remove debuffs.
+-Iron Will - Lower user's Strength to increase Stamina.
+-Cover - Protect other group members, taking damage in their stead.
+-Shining Ray - Deal ranged damage to multiple foes.
+
+Support Abiliies
+-Lifeshield - Increases group's Max HP.
+-Resist Slow - Grants group immunity to Slow.
+-Gallantry - Increases group's Stamina and Mind when leader's HP is low.
+-Chivalry - Increases group's Strength and Magick when leader's HP is low.
+-Hero's Monograph - Increases Defense when using Cover.
+
+Quickening
+-Apocalypse Shield - Nullify all damage to the group.
+
+
+-------------------------------------------------------------------------------
+3.0 - Guests
+------
+
+    3.1 - Rikken
+Description: "Hot-blooded sky pirate who packs a powerful punch."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Whirlwind Slash - Deal damage to surrounding foes.
+-Lunge - Deal damage to foes in a line extending from the user.
+-Focus - Gather power, increasing potency of next ability.
+-Inner Peace - Give user Regen and remove debuffs.
+-Eviscerator - Deal damage to one foe with successive hits.
+
+Support Abilities
+-Valor - Increases group's Strength.
+
+
+    3.2 - Elza
+Description: "Striking sky pirate with a more striking gun."
+Type: Ranged
+
+Attack
+-Guns - deal ranged damage to one foe.
+
+Abilities
+-Firaga Shot - Deal fire damage to all foes in range.
+-Blizzaga Shot - Deal water damage to all foes in range.
+-Thundaga Shot - Deal lightning damage to all foes in range.
+-Stonega Shot - Deal earth damage to all foes in range.
+-Curaga Shot - Restore HP to all allies in range.
+-Esunaga Shot - Remove debuffs from all allies in range.
+
+Support Abilities
+-Hawkeye - Increase group's attack range.
+
+
+    3.3 - Raz
+Description: "Short-statured bangaa who measures up with the help of his
+    parrot.
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Immobilizega - Immobilize all foes in range.
+-Mighty Guard - Increase Defense and Magick Resist of all allies in range.
+-Scourge - Inflict Poison and deal damage to all foes in range.
+-Mighty Attack - Give Bravery and Faith to all allies in range.
+-Dispelga - Remove buffs from all foes in range.
+
+Support Abilities
+-Swiftness - Increases group's movement speed.
+
+
+    3.4 - Velis
+Description: "Young man who appeared as if from nowhere and befriended Penelo."
+Type: Melee
+
+Attack
+-N/A
+
+
+    3.5 - Dalmascan Soldier
+Description: "Member of the Rabanastre Watch, sent to keep the queen's peace."
+Type: Melee
+
+Attack
+-N/A
+
+
+-------------------------------------------------------------------------------
+4.0 - Enemies
+------
+
+    4.1 - Bwagi
+Description: "If Gijuk and Rinok are the muscle, then Bwagi is the brute with
+    brains."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Spin Attack - Deal damage to surrounding foes.
+-Potion - Restore HP to one ally.
+-Remedy - Remove debuffs from one ally.
+-Frenetic Rage - Lower user's Stamina to increase Strength.
+-Iron Will - Lower user's Strength to increase Stamina.
+
+Support Abilities
+-Valor - Increases group's Strength.
+
+
+    4.2 - Rinok
+Description: "She makes fast work of those foolish enough to underestimate
+    her."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Daggerplay - Deal damage to foes in a line extending from the user.
+-Rend Power - Lower one foe's Strength.
+-Rend Magick - Lower one foe's Magick.
+-Rend Armor - Lower one foe's Stamina.
+-Rend Mind - Lower one foe's Mind.
+
+Support Abilities
+-Swiftness - Increases group's movement speed.
+
+
+    4.3 - Gijuk
+Description: "Fires off his fun and mouth from a safe distance."
+Type: Ranged
+
+Attack
+-Discs - Deal ranged damage to one foe.
+
+Abilities
+-Slowga - Slow the actions of all foes in range.
+-Hastega - Increases the speed of all allies in range.
+-Sleepga - Put all foes in range to Sleep.
+-Confusega - Cause all foes in range to confuse friend with foe.
+-Scourge - Inflict Poison and deal damage to all foes in range.
+
+Support Abilities
+-Intelligence - Increases group's Magick.
+
+
+    4.4 - Judge of Wings
+Description: "Her armor harbors neither light nor mercy."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Wings of Judgment - Deal damage to surrounding foes.
+-Mighty Attack - Give Bravery and Faith to all allies in range.
+-Drain - Transfer HP from one foe to the caster.
+-Frenetic Range - Lower user's Stamina to increase Strength.
+-Bloodied Blade - Drain HP from one foe to user.
+-Dark Aura - Deal ranged damage to multiple foes.
+
+Support Abilities
+-Gallantry - Increases group's Stamina and Mind when leader's HP is low.
+
+
+    4.5 - Mydia
+Description: "In her sorrow, she sought comfort in the cold steel of the judge
+    magister's plate."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Wings of Judgment - Deal damage to surrounding foes.
+-Mighty Attack - Give Bravery and Faith to all allies in range.
+-Dark Aura - Deal ranged damage to multiple foes.
+-Holyja - Deal heavy damage to all foes in range.
+
+
+        4.6 - Feolthanos (Judge)
+Description: "The lord of the aegyl, bound by the shackles of eternity."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Wings of Judgment - Deal damage to surrounding foes.
+-Mighty Attack - Give Bravery and Faith to all allies in range.
+-Drain - Transfer HP from one foe to the caster.
+-Frenetic Range - Lower user's Stamina to increase Strength.
+-Bloodied Blade - Drain HP from one foe to user.
+-Dark Aura - Deal ranged damage to multiple foes.
+
+Support Abilities
+-Gallantry - Increases group's Stamina and Mind when leader's HP is low.
+
+
+        4.7 - Feolthanos Medi
+Description: "The lord of the aegyl, bound by the shackles of eternity."
+Type: Flying
+
+Attack
+-N/A
+
+Abilities
+-????
+
+
+        4.8 - Feolthanos Dex
+Description: "Right hand of the Eternal that heralds total annihilation."
+Type: Melee
+
+Attack
+-N/A
+
+Abilities
+-????
+
+
+        4.9 - Feolthanos Sinis
+Description: "Left hand of the Eternal that metes out his judgment."
+Type: Melee
+
+Attack
+-N/A
+
+Abilities
+-????
+
+
+        4.10 - Feolthanos
+Description: "The fires of a thousand anima burn within this winged eternal."
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-????
+
+
+-------------------------------------------------------------------------------
+5.0 - Generics
+------
+
+    5.1 - Humes
+        5.1.1 - Sky Pirate
+Description: "Warrior who takes treasure at the point of a sword."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Rend Power - Lower one foe's Strength
+-Rend Magick - Lower one foe's Magick
+-Rend Speed - Lower one foe's Speed
+-Rend Armor - Lower one foe's Stamina
+-Rend Mind - Lower one foe's Mind
+-First Aid - Restore HP to one ally.
+
+Support Abilities
+-Will of Steel - Increases group's Stamina
+
+
+        5.1.2 - warrior
+Description: "'The best defense is a good offense. So's the best offense.'"
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Rush - Deal damage to one foe.
+-Cripple - Inflict Immobilize and deal damage to one foe.
+-Riot - Inflict Berserk on group. Berserk units cannot use magick or abilities.
+-Backdraft - Consume HP to deal fire damage to one foe.
+
+Support Abilities
+-Raid - Increases strength of group's attacks at the cost of defense.
+
+
+        5.1.3 - Ninja
+Description: "Master assassin who walks among shadows."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Katon - Inflict Confuse and deal fire damage to one foe.
+-Suiton - Inflict Silence and deal water damage to one foe.
+-Raijin - Inflict Slow and deal lightning damage to one foe.
+-Doton - Inflict Blind and deal earth damage to one foe.
+-Dokumori - Inflict Poison and deal damage to one foe.
+
+Support Abilities
+-Pain Chain - Gives user a chance to deal an extra attack with each hit.
+
+
+      5.1.4 - White Mage
+Description: "Mage who commands magicks that mend flesh and bind wounds."
+Type: Ranged (Healing)
+
+Attack
+-Cure - Restore HP to one ally.
+-Revitalize - Restore a small amount of HP to one ally and remove debuffs.
+
+Abilities
+-Curaga - Restore HP to all allies in range.
+-Protectga - Increases Stamina of all allies in range.
+-Shellga - Increases Magick Defense of all allies in range.
+-Esunaga - Remove debuffs from all allies in range.
+-Dispelga - Remove buffs from all foes in range.
+-Holy - Deal damage to one foe.
+
+Support Abilities
+-Healing Step - Increases potency of healing magicks on group.
+
+
+    5.2 - Bangaa
+        5.2.1 - Monk
+Description: "Master of mind and body who speaks with actions, not words."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Roundhouse - Deal damage to surrounding foes.
+-Chakra - Restore user's HP and remove debuffs.
+-Focus - Gather power, increasing potency of next ability.
+-Far Fist - Deal ranged damage to one foe.
+-Flurry - Deal damage to one foe with three successive hits.
+
+Support Abilities
+-Auto-Regen - Gives Regen to the group.
+
+
+        5.2.2 - Gladiator
+Description: "Warrior possessed of terrifying strength and diabolical prowess."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Pummel - Deal damage to one foe with three successive hits.
+-Warcry - Inflict Disable on all foes in range.
+-Frenetic Rage - Lower user's Stamina to increase Strength.
+-Iron Will - Lower user's Strength to increase Stamina.
+-Cold Blood - Consume HP to deal damage to one foe.
+
+Support Abilities
+-Lifeshield - Increases group's max HP.
+
+
+    5.3 - Viera
+        5.3.1 - Warmage
+Description: "This warrior's magicked blade seeks out the weakness of its
+    target."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Fire Sword - Deal fire damage to all foes in range.
+-Blizzard Sword - Deal water damage to all foes in range.
+-Thunder Sword - Deal lightning damage to all foes in range.
+-Stone Sword - Deal earth damage to all foes in range.
+-Mighty Guard - Increase Defense and Magick Resist of all allies in range.
+-Piercing Blow - Deal damage to foes in a line extending from the user.
+
+Support Abilities
+-Rejuvenate - Increases group's Speed.
+
+
+        5.3.2 - Archer
+Description: "Viera huntress who stalks her prey from afar."
+Type: Ranged
+
+Attack
+-Bows - Deal ranged damage to one foe.
+
+Abilities
+-Shadowbind - Inflict Immobilize on one foe.
+-Steady Shot - Increases group's ranged attack.
+-Camouflage - Render user's group invisible.
+-Barrage - Deal ranged damage to one foe with successive shots.
+-Remedy - Remove debuffs from one ally.
+
+Support Abilities
+-Rejuvenate - Increases group's Speed.
+
+
+    5.4 - Moogle
+        5.4.1 - Fusilier
+Description: "Few can long stand against the magicked shot of the fusilier."
+Type: Ranged
+
+Attack
+-Guns - Deal ranged damage to one foe.
+
+Abilities
+-Firaga Shot - Deal fire damage to all foes in range.
+-Blizzaga Shot - Deal water damage to all foes in range.
+-Thundaga Shot - Deal lightning damage to all foes in range.
+-Stonega Shot - Deal earth damage to all foes in range.
+-Energy Slug - Deal ranged damage to one foe.
+
+Support Abilities
+-Hawkeye - Increases group's attack range.
+
+
+        5.4.2 - Black Mage
+Description: "A potent arsenal of offensive magicks await the black mage's
+    foes."
+Type: Ranged
+
+Attack
+-Fire - Deal fire damage to one foe.
+-Blizzard - Deal water damage to one foe.
+-Thunder - Deal lightning damage to one foe.
+-Stone - Deal earth damage to one foe.
+
+Abilities
+-Firaga - Deal fire damage to all foes in range.
+-Bio - Inflict Poison on all foes in range.
+-Blindga - Inflict Blind on all foes in range.
+-Sleepga - Inflict Sleep on all foes in range.
+-Silencega - Inflict Silence on all foes in range.
+-Confusega - Inflict Confuse on all foes in range.
+-Flare - Deal heavy damage to one foe.
+
+Support Abilities
+-Intelligence - Increases group's Magick.
+
+
+        5.4.3 - Time Mage
+Description: "Bends time to shift the tide of battle."
+Type: Ranged
+
+Attack
+-Fire - Deal fire damage to one foe.
+-Blizzard - Deal water damage to one foe.
+-Thunder - Deal lightning damage to one foe.
+-Stone - Deal earth damage to one foe.
+
+Abilities
+-Firaga - Deal fire damage to all foes in range.
+-Slowga - Slow the actions of all foes in range.
+-Hastega - Increase Speed of all allies in range.
+-Regenga - Restore HP of all allies in range over time.
+-Stopga - Halt the actions of all foes in range.
+-Comet - Deal heavy damage to all foes in range.
+
+Support Abilities
+-Tonguetwister - Reduces magick cast time.
+
+
+    5.5 - Seeq
+Description: "Axe-hurling seeq both wide of girth and short of wit."
+Type: Ranged
+
+Attack
+-Axes - Deal ranged damage to one foe.
+
+Abilities
+-Tomahawk - Deal damage to foes in a line extending from the user.
+-Boomerang - Deal damage to foes in a line extending from the user.
+-Heave-ho - Deal damage to one foe, knocking it back.
+-Rampage - Inflict Berserk on group. Berserk units cannot use magick or
+    abilities.
+-Potion - Restore HP to one ally.
+
+Support Abilities
+-Swiftness - Increases group movement speed.
+
+
+    5.6 - Aegyl
+        5.6.1 - Sky Soldier
+Description: "These aegyl soldiers wear the enemy down with attacks from the
+    air.
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Rend Power - Lower one foe's Strength
+-Rend Magick - Lower one foe's Magick
+-Rend Speed - Lower one foe's Speed
+-Rend Armor - Lower one foe's Stamina
+-Rend Mind - Lower one foe's Mind
+-Head Strike - Deal ranged damage to one foe.
+
+Support Abilities
+-Clairvoyance - Increases group's Mind.
+
+
+        5.6.2 - Sky Warrior
+Description: "Brave aegyl warrior with a deadly arsenal of attacks."
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Diving Slash - Deal damage to one foe.
+-Frenetic Rage - Lower user's Stamina to increase Strength.
+-Iron Will - Lower user's Strength to increase Stamina.
+-Flash of Steel - Deal damage to foes in a line extending from the user.
+
+Support Abilities
+-Valor - Increases group's Strength.
+
+
+        5.6.3 - Dragon Knight
+Description: "Warrior who strikes at foes with the ferocity of a dragon."
+Auto-Float - Gives Float to the group.
+
+
+        5.6.4 - Sky Samurai
+Description: "Swordmaiden who bides her time, waiting to strike the decisive
+    blow."
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Shadowstrike - Inflict Blind and deal damage to one foe.
+-Smotherstrike - Inflict Silence and deal damage to one foe.
+-Chaostrike - Inflict Confuse and deal damage to one foe.
+-Stunstrike - Inflict Slow and deal damage to one foe.
+-Purge - Remove buffs from all foes in range.
+
+Support Abilities
+-Resist All - Grants group immunity to all debuffs.
+
+
+    5.7 - Master Jobs
+        5.7.1 - Berserker
+Description: "Warrior who has surrendered himself to battle's seductive lure."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Rush - Deal damage to one foe.
+-Cripple - Inflict Immobilize and deal damage to one foe.
+-Riot - Inflict Berserk on group. Berserk units cannot use magick or abilities.
+-Backdraft - Consume HP to deal fire damage to one foe.
+
+Support Abilities
+-Raid - Increases strength of group's attacks at the cost of defense.
+
+
+        5.7.2 - Assassin
+Description: "Warrior who approaches cloaked in stealth and speed to slay
+    unseen."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Katon - Inflict Confuse and deal fire damage to one foe.
+-Suiton - Inflict Silence and deal water damage to one foe.
+-Raijin - Inflict Slow and deal lightning damage to one foe.
+-Doton - Inflict Blind and deal earth damage to one foe.
+
+Support Abilities
+-Pain Chain - Gives user a chance to deal an extra attack with each hit.
+
+
+        5.7.3 - Champion
+Description: "Warrior has has tempered the steel of both body and mind."
+Type: Melee
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Roundhouse - Deal damage to surrounding foes.
+-Chakra - Restore user's HP and remove debuffs.
+-Focus - Gather power, increasing potency of next ability.
+-Far Fist - Deal ranged damage to one foe.
+-Flurry - Deal damage to one foe with three successive hits.
+
+Support Abilities
+-Auto-Regen - Gives Regen to the group.
+
+
+        5.7.4 - Ballista
+Description: "Archer trained in the most powerful of bows, raining death from
+    afar."
+Type: Ranged
+
+Attack
+-Bows - Deal ranged damage to one foe.
+
+Abilities
+-Shadowbind - Inflict Immobilize on one foe.
+-Barrage - Deal ranged damage to one foe with successive shots.
+-Remedy - Remove debuffs from one ally.
+
+Support Abilities
+-Hawkeye - Increases group's attack range.
+
+
+        5.7.5 - Wizard
+Description: "Practitioner of the dark arts who weaves spells far from harm's
+    reach."
+Type: Ranged
+
+Attack
+-Fire - Deal fire damage to one foe.
+-Blizzard - Deal water damage to one foe.
+-Thunder - Deal lightning damage to one foe.
+-Stone - Deal earth damage to one foe.
+
+Abilities
+-Firaga - Deal fire damage to all foes in range.
+-Blizzaga - Deal water damage to all foes in range.
+-Thundaga - Deal lightning damage to all foes in range.
+-Stonega - Deal earth damage to all foes in range.
+
+Support Abilities
+-Full Force - Increases group's Strength and Magick when leader's HP is full.
+
+
+        5.7.6 - War-Chief
+Description: "Formidable brute who nevertheless knows when to beat a hasty
+    retreat."
+Type: Ranged
+
+Attack
+-Axes - Deal ranged damage to one foe.
+
+Abilities
+-Tomahawk - Deal damage to foes in a line extending from the user.
+-Boomerang - Deal damage to foes in a line extending from the user.
+-Heave-ho - Deal damage to one foe, knocking it back.
+-Rampage - Inflict Berserk on group. Berserk units cannot use magick or
+    abilities.
+-Elixer - Fully restore user's HP and MP and remove debuffs.
+
+Support Abilities
+-Chivalry - Increases group's Strength and Magick when leader's HP is low.
+
+
+        5.7.7 - Dragoon
+Description: "Knight who rides the wind, lancing foes from the skies."
+Type: Flying
+
+Attack
+-Attack - Deal melee damage to one foe.
+
+Abilities
+-Jump - Deal damage to all foes in range.
+-Dragonmend - Restore HP and remove debuffs from all allies in range.
+
+Support Abilities
+-Gallantry - Increases the group's Stamina and Mind when leader's HP is low.
+
+
+-------------------------------------------------------------------------------
+6.0 - Espers
+------
+
+    6.1 - Non-Elemental Espers
+        6.1.1 - Alruane
+Description: "Irritable beast short of stature and temper."
+Type: Melee
+Rank: I
+Element: N/A
+Weakness: N/A
+
+
+Attack
+-Ram - Deal damage to one foe.
+
+
+        6.1.2 - Chocobo
+Description: "Its swift legs carry it charging into battle."
+Type: Melee
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Beak - Deal Damage to one foe.
+
+
+        6.1.3 - Tonberry
+Description: "'The past has a way of catching up with you."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Knife - Lower Stamina and deal damage to one foe.
+
+Special
+-Karma - Deal damage based on the number of target's kills to one foe.
+
+
+        6.1.4 - Odin
+Description: "Tyrannical lord of the Yarhi who cleaves his opponents in two."
+Type: Melee
+Rank: III
+Element: N/A
+Weakness: N/A
+
+Attack
+-Zantetsuken - Deal damage to multiple foes.
+
+
+        6.1.5 - Gilgamesh
+Description: "The greatest swordsman in all Ivalice... or so he says."
+Type: Melee
+Rank: III
+Element: N/A
+Weakness: N/A
+
+Attack
+-Slice Thrice - Deal damage to one foe with three successive hits.
+
+Special
+-Masamune - Deal damage to one foe. Ignores target's Defense.
+
+
+        6.1.6 - Sylph
+Description: "Sylvan spirit for whom the winds are blades."
+Type: Ranged
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Aero - Deal damage to one foe.
+
+
+        6.1.7 - Zalera
+Description: "Death Seraph who scathes foes with angelic light."
+Type: Ranged
+Rank: III
+Element: Holy
+Weakness: N/A
+
+Attack
+-Holy - Deal damage to one foe.
+
+Special
+-Holyja - Deal heavy damage to all foes in range.
+
+
+        6.1.8 - Zodiark
+Description: "Keeper of Precepts, before whom the mighty are rendered weak."
+Type: Ranged
+Rank: III
+Element: N/A
+Weakness: N/A
+
+Attack
+-Graviga - Deal damage based on targets' current HP to all foes in range.
+
+Special
+-Final Eclipse - Deal massive damage to all foes in range.
+
+
+        6.1.9 - Garchimacera
+Description: "Imp with a heart of mischief."
+Type: Flying
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+
+        6.1.10 - Diabolos
+Description: "Demon who bends gravity to his will."
+Type: Flying
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Nightmare - Inflict Sleep and deal damage to one foe.
+
+Special
+-Gravity - Deal damage based on target's current HP to one foe.
+
+
+        6.1.11 - Bahamut
+Description: "Wyrm tyrant who soars on wings of night."
+Type: Flying
+Rank: III
+Element: N/A
+Weakness: N/A
+
+Attack
+-Bahamut Claw - Deal damage to all foes in range.
+
+Special
+-Mega Flare - Inflict Disable and deal heavy damage to all foes in range.
+
+
+    6.2 - Fire Espers
+        6.2.1 - Djinn
+Description: "Mischievous flame sprite that scorches its foes."
+Type: Melee
+Rank: I
+Element: Fire
+Weakness: Water
+
+Attack
+-Flame Sneeze - Deal fire damage to one foe.
+
+
+        6.2.2 - Balasa
+Description: "An angel of fire consumed by its own passion for destruction."
+Type: Melee
+Rank: II
+Element: Fire
+Weakness: Water
+
+Attack
+-Fire Fist - Inflict Slow and deal fire damage to one foe.
+
+
+        6.2.3 - Ifrit
+Description: "Where walks the Lord of Flame, all is cinder and ash."
+Type: Melee
+Rank: III
+Element: Fire
+Weakness: Water
+
+Attack
+-Burning Strike - Deal fire damage to one foe with two successive blows.
+
+Special
+-Hellfire - Inflict Slow and deal fire damage to surrounding foes.
+
+
+        6.2.4 - Salamander
+Description: "Fire-breathing lizard with an appetite for destruction."
+Type: Ranged
+Rank: I
+Element: Fire
+Weakness: Water
+
+Attack
+-Fireball - Deal fire damage to one foe.
+
+
+        6.2.5 - Lamia
+Description: "Ophidian who bedevils her prey."
+Type: Ranged
+Rank: II
+Element: Fire
+Weakness: Water
+
+Attack
+-Fire - Deal fie damage to one foe.
+-Entice - Inflict Confuse on one foe.
+
+
+        6.2.6 - Belias
+Description: "Gigas that strikes with smoldering brimstone."
+Type: Ranged
+Rank: III
+Element: Fire
+Weakness: Water
+
+Attack
+-Painflare - Deal heavy fire damage to one foe.
+
+Special
+-Firaja - Deal heavy fire damage to all foes in range.
+
+
+        6.2.7 - Bomb
+Description: "'Handle with care.'"
+Type: Flying
+Rank: I
+Element: Fire
+Weakness: Water
+
+Attack
+-Bomb Blast - Deal damage to one foe.
+
+Special
+-Self-destruct - Sacrifice all HP to deal massive damage to surrounding foes.
+
+
+        6.2.8 - Wyvern
+Description: "Wyrm that has taken wing, snapping fiery jaws at its quarry."
+Type: Flying
+Rank: II
+Element: Fire
+Weakness: Water
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Fire Breath - Deal fire damage to multiple foes.
+
+
+        6.2.9 - Chaos
+Description: "Walker of the Wheel who writes his foes' fate in flame."
+Type: Flying
+Rank: III
+Element: Fire
+Weakness: Water
+
+Attack
+-Quadrastrike - Deal damage to one foe with four successive strikes."
+
+Special
+-Flare - Deal heavy damage to one foe.
+
+
+    6.3 - Water Espers
+        6.3.1 - Sahagin
+Description: "Water-spouting creature spawned in the deep places in the sea."
+Type: Melee
+Rank: I
+Element: Water
+Weakness: Lightning
+
+Attack
+-Smack - Deal damage to one foe.
+
+
+        6.3.2 - Cuchulainn
+Description: "The Impure, his touch is poison and death."
+Type: Melee
+Rank: I
+Element: Water
+Weakness: Lightning
+
+Attack
+-Malaise - Deal damage to one foe.
+
+Special
+-Blight - Inflict Poison on one foe.
+
+
+        6.3.3 - Leviathan
+Description: "Ancient wyrm of the deeps, said to swallow tidal waves entire."
+Type: Melee
+Rank: III
+Element: Water
+Weakness: Lightning
+
+Attack
+-Barracuda Dive - Deal damage to surrounding foes.
+
+Special
+-Tidal Wave - Deal water damage to surrounding foes.
+
+
+        6.3.4 - Shivan
+Description: "Heir apparent to Shiva's chilling might."
+Type: Ranged
+Rank: I
+Element: Water
+Weakness: Fire
+
+Attack
+-Blizzard - Deal water damage to one foe.
+
+
+        6.3.5 - Shivar
+Description: "Shiva's cold-hearted paramour."
+Type: Ranged
+Rank: II
+Element: Water
+Weakness: Fire
+
+Attack
+-Blizzard - Deal water damage to one foe.
+
+Special
+-Absolute Zero - Inflict Stop on one foe.
+
+
+        6.3.6 - Shiva
+Description: "Alluring Empress of Ice. Blizzards whirl and rage at her
+    command."
+Type: Ranged
+Rank: III
+Element: Water
+Weakness: Fire
+
+Attack
+-Triple Slap - Deal water damage to one foe with three successive hits.
+
+Special
+-Diamond Dust - Inflict Stop and deal damage to all foes in range.
+
+
+        6.3.7 - Famfrit
+Description: "Darkening Cloud who blots out the heavens."
+Type: Ranged
+Rank: III
+Element: Water
+Weakness: Lightning
+
+Attack
+-Briny Cannonade - Deal water damage to one foe.
+
+Special
+-Tsunami - Deal water damage to all foes in a line extending from the user.
+
+
+        6.3.8 - Aquarius
+Description: "Rides the winds on brilliant fins."
+Type: Flying
+Rank: I
+Element: Water
+Weakness: Lightning
+
+Attack
+-Bubblebath - Deal water damage to one foe.
+
+
+        6.3.9 - Siren
+Description: "Irresistible songstress who beguiles eye and ear alike."
+Type: Flying
+Rank: II
+Element: Water
+Weakness: Lightning
+
+Attack
+-Kickline Dance - Inflict Stop and deal damage to one foe.
+
+
+        6.3.10 - Mateus
+Description: "The Corrupt."
+Type: Flying
+Rank: III
+Element: Water
+Weakness: Lightning
+
+Attack
+-Flash-Freeze - Deal water damage to foes in a line extending from the user.
+
+Special
+-Blizzaja - Deal heavy water damage to all foes in range.
+
+
+    6.4 - Lightning Espers
+        6.4.1 - Remora
+Description: "Lightning dances across this mechanized marionette."
+Type: Melee
+Rank: I
+Element: Lightning
+Weakness: Water
+
+Attack
+-Thunderchop - Deal lightning damage to one foe.
+
+
+        6.4.2 - Ixion
+Description: "Stampeding destrier that tramples foes 'neath thunderous hooves."
+Type: Melee
+Rank: II
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Hoof Kick - Deal lightning damage to one foe.
+
+
+        6.4.3 - Shemhazai
+Description: "His whispers echo between lightning's flash and thunder's crash."
+Type: Melee
+Rank: III
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Soul Purge - Deal lightning damage to foes in a line extending from the user.
+
+Special
+-Thundaja - Deal heavy lightning damage to all foes in range.
+
+
+        6.4.4 - Quetzalcoatl
+Description: "Earthbound avian who flings bolts of lightning from his lowly
+    perch."
+Type: Ranged
+Rank: I
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Thunder - Deal lightning damage to one foe.
+
+
+        6.4.5 - Sagittarius
+Description: "Centaur archer who rains bolts of lightning on his foes."
+Type: Ranged
+Rank: II
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Plasma Arrow - Deal lightning damage to one foe.
+
+Special
+-Triple Shot - Loose three arrows, dealing lightning damage to any foes they
+    strike.
+
+
+        6.4.6 - Tiamat
+Description: "Bound by the ring on its neck, this mighty wyrm breathes
+    lightning arcs."
+Type: Ranged
+Rank: III
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Plasma Storm - Deal lightning damage to multiple foes.
+
+Special
+-Mighty Guard - Increase Defense and Magick Resist of all allies in range.
+
+
+        6.4.7 - Ramih
+Description: "Automaton crafted by Ramuh, Archon of Storms."
+Type: Flying
+Rank: I
+Element: Lightning
+Weakness: Water
+
+Attack
+-Spark - Deal lightning damage to one foe.
+
+
+        6.4.8 - Raiden
+Description: "Lightning courses his diminutive frame."
+Type: Flying
+Rank: II
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Silent Storm - Inflict Silence and deal lightning damage to one foe.
+
+
+        6.4.9 - Ramuh
+Description: "Archon of Storms, foes fall before him as wheat before the
+    scythe."
+Type: Flying
+Rank: III
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Judgment Storm - Deal lightning damage to one foe.
+
+Special
+-Judgment Bolt - Inflit Silence and deal lightning damage to all foes in
+    range."
+
+
+    6.5 - Earth Espers
+        6.5.1 - Goblin
+Description: "Familiar nuisance with his time-tested punch."
+Type: Melee
+Rank: I
+Element: Earth
+Weakness: Fire
+
+Attack
+-Goblin Punch - Deal damage to one foe.
+
+
+        6.5.2 - Golem
+Description: "Woodland colossus who stands watch over Nature's creation."
+Type: Melee
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Wild Charge - Inflict Immobilize and deal damage to one foe.
+
+
+        6.5.3 - Titan
+Description: "The ground trembles at his approach."
+Type: Melee
+Rank: III
+Element: Earth
+Weakness: Fire
+
+Attack
+-Landslide - Deal earth damage to all foes in range.
+
+Special
+-Gaia's Wrath - Inflict Immobilize and deal earth damage to surrounding foes.
+
+
+        6.5.4 - Cactoid
+Description: "Distant, ambulatory relative of the common cactus."
+Type: Ranged
+Rank: I
+Element: Earth
+Weakness: Fire
+
+Attack
+-1000 Needles - Deal damage to one foe.
+
+
+        6.5.5 - Cu Sith
+Description: "A Yarhi whose innocent appearance belies its remorseless soul."
+Type: Ranged
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Stone - Deal earth damage to one enemy.
+
+Special
+-Bedevil - Inflict Blind on one foe.
+
+
+        6.5.6 - Hashmal
+Description: "Bringer of Order before whom mountains are as pebbles."
+Type: Ranged
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Roxxor - Deal earth damage to all foes in range.
+
+Special
+-Stoneja - Deal heavy earth damage to all foes in range.
+
+
+        6.5.7 - Gnoam
+Description: "Airborne sprite of the forest."
+Type: Flying
+Rank: I
+Element: Earth
+Weakness: Fire
+
+Attack
+-Floating Kick - Deal earth damage to one foe.
+
+
+        6.5.8 - Atomos
+Description: "Noble spirit of earth."
+Type: Flying
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Uppercut - Deal earth damage to all foes in range.
+
+Special
+-Drain - Transfer HP from one foe to the caster.
+
+
+        6.5.9 - Exodus
+Description: "Judge-Sal who metes out justice from the heavens."
+Type: Flying
+Rank: III
+Element: Earth
+Weakness: Fire
+
+
+    6.6 - Holy Espers
+        6.6.1 - White Hare
+Description: "Friendly creature quick to aid those in need."
+Type: Ranged (Healing)
+Rank: I
+Element: Holy
+Weakness: N/A
+
+Attack
+-Cure - Restore HP to one ally.
+
+
+        6.6.2 - Carbuncle
+Description: "The rays of its ruby light heal all they touch."
+Type: Ranged (Healing)
+Rank: II
+Element: Holy
+Weakness: N/A
+
+Attack
+-Cure - Restore HP to one ally.
+
+Special
+-Ruby Balm - Restore HP to all allies in range.
+
+
+        6.6.3 - Ultima
+Type: Ranged (Healing)
+Rank: III
+Element: Holy
+Weakness: N/A
+
+Attack
+-Revitalize - Restore HP and remove debuffs from one ally.
+
+Special
+-Eschaton - Deal heavy damage to all foes in a line extending from the user.
+
+
+-------------------------------------------------------------------------------
+7.0 - Animals
+------
+
+    7.1 - Monsters
+        7.1.1 - Red Flan
+Description: "Gelatinous mass that attacks with a lunge of its fiery head."
+Type: Melee
+Rank: I
+Element: Fire
+Weakness: Water
+
+Attack
+-Fireslap - Deal fire damage to one foe.
+
+
+        7.1.2 - Blue Flan
+Description: "Its quivering skin is chill to the touch."
+Type: Melee
+Rank: I
+Element: Water
+Weakness: Lightning
+
+Attack
+-Iceflick - Deal water damage to one foe.
+
+
+        7.1.3 - Yellow Flan
+Description: "An electrical charge courses through its quivering mass."
+Type: Melee
+Rank: I
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Thunderchop - Deal lightning damage to one foe.
+
+
+        7.1.4 - Green Flan
+Description: "Sticky and foul, this green sludge is one of Nature's more vile
+    emissaries."
+Type: Melee
+Rank: I
+Element: Earth
+Weakness: Fire
+
+Attack
+-Landsweep - Deal earth damage to one foe.
+
+
+        7.1.5 - Zombie
+Description: "Wandering corpse that preys on the living."
+Type: Melee
+Rank: I
+Element: N/A
+Weakness: Holy
+
+Attack
+-Snakebite - Inflict Poison and deal damage to one foe.
+
+
+        7.1.6 - Antlion
+Description: "This beast rends flesh from its prey with envenomed jaws."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Adhere - Deal damage to one foe.
+
+Special
+-Spit Venom - Inflict Poison on multiple foes.
+
+
+        7.1.7 - Minotaur
+Description: "Bull-headed monster of legendary might."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Haymaker - Deal damage to one foe.
+
+
+        7.1.8 - Malboro
+Description: "Carnivorous plant with notoriously bad breath."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Thrash - Deal damage to one foe.
+
+Special
+-Bad Breath - Inflict debuffs on multiple foes.
+
+
+        7.1.9 - Great Tortoise
+Description: "Slow of foot, thick of shell."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Shelter - Increase user's Defense.
+
+
+        7.1.10 - Infernal Wolf
+Description: "Lupine beast that shreds its prey with claws of fire."
+Type: Melee
+Rank: II
+Element: Fire
+Weakness: Water
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Confuse Fang - Inflict Confuse and deal fire damage to one foe.
+
+
+        7.1.11 - Arctic Wolf
+Description: "Lupine beast that shreds its prey with claws of ice."
+Type: Melee
+Rank: II
+Element: Water
+Weakness: Fire
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Silence Fang - Inflict Silence and deal ice damage to one foe.
+
+
+        7.1.12 - Storm Wolf
+Description: "Lupine beast that shreds its prey with claws of lightning."
+Type: Melee
+Rank: II
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Slow Fang - Inflict Slow and deal lightning damage to one foe.
+
+
+        7.1.13 - Rock Wolf
+Description: "Lupine beast that shreds its prey with claws of stone."
+Type: Melee
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Blind Fang - Inflict Blind and deal earth damage to one foe.
+
+
+        7.1.14 - Red Wyrm
+Description: "Eater of flame."
+Type: Ranged
+Rank: II
+Element: Fire
+Weakness: Water
+
+Attack
+-Flameball - Deal fire damage to one foe.
+
+
+        7.1.15 - Blue Wyrm
+Description: "Born on wintry peaks, this mighty wyrm freezes its quarry."
+Type: Ranged
+Rank: II
+Element: Water
+Weakness: Lightning
+
+Attack
+-Frostball - Deal water damage to one foe.
+
+
+        7.1.16 - Yellow Wyrm
+Description: "Lightning-quick wyrm that crackles with electricity."
+Type: Ranged
+Rank: II
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Plasmaball - Deal lightning damage to one foe.
+
+
+        7.1.17 - Green Wyrm
+Description: "The earth buckles and trembles beneath this great wyrm."
+Type: Ranged
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Petroball - Deal earth damage to one foe.
+
+
+        7.1.18 - Fire Drake
+Description: "Wyrmkin impervious to fire's ravages."
+Type: Ranged
+Rank: II
+Element: Fire
+Weakness: Water
+
+Attack
+-Fire Breath - Deal fire damage to multiple foes.
+
+
+        7.1.19 - Ice Drake
+Description: "Wyrmkin enamoured of sea and frost."
+Type: Ranged
+Rank: II
+Element: Water
+Weakness: Fire
+
+Attack
+-Frost Breath - Deal water damage to multiple foes.
+
+
+        7.1.20 - Thunder Drake
+Description: "Wyrmkin that plays among the bolts of the storm."
+Type: Ranged
+Rank: II
+Element: Lightning
+Weakness: Earth
+
+Attack
+-Storm Breath - Deal lightning damage to multiple foes.
+
+
+        7.1.21 - Earth Drake
+Description: "Wyrmkin bound to Nature and all Her works."
+Type: Ranged
+Rank: II
+Element: Earth
+Weakness: Fire
+
+Attack
+-Stone Breath - Deal earth damage to multiple foes.
+
+
+        7.1.22 - Vampyr
+Description: "Courtly demon that drinks the blood of the living."
+Type: Flying
+Rank: II
+Element: N/A
+Weakness: Holy
+
+Attack
+-Leech - Transfer HP from one foe to the user.
+
+
+    7.2 - Rare Game
+        7.2.1 - Red Chocobo
+Description: "This chocobo's crimson plumage marks it as a fleet foe."
+Type: Melee
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Beak - Deal damage to one foe.
+
+
+        7.2.2 - Black Chocobo
+Description: "Consumed with a dark rage, this chocobo breathes flame on its
+    foes."
+Type: Ranged
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Choco Flame - Deal fire damage to one foe.
+
+
+        7.2.3 - Green Chocobo
+Description: "Renowned equally for its restorative prowess and fair green
+    feathering."
+Type: Ranged (Healing)
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Choco Cure - Restore HP to one ally.
+
+
+        7.2.4 - Mom Bomb
+Description: "Bomb infused with crude reasoning and cognitive abilities."
+Type: Flying
+Rank: I
+Element: Fire
+Weakness: Water
+
+Attack
+-Self-destruct - Sacrifice all HP to deal massive damage to surrounding foes.
+
+Special
+-Blindga - Inflict Blind on all foes in range.
+
+
+        7.2.5 - Antlion Queen
+Description: "Living humes are a delicacy much savoured by this fierce
+    antlion."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Adhere - Deal damage to one foe.
+
+Special
+-Spit Venom - Inflict Poison on multiple foes.
+
+
+        7.2.6 - Aspidochelon
+Description: "Age-old turtle with a sword protruding from its shell."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Shelter - Increase user's Defense.
+
+
+        7.2.7 - Great Malboro
+Description: "Metamorphosed malboro with hideously bad breath."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Thrash - Deal damage to one foe.
+
+Special
+-Bad Breath - Inflict debuffs on multiple foes.
+
+
+        7.2.8 - Enkidu
+Description: "Gilgamesh's vicious comrade-in-arms."
+Type: Melee
+Rank: II
+Element: N/A
+Weakness: N/A
+
+Attack
+-Gnaw - Deal damage to one foe.
+
+Special
+-Warcry - Inflict Disable on all foes in range.
+
+
+        7.2.9 - Velis
+Description: "Beast contorted beyond recognition by the judge's summoning."
+Type: Melee
+Rank: III
+Element: N/A
+Weakness: N/A
+
+Attack
+-Zantetsuken - Deal damage to multiple foes.
+
+
+        7.2.10 - Elder Wyrm
+Description: "Ancient wyrm that has made its nest in the Glabados Ruins."
+Type: Ranged
+Rank: III
+Element: Earth
+Weakness: Fire
+
+Attack
+-Stone Breath - Deal earth damage to multiple foes.
+
+Special
+-Mighty Guard - Increase Defense and Magick Resist of all allies in range.
+
+
+        7.2.11 - King Bomb
+Description: "Volatile monster capable of inflicting widespread destruction."
+Type: Ranged
+Rank: III
+Element: Fire
+Weakness: Water
+
+Attack
+-Fire Breath - Deal fire damage to multiple foes.
+
+Special
+-Firaja - Deal heavy fire damage to all foes in range.
+
+
+        7.2.12 - Trickster
+Description: "Chocobo of platinum plumage whose cry calls meteors from the
+    heavens."
+Type: Melee
+Rank: III
+Element: N/A
+Weakness: N/A
+
+Attack
+-Beak - Deal damage to one foe.
+
+Special
+-Camouflage - Render user's group invisible.
+-Choco Comet - Deal damage to all foes in range.
+
+
+        7.2.13 - Yiazmat
+Description: "Wyrm whose power defies even the gods."
+Type: Ranged
+Rank: III
+Element: Lightning
+Weakness: Earth
+
+Attack
+-White Breath - Deal damage and inflict Stop on all foes in range.
+
+Special
+-Cyclone - Deal damage to all foes in range.
+-Intercession - Fortify friendly espers.
+-Death Strike - Instantly kill one foe.
+
+
+    7.3 - Miscellaneous
+        7.3.1 - Mimic
+Description: "Guising itself as a treasure chest, this creature waits for the
+    greedy."
+Type: Melee
+Rank: ?
+Element: N/A
+Weakness: N/A
+
+Attack
+-Attack - deal damage to one foe.
+
+
+        7.3.2 - Wing Wraith
+Description: "Minion of the Eternal, long since stripped of its anima."
+Type: Melee
+Rank: I
+Element: N/A
+Weakness: N/A
+
+Attack
+-Judgment Scythe - Deal damage to one foe.
+
+
+-------------------------------------------------------------------------------
+8.0 - Closing Notes & Thanks
+------
+
+And that's all. Special thanks goes to the GameFAQs board for reminding me of
+the monsters I missed, Square-Enix for making such a wonderful game, and myself
+for writing this FAQ ;). Hopefully I didn't miss anyone, but if I did, here's
+to them anyway.
+
+If you need to contact me for whatever reason, be it questions about the FAQ,
+information I've missed, or just to chat, feel free to email me at any time at
+melomany@yahoo.ca and I'll respond as best I can. Thanks, and happy hunting!
+
+-------------------------------------------------------------------------------
+Copyright (c) PapillonReel, 2008
+All rights reserved.

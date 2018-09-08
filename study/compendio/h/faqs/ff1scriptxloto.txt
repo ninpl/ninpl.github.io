@@ -1,0 +1,3475 @@
+/=============================================================================/
+|  ファイナルファンタジー                                                     |
+|  FINAL FANTASY Japanese Game Script and Mini Playing Guide v2.10            |
+|  (C) 2007-2008 Jason Kuntz (x_loto)                                         |
+|  x_loto@hotmail.com                                                         |
+|  Based on the Japanese release of "Final Fantasy"                           |
+|     (C) 1987 Square (Famicom)                                               |
+|     (C) 1987 Square, (C) 1989 Micro Cabin (MSX2)                            |
+|  Also released in the U.S. as "Final Fantasy"                               |
+|     (C) 1987 Square, (C) 1990 Nintendo (NES)                                |
+|  and in Japan as part of the compilation "Final Fantasy I・II"              |
+|     (C) 1994 Square (Famicom)                                               |
+|  Start Date: 04/23/2007                                                     |
+|  Latest Submission Date: 08/05/2008                                         |
+/=============================================================================/
+
+NOTE: This file uses Japanese (Shift-JIS) encoding. It looks best when viewed 
+in Word using a fixed-width Japanese font. If you are unable to use Word, don't 
+worry, as the only minor problem in the browser (as long as you enable Shift-
+JIS) is with lining up columns in certain tables.
+
+「ファイナルファンタジー：ロールプレイングゲームは、決定版です！」
+
+
+                   /=======================================/
+                   |           Table of Contents           |
+                   /=======================================/
+
+             1. Foreword/Mission Statement   .   .   .   .  [1FOR]
+             2. Transcription/Translation    .   .   .   .  [2TRA]
+
+                PRELUDE  .   .   .   .   .   .   .   .   .  [PROL]
+
+                Act I: ＴＨＥ　ＬＩＧＨＴ　ＷＡＲＲＩＯＲＳ
+                   A. THE WARRIORS APPEAR    .   .   .   .  [AWAR]
+                      i. Cornelia Castle
+                     ii. Cornelia
+                   B. THE RESCUE OF PRINCESS SARA    .   .  [BRES]
+                      i. The Temple of Chaos
+                     ii. Cornelia Castle Revisited
+                    iii. Cornelia Revisited
+                     iv. Prologue
+                   C. THE SEAS OPEN  .   .   .   .   .   .  [CSEA]
+                      i. Matoya's Cave
+                     ii. Pravoka
+                   D. THE CURSE OF THE ELF PRINCE    .   .  [DCUR]
+                      i. The Elf Castle
+                     ii. The Elf Village
+                    iii. The Dwarf Village
+                     iv. The Ruined Castle
+                   E. THE ELF PRINCE AWAKENS     .   .   .  [EELF]
+                      i. Matoya's Cave Revisited
+                     ii. The Elf Castle Revisited
+                    iii. The Elf Village Revisited
+                   F. THE WORLD OPENS    .   .   .   .   .  [FWOR]
+                      i. Cornelia Castle Revisited Part 2
+                     ii. The Dwarf Village Revisited
+
+                Act II: ＴＨＥ　ＦＯＵＲ　ＣＨＡＯＳＥＳ
+                   A. THE VAMPIRE OF THE EARTH CAVE  .   .  [AVAM]
+                      i. Melmond
+                     ii. Crescent Lake
+                    iii. The Earth Cave
+                     iv. Melmond Revisited
+                      v. The Stone Giant
+                     vi. Sarda's Cave
+                   B. THE EARTH CRYSTAL  .   .   .   .   .  [BEAR]
+                      i. The Earth Cave Revisited
+                     ii. Melmond Revisited Part 2
+                    iii. The Dwarf Village Revisited Part 2
+                   C. THE FIRE CRYSTAL   .   .   .   .   .  [CFIR]
+                      i. Crescent Lake Revisited
+                     ii. Gulug Volcano
+                    iii. The Elf Village Revisited Part 2
+                     iv. Crescent Lake Revisited Part 2
+                   D. COURAGE AND STRENGTH   .   .   .   .  [DCOU]
+                      i. The Cardia Islands
+                     ii. The Castle of Ordeals
+                    iii. The Cardia Islands Revisited
+                     iv. Melmond Revisited Part 3
+                   E. THE WATER CRYSTAL  .   .   .   .   .  [EWAT]
+                      i. Onrac
+                     ii. Gaia
+                    iii. The Temple of Onrac
+                     iv. Onrac Revisited
+                   F. THE AIR CRYSTAL    .   .   .   .   .  [FAIR]
+                      i. Learning Lufeinish
+                     ii. Lufein
+                    iii. The Waterfall
+                     iv. The Mirage Tower
+                      v. The Floating Castle
+                     vi. The Dwarf Village: Excalibur
+                    vii. Cornelia Revisited Part 2
+
+                Act III: ＴＨＥ　ＴＩＭＥ　ＬＯＯＰ
+                   A. CRESCENT LAKE: TIME LOOP REVEALED  .  [ATIM]
+                   B. THE TEMPLE OF CHAOS REVISITED  .   .  [BTEM]
+                   C. EPILOGUE   .   .   .   .   .   .   .  [CEPI]
+
+                BONUS! BACK OF THE BOX   .   .   .   .   .  [BBOX]
+
+             3. Command Windows  .   .   .   .   .   .   .  [3COM]
+                A. Starting the Game     .   .   .   .   .  [3STA]
+                B. Main Menu Commands    .   .   .   .   .  [3MAI]
+                C. Battle Command Windows    .   .   .   .  [3BAT]
+             4. Item Lists   .   .   .   .   .   .   .   .  [4ITE]
+                A. Tools     .   .   .   .   .   .   .   .  [4TOO]
+                B. Weapons   .   .   .   .   .   .   .   .  [4WEA]
+                C. Armor     .   .   .   .   .   .   .   .  [4ARM]
+             5. Magic List and Effects   .   .   .   .   .  [5MAG]
+                A. White Magic   .   .   .   .   .   .   .  [5WHI]
+                B. Black Magic   .   .   .   .   .   .   .  [5BLA]
+             6. Monster List     .   .   .   .   .   .   .  [6MON]
+             7. Monster Skill List   .   .   .   .   .   .  [7SKI]
+             8. Version History  .   .   .   .   .   .   .  [8VER]
+             9. Credits/Thanks/Legal     .   .   .   .   .  [9CRE]
+
+
+                   /==1.===================================/
+                   |      Foreword/Mission Statement       |
+                   /===============================[1FOR]==/
+
+Twenty years ago, a small Japanese game company seemed on the brink of ruin. 
+Faced with the poor prospects before him, one of its employees, Hironobu 
+Sakaguchi, decided to embark on his final fantasy adventure before leaving the 
+company. He couldn't possibly have known that the project which could have been 
+his last, the aptly-titled "Final Fantasy," would launch a franchise which has 
+become one of the most loved names in RPGs the world over!
+
+However, because of Nintendo of America's tight reign on the content of its 
+games in the 80's and early 90's, much of what we saw in the U.S. was watered 
+down or otherwise altered. For example, in this game and many others, the words 
+"death" and "kill" were not allowed. Translators were forced to come up with 
+flowery alternatives to these simple words, even though there was little or no 
+change in actual meaning. Hence the infamous Death Machine became "WarMech" and 
+Death Knights became "Evilmen," the words "Terminated" and "Slain" were 
+commonly seen in battle, and magic spells such as Death and Kill became "Rub" 
+and "XXXX" instead, even though the prospect of being completely "Erased" may 
+actually be more frightening than simply dying.
+
+This is where I enter the story. I have had a life-long interest in the 
+languages of the Far East, Japanese in particular. The characters used in 
+writing Japanese have always fascinated me, but the language itself, with its 
+complex honorific grammar system, strange usage of particles, and yes, even 
+those beautiful kanji characters, seemed all but impenetrable. But now, finally,
+I've decided to buckle down and learn Japanese, using video games as a tool--
+and sharing the fruits of my labors with you, O Lucky Readers! Therefore, I am 
+providing my translation of the original Japanese version of "Final Fantasy" so 
+that you can see along with me where it differs from the American version. (And 
+it just seemed like a good idea, since no one else had done it yet!)
+
+But more than just that, I am also asking for your help, O Knowledgeable 
+Readers. If you are reading this, and you know Japanese (or, at the very least, 
+you know it better than I do), and you find a mistake, please do not hesitate 
+to send me an email so that I may correct it. If I've written a word in kanji 
+that should be left in kana (or vice versa), let me know; if I've used the 
+wrong kanji somewhere, let me know. You will be credited in the next release.
+
+As one final note, let me point out that this is not a walkthrough. It is 
+simply the script, plus a mini-guide to get you playing in Japanese if you wish.
+
+Just a little trivia:
+・As the first game of the series, it introduced many recurring elements. Among 
+these are: the "Prelude" and "Prologue," usage of suffixes on spell names to 
+indicate increasing power (although these were not introduced in America until 
+"Final Fantasy VIII"), and Airships.
+・While the Famicom/NES version of the game is infamously rife with bugs, it 
+seems that a fair number of them were fixed for the MSX2 release. I don't know 
+what was changed exactly, but I will add that information here when I find it.
+・Although all of the character classes have been reused in later games, the 
+designs of the Red, White, and Black Mages have remained relatively unchanged 
+from what was introduced in this game.
+
+Well, that's enough for this long introduction, O Intrepid Readers. It is my 
+sincere hope that you enjoy this guide, and perhaps even find it useful!
+
+
+                   /==2.===================================/
+                   |       Transcription/Translation       |
+                   /===============================[2TRA]==/
+
+In this section, I have typed up the game text using the following format. 
+Firstly, the game text is reproduced exactly as it appears in the game (barring 
+the occassional typo). Next, the text is presented using the kanji that I 
+believe are correct. Lastly, I present my translation of the original text into 
+English. This translation is as accurate as possible to the best of my 
+knowledge, but some passages were altered slightly to make better-sounding 
+English. To make mistakes easier to spot, I am marking passages that I am 
+unsure of with "(?)" although in all probability there are also other errors 
+that I don't realize I have made. Also, I have not seen 100% of the game text. 
+If you know of anything that is missing, please let me know and I will try to 
+fill in the empty spots sometime in the future.
+
+I have marked the beginning of each "Act," and each major and minor section, 
+with a distinctive header to aid in browsing. Likewise, I have marked each 
+separate event or conversation with "★" to make it stand out. The names chosen 
+by the player do not appear in the text, so I didn't get to use my trademark 
+placeholder "Ｘ." :-P
+
+The text in this file is from the Famicom version of the game, but the MSX2 
+version should contain the exact same text throughout. I have tried, as much as 
+possible, to arrange the text in the order it would be seen in actual gameplay, 
+but for organization's sake some of the ordering may have been changed.
+
+As a supplement to this file for those who actually want to play the game in 
+Japanese, I have also made maps of the entire game with the Japanese names of 
+items and locations (with translations, of course) available on GameFAQs.com. 
+These can also be used with the U.S. version, as only the names will be 
+significantly different.
+
+And now, without further ado, I present to you:
+
+
+                            ファイナルファンタジー
+                                 Final Fantasy
+
+
+                          ===========================
+                ----<<<<{{{{((((    PRELUDE    ))))}}}}>>>>----
+                          ===================[PROL]==
+
+このせかいは　あんこくにつつまれている
+この世界は　暗黒に包まれている
+This world has been engulfed by darkness.
+
+かぜはやみ　うみはあれ　だいちはくさっていく
+風は止み　海は荒れ　大地は腐って行く
+The wind stops, the sea rages, the earth begins to rot.
+
+しかし　ひとびとは１つのよげんをしんじ　それをまっていた
+しかし　人々は一つの予言を信じ　それを待っていた
+But the people believe in one prophecy and wait for it.
+
+このよ　あんこくにそまりしとき
+この世　暗黒に染まりし時
+When this world is dyed dark,
+
+４にんのひかりのせんし　あらわれん
+四人の光の戦士　現れん
+Four Light Warriors will appear.
+
+ながぼうけんのすえ　４にんのわかものがこのちにたどりついた
+長冒険の末　四人の若者がこの地に辿り着いた
+After a long adventure, four youths arrived in this land.
+
+そしてそのてには　それぞれクリスタルがにぎられていた
+そしてその手には　夫れ夫れクリスタルが握られていた
+And in the hand of each, a Crystal was held.
+
+
+________--------~~~~~~~~             ACT I             ~~~~~~~~--------________
+                     ＴＨＥ　ＬＩＧＨＴ　ＷＡＲＲＩＯＲＳ
+~~~~~~~~--------________                               ________--------~~~~~~~~
+
+
+                    ==I.A.=================================
+          ----<<<<{{{{((((    THE WARRIORS APPEAR    ))))}}}}>>>>----
+                    ===============================[AWAR]==
+
+
+                      --I.A.i.---------------------------
+                ----++++****    Cornelia Castle    ****++++----
+                      -----------------------------------
+
+★Guard: Near Entrance (and others)
+おうさまは　ひかりのせんしを　さがしていらっしゃる。　ムムッ　もしや　そなたた
+ち……？！
+王様は　光の戦士を　捜していらっしゃる。　ムムッ　もしや　そなた達……？！
+His Majesty is searching for the Light Warriors. Hmmm, could you...?!
+
+★Younger Princess: East Chamber
+エーン　エーン……
+Sob, sob....
+
+★Old Man: NE Corner (and others)
+わたしたちの　そせんは　４００ねんまえ　ぶきを　このほうもつこに　ふういんし　
+そのかぎを　エルフのおうじに　あずけた。　ひかりのせんしが　あらわれらまで……
+私達の　祖先は　四百年前　武器を　この宝物庫に　封印し　その鍵を　エルフの王子
+に　預けた。　光の戦士が　現れらまで……
+Four hundred years ago, our ancestors sealed weapons in this treasury and 
+entrusted the key to the Elf Prince. Until the Light Warriors appear....
+
+★Locked Doors
+この　とびらは　しんぴのかぎによって　ふういんされている。
+この　扉は　神秘の鍵によって　封印されている。
+This door has been sealed by the Mysterious Key.
+
+★Guard: Outside West Chamber
+おきさきさまは　かなしみのあまり　へやにとじこもったままです。
+お妃様は　悲しみのあまり　部屋に閉じこもったままです。
+Her Majesty is in much sorrow and has shut herself in her room.
+
+★Queen: West Chamber
+わたしは　おうひの　ジェーン。　どうか　おうじょセーラを　たすけだしてくださ
+い！
+私は　王妃の　ジェーン。　どうか　王女セーラを　助け出して下さい！
+I guard Queen Jane. Please, somehow rescue Princess Sara!
+
+★Woman: NW Corner
+おねがいです。　おうじょさまを　たすけだしてください！
+お願いです。　王女様を　助け出して下さい！
+Please. Please rescue the Princess!
+
+★Scholar: NW Room
+ガーランドは　むかし　よいナイトだったが……　あんなことさえなければ……
+ガーランドは　昔　よいナイトだったが……　あんな事さえなければ……
+Garland was once a good knight, but.... If only such a thing had not....
+
+★Invisible Woman: NW Room
+おうじょさまは　さがしていたわよ！
+王女様は　捜していたわよ！
+The Princess was searching for you!
+[NOTE: This woman is not visible due to a bug, but you can still talk to her.]
+
+★Guard: 2F, SW Room
+おうじょをさらったガーランドは　しろの　きた　にある　カオスのしんでんに　にげ
+こんだ　との　じょうほうがはいった……
+王女を拐ったガーランドは　城の　北　にある　カオスの神殿に　逃げ込んだ　との　
+情報が入った……
+Information has come in that Garland, who kidnapped the Princess, took refuge 
+in the Temple of Chaos north of the castle....
+
+★King
+ひかりのせんしたち……よげんしゃ　ルカーンの　いったとおりだ。わしの　たのみを
+きいたくれ。　おうじょが　ガーランドに　さらわれたのだ……　たのむ　たすけだし
+てくれ！
+光の戦士達……予言者　ルカーンの　言った通りだ。私の　頼みを聞いたくれ。　王女
+が　ガーランドに　拐われたのだ……　頼む　助け出してくれ！
+Light Warriors...it is as the prophet Lukahn said. Please hear my request. The 
+Princess has been kidnapped by Garland.... I beg you, please rescue her!
+
+
+                         --I.A.ii.-------------------
+                   ----++++****    Cornelia    ****++++----
+                         ----------------------------
+
+★Woman: Near Entrance
+ここは　ゆめのみやこ　コーネリア……
+ここは　夢の都　コーネリア……
+This is the Dream City Cornelia....
+
+★Dancer: Near Fountain
+わたしは　おどりこ！　ウフフっ！！
+私は　踊り子！　ウフフっ！！
+I'm a dancer! Ahahah!
+
+★Guard: Near Armor Shop
+せんしたちよ　クリスタルに　しゅくふくを……
+戦士達よ　クリスタルに　祝福を……
+Warriors, restore the blessing to the Crystals....
+
+★Old Lady: Near Magic Shops (and others)
+おねがいです。　おうじょさまを　たすけだしてください！
+お願いです。　王女様を　助け出して下さい！
+Please. Please rescue the Princess!
+
+★Old Man: Behind Magic Shops
+よげんしゃルカーンは　みかづきをめざす……といって　このまちをでていった……
+予言者ルカーンは　三日月を目指す……と言って　この町を出て行った……
+The prophet Lukahn left this town...saying he had his eye on the crescent
+moon....
+
+★Guard: North Entrance
+おうさまは　よげんしゃルカーンの　ことばどおり　ひかりのせんしが　あらわれて　
+さらわれた　おうじょを　たすけだしてくれると　しんじています。
+王様は　予言者ルカーンの　言葉通り　光の戦士が　現れて　拐われた　王女を　助け
+出してくれると　信じています。
+His Majesty believes that the Light Warriors will appear and rescue the 
+Princess who was kidnapped, as in the words of the prophet Lukahn.
+
+★Man: East Side
+むかし　わたしは　はるかひがしの　みなとまち　プラボカに　すんでいました。
+昔　私は　遥か東の　港町　プラボカに　住んでいました。
+I once lived far to the east in the port town Pravoka.
+
+★Fountain
+すんだ　みずに　かおを　うつしてみましょう……まあ！きたない！　さあ　このみず
+で　かおを　あらって！　あらって！
+澄んだ　水に　顔を　映して見ましょう……まあ！汚い！　さあ　この水で　顔を　洗
+って！　洗って！
+Look at your face reflected in the clear water...Oh my! It's filthy! Come, wash 
+your face in this water! Wash!
+
+★Well
+いどです。なにかありそうでなにもない　いどです。
+井戸です。何かありそうで何もない　井戸です。
+It is a well. It seems to be something, but it is nothing but a well.
+
+
+                ==I.B.=========================================
+      ----<<<<{{{{((((    THE RESCUE OF PRINCESS SARA    ))))}}}}>>>>----
+                =======================================[BRES]==
+
+
+                    --I.B.i.-------------------------------
+              ----++++****    The Temple of Chaos    ****++++----
+                    ---------------------------------------
+
+★Garland
+おうじょは　おれのものだ！　だれにも　わたさん！　ひかりのせんしだと。こざかし
+いやつらよ！　この　ガーランドが　けちらしてくれよ！
+王女は　俺の者だ！　誰にも　渡さん！　光の戦士だと。小賢しいやつらよ！　この　
+ガーランドが　蹴散らしてくれよ！
+The Princess is mine! I won't hand her over to anybody! You are the Light 
+Warriors, you say. Pretentious fellows! I, Garland, will kick you around!
+
+★Bats
+キィ……キィ…………
+Kee...Kee....
+
+★Princess
+ああ　あなたがたは　ひかりのせんしたち……　たすけてくださって　ありがとう！！
+ああ　あなたがたは　光の戦士達……　助けて下さって　ありがとう！！
+Ah, you are the Light Warriors.... Thank you for rescuing me!!
+
+★The Black Crystal
+ぶきみないろをたずさえた　くろすいしょう。　しかし　とくになにも　おこらない。
+不気味な色を携えた　黒水晶。　しかし　特に何も　起こらない。
+The Black Crystal carries an eerie color. But nothing in particular happens.
+
+
+                 --I.B.ii.------------------------------------
+           ----++++****    Cornelia Castle Revisited    ****++++----
+                 ---------------------------------------------
+
+★King
+よくぞ　おうじょを　たすけだしてくれた。　さあ　この　きたに　はしを　かけよう。
+わしにできるのは　これくらいのことしかない。　たいりくに　わたり　クリスタルの　
+かがやきを　とりもどすのだ！！
+よくぞ　王女を　助け出してくれた。　さあ　この　北に　橋を　掛けよう。私にでき
+るのは　これくらいの事しかない。　大陸に　渡り　クリスタルの　輝きを　取り戻す
+のだ！！
+You have done well in rescuing the Princess. Come, I shall build a bridge to 
+the north. This is about all I can do. Cross to the continent and regain the 
+radiance of the Crystals!!
+
+★King: After Building Bridge
+セーラは　いつも　そなたたちのことを　きにかけている。
+セーラは　いつも　そなた達の事を　気に掛けている。
+Sara always worries about you.
+
+★Princess
+これは　コーネリアのおうじょに　だいだいつたわる　リュートです。　ガーランドが　
+わたしといっしょに　しろから　もちさったのです。　きっと　なにかの　やくにたつ
+でしょう。　もっていってください。
+これは　コーネリアの王女に　代々伝わる　リュートです。　ガーランドが　私と一緒
+に　城から　持ち去ったのです。　きっと　何かの　役に立つでしょう。　持って行っ
+てください。
+This is a Lute that has been handed down for generations to the Princesses of 
+Cornelia. Garland took it from the castle with me. Certainly it will be helpful 
+in some way. Please carry it with you.
+
+★Princess: After Giving Lute
+……わたしと　いっしょに　ここで……　いいえ　なんでもありません。　さあ　たび
+だちの　よういを。
+……私と　一緒に　ここで……　いいえ　何でもありません。　さあ　旅立ちの　用意
+を。
+...Together with me, here.... No, it's nothing at all. Come, prepare to set off.
+
+★Guard: 2F SW Room (and others)
+おおっ　ひかりのせんし　おうじょさまを　たすけだしてくれて　ありがとう！
+おおっ　光の戦士　王女様を　助け出してくれて　ありがとう！
+Oh, Light Warriors, thank you for rescuing the Princess!
+
+★Guard: 1F Near Stairs (and others)
+ハイッ！わたしは　このコーネリアじょうを　まもるという　たいやくを　おおせつか
+って　いますデスッ！
+ハイッ！私は　このコーネリア城を　守ると言う　大役を　仰せつかって　いますデス
+ッ！
+Yes! I have been given the important task of guarding Cornelia Castle!
+
+★Queen: West Chamber
+セーラをたすけだしてくれて　ありがとう！！
+セーラを助け出してくれて　ありがとう！！
+Thank you for rescuing Sara!!
+
+★Scholar: NW Room
+いいつたえによると　だいだい　コーネリアのおうじょにつたわる　リュートは　あく
+のとびらを　うちくだくそうだ。
+言い伝えによると　代々　コーネリアの王女に伝わる　リュートは　悪の扉を　打ち砕
+くそうだ。
+According to legend, the Lute handed down for generations to the Princesses of 
+Cornelia will smash a door of evil.
+
+★Invisible Woman: NW Room
+あなたがたが　ひかりのせんし……？　あの　クリスタルのでんせつの？！
+あなたがたが　光の戦士……？　あの　クリスタルの伝説の？！
+You are the Light Warriors...? Those are the legendary Crystals?!
+
+★Younger Princess: East Chamber
+おねえちゃんが　ぶじにかえってきたの！　おにいちゃんたちのおかげよっ！ありがと
+う！
+お姉ちゃんが　無事に返って来たの！　お兄ちゃん達のお蔭よっ！ありがとう！
+Big Sister has returned safely! Thanks to my big brothers! Thank you!
+
+
+                    --I.B.iii.----------------------------
+              ----++++****    Cornelia Revisited    ****++++----
+                    --------------------------------------
+
+★Guard: Near Armor Shop (Before Speaking with the King)
+おうさまのところへ　いきなされ
+王様の所へ　行きなされ。
+Go to the place of the King.
+
+★Old Lady: Near Magic Shops
+コーネリアをでて　きたにいったところに　マトーヤという　まじょが　すんでいる。
+コーネリアを出て　北に行った所に　マトーヤと言う　魔女が　住んでいる。
+If you leave Cornelia and go north, there is the place where the witch called 
+Matoya lives.
+
+★Woman: Near Church
+マトーヤは　め　が　わるくて　すいしょうのめ　が　ないと　なにもみえないの。
+マトーヤは　目　が　悪くて　水晶の目　が　ないと　何も見えないの。
+Matoya's eyes are bad, and if she doesn't have her Crystal Eye she can see 
+nothing.
+
+
+                         --I.B.iv.-------------------
+                   ----++++****    Prologue    ****++++----
+                         ----------------------------
+
+そして……　たんきゅうのたびは　はじまった
+そして……　探求の旅は　始まった
+And so.... The quest's journey began.
+
+４にんの　わかものは　ひかりの　せんしとして　みずからに　あたえられた　しめい
+のおおきさと　まちうける　はらんのうんめいに　めまいさえ　おぼえるのであった。
+四人の　若者は　光の　戦士として　自らに　与えられた　氏名の大きさと　待ち受け
+る　波乱の運命に　目眩さえ　覚えるのであった。
+Four youths called the Light Warriors, with the bigness of their identities 
+that presented itself, even giddiness they remember with the troubled fate that 
+they expect. (?)
+
+その　いみさえ　しらず　４にんの　わかものがもつ　４つのクリスタル……　はるか
+むかし　そのなかには　かがやきがやどっていたという。
+その　意味さえ　知らず　四人の　若者が持つ　四つのクリスタル……　遥か昔　その
+中には　輝きが宿っていたと言う。
+Unaffected by even that significance, the four youths carry four Crystals.... 
+It is said that in the distant past, radiance dwelled within them.
+
+さあ　たびだつのだ　このせかいをおおう　あんこくを　ふりはらい　へいわのひかり
+を　ふたたび　このちに……
+さあ　旅立つのだ　この世界を覆う　暗黒を　ふりはらい　平和の光を　再び　この地
+に……
+Come, begin your journey. (?) the darkness that covers this world, and restore 
+the light of peace again to the earth....
+
+ＰＲＯＧＲＡＭＭＥＤ　ＢＹ
+ＮＡＳＩＲ
+
+ＣＨＡＲＡＣＴＥＲ　ＤＥＳＩＧＮ
+ＹＯＳＩＴＡＫＡ　ＡＭＡＮＯ
+
+ＳＣＥＮＡＲＩＯ　ＢＹ
+ＫＥＮＪＩ　ＴＥＲＡＤＡ
+
+ＰＲＯＤＵＣＴＩＯＮ　ＯＦ
+ＳＱＵＡＲＥ　Ａ‐ＴＥＡＭ
+
+（Ｃ）１９８７　ＳＱＵＡＲＥ
+
+
+                       ==I.C.===========================
+             ----<<<<{{{{((((    THE SEAS OPEN    ))))}}}}>>>>----
+                       =========================[CSEA]==
+
+
+                       --I.C.i.-------------------------
+                 ----++++****    Matoya's Cave    ****++++----
+                       ---------------------------------
+
+★Brooms
+フシギナ　ジュモン　サ　サッサカサ！　とくれせん　たぼーび　フシギナ　ジュモン　
+サ　サッサカサ！
+不思議ナ　呪文　サ　サッサカサ！　とくれせん　たぼーび　不思議ナ　呪文　サ　サ
+ッサカサ！
+Wonderful spell, sw-sw-sweep! Tceles nottub B, wonderful spell, sw-sw-sweep!
+
+★Matoya
+すいしょうのめ……　すいしょうのめ……　すいしょうのめ……　ゴトッ！　イタタ
+ッ！！　すいしょうのめが　ないと　めがみえん　だれだ？　すいしょうのめを　ぬす
+みおったのは！
+水晶の目……　水晶の目……　水晶の目……　ゴトッ！　イタタッ！！　水晶の目が　
+ないと　目が見えん　誰だ？　水晶の目を　盗みおったのは！
+Crystal Eye.... Crystal Eye.... Crystal Eye.... Ack! Curses!! Without my 
+Crystal Eye, I can't see, who is it? Who stole my Crystal Eye!
+
+
+                          --I.C.ii.------------------
+                    ----++++****    Pravoka    ****++++----
+                          ---------------------------
+
+★Man: Near Entrance
+うわー　たすけてくれー
+うわー　助けてくれー
+Wah, please help!
+
+★Mohawk: Town Square
+このまちは　アルディのうみを　わがものがおで　あらしまくる　かいぞくにおそわれ
+ているんだ！
+この町は　アルディの海を　我が物顔で　荒らし捲る　海賊に襲われているんだ！
+This town is being attacked by pirates who invaded the Aldi Sea and are 
+carrying on like they own the place!
+
+★Bikke: NW Area
+このかいぞくビッケさまに　さからうとは　いいどきょうしてるじゃねえか。　やろう
+ども　やっちまえ！！
+この海賊ビッケ様に　逆らうとは　いい度胸してるじゃねえか。　野郎共　やっちま
+え！！
+To oppose this pirate, Sir Bikke, you are very brave, aren't you? You rascals 
+will regret this!!
+
+★Bikke: After Losing
+すまねえ　ゆるしてくれ。　もう　わるさはしねえ。おわびに　おれのふねを　やるか
+らよう。ゆるしてくれよう。
+すまねえ　許してくれ。　もう　悪さは死ねえ。お詫びに　俺の船を　やるからよう。
+許してくれよう。
+(?) please forgive me. Already my badness is fading. As an apology, let me give 
+you my ship. Please forgive me.
+
+★Bikke: After Handing over Ship
+こころをいれかえて　まじめに　やってますよ　ほんっとうですよっ！　ほんとうです
+ってば。しんじてくださいよ。
+心を入れ替えて　真面目に　やってますよ　本当ですよっ！　本当ですってば。信じて
+下さいよ。
+I've honestly had a change of heart, it's the truth! I'm telling you it's the 
+truth. Please believe me.
+
+★Man: Near Armor Shop
+あなたがたの　おかげで　もう　かいぞくに　おびえることもありません。　ありがと
+う　ございました。
+あなたがたの　お蔭で　もう　海賊に　怯える事もありません。　ありがとう　ござい
+ました。
+Thanks to you, we are no longer frightened of the pirates. Thank you.
+
+★Woman: Near Bikke
+うみの　むこうには　エルフたちがすんでいるの。　でも　おうじが　ずっとねむった
+ままなんですって。
+海の　向こうには　エルフ達が住んでいるの。　でも　王子が　ずっと眠ったまま何で
+すって。
+Across the sea live the Elves. But they say the Prince has slept for a long 
+time.
+
+★Man: Near Entrance
+うみには　おそろしいかいぶつがいっぱいいます。　きをつけてください！
+海には　恐ろしい怪物が一杯います。　気を付けて下さい！
+The sea is full of terrible monsters. Please take care!
+
+★Mohawk: Town Square
+ふねは　みなとにしか　じょうりくできない。　きたのほうには　みなとは　ないぜ
+っ！
+船は　港にしか　上陸できない。　北の方には　港は　ないぜっ！
+A ship can land only in a harbor. The north has no harbors!
+
+★Old Man: Near Church
+わしは　にしの　かなた　メルモンドのまちから　にげてきたのじゃ……　あのまちは　
+ひさんじゃ。　だいちは　くさり　よるになると　かいぶつが　おそってくる……　な
+んとかしてやってくれ！！
+私は　西の　かなた　メルモンドの町から　逃げて来たのじゃ……　あの町は　悲惨じ
+ゃ。　大地は　腐り　夜になると　怪物が　襲って来る……　何と化してやってく
+れ！！
+I escaped from the town of Melmond far to the west.... That town is miserable. 
+The earth is rotting, and when it turns to night monsters come to attack.... 
+Please do something to help!
+
+
+                ==I.D.=========================================
+      ----<<<<{{{{((((    THE CURSE OF THE ELF PRINCE    ))))}}}}>>>>----
+                =======================================[DCUR]==
+
+
+                      --I.D.i.--------------------------
+                ----++++****    The Elf Castle    ****++++----
+                      ----------------------------------
+
+★Front Entrance: L/R Both
+わたしたちの　おうじは　アストスの　のろいで　ねむったままなのです。　おねがい
+です　なんとか　たすけてください！
+私達の　王子は　アストスの　呪いで　眠ったままなのです。　お願いです　何とか　
+助けて下さい！
+Our Prince sleeps because of Astos' curse. Please do something to help him!
+
+★East Hall
+アストサは　とつぜん　このしろに　やってきて　おうじに　のろいをかけ　しろの　
+ざいほうを　もちさってんだ！
+アストサは　突然　この城に　やって来て　王子に　呪いを掛け　城の　財宝を　持ち
+去ってんだ！
+Astos suddenly came to this castle, placed a curse on the Prince, and carried 
+away our treasure!
+
+★Near Treasury
+このほうもつには　しんぴのかぎで　ふういんされています。
+この宝物には　神秘の鍵で　封印されています。
+This treasure has been sealed with the Mysterious Key.
+
+★NW Corner
+アルディのうみの　にしのはじの　どうくつには　ドワーフたちがすんでいるんだ。　
+あいつら　いいやつばかりだよ！
+アルディの海の　西のはじの　洞窟には　ドワーフたちがすんでいるんだ。　あいつら　
+いいやつばかりだよ！
+In a cave west of the Aldi Sea live the Dwarves. They're just good guys!
+
+★SW Field
+どんな　くすりでも　せんじることができる　まじょの　うわさを　みみにしたよ　エ
+ーっと　たしか　マトーヤとかいう？
+どんな　薬でも　煎じる事ができる　魔女の　噂を　耳にしたよ　エーっと　確か　マ
+トーヤとか言う？
+Rumors of a witch who can concoct any kind of medicine have come to my ears. 
+Umm, if I'm not mistaken they call her Matoya?
+
+★Prince's Chamber
+おうじは　アストスの　のろいで　もう　５ねんも　ねむったままなのだ……　なにか　
+ねむりをさます　よいくすりは　ないものか？
+王子は　アストスの　呪いで　もう　五年も　眠ったままなのだ……　何か　眠りを覚
+ます　よい薬は　ない者か？
+The Prince has already slept five years because of Astos' curse.... Does no one 
+have a good medicine that will wake him from his sleep?
+
+★Prince
+スヤ……スヤ……
+Zzz.... Zzz....
+
+
+                      --I.D.ii.--------------------------
+                ----++++****    The Elf Village    ****++++----
+                      -----------------------------------
+
+★At Entrance
+わたしたちの　おうじを　たすけてください！
+私達の　王子を　助けて下さい！
+Please help our Prince!
+
+★At Arms Shop (and others)
+わたしは　よげんしゃだ。　ときが　たてば　めいそうから　よげんが　うまれるだろ
+う………そのときまで　まつのだ！
+私は　予言者だ。　時が　立てば　瞑想から　予言が　生まれるだろう………その時ま
+で　待つのだ！
+I am a prophet. If time stands, a prophecy is born from meditation.... I will 
+wait until that time! (?)
+
+★Near Item Shop
+おうじが　めざめなければ　ようせいおうは　たんじょうせず　ダークエルフの　あん
+こくの　ちからが　エルフを　しはいすることになるんです。
+王子が　目覚めなければ　妖精王は　誕生せず　ダークエルフの　暗黒の　力が　エル
+フを　支配する事になるんです。
+If the Prince doesn't wake, without an Elf King the power of the Dark Elf's 
+darkness will rule the Elves.
+
+★Across Bridge from Item Shop
+ダークエルフのおう　アストスの　ゆくえは　だれも　しりません。
+ダークエルフの王　アストスの　行方は　誰も　知りません。
+No one knows the whereabouts of the Dark Elf King Astos.
+
+★Across Bridge from L4 Magic Shops
+むかし　にしへ　たびしたときに　ふるびた　しろへ　まよいこんだことがあるんだ。　
+だけど　だれもいなくて　きみがわるいんで　すぐに　そこを　はなれたよ。
+昔　西へ　旅した時に　古びた　城へ　迷い込んだ事があるんだ。　だけど　だれもい
+なくて　気味が悪いんで　直ぐに　そこを　放れたよ。
+Long ago when I journeyed to the west, I wandered astray to an old-looking 
+castle. However, there was no one there, and I got a bad feeling and 
+immediately left there.
+
+★Near L4 White Magic Shop
+ミスリルぎんで　つくった　けんや　よろいは　がんじょうで　すごい　いりょくだよ。
+ミスリル銀で　作った　剣や　鎧は　頑丈で　凄い　威力だよ。
+Swords and armor made of mithril silver are amazingly strong.
+
+★NE Field
+おうじは　ようせいおうに　なられるはずだったのに……
+王子は　妖精王に　なられるはずだったのに……
+Although the Prince was expected to become the Elf King....
+
+★Tombstones
+おはか　です。
+お墓　です。
+It is a tomb.
+
+★Leftmost Tomb
+リンク　ここにねむる。
+リンク　ここに眠る。
+Link sleeps here.
+
+
+                     --I.D.iii.---------------------------
+               ----++++****    The Dwarf Village    ****++++----
+                     -------------------------------------
+
+★Room N of Entrance (and others)
+すいしょうのめが　あれば　めがみえなくても　ものをみることができるんだよ。　ダ
+ークエルフのアストスが　まじょのマトーヤから　ぬすみとったらしいよ。
+水晶の目が　あれば　目が見えなくても　者を見る事ができるんだよ。　ダークエルフ
+のアストスが　魔女のマトーヤから　盗み取ったらしいよ。
+If you have the Crystal Eye, even a person whose eyes cannot see will be able 
+to see. It seems that Astos of the Dark Elves stole it from the witch Matoya.
+
+★Just W of Entrance (and others)
+ラリホーっと！
+Rallyho!
+
+★Just S of Entrance
+ドワーフは　くらやみでも　みえるんだぞ！
+ドワーフは　暗闇でも　見えるんだぞ！
+Dwarves can see even in the dark!
+
+★SW of Entrance (and others)
+このおとかい！？　むらの　うらてで　ネリクじいさんが　いわを　くだいている　お
+とさね。
+この音かい！？　村の　裏手で　ネリク爺さんが　岩を　砕いている　音さね。
+This sound!? It's the sound of Grandpa Nerik smashing rocks in the back of the 
+village, isn't it.
+
+★Further SW of Entrance
+おれは　ふゆうせきを　さがしているんだ。　ふゆうせきがあれば　なんだって　うく
+んだぜ！
+俺は　浮遊石を　捜しているんだ。　浮遊石があれば　何だって　浮くんだぜ！
+I am searching for the Float Stone. If you have the Float Stone, they say 
+anything will float!
+
+★Another SW of Entrance
+うでわは　よろいのかわりになるんだ。　みを　まもることができるんだよ。
+腕輪は　鎧の代わりになるんだ。　身を　守る事ができるんだよ。
+A bracelet becomes a substitute for armor. It can protect the body.
+
+★Near Smithy
+かじやのスミスには　あったかい？
+鍛冶屋のスミスには　会ったかい？
+Have you met Smith in the smithy?
+
+★Smith
+でんせつの　きんそく　アダマンタイトがあれば　まぼろしのけんが　つくれるやもし
+れん
+伝説の　金そく　アダマンタイトがあれば　幻の剣が　作れるやもしれん。
+If I have Adamantite, the metal of legend, a dream sword can be made.
+
+★Sample in Smithy
+だめだめ　それは　サンプルじゃよ！！　つかいものにならんよ。
+駄目駄目　それは　サンプルじゃよ！！　使い物にならんよ。
+No, no, that's a sample!! It's not a usuable item.
+
+★W of Smithy
+だいちが　くさってきている。　にしの　ほうから　だんだん……
+大地が　腐って来ている。　西の　方から　段々……
+The earth is beginning to rot. Gradually from the west....
+
+★Nerik: S End of Tunnel
+あと　１ぽのところで　いわが　じゃましとる　このままじゃ　うんが　は　ほれん　
+ニトロのかやくさえ　あればなあ……
+後　一歩の所で　岩が　邪魔しとる　このままじゃ。　運河　は　掘れん　ニトロの火
+薬さえ　あればなあ……
+As it is, a rock is hindering me in a spot where only a small amount remains. A 
+canal will be excavated, if only I had Nitro Powder....
+
+
+                     --I.D.iv.----------------------------
+               ----++++****    The Ruined Castle    ****++++----
+                     -------------------------------------
+
+★King
+アストスにだまされ　このしろも　あれはてて　しまった。たのむ　みなみにある　ぬ
+まの　どうくつ　から　クラウンを　とってきてくれ。　そうすれば　この　しろも　
+もとどおりになる……
+アストスに騙され　この城も　荒れ果てて　しまった。頼む　南にある　沼の　洞窟　
+から　クラウンを　取って来てくれ。　そうすれば　この　城も　元通りになる……
+I was tricked by Astos and this castle too fell into complete ruin. I request 
+that you please take back the Crown from the Swamp Cave that lies to the south. 
+If you do so, even this castle will be as before....
+
+★King: With Crown
+ファファファ……　ばかな　やつらよ。　わしこそ　ダークエルフのおう　アストス
+だ！　そのクラウンと　わしのもつ　このすいしょうのめが　あれば　わしは　しんの　
+ようせいおうになれる！　さあよこせっ！！
+ファファファ……　馬鹿な　やつらよ。　私こそ　ダークエルフのおう　アストスだ！　
+そのクラウンと　私の持つ　この水晶の目が　あれば　私は　真の　妖精王になれる！　
+さあ寄越せっ！！
+Hahaha.... Idiotic people. I myself am the Dark Elf King Astos! If I have that 
+Crown and the Crystal Eye that I possess, I will become the true Elf King! Come,
+hand it over!!
+
+
+                  ==I.E.====================================
+        ----<<<<{{{{((((    THE ELF PRINCE AWAKENS    ))))}}}}>>>>----
+                  ==================================[EELF]==
+
+
+                  --I.E.i.-----------------------------------
+            ----++++****    Matoya's Cave Revisited    ****++++----
+                  -------------------------------------------
+
+★Matoya: Returning the Crystal Eye
+それは　すいしょうのめあ？　ほれ　よこせ……！　かわりに　このくすりを　やるか
+ら……　わしの　くすりのなかで　１ばん　すばらしい　くすりじゃ！　おおっ！！！　
+めが　みえるぞよっ！！
+それは　水晶の目あ？　ほれ　寄越せ……！　代わりに　この薬を　やるから……　私
+の　薬の中で　一番　素晴らしい　薬じゃ！　おおっ！！！　目が　見えるぞよっ！！
+Is that my Crystal Eye? Hand it over...! In exchange I'll give you this 
+medicine.... My medicines are the best wonder drugs! Oh!!! My eyes can see!!
+
+★Matoya: After the Exchange
+もう　おまえらには　ようはない！　さあ　あっちへいった　あっちへいった！
+もう　お前らには　用はない！　さあ　あっちへ行った　あっちへ行った！
+You have no more business here! Come on, go away, go away!
+
+
+                 --I.E.ii.-----------------------------------
+           ----++++****    The Elf Castle Revisited    ****++++----
+                 --------------------------------------------
+
+★Elf: SW Field (Before Waking Elf Prince)
+それは　めざめのくすりかっ！　それならば　おうじを　すくえるがもしれない
+それは　目覚めの薬かっ！　それならば　王子を　救えるがもしれない
+Is that the Waking Medicine?! If it is, you can rescue the Prince, but if 
+not....
+
+★Elf Castle: Handing the Waking Medicine to the Prince's Aide
+おおっ！　この　めざめのくすり　ならば　おうじも　のろいから　ときはなたれよ
+う！　さっそく…………おうじが　おめざめになったぞ！！
+おおっ！　この　目覚めの薬　ならば　王子も　呪いから　溶きはな垂れよう！　早速
+…………王子が　お目覚めになったぞ！！
+Oh! If this is the Waking Medicine, even the Prince's curse will dissolve, let 
+me give him a drop! At once.... The Prince has awoken!! (?)
+
+★Prince
+ずっと　わるい　ゆめを　みていたようだ……　まだ　ゆめのつづきなのか？！　そな
+たたちは　でんせつの　せんし……おおっ　ゆめではない！　さあ　でんせつ　に　し
+たがい　この　しんぴのかぎを　さずけよう
+ずっと　悪い　夢を　見ていたようだ……　未だ　夢の続きなのか？！　そなた達は　
+伝説の　戦士……おおっ　夢ではない！　さあ　伝説　に　し互い　この　神秘の鍵を　
+授けよう
+It seems I have been having bad dreams for a long time.... Do they still 
+continue?! You are the Legendary Warriors....Oh, this is not a dream! Come, in 
+return I shall grant this Mysterious Key to the Legendary Warriors.
+
+★Prince: After Giving Key
+わたしも　このとおり　げんきに　なった。　ありがとう……クリスタルのせんした
+ち！
+私も　この通り　元気に　なった。　ありがとう……クリスタルの戦士達！
+Even I have become healthy this way. Thank you....Crystal Warriors!
+
+★Prince's Aide
+おかげで　おうじも　げんきになりました。　ましや　あなたがたは……　でんせつの　
+せんし？　ありがとうございました。これで　ようせいかい　にも　へいわが……
+お蔭で　王子も　元気になりました。　ましや　あなたがたは……　伝説の　戦士？　
+ありがとうございました。これで　妖精かい　にも　平和が……
+Thanks to you, the Prince has become healthy. Maybe you...are the Legendary 
+Warriors? Thank you. Because of this, there will also be peace in the Elf (?).
+
+★East Hall (and others in Village)
+おうじが　おめざめになった！　ありがとうございました。
+王子が　お目覚めになった！　ありがとうございました。
+The Prince has awoken! Thank you.
+
+★Front Entrance: L
+エルフは　かぎを　あずかっているんだ。　いつか　ひかりのせんしに　ゆだねるまで
+……
+エルフは　鍵を　預かっているんだ。　いつか　光の戦士に　委ねるまで……
+The Elves keep the Key. Until someday we entrust it to the Light Warriors....
+
+★Front Entrance: R
+にしの　どうくつに　あくまがすみつき　そのために　だいちが　くさってきていると
+いう　うわさを　きいたよ
+西の　洞窟に　悪魔が住み着き　その為に　大地が　腐って来ていると言う　噂を　聞
+いたよ。
+I have heard a rumor that says a demon has settled in a cave to the west, and 
+because of that the earth is beginning to rot.
+
+
+                 --I.E.iii.-----------------------------------
+           ----++++****    The Elf Village Revisited    ****++++----
+                 ---------------------------------------------
+
+★Elf Village: Near Item Shop
+ひくうせんという　そらとぶ　ふねが　どこかに　うまっているという　でんせつがあ
+ります。
+飛空船と言う　空飛ぶ　船が　どこかに　埋まっていると言う　伝説があります。
+There is a legend that says a ship that flies in the sky, called an "Airship," 
+is buried somewhere.
+
+★Across Bridge from L4 Magic Shops
+アストスを　たおしてくれたのですか！　これで　エルフにも　へいわが！！
+アストスを　たおしてくれたのですか！　これで　エルフにも　へいわが！！
+You have defeated Astos! Because of this, the Elves too shall have peace!!
+
+
+                      ==I.F.=============================
+            ----<<<<{{{{((((    THE WORLD OPENS    ))))}}}}>>>>----
+                      ===========================[FWOR]==
+
+
+             --I.F.i.--------------------------------------------
+       ----++++****    Cornelia Castle Revisited Part 2    ****++++----
+             ----------------------------------------------------
+
+★Cornelia Castle: Old Man in NE Corner
+さあ　そのかぎで　とびらを　あけてください。　いまこそ　このなかみが　やくにた
+つでしょう。
+さあ　その鍵で　扉を　開けて下さい。　今こそ　この中身が　役に立つでしょう。
+Come, please open the door with the Key. The contents will now be helpful.
+
+★Old Man: Near Treasury
+このほうもつは　しんぴのかぎで　ふういんされています。
+この宝物は　神秘の鍵で　封印されています。
+This treasure has been sealed by the Mysterious Key.
+
+
+                --I.F.ii.--------------------------------------
+          ----++++****    The Dwarf Village Revisited    ****++++----
+                -----------------------------------------------
+
+★Dwarf Village: Giving the Nitro Powder to Nerik
+おおっ！　かんしゃするぞ　わかものたち　これにそ　ニトロのかやく　じゃ。　これ
+で　うんが　が　できるぞ。　さあ　しごとに　でかけるか！
+おおっ！　感謝するぞ　若者達　これにそ　ニトロの火薬　じゃ。　これで　運河　が　
+できるぞ。　さあ　仕事に　出掛けるか！
+Oh! Thank you, young ones, for this Nitro Powder. With this I can finish the 
+canal. Come, let's get to work!
+
+★Near N End of Tunnel
+ネリクじいさんは　いだい　だよ。　そんけいできるドワーフだ。
+ネリク爺さんは　偉大　だよ。　尊敬できるドワーフだ。
+Grandpa Nerik is great. He is a Dwarf who you can respect.
+
+★Further N of Tunnel
+あなたたち　うんが　は　みたかい！？　やっぱり　ネリクじいさんは　すげえや！！
+あなた達　運河　は　見たかい！？　やっぱり　ネリク爺さんは　すげえや！！
+Have you seen the canal!? As I thought, Grandpa Nerik is incredible!!
+
+★Room S of Entrance
+ニトロのかやくは　むかし　しろの　ほうもつこに　しまわれたらしい。
+ニトロの火薬は　昔　城の　宝物庫に　仕舞われたらしい。
+The Nitro Powder long ago was put away in a castle treasury, it seems.
+
+
+________--------~~~~~~~~            ACT II             ~~~~~~~~--------________
+                       ＴＨＥ　ＦＯＵＲ　ＣＨＡＯＳＥＳ
+~~~~~~~~--------________                               ________--------~~~~~~~~
+
+
+               ==II.A.==========================================
+     ----<<<<{{{{((((    THE VAMPIRE OF THE EARTH CAVE    ))))}}}}>>>>----
+               =========================================[AVAM]==
+
+
+                          --II.A.i.------------------
+                    ----++++****    Melmond    ****++++----
+                          ---------------------------
+
+★Man: Near Inn
+ああ……　このまちは　バンパイアに　おそわれているんだ。　きょうかいも　こわれ　
+まちは　ぼろぼろだよ！
+ああ……　この町は　バンパイアに　襲われているんだ。　教会も　壊れ　町は　ぼろ
+ぼろだよ！
+Ah.... This town has been attacked by a Vampire. Even the Church was ruined, 
+and the town is crumbling!
+
+★Man: W of Armor Shop
+だいちが　くさってきている。　アースのどうくつにすむ　バンパイアの　しわざだ。　
+あいつが　つちのちからを　さえぎっているんだ！　たのむ　たいじしてくれ！！
+大地が　腐って来ている。　アースの洞窟に住む　バンパイアの　仕業だ。　あいつが　
+土の力を　遮っているんだ！　頼む　退治してくれ！！
+The earth is beginning to rot. It is the doing of the Vampire that lives in the 
+Earth Cave. He is obstructing the power of the earth! I beg you, exterminate 
+him for us!!
+
+★Old Man: Near Armor Shop
+このまちのみなみの　あくまのしっぽとよばれる　はんとうには　アースのどうくつが
+ある。　むかしは　そのどうくつのそばに　いけばいくほど　さくもつが　よくそだっ
+た。
+この町の南の　悪魔のしっぽと呼ばれる　半島には　アースの洞窟がある。　昔は　そ
+の洞窟の側に　いけば幾程　作物が　よく育った。
+On a peninsula called the Devil's Tail south of this town lies the Earth Cave. 
+Long ago, so many crops grew well near that cave.
+
+★Man: E of Armor Shop
+どうくつにすむ　いしの　きょじんは　いしを　たべるんだ。　とくに　ほうせきは　
+だいこうぶつ　なんだぜっ！　あいつ　くいいじ　はってるからなっ！
+洞窟に住む　石の　巨人は　石を　食べるんだ。　とくに　宝石は　大好物　何だぜ
+っ！　あいつ　食い意地　はってるからなっ！
+The stone giant who lives in the cave eats stones. Especially gems, they are 
+his favorite food! Because he's a glutton!
+
+★Une: NE Corner
+がくしゃのウネといえば　しらぬものは　いないのだっ！　なにっ！　わしのことを　
+しらないっ？！
+学者のウネと言えば　知らぬ者は　いないのだっ！　何っ！　私の事を　知らない
+っ？！
+If you say Scholar Une, and there isn't a person who doesn't know me! What! You 
+don't know about me?!
+　
+★Woman: S Side
+おとうさんがやってる　みせに　よってね！
+お父さんが殺ってる　店に　よってね！
+Father was done in because of the shop!
+
+★Man: Near Black Magic Shop
+もし　つちのクリスタルの　かがやきが　もどれば　きっとまた　だいちに　いのちが　
+やどるでしょう。
+もし　土のクリスタルの　輝きが　戻れば　きっと又　大地に　命が　宿るでしょう。
+If the radiance of the Earth Crystal returns, certainly also life will dwell in 
+the earth.
+
+★Man: S of Weapon Shop
+のうふ　を　やっとります。
+納付　を　やっとります。
+At last we have supplies. (?)
+
+★Old Man: E Side
+みなみの　はじの　どうくつに　サーダじいさんが　すんでいる。じいさんは　とても　
+ものしりだよ。
+南の　恥の　洞窟に　サーダ爺さんが　住んでいる。爺さんは　とても　物知りだよ。
+Grandfather Sarda lives in the Cave of Shame to the south. Grandfather is a 
+very well-informed person. (?)
+
+★Dwarf: E Side
+わたしは　ドワーフのむらから　やってきた　ジム。　だいちが　くさるわけを　しら
+べにきました。
+私は　ドワーフの村から　やって来た　ジム。　大地が　腐る訳を　調べに来ました。
+I am Jim, sent from the Dwarf Village. I came to investigate the reason that 
+the earth is rotting.
+
+★Man: L of Church
+きたのせかいには　むかし　ひじょうにさかえた　ぶんめいがあったが　いまでは　あ
+れはててしまっている。
+北の世界には　昔　非常に栄えた　文明があったが　今では　荒れ果ててしまっている。
+In the northern world long ago there was a civilization that was very 
+prosperous, but nowadays it has completely fallen into ruin.
+
+★Man: R of Church
+こだいの　ひとびとは　なにかの　いしを　つかって　ふねを　そらにうかべていたら
+しい……
+古代の　人々は　何かの　石を　使って　船を　空に浮かべていたらしい……
+People of the ancient times used a stone of some sort, and it seems it could 
+float ships in the sky....
+
+
+                       --II.A.ii.-----------------------
+                 ----++++****    Crescent Lake    ****++++----
+                       ---------------------------------
+
+★Woman: Near Magic Shops
+だんなさまは　たびばかりなされて……　かえって　きても　おひるねばかり。ちょっ
+とは　いえのことも　かんがえてくださらないと……ブツブツ……
+旦那様は　旅ばかりなされて……　却って　来ても　お昼寝ばかり。ちょっとは　家の
+事も　考えて下さらないと……ブツブツ……
+My husband does nothing but travel.... That, or he comes just to nap. When he 
+doesn't even consider matters at the house....*Grumble, grumble*....
+
+★Man: Behind Weapon Shop
+スヤ……スヤ……
+Zzzz....Zzzz....
+
+★Circle: 1:00
+ひのカオスが　あらわれたとき　すべては　やきつくされる……
+火のカオスが　現れた時　全ては　焼き付くされる……
+When the Chaos of Fire appears, all will be scorched....
+
+★Circle: 2:00
+４つのクリスタルに　かがやきを　とりもどし　ここに　もどるのだ！　すべてのなぞ
+は　とかれるだろう……
+四つのクリスタルに　輝きを　取り戻し　ここに　戻るのだ！　全ての謎は　解かれる
+だろう……
+Take back the radiance to the Four Crystals and return here! The riddle of all 
+shall be explained....
+
+★Circle: 3:00
+４つのかがやきを　われらの　もとへ！　それができるのは　ひかりのせんし　そなた
+たち　だけじゃ！
+四つの輝きを　我らの　本へ！　それができるのは　光の戦士　そなた達　だけじゃ！
+To our origin, the radiance of the four! Only you, the Light Warriors, are able 
+to do that!
+
+★Circle: 4:00
+ちからを　ただしいほうこうに　むけねばならぬ！
+力を　正しい方向に　向けねばならぬ！
+You must turn your power towards a righteous direction!
+
+★Circle: 5:00
+４００ねんまえに　かぜが……　２００ねんまえに　みずが……　そして　つち　と　
+ひ……　このせかいをつくる　４つのちからが……
+四百年前に　風が……　二百年前に　水が……　そして　土　と　火……　この世界を
+作る　四つの力が……
+Four hundred years ago, Wind.... Two hundred years ago, Water.... And then, 
+Earth and Fire.... The four powers that make up this world....
+
+★Circle: 6:00
+わしは　よげんしゃルカーン。　いまこそ　でんせつが……　よげんが……　すべて　
+めのまえにあらわれ　われわれの　ゆくさきがきまる。
+私は　予言者ルカーン。　今こそ　伝説が……　予言が……　全て　目の前に現れ　
+我々の　行く先が決まる。
+I am the prophet Lukahn. Even now the legend...the prophecy.... All appears 
+before my eyes, and our future is decided.
+
+★Circle: 7:00
+わたしたち　１２にんの　けんじゃは　ほしと　よげんに　みちびかれ　ここにやって
+きた……
+私達　十二人の　賢者は　星と　予言に　導かれ　ここにやって来た……
+We, the Twelve Sages, were shown the way in the stars and prophecy, and came to 
+study here....
+
+★Circle: 8:00
+つち　ひ　みず　かぜ　の　４つのクリスタルは　それぞれの　ちからによって　かが
+やいている。　４ひきのカオスが　それをさえぎって　ちからを　てにいれようとして
+いる。
+土　火　水　風　の　四つのクリスタルは　夫れ夫れの　力によって　輝いている。　
+四匹のカオスが　それを遮って　力を　手に入れようとしている。
+The Four Crystals of Earth, Fire, Water, and Wind shine with the power of each. 
+The Four Chaoses obstruct that in order to obtain that power.
+
+★Circle: 9:00
+つち……　ひ……　みず……　かぜ……　この４つのちからで　せかいは　なりたって
+おる。
+土……　火……　水……　風……　この四つの力で　世界は　成り立っておる。
+Earth...Fire...Water...Wind.... The world consists of these four powers.
+
+★Circle: 10:00
+４つのちからの　わきでる　みなもとは　４かしょにある　さいだんだ。そこに　いき　
+カオスをたおし　さいだんに　クリスタルを　おけば　かがやきは　とりもどせる……
+四つの力の　沸き出る　源は　四箇所にある　祭壇だ。そこに　行き　カオスを倒し　
+祭壇に　クリスタルを　置けば　輝きは　取り戻せる……
+The origins of the four powers that gush forth are Altars that lie in four 
+places. Go there, defeat the Choases, and if you place the Crystals on the 
+Altars their radiance can be regained....
+
+★Circle: 11:00
+４ひきのカオスは　すべての　じだいを　しはい　しようとしている。４００ねんまえ
+に　かぜのカオスが。２００ねんまえに　みずのカオスが　あらわれ　きたの　ぶんめ
+いを　はかいした。
+四匹のカオスは　全ての　時代を　支配　しようとしている。四百年前に　風のカオス
+が。二百年前に　水のカオスが　現れ　北の　文明を　破壊した。
+The Four Chaoses shall rule the all the eras. Four hundred years ago, the Chaos 
+of Wind. Two hundred years ago, the Choas of Water appeared, and they destroyed 
+the civilization of the north.
+
+★Circle: 12:00
+つちのカオスは　だいちを　くさらせる……
+土のカオスは　大地を　腐らせる……
+The Chaos of Earth makes the earth rot....
+
+
+                      --II.A.iii.-----------------------
+                ----++++****    The Earth Cave    ****++++----
+                      ----------------------------------
+
+★Vampire: Earth Cave 
+すべてのものは　しにたえるのだ。　ふういんは　とかれることなく　だいちは　くさ
+っていく。　この　バンパイアさまに　かてると　おもうのかっ！
+全ての物は　死に絶えるのだ。　封印は　溶かれる事なく　大地は　腐って行く。　こ
+の　バンパイア様に　かてると　思うのかっ！
+All things shall die. The seal not being dissolved, the earth will go on 
+rotting. I feel that (?) this Vampire!
+
+★Stone Plate: Behind Vampire's Chamber
+せきばんが　ゆかにおかれている……　なにか　じゃあくなものをかんじる。
+石板が　床に置かれている……　何か　邪悪な物を感じる。
+A slate has been placed on the floor.... You sense something evil.
+
+
+                     --II.A.iv.---------------------------
+               ----++++****    Melmond Revisited    ****++++----
+                     -------------------------------------
+
+★Melmond: Man Near Inn
+もしや　あなたがたは　ひかりのせんし！？
+もしや　あなたがたは　光の戦士！？
+Are you the Light Warriors!?
+
+★Man: W of Armor Shop
+このまちメルモンドは　むかしうつきしいまちだった
+この町メルモンドは　昔美しい町だった。
+This town Melmond was once a beautiful town.
+
+★Man: Near White Magic Shop
+バンパイアは　しんだけど　つちは　どんどん　くさっていく……　だいちの　みどり
+が　きいていく……
+バンパイアは　死んだけど　土は　どんどん　腐っていく……　大地の　緑が　聞いて
+いく……
+The Vampire has died, but the earth steadily keeps rotting.... The greenery of 
+the earth keeps listening.... (?)
+
+★Man: S of Weapon Shop
+バンパイアは　しんだのに　ますます　つちは　くさっていく……　いったい　どうな
+っているんだ？　なにか　ほかのものが？？
+バンパイアは　死んだのに　ますます　土は　腐っていく……　一体　どうなっている
+んだ？　何か　他の物が？？
+Although the Vampire is dead, more and more the earth rots.... How on earth can 
+this be? Some other thing??
+
+
+                      --II.A.v.--------------------------
+                ----++++****    The Stone Giant    ****++++----
+                      -----------------------------------
+
+★The Stone Giant
+このまちは　だれも　とおさん！！
+この町は　だれも　通さん！！
+No one passes this way!!
+
+★Stone Giant: w/Star Ruby
+その　いしは　スタールビーか？！おまえら　それを　くれたら　ここをとおしてや
+る！　モグ　モグ……んー　うめえ！！　やっぱり　ルビーが　さいこうに　うまいぜ
+っ！！！
+その　石は　スタールビーか？！お前ら　それを　くれたら　ここを通してやる！　モ
+グ　モグ……んー　埋めえ！！　やっぱり　ルビーが　最高に　旨いぜっ！！！
+That stone is the Star Ruby?! If you give me that, I'll let you pass! Munch, 
+munch.... Mmmm, I'm full!! Rubies are still the most delicious!!!
+
+
+                       --II.A.vi.----------------------
+                 ----++++****    Sarda's Cave    ****++++----
+                       --------------------------------
+
+★Sarda
+バンパイアは　しもべにすぎぬ。だいちを　くさらせ　つちのクリスタルの　かがやき
+を　ふうじている　やつは　もっと　おくふかくにいる。この　つえを　もって　バン
+パイアの　へやの　うらで　つかえ！
+バンパイアは　下部に過ぎぬ。大地を　腐らせ　土のクリスタルの　輝きを　封じてい
+る　やつは　もっと　奥深くにいる。この　杖を　以て　バンパイアの　部屋の　裏で　
+使え！
+The Vampire is no more than a servant. The thing that rots the earth and seals 
+the Earth Crystal's radiance is deeper. Use this Staff behind the room of the 
+Vampire!
+
+
+                     ==II.B.==============================
+           ----<<<<{{{{((((    THE EARTH CRYSTAL    ))))}}}}>>>>----
+                     =============================[BEAR]==
+
+
+                 --II.B.i.-----------------------------------
+           ----++++****    The Earth Cave Revisited    ****++++----
+                 --------------------------------------------
+
+★Using the Earth Staff
+つちのつえを　ふりかざした……　すると　せきばんがわれ　そこに　かいだんがあら
+われた！
+土の杖を　振り翳ざした……　すると　石板が割れ　そこに　階段が現れた！
+You wave the Earth Staff over your head.... When you do, the slate splits and a 
+stairway appears!
+
+★Lich
+カオスのたまが　われた。じゃあくな　ものが　たちこめる。そして　それは　なにか
+を　かたち　づくりはじめた……つちの　ちからを　さえぎる　もの……　つちのカオ
+ス。　リッチ！
+カオスの玉が　割れた。邪悪な　物が　立ち込める。そして　それは　何かを　形　作
+り始めた……土の　力を　遮る　物……　つちのカオス。　リッチ！
+The Ball of Chaos cracked. A wicked object hangs over it. And then it begins to 
+take form.... The thing that obstructs the power of Earth.... The Chaos of 
+Earth. Lich!
+
+★The Altar of Earth
+つちのさいだん……。　つちのちからが　わきでるところだ。
+土の祭壇……。　土の力が　沸き出る所だ。
+The Altar of Earth.... It is the place from which the power of earth gushes 
+forth.
+
+
+                 --II.B.ii.----------------------------------
+           ----++++****    Melmond Revisited Part 2    ****++++----
+                 --------------------------------------------
+
+★Melmond: Old Man Near Armor Shop
+おおっ　つちのクリスタルに　かがやきが！！
+おおっ　土のクリスタルに　輝きが！！
+Oh, radiance has returned to the Earth Crystal!!
+
+★Dwarf: E Side (and others)
+ひかりのせんしたち……　あなたたちの　おかげです。　つちが　きれいになってきま
+した！
+光の戦士達……　あなた達の　お蔭です。　土が　きれいになってきました！
+Light Warriors.... It is thanks to you. The earth has become beautiful!
+
+
+            --II.B.iii.-------------------------------------------
+      ----++++****    The Dwarf Village Revisited Part 2    ****++++----
+            ------------------------------------------------------
+
+★Dwarf: SW of Smithy
+だいちが　もとにもどってきました。　ひかりのせんし　あなたたちのおかげです！
+大地が　元に戻ってきました。　光の戦士　あなたたちのお蔭です！
+The earth is coming back to how it was. Thanks to you, the Warriors of Light!
+
+
+                     ==II.C.=============================
+           ----<<<<{{{{((((    THE FIRE CRYSTAL    ))))}}}}>>>>----
+                     ============================[CFIR]==
+
+
+                  --II.C.i.----------------------------------
+            ----++++****    Crescent Lake Revisited    ****++++----
+                  -------------------------------------------
+
+★Crescent Lake: Circle: 4:00
+ひのカオスは　このまちの　にしにある　グルグかざんに　ねむっていたが　いま
+２００ねん　はやく　めざめた。すべてが　やきつくされるまえに　カオスをたおすの
+だ……！
+火のカオスは　この町の　西にある　グルグ火山に　眠っていたが　今　二百年　早く　
+目覚めた。全てが　焼き付くされる前に　カオスを倒すのだ……！
+The Chaos of Fire sleeps in Gulug Volcano to the west of this town, but now it 
+has awoken two hundred years early. Before all is scorched, defeat the 
+Chaos....!
+
+★Circle: 5:00
+よくぞ　つちの　カオスを　たおし　かがやきをとり　もどした。だが２００ねんごに　
+めざめるはずだった　ひのカオスが　それに　きづき　めをさました。　さあ　このカ
+ヌーをつかい　グルグかざんにゆけ！
+よくぞ　土の　カオスを　倒し　輝きを取り戻した。だが二百年後に　目覚めるはずだ
+った　火のカオスが　それに　気づき　目を覚ました。　さあ　このカヌーを使い　グ
+ルグ火山に行け！
+You have done well to defeat the Chaos of Earth and return the radiance. 
+However, the Chaos of Fire which was supposed to wake two hundred years later 
+is aware of this and has awakened. Come, use this canoe and go to Gulug 
+Volcano!
+
+
+                       --II.C.ii.-----------------------
+                 ----++++****    Gulug Volcano    ****++++----
+                       ---------------------------------
+
+★Marilith
+つちの　カオスを　たおし　この　マリリスの　ねむりを　じゃましたのは　おまえら
+か！　ひのちからは　わたさん。　わたしの　ほのおで　やきつくしてくれよう！
+土の　カオスを　倒し　この　マリリスの　眠りを　邪魔したのは　お前らか！　火の
+力は　渡さん。　私の　炎で　焼き付くしてくれよう！
+You defeated the Chaos of Earth and intruded on the sleep of me, Marilith! I 
+will not hand over the power of Fire. I shall scorch you with my flames!
+
+★The Altar of Fire
+ひのさいだん……。　ひのちからが　わきでるところだ。
+火の祭壇……。　火の力が　沸き出る所だ。
+The Altar of Fire.... It is the place from which the power of fire gushes forth.
+[NOTE: This text is not normally accessible due to a bug.]
+
+
+             --II.C.iii.-----------------------------------------
+       ----++++****    The Elf Village Revisited Part 2    ****++++----
+             ----------------------------------------------------
+
+★Near L4 Black Magic Shop (With Canoe)
+みかづきのうえに　どうくつがみえる……　そう　かざんよりもっと　きたのほうだ。　
+そこに　ふゆうせきが　ねむっている……　おまえたちのくるのを　まっている。
+三日月の上に　洞窟が見える……　そう　火山よりもっと　北の方だ。　そこに　浮遊
+石が　眠っている……　お前たちの来るのを　待っている。
+Above the Crescent Moon, a cave can be seen.... So, go in a northern direction 
+further from the volcano. There the Float Stone is sleeping.... It waits for 
+your arrival.
+
+★Near Arms Shop (With Float Stone)
+みかづきの　したにある　さばく。　なにかが　すなのしたから　うかびあがる！　ふ
+ゆうせきをつかうのじゃ！！
+三日月の　下にある　砂漠。　何かが　砂の下から　浮かび上がる！　浮遊石を使うの
+じゃ！！
+The desert below the Crescent Moon. Something will rise to the surface from 
+below the sand! Use the Float Stone!
+
+
+              --II.C.iv.----------------------------------------
+        ----++++****    Crescent Lake Revisited Part 2    ****++++----
+              --------------------------------------------------
+
+★Man Behind Armor Shop
+おれは　ふゆうせきを　もう１０ねんも　おいもとめているんだ。どうも　このきたに　
+ある　どうくつが　あやしいんだがな……さいきん　かみさんが　うるさくて　たびに　
+でれないんだよ
+俺は　浮遊石を　もう十年も　追い求めているんだ。どうも　この北に　ある　洞窟が　
+怪しいんだがな……最近　かみさんが　煩くて　旅に　出れないんだよ。
+I have pursued the Float Stone for ten years already. The cave that lies north 
+of here is quite suspicious, but....nowadays, my wife is fussy and I cannot 
+leave on my travels.
+
+★Ryukahn Desert: Using the Float Stone
+ふゆうせき　を　かかげた……　さばく　から　なにか　きょだいなものが　うきあが
+ってくる！！
+浮遊石　を　掲げた……　砂漠　から　何か　巨大な物が　浮き上がって来る！！
+You hoisted up the Float Stone.... From the desert an enormous object rises!! 
+
+
+                   ==II.D.=================================
+         ----<<<<{{{{((((    COURAGE AND STRENGTH    ))))}}}}>>>>----
+                   ================================[DCOU]==
+
+
+                    --II.D.i.-----------------------------
+              ----++++****    The Cardia Islands    ****++++----
+                    --------------------------------------
+
+★East Forested Isle
+おれが　こわくないのか？　ほほー　かんしん　かんしん
+俺が　怖くないのか？　ほほー　感心　感心。
+I am not frightening to you? Ho-hoh, well done, well done.
+
+★Tiny Isle
+ドラゴンおう　バハムートには　あったか？　おうは　ゆうきあるものに　しょうごう
+を　さずけてくれる。
+ドラゴン王　バハムートには　会ったか？　王は　勇気ある者に　称号を　授けてくれ
+る。
+Have you met the Dragon King Bahamut? The king will grant a title to those who 
+have courage.
+
+★Marshy Isle: Outside of Room
+われわれドラゴンは　ゆうきをためすため　この　ほくとうにある　しれんのしろにい
+き　ゆうきのあかしを　とってくるのだ。
+我々ドラゴンは　勇気を試す為　この　北東にある　試練の城に行き　勇気の証を　取
+って来るのだ。
+We dragons, in order to test courage, go to the Castle of Ordeals that lies 
+northeast of here and retrieve proof of courage.
+
+★Marshy Isle: Inside of Room, R
+むかし　きたの　ち　には　うつくしい　しんでんや　きかいじかけの　りっぱな　し
+ろがあった……
+昔　北の　地　には　美しい　神殿や　機械仕掛けの　立派な　城があった……
+Long ago, the world of the north had beautiful temples and splendid mechanized 
+castles....
+
+★Marshy Isle: Inside of Room, L
+ゆうきのあかしは　そのかたちをかえる！　ときには　なにかへんな　かたちをしてい
+るぞ。
+勇気の証は　その形を代える！　時には　何か変な　形をしているぞ。
+The proof of courage changes in form! At times it takes an odd form.
+
+★Forested Isle W: L Side
+このドラゴンおうこくに　にんげんとは　めずらしい　もし　そなたたちが　ゆうきあ
+るものなら　ドラゴンのおうバハムートにあうがよい。
+このドラゴン王国に　人間とは　珍しい。　もし　そなた達が　勇気ある者なら　ドラ
+ゴンの王バハムートに会うがよい。
+In this Dragon Kingdom, men are unusual. If you are people who have courage, 
+you should meet with the King of the Dragons, Bahamut.
+
+★Forested Isle W: R Side
+カルディアしょとうの　ドラゴンは　むえきな　せっしょうを　このまない。
+カルディア諸島の　ドラゴンは　無益な　殺生を　好まない。
+The dragons of the Cardia Islands do not like vain killing.
+
+★Forested Isle W: Bottom R Side
+はるかむかし　ドラゴンとにんげんは　きょうぞんしていた。
+遥か昔　ドラゴンと人間は　共存していた。
+In the distant past, dragons and men coexisted.
+
+★Grassy Isle
+ゆうきのあかしは　ゆうきあるもののみがもつ。
+勇気の証は　勇気ある者のみがもつ。
+Only those who have courage possess the proof of courage.
+
+★Bahamut's Chamber L
+ここは　ドラゴンおうバハムートの　へや……
+ここは　ドラゴン王バハムートの　部屋……
+This is the room of the Dragon King Bahamut....
+
+★Bahamut's Chamber R
+バハムートがすべての　しんのゆうきを　たしかめる
+バハムートが全ての　真の勇気を　確かめる。
+Bahamut ascertains the true courage of all.
+
+★Bahamut
+わしは　ドラゴンおう　バハムート。　しんの　ゆうきとちからをもつものに　しょう
+ごうを　あたえる。　ゆうきのあかしを　もってくるのだ！
+私は　ドラゴン王　バハムート。　真の　勇気と力を持つ者に　称号を　与える。　勇
+気の証を　持って来るのだ！
+I am the Dragon King Bahamut. I will present a title to those who have true 
+courage and strength. Bring me proof of your courage!
+
+
+                   --II.D.ii.-------------------------------
+             ----++++****    The Castle of Ordeals    ****++++----
+                   -----------------------------------------
+
+★King
+そなたのもっているクラウンは　ゆうきをためす　ゆうしゃが　もつものだ。さあいっ
+て　だいざに　すわれ。そなたの　ゆうきと　ちからが　ためされよう。ゆうしゃのあ
+かしを　もちかえれ！
+そなたの持っているクラウンは　勇気を試す　勇者が　持つ物だ。さあ行って　台座に　
+座れ。そなたの　勇気と　力が　試されよう。勇者の証を　持ち帰れ！
+The Crown that thou holdest is the possession of a hero testing his courage. 
+Come, go and sit upon the pedestal. Thy courage and strength shall be tested. 
+Retrieve the proof of a hero!
+
+
+               --II.D.iii.-------------------------------------
+         ----++++****    The Cardia Islands Revisited    ****++++----
+               ------------------------------------------------
+
+★Bahamut: With Tail
+その　ねずみのしっぽ　こそ　ゆうきとちからの　あかしだっ！　さあ　おまえたちに　
+しょうごう　を　さずけよう……　ゆうしゃの　たましいよっ！　ここに　つどえ！
+その　鼠のしっぽ　こそ　勇気と力の　証だっ！　さあ　お前達に　称号　を　授けよ
+う……　勇者の　魂よっ！　ここに　集え！
+This very Rat Tail is proof of your courage and strength! Come, I shall grant 
+unto you a title.... Souls of heroes! Assemble here!
+
+
+                 --II.D.iv.----------------------------------
+           ----++++****    Melmond Revisited Part 3    ****++++----
+                 --------------------------------------------
+
+★Man: R of Church (With Airship)
+おお　ひくうせんだ！！　ほんとうにあったのか！！
+おお　飛空船だ！！　本当にあったのか！！
+Oh, it's the Airship!! It really exists!!
+
+★Woman: Near Arms Shop (After Class Change)
+まあ！　ずいぶん　りっぱになったわね！
+まあ！　随分　立派になったわね！
+Ah! You have become extremely handsome!
+
+
+                     ==II.E.==============================
+           ----<<<<{{{{((((    THE WATER CRYSTAL    ))))}}}}>>>>----
+                     =============================[EWAT]==
+
+
+                           --II.E.i.----------------
+                     ----++++****    Onrac    ****++++----
+                           -------------------------
+
+★Dancer: Near Church
+みて！　わたしの　あし　すてきでしょ！　あしがあるって　いいわね。ほら　こんな　
+ステップだってできるのよ！
+見て！　私の　足　素敵でしょ！　足があるって　いいわね。ほら　こんな　ステップ
+だってできるのよ！
+Look! Aren't my legs lovely! It's good to have legs, isn't it. Look at me, I 
+can do this kind of step too!
+
+★Guard: Near Church
+くうきのみずって　きいたことあるかい？
+空気の水って　聞いた事あるかい？
+Have you heard of something called Airwater?
+
+★Old Man: Near Church
+２００ねんまえ　しんでんは　おおきな　おとを　たてながら　うみに　しずんだそう
+じゃ。　ウワサだと　いまではそこに　にんぎょが　すんでいるそうじゃ。
+二百年前　神殿は　大きな　音を　立てながら　海に　沈んだそうじゃ。　噂だと　今
+ではそこに　人魚が　住んでいるそうじゃ。
+Two hundred years ago, while erecting a temple, there was a large sound and it 
+sank into the sea. Rumor says that now mermaids live there.
+
+★Mohawk: Near Church
+キャラバンの　アンダーヒルは　なんかへんなものを　もっていたぜっ！
+キャラバンの　アンダーヒルは　何か変な物を　持っていたぜっ！
+Underhill of the caravan got some strange things!
+
+★Pirate: Near Graveyard
+ウィーひっく！　おれに　かまわないでくれ！　ちくしょう！　さかなが　さっぱり　
+つれねえ！　これが　のまずにいられるかっていうんだ！
+ウィーひっく！　俺に　構わないでくれ！　畜生！　魚が　さっぱり　釣れねえ！　こ
+れが　飲まずに要られるかって言うんだ！
+*Hic!* It doesn't matter to me! Damn! The fish completely fishes! I say this is 
+because I wasn't drinking! (?)
+
+★Mohawk: Near Graveyard
+そういえば　コペのやつが　ひかりかがやくものが　おちるのを　みたっていってだっ
+け。
+そういえば　コペのやつが　光り輝く物が　落ちるのを　見たって言ってだっけ。
+That reminds me, that fellow Kope said he saw a shining object falling down.
+
+★Man: Graveyard
+このまちも　２００ねんまえは　さかえていた。
+この町も　二百年前は　栄えていた。
+This town too flourished two hundred years ago.
+
+★Woman: Central Area
+わたしの　おとうさんは　キャラバンなの。　にしの　さばくに　でかけているわ。い
+つも　さばくのきたのはじの　もりのちかくで　やすむの。　はやく　ぶじに　かえっ
+てきてほしい！
+私の　お父さんは　キャラバンなの。　西の　砂漠に　出掛けているわ。いつも　砂漠
+の北のはじの　森の近くで　休むの。　早く　無事に　返って来て欲しい！
+My father is in the caravan. They have left for the western desert. Usually, 
+they rest near a forest of (?) to the north of the desert. I wish he would 
+return safely soon!
+
+★Woman: Near Inn
+うみのそこに　しずんでしまった　しんでんには　たくさんのざいほうがあるそうよ。
+きん　ダイヤ……　そうそう　そうえいば　だれかが　なにかの　せきばんが　しんで
+んにあるっていってたわ。
+海の底に　沈んでしまった　神殿には　たくさんの財宝があるそうよ。金　ダイヤ……　
+そうそう　そうえいば　誰かが　何かの　石板が　神殿にあるって言ってたわ。
+Inside the temple that sank to the bottom of the sea, there is a lot of 
+treasure, so I hear. Gold, diamonds.... Ah, yes, that reminds me, somebody said 
+there is some sort of slate in the temple.
+
+★Scholar: Near Inn
+ルフェインごは　むかしのことばで　てんくうびと　と　よばれていた　ひとびとが　
+つかっていました。　わたしの　あにの　ウネが　いつもいっていました　ロゼッタい
+しがあれば　はなせるようになるのにと
+ルフェイン語は　昔の言葉で　天空人　と　呼ばれていた　人々が　使っていました。　
+私の　兄の　ウネが　いつも言っていました　ロゼッタ石があれば　話せるようになる
+のにと。
+The people known as the Sky People spoke Lufeinish, the language of the olden 
+days. My elder brother Une always said that if he had the Rosetta Stone, he 
+would reach the point that he could speak it.
+
+★Dragon: S Side
+わたしは　バハムートに　しょうごうをもらうため　しれんのしろへいく　とちゅうで
+す。　あそこにある　ゆうきのあかしを　もってかえらねばならないのです。
+私は　バハムートに　称号をもらうため　試練の城へ行く　途中です。　あそこにある　
+勇気の証を　持って返らねばならないのです。
+I am on my way to the Castle of Ordeals to receive a title from Bahamut. If I 
+don't return with the proof of courage which is there, I will not receive it.
+
+★Dragon: S Side (After Class Change)
+おおっ！　あなたがたも　しょうごうをっ！！
+おおっ！　あなたがたも　称号をっ！！
+Oh! You too have obtained the title!!
+
+★Witch: Near Magic Shop
+あんた　あしは　はえているのかい？
+あんた　足は　生えているのかい？
+Did you grow legs?
+
+★Man: Near Sub
+おれが　コペだけど。ああ　みたよ　えーと　たしか　きたの　たきのほうだったかな。
+だれも　しんじてくれないけど　あれは　ロボットみたいだったよ！！？
+俺が　コペだけど。ああ　みたよ　えーと　確か　北の　滝の方だったかな。　誰も　
+信じてくれないけど　あれは　ロボットみたいだったよ！！？
+I'm Kope. Ah, I saw it, eh, if I'm not mistaken it was in the direction of the 
+waterfall to the north, I think. No one believes me, but that thing was like a 
+robot!!?
+
+★Old Man: Near Sub
+２００ねんもまえに　さかのぼるが　オンラクのしんでんは　みずのちからをもち　た
+いそう　さかえていた。たのむ　みずのちからを　もとに　もどしてはくれぬか？！
+二百年も前に　遡るが　オンラクの神殿は　水の力を持ち　大層　栄えていた。頼む　
+水の力を　本に　戻してはくれぬか？！
+Going back even two hundred years, the Temple of Onrac possesed the power of 
+Water and was very prosperous. I beg of you, can you please restore the power 
+of Water to where it belongs?!
+
+★Woman: At Sub
+にんぎょを　すくいたくて　タルで　せんすいかん　を　つくったの。　でも　とちゅ
+うで　いきが　つまってしまって　つかいものにならない……　あぶないから　ちかづ
+いては　だめ！
+人魚を　救いたくて　樽で　潜水艦　を　作ったの。　でも　途中で　行きが　詰まっ
+てしまって　使い物にならない……　危ないから　近付いては　駄目！
+I wanted to help the mermaids and made a submarine out of a barrel. I went on 
+my way, but I was completely blocked and it wasn't useful.... Because it's so 
+dangerous, don't go near it!
+
+
+                           --II.E.ii.--------------
+                     ----++++****    Gaia    ****++++----
+                           ------------------------
+
+★Man: Near Entrance
+このまちは　ガイアのまち　べつめい　たかのめ　と　よばれています。みなみには　
+たかのつばさ　と　よばれる　まちがあります。
+この町は　ガイアの町　別名　鷹の目　と　呼ばれています。南には　鷹の翼　と　呼
+ばれる　町があります。
+This town, the town of Gaia, is known as the Hawk's Eye. In the south is a town 
+called the Hawk's Wing.
+
+★Scholar: S Side
+たかのつばさってしってるかい？！　あそこの　ことばは　チンプンカンプンさ！
+鷹の翼って知ってるかい？！　あそこの　言葉は　チンプンカンプンさ！
+Have you heard of the Hawk's Wing?! The language there is all gibberish!
+
+★Dancer: Near Inn
+なんてこと　しんじられなーい。　ねえねえ　あなたたち　そとの　ひとたち　でしょ。
+どうやって　こんな　さんちょう　まで　のぼってきたの？！
+何て事　信じられなーい。　ねえねえ　あなた達　外の　人達　でしょ。　どうやって　
+こんな　山頂　まで　上って来たの？！
+I don't believe such a thing. You people are from outside. How did you climb up 
+to this summit?!
+
+★Man: Near Arms Shop
+にしにある　しろは　ゆうきとちからを　ためす　しろだって　おやじが　いってたよ
+西にある　城は　勇気と力を　試す　城だって　親父が　言ってたよ。
+My father said that the castle that lies to the west is the castle where 
+courage and strength are tested.
+
+★Old Woman: Near Arms Shop
+このまちの　いずみにすんでいる　ようせいを　さいきんみかけないの……いったいど
+うしちゃったのかしら？
+この町の　泉に住んでいる　妖精を　最近見掛けないの……一体同氏ちゃったのかし
+ら？
+Nowadays, I haven't seen the faerie that lives in this town's spring.... I 
+wonder what on earth happened to her?
+
+★Woman: SW Area
+わたし　みたんです。　よぞらを　ひかりかがやくものが　にしの　ほうがくへ　とん
+でいくのを！
+私　見たんです。　夜空を　光り輝く物が　西の　方角へ　飛んで行くのを！
+I saw it. A shining object in the night sky came flying to the west!
+
+★Witch: Near Inn
+あの　ほうきは　しごとを　さぼってばかりで　しょうがないんだよ！　まったく！！
+あの　箒は　仕事を　サボってばかりで　しょうがないんだよ！　全く！！
+That broom, it can't be helped, it does nothing but goof off at work! Indeed!!
+
+★Broom: Near Inn
+あーいそがしっ！
+(?)
+[NOTE: I don't know if this is supposed to be read backwards like Matoya's 
+brooms, but I can't decipher it either way...]
+
+★Man: Near L7 Magic Shops
+ヤーニクルムさばくにある　とうには　だれも　はいれない。　みんなは　しんきろう
+のとうってよんでるけど　ほんとうに　しんきろう　なのかね？！
+ヤーニクルム砂漠にある　塔には　誰も　入れない。　皆は　蜃気楼の塔って呼んでる
+けど　本当に　蜃気楼　なのかね？！
+No one can enter the tower in the Yarnikurm Desert. Everyone calls it the 
+Mirage Tower, but is it really a mirage?!
+
+★Scholar: N of L7 Magic Shops
+こだいの　てんくうびと　と　よばれていた　ひとびとは　そらを　かけめぐり　てん　
+たかくに　しろを　きずいた　という　でんせつがあります。
+古代の　天空人　と　呼ばれていた　人々は　空を　駆け巡り　天　高くに　城を　築
+いた　と言う　伝説があります。
+There is a legend that says the people called the Sky People in ancient times 
+ran about in the sky and built castles high in the heavens.
+
+★Man: Near L8 Magic Shops
+このまちの　いずみのそこにわく　くうきのみずは　ようせいにしが　くんでくること
+はできません。
+この町の　泉の底に沸く　空気の水は　妖精にしが　汲んで来る事はできません。
+The Airwater that gushes from the bottom of this town's spring (?) by the 
+faerie, but you can't scoop it up.
+
+★Scholar: Near Item Shop
+ルフェインごを　けんきゅうしていた　なんとかっていう　がくしゃが　いたなあ？
+ルフェイン語を　研究していた　何とかって言う　学者が　いたなあ？
+Isn't there a scholar who says he has studied Lufeinish somehow?
+
+★Pirate: Near Church
+もうしわけございません。　わたしは　ようせいを　つかまえて　キャラバン　に　う
+ってしまいました。
+申し訳ございません。　私は　妖精を　捕まえて　キャラバン　に　売ってしまいまし
+た。
+There is no excuse. I captured the faerie and sold her to the caravan.
+
+★Spring: Before Rescuing Faerie
+しんぴてきな　いずみの　そこには　なにかが　わきだしている。
+神秘的な　泉の　底には　何かが　沸き出している。
+At the bottom of the mysterious spring, something is gushing out.
+[NOTE: This text is not normally accessible due to a bug.]
+
+★Faerie: After Rescue
+あなたの　かった　びんに　はいっていたの　わたし　こわくて　にげだしてしまって
+……　おれいに　いずみの　そこに　わく　くうきのみずの　くんできましょう！
+あなたの　買った　瓶に　入っていたの　私　怖くて　逃げ出してしまって……　お礼
+に　泉の　底に　沸く　空気の水の　汲んで来ましょう！
+I was held in the bottle you bought, and I was scared and ran away.... In 
+thanks, I'll draw up some Airwater that gushes from the bottom of the spring!
+
+★Faerie: After Airwater
+たすけてくれて　ありがとう！　くうきのみずは　やくにたったかしら？　その　みず
+からは　くうきが　かぎりなく　わきだしてくるの……
+助けてくれて　ありがとう！　空気の水は　役に立ったかしら？　その　水からは　空
+気が　限りなく　沸き出して来るの……
+Thank you for helping me! I wonder if the Airwater was helpful? From that water,
+air comes gushing out endlessly....
+
+
+                    --II.E.iii.----------------------------
+              ----++++****    The Temple of Onrac    ****++++----
+                    ---------------------------------------
+
+★Woman: At Sub (With Airwater)
+くうきのみずをもった　せんし……　ずっと　あなたがたを　まっていました。おねが
+い！　にんぎょを　すくってください！　……そういうと　おんなの　すがたは　まぼ
+ろしのように　きえさった
+空気の水を持った　戦士……　ずっと　あなたがたを　待っていました。お願い！　人
+魚を　救って下さい！　……そう言うと　女の　姿は　幻のように　消え去った。
+Warriors who possess the Airwater.... I have been awaiting you for a long time. 
+Please! Rescue the mermaids! ...Once she says such, the woman's form vanishes 
+in the manner of a phantom.
+
+[NOTE: For the Mermaids' locations, I've numbered the rooms so that the top row 
+is 1-4, the second row of rooms is 5-8, and so on up to 16.]
+★Mermaid: Room 1
+あなたたち　みずのなかで　いきができるの？　すっごおーい　もう　かんどおーっ！
+あなた達　水の中で　行きができるの？　すっごおーい　もう　感動ーっ！
+You can go in the water? I'm very impressed!
+
+★Mermaid: Room 3
+このまま　うみの　ひかりを　とりもどせずに　みずのあわになってしまうのかしら…
+…？
+このまま　海の　光を　取り戻せずに　水の泡になってしまうのかしら……？
+As it is, I wonder if we can't restore the light of the sea and we will become 
+bubbles of water...?
+
+★Mermaid: Room 5
+わたしたちの　なかまの　ひとりが　まちを　みたいと　うえの　せかいを　みにいっ
+たまま　かえってこないの。　いったい　どうしたのかしら？　まさか　あしでもはや
+して？！
+私達の　仲間の　一人が　町を　見たいと　上の　世界を　見に行ったまま　返って来
+ないの。　一体　どうしたのかしら？　まさか　足でも生やして？！
+When one of our group wanted to see the town, she went to see the upper world 
+but hasn't come back. I wonder what in the world is the matter? Surely she 
+didn't grow legs?!
+
+★Mermaid: Room 6
+みずのクリスタルの　かがやきを　とりもどして　うみを　すくってください！
+水のクリスタルの　輝きを　取り戻して　海を　救って下さい！
+Please regain the radiance of the Water Crystal and save the sea!
+
+★Mermaid: Room 7
+あっ　その　クリスタルは　うみの　ひかりが　しょうちょうされたもの。　あなたが
+たは　もしかして　でんせつの……
+あっ　その　クリスタルは　海の　光が　象徴された物。　あなたがたは　もしかして　
+伝説の……
+Ah, that Crystal was made the symbol of the light of the sea. Perhaps you are 
+the legendary....
+
+★Mermaid: Room 9
+わたしたち　にんぎょは　うみの　ひかりを　うしなうと　みずのあわになって　きえ
+てしまうの。
+私達　人魚は　海の　光を　失うと　水の泡になって　消えてしまうの。
+If we mermaids lose the light of the sea, we become bubbles of water and 
+completely vanish.
+
+★Mermaid: Room 11
+ここはしんでんの　さいじょうかいです。　みずのカオス　クラーケンは　しんでんの　
+いちばんしたにいます。
+ここは神殿の　最上階です。　水のカオス　クラーケンは　神殿の　一番下にいます。
+This is the temple's top floor. The Chaos of Water, Kraken, is on the lowest.
+
+★Mermaid: Room 12
+みずのカオスがいるかぎり　うみの　ひかりは　どんどん　よわまっていきます。
+水のカオスがいる限り　海の　光は　どんどん　弱まって行きます。
+As long as the Chaos of Water exists, the light of the sea steadily weakens.
+
+★Mermaid: Room 13
+わたしの　よびかけに　こたえてくださったの　ですね！！
+私の　呼び掛けに　答えて下さったの　ですね！！
+You answered my call!!
+
+★Mermaid: Room 15
+ひがしの　たいりくの　さばくにたつ　ミラージュのとうに　だれかがはいっていくの
+を　みたの！　なんだかすてきな　チャイムのおとが　していたわ！
+東の　大陸の　砂漠に立つ　ミラージュの塔に　誰かが入って行くのを　見たの！　何
+だか素敵な　チャイムの音が　していたわ！
+I saw someone enter the Mirage Tower that stands in the desert of the eastern 
+continent! Somehow he made a beautiful tone with a Chime!
+
+★Kraken
+カオスのたまが　すべての　みずを　まきこむ！　フォ　フォ　フォ……　ミズ　ノ　
+カオス　クラーケン　ニ　ハムカウトハ　ミノホド　シラズナ　ヤツラヨ！
+カオスの玉が　全ての　水を　巻き込む！　フォ　フォ　フォ……　水　の　カオス　
+クラーケン　に　歯向うとは　身の程　知らずな　ヤツラよ！
+The Ball of Chaos swallows up all the water! Ho ho ho.... Defying the Chaos of 
+Water, Kraken, you do not understand your place!
+
+★The Altar of Water
+みずのさいだん……。　みずのちからが　わきでるところだ。
+水の祭壇……。　水の力が　沸き出る所だ。
+The Altar of Water.... It is the place from which the power of water gushes 
+forth.
+
+
+                      --II.E.iv.-------------------------
+                ----++++****    Onrac Revisited    ****++++----
+                      -----------------------------------
+
+★Mermaid: Room 6 (Temple of Onrac)
+もう　だいじょうぶです。このあたりいったいも　むかしのように　うつくしい　うみ
+になるでしょう！
+もう　大丈夫です。この辺り一体も　昔の様に　美しい　海になるでしょう！
+We are safe again. Even this area shall become a beautiful sea like the old 
+days!
+
+★Old Man: N of Sub
+しんぴなる　みずのちからが　よみがえった！　これでまた　むかしのように　このく
+にも　さかえることじゃろうて……！
+神秘なる　水の力が　甦った！　これで又　昔の様に　この国も　栄えることじゃろう
+て……！
+The mysterious power of Water has been revived! With this, even this country 
+will flourish again as in the old days!
+[NOTE: Due to a bug, this text appears after the *Wind* Crystal is lit, rather 
+than after lighting the *Water* Crystal as one would expect.]
+
+
+
+
+                      ==II.F.============================
+            ----<<<<{{{{((((    THE AIR CRYSTAL    ))))}}}}>>>>----
+                      ===========================[FAIR]==
+
+
+                    --II.F.i.-----------------------------
+              ----++++****    Learning Lufeinish    ****++++----
+                    --------------------------------------
+
+★Scholar: Onrac (With Rosetta Stone)
+その　いしをもって　あにのウネのところへ　いってください！
+その　石を持って　兄のウネの所へ　行って下さい！
+Please go to the place where my elder brother Une is with that stone!
+
+★Une: Melmond (With Rosetta Stone)
+ちょっと　その　いしを　みせてみろ。　おおっ　これは　ロゼッタいしではないか！　
+これで　ルフェインごの　なぞが　とける！！　さあ　おまえたちにも　おしえてやろ
+う。
+ちょっと　その　石を　見せてみろ。　おおっ　これは　ロゼッタ石ではないか！　こ
+れで　ルフェイン語の　謎が　解ける！！　さあ　お前達にも　教えてやろう。
+Just a minute, let me see that stone. Oh, if it isn't the Rosetta Stone! With 
+this, the mysteries of Lufeinish will be solved!! Come, I'll teach it to you, 
+too.
+
+★Scholar: Gaia S Side (After Speaking with Une)
+えっ？！　たかのつばさのことばが　はなせるのかい？！
+えっ？！　鷹の翼の言葉が　話せるのかい？！
+What?! You can speak the language of the Hawk's Wing?! 
+
+
+                          --II.F.ii.----------------
+                    ----++++****    Lufein    ****++++----
+                          --------------------------
+
+★Before Learning Lufeinish
+ル……パ……ガミ……ド？
+Lu...pa...gami...do?
+
+★Near Entrance
+われわれは　ルフェインじん。　そう　むかしは　てんくうびとと　よばれていた。　
+おお　おまえたちの　ふねは　ひくうせんといい　われわれの　そせんが　つかってい
+たものだ。
+我々は　ルフェイン人。　そう　昔は　天空人と　呼ばれていた。　おお　お前達の　
+船は　飛空船と言い　我々の　祖先が　使っていた者だ。
+We are the Lufeinish. Long ago we were called the Sky People. Oh, about your 
+ship, it is called the Airship, and our ancestors are the people who used it.
+[NOTE: The word I translated as "Airship" is ひくうせん. I took this word to 
+mean, roughly, "Ship That Flies in the Sky." This was very close to a word that 
+I actually found in the dictionary, which was ひこうせん, or 飛行船, meaning 
+"Ship That Travels by Flying"--an airship or blimp]
+
+★Near Fountain, L
+われわれの　でんせつがある。　４００ねんのち　ひかりをもった　せんしが　あらわ
+れ　われわれを　すくってくれると……
+我々の　伝説がある。　四百年後　光を持った　戦士が　現れ　我々を　救ってくれる
+と……
+We have a legend. Four hundred years in the future, when warriors who carry the 
+light will appear to save us....
+
+★Near Fountain, R
+ああ　ひかりをもった　せんし……　でんせつは　ほんとうだった……！
+ああ　光を持った　戦士……　伝説は　本当だった……！
+Ah, the warriors who carry the light.... The legends were true...!
+
+★NW Corner
+４００ねんまえ　われわれは　こうどな　ぶんめい　を　もっていた。うちゅうにさえ　
+てを　のぼして　いたのだ。しかし　それも　いまでは　ぼうきゃく　の　かなただ…
+…
+四百年前　我々は　高度な　文明　を　持っていた。宇宙にさえ　手を　上して　いた
+のだ。しかし　それも　今では　忘却　の　かなただ……
+Four hundred years ago we possessed an advanced civilization. We even raised 
+our hands to space. But that too is now on the other side of oblivion....
+
+★W Side, Above Bridges
+つち　ひ　みず　かぜ　の　４つの　ちからは　この　せかいを　かたちづくっていま
+す。　われわれは　そのうち　かぜの　ちからを　さずかり　うちゅうに　しろを　う
+かべたのです。
+土　火　水　風　の　四つの　力は　この　世界を　形作っています。　我々は　その
+内　風の　力を　授かり　宇宙に　城を　浮かべたのです。
+The four powers of Earth, Fire, Water, and Wind form this world. Of those, we 
+were awarded the power of Wind and floated a castle in space.
+
+★W Side, Top Bridge
+ふゆうじょうは　そらたかく　ほしの　うみに　うかんでいます。
+浮遊城は　空高く　星の　海に　浮かんでいます。
+The Floating Castle floats high in the sky in the sea of stars.
+
+★W Side, Middle Bridge
+てんくうびとは　ある　ぎしきによって　きおくを　だいだい　うけついでいくのです。
+しかし　４００ねんの　ときの　ながれに　きおくが　うすらいでしまっている。
+天空人は　ある　儀式によって　記憶を　代々　受け継いで行くのです。　しかし　四
+百年の　時の　流れに　記憶が　薄らいでしまっている。
+Because of a ceremony that the Sky People have, memories are inherited through 
+the generations. However, in the stream of time of four hundred years, the 
+memories have grown thin.
+
+★W Side, Bottom Bridge
+そせんが　つくった　ロボットたちは　いまでも　うごいているだろうか？
+祖先が　作った　ロボット達は　今でも　動いているだろうか？
+Maybe the robots made by our ancestors still run even now?
+
+★E Side, Above Bridges
+てん　たかく　ういている　ふゆうじょう。　われわれの　そせんが　むかし　すんで
+いたところだ。ミラージュのとうは　その　いりぐちに　なっている
+天　高く　浮いている　浮遊城。　我々の　祖先が　昔　住んでいた所だ。ミラージュ
+の塔は　その　入口に　なっている。
+The Floating Castle that floats high in the heavens. It is the place where our 
+ancestors lived long ago. Mirage Tower has become its entrance.
+
+★E Side, Top Bridge
+われわれの　さいごのたのみだった　５にんの　せんしは　いまでも　どこかに　いき
+ている。　しかし　そのすがたは　コウモリにされてしまった。
+我々の　最後の頼みだった　五人の　戦士は　今でも　どこかに　生きている。　しか
+し　その姿は　蝙蝠にされてしまった。
+The five warriors who were our last hope live somewhere even now. But their 
+orms were made into bats.
+
+★E Side, L of Top Bridge
+われわれは　ティアマットと　たたかった……！　しかし　やつを　たおすことは　で
+きなかった。　いまでも　やつは　ふゆうじょうに　いるはずだ。
+我々は　ティアマットと　戦った……！　しかし　やつを　倒すことは　できなかった。
+今でも　やつは　浮遊城に　いるはずだ。
+We battled with Tiamat...! But we could not defeat her. I expect she is in the 
+loating Castle even now.
+
+★E Side, Middle Bridge
+てんくうびとの　ちから……　かぜの　ちからは　ティアマットに　さえぎられてしま
+った。
+天空人の　力……　風の　力は　ティアマットに　遮られてしまった。
+The power of the Sky People.... The power of Wind was intercepted by Tiamat.
+
+★E Side, Bottom Bridge
+４ひきのカオスを　あやつる　やつが　いるとふんだ　われわれは　その　いばしょを　
+なんとか　つきとめようと　５にんの　せんしを　たびだたせたが　ついに　かえって
+こなかった。
+四匹のカオスを　操る　やつが　いるとふんだ　我々は　その　居場所を　何とか　突
+き止めようと　五人の　戦士を　旅立たせたが　ついに　返って来なかった。
+The one who is manipulating the Four Chaoses (?) when we went to somehow 
+scertain the whereabouts, we sent five warriors on a journey, but at last they 
+id not return. (?)
+
+★E Side, Bottom L Corner
+さあ　この　チャイムをもっていくがよい！！　これをもっていれば　ミラージュのと
+うへ　はいることができる！
+さあ　この　チャイムを持って行くがよい！！　これを持っていれば　ミラージュの塔
+へ　入ることができる！
+Come, you should take this Chime!! If you have this, you can enter the Mirage 
+ower!
+
+★E Side, Bottom L Corner (After Giving Chime)
+ミラージュのとうは　われわれのシンボルだ。
+ミラージュの塔は　我々のシンボルだ。
+The Mirage Tower is our symbol.
+
+
+                       --II.F.iii.----------------------
+                 ----++++****    The Waterfall    ****++++----
+                       ---------------------------------
+
+★Robot
+コノ　キューブ……　モッテイッテ……　コレ　ツカッテ　フユウジョウ　ノ　ティア
+マット……　オネガイ……
+この　キューブ……　持って行って……　これ　使って　浮遊城　の　ティアマット…
+…　お願い……
+This Cube.... Take it.... Use it, and Tiamat of the Floating Castle.... 
+Please....
+
+★Robot (After Cube)
+ギ……ガ……
+Gi...ga....
+
+
+                     --II.F.iv.--------------------------
+               ----++++****    The Mirage Tower    ****++++----
+                     ------------------------------------
+
+★Robot: 1F
+オオ　アナタガタ　ゴシュジンサマ　デスカ？
+オオ　あなたがた　ご主人様　デスカ？
+Oh, are you the masters?
+
+★Robot: 2F
+ワタシタチノ　ナカマノ　１タイ　ボウソウ……　ニシ　ノ　カナタニ　トビサッテ　
+シマッタ　アイシ　ワープキューブ　モッテル
+私達ノ　仲間ノ　一体　暴走……　西　ノ　カナタニ　飛び去って　シマッタ　アイシ　
+ワープキューブ　持ってる。
+One of our companions was running wild.... He fled to the other side of the 
+west, (?) and he has the Warp Cube.
+
+★Robot: 3F
+ワープキューブ　ツカッテ　フユウジョウヘ　ワープ　スルデス
+ワープキューブ　使って　浮遊城ヘ　ワープ　スルデス。
+Use the Warp Cube and warp to the Floating Castle.
+
+
+                    --II.F.v.------------------------------
+              ----++++****    The Floating Castle    ****++++----
+                    ---------------------------------------
+
+★Robot: 3F
+コノ　テンボウマド　カラ　セカイガ　ミワタセマス
+コノ　展望窓　カラ　セカイガ　見渡せます。
+From this viewing window, you may look over the world.
+
+★Window: 3F
+てんぼうまどから　せかいがみわたせる……　４つのちから。　それが　きりのように
+なって　１つのばしょに　ながれこんでいる……　カオスのしんでん！　４つのさいだ
+んのちゅうしん！
+展望窓から　世界が見渡せる……　四つのちから。　それが　霧のようになって　一つ
+の場所に　流れ込んでいる……　カオスの神殿！　四つの祭壇の中心！
+From the viewing window, you can see the world.... The four powers. They are 
+becoming a mist and are flowing into one location.... The Temple of Chaos! The 
+center of the four Altars!
+
+★Computer Terminals: 3F
+ログイン……　ログイン……　ティアマット……かいせきちゅう……
+ログイン……　ログイン……　ティアマット……解析注……
+Login.... Login.... Tiamat.... Analysis notes.... (?)
+
+★Tiamat
+カオスのたまから　せんこうが　はしる！　ここまで　きたか……だがもうこれで　お
+まえたちの　うんめいもおわりだ……！　かぜのカオス　ティアマット！！
+カオスの玉から　せんこうが　走る！　ここまで　来たか……だがもうこれで　お前達
+の　運命も終だ……！　風のカオス　ティアマット！！
+From the Ball of Chaos (?) runs...! So you have come as far as here... But soon 
+with this even your fate will end...! The Chaos of Wind, Tiamat!!
+
+★The Altar of Wind
+かぜのさいだん……。　かぜのちからが　わきでるところだ。
+風の祭壇……。　風の力が　沸き出る所だ。
+The Altar of Wind.... It is the place from which the power of wind gushes forth.
+[NOTE: This text is not normally accessible due to a bug.]
+
+
+               --II.F.vi.--------------------------------------
+         ----++++****    The Dwarf Village: Excalibur    ****++++----
+               ------------------------------------------------
+
+★Smith (If Weapon Inventory Is Full)
+おぬしら　てにいっぱいのぶきをもって……　よくばってはいかんっ！！　それでは　
+わしが　けんをつくっても　もてまい！
+お主ら　手に一杯の武器を持て……　欲張って肺肝っ！！　それでは　私が　剣を作っ
+ても　もてまい！
+You hold so many weapons in your hands...and your heart lusts for more! In that 
+case, you are not welcome for me to even make the sword!
+
+★Smith
+こっこれはアダマンタイト！　よし　わしが　けんを　つくってやろう……　ポンっ！　
+ほらできたっ！！　……おおっ　これは　わしが　てがけたなかで　１ばんのできじゃ。
+もっていくがようっ！！
+こっこれはアダマンタイト！　よし　私が　剣を　作ってやろう……　ポンっ！　ほら
+できたっ！！　……おおっ　これは　私が　手がけた中で　一番のできじゃ。　持って
+いくがようっ！！
+Th-that is Adamantite! All right, I'll make a sword.... Bang! Look at what I 
+can do! ...Oh, this is among the best that I have made. You should take it!!
+
+
+                 --II.F.vii.----------------------------------
+           ----++++****    Cornelia Revisited Part 2    ****++++----
+                 ---------------------------------------------
+
+★Old Man: Behind Magic Shops
+しんでんにいくのじゃ。そして　でんせつどおり　クリスタルのかがやきをもって　そ
+の　ちゅうおうに　たつのだ！
+神殿に行くのじゃ。そして　伝説通り　クリスタルの輝きを持って　その　中央に　経
+つのだ！
+You will go to the temple. And, following the legends, you will hold the 
+radiance of the Crystals and pass through the temple's center!
+
+
+________--------~~~~~~~~            ACT III            ~~~~~~~~--------________
+                          ＴＨＥ　ＴＩＭＥ　ＬＯＯＰ
+~~~~~~~~--------________                               ________--------~~~~~~~~
+
+
+             ==III.A.=============================================
+   ----<<<<{{{{((((    CRESCENT LAKE: TIME LOOP REVEALED    ))))}}}}>>>>----
+             =============================================[ATIM]==
+
+★Circle: 1:00
+ときが　めぐっているのがみえる……　２０００ねん　まえにとんだ　なにかが　そこ
+からせかいをはかいし　そして　２０００ねんたったいま　そいつはまた　２０００ね
+んまえにとび……　そしてまた……
+時が　巡っているのが見える……二千年　前に飛んだ　何かが　そこから世界を破壊し　
+そして　二千年経った今　そいつは又　二千年前に飛び……　そして又……
+I can see time returning... Something that flew to two thousand years ago is 
+destroying the world from there, and now that two thousand years have passed 
+that thing again will fly to two thousand years ago... And again....
+
+★Circle: 2:00
+２０００ねんの　ときが　くりかえしているのがみえる！！　まるで　にわとり　と　
+たまご　じゃ！！　ときのくさりを　たちきるのじゃ！！
+二千年の　時が　繰り返しているのが見える！！　丸で　鶏　と　卵　じゃ！！　時の
+鎖を　断ち切るのじゃ！！
+I can see the repetition of the two thousand years' time!! It's quite like the 
+chicken and the egg!! The chain of time is disconnected!!
+
+★Circle: 3:00
+４つのかがやきを　われらの　もとへ！　それができるのは　ひかりのせんし　そなた
+たち　だけじゃ！
+四つの輝きを　我らの　本へ！　それができるのは　光の戦士　そなた達　だけじゃ！
+Take the four Radiances to our origin! Only you, the Light Warriors, can do 
+this!
+
+★Circle: 3:00 (Alternate)
+カオスのしんでんには　むかしカオスとたたかった　てんくうびとのせんしがいるはず
+だ。　コウモリにすがたを　かえられてしまっているが……
+カオスの神殿には　昔カオスと戦った　天空人の戦士がいるはずだ。　蝙蝠に姿を　替
+えられてしまっているが……
+Long ago, the Warriors of the Sky People who battled with Chaos were at the 
+Temple of Chaos. Their forms were completely changed into bats, but....
+[NOTE: This text is not normally accessible due to a bug.]
+
+★Circle: 8:00
+４つのちからは　その　ちゅうしんにある　カオスの　しんでんに　あつまっている。　
+４つのちからを　もとにもどした　いまこそ　そこにいって　あくのみなもとを　たた
+くのだ。
+四つの力は　その　中心にある　カオスの　神殿に　集まっている。　四つのちからを　
+元に戻した　今こそ　そこに行って　悪の源を　叩くのだ。
+The Four Powers have gathered at the Temple of Chaos that lies in their center. 
+Now that you have reconstituted the four powers, go there and strike at the 
+source of evil.
+
+★Circle: 9:00
+おお　４つのかがやきが　もどった！　その　かがやきを　ちからにかえれば　じかん
+のかべを　やぶることができるのじゃ！　しんのてきは２０００ねんまえにいる。
+おお　四つの輝きが　戻った！　その　かがやきを　力に返れば　時間の壁を　破るこ
+とができるのじゃ！　真の敵は二千ねんまえにいる。
+Oh, the four radiances have returned! If you return that radiance to power, you 
+can smash the wall of time! The true enemy exists two thousand years in the 
+past.
+
+★Circle: 10:00
+そなたたちの　きおくは　うしなわれているが　そなたたちのいた　せかいは　このせ
+かいの　しんのすがただ。だが　それがいま　このじだいで　とつぜんくるってしまっ
+たのだ。
+そなた達の　記憶は　失われているが　そなた達のいた　世界は　この世界の　真の姿
+だ。だが　それが今　この時代で　突然狂ってしまったのだ。
+Your memories have been lost, but the world that was yours is the true form of 
+this world. Nevertheless, that world now in this era suddenly went completely 
+mad.
+
+★Circle: 11:00
+わのようになってしまった　ときのくさり　それをたちきるには　かこにいる　しんの
+てきを　たおさねばならない。
+輪のようになってしまった　時の鎖　それを断ち切るには　過去にいる　真の敵を　倒
+さねばならない。
+To sever the chain of time that has become a ring, you must defeat the true 
+enemy who is in the past.
+
+★Circle: 12:00
+なにものかが２０００ねんまえにとび　そこから　このせかいに　ひきのカオスをおく
+りこみ　４００ねんまえからはじまった　せかいのはかいを　おこなっているのだ。
+何者かが二千年前に飛び　そこから　この世界に　四匹のカオスを送り込み　四百年前
+から始まった　世界の破壊を　行なっているのだ。
+Someone flew to two thousand years ago, from there sending the Four Chaoses to 
+this world, and from four hundred years ago began to carry out the destruction 
+of the world.
+
+
+               ==III.B.=========================================
+     ----<<<<{{{{((((    THE TEMPLE OF CHAOS REVISITED    ))))}}}}>>>>----
+               =========================================[BTEM]==
+
+★Bat 1
+おお　そのクリスタルの　かがやきで　わたしは　ちゃんと　ことばが　しゃべること
+ができる。　カオスの　のろい　によって　こんなすがたに　されてしまったのです。
+おお　そのクリスタルの　輝きで　私は　ちゃんと　言葉が　喋ることができる。　カ
+オスの　呪い　によって　こんな姿に　されてしまったのです。
+Oh, through the radiance of those Crystals I can speak words properly. By the 
+curse of Chaos, I was put into this form.
+
+★Bat 2
+へやのちゅうしんにある　くろすいしょうを　４つの　かがやきでてらせば　４つちか
+らが　あつまり　２０００ねんまえの　くずれおちるまえの　カオスの　しんでんへの　
+ときのとびらが　ひらかれます。
+部屋の中心にある　黒水晶を　四つの　輝きで照らせば　四つ力が　集まり　二千年前
+の　崩れ落ちる前の　カオスの　神殿への　時の扉が　開かれます。
+If you shine the radiance of the Four onto the Black Crystal in the center of 
+this room, the Four Powers will gather and a Door of Time will be opened to the 
+Temple of Chaos before it crumbled two thousand years ago.
+
+★Bat 3
+４ひきのカオスが　クリスタルのかがやきをさえぎり　えていた　ちからは　すべて　
+かこにおくられている　２０００ねんの　かこにいるなにものかが　ちからを　すいと
+っている。そいつが　しんのてきだ。
+四匹のカオスが　クリスタルの輝きを遮り　得ていた　力は　全て　過去に送られてい
+る　二千年の　過去にいる何者かが　力を　吸い取っている。そいつが　真の敵だ。
+The Four Chaoses obstructed the radiance of the Crystals, and someone who was 
+sent back two thousand years in the past is absorbing all of the power that was 
+obtained. He is the true enemy.
+
+★Bat 4
+わたしたちは　てんくうびとです。　せかいの　はめつの　げんいんは　ここにあると　
+つきとめたのですが……　もう　４００ねんまえにもなります……
+私達は　天空人です。　世界の　破滅の　原因は　ここにあると　突き止めたのですが
+……　もう　四百年前にもなります……
+We are Sky People. When we came here, we located the cause of the world's 
+destruction, but...already it has been four hundred years....
+
+★Bat 5
+おお　わたしたちが　みつけられなかった　４つのかがやきだ！！　そのクリスタルを
+もって　ときのとびらに　たてば　ダイムトリップして　２０００ねんのときを　こえ
+ることができるはずだ！
+おお　私達が　見付けられなかった　四つの輝きだ！！　そのクリスタルを持って　時
+の扉に　立てば　ダイムトリップして　二千年の時を　超えることができるはずだ！
+Oh, it is the four radiances that we did not find!!  If you construct a Door of 
+Time holding those Crystals, you should be able to travel time and cross over a 
+time of two thousand years!
+
+★The Black Crystal
+４つのかがやくクリスタルを　くろすいしょうに　かさねあわせた……ときのながれが　
+おしよせる！　くうかんがねじれる！さあ　いっぽまえにふみだせば　２０００ねんま
+えへ　タイムトリップする！！！
+四つのかがやくクリスタルを　黒水晶に　重ね合わせた……時の流れが　押し寄せる！　
+空間が捻じれる！さあ　一歩前に踏み出せば　二千年前へ　タイムトリップする！！！
+You overlap the Four Crystals that shine over the Black Crystal....The current 
+of time is pushed aside! Space twists! Come, if you take one step forward you 
+will travel time to two thousand years past!
+
+★Using the Lute
+リュートを　ひくと　せきばんが　うごきだした　……その　したに　かいだんが　あ
+らわれた！
+リュートを　引くと　石板が　動き出した　……その　下に　階段が　現れた！
+When you played the Lute, the slate came alive. ...Beneath it, stairs appeared!
+
+★Garland
+ハハハハ……おぼえているか。わしは　ガーランドだ　いまから　２０００ねんごの　
+みらい……あのときに　おれは　ころされかけだが　４つのちからが　おれを　タイム
+トリップさせ　かこに　よみがえったのだ！
+ハハハハ……覚えているか。私は　ガーランドだ　今から　二千年後の　未来……あの
+時に　俺は　殺されかけだが　四つの力が　俺を　タイムトリップさせ　過去に　甦っ
+たのだ！
+Hahahaha.... So you have remembered. I am Garland, from two thousand years in 
+the future.... In that time, I was killed, but the Four Powers sent me through 
+time and resurrected me in the past!
+
+とき　は　めぐっている……　かこに　とんだ　わしは　２０００ねんごのために　４
+ひきの　カオスを　みらいに　おくりこんだ。そして　４つのちからで　また　みらい
+の　じぶんを　タイムトリップさせる！
+時　は　巡っている……　過去に　飛んだ　私は　二千年後の為に　四匹の　カオスを　
+未来に　送り込んだ。そして　四つの力で　又　未来の　自分を　タイムトリップさせ
+る！
+Time has returned.... In order for me to fly to the past, I sent the Four 
+Chaoses to the future. And by the Four Powers again my future self will be sent 
+through time!
+
+２０００ねんのち　わしの　きおくは　うしなわれ　ている。だが　わしはまた　かこ
+に　もどってくる　そして　おまえたちは　ここで　しに　わしは　えいきゅうに　い
+きつづけるのだ！！
+二千年後　私の　記憶は　失われている。だが　私は又　過去に　戻ってくる　そして　
+お前達は　ここで　死に　私は　永久に　生き続けるのだ！！
+After two thousand years, my memory will be lost. However, I again will return 
+to the past, thus you will die here and I will continue to live for eternity!!
+
+
+                         ==III.C.====================
+               ----<<<<{{{{((((    EPILOGUE    ))))}}}}>>>>----
+                         ====================[CEPI]==
+
+ときのくさりは　たちきらけた……　２０００ねんの　じくうをこえた　たたかいがお
+わりをつげ　へいわがおとずれた。
+時の鎖は　たちきらけた……　二千年の　時空を超えた　戦いが終を告げ　平和が訪れ
+た。
+The chain of time was disconnected.... The battle that crossed over two 
+thousand years of space and time has come to an end, and peace has arrived.
+
+ふたたび　このせかいを　４つのひかりが　てらしだし　そのちからは　かぜを　みず
+を　つちを……　そして　ひを　よみがえらせる。
+再び　この世界を　四つの光が　照らしだし　その力は　風を　水を　土を……　そし
+て　火を　甦らせる。
+Once again, the Four Lights shine on this world, and that power revived the 
+Wind, Water, Earth...and Fire.
+
+２０００ねんの　ときをこえて　めぐる　ガーランドのにくしみ。　それは　ほんのす
+こしの　すれさがいからおこった　ささいな　ものだった。
+二千年の　時を超えて　巡る　ガーランドの憎しみ。　それは　本の少しの　すれさが
+いから起こった　些細な　物だった。
+Garland's hatred, which returned across two thousand years' time. That just a 
+little (?) was a trivial thing that happened.
+
+しかし　このせかいを　みちびく　はずの　４つのちからに　それは　ぞうふくされ　
+４つのカオスを　つくりだしたのだ。
+しかし　この世界を　導く　はずの　四つの力に　それは　増幅され　四つのカオスを　
+作り出したのだ。
+However, that was amplified by the the Four Powers that lead this world, and 
+that produced the Four Chaoses.
+
+せかいに　あくがはびこり　すべては　あんこくにそめられた。
+世界に　悪が蔓延り　全ては　暗黒に染められた。
+Evil spread throughout the world, and all was dyed in darkness.
+
+だがもう　それもおわった。　せんしたちの　かつやくによって　すべては　ただしい　
+ほうこうに　むけられたのだ。
+だがもう　それも終った。　戦士達の　活躍によって　全ては　正しい　方向に　向け
+られたのだ。
+However, already even that has ended. Due to the deeds of the Warriors, all was 
+turned towards the right direction.
+
+４にんのせんしは　ときを　また　たびして　もとのせかいへと　かえっていく。　せ
+かいは４にんが　しっている　もとのすがたに　もどっているはずだ。
+四人の戦士は　時を　又　旅して　本の世界へと　返っていく。　世界は四人が　知っ
+ている　本の姿に　戻っているはずだ。
+The Four Warriors travel through time again and return to the world of their 
+origin. As for the world, we expect the Four will return to its original form 
+that they know.
+
+そこには　セーラや　ジェーンたちが　まっている　もちろん　４にんがよくしってい
+る　ガーランドも……
+そこには　セーラや　ジェーン達が　待っている　もちろん　四人がよく知っている　
+ガーランドも……
+There, Sara, Jane, and others are waiting, and of course, even Garland, who the 
+Four know well...
+
+あれは　いつだったろう……
+As for that, when was it.... (?)
+
+あるひ　とつぜん　すべては　くるいだした。そして　その　げんいんは　２０００ね
+んの　ときのわの　なかにあった。
+或る日　突然　全ては　狂い出した。そして　その　原因は　二千年の　時の輪の　中
+にあった。
+One day, all suddenly went to disorder. And the cause of that was within the 
+two-thousand-year time loop.
+
+４にんは　えらばれた。　このせかいを　あんこくにそめた　４つのちから　しかし　
+ゆいいつそれを　とり　のぞける　４つのちからに。
+四人は　選ばれた。　この世界を　暗黒に染めた　四つの力　しかし　唯一それを　取
+り　覗ける　四つの力に。
+The Four were chosen. By the Four Powers that colored this world in darkness, 
+however, the Four Powers that take only that and can look in. (?)
+
+そして　かえってきたとき　４にんが　かこへ　たびだち　たたかったことは　だれも
+おぼえて　いないはずだった
+そして　返って来た時　四人が　過去へ　旅立ち　戦った事は　誰も覚えて　いないは
+ずだった。
+Thus, when they returned, the Four who set off to the past to fight did not 
+expect anyone to remember. (?)
+
+そう　なにもしらぬ　ひとびとは　だが　こころのどこかに　きおく　されている　そ
+の　たたかいを　かくうの　ものがたりとしてかたる
+そう　何も知らぬ　人々は　だが　心のどこかに　記憶　されている　その　戦いを　
+架空の　物語としてかたる。
+So, everyone knows nothing, but somewhere in their hearts they will tell of the 
+battle that made that memory as a fanciful legend.
+
+ドワーフや　エルフのむら　ドラゴンたち　うちゅうにまで　てをのぼしながら　ほろ
+んだ　こうどな　ぶんめい
+ドワーフや　エルフのむら　ドラゴン達　宇宙にまで　手を上しながら　滅んだ　高度
+な　文明。
+The Dwarves, the Elf Village, the Dragons, advanced civilizations that were 
+ruined as they raised their hands to the cosmos.
+
+さあ　せんしたちが　かえってくる　２０００ねんの　ときを　こえて　もうすぐ　そ
+こまできている……
+さあ　戦士達が　返って来る　二千年の　時を　超えて　もうすぐ　そこまで来ている
+……
+Come, the Warriors are returning, crossing over two thousand years' time very 
+soon.... (?)
+
+せんしたちは　たたかいのきおくを　こころのそこに　しまいこみ　このせかいを　み
+まもっていくのだろう。
+戦士達は　戦いの記憶を　心の底に　仕舞い込み　この世界を　見守って行くのだろう。
+The Warriors will tuck away the memory of their battle in the bottom of their 
+hearts, and will watch over this world.
+
+わすれないでほしい。　このせかいの　かがやきが　いつも　ただしい　ほうこうに　
+むくように
+忘れないで欲しい。　この世界の　輝きが　いつも　正しい　方向に　向くように。
+They do not want to forget. In order that this world's radiance always face the 
+right direction.
+
+４つのひかりを　まちがった　ちからにかえないように
+四つの光を　間違った　力に替えないように。
+In order that none replace the powers that misused the Four Lights.
+
+そして　しんの４つのクリスタルは　いつも　そのむねのなかに　あることを……
+そして　真の四つのクリスタルは　いつも　その胸の中に　ある事を……
+Thus the true Four Crystals, always being within their hearts....
+
+そう　２０００ねんの　ときをこえ　たたかっていたのは　きみなのだから。
+そう　二千年の　時を超え　戦っていたのは　君なのだから。
+Because, really, the one crossing over two thousand years and battling is you.
+
+すべてのものに　かがやきを……
+全ての者に　輝きを……
+Radiance to all people....
+
+Ｔｈｅ　Ｅｎｄ
+
+
+                  ==========================================
+        ----<<<<{{{{((((    BONUS! BACK OF THE BOX    ))))}}}}>>>>----
+                  ==================================[BBOX]==
+
+★Title Caption
+ファイナル　ファンタジー
+ＦＩＮＡＬ　ＦＡＮＴＡＳＹ
+
+★Main Body
+伝説の４人の戦士が、いにしえの？コーネリアを訪れた。彼らはそこで自らの使命の大
+きさを知り、クリスタルに光を取りもどすため果てしない旅に出る。山を海を、そして
+大空を？けめぐる冒険が今、始まるのだ。
+Four legendary warriors visit Cornelia, (?) of antiquity. They then understand 
+the size of their personal mission, and leave on an endless journey to take 
+back the light of the Crystals. Now, an adventure that (?) the mountains, the 
+seas, and then the heavens begins.
+
+★Credits
+SCENARIO WRITER 寺田憲史/CHARACTER DESIGN 天野喜孝/PROGRAMMER ナーシ・ジベリ
+SCENARIO WRITER Terada Kenji/CHARACTER DESIGN Amano Yoshitaka/PROGRAMMER Nasir
+Gebelli
+
+★Other Product Information
+企？？？
+(?)
+
+株式会社　スクウェア
+Square Incorporated
+
+〒110　東京都台東区台東3-12-1　ＴＥＬ.03-832-0857
+Mail 110 Metropolitan Tokyo, Taito District, Taito 3-12-1, Tel.03-832-0857
+[NOTE: No telling if these are still valid twenty years later...but I'm not 
+about to try calling it. ;-) ]
+
+？？小売価格　5,900円
+(?) Retail Price 5,900 Yen
+
+Ｎｉｎｔｅｎｄｏ　ファミリー　オンピュータ
+Nintendo Family Computer
+
+
+________--------~~~~~~~~                               ~~~~~~~~--------________
+                                      FIN
+~~~~~~~~--------________                               ________--------~~~~~~~~
+
+
+                   /==3.===================================/
+                   |            Command Windows            |
+                   /===============================[3COM]==/
+
+This section is provided for those who would like to play this game in Japanese,
+but are not familiar with the language.
+
+
+                   /--3.a.---------------------------------/
+                   |           Starting the Game           |
+                   /-------------------------------[3STA]--/
+
+Upon starting the game and viewing the Prologue, you will be given the 
+following options: つづく ("Continue"), やりなおし ("Start Over"), and メッセー
+ジ　スピード (Message Speed"). Just as in the English version, use the 
+Left/Right Directions to choose your "Message Speed" and use Up/Down to either 
+"Continue" or "Start Over" with a new game.
+
+Next, you are presented with the party selection screen. Here, you can choose 
+between the six starting character classes: せんし ("Warrior"), シーフ 
+("Thief"), モンク ("Monk"), あかまじゅつし ("Red Magician"), しろまじゅつし 
+("White Magician"), and くろまじゅつし ("Black Magician"). After the class 
+upgrade that you can achieve late in the game, these become: ナイト ("Knight"), 
+ニンジャ ("Ninja"), スーパーモンク ("Super Monk"), あかまどうし ("Red Wizard"), 
+しろまどうし ("White Wizard"), and くろまどうし ("Black Wizard"). Once you 
+choose one, you must name your character. You may enter up to four letters, 
+choosing from forty-nine Japanese hiragana (を is not available), along with 
+voiced versions of hiragana, several punctuation marks, the ten Arabic numerals,
+and the space character. Once you have done this for all four characters, the 
+game begins.
+
+
+                   /--3.b.---------------------------------/
+                   |          Main Menu Commands           |
+                   /-------------------------------[3MAI]--/
+
+Once you start the game, you can access the Main Menu by pressing the Start 
+Button. Once there, you will see a window containing the four Crystals, one 
+window for each of your four characters, a small window containing your ギル 
+("Gil," the money in the game), and below that a window that looks like this:
+
+　┌──────┐　　　　　┌──────┐
+　│＞アイテム　│　　　　　│＞Item　　　│
+　│　まほう　　│　　　　　│　Magic 　　│
+　│　ぶき　　　│　　→　　│　Weapon　　│
+　│　ぼうぐ　　│　　　　　│　Armor 　　│
+　│　ステータス│　　　　　│　Status　　│
+　└──────┘　　　　　└──────┘
+
+If you choose "Item," you are brought to a screen where you can view your key 
+items or use Potions and such. Choosing "Magic" brings you to the Magic menu, 
+where you can view your available spells and cast certain White Magic (as well 
+as the Black Magic "Telepo"). Selecting "Weapon" or "Armor" gives you an 
+equipment screen for that selection. Across the top are the options そうび 
+("Equipment"--equip or unequip items), こうかん ("Exchange"--move items from 
+character to character), and すてる ("Throw Away"--discard an unneeded item). 
+Choosing "Status" brings up a detailed status screen for one character:
+
+　┌──────┐┌────────────┐┌──────┐
+　│　えっくす　││　　　　せんし　　　　　││レベル　　１│
+　└──────┘└────────────┘└──────┘
+　　　　┌─────────────────────┐
+　　　　│　けいけんち　　　ＥＰ　　　　　　　　０　│
+　　　　│　つきのレベルまであと　　　　　　　４０　│
+　　　　└─────────────────────┘
+　┌────────────┐┌──────────────┐
+　│　ちから　　　　２０　　││　ウェポン　　　　　　１０　│
+　│　すばやさ　　　　５　　││　めいちゅうりつ　　　１０　│
+　│　ちせい　　　　　１　　││　アーマー　　　　　　　０　│
+　│　たいりょく　　１０　　││　かいひりつ　　　　　５３　│
+　│　こううん　　　　５　　││　　　　　　　　　　　　　　│
+　└────────────┘└──────────────┘
+
+Translated, this is:
+
+　┌──────┐┌────────────┐┌──────┐
+　│　Ｘ　　　　││　　　　Warrior 　　　　││Level 　　１│
+　└──────┘└────────────┘└──────┘
+　　　　┌─────────────────────┐
+　　　　│　Experience Points 　　　　　　　　　０　│
+　　　　│　Until Reaching Next Level 　　　　４０　│
+　　　　└─────────────────────┘
+　┌────────────┐┌──────────────┐
+　│　Power 　　　　２０　　││　Weapon　　　　　　　１０　│
+　│　Agility 　　　　５　　││　Hit Rate　　　　　　１０　│
+　│　Intelligence　　１　　││　Armor 　　　　　　　　０　│
+　│　Vitality　　　１０　　││　Evasion Rate　　　　５３　│
+　│　Fortune 　　　　５　　││　　　　　　　　　　　　　　│
+　└────────────┘└──────────────┘
+
+In Weapon or Armor Shops, you will be greeted with three options, namely かって
+いく ("Go on and buy"), うりつける ("Sell off"), and みせをでる ("Leave the 
+shop"). These are a little more colorful than the similar options in other 
+games I've played. ;-) After you choose something to buy, you choose whom to 
+give it to. Conversely, if you've chosen to sell you must first choose whom and 
+then what. In Item Shops, you are not given the option to sell. For White and 
+Black Magic Shops, you first choose a character to learn the spell, and then 
+confirm the sale. Churches are easy, since you only have to choose from a list 
+of swooned characters (if no one is dead, you are immediately hustled out--what 
+a church!). At the Inns, you need only answer a yes-or-no question.
+
+
+                   /--3.c.---------------------------------/
+                   |        Battle Command Windows         |
+                   /-------------------------------[3BAT]--/
+
+When your characters enter battle, you will be presented with a window on the 
+left containing the enemy graphics, a window in the middle containing the 
+player graphics, and four small windows on the right containing player HP info. 
+If you see the message "せんせいこうげきの　チャンス！" at the start of a 
+battle, you have a "Chance for pre-emptive attack!" If you see "モンスターの　
+せんせいこうげき！" instead, it is the monsters who have the pre-emptive attack 
+(of course, you would already know this because they would just start 
+attacking).
+
+Once it is time for the player to enter commands (usually the very beginning of 
+the battle), you will see two more windows below the graphical windows. The one 
+on the left contains the enemy units' names, and the one on the right contains 
+the following menu for each of your four characters, one at a time:
+
+　┌───────────┐　　　　　┌───────────┐
+　│＞たたかう　　にげる　│　　　　　│＞Fight 　　　Run 　　│
+　│　まほう　　　　　　　│　　　　　│　Magic 　　　　　　　│
+　│　くすり　　　　　　　│　　→　　│　Medicine　　　　　　│
+　│　もちもの　　　　　　│　　　　　│　Personal Items　　　│
+　└───────────┘　　　　　└───────────┘
+
+Status ailments that the monsters can inflict during battle are displayed 
+within the four small windows along the right side of the screen. They include 
+どく ("Poison"), まひ ("Paralysis"), くらやみ ("Darkness"), ねむり ("Sleep"), 
+ちんもく ("Silence"), and いし ("Stone"). 
+
+
+I'm not going to go into a full list of all battle dialogue; this should be 
+enough to get you by. As for the shops and inns, it should be enough for you to 
+know that "はい" is "Yes" and  "いいえ" is "No"; using the following lists you 
+can see what is for sale. Good Luck! ;-)
+
+
+                   /==4.===================================/
+                   |              Item Lists               |
+                   /===============================[4ITE]==/
+
+This section contains the Japanese name and English translation of each usable 
+or equippable item in the game, along with the text the game gives when you 
+examine key items. There may be a few that are not in this list because I did 
+not see them in my playthrough, but I believe I got them all.
+
+
+                   /--4.a.---------------------------------/
+                   |                 Tools                 |
+                   /-------------------------------[4TOO]--/
+
+ポーション　　　　．　．　．　．　Potion
+どくけし　　　　［毒消し］　　　　Antidote
+きんのはり　　　［金の針］　　　　Gold Needle
+ねぶくろ　　　　［寝袋］　　　　　Sleeping Bag
+テント　　　　　　．　．　．　．　Tent
+コテージ　　　　　．　．　．　．　Cottage
+
+リュート　　　　　．　．　．　．　Lute
+　きれいな　ねいろだ……
+　It has a beautiful tone....
+クラウン　　　　　．　．　．　．　Crown
+　しんぴてきな　いろを　たずさえた　おうかんだ。
+　It is a crown that carries a mysterious color.
+すいしょうのめ　［水晶の目］　　　Crystal Eye
+　すきとおるような　すいしょうだまだ。
+　It is a transparent crystal ball.
+めざめのくすり　［目覚めの薬］　　Waking Medicine
+　にげ　ー！　なんて　にがい　くすりだ！！
+　Get away! What bitter medicine!!
+しんぴのかぎ　　［神秘の鍵］　　　Mysterious Key
+　ふういんをとく　かぎ……
+　A key that dissolves seals...
+ニトロのかやく　［ニトロの火薬］　Nitro Powder
+　おっと……　しんちょうに　あつかわないと　あぶないですよっ！
+　Uh oh.... If you don't handle it carefully, it's dangerous!
+スタールビー　　　．　．　．　．　Star Ruby
+　でっけえ　ルビーだことっ！！
+　So this is the Ruby!! (?)
+つちのつえ　　　［土の杖］　　　　Earth Staff
+　だいちとみどりの　せいれいがやどる　つえだ。
+　It is a staff that the spirit of earth and greenery dwells within.
+ふゆうせき　　　［浮遊石］　　　　Float Stone
+　しんぴてきな　いしだ……
+　It is a mysterious stone....
+ねずみのしっぽ　［鼠のしっぽ］　　Rat Tail
+　なんか　くさくないか　これ？！　すてちまおうか？　いーや　まずいんじゃない！
+　This rotting, stinking thing?! Should we throw it away? Aargh, this is
+　unappetizing!
+ようせいビン　　［妖精瓶］　　　　Faerie Bottle
+　ふたをあけると　なかから　なにかがとびだした！　あっというまに
+　そらのかなたに　きえさった……
+　When you open the lid, something came flying out from inside! Just like that,
+　it vanished to the other side of the sky....
+くうきのみず　　［空気の水］　　　Airwater
+　ボコボコ……　くうきが　みずからわいてくる！
+　Gurgle.... Air gushes forth from the water!
+ロゼッタいし　　［ロゼッタ石］　　Rosetta Stone
+　せきばんの　おもてには　なにか　もじの　ようなものが　びっしり
+　かきこまれてる。
+　The slate's face is closely filled with some sort of writing.
+チャイム　　　　　．　．　．　．　Chime
+　てんくうびとに　つたわる　チャイム。　ふると　すんだ　ねいろが
+　ひびきわたる……
+　A chime handed down by the Sky People. When you shake it, the timbre that
+　resides in it resounds....
+ワープキューブ　　．　．　．　．　Warp Cube
+　キューブのなかに　さまざまな　いろが　ひしめきあっている？？？
+　Within the Cube various colors are crowded together???
+アダマンタイト　　．　．　．　．　Adamantite
+　でんせつのきんぞくで　なによりも　かたいのです
+　It is the legendary metal, and it is the hardest.
+
+
+                   /--4.b.---------------------------------/
+                   |                Weapons                |
+                   /-------------------------------[4WEA]--/
+
+Swords
+------
+レイピア　　　　　．　．　．　．　　Rapier
+ブロードソード　　．　．　．　．　　Broad Sword
+シミター　　　　　．　．　．　．　　Scimitar
+サーベル　　　　　．　．　．　．　　Sabre
+ミスリルソード　　．　．　．　．　　Mithril Sword
+フォールチョン　　．　．　．　．　　Falchion
+ルーンブレード　　．　．　．　．　　Runeblade
+ウェアバスター　　．　．　．　．　　Werebuster
+ウィルムキラー　　．　．　．　．　　Wyrmkiller
+ロングソード　　　．　．　．　．　　Long Sword
+さんごのつるぎ　［珊瑚の剣］　　　　Coral Sword
+グレートソード　　．　．　．　．　　Great Sword
+フレームソード　　．　．　．　．　　Flame Sword
+アイスブランド　　．　．　．　．　　Icebrand
+ディフェンダー　　．　．　．　．　　Defender
+シャープソード　　．　．　．　．　　Sharp Sword
+サンブレード　　　．　．　．　．　　Sunblade
+レイズサーベル　　．　．　．　．　　Raze Sabre
+エクスカリバー　　．　．　．　．　　Excalibur
+マサムネ　　　　　．　．　．　．　　Masamune
+
+Axes
+----
+バトルアクス　　　．　．　．　．　　Battle Axe
+グレートアクス　　．　．　．　．　　Great Axe
+ミスリルアクス　　．　．　．　．　　Mithril Axe
+ライトアクス　　　．　．　．　．　　Light Axe
+
+Nunchaku
+--------
+ヌンチャク　　　［双節棍］　　　　　Nunchaku
+テツヌンチャク　［鉄双節棍］　　　　Iron Nunchaku
+
+Hammers
+-------
+ハンマー　　　　　．　．　．　．　　Hammer
+ミスリルハンマ　　．　．　．　．　　Mithril Hammer
+トールハンマー　　．　．　．　．　　Thor Hammer
+
+Knives
+------
+ナイフ　　　　　　．　．　．　．　　Knife
+ダガー　　　　　　．　．　．　．　　Dagger
+ミスリルナイフ　　．　．　．　．　　Mithril Knife
+ネコのツメ　　　［猫の爪］　　　　　Cat Claw
+サスケのかたな　［サスケの刀］　　　Blade of Sasuke
+
+Staves
+------
+つえ　　　　　　［杖］　　　　　　　Staff
+しゃくじょう　　［錫杖］　　　　　　Bishop Staff
+ちからのつえ　　［力の杖］　　　　　Staff of Power
+いやしのつえ　　［癒しの杖］　　　　Staff of Healing
+まじゅつのつえ　［魔術の杖］　　　　Mage Staff
+まどうしのつえ　［魔道師の杖］　　　Wizard Staff
+[NOTE: A more literal translation of the "Mage Staff" might be "Sorcery Staff," 
+but I put "Mage" here to go with the coupling of mage and wizard as in the 
+character class names. Also, another possible reading for "Wizard Staff" is 惑
+う師の杖, or "Puzzler Staff," since it casts Confuse in battle. I finally went 
+with the former since it's the name used in the English version, in addition to 
+following the mage/wizard theme. However, in all actuality it could be a pun, 
+intended to carry both meanings.]
+
+
+                   /--4.c.---------------------------------/
+                   |                 Armor                 |
+                   /-------------------------------[4ARM]--/
+
+Armor
+-----
+ふく　　　　　　［服］　　　　　　　Clothes
+かわよろい　　　［革鎧］　　　　　　Leather Armor
+くさりかたびら　［鎖帷子］　　　　　Chain Mail
+てつよろい　　　［鉄鎧］　　　　　　Iron Armor
+ミスリルメイル　　．　．　．　．　　Mithril Mail
+ナイトのよろい　［ナイトの鎧］　　　Knight Armor
+フレイムメイル　　．　．　．　．　　Flame Mail
+アイスアーマー　　．　．　．　．　　Ice Armor
+ダイヤアーマー　　．　．　．　．　　Diamond Armor
+ドラゴンメイル　　．　．　．　．　　Dragon Mail
+しろのローブ　　　．　．　．　．　　Robe of White
+くろのローブ　　　．　．　．　．　　Robe of Black
+
+Bracelets
+---------
+どうのうでわ　　［銅の腕輪］　　　　Copper Bracelet
+ぎんのうでわ　　［銀の腕輪］　　　　Silver Bracelet
+ルビーのうでわ　［ルビーの腕輪］　　Ruby Bracelet
+ダイヤのうでわ　［ダイヤの腕輪］　　Diamond Bracelet
+
+Shields
+-------
+かわのたて　　　［革の盾］　　　　　Leather Shield
+バックラー　　　　．　．　．　．　　Buckler
+てつのたて　　　［鉄の盾］　　　　　Iron Shield
+ミスリルのたて　［ミスリルの盾］　　Mithril Shield
+ほのおのたて　　［炎の盾］　　　　　Flame Shield
+アイスシールド　　．　．　．　．　　Ice Shield
+ダイヤシールド　　．　．　．　．　　Diamond Shield
+イージスのたて　［イージスの盾］　　Aegis Shield
+まもりのマント　［守りのマント］　　Protection Mantle
+
+Helmets
+-------
+かわのぼうし　　［革の帽子］　　　　Leather Hat
+かぶと　　　　　［兜］　　　　　　　Helmet
+おおかぶと　　　［大兜］　　　　　　Great Helmet
+ミスリルかぶと　［ミスリル兜］　　　Mithril Helmet
+ダイヤかぶと　　［ダイヤ兜］　　　　Diamond Helmet
+いやしのかぶと　［癒しの兜］　　　　Helmet of Healing
+リボン　　　　　　．　．　．　．　　Ribbon
+
+Gauntlets
+---------
+かわてぶくろ　　［革手袋］　　　　　Leather Glove
+せいどうのこて　［青銅の籠手］　　　Bronze Gauntlet
+はがねのこて　　［鋼の籠手］　　　　Steel Gauntlet
+ミスリルのこて　［ミスリルの籠手］　Mithril Gauntlet
+ガントレット　　　．　．　．　．　　Gauntlet
+ダイヤのこて　　［ダイヤの籠手］　　Diamond Gauntlet
+きょじんのこて　［巨人の籠手］　　　Giant Gauntlet
+まもりのゆびわ　［守りの指輪］　　　Protection Ring
+
+
+                   /==5.===================================/
+                   |        Magic List and Effects         |
+                   /===============================[5MAG]==/
+
+Magic spells in this game are in a mangled sort of English with imaginary 
+prefixes and suffixes, so my "translation" is simply what I think the word is 
+supposed to be. In parentheses is the corresponding spell name from the English 
+version (because some of the time the Japanese version makes no sense). A 
+translation is provided for spells which give in-game text.
+
+
+                   /--5.a.---------------------------------/
+                   |              White Magic              |
+                   /-------------------------------[5WHI]--/
+
+Level 1
+-------
+ケアル　　Cure (Cure)
+　ＨＰ　かいふく！--HP recovery!
+　＊
+ディア　　Dia (Harm)
+　[no message]
+プロテス　Protect (Fog)
+　アーマーが　あがった--Armor rose
+ブリンク　Blink (Ruse)
+　こうげきを　よけやすくなった--Became easy to avoid attacks
+
+Level 2
+-------
+ブラナ　　Blindna (Lamp)
+　しりょくが　もどった--Eyesight returned
+サイレス　Silence (Mute)
+　ちんもくした--Was silenced
+バサンダ　Ba-Thunder (Alit)
+　いなずまに　つよくなった--Became strong to lightning 
+インビジ　Invisi (Invs)
+　こうげきを　よけやすくなった--Became easy to avoid attacks
+
+Level 3
+-------
+ケアルア　Cura (Cur2)
+　ＨＰ　かいふく！--HP recovery!
+　＊
+アディア　Adia (Hrm2)
+　[no message]
+バファイ　Ba-Fire (Afir)
+　ほのおに　つよくなった--Became strong to fire
+ヒール　　Heal (Heal)
+　ＨＰ　かいふく！--HP recovery!
+　＊
+
+Level 4
+-------
+ポイゾナ　Poisona (Pure)
+　どくが　きえた--Poison disappeared
+　＊
+フィアー　Fear (Fear)
+　にげごしになった--Became ready to flee
+バコルド　Ba-Cold (Aice)
+　さむさに　つよくなった--Become strong to cold
+ボキャル　Vocal (Amut)
+　＊
+
+Level 5
+-------
+ケアルダ　Cureda (Cur3)
+　ＨＰ　かいふく！--HP recovery!
+　＊
+レイズ　　Raise (Life)
+　[cannot use in battle]
+　＊
+ダディア　Dadia (Hrm3)
+　[no message]
+ヒーラ　　Heala (Hel2)
+　ＨＰ　かいふく！--HP recovery!
+　＊
+
+Level 6
+-------
+ストナ　　Stona (Soft)
+　[cannot use in battle]
+　＊
+ダテレポ　Datelepo (Exit)
+　[cannot use in battle]
+　まいごになった……　でれない……　つらい……　そんな　あなたのための
+　ワープまほうです！
+　You have become a lost child.... You cannot leave.... You are heart-broken...
+　It is for the sake of those like you that warp magic exists!
+プロテア　Protea (Fog2)
+　アーマーが　あがった--Armor rose
+インビア　Invia (Inv2)
+　こうげきを　よけやすくなった--Became easy to avoid attacks
+
+Level 7
+-------
+ケアルガ　Curega (Cur4)
+　かんぜんに　かいふくした--Completely recovered
+　＊
+ガディア　Gadia (Hrm4)
+　[no message]
+バマジク　Ba-Magic (Arub)
+　すべてのまほうに　つよくなった--Became strong to all magic
+ラヒーラ　Raheala (Hel3)
+　ＨＰ　かいふく！--HP recovery!
+　＊
+
+Level 8
+-------
+ホーリー　Holy (Fade)
+　[no message]
+バオル　　Ba-All (Wall)
+　ふしぎなひかりに　つつまれた--Engulfed by a wondrous light
+デスペル　Dispel (Xfer)
+　ぼうぎょりょくがきえた--Defense power vanished
+アレイズ　Araise (Lif2)
+　[cannot use in battle]
+　＊
+
+
+                   /--5.b.---------------------------------/
+                   |              Black Magic              |
+                   /-------------------------------[5BLA]--/
+
+Level 1
+-------
+ファイア　Fire (Fire)
+　[no message]
+スリプル　Sleepru (Slep)
+　ねむった--Slept
+シェイプ　Shape (Lock)
+　＊[Always misses due to a bug]
+サンダー　Thunder (Lit)
+　[no message]
+
+Level 2
+-------
+ブリザド　Blizzard (Ice)
+　[no message]
+ダクネス　Darkness (Dark)
+　くらやみに　つつまれた--Engulfed by darkness
+ストライ　Strike (Tmpr)
+　＊
+スロウ　　Slow (Slow)
+　うごきが　にぶった--Became less capable of movement
+
+Level 3
+-------
+ファイラ　Fira (Fir2)
+　[no message]
+ホールド　Hold (Hold)
+　うごきを　ふうじた--Sealed movement
+サンダラ　Thundara (Lit2)
+　[no message]
+シェイラ　Shapra (Lok2)
+　＊
+
+Level 4
+-------
+スリプラ　Sleepra (Slp2)
+　ねむった--Slept
+ヘイスト　Haste (Fast)
+　すばやくなった--Became agile
+コンフュ　Confu (Conf)
+　こんらんした--Confused
+ブリザラ　Blizzara (Ice2)
+　[no message]
+
+Level 5
+-------
+ファイガ　Figa (Fir3)
+　[no message]
+クラウダ　Clouder (Bane)
+　どくのけむりが　つつむ--Engulfed in poisonous smoke
+テレポ　　Telepo (Warp)
+　[cannot use in battle]
+　＊
+ラスロウ　Raslow (Slo2)
+　うごきが　にぶった--Became less capable of movement
+
+Level 6
+-------
+サンガー　Thungah (Lit3)
+　[no message]
+デス　　　Death (Rub)
+　し　がおとずれた--Death visited
+クエイク　Quake (Qake)
+　＊
+スタン　　Stun (Stun)
+　＊
+
+Level 7
+-------
+ブリザガ　Blizzaga (Ice3)
+　[no message]
+ブレイク　Break (Brak)
+　＊
+セーバー　Sabre (Sabr)
+　＊
+ブライン　Blind (Blnd)
+　＊
+
+Level 8
+-------
+ストップ　Stop (Stop)
+　＊
+デジョン　Dejon (Zap!)
+　＊
+キル　　　Kill (XXXX)
+　＊
+フレアー　Flare (Nuke)
+　[no message]
+
+
+                   /==6.===================================/
+                   |             Monster List              |
+                   /===============================[6MON]==/
+
+This section gives the Japanese name and English translation of the monsters in 
+the game. Most of the monster names are actually English words, so this section 
+is more of a reference simply to see what the Japanese looks like. I have 
+arranged them by sprite--that is, each grouping contains the monsters with the 
+same graphic in different colors (i.e., "palette swaps").
+
+ゴブリン　　　　　Goblin
+ゴブリンガード　　Goblin Guard
+
+ウルフ　　　　　　Wolf
+ウォーグウルフ　　Warg Wolf
+ウェアウルフ　　　Werewolf
+ウィンターウルフ　Winter Wolf
+
+クライジーホース　Crazy Horse
+ナイトメア　　　　Nightmare
+
+ブラックウィドウ　Black Widow
+タランチュラ　　　Tarantula
+
+ギガースウォーム　Gigas Worm
+クロウラー　　　　Crawler
+
+ゾンビ　　　　　　Zombie
+ガスト　　　　　　Ghast
+グール　　　　　　Ghoul
+ワイト　　　　　　Wight
+
+スケルトン　　　　Skeleton
+ブラッディボーン　Bloody Bone
+
+ガーランド　　　　Garland
+
+リザード　　　　　Lizard
+ファイアリザード　Fire Lizard
+バシリスク　　　　Basilisk
+
+かいぞく　［海賊］Sea Thief
+パイレーツ　　　　Pirates
+[NOTE: The names of these two enemies are reversed in the U.S. release.]
+
+オーガ　　　　　　Ogre
+オーガチーフ　　　Ogre Chief
+オーガメイジ　　　Ogre Mage
+
+サハギン　　　　　Sahagin
+サハギンチーフ　　Sahagin Chief
+サハギンプリンス　Sahagin Prince
+
+シャーク　　　　　Shark
+ホワイトシャーク　White Shark
+
+ビッグアイ　　　　Big Eye
+ディープアイ　　　Deep Eye
+
+コブラ　　　　　　Cobra
+アナコンダ　　　　Anaconda
+シースネイク　　　Sea Snake
+
+グリーンスライム　Green Slime
+グレイウーズ　　　Gray Ooze
+オーカーゼリー　　Ochre Jelly
+ブラックプリン　　Black Pudding
+
+ガーゴイル　　　　Gargoyle
+ホーンドデビル　　Horned Devil
+
+サソリ　　［蠍］　Scorpion
+うみサソリ［海蠍］Sea Scorpion
+
+ピスコディーモン　Pisco Demon
+マインドフレイア　Mindflayer
+
+シャドウ　　　　　Shadow
+レイス　　　　　　Wraith
+スペクター　　　　Specter
+ゴースト　　　　　Ghost
+
+アストス　　　　　Astos
+ダークウィザード　Dark Wizard
+ダークファイター　Dark Fighter
+
+マミー　　　　　　Mummy
+キングマミー　　　King Mummy
+
+トロル　　　　　　Troll
+シートロル　　　　Sea Troll
+
+ミノタウロス　　　Minotauros
+ミノタウロゾンビ　Minotauro Zombie
+
+キティタイガー　　Kitty Tiger
+サーベルタイガー　Sabre Tiger
+
+アースエレメント　Earth Element
+ファイアー　　　　Fire
+
+ハイエナドン　　　Hyenadon
+ヘルハウンド　　　Hellhound
+
+コカトリス　　　　Cockatrice
+ピロリスク　　　　Pyrolisk
+
+バンパイア　　　　Vampire
+バンパイアロード　Vampire Lord
+
+スフィンクス　　　Sphinx
+マンティコア　　　Manticore
+
+ヒルギガース　　　Hill Gigas
+ファイアギガース　Fire Gigas
+アイスギガース　　Ice Gigas
+
+リッチ　　　　　　Lich
+
+ピラニア　　　　　Piranha
+レッドピラニア　　Red Piranha
+
+ヒドラ　　　　　　Hydra
+ファイアヒドラ　　Fire Hydra
+
+アンクヘッグ　　　Ankheg
+レモラーズ　　　　Remorhaz
+
+ラーバウォーム　　Lava Worm
+サンドウォーム　　Sand Worm
+パープルウォーム　Purple Worm
+
+オチュー　　　　　Otyugh
+ネオチュー　　　　Neo-otyugh
+
+レッドドラゴン　　Red Dragon
+ホワイトドラゴン　White Dragon
+ドラゴンゾンビ　　Dragon Zombie
+
+マリリス　　　　　Marilith
+
+ビホルダー　　　　Beholder
+デスビホルダー　　Death Beholder
+
+ウェアタイガー　　Weretiger
+ラクシャーサ　　　Rakshasa
+
+バレッテ　　　　　Bulette
+デザートバレッテ　Desert Bulette
+
+アロザウルス　　　Allosaurus
+チラノザウルス　　Tyrannosaurus
+
+ワイバーン　　　　Wyvern
+ウィルム　　　　　Wyrm
+
+クレイゴーレム　　Clay Golem
+ストーンゴーレム　Stone Golem
+アイアンゴーレム　Iron Golem
+
+クロコダイル　　　Crocodile
+ホワイトダイル　　White Dile
+
+ウォーターナーガ　Water Naga
+スピリットナーガ　Spirit Naga
+
+ウォーター　　　　Water
+エアエレメンタル　Air Elemental
+
+クラーケン　　　　Kraken
+
+メデューサ　　　　Medusa
+アースメデューサ　Earth Medusa
+
+ブラックナイト　　Black Knight
+デスナイト　　　　Death Knight
+
+ガーディアン　　　Guardian
+ソルジャー　　　　Soldier
+
+キメラ　　　　　　Chimera
+ゴーキメラ　　　　Goh Chimera
+
+ブルードラゴン　　Blue Dragon
+グリーンドラゴン　Green Dragon
+
+デスマシーン　　　Death Machine
+
+ティアマット　　　Tiamat
+
+カオス　　　　　　Chaos
+
+
+                   /==7.===================================/
+                   |          Monster Skill List           |
+                   /===============================[7SKI]==/
+
+This list contains the names of some of the enemy skills that I've seen. It is 
+definitely incomplete, as I didn't go out of my way to let monsters attack me 
+just so I could see what their moves were called. ;-)
+
+にらみ　　　　　　［睨み］　　Glare
+ほのお　　　　　　［炎］　　　Flame
+ふぶき　　　　　　［吹雪］　　Snowstorm
+マインドブラスト　　．　．　　Mind Blast
+スミ　　　　　　　［墨］　　　Ink
+いなずま　　　　　［稲妻］　　Lightning
+どくばり　　　　　［毒針］　　Poison Needle
+どくガス　　　　　［毒ガス］　Poison Gas
+じしん　　　　　　［地震］　　Earthquake
+はないき　　　　　［鼻息］　　Nasal Breath
+
+
+                   /==8.===================================/
+                   |            Version History            |
+                   /===============================[8VER]==/
+
+v1.00
+・Initial release
+Started playing 04/23/2007
+Finished game 06/10/2007
+Submitted 07/24/2007
+"Final Fantasy" maps by x_loto also available at GameFAQs.com!
+
+v2.00
+・Devised fancy new section headers, hopefully making the file easier to browse.
+・Changed the title to "Game Script and Mini Playing Guide," since this really 
+is a little bit more than just the script.
+・Changed the search codes in the Table of Contents.
+・Moved "Version History" section to the end.
+・Moved "Command Windows" section to follow the "Transcription."
+・Proofread and cleaned up translation, including changing "mythril" to 
+"mithril" and "saber" to "sabre" (just personal preference, really).
+・Made other miscellaneous alterations in some sections.
+・Revised maps, adding treasure data, attempting to increase legibility, and 
+shrinking larger maps to fit on the screen with less scrolling, as well as 
+adding a coordinate system to the "World" map.
+Submitted 02/21/2008
+
+v2.10
+・Revised the maps again. O_o
+・Changed "Prologue" to "Prelude" in the "Transcription"; likewise changed 
+"Warriors of Destiny" to "Prologue" (I must have been thinking of Ultima that 
+day...).
+・Changed the term "Physical Strength" to "Vitality."
+・Made miscellaneous minor adjustments.
+・Added a bit of trivia about the game to the Foreword.
+・Added several pieces of dialogue that I had missed, thanks to AstralEsper.
+・Removed the equippability chart--it's in other FAQs already, and it really 
+has nothing to do with the translation.
+Submitted 08/05/2008
+
+Planned for future versions:
+・Finishing the translation of the back of the box (I'm missing several kanji 
+that I couldn't decipher).
+・Possibly replaying the game, adding spell messages for magic I wasn't able to 
+purchase in the first playthrough.
+・Correcting any obvious kanji and/or translation errors once I play the Game 
+Boy Advance remake.
+...That's probably all, unless someone specifically requests that I add text 
+from the various shops. :-)
+
+
+                   /==9.===================================/
+                   |         Credits/Thanks/Legal          |
+                   /===============================[9CRE]==/
+
+Credits:
+Translation and guide by Jason Kuntz (x_loto).
+
+Thanks:
+・Glenn Rosenthall, for programming JWPce, which I used to type this up.
+・Jim Breen, for creating the EDICT electronic Japanese dictionary.
+・Jack Halpern, for inventing the SKIP look-up system, so I didn't have to know 
+all the radicals to find kanji.
+・The makers of Nintendulator, which made mapping a whooooole lot easier.
+・MightyCollector, whose Monster List FAQ was used to check and make sure I had 
+found all the monsters, and in that way I stumbled upon the correct translation 
+of a couple D&D-inspired monsters, including the "Bulette" and "Otyugh." Thank 
+you!
+・AstralEsper, whose "Final Fantasy Rebalanced" hack tipped me off about some 
+more D&D monsters, including the "Rakshasa" and "Remorhaz," while using this 
+very file as a reference! It's like a giant feedback (time) loop! She also 
+located over a dozen snippets of dialogue I had missed and compiled them for 
+easy reference. Thank you very much! ^_^
+・MissQuark, who submitted the box image to GameFAQs.com that I used for 
+translation.
+・GameFAQs.com, for hosting all this mess!
+・Square, for creating this monster! ;-P
+
+Legal:
+Translation, guide, and layout (C) 2007-2008 by Jason Kuntz. This translation 
+is in no way authorized or otherwise endorsed by the game creators or 
+publishers. Use this guide however you like for your own personal use, but 
+please do not republish it in an altered form, and please do not take credit 
+for it. If you use part of this guide in your own work, please send me an email 
+and let me know; my address is at the top. I can't think of any reason I 
+wouldn't let you, so just tell me. Seriously people, this was hard work for me! 
+I'm exhausted!
+
+An up-to-date version of this file may always be found at GameFAQs.com. And 
+don't forget: JUST SAY NO TO PLAGIARISM!
+
+
+                   /=======================================/
+                   |                  EOF                  |
+                   /==============================[72pp.]==/
+
+...No bonus dungeon after the credits this time, sorry.

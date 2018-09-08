@@ -1,0 +1,295 @@
+FINAL FANTASY CRYSTAL CHRONICLES: MY LIFE AS A KING
+
+Upgrade Material Guide v1.0
+by Ludovico
+
+Contents
+
+1. Intro
+2. Important Information
+3. Understanding the List
+4. Upgrade Material List
+5. Contact Information
+
+
+1. Intro
+In the world of Final Fantasy Crystal Chronicles: My Life as a King, you play 
+the ruler of a small kingdom, beseiged by monsters.  Being too valuable to 
+endanger yourself fighting the fiendish hordes, you commission adventurers and 
+send them out to fight your battles for you.  Your adventurers count on you to 
+build them homes to live in and provide them with weapons, armor and training.  
+You do so by building them shops and training halls, and spending your taxes on 
+research to upgrade the shops.
+
+Along the way, many of your shopkeeps and trainers will hit a wall, and will 
+need stronger, better materials and more powerful magics and ingredients to 
+upgrade their wares.  They ask you to send your adventurers hunting for these 
+materials.  This guide is a list of those materials, where they can be found, 
+and what your adventurers can expect to face when they get there.
+
+Although it pretty much goes without saying, this guide is my intellectual 
+property with all the hollow, toothless legal and ethical ramifications that 
+come with that.  If you want to swipe it, I can't stop you, but I'd appreciate 
+if you'd let me know.
+
+
+2. Important Information
+
+There are a handful of little quirks that are going to make your life as a king 
+a little difficult, and getting your hands on upgrade materials is one of them. 
+Not unlike a Seinfeldian Soup Nazi, the game expects you to follow a very rigid 
+and specific set of instructions before it will let you get your hands on the 
+materials you crave.
+
+First, you need to upgrade whatever it is you're trying to upgrade to a certain 
+level.  For the purpose of demonstration, I'll explain using the commonly first 
+upgrade, level 15 Sword Metal.  In order for the behest to appear, you must 
+first spend the money to research Swords to level 15.  At that point, no 
+further upgrades will be allowed and the shopkeep will tell you he needs better 
+materials to do so.
+
+Second, you must leave the store and re-enter it.  The shopkeep will tell you 
+he needs more materials to upgrade Swords, and would you please post a behest 
+for your adventurers to get him some Sword Metal.  You can do this right away, 
+you can wait a week and a half, it doesn't matter, but the option for the 
+behest won't occur until the shopkeep has asked you for it.
+
+Third, you must locate the Sword Metal.  For the most part, the material you'll 
+need for the first upgrade is located in the dungeon where you unlocked the 
+thing you're trying to upgrade.  The first Sword Metal is in Kubito Grotto, 
+where you unlocked the first weapon shop, the first Fire Magicite is in Primone 
+Darkwood, where you unlocked your first Black Mage Academy, etc. (this doesn't 
+apply to Axe Metal, Gauntlet Plating and Revival Runes, because they're 
+accessed via Downloadable Content).  After that, the materials are randomly 
+scattered around the world (which is why I made this guide).  In order to 
+locate the necessary material, you must have the dungeon fully explored.  In 
+the case of the first Sword Metal upgrade, you'll need to have Kubito Grotto 
+fully explored, something you've probably already accomplished.  Then, the 
+behest will appear there, much like a boss behest, with a star next to it, 
+reading "Obtain Sword Metal."
+
+Finally, you must defeat the boss defending the material.  The boss defending 
+any material is always going to be highlighted in purple in the dungeon 
+information, just above the boss of the dungeon.  This can be a bit trickier 
+than it looks because, while the dungeon retains its normal level, the boss 
+defending the material will be the SAME LEVEL AS THE MATERIAL YOU'RE LOOKING 
+FOR.  So, for instance, while Kubito Grotto and the monsters inside it will 
+remain level 2 (a breeze for any adventurer), the Ice Goblin that is defending 
+the level 15 Sword Metal will be level 15.  The same goes for the Bavarois 
+defending the level 20 Armor Plating and the Killer Bee (and his pal) defending 
+the level 15 Fire Magicite.
+
+It is also important to point out that, while everything else in the world 
+changes when you start a new game+ on hard or very hard difficulty, the
+material gathering quests will never change in level or difficulty.
+
+
+3. Understanding the List
+
+The list will be laid out as follows:
+
+MATERIAL TYPE
+Level:    RESEARCH LEVEL REQUIRED TO UNLOCK
+Location: LOCATION OF MATERIAL
+Boss:     BOSS GUARDING THE MATERIAL
+* - ANY ADDITIONAL USEFUL INFORMATION
+
+
+4. Upgrade Material List
+
+SWORD MATERIAL
+Level:    15
+Location: Kubito Grotto
+Boss:     Ice Goblin
+
+Level:    40
+Location: Brenkith Crossroads
+Boss:     Lizardman +3
+
+Level:    70
+Location: Carcus Southway
+Boss:     Salamander +4
+
+HAMMER METAL*
+Level:    30
+Location: Ogre Camp
+Boss:     Ogre Basher +2
+
+Level:    50
+Location: Ramva Riverbank
+Boss:     Gigantoad +3
+
+Level:    80
+Location: Denthe Bridge
+Boss:     Gigas +4
+
+* - If you have purchased the Dungeon Pack Downloadable Content, you can reach 
+the Ogre Camp on normal difficulty.  Otherwise, Hammer Metal can only be 
+obtained on hard or very hard difficulty.
+
+AXE METAL*
+Level:    45
+Location: Cortek Sandhollows
+Boss:     Stone Sahagin +3
+
+Level:    80
+Location: Desert City of Clavis
+Boss:     Gigas +2
+
+* - Axe Metal is only available if you have purchased the Dungeon Pack 
+Downloadable Content.
+
+ARMOR PLATING
+Level:    20
+Location: Junun Dei Meadows
+Boss:     Bavarois*
+* - Bavarois is immune to physical attacks.  You must use a black mage to kill 
+it.
+
+Level:    40
+Location: Polpous Mistmoor
+Boss:     Mu +3
+
+Level:    70
+Location: Janktra Plains
+Boss:     Golem +4
+
+HELM PLATING*
+Level:    30
+Location: Diaphi Riverway
+Boss:     Bavarois**
+** - Bavarois is immune to physical attacks.  You must use a black mage to kill 
+it.
+
+Level:    50
+Location: Garrit Dryway
+Boss:     Lava Mu +3
+
+Level:    80
+Location: Fronze Cove
+Boss:     Golem +3
+
+* - Helm Plating is only available on hard and very hard difficulty.
+
+GAUNTLET PLATING*
+Level:    35
+Location: Barbair Abyss
+Boss:     Ghost +3
+
+Level:    70
+Location: Langooth Peak
+Boss:     Malboro +4
+
+* - Gauntlet Plating is only available if you have purchased the Dungeon Pack 
+Downloadable Content.
+
+POTION INGREDIENTS
+Level:    20
+Location: Dolsam Gulch
+Boss:     Worm
+
+Level:    40
+Location: Clannit Mirrorlake
+Boss:     Bavarois +4*
+* - Bavarois is immune to physical attacks.  You must use a black mage to kill 
+it.
+
+Level:    70
+Location:  Nefron Beach
+Boss:     Lizardman +4
+
+ANTIDOTE INGREDIENTS*
+Level:    25
+Location: Kutith Basin
+Boss:     Stone Worm
+
+Level:    45
+Location: Orc Keep
+Boss:     Orc +3
+
+Level:    80
+Location: Quavitas Crag
+Boss:     Sahagin Lord +4
+
+* - Antidote Ingredients are only available in hard or very hard difficulty.
+
+REVIVAL RUNES*
+Level:    40
+Location: Altenica Hills
+Boss:     Lava Mu +3
+
+Level:    65
+Location: Tunika Mountains
+Boss:     Salamander +4
+
+* - Revival Runes are only available if you have purchased the Dungeon Pack 
+Downloadable Content.
+
+RESTORATION MAGICITE
+Level:    20
+Location: Panclare Brightwood
+Boss:     Orc Warlock +2
+
+Level:    45
+Location: Auris Swordpath
+Boss:     Bavarois +4*
+* - Bavarois is immune to physical attacks.  You must use a black mage to kill 
+it.
+
+Level:    70
+Location: Letyna Tundra
+Boss:     Cerberus +4
+
+ENHANCING MAGICITE*
+Level:    25
+Location: Vena Eih Marsh
+Boss:     Orc Warlock +2
+
+Level:    45
+Location: Lost Cityof Nevul
+Boss:     Chimera +4
+
+Level:    80
+Location: Orth Bridge
+Boss:     Gigantoad +3
+
+* - Enhancing Magicite is only available on hard or very hard difficulty.
+
+FIRE MAGICITE
+Level:    15
+Location: Primone Darkwood
+Boss:     Killer Bee +2
+
+Level:    45
+Location: Terun Westway
+Boss:     Salamander +3
+
+Level:    70
+Location: Corrum Sih Highroad
+Boss:     Snow Mu +3
+
+FROST MAGICITE*
+Level:    25
+Location: Jungle Ruins of Si Khem
+Boss:     Ghost
+
+Level:    50
+Location: Musqu Mazewood
+Boss:     Chimera +4
+
+Level:    80
+Location: Enthe Frostfall
+Boss:     Ice Goblin +4
+
+* - Frost Magicite is only available on hard or very hard difficulty.
+
+5. Contact Information
+
+If you have anything to add to the guide, you think anything needs fixing, or 
+you want to use my guide in anything, you can reach me via e-mail or GameFAQs.  
+I don't AIM, I don't MSN, I don't do any of that.  I also don't check my e-mail 
+all too regularly, so your best bet is probably to send me a message via 
+GameFAQs.
+
+E-mail: ludovico147@hotmail.com
+GameFAQs: Ludovico47

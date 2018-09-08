@@ -1,0 +1,631 @@
+-- Final Fantasy X-2 --
+-- 100% Story Level Completion Guide --
+-- By Kouli {aka Ken Zhao, kenzhao99@yahoo.com} --
+-- Version 2.5 --
+
+-----------------------------------------------------------------------------------------
+
+<Last Updates>
+
+* Friday, November 28, 2003 *
+
+- Yet Another Quick Update
+
+* Thursday, November 27, 2003 *
+
+- Another Quick Update
+
+* Wednesday, November 26, 2003 *
+
+- Quick Update
+
+* Tuesday, October 28, 2003 *
+
+- Additional Details Added
+
+- Few English Version Names Applied
+
+-----------------------------------------------------------------------------------------
+
+<First Things>
+
+- Major Credits To Final Fantasy X-2 Ultimania As This Guide Won't Exist Without It
+
+- This Is Based On The Japanese Version Of Final Fantasy X-2
+
+- The Whole Game Has About 110%
+  - Choosing Youth League => 100%  (In One Game)
+  - Choosing New Yevon    => 99.2% (In One Game)
+
+-----------------------------------------------------------------------------------------
+
+<Introduction>
+
+100% Story Level Completion? Yes. This Guide Is To Show You The Steps To Get 100% In One
+Try, Meaning Right From The Moment You Click On 'New Game' Til You Beat The Game, You Can
+Get 100%, Instead Of Playing The Game For Multiple Times To Do So. People Previously
+Thought That Isn't Possible In One Try Because Of The Choices You Have To Make In The 
+Beginning Of Story Level 2. But The FFX-2 Ultimania Said And Shown The Way To Get 100% 
+In One Try. That Is To Choose Youth League In The Beginning Of Story Level 2. Now, Follow
+The Guide If You Wish To Get 100% In One Try.
+
+Side Notes:
+
+- Doing This Will Also Get You The 'Perfect Ending'
+- If You Choose New Yevon In The Beginning Of Story Level 2, The Max Percentage Is 99.2%
+- Doing This Will Also Get You Episode Complete In Every Area Of Spira In Story Level 5
+- This Also Means That You Will Get One Of Every Dress Sphere In The Game In One Try
+  - However, You Could Still Miss Dark Knight and Samurai. Just Don't Forget To Pick 
+    Them Up
+- This Could Also Be Called A "Master Saved File" For One's First Game
+
+-----------------------------------------------------------------------------------------
+
+<One Simple/Important Rule>
+
+- DO NOT SKIP ANY SCENE In Getting 100% In One Try -
+
+-----------------------------------------------------------------------------------------
+
+<Negative Areas & FAQ>
+
+-- "Insert Doubts" --
+
+- This Is From Official Source - Final Fantasy X-2 Ultimania. If You Are Going To Doubt 
+  Square Enix, Why Bother Doing It Or Looking At This FAQ? Better Yet, Why Are You Even
+  Playing Their Game?
+
+-- Is This Copied From BradyGames' Final Fantasy X-2 Official Strategy Guide? --
+
+- No. This Guide Was Created Sometimes After The Release Of Final Fantasy X-2 
+  Ultimania. The BradyGames' Final Fantasy X-2 Official Strategy Guide Didn't Even 
+  Exist Back Then. The Reason That This Guide And Bradygames' Guide Are Similar Because
+  Both Guides Are Created Based On Official Source. BradyGames' Was Directly From The 
+  Officials While Mine Was Indirectly From The Official Through The Ultimania. This Is
+  Not Copied From BradyGames' Guide. If You Do Want To Accuse, Accuse BradyGames' Copied
+  Mine Since This Guide Was Created Way Before Their Guide. So Next Time, Before You 
+  Accuse, Have Something SOLID First.
+
+-- Is This Copied From The FFX-2 Ultimania? --
+
+- No. The Information In This Guide Used FFX-2 Ultimania As The Source And Created This 
+  Summary. This Is Created Based On My Testing Through The Guide In The FFX-2 Ultimania
+  And That's Far From Copying. If It's Copied From The Ultimania, It Will Be In Japanese
+  And Also Have Far More Details. Even If It's TRANSLATED Word For Word From Ultimania,
+  That's Not Exactly A Crime Since Translation Can Never Be Perfect Nor Exact, Not To 
+  Mention I Credit Them Instead Of Take From Them And Say It's My Work. And Yes, If 
+  It's Word For Word, You Won't Be Able To Undetrstand It Since Japanese Has Different
+  Grammar Structures. So Next Time, Before You Accuse, Have Something SOLID First.
+
+-- Can You Skip Scenes? --
+
+- No. It Affects The %.
+
+-- Can You Skip Text Or Dialogue? --
+
+- As In Pressing Button To Fasten The Text Or Dialogue? Yes, Excepts For The Talk With
+  Meichen At Story Level 1 / Chapter 1. You Can't Interupt His Talkings.
+
+-- Does It Show The Decimal / Any Ways To Check It? --
+
+- Sadly Enough, No. You Just Need To Know It By Heart Or Use A Whole Integer To Check 
+  It, Such As (6.0), (13.0), (14.0), (15.0), (19.0), (30.0), (31.0), (37.0), (47.0),
+  (50.0), (52.0), (63.0), (72.0), (73.0), (82.0), (85.0), (89.0), (92.0), (96.0)
+
+-- Does It Work? / It Doesn't Work / It Isn't Working / Fix Your Guide / E-Mailing --
+
+- Put It Short, It Does Work! Any Comment Relating To Fixing My Guide, Doubting My Guide
+  And Any This Kind Of Things Will Be Ignored. I Only Help Questions Related To Your 
+  Game Not Hearing Ones To Tell Me Fix My Guide And Saying The Guide Isn't Working.
+
+-- Does It Apply To The NA Ver? --
+
+- Yes, It Should. It Works In The Japanese Ver And It Should Also Apply To The NA Ver 
+  Since NA Ver Is Based On Japanese Ver.
+
+-- You Fixed Your Guide? / Did You Fix Your Guide ?--
+
+- No. Since There Isn't Any Screw-Ups In The Guide To Begin With, Why Would I Waste My 
+  Time And Fix It. The Recent Updates Were Merely Adding Additional Informatiom, Not
+  Fixing. I Won't Need To Fix It Since There Isn't Anything Wrong With It.
+
+-- About Akagi Sphere 4? --
+
+- Yes, In My Akagi Sphere Guide, It Says You Get It Chapter 5 But However, You Can Indeed
+  Get It In Chapter 3
+
+-- You Got The Akagi Sphere / Crimson Sphere Numbers Wrong! --
+
+- No, They Are Correct. In The Game, The Akagi Sphere Are Numbered In Two Ways. When You
+  First Get Them, That's One Set Of Numbers. But In Shinra's Sphere Collection List, He
+  Has Another Set Of Numbers For It.
+
+-- Lack Of Details? / That Part Is Wrong! --
+
+- This Isn't A Step By Step Walkthrough. I Only Listed The Important Steps. This Is More
+  Of An Outline. And None Of The Parts Are Wrong. It's Merely Your Own False 
+  Interpretation. If You Feel Strongly About It, E-Mail Me.
+
+-- AirShip Or Walk? --
+
+- When I Tested The Guide In Ultimania, I Used The AirShip All The Way. Meaning That This
+  Guide Is Assuming You To Do The Same.
+
+* Final Comment About E-Mailing To Me *
+
+- All Useless Complains Will Be Ignored. I Only Help Your 100% In One Try, Not Hearing
+  You Complain About My Guide.
+
+-----------------------------------------------------------------------------------------
+
+<Honor Roll>
+
+This Is For People That Have Done 100% In One Try.
+
+1. Kouli
+2. BlitzAceTidus/Mio (Or Any Other Ones Of His Accounts)
+
+-----------------------------------------------------------------------------------------
+
+<About My Guide>
+
+- My Guide Listed You The Important Steps To Gain 100% In One Try, But That Doesn't Stop
+  You From Being A Perfectionist. Do Check Out The Game More Than What I Said Here Such 
+  As Talking To Everyone In The Game From Time To Time Unless It Hurts The %
+
+- You Might Wish To Make Couple Saved Files For This 100% In One Try Since You Could 
+  Miss % Easily, Especially On Chapter 4 For Viewing Those Communication Sphere
+
+-----------------------------------------------------------------------------------------
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+Story Level 1 Start! / Chapter 1 Start!
+
+Luca - +1.6% {Total So Far: 1.6%}
+* Examine A Moogle At Harbor No.2 = It Heals You
+* Mission 'Get Back Result Plate' Complete
+
+AirShip - +1.8% {Total So Far: 3.4%}
+* Speak With Brother, Paine, Rikku And Shinra, Might As Well Buddy
+* Speak To Barkeep At Residental Area
+* Rest At Residental Area
+* From Shinra, [Treasure Sphere Collection] Watch Sphere 'Opportunity Of Traveling'
+  - That's The First Sphere In His List
+
+Mt. Gagazet - +2.6% {Total So Far: 6.0%}
+* Get To The Top Of Gagazet Ruins Within The Time Limit
+* Mission 'Compete With LeBlanc Syndicate' Complete
+
+AirShip - +0.6% {Total So Far: 6.6%}
+* Speak With Brother And Choose To Comfort Him (Second Option)
+
+Luca - +1.6% {Total So Far: 8.2%}
+* Mission 'Truth of Yuna's Concert' Complete
+* Speak With Rin At Basement (Blitzball Player Rest Room)
+
+Mi'ihen Highroad - +0.2% {Total So Far: 8.4%}
+* Arrive At Mi'ihen Highroad
+
+Mushroom Rock Road - +4.6% {Total So Far: 13.0%}
+* Speak With Yaibal And Choose 'Fiend-Destroying Mission Challenge'
+* Speak With Clasko At The Entrance Just Before Doing The Mission
+* At The Bottom Of Valley, Encounter Ormi, Logos (You Will Get An Akagi Sphere)
+* At The Bottom Of Valley, Speak With Maroda
+* - Head To The Elevator And Encounter Elma
+  - Mission 'Mushroom Rock Fiend-Destroying' Complete
+* At Youth League HeadQuarters, Speak With Lucil Twice
+* At Youth League HeadQuarters, Speak With Meichen And Shake His Hand 
+  (Do Not Interupt When Meichen Is Talking)
+* Get Back To AirShip, And Watch Sphere 'Akagi Report 1'
+* Get Back To Mushroom Rock Road And Lead Clasko From The Entrance Into The AirShip
+  * Clasko Is To The Right Of The Save Sphere
+* Speak To Clasko At Residental Area
+
+Djose Temple - +1.0% {Total So Far: 14.0%}
+* Follow Gippal Until He Gives You The 'Introduction Letter'
+* This Also Opens A New 'Hotspot' At Bikanel Desert
+
+Moonflow - +0.6% {Total So Far: 14.6%}
+* Mission 'Escort Transportation Vehicle' Complete {Don't Lose Any Luggage}
+
+Guardosalam - +0.4% {Total So Far: 15.0%}
+* Reach To Farplane Entrance
+
+Thunder Plains - +0.2% {Total So Far: 15.2%}
+* Reach To Thunder Plains
+
+Macalania Woods - +2.2% {Total So Far: 17.4%}
+* Encounter Berai At Southern Part (Automatic)
+* Speak To Donga At The Spring Area
+  - It's The Same Spring Where Tidus & Yuna Kissed UnderWater
+* Speak To Pukutaku At Northern Part
+* Speak To Tromell Guado 4 times At Sphere Spring
+* Head To Macalania Travel Agency And Mission 'Chase O'aka' Complete
+* Head Back To AirShip And Speak To O'aka At Residental Area
+* Before Story Level 3 Mission 'Ensure Safety Of Travel Agency' Ends, Pay Off All Of 
+  O'aka's Debts
+
+Bikanel Desert - +0.8% {Total So Far: 18.2%}
+* Mission 'Al Bhed Machina Parts Digging' Complete
+
+Bevelle - +0.6% {Total So Far: 18.8%}
+* Speak To Bararai
+
+Calm Lands - +0.2% {Total So Far: 19.0%}
+* Reach To Calm Lands
+* Begin To Advertise For The Companies {Check 'PR Mission FAQ'}
+
+Mt. Gagazet - +0.4% {Total So Far: 19.4%}
+* Reach To Mt. Gagazet
+
+Besaid Island - +2.2% {Total So Far: 21.6%}
+* Mission 'Search For Wakka' Complete
+
+Zanarkand Ruins - +1.8% {Total So Far: 23.4%}
+* Within Ebon Doom, Prayer Child Room, Speak To Cid And Choose 'There Are Many'
+  (Second Option)
+* Mission 'Get Sphere Treasure' Complete
+
+AirShip - +0.2% {Total So Far: 23.6%}
+* Automatic Events
+
+Kilika Island - +1.6% {Total So Far: 25.2%}
+* Get To Dona's Home, And Talk To Dona
+* Mission 'Snatching Away Sungoi Sphere' Complete
+
+Story Level 1 Complete! / Chapter 1 Complete!
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+-----------------------------------------------------------------------------------------
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+Story Level 2 Start! / Chapter 2 Start!
+
+AirShip - +2.4% {Total So Far: 27.6%}
+* Rest At Residental Area
+* Give The Sphere To Youth League
+
+Mushroom Rock Road - +1.0% {Total So Far: 28.6%}
+* Give The Sphere To Nooj
+
+AirShip - +0.6% {Total So Far: 29.2%}
+* Automatic Events
+
+Besaid Island - +0.8% {Total So Far: 30.0%}
+* Mission 'Challenge! Gun Shooting!' Complete
+  - Use The Blind Spot If It Helps
+
+Kilika Island - +0.2% {Total So Far: 30.2%}
+* Reach Kilika Island
+* Head Toward Dona And The Villagers
+
+Luca - +0.8% {Total So Far: 31.0%}
+* Accepts Shelinda's Interview At Central Square
+
+Mi'ihen Highroad - +1.4% {Total So Far: 32.4%}
+* Catches Chocobo During Mission 'Chocobo!', And Save Calli Within The Time Limit
+* Take Clasko, Calli And Chocobo Into The AirShip
+
+Mushroom Rock Road - +1.0% {Total So Far: 33.4%}
+* At The Bottom Of Valley, Speak To Nooj
+* Youth League HeadQuarters, Speak With Elma And Lucil
+* Head Back To AirShip And Watch 'Akagi Report 7'
+
+Moonflow - +0.2% {Total So Far: 33.6%}
+* Mission 'Selling Tickets' Complete {Sell All 10 Tickets}
+
+Guardosalam - +0.2% {Total So Far: 33.8%}
+* Speak To A Fighter By LeBlanc's HideOut
+
+Thunder Plains - +0.2% {Total So Far: 34.0%}
+* Speak To Cid
+
+Macalania Woods - +1.4% {Total So Far: 35.4%}
+* Mission 'Search For Band Members' Complete
+
+Calm Lands - +0.8% {Total So Far: 36.2%}
+* Clasko Gets Off The AirShip
+* Mission 'New Place For Clasko?' Complete 
+* Catch A Chocobo Before Story Level 3 Ends
+* Speak To Lian Ronso And Ayde Ronso At The Center Part
+
+Zanarkand Ruins - +0.4% {Total So Far: 36.6%}
+* Within Ebon Doom, Pathway, Speak To Isaaru
+* Finish Mission 'Private Internal Mission' Before Story Level 3 Ends
+
+Djose Temple - +0.4% {Total So Far: 37.0%}
+* Mission 'Obtain Fighting Clothes {Djose Highroad}' Complete 
+
+Bikanel Desert - +0.2% {Total So Far: 37.2%}
+* Mission 'Oasis Investigation' Complete
+
+Mt. Gagazet - +1.0% {Total So Far: 38.2%}
+* After Kimahri Ronso Allows Yuna To Investigate At Prayer Child Cliff, Speak To 
+  Kimahri Ronso
+* Go Up The Cliff, Triggers 'HOT SPRING' Event
+  - Keep Going Up Instead Of Following The S-Rank Female Fighter
+* Mission 'Obtain Fighting Clothes {Mt. Gagazet}' Complete
+
+AirShip - +0.2% {Total So Far: 38.4%}
+* Automatic Events
+
+Guardosalam - +3.4% {Total So Far: 41.8%}
+* Mission 'Steal Back The Stolen' Complete
+
+AirShip - +0.4% {Total So Far: 42.2%}
+* Automatic Events
+
+Bevelle - +2.6% {Total So Far: 44.8%}
+* Mission 'Bevelle Infiltration Big Battle' Complete
+  (Remember To Pick Up Dark Knight Dress Sphere Although That Doesn't Give %)
+
+Story Level 2 Complete! / Chapter 2 Complete!
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+-----------------------------------------------------------------------------------------
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+Story Level 3 Start! / Chapter 3 Start!
+
+AirShip - +0.8% {Total So Far: 45.6%}
+* Rest At Residental Area
+
+Luca - +0.8% {Total So Far: 46.4%}
+* Win Sphere Break Tournament (Defeat Shinra)
+
+Mi'ihen Highroad - +0.6% {Total So Far: 47.0%}
+* Mission 'Stopping Running-Wildly Machina' Complete
+
+Mushroom Rock Road - +0.4% {Total So Far: 47.4%}
+* Speak To Lucil And Yaibal By The Entrance
+
+Djose Temple - +0.2% {Total So Far: 47.6%}
+* Speak To Gippal By Djose Temple
+
+Moonflow - +0.2% {Total So Far: 47.8%}
+* Speak To Tobli By South Coast
+
+Guardosalam - +2.0% {Total So Far: 49.8%}
+* LeBlanc's HideOut, Watch Sphere In A Room Within The Secret Area
+* After Watching Sphere, Speak To Meichen
+* Obtain Akagi Sphere 4, Then Head Back To AirShip And Watch 'Akagi Report 4'
+
+Thunder Plains - +0.2% {Total So Far: 50.0%}
+* Speak To Lian Ronso And Ayde Ronso At Northern Part
+* Pick 'Kilika Island'
+
+Macalania Woods - +0.8% {Total So Far: 50.8%}
+* Simultaneously Mission Complete 'Ensure Safety Of Travel Company' When Paying Off
+  O'aka's Debt
+
+Bikanel Desert - +0.4% {Total So Far: 51.2%}
+* Speak To Marunekku At Cactus Self-Govern Place
+
+Calm Lands - +0.4% {Total So Far: 51.6%}
+* Mission 'Rescue Tourists' Complete
+* Go To Center Area And Shinra Will Establish Communication Sphere
+* At Upper Part Of The Ruins (Chocobo Farm), Look At Shinra Establishing Communication
+  Sphere
+
+Mt. Gagazet - +0.4% {Total So Far: 52.0%}
+* Mission 'Stop The Ronso's Departure' Complete
+
+Zanarkand Ruins - +0.2% {Total So Far: 52.2%}
+* At Ebon Doom, Pathway, Speak To Isaaru
+
+Besaid Island - +2.0% {Total So Far: 54.2%}
+* Mission 'Destroying Temple Fiends' {Besaid Temple}' Complete
+  
+Kilika Island - +1.0% {Total So Far: 55.2%}
+* Mission 'Destroying Temple Fiends' {Kilika Temple}' Complete
+  (Remember To Pick Up Samurai Dress Sphere Although That Doesn't Give %)
+
+AirShip - +0.6% {Total So Far: 55.8%}
+* Automatic Events
+
+Bevelle - +1.6% {Total So Far: 57.4%}
+* See Gippal Up On The Roof And At Anteroom
+* Under Bevelle, Great Depth Area, See Nooj, Baralai And Gippal
+* Under Bevelle, Great Depth Area, Pick Up Akagi Sphere 1, Head Back To AirShip And 
+  Watch 'Akagi Report 1'
+
+Djose Temple - +2.2% {Total So Far: 59.6%}
+* Mission 'Destroying Temple Fiends' {Djose Temple}' Complete
+* At Abyss Of Farplane, When Yuna Is Alone, Continue To Press 'Circle', Then Hear 
+  Whistling 4 Times
+  - Press 'X' If You Are Playing The NA Ver
+
+Story Level 3 Complete! / Chapter 3 Complete!
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+-----------------------------------------------------------------------------------------
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+Story Level 4 Start! / Chapter 4 Start!
+
+AirShip - +1.8% {Total So Far: 61.4%}
+* Watch 'Akagi Report 2' And 'Akagi Report 3'
+* Rest At Residental Area
+
+AirShip, Communication Sphere - +0.8% {Total So Far: 62.2%}
+* Speak To Wakka At Besaid Island
+* Speak To Dona At Kilika Island
+* Speak To Yaibal At Mushroom Rock Road
+* Speak To Maroda At Bevelle
+
+AirShip - +0.8% {Total So Far: 63.0%}
+* Decided To Call Out A Concert, Speak To Paine At Deck
+
+AirShip, Communication Sphere - +4.4% {Total So Far: 67.4%}
+* Speak To Wakka And Beclem At Besaid Island
+* Speak To Barthello At Kilika Island
+* See Shelinda Interviewing At Luca
+* Gathering Evidence At Mi'ihen Highroad {Criminal=Rikku}
+* At Djose Temple, Hear Al Bhed Talking
+* At Guardosalam, Speak To Ormi
+* At Thunder Plains, Catch Chocobo With Transmission Sets
+* At Macalania Woods Entrance, Hear Band Members Talking
+* At Macalania Woods Travel Agency, Speak To O'aka
+* At Bikanel Desert {Tent}, Speak To Nhadala
+* At Calm Lands, Chocobo Farm, Hear Clasko Saying 'Chocobo Kawaii' (Kawaii=Cute)
+* At Mt. Gagazet, Speak To Kimahri Ronso
+* At Mt. Gagazet {Hot Spring}, See Tobli, Buddy, Barkeep, O'aka, Isaaru, Elma, 
+  Lucil, Meichen, Cid, Dona
+
+Moonflow - +0.8% {Total So Far: 68.2%}
+* Mission 'Search For Tobli' Complete
+
+AirShip - +1.0% {Total So Far: 69.2%}
+* Automatic Events
+
+AirShip, Communication Sphere - +2.4% {Total So Far: 71.6%}
+* Speak To Beclem And Lulu At Besaid Island
+* Hear Dona Talking At Kilika Island
+* Speak To Barthello At Kilika Temple
+* Speak To Lucil And Yaibal At Mushroom Rock Road
+* Speak To Elma At Moonflow
+* Speak To Ormi At Guardosalam
+* Speak To O'aka At Macalania Woods Travel Agency
+* Speak To Isaaru At Zanarkand Ruins
+
+Thunder Plains - +0.4% {Total So Far: 72.0%}
+* Mission 'Notice The Visitor=Monster!' Complete
+
+AirShip - +1.0% {Total So Far: 73.0%}
+* Automatic Events
+
+Thunder Plains - +0.4% {Total So Far: 73.4%}
+* Concert Begins
+
+AirShip - +2.2% {Total So Far: 75.6%}
+* Speak To LeBlanc And Others At Power Room
+
+Story Level 4 Complete! / Chapter 4 Complete!
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+-----------------------------------------------------------------------------------------
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+Story Level 5 Start! / Chapter 5 Start!
+
+AirShip - +2.0% {Total So Far: 77.6%}
+* Watch 'Akagi Report 5'
+* Speak To Buddy At Bridge
+* Rest At Residental Area And See Brother Expressing His Grievances
+* Speak To Buddy At Power Room
+
+Zanarkand Ruins - +0.8% {Total So Far: 78.4%}
+* Episode Complete
+* Speak To Meichen And Choose 'Please Tell'
+
+Besaid Island - +1.8% {Total So Far: 80.2%}
+* Episode Complete!
+
+Kilika Island - +1.0% {Total So Far: 81.2%}
+* Episode Complete!
+
+Luca - +0.6% {Total So Far: 81.8%}
+* Mission 'Follow The Moogle' Complete! {=Episode Complete!}
+
+Mi'ihen Highroad - +0.2% {Total So Far: 82.0%}
+* Episode Complete! 
+
+Mushroom Rock Road - +3.0% {Total So Far: 85.0%}
+* Mission 'Youth League Fighting Assembly' Complete! {=Episode Complete!}
+* At Youth League HeadQuarters, Scout Stand, Speak To Lucil
+* Head Back To AirShip And Watch Sphere 'Those That Seek Death' (Nooj Sphere)
+* After Obtaining All Akagi Sphere, Go Into Sealed Cave And Defeat The Bosses,
+  Akagi Team Episode Complete!
+
+Djose Temple - +0.8% {Total So Far: 85.8%}
+* 'Challenge Of Machina Faction's Self-Confidence Work', First Defeat The Non-Strong
+  Machina, Defeat The Machina Again When It's At Its Strongest State, Episode Complete!
+* Fight It At Level 5 For The First Time Will Also Do; By Doing That, You Won't Need Any
+  Repair Item And You Will Still Get An Episode Complete!
+
+Monnflow - +0.4% {Total So Far: 86.2%}
+* Episode Complete!
+
+Guardosalam - +1.2% {Total So Far: 87.4%}
+* Episode Complete!
+* After Episode Complete, Speak To Tromell And Head To Previously Locked House, Obtain
+  Bararai Sphere, Then Head Back To AirShip And Watch Sphere 'Temple's Secret'
+
+Thunder Plains - +1.0% {Total So Far: 88.4%}
+* Mission 'Thunder Tower's Fiend Destroying' Complete!
+* Into The Cave And Find Cid, Then Defeat The Boss {=Episode Complete!}
+* After Episode Complete, Hear Cid Talking At Deck
+* After Hearing Cid Talking, Head To Bridge To See 'Parent And Child' Event
+
+Macalania Woods - +0.6% {Total So Far: 89.0%}
+* Episode Complete!
+* See 'O'aka And Wantz' Event By Travel Agency {=O'aka Episode Complete!}
+
+Bikanel Desert - +1.2% {Total So Far: 90.2%}
+* Mission 'Search For Cactus' Complete!
+* Mission 'Search For Final Cactus' Complete!
+* Mission 'Desert's Final Battle' Complete! {=Episode Complete!}
+* After Episode Complete, Speak To Benzo At Cactus Self-Govern Place
+
+Bevelle - +1.8% {Total So Far: 92.0%}
+* Episode Complete!
+* St. Bevelle Hidden Dungeon Top Floor, Obtain Akagi Sphere 6 And 8 At Floor 20. Head 
+  Back To AirShip And Watch 'Akagi Report 6' And 'Akagi Report 8'
+* Beat Trema At The Lowest Floor {=Trema Episode Complete!}
+
+Calm Lands - +0.4% {Total So Far: 92.4}
+* Company PR Reaches Stage 5 {=Episode Complete!}
+* Find Chocobo Farm Ruins' Inner Cave's Sungoi Chocobo {=Clasko Episode Complete!}
+
+Mt. Gagazet - +1.2% {Total So Far: 93.6%}
+* Episode Complete!
+
+AirShip - +2.4% {Total So Far: 96.0%}
+* See Cid's Family Consecutive Events {Speak To Shinra At Bridge; Hearing Brother And
+  Buddy's Negotiation; Head To Resident Area For 'Parent And Child' Event; Head To Deck 
+  And Speak To Rikku}
+
+Farplane - +4.0% {Total So Far: 100.0%}
+* Defeat VegnaGun
+* Defeat Shuyin
+
+Story Level 5 Complete! / Chapter 5 Complete!
+
+* When Yuna At Farplane, Press 'Circle' Until Inorigo/Fayth Shows Up
+  - Press 'X' If You Are Playing The NA Ver
+* Answer To Prayer Child '(I) Want To Walk Together' (First Option)
+
+<Reminder: Don't Skip Any Scene In The Game>
+
+<Perfect Ending>
+
+-----------------------------------------------------------------------------------------
+
+
+<Coming Soon>
+
+- Specific Details For Each %
+
+
+-----------------------------------------------------------------------------------------
+
+<Credits>
+
+- Me
+- CJayC
+- FFX-2 Ultimania
+- Bent Stuff Studio
+- Square Enix
+
+-----------------------------------------------------------------------------------------
+
+This Document Copyright 2003 Kouli

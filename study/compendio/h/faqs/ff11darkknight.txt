@@ -1,0 +1,540 @@
+Dark Knight FAQ v.1.1
+Author: Ryan Ruger, Copyrighted
+FFXI: Chaosbringer, lvl 33DRK, server: Ragnarok
+email: rruger@uclink.berkeley.edu
+
+
+Foreward:
+This faq is for those interested in the paths of darkness. What does the path
+of darkness entail? Heavy Damage, some nice black magic, etc. Dark Knights
+Won't do the damage that rangers can, or Black mages for that matter. But if
+you want a job that can dish out good damage without the upkeep needed for
+ranger or the expensive spells of black mage, dark knight may be for you.I
+wrote this guide because I wanted to inform all about my favorite class (DRK).
+I will try to base all my ideas on facts and knowledge, so please no flames.
+Yes I know Samurais can gain tp faster than drks, and DRG's get pentrathrust
+faster than DRK's get guillotine. DRK's are still an awesome class.
+
+Legal mumbo jumbo:
+This is my faq. You are welcome to read it, save it on your computer, but you
+must not steal it and pass it off as your own work. I will allow you to host
+the faq if you tell me about it.
+
+
+Table of contents:
+1a) Questions
+2a) Dark Knight Quest
+3a) Job Abilities and Job Traits
+4a) Spell List
+5a) Strategy and Party set-ups
+6a) Great subs and Bad subs
+7a) Equipment
+8a) Level Strategies
+9a) revisions list
+10a) Thank You Section
+
+1a) Questions:
+
+Is Dark knight a good tank?
+-No, No, and No. According to the FFXI official guide (which isn't that great)
+it has the same growth in VIT as DRG and samurai, but this does not mean it
+can tank like either, mostly because of Last Resort (which lowers defense and
+raises offense) or souleater (which eats HP to raise damage). Any party that
+relies on DRK to be a main tank will have a harder time exping. And even if
+DRKs didnt use the skills, does not mean that the VIT of DRKs, SAMs, and DRGs
+make it a very strong tank. Think about paladins and warriors, and ninjas with
+blink. A lot of people might think Dark Knight can be decent tank, and it can,
+but you would sacrifice the use of Soul Eater, Last resort, etc. If you 
+absolutely LOVE to tank, pick galka race for Dark Knight.
+
+Is Dark Knight the most damaging?
+-Nope. IT is one of the most damaging classes, and will be very deadly once it
+aquires guillotine, but not as damaging as Ranger or BLM. DRGs may dish out 
+more damage because of  the wyvern (DRG) + pentathrust. I hear sams can do
+more damage than DRKs can, but I really don't see how. A samurai can unleash 
+tp, meditate, unleash tp, but it won't do the damage that a dark knight can
+using souleater.Experienced players tell me that DRGS will be doing more 
+damage than DRKs because DRGS aquire pentrathrust before guillotine. However,
+with soul eater, we will be respectable,and with guillotine,we will be doing 
+more damage than even pentathrust. Although this is not a "which job is 
+better FAQ," my lst version misguided a lot of players into thinking that
+dark knight is overrated and weak. I am going to flat out say it, when all 
+melee jobs are stripped of their skills (timer is not up), darks do the most
+damage hit for hit. Also, its a common misconception that we are worthless
+without guillotine...How so? DRG don't get pentathrust until their late 40s,
+SAM weapon skills don't get any better, etc. I absolutely think Sams and DRG
+are great jobs (one chains renkeis, other has good Weapon Skills, extra
+wyvern damage, breath attacks), but I don't know why people see Dark Knight
+as the only "Sucks till later" class when a lot of advanced jobs don't get
+better until later levels.
+
+
+IF dark Knight isnt the most damaging, isnt that the point? why should I care?
+-Low upkeep, scythes are way cheaper than other job weapons, Soul Eater lvl 30
+ skill (I do 90+dmg to an Incredibly tough mob each hit while other heavy 
+melee do 20-30)
+
+
+How hard is the DRK quest?
+-very easy. I will go in detail on how to acquire dark knight in a moment.
+
+What is the best race for DRK?
+- the guide says to pick mithra, I asked my linkshell and they said no way.
+Pick Elvann or Galka for most damage and health, pick hume and mithra for ok
+damage and decent black magic, and tarus for Great black magic, accuracy and
+pure shock factor.I am personally a hume because it is more accurate than
+Elvann and Galka. I really suggest you don't pick Taru LOL
+
+So I have a class that can Hit for UBER damage and can Nuke for Uber damage!
+this job makes all melee jobs and BLM jobs obsolete! oh yeah!
+-No. As I already said, this is a job that deals good damage for the cost
+efficient in mind. And you will never, ever nuke like a black mage, even if
+your magic skills are capped. The Dark Knights magic is not used to nuke, but
+to be an addition to the physical damage. You can still magic burst with your
+dark, so the magic is still useful. Leave real nuking to the nukers, BLM.
+It is the Drain-stat spells that set our magic apart from caster jobs.
+Imagine draining Agility, or strength and adding it to your own.
+
+2a) Dark Knight Quest:
+
+You must be at least lvl 30 in any job. I suggest leveling Warrior or Thief
+to 30 so that you could sub it until dark knight gets to lvl 60. Unless you
+want to level BLM to 30, change to Dark knight, lvl warrior or thf sub to lvl
+30...see my reasoning?
+quest- Talk to gumbah in the bastok mines region, hes on the second floor.You
+will know you are in the right area if you are near the Weapon shop icon
+on the map. 
+Talk to him until you get the cutscene. With your level 30, head to palborough
+ mines and take the elevator (I highly suggest buying the map in bastok
+market). Take the boat near H-8,and you will go into a cutscene with dark
+knight Zeid. He will give you the Chaosbringer,a very bad but looking sword
+which you must then vanquish 100 enemies with. Change to warrior, kill 100
+weak mobs (you must keep count, the game doesnt keep count for you.)
+Then ride a chocobo (change back to your lvl 30 job) to the southeast corner
+ of Pashow marshes and into Beadeaux to get into a cutscene with Zeid.
+Now you can change into Dark Knight! Enjoy!
+
+3a) Job Abilities and Job Traits
+
+Job Abilities:
+
+Blood Weapon lvl 1, interval 2hours, duration 30 seconds
+-Drains your targets HP during melee attacks
+notes on blood weapon*
+- In my opinion Dark Knights get shafted on the 2-hour. It sounds really good
+ at first,but do not rely on it to save your party. The best time to use this
+2-hour is if you have 50% health and you know the mob is decimating your
+party.Do not wait till you have 10 health because you will die before even
+hitting and draining the mob's health.
+*update- Blood Weapon is useful when you get last resort, soul eater, berserk
+(if subbing Warrior). You will drain a lot more HP using these skills
+ (Thank you Kessen 99 for pointing that out)
+
+Arcane Circle lvl 5, interval 5 min, duration 3 min
+-Raises party defense vs. arcana
+note*
+-Good to use against the monster family bombs, evil weapons, cardians, and 
+Elementals. If I left out any arcana, let me know
+
+Last Resort lvl 15, interval 5 min, duration 30 seconds
+-enhances attacks but lowers defense
+notes*
+-What no one will tell you is that last resort has a built-in provoke. And it
+ doesnt lastas long as berserk. If you have a warrior sub, use berserk
+instead. I'm not sure if last resort and berserk stack, but I heard that they
+ don't
+update*
+Kessen 99 confirms that last resort does stack with berserk. Also best used
+before a weapon skill to maximize damage. (Thanks again Kessen99). 
+
+Do not use last resort until the tank has
+drawn enough aggro, unless you want to draw aggro.
+
+Weapon Bash lvl 20, interval 5 min, duration none
+-Delivers an attack that stuns the monster (you need a two-handed weapon)
+note*
+-Best used when you can predict the monster will do a special attack, like
+goblin bomb.It almost will never stun incredibly toughs. Also, at lvl 33
+I am doing 11 damage (yes I know, disapointing). This is not a damage
+dealing move, but one that interrupts the enemy.
+
+Souleater lvl 30 interval 6 min, duration 1 min
+-Consumes HP to enhance attacks
+note*
+-Finally a great job ability! This attack blows away last resort and berserk,
+ and can be stacked with either. Last resort and berserk will do an extra 5
+dmg or so, Soul eater will do an extra 50 (at my level). This attack is HP
+dependant, so the more HP you have, the more damage it will do. It does not
+draw aggro until you hit the mob for 100 damage each hit =).Use only if you
+have a white mage you can trust (also, for bad pt's using this move is not
+good, you will mostly be red health or die.
+
+Job Traits:
+
+Attack Bonus, lvl 10
+Resist Paralyze, lvl 20
+Arcana Killer, lvl 25
+Attack Bonus, lvl 30
+Resist Paralyze, lvl 40
+Attack Bonus, lvl 50
+
+-well at least Darks get good job traits. Each attack bonus raises a lot of
+attack.
+
+4a) Spell List
+
+-Here are all the Black Magic spells a Dark Knight can get
+
+| Spell name | level | MP | Element |   Type   |
+------------------------------------------------
+|    Stone   |   5   | 9  | Earth   | Elemental|
+|    Poison  |   6   | 5  | Water   | Enfeeb   |
+|    Drain   |   10  | 21 | Darkness| Darkness |
+|    Water   |   11  | 13 | Water   | Elemntal |
+|    Bio     |   15  | 22 | Darkness| Darkness |
+|    Aero    |   17  | 18 | Wind    | Elemental|
+|    Aspir   |   20  | 10 | Darkness| Darkness |
+|    Bind    |   20  | 8  | Ice     | Enfeeb   |
+|    Fire    |   23  | 24 | Fire    | Elemental|
+|    Poisonga|   26  | 44 | Water   | Enfeeb   |
+|    Blizzard|   29  | 30 | Ice     | Elemental|
+|    Sleep   |   30  | 19 | Darkness| Enfeeb   |
+|    Abs-MND |   31  | 33 | Darkness| Darkness |
+|    Tractor |   32  | 26 | Darkness| Darkness |
+|    Abs-CHR |   33  | 33 | Darkness| Darkness |
+|    Abs-VIT |   35  | 33 | Darkness| Darkness |
+|    Thunder |   35  | 37 | Lightnng| Elemental|
+|    Abs-AGI |   37  | 33 | Darkness| Darkness |
+|    Abs-INT |   39  | 33 | Darkness| Darkness |
+|    Bio II  |   40  | 66 | Darkness| Darkness |
+|    Abs-DEX |   41  | 33 | Darkness| Darkness |
+|    Stone II|   42  | 43 | Earth   | Elemental|
+|    Abs-STR |   43  | 33 | Darkness| Darkness |
+|    PoisonII|   46  | 38 | Water   | Enfeeb   |
+|    WaterII |   48  | 51 | Water   | Elemental|
+|    Aero II |   54  | 64 | Wind    | Elemental|
+|    Fire II |   60  | 73 | Fire    | Elemental|
+|  BlizzardII|   66  | 83 | Ice     | Elemental|
+|  PoisongaII|   66  | 112| Water   | Enfeeb   |
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+5a) Strategy and Party set-ups
+
+-The one piece of advice I can give you is that playing Dark Knight is
+dangerous. If you make a mistake, you will die. Paper thin armor rating, low
+ VIT, and doing tons of damage to draw lots of aggro. If you are subbing
+warrior, don't use provoke unless you need to (you and white mage are the only
+ ones left.) At lower lvls, it is ok to tank, but when mobs get harder, don't.
+Always upgrade weapon and inexpensive spells first, then armor.You are not a
+tank, so you shouldn't be buying new armor before a new weapon. Think about
+it,would you invite a paladin lvl 30 with lizard gear (I've seen tons of
+them)? No, and the same goes for Darks with old scythes or great swords.
+
+Ideal party:
+-At low levels, people will invite you solely to see you in action. At
+mid-levels, it will be harder to get invites (but they still come frequently
+ enough). Higher levels, people will love you and your souleater+guillotine.
+
+A great party is DRK, main tank (paladin or warrior even), A respectable
+damage dealer like samurai or dragoon, or thief (monk too for his awesome
+Combo Weapon skill) or ninja for backup tank.and 3 mages. WHM,
+BLM, and either a RDM or another WHM would be ideal. Rangers would be a
+welcome addition, but they would have to kick out the DRK *sob. Thankfully
+rangers are a lot fewer in number than Darks.
+
+6a) Great subs and Bad subs
+
+*note, these are all from my playing experiences. Pick the one you like
+the most, I've seen many different combinations. Yes, you will have more of a
+challenge being different and might not get as many PT invites, but be the one
+you want to be. I've seen warrior/WHM handle their own in PTs for example. But
+know this, there is a good reason why people adhere to certain job structures.
+You will be doing yourself and your party a favor if you pick a better sub
+more suited for your job.
+
+the most common subs:
+-Warrior
+A great sub. Added str, VIT, health. You have provoke to use in certain
+situations, and can berserk when Last resort is charging. The defense bonus,
+double attack, and attack bonus all gained by lvl 30 make this a perfecty fine
+sub.
+
+-Thief
+The sub I have. I subbed Warrior until I got dark to lvl 30, then switched to
+thf sub. Why? Well it might be because I was lazy to level warrior to 30, but
+the dex and agility helpme hit more often  (important when using 2 handed
+weapons like scythe and great sword) and dodge hits more often. You get
+evasion bonuses, gil finder,treasure hunter. Sneak attack is good with scythe,
+ even though its not the same sneak attack as you would get with thief as a
+main job. Normally, sneak attack would be worthless subbed with a main that
+uses one handed weapons, but for scythe it works well (100+ dmg, 130+ with
+souleater on incredibly tough mobs at lvl 33). Trick attack is good when dark
+ knight gets lvl 60, but at that point you will probably pick samurai as a sub
+to do guillotine more.
+
+-Samurai
+I cannot wait until I get my dark to lvl 60 and sub samurai. Why? Meditate.
+period. It has a pretty quick reload, meaning you can use it a lot and build
+tp fast for guillotine. A sub that allows no room for error, subbing Sam means
+drawing aggro would be hazardous.You miss out on the defense and attack
+bonuses of subbing warrior, and the evasion bonuses of subbing thief. But this
+is the ideal damage dealing combo for Dark, You will most likely draw aggro
+from doing guillotine even once, so make sure your pt knows what they are
+doing.
+
+Subs that are a little challenging:
+
+Ninja:
+well, I guess you can use blink when Dark hits lvl 24 (blink is a lvl 12
+ninjitsu, and subs are half of you main). Dual Wield would be useless because
+ you would be using 2hand weapons anyways. Ok gains in dex and agility, but
+not as good as thief. I dont see many darks sub ninja, mainly because dual-
+wield would be useless (unless you like 2 one-hand swords). If you do dual
+wield, make sure to get swords with stat adding properties. This combo
+might be obsolete when you drop it for guillotine. One thing, this job is more
+expensive than picking any other sub. The ninjitsu that lowers resistance to
+elements (mob) may be useful because you can cast certain elemental spells
+
+Monk:
+Dodge, Focus, boost. Good abilities. Good gains in dex. Why don't people sub
+monk? mainly because there are better sub choices. I've seen Drk/mnks do
+pretty well, but not as well as other darks. Martial art job traits would be
+useless. In the end you have a Dark Knight hitting more, evading more, but
+less gains in dex and agil than subbing thf, and less gains in STR
+subbing warrior. The HP gain is nice. If you want something that can tank more
+pick this sub, they get a lot of VIT. But you will never be a main tank
+without provoke (but can use last resort to draw aggro).
+
+Red mage:
+If you want to play a spellcasting Darkknight, this would be a good sub.
+Magic attack bonus,magic defense bonus, and fast cast. But the stat gain
+is horrible and as a Dark you don't want to be using spells most of the
+battle. However, this job could be a good sub if played right at higher
+levels. When you almost hit 70, you will acquire the red mage magics
+phalanx and stone skin. I am keeping my eye out on this combo, because if
+they raise the cap to lvl 80, dark/RDM get raise, and Convert.
+
+Subs that are very hard to play:
+
+Paladin:
+Wow, Picking a dark knight as main and subbing PLD would give you uber attack
+and defense right? Maybe. Sure, you will get 2 defense bonuses and good VIT
+bonuses. So if this class seems right to you, pick Paladin as a main and
+warrior as a sub. You will miss out on many better subs, especially because
+darks shouldnt be tanking usually. It's weird, this sub sounds very good on
+paper, but I've never seen it effective in playing experience.Plus, paladins
+get horrible dex and agility, which 2handed users desperately need. picking
+this sub would give you a less effective tank that can't hit incredibly tough
+mobs very much. I will actually experiment this class later to tell you if it
+plays as good as it sounds, partly because my favorite FF character Cecil, was
+both paladin and dark knight. =)
+
+WHM:
+forget what people say, WHM makes one of the best subs when you are soloing.
+that is, in the beginning when you should only fight easy and decent challenge
+mobs. Once you start having to party, ditch this sub. you will get a minimum
+of WHM spells that a full WHM could get,very useless gained stats subbing
+this, etc. There are far more effective subs than this.
+
+BLM:
+Since being Dark Knight gives you the spells that subbing BLM would give you,
+you would only gain a few new spells by subbing this job. Your int gain would
+be great. here is a list of the new spells you will get when you hit lvl70 DRK
+subbing BLM.
+
+Order of Lowest lvl to highest lvl:
+
+Blind
+Blaze Spikes
+Stonega
+Shock
+Warp
+Rasp
+waterga
+choke
+Ice spikes
+Frost
+Aeroga
+Burn
+Drown
+Firaga
+Escape
+Shock Spikes
+Sleepga
+Blizzaga
+Aero II
+
+So you do gain a good number of spells when you hit lvl 70. Choke, shock, frost,
+burn, and drown could be used right after the corresponding drain-stat spell
+to be extra effective. I can see warp and escape being very useful. Perfect if
+you want to spell cast with your dark knight the majority of the time. But if
+thats your aim, you are better off going full BLM.
+
+DRG/BST/Ranger
+
+-two are good damage dealers, one is great for solo. I'm afraid I don't know
+enough about subbing either of the three, but thats because no one does.
+subbing DRG, you don't have the wyvern or breath attacks, subbing ranger is
+useless when your main weapon scythe or great sword. there are much better job
+combos. subbing BST, you will only get to charm mobs half your level, and a
+lvl 15 monster doesnt fare well against a lvl 30 monster. Imagine yourself lvl
+30 fighting a lvl 15 snipper. Yep,the lvl15 they will die quick, miss most
+of the time, etc. Also, to add to ranger, Dark Knights accuracy with a bow is
+not great, so expect to miss a lot.
+
+Summoner/brd:
+
+-With subbing BRD, you will not be any good. Without the ability to use
+instruments, your songs would suck and you could only have one at a time.
+Summoner sounds like a cool sub, but being summoner main is hard enough
+as it is,although you get a lot of mp. To have an effective sum sub you'd need
+all the avatars and thats a lot of work for a sub.
+
+7a) Equipment
+
+-I will have very detailed equipment setups for every ten lvls of dark, but
+for now, I can give advice.
+
+Weapons:
+
+Scythes are the way to go for Dark. Less expensive, more damage, and better
+later weapon skills than great swords. They have about 30-50 or so more delay
+than great swords, but do more damage.The advantage to great swords would be
+for hard slash in the beginning (better than slice), but scythes get much
+better weapon skills later on. The best weapons are ones with added effects and
+stats. The best scythes are the ones that do the most damage for your level.
+Low delay scythes usually do less damage.
+
+Armor:
+
+As a Dark Knight, armor isn't a focus. Still, its nice to take a few hits. You
+don't always need the most current upgrade, but something thats fairly recent.
+The best way for me to buy armor for my character is to wait longer intervals
+than normal (instead of buying every 4 levels, buy at every 8, in some cases
+higher lvl armor can be cheaper than lower level ones). Or use conquest points
+to buy armor. Heavy armor, ones that allow you to use headgear, is ideal.At
+lvl 30 do buy centurion however, it adds very good stats and can be bought
+with conquest points.Most darks will always upgrade weapons first, so ones
+that have good armor will be more attractive to invite to parties.
+
+Earrings/Rings/Necklace/belt:
+
+Things that add in DEX, STR, AGIL, or INT (in that order), and Attack are
+always helpful. Items to look for could be spike necklaces, bone necklaces,
+ONYX rings, I dont know what snipper earings are,but I've heard they are
+useful for dark knights. Warrior belts are good (added STR and VIT), but I am
+waiting for money to buy better belts. If you pick a race/sub, try to get
+items that can round up your combination. If elvann, try to get more dex
+items. If hume, try to get more STR. In no way will 2 Onyx rings make up for a
+humes 5 or less STR than elvanns STR, but it will help you do almost as much
+damage, or hit almost as much. A well equipped hume can outdamage a
+poorly equipped elvann, so remember that. Also, DEX is very important when 
+using 2-handed weapons.
+
+Best stuff to wear:
+
+Lets say you have a ton of money/done all the quests, etc. Look for/buy RSE
+equipment, or hunt rare equipment off notorius monsters, or get AF gear (Drop
+the AF scythe as soon as possible, its horrible).These equipment can make a
+poorly equipped dark knight a run for his money. Emperor' hairpin, Valkrye
+mask, Leaping boots, vagassos scythe, are all welcome additions. JSE is very
+good as well,but the requirements are in the late 60's. I will list the stats
+of the AF armor in my next update. Did I mention AF armor looks cool? Its why
+I wanted to be DRK =)
+
+
+10a) Level Strategies
+
+-In this section, I will explain the best way to survive and level...could be 
+up for discussion so constructive emails only
+
+Before lvl 10-
+
+No attack up, no ATK adding abilities yet. You will be a slightly stronger
+warrior, with less defense. Soloing is suggested in this level 
+period. If you leveled warrior up to lvl 10, you know exactly what to expect.
+Easy and decent challenges (when you have enough TP) repeatedly can get you
+to the next lvls fast and safely. Rest often.
+
+lvl 10-30:
+
+Attack Bonus, resist paralyze, and arcana killer. I highly suggest subbing
+something useful to give you a better range of skills and atributes, like
+warrior. Even a lvl 10 sub for warrior can help a lot, with the added 
+defense and stats. You will begin to party in the early tens; by lvl 13 
+make your way into valkrum or a zone with similar difficulty and fight the
+easiest enemies there. Until you hit the later levels of this range, tanking
+should be safe if you need to be the tank.Your weapon skills won't really
+help the party out except to set up renkeis and magic bursts, but it won't
+hurt a party to have you in it if you do consistent hits wearing a lot of 
+dex gear.At level 21, I suggest going to sauromague, heading along the right
+wall and find the spot with a lot of beetles. The spot is usually less crowded
+than qufim, so gaining experience should be faster. lvl 23-24, make your way 
+to quifim. Clippers should be hard, but doable unless the puller gets 
+something too incredibly tough. By lvl 25, head to kazham and fight 
+mandragoras in Yhutunga jungle. Lvl 27, head to Yhoator jungle. I suggest 
+putting work into building up your magic skills. Try to join balanced parties
+for less deaths (obvious, but just in case)
+
+lvl 30+:
+
+You will still need to level in yhoator jungle until lvl 33. At level 30, your
+role in the party changes. You will need to tank less and use soul eater as
+often as you can, unless you are the only tankable job on your team. If you
+wish to change your sub into something other than warrior, like theif, you
+can and still inflict a lot of heavy damage (but not with your weapon skills).
+Try to manage your level of hate that the enemy counts on you so that in 
+case you peel aggro the tank can provoke it off you.Start getting into a habit
+of timing your casting between weapon attacks. Getting to lvl 30 will not be
+easy, but if you can form decent parties you will do fine, and the drain stat
+spells should make you more attractive to parties.
+*note- I cannot give a specific leveling guide past the mid 30s because I have
+not played that far (too much school). 
+
+lvl 60+:
+
+I have not played anywhere close to this point of a Dark Knights career, so
+everything is pure speculation (read: informed guessing).
+Once you hit lvl 60, your weapon skills will be the backbone of your damage 
+dealing capabilities (guillotine). You and anyone with a paladin job will 
+become fast friends (you deal the damage, he draws the hate). To maximize
+your potential, sub at least a lvl 30 samurai job for meditate (with your
+leveling experience, getting to lvl 30 should be a piece of cake). Congratz,
+enjoy being the strongest melee (close range fighting for you ranger 
+enthusiasts ^^). I would like the opinion of someone whos reached this point,
+so please email me =).
+
+9a) revisions list
+
+-December 08, 2003- v.1.0 Submitted FAQ to gamefaqs
+-December 09, 2003- v.1.1 Changed information concerning Sams vs. DRKs
+-December 10, 2003- v.1.2 Added Spell list, Thank you Section, also added in
+some strategies to use for certain job abilities.
+-December 11, 2003- v.1.3 Added Level Strategies section
+
+10a) Thank You Section
+
+
+-For my girlfriend having great patience while I am playing this game. 
+I don't play as much for you, but its worth it (wink wink).
+-Big thanks for Allakhazam.com for the full spell list guide
+-Thanks to Kessen99 for added info on Souleater and Last resort
+-My friends on Ragnarok (Crimsonblood, Darklightsyndicate, and none Linkshell 
+Friends) especially Savage, Shinrai, Kiwi, Antonius, Lordkappa, and all those
+that have helped me along the way. This FAQ is for you guys.
+
+- AND SQUARESOFT ENIX, You have captivated my mind again and again. My love 
+for videogames would be stale if it wasn't for your great games!!! From 
+fighting alongside lunarians, taking down Shinra, to triple kicking lavos into
+oblivion, I've been there every step of the way.
+

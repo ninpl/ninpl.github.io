@@ -1,0 +1,803 @@
+::::Serris's Guide to Becoming a Trautaru Dark Knight::::
+(The Eternal Struggle For Acceptance)
+
+                                                                                
+**Disclaimer**
+This guide is Copyright 2004 and is the property Serris and may not be used in 
+any way shape or form unless approved by me in an email.  If you wish to use my 
+guide please contact me though e-mail and I will most likly be happy to let you 
+post it.
+
+**Version History**
+
+1.0: First stage of the guide which will be updated as e-mails are sent to me. 
+
+
+>>Table of Contents<<
+
+1.0: Introduction
+1.1: Entering the Ways of the Taru
+1.2: Applying the Ways of the Taru to a Drk 
+1.3: Great Sword or Scythe What's a taru To Do?
+1.4: Magic a Taru Drk's Greatest Ally
+1.5: Enhancing Your Taruness With Subjobs
+1.6: Finding Your Strength Though Abilities as a Taru Drk
+1.7: Playing the Role and Living the Life
+1.8: Things to Keep in Mind 
+1.9: The Final Word and the Most Important Thing for a Taru Drk
+2.0: Special Thanks and Contact Information
+
+1.0: >>Introduction<<
+              
+This is a guide for those of you tarutaru's out there that aspire to become one 
+of the greatest melee classes of all time, the dark knight(drk).  Now those of 
+you thinking this class is unconventional for such a race fail to see the 
+greatness that is taru.  The fun of the game is to mix up the combinations any 
+way you want, and a taru drk is no exception.  So for those of you thinking of 
+attempting the drk career in the form of a taru don't shy away from it.  Don't 
+be discouraged by what you may have heard from others, a taru drk can and will 
+exist.  That is the very same reason I chose to write this FAQ, to share the 
+awesomeness of a taru drk to all and perhaps, increase their population in the 
+world of FFXI.  So read on if you wish to gain the knowlege of the life of a 
+Tarutaru drk and how to make the most of it.
+
+1.1: >>Entering the Ways of the Taru Drk<<
+                                                                                
+Tarutaru's as is well known to many people of FFXI are prone to mass magic 
+usage, the ulitmate mage really.  Smaller, more intelligent, and slightly more 
+agile then a hume these little guys pack a punch with the right equipment.  
+What seems to fit is a mass amount MP that should follow with such statistics 
+and so it does, this is to be utilized throughout a taru's career.  To get rid 
+of the magic componenent of a taru is like taking the essence of their lives 
+away from them,instead of trying to get rid of the MP use it to it's maximum 
+potential.  Due to this great amount of MP, HP at times can be much lower then
+that of other races.  There are advantages and disadvantages to this, the most
+obivious being the fact of death which seems to play a unfortunate role in
+every character's time, from things to just battle damage or a terrible 
+status of poison (Serket comes to mind... O.o).  That aside the only way the 
+HP disadvantage can be a problem is if a taru's MP is not utilized to 
+compansate.  Think in the ways of healing, support, and extra damage, these 
+all compensate for such HP problems.  Items that enhance hp and take away MP
+utilize MP as well if so needed.  Embrace the magic power that has been given
+to you and then you will truly see the undeniable powers of a taru.
+                                                                               
+1.2: >>Applying the Ways of the Taru to a Drk<<
+65                                                                   
+Being a taru drk is alot more complicated than that of any of the other races.  
+When you,as a taru take up this job you also must be fully aware of what's 
+expected of you. You will be expected to do close to if not exactly the amount
+of damage an elvann drk can deal out in a fight.  This at first can be a 
+daunting task and a harsh reality, but fortunately with the right equipment taru
+drk can do that or even more damage then an elvann in a party.  The first and 
+foremost key to being a taru drk is that you have to have gil and a solid method
+of getting it.  Before you go any further in this guide ask yourself if you have
+these stable funds and if not take a class like blm or whm first, lvl it, and 
+make some gil, you'll need it.  With that said your first and greatest priortiy
+is a high damage scythe/great sword.  This amount of damage is going to be your
+main strength so always go with high attack power over dex increasing weapons.
+Such as barbarian scythe, which may be bad for elvann's, do to their terrible
+accuracy but for taru's it only makes us more powerful.  After getting 
+sufficient weaponary you should begin looking for things that increase your 
+accuarcy(acc). Although your acc may be greater than all races but mithra drk's
+still miss alot of the time especially with scythes/great swords. Without acc
+boosting equip you'll be unable to hit and therefore any damage you maybe able
+to do is useless.  Don't give into the temptation to raise your strength, we as
+tarus must face the truth on this one, and that truth is: no matter how much we
+boost our strength we will never have the stats of a elvann, never mind a galka.
+But if we can land hits more often and and boost our raw attack power 
+(Ex: Barbarian scythe which elvann drks should never use with +25 attack 
+with -5 acc) tarus can surpass these things.  Next you want to buy spells for 
+your drk, this is especially important for a taru drk because we are applying 
+what was said above, embracing your magical ability.  This can be any range of
+spells for drk but may also include others do to different sub choices and 
+preferences.  The use and usefulness of these spells shall be stated in later
+sections of the guide, just be aware now that these should be your 3rd 
+priority. The last of your priorities is your armor, although there may be some 
+exceptions to the rule (Haubergeon, Hauberk, Thick Gear) in general this should
+be the least of your worries as a taru drk, although it shouldn't be ignored,
+with a small amount of hp armor can make all the difference.  Taking hits in
+general in a party shouldn't be something you want to do anyways unless you
+have some sort of suicide wish.  Unfortunatly it's a fact of FFXI life that as
+a drk you are going to take some damage, and face it, your going to die more
+than once throughout your partying career, the hope is to prevent this and keep
+your taru happy and alive.  So with that said if all the armor available to you
+at your current level doesn't increase your attack or acc then go with the best
+possible defence.  Spend whatever you have left over on this and if you really
+have alot of cash to burn buy yourself some food to enhance your abilities even
+further.  After this your all suited up and ready to go party and get some good
+xp!
+
+1.3: <<Great Sword or Scythe What's a Taru To Do?>>
+                                                                                
+I bring the great debate upon this guide about drk weapon choice, sycthes or 
+great swords.  Each weapon has it's ups and downs and I will first state the 
+pro's and con's of each then following with my own advice afterwards.  
+Ultimately it's up to you which you choose no one is going to argue about a drk
+using a great sword or a scythe unless the weaponskill holds value within a 
+party skillchain, with one of the weapons.
+
+--Great Swords--
+
+Pros: -Faster attack speed than scythes 
+      -Cheaper to buy at low levels then scythes
+      -The ability to attain Spinning Slash weapon skill at level 66
+
+Cons: -Reglularly have lower attack then scythes at the same level
+      -Ridculiously expensive at higher levels
+      -Weapon skills before Sickle Slash are weaker compared to scythe skills
+
+--Scythes--
+
+Pros: -Higher attack than great swords at the same level(generally)
+      -Cheaper at higher levels then great swords (usually by a great amount)
+      -Powerful weapon skills earlier then great sword such as Guillotine
+      
+Cons: -Very Slow in comparison to great swords
+      -Can be expenisive to use at low levels
+      -Spinning Slash destroys all scythe skills with higher damage overall
+                                                                
+Recommendations:  As a drk your weapon abilties get to great levels in both of 
+these weapons, sycthe only being higher by about 1-3 points.  So as such this 
+makes choosing one quite hard still because the numbers are so close.  When I 
+was just starting out personally I used scythes, why? One word... Guillotine.
+This is an amazing skill to say the least and is one of the most damaging 
+weaponskills aside from Sidewinder at that level. I had alot of people asking
+me for weaponskills (level 50+) such as Sickle Moon and other Great Sword 
+skills.  So I began to level Great Sword to it's max level late in the game,
+but then I found that people wanted scythe skills as well (this being before
+Spinning Slash).  So what I have found is that drk's are important for damage
+but also must able to skillchain correctly with other party members.  So I
+say why limit yourself to one weapon? We drk's are talented in both types so
+level them equally.  Pre-level 66 I suggest mainly use scythe for xp parties
+and try to "skill up" Great Sword on your own time.  When you hit 66 use 
+Great Sword as all parties will expect the godly damage of Spnning Slash at 
+a drk's command.  From 66 on you will most likly stick to Spinning Slash 
+until level 75 as it's just that damaging.  Although if you wish to solo 
+after 66 I would suggest a scythe, so don't neglect to level up your scythe
+after level 66.  Once again the choice is yours the guide is written for both
+weapons so don't feel you must stay with this strategy.  This is purely based
+on my experience and the thoughts of others.
+
+1.4: <<Magic a Taru Drk's Greatest Ally>>
+
+Magic, the essence of a good taru mage and and the core of a good taru drk, 
+as it is well known drk's use black magic to enhance their already great attack 
+power.  The problem with this is that the black magic of a drk is never used in 
+a party even though it's damage potential only increases the potent melee of a 
+drk.  As taru we are magically inclined with huge amounts of mp even with a 
+non-mage sub.  This could possibly be one of the taru drk's greatest aspects, 
+with such mp backed with the highest intelligence of all races of drks we can 
+really do some damage or heal it.  What is done with this magical potential is 
+truly up to the sub as well as the current level of your drk.  Regardless of 
+sub there are key things that should be utilized as drk within the array of 
+magic you can get, but before you go off nuking all those monsters out there 
+know that you are no black mage(blm) or even red mage(rdm).  There will never 
+be a time where you can out damage a blm and only at lower levels with the 
+correct sub can you keep up with a rdm.  Also we as drk's with lower defense 
+and a smaller hp count will want to control the amount of hate to keep the 
+monster(mob) that is being fought on the tank.  So we must controlnukes and use
+them at the correct times, being a drk has alot to do with hate control as well
+as damage.  What we wish to through black magic is a enhancing of our melee 
+damage.  With this said don't expect to do 500 damage with one spell, it's it's
+just not going to happen, what we want is small amounts of damage after each 
+physical swing.  By doing this each time the damage accumulates while getting
+small hate gain.  Think of this: you hit a mob for 60 every attack and cast
+stone each time afterwards for 6 extra damage, do this 10 times and you just
+racked up another melee attack that you didn't have to do.  As an added bonus
+this damage is unblockable, uncounterable, and never misses(although sometimes
+resisted).  Stack this with a blm sub and watch the damage pile up.  This is a
+great statagey for taru drk's until absorb spells become available, since no
+other race really has the mana to do it.  Just remember small spells after every
+attack, in otherwords don't cast Stone II and things like that.  These do to
+little damage for the cost and take to long to cast.  Once absorb spells become
+available it turns into a whole new game for us tarus.  With these taru drks
+can make a scary enemy into a slightly less scary enemy by limiting their stats
+and adding to their own.  It's impairitive that you aquire these spells or you
+will not be casting anything after level 50 as it'll just be a waste of time and
+mana.  When you aquire these spells it is your duty as a taru drk to drain that
+mob of all it's stats as much as you can, as the drains wear off it is your job
+to keep them there and cast them again.  There are a few exceptions as different
+drains adapt to different situations, sometimes its unconventional to cast
+certain drains in certain fights(Absorb Charisma comes to mind...).  Listen to
+your parties needs and don't let it interfere with your skillchain if you have
+one.  You will continue this draining until the end of your partying career
+at level 75 as damage spells will no longer be of use to you.  I will give a
+brief summery of some of the spells to get and the ones to ignore unless your
+a perfectionist.
+
+--Spells To Get--
+
+- Elemental spells up to but not including stone II
+These spells like I said give that little extra damage to your melee attacks as 
+taru this constitues as using your mana effectively.
+- All absorb spells (Especially Asb-DEX)
+These are the core of a taru drk's magic arsenal, without these there will be no
+magic using for you after these levels and all the way to level 75.
+- Drain/Aspir
+These spells are one of best things a drk has, and with the MP to cast them over
+and over how can we taru's do without? The drain spell MP cost is very little at
+high levels. It's the most damaging spell at a taru drk's disposal, and it heals
+you which is great for those emergency cases.  Aspir at higher levels actually 
+becomes useful when it's not resisted, being able to get back some that MP is 
+always useful.
+- Stun
+This spell can be a saving grace for many xp parties especially against the 
+notorious goblin bomb.  Super fast to cast and stops most special attacks/spells
+you can't go wrong with this one.  On the downside the effectiveness of this
+spell is completely upon the drk that's using, timing is critical, and it can
+get tricky at times.
+
+
+--Spells to Ignore--
+
+- Elemental spells after and including Stone II
+All these spells are pretty much useless as they take far to long to cast and
+use a large amount of mp for the damage output. A taru drk is much better off
+with smaller spells that cast faster and cost less.
+- Poison/Poison II/Posionga
+Near useless in party situations and even in soloing the only thing you might
+want it for is pulling.  In order for this to be effective you must have a 
+high enfeeble skill, which is mostly a skill that drk's hardly use depending 
+on sub.  The damage this does is negelgible... but if you were to level up
+your enfeble skill and make poison II stick all the time, this could be 
+effective.  As of now I have seen no evidence to support this theory if 
+anyone has any info please email me on this.
+- Bind
+Holding your opponent in a postion so they can attack you may be a cool 
+thing to play around with, but in the long run our taru drk's strength lies
+in our melee attacks and unless you want to unleash some high level elemental
+spells at the mob (which isn't very effective anyways) your doing pretty much
+nothing but halting the mobs advance which, in most cases you want when it 
+comes to xp.  
+- Sleep/Sleep II
+Once again another ineffective spell do to a drk's enfeeble skill.  This may
+save you in emergencies but chances are it's going to be resisted and give you
+alot of hate leading to an untimely death for your little taru.  Leave things
+like this to the rdm in your party.
+- Bio/Bio II
+
+The spell itself seems useful, damage over time and lower attack power,
+unfortunatly it has one fatal flaw, it doesn't stack with Dia/Dia II which
+kills any usefulness it may have had.  Most parties will ban you from using
+this spell as it screws up Dia and most parties find this spell to be more 
+effective then Bio.  This may not be completely true but it seems that this
+is the common thought throughout parties, and as such, it should be 
+ignored until opinions of it change.
+- Tractor
+Tractors a dead ally's body to you.  Only useful in some situations and most of
+the time your rdm or whm will have this ability anyways so in theory it is 
+useless to have unless you have the gil to burn on it.
+
+1.5: <<Enhancing Your Taruness With Subjobs>>
+
+After level 15 there is a point where your little taru can gain access to whole
+new aspect of the job system through subjobs.  This shouldn't be a problem as 
+we should all have the subjob option by now (hopefully.... and if not why?!?!).
+Tarus have a few options that are not available to other races with such small 
+MP pools to draw upon.  It may also be a good idea to read this then level 
+your chosen sub to 30 and then unlock the drk job that way.  By doing this 
+there is no need to go back and level a sub (Which is a painful process might I
+add, thief leveling wasn't fun).  So here I'll list the taru drk subs that are
+effective, and neglect listing the ones which are obviously terrible 
+(ex: drk/brd).  I have personally tried most of these subs at the highest sub 
+level on my drk and will give my own opinion based upon experience and the 
+thoughts of others in the various parties I have been in.
+                                                                                
+--Drk/White Mage(whm)--
+For any other race this as a sub would seem unconventonal, and in a way it is.
+Most people will say that a drk's job is to maximize damage, and they're quite
+right it's one the key aspects that comes with the job.  These people see taru
+drk's as an imitatation elvann/galka drk, they neglect the fact that our MP 
+nearly doubles most jobs at the same level and this makes white magic effective.
+With this you can toss a few character's heals (as you have as much MP as a 
+Hume rdm at the same level) without having to rest for a long time.  This is 
+not saying that your a healer when you choose this sub but you're definately a
+key support healer in times of need.  You can lessen downtime by a great 
+amount with the right useage of MP which varies from party to party.  As well
+your tank may be thankful when you toss him a Cure II when the main healer is 
+in  mid-cast or is out of MP.  I found this sub to be effective until about 
+level 40-50 when  higher level cures finally become available to whm's and 
+rdm's which makes this sub obsolete.
+--Drk/Black Mage(blm)--
+There is alot of controversy about this sub for a Taru drk, the fact of the 
+matter is it offers a wider range of spells while increasing your MP pool even
+further.  With blm as a sub you should should really be employing the 
+"Swing and nuke strategy" because those little add on damage spells just got a
+little more potent with this sub(once again you won't be nuking like a blm, 
+maybe like a rdm at low levels like pre-level 30) *See section 1.4 for more on
+this*.  There are alot of taru drk's that go this way with subbing blm do to 
+their previous job choice before drk (that and warrior(war) isn't fun to level
+for a taru).  This sub works well at lower levels for a taru drk, although you
+may get complaints for some people and partying my be a little harder as 
+invites may be slim compared to that of a elvann drk/war that is so common in 
+FFXI today.  The extra damage utilizes that huge mp pool tarus have and that 
+additional damage never hurts.  The warp spell you get at level 34 with blm as 
+a sub is very nice as it saves your precious conquest points for other things.
+At higher levels you will aquire the spell Escape which is really nice if you
+need to get your party out of a tough spot.  The other spells you aquire are
+mostly useless, the sub is there more for magic attack power then anything 
+else.  This sub is one I personally used until about level 38 as it was the 
+job I had used before I moved to drk so it was convienent to sub at the time.
+I would say use this as a sub for no longer then level 40 or so as it's 
+usefulness to a party goes down significantly after elemental spells become
+less potent and you ditch the "swing and nuke" strategy for the absorb spells.
+
+--Drk/Red Mage(rdm)--
+With this sub you get a little more enfeeble power with this sub and a mix of 
+healing and damaging magic.  With this though comes the disadvantage of variety
+which is less powerful spells.  Almost every spell you get in black magic you 
+attain as a drk anyways and your cure spells are gimped in comparision to a whm.
+The only thing that may be interesting about this sub is the use of en-spells 
+such as enfire and enblizzard.  These spells will add elemental damage to your
+attacks plus whatever you add on from nuking after each melee swing.  This is a
+great way to rack up even more damage with an unfortunate loss of white magic.
+So when taking this sub you make a choice to have less healing power and more
+damage dealing capabilities.  The choice is up to you, personally I believe
+sticking to blm or whm sees to have more advantages, and the fact that you
+never do get refresh (one of, if not the most important magic spell a rdm has)
+kind of makes this sub lack luster.  If this sub is chosen though I wouldn't
+recommend taking it any further then level 40-50, when your healing spells will
+become obsolete.
+
+--Drk/Samurai(Sam)--
+This is sub that should never be used pre-level 60 as the stat gains and 
+abilities are lacking in comparison to other subs such as whm or blm.  The main
+reason to have this sub is the ability Meditate which is gained at level 30 by
+sam's.  In taking this sub you take upon yourself the responsiblity to control
+your hate more-so then before and the ability to do more then one skillchain
+with another party member.  What I mean by hate control is that if you fire off
+two weapon skills each close to 700 damage (stacked with Souleater of course)
+not only are you going to have low HP but the hate you gain from the mob is 
+going to be so strong that even the best of tanks are going to have a hard time
+getting it off you.  This will lead to a quick death for us taru's if not
+handled properly.  The exchange is godly damage to the mob that even blm's are
+gonna have a hard time topping.  Just know that if this sub is used the main 
+focus should be to control your hate.  I personally would never go with this
+sub just due to the hate gain and high chance of death in xp parties, with the
+hate in mind and a fear of death always haunting you Meditate will never be 
+fully used to it's greatest potential.  If you chose this sub and are good with
+it you can take it all the way to level 75 without much compliants from anyone.
+
+--Drk/Ninja(Nin)--
+This is a typical late game setup for soloing as well as big battles with NM's
+(Notorious Monsters). This is a great sub to have for such things but in a party
+it lacks usefulness towards enhancing your job.  Until level 74 your stuck with
+the slow Utsusemi Ichi (Blink ninja spell) so that also kinda takes a bit away
+from it's luster.  In parties as a taru drk you shouldn't be getting hit at all
+or very little, that's the tank's job, so Blink is usless.  All the other 
+ninjitsu spells you get aren't very effective due to your low skill level in 
+using them.  The Dual weild is nice to have but is nothing compared to a good 
+scythe or great sword (unless you have a kraken club).  So personally I wouldn't
+recommend this sub for partying or even solo really until level 74+ where it
+becomes super useful.
+
+--Drk/Warrior(War)--
+This is the most common sub for all drk's pre-level 60.  The most useful things
+about this sub are the stat bonuses and the all important Double Attack ability
+attained when your drk reaches level 50.  War will increase your strength and
+vitality which helps out with many aspects of a taru drk's job.  It also has
+useful abilities such as Berserk, and as mentioned above Double Attack.
+Berserk is helpful in that it raises attack power slightly and if used before a
+weapon skill causes slightly more damage then normal.  Double Attack is the main
+reason for subbing war as it improves attack power as you may attack two times
+every attack phase, and well as can give you to chances to hit and more TP in
+the long run, as such it's a very effective sub to have for all drk's not
+exculding taru drk's.  With all these extras there are drawbacks one of these
+being the ability to Provoke.  Now one may think this is a good thing to have,
+but we are basing that on the fact that the drk can actually take hits and
+survive long enough for the tank to grab back hate or the party to recover.  In
+the case of tarus this is almost always wrong and the party if not killed in the
+process is left with one dead taru drk.  This is another harsh reality that we
+as tarus must face especially as drk's with little defence potential.  This is
+one of the main reasons why most people sub blm instead of this, first off a
+warrior taru is a very hard thing to level, and voke with any other class then 
+paladin(pld) and nin kills them very quick.  At level 59 with a Haubergeon +1
+equipped I was only able to take between 2-4 hits from Incredibly Tough mobs.
+For some reason though alot of the time you are still expected to Provoke for
+things such as SATA(Sneak Attack + Trick Attack) for thf's.  That aside it is
+well known that this is the best sub for drk's pre-level 60 if you can stand to
+go through the pains-taking process of leveling it.  I personally would've used
+this sub if I could start all over again, the bonuses are nice and Double Attack
+is to good to pass up.  This sub should be used until level 60 but can be used
+all the way to 75.  The amount of time you use this sub (if you have it) really
+depends on your own preferences and the parties you get into (some parties may
+ask for a war sub).
+
+--Drk/Thief(Thf)--
+This is the typical late game combo for most drk's that works extremely well for
+most.  The key to this is the two abilities Sneak Attack and Trick Attack(SATA)
+which improves damage greatly when used with a weaponskill.  For those of us not
+versed in the ways of a thf, Sneak Attack works when you use any physical attack
+behind a mob and Trick Attack works when you do any physical attack behind a
+party member this move will then transfer any hate gained to that party member,
+these effects also stack.  With that said the greatness of this sub is 
+self-explanitory, more damage, less hate, yes please.  At this point you become
+the control for alot of the hate that flies around during a fight, a common
+strategy is to have another party member provoke and then you SATA on the tank
+giving that character massive hate.  This will also help you  stay alive when 
+you use the highly damaging Souleater + weaponskill combo as well as more
+damage. This sub also adds agility and dexterity to your drk which are two very
+benificial stats for your drk.  The drawbacks are really non-existant other
+than maybe no strength bonus and more responsiblity in parties.  I personally
+used this sub after level 50 because at the time I didn't have a war sub and
+I got no complaints from people.  If I were to recommend a level to use this
+sub at it would be 60+ be that is when you obtain Trick Attack from the sub
+but if not it's still quite a good sub for pre-60 levels although war in my
+opinion is better.  This sub will take you to level 75 if you have it fully
+leveled for subbing.
+
+
+1.5: <<Finding Your Strength Through Abilities as a Taru Drk>>
+
+A key part of every job is the abilities contained within, these can make or
+break a character.  Unfortunatly as drk's the pool of abilities we have to draw
+upon is small compared to some classes, but on the plus side we at least get one
+good one.  If I were to truly sum up a drk's abilities for a Taru drk I would
+just describe Souleater and be done with it but this being a full comprehensive
+guide, and for those of you that want to know everything about this job I will
+list the rest of drk's pretty useless abilities.  Just keep in mind as you
+attain these abilities you actually may find a use for them for early levels for
+about two seconds..... keep going because Souleater is only level 30 and this is
+the true power of a drk at it's best.
+
+--Blood Weapon-- (level 1)
+This is drk's two-hour ability apparently supposed to be used in emergency 
+situations.  For each hit we land on the mob we get back that much in HP, kinda
+like drain on a stick.  This lasts for a duration of 30 seconds (In which most
+drk's get only 2-3 hits max, and that's if they actually hit) which is a 
+insanely short time for weapons most drk's weild.  The best use for this is to
+stack it with souleater in times of trouble and regain as much HP as lose from
+Souleater, this is the only way ability will save you most of the time.
+Although this ability can be fun with a super-low delay dagger with Double
+Attack, other then that and for Souleater it's practically useless.
+
+--Arcane Circle-- (level 5)
+Wow this ability is about as good as a Dragoon's ability to protect against
+wyverns, all this does is give you and all other party members a very 
+slight (and I mean very slight) resistance to Arcana.  On the plus side it
+looks kinda cool and it's always nice to have something cool to use if your
+out of fireworks at appropriate moments throughout the game.
+
+--Last Resort-- (level 15)
+This is finally a somewhat useful ability until level 30, as it raises your
+attack slightly for a short period of time.  This can also be stacked with
+Souleater at later levels for a slight increase in damage.  This ability is
+alot like Berserk for war but with one fatal drawback, it has a built in Provoke
+for the mob your party is fighting at the time, and for those of you that have
+read about the war sub for drk in section 1.4, you know how bad Provoke is for a
+taru drk.  Also just like Berserk it lowers your overall defence as if the 
+Provoke wasn't bad enough for us.  So to recap, slight attack increase, huge
+loss to overall defence, and Provoke on the mob.  Use this ability with care as
+it can be your death, be sure you trust your tank to hold the hate.
+
+--Weapon Bash-- (level 20)
+This ability has potential when you first hear of what it does, a chance to stun
+a mob and stop an attack.  What isn't told to you is how big this "chance" is,
+which is, suffice to say, very low.  Basically this only deals a small amount of
+extra damage to the mob if you ever wish to use it and if you actually get a
+stun out of it that's a bonus.  On that note, don't use it unless you really
+need a stun and want to "roll the dice" for a chance at one.
+
+--Souleater-- (level 30)
+Finally, the best and really only great ability at your taru drk's disposal.
+This move amplifies damage by taking away HP with each hit.  This is not only
+great for normal attacks but when paired with a weaponskill the damage is
+amazing to say the least, and if that weaponskill is multi-hit (*cough* 
+Guillotine *cough*) then you get souleater for each hit.  Now take this and
+pair it with a SATA attack as well as Last Resort and you got yourself one 
+crazy attack that can cut down even the scariest of xp mobs.  When using this
+ability remember to watch your life total and always be aware that if used
+without SATA you will gain great amounts of hate when your doing so much 
+damage.  So what's best is stack it with SATA if you have thf sub at level 60
+otherwise be sure to control that hate.  On a side note many people believe
+that Souleater is gimped by a taru's low HP count and indeed it is, but we
+can make up for that through the use of our MP.  For this point I shall
+employ some of Blitzaruya's calculations off of the VN Boards.  (I take no
+credit for the any of the points or calculations shown here the credit on
+this goes to Blitzaruya for the great info.)  The original post may be found
+here: http://vnboards.ign.com/The_Dark_Knight/b22535/63390813/?22 
+
+Of all the arguments people have against Taru DRK, the largest and seemingly
+most formidable is that "with their low life, they wont be able to souleater
+as much" 
+
+Instead of theorize, i will use simple mathmatics using the o so beloved
+stat calculator 
+
+I will comepare 
+Taru DRK/WHM 
+with an Elvaan DRK/WHM 
+
+I choose lvl 50 as a comparison level 
+
+50 Taru DRK/WHM HP: 690 
+50 Elvaan DRK/WHM HP: 912 
+
+The way soul eater works is that it takes 10% of your remaining life and
+adds it to your base damage. For this comparison, I will say that each 
+character will soul eater until they are at 50% life. 
+
+x = Taru DRK/WHM's base damage (irrelevant what number it is) 
+
+y = Elvaan DRK/WHM's base damage 
+
+Step 1: Taru 
+damage on first hit = x + .1(690) 
+= x + 69 
+damage on second hit = x + .1(690-69) 
+= x + 62.1 (HP at 81%) 
+damage on third hit = x + .1(621-62.1) 
+= x + 55.89 (HP at 73%) 
+damage on fourth hit= x + .1(503.01) 
+= x + 50.3 (HP at 66%) 
+damage on fifth hit = x + .1(452.71) 
+= x + 45.27 (HP at 59%) 
+damage on sixth hit = x + .1(407.44) 
+= x + 40.74 (HP at 54%.. stopping now) 
+
+so the total extra damage the taru did from soul eater is = 323.3 
+
+Step 2: Elvaan 
+same process 
+
+damage on first hit = y + .1(912) 
+= y + 91.2 
+damage on second hit = y + .1(820.8) 
+= y + 82.08 
+damage on third hit = y + .1(738.72) 
+= y + 73.87 
+damage on fourth hit = y + .1(664.85) 
+= y + 66.48 
+damage on fifth hit = y + .1(598.37) 
+= y + 59.83 
+damage on sixth hit = y + .1(538.54) 
+= y + 53.85 (HP now at 54%) 
+
+total damage from soul eater for the Elvaan = 427.31 
+
+thats only a 104 damage difference (assuming their base damage is same). While
+i could have shown this by just 50% of each of their lives and comparing, some
+people need to see it step by step.  Now, lets see how we could make up this 
+"lost" damage. Since the taru has more MP( Taru MP = 419 Elvaan = 215), he can
+do more drains (even though 1 minute timer) without rest... very useful during
+chaining. With the more MP, he could heal himself much more mid-soul eater, 
+thus chaning the damage dealt by soul-eater, he could enfeeble much more, and
+he can heal the WHM when needed. Also let's remember than the taru will have
+more INT, so his dark spells will land harder than the elvaan.  I know there
+are better races to compare against, but i chose elvaan because it has a good
+balance of HP and STR, 2 things which the taru lack.
+
+*End of Calculations*
+
+
+1.7: <<Playing the Role and Living the Life>>
+
+Here is the section where I will outline the life of a taru drk from level to
+level.  The things you should be doing, the options you have, the equipment
+you should wear it's all here.  This is based upon my own experiences on the
+Bismarck server as seen through the eyes of my own character Serris.  This
+will not only outline the path I took but some of the things I believe I
+should've done when I look back now as well as other perspectives do to
+different sub choices and weapon choice.  I will go up to level 50 after that
+I believe it's time for you to learn on your own make your own mistakes and
+choices.  This will be the only way you'll become your own person and develop
+your own style.  This path should be taken as suggestion because it is truly
+up to you to find and walk your own path.
+
+There will be a summery after each phase the definitions of the terms used
+therein are as follows:
+
+**SUMMERY**
+Phase Span: The levels the phase starts at and ends at.
+Subjob: My subjob recommendation at the end of the phase. 
+End Recommendation Weapons: My recommendation for the end weapons 
+*************************    for the current phase. 
+                             (The bare minimum you should have)
+
+--The Beginning--
+So your a new drk just emerging into a new world of existence, don't be afraid,
+put your best foot forward and step into this job with both eyes open and a goal
+to succeed and you'll do great.  I found myself from levels 1-12 leveling in 
+South/North Gustaberg soloing mobs and then moving on to tougher things as my
+abilities increased.  Other areas such as Windurst's Sarutabaruta and 
+San d'Oria's Ronfaure/La Theine Plateau are good as well.  Just get a feel for
+what mobs you can and cannot kill for your current level, as well if you ask
+nicely most people are always willing to help out low level people.  At this
+point any sub seems to work out of the ones listed in section 1.5, with war 
+and thf being two of the best choices if you have them.  I subbed blm actually
+at this point and it worked out fine I just needed to throw some black magic
+into the mix from time to time.  Armor should not be much of a problem at this
+point just get the highest defence you can afford off the auction house(AH) and
+if bronze armor is all then that's fine to although you may be slightly less
+effective at levels 7-9.  As for weapons I went with scythe but great sword is
+also good to use.  For scythe I used a Brass Zaghnal if you can get the +1
+version then all the better, as for great swords(GS) Deathbringer is a great
+choice with all that extra attack but if you have low defence then you may just
+want to start out with your first GS until you can move to claymore.  When
+moving on to level 10 with a scythe go for the Legionnaire's Scythe as 
+strength+(STR) is always good.
+
+**SUMMERY**
+Phase Span: 1-12
+Subjob: Any from Section 1.5
+End Recommendation Weapons: GS= Claymore / Scythe= Legionnaire's Scythe
+***********************
+
+--Your First Partying Experience--
+Once you hit level 12 you can finally start partying full time and show everyone
+the great taru you've become.  Now you want to keep in mind that although you
+maybe packing some great armor you are no tank, leave that job to the war's.
+If you are asked to tank politely refuse if it persists leave you will only
+bring death upon yourself.  So now that you got a good party it's time to move
+to the Valkurm Dunes.  If you are using scythe stick with Legionnaire's Scythe
+as there isn't much need to upgrade to Plantreaper until 15 where you can get
+Bastok and Republic Scythes if you can afford them.  As for GS stick with
+claymore till level 13 where getting Flame Claymore should be your greatest
+priority. 
+
+**SUMMERY**
+Phase Span: 12-15
+Subjob: Any from Section 1.5
+End Recommendation Weapons: GS= Flame Claymore / Scythe= Legionnaire's Scythe
+***********************        
+
+--Learning on the Job--
+At 15 we are graced with another ability that is semi-useful when used 
+correctly, Last Resort.  We are still suck in valkurm dunes and as such we as
+taru drk's should consentrate on staying alive.  Use Last Resort only when you
+know it's safe and continue to rack up that damage by nuking some after every
+attack.  Hate control is now a must be very careful, if you get to much lay
+off the nukes and just attack normally.  If you really have alot of hate then
+disengage and wait for it to turn to the tank then engage again.  Continue in
+the dunes until level 20. Scythe users should upgrade at 20 to a Cruel Scythe
+which is a great scythe for drk's, and for GS users we are going to want to 
+go with the Braveheart if you can afford it if not go for the Platoon Sword.
+   
+**SUMMERY**
+Phase Span: 15-20
+Subjob: Any from Section 1.5
+End Recommendation Weapons: GS= Platoon Sword / Scythe= Cruel Scythe
+***********************          
+
+--Finding Your Purpose--
+At level 20 we can finally move out of the dunes and work our way to Jeuno and
+then, Qufim.  With your gear set start xping until you hit level 25 when you
+can finally leave to another far away place.  It is here that we finally get
+an awesome GS called Barbarian's Sword which give +15 to attack and -5 to acc,
+the -acc is ok for us taru's and the attack+ is great so this is a definate
+weapon to get if you use GS's.  As for you scythe users we still get to keep
+our awesome Cruel Scythe as Frostreaper with only +2 attack is kinda useless.
+
+**SUMMERY**
+Phase Span: 20-25 
+Subjob: Any from Section 1.5
+End Recommendation Weapons: GS= Barbarian's Sword / Scythe= Cruel Scythe
+***********************     
+
+--Earning Your Wings--
+At level 25 we get to move out of Qufim and into the Jungles of Kazham. We shall
+stay here until level 30 where your taru will once again move out to bigger and
+better places.  Once the level of 30 is achieved your true powers are unleashed
+though the ability souleater.  Your little taru is grown up now and is ready to
+enter a new stage of his job in further levels.  As for weapon choice GS's are
+best to hold off until level 31 and grab a Demonic Sword as for scythes we 
+finally get to change to Mercenary Captain's Scythe at level 30 for it's great 
+attack power.
+
+**SUMMERY**
+Phase Span: 25-30
+Subjob: Any from Section 1.5
+End Recommendation Weapons: GS= Barbarian's Sword / Scythe= Merc. Cpt's Scythe
+***********************      
+
+--Learning to Fly--
+At level 30 the two main places we get to level in are Garlaige Citadel and
+Crawler's Nest. Staying at Garlaige until 35 and Crawler's Nest until 40 where
+we move deeper in. At this point in the game you'll finally learn the terrible
+fate of a party that has a puller that pulls links, so make sure to get someone
+compotent at the job.  If you're pulling quickly educate yourself on which mobs
+link and which don't so that you don't bring a terrible doom to you and your
+party.  As for weapon choice for GS if you can afford it go for Mythril Claymore
+at level 36, when you move to level 39 get a Ice Brand. For Scythe users move
+from your Mercenary Captain's Scythe to Windurstian Scythe if you can afford it,
+if not skip it and aim for a Mutilator at level 40 and if not that because it 
+costs to much then at least get a Mythril Scythe.
+
+**SUMMERY**
+Phase Span: 35-40
+Subjob: Whm,War,Thf,Rdm
+End Recommendation Weapons: GS= Ice Brand / Scythe= Mythril Scythe
+***********************     
+
+--The Sky's the Limit--
+Finally at level 40 moving to that golden level 50 mark that seems to be so far
+away.  Don't worry though the path isn't long just pick your parties wisely and
+control your hate while dishing out the damage.  Your not a little taru anymore
+you've grown up and it's time for you to show the world what you have learned.
+Be bold and go for the top!  You will find your next xp mobs deeper in
+Crawler's Nest until level 50 where you move again to places where xp is once
+again plentiful.  As for weapon choice for GS your final weapon before 50 will
+be Faussar at level 47 pick one of those up on the AH and you'll be good to go.
+As for you scythe users out there you may want to pick up your AF scythe at
+level 42 and use that then at level 46 if you have the gil buy a Mandibular
+Scythe, if not keep your AF scythe until 49 where you'll get your Barbarian's
+Scythe.  This scythe is a must have scythe I can't stress enough on how much
++25 attack helps out in parties, and once again the -acc is nothing for us
+tarus because the attack we get is so much better then the loss in acc.
+
+**SUMMERY**
+Phase Span: 40-50 
+Subjob: War,Thf,Whm
+End Recommendation Weapons: GS= Faussar / Scythe= Barbarian's Scythe
+***********************              
+
+
+That ends this section off the rest is now up to you!  Use the knowlege you have
+gained to guide your actions.  Always remember that your party has expectations
+of you even more-so now that you are taru.  Show them the power of a taru drk
+and watch as them fall over astounded by your superior might.
+
+1.8: <<Things to Keep in Mind>>
+
+Always remember what you are, a taru, know your limitations and utilize your
+stregths to overcome your weaknesses.  When boosting your stats with various
+equipment always look for acc boosting equipment before attack+ equipment.
+There are some exceptions when the -acc is so small compared to the attack
+bonuses, (ex: Barbarian Scythe) even though we are taru with higher dex then
+some races we still do miss, we miss alot, and no attack power we could
+possibly muster is going to make up for a taru that can't hit.  Also remember
+to utilize your magic ablilities may it be though healing, damage dealing, or
+even absorbing embrace the talents given to your race and use them.  Never 
+forget that this game is about doing what you want and if you wish to be
+unique then go for it.  If you want to make a drk/brd go for it but remember
+that with it may come the critisim of others and less parties etc.
+
+1.9: <<The Final Word and the Most Important Thing for a Taru Drk>>
+
+This is it all the knowlege I could muster onto this one FAQ about being a taru
+drk and I hope you enjoyed it or at least found it informative.  If this guide
+has helped you in anyway then my goal has been achieved.  All the info you see
+here has been gathered through my character Serris that is now sadly retired as
+a level 66 dark knight of the Bismarck server.  In closing this FAQ I must say
+that the most important thing for a taru drk, even more important then all that
+was mentioned above is friends.  Friends in this game are your most valuable
+source of info, support, and good times.  It truly is the  greatest thing you
+can have, and if you forget everything that was said in the core of this FAQ
+remember this last thing, as no better advice could be given for a game such as
+this.
+
+2.0: <<Special Thanks and Contact Information>> 
+
+I'd like to give a special thanks to all those people out there on the Bismarck
+Server that are friends of mine and have supported my time in FFXI and got me
+to where I was when I retired.
+
+Azndrag- For being there even in the worst of times and for being part of many
+         of the good times.
+Andante- For the great farming fun and all around good times. 
+Arimi- For helping convince me to be a taru drk.
+Kenshun- For getting me on the path of drk and giving me the conviction to
+         keep at drk even when I thought of quitting.
+Maximuss- For the unlimited amount of knowlege he has given me over the course
+          of the game making me the drk I am today. 
+Alisah- For listening to my constant rants no matter how stupid they were.
+Bomber- For being a sort of role model for my own drk and inspiring me to go
+        further with your godly equipment and advice.
+Asgaurd- For some good times and support to continue trying that damn site 
+         which I got alot of info from. 
+Jennietaru- For answering even the most stupid of my questions even when
+            everyone else was silent in LS chat.
+And finally all the members of LS Bluesteel 
+*Thanks for letting me be part of something so great*
+
+**Thank you to all of you and best of luck in your future endevors!**      
+
+If you wish to contact me you can email me at RevanII@shaw.ca
+Please don't send e-mails that present flames to my statements in the FAQ.
+These e-mails will be deleted without reply or consideration, any positive
+comments or facts I may have missed or even well backed arguements are very
+much welcome and if I add any info from any e-mail I will be sure to give
+credit to the sender. 
+        
+
+        

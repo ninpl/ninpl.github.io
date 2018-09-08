@@ -1,0 +1,584 @@
+====================================================================
+                    F I N A L   F A N T A S Y   I X
+                      Yan Guide v1.1 (PSX Version)
+                           By DragonSquallZ
+                         Updated: 05 Apr 2002
+====================================================================
+
+--------------------
+ Introduction
+--------------------
+Hello there everyone! This is my first time ever writing any sort of 
+FAQ so try not to complain too much or at all for that matter. 
+
+In this FFIX Guide you will find information about challenging the
+toughest standard enemy in the game: The Yan.
+
+++++++++++++++++++++
+ Contents
+++++++++++++++++++++
+      - Disclaimer
+      - Contacts
+      - Updates
+     1. About the Enemy
+         - Finding the Island
+         - Island Treasures
+         - Meet your foe
+         - What makes it so tough?
+         - What makes it worth it?
+     2. Ability Strategies
+         - Overall Recommendations
+         - Individual Character Sugguestions
+            - Zidane Tribal
+            - Princess Garnet
+            - Vivi Ornitier
+            - Adelbert Steiner
+            - Eiko Carol
+            - Freya Crescent
+            - Quina Quen
+            - Amarant Coral
+     3. Battle Strategies
+         - Battle Overview
+         - Individual Character Strategies
+            - Zidane Tribal
+            - Princess Garnet
+            - Vivi Ornitier
+            - Adelbert Steiner
+            - Eiko Carol
+            - Freya Crescent
+            - Quina Quen
+            - Amarant Coral
+          - Full Team Stategies (NEW!)
+    4. Miscellaneous
+         - Putting the Virus to good use
+         - Yan EXP Charts
+         - Q&A
+      - Credits
+
+--------------------
+ Disclaimer
+--------------------
+This FAQ belongs to me, DragonSquallZ and was created for personal 
+use only. It should not be used to make any profit. Don't rip off 
+parts of this FAQ and use them in your own or use this FAQ as a 
+guide for your own FAQ. You may print a copy of the entire 
+FAQ or a part of it, provided you only use it for personal purposes.
+
+From now on, this FAQ is exclusive to these sites only
+ *GameFAQs.com
+ *NeoSeeker.com
+ *PlaystationCheat.net
+No hard feelings to all the other great FAQ sites out there. It's 
+just that I find it annoying sending one update to multiple sites.
+
+--------------------
+ Contacts
+--------------------
+Feel free to contact me with mistakes/strategies/suggestions. If 
+you ask a question don't expect an answer right away. I'm not online 
+very much.
+There's two ways you can contact me:
+ E-Mail - dragonsquallz@yahoo.co.nz
+ ICQ - 71741337
+Only message me on ICQ, don't ask for authorisation because I won't 
+give it to you.
+
+--------------------
+ Updates
+--------------------
+   28 January 2002 (v1.0)
+     - Initial Release
+   05 April 2002 (v1.1)
+     - Updated Disclaimer
+     - Updated Contacts
+     - Minor additions/edits to Ability selection
+     - Added one item to Quina's individual battle strategy
+     - Added Full Team Strategies Section
+
++++++++++++++++++++++++++++++++++++
+ Part 1 - About the Enemy
++++++++++++++++++++++++++++++++++++
+
+Finding the Island
+------------------
+There's only one place to challenge the Yans. Vile Island is to the 
+South-West of the Iifa Tree. To make things more annoying there's 
+only two ways to get on it - both of them by air. 
+
+The easier of the two methods is to play the game until you get 
+control of Garland's/Kuja's Airship the Invincible. You gain 
+command of this airship at the start of disc four.
+
+The second way is a Flying Chocobo. Play Chocobo Hot and Cold,
+collect and dig up enough chocographs for Choco to evolve into a 
+golden chocobo. You won't be able to collect enough Chocograph 
+Pieces for Choco the evolve until you have control of Regent 
+Cid's airship The Hilda Garde 3. 
+
+You'd be mistaken for thinking you can land the Hilda Garde 3 here. 
+The Hilda Garde can only land on grassy areas which Vile Island does 
+not have.
+
+Island Treasures
+----------------
+I'm not covering this in detail since this is mainly side quest 
+stuff and other FAQ's such as Yee Seng Fu's Side Quest FAQ cover 
+these in depth.
+
+If you've gotten a gold chocobo you'll be able to find Chocograph 
+number 23 (Fairy Island) here. 
+ This treasure chest contains: 33 x Potions
+                               15 x Annoyntment
+                                1 x Holy Mitre
+                                1 x Dark Matter Card
+
+In the forest on Vile Island you'll encounter a special kind of Yan.
+He'll ask you if you've met his friends before running away. If 
+you've met his eight friends around the world and met their demands
+the special Yan will stop running away and ask for a Diamond. If 
+you give him this he will give you 50 AP and a Rosetta Ring for 
+your troubles.
+
+Meet Your Foe
+-------------
+Below is information about the Yan
+Level:     72           EXP:    42,672
+HP:    19,465           AP:          2
+MP:     3,378           Gil:     4,436
+
+Status Immunities: Berserk, Silence
+
+Attacks:       Comet, Virus Powder, Float, Aera, Snort
+Weak Against:  Shadow
+Items Stolen:  Ore, Elixer
+Items Won:     Hi-Potion, Phoenix Down
+Blue Magic Learned:   Auto-Life
+
+What makes it so tough?
+-----------------------
+First of all his attacks. Although it rarely uses Aera magic all 
+other moves are quite common. He pummels you with Comet almost 
+every turn usually causing heavy damage to a single team member. 
+(Usually anywhere between 1000 and the full 9999 damage). When he's 
+not using Comet he'll probably be using Virus Powder, which damages 
+for about 2000HP and inflicts the Virus status (In my opinion this 
+is a helper. I'll discuss this later). In addition to doing big 
+attacks he has high speed. Sometimes he can do two or three 
+attacks in a row. 
+
+But what makes him toughest by far is his counter-attack. Unless 
+the attacked Yan is under the influence of sleep status ANY 
+attack on him whatsoever (even if it misses) will immediately 
+follow with his Float magic or the dangerous Snort attack. This 
+counter will literally Snort the attacker out of the battle. The 
+character snorted will not gain any battle EXP/AP similar to the
+Virus status. Losing any member from battle is bad because it 
+leaves the remaining fighters to take up all the damaging attacks 
+dished out by the Yans.
+
+What makes it worth it?
+-----------------------
+Why put yourself in this sort of punishment? 
+ANSWER: EXP and Elixers. 
+
+A single Yan doesn't offer the most EXP per defeat (The Chimera 
+offers more). But unlike Chimera's which only appear singley, Yans 
+can appear in groups of twos and threes as well.
+ SO that's 3 x 42,672 = 128,016 EXP!!!
+And that's without the Level Up Ability on!
+This amount of EXP makes it easy to level up to the maximum Lv99.
+
+Also, the only other way to get Elixers other than treasure chests 
+and winning them from bosses is to steal elixers off the Yans.
+
++++++++++++++++++++++++++++++++++++
+ Part 2 - Ability Strategies
++++++++++++++++++++++++++++++++++++
+
+Overall Suggestions
+-------------------
+By the time you have reached Vile Island you should have learned at 
+least half of all your abilities and be around about level 50 (If 
+not, you better if you want to stand a chance against them.)
+
+Since no-one has unlimited magic stones for equipping you have to 
+ration out abilites. Remember, choosing abilities is totally up to 
+you and the following are only sugguestions. The following 
+abilities are highly recommended.
+
+*Auto-Life
+*Auto-Regen
+*Auto-Potion
+*HP +10%/HP +20%
+*Gamble Defence
+
+These three are recommended but not nescessary.
+
+*Auto-Haste
+*Antibody (I know this Guards against Poison/Venom but I also 
+     believe this reduces chances of the Virus status but I 
+     don't know for sure.)
+*Insomniac (See Quinas Battle Strategy to see why)
+
+Individual Character Sugguestions
+=================================
+Since everyone has a slightly different variety in abilities here's 
+some sugguestions for individual character abilites.
+
+Zidane Tribal
+-------------
+Mug, Bandit, Master Thief, Counter, Eye 4 Eye, Protect Girls, 
+High Tide.
+
+Princess Garnet/Dagger
+----------------------
+Half MP, Boost, Concentrate, Chemist.
+
+Vivi Ornitier
+-------------
+Half MP, Return Magic
+
+Adelbert Steiner
+----------------
+Chemist, Cover, Counter, Eye 4 Eye, Alert.
+
+Eiko Carol
+----------
+Half MP, Boost, Concentrate, Guardian Mog.
+
+Freya Crescent
+-------------
+High Jump, Initiative, Restore HP, High Tide, Chemist.
+
+Quina Quen
+----------
+Half MP, Millionaire, Absorb MP, Counter
+
+Amarant Coral
+-------------
+Return Magic, Counter, Cover, Eye 4 Eye, Restore HP, Power Up.
+
++++++++++++++++++++++++++++++++++++
+ Part 3 - Battle Strategies
++++++++++++++++++++++++++++++++++++
+
+Battle Overview
+---------------
+If you're around the Lv50 mentioned earlier each character should 
+have at least 2500HP or more. This should be enough to survive 
+Virus Powder. Damage caused by Comet seems very random (usually 
+1000+ damage). Cross your fingers and be prepared to heal.
+
+Yans have the advantage if ANY team member is KO'ed. Revived 
+characters have low HP they will die again if the Yan decides to 
+attack them. Don't wait for Auto-Regen to heal them, have someone 
+heal characters who are critically injured as soon as possible.
+
+If you're manually healing your party avoid using Potions unless 
+the character has the Chemist ability. Healing 150HP is nice but 
+it just doesn't hack it against two attacks of about 1000-3000HP 
+each. Use healing magics or Hi-Potions to restore HP.
+
+When battling Yans, concentrate on a single Yan. Attacking all 
+three at once results in three seperate counter-attacks. A real 
+time-waster.
+
+Don't bother trying to drain the Yan's MP. He has too much and even 
+if he did run out of MP he still has Snort and Virus Powder.
+
+Instant death attacks are very handy in these battles. But be aware 
+that if you miss, (which is quite often for death attacks) there's 
+a fair chance that you'll be snorted away.
+
+If you're going to use special attacks go for maximum damage. Two 
+hits of 9999 will kill him.
+
+Above all be prepared to lose at least one character from the 
+battle. By dying or removal from battle it doesn't matter. 
+
+Individual Character Strategies
+===============================
+Each character has their own set of commands and so also need their 
+own set of strategies. Below are tips for fighting the Yans for 
+each individual character.
+
+Zidane Tribal
+-------------
+The hero of the game will be in every single battle with the Yans 
+(Since you cannot switch the leader). This is a bit of a downer 
+since Zidane's range of attacks are a bit poor.
+
+If you plan to use Zidane to steal items from the Yans have the 
+Mug ability equipped - If you're going to be thrown out of battle 
+for stealing might as well hurt him some. 
+
+If you plan to use him as an attacker power up Zidane's Thievery 
+attack by using the Steal command lots (Each successful steal 
+increases thievery damage by 14~15HP). After stealing hundreds of 
+times Thievery will eventually reach the full 9999HP damage.
+
+Princess Garnet/Dagger
+----------------------
+Dagger can be used as either a healer or an attacker. Dagger has 
+the Chemist ability which doubles the effects of Potions, Ethers 
+and Hi-Potions. Use this ability to top up the teams HP/MP.
+
+Don't bother using Daggers status attack magics. They tend to miss 
+and Yans have immunity to Silence. And Berserk.
+
+Using summons with the boost ability equipped is useful for 
+characters with the Auto-Regen ability equipped. The summon 
+animation will give some time for Regen to recover lost HP. Take 
+note that this will probably get her snorted so use this at your 
+own risk.
+
+Odin can instantly dispatch Yans (provided the attack hits) but 
+will probably be snorted by remaining Yans. Learn Odin from the 
+Dark Matter item bought from the Treno Auction house.
+
+If you have 70-80 Amethyst and are at a reasonably descent level, 
+Atomos with the boost ability can do 9999 to all. Using this as a 
+first blow will set other characters up for a single 9999 hit 
+kill.
+
+Alternately have Dagger summon Ark since Yans are weak against 
+shadow elemental attacks. There are two ways to obtain Ark: defeat 
+optional boss Ozma or refine two pumice pieces in Memoria at the 
+Legendary Synthesis Shop in disc four.
+
+Vivi Ornitier
+-------------
+Vivi should mainly be used as support in Yan battles since Yans 
+have high resistance to magic. More often than not, Vivi will die 
+if he is hit by Comet. This is consistent with most mages with 
+their high magic but low defense. 
+
+The return magic ability will allow Vivi to counter-attack all 
+Comet attacks thrown at him provided he doesn't die from their 
+initial attack. However like the Yans Comet attacks, the damage 
+from Vivi's comet seems pretty random.
+
+If you plan to attack using Vivi cast the shadow elemental magic 
+Doomsday. Note that this can SERIOUSLY hurt your whole team too 
+so equip Shadow elemental defense items. Learn Doomsday from the 
+Mace of Zeus in Memoria (disc four).
+
+If you haven't reached disc four yet Vivi should Focus a few times 
+before using his strongest magics such as Flare and Bio. Don't try 
+using Meteor - I've never seen it hit. 
+
+If you want to try a quick one-hit-kill use Vivi's Death magic. 
+Learn this from the Black Hood.
+
+Adelbert Steiner
+----------------
+Steiner should be used as a full-on attacker. However, Steiner is 
+one of the few characters who has Chemist so you may want to use 
+him to top up characters with Hi-Potion/Ethers.
+
+Avoid using his Power/Armor/Magic/Mental Break attacks. These miss 
+quite often and you can't afford to lose him just for reducing the 
+Yans defenses.
+
+Use Steiners strongest attacks such as Shock, Climhazzard and 
+Stock Break. 
+
+Exploit the Yans shadow weakness by using Steiners Darkside attack. 
+This attack costs HP instead of MP so heal after using it.
+
+Iai Strike can kill Yans instantly if the move hits.
+
+If Vivi's also in the attacking party use Steiners strongest sword
+magic attacks such as Flare and Doomsday.
+
+Eiko Carol
+----------
+Eiko should primarily be used as a healer in these battles.
+
+Try to keep Eiko in this battle. There's a faint chance that 
+Phoenix will resurrect a fallen team.
+
+Similar to Dagger, the animation time of the summons will allow 
+characters with Auto-Regen to recover lost HP. Remember that 
+you'll need boost equipped to see a full summon animation.
+
+Cast Full Life to KO'd characters the moment they've fallen. This 
+costs quite a bit of MP but use this anyway. You need to worry 
+more about HP than MP. Learn this magic from the Siren's Flute 
+or a Light Robe. 
+
+If more than one person is KO'd in the battle cast Phoenix. It'll 
+hurt the Yans while resurrecting fallen characters. You'll probably 
+lose Eiko but in my opinion it's probably worth it.
+
+Freya Crescent
+--------------
+Freya has the Chemist ability. Use this to top up HP/MP levels when 
+they are getting low.
+
+The more dragons the party kills, the more damage Dragon's Crest 
+inflicts. About 60 dragons killed will do 9999 damage. 
+
+If you're feeling EXTREMELY lucky use Six Dragons. The outcome 
+each time you cast is not very predictable. 
+
+A more interesting way is to Trance Freya and make her jump. When 
+Freya uses Spear the Yans will counter attack other party members 
+until there are none remaining. When the other members are dead 
+Yans will be unable to counter attack until Freya's Trance ends, 
+but by then Freya should have killed them.
+
+Quina Quen
+----------
+Quina is perhaps one of the most helpful characters in these 
+battles because he has a good variety of healing and attacking 
+Blue Magic moves.
+
+Cast Auto-Life on characters who do not already have this ability 
+equipped and be prepared to use this the moment someone has been 
+revived to increase their chances of survival. Surprise, surprise! 
+You learn Auto-Life by eating Yans!
+
+*NEW *If your whole team has the Insomniac Ability equipped make 
+Quina cast Night. The Yans WILL be inflicted by the sleep status 
+for a short time. During this time use magics or one-hit-kill 
+techniques to hurt them. Don't use physical attacks as this will 
+wake them up allowing the Yans to counter.
+
+Don't bother using Bad Breath. It rarely hits and Yans have 
+immunity against most bad statuses.
+
+If you're feeling lucky try out Doom and Mustard Bomb. You'll 
+learn Doom by eating Veterans in Memoria or Ipsens castle AND 
+you'll learn Mustard Bomb from most enemies in Mount Gulug.
+
+If Doom hits he'll waste 3-5 seconds of the Death timer 
+counter-attacking leaving him less time to live. 
+
+Mustard Bomb is much more better. If he gets the Burn status, he 
+automatically dies for counter-attacking  :P
+
+If the party is protected against the sleep status cast Night. 
+This puts anyone in the battle to sleep unless guarded against 
+it. Yans will fall asleep leaving others to finish them off.
+
+Other notable mentions are Frog Drop, Lv3 Def-less, Lv4 Holy, 
+Mighty Guard, White Wind and 1,000 Needles.
+
+Amarant Coral
+-------------
+Chakra is a useful healing move as it also restores MP.
+
+Like Vivi, the Return Magic ability will allow Amarant to throw 
+back any Comets thrown at him.  
+
+Similar to Quina's Doom attack, Countdown will put a timer for 
+Death to occur and the Yans waste some time counter-attacking. 
+
+If you wish to use special attacks go for the No Mercy attack.
+
+Full Team Strategies (NEW!)
+===========================
+This section was added so that you, the reader can submit your 
+own strategies against the Yans. Submitted strategies will be 
+cut and pasted into here so watch your grammar.
+
+Sent in by Pedro Cruz <spiralpegasus@bol.com.br>
+Have Quina in your party, make him cast night (protect your party 
+from sleep 'cause this afflicts them as well), them Summon Odin, 
+it'll kill two or luckily tree of them. The one that rest kill 
+with Vivi Death magic since it's sleeping. Or Steiner Iai Strike. 
+
++++++++++++++++++++++++++++++++++++
+ Part 4 - Miscellaneous
++++++++++++++++++++++++++++++++++++
+
+Putting the Virus to good use
+-----------------------------
+Remember that 128,016EXP? That's how much EXP will be split between 
+your team so they get 32,000 each. But if a single character got 
+that amount of EXP in one go it pretty much guarantees a level up a 
+battle until about Lv75. 
+
+Yans occasionally uses Virus Powder, inflicting the Virus status.
+This stops the character from gaining any EXP/AP until the status 
+has been cleared with the Vaccine item.
+
+Have all but one character inflicted with the Virus status. Make 
+sure that this person will stay alive to reap in the EXP at the 
+battle end. Because the other characters will probably be killed 
+anyway have them keep the non-virus'd character alive while also 
+attacking the Yans.
+
+Oh yeah, remember the Level Up ability? Equipping that on the 
+character will increase the EXP gained by a factor of about 1.5 (I 
+calculated this myself). So the more EXP gained in one turn, the 
+more bonus EXP you get.
+
+Another point. Once you've reached Lv99 you'll still split EXP with 
+other team members. Virus a Lv99 person so that they stop getting 
+EXP they don't need.
+
+Yan EXP Chart
+-------------
+Alright before you check these charts take note that
+  THESE ARE NOT PERFECT
+They are not 100% accurate and should be used as a rough guide to 
+show much EXP you get.
+
+OK. Here's a rundown of the columns
+# of Yans - How many Yans you defeated in the battle
+# of Survivors - The number of characters which survived the battle 
+                 without being KO'd, Virus'd or Snorted
+EXP per Survivor - How much EXP surviving each character will get 
+                   from the battle
+Level Up Ability Bonus - EXP added on top of 'EXP per Survivor' if 
+                   the Level Up ability is equipped
+Total EXP received per Survivor - How much EXP you'll get after the 
+        battle with the Level Up ability equipped. Basically it's 
+        the two previous columns added together 
+
+/------------------------------------------------------------------\
+| # of |    # of   | EXP per  |    Level Up   | Total EXP received |
+| Yans | Survivors | Survivor | Ability Bonus |    per Survivor    |
+|------------------------------------------------------------------|
+|   1  |     1     |  42,672  |    21,336     |       64,008       |
+|------------------------------------------------------------------|
+|   1  |     2     |  21,336  |    10,668     |       32,004       |
+|------------------------------------------------------------------|
+|   1  |     3     |  14,224  |     7,112     |       21,336       |
+|------------------------------------------------------------------|
+|   1  |     4     |  10,668  |     5,334     |       16,002       |
+|------------------------------------------------------------------|
+|   2  |     1     |  85,344  |    42,672     |      128,016       |
+|------------------------------------------------------------------|
+|   2  |     2     |  42,672  |    21,336     |       64,008       |
+|------------------------------------------------------------------|
+|   2  |     3     |  28,448  |    14,224     |       42,672       |
+|------------------------------------------------------------------|
+|   2  |     4     |  21,336  |    10,668     |       32,004       |
+|------------------------------------------------------------------|
+|   3  |     1     | 128,016  |    64,008     |      192,024       |
+|------------------------------------------------------------------|
+|   3  |     2     |  64,008  |    32,004     |       96,012       |
+|------------------------------------------------------------------|
+|   3  |     3     |  42,672  |    21,336     |       64,008       |
+|------------------------------------------------------------------|
+|   3  |     4     |  32,004  |    16,002     |       48,006       |
+\------------------------------------------------------------------/
+
+Q&A
+---
+Got any questions? I'll try to answer here if you ask nicely.
+
+####################
+Hopefully this guide has helped many of you gamers out.
+Good Luck and happy Yan slaying!
+####################
+
+--------------------
+ Credits
+--------------------
+* Square for making this excellent game
+* CjayC for putting this on GameFAQs
+* You readers for suggesting ideas and notifing mistakes 

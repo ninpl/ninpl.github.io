@@ -1,0 +1,87 @@
+Subject: FF5 Mixing Chart
+From: seancdau@prodigy.net (Sean Daugherty)
+Date: Wed, 26 Nov 1997 15:11:37 GMT
+Reply-To: seancdau@prodigy.net
+Newsgroups: alt.games.final-fantasy
+
+FINAL FANTASY 5 ENGLISH MIXING CHART
+Adapted from the Japanese by Sean Daugherty (seancdau@prodigy.net)
+Original Japanese version by Nora Stevens (nstevens@umich.edu)
+
+                 A   B   C   D   E   F   G   H   I   J   K   L
+A: Potion        A   2   3   D   4   F   A   C   5   6   7   8
+B: HiPotion      2   B   9   D   4   F   B   10  5   6   7   8
+C: Ether         3   9   C   D   11  12  C   3   13  14  15  16
+D: Elixir        D   D   D   D   11  12  D   1   D   D   17  18
+E: Fenix Down    4   4   11  11  E   19  20  21  22  23  24  25
+F: Maiden's Kiss F   F   12  12  19  F   26  27  28  29  30  31
+G: Holy Water    A   B   C   D   20  26  G   32  33  34  35  36
+H: Turtle Shell  C   10  3   1   21  27  32  37  38  29  1   40
+I: Antidote      5   5   13  D   22  28  33  38  I   41  42  43
+J: Eyedrop       6   6   14  D   23  29  34  39  41  J   44  45
+K: Dragon Fang   7   7   15  17  24  30  35  1   42  44  46  47
+L: Dark Matter   8   8   16  18  25  31  36  40  43  45  47  48
+
+
+
+1     Failure           Casts "Slip" and "Charm"
+2     Water of Life     Casts "Regen"
+3     X-Potion          Recover all HP
+4     Resurrection      Brings ally back to life 
+5     Neutralize        Recover some HP and cure poison
+6     Cure Blind        Recover some HP and cure blindness
+7     Dragon Power      Raise level by 20
+8     Dark Potion       Does 666 points of damage
+9     Half Elixir       Cure HP to maximum
+10    Ether Dry         Triple the power of normal Ether
+11    Reincarnation     Revive ally and HP maximum
+12    Lilith's Kiss     Drain MP from enemy
+13    Resist Poison     Make resistant to poison
+14    Resist Fire       Make resistant to fire attacks
+15    Dragon Shield     Make resistant to Ice, Fire, and Thunder attacks
+16    Dark Ether        Drain MP to 1/4
+17    Giant Drink       Double maximum HP
+18    Dark Elixir       Reduce HP/MP to single digits
+19    Kiss Of Life      Bring dead ally back to life, 1/2 HP, Full MP
+20    Life Shield       Make resistant to sudden-death attacks
+21    Panacea           Heal all status ailments
+22    Resist Ice        Make resistant to ice attacks
+23    Resist Thunder    Make resistant to thunder attacks
+24    Dragon Armor      Increase defense and magic defense
+25    Death Potion      Instant kill
+26    Kiss of Blessing  Casts "Bersk", "Haste", and "Image"
+27    Drain Kiss        Drain HP from target
+28    Levitate          Cast "Float" on target
+29    Lamia's Kiss      Confuse target
+30    Dragon's Kiss     Unknown
+31    Toad's Kiss       Transforms victim into a frog
+32    Bacchus' Wine     Beserks target
+33    Samson Power      Raise level by 10
+34    Elemental Power   Increase magic damage by 50%
+35    Holy Breath       Cast powerful, holy wind attack
+36    Failure           Poison target
+37    Protect Drink     Casts "Safe" on target
+38    Split Shell       Decrease defense by 1/2
+39    Haste Drink       Speed up target
+40    Explosive         Massive fire damage at cost of user's life
+41    Restorative       Cure status for duration of battle only
+42    Poison Breath     Poisons many targets
+43    Poison            Poisons target
+44    Dark Sigh         Blinds and confuses target
+45    Dark Gas          Blinds target
+46    Dragon Breath     Fire, Thunder, and Ice breath damage
+47    Dark Breath       Cast an unholy fire over targets
+48    Shadow Flare      Darkness inflicts massive damage on enemies
+
+------
+Sean Christian Daugherty (seancdau@prodigy.net)
+  "You should've seen me with the poker man
+   I had a honey and I bet a grand
+   Just in the nick of time I looked at his hand..."
+                   - Paul McCartney, "Junior's Farm"
+                          ______
+%#@*?%#@*?%#@*?%#@*?%#@  |||__|||
+TWO THOUSAND POSTS TO     \/  \/
+ALT.GAMES.FINAL.FANTASY   (2000)
+%#@*?%#@*?%#@*?%#@*?%#@    \__/
+

@@ -1,0 +1,569 @@
+                       ---------------------------------
+                        Bard Guide for Final Fantasy XI
+                                  version 1.0
+                       ---------------------------------
+                              by Gary Tong, 2004
+                                Joras on Fenrir
+                           Email: joras32@yahoo.com
+                                     ----
+
+Table of Contents:
+
+01 - Introduction
+02 - Races
+03 - Bard Quest
+04 - Subjobs
+05 - Bard Abilities
+06 - Working a Bard
+07 - Songs
+08 - Equipment
+09 - Advanced Tips
+10 - FAQ
+11 - Thanks
+
+Version History:
+
+1.0 - Initial Version
+
+-------------------
+01 - Introduction
+-------------------
+
+Welcome to my bard guide.  This guide is intended to be a starting reference.  
+Most of the information here is experienced first-hand, although a substantial 
+part was gleaned from message boards, web sites, and talking with other bards.  
+As such, don't hold statements made in this FAQ as gospel, but merely a 
+starting point for your exploration into Vana'diel.
+
+So, where to begin?  The bard class is for the hyperactive.  Once you come 
+into your full power, you will _never_ be resting.  There's always something 
+to do.  In any given battle you'll probably end up singing between 4-8 songs 
+with the odd spell thrown in there every once in a while.  The class also 
+involves a lot of running.
+
+The reward for all this work is ease of grouping and fast leveling.  Bard is 
+also one of the cheaper classes, as songs are pretty cheap and you aren't very 
+equipment-dependent.
+
+-------------------
+02 - Races
+-------------------
+
+Bards mostly rely on Charisma to land their sleep songs.  Other than that, 
+they're not extremely stat dependent.  I would probably rank the races in the 
+following order:
+
+Tarutaru:
+These little buggers have good charisma, and plenty of MP.  As most bards go 
+with WHM sub, the MP helps with cures and spells and such.  Since bards almost 
+never get hit, the low HP doesn't really matter.  Plus, you get to /panic
+
+Hume:
+Same charisma as Tarutaru, and decent MP.  This is my personal choice, since 
+humes can do decently well as any class.
+
+Mithra/Elvaan:
+These two races are about the same as far as bard-ness goes.  Elvaan get about 
+12 more charisma at level 75, and Mithra get about 30 more MP.  At the lower 
+levels the MP makes a difference, but once you start doing BCNMs or HNMs where 
+successfully sleeping a monster makes the difference between life and death, 
+Elvaan starts edging out Mithra.
+
+Galka:
+Not much to say here.  Galkans have low MP and low charisma.  They make super 
+special bards.
+
+-------------------
+03 - Bard Quest
+-------------------
+
+This quest involves no fighting at all, and will actually make you about four 
+or five thousand gil.  The quest starts in the Merry Minstrel Meadhouse (I-8) 
+in Lower Jeuno.  First talk to Mertaire, then Bki Tbujhja, then Tuh 
+Almobankha.  They will tell you about a song rune in Buburimu Peninsula.  Now 
+go outside to the Auction House and buy a "Parchment" from the Leathercrafting 
+materials section.  I would recommend setting your HP in Jeuno.  Hop on a 
+chocobo in Port Jeuno and be prepared for a long ride.
+
+Make your way to Buburimu (Sauromugue Champaign -> Meriphataud Mountains -> 
+Tahrongi Canyon -> Buburimu Peninsula).  Head to the Khoonta Dunes at G-9.  If 
+you're on foot, watch for Bogeys.  Once you hit the shore, head west along the 
+water through the cave.  Once you're out, go NW for a short while to the Song 
+Rune at F-9.  Dismount and trade the Parchment to the runes for a cutscene.
+
+Head back to Jeuno.  Fastest way is probably to run to Windurst, change to a 
+level 1 class, and suicide back to Jeuno, but whatever.  Once there, talk to 
+Mertaire for another cutscene and some gil.  Talk to Bki Tbujhja (damn her 
+parents) to get information on another song rune in Valkurm Dunes.  Hop 
+another chocobo in Upper Jeuno and off you go.
+
+In the Valkurm Dunes, head N-W towards the secret beach at B-7.  Once you're 
+through the tunnel, stick to the left hand wall and you'll find the rune 
+easily.  Click on the song rune for another cutscene, some more gil, and the 
+bard flag. Congratulations, you're now a bard!
+
+-------------------
+04 - Subjobs
+-------------------
+
+There aren't many viable bard combinations.  I'm not going to say that certain 
+combinations suck (they do), just that they aren't the "best" (because they 
+suck).  These include, in no particular order, Paladin, Dark Knight, Warrior, 
+Monk, Beast Master, Dragoon, Samurai, and Ranger.  The main problem with all 
+these classes is that they are there to do melee damage.  As a bard in a good 
+group, you simply won't have time to do much melee.  What with trying to keep 
+2 offensive and 4+ defensive songs going, there isn't a huge window to smack 
+things around.  Bards also don't get many good weapons. So, without further 
+rambling, here are the other subjobs.
+
+White Mage:
+Far and away the most popular choice.  Subbing white mage will allow you to 
+cure damage, remove status effects, debuff, and cast the bar-ra spells.  
+Really, there aren't enough good things I can say about the WHM sub.  An added 
+bonus is that starting at level 32, you can start doing the divine seal/curaga 
+trick.  Doing this mid-battle usually spells death for the WHM, since he has 
+most likely been pumping out Cure & Cure IIs like mad.  However, a bard can 
+usually do this to save the party and still not get aggro.  The extra HP and 
+better armor on the bard doesn't hurt either.
+
+Red Mage:
+This is another good choice.  Like white mage, you get cures and an expanded 
+library of debuffs.  You also get fast cast at level 30, which will help you 
+get your songs out faster.  Off the top of my head I believe it's reduces the 
+8-second cast time of songs to 6 seconds, but I could be wrong.  This helps a 
+ton in getting those 6 initial songs out.  I'd put brd/rdm 2nd behind brd/whm.
+
+Black Mage:
+Not a great choice.  Black Mages get some decent debuffs, but your low mana 
+pool won't really allow you to blast away with spells.  Spell power will be 
+slightly lacking as well.  I wouldn't bother.
+
+Summoner:
+The main virtue of summoners is their huge mana pool.  The problem here is 
+that a summoner sub doesn't get anything to spend their MP on other than half-
+leveled avatars.  Nothing else to say.  This subjob sucks.
+
+Ninja:
+A good subjob if you're soloing.  At level 20 you get dual wield and at level 
+24 you get Utsusemi.  By dual wielding stat+ weapons like small sword or 
+decurion's dagger, you get decent attack, further enhanced by songs.  Do not 
+think that you'll be a good soloer though.  Bards just aren't built for 
+soloing.
+
+Thief:
+The only use for this class is treasure hunter and steal.  Past trying to earn 
+some gil, there's not much to recommend this sub.  Only use this combination 
+if you are farming.
+
+-------------------
+05 - Bard Abilities
+-------------------
+
+Squenix kinda shafted the bards with their abilities.  Here is the full and 
+complete list:
+
+Level   Name            Effect
+1       Soul Voice      Doubles the effect of songs (2-hour recharge)
+5       Resist Silence  Silence resistance up (passive)
+25      Resist Silence  Silence resistance up (passive)
+45      Resist Silence  Silence resistance up some more (passive)
+
+And that's it.  Soul Voice is only really useful when you positively 
+absolutely need to land a sleep spell.  For things like Paeon or Minuet, it 
+simply doubles the effect.  Thus, Paeon III will regen for 6 hp / 3 seconds, 
+Ballad will regen for 2 mp, and so on.  Once you cast Soul Voice, you will 
+have to re-cast your songs for the added effect.  Usually, I just use this 
+whenever I want to.  Unless you're in an area with a lot of aggro, it's not 
+worth saving up.
+
+As for the Resist Silences, there is some debate as to whether they even work.  
+It's okay though.  We get kick-ass songs.
+
+-------------------
+06 - Working a Bard
+-------------------
+
+A bard is there to make the party as efficient as possible.  Thus, the #1 
+priority is to keep the right songs on the right members of the party at all 
+times.  In practice, this becomes quite a bit harder than it sounds.
+
+You can cast a song every 8 seconds (6 with fast cast).  The song actually 
+takes effect after 6 seconds (4 with fast cast).  If you move before that, 
+your song will most likely be interrupted.  After the song takes effect, you 
+can move with no ill effects.  Whether someone receives the effect of the song 
+depends on their distance to you.  There is no visual indicator however, so 
+you will have to eyeball the distance.  Also, the song's area of effect is 
+always centered on you.  Thus, you will have to do a lot of running.
+
+Positioning is important.  This is because each party member can only have two 
+song effects at one time.  In the midst of battle, the mages won't want minuet 
+and the meleers won't want learned etude.  Ideally, you want your group to be 
+positioned like so:
+
+x - MOB      o - Fighters    * - mages   + - you
+
+
+              oxoo   +    **
+
+
+This way, when you need to cast madrigal and minuet, you can move up and only 
+affect the melee group like this
+                
+               _______
+              /       \
+             /         \
+            | oxoo+     | **
+             \         /
+              \       /
+               -------
+
+And when you need to cast ballad and etude, you can move back like this
+
+                      _______
+                     /       \
+                    /         \
+              oxoo |     +**   |
+                    \         /
+                     \       /
+                      -------
+
+
+At the end of the battle, if you want to cast paeon and ballad on everyone, 
+switch to a harp (for greater casting range) and move to the middle like so:
+
+                __________
+               /          \
+              /            \
+             /              \
+            | oxoo   +    ** |
+             \              /
+              \            /
+               \          /
+                ----------
+
+A typical battle goes something like this:
+1)  Run to Melee
+2)  Sing Madrigal
+3)  Sing Minuet
+4)  Sing Requiem on the Mob
+5)  Cast a bar-ra spell if necessary (and if you're sub WHM)
+5)  Run back to Mages
+6)  Sing Ballad
+7)  Sing a Threnody on the Mob
+8)  Sing an Etude for your Mages
+9)  Wait for monster to die (and cure, dispel, whatever)
+10) Run up and cast Paeon on everyone.
+11) Cast ballad on everyone.
+
+At the end of step 8, you will have 2 defensive songs on your fighters, 2 
+defensive songs on your mages, 2 offensive songs on the mob.  Probably takes 
+about a minute to do.
+
+To make things quite a bit more complicated, there are two types of 
+instruments.  Wind instruments, like the flute and cornette, and string 
+instruments like the harp.  Wind instruments have a tight range, and string 
+instruments have a much larger range.  Thus, if you're playing paeon and 
+trying to cover the whole party, you should equip a stringed instrument.  
+Likewise, if you're playing minuet, you should probably equip a wind 
+instrument.  Thankfully, this can be macro'd.  My macros are set up like such:
+
+Ctrl-1:                                Alt-1:
+/ma "Foe Lullaby" <t>                  /ma "Regen" <t>
+/equip range "Royal Spearman's Horn"
+
+Ctrl-2:                                Alt-2:
+/ma "Foe Requiem" <bt>                 /ma "Valor Minuet" <me>
+/equip range "Royal Spearman's Horn"   /equip range "Cornette"
+
+Ctrl-3:                                Alt-3:
+/ma "Magic Finale" <bt>                /ma "Sword Madrigal" <me>
+                                       /equip range "Traversiere"
+
+Ctrl-4:                                Alt-4:
+/sea <t>                               /ma "Mage's Ballad" <me>
+
+
+Ctrl-5:                                Alt-5:
+/ma "Earth Threnody" <bt>              /ma "Learned Etude" <me>
+/equip range "Piccolo +1"
+
+Ctrl-6:                                Alt-6: (Changes constantly)
+/ma "Fire Threnody" <bt>               /ma "Barfira" <me>
+/equip range "Piccolo +1" 
+
+Ctrl-7:                                Alt-7: (Changes)
+/ma "Lightning Threnody" <bt>
+/equip range "Piccolo +1"
+
+Ctrl-8:                                Alt-8: (Changes)
+/ma "Water Threnody" <bt>
+/equip range "Piccolo +1"
+
+Ctrl-9:                                Alt-9:
+/ma "Ice Threnody" <bt>                /equip range "Royal Spearman's Horn"
+/equip range "Piccolo +1"                
+
+Ctrl-0:                                Alt-0:
+/ma "Wind Threnody" <bt>               /equip range "Maple Harp"
+/equip range "Piccolo +1"
+
+This is all done from memory, so pardon a possible mistake somewhere in there.  
+The reason why the /equip commands are after you start casting is because 
+switching instruments doesn't interrupt casting, and the instrument used to 
+cast the spell is actually determined 8 seconds after you start casting.  This 
+way, I can have the horn equipped, start casting ballad with Alt-4, and then 
+press Alt-0 to equip the harp so that when my ballad takes effect, it covers 
+the whole group.  For the higher-level songs, just put II and III after the 
+name of the spell within the quotes.  So when you are using Mage's Ballad II, 
+the macro becomes /ma "Mage's Ballad II" <me>
+
+-------------------
+07 - Songs
+-------------------
+
+I'll update this with spells costs eventually.  Also, keep in mind that by no 
+means should you have every single spell.  It's a good idea to keep Minuet, 
+Madrigal, Paeon, Ballad, and Lullabies updated though.  Magic Finale is very 
+important.  You only really need Spirited Etude and Learned Etude.  Also you 
+can scrape by with Wind, Ice & Thunder threnodies, but I highly recommend 
+getting them all.
+
+
+Min Lvl  Spell Name          Effect
+1        Knight's Minne      Party defense up
+ Guy by chocobo stables in South San d'oria (I-11) sells this up to Minne III
+3        Valor Minuet        Party attack up
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Minuet III
+5        Army's Paeon        Party HP Regen (1 hp / 3 sec)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Paeon IV
+7        Foe Requiem         Enemy damage over time (1 dmg / 3 sec)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Requiem IV
+9        Herb Pastoral       Party poison resistance up
+ Drugstore in Windurst Woods (I-8)
+10       Light Threnody      Enemy light resistance down
+ One of the merchants in Southern San d'Oria (can't remember which one)
+11       Sword Madrigal      Party accuracy up
+ Phoenix Perch Inn in Northern San d'Oria (F-8)
+12       Dark Threnody       Enemy dark resistance down
+ Bastok Markets definitely.  General Goods I think (E-11)
+13       Sheepfoe Mambo      Party evasion up
+ Dohdjuma in Selbina, along with Rye Flour and Selbina Milk
+14       Earth Threnody      Enemy earth resistance down
+ Windurst Waters Catalyst Shop (H-9)
+15       Army's Paeon II     Party HP Regen (2 hp / 3 sec)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Paeon IV
+16       Foe Lullaby         Puts the targeted enemy to sleep
+ Dropped by Yagudo Piper in Giddeus
+16       Water Threnody      Enemy water resistance down
+ M&P's Market in Upper Jeuno (G-6)
+17       Foe Requiem II      Enemy damage over time (not sure how much)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Requiem IV
+18       Wind Threnody       Enemy wind resistance down
+ M&P's Market in Upper Jeuno (G-6)
+19       Scop's Operetta     Party silence resistance up
+ Valeriano (Traveling minstrel troupe in 1st ranked city)
+20       Fire Threnody       Enemy fire resistance down
+ Windurst Waters Catalyst Shop (H-9)
+21       Knight's Minne II   Party defense up
+ Guy by chocobo stables in South San d'oria (I-11) sells this up to Minne III
+22       Ice Threnody        Enemy ice resistance down
+ Bastok Markets definitely.  General Goods I think (E-11)
+22       Enchanting Etude    Party charisma up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+23       Valor Minuet III    Party attack up
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Minuet III
+24       Lightning Threnody  Enemy lightning resistance down
+ Southern San d'Oria somewhere
+24       Spirited Etude      Party mind up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+25       Mage's Ballad       Party MP Regen (1 mp / 3 sec)
+ The 2nd grouping quest in San d'Oria.  Go to Watchtower to get it.
+26       Learned Etude       Party intelligence up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+27       Horde Lullaby       Puts all enemies in range to sleep
+ Dropped by Yagudo Drummer in Castle Oztorja
+28       Quick Etude         Party agility up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+29       Advancing March     Party attack rate up (sounds better than it is)
+ Valeriano (Traveling minstrel troupe in 1st ranked city)
+30       Vivacious Etude     Party vitality up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+31       Hunter's Prelude    Single target ranged accuracy up
+ Nchaa's Good Goods in Windurst Woods (H-13)
+32       Dextrous Etude      Party dexterity up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+33       Fowl Aubade         Party sleep resistance up
+ Valeriano (Traveling minstrel troupe in 1st ranked city)
+33       Magic Finale        Removes a random effect from target
+ Dropped by Yagudo Drummer in Castle Oztorja
+34       Sinewy Etude        Party strength up
+ Port Jeuno's duty-free shop, also in Windurst Woods, not sure where though
+35       Army's Paeon III    Party HP regen (3 hp / 3 sec)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Paeon IV
+36       Light Carol         Party light resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+37       Foe Requiem III     Enemy damage over time (not sure how much)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Requiem IV
+38       Earth Carol         Party earth resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+39       Battlefield Elegy   Enemy attack rate down
+ Helbort's Blades in South San d'Oria
+40       Water Carol         Party water resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+41       Knight's Minne III  Party defense up
+ Guy by chocobo stables in South San d'oria (I-11) sells this up to Minne III
+42       Wind Carol          Party wind resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+43       Valor Minuet III    Party attack up
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Minuet III
+44       Fire Carol          Party fire resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+45       Army's Paeon IV     Party HP regen (4 hp / 3 sec)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Paeon IV
+46       Ice Carol           Party ice resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+47       Foe Requiem IV      Enemy damage over time (not sure how much)
+ Harmodios's Music Shop in Bastok Markets (L-8) sells this up to Requiem IV
+48       Lightning Carol     Party lightning resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+49       Goblin Gavotte      Party blind resistance up
+ Goblin shop in Jeuno (Muckvix's Junk or something like that)
+50       Dark Carol          Party dark resistance up
+ Merry Minstrel Meadhouse in Lower Jeuno
+51       Blade Madrigal      Party accuracy up
+ Dropped by Yagudo Lutenist (lvl ~46) in Castle Oztroja or Zvahl Castle
+53       Dragonfoe Mambo     Party Evasion up
+ Dropped by Yagudo Lutenist (lvl ~46) in Castle Oztroja or Zvahl Castle 
+54       Gold Capriccio      Party petrification resistance up
+ Dropped by Yagudo Chanter (lvl ~55) in Castle Oztroja or Zvahl Castle
+55       Mage's Ballad II    Party MP regen (2 mp / 2 sec)
+ Treasure Coffer in Castle Zvahl Baileys.  Key drops off Demons ~lvl 65
+56       Shining Fantasia    Party dark resistance up
+ Dropped by Yagudo Conductor (lvl ~65) in Castle Oztroja
+57       Foe Requiem V       Enemy damage over time (not sure how much)
+ Dropped by Yagudo Chanter (lvl ~55) in Castle Oztroja or Zvahl Castle
+59       Carnage Elegy       Enemy attack rate down
+ Dropped by Yagudo Chanter (lvl ~55) in Castle Oztroja or Zvahl Castle
+60       Victory March       Party attack rate up
+ Dropped by Yagudo Conductor (lvl ~65) in Castle Oztroja
+61       Knight's Minne IV   Guess
+ Yag. Conductor in Castle Oztroja or Costal Sahagin in Sea Serp. Grotto
+62       Bewitching Etude    Party charisma up
+ Harmodios's Music Shop in Bastok Markets (L-8)
+63       Valor Minuet IV     Party attack up
+ Yag. Conductor in Castle Oztroja or Costal Sahagin in Sea Serp. Grotto
+64       Logical Etude       Party mind up
+ Harmodios's Music Shop in Bastok Markets (L-8)
+66       Sage Etude          Party intelligence up
+ Harmodios's Music Shop in Bastok Markets (L-8)
+67       Foe Requiem VI      Enemy damage over time (blah)
+ Yag. Conductor in Castle Oztroja or Costal Sahagin in Sea Serp. Grotto
+68       Swift Etude         Party agility up
+ Harmodios's Music Shop in Bastok Markets (L-8)
+69       Puppet's Operetta   Party calm resistance up
+ Valeriano (Traveling minstrel troupe in 1st ranked city)
+70       Vital Etude         Party vitality up (Squenix ran out of words)
+ Harmodios's Music Shop in Bastok Markets (L-8)
+71       Archer's Prelude    Single target ranged accuracy up
+71       Goddess's Hymnus    Party reraise
+72       Uncanny Etude       Party dexterity up
+73       Warding Round       Party curse resistance up
+73       Chocobo Mazurka     Party movement speed up
+ I hear the guy by chocobo stables in South San d'oria (I-11) sells this
+74       Herculean Etude     Party strength up
+75       Maiden's Virelai    Single target charm (oh yeah!)
+
+-------------------
+08 - Equipment
+-------------------
+
+I'll update this more later, but here's a list of useful instruments and what 
+they do
+
+Instrument         Min lvl      Effect
+Flute                    1      Nothing
+Flute +1                 1      Requiem +1
+Maple Harp               1      Nothing
+Maple Harp +1            1      Minne +1
+Cornette                 4      Minuet +1
+Cornette +1              4      Minuet +2
+Piccolo                  9      Threnody +1
+Piccolo +1               9      Threnody +2
+Harp                    14      Minne +1
+Harp +1                 14      Minne +2
+Mary's Horn             14      Lullaby +1 (Dropped by Stray Mary in Konascht)
+Royal Spearman's Horn   20      March +1 Charisma +3 (San d'Oria Rank 2 Item)
+Traversiere             32      Madrigal +1
+Traversiere +1          32      Madrigal +2
+
+-------------------
+09 - Advanced Tips
+-------------------
+
+1. Start singing offensive songs before the puller returns to your group.  If 
+you time it right, the song will take effect right after the puller gets in 
+range.
+
+2. Likewise, start singing paeon before the mob dies.  The paeon should come 
+out exactly when the battle ends.  This way, the puller can immediately pull 
+the next one instead of waiting around to get paeon.
+
+3. Sing Mage's Ballad and an Etude during downtime before the battle starts.  
+This way the mages are still covered with ballad even if you fub a few 
+offensive songs and need to re-sing them.
+
+4. If you get good with range, it is possible to hit only the tank with Minne.  
+Most of the time this is just way too much hassle to do, but if you have a co-
+operative group that understands positioning well, this is possible.
+
+5. Likewise, if your mages stand far enough apart, you can usually hit one 
+with spirited etude and the other with learned.  Again, this is usually not 
+worth the effort.
+
+6. If you have fast-cast, it's worth stacking say, Paeon I and Paeon II on 
+your tanks during downtime.  Otherwise, it just takes too long to set up.  
+Paladins and Dark Knights will usually want Paeon and Ballad though.
+
+7. Keep an eye on the battle.  Threnodies wear off pretty quickly sometimes, 
+and Magic Finale is one of the most useful spells you have.
+
+-------------------
+10 - FAQ
+-------------------
+
+Q: Can you stack two songs of the same type?
+A: Yes, but only if their names are difference.  So you can stack Paeon I and 
+Paeon II for 3 hp / 3 sec, but not Paeon I and Paeon I.
+
+Q: Is there any use for more than 1 bard in a group?
+A: Yes!  With 1 bard each person in the group can have 2 songs.  With 2 bards, 
+each person in the group can have 4 songs!  As long as you don't try to play 
+the same songs, they will all stack.  One day I really want to see what 6 
+high-lvl bards can do.  Especially running Soul Voice.
+
+-------------------
+11 - Thanks
+-------------------
+
+People in my life who don't quite understand my devotion to these games, but 
+put up with it.
+Gamefaqs for hosting this.
+Special thanks to FF Monster Tour for most of the information on where to get 
+many of the songs.
+Allakhazam, FFXIOnline, Warcry, and Killing Ifrit for all their work.
+My linkshell on Fenrir, Solemnity, for being a great bunch of people.
+All my friends on Fenrir.  If I tried I list you all I'd probably piss someone 
+off by leaving out their name, so you know who you are.
+Anyone who feels like donating gil to me on Fenrir. :-D
+
+
+Copyright
+
+This guide is copyright (C)2004 by Gary Tong.  All trademarks and copyrights 
+contained in this document are owned by their respective trademark and 
+copyright holders.  No sites are allowed to host this guide without my 
+permission.  Nor is anyone allowed to publish, copy, or otherwise reproduce 
+this work without my consent.  If you would like to host this guide on your 
+site, email me at joras32@yahoo.com  The only site with permission to host 
+this guide is:
+ http://www.gamefaqs.com

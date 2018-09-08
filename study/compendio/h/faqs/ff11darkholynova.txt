@@ -1,0 +1,757 @@
+ Final Fantasy XI
+Stealing Guide v0.05
+Last Updated: 9/1/04
+Copyright (c) 2003 Dark Holy Nova
+Dark_holy_nova@hotmail.com
+[Please do not email me what you've stolen]
+---------------------------------------------------------------------
+Table of Contents:
+---------------------------------------------------------------------
+
+1.  Version History
+2.  Introduction
+3.  Monster List (area)
+3.  Monster List (type)
+5.  Comming Soon
+6.  Legal Stuff
+
+
+---------------------------------------------------------------------
+Version History
+---------------------------------------------------------------------
+V0.01:
+Basic shell of FAQ created and filled in the Legal stuff, Table of Contents,
+and a few monsters.
+
+V0.02
+Added Jeuno and Windurst Section. Added some stuff to the San d'Oria
+section.
+
+V0.03
+Changed it all around and added a couple more monsters.
+Added a new section to find monsters by type.
+Playing my theif as a constant sub job, so I will have alot more soon.
+
+V0.05
+Added alot more that I've been writing down. Expanded the monster type
+section. Added Bastok Area, but only thing Bastok has that I haven't got
+already was some worm I found on my to Altepa.
+
+V0.06
+Removed typos! Thanks to my new friend Andrea from Malta for helping
+me find them all. Added new areas and monsters.
+
+V0.065
+I didn't add any more then 3-4 new steals, but I extended the 
+list to hold all the monsters in an area. I'll fill in the info as I get it
+but now I have a check list of sorts. Next update I'll have more areas.
+
+---------------------------------------------------------------------
+Introduction
+---------------------------------------------------------------------
+
+I made this because I looked for a stealing guide but was not successfull.
+I realize how much of a pain it is to steal, due to the 5 minute delay
+and the low sucsess rate, but for those who do steal I hope this helps you.
+I do take requests for monsters I don't have, but keep in mind that it is
+difficult to get from one end of the world to the other just to try and steal
+from a monster that will most likely kill me directly after I try.
+
+My home town is San D'oria, so keep that in mind if I don't have the info on
+monsters near bastok and windurst quite yet. After I hit Valkrum Dunes I'll
+do Konschat and make my way to Bastok.
+
+Do not email me about monsters you have stolen from. I only write what I
+have seen personaly.
+
+---------------------------------------------------------------------
+Monster List (By Area)
+---------------------------------------------------------------------
+
+=====================
+Ronfaure Area:
+=====================
+
+
+-----------------
+West Ronfaure
+-----------------
+Monster Name       |    Steal
+=======================================================
+Wild Rabbit        | San d'Orian Carrot
+Tunnel Worm        | Pebble (throwing weapon)
+Forest Hare        | San d'orian Carrot
+Carrion Worm       | Pebble
+Orcish Fodder      | Beast Man Coin
+Orcish Grapler     | Beast Man Coin
+Orcish Mesmuriser  | Beast Man Coin
+Forest Funguar     | SleepShroom
+Wild Sheep         | Sheep's Wool
+Goblin Thug        | Beast Man Coin
+Goblin Weaver      | Beast Man Coin
+Goblin Fisher      | Willow Fishing Rod
+Goblin Digger      | Pick Axe
+Enchanted Bones    | Bone Chip
+River Crab         | Rock Salt
+Mouse Bat          |
+Ding Bats          |
+Scarab Beetle      |
+Giant Sheep        | Sheep Wool
+Bomb               |
+Jaggedy-Eared Jack | San d'Orian Carrot
+Tainted Hound      |
+
+-----------------
+East Ronfaure
+-----------------
+Monster Name       |    Steal
+=======================================================
+Wild Rabbit        | San d'Orian Carrot
+Tunnel Worm        | Pebble (throwing weapon)
+Forest Hare        | San d'orian Carrot
+Carrion Worm       | Pebble
+Orcish Fodder      | Beast Man Coin
+Orcish Grapler     | Beast Man Coin
+Orcish Mesmuriser  | Beast Man Coin
+Forest Funguar     | SleepShroom
+Wild Sheep         | Sheep's Wool
+Goblin Thug        | Beast Man Coin
+Goblin Weaver      | Beast Man Coin
+Goblin Fisher      | Willow Fishing Rod
+Goblin Digger      | Pick Axe
+Enchanted Bones    | Bone Chip
+River Crab         | Rock Salt
+Mouse Bat          |
+Pugil              | Fish Scales
+Ding Bats          |
+Scarab Beetle      |
+Giant Sheep        | Sheep Wool
+Bigmouth Billy     |
+Bomb               |
+Tainted Hound      |
+
+-----------------
+Ghelsba Outpost
+-----------------
+Monster Name         |    Steal
+=======================================================
+Orcish Fodder        | Beast Man Coin
+Orcish Grapler       | Beast Man Coin
+Orcish Mesmuriser    | Beast Man Coin
+ToadStool            | SleepShroom
+Orcish NeckChoper    | Beast Man Coin
+Orcish Grunt         | Beast Man Coin
+Orcish StoneChucker  | Beast Man Coin
+Orc StoneLauncher    |
+Cheiroptera          |
+Spectacled Bats      |
+Watch Lizard         |
+Warchief Vatgit      |
+Thousandarm Deshglesh|
+
+-----------------
+Fort Ghelsba
+-----------------
+Monster Name       |    Steal
+=======================================================
+Orcish Fodder      | Beast Man Coin
+Orcish Grapler     | Beast Man Coin
+Orcish Mesmuriser  | Beast Man Coin
+Orcish NeckChoper  | Beast Man Coin
+Orcish Grunt       | Beast Man Coin
+Orcish StoneChucker| Beast Man Coin
+Orc StoneLauncher  |
+Orc CurseMaker     | Silver Beast Coin
+Orc Fighter        | Silver Beast Coin
+Orc Seargent       | Silver Beast Coin
+Hundredscar Hajwaj |
+Cheiroptera        |
+Spectacled Bats    |
+
+-----------------
+Yughott Grotto
+-----------------
+Monster Name       |    Steal
+=======================================================
+Orcish NeckChoper  | Beast Man Coin
+Orcish StoneChucker| Beast Man Coin
+Orcish Grunt       | Beast Man Coin
+Orc CurseMaker     | Silver Beast Coin
+Orc Fighter        | Silver Beast Coin
+Orc Seargent       | Silver Beast Coin
+Stealth Bat        |
+Grotto Bats        |
+Sentry Lizard      |
+Ashmaker Gotblut   |
+Riding Lizard      |
+
+-----------------
+Ranperre's Tomb
+-----------------
+Monster Name       |    Steal
+=======================================================
+Goblin Thug        | Beast Man Coin
+Goblin Weaver      | Beast Man Coin
+Goblin Mugger      | Silver Beast Coin
+Goblin Leecher     | Silver Beast Coin
+Goblin Gambler     | Silver Beast Coin
+Carrion Worm       | Pebble
+Enchanted Bones    | Bone Chip
+Goblin Tinkerer    | Beast Man Coin
+Goblin Butcher     | Beast Man Coin
+Goblin Ambusher    | Crossbow Bolt
+Mouse Bat          |
+Ding Bats          |
+Wind Bats          |
+Grave Bat          |
+Funnel Bats        |
+Plague Bats        |
+Tomb Bat           |
+Spook              |
+Cemetery Cherry    |
+Cherry Sapling     |
+Crypt Ghost        |
+Goblin Bandit      |
+Goblin Bouncer     |
+Goblin Enchanter   |
+Goblin Gruel       |
+Goblin Hunter      |
+Goblin Raider      |
+Goblin Shepherd    |
+Goblin's Beetle    |
+Nachzehrer         |
+Stone Eater        |
+Thousand Eyes      |
+
+=====================
+Zulkheim Area:
+=====================
+
+
+----------------
+La Thein Plateau
+----------------
+Monster Name       |    Steal
+=======================================================
+Steppe Hare        | La Theine Cabbage
+Akbaba             | Bird Feather
+Goblin Thug        | Beast Man Coin
+Goblin Weaver      | Beast Man Coin
+Goblin Digger      | Pick Axe
+Goblin Fisher      | Willow Fishing Rod
+Orcish Fodder      | Beast Man Coin
+Orcish Grapler     | Beast Man Coin
+Orcish Mesmuriser  | Beast Man Coin
+Orcish NeckChoper  | Beast Man Coin
+Orcish Grunt       | Beast Man Coin
+Orcish StoneChucker| Beast Man Coin
+Grass Funguar      | Sleepshroom
+Poison Funguar     | Sleepshroom
+ThickShells        | Rock Salt
+Strolling Sapling  |
+Mad Sheep          | Sheep Wool
+Rock Eater         | Pebble
+Huge Wasp          | Honey
+Battering Ram      | Sheep's Wool
+Goblin Tinkerer    | Beast Man Coin
+Goblin Butcher     | Beast Man Coin
+Goblin Ambusher    | Crossbow Bolt
+Air Elemental      |
+Water Elemental    |
+Acro Bat           |
+Gale Bats          |
+Ghost              |
+Grenade            |
+Bloodtear Baldurf  |
+Lumbering Lambert  |
+Plague Bats        | 
+Poison Bat         |
+Poltergeist        |
+Skeleton Sorcerer  | Bone Chip
+Skeleton Warrior   | Bone Chip
+Wolf Zombie        |
+
+----------------
+Ordelle's Caves
+----------------
+Monster Name       |    Steal
+=======================================================
+Goblin Mugger      | Silver Beast Coin
+Goblin Leecher     | Silver Beast Coin
+Goblin Gambler     | Silver Beast Coin
+Goblin Tinkerer    | Beast Man Coin
+Goblin Butcher     | Beast Man Coin
+Goblin Ambusher    | Crossbow Bolt
+Stink Bats         |
+Hognosed Bat       |
+Stroper            |
+Snipper            |
+Blood Bunny        |
+Water Elemental    |
+Air Elemental      |
+Stroper Chyme      |
+Goblin Shaman      | Silver Beast Coin
+Goblin Smithy      | Silver Beast Coin
+Goblin PathFinder  | Silver Beast Coin
+Goblin Furrier     | Crossbow Bolt
+Jelly              |
+Fly Agaric         |
+Ancient Bat        |
+Seeker Bats        |
+Will-o'-the-Wisp   | 
+Air Elemental      |
+Water Elemental    |
+Dung Beetle        |
+Goliath Beetle     |
+Morbolger          |
+Napalm             |
+Poison Leech       |
+Slash Pine         |
+Snipper            | Rock Salt
+Stroper            |
+Stroper Chyme      |
+Vorpal Bunny       |
+
+
+----------------
+Valkrum Dunes
+----------------
+Monster Name       |    Steal
+=======================================================
+Goblin Mugger      | Silver Beast Coin
+Goblin Leecher     | Silver Beast Coin
+Goblin Gambler     | Silver Beast Coin
+Goblin Tinkerer    | Beast Man Coin
+Goblin Butcher     | Beast Man Coin
+Goblin Ambusher    | Crossbow Bolt
+Sand Hare          | La Thein Cabbage
+Goblin Digger      | Pick Axe
+Damselfly          |
+Snipper            | Rock Salt
+Bogy               |
+Thread Leach       |
+Brutal Sheep       | Sheep Wool
+Hill Lizard        |
+Earth Elemental    |
+Fire Elemental     |
+Ghoul              |
+Giant Bat          |
+Night Bats         |
+Star Bat           |
+Golden Bat         |
+Valkurm Emperor    |
+Will-o'-the-Wisp   |
+
+----------------
+Konschtat Highlands
+----------------
+Amber Quadav        |
+Amethyst Quadav     |
+Earth Elemental     |
+Ghost               |
+Goblin Tinkerer     | Beast Man COin
+Goblin Butcher      | Beast Man Coin
+Goblin Ambusher     | Crossbow Bolt
+Goblin Thug         | Beast Man Coin
+Goblin Weaver       | Beast Man Coin
+Goblin Digger       | Pick Axe
+Greater Quadav      |
+Grenade             |
+Huge Wasp           | Honey
+Mad Sheep           | Sheep Wool
+Mist Lizard         | 
+Onyx Quadav         |
+Poltergeist         |
+Rampaging Ram       |
+Rock Eater          | Pebble
+Skeleton Sorcerer   | Bone Chip
+Skeleton Warrior    | Bone Chip
+Steelfleece Baldrich| 
+Stray Mary          |
+Strolling Sapling   |
+Thunder Elemental   |
+Tremor Ram          |
+Veteran Quadav      |
+Wolf Zombie         |
+Young Quadav        |
+
+----------------
+Gusgen Mines
+----------------
+Monster Name       |    Steal
+=======================================================
+Amphisbaena        |
+Asphyxiated Amsel  |
+Bandersnatch       |
+Banshee            |
+Bogy               |
+Burned Bergmann    |
+Crushed Krause     |
+Earth Elemental    |
+Feu Follet         |
+Fly Agaric         | 
+Foul Meat          |
+Gallinipper        |
+Ghast              |
+Ghoul              |
+Jelly              |
+Juggler Hecatomb   |
+Mauthe Doog        |
+Myconid            |
+Ore Eater          |
+Pulverized Pfeffer |
+Sadfly             |
+Skeleton Warrior   | Bone Chip
+Smothered Schmidt  |
+Spunkie            |
+Thunder Elemental  |
+Wendigo            |
+Wight              |
+Wounded Wurfel     |
+
+
+=================
+Norvallen Area:
+=================
+
+----------------
+Jugner Forest
+----------------
+Monster Name       |    Steal
+=======================================================
+Goblin Mugger      | Silver Beast Coin
+Goblin Leecher     | Silver Beast Coin
+Goblin Gambler     | Silver Beast Coin
+Goblin Tinkerer    | Beast Man Coin
+Goblin Butcher     | Beast Man Coin
+Goblin Ambusher    | Crossbow Bolt
+Orcish NeckChoper  | Beast Man Coin
+Orcish StoneChucker| Beast Man Coin
+Orcish Grunt       | Beast Man Coin
+Orc CurseMaker     | Silver Beast Coin
+Orc Fighter        | Silver Beast Coin
+Goblin Digger      | Pick Axe
+Orc Seargent       | Silver Beast Coin
+Forest Tiger       | Giant Sheep Meat
+Snipper            | Rock Salt
+Bogy               |
+Forest Funguar     |
+Thread Leach       |
+Walking Tree       |
+Stag Beetle        |
+Brutal Sheep       | Sheep Wool
+
+----------------
+Batallia Downs
+----------------
+Monster Name       |    Steal
+=======================================================
+Ba                 | Bird Feather
+Goblin Shaman      | Silver Beast Coin
+Goblin Smithy      | Silver Beast Coin
+Goblin PathFinder  | Silver Beast Coin
+Goblin Furrier     | Crossbow Bolt
+Goblin Mugger      | Silver Beast Coin
+Goblin Leecher     | Silver Beast Coin
+Goblin Gambler     | Silver Beast Coin
+Goblin Digger      | Pick Axe
+Orcish Brawler     | Silver Beast Coin
+Orcish Impaler     | Silver Beast Coin
+Orcish NightRaider | Silver Beast Coin
+Orcish BeastRider  | Silver Beast Coin
+SaberTooth Tiger   | Land Crab Meat (*)
+Clipper            | Rock Salt
+
+
+----------------
+Davoi
+----------------
+Monster Name       |    Steal
+=======================================================
+Orc CurseMaker     | Silver Beast Coin
+Orc Fighter        | Silver Beast Coin
+Orc Seargent       | Silver Beast Coin
+Orcish Brawler     | Silver Beast Coin
+Orcish Impaler     | Silver Beast Coin
+Orcish NightRaider | Silver Beast Coin
+Orcish BeastRider  | Silver Beast Coin
+
+
+=================
+Qufim Area:
+=================
+
+----------------
+Qufim Island
+----------------
+Monster Name       |    Steal
+=======================================================
+Clipper            | Rock Salt
+Greater Pugil      | Fish Scales
+Wight              |
+Banshee            |
+Giant Hunter       |
+Giant Ranger       |
+Kraken             | 
+
+
+=================
+Windurst Area:
+=================
+
+Monster Name       |      Area Encountered       |    Steal
+======================================================================
+Mandragora         | East, West SarutaBaruta     | Saruta Cotton
+Tiny Mandragora    | East, West SarutaBaruta     | 2 leaf Mandragora bud
+Carrion Crow       | East, West SarutaBaruta     | Bird Feather
+Yagudo Scribe      | East, West SarutaBaruta,    | Beast Man Coin
+                   | Gideus, Tahrongi Canyon     |
+Yagudo Initiate    | East, West SarutaBaruta,    | Beast Man Coin
+                   | Gideus, Tahrongi Canyon     |
+Yagudo Mendicant   | East, West SarutaBaruta,    | Beast Man Coin
+                   | Gideus, Tahrongi Canyon     |
+Yagudo Persecutor  | East, West SarutaBaruta,    | Beast Man Coin
+                   | Gideus, Tahrongi Canyon     |
+Huge Wasp          | East, West SarutaBaruta     | Pot of Honey
+Sylvestre          | Buburimu Peninsula          | Saruta Cotton
+Pygmaioi           | Tahrongi Canyon             | Saruta Cotton
+Savanna Rarab      | East, West SarutaBaruta     | Wild Hare Meat
+Yagudo Preist      | Gideus, Meriphataud         | Silver Beast Coin
+                   | Mountains, Sauromugue       |
+                   | Champaign                   |
+Yagudo Votary      | Gideus, Meriphataud         | Silver Beast Coin
+                   | Mountains, Sauromugue       |
+                   | Champaign                   |
+Yagudo Theologist  | Gideus, Meriphataud         | Silver Beast Coin
+                   | Mountains, Sauromugue       |
+                   | Champaign                   |
+
+
+=================
+Bastok Area:
+=================
+
+Monster Name       |     Area Encountered        |    Steal
+======================================================================
+Land Worm          | Koroloka Tunnel             | Flint Stone
+Jelly              | Koroloka Tunnel             |
+Giant Spider       | Koroloka Tunnel             |
+Combat             | Koroloka Tunnel             |
+Seeker Bats        | Koroloka Tunnel             |
+
+
+
+=======================
+Ship Seilbina<->Mhaura
+=======================
+Monster Name       |    Steal
+=======================================================
+Sea Pugil          | Fish Scales
+Sea Crab           | Rock Salt
+Crossbones         | Bone Chip
+Ship Wight         |
+Ocean Pugil        | Fish Scales
+Ocean Crab         | Rock Salt
+Sea Monk           |
+Phantom            |
+Sea Horror         |
+Thunder Elemental  |
+Water Elemental    |
+
+
+---------------------------------------------------------------------
+Monster List (By Monster Type)
+---------------------------------------------------------------------
+
+=================
+Rabbits:
+=================
+Wild Rabbit        | San d'Orian Carrot
+Forest Hare        | San d'orian Carrot
+Steppe Hare        | La Theine Cabbage
+Sand Hare          | La Theine Cabbage
+Blood Bunny        |
+Savanna Rarab      | Wild Hare Meat
+
+=================
+Worms:
+=================
+Tunnel Worm        | Pebble
+Carrion Worm       | Pebble
+Rock Eater         | Pebble
+Land Worm          | Flint Stone
+Ore Eater          |
+
+
+=================
+Orcs:
+=================
+Orcish Fodder      | Beast Man Coin
+Orcish Grapler     | Beast Man Coin
+Orcish Mesmuriser  | Beast Man Coin
+Orcish NeckChoper  | Beast Man Coin
+Orcish Grunt       | Beast Man Coin
+Orc StoneLauncher  |
+Orc CurseMaker     | Silver Beast Coin
+Orc Fighter        | Silver Beast Coin
+Orc Seargent       | Silver Beast Coin
+Orcish Brawler     | Silver Beast Coin
+Orcish Impaler     | Silver Beast Coin
+Orcish NightRaider | Silver Beast Coin
+Orcish BeastRider  | Silver Beast Coin
+
+=================
+Goblins:
+=================
+Goblin Thug        | Beast Man Coin
+Goblin Weaver      | Beast Man Coin
+Goblin Tinkerer    | Beast Man COin
+Goblin Butcher     | Beast Man Coin
+Goblin Ambusher    | Crossbow Bolt
+Goblin Shaman      | Silver Beast Coin
+Goblin Smithy      | Silver Beast Coin
+Goblin PathFinder  | Silver Beast Coin
+Goblin Furrier     | Crossbow Bolt
+Goblin Mugger      | Silver Beast Coin
+Goblin Leecher     | Silver Beast Coin
+Goblin Gambler     | Silver Beast Coin
+Goblin Robber      |
+Goblin Reaper      |
+Goblin Fisher      | Willow Fishing Rod
+Goblin Digger      | Pick Axe
+
+=================
+Crabs:
+=================
+Clipper            | Rock Salt
+River Crab         | Rock Salt
+Snipper            | Rock Salt
+Sea Crab           | Rock Salt
+Ocean Crab         | Rock Salt
+ThickShells        | Rock Salt
+
+=================
+Pugils:
+=================
+Pugil              | Fish Scales
+Ocean Pugil        | Fish Scales
+Greater Pugil      | Fish Scales
+Sea Pugil          | Fish Scales
+
+=================
+Funguars:
+=================
+Forest Funguar     | SleepShroom
+ToadStool          | SleepShroom
+Grass Funguar      | Sleepshroom
+Poison Funguar     | Sleepshroom
+Forest Funguar     |
+Fly Algaric        |
+
+
+=================
+Skeletons:
+=================
+Enchanted Bones    | Bone Chip
+Skeleton Warrior   | Bone Chip
+Ghoul              |
+Wendigo            |
+Crossbones         | Bone Chip
+
+=================
+Bats:
+=================
+Mouse Bat          |
+Ding Bats          |
+Wind Bats          |
+Grave Bat          |
+Stealth Bat        |
+Grotto Bats        |
+Stink Bats         |
+Hognosed Bat       |
+Combat             |
+Seeker Bats        |
+Ancient Bat        |
+Cheiroptera        |
+Spectacled Bats    |
+Funnel Bats        |
+Plague Bats        |
+Poison Bat         |
+Tomb Bat           |
+Acro Bat           |
+Gale Bats          |
+Giant Bat          |
+Night Bats         |
+Star Bat           |
+Golden Bat         |
+
+=================
+Sheep:
+=================
+Giant Sheep        | Sheep Wool
+Mad Sheep          | Sheep Wool
+Brutal Sheep       | Sheep Wool
+Battering Ram      | Sheep Wool
+
+=================
+Birds:
+=================
+Akbaba             | Bird Feather
+Carrion Crow       | Bird Feather
+Ba                 | Bird Feather
+
+=================
+Mandragoras:
+=================
+Mandragora         | Saruta Cotton
+Tiny Mandragora    | 2 leaf Mandragora bud
+Sylvestre          | Saruta Cotton
+Pygmaioi           | Saruta Cotton
+
+=================
+Ghosts:
+=================
+Spook              |
+Banshee            |
+Bogy               |
+Phantom            |
+
+=================
+Yagudo:
+=================
+Yagudo Scribe      | Beast Man Coin
+Yagudo Initiate    | Beast Man Coin
+Yagudo Mendicant   | Beast Man Coin
+Yagudo Persecutor  | Beast Man Coin
+Yagudo Preist      | Silver Beast Coin
+Yagudo Votary      | Silver Beast Coin
+Yagudo Theologist  | Silver Beast Coin
+
+=================
+Quadav:
+=================
+Emerald Quadav     | Mithral Beast Coin
+Iron Quadav        | Mithral Beast Coin
+
+
+
+---------------------------------------------------------------------
+Coming Soon
+---------------------------------------------------------------------
+More Windurst and Bastok area.
+Altepa and Kazham area sections.
+Organize better. =P
+add (*)s for difficult steals.
+
+
+---------------------------------------------------------------------
+Legal Stuff
+---------------------------------------------------------------------
+This FAQ is copyright (C)2003 by Dan Deline. Final Fantasy (R) XI: Online
+is copyright by Square-Enix (TM). This document is completely free so you nor
+anybody else can sell it, reproduce it in any way, shape, or form or post this
+FAQ on any website. The information is this document is all part of
+Final Fantasy (R) XI: Online and is property of Square-Enix (TM). I am not
+part of Square-Enix in any way, shape, or form. The only relation I have to
+Square-Enix (TM) is being a fan of their games.
+

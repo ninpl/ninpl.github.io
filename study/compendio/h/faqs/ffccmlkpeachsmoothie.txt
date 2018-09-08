@@ -1,0 +1,678 @@
+
+-------------------------------------------------------------------------------
+ Final Fantasy Crystal Chronicals: My Life as a King Tips and Tricks FAQ
+-------------------------------------------------------------------------------
+
+Version 1.40
+First Complete Compilation 25.05.08
+*Added 3 New Tips and fixed some grammatical & spelling errors. 05.25
+*Added a New Tip regarding adventurer's stats. 06.11
+*Added a New Tip regarding morale, and corrected Two Tips regarding
+Hiring Adventurers. 06.14
+*Added a New Tip regarding daily tithes and morale; more tips to be
+added as soon as confirmed. 7.22
+*Added several New Tips regarding townspeople morale. 7.27
+
+Written by PeachSmoothie
+Do not use without giving credit. All tips and tricks listed in this FAQ were
+from my (PeachSmoothie) own experience playing the game unless otherwise noted.
+
+This FAQ can be found on the following sites:
+GameFAQs.com, Neoseeker.com, Gamesradar.com, Cheatplanet.com,
+Cheatcc.com, and Supercheats.com. If you find this FAQ anywhere else, it's
+been taken without my permission! D:
+
+
+Contact:
+If you want to contribute to this guide, feel free to contact me. I will not,
+however, answer questions that already have been asked and answered on
+other FAQs. Although, if I see the need in the future, I will add in a
+comprehensive FAQ for convience's sake. You may email at:
+verbalotus [at] hotmail [dot] com.
+
+
+
+Credits:
+Everyone on the FFCC: MLaaK GameFaqs boards who helped me figure things out,
+add in their own knowledge, and corrected some of my mistakes and
+misunderstandings. Anyone who has helped and submitted information has their
+name after the tip.
+
+
+---------------------------------------------------------------------
+xxxxx. Introduction .xxxxx
+---------------------------------------------------------------------
+
+This is a certain type of FAQ that aims at giving tips, pointers and tricks
+of how the game works. Since most FAQs answer the basic questions, this answers
+most everything else. All information here has been compiled from player
+experience. Since some things may vary from player to player, most things are
+theories backed by said experience from multiple players. If you find something
+that clearly contradicts your own experience, then I encourage you to share it
+with me via email: verbalotus [at] hotmail [dot] com.
+
+
+Don't worry, unlike other FAQs/Walkthroughs, this FAQ has no spoilers, only
+information that will help you play the game that you may not have known
+otherwise.
+
+
+---------------------------------------------------------------------
+xxxxx. Contents .xxxxx
+---------------------------------------------------------------------
+
+Section One: Did You Know?
+   - Some random information about that game that does not really fit into the
+other sections
+
+Section Two: The Town and Its People
+   - Information about Morale and the townspeople (duh)
+
+
+Section Three: Building and Layout Tips
+   - Breaking Down, Building Up
+   - Where to Put What
+   - How Many
+   - Everything Else
+
+Section Four: Adventurers!
+   - Hiring
+   - Cutting Time from Their House to the Bulletin Board
+   - Accepting Behests Regularly
+   - Taking Too Much Time Getting Ready
+   - Stats and Stat Boosting Medals
+   - Party Time
+   - Everything Else
+
+Now that's done, on with the FAQ! :D
+
+
+---------------------------------------------------------------------
+xxxxx. Section One: Did You Know? .xxxxx
+---------------------------------------------------------------------
+
+- When adventurers do information search behests and they find gil in houses,
+they give that money to the King so it can be spent on the city and its
+people. They don't keep it for themselves. How admirable, stealing from the
+poor and giving to the rich.
+
+- Some dungeons shape-shift, resetting the exploration rate to 0 everyday.
+Usually sending in a thief with both Inner Compass and Mapper (some say
+Pathfinder) abilities will get it to stop shape-shifting, sometimes it doesn't.
+Many people report problems like this with the second Black Mage Academy
+dungeon. Unfortunately, it's normal, and you can either keep trying day after
+day by sending in one thief, or a group of thieves until it stops.
+
+- There are a few high leveled boss monsters that roam about the map, and
+appear in dungeons randomly. One time Orth Bridge, a level 15 dungeon on
+Normal mode was visited by a level 100 boss called Brutal Wolf.
+
+- The easiest way to make money is to utilize the morale spheres. You can even
+make more money when your town has more people and you can post a holiday. You
+will get a morale boost, and run and talk to as many people as you can to fill
+up your spheres. The most I was able to get was an extra 1200 gil.
+
+- You do not have to play New Game+ on Hard/Very Hard mode. You can play it
+again in normal mode if you wish, but there are some dungeons that unlock
+buildings that are exclusive to Hard/Very Hard.
+
+- Your final game ranking can be B (lowest), A, S, SS, or SSS (highest). The
+ranking is the average of three different categories: First is how many
+dungeons cleared and how many days, Second is how much morale and other
+citizen happiness, and Third is adventurer levels and such. Each individual
+category gets a B - SSS ranking too.
+
+- If you watch the title screen go into "demo mode", the town that the camera
+surveys while the story dialogue is fading in and out is your town.
+*Submitted by Llamacopter.
+
+- Pressing the B button will change the camera to Leo's point of view, unless
+it's a narrow corridor, then it'll change it slightly to the right or left. At
+that point you can keep clicking until the camera is his full point of view.
+
+- Holding down the B button and moving the D pad will move the camera around.
+This applies to anywhere, not just the lookout tower.
+
+- You can push the - (minus) button to summon Chime instead of waving your
+remote.
+
+- If you dismantle a Bakery, Weapon, Armor or Item shop and rebuild it, it
+will have a different owner name of the shop.
+
+
+---------------------------------------------------------------------
+xxxxx. Section Two: The Town and Its People .xxxxx
+---------------------------------------------------------------------
+
+- Sir Hugh Yurg won't take off his helmet because of a battle scar. Even though
+it's hardly noticable he's very sensitive about it, and doesn't want anyone to
+see.
+
+- Some ladies in town think the Dark Lord was actually a very handsome male
+Selkie. :O
+
+- Later on in the game, after your town has become an Empire, you'll be able
+to acquire Citizen Behests, which after its completion, will give you a morale
+bonus of approximately 50%. To get these, you must wait for Mogmune to walk out
+from the castle around 11am - Noon and talk to him. He sings a song with a
+townsperson name in red, that is the person you must talk to. They will be
+standing outside of their house for that day. Speak to him/her and you will
+find out something is lost in the town. You will then be able to post the
+behest the next morning.
+*Tip help from Mario Cleanstuff
+
+- Sometimes when you're running by your townspeople, they will stop to bow to
+you. After they've finished, some of them will stand there ready to be spoken
+to. You will miss it if you keep running.
+
+- At times you'll see townspeople talking to each other and they will have the
+green talk bubble too. When they finish talking, their morale will go up, and
+then you can talk to them to get more morale.
+
+- Neighbors and townspeople often times visit each other, and you can actually
+look at their information to see who's a close friend and who's been distant.
+This neat detail can help you stalk a person whose family morale you want to
+improve.
+*Tip help from Tahngarthor.
+
+- Some people rarely come out of their house, but will venture out during a
+particular time of the day every few days. You might have to stalk them if you
+want to talk to them to raise their morale.
+
+- When you dismantle a house, its inhabitants stay in the castle until you
+build another house of the same plot size. Although very rare, sometimes they
+get glitched and they just stay in your castle and lose their relationships
+with neighbors and family.
+*Submitted by Fanatic03
+
+- The only way to stay out later is to summon Chime and tell her
+"Raise Morale!" During this period, if you talk to your citizens, you will
+receive a message saying family relationships have improved. You will not stay
+out later by talking to citizens during periods without any morale boost,
+during holidays, or during "bonus morale" activated by defeating bosses.
+*Submitted by LlamaCopter.
+
+- Morale bonus gil depends on your level of development. First stage is 20 gil
+per sphere, second is 40, third is 60 and so on. At the last stage it's
+120 gil per sphere.
+*Tip help from Mario Cleanstuff and Ice_Shield.
+
+- The amount of Tithes you can earn per a day can vary greatly depending
+on overall morale. The more time you spend "boosting" morale and maxing
+the happiness of houses, the more you'll earn in tithes in addition to the
+morale bonus.
+
+- Sometimes only one person will venture out of the house in a given
+family, raising this person's morale over and over will not max the
+family's happy meter, you must talk to at least two people of the
+same family.
+
+- You can only stay out after dusk when families have their happiness
+meters maxed, those houses will opt to turn on their porch light. Though,
+only Clavat houses have a porch light so you can see which families are
+happiest.
+
+- You can see which Clavat houses are happiest when they've installed a
+porch light and have planted flowers outside their door or near a window.
+Some will have ivy hanging down the side of their house.
+
+- Staying out later does have its advantages when it comes to raising
+families' morale and trying to make extra money on holidays. Some people
+only come out at night, and during a holiday you can talk to more people
+since you have more time.
+
+- Some townspeople rarely leave their house, therefore making it nearly
+impossible to boost their morale. One way to solve this is to move their
+house. Some people like being near a friend, a park, a bakery, or a certain
+area of the kingdom.
+
+- If a family doesn't leave their house, declare a holiday. These people will
+venture out at least once during this time. If you're aiming to raise morale,
+now is a good time to call Chime to do so. The happier the family is, the more
+likely they'll leave their house. You'll just have to forgo the morale frenzy
+for a few holidays.
+
+- When the morale frenzy is in effect, and you call Chime to raise morale,
+it will override the boost and talking to people will add morale at a
+normal rate instead of 2x.
+
+- The easiest way to earn morale in the beginning of the game when you don't
+have a lot of residents is to talk to your adventurers everyday when they
+leave to explore and when they've returned from exploration. When they've
+returned, you can only talk to them before they go to the castle to get their
+pay, you cannot talk to them after that until the next day.
+
+- You can only talk to adventurers before and after their mission ONLY if
+they've left town. If they're in town gathering information, you won't be
+able to talk to them.
+
+
+---------------------------------------------------------------------
+xxxxx. Section Three: Building and Layout Tips .xxxxx
+---------------------------------------------------------------------
+
+======================================
+Part A - Breaking Down, Building Up
+======================================
+
+
+- After you've first built a house, go inside. Sometimes the family's
+happiness meter is already maxed, and they will give you a medal.
+
+- When more than one house is dismantled and then rebuilt, the family's house
+that was dismantled first wil be rebuilt first, and continues in that order.
+Helpful if you want to place your adventurers close together.
+
+- If you dismantle a small house and then build a large house, that family
+will move into the large house.
+
+- You can only dismantle 5 buildings in one day.
+
+- You can only build 10 buildings in one day.
+
+- In New Game+'s Hard or Very Hard mode, you can get Large Houses from the Orc
+Keep dungeon (appears after the Janktra Plains dungeon). Two Large houses will
+give more gil than one Spacious house, a great way to get more Tithes from your
+townspeople if you haven't reached your house limit.
+*Tip help from GameguruVIII.
+
+-Large Houses can only be obtained in Hard and Very Hard Mode. They do not
+stay unlocked, therefore can never be used in Normal difficulty.
+*Submitted by Final_Cataclysm.
+
+
+============================
+Part B: Where to Put What
+============================
+
+- A good layout will help decrease the time it takes for your adventurers to
+get ready before exploration. They do visit a lot of shops before leaving!
+
+- When placing buildings, it's good to remember which shops are universal for
+each race and make those easily reachable for everyone. Some can be tucked
+away further, like the mage schools since only mages would ever buy abilities
+there.
+
+- After the pay raise and adventurer number cap is maxed, the guild hall's
+only remaining benefit is keeping the cost of behests down. But most likely at
+that time, money shouldn't be a problem, and if you have more than one bulletin,
+it'll keep the cost down too.
+
+- Placing houses next to a building will influence the medals the family gives
+out (i.e. placing houses next to white magic schools will cause the families
+to give out mainly holy and restoration medals).
+*Submitted by Llamacopter.
+
+- It is assumed that placing adventurers' homes next to training schools will
+influence adventurers stats as they level more than their job's stat influence.
+Placing them by the Training Hall raises their Strength (and maybe Toughness);
+by the Gaming Hall raises their Dexterity and Agility; by the White Magic
+School raises Willpower, and by the Black Magic School raises Intelligence.
+*Submitted by Llamacopter, added help from PeachSmoothie and Ice_Shield.
+
+- Beginning stats of a Novice Adventurer can be influenced by certain buildings
+near their house. The bonus stats only applies to your future adventurer --
+once hired then no more stat bonus no matter where adventurer lives.
+*Submitted by Goldhorizon.
+
+- Placing the Emporium near shops will not do anything like Mogiosh the
+Moogle says it would. It will just make item shops sell torches/survival
+items. Emporiums are for residential areas, and are meant to draw out
+townspeople from their homes to shop. It's kind of like a bakery, they get a
+double morale boost after they've gone shopping.
+*Tip help from LlamaCopter and starmilski13.
+
+- Placing Weapon and Armor shops further from most of the houses encourages
+them to be "experimental" to attract customers. These are the Weapon Name X
+and Armor Name X items you see during their big sales day. Often time they
+have a great stat bonus and minus.
+
+
+===================
+Part C: How Many
+===================
+
+
+- Shrines and Fountain parks work very similarly in that adventurers can use
+either to relax in the morning. Often time, if there's a fountain park near
+a shrine, they will opt to use the fountain instead. Although, adventurers
+will never wait at a shrine for a pep talk from the king like they would at
+a fountain, shrines can also temporarily boost a party leader's stat or
+refill max hp who is out exploring. A great tool for fighting bosses.
+But as long as you have a fountain park, adventurers will go there
+periodically and wait for a pep talk from the king.
+
+- If you're only planning on having 4 - 8 adventurers total, you most likely
+won't need three taverns.
+
+- More than likely, you won't need three bulletin parks in your town.
+
+- If you keep your adventurers' houses close together, you won't need more
+than one fountain. One fountain close to them would be enough.
+
+- Adding an Inn is not completely necessary. Since adventurers that appear at
+the Inn are a few levels higher than your highest guys, some people like the
+extra help. However, an Inn adds the Holy Abilities to the White Mage Temple
+and the Enfeebling Abilities to the Black Mage Academy.
+*Submitted by Fanatic03.
+
+- Some people don't keep the first weapon shop anymore because they prefer
+axes and hammers over swords.
+
+
+==========================
+Part D: Everything Else
+==========================
+
+
+- Bulletin and Fountain parks have 3 different landscaping. The first one you
+build will only be trees. Second one will only be flowers. Third will be trees
+and flowers. And it cycles those 3 in that order every time. Don't like just
+trees? Dismantle it and rebuild it and the second one with flowers will appear.
+
+- All three Shrines are different. The first shrine is Shrine of Power and
+boosts Strength and Toughness when you pray to it. Second shrine is Shrine of
+Knowledge and boosts Willpower and Intellect when you pray to it.
+Third shrine is Shrine of Life when replenishes HP to max. They will appear
+in that order when you build them, and you can only pray to them once a day.
+
+- In normal mode, luxurious houses (from DLC) are obtained from a level 40
+dungeon, but on very hard mode the dungeon is level 100. That is not a typo.
+Get the luxurious houses before starting a new game+, or else you won't get
+them until after you've beaten everything else and can't enjoy them!
+*Submitted by Furio
+
+- When funding shops, make sure you don't over fund! When a shop has a special
+sales day, he'll have the maximum level of the item for sale with a suffix of
+X (great stat bonus and minus, usually around 19 - 29). Adventurers generally
+only equip and buy items no higher than 7 levels of theirs. So if you fund
+your shops all the way to level 60 items and your adventurers are only level
+30, they won't be able to take advantage of the great sale and bonused items.
+
+
+---------------------------------------------------------------------
+xxxxx. Section Four: Adventurers! .xxxxx
+---------------------------------------------------------------------
+
+==================
+Part A: Hiring
+==================
+
+
+- If you have the 3 extra races, their beginning stats total 37 points, while
+Clavats only get 35 points. That puts the Lilties, Yukes, and Selkies in a
+very slight advantage. But that's why they are specialized and cannot change
+jobs like Clavats can.
+
+- Be aware of when you hire your group of adventurers since they all have to
+start from level 1. If you don't mind them varying greatly in levels from one
+another, then it doesn't matter. However if you like them being around the same
+level, try to hire them in groups of 2 or 4. Lower leveled adventurers
+sometimes tell the king they want to be as powerful as their peers so they can
+battle together. And they sometimes use the training hall to catch up as fast
+as they can.
+
+- All the adventurers you've hired in your first play through will carry over,
+and you cannot fire them. These adventurers will show up on every New Game+
+even if you don't hire them! So if you hired 5 Selkies the first time, then the
+second time only hired 2, on the third play through you will see the same 5
+Selkies you originally hired!
+
+- In New Game+, your previous adventurers appear back in town in a random
+order, but generally appear in the first few houses you build so you won't
+have to keep building houses.
+*Tip help from LlamaCopter.
+
+- If you want a good group of adventurers in your New Game+, try to make
+sure each adventurer gets a few stat boosting medals, so this way they have
+an advantage in Hard/Very Hard mode. This is easier to accomplish with a
+smaller amount of adventurers, since you're limited to the amount of medals
+you can give out during one play through.
+
+
+===============================================================
+Part B: Cutting Time from Their House to the Bulletin Board
+===============================================================
+
+
+- You can commission all adventurers who are interested in the behest before
+they even leave their house. Just run to the board and select Choose an
+Adventurer to see the list of interested people, then you can select
+individually, or commission them all. Some will still stop by the board,
+while others won't and just start to shop without needing to be partied.
+
+- If you use the above method, and the party leader is tired, the party won't
+be available to take on the behest, and will do their own thing. If other
+party members are tired, they will just take the day off and go gamble or
+rest at home. Individuals not in a party will do the same if tired, so you
+won't have to wait for them at the bulletin, see their blue sad face and tell
+them to rest.
+*Tip help from FranckKnight and Ice_Shield.
+
+- Only the party leader actually visits the board and will go to the behest
+that interests him or her the most if there's more than one.
+
+
+=======================================
+Part C: Accepting Behests Regularly
+=======================================
+
+
+- The morale of your adventurers is VERY important! Talk to them before they
+leave and if you can, when they return. Talk to them when they're resting at
+home after a KO. Make sure you post some behests for lower level adventurers
+to complete too, since completing them boosts their morale. Place a fountain
+park or a shrin they can visit in the morning as close to their house as
+possible. If you do all this, they won't be sad or exhausted very often or at
+all, will only need to give them a pep talk at the fountain park once in a
+long while, and will not skip out on your behests!
+
+- Raise the pay rank to 4 as soon as possible!
+
+- Put a Shrine or fountain near their house so they can refresh in the morning.
+
+- Declare a National Holiday and give them the day off.
+
+- Try posting only one behest instead of two or three.
+
+
+==============================================
+Part D: Taking Too Much Time Getting Ready
+==============================================
+
+
+- Check out the Building/Layout Tips.
+
+- Sometimes an adventurer will stand outside a shop with the Green Talk
+bubble. Talk to them as fast as you can. They will stand there for about 10
+seconds. When you have a tavern, everyone goes there to meet and one person
+running behind will hold up the whole party. Plus, they may stand outside of
+more than one shop, so that's a lot of time wasted!
+
+- If they come back early or before dusk often, they might need some torches.
+Torches help adventurers stay out later at dungeons instead of returning home
+early when it's dusk. The higher the torch level, the higher the dungeon they
+can explore at night.
+
+- Adventurers don't always go to every shop, sometimes they only stop by one
+or two. When funding research for higher level items, try not to fund too many
+different stores at one time, since that forces adventurers to check those
+shops the next day.
+
+- If adventurers take too much time to get ready, they'll tend to "Return
+Early" from a dungeon. They generally like to come back around dusk if they
+don't have torches, so make sure you plan your layout well and employ the
+aforementioned tips. I find my adventurers leave town around 1pm - 2pm and
+return around 4pm - 5pm while completing the behest.
+
+
+=========================================
+Part E: Stats and Stat Boosting Medals
+=========================================
+
+
+- In New Game+, you won't see your previous adventurer's added stats or
+bonuses until you have hired them. This means you'll only see their stats as
+a novice when you first build the house. After recruitment, the stats will
+reflect what they've gained through medals.
+
+- Max stats can surpass 100. And you can play one new game+ file over and over
+so your adventurer's medals carry over. That's crazy.
+*Tip help from Tahngarthor and White Tiger Shiro.
+
+- At first, the stat medals adventurers can receive will only be +1, but as
+the adventurers' levels grow, the medals can go up to who knows how high!
+Highest so far reported was +17 by Viewtiful_Jon.
+*Submitted by LlamaCopter, Ice_Shield, Furio, Aladrin and Viewtiful_Jon.
+
+- The Stat+ medals you get to use in New Game+ is actually the current medal
+bonus x2 (approximated). Meaning, if you'd get +5 from a Strength Medal, you
+can get +10 or +11 from a Strength+ Medal.
+*Submitted by Takk00.
+
+- This is uncertain, however, the Stat Bonus you get when beating a Dungeon is
+Floor(the Dungeon Level / 4). Basically a level 1-4 dungeon boss gives you +1,
+a level 5-8 gives you +2. Although I think it's more determined by the boss
+level, so a material quest's boss may provide significantly more boosts.
+(Floor means rounded down). Also the dungeon level in Very Hard mode seems to
+be Floor(2.5 * the Dungeon Level in normal).
+*Submitted by Takk00.
+
+- Sometimes you may see adventurers stats fluctuate and it's because of their
+equipment which give stat bonuses and minuses.
+
+- You can have a maximum of 9 of any medal type. If you can get another one
+from a home owner, they will tell you to come back later when you have more
+room. If that happens, you can still get a medal from another citizen, but you
+can only get one medal from one family at any given day.
+*Submitted by Final_Cataclysm.
+
+- You get + Medals from completing a game depending on your ranking at the end
+of the game.
+*Submitted by Final_Cataclysm.
+
+- Beginning stats of a Novice Adventurer can be influenced by certain buildings
+near their house. The bonus stats only applies to your future adventurer --
+once hired then no more stat bonus no matter where adventurer lives.
+*Submitted by Goldhorizon.
+
+- A White Mage Temple influences the Willpower stat while lowering strength. A
+Black Mage Academy influences Intelligence while lowering toughness. A Gaming
+Hall influences Agility while lowering Willpower.
+*Submitted by Furio.
+
+- You can influence the beginning stats of every Novice (unhired) Adventurer,
+even Adventurers that carried over to your New Game+. This means you can at
+least influence 1 to 2 more stat points to your desired stats!
+*Tip help from Furio. 
+
+
+=====================
+Part F: Party Time
+=====================
+
+
+- Partying helps you delegate or narrow down the possible canidates for medal
+rewards, since only the leader receives it. If you have a several lower level
+adventurers, have them be party leaders of higher level adventurers and defeat
+a boss. Even if the lower level dies, as long as the party beats the boss, the
+leader still gets the medal.
+
+- If the party leader is KO'ed or taking the day off to rest, the rest of the
+party will do their own thing and will not show up to any behest postings.
+
+- Party leaders will go to behests that interest them, regardless of other
+party members' levels.
+
+- Party leaders always get the medals from completing behests and boss fights,
+regardless if they're dead or alive at the end, or the one who actually did the
+killing.
+
+- Adventurers besides the party leader can get items from bosses, though the
+leader still gets the medal. One of mine just picked up a nice set of armor
+from a boss, and he was neither the leader nor the one to deal the final blow.
+*Submitted by Mario Cleanstuff.
+
+- Having your party slaughtered by a monster party several levels higher than
+the area you are exploring is rare, but completely normal.
+*Submitted by LlamaCopter.
+
+- If you use the shrines when your adventurers are out exploring, the effects
+will only apply to the party leaders. Adventurers who are soloing are
+considered as party leaders of their own one-person party.
+
+
+===========================
+Part G: Everything Else
+===========================
+
+- If you want your adventurers to gain levels, it's better to tell them to gain
+exp instead of sending them out on a behest to a dungeon of their level. You
+can even skip posting behests for that day and they will all go gain exp on
+their own by either going to a dungeon or the training hall. Contrary to what
+you may think, this way is faster than posting a behest to explore a dungeon
+to gain exp.
+
+
+- Visiting an adventurer who has died reduces the cool down time from two days
+to one.
+*Submitted by Mario Cleanstuff.
+
+- Male Yukes are exclusively black mages while female Yukes are exclusively
+white mages; they cannot switch classes. Selkies are all female thieves.
+Lilty adventurers are all male warriors. Clavats are the only race that has
+the capability to switch classes.
+*Submitted by Llamacopter.
+
+- Adventurers will go to gambling halls most often when they have a gambling
+medal. The adventurers visit the gambling hall right after getting paid for
+the day or they also go when they take the day off from adventuring.
+The gambling hall guy will say something like "Denis has been doing well
+today, I wish lady luck would smile on me like that" if anyone is in the
+building gambling, not shopping, when you talk to him. If you check
+adventurer reports at the end of the day and they went to gamble it will tell
+you how much money they won.
+*Submitted by Fanatic03
+
+- Low level adventurers are more likely to use the training hall to level up,
+especially if they are more than 5 levels below your highest leveled
+adventurer. Adventurers will usually make two trips to the training hall if
+they plan to use it to train that day. One trip will be to shop for abilities,
+the second they will return for the actual training. When they are inside to
+train, not shop, Hugh will say their name and something like they are a great
+student. Unfortunately, there's no way I know of to make someone go there to
+gain exp. You can place a house near the training hall, and try to get the
+Training Medal from it.
+*Submitted by Fanatic03
+
+- Adventurers generally won't equip weapons or armor if there is more than a
++10 level difference. They can equip anything below their level.
+*Submitted by Mario Cleanstuff.
+
+- There's a 15 turn battle limit. If your party cannot defeat a boss within
+that amount, they flee. If you sent more than one person or party there, then
+they will most likely try to finish it off.
+
+- Abilities at the Training hall are not class/job specific, only weapon
+specific. Since White Mages and Warriors can equip Hammers, both jobs are
+able to use Hammer abilities in battle. White Mage can Shock Bomb! :D
+
+- Weapons can have different suffixes denoting the added bonus. It can vary
+from +, F, T, B, X etc. (That's all I can name right now since that's all I've
+noticed myself). A + is just a numerical stat bonus of one stat. F denotes
+Fire damage, T denotes Thunder damage, B denotes Blizzard damage and X
+denotes a large bonus of one stat and an equal minus of one or two stats
+(ie +22 strength, -11 agility and -11 dexterity).
+*Tip help from Mario Cleanstuff.
+
+- Armor can have suffixes too, but most common are the X and + ones that have
+the same bonus descriptions as weapons. I have yet to see the elemental suffix
+for Armor, and no one has reported any thus far.
+
+- Sometimes a dungeon description will tell you a certain material may be
+found there. Even if the shop keeper requests for a behest for it, you have
+to fully explore the dungeon for you to obtain the material.
+
+
+--------------------------------------------------------------------------------
+

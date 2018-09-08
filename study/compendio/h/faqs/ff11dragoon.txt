@@ -1,0 +1,948 @@
+============================================================================
+= The Unofficial Dragoon Frequently Asked Questions (FAQ) List | version .06
+============================================================================
+= author: Lance | server: Ragnarok | email: LanceFFXI@hotmail.com
+============================================================================
+======================================================
+ATTENTION REGARDING FUTURE UPDATES!! ** PLEASE READ **
+======================================================
+Due to the newly implemented level cap (level 75) and introduction of new armor
+and weaponry, SOME material will be incorrect.
+
+Although I was initially working on fixing the necessary areas, certain "real
+life" events have forced my hand and I am now forced to abandon this work :(
+
+======================================================
+ATTENTION REGARDING FUTURE UPDATES!! ** PLEASE READ **
+======================================================
+
+The sole purpose of this FAQ is to provide a centralized location for answers
+and insight into this popular class.
+
+NONE of the information contained within this FAQ should be considered "the
+gospel" but rather a point of reference.
+
+Some material is "borrowed". Either from official texts or other forms of
+reference, but, *ALL* are given credit at the end of this document.
+
+In other words, if I have used something you wrote, I *WILL* give you credit.
+I'm not here for the glory, just here to help folks ^^.
+
+It is also a work in progress that I will be updating from time to time so
+please bear with me as I work out its finer details and expand it.
+
+Creative criticisms encouraged, but, please, keep it civil. Pointless flames
+will be piped to /dev/null AS WELL AS emails with questions that I have already
+answered in the FAQ.
+
+<rant>
+Yes people do email me such things i.e. "Great FAQ! What can you tell me about
+Dragoon?", "Do you plan on revising the FAQ or making additions?"
+
+No, the version number is just there for show and the comments scattered
+throughout the FAQ that says I will update are just to mess with you...
+
+*sigh* # rm /var/mail/spool/lanceffxi
+</rant>
+
+I personally play this class and have a strong affection for it. I am not an
+importer, though I am close with a few long time importers who play the Dragoon
+class at high levels. God bless them for their patience, their vision,
+encouragement and support.
+
+So, without further ado, lets get down into the nitty gritty shall we?
+
+========
+= F.A.Q.
+========
+1) What is a Dragoon?
+A: Well according to the textbook definition:
+"Masters of the lance, dragoons can command creatures known as wyverns. They
+are well renowned for their ability to leap great heights. Dragoons can use
+wyverns and their own jumping abilities to turn the tide of a battle. Wyverns
+learn more abilities as their master's level increases.
+
+Dragoon Job Abilities
+Call Wyvern: Calls a wyvern to fight by your side. Generally, a wyvern imitates
+its master's actions in combat.
+
+Examples:
+PC initiates an auto-attack; Wyvern initiates an auto-attack against the same
+target.
+PC uses a spell or weapon skill; Wyvern uses a breath attack.
+
+As a dragoon's job level increases, their wyverns will gain new abilities, such
+as the ability to heal PCs and use breath attacks of the element that will most
+damage an enemy. However, PCs cannot heal wyverns.
+
+Additionally, the abilities of the wyvern will differ depending on your
+character's support job. For example, if you have white mage as your support
+job, the wyvern will focus on healing. If your support job is warrior, the
+wyvern will focus on attacks. Dragoons use the "Dismiss" command to send their
+wyverns away."
+
+2) Ok I know that's in the book but what is a Dragoon?
+A: A Dragoon is a Dragon Knight. A fierce warrior, who is a master of the
+2handed pole arm known as the lance. Capable of summoning a dragon to fight by
+his/her side. And laying waste to the evil which dares to oppose him.
+
+3) What do you mean we can't heal our wyvern?
+A: Well that's not entirely a correct statement within the N.A. manual for FFXI.
+
+A Dragoon CAN heal its wyvern. You have to go into healing mode for it to work
+though. As Soon as you start to heal, you wyvern will land and heal right
+alongside you.
+
+But as for casting "cure" type spells or attempting to remove status ailments
+via magic, that will fail.
+
+4) So, the wyvern lasts forever?
+A: No, here's the thing. You only lose your wyvern (and need to Call) when:
+a) You die.
+b) You change job or subjob.
+c) You ride a chocobo.
+d) Your pet's HP drops below 1.
+
+5) Why won't my wyvern sit to heal when I do?
+A: It's probably under the effect of a status ailment (i.e. poison, etc). A
+good tactic to try is to start your initial attack from the rear of the monster
+(especially if you have someone tanking). That way, your wyvern can avoide
+"breath" or direction based attacks. You can also try to start the attack and
+swivel around 180 degrees so you are facing your wyvern.
+
+6) Can you please describe to us how the job for Dragoon is acquired?
+A: Most certainly. But, I must warn you that this might *spoil* the fun a bit
+as you do not get to discover it on your own.
+
+First and foremost, you must be at least level 30 in any job to acquire the
+quest.
+1.  First off, talk to either of the NPC's in Warehouse A in Port San d'Oria.
+2.  Then speak to Novalmauge in the Bostaunieux Prison in the basement of
+Chateaux Doraguille. *NOTE* Novalmauge is a guard so he will be patrolling the
+hallways. Keep looking.
+3.  Afterward, return and speak to Morjean in the Cathedral to actually start
+the quest. (He's very studious, find him by the bookshelf)
+4.  Your next task will be to go to the Shakrami Mines in the Windurst region.
+5.  When inside the Shamkrami maze, take caution. Although you may be tougher
+than the mobs, they tend to link and aggro you. What you are trying to locate
+are "Excavation Point"'s near bones.
+6.  When you actually locate one, use a pickaxe on the spot to retrieve a
+wyvern egg.
+7.  Return with your egg to Morjean in the Cathedral and tell him of your
+discovery.
+8.  You will be then asked to go to the Meriphataud Mountains and find the ???
+point on the south face at the far east section of Doragora's Spine.
+9.  Once there, you must trade the egg to this spot. *at this point the plot
+will thicken*
+10. You must then return to San d'Oria and talk to Rahal back in Chateaux
+Doraguille.
+11. At which point, you must now go to Ghelsba Outpost, and find the Hut at
+around (F-10).
+12. *MAKE SURE YOUR PARTY IS READY BEFORE USING THE DOOR* *VERY IMPORTANT*
+13. You and your party will be put face to face with the evil dragon.
+14. Upon defeat of the dragon, you will be bestowed the Dragoon Job and be
+given a choice of names for your new wyvern.
+16. Now all you gotta do is run your butt back to your Mog house and be
+magically transformed!!
+
+** NOTE **
+It has been brought to my attention by many emails that I had overlooked
+something.
+You must be allowed entry to Chateaux Doraguille via Mission 6 to do the
+Chateaux portion of the Dragoon Job Quest.
+YOU DO NOT HAVE TO *COMPLETE* MISSION 6 TO DO THE DRAGOON JOB QUEST.
+I did not catch this since I had already completed Mission 6 at the time I had
+done the Dragoon Job Quest.
+Thank you to everyone who caught it and emailed me...repeatedly. ^^
+
+7) But Lance, you didn't tell us what type of group would be strong enough to
+take this dragon on.
+A: Good point. No matter what anyone says, chances are, a full party of level
+30 players will get annihilated. What you want to do is find a *group* of at
+least level 40+ players to take this dragon on. Unless, of course, your
+Japanese is decent, you can ask a high level (preferably 60+) player to kill it
+for you. At which point you wont have to do much, just kind of sit back and
+watch ^^.
+
+8) So we can't actually name the Wyvern ourselves?
+A: No, you will be given a list of names to choose from.
+
+9) Well, can you at least tell us the names?
+A: Here are some of the names.
+Azure
+Cerulean
+Rygor <-- Almost a Trogdor! The Burninator!
+Firewing
+Delphyne
+Ember
+Rover
+Max
+Buster
+Duke
+Oscar
+Maggie
+Jessie
+Lady
+Hien
+Raiden <-- Ray-den? Rye-den?
+Lumiere
+Eisenzahn
+Pfeil
+Wuffi
+George
+Donryu
+Qiqiru
+Karav-Marav
+Oboro
+Darug-Borug
+Mikan
+Vhiki
+Sasavi
+Tatang
+Nanaja
+Khocha
+
+10) That's it?
+A: Well there is an NPC that will allow you to choose from an even larger list
+of "different" names for a fee of 9,800 Gil.
+
+If you travel to the city of Norg, you will find an NPC named Fouvia. Fouvia
+will give you this list of names to choose from:
+
+Amedeo
+Astre
+Azure
+Barom
+Belorage
+Blutkralle
+Bo
+Bodo
+Bogen
+Buster
+Celeste
+Centonnerre
+Cerulean
+Chomper
+Coco
+Courageux
+Daisy
+Darug-Borug
+Delphyne
+Dino
+Donryu
+Duke
+Eisenzahn
+Ember
+Etoilazuree
+Etoile
+Felix
+Fido
+FireWing
+Flink
+Foudre
+Gaboh
+Galja-Mogalja
+George
+Gigima
+Ginger
+Gizmo
+Gogodavi
+Grisnuage
+Hien
+Himmelskralle
+Huffy
+Hyuh
+Jake
+Jessie
+Joseph
+Junker
+Jyubih
+Kagero
+Karav-Marav
+Khcha
+Knirps
+Koffla-Paffla
+Komet
+Lady
+Levian-Movian
+Lucy
+Lumiere
+Lumineux
+Lunaire
+Lune
+Maggie
+Majha
+Max
+Mikan
+Milo
+Missy
+Molly
+Muffin
+Nanaja
+Nonomi
+Nouvellune
+Nuage
+Oboro
+Orage
+Orageuse
+Oscar
+Paparal
+Pfeil
+Poumcer
+Qiqiru
+Quatrevents
+Raiden
+Rex
+Ringo
+Rocky
+Rover
+Rurumo
+Rusty
+Rygor
+Sasavi
+Solaire
+Soleil
+Soryu
+Soufflefeu
+Spike
+Stellaire
+Sylvester
+Tataba
+Tatang
+Teter
+Toby
+Tom
+Tonnerre
+Tora
+Toryu
+Totona
+Tranchevent
+Tupah
+Unryu
+Venteuse
+Vhiki
+Vhyun
+Waffenzahn
+Wawaro
+Wirbelwind
+Wuffi
+
+11) So what does the wyvern do during battle?
+A: Well it auto attacks the monster just like you do; only your wyvern does 1/2
+of your damage per attack. Which really isnt too shabby when you see it in
+action. You certainly become incredibly strong right from the start.
+
+12) Does the wyvern get bigger over time?
+A: No, your wyvern will NEVER grow in size, but, in strength, she will become a
+force to be reckoned with right from the beginning.
+
+13) Can my wyvern breathe fire like a dragon?
+A: Yes!! ^^ She also has various other attacks like Hydro, Gust, Lightning,
+etc. She's quite diverse and capable. There is nothing like watching your
+wyvern toast an enemy to death with it's flames to help remove daily stress. ^^
+
+14) Well how do I use those special attacks?
+A: Well basically, just like you, your wyvern will do its own special attacks
+when you do your own weapon skill attacks.
+
+15) So what are some of the skills that a Dragoon acquires during his lifetime?
+A: Glad you asked. Here is a quick breakdown...
+
+Job abilities:
+Level 1 : Call Wyvern - This is the Dragoon's 2 hour ability. It basically
+calls your wyvern to fight by your side.
+Level 5 : Ancient Circle - This will increase your party's members defense
+against dragon type monsters.
+Level 10: Jump - This is the first "Jump" style attack that you will receive.
+Great opener for battles and even from pulling from around a wall. ^^
+Level 35: High Jump - This is the second "Jump" style attack that you will
+receive, nothing special about it from what I?ve seen other than added damage.
+Level 50: Super Jump - This is the third and final "Jump" style attack that you
+will receive. You basically jump off the screen for approx 3-5 seconds while
+your wyvern continues to fight. During this time, any "hate" that had been
+built up towards you, is now gone.
+
+Job characteristics:
+Level 10: Physical Attack up - This is a passive skill that you acquire that
+will increase your physical attack strength.
+Level 25: Dragon Killer - Another passive skill that allows you to do more
+damage when fighting dragon type enemies.
+Level 30: Attack Accuracy up - Just like the passive skill at level 10, this
+one is a bonus to accuracy.
+
+16) What is the preferred weapon for a Dragoon?
+A: A good way to get an idea is to go to an auction house and look for high
+level weapons that are tagged for DRG (the abbreviation for Dragoon). You will
+find that it is the Lance (Pole arm). This is a good indicator that you should
+stick with this weapon from the get-go. It is a 2 handed weapon and it does
+great damage. Also, most pole arm's combat delays are identical, so you
+definitely get a "feel" for the rhythm of your attacks in battle.
+
+17) What is a good sub job for the Dragoon class?
+A: Oh boy, this is the question that's been kicked around forever. And, it's
+really a twofold response.
+
+First off, you should know this from the get-go. Your sub job will affect both
+you and your wyvern!
+
+For instance, if you have, say, THF, as a sub job to your Dragoon. Then not
+only will you get the bonus to evade and DEX that get passed up, but, your
+wyvern will do "offensive" breath attacks during your weapon skill attacks. In
+contrast, if you have, say, WHM, as a sub job to your Dragoon. Then not only
+will you be able to cast a few spells here and there, but, your wyvern will do
+a "healing" breath during your weapon skill attacks.
+
+It is really pointless to argue about what job is better than the other because
+every sub job will contribute to the Dragoon in one way or another. For some
+combinations the benefits may be ASTOUNDING, for others, just ... different.
+
+I am only going to delve into the "preferred" (and I use this term loosely)
+combination for now. Now I say preferred because lets have this in our minds
+without any misconception.
+
+Now, that takes care of the twofold, but, I had said threefold and here is the
+2nd part.
+
+A Dragoon is a Damage Dealer, plain and simple. I'm not here to argue about
+which damage dealers are better than others, that falls outside the scope of
+this FAQ.
+
+Therefore, the preferred sub job for the Dragoon is the Samurai sub job due to
+the fact that it can gain insane amounts of TP and even store it. But, I have
+to add that the Samurai sub job is practically useless until your Dragoon is at
+level 60.
+
+Why you ask? Quite simple really. With the ability to gain TP quickly, Store it
+and use at your convenience...repeatedly...during the course of a single battle
+if you prefer; you can easily become damage incarnate. Especially at higher
+weapon levels when such skills as Penta Thrust are acquired (level 49). Imagine
+dealing, literally, thousands of points of damage with little time spacing in
+between weapon skills during a battle, then using "Super Jump" to shed the hate
+that you might build up....I bet you got that evil smile on your face right
+about now ^^.
+
+This does NOT mean that other sub jobs are BAD, I'm only saying that THIS is
+the BEST combination for a High Damage Output Dragoon when you hit the level 60
+mark. This is precisely what the Dragon Knight symbolizes, annihilation of all
+who stand in it's way!
+
+18) Why is it useless until Dragoon is level 60?
+A: This is due to the fact that your sub job can only be 1/2 of your main job's
+level (i.e. Dragoon60/Samurai30). And the Samurai gains its essential ability
+within this job/sub job combination at level 30.
+
+19) So what is a good sub job to use until then?
+A: This is also a twofold answer, due to the fact that essentially comes down
+to "well what do you want to be able to do?"
+If you want to be able to do more damage, then by all means, use WAR as your
+sub job until level 60. THF is also a fantastic alternative if you feel that
+DEX is more important to you and that you want to be able to have such things
+as Treasure Hunter at your disposal.
+
+Both are good in their own right, both are very respectable. It really comes
+down to a matter of preference for this. One is *NOT* better than the other.
+
+20) So what about getting WHM/PLD/RDM/DRK/ETC/ETC/ETC for a sub job?
+A: If you REALLY want to see the differences, there is a great job/sub job FAQ
+at www.gamefaqs.com written by: wwwcom654 / Crow that gives a breakdown of not
+only Dragoon but also all the other jobs available in Final Fantasy XI. I
+highly recommended checking it out. A lot of work has gone into it and I would
+not dare take away from that.
+
+I do not plan to cover it here simply for the reason that I have stated
+earlier. The Dragoon is a damage dealer template, and I intend to focus on
+that, unless I get a ton of email asking me to focus on other sub jobs. ^^
+
+21) Do Dragoons make good tanks?
+A: No. Dragoons are damage dealers, not takers. Do *NOT* kid yourself.
+
+22) What if I sub WAR/THF, couldn't I tank then? Or evade?! That would make me
+a tank then right Lance?!?
+A: Well obviously with or without WAR or THF as your sub, you are going to take
+damage and survive, but, you will never be able to "tank" a monster like a
+Paladin, a Ninja or a Warrior class can. Also, although you can get away with a
+bit of "Provoke"ing at lower levels, you'll see that it's really a bad idea at
+the higher levels when monsters keep the hate due to your "Provoke"s and hard
+hitting damage output.
+
+To make a long story short, chances are, if a Dragoon thinks he can tank, he
+will find him/herself visiting the crystal quite often.
+
+23) Yeah, but, a Dragoon with provoke can't be a bad thing right Lance? I mean,
+in an emergency, it's better for you to have the aggro than the mage.
+A: Honestly, I do understand what your mindsets are and although you have good
+intentions in mind, you are using the wrong class to utilize those.
+
+With the damage output the Dragoon has (which builds up enough hate on it's
+own); when you throw a "Provoke" into the mix, the monster WILL NOT let you go!
+
+I have tested this and barely survived because the other members of the group
+simply could not build up enough hate to get it off me. (*NOTE* I even tried
+this by disengaging the enemy and just letting others whup on the monster)
+
+Also, I'm seeing all too often that groups actually request that the Dragoon be
+part of the "Provoke" group.
+
+Please do not do this, you are basically asking the Dragoon to do something
+they can *NOT* handle. It WILL get the Dragoon killed eventually. It is
+considered very rude and will make you look incompetent for not knowing how to
+utilize your group's abilities.
+
+The ONLY time, I could see a Dragoon using "Provoke" is when all the party
+members are trying to zone because of a tough monster. They are near death and
+the Dragoon has much more HP than them. At that point, *maybe* I can understand
+the Dragoon trying to "Provoke" the monster *while running to zone himself*.
+
+24) When we get our sub job ability at level 18, what do you recommend we
+utilize as our sub job?
+A: I really hate answering questions like this, because it will be purely my
+opinion. Not everyone will agree which might cause flaming to ensue.
+
+What I would do *personally*, *IF* I were to start a dragoon right this moment
+is:
+
+1) Start as a Warrior from level 1-18.
+2) Upon obtaining my sub job at level 18, I would immediately change my main
+job to THF and sub my WAR for it.  Hence, THF/WAR.
+3) Upon reaching level 30 with my THF/WAR, I would do the Dragoon quest and get
+a few high level friends to help me kill it, or, if you want to do it in true
+Dragon Knight style, get a level 70 Dragoon to kill the Dragon for you ^^.
+4) Immediately change jobs to DRG/THF.
+5) Play your template until you are Dragoon60/Thief30.
+6) At this point you can probably solo the Samurai Job Quest without breaking a
+sweat.
+7) Change jobs to SAM/WAR until your Samurai is level 35.
+8) Switch to DRG/SAM. And god help those that dare stand in your way; for you
+will be leaving legions of corpses in your wake.
+
+Of course this is *ONLY* opinion and should be treated as such. There are ways
+to do this otherwise, such as subbing Monk or switching around WAR and THF.
+
+It doesn't really matter since your ultimate goal is the same. Just go with
+what you feel is more FUN for you. This is not a numbers game and we aren't
+here to one-up one another. I don't know about the majority of the player
+base's intentions, but, I'm just here for the fun of it. ^^
+
+25) Hey Lance, what do you recommend as good hunting spots? Could you also
+break them down into levels so we could follow them more easily?
+A: There are great spots to hunt and gain experience at all over Vana'diel.
+This is the pattern I followed while leveling and I found it to be relatively
+painless.
+
+Solo
+----
+Between levels 1-12 I highly recommend that you solo. The experience is more
+worthwhile this way. You'll grow stronger and you'll do it faster.
+
+Levels 1-10 - I found the South Gustaberg (Bastok region) FAR easier to hunt
+and level at than any other areas near San d'Oria or Windurst. Particularly
+Vomp Hill after you are strong enough to fight Goblins alone. Pretty simple
+just keep running around the hill in a large circle and kill, maim, destroy!
+
+Levels 10-12 - Konschtat Highlands and Northern regions of La Theine Plateau
+are fantastic. Do not be afraid to take on Akbaba's labeled "even match". Just
+make sure you are at full health before you do though. Anything stronger will
+lay you to waste easily. Don't get cocky!
+
+Grouping
+--------
+This is the point where you will find it is getting more and more necessary and
+desirable for you to group with other players. You will kill faster, more
+reliably and hopefully make a few new great friends. (I know I did ^^)
+
+Levels 13-19(20) - Although it is very crowded now, it was not always so.
+Valkurm Dunes is a great place to hunt and gain experience. Also perfect for
+getting all the Sub job Quest items that you will need. Drop rates on Ghouls
+are much higher in this area (if you can find them ^^)
+
+Levels 19(20)-25 - Pack your bags, we are heading to Jeuno!! Qufim Island will
+be your bread and butter for the next few levels. You'll get to experience this
+deadly wasteland in all it's .... glory. Be warned! Once the sun goes down in
+this region, you will be given many reasons to be afraid.
+
+Levels 25-30+ - Kazham Island and the surrounding jungle is a beautiful and at
+the same time deadly place to continue your quest. Once you hit the level 30
+mark there will be a multitude of other places for you to contine your
+adventure.
+
+I don't want to hold anyones hand all the way to 70. Final Fantasy has and
+always will be a wonderful world that you have to experience and discover on
+your own. Hopefull I've given you enough to help you get off to a strong start.
+^^
+
+26) What races are good for the Dragoon Job?
+A: All races can make perfectly respectable dragoons. Some races will have
+certain advantages/disadvantages over the other, but, all in all it's hard to
+"screw up" or be "gimp" based on race.
+
+27) Does gender make a difference?
+A: Certainly not, though, I have a strong liking personally for female
+Dragoons. Come meet me at the tavern sometime... *wink wink* *nudge nudge*.
+
+28) What attributes (VIT, AGI, etc.) do you feel are the most important for the
+Dragoon? Could you also prioritize them for us so we know what is utmost in
+importance?
+A: Accuracy. That is what it boils down to. If I had to put attributes in
+order, I would recommend your primary focuses like so:
+
+Accuracy > Dexterity > Attack > Strength
+
+This is the order in which you should be focusing your stat increasing jewelry
+on.
+
+Also bear in mind this formula; 2 of any base attribute (STR, DEX) is equal to
+1 of (attack, accuracy) respectively.
+
+29) Is there any jewelry you can recommend for us? Something that enhances
+those attributes.
+A: I personally use the Spike necklace and Beetle +1 earrings at the moment. I
+have noticed higher level Dragoons using Coral Gorgets, Coral Earrings or
+Assualt Earrings (assault earring is a great item but you can only posess 1 due
+to the fact that it is rated as a RARE item).
+
+It varies from one Dragoon's taste to the other. Jewelry is a gray area. It's
+really more up to the player to decide what he/she wants.
+
+Some jewelry might offer higher accuracy or bonus to STR. I tend to fall more
+towards accuracy so i will take +Accuracy or +DEX over +Attack or +STR any day.
+Choose the one that best suits your playing style.
+
+As far as a list of some "cooler" jewelry....Peacock charm, Coral earring,
+Assault earring, Sniper rings (or sniper +1 if you can find/afford them).
+
+I am personally using a Spike Necklace and Beetle +1 earrings until I can save
+or hunt for the better stuff.
+
+30) What can you tell us about this Artifact (AF) armor we've been hearing
+about?
+A: Well here are all the pieces, descriptions and level requirements for each
+part.
+
+Drachen Brais (lower body)
+Def: 27 HP+15
+Enhances "Ancient Circle" effect
+Increases wyvern HP by 10%
+Level 52 DRG
+
+Drachen Greaves (feet)
+Def:10 HP+12 AGI+3
+Enhances "Jump" effect
+Level 54 DRG
+
+Drachen Finger Gauntlets (hands)
+Def: 15 HP+11 DEX+3 Parrying Skill+10
+Enhances wyvern accuracy
+Level 56 DRG
+
+Drachen Mail
+Def: 38 HP+15 VIT+4
+Adds "Regen" effect to wyvern
+Level 58 DRG
+
+Drachen Helm
+Def: 16 HP+12 MND+5
+Wyvern uses breaths more effectively
+Level 60 DRG
+
+31) Why is it some ugly purple color?
+A: Ok, this is where I draw the line. It is *NOT* "some ugly purple color"!!!
+
+Anyone who has played Final Fantasy 2 (US)/Final Fantasy 4 (J) should NOT ask
+this question.
+
+During the course of the story within that game, we were introduced to a
+Dragoon called Kain. Although he didn't speak much, he was a proud and powerful
+knight with extraoridinary jumping attacks.
+
+The armor he wore was..none other than the Dragoon Artifact armor.
+
+32) How is the armor obtained?
+A: The armor is obtained by doing a series of quests (AF1, AF2, coffers and
+AF3).
+
+The AF armor (including AF weapon) is comprised of 3 AF quests and 3 coffer
+quests.
+
+I will explain what the coffers are as we go through the quests together.
+
+Before I begin this portion of the FAQ, I want to make it clear that I
+personally have not done the quest and this section is entirely the
+contribution of one of my Dragoon buddies who has.
+Hence I will return to this section once I personally do the AF armor to see if
+anything needs to be added. Without further ado...
+
+Dragoon AF1
+-----------
+Item: Peregrine, Level 42 Lance, DMG: 61 DELAY: 492 DEX+1 VIT+1
+
+This quest is triggered by going to the the NPC Miaux in North San d'Oria.
+
+You will then need to travel to East Altepa to the (???) point. (I do not have
+the exact location, this will be added when I get it)
+
+Upon touching the ??? point a boss fight will ensue with an Antican!
+
+Once the Antica is defeated, touch the ??? point again.
+
+Then you must return to Miaux and you will be given your first AF item.
+
+To complete this portion of the AF, you require a party of level 45 players or
+bring 2 level 60 friends or 1 level 70 friend. ^^
+
+Dragoon AF2
+-----------
+Item: Drachen Brais (see AF components for details of item)
+
+This quest can only be triggered upon completion of AF1.
+
+You will need to travel to Port San d'Oria and speak to Cerulean in Warehouse A.
+
+At this point you will need to obtain a "Gold Hairpin" item (Auction House) and
+trade itback to Cerulean.
+
+Once the hairpin is surrendered to him, *you must wait 24 hours of real life
+time* and talk to him again.
+
+After speaking to him again, you will need to travel back to Miaux in North San
+d'Oria to get a "key item".
+
+You will then need to trek to Hume city of Bastok, where you will need to
+locate the NPC Ardea just outside the Goldsmith Guild in the Bastok Market area.
+
+Then, you must hoof it back to West Ronfuare and go to the tower directly to
+the West of San d'Oria once you come out and speak with the NPC named Esca.
+
+You will then need to go through Eldieme Necropolis to reach Battalia Island.
+
+Located the ??? point and touch it.
+
+A fight with a Tiger Boss will ensue.
+
+Upon defeat of the Tiger Boss touch the ??? again.
+
+Return and speak to Cerulean once more to obtain your AF2 item.
+
+That was a pretty short quest wasn't it? /me hides.
+
+Coffers
+-------
+Before I begin this portion I want everyone who does not know that coffers are
+similar to treasure chests. Similar in the sense that a key is obtained (coffer
+key NOT treasure chest key) and is used on the respective coffer chest.
+
+That being said we can continue.
+
+The next 3 portions of the AF quests are completed with coffers.
+
+Coffer #1 (Quicksand Caves)
+---------
+Item: Drachen greaves (see AF components for details of item)
+
+This quest is triggered by going to visit the NPC Guslam in Upper Jeuno. Guslam
+can be located within the Shield Shop.
+
+What you will need to do is travel to Quicksand Caves and locate the coffer
+there.
+
+The coffer key is dropped off the enemies (Helm Beetles & Anticans)
+
+Remember, coffer key, not chest key.
+
+Use your coffer key on the coffer. Voila!
+
+Coffer #2 (Boyahda Tree/Dark Spark)
+---------
+Item: Drachen Finger Guantlets
+
+Travel to the Boyahda Tree and locate the coffer within.
+
+The monsters that drop the coffer key are Crawlers, Spiders, Goobbue and
+Mariouche.
+
+Upon opening the coffer, you will obtain a "key item".
+
+Return to Guslam with the key item and speak to the NPC.
+
+What you will do now is travel to Zvahl Bailey's and walk in until you see the
+torches.
+
+Touch the torch and a Dark Spark will appear!!
+
+Kill the Dark Spark and touch the torch again.
+
+At this point you must return to Port Jeuno and located the point labeled ???
+and touch it.
+
+The ghost will give you the AF item.
+
+Coffer #3 (Ifrit's Cauldron)
+---------
+To Be Added at a later date. Incomplete Information on hand currently.
+
+Dragoon AF3
+-----------
+To Be Added at a later date. Incomplete Information on hand currently.
+
+33) Can you also tell us about Dragoon JSE (Job Specific Equipment) a bit?
+A: The JSE is what we would call "endgame" armor. The usage requirements are
+high (level-wise) and the stats are outstanding. Here is a list of the 5 parts.
+
+It is important to note that JSE can only be obtained by crafting or buy
+purchasing it from a crafter via AH or one on one trade/sale.
+
+Dragon Mask
+Def: 23 HP+10
+Breath damage taken -4%
+Level 68 DRG
+
+Dragon Mail
+Def: 47 HP+12
+Breath damage taken -9%
+Level 70 DRG
+
+Dragon Finger Guantlets
+Def: 15 HP+8
+Breath damage taken -4%
+Level 68 DRG
+
+Dragon Greaves
+Def: 13 HP+9
+Breath damage taken -4%
+Level 68 DRG
+
+Dragon Cuisses
+Def: 31 HP+11
+Breath damage taken -4%
+Level 69 DRG
+
+34) Ok what about endgame weaponry? What is the ultimate lance?
+A: Well i've asked this quite a few times myself, but, you need not look any
+further than the Colossal Lance in the Auction House as to what your endgame
+weapon should be...here are it's stats and I think it speaks for itself.
+
+Colossal Lance, DMG: 88 DELAY: 492 HP+25 STR+3 VIT+5 Level 70 DRG
+
+wow!
+
+=====================
+
+Although it is now closer to completion, this FAQ is still evolving.
+
+I hope it clears up some confusion surrounding the job and I will be adding
+more information as I obtain it.
+
+If anyone would like to contribute to this FAQ, please feel free to email me at
+the address I have listed at the top.
+
+Finally, if you wish to use information from here or reproduce it in some form,
+please give the credit where it's due. And let me know, I would love to see
+where this information has traveled to. ^^
+
+Again, I welcome all creative criticism or requests for additions, just email
+me. Address is at the top of the FAQ. If you decide to email me about stuff
+unrelated to the Dragoon Job, please understand if you do not get a prompt
+reply.
+
+Until next time...may the winds of fortune be at your back.... - Lance
+
+==================
+= revision history
+==================
+November 27, 2003 - .01 released
+* initial release
+
+November 28, 2003 - .02 released
+* basically reformatted some portions of the document
+* spelling/grammar fixed
+* rewording of some portions which were found to be confusing (don't look at me)
+
+November 29, 2003 - .03 released
+* answered a few more questions ^^
+
+December 1, 2003 - .04 released
+* more typos fixed, added new questions
+* added information on where to hunt
+* inspirational music section added (stuff that I listen to when playing or
+writing the FAQ)
+
+December 6, 2003 - .05 released
+* added Dragoon AF components and details
+* added Dragoon JSE components and details
+* added planned future updates
+* added extended Wyvern name list
+* added jewelry information
+* added stat related concentration
+* added endgame weaponry
+* changes to Dragoon Job Quest details
+
+January 1, 2004 - .06 released
+* cleaned up the FAQ a bit
+* added Wyvern related questions
+
+========================
+= planned future updates
+========================
+* once I personally do the AF quest, the AF portion of the FAQ will be
+revisited and re-written.
+* I receive many emails regarding fame being required for certain things (i.e.
+needing fame to rename your wyvern). Until I can confirm this first-hand, I
+will leave the entries "as-is". If I don't visit them down the road, then it
+means the FAQ entry is 100% accurate. Until that time ALL material should be
+considered to have a possible margin of error.
+** note ** no further updates planned.
+
+=========
+= credits
+=========
+* Official Dragoon description in question #1 taken from the U.S. Final Fantasy
+XI Manual.
+* Diarmid of the ffvault.ign.com Dragoon forums for providing the http link for
+the extended names list.
+* Credit to miara for providing the actual list of Dragoon names.
+* Although no text was borrowed, portions of Dragoon Job/Sub job combination
+were referenced for the sake of all possible job/sub job combinations for this
+job class from "The FFXI Job/Sub job Combinations Guide/FAQ" authored by
+wwwcom654 / Crow which can be found at http://www.gamefaqs.com.
+* Answer to question #7, few of the Wyvern names were used from a post by
+-Yarr- on the ffvault.ign.com message boards for the Dragoon job.
+
+==============
+= appreciation
+==============
+Extra special KUPO! to everyone in the link shell ((R.I.P.)theAnniversary and
+Exodus) on the Ragnarok server. (in alphabetical) Ikari, Magus, Makani (i miss
+you), Nuikoa (/slap), Sabrael (dude, you suck :), Shante, Vertoria (#1 on my
+personal *sigh* list), who have helped me in numerous ways (usually just
+keeping me sane is work enough ^^) since day 1. ^^
+
+EXTRA KUPOPOPOOOOO! To Square/Squaresoft/and now Enix - You've captured our
+hearts, our imagination time and time again. Your stories, characters and
+haunting melodies forever stay in our hearts and minds. I simply can't find a
+word strong enough. Thank you. So much.
+
+KUPOPOPOPOPOPOPOPOOOOOOOO~~~!! To Ikari of the Ragnarok server. Words are not
+enough to show my appreciation. Without you this FAQ would not exist.
+
+=====================
+= inspirational music
+=====================
+* Orbital, Photek, Squarepusher, Autechre, Aphex Twin, AK1200, Future
+Engineers, DJ Krush, Juno Reactor, Air, Zero 7, Prodigy, Underworld, Chicane,
+The Crystal Method, Future Sound of London, Leftfield, Daft Punk, Sasha, Amon
+Tobin, BT, Cibo Matta, Gus Gus, Empirion, Fluke, DJ Rap, Dieselboy, Plaid,
+Lamb, Floex, David Wallace
+* Helmet, Nine Inch Nails, Pink Floyd, Green Day, The Cure, Primus, Tool,
+System of A Down, Danzig, Alice in Chains, Audioslave, Rage Against the
+Machine, Anthrax, Iron Maiden
+* Cypress Hill, Warren G, Snoop Dogg, Eminem, Eric B. & Rakim, Public Enemy,
+N.W.A., RUN DMC, DMX, Wu-Tang Clan
+* Nobuo Uematsu
+
+=======
+= legal
+=======
+* PlayOnline, POL, FFXI, Final Fantasy, Final Fantasy XI and Final Fantasy XI:
+Rise of the Zilart are reserved trademarks of Square Enix Co. Ltd. (c)
+2001-2003, all rights reserved.
+* Trogdor comment!! Much love to Homestar Runner and Strong Bad.
+http://www.homestarrunner.com - If you don't already know, you are missing out.

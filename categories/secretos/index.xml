@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secretos on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/categories/secretos/</link>
+    <description>Recent content in Secretos on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 09 Sep 2018 01:15:07 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/secretos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La Era de la pérdida de los secretos</title>
+      <link>https://moonantonio.github.io/post/2018/comun/015/</link>
+      <pubDate>Sun, 09 Sep 2018 01:15:07 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/015/</guid>
+      <description>Hace unos días, la revista Famitsu nos sorprendía mostrando las imágenes de dos clases pertenecientes a Etrian Odyssey X (Etrian Odyssey Nexus en occidente, que nos llegará el próximo 5 de febrero del 2019 a Nintendo 3DS) en la que se podían observar los dos diseños de una clase desbloqueable en el juego pero que, hasta el momento, no había sido anunciada oficialmente por Atlus ni encontrada por los jugadores.</description>
+    </item>
+    
+  </channel>
+</rss>

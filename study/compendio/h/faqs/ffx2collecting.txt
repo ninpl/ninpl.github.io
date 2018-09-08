@@ -1,0 +1,1323 @@
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
+   '###'   '###'           '###'
+  '#@o@#' '#@o@#'        '##@o@##'
+   '#@*#' '#@*#;        '##'  '###'
+    '###; ;###'        .####.  '#o#.
+     '##@v@##'    ..*..        :#@#'
+      '##@##'    '#CML#'      '#8#'
+     '##@v@##'              '#@@#.
+    '###; ;###'            '#@#.
+   '#@*#' '#@*#;         .'#@#'   .
+  '#@o@#' '#@o@#'       .##@o@#:#@:,
+   '###'   '###'        '####@8####.
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
+            .#.       .#;+":,
+          ,'# #',     '#,   #
+         .#'   '#.     ;:+.:'
+        .;: :=: :;.   .;:.
+       .;#!.   .!#;. .#++#.
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
+     '::"*,.    .::.        .:::.
+     '::       ":  :"     .:"   ":.
+     '::"*,.  ';    ;'    ,:     :,
+     '::     ':' "" ':'   :: "*, ::
+     .::.    .:.    .:.    ':::::'*.
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
+                                    cml
+
+
+   ::::::::::::::::::::::::::::::
+   ::Hands Free Ap Maxing Guide::
+   ::  Final Fantasy X-2 U.S.  ::
+   ::    For Playstation 2     ::
+   :: By: collecting my lesson ::
+   ::         12.1.03          ::
+   ::::::::::::::::::::::::::::::
+
+
+
+Copyright 2003 by collecting my lesson
+collectingmylesson@yahoo.com
+
+This guide can only be posted on the following sites:
+
+http://www.gamefaqs.com
+http://www.ign.com
+http://www.neoseeker.com
+http://wtfcorps.port5.com
+http://www.gamersunderground.com
+
+Please don't randomly post this FAQ on your website unless you e-mail me
+first.
+
+
+++++++++++++++++++
+::Update History::
+++++++++++++++++++
+:1.2.04:
+more pics, tried to put those songstress e-mails to an end, more ascii
+
+:12.29.03:
+**change of e-mail**, added alternate strategies
+
+:12.23.03:
+added a bunch of alternate strategies, posted exp/ap tutorial
+
+:12.15.03:
+added FAQ, found better host for pics, added some e-mail contributions
+
+:12.11.03:
+put up my first ascii art attempt, fixed the alchemist section
+
+:12.10.03:
+added content on mug loop description and detailed *intermission*
+
+:12.9.03:
+general clean up, added a mug loop section and an advanced Ap gaining tutorial
+
+:12.6.03:
+included more efficient action loops for special spheres
+
+:12.5.03:
+did more aesthetics work and solved Berserker "counter" problem
+
+:12.2.03:
+weeded out some design flaws
+
+
++++++++++++++++++++++
+::Table of Contents::
++++++++++++++++++++++
+
+***THIS IS YOUR ONE AND ONLY SPOILER WARNING***
+
+Press Ctrl + F and the code to skip directly where you want to go.
+
+    Chapter                         Code
+
+1.  Intro---------------------------Spiral
+2.  Ap Dynamics---------------------Serendipity
+3.  Action Looping **don't skip!**--Infinity
+4.  Mp Considerations---------------Voo Doo
+5.  Dressphere Ability Leveling-----Evolution
+     -White Mage--------------------Trinity
+     -Warrior-----------------------Heart
+     -Songstress--------------------Complacent
+     -Alchemist---------------------Renewal
+     -Dark Knight-------------------Sardonic
+     -Full Throttle-----------------Immolate
+     -Machina Maw-------------------Ghostshell
+     -Floral Fallal-----------------Redwine
+     *Formula Loop Intermission*----Toucan
+     *Mug Loop Intermission*--------Lifted
+     -Gunner------------------------Projectile
+     -Thief-------------------------Violate
+     -Black Mage--------------------Gothic
+     -Gun Mage----------------------Capitalist
+     -Samurai-----------------------Peacefight
+     -Berserker---------------------Speedball
+     -Lady Luck---------------------Freewill
+     -Trainer-----------------------Overlord
+     -Mascot------------------------Puppet
+6.  99 Ap in 2 minutes (advanced)---46and2
+7.  Gain EXP/AP simultaneously------Dualism
+8.  Accessories and Garment Grids---Techno
+9.  Frequently asked Questions------Elastic
+10. Credits and Acknowledgements----Siamese
+
++++++++++
+::Intro::------Spiral
++++++++++
+
+This Guide will detail information on gaining Ap the easy way, by doing almost
+nothing at all. It's such a shame to leave our lovable Gullwings stagnant and
+motionless in a memory card while we go about doing those annoying mandatory
+tasks life forces upon us. With this guide you'll be able to have that
+Thanksgiving telephone call with grandma as Rikku learns firaga.
+
+This guide is for the impatient or lazy such as myself. So if you
+need to learn a valuable ability before a boss fight while going to the post
+office, or just plain wanna master a job quickly by gaining 99 Ap in one
+battle, read on.
+
++++++++++++++++
+::AP Dynamics::------Serendipity
++++++++++++++++
+
+In order to gain Ap effectively, one must first grasp how Ap is gained. There
+are four ways to gain Ap in Final Fantasy X-2.
+
+1. Perform special actions unique to a job
+2. Use ability equipped on a garment grid
+3. Defeat enemy
+4. Use items
+
+Defeating a fiend nets one measly ability point (two if the fiend is in an
+oversouled state), and using items in battle depletes a finite inventory of
+items. Thus, this guide will focus on gaining Ap through special abilities and
+garment grid abilities.
+
+It is possible to amass huge amounts of Ap in a short amount of time while not
+even touching the controller. Using a technique I call "action looping,"
+you'll gain 99 Ap per character every battle (yep, it's capped at 99 Ap -_-).
+Because of the Ap cap, you'll eventually have to come back to the controller
+and end the battle.
+
+++++++++++++++++++
+::Action Looping::------Infinity
+++++++++++++++++++
+
+The philosophy is simple: create a continuous loop of actions that kill
+neither the party, nor the enemies. In order to accomplish this, you must
+first go to the main menu during gameplay and enter the config menu. Change
+the curser setting to "memory." Now find something in the house heavy, yet
+small enough to keep the "x" button depressed. Tape works great, but leaves
+sticky goo all over your controller. Personally, I think this is the best set
+up:
+
+http://pix2.hotornot.com/pics/HL/HY/HY/KL/GUGSEEHTCUJW.jpg
+
+That accomplished, let's try an example of an action loop. Go to an area of
+Spira with random encounters. Generally, 2 star difficulty is optimal AS SOON
+AS YOU OBTAIN A NEW DRESSPHERE. Stay close to the save sphere and equip a
+white mage, a warrior, and a songstress. Enter battle and kill all enemies
+except for a physical attacker (helms, birds, machina, etc.). Cast pray with
+the white mage, sentinel with the warrior, and samba of silence with the
+songstress. Now tape down the x button and go make yourself a snack to reward
+your hard work. Assuming the fiend was susceptible to the silence status,
+your party will rack up Ap every turn ^_^
+
++++++++++++++++++++++
+::Mp Considerations::------Voo Doo
++++++++++++++++++++++
+
+Some Ap Loops require Mp expenditure for certain jobs. For this reason, it is
+wise to level jobs like White Mage, Alchemist, Warrior, and Songstress before
+Mp depleting dresses like Black Mage, Thief, and Gun Mage for example. There
+are easy ways around the Mp problem involving accessories and garment grids.
+Using equipment such as the golden hairpin (1/2 Mp cost) and the golden bracer
+(+ 60% Mp) can easily boost Mp to a point where 99 spell castings can be
+possible.
+
+For example:
+
+Characters Mp = 124
+Mp with golden bracer = 198
+Mp cost for "cure" with the Golden Hairpin = 2
+
+198 Mp divided by 2 Mp cost = 99 castings
+
+There are also ways around the Mp problem using abilities. The Songstress can
+cast Mp Mambo, which makes Mp cost zero. In order to learn this ability,
+you must conquer all the bosses at the Den of Woe and acquire the Book of
+Magical Dances Vol 1.
+
+The alchemist can also help out with the "ether" ability. It takes a while to
+learn it (400 Ap for "ether" + 20 Ap for prerequisite "dispel tonic" + 20 Ap
+for prerequisite "remedy" = 440 Ap total), but using this guide will get you
+there in no time.
+
+~*Here's a great tip from John L. Moxxxxxx*~ <censored>
+
+"Setting the config to wait instead of active actually does prevent monsters
+from ripping you apart if you run out of mana but are slow to get back and
+check on it too, so thats pretty helpful in any method that has the
+potential of running into a holdup for some reason like that."
+
++++++++++++++++++++++++++++++++
+::DRESSPHERE ABILITY LEVELING::------Evolution
++++++++++++++++++++++++++++++++
+
+This section will give you some pointers about maxing abilities for all 17
+jobs in a loose semi-chronological sequence. Each job tutorial will also
+include example action loops and will be presented in this format:
+
+---
+Dressphere:  (dressphere name)
+Ap ability:  (best ability to use for the action loop.)
+Ap needed:   (amount of Ap needed to learn the Ap ability)
+Ap master:   (total amount of Ap required to master the job)
+Acquired?:   (brief explanation of how to obtain the dressphere)
+
+Warnings:
+(things to watch out for)
+
+Tips:
+(sagely advice)
+
+Loop examples: (samples of action loops for said job in the format below)
+
+Character 1, turn 1: (ability here)
+Character 2, turn 1: (ability here)
+Character 3, turn 1: (ability here)
+After the third command, tape the x button down and leave.
+---
+
+For the most part, these loops are set up so that each job in the party can
+get 99 Ap. The exception is when you heal an enemy, receiving zero Ap for that
+character. Ok, here we go...
+
+==============================================================================
+Trinity
+==============================================================================
+Dressphere:  White Mage
+Ap ability:  pray
+Ap needed:   0
+Ap master:   750
+Acquired?:   Ch 1 - It's in the Besaid Cave where you find Wakka.
+
+Warnings:
+- Pray must actually heal at least one party member.
+
+Tips:
+- Fight several fiends at once so the enemy has a chance to damage your
+  party between castings.
+- Leveling three white mages at once is not efficient. One white mage
+  per battle is generally enough.
+- Equipping magic enhancing accessories and garment grids is a good idea.
+
+Loop examples:
+
+1. White Mage:
+   pray
+
+   Warrior:
+   sentinel
+
+   Songstress:
+   darkness dance against magic enemies, samba of silence against
+   physically attacking enemies, jitterbug, or slow dance
+
+2. White mage:
+   pray
+
+   Alchemist:
+   remedy enemy
+
+   Lady Luck:
+   tantalize
+
+~*Kurtis Simpson gave this suggestion for a three WM party via e-mail*~
+
+"If they use vigor, they will ALL be healing themselves only, so they will all
+get AP, and they'll still be healed."
+
+
+~*Another e-mail from a dude called rollinbus*~
+(Tested by Collecting My Lesson)
+
+"I have found that the all mighty poison yer self then just cast cure on
+yerself..while fighting a lowbie mob that does minimal dmg or a caster and you
+have a null ring to that element on..Poison hits you before each and
+everycast without fail..Three of anything ( besides the special dresses ) +
+haste + cure from grid = pretty fast efficent ap's...hands free,,not even 5
+minute checking!!! posion + three white mages and there vigor went supa fast."
+
+Author note: skibum35 came up with the same idea, but his e-mail wasn't as
+             interesting :P
+
+==============================================================================
+Heart
+==============================================================================
+Dressphere:  Warrior
+Ap ability:  sentinel
+Ap needed:   20
+Ap master:   740
+Acquired?:   Ch 1 - Paine's default
+
+Warnings:
+- none
+
+Tips:
+- Auto haste will drastically improve the speed of leveling in this case.
+
+Loop examples:
+
+1. Warrior:
+   sentinel
+
+   Warrior:
+   sentinel
+
+   White Mage:
+   pray
+
+2. Warrior:
+   sentinel
+
+   Songstress:
+   darkness dance against magic enemies, samba of silence against
+   physically attacking enemies, jitterbug, or slow dance
+
+   Alchemist:
+   mega-potion
+
+==============================================================================
+Complacent
+==============================================================================
+Dressphere:  Songstress
+Ap ability:  All dances
+Ap needed:   varies, Darkness dance is mastered from the start.
+Ap master:   740 plus Magical Dances Volumes I & II
+Acquired?:   Ch 1 - LeBlanc gives in Luca
+
+Warnings:
+- Make sure the dance actually inflicts the status. example: do not
+  cast sleepy shuffle on a fiend with immunities to sleep.
+
+Tips:
+- Leveling her up with garment grid abilities like cure is much faster
+- Mp Mambo rules for action looping so if you obtained it in a prior run
+  through the game (only available in Ch 5) use it liberally.
+
+Loop examples:
+
+1. Songstress:
+   Carnival Cancan
+
+   Dark Knight:
+   Darkness
+
+   Alchemist:
+   (casts at enemy) potion, hi-potion, mega-potion, x-potion
+   (alchemist's move depends on how leveled up party is)
+
+2. Songstress:
+   darkness dance against magic enemies, samba of silence against
+   physically attacking enemies, jitterbug, or slow dance
+
+   White Mage:
+   pray
+
+   Warrior:
+   sentinel
+
+***Author Note 1: The songstress action in loop 2 is not a typo.***
+
+***Author Note 2: This particular action is not a typo anywhere in this FAQ***
+
+***Author Note 3: Please don't e-mail me about it anymore...or I'll scream.***
+   
+==============================================================================
+Renewal
+==============================================================================
+Dressphere:  Alchemist
+Ap ability:  potion, mega-potion, etc. (all of them)
+Ap needed:   varies, start with potion at 10 Ap.
+Ap master:   2249
+Acquired?:   Ch 2 - Kill fiends in chocobo lair
+
+Warnings:
+- As usual, make sure you are really healing
+- An alchemist gets no Ap for healing enemies
+
+Tips:
+- Work hard on getting ether because it helps level other jobs
+- Once you learn "mega-potion," immediately learn "remedy," then "dispel
+  tonic," then "ether."
+
+Loop Examples:
+
+1. Alchemist:
+   mega-potion
+
+   Songstress:
+   darkness dance against magic enemies, samba of silence against
+   physically attacking enemies, jitterbug, or slow dance
+
+   Warrior:
+   sentinel
+
+2. Alchemist:
+   ether to white mage
+
+   White Mage:
+   cure/cura/curaga to party
+
+   Warrior:
+   sentinel
+
+~*NGEVA gives this tip for a newbie alchemist*~
+
+"train each alchemist individually with [mix]-ing two potions until they learn
+[Potion]. then haste the enemies with {chocobo wing or a bunch of feathers}
+and set each girl to use [potion] on themself. *loop now*
+
+==============================================================================
+Sardonic
+==============================================================================
+Dressphere:  Dark Knight
+Ap ability:  Darkness
+Ap needed:   0
+Ap master:   490
+Acquired?:   Ch 2 - In chest before Bohamut in Bevelle
+
+Warnings:
+- none
+
+Tips:
+- If you are leveled up so much that darkness kills all enemies, either
+  cast shell and protect on the enemy, or use the cure garment grids to
+  form an action loop
+- Best used early in the game with a White Mage and an Alchemist
+
+Loop examples:
+
+1. Dark Knight:
+   darkness
+
+   Alchemist:
+   mega-potion
+
+   Alchemist:
+   (casts at enemy) potion, hi-potion, mega-potion, x-potion
+   (alchemist's move depends on how leveled up party is)
+
+2. Dark Knight:
+   darkness
+
+   Songstress:
+   Carnival Cancan
+
+   Alchemist:
+   (casts at enemy) potion, hi-potion, mega-potion, x-potion
+   (alchemist's move depends on how leveled up party is)
+
+==============================================================================
+Immolate
+==============================================================================
+Dressphere:  Full Throttle
+Ap ability:  Aestus, Winterkill, Whelmen, Levin (Paine); Stamina (Dex/Sin)
+Ap needed:   0
+Ap master:   490 (Paine - 210; Sin - 140; Dex - 140) + Victor Primoris,
+             Corpus Invictus
+Acquired?:   Ch 1 - Talk to Tromell four times at the end of Macalania
+             Forrest.
+
+Warnings:
+- It seems like a good idea to heal an enemy that absorbs an element with the
+  corresponding attack, but you receive no Ap for this. Only do this when
+  Paine is fully leveled from loop # 1.
+- Start with loop # 1, and then use loop # 2.
+- Don't go to the post office while leveling this job; check every 5 mins.
+
+Tips:
+- Max this dressphere as soon as you get it
+- Learn Hp x 2 and Hp x 3 first
+- Equip "Unerring Path" for quick special sphere change
+- *For loop # 1* Check bestiary on GameFAQs to find a fiend that halves damage
+  from a certain elemental attack (example: "Drowsy Ochu" Ch 2 Mushroom Rock,
+  visible on road, halves blizzard damage)
+- *For loop # 2* Check bestiary on GameFAQs to find a fiend that absorbs
+  damage from a certain elemental attack (example: "Blue Elemental" Ch 2
+  Guadosalam, absorbs blizzard damage)
+
+Loop examples:
+
+(against the example Drowsy Ochu)
+
+1. Paine:
+   Winterkill
+
+   Dextral Wing:
+   Stamina to Paine
+
+   Sinistral Wing:
+   Stamina to enemy
+
+(against the example Blue Element)
+
+2. Paine:
+   Winterkill
+
+   Dextral Wing:
+   Stamina to Paine
+
+   Sinistral Wing:
+   Stamina to Sinistral Wing
+
+~*Here's a tip from Death Kitty*~
+(Tested by collecting my lesson)
+
+"For Paine's dressphere, Full Throttle, I recommend having Sinistral Arts use
+its Diamond Feather ability on Paine and it's White Feather ability on the
+enemies to minimize, if not negate, any physical damage. Its Cloudy Feather
+ability is also useful later on for minimizing magical damage, but you don't
+start with it, so..."
+
+~*This one comes from evilfishtank*~
+
+"Sometimes when Paine would get a critical hit in Full Throttle, she would
+kill a fiend in one hit. I found that the easiest way around that was to leech
+off of an oversouled fiend, for the higher HP and defense."
+
+==============================================================================
+Ghostshell
+==============================================================================
+Dressphere:  Machina Maw
+Ap ability:  Revival (Rikku); Hp Repair and Homing Ray (Smasher/Crusher)
+Ap needed:   10 for Revival
+Ap master:   570 (Rikku - 200; Smasher - 180; Crusher - 190) Machina Reactor
+             + Machina Booster
+Acquired?:   Ch 2 - Bikanel Oasis.
+
+Warnings:
+- Don't go away while leveling this job; check every 5 mins.
+
+Tips:
+- You need to use both Loops to level Machina Maw fully
+- Max this dressphere as soon as you get it
+- Learn Hp x 2 and Hp x 3 first
+- Equip "Unerring Path" for quick special sphere change
+
+Loop example:
+
+1. Rikku:
+   Revival to Crusher
+
+   Smasher:
+   Homing Ray to Crusher
+
+   Crusher:
+   Hp Repair to Rikku
+
+2. Rikku:
+   Revival to Smasher
+
+   Smasher:
+   Hp Repair to Rikku
+
+   Crusher:
+   Homing Ray to Smasher
+
+
+~*Here's an alternate strategy by Death Kitty*~
+(Tested by collecting my lesson)
+
+"For Rikku's Machina Maw, an easy way to level it up is to get into a battle
+with an easy enemy that's affected by the "sleep" status (or an elemental-
+-which is even better--that's affected by the "silence" status--The main thing
+you want to be able to do is keep it from damaging you). Then, put it to sleep
+or silence it...depending (either before or after transformation), and have
+Rikku use a missile on herself, Crusher use HP repair on Rikku, and Smasher
+use MP repair on Rikku.
+
+Once Smasher and Crusher have gained 99 AP (If you're mastering HP etc...
+first, it's easy to tell: Mastering HP*2, HP*3, Break Dmg. Limit, and Break HP
+Limit take 90 AP), raise the enemy's defense to max and cast protect on it.
+Then, have Rikku hit it with a missile that will constantly immobilize it (I
+kept using Stop Missile on a Red Elemental--their high defense makes it REALLY
+easy) and have Crusher use HP Repair on the Enemy while Smasher again heals
+Rikku's HP.
+
+Using this strategy, I was able to max out Rikku's Machina Maw in practically
+2 battles (the third was so brief that it's not worth mentioning...) You can
+probably do it on any enemy that can be stopped, but I would think that
+elemental's would be much more efficient as targets."
+
+==============================================================================
+Redwine
+==============================================================================
+Dressphere:  Floral Fallal
+Ap ability:  Heat, Ice, Electric, Aqua Whirl (Yuna); White Pollen (Right
+             Pistol); Left Stigma (Left Pistil)
+Ap needed:   20 for Left Stigma
+Ap master:   536 (Yuna - 196; R Pistil - 170; L Pistil - 170) + Aurora Rain,
+             Twilight Rain
+Acquired?:   Ch 2 - Djose Highroad before the syndicate battle
+
+Warnings:
+- This one takes a little preparation.
+- Don't go away while leveling this job; check every 5 mins.
+
+Tips:
+- Max this dressphere as soon as you get it
+- Learn Hp x 2 and Hp x 3 first
+- Equip "Unerring Path" for quick special sphere change
+- *For loop # 1* Check bestiary on GameFAQs to find a fiend that absorbs
+  damage from a certain elemental attack (example: "Blue Elemental" Ch 2
+  Guadosalam, absorbs blizzard damage)
+- *For loop # 2* Check bestiary on GameFAQs to find a fiend that halves damage
+  from a certain elemental attack (example: "Drowsy Ochu" Ch 2 Mushroom Rock,
+  visible on road, halves blizzard damage)
+- Cast protect, shell, and regen on fiend for loop # 2
+
+Loop example:
+
+(against example Blue Element)
+
+1. Yuna:
+   Ice Whirl
+
+   Right Pistil:
+   White Pollen
+
+   Left Pistil:
+   Left Stigma
+
+(against the example Drowsy Ochu)
+
+2. Yuna:
+   Ice Whirl
+
+   Right Pistil:
+   White Pollen enemy
+
+   Left Pistil:
+   Left Stigma at Left Pistil
+
+~*This one comes from evilfishtank*~
+
+"Sometimes when (Yuna) would get a critical hit in (Floral Fallal), she would
+kill a fiend in one hit. I found that the easiest way around that was to leech
+off of an oversouled fiend, for the higher HP and defense."
+
+==============================================================================
+Toucan                                                                  Lifted
+==============================================================================
+
+Up to this point, equipping garment grids to gather Ap has not been required.
+In fact, it is possible to have three fully mastered Dresspheres (white mage,
+warrior, songstress) before obtaining your 4th completion percent. All of the
+above jobs can be mastered easily without Mp expenditure, which is wonderful
+for young game saves.
+
+However, you will henceforth be required to either reach chapter 3, or obtain
+a garment grid equipped with a cure ability coupled with an alchemist that
+has learned "ether."
+
+These prerequisites achieved, you will now be able to level any job much
+faster, including jobs that have been collecting dust thus far.
+
+Just use the Formula Loop or the Mug Loop explained below:
+
+
+**Formula Loop**
+
+
+If you haven't acquired the "ether" ability for at least one of your
+Alchemists, hurry up and do it! If you do have a leveled alchemist and a
+garment grid with some sort of a cure ability, equip the grid and follow
+this easy formula for the rest of the dresspheres:
+
+  Any Job:
+  Cast the most powerful curative magic available (from garment grid)
+  and heal the whole party by pressing the right directional button
+  before casting.
+
+  Alchemist:
+  Cast "ether" on the character that did the curing.
+
+  Any Job:
+  Many things work here. Just make sure it neither damages the enemy,
+  nor devours Mp or items.
+
+You could also substitute the alchemist for a songstress dancing the Mp mambo,
+but the Alchemist is fail-safe and much better IMO. The ragnarok accessory
+would also work very well equipped to the curer.
+
+
+**Mug Loop**
+
+
+One of the most effective methods for stockpiling Ap involves the Treasure
+Hunt garment grid. This grid is equipped with the mug ability which both
+damages and steals from an enemy. Strangely, the mug ability scores Ap even if
+the character is unable to acquire an item from a monster. It is the duel
+nature of damage and theft that makes successful Ap acquisition possible. Try
+casting mug against a fiend that is immune to physical attacks. You will not
+gain Ap if you fail to steal an item and fail to damage the enemy. In other
+words don't try this method against one of the rare monsters in the game that
+will not incur physical damage.
+
+This garment grid is only obtained in the Ch 3 sphere break tournament at
+Luca. During the final match between Yuna and Shinra, you will find a border
+coin or two that have the "item or "rare" traits. If you make a core break
+with one of these coins you will probably win it. Don't leave Luca without it.
+
+Once the Treasure Hunt garment grid is yours, use this action loop to exploit
+battles for Ap:
+
+  Any Job:
+  mug
+
+  Alchemist:
+  (casts at enemy) potion, hi-potion, mega-potion, x-potion
+  (alchemist's move depends on how leveled up party is)
+
+  Alchemist:
+  mega-potion
+
+You can also use a white mage to cure the party with "pray."
+
+==============================================================================
+Projectile
+==============================================================================
+Dressphere:   Gunner
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    800
+Acquired?:    Yuna's default
+
+Loop example: Formula Loop or Mug Loop
+
+==============================================================================
+Violate
+==============================================================================
+Dressphere:   Thief
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    1060
+Acquired?:    Rikku's default
+
+Loop example: Formula Loop or Mug Loop
+
+~*Here's a loop from The Suave Pirate that can be used early on*~
+(Tested by Collecting My Lesson)
+
+"I think I found a way to level the (Thief) earlier in the game.  The 
+key is to have (pilfer Mp).  To do it you must be fighting something with 
+alot of MP and can osmose (the red elemental on Mushroom rock road will 
+do this)  Set up your (thief), have a white mage pray and have the 
+third character do something (I had a fighter, doing sentinel).  If the 
+fiend gets low on MP it will osmose some of yours.  At this point all 
+you need to do is steal it back."
+
+Author note: Any elemental will work for this loop.
+
+==============================================================================
+Gothic
+==============================================================================
+Dressphere:   Black Mage
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    680
+Acquired?:    Ch 1 - Talk to Shinra and watch the sphere from the Floating
+              Mountain mission.
+
+Loop example: Formula Loop or Mug Loop
+
+~*Here's a loop from The Suave Pirate that can be used early on*~
+(Tested by Collecting My Lesson)
+
+"I think I found a way to level the Black Mage earlier in the game.  The 
+key is to have MP absorb.  To do it you must be fighting something with 
+alot of MP and can osmose (the red elemental on Mushroom rock road will 
+do this)  Set up your black mage, have a white mage pray and have the 
+third character do something (I had a fighter, doing sentinel).  If the 
+fiend gets low on MP it will osmose some of yours.  At this point all 
+you need to do is steal it back."
+
+Author note: Any elemental will work for this loop.
+
+==============================================================================
+Capitalist
+==============================================================================
+Dressphere:   Gun Mage
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    370
+Acquired?:    Ch 2 - Tobli will give it to you at the Moonflow if you
+              defeated all the bandits.
+
+Loop example: Formula Loop or Mug Loop
+
+==============================================================================
+Peacefight
+==============================================================================
+Dressphere:   Samurai
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    760
+Acquired?:    Ch 3 - In Kilika before you fight Ifrit.
+
+Loop example: Formula Loop or Mug Loop
+
+==============================================================================
+Speedball
+==============================================================================
+Dressphere:   Berserker
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    1360
+Acquired?:    Ch 3 - Kill the fiends by the travel agency in Macalania.
+
+Loop example: Formula Loop or Mug Loop
+
+Eventually you will encounter a problem with the formula loop while leveling a
+Berserker. When you learn a counter attack, the character will start flying
+around the screen killing fiends. When you start learning counters, use this
+loop:
+
+Berserker:
+cure/cura/curaga from a garment grid
+
+Alchemist:
+ether to Berserker
+
+Alchemist:
+mega-potion enemies
+
+==============================================================================
+Freewill
+==============================================================================
+Dressphere:   Lady Luck
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    1090
+Acquired?:    Ch 3 - Defeat Shinra in Sphere Break.
+
+Loop example: Formula Loop or Mug Loop
+
+==============================================================================
+Overlord
+==============================================================================
+Dressphere:   Trainer
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    Yuna -> 910; Rikku -> 1030; Paine -> 930
+Acquired?:    Ch 3 - If you answered Kimhari in chapter 1 and 2 and talk to
+              him at Gagazet, he'll give it to you.
+
+Loop example: Formula Loop or Mug Loop
+
+==============================================================================
+Puppet
+==============================================================================
+Dressphere:   Mascot
+Ap ability:   cure/cura/curaga from a garment grid
+Ap needed:    0
+Ap master:    Yuna -> 1599; Rikku -> 1599; Paine -> 1399
+Acquired?:    Ch 5 - Obtain "chapter completes" everywhere in chapter 5. A
+              Bevelle "chapter complete" isn't required, however.
+
+Loop example: Formula Loop or Mug Loop
+
+==============================================================================
+
+==============================================================================
+
+++++++++++++++++++++++
+::99 Ap in 2 minutes::------46and2
+++++++++++++++++++++++
+
+Let me begin by showing you this horrifically unattractive JPG picture:
+
+
+http://pix2.hotornot.com/pics/HQ/KS/KR/KS/GREQH8GNHCTA.jpg
+
+
+Yea, I know. It's not the best visual aid, but it does represent what is
+possible if you obtain a couple very valuable accessories. The easiest to
+obtain is the "key to success," which doubles Ap among other things. The
+other item is the "Ap Egg." This accessory may be a little harder to come by,
+but the triple Ap bonus is a must for light speed Ap gaining.
+
+When you equip both the Ap Egg and the Key to success you will receive 6 times
+the Ap you would have been awarded without them. Using the Treasure Hunt
+garment grid to cast mug compliments this set up because mug has a very short
+wait time between castings.
+
+Here is an example loop of a black mage equipped with Key to success, an Ap
+Egg, and the Treasure Hunt Garment Grid:
+
+-----------------
+Black Mage:
+mug
+
+Alchemist:
+mega-potion enemy
+
+Alchemist:
+mega-potion party
+-----------------
+
+Every time the Black Mage has a turn, she will gain 6 Ap. It will take her 17
+turns to reach the Ap cap at 99. On average, most jobs take about 5-7 seconds
+to cast mug which means the Black Mage in question will gain 99 Ap in about
+1 minute and 32 seconds.
+
+++++++++++++++++++++++++++++++
+::Gain Ap/EXP simultaneously::------Dualism
+++++++++++++++++++++++++++++++
+
+This idea has been bouncing around FFX-2 boards for a while, so for those of
+you that have been kept in the dark about this, here is the truest hands free
+approach. It involves killing fiends while you sleep. The idea is to form a
+loop that transcends the single battle technique. Let's start with this:
+
+White Mage:
+pray
+
+Any Job:
+attack or mug
+
+Any Job:
+attack or mug
+
+Just do the loop, tape the left analogue stick in the direction of a wall, and
+tape the x button down. Yuna will bang her head against the wall all night
+while encountering fiends. Everyone will gain experience, Gil, and everyone
+will get Ap.
+
+Here are some things to keep in mind:
+
+-An alchemist's mega-potion will work if you don't want to use pray
+-A speed bracer equipped to the white mage works great
+-Weaker fiend areas work best
+-watch out for status ailments!
+-Find corners and dead ends to run into so Yuna doesn't travel all over Spira
+ and ruin everything
+-equip a lure Bracer
+
++++++++++++++++++++++++++++++++++
+::Accessories and Garment Grids::------Techno
++++++++++++++++++++++++++++++++++
+
+Although not always required, equipping useful garment grids and accessories
+can greatly improve Ap maxing efficiency. This isn't an equipment FAQ, so I
+will be brief and only list a few of the many acquisitions that can be used.
+
+:GARMENT GRIDS:
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Treasure Hunt
+
+Abilities: mug
+
+Found: Ch 3 - Make a sphere break with a border coin that has the "item" or
+              "rare" traits during the championship match against Shinra.
+
+------------------------------------------------------------------------------
+
+Highroad winds
+
+Abilities: can cast haste with a sphere change
+
+Found: Ch 2 - Kill all the baddies in the chocobo lair and Clasko will give it
+              to you.
+
+------------------------------------------------------------------------------
+
+Mounted Assault
+
+Abilities: hastega with sphere change
+
+Found: Ch 5 - Send a chocobo to the central expanse of Bikanel and if he comes
+              back without an item, you may receive it.
+
+------------------------------------------------------------------------------
+
+Unerring Path
+
+Abilities: change to special dress in one sphere change
+
+Found: Ch 1 - Talk to Tromell four times at the end of Macalania Forrest
+
+------------------------------------------------------------------------------
+
+Healing Wind
+
+Abilities: use cure
+
+Found: Ch 1 - Go to Luca and hand ten balloons out when Yuna is dressed as a
+              moogle. Don't forget the dudes behind the window.
+
+------------------------------------------------------------------------------
+
+Heart Reborn
+
+Abilities: use cure
+
+Found: Ch 1 - At the near end of the Zanarkand mission, pick the last option:
+              "Is that you, Issaru?"
+
+------------------------------------------------------------------------------
+
+Healing Light
+
+Abilities: use cure
+
+Found: Ch 2 - Complete the Guadosalam mission.
+
+------------------------------------------------------------------------------
+
+Immortal Soul
+
+Abilities: use cure
+
+Found: Ch 5 - Kill Anima.
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+::ACCESORIES::
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Ap Egg
+
+Abilities: triple Ap
+
+Found: Ch 5 - It's a first place prize for blitz ball tourneys and league
+              play. You can also get it in a chest at the chocobo lair
+              dungeon.
+
+------------------------------------------------------------------------------
+
+Key to Success
+
+Abilities: double Ap
+
+Found: Ch 5 - Go to Tobli's house in Guadosalam and if you finished the
+              moonflow missions, but not the chapter 3 Gagazet mission, he'll
+              hook you up.
+
+------------------------------------------------------------------------------
+
+Ragnarock
+
+Abilities: Mp cost = 0
+
+Found: Ch 5 - Finger Rikku as the culprit in Rin's mission.
+
+------------------------------------------------------------------------------
+
+Speed Bracer
+
+Abilities: Auto-haste and hastega
+
+Found: Ch 5 - Find a bride for the dude in the Calm Lands.
+
+------------------------------------------------------------------------------
+
+Shinning Bracer
+
+Abilities: Auto-Protect
+
+Found: Ch 2 - Go to Mushroom Rock and open the chest by the U-shaped lift.
+
+------------------------------------------------------------------------------
+
+Moon Bracer
+
+Abilities: Auto-Shell
+
+Found: Ch 3 - Valfore will drop this when you beat him in Besaid. There is
+              also another moon bracer under the falls.
+
+------------------------------------------------------------------------------
+
+Rune Bracer
+
+Abilities: + 100% Mp
+
+Found: Ch 5 - It is in a chest on the floating trail in Macalania.
+
+------------------------------------------------------------------------------
+
+Gold Hairpin
+
+Abilities: 1/2 Mp cost
+
+Found: Ch 2 - Do a good job massaging LeBlanc in Guadosalam and it will be in
+              a chest in Ormi's room.
+
+------------------------------------------------------------------------------
+
+Gold Bracer
+
+Abilities: + 60% Mp
+
+Found: Ch 3 - It is in a chest on the floating trail in Macalania.
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+This is by no means an exhaustive list, but it should give you a good idea of
+what to look for when equipping yourself for an action loop.
+
+
+*******
+::FAQ::------Elastic
++++++++
+
+*Q: Where in fact do I acquire the ap egg? All I hear from people is blitzball
+    and chocobo dungeon. Gimme some detail.
+
+ A: I'll leave it to the blitzball FAQs to cover creation of a team capable of
+    winning the Ap Egg. Here's how you find it in the dungeon.
+
+    Requirements:
+
+ 1. You must be in chapter five.
+ 2. You must send out 3 chocobos of each level (1-5) and have them return
+    safely.
+    Hint 1: Do it in order from lvl 1 to 5 (just faster that way).
+    Hint 2: Equip a lure bracer to catch chocobos faster.
+    Hint 3: You get greens from winning battles.
+    Hint 4: Send timid to Kilika, normal to Besaid, and bold to Djose.
+ 3. Once that is done, make sure all your chocobo runners lvl 5.
+
+    The cave should be open after you leave the Calm Lands and return five
+    minutes later. While in the cave, you will eventually find a long hallway
+    w/ 5 doors. The machina reactor is in the far left door, which can only be
+    entered from the other side. Look at a chocobo dungeon map and make your
+    way there. You will find the AP Egg if you continue out of that door (out
+    of the hall) and climb up on the raised block.
+
+
+*Q: Does equipping two Ap Eggs on one character result in Ap x 9?
+
+ A: No, not unless you are a powerful magician.
+
+
+*Q: What is the quickest way to max a job?
+
+ A: See the section in this guide called 99 ap in 1.5 mins.
+
+
+*Q: Why does ap egg + kts work, but 2 ap eggs not work?
+
+ A: Both accessories create auto-abilities. Having two auto-triple ap auto-
+    abilities is like having double darkproof; it makes no sense. ap x 2 and
+    ap x 3 are totally different from each other, which is why equipping them
+    results in ap x 6.
+
+
+*Q: Should I go for the kts and ap egg to level my characters?
+
+ A: It depends. If you use this guide as something you come back to every 15
+    mins while you're doing something else, then not necessarily. But if you
+    want to max every job as fast as possible, yes.
+
+
+*Q: Why is one of your loops not working?
+
+ A: You either didn't follow the instructions correctly, or you are a victim
+    of rare circumstances that merit extra attention. E-mail me with your
+    current level, chapter, and situation and if the problem is legit, I'll
+    fix your it via e-mail.
+
+
+*Q: Why don't you include more accessories and garment grids?
+
+ A: This isn't an equipment FAQ, man. There is an incredible amount
+    of gear you can use to form an action loop - just check an equipment FAQ
+    for more detail.
+
+
+*Q: Will healing an enemy gain me ap?
+
+ A: Nope.
+
+
+*Q: Items don't take much time to cast. Why don't you include an item loop in
+    there somewhere?
+
+ A: This is a "*hands-free* Ap FAQ." It may cover extra material that can be
+    used to think up new ways to gain ap, but in the end the purpose of this
+    guide is to detail info about how you can max ds abilities by picking your
+    nose or occasionally checking the ps2 under the desk in your cubicle while
+    dodging the boss. You can't make an infinite action loop by using items,
+    but you can by sucking it up and reading this FAQ.
+
+*Q: You dumbass, silence against physical and darkness against magic enemies?
+    You've lost your marbles, CML - why on earth would you want to do that?
+
+ A: Look, do you want your healer to gain Ap or not? Taking away a fiend's
+    ability to damage your party is frivolous if you expect to level a healer.
+    Once again, the healer must replenish hp. How can an element do that if it
+    can't cast magic? If you still don't understand this, DO NOT E-MAIL ME!
+    Just trust the philosophy, slugga or do things on your own. (PS: Yes, I
+    know there are exceptions to this, but not for the loops written by me in
+    this guide.)
+
+*Q: You're not e-mailing me back. Wus the problem, dude?
+
+ A: I'm just as much of a person as you, and sometimes I leave my little
+    internet community for the real world. If I don't respond within 24 hours
+    try the ffx-2 board on this site. There are plenty of able experts
+    available to help you out.
+
+
+*Q: Why don't you try (insert random action loop here):
+
+ A: I probably have tried it. The fact is, there are incredible numbers of
+    action loops possible. There's no need to list all of them - but if you do
+    find an original and efficient loop (subject to argument), e-mail me and
+    I'll post it as a contribution from: (your name here). **Note** I will not
+    accept obvious, redundant, or "less efficient than previously posted"
+    suggestions!
+
+
+++++++++++++++++++++++++++++++++
+::Credits and Acknowledgements::------Siamese
+++++++++++++++++++++++++++++++++
+
+
+-I'd like to hereby thank the trees that sacrificed themselves to become
+ scattered jottings that saturated the carpet of my house for this guide.
+-I'd also like to take this time to thank my roommates Rissa, Korley, and
+ Rhapsody for not giving me the thousand paper-cuts I deserve for saturating
+ their carpet with scattered jottings.
+-I've gotta thank myself for being lazy enough to use an upside down
+ water bottle to level my characters for me.
+-I suppose that square-enix should be held accountable for developing the
+ wonderful virtual world of Spira, so I guess I better include them too.
+-Thank you ign, neoseeker, gamersunderground, wtfcorps.port5.com, and gamefaqs
+ for hosting this guide.
+-Thanks to Warhawk and kenb215 for helping me clean up some design flaws.
+-Thanks to those whom contributed alternate strategies.
+-Thanks to obsidian_ignus for his work in the EXP/Ap section.
+-Thanks to the cape, hansel, st, and mothra. forever branded by your
+ friendship. Long live CS:
+ http://pix2.hotornot.com/pics/HQ/KS/KL/KR/GRBZNUAMBMBK.jpg
+-Thanks to hotornot.com, the site owners Jim and James, and the HON admin for
+ hosting pics for this guide. I've never had as much fun on the net as I have
+ moderating pics on hotornot.com and cavorting at the mod forum. Thanks again.
+-Here's a shout out to the plethora of people on the FFX-2 boards that
+ discovered mug's ability to constantly tally Ap.
+-Last of all, thanks CjayC for sacrificing your life keeping up the site so us
+ vid-heads can have a fun place to play and work...
+
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~
+
+                      .:*~*:._.:*~*:._.:*~*:._
+                      .:*~*:._@o@o@o@o.:*~*:._
+                      .:*~*:._@o*~*:._.:*~*:._
+*:._.:*~*:._.:*~*:.   .:*~*:._@o*~*:._.:*~*:._   .:*~*:._.:*~*:.:*~
+*:._.:*~*:._.:*~*:.   .:*~*:._@o@o@:._.:*~*:._   .:*~*:._.:*~*:.:*~
+                      .:*~*:._@o*~*:._.:*~*:._
+                      .:*~*:._@o*~*:._.:*~*:._
+                      .:*~*:._@o@o@o@o.:*~*:._
+                      .:*~*:._.:*~*:._.:*~*:._
+
+                      .:*~*:._.:*~*:._.:*~*:._
+                      .:*~*:._@o*~*:o@.:*~*:._
+                      .:*~*:._@o@~*:o@.:*~*:._
+    .:*~*:._.:*~*:.   .:*~*:._@o*0*:o@.:*~*:._   .:*~*:._.:*~*:.
+    .:*~*:._.:*~*:.   .:*~*:._@o*~@:o@.:*~*:._   .:*~*:._.:*~*:.
+                      .:*~*:._@o*~*0o@.:*~*:._
+                      .:*~*:._@O*~*:o@.:*~*:._
+                      .:*~*:._.:*~*:._.:*~*:._
+
+                      .:*~*:._.:*~*:._.:*~*:._
+                      .:*~*:._@o@o@o@_.:*~*:._
+                      .:*~*:._@o*~*:@o.:*~*:._
+            .:*~*:.   .:*~*:._@o*~*:@o.:*~*:._   .:*~*:.
+            .:*~*:.   .:*~*:._@o*~*:@o.:*~*:._   .:*~*:.
+                      .:*~*:._@o*~*:@o.:*~*:._
+                      .:*~*:._@o@o@o@_.:*~*:._
+                      .:*~*:._.:*~*:._.:*~*:._
+
+                              .:*~*:.
+                              .:*~*:.
+
+
+
+

@@ -1,0 +1,696 @@
+FINAL FANTASY TACTICS ADVANCE
+
+Stealing Guide version 0.96
+
+Written by Nyst
+
+Last Updated : 22 September 2003
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                            Table of Contents
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1. Introduction
+2. Version Info
+3. FAQs 
+4. How to get Steal Weapon ability EARLY!
+5. Rare/Hidden items locations
+6. Credits
+7. Copyright notice
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                           1. INTRODUCTION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+This guide is for people who want to get those secret items that the enemy 
+has in the EARLY part of the game. Though this method is not the fastest or 
+easiest, it is by far the most guaranteed(legal) method of getting the steal 
+weapon ability early. Without stealing weapons from the enemies, the other 
+way to get rare items is to do the treasure hunts(map placements) properly 
+or from Nono's shop(linking). You will NOT get ALL rare items from stealing, 
+but you will miss MOST rare and useful items if you do not steal.
+
+
+Note: I won't be updating this guide so soon. If you have any questions or 
+suggestions email me at nyst@ignmail.com. Please include the words 
+"Stealing Guide" in your topic so that I know it is not some junk mail.
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                            2. Version Info
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+Version 0.96 - 22/09/2003 
+ - Add new info about raising negiotiation level faster.
+ - Add some tips for stealing.
+
+
+Version 0.95 - 21/09/2003
+ - Completed Stealing Guide
+
+
+
+ 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                           3. STEALING FAQs
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+This section is about frequently asked questions and answers about stealing.
+
+
+
+1) I have steal helms, accessory ..etc....Why can't I steal the item from 
+   the enemy?
+
+Ans: It may be due to the following reasons:
+     A. The enemy has Maintainance support abillty EQUIPPED.
+     B. The item you are trying to steal are boots.
+     C. The enemy does NOT have the item.
+
+
+
+2) Why can't I steal EXP or JP?
+
+Ans: In order to steal EXP or JP, the enemy must have them(EXP/JP)! You 
+     can't steal EXP from an enemy who has just level up(0 EXP) to bring 
+     his level down. 
+
+
+
+3) Why can't I steal boots? I have steal accessory ability!
+
+Ans: Boots are not considered as accessory, but armlets are! Therefore you 
+     can steal genji armlets, but not feather shoes. To get those rare,
+     powerful shoes(e.g.Galmia shoes) you have to do the treasure hunts
+     (map placement) properly or from linking.
+
+
+
+4) What are the weapons needed to learn to abilities steal weapon and steal 
+   ability?
+
+Ans: For steal weapon you need to have sword breaker and for steal ability 
+     you need Cinqueda.
+
+
+ 
+5) When/where can I get Sword breaker?
+
+Ans: Sword breaker are missions with random rewards of TYPE 6, so you will 
+     not get it until late in the game. Another way is to steal the sword 
+     breaker from enemy thieves, but in order to do that you need steal 
+     weapon ability so it's kind of pointless..
+
+
+
+6) When/where can I get Cinqueda?
+
+Ans: Cinqueda is a reward for reaching clan negiotiate skill lv 30. Another 
+     way is to steal it from enemy thieves who has it.
+
+
+ 
+7) How do I improve my stealing rate?
+
+Ans: There are a number of ways to improve your stealing rate:
+     a. Equip Thief armlets(improve stealing rate by 20%)
+     b. Cast sleep or stop on enemies, steal rate would be 100% on them.
+     c. Steal from the enemies side or back.
+     d. Equip with Concentrate support ability
+     e. Blinding Enemies will improve your chances by around 5-10%
+     f. Tip from Xenast : Slowing targets down gives you more tries at 
+        stealing the items/abilities.
+
+
+
+8) How do I steal hidden weapons?
+
+Ans: Just KEEP ON stealing weapons from them until you get the hidden 
+     items. Do not cast sleep or stop on the enemy that has a hidden 
+     item as they need to re-equip their weapons(You can steal the 
+     hidden item only if they re-equip it with them!).
+     
+     Tip: If you have 2 or more members with stealing skills, you might
+          want to HASTE the target, so that they will re-equip their
+          weapons faster. 
+
+
+
+9) I used Sensor/Mog Peek with 100% rate, why is nothing detected?
+
+Ans: Only those enemies who can re-equip themselves will have hidden 
+     items detected. I.E. Those enemies with Item skill as their secondary
+     A-ability has hidden items. Use Sensor/Mog Peek to find out what are 
+     the hidden items. You DO NOT have to use Sensor/Mog Peek first in
+     order to steal hidden items.
+
+
+ 		 	
+10) Can I steal blue mage abilities from monsters, other blue mages and 
+    morphers?
+
+Ans: No. You cannot steal blue mage abilities from monster, other blue 
+     mages and morphers.
+
+
+
+11) I can't steal the ability that I want(i.e. 0%). What's wrong?
+
+Ans: This could be due to the following reasons:
+     a. You already have the ability.
+     b. You are trying to steal Reaction or support abilites.(you can only 
+        steal Action(A) - abilites.
+     b. Your race can't become that particular class, thus you can't steal 
+        it's ability(e.g. A Human trying to steal abilities from assassin
+        a viera-only class).
+     c. You are trying to steal an ability that the enemy has not mastered.
+     d. You are trying to steal blue mages, monsters and morpher abilities.
+     e. The enemy has NO more abilities for stealing.
+
+
+
+12) I want more of the rare items or abilities. Is there a way to STEAL 
+    more??
+
+Ans: Yes. You can try stealing the rare items/abilities, then FLEE from 
+     the mission. You will fail that mission, but it will come back again. 
+     So you can repeat stealing the rare items. But this method can only be 
+     applied to battle missions that you can FLEE from. 
+
+
+
+13) Ritz/Shara has one of the cool items that I want! But I cannot steal it. 
+    Why?
+
+Ans: She is considered as your ally. You cannot perform steal on your own
+     team mate. 
+     
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 4. HOW TO GET STEAL WEAPON ABILITY EARLY!
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Firstly, to use this method you have to be quite early in the game(before 
+Main mission 9, magic wood). I would not recommend this method too early in 
+the game as there will not be enough quests for you to raise your clan 
+negiotiate skill quick enough. In order to get some of the rare items, you 
+need to hold off some missions before getting steal weapon ability. Finally, 
+you are trying to get steal weapon ability, NOT sword breaker!
+
+
+Steps
+-----
+
+
+1. Sign up for the following Missions(pay fee), but DO NOT do them until 
+   you get steal weapon ability!!!
+
+   a. Frosty Mage
+   b. Nubswood base
+   c. Magic Wood(main quest 9) 
+ 
+ 
+
+2. You need to get the steal weapon ability from the thief in the wanted! 
+   quest(Diaghilev Godeye, quest no. 27). The quest will appear after you 
+   have done Thesis Hunt main quest. Sign up for the mission(pay fee), but 
+   don't do it until you get Cinqueda(For steal ability). There is an
+   alternative location where you can get steal weapon ability. See section
+   4. RARE/HIDDEN ITEMS LOCATION.
+
+
+
+3. After you completed the main mission 8(Hot Awakening), it time to do 
+   SOME clan level up! Go to the pub and do ALL the dispatch/battle 
+   missions you can do. Then REPEAT the following quests in order to raise 
+   your clan skills(most importantly negiotiate skill):
+
+   a. Swords in cyril
+   b. Metal Hunt
+   c. Chocobo help
+   d. Materite
+   e. Missions with flags icons...
+   f. Other Possible missions...
+
+   You are repeating the missions in order to reach clan negiotiate skill 
+   30, so that you can get Cinqueda. It will take a quite while(I did it in 
+   26+ hours of game time). So at the same time you can level up your 
+   characters and learn the abilities and unlock the jobs that you want to 
+   get(assassin, ninja, illusionist..etc..). Rememeber at the same time to 
+   learn ALL the steal abilities.
+
+   
+   From Andrew Pellerano:
+
+   "There is a much easier way to reach negotiation level 30 at the beginning 
+    of the game.  
+    
+    1. Do just the first couple of major quests so that you can activate the 
+       clan command and random battles.  
+    
+    2. Immediately ditch your second human in the party (he’s the most useless 
+       early game) so that you have 5 members total in your clan.  
+    
+    3. Get into a random battle and flee as soon as you can. When you check 
+       the missions list at the pub, you’ll notice a (tribe) Wanted mission 
+       posted by Montblanc where (tribe) is the race aligned with the current 
+       month.  
+    
+    4. Send someone out on this dispatch mission (they take 5 days) and when 
+       they return you’ll gain experience towards your negotiation skill. 
+
+    5. Say no to the new member who wants to join; yes, you’re going to make 
+       a lot of people cry. Run around the map until it is the beginning of 
+       a new month. 
+    
+    6. Head into the pub and you’ll see you now have 2 (tribe) Wanted missions: 
+       one aligned with last month and one aligned with the current month.
+       Note that if you accidentally invite a member to your clan, you’ll miss 
+       out on the second quest generated by the previous month. 
+       You may need to get into a random battle and start the process over 
+       from there. Every 3 or 4 of these dispatch quests will net you a level 
+       in negotiation."
+   
+   Using the above steps will allow you to reach negiotiation skill level 30 in 
+   about 6 hours(varies).
+
+
+
+4. The missions will reappear in different months of the game. So just walk 
+   around on the map and visit pubs to see if the quests reappears. Also, 
+   to get Missions with flags icons(turf missions), when your turf is under 
+   attack, DO NOT go to rescue it!!! Wait till its captured and the turf 
+   missions will appear in the pubs and you can do them again for clan 
+   skill points. If there are multiple turfs being captured, only one 
+   mission will show in the pub. You can only do 1 turf(dispatch) mission 
+   at a time.
+
+
+
+5. If you find that you have too much useless mission items(adamanite, 
+   materite, chocobo eggs..) you can discard them. The missions with those 
+   items as rewards will reappear. DO NOT THROW AWAY OTHER MISSION ITEMS 
+   BESIDES THE THREE LISTED ABOVE!!!!
+
+
+
+6. Once you reached negiotiate skill 30, you will get Cinqueda. Now it's 
+   time to get steal weapon ability!! Equip your thief with the cinqueda 
+   and do the wanted! quest(Diaghilev Godeye, quest no. 27). Steal the 
+   steal weapon ability from the thief of that quest, before killing him.
+
+
+
+NOW YOU HAVE STEAL WEAPON ABILITY EARLY!!!
+
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                        5. RARE/HIDDEN ITEMS LOCATIONS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+Now that you have ALL the stealing abilities you can get, its time to get 
+those great items you have been working hard for. I will only list out 
+missions with IMPORTANT items to steal, as most of the other items can be 
+bought from shops or gotten from treasure hunts and linking. The list is 
+arranged in the way that I did the missions. That means after Frosty Mage, 
+I do Nubswood base, then Magic Wood and so on...
+
+
+FORMAT
+------
+
+Mission No. ?? - ??  <-  Mission number and the Name of mission.  
+
+Target : ??????????  <-  The Specific person to steal from.
+
+Items to steal : ??  <-  Specific items that you need to steal. Note that
+                         if an item is hidden, then it is marked with the
+                         word 'HIDDEN' before the item name. The abilities
+                         that you can learn from the item will be in 
+                         brackets after the name of the item. 
+
+Note : ????????????  <-  Special information to take note.
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 045 - Frosty Mage
+
+Target : Nu moh Black Mage 
+Items to steal : HIDDEN Chill Rod(Blizzaga, Stop, Deludge)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 071 - Nubswood base
+
+Target : Red Mage 
+Items to steal : Madu(Doublecast)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 009 - Magic wood
+
+Target : Thief with a Zorlin shape 
+Items to steal : HIDDEN Cinqueda(Steal ability)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 010 - Emerald Keep
+
+Target : Babus
+Items to steal : Lotus Mace(Giga flare, Flare)
+                 Mirage Vest(Reflex)
+                 Aegis Shield(rare)
+
+Target : Alchemist
+Items to steal : Mandragora(Bio, toad)
+                 HIDDEN Cactus Stick(Rare)
+
+Target : Gunner
+Items to steal : Stopshot ability
+
+Note : If you have a gunner you won't get Stopshot ability so early, so 
+       steal it NOW!
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 076 - Fire Sigil
+
+Target : Moggle Thief
+Items to steal : Steal Weapon ability
+
+Note : This is the 2nd place where you can get Steal Weapon ability, if you 
+       miss the first one. Get it NOW!
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 012 - Jadg Hunt
+
+Target : Blue Mage 
+Items to steal : HIDDEN Tulwar(Very rare).
+                 Mirage vest(Reflex)
+
+Target : Ninja
+Items to steal : Genji armlets(Rare)
+                 Dark gear(Weapon Def +)
+                 PetalChaser(Last Breath)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 013 - The Bounty
+
+Target : Red Mage 
+Items to steal : HIDDEN Gupti Aga(Check Mate)
+
+Target : Paladin
+Items to steal : Vigilante(Monkey Grip)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 026 - Wanted! Gabbama Brothers
+
+Target : Moggle Thief
+Items to steal : Sword Breaker(Steal Weapon)
+
+Note : Sword Breaker is kind of useless since you would have steal weapon 
+       ability already in order to steal it.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 061 - Hit Again
+
+Target : Gunner
+Items to steal : Longbarrel(Concentrate)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 014 - Golden Clock
+
+Target : Alchemist 
+Items to steal : HIDDEN Zeus Mace(Ultima Blow)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 015 - Scouring Time
+
+Target : Templar
+Items to steal : Genji Armour(Reflex)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 015 - Scouring Time(Exodus)
+
+Target : Babus
+Items to steal : Lordly Robe(Absorb Mp, Last Quicken)
+                 Lotus Mace(Giga flare, Flare)
+
+Note : Solo Battle. Remember to equip Steal skills on Marche.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 082 - FreeMuscadet!
+
+Target : Assassin Celia
+Items to Steal : Master Bow(Addle, Aim: Weapon)
+                 Cachusha(Women only, [null]Ko/Petrify/Confuse/Berserk/stop
+                          /charm/sleep)
+                 Dark gear(Weapon Def +)
+
+Target : Assassin Redy
+Items to Steal : Masamune(Oblivion)
+                 Genji Shield(Rare)
+                 Dark gear(Weapon Def +)
+                 Genji Armlets(Rare)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 016 - The Big Find
+
+Target : Moggle Thief
+Items to steal : Steal Weapon ability(This is the 3rd spot you can get Steal
+                 Weapon ability.)
+
+Target : Fighter
+Items to steal ; HIDDEN Adaman Blade(rare)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 104 - Stolen Scoop
+
+Target : Moggle Thief
+Items to steal : Genji Armlets
+
+Target : Soldier
+Items to steal : Aegis Shield(rare)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 105 - Smuggler Bust
+
+Target : Hunter
+Items to steal : Master Bow(Addle, Aim: Weapon)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 053 - Flesh & Bones
+
+Target : Gunner
+Items to steal : Outsider(Stopshot)
+                 HIDDEN Calling Gun(Very rare)
+
+Target : Archer
+Items to steal : Cachusha(Women only, [null]Ko/Petrify/Confuse/Berserk/stop
+                          /charm/sleep)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 017 - Desert Patrol
+
+Target : Soldier
+Items to steal : Mirror Mail(Auto-Reflect)
+
+Target : Gladiator
+Items to steal : Venus Blade(Doublehand)
+
+Target : Bishop
+Items to steal : Spring Staff(Curaga, Water)
+                 HIDDEN Cheer Staff(Auto Life, Judge, Maudeen)
+
+Target : Defender
+Items to steal : HIDDEN Arch SWord(Saint Cross, Soul Sphere)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 066 - A Dragon's Aid
+
+Target : Dragoon
+Items to steal : Genji Shield(Rare)
+                 Genji Armour(Rare)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 018 - Quiet Sands
+
+Target : Llednar
+Items to steal : SaveTheQueen(Cover, Expert Guard, Astra)
+                 Maximillian
+                 Bangaa Helm
+
+Note : Solo Battle. Remember to equip Steal skills on Marche. 
+       Try to steal as many items as you can.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 060 - Showdown!
+
+Target : Assassin
+Items to steal : Genji Shield(Rare)
+
+Target : Paladin
+Items to steal : Aegis Shield(Rare)
+                 HIDDEN SaveTheQueen(Cover, Expert Guard, Astra)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 019 - Materite Now!
+
+Target : Assassin
+Items to steal : Masamune
+                 Genji Armlets(Rare)
+
+Target : Elementalist
+Items to steal : Ribbon(Women only, Null ALL status ailiment, Very Rare)
+
+Target : Sniper
+Items to steal : Nike Bow(Weapon Atk+)
+                 Bone Plate
+
+Target : White Mage
+Items to steal : Mirage Vest(Reflex)
+                 Full-Life ability
+
+Target : Summoner
+Items to steal : Cheer Staff(Auto Life, Judge, Maudeen)
+
+Target : Red Mage
+Items to steal : Madu(Doublecast)
+                 Brint Set
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 020 - Present Day
+
+Target : Mog Knight
+Items to steal : HIDDEN Materia Blade(Ultima Sword, Ultima Charge)
+
+Target : Alchemist
+Items to steal : Life Crosier(Raise, Death)
+                 HIDDEN Scorpion Tail(Meteor)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 020 - Present Day(Llednar)
+
+Target : Llednar
+Items to steal : SaveTheQueen(Cover, Expert Guard, Astra)
+                 Maximillian
+                 Bangaa Helm
+
+Note : Solo Battle. Remember to equip Steal skills on Marche.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 021 - Hidden Vein
+
+Target : Blue Mage
+Items to steal : Mirage Vest(Reflex)
+
+Target : Juggler
+Items to steal : Orichalcum(Steal Jp, Smile)
+                 Bone Plate
+
+Target : Sage
+Items to steal : Scorpion Tail(Meteor)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Mission No. 023 - Over the Hill
+
+Target : Ritz
+Items to steal : Femme Fatale(Very rare)
+                 Brint Set
+                 Ribbon(Women only, Null ALL status ailiment, Very Rare)
+
+Target : Shara
+Items to steal : Seventh Heaven(Ultima Shot)
+                 Galmia Set
+                 Ribbon(Women only, Null ALL status ailiment, Very Rare)
+
+Target : Assassin 
+Items to steal : Max's Oathbow(Doom Archer)
+
+Target : Summoner
+Items to steal : Nirvana Staff(Full-Life, Holy, Phoenix)
+                 Silver Coat
+
+Target : Fencer
+Items to steal : Madu(Doublecast)
+
+Target : Elementalist
+Items to steal : Madu(Doublecast)
+
+Note : Finally you can steal those very rare items that Ritz and shara has.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                                6. Credits
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Thanks to Square-Enix, for making this Superb game on GBA.
+
+Thanks to CJayC, for putting this up on Gamefaqs.
+
+Thanks to Andrew Pellerano for the information about raising negiotiation
+level faster.
+
+Thanks to Xenast for the tip about slowing down enemies for stealing.
+ 
+Most of the section 2. STEALING FAQs comes from the GameFaqs board, thanks 
+to those guys who answered the questions.
+
+Some of the information are translated from the Japanese Digicube's 
+FINAL FANTASY TACTICS ADVANCE "GURIMOUR" THE INVESTIGATED GUIDEBOOK. 
+(This is the "ultimania" guide for FFTA).
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                            7. Copyright Notice
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+This file is Copyright (c)2003 Nyst. All rights reserved. This file was 
+entirely written by me, unless otherwise noted in the Credits section of
+this file. This file may NOT be posted or printed on ANY website(other than 
+http://www.gamefaqs.com) or printed guides.
+
+All trademarks and copyrights contained in this document are owned by their 
+respective trademark and copyright holders.

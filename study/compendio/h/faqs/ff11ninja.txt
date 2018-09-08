@@ -1,0 +1,756 @@
+                         -------------------
+                        |                   |
+                        |   Ninja FAQ       |
+                        | Final Fantasy XI  |
+                        |      v0.2         |
+                         -------------------
+
+Version history:
+0.1 - initial release
+0.2 - updates:
+Added:
++ AF Quests
++ 'Dual Wield' coefficient
+
+Fixed:
+* some typos
+
+TODO:
++ Support jobs
++ more
+
+Table Of Contents
+1. Getting Ninja
+2. Ninja Stats
+3. Ninja Abilities
+4. Ninjutsu
+
+Ideas, improvements, corrections: huckster-at-wp.pl
+------------------------------------------------------------------------------
+
+
+1. GETTING NINJA
+
+Ninja is an advanced job that you can get when you reach lvl 30.
+To be able to change your job to Ninja you need to do a special
+quest
+
+Ayame and Kaede Quest
+
+Quest starts in Bastok Port. Talk to Ensetsu (I-5) and he sends
+you on a loop that goes from Kaede (daughter near Ensetsu - next
+room) to Kagetora (F-6, Warehouse I) and back to Ensetsu who will ask
+you for a favor.
+
+You need to bring him a strangely shaped coral from Korroloka Tunnel
+(Bastok Mines -> Zeruhn Mines -> Korroloka Tunnel). You need to get
+to position K-8 on the map where you will find "???".
+
+When you touch it, three named mobs - "Korroloka Leeches" will appear.
+They are very tough so bring a high lvl player to help you (2 x lvl30
++ lvl 55 WHM will do). When you kill them - click the "???" again to
+receive a coral. Bring it back to Ensetsu - he will send you to Norg.
+Talk to Ryoma and get a katana from him. Go back to Ensetsu and talk
+to him.
+
+You can now become Ninja.
+
+
+1. NINJA STATS
+
+Stats at lvl 1:
+
+        Elvaan    Galka     Hume     Mithra   Taruraru
+HP        30        33        28        28        24
+MP         0         0         0         0         0
+STR        8         8         7         7         6
+DEX        7         7         7         9         7
+VIT        8         9         7         7         7
+AGI        6         7         7         8         8
+INT        5         6         6         6         8
+MND        6         5         5         5         5
+CHR        5         4         5         4         5
+
+
+Stats at lvl 75:
+        Elvaan    Galka     Hume     Mithra   Taruraru
+HP      1167      1318      1046      1046       820
+MP         0         0         0         0         0
+STR       70        66        61        58        53
+DEX       62        65        65        79        65
+VIT       66        75        61        58        58
+AGI       57        62        65        74        70
+INT       48        53        56        56        70
+MND       53        44        44        41        41
+CHR       48        40        48        40        48
+
+
+2. NINJA ABILITIES
+
+Passive:
+----------------+------+--------------------------------------------------
+ABILITY         | LVL  |  DESCRIPTION
+----------------+------+--------------------------------------------------
+Stealth         |   5  |  Lowers chance of being detected by enemies.
+Resist Bind     |  10  |  Increased resistance to binding.
+Dual Wield      |  10  |  Allows you to equip two weapons.
+Dual Wield II   |  25  |  Allows you to equip two weapons.
+Resist Bind II  |  30  |  Increased resistance to binding.
+Dual Wield III  |  45  |  Allows you to equip two weapons.
+Resist Bind III |  50  |  Increased resistance to binding.
+Dual Wield IV   |  65  |  Allows you to equip two weapons.
+Resist Bind IV  |  70  |  Increased resistance to binding.
+
+Dual Wield Level Coefficient:
+LVL 10 = (1st weapon delay + 2nd weapon delay) * 0.90
+LVL 25 = (1st weapon delay + 2nd weapon delay) * 0.85
+LVL 45 = (1st weapon delay + 2nd weapon delay) * 0.75
+LVL 65 = (1st weapon delay + 2nd weapon delay) * 0.70
+* Additional -0.05 with AF
+
+
+Active:
+----------------+------+--------------------------------------------------
+ABILITY         | LVL  |  DESCRIPTION
+----------------+------+--------------------------------------------------
+Mijin Gakure    |  1   | Sacrifices your life (no exp loss) to do massive
+                |      | damage to the enemy (2 hour skill)
+
+3. NINJUTSU
+
+Every Ninjutsu has three lvls: Ichi (one), Ni (two) and San (three).
+
+So, when casting first lvl Tonko (lvl9 minimum) - you'll cast Tonko:Ichi.
+To cast every Ninjutsu you'll need a special Powder. They're also listed
+below with recipes and craft skills. You can get Ninjutsu spells by either
+getting them from AH or by doing certain quests.
+
+
+------------------------------------------------------------------------------
+Tonko
+------------------------------------------------------------------------------
+Lessens chance of being detected by sight. (Invisible)
+
+Element: Wind
+Powder: Shinobi-Tabi
+   Craft: Weaver (Novice)
+   Recipe: Earth Crystal, Grass Thread, Cotton Cloth x 2, Saruta Cotton
+
+Tonko:Ichi - lvl 9
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From: Norg Quest (Keal)
+Speak to Keal to start this quest. He asks you to go into the Vault that was
+taken over by the sahagins.
+After you agree, head out of Norg with your trusty Silent Oils and go past the
+first unmarked gate. Head straight and vear to your right when you have the
+chance. Follow the passage aiming for the north west corner of the map. You
+should pass 2 more unmarked gate doors and several ghasts/oozes. (Everything
+is sound agro, don't worry, just don't run directly into their model) When you
+come into a broken down room with a boarded floor, you're there. Check the
+"Iron Box" object in the north east corner of the room, it's below a rack.
+Return the object to Keal (it's a Key Item, just speak to him) and he'll hand
+over Tonko: Ichi, the Ninjitsu Invisible spell.
+
+Tonko:Ni - lvl 34
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Assassin)
+- Temple of Uggalepih (Tonberry Cutter)
+
+Tonko:San - lvl 59
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Utsusemi
+------------------------------------------------------------------------------
+Creates shadow images that each absorb a single attack directed at you. (Blink)
+
+Element: Wind
+Powder: Shihei
+   Craft: Carpenter (Initiate)
+   Recipe: Wind Crystal, Black Ink, Bast Parchment x2
+
+Utsusemi:Ichi - lvl 12
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From: Norg Quest (Lasreal)
+Quest description:
+Entering Sea Serpent Grotto from Yuhtunga Jungle, instead of keep turning right
+to go to Norg, just keep turning left until you reach N-14 on the map. At N-14,
+there's a hidden door, keep examine the door until the message change to "You
+see something silver glittering around the indentation." After you see this
+message, trade a Silver Beastcoin to the door to open it. After passing the
+door, go north along the right wall until you reach H-8. Drop down to the
+lower levels and keep going north along the right way wall -- you'll eventually
+reach the Sahagins' storage area. Examine the ??? at H-3 in the storage area to
+initiate a cut-scene and receive the key item: "Sea serpent statue". Go back to
+Norg and talk to Laisrean to finish the quest.
+
+Utsusemi:Ni - lvl 37
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- BCNM (Horlais Peak / Star Orb)
+- BCNM (Waughroon Shrine / Star Orb)
+- BCNM (Balgas Dais / Star Orb)
+
+Utsusemi:San - lvl 62
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Katon
+------------------------------------------------------------------------------
+Deals fire damage to an enemy and lowers its resistance against water.
+
+Element: Fire
+Powder: Uchitake
+   Craft: Carpenter (Initiate)
+   Recipe: Earth Crystal, Bamboo Stick, Grass Cloth, Toad Oil
+
+Katon:Ichi - lvl 15
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From:
+- Norg (Chiyo)
+- Port Bastok (Jabbar (Tenshodo), F-6)
+- Lower Jeuno  (Amalasanda (Tenshodo))
+
+Katon:Ni - lvl 40
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Conquistador)
+- Castle Oztroja (Yagudo Assassin)
+
+Katon:San - lvl 65
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Suiton
+------------------------------------------------------------------------------
+Deals water damage to an enemy and lowers its resistance against lightning.
+
+Element: Water
+Powder: Mizu-Deppo
+   Craft: Carpenter/Blacksmithing (Novice)
+   Recipe: Earth Crystal, Bronze Sheet, Chestnut Lumber, Distilled Water
+
+Suiton:Ichi - lvl 15
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From:
+- Norg (Chiyo)
+- Port Bastok (Jabbar (Tenshodo), F-6)
+- Lower Jeuno  (Amalasanda (Tenshodo))
+
+Suiton:Ni - lvl 40
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Conquistador)
+- Castle Oztroja (Yagudo Assassin)
+
+Suiton:San - lvl 65
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+------------------------------------------------------------------------------
+Huton
+------------------------------------------------------------------------------
+Deals wind damage to an enemy and lowers its resistance against ice.
+
+Element: Wind
+Powder: Kawahori-Ogi
+   Craft: Carpenter (Novice)
+   Recipe: Earth Crystal, Bamboo Stick, Animal Glue, Bast Parchment
+
+Huton:Ichi - lvl 15
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From:
+- Norg (Chiyo)
+- Port Bastok (Jabbar (Tenshodo), F-6)
+- Lower Jeuno  (Amalasanda (Tenshodo))
+
+Huton:Ni - lvl 40
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Conquistador)
+- Castle Oztroja (Yagudo Assassin)
+
+Huton:San - lvl 65
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+------------------------------------------------------------------------------
+Doton
+------------------------------------------------------------------------------
+Deals earth damage to an enemy and lowers its resistance against wind.
+
+Element: Earth
+Powder: Makibishi
+   Craft: Blacksmith (Initiate)
+   Recipe: Wind Crystal, Iron Scales
+
+Doton:Ichi - lvl 15
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From:
+- Norg (Chiyo)
+- Port Bastok (Jabbar (Tenshodo), F-6)
+- Lower Jeuno  (Amalasanda (Tenshodo))
+
+Doton:Ni - lvl 40
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Conquistador)
+- Castle Oztroja (Yagudo Assassin)
+
+Doton:San - lvl 65
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+------------------------------------------------------------------------------
+Raiton
+------------------------------------------------------------------------------
+Deals thunder damage to an enemy and lowers its resistance against earth.
+
+Element: Thunder
+Powder: Hiraishin
+   Craft: Goldsmith (Novice)
+   Recipe: Fire Crystal, Copper Ingot, Silver Ingot)
+
+Raiton:Ichi - lvl 15
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From:
+- Norg (Chiyo)
+- Port Bastok (Jabbar (Tenshodo), F-6)
+- Lower Jeuno  (Amalasanda (Tenshodo))
+
+Raiton:Ni - lvl 40
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Conquistador)
+- Castle Oztroja (Yagudo Assassin)
+
+Raiton:San - lvl 65
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Hyoton
+------------------------------------------------------------------------------
+Deals ice damage to an enemy and lowers its resistance against fire.
+
+Element: Ice
+Powder: Tsurara
+   Craft: Alchemy (Amateur)
+   Recipe: Ice Crystal, Rock Salt, Distilled Water x2)
+
+Hyoton:Ichi - lvl 15
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From:
+- Norg (Chiyo)
+- Port Bastok (Jabbar (Tenshodo), F-6)
+- Lower Jeuno  (Amalasanda (Tenshodo))
+
+Hyoton:Ni - lvl 40
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Conquistador)
+- Castle Oztroja (Yagudo Assassin)
+
+Hyoton:San - lvl 65
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Kurayami
+------------------------------------------------------------------------------
+Blinds an enemy.
+
+Element: Dark
+Powder: Sairui-Ran
+   Craft: Alchemy / Cooking (Novice)
+   Recipe: Earth Crystal, Kazham Peppers, Bomb Ash, Bast Parchment, Bird Egg
+
+Kurayami:Ichi - lvl 19
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From: Norg Quest (Heiji)
+Speak with Heiji above the shop where you can find Laisrean. He asks you to
+bring him 10 Rusty Leggings, one at a time. Go fish them out or buy them at
+the AH in Norg and feed him 8, then 2. (He keeps good track)
+After giving him all of them he'll reward you with Kurayami:Ichi, the ninja
+blind spell.
+
+Kurayami:Ni - lvl 44
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Assassin)
+
+Kurayami:San - lvl 69
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Hojo
+------------------------------------------------------------------------------
+Reduces an enemy's attack speed.
+
+Element: Earth
+Powder: Kaginawa
+   Craft: Weaver/Blacksmith
+   Recipe: Earth Crysal, Bronze Ignot, Grass Thread, Manticore Hair
+
+Hojo:Ichi - lvl 23
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From: Norg Quest (Washu)
+Washu gives you the key item Empty Barrel and instructs you to fill it with
+Opo-Opo brew found in a Yhoator Jungle tree. Examine the ??? at the top center
+of the F-8 grid in Yhoator to receive the brew, and return to Washu in Norg
+for your reward.
+
+Hojo:Ni - lvl 48
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:
+- Castle Oztroja (Yagudo Assassin)
+
+Hojo:San - lvl 73
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+------------------------------------------------------------------------------
+Dokumori
+------------------------------------------------------------------------------
+Poisons an enemy.
+
+Element: Water
+Powder: Kodoku
+   Craft: Alchemy (Recruit)
+   Recipe: Dark Crystal, Elshimo Frog, Lugworm, Shell Bug)
+
+Dokumori:Ichi - lvl 27
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From: Norg Quest (Heizo)
+Speak with Heizo above the shop where you can find Laisrean. He asks you to
+bring him 10 rusty leggings, one at a time. Go fish them out or buy them at
+the AH in Norg and feed him 8, then 2. (He keeps good track)
+After giving him all of them he'll reward you with Dokumori: Ichi, the ninja
+poison spell.
+
+Dokumori:Ni - lvl 52
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:		?
+
+Dokumori:San - lvl 77 (?)
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+------------------------------------------------------------------------------
+Jubaku
+------------------------------------------------------------------------------
+Paralyzes an enemy.
+Powder: Jyusatsu
+   Craft: Alchemy (Novice)
+   Recipe: Dark Crystal, Black Ink, Beastman Blood, Bast Parchment)
+
+Jubaku:Ichi - lvl 30
+-----------------------------------
+Cast time:       4
+Recast time:    30
+From: Norg Quest (Shivivi)
+Fish in Sea Serpent Grotto until you get the "Damp Scroll", or buy it in the
+Misc section of the AH.
+
+Head to Norg and talk to Shivivi (Near the Captain's Quarters) to initiate
+the quest. Go to Horlais Peak and trade the scroll to the Hot Springs to
+receive: Scroll of Jubaku:Ichi
+
+NOTE: You must already have enough Tenshodo fame and MUST have the "Damp
+Scroll" in your inventory when you talk to Shivivi to get the quest.
+
+Jubaku:Ni - lvl 55
+-----------------------------------
+Cast time:      1.5
+Recast time:    45
+From:		?
+
+Jubaku:San - lvl 80 (?)
+-----------------------------------
+Cast time:       ?
+Recast time:     ?
+From:		 ?
+
+
+AF QUESTS
+------------------------------------------------------------------------------
+AF1 : 20 Years of Pirates
+------------------------------------------------------------------------------
+Conditions: Ninja LVL40
+Quest NPC: Ryoma
+Location/Map:  Norg
+AF Name and Type: 1H Katana (x2)
+Equipment Characteristics:
+Katana 1 (Anju): Lv 40, Damage 21, Delay 216, str -1, dex +2
+Katana 2 (Zushio): Lv 40, Damage 23, Delay 238, str +2, dex -1
+
+After reaching level 40, go to Norg and speak to Ryoma. He will explain
+a story of an ancient scroll. Travel to Bastok and speak to Kagetora in
+the Tenshodo HQ. He will then send you to speak to Ensetsu. Ensetsu explains
+that the scroll was in some sort of box. Travel to Eastern Altepa Desert (H-5)
+and click on the ???. Two Spider NM's will pop. I would reccommend a full party
+of level 40's, or a few level 55+ people. After killing the spiders, click on
+the ??? once again to get the key item. Head back to Bastok and talk to Ensetsu
+once more. From there, go to Norg once again to talk to Ryoma. He will then
+Reward you with Zushio and Anju (2 rare/ex level 40 katanas).
+
+------------------------------------------------------------------------------
+AF2: <Title missing>
+------------------------------------------------------------------------------
+Conditions: Completed AF1 / Ninja LVL50
+Client: Ryoma
+Location/Map:  Norg
+AF Type: Legs
+Equipment Characteristics:
+Hakama: Lv 52, Def 29, hp +15, range hit +10, nighttime: evasion +10
+
+Talk to Ryoma, he will send you to Ensetsu (Bastok Port). Then - go to Rabao
+and speak with Leodarion. He'll ask for an Oak Pole (lvl40 WHM Staff, get it
+either on AH, or from Antonia (Upper Jeuno, H-8)) - give it to him.
+
+Now you'll have to wait 1 hour real time (1 day game time).
+
+Go to Mhaura and get a boat to Selbina. You'll fight a NM Ghost (Enagakure) on
+a ship. When you get off the boat you will get the Artifact.
+
+You need about 3 x Lvl 60 to do it.
+
+------------------------------------------------------------------------------
+AF3: <Title missing>
+------------------------------------------------------------------------------
+Conditions: Completed AF1
+Client: Ryoma
+Location/Map:  Norg
+AF Type: Torso
+Equipment Characteristics:
+LVL 58, Defense 41, HP +15, VIT +3, 'Dual Wield' -0.05.
+Occasionally adds Blaze Spike attribute.
+
+1. Talk to Ryoma in Norg, he sends you to Yhoator Jungle (I-7).
+
+2. Examine the ??? there, 3 NM Sahagin will spawn. Kill them, examine ??? and
+you will get an "old trick box".
+
+3. Take it back to Ryoma, and he sends you to Rabao.
+
+4. Talk to Leodarion, he sends you to Kuftal. You will have to find and open a
+"Treasure Coffer"
+
+5. Fight these mobs to get the Kuftal Coffer Key:
+* Robber Crab       (62-68)
+* Recluse Spider    (63-66)
+* Cave Worm         (61-64)
+* Sand Lizard       (56-66)
+* Deinonychus       (65-68)
+* Goblin Alchemist  (65-69)
+* Goblin Bandit     (66-69)
+* Goblin Tamer      (66-69)
+* Goblin Mercenary  (65-69)
+
+6. Then - find the Treasure Coffer possibly at:
+* F-13
+* K-11
+* G-9
+* J-7
+* I-5
+* H-8
+
+http://freett.com/liene/Mp_Kuftal_Tunnel_01.html
+http://freett.com/liene/Mp_Kuftal_Tunnel_02.html
+
+7. Open the coffer, and you will get a "large treasure chest".
+
+8. Bring it back to Leodarion and he will give you the tunic.
+
+Recommended: 6 x LVL60+
+
+
+------------------------------------------------------------------------------
+AF4: <Title missing>
+------------------------------------------------------------------------------
+Condition: Completed AF1
+Client: Guslam
+Location/Map:  Upper Jeuno
+AF Type: Hands
+Equipment Characteristics:
+LVL 60, Defence 14, HP +13, DEX +3, Range atk +5, Throwing weapon skill +5
+
+1. Talk to Guslam and get quest.
+
+2. Head to Ifrit's Cauldron and hunt these to get the key:
+* Volcanic Gas    (62-68)
+* Volcanic Wasp   (61-64)
+* Old Opo-opo     (61-65)
+* Dodomeki        (63-69)
+* Dire Bat        (60-66)
+
+3. After you get the key, find and open the Coffer to get a key item. "Pair of
+Old Gauntlets."
+
+Treasure Coffer locations:
+* H-7
+* G-9,
+* G-8,
+* I-8,
+* J-11
+
+http://freett.com/liene/Mp_Ifrit's_Cauldron_01.html
+http://freett.com/liene/Mp_Ifrit's_Cauldron_02.html
+http://freett.com/liene/Mp_Ifrit's_Cauldron_07.html
+
+4. Head back to speak with Guslam and he says those gauntlets were made by
+Bolghertz, but they need to be restored as they are useless in that state.
+
+5. Head to the Tenshodo branch in Lower Jeuno, speak with Yin Pocanakhu. Pay
+the money she asks for (small sum) and go to the Duty Free shop in Port Jeuno.
+Outside the shop there's a box on some crates. It targets as a ???. Inspect it
+and a cutscene will follow. You must now head to the Castle Zahvl Baileys and
+slay the Torch NM to get key item Flame of Darkness and return to Borghertz.
+
+6. Now either Teleport-Zavhl if you have the gate crystal, or head through
+Ranguemont Pass to Beaucedine Glacier and finally on to Xarcabard. Enter the
+Castle Zhval Baileys and press on till you find the closed gate with 4
+target-able torches.
+
+7. When ready, inspect a torch and do battle with the NM that appears (The Dark
+Spark). After the battle is over, check the torch again to receive the Flame of
+Darkness.
+
+8. Return to the same box (???) in Port Jeuno and receive your gloves.
+
+Recommended: 6 x LVL60+
+
+------------------------------------------------------------------------------
+AF5: Treasure Coffer
+------------------------------------------------------------------------------
+Conditions: Completed AF4
+AF Type: Head
+Equipment Characteristics:
+LVL 56, Defence 21, HP +10, CHR +5, ice resistance +10, ninjutsu +5
+
+1. Go to Boyahda Tree and hunt these to get the key:
+* Moss Eater      (62-66)
+* Knight Crawler  (60-67)
+* Mourioche       (62-68)
+* Robber Crab     (62-68)
+* Bark Spider     (60-63)
+* Death Cup       (60-63)
+
+Treasure Coffer locations:
+* G-7
+* J-8
+* D-5
+* E-6
+* F-7
+* H-9
+
+http://freett.com/liene/Mp_The_Boyahda_Tree_01.html
+
+2. Open the Coffer and get your AF.
+
+------------------------------------------------------------------------------
+AF6: Treasure Coffer
+------------------------------------------------------------------------------
+Conditions: Completed AF4
+AF Type: Feet
+Equipment Characteristics:
+LVL 54, Defence 12, HP +12, AGI +4, nighttime: movement speed +25%
+
+1. Go to Sea Serpent Grotto and hunt these to get the key:
+* Rock Crab      (53-58)
+* Blubber Eyes   (55-58)
+* Marsh Sahagin  (52-59)
+* Swamp Sahagin  (52-59)
+* Bog Sahagin    (53-59)
+
+Treasure Coffer locations:
+http://freett.com/liene/Mp_Sea_Serpent_Grotto_03.html
+
+2. Open the Coffer and get your AF.
+
+
+Compiled thanks to:
+http://ffxi.game-host.org/eriwilde/ffxi/magics/ninjutsu.html
+http://ffo.warcry.com/index.php/content/jobs/ninja
+http://ffxi.allakhazam.com/
+http://ccwf.cc.utexas.edu/~nhart/Status_calculator.htm
+http://mysterytour.web.infoseek.co.jp/mt/eng/q-nor.htm
+http://freett.com/liene/index.html

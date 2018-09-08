@@ -1,0 +1,2878 @@
+﻿****************************************************************************
+**				                                          **
+**                     CRISIS CORE : FINAL FANTASY VII       		  **
+**                                       				  **
+****************************************************************************
+
+	               Crisis Core Script Translations
+                      Author: SilentTweak aka Chocolinx
+		           Date: 7:27 PM 05/11/2007
+		            Version: v1.9 COMPLETE
+		              www.silenttweak.net
+
+****************************************************************************
+**									  **
+**  If you wish to use my translations please credit me appropriately and **
+**  link back to my site www.silenttweak.net. If you have any questions   **
+**  or need help with anything regarding my translations please feel free **
+**  to email me or msn me at huongkwun@hotmail.com Thank You and Enjoy!   **
+**  								          **
+**  The version on my site www.silenttweak.net might be easier to read    **
+**  for some people. The site also has much more Crisis Core media.	  **
+**				                                          **
+**  To view this guide properly please set your browser to UTF-8          **
+**  encoding.  You can do this by right-clicking a select encoding then   **
+**  click on Unicode (UTF-8).                                             **
+**                                                                        **
+**  I'd also like to thank someone who made some big contributions.       **
+**  Without her this guide would not be as complete as it is now.         **
+**                                                                        **
+**  Schala-Kitty of AdventChildren.net Forums.  She made contributions    **
+**  to Chapters 2, 7, and 9!  Thanks Schala-Kitty you're the best!        **
+**                                                                        **
+**									  **
+****************************************************************************
+
+****************************************************************************
+**                                                                        **
+**                  Authorized Sites With Updated Versions                **
+**									  **
+**                    Original Source:                                    **
+**                    http://www.silenttweak.net                          **
+**                                                                        **
+**                    Began Here:                                         **
+**                    http://forums.adventchildrent.net/                  **
+**                                                                        **
+**                    Text File Form:                                     **
+**                    http://www.gamefaqs.com/                            **
+**                                                                        **
+**                    Text File Form:                                     **
+**                    http://www.neoseeker.com/                           **
+**                                                                        **
+****************************************************************************
+
+==============+???I77777777II77777777777777777777777777777777777777777777777
+~~~~~~:::::::~=+???I77I++=~~===+?I777777777777777777777777777777777777777777
+~~~~~~~~:::::~=+??++=~~:::::~::~~==?7777777777777777777777777777777777777777
+~~~~~~~~~::::~=+++=~~::::::::::::~~=+I77777777777777777777777777777777777777
+~~~~~~~~~:::::===~:::::::::,,:,:~~~~:=?7777777777777777777777777777777777777
+~~~~~~~~::::::~~~::::::::,,,,,::::::~=?I777777777777777777777777777777777777
+:::::::::::,,,:::::::,,,,,,,,,:,,:::~++++77777777777777777777777777777777777
+:::::::::::::::,:::,,,,:,:,,,,:,,::~====?77777777777777777777777777777777777
+~~~~~~==~=~~~:,,:,,,,,:,,,,::::,:=~~~=~+I77777777777777777777777777777777777
+~===========~:,,,,:,,,,:,,::::::~~~~?+~+777777777777777777777777777777777777
+~~~~~~====~::,,,,:,::::,:::::::==~=?I==?777777777777777777777777777777777777
+~~~~~~~~~~::::,,,::::::::::::=+++~:=?~+I777777777777777777777777777777777777
+:::::~~~::::::,,,,:~~~~:~~~~=+++???::=?II77II7777777777777777777777777777777
+::::::::,,,,:,,::::~~~~~~~+=+=~+III~=+?????????????????????I????????????????
+::::,,,,,,,,:,,:~:::~=====~~=?I???~~=+++++++++++++++++++++++++++++++++++++++
+,,,,,.,,,,,,,:,:~~:~~~======+~I?=~~~=============+==================+++++++=
+...,.........,::~~~~~~~==++++?+::,:==+======================================
+.............,,::~~~~~~~~=+?+::,:,,:===+================~========~~=~~~~~~~~
+..............,::~~~=~~:::::~,..,.:.:~+~==~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...........,.,,,:~~~==~.,::==:,..::.,:I?~=+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~:::
+............,..,:,~~=~..,::==+~=,,::~~~~~~+??~~:~~:~~~~~~~~~~~~~~~~~~~~:::::
+...............,::,~~,...,~===+:,~=++=,:,,,,:~~===~~==++==~~::~:~~~~~~~:::::
+.............,::==,:,...,,:=~=~~+.,,,,,,,,.:~=:::,,==~:~+~~~~+==+~~~+~+~::::
+..............,~+?~..::,.,,~::~~,,.,,.,,,,.,:,,+,,:,:~,,=:~=~?:::=???I+===:,
+..............~I=I~=,...,,,:,::.,,,,,..,,...,..,,,..~==,,=,=,,+=:~II==+====~
+..............:=+I:~,,,...,,,,.,,,,,,,.,,...,..,....?I+,=+,?~,?:,:I=,??:~+++
+.............~~,+=,:,..........,....,,.,.............::.::.::.~:,:=:,,~:::=+
+........,?,,:.~=~,:.,,,.......,....,..............................,,,,,,:::=
+........:,,.:=:,,,.,,,.....,........................................,,,...,:
+
+
+****************************************************************************
+**									  **
+** Table of Contents							  **
+** Ctrl+F To Search Chapters						  **
+**________________________________________________________________________**
+**									  **
+** Chapter 1 - Hold On To Your Dreams                                     **
+** Chapter 2 - He Would Never Betray Me                                   **
+** Chapter 3 - We Are Not Monsters                                        **
+** Chapter 4 - Angels Have But One Dream                                  **
+** Chapter 5 - Where Did Everyone Go?                                     **
+** Chapter 6 - Never Relinquish The Pride Of A SOLDIER                    **
+** Chapter 7 - Is Genesis Really Dead?                                    **
+** Chapter 8 - I Might Even Be Abandon By Shinra                          **
+** Chapter 9 - I Understand, I'll Come See You.                           **
+** Chapter 10 - We Are Heroes                                             **
+** Epilogue							          **
+**                							  **
+****************************************************************************
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 1		          **
+**                                       				  **
+****************************************************************************
+
+Radio: Wutai soldiers have taken control of a Shinra train Muka 93 Type 02. It
+is headed towards Sector 8 in Midgar. SOLDIER will be sent to take control of
+the situation. So far no change in the enemies movements. Start countdown 3 2 1
+mark! Mission Start! Prepare to be dropped off.
+
+Angeal: The train has been commandeered by Wutai soldiers. Your mission is to
+seize and regain control of the train.
+Zack: Ro---ger!
+Angeal: Zack!
+
+Zack jumps out of the helicopter and lands on the train.
+
+Angeal: Be serious about this!
+
+Angeal jumps after him.
+
+Angeal: Zack concentrate! The soldiers on this train aren't of Shinra. Do you
+understand?
+
+Zack turns around and clinches his fists in excitement. He runs off to make his
+way to the engine train. Along the way Zack gets shot at and nearly falls off
+the train.
+
+Zack: Whoa. My hand nearly slipped there.
+
+Zack gets back up and rushes towards the Wutai soldiers dressed in Shinra army
+uniforms.
+
+Zack: Irasshaimase!
+
+Zack slashes, jumps, hops, dodges everything thrown at him. He eventually makes
+it to the engine train and cuts the rest of the trains loose.
+
+Zack: SOLDIER 2nd Class Zack has arrived!
+
+Zack heads to the engine room of the train and stops it at the Sector 8 station.
+
+Radio: Train number Muka 93 Type 02 originated from a situation that began in
+Sector 1 train station. Continue on to Phase 2. You will be ranked by your
+superiors.
+
+Zack makes it to the train station in Sector 8. After jumping off the train he
+gets a call.
+
+Zack: Zack here.
+Angeal: Zack is it going smoothly?
+Zack: Angeal, what's going on? The enemy soldiers were Shinra soldiers.
+Angeal: Those were Wutai soldiers are using fake uniforms. Next you need to
+head up to the area above.
+Zack: Sector 8 right?
+Angeal: Yeah. But before that you'll need to deal with the intruders at the
+station.
+Zack: Intruders?
+Angeal: You'll soon understand. Don't go running out of breath.
+Zack: Should be fine to go wild though right?
+Angeal: Just a little.
+
+Zack hangs up and draws his swords at the Wutai Shinra looking soldiers who
+come rushing in.
+
+Zack: Well then I guess I won't hold back.
+
+Zack finishes off the Wutai soldiers and receives a call from Angeal.
+
+Angeal: I guess that was tolerable.
+Zack: Piece of cake! I'll be 1st Class soon too.
+Angeal: Head towards the stairway that's near headquarters.
+Zack: Roger!
+
+Zack heads over to Sector 8 and sees people running. He heads over to check the
+situation and is faced by a huge monster, Behemoth. Zack, with his skills that
+are nearly of that of a 1st Class, slashes and dashes around the monster and
+quickly delivers the finishing blow. After the defeat of Behemoth Zack is
+caught off guard and someone points a sword at him from behind.
+
+Sephiroth: To be showing your back to the enemy, you're either very confident
+or very foolish.
+
+Zack turns around slowly and discovers who's got him.
+
+Zack: Ho--How?
+
+Sephiroth throws a simple slash at Zack but Zack has difficulty defending.
+
+Zack: Dammit! I want to become a hero too!
+Sephiroth: It's over.
+
+Zack his hit hard and his sword is broken in two. Somewhere else in the Sectors
+Angeal is checking his cell phone.
+
+Angeal: That's impossible!
+
+Zack is down for the count and Sephiroth decides it's time to deliver the
+finishing blow. But just before Sephiroth can stab Zack Angeal quickly grabs
+Zack's broken sword and stops Sephiroth. Sephiroth stands back and Zack gets
+back up.
+
+Zack: As expected of Angeal.
+
+Angeal picks up his cell phone and choose Abort Mission and clicks "Yes"; the
+VR mission ends.
+
+Angeal: Training is over.
+Zack: How come?!
+
+Angeal points Zack's broken sword at him.
+
+Zack: Are you for real? But I was just about to get serious.
+
+Angeal hands back Zack his broken sword. Zack sighs with displeasure due to his
+failure in his VR mission.
+
+Angeal: Hold on to your dreams.
+Zack: Huh?
+Angeal: If you want to be a hero you have to hold on to your dreams and
+also---your pride.
+
+Angeal leaves the room and Zack stands in the training room thinking about what
+Angeal said.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 2		          **
+**                                       				  **
+****************************************************************************
+
+After Zack's long and embarrassing moment against a VR Sephiroth, Zack does
+some squats to relieve himself of the stress. While doing squats in the lounge
+area of Level 49, Zack's friend Kunsel, a 2nd Class SOLDIER, comes to talk to
+him.
+
+Kunsel: Zack! You're acting pretty worked up over there.
+Zack: It's obvious isn't it? During training---just nothing good---happened.
+It's pointless to talk about it. Lately, you've been pretty busy right?
+Everyone else seems to be absent.
+Kunsel: Eh? Absent? You didn't hear? The huge SOLDIER disappearance.
+Zack: Huh?!
+
+Kunsel continues to converse with Zack and explain the situation.
+
+Kunsel: One 1st Class went missing. Also 2nd and 3rd Classes went missing as
+well during a mission in Wutai. There also seems to be no information about who
+did it or for what reason. Because of this SOLDIER disappearance it looks like
+your training sessions are over.
+
+Angeal walks into the lounge and Kunsel acts surprised.
+
+Kunsel: Oh it's a 1st Class.
+Angeal: Zack we’ve got work to do.
+Zack: Oo! Sweet! It's been a while since I've had a mission.
+Angeal: Come with me to see Executive Manager Lazard. There will be a full
+mission briefing.
+
+Zack and Angeal head over to the briefing room on Level 49.
+
+Lazard: Zack, it seems like this would be the first time we've meet. I am
+Executive Manager of the SOLDIER Department.
+Zack: It's a pleasure!
+Lazard: Hmm. I know this is sudden but---SOLDIER 1st Class Genesis. A while ago
+during a mission in Wutai, we lost his location. Is there anything you know
+about it?
+Zack: Nothing at all!
+Lazard: Hmm. As of now the organization is quite busy, so I'd like you to go
+and investigate.
+Zack: To Wutai?
+Lazard: That's correct. We'd like to end this long stretching war.
+Angeal: I've nominated you for 1st Class.
+Zack: Huh?! An---ge---al! I love you Angeal!
+
+Zack quickly jumps Angeal overly excited. Lazard sits and chuckles at Zack
+being so childish.
+
+Angeal: Stop embarrasing me!
+Zack: Yes, Sir!
+Angeal: Once your preparations are ready, we depart immediately!
+
+Zack runs over to his buddy Kunsel who has just entered the room. Zack learns
+that Shinra is offering missions through Save Points. After Zack cleans up and
+get his stuff together, he heads on over back to the briefing room and has a
+last chat with Lazard and Angeal.
+
+Lazard: I will also be departing with you two. I'm expecting much out of you.
+Zack: Yes Sir!
+Lazard: By the way, what's your dream? To become 1st Class, I would assume?
+Zack: Nope. To become a Hero.
+Lazard: Is that so. Quite a sad dream but a good dream nonetheless.
+Zack: Huh? Come again?
+
+Zack and Angeal arrive in Wutai territory. All they have to do is follow a path
+that leads straight to Wutai's Tamblin fortress. Before they reach their
+destination Angeal has a chat with Zack.
+
+Angeal: This path leads straight to Fort Tamblin. We need hurry. Team B is
+already moving into position and will be waiting for us.
+Wutai Soldier: You two over there! Who are you?!
+Zack: Leave this to me!
+
+Zack swings his sword at the Wutai soldiers and they go down one by one.
+
+Zack: All right! Next!
+Angeal: Keep cool Zack.
+Zack: Not possible, not possible at all. Where exactly is that Executive
+Manager watching from? But then again I guess he won't participate in the
+fighting.
+Angeal: Zack---Do you know of the Stupid Apple?
+Zack: What is that?
+Angeal: How could you not know---? To not know what a Stupid Apple is just---If
+that's so then your promotion to 1st Class will be impossible.
+Zack: Huh?! Wait! What the heck is a Stupid Apple?!
+
+Angeal walks away towards Tamblin Fortress and Zack follows after him.
+
+Zack: Angeal! Stupid Apple thing, what the heck is it?
+Angeal: It's properly known as White Banora. Once a year you could hand pick
+these off trees. The people of my village are quite fond of them and they named
+it the Stupid Apple. We used to go into farm and take a couple to eat.
+Zack: You're quite the thief to say something like that.
+Angeal: I was poor then.
+Zack: Say what you like.
+Angeal: Even still, I had much pride. The village mayor's house probably had
+the largest apple tree. The apples on that tree were probably the most
+delicious but I could never forgive myself if I took one from there. The
+mayor's son was my best friend after all.
+Zack: If he was your best friend, wouldn't it be fine to just let you have one?
+Angeal: Pride is quite a troublesome thing.
+Zack: So what does this story have to do with becoming a 1st Class?
+Angeal: There is no loss in not knowing.
+
+Angeal laughs as he walks away again "Ha Ha Ha" Zack points at him furiously.
+
+Zack: It has no relation right?! It's not something to be laughing about!
+
+Zack chases after Angeal as he walks away. They soon arrive at the entrance of
+the Wutai Fortress.
+
+Angeal: When Team B sets off the bombs that'll be the signal.
+Zack: And with all the confusion happening that's when we make our move.
+Angeal: Right. I'll be going to the center of the fortress and setting up
+bombs. You will go in from the front and then---
+Zack: And then? Then? Then? Then?
+Angeal: Just do whatever you want.
+Zack: Leave it to me! This kind of stuff is my specialty. Grrr. Isn't B team
+ready yet?
+
+Angeal says a little prayer in his head to his Buster Sword.
+
+Zack: Hey, I've never ever seen you use that sword before. To be carrying it
+around like that, isn't it kind of a waste?
+Angeal: If I use it it'll just get dirty, worn and rusted. That would be even
+more of a waste.
+Zack: Are you serious about what you just said?
+Angeal: Yup. I'm a poor man after all.
+Zack: Was that supposed to be funny?
+
+BOOM! The explosion goes off.
+
+Angeal: Begin the mission.
+
+Zack does one fancy jump that gets him about 2 feet from where he was standing;
+quite the show off. Zack storms the front entrance and Wutai soldiers ready
+themselves. After successfully killing of the front entrance guards, Zack
+barges his way to the center of the Fortress. Zack quickly makes his way to the
+rear of the fortress. After a few quick easy battles, Zack arrives at the
+center courtyard of the fortress and arrives at the entrance of a dojo but is
+greeted by another fancy Wutai soldier.
+
+Yuffie: First, a people weak in the pursuit of knowledge. Second, those
+protecting the Wutai homeland. Third, an ugly Shinra SOLDIER. Prepare for your
+punishment!
+Zack: Who are you?
+Yuffie: Wutai's strongest warrior! With me here, you shall not advance any
+futher!
+Zack: A kid---? It's dangerous around here. You should hurry back home.
+Yuffie: You're the one who should go back home. I told you that this is the end
+of your progress because I will defeat you!
+Zack: I give up---This brat just told me to fight her---
+Yuffie: Pow-pow-pow! How's that! Give up!
+Zack: ... ... ... Oh no! You got me!
+Yuffie: How's that! That was my true power! I will protect Wutai's peace!
+
+Yuffie runs off after believing she's defeated Zack.
+
+Zack: Oh brother---I guess she's just a good, spirited kid. Anyway work, work,
+work!
+
+Zack now enters the dojo, hoping to find something. But all he finds is 2 HUGE
+Wutai Monsters! Zack quickly draws his sword and engages the enemies! After
+cleaning up with the 2 monsters Zacks get a phone call.
+
+Zack: This Zack 2nd Class SOLDIER, no problem here.
+Angeal: I'm about done here; we'll be meeting up in 5 minutes.
+Zack: Roger!
+
+Zack hangs up and waits for Angeal's arrival.
+
+Zack: Executive Manager Lazard! Were you watching me?! I better hurry!
+
+Zack suddenly gets greeted by a third MONSTER!
+
+Zack: I already said I was in a hurry!
+
+Zack beats up the monster but let's his guard down for one second! And gets
+smacked and down for the count
+
+Zack: Not good---
+
+Zack is saved! By the one and only Angeal!
+
+Angeal: Once more a loan of my strength. Looks like you got something in your
+eyes.
+Zack: Is---Is that so? Besides that, wasn't it important that you didn't use
+that sword?
+Angeal: Your life is more important than the sword. Well, just a little.
+Zack: Thank you.
+
+Zack and Angeal head out of Fort Tamblin, to meet up with the camp but while on
+their way they're greeted by Lazard.
+
+Lazard: Sorry, didn't mean to keep you waiting. I don't have field experience.
+Angeal: It's all right you did make the effort to come out all the way here.
+Lazard: I am guiding our military force to the end of this long war. And
+without fail, I will see it with my own eyes. Zack SOLDIER 2nd Class.
+Zack: Yes Sir!
+Lazard: You fought hard during your mission to capture Fort Tamblin. Your work
+appears to be very reliable. To put it plainly, as for your evaluation---in
+distracting the enemy platoon, you skilfully supported Angeal. For a Second,
+you had no problems handling this degree of activity. I will request you for
+the next mission.
+Angeal: Zack do you know the difference between 1st and 2nd Class? It is to ask
+for nothing more than more difficult work as your reward that is what being a
+First Class means. Do not forget that. Come'on now let's hurry. Sephiroth is
+waiting.
+Zack: Sephiroth?! The hero? Awesome! I get to meet a hero?!
+
+While returning to camp, Angeal, Zack and Lazard are accosted by some strange
+soldiers. Angeal agrees to handle them while Zack takes Lazard back to camp to
+inform Sephiroth of this new development. Zack does as he is told, leading
+Lazard to the edge of the camp where a pair of scouts plan to take the
+executive the rest of the way. Lazard tells Zack not to worry about him and to
+go aid Angeal instead.
+
+Zack: Angeal! Angeal!! These guys, they aren't Wutai Soldiers. Summon
+Creature?! Who the hell summoned it?!
+
+Zack swiftly deals with Ifrit, the summon creature, and does a little victory
+dance. But Ifrit wasn't completely out for the count. Ifrit tries to get up but
+is greeted by Sephiroth's swift swing. Ifrit is gone in one hit, blown to
+pieces.
+
+Zack: Awesome---
+Sephiroth: Genesis.
+Zack: The missing SOLDIER 1st Class! The same face?!
+Sephiroth: Genesis clones.
+Zack: Clones?! Human Clones?
+Sephiroth: Where is Angeal?
+Zack: He was supposed to be fighting here but---
+Sephiroth: Hmm he went with him as well.
+Zack: Huh? Just now what did you mean?!
+Sephiroth: Angeal has also betrayed us, that's what it means.
+Zack: That's impossible! I know Angeal very well! He's not the type of person
+who would do something like that! Angeal would never betray me!!
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 3		          **
+**                                       				  **
+****************************************************************************
+
+Zack: What the hell does that Angeal think he's doing?! It's already been 1
+month! Even Sephiroth, the Sephiroth, thinks that Genesis and Angeal are
+working together. The 2nd and 3rd Class SOLDIERs who were with Genesis, where
+did they disappear to? Using copies to attack us? Angeal would never forgive
+something like that! He holds his pride as a SOLDIER dearer than anyone. Ahh.
+What the hell is going on?! Angeal! It doesn't matter anymore just hurry back
+here!
+
+Stand in the SOLDIER lounge Zack stands confused and frustrated over the events
+past. He suddenly gets a phone call from someone he doesn't recognize.
+
+Tseng: SOLDIER 2nd Class, Zack.
+Zack: That's me but who are you?
+Tseng: Lazard has called for you. Please head to the briefing room now.
+Zack: Hey hold on! Just who was that?
+
+Zack heads off to the briefing room after the call, hoping there would be
+something from Angeal.
+
+Zack: Has there been anything from Angeal yet?
+Lazard: It seems we can't even get a hold of him by phone.
+Zack: Then, why did you call for me?
+Lazard: A new mission. I'd like you to go investigate the hometown of the
+missing SOLDIER 1st Class Genesis.
+Zack: Excuse me?
+Lazard: According to our information, Genesis's parents say he's no longer
+around. But I just can't trust it.
+Zack: How come?
+Lazard: Because they're parent and child.
+Zack: Ohhh---
+Lazard: I've sent some of our staff to go check it out but I haven't had any
+contact from them since. I'd like you to go and check out the situation. He
+will be accompanying you.
+Tseng: I'm Tseng of the Turks.
+Zack: Is this some kind of a misfortunate mission?
+Tseng: Once you're ready please let me know.
+
+After his greeting Zack gets a phone call. Zack's 2nd Class buddy calls him up,
+Kunsel. Zack tells him he's still in the briefing room and that he's about to
+go on a mission. Just before Zack and Tseng head out for their mission Tseng
+explains a few things about the details of the mission.
+
+Tseng: Pleasure to be working with you.
+Zack: We're just doing some investigating right? This'll be a piece of cake!
+Tseng: I doubt it. Originally Sephiroth was supposed to be sent out on this
+mission. In other words this mission should be taken seriously. If you take it
+too lightly you'll fail.
+Zack: What about Sephiroth?
+Tseng: He refused the order, or so it seems.
+Zack: Is that even possible? Aren't you guys just being too soft on him?
+Tseng: Ha! How about I tell him that?
+Zack: Uhh! Please don't!
+
+Tseng and Zack take a Shinra Helicopter to their target location, Genesis's
+hometown. Upon arrival Zack notices some weird looking trees.
+
+Zack: Weird trees.
+Tseng: They're White Banora trees; otherwise known as Stupid Apple.
+Zack: Which means this is Banora village? Angeal's hometown?!
+Tseng: Exactly. It would appear that Genesis and Angeal are old friends.
+
+Out of nowhere Genesis clones suddenly appear.
+
+Zack: Aren't these the same guys from Wutai?!
+
+Zack draws his sword and charges at the enemy. Being the skilled SOLDIER that
+he is, these guys were nothing, he defeated rather quickly.
+
+Tseng: It seems they've arrived in the village as well. The safety of the
+villagers is what concerns me. It's possible that these people might have taken
+the villagers hostage. With weapons of mass destruction we'll get rid of
+Genesis and his accomplices. It's what the President plans to do, so it would
+be best if we were to move quickly.
+Zack: All right, leave it to me.
+
+While following the trail to Banora village Zack ends up at a resident, but is
+greeted by Genesis Clones and one giant spider-like robot! Zack beats the robot
+to smithereens.
+
+Zack: Genesis Copy.
+Tseng: Where did you hear that from?
+Zack: I heard it from Sephiroth.
+Tseng: The machines you see here are technologies that were stolen from our
+company's scientific division. Apparently they can also create clones of
+Genesis with his power and characteristics.
+Zack: What?!
+Tseng: But only SOLDIERs and monsters.
+Zack: SOLDIERs and Monsters are the same thing you say.
+
+Zack inspects the robot, but doesn't get much time to because Tseng hurries him
+to move to the next location.
+
+Tseng: This is Genesis's parent's home. His parents are the landlords of this
+village.
+
+Angeal: But I could never forgive myself if I stole one from there. The mayor's
+son was my best friend after all.
+
+Tseng: It's not a hard thing to believe. They grew up together and were best
+friends.
+Zack: The missing SOLDIER Genesis and Angeal, became accomplices, is that what
+you mean?
+Tseng: It would seem that's what Sephiroth thinks.
+
+Tseng looks over at a tree with rocks under it
+
+Tseng: Oh? A grave. It looks new. Zack. Go find Angeal's house. I'm going to go
+check out the grave.
+Zack: Do Turks really do work like that?
+Tseng: Someone has to do it.
+Zack: What a pain.
+Tseng: Don't worry about it; because of you my pay is better.
+Zack: Are you serious?!
+
+Zacks goes on his hunt for Angeal leaving Tseng to his job, checking the grave.
+Zack arrives at a small town but is surprised to see that there's no one
+around. He walks further in to investigate. More clones appear. Zack decides to
+go into one of the houses.
+
+Old Lady: Is there something I can help you with?
+Zack: Sorry to intrude! Are you Angeal's mother? I'm Zack.
+Old Lady: You wouldn't happen to be Zack the Puppy?
+Zack: What the heck is that?
+Old Lady: Hehe. My son told me all about you in his letters! Zero concentration
+and like a puppy he never calms down. Hehe.
+Zack: That Angeal---
+Old Lady: You're not one of Genesis comrades are you?
+Zack: Nope, not at all. So don't worry.
+Old Lady: Has something happened to my son?
+Zack: Even I don't know.
+Old Lady: A while ago, Genesis came back with a bunch of his comrades. Then
+soon after he started taking the lives of the villagers. Genesis a long time
+ago was such a good child.
+Zack: What about Angeal?
+Old Lady: He came back too. But he's gone somewhere and left his sword behind.
+That sword over there is our family's pride.
+Zack: So that's what it was---he never once used this sword before. Leave
+Angeal to me. For now I think it would be best if you were to hide.
+Old Lady: No need to worry about me. Genesis will not kill me.
+Zack: Oh---
+
+Zack takes a long stare at the Buster Sword then exits the house to continue
+his search for Angeal.
+
+Zack: Angeal---Where are you?
+
+Zack encounters more Genesis clones. After beating up the wimpy clones, Zack
+gets a call from Tseng. Tseng notifies Zack that he thinks he might have found
+the base for these Genesis Clones. Zack quickly hangs up and make the trek over
+to Tseng.
+
+Tseng: The grave belonged to Genesis's parents.
+Zack: He wouldn't do that to his own parents would he?!
+Tseng: It seems he has no reason to hide the truth. Did you happen to find
+Angeal?
+Zack: He wasn't home. But please! Give me some time! When I see Angeal I'll
+convince him to return. If Angeal thinks it over, both him and Genesis just
+might come back to Shinra!
+Tseng: I finally understand why Sephiroth choose you to take on this mission.
+Zack: Me?
+Tseng: Genesis and Angeal. These two were Sephiroth's best friends. Most likely
+he didn't want to fight these two. That was the reason he refused the mission.
+Zack: I'm Angeal's friend too.
+Tseng: I'm looking forward to seeing you bring those two back. We don't have
+much time, we must hurry.
+
+Zack breaks into the complex and is cheerfully greet by more Genesis Clones.
+Being the proud SOLDIER Zack is, he tells Tseng to move ahead and that he'll
+take care of the clones. Zack quickly finishes off the clones and later joins
+back with Tseng. Zack finds Tseng working on a computer. Tseng tries accessing
+it to see if there's any information on it about the Genesis Copies. Zack walks
+into the next room and finds the one and only, Genesis.
+
+Genesis: 「The mysterious abyss tis the Gift of the Goddess. In pursuit of
+this gift we take flight. Within the heart's water surface a hopeless wander
+will flow. Like ripples to waves come forth the dreams below.」 You're quite
+the noisy one, Zack the Puppy.
+
+Tseng comes marching in!
+
+Tseng: I investigated the grave at your house. Others of our staff were here to
+do an investigation but it seems they've been killed.
+Genesis: Threatening me? Your information seems to be mistaken and not very
+reliable.
+Zack: Shouldn't it be obvious? At the very least you could have let your
+parents live.
+Genesis: Those two have continued to betray me, ever since I came back to that
+house. Shinra dogs, what the hell would you know?!
+
+Genesis throws a Fira at Tseng and Tseng is out for the count. Zack readies
+himself for battle but before he can, Angeal takes his sword and points it at
+Genesis.
+
+Genesis: Hey partner. Good. So it means your heart is decided. As childhood
+friends I respect your choice. However, can you live in that kind of world?
+Zack: Angeal---!
+
+Angeal leaves Zack's sword in the floor and follows Genesis out. Zack quickly
+takes his sword and chases after them.
+
+Zack: Dammit! Where did they go?! Did they leave the warehouse?
+
+Zack loses track of them but see a door that leads outside, he opens it up but
+monster pop out in surprise! Out of nowhere Tseng pulls out his trusty pistol
+and gets rid of the ugly monsters for Zack. Tseng explains the situation to
+Zack.
+
+Tseng: There isn't much time left. We need to leave the village soon.
+Zack: Are we not going to look for those two?!
+Tseng: Any trace of this deplorable event will be erased. That's the method the
+company has decided on. There will be an aerial bombing on this village. Back
+at Angeal's home was there really no one there?
+Zack: ...
+Tseng: Hurry!
+
+More monsters come rushing into the warehouse. But Tseng pulls out his trusty
+pistol again and blasts away so that Zack can get through. Zack continues his
+chase. When he finally reaches Angeal's home he finds Angeal's mother lying on
+the floor dead.
+
+Zack: How the hell could you have done this?! HUH?! Is this---is this supposed
+to be your freakin' PRIDE?!
+Angeal: My mother no longer had any reason to live and I'm guilty of the same
+crime.
+Zack: Stop saying things I can't understand! Explain yourself!
+Genesis: I've told you haven't I? He can't live like that anymore.
+Zack: Angeal! Angeal!!
+Genesis: 「You will take flight? Even if the world hates us so.」
+Zack: Shut Up!
+Genesis: 「A painful tomorrow is all that waits for you. Even twirling winds
+will not stop their flow.」 It seems Sephiroth isn't here today. I wonder why?
+
+As Angeal leaves Banora, Genesis summons Bahamut! Zack has no choice but to
+fight. After the battle Zack receives the summon materia.
+
+Zack: How could you use a summon creature! What happened to your pride as a
+SOLDIER!
+Genesis: We are---Monsters.
+Zack: Huh?!
+Genesis: We have lost both our dreams and our pride.
+Zack: SOLDIER aren't---Monsters.
+
+Genesis flies away with his one wing. Soon after, the village of Banora begins
+to be bombed. Zack gets picked up by Tseng in a Shinra Helicopter.
+
+Zack: Angeal---
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 4		          **
+**                                       				  **
+****************************************************************************
+
+Zack: Angeal---The war is over. Everyone seems happy. But I'm---
+
+Angeal's Mother: That sword is this family's pride.
+Angeal: Your life is more important than this sword. Well, just a little.
+
+Zack: Where the heck have you gone?
+
+Zack gets a phone call.
+
+Zack: This is Zack.
+Sephiroth: It's been a while, Zack.
+Zack: Sephiroth?!
+Sephiroth: Come to Lazard's office.
+Zack: Un---Understood.
+
+Zack heads down to Lazard's office. There he's greeted by Sephiroth and Lazard.
+
+Lazard: Congratulations. Starting from today you are now a SOLDIER 1st Class.
+Zack: That's weird. I don't feel one bit happy.
+Lazard: I guess that's not surprising. A lot has happened after all. Zack, I
+know this is a bit sudden but I have a favour to ask of you.
+Zack: Planning on putting me on another mission?
+Sephiroth: Sorry.
+Zack: It's fine.
+
+Zack is told to go to the briefing room since someone is there who needs to see
+him. After talking to a Shinra employee, Zack is asked to head back down to
+Lazard's office.
+
+Lazard: The company has decided that Genesis and Angeal are to be assassinated.
+Zack: You're asking me to do that?!
+Lazard: No. The Shinra army will be.
+Zack: Then I'll be---?
+Lazard: They don't seem to trust you with it.
+Sephiroth: That sense of SOLDIER camaraderie will only dampen your decisions
+and---
+Zack: That's a lame excuse.
+Sephiroth: That's why I will also be going.
+Zack: To kill them?
+
+Out of the blue the Shinra building's alarms go off!
+
+Lazard: We have intruders!
+Zack: Where?!
+Lazard: Here! Sephiroth go to the President's office. Zack take care of the
+entrance.
+Zack: Leave it to me.
+
+Zack takes the elevator down to the Shinra Headquarters entrance. After getting
+off he sees several Shinra soldiers getting slaughtered by Genesis clones and
+robots!
+
+Zack: Why are Shinra soldiers fighting inside of the headquarters?! Is this all
+Genesis's doing?!
+
+Zack wipes out the robots and Genesis clone by the elevator entrance and makes
+his way down to the main entrance.
+
+Zack: Dammit! Even more are appearing!
+
+In a few swift motions Zack slammers all the other robots and Genesis clones
+that comes through the entrance. After fighting several of them for a long
+while he finally gets them all. Sephiroth comes down to the entrance to explain
+things to Zack.
+
+Zack: Sephiroth! The intruders are Genesis clones.
+Sephiroth: This seems to be the work of Hollander.
+Zack: Who's that?
+Sephiroth: The technology used to make these clones was stolen from Shinra
+Science Department.
+Zack: Are you saying that Genesis and this Hollander got their hands on it?
+Sephiroth: Most likely.
+Zack: I wonder---what are those two planning?
+Sephiroth: Hollander lost his position as head of the science division. Because
+of this Hollander began to develop a grudge against Shinra. He's most likely
+thinking of taking his revenge.
+Zack: That's just stupid. So, Genesis is also going to help him with his
+revenge?
+Sephrioth: It's something I wouldn't want to believe.
+Zack: Then don't believe it.
+
+Sephiroth gives a big sigh of displeasure and raises his head back up to
+respond to Zack.
+
+Sephiroth: I'll do that. Well now Zack. There seems to be more Genesis clones
+in the Sector 8 as well. Let’s go.
+
+Zack and Sephiroth head outside and notice the other Genesis clones ravaging
+the Sector.
+
+Zack: This isn't good at all!
+Sephiroth: We'll split up here.
+Zack: Roger!
+
+Zack heads to the Loveless district. Upon arriving at the district he notices a
+beautiful girl who seems to be in trouble!
+
+Zack: Oh no! That chick is trouble!
+Reno: Sector 8 is the Turk's turf.
+Zack: This isn't the time for this kind of crap! Tseng say something will ya!
+Rude: There's no reason to worry about her.
+Zack: Huh?! Oh---
+Tseng: How are the other areas?
+Reno: Monsters are crawling all over Midgar.
+Rude: Even SOLDIER are on the move.
+Tseng: Reno, Rude.
+Reno: Yeah I got it.
+Tseng: Take care of it.
+Rude: Understood.
+
+Rude and Reno take off to take care of other areas.
+
+Zack: So even Turks are on the job huh?
+Cissnei: SOLDIER have been sent out as well.
+Zack: Although we're pretty short handed. Wait---You're a Turk too?
+Cissnei: Cissnei.
+Zack: I'm SOLDIER's Zack.
+Tseng: Zack, aren't you in the middle of a mission?
+Zack: Our goals are the same, can I help around here?
+Tseng: Thanks but no tha---
+Cissnei: Oh, how brave! Tseng. Zack. I'll see you guys later.
+
+Cissnei runs off to another area and leaves Zack with a wink. Zack starts to
+get really excited about his new found mission. It's not long before Zack finds
+Cissnei in another pinch. This time it wasn't any ordinary opponent though,
+it's Genesis!
+
+Zack: This one's a clone too?! This one seems a little different from those
+masked ones!
+
+Zack fights the Genesis clone and smacks him around hard. The clone loses to
+Zack's strength. With the clone's last ounce of strength it tries to fly away
+but before it can Zack slashes at him, taking him down.
+
+Cissnei: To have wings was always my childhood dream. Wings like an Angel.
+Zack: A human with wings though is just a monster.
+Cissnei: Wings are for people who wish to be free. They could never belong to a
+monster.
+
+Cissnei takes a long stare at the clone feeling slight sorry for it, and then
+gazes back at Zack.
+
+Cissnei: As expected of a SOLDIER 1st Class. You're really strong.
+Zack: Turks and SOLDIER aren't much different, since fighting is our job.
+Cissnei: Here. This is for saving me back there earlier. Well I better get back
+to work. You also have work in other locations right?
+Zack: Location---Aaa---Yeah---
+Cissnei: Let’s hope we meet again.
+
+Cissnei says her thanks and farewells to Zack, hoping they'd meet again
+sometime in the near future and then departs to continue her mission. Suddenly
+Zack gets a call from Sephiroth.
+
+Sephiroth: After you're done cleaning up in Sector 8 come to the Sector 5 mako
+reactor.
+Zack: Did you find something?
+Sephiroth: There's information that Angeal's been sighted.
+Zack: Are you going to kill him when you find him?
+Sephiroth: The army is on the move but it seems we have some time. We will have
+to find him before they do.
+Zack: What are you going to do?!
+Sephiroth: Fail to kill him.
+Zack: Really?
+Sephiroth: Yeah really.
+Zack: You're seriously the best!
+
+Zack arrives at the Sector 5 reactor, and find some weird surprised. He
+encounters a monster and has no choice to fight it. After defeating the weird
+creature, he inspects it.
+
+Zack: Why is Angeal's face on this thing?!
+Sephiroth: It means that they can make non-Genesis clones as well. Back at
+headquarters’ training room---
+Zack: Eh?
+Sephiroth: When all the 2nd Class were away we would all go fool around:
+Genesis, Angeal and me.
+Zack: You were all really good friends huh?
+Sephiroth: Hmm. I wonder.
+
+Sephiroth has a flashback of that training day. Genesis and Angeal sit side by
+side on top of the Junon Cannon. Genesis reads his favourite verse from
+Loveless out loud.
+
+Genesis: 「The mysterious abyss tis the Gift of the Goddess. In pursuit of
+this gift we take flight. Within the heart's water surface a hopeless wander
+will flow. Like ripples to waves come forth the dreams below.」
+Sephiroth: 「Loveless」 Act 1
+Genesis: Painful is it?
+Sephiroth: Having to hear you read it everyday---I have no choice but to
+remember.
+Angeal: Don't go swing your sword too recklessly.
+Genesis: Whatever.
+Sephiroth: Now. How about putting away that toy sword.
+Angeal: As expected of Sephiroth huh?
+Genesis: Angeal, stand back please. I'd like to have a duel with Sephiroth.
+Angeal: Genesis---!
+Genesis: I too would like to become a hero.
+Sephiroth: Fine by me.
+Genesis: That laxness of yours, how long do you think you can keep it up?
+
+Genesis gets the jump on Sephiroth and starts casting multiple spells. Genesis
+skilfully controls his firas and directs them at Sephiroth. It appears
+Sephiroth has taken a full blow at his Firas and in the smoke Sephiroth is
+nowhere to be seen.
+
+Angeal: Stop this. Are you trying to destroy the building?
+Genesis: All I want is to be a hero!
+
+Genesis sticks his palm in Angeal's face and starts casting a spell! Angeal
+takes a full blow at it! Suddenly Sephiroth breaks himself free from Genesis's
+magic. Now Sephiroth is on the push and Genesis is being pushed back. Sephiroth
+with many quick swings of his swords ends up destroying the Junon Cannon.
+Angeal jumps in and tries one more to stop the two.
+
+Angeal: That's enough!!
+Sephiroth: Angeal---
+Genesis: You're in my way!
+Angeal: Genesis!!
+
+Genesis attempts to break through Angeal by casting another spell, but ends up
+breaking Angeal's sword. The shard of the sword ends up hitting Genesis on the
+shoulder and the VR training ends.
+
+Genesis: It's just a small scratch. If I just leave it alone it'll quickly
+heal. 「Nothing shall fortell my return. Even if the morrow is barren of
+promises.」
+
+The Flashback ends. Both Zack and Sephiroth continue their investigation in the
+Reactor.
+
+Zack: So was he okay?
+Sephiroth: It was no problem at all; Genesis only had a small injury. Although,
+Angeal---
+Zack: Angeal? Did something happen to him?
+Sephiroth: Afterwards Angeal went on endlessly preaching---
+Zack: About what?
+Sephiroth: It's always the same a lost heart, dreams, hope.
+Zack: Oh. I kind of get it what you mean.
+
+Sephiroth walks over to the dead Angeal clone.
+
+Sephiroth: So it's true. You two really are in league with Hollander.
+Zack: Why have things turned out this way?
+
+Sephiroth and Zack head towards a specific room in the Reactor which Sephiroth
+would like to check out first. Zack turns a wheel and the door to the room
+opens. Once inside, Zack is shocked to find the same clone pod, used to make
+them, inside the room. Although this time it's an Angeal Clone. Sephiroth
+starts to search the room for clues and tells Zack to do the same thing, but
+Zack gets tired of the searching fast.
+
+Zack: Ugh---
+Sephiroth: These things here are papers on Hollander's research. It says it
+gave birth to a normal child, which would mean it was a failure.
+
+Sephiroth asks Zack to look around some more but being the kid Zack is he tries
+to leave the room, but Sephiorth orders him to continue searching.
+
+Sephiorth: Search more throughly.
+
+Zack comes across a control panel and Sephiroth comes up to him to talk to him.
+Sephiroth reminisces about the past once more.
+
+Sephiroth: His injury should have been very minor. Although why wasn't it
+healing as it should? The one who was treating Genesis at that time was
+Hollander.
+
+Sephiroth and Angeal wait outside the operation room for Genesis's.
+
+Angeal: Professor Hollander, how is Genesis's condition?
+Hollander: I've tried injecting mako but it doesn't seem to be working.
+Angeal: Is there no other way to treat him?
+Hollander: Well first he'll need some blood.
+
+Sephiroth tries to offer his services first but is stopped by Angeal.
+
+Hollander: You won't do.
+
+Sephiorth: Why wasn't I allowed to help? System G SOLDIER---
+
+The flashback ends and Sephiroth continues reading Hollander's research
+reports. Zack feels he's finished his search around the room and walks to
+Sephiroth.
+
+Sephiroth: The one born out of Project G was Genesis.
+Zack: Project G
+Sephiroth: Project Genesis. According to the reports here and in contrast with
+the other ones it states that Genesis is deteriorating.
+Zack: Deteriorating?
+Sephiroth: And that's not all.
+Zack: Clones?
+Sephiroth: These things---
+
+Unexpectly Hollander walks into the room, nor was he expecting Sephiroth.
+
+Hollander: Se---Sephiroth?!
+Sephiroth: Hollander, so you were here after all.
+Hollander: Who do you think will stop Genesis and Angeal's deterioration?
+
+Genesis swoops in from above.
+
+Sephiroth: Genesis.
+Genesis: I will not hand over Hollander.
+Sephiroth: Zack! Go after Hollander.
+Genesis: 「Generously you are blessed with the Goddess' love. To hate the
+world, even as heroes.」
+Sephiroth: 「Loveless」? You haven't changed.
+Genesis: The three friends are now gathered. One becomes the prisoner. One will
+take flight. The last remaining friend becomes the hero.
+Sephiroth: That's quite the story.
+Genesis: If this were a play, would I take the role of the hero? Or would you?
+Sephiroth: You can be the hero if you want.
+Genesis: Oh. Your fame should have originally been mine.
+Sephiroth: How pointless.
+Genesis: Even now that is. What I truly wish to obtain is the 「Gift of the
+Goddess」.
+
+Zack continues his chase after Hollander and follows Hollander into several
+corridors before reaching him. Finally Zack chases Hollander and corners him in
+what seems like a hangar bay. Confidently Zack walks up to a scared and
+frighten Hollander.
+
+Zack: Do you even know what you're doing?! Doing what Hollander tells you to do?
+
+Before Zack can make his move on Hollander, a Buster Sword blocks his path.
+
+Zack: What do you plan on doing?!
+Angeal: World conquest.
+Zack: Would you stop the boring jokes already?!
+Angeal: Then, revenge.
+Zack: Against whom?! Angeal!!
+Angeal: I---I've become a monster. As a monster the only thing I can think of
+doing is world conquest or revenge.
+Zack: You're wrong. Wings don't make you a monster.
+Angeal: If that's so, then what are these?
+Zack: Wings of an Angel.
+Angeal: I see. Then as an Angel what goals should I have? What dreams should I
+have?!
+Zack: Angeal---
+Angeal: Angels have only one dream.
+Zack: Please tell me!
+Angeal: To be human.
+
+Angeal thrusts Zack in the stomach and sends him flying. Zack stands back up
+but shows no will to fight, leaving only a smile on his face.
+
+Angeal: Fight!
+
+Zack carries his long smiles and shakes his head at Angeal. Inside Zack is
+sadden by the fact he can't save his friend, he longs for his friend Angeal to
+return him. Angeal casts his materia and sends a spell Zack's way. Zack has no
+time to counterattack and ends up trying to block the attack. The floor beneath
+Zack breaks apart and sends Zack flying downwards towards the Slums.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 5		          **
+**                                       				  **
+****************************************************************************
+
+Not knowing where he has fallen to, Zack is slightly confused and dazed. Zack
+dreams of his mother and wakes up to an unfamiliar voice.
+
+Woman: Did something happen?
+Zack: Mom? I want to save my friend. But I don't know what I should do.
+Girl: Helloooo!
+Zack: Mom---?
+Aerith: Helloooo! Hurray!
+Zack: Heaven?
+Aerith: No such luck. This is a church in the slums.
+Zack: An Angel?
+Aerith: I'm Aerith. You came falling from above, gave me quite a scare.
+Zack: So you're the one who saved me.
+Aerith: No, not really. All I did was, "Helloooo?"
+Zack: Ha Ha Ha. Thanks so much, Aerith. I'm Zack! Hmm, I got to repay you
+somehow.
+Aerith: No no it's fine.
+Zack: No, that just won't do! Oh how about one date?
+Aerith: What's that suppose to mean? That so silly. Stop! Don't step on the
+flowers!
+Zack: What?
+Aerith: Normally people would be careful around flowers.
+Zack: Sorry about that, but I'm not normal. Flowers are a pretty rare sight. In
+Midgar these are a luxury.
+Aerith: They only bloom here. The ones I have planted as well are growing quite
+well.
+Zack: If it were me I'd sell the flowers for some money. In Midgar lots of
+flowers will attract people with lots of money in their wallets!
+Aerith: In Midgar lots of flowers will attract people with lots of money in
+their wallets? I've never really thought of it before.
+
+Zack soon realizes his situation and decides it's time for him to return back
+to headquarters. Although it would seem he knows little of the slums and
+decides to ask Aerith to escort him to Midgar's entrance. Zack asks her how to
+get out and she agrees. She asks Zack where he's going but even Zack doesn't
+know. Aerith tells Zack that he's in the Sector 5 slums. They both make their
+way to the slum shopping district.
+
+Aerith and Zack arrive at the front entrance of the shopping district. Zack and
+Aerith talk a bit about the slums; Zack feels that something is really missing
+in the atmosphere. He soon realizes that the slums have no sky to see. Aerith
+acts a bit depressed about it, but Zack cheers her up by telling her that once
+she starts selling her flowers she'll be able to see it all the time. They both
+walk into the Sector 5 shops area. Zack suddenly comes up with an idea; he
+tells Aerith that it'd be a good idea to make a Flower Sale Wagon. That way she
+could carry lots of them at the same time. Later Zack accompanies Aerith to a
+certain store she likes.
+
+Store Owner: Oh. Aerith. With your boyfriend today huh?
+Aerith: Um, perhaps.
+Store Owner: Huh? You're---the one who was chasing that kid earlier weren't
+you? I heard it from the other town’s people. In his head he probably thinks
+all strangers are bad although he's a good kid. We sincerely apologize for
+being so cool towards you. Nevertheless, Aerith you've found yourself a really
+good boyfriend here.
+Aerith: Mm. It's not like that at all. Not like that at all.
+
+She turns around and faces Zack to ask him a question.
+
+Aerith: Hey, is it okay if I take a look at this shop for a bit?
+Zack: What? So the reason you brought me to the town was to go shopping huh?
+Aerith: I guess not then.
+
+Zack acts shocked because Aerith took him seriously and not as a joke.
+
+Zack: I was just joking, it's all right. Go ahead and find the one you like.
+Aerith: Thank you. It'll only be a short while. I'll be quick.
+Zack: It seems like you have a lot of interest in this store.
+Aerith: Yup, just window shopping here is pretty fun.
+Zack: Hey Aerith.
+Aerith: Yes?
+Zack: About when you said "Hellooo---?" to wake up, I still owe you for that.
+
+Aerith chuckles.
+
+Aerith: It's really okay. You were offering me one date right?
+Zack: You said it sounded dumb right?
+Aerith: But that was because---
+Zack: Then for helping me get out, I'll buy you a gift to commemorate our
+meeting today.
+Aerith: Are you sure?
+Zack: It's fine.
+Aerith: Then---is this one okay?
+Zack: Got it, I'll go pay for it. Just wait here.
+
+Zack runs back to Aerith after making the purchase and helps her put on her new
+ribbon.
+
+Zack: Like this?
+Aerith: Did you make sure it's on properly? It won't fly off into the wind will
+it?
+Zack: Well it's okay like this right?
+Aerith: Yup---this is great! Thank you, Zack. I promise to cherish it---Hey do
+you still have some time?
+Zack: I suppose but how come?
+Aerith: Want to come to the park with me?
+Zack: Oh, like a date?
+Aerith: Yup!
+Zack: Then let’s go.
+
+Zack and Aerith head over to the park for their first date. As they walk Aerith
+starts off the conversation.
+
+Aerith: Have you ever met a SOLDIER before?
+Zack: Probably.
+Aerith: I wonder if it's a happy thing.
+Zack: What do you mean?
+Aerith: A children's story of the hero that protects the world. But, that isn't
+normal. I'm not quite sure but you have to do some special kind of surgery
+right?
+Zack: It seems like it.
+Aerith: I think being normal is the greatest happiness. Somehow SOLDIERs seem
+weird.
+Zack: I see, weird huh?
+Aerith: And also, scary. They like fighting so much.
+Zack: I happen to be a SOLDIER.
+Aerith: Sorry!
+
+An awkward atmosphere hits the two but Aerith manages to bring them back
+together with her sweet words.
+
+Aerith: So beautiful.
+Zack: My face?
+Aerith: He He. No your eyes.
+Zack: Do you like'em? If that's so, then look at them some more. Eyes filled
+with mako signs of a SOLDIER.
+Aerith: Oh stop it.
+Zack: Ha Ha. If you look into them looks like you can see the sky doesn't it?
+Aerith: If it's that sky I'm looking at then I'm not scared at all.
+Zack: It's true though that there's nothing normal about me at all. Aerith, you
+don't have a problem with that do you?
+Aerith: I wonder if today will be a peaceful one? Then I thought to myself,
+"Today a SOLDIER will drop from the sky".
+Zack: It wasn't such a bad thing.
+Aerith: Yup.
+
+Zack gets a phone call from Sephiroth.
+
+Sephiroth: Zack return to the Shinra building immediately. Genesis has started
+his attack.
+Zack: Understood.
+
+Zack quickly hangs up.
+
+Zack: It looks like I have to go somewhere.
+Aerith: Then, I guess I'll be going. I'll see you again right?
+Zack: Of course!
+Aerith: Give it your all to save your friend.
+Zack: Huh?
+Aerith: You said so while dreaming.
+Zack: I'll be fine. I feel I can do it now.
+
+Zack makes his way back to Shinra HQ. While running across the highway there he
+encounters several new Genesis Clones, it appears they're evolving! Zack
+eventually breaks through the swarm of Clones but encounters someone unexpected.
+
+Angeal: Lend me your strength!
+Zack: Why should I? I can't understand what you're thinking at all.
+Angeal: The truth is, even I don't know. From time to time I feel like I'm
+about to snap but no matter the situation I can't let go of my pride as long as
+I have this Buster Sword. Zack, fight alongside me. The enemy will be anything
+that torments the world.
+Zack: My strength---I'll lend it to you.
+
+Zack turns around but Angeal's already disappeared. But it's just Angeal
+swooping up behind Zack to pick him up.
+
+Angeal: We don't have time to dawdle here.
+Zack: It's fine!
+Angeal: Flying is quite a good feeling.
+
+Angeal quickly flies with Zack to the Shinra Headquaters. Once inside they find
+Sephiroth fighting against more Genesis Clones. Sephiroth stays to defend the
+current floor, Angeal goes below and Zack heads up to the upper floor to make
+sure Professor Hojo is all right. Zack makes his way to the laboratory.
+
+Zack: Thank goodness, you're safe.
+Hojo: The combination isn't quite complete yet.
+Zack: Right now the building is swarming with Genesis Clones. I have to take
+you to safety!
+Hojo: You're going to my protector?
+Zack: In any case, shouldn't we leave together?
+Hojo: Ku Ku Ku. Deteriorating monsters have no fear.
+Zack: Are you---talking about Genesis?
+Hojo: That is correct. It is the Life Body of Knowledge that fell from the sky,
+a product that was used in those foolish times.
+Zack: Life Body of Knowledge?
+Hojo: The disaster which came from the sky Jenova.
+Zack: Uhhh---
+Hojo: Not knowing is not a problem. Without even thinking, your first job
+should be to protect my brain before me.
+
+Zack still confused, walks around the laboratory trying to find clues on
+Genesis. Zack tries and helps Hojo with one of his experiments but before he
+can, the man they speak of swoops in.
+
+Hojo: Speak of the devil! Is this Hollander's order? Do you really think if you
+follow Hollander your deterioration will stop? How sad, truly how sad!
+Zack: Genesis!
+Hojo: Ku Ku Ku. No second-rate scientist can stop your deterioration.
+
+Angeal makes his entrance as well.
+
+Angeal: Stop this already Genesis!
+Hojo: Well isn't this quite the sight.
+Genesis: 「It is your fate. Your dreams and pride are no more. From the
+Goddess's bow, the fated arrow is released」
+Hojo: Hollander's monsters are now gathered.
+Zack: SHUT UP!
+Genesis: 「Loveless」 Act 4
+Hojo: The scene where the best friends duel each other. An epic story from a
+long time ago. I've read all the research materials on it but, it's worthless.
+Angeal: Was there an end to the duel?
+Hojo: Unknown. The last act is missing. Even till today it hasn't been found.
+Genesis: There is an end. What meaning do you think the Goddess's gift has for
+us?
+
+Genesis flies out of the wall his just blew up and both Angeal Zack chase after
+him.
+
+Zack: Hey! Wait Genesis!
+Genesis: 「Thy revenge has scarred my soul. Agonizing for its end my wish
+becomes my relief---and your peaceful slumber.」
+Zack: He's using a summon again.
+Angeal: Zack, I'm counting on you.
+Zack: Huh?
+Angeal: I know you can beat it.
+Zack: Hey don't leave me here! Wait for me!
+
+After Angeal drops Zack off to fight the summon creature, Zack suddenly get a
+phone call.
+
+Zack: Aerith? You know what? I'll give you a call a little later. I've got a
+guest who's just arrived.
+
+Zack hangs up the phone.
+
+Zack: Can't be rude to our guests now can we?
+
+Zack gets pumped up and fights a new Bahamut! Blasting swing after swing Zack
+finally defeats Bahamut.
+
+Zack: Where has everyone gone?
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 6		          **
+**                                       				  **
+****************************************************************************
+
+Zack returns to the base after the grand battle against Bahamut. He can't seem
+to find anyone, Angeal, Genesis or even Sephiroth. He gets a phone call from
+Aerith. It seems something is up so he makes his way to go see Aerith at the
+church. Zack makes it to the Slum area safely, but all of a sudden Angeal flies
+on in.
+
+Zack: Where the hell have you been?!
+Angeal: Sorry about leaving you there earlier.
+Zack: You don't plan on leaving me again do you?
+Angeal: Genesis and Hollander have gone to Modeoheim.
+Zack: Tell me one thing. You do plan on coming back to SOLDIER right?
+Angeal: Even now my feelings as a SOLDIER haven't changed. I've also told
+Lazard about the situation. I'm supposed to meet with him now.
+
+Angeal flies away and leaves Zack to do his thing. Zack hurries over to the
+church to meet up with Aerith. Before Zack can step into the church he's
+stopped by Tseng.
+
+Tseng: Zack, we have work in Modeoheim.
+Zack: I know, just wait a bit.
+Tseng: Aerith isn't here. What's wrong?
+Zack: What relationship do you have to Aerith?
+Tseng: A complicated one.
+Zack: Hmm.
+Tseng: Is she anything to you?
+Zack: No---thing at all.
+Tseng: Then she's not anything to me as well.
+Zack: Hmm. Well I guess that's fine---quite fine---
+
+
+Zack and Tseng head off to Modeoheim in a Shinra Helicopter along with two
+Shinra Army soldiers. During flight, their helicopter gets attacked by a
+monster and they end up crash landing.
+
+Zack: A monster just had to come out of nowhere. Tseng?! Army dudes?!
+Tseng: It looks like we can't get any radio signal.
+Zack: Well it looks like we all got out without a scratch, so it'll all work
+out somehow.
+Tseng: As expected. We'll be depending on you to get us through these harsh
+lands.
+Zack: Because I'm from the countryside was it---
+Tseng: Now if we head to the bottom of this mountain we should reach Modeoheim.
+In other words, if we continue this way we'll reach the village.
+Zack: All right! Everyone follow me!
+
+Zack and the gang make their way towards Modeohiem. After much trekking across
+the rough snowy trails, one of the Shinra army soldiers seems to be a bit tired
+and even Tseng is having a hard time keeping up with Zack. But strangely enough
+one of the Shinra army soldier is easily keeping up with Zack.
+
+Zack: Hey! Don't be so slow. You seem to be doing pretty good.
+Cloud: I'm also from the countryside.
+Zack: Where?
+Cloud: Nibelheim.
+Zack: Ha ha.
+Cloud: What about you?
+Zack: Me? Gongaga!
+Cloud: He he.
+Zack: Are you laughing? You're laughing aren't you? Do even know Gongaga?
+Cloud: No. But it's sounds very country-like.
+Zack: Nibelheim too.
+Cloud: You've never heard of it?
+Zack: I've never been there before but there's a mako reactor right? Midgar has
+the most mako---
+Zack/Cloud: But everyone else has none.
+
+The two laugh together and get along really well really quickly.
+
+Zack: Be rejoiceful Tseng! With me and---
+Cloud: Cloud.
+Zack: With me and Cloud around there's nothing to be scared of at all!
+Tseng: Sure, I'll leave it to you two.
+
+Zack and Cloud make it to the top of the mountain; they wait a while for Tseng
+and the other Shinra soldier to make their way as well.
+
+Zack: Hmm. Let’s wait a bit here.
+Cloud: Zack---
+Zack: Hmm?
+Cloud: What kind of impression do you have of SOLDIER.
+Zack: I really don't know. Well, once you get in you'll understand.
+Cloud: If that even happens.
+Zack: Don't worry. Even I got in pretty easy. Hey Cloud. Over there.
+
+Zack spots a building that has Shinra markings on it.
+
+Tseng: This facility is used for doing dig tests on mako.
+Zack: I'll go check out.
+Tseng: Our mission is to only investigate the situation here in Modeoheim. From
+here on in we shouldn't get into too many battles, let alone fighting Genesis.
+In other words---
+Zack: In other words, avoid battles if we can, is what you wanted to say right?
+Tseng: That's correct. Those men over there are the entrance guards. Try and
+sneak in and see what you can find.
+Zack: Leave it to me! SOLDIERs are no idiots---I'll show you what I'm made of.
+Cloud don't miss this!
+Cloud: Umm.
+
+Zack heads over to the warehouse and sneaks in without anyone noticing him.
+After finally making it inside, he finds an elevator and uses it to go to the
+upper floor. What he finds is shocking---Genesis holds a sword to Hollander's
+neck!
+
+Hollander: What are you doing? You need me! Without me who do you think will
+stop your deterioration?!
+Genesis: Jenova cells.
+
+Zack comes in swing and hits Genesis sword away from Hollander's neck.
+Hollander tries and takes his chance to run away but is suddenly grabbed by
+Cloud.
+
+Cloud: Stop!
+Zack: Good work Cloud!
+
+Hollander struggles and manages to break free.
+
+Hollander: You don't even know where the Jenova cells are stored. Even if you
+go to Hojo you don't know for certain you'll find them!!
+Genesis: If that's so, if I stay the way I am now I'll just rot away. However,
+the world has lost it's path!!
+Zack: Cloud! After him!!
+
+Hollander tries to run away and Cloud follows him out. After Cloud leaves the
+scene, Zack and Genesis get into a very intense fight. Genesis no longer
+decides to use a summon but his own skills.
+
+Genesis: 「My wish for tomorrow shall shatter my soul. For the price of my
+pride. Flight is no more for my wing has shattered.」 This is how a monster's
+road ends.
+Zack: We aren't monsters, we're SOLDIER---Where has your pride gone?
+Genesis: 「Nothing shall fortell my return. Even if the morrow is barren of
+promises.」 If this world threatens my life---it has lost it's path.
+
+Genesis plunges himself to his death into the pits of the deep holes underneath
+the warehouse. Zack watches him fall.
+
+Zack: Genesis.
+
+Zack walks out of the warehouse confused about why Genesis did that. After Zack
+reaches the outside of the warehouse he notices Cloud and Tseng aren't around.
+He realizes they must have gone to Modeoheim village. Zack quickly makes his
+way to the village. Upon arriving at the village Zack notice the town is dead.
+He makes his way to the Modeo Public Bath house. When he reaches the 2nd floor
+he encounters a monster; it happens to be a new Angeal clone! Zack quickly
+defeats it and quickly makes his way to the third floor. He finds Cloud and
+Tseng knocked out. Tseng tells Zack it was Angeal who did this to them, Zack
+rushes over to the next area and finds Angeal waiting in one of the rooms.
+
+Angeal: The truth is I should have fought Genesis.
+Zack: Honestly, who do you think took care of that?
+Angeal: Although, what's next is a job only for you.
+Zack: What are you mean?! Stop!
+Angeal: There's someone waiting for you isn't there?
+Zack: Angeal you're not serious are you---?
+
+Hollander comes trotting in a very confident fashion.
+
+Hollander: Good Angeal! Now is the time for our child to take his revenge!
+Zack: Our child?
+Angeal: Shut up! My father is dead!
+Hollander: Then, take your revenge on your mother's behalf.
+Angeal: My mother was ashamed of her past and ended her own life!
+Hollander: Ashamed? Unfortunately you are mistaken. I would think she was very
+prideful about it. She even used her own name for the project code name.
+Project G otherwise known as Project Gillian.
+Angeal: Don't you dare speak my mother's name!
+Hollander: Jenova cells were injected into that woman Gillian. Her cells were
+then directly injected into the fetus known as Genesis. But Genesis was a
+failure---I would never accept something like that. Although Angeal---You
+received her cells directly. You are perfect.
+Angeal: Zack I'm nothing more than a perfect---monster. It is possible to
+inject my cells into other people---
+Hollander: Bidirectional Clones---It means that you've received Jenova's power.
+Angeal: Zack do you remember our promise? That we'd fight against anything that
+torments this world.
+Zack: Yeah. But you're wrong.
+Angeal: I'll become the torment. Zack, I'll show you.
+Hollander: Stop! If you do that you can't turn back!
+
+Angeal raises his hand a several different Angeal clones drop from above.
+Hollander tries and stops Angeal. Angeal forcefully pushes Hollander away.
+
+Hollander: Dammit! They're just cells!
+
+The clones head towards and merge with him.
+
+Zack: Angeal!!
+
+The clones finish their merging with Angeal and create a horrible looking
+monster. Zack stands confused. The monster stretches out his trident and
+scratches Zack on the face leaving a cut. Zack realizes he has no choice but to
+fight.
+
+Zack: Angeal where did your pride go?!
+
+Zack goes through one of the toughest battles of his life mentally and
+physically. But somehow he makes it through it and defeats Angeal. Angeal lies
+there and speaks to Zack his last words.
+
+Angeal: You did well Zack. I'm counting on you for the rest. Never forget your
+pride.
+
+Zack takes Angeal's sword and as he does Angeal passes away.
+
+Angeal: Hold on to your dreams. If you want to be a hero you have to hold on to
+your dreams and also your pride.
+
+After losing the one person that matter to him most in SOLDIER, Zack head to
+the Church back at the Slums to see Aerith.
+
+Aerith: Hey, Zack. If we're on the upper city, the sky must be really close
+right? I'm a bit scared but the flowers would be happy---right?
+
+Zack cries his heart out. Aerith quietly comforts him gently.
+
+Somewhere in the near future Zack is the leader of a troop of SOLDIERs. He
+first walks by the Shinra army troops and gives a pat on the back to one of the
+troops.
+
+Zack: So you want to be a SOLDIER? Good Luck.
+
+Zack moves over to the SOLDIER squad and gives them his speech.
+
+Zack: Are all SOLDIERs present?
+SOLDIERs: Yes sir!
+Zack: You're all new recruits right?
+SOLDIERs: Yes sir! It'll be a pleasure to be working with you!
+Zack: I only have one word of advice---actually this is an order. Never lose
+your dreams. Also, no matter the situation never let go of your pride as a
+SOLDIER. Got it?
+SOLDIER: Yes sir!
+Zack: Make sure you all make it back here. Let’s go.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 7		          **
+**                                       				  **
+****************************************************************************
+
+Zack: Project G was Angeal's mother's experiment. I secured Modeo and handed
+Hollander over to the company. After that, the company told me to wait for
+orders and a lot of time has passed. The company seems to be full of nothing
+but gossip. I always seem to be around the Turks. Though they told me, "By
+chance, our furloughs overlapped," though I wonder---But, no one says anything
+about Angeal or Genesis. It's as if it never happened. Everyone, what is a
+SOLDIER supposed to think? In the future, what should I fight? A SOLDIER's
+pride, what is it---?
+
+Zack with no mission at hand gets a break from his daily life. He gets sent to
+Costa del Sol for a nice beach vacation with Cissnei. But Zack being Zack just
+can't sit still waiting for his next mission. Even on the beach he's training
+by doing his usual squats.
+
+Cissnei: Want some oil?
+Zack: I don't need that kind of stuff. What the hell is this?! Have I been left
+out again?!
+Cissnei: Isn't it fine like this once in a while?
+Zack: I've had enough! I think I'll give'em a call.
+Cissnei: The Executive Manager is no longer there. Lazard's location is
+unknown. It's believed that he's been funding Hollander's research. With the
+company's money no less.
+Zack: Lazard really did that?
+Cissnei: He did a lot of research on Hollander so he should know quite a bit.
+Zack: What is this---
+Cissnei: Huh?
+Zack: I'm just wondering what everyone is thinking---
+Cissnei: Only that person alone would know the truth. But even if he tells us
+anything we'd be doubtful of what he says is true---
+Zack: Cissnei mind going over there for a bit?
+Cissnei: Calling Aerith now?
+Zack: How did you know? Am I being watched or something?
+Cissnei: The one being watched is her. That girl is an Ancient, the last one of
+her kind on this planet. You didn't know?
+Zack: She---never really said anything about it. The last one of her kind on
+this planet huh? Sure seems that way.
+
+Tseng comes rushing onto the beach.
+
+Tseng: Watch out! Genesis clones are here!
+Zack: Genesis clones?!
+
+Zack blasts his way through the Genesis clones on the beach.
+
+Zack: These guys are still around? But Genesis is---
+Tseng: Genesis might be still around.
+Zack: What?
+Tseng: Once the body loses the mind it returns to the Lifestream.
+Zack: What about it?
+Tseng: It is the spiritual energy that travels around the planet. Genesis's
+mind right now is---
+Zack: So do clones also go back to this Lifestream?
+Tseng: That might be possible. Now---Zack your vacation is over. Someone seems
+to be attacking Junon. You will be coming as well.
+
+Tseng, Cissnei and Zack arrive at Junon. They find several other Genesis clones
+swarming around the area.
+
+Zack: This is horrible! Genesis clones are here as well?! They’re always
+causing trouble as they please.
+
+Zack beats up the puny Genesis clones and examines them.
+
+Tseng: Right now, Hollander is somewhere in Junon. It would appear that this
+raid has something of relevance to him.
+Zack: Is it still not over?
+Tseng: We'll quickly go evacuate all the residents. Zack you'll be keeping
+guard on Hollander.
+Zack: I'm guarding Hollander? Shouldn't we eliminate the enemy first?
+Tseng: Hollander knows of some very confidential information. The President
+wishes for him to be protect no matter what. Executive Manager Lazard is also
+missing and the company still hasn't selected a new one for the SOLDIER
+department. This raid is the perfect chance for him to escape. Zack, we're
+counting on you to guard Hollander.
+Cissnei: He's being held inside the isolation facility on Junon R Level 8. Take
+the emergency elevator to the upper levels. We'll follow up with you later.
+We're counting on you Zack.
+Tseng: We're still not done with Hollander's interrogation. We can't afford to
+hand him over to the enemy.
+Zack: All right, I understand.
+
+Zack makes his way to the emergency elevator and heads up to Level 3 of Junon.
+Once he arrives at the floor he witness the dead bodies of his follow SOLDIERs
+on the floor. The culprit, a Genesis clone.
+
+Zack: Genesis?! No this is a clone!
+
+Zack wipes the floor with the clone. Later a SOLDIER 3rd Class approaches Zack
+to give him his report.
+
+SOLDIER 3rd Class: The isolation facility that Hollander was held at has been
+deserted!
+Zack: What?! Even the facility has been attacked?
+SOLDIER 3rd Class: No, it appears that while the town was being attacked he
+took his chance to disappear.
+Zack: Than you mean he escaped on his own?!
+SOLDIER 3rd Class: The timing of the raid was too good, how he pulled it off
+concerns me. It's also possible that someone helped him escape.
+Zack: Where did Hollander escape too?!
+SOLDIER 3rd Class: Hollander was last seen by a guard camera at Junon R Level
+6. This level here is Junon L Level 6 so he should be here somewhere. He must
+be somewhere in between Junon L and R. If Hollander is here he'll be using the
+gate to escape to Junon R. Just push the switch to open large gate.
+Zack: Thank you. I'm counting on your to take care of the injured.
+SOLDIER 3rd Class: Yes sir!
+Zack: You can leave Hollander to me.
+
+Zack moves on towards the Level 6 gate. Two 3rd Classes engage a Genesis clone
+but are no match. Zack didn't make it in time to finish them off but quickly
+deals with the clone himself. After defeating the clone he moves onto the gate.
+Before he makes it to the gate he sees Hollander come out of one of the
+buildings.
+
+Zack: Hollander! So there are you!
+Holland: Dammit.
+Zack: You won't escape!
+
+Zack tries to chase after Hollander but is abruptly stopped by Genesis clones.
+One clone fires his giant gun at Zack. Zack is quick to defend himself.
+
+Zack: That was close. I'm in a hurry here! Don't get in my way! You guys are so
+annoying.
+
+Zack deals with the extra clones and quickly moves on to the next area behind
+the gate. Zack sees Hollander trying to open the next gate.
+
+Zack: Wait! Hollander!
+Hollander: Hmm.
+
+Hollander opens the next gate and Zack tries to chase him again. Although, Zack
+is stopped by another one of Hollander's machines.
+
+Zack: Another one of his new weapons?! Dammit, that Hollander!
+
+Zack fights his way through the giant tank like robot and beats it. After the
+fight Tseng comes into the room to secure it.
+
+Tseng: We're almost done cleaning up with most of the enemies. From now we'll
+be locking all the doors so that it's not possible to enter. The evacuees we'll
+be staying here.
+Zack: Everything is going smoothly for you I suppose. I on the other hand let
+Hollander escape again. Well, I'll be going now.
+Tseng: All right, we're counting you.
+
+Zack chases after Hollander again past another gate. Zack finally makes it to
+the Junon airstrip. Before Zack can continue following Hollander, Hollander
+releases another giant robot on Zack. Zack fights the tough fight and later
+continues his chase after Hollander. It would seem Hollander has nowhere else
+to run.
+
+Zack: That's as far as you go!
+Hollander: So what will you do now?
+Zack: Hey!!
+
+Hollander falls off the cliff but gets picked up by two Genesis clones.
+
+Zack: No way! Dammit he got away.
+
+Tseng and Cissnei finally meet up with Zack but are too late and watch
+Hollander fly away. Sephiroth also makes his late appearance.
+
+Sephiroth: Mission failed. That'll be a big minus in your assessment.
+Zack: Sephiroth! It's been like what 100 years?
+Sephiroth: Leave the rest of this to the Turks. While doing investigations in
+Modeoheim I heard that you came here.
+Zack: Oh I'm so happy.
+Sephiroth: It seems things are starting to move again. Genesis clones have
+shown up all over the world.
+Zack: How is that possible---? The Genesis clones should have been wiped out.
+Sephiroth: Is Genesis really dead? Even in Midgar there are clones appearing.
+Zack: Is that so---
+Sephiroth: Slums as well. You can go back, you have my permission.
+Zack: O---ooo.
+Sephiroth: Take care.
+Zack: Later. Did something happen at Modeoheim?
+Sephiroth: The equipment Hollander was using has gone missing.
+Zack: Genesis?
+Sephiroth: Perhaps. We'll see each other soon.
+Zack: You better make sure of that!
+
+The truth revealed; Genesis lives. Genesis stands on the Junon cannon and
+speaks his lines of Loveless.
+
+Genesis: 「Your desire, the Goddess's Gift shall foster a life. Your story
+shall be told, your sacrifice and the world's end. Like the wind that blows
+over the secret water surface, gently and certainly.」
+
+Genesis watches the sunset in Junon before making his leave.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 8		          **
+**                                       				  **
+****************************************************************************
+
+Zack makes his way back to the slum church in Midgar.
+
+Zack: Hmm? I thought I just sensed something behind me---Probably just my
+imagination.
+
+Zack runs into the church and without noticing a new Shinra model robot is
+heading his way. But before he even has time to worry about that he finds a
+monster inside the church standing beside Aerith!
+
+Aerith: Zack!
+Zack: An Angeal clone?!
+
+The mysterious Shinra robot makes its way into the church; it begins aiming for
+a target. But before it can acquire any target at all it gets destroyed by the
+Angeal clone!
+
+Zack: Thanks.
+Aerith: Did it just protect us?
+Zack: It seems that way.
+
+The clone falls after its grand attack---
+
+Zack: Deterioration?
+Aerith: Poor thing---
+Zack: Is Angeal alive somewhere too?
+
+It appears the clone is dead just yet but it has no intention to fight Zack.
+
+Aerith: That little one somehow seems sad.
+Zack: What reason did you come here---?
+Aerith: Hey, let’s make the flower sale wagon.
+Zack: Umm. But---
+Aerith: It'll be all right.
+Zack: You got that right?! Stay put up there! As for the rest, I'll think of
+something.
+Aerith: Hey, let’s make the flower sale wagon.
+
+Zack acts a bit blank; he can't seem to find the reason why an Angeal clone has
+appeared. Could Angeal really still be alive? Aerith calls him over once more
+to help with the flower sale wagon.
+
+Aerith: Come'on now Zack! Over here.
+Zack: A---aa. Hey---Aerith. Once we're done making the wagon will you sale them
+in the upper city?
+Aerith: Umm. I'm still a little scared too. I think I'll first start selling in
+the slums---
+Zack: Honestly, what have I told you? When it comes to when we start selling up
+above I'll be there with you! Nothing to be worried about!!
+Aerith: Thanks so much Zack!
+Zack: All right! So it's decided, let’s hurry up and make the wagon. I'll go
+look for some wood! Aerith wait for me here.
+Aerith: Umm.
+
+Zack heads outside and finds more robots waiting.
+
+Zack: Ah. More of these guys? Well, time to get this over with quickly.
+
+Zack fights the other 3 robots and finishes them off quickly like he said.
+Tseng appears and talks to Zack after his fight.
+
+Zack: What are these---?
+Tseng: These are the new model robot weapons used to detect and defeat the
+monsters. They have been deployed throughout Midgar to rid the area of Genesis
+Copies. Almost all of the copies in Midgar have been dealt wtih.
+Zack: Hmm. That's amazing. But, how come they tried attack me too? Can't these
+things tell the difference between monsters and SOLDIERs?
+Tseng: ---currently no.
+Zack: That's not very reassuring---
+Tseng: We'll improve the robots then.
+Zack: Also Tseng---there's something about you that bugs me. You're keeping
+watch on Aerith aren't you?
+
+Tseng slowly walks away from Zack avoiding his question.
+
+Zack: You're not going to say anything again?
+Tseng: If you want to fool around with Aerith I won't try and stop you. I'm
+simply carrying out my duties as a Turk.
+Zack: I'm not fooling around! For Aerith's sake I'm protector her as a
+SOLDIER---
+
+A boy approaches Zack and starts asking him questions about the flower wagon.
+Tseng takes his chance leaves while Zack is distracted. Zack finally heads out
+on his hunt for wood. He finds his first piece on the road just outside the
+church. He finds the next piece in the slum market but someone apparently
+already owns it. Although he's reluctant to give you the wood, he decides that
+he'll give it to Zack on one condition. That one condition being that Zack
+names his new store he's opening. After much thought Zack decides on Seventh
+Heaven. The store owner loves it and gives Zack the wood. Next Zack finds the
+last piece in the Loveless district. A man who knows Aerith offers it to Zack.
+Zack decides he's kept Aerith long enough and heads back. Zack returns to
+Aerith with the wood and they begin making the Wagon. They finally finish
+making the wagon but Aerith seems somewhat displeased.
+
+Aerith: Hmm. It doesn't look very cute.
+Zack: Really? Well, its fine isn't it? Since the main event is the flowers.
+Aerith: I just can't agree to that.
+Zack: Don't think about such luxurious things!
+Aerith: A little luxury is all I ask for.
+Zack: You say it's only a little but really it’s a lot right?
+Aerith: Yup! Will you hear me out?
+Zack: How many is it---?
+Aerith: Umm. 23?
+Zack: Write it down on paper since I'll probably forget.
+Aerith: Um.
+
+Aerith nods and starts writing down the 23 little luxuries she wants. Zack gets
+a phone call from Sephiroth.
+
+Sephiroth: The situation has changed. Return to headquarters immediately.
+Zack: Arg.
+Aerith: Work?
+Zack: Unfortunately.
+Aerith: Here.
+
+Aerith hands Zack the piece of paper. Zack and Aerith gaze into each other's
+eyes like the love birds they are. Zack makes his leave to Shinra headquarters.
+
+Sephiroth: It appears at one of the mako reactors monsters have appeared. Also
+all the employees working there have gone missing. We haven't been able to
+contact even the SOLDIERs sent near the location. The company has decided to
+send other SOLDIER to investigate the situation. You and I will be going.
+Zack: Roger---
+Sephiroth: What's wrong?
+Zack: Well you know---you'd think there'd be more information than that.
+Sephiroth: The SOLDIERs that we lost contact with we're the ones chasing after
+Lazard. Furthermore, earlier they reported they saw some kind of strange pods.
+Zack: Are they Hollander's?
+Sephiroth: Most likely---It could be equipment taken from Modeoheim.
+Zack: Which means---
+Sephiroth: Lazard, Hollander---
+Zack: And Genesis?
+Sephiroth: We have no choice but to go.
+Zack: Right. Let’s hurry up and get going.
+Sephiroth: Go to the SOLDIER floor first. You and the other soldiers who are
+going should prepare before we depart.
+Zack: Roger!
+Sephiroth: Our orders are to investigate the mako reactor. Even old friends
+didn't even tell me anything. Depending on when, even I might be discarded by
+Shinra. But until then I'm still an obedient SOLDIER of Shinra.
+
+Zack makes his way to the SOLDIER floor and prepares for his mission. Before
+leaving for his mission he decides to go visit Aerith and explain to her the
+situation.
+
+Aerith: Zack all done with work?
+Zack: Nope---There's seems to be some important mission coming up, I might have
+to leave Midgar.
+Aerith: When are you coming back?
+Zack: Umm. I'm not really sure.
+Aerith: Oh---Is it okay if I call you?
+Zack: Of course! I'll pick up right away even during my mission.
+Aerith: You know what! Let’s---
+Zack: Eh? Let's what?
+Aerith: Let’s go to the slums and sell flowers.
+
+Zack and Aerith head out to the slum park hoping to sell some flowers.
+
+Zack: Um. Looking cute.
+Aerith: Do you think anyone will even come to buy? ---no one seems to be coming.
+Zack: No no. For sure they will come. Just wait a little bit and tons of
+customers will be here.
+Aerith: Hm. Like I thought, this wagon just isn't very cute. Oh, a customer.
+
+Zack runs over to the young man and tries to persuade him to buy a flower.
+
+Zack: Hey. Hey. You over there! How about buying a flower? For right now, it'll
+only be 10 gil! It's been a huge price-slash! It's a must-buy!
+
+Aerith giggles at Zack's antics.
+
+Zack: Aerith! He said he'd buy it at 5 gil!
+Aerith: Um. Any amount is fine.
+Zack: No, that just won't do at all. I'm going to go back and negotiate for 7
+gil. I'll be more tough this time.
+Aerith: But---did the customer just leave?
+Zack: Aerith---sorry.
+Aerith: Why? I'm really happy. Since you're here with me. Oh! Look, Zack!
+Another customer!!
+
+While Aerith is distract selling her flowers out of her new wagon Zack goes
+talk to Tseng hiding behind the slide.
+
+Tseng: Don't worry about her. It's our duty to protect and watch over her in
+case she gets into any danger.
+Zack: You're the only person I can depend on.
+Tseng: He he.
+Zack: Heh! Why are you laughing? I'm counting on you!
+
+Zack makes his way back to the headquarters and set out to meet the other
+members for the mission.
+
+Zack: What's wrong?
+Cloud: The assigned members still aren't here---
+Zack: We're in a rush so hurry up!
+Cloud: Yes sir!
+Zack: Cloud?! Together again huh? Pleasure to be working with you.
+Cloud: You too. Just wait a moment; I'll go call the others.
+
+Cloud runs off to get the other members. The assigned members all meet in the
+SOLDIER floor lounge.
+
+Zack: By the way, where are we going?
+Sephiroth: Nibelheim.
+
+Cloud reacts surprised and speechless.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 9		          **
+**                                       				  **
+****************************************************************************
+
+Sephiroth: It's been a while since you've been back to your hometown right? How
+does it feel? I don't have a hometown of my own so I wouldn't know---
+Zack: Eh. What about your parents?
+Sephiroth: My mother's name is Jenova. She died right after she gave birth to
+me and my father---He he ha ha. What am I talking about---? Well let's go.
+Zack: Sephiroth's mother's name is Jenova? Hmm?
+
+Zack and Sephiroth make their way to the inn they'll be staying at. Before
+entering a young girl comes to approaches them.
+
+Tifa: Are you the SOLDIERs sent here to do an investigation?
+Zack: Yeah. I'm Zack of SOLDIER, 1st, 1st Class.
+Tifa: Hmm.
+Zack: Hmm?
+Tifa: Are there a lot of SOLDIER 1st Classes?
+Zack: Really only a few.
+Tifa: Is it only you two?
+Zack: Yeah. Me and Sephiroth.
+Tifa: I see.
+
+Tifa finishes talking to Zack and runs off.
+
+Zack: What a weird kid.
+Sephiroth: We will begin our investigation of the mako reactor tomorrow
+morning. As for today we will be sleeping early. The rest of you should sleep
+as well since tomorrow vigilance will be of the utmost importance. Oh that's
+right---there's no problem at all if you want to go visit your family and
+friends.
+Zack: Nibelheim---huh?
+
+Zack heads into the inn after Sephiroth. The clerk tells him his room is
+upstairs. Zack heads up to the top floor and finds Sephiroth starring out the
+window.
+
+Zack: What are you looking at?
+Sephiroth: ---the scenery. I feel as though I know it.
+
+Zack and Sephiroth rest up for the mission they have tomorrow. The next day,
+Zack and Sephiroth head over to the Shinra Mansion in Nibelheim to meet their
+guide to the mako reactor.
+
+Zack: Tifa! You're the guide?!
+Tifa: That's right.
+Camera Man: Okay everyone say che---ese.
+Tifa: You know that I'm the best guide in this village.
+Zack: But, it's going to be dangerous! You shouldn't be involved in something
+like this!
+Sephiroth: It will be fine if you protect her.
+Zack: Go back. You might end up being eaten. Or at the very least you might
+faint. But if I use it, it'll get dirty, broken, and worn down. However,
+hitting the back of blade is effective.
+
+They all make it to the reactor safely, Tifa, Zack, Sephiroth, Cloud and the
+other Shinra soldier.
+
+Tifa: I want to go inside too! I wanna see!
+Sephiroth: This area is restricted to the general public. The complex is full
+of Shinra industrial secrets.
+Tifa: But!
+Sephiroth: Take care of the lady.
+
+Cloud, without Tifa knowing it's him, stops Tifa from entering. Zack and
+Sephiroth step into the mako reactor to start their investigation.
+
+Zack: JENOVA. That's weird. The lock won't open---Jenova?!
+Sephiroth: So these are the cause of the operation's abnormality. This part
+seems to be broken. Zack open the valve please. Why is it broken?
+
+Sephiroth let's Zack peek into one of the pods. Zack finds a---monster.
+
+Zack: Th-This is?!
+Sephiroth: Normal SOLDIER are humans who have been showered in mako. You're
+different from regular people but even still you are human. Although, what are
+these? Compared to regular SOLDIERs like you there's a much higher
+concentration of mako in these ones.
+Zack: These are---monster.
+Sephiroth: That's right. Hojo of the Shinra Company is the one who created
+these monsters. By using mako energy he created these unnatural living monsters.
+Zack: A normal SOLDIER? Aren't you one? He---ey Sephiroth!
+Sephiroth: It can't be---I'm also---? Was I also created the same way? Are you
+trying to say I'm the same as a monster---?
+
+Sephiroth starts to be confused and questions himself. In frustration he pushes
+Zack away. Zack tries and helps Sephiroth but not before someone else can bud
+in---
+
+Sephiroth: Ever since my childhood I could feel it. I was different than other
+people. I always thought I had some kind of special purpose. But, I didn't
+think it would be something like this. Am I even human?
+Genesis: Unfortunately---No. You are a monster.
+
+Genesis throws two firas one at Zack and one at Sephiroth. Sephiroth manages to
+deflect it easily but Zack gets hit and falls to the floor.
+
+Genesis: Sephiroth. You were born out of the Jenova Project; the greatest
+monster of all.
+Zack: Genesis! So you were alive after all.
+Genesis: In my current condition can you even say that I am?
+Sephiroth: What does the Jenova Project have to do with me?
+Genesis: The Jenova Project the general name for the experiment. The experiment
+that used Jenova's cells.
+Sephiroth: Using mother's cells---?
+Genesis: Pitiful Sephiroth---You've never meet your mother and the only thing
+you ever heard was her name right? I have no idea what she looks like, but what
+I do know is---
+Zack: Genesis stop it already!
+Genesis: Jenova is---a stratum discovered over 2000 years ago. A monster.
+Sephiroth lend me your strength. Otherwise my deterioration won't stop. SOLDIER
+1st Class Sephiroth! Angeal was born out of Jenova Project G. Just like me born
+a monster. Jenova Project S was---
+Zack: S---?
+Genesis: Was a project created to make the perfect monster.
+Sephiroth: What is there I can do?
+Genesis: You have no power to create clones. Nor does the gene spread. In other
+words the deterioration won't happen. Lend me your cells. 「Your desire. The
+Goddess's Gift shall foster a life」
+Sephiroth: Are you trying to confuse me with everything you've just said---? Or
+is it, what I have been looking for is the "truth"---? Which ever it may be. Go
+decay.
+Genesis: I understand. It's to be expected of a perfect monster.
+
+Genesis watches Sephiroth walk away and walks right after him but speaks his
+lines of Loveless once more.
+
+Genesis: 「The end of the world is brought by the duel of the beasts. The
+Goddess shall fall from the darkest sky. Spreading her wings of light and
+darkness, she shall lead us to our paradise, along with her gift.」
+Zack: Wait!
+
+Zack chases after the two but when he reaches outside they're nowhere to be
+seen and only monsters are left. The monsters have seriously injured the Shinra
+SOLDIERs and Zack has no choice but to fight his way back to the village. He
+escorts Tifa and Cloud back defending them along the way.
+
+Zack: Where did Sephiroth go?
+Tifa: Did something happen?
+Zack: Sorry. I can't say.
+Tifa: Right. I'll go ask the other villagers about Sephiroth's whereabouts.
+Zack: Thanks Tifa.
+
+Zack and Cloud return to the village inn. Zack sits by Cloud's side until he
+wakes.
+
+Zack: Tifa is okay; so don't worry.
+Cloud: If only I was a SOLDIER too---Zack?
+Zack: SOLDIERs are like monsters. So forget about it.
+Cloud: What exactly happened?
+Zack: No clue. Although I intend to find out. Ah---ah. So anyway is Tifa an
+acquaintance of yours?
+Cloud: Sort of.
+Zack: Did you guys talk?
+Cloud: No.
+Zack: I'm not sure what's going on but are you okay with that? Even I---I'm a
+SOLDIER therefore just fighting is fine! I can leave all the troublesome things
+for someone else to think of---! What is there to be angry about? Who is the
+enemy? That kind of stuff shouldn't matter at all!
+Cloud: Hey Zack. I've never seen you use that sword before.
+
+After hearing Cloud speak the same words he spoke himself a long time ago Zack
+remembers the good old days when Angeal was still around.
+
+Angeal: If I use it it'll just get dirty, worn and rusted. That would be even
+more of a waste. Your life is more important than the sword. Well just a little.
+Zack: Never lose your dreams. Also, no matter the situation never let go of
+your pride as a SOLDIER.
+
+Zack: This here is a symbol of dreams and pride. Rather, it is just that. I
+almost lost sight of that. Thanks Cloud.
+Cloud: Eh?
+Zack: All right! As for now---sleep!
+
+Zack and Cloud sleep away till morning. After waking up Zack runs downstairs to
+the lobby. Tifa comes rushing into the inn with some important news to tell
+Zack.
+
+Tifa: It seems Sephiroth has gone to the Shinra Mansion.
+Zack: Are you talking about that big mansion?
+Tifa: Yeah. It belongs to Shinra.
+
+As Zack walks out of the inn he receives a phone call.
+
+Aerith: Hellooo---
+Zack: Aerith?!
+Aerith: Finally got through to you!
+Zack: Ah. Hey sorry about this but---I'm in the middle of something right now.
+I'll give you a call a little later.
+Aerith: No it's okay you don't have too---
+Zack: I understand. I'll come see you.
+Aerith: I'll be waiting.
+Zack: Mmm. It's a promise.
+
+Zack hangs up and continues on to follow Cloud to the Shinra Mansion.
+
+Zack: Aerith just wait a little longer for me.
+
+Zack reaches the Shinra Mansion and follows Cloud to basement entrance. Down
+below Zack finds the room Sephiroth is in. Sephiroth devotes himself to reading
+the research of Jenova. He finds ends up questioning himself more and more.
+
+Sephiroth: ---an organism that was apparently dead was found in a 2000 year old
+geological stratum. Professor Gast named that organism, Jenova---X Year, X
+Month, X Day. Jenova confirmed to be an Ancient---X Year, X Month, X Day.
+Jenova Project approved. The use of Mako Reactor 1 approved for use. My
+mother's name is Jenova---Jenova Project. Is this just a coincidence? Professor
+Gast---Why didn't you tell me anything? Why did you die?
+
+Zack: Sephiroth didn't come out of the Shinra Mansion. He continued to read as
+if he were possessed by something. Not once, did the light in the basement go
+out---
+
+Zack decides to leave him alone and head back to the town.
+
+7 days later. Zack stands outside the inn with the whole village up in flames.
+He finds Cloud badly beaten on the floor. By the stairs he finds Sephiroth.
+
+Sephiroth: Now is the time for the greeting.
+
+Sephiroth walks off towards mako reactor.
+
+Zack: This is cruel. Sephiroth---this is just too cruel.
+
+Zack chases after Sephiroth to the mako reactor. After making his way up to the
+reactor he enters it and finds Tifa on the floor.
+
+Zack: Did Sephiroth do this to you?
+
+Tifa turns away from Zack in detest. Zack walks towards the JENOVA chamber.
+
+Tifa: I hate it. Shinra, SOLDIER, you, I hate it all!
+
+Zack walks towards the JENOVA and smacks the door down with one huge swing of
+his sword.
+
+Sephiroth: Mother let’s take this planet back together. I've thought of a
+very good plan. Let’s go to the Promised Land together. Mother.
+Zack: Sephiroth!! Why did you kill the villagers? Why did you hurt Tifa? Answer
+me Sephiroth!
+Sephiroth: Ha ha ha. Mother those people have shown up again. With mother's
+strength and knowledge she should have been this planet's ruler. But those
+people---those people who took everything. The planet was taken from mother
+wasn't it? But, don't be sad anymore mother. Let’s go together---Finally we
+meet mother---
+Zack: Sephiroth! What's gotten into you---?! Sephiroth I trusted you---
+
+Zack gets put on the defence by Sephiroth's blade and gets blasted to the lower
+floors of the mako reactor. Zack and Sephiroth continue their fight.
+
+Zack: No. You're no longer the Sephiroth I once knew.
+Sephiroth: I am the chosen one. The chosen one to rule over this planet.
+
+They continue their fight and Zack barely fends off Sephiroth's attacks. Zack
+gets beaten badly and his sword is lost out of his hands. Zack gets hit back
+into the pod room. With Zack out for the count his sword sits in the door way.
+At this moment Cloud takes Zack's sword and sneaks behind Sephiroth - who is
+admiring his mother - and stabs him in the back. Sephiroth is badly hurt and
+Cloud rushes back to Tifa's side to assure himself she is all right. A little
+while later Sephiroth comes out of the room.
+
+Sephiroth: By someone like you---
+Zack: Cloud finish Sephiroth---
+Cloud: Sephiroth!!
+
+Cloud charges Sephiroth with the Buster Sword but doesn't land a second blow.
+
+Sephiroth: Don't get over confident.
+
+Cloud gets stabbed by Sephiroth's sword but with rage burning in Cloud's blood
+he finds the strength to overpower Sephiroth and toss him into the pits of the
+mako reactor.
+
+Sephiroth: This is impossible.
+Zack: You did well Cloud---
+
+The two pass out after the long fight. Sometime later, half-awake, Zack finds
+himself surrounded by other Shinra soldiers along with Hojo.
+
+Hojo: This boy here huh? How interesting. Truly interesting. We'll use him as
+my new sample.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Chapter 10		          **
+**                                       				  **
+****************************************************************************
+
+Zack and Cloud have been captured and used as experiment samples in Hojo's
+crazed plans. While in his tube Zack has a dream of Angeal.
+
+Angeal: How can you even call yourself a SOLDIER? I don't need such a pathetic
+SOLDIER.
+Zack: Angeal!! Wait!
+
+Zack finds himself in a much more vivid dream.
+
+Zack: Those wings of yours---lend them to me as well.
+
+Zack finds the strength and breaks out of his test tube. An assistant of Hojo's
+finds Zack on the floor. He goes to inspect it but suddenly Zack knocks him out
+unconscience. Zack heads to Cloud's container and frees him from it.
+
+Zack: Cloud---
+
+Zack takes Cloud outside of the mansion and tries to escape.
+
+Zack: What is this? Why is this village still here? It should've been burned to
+the ground.
+Shinra Soldier: It's the escapees! The doctor's experiment samples!
+Zack: There's no way a regular soldier could hope to beat me. Cloud?! This is
+bad. I better finish this up quick. Sorry but you won't be able to capture me.
+
+Zack manages to get them all but used up a bit too much strength.
+
+Zack: This isn't good. I'm in pretty bad shape. Even regular soldiers give me
+such a hard time---I guess for the time being we'll return to the mansion and
+recover our strength.
+
+Zack carries Cloud back to the mansion and talks to him along the way.
+
+Zack: Since it's still daylight, do you think we should rest till the evening?
+
+Zack puts Cloud down on a bed stares at him. Wondering why Cloud is still out
+of it.
+
+Cloud: Uu---
+Zack: Cloud---It can't be mako poisoning, can it?! Hey Angeal---Is there no one
+I can save? All right! First I'll go look around for something for you to
+change into. It probably doesn't feel too good to have mako attached to your
+clothes. Just wait here a bit I'll be right back.
+
+Zack runs back down to the scientist he knocked out to retrieve the master key
+to the mansion. He then runs back up to a room with a dresser and takes a look
+around.
+
+Zack: Oh! This looks really good. He can definitely wear this.
+
+Zack runs back to where Cloud is and tells him the good news.
+
+Zack: Hey I found something really nice. It's a little big. But hey, don't ask
+for such luxurious things. Looks good on you.
+
+After suiting Cloud with a SOLDIER uniform, Zack reaches into his pocket and
+finds a piece of paper. He soon realizes the promise he made to Aerith.
+
+Zack: You say it's only a little but really it’s a lot right?
+Aerith: Yup! Will you hear me out?
+Zack: How many is it---?
+Aerith: Umm. 23?
+Zack: Write it down on paper since I'll probably forget.
+
+Zack reads what Aerith wrote on the piece of paper.
+
+Aerith: There are 23 little luxuries. But you probably won't remember. There's
+only one thing I want the most---to be together with you more often.
+
+Zack realizes he has only one mission left.
+
+Zack: Hey Cloud. I have to go to Midgar. You'll be coming too right?
+
+Zack returns to the entrance of Nibelheim and starts his escape. More Shinra
+soldiers appear and trying to capture Zack and Cloud. Zack easily deals with
+them and leaves the town. Zack finds the trail he needs to use to escape is
+crawling with Shinra robots. Before engaging the trail he leaves Cloud
+somewhere safe and proceeds to secure the path. Zack finds sniper rifles on the
+floor and deals with all the pesky robots. Zack finally makes it to the end of
+the trail and everything is safe. He stands on a beach and looks towards the
+moon.
+
+Zack: Aaaa---What do we do from now on---? Since Cloud is with me I can't be
+too reckless---Angeal what should I do?
+
+Gazing into the moon lit ocean Zack readies himself to greet a person who's
+been following him.
+
+Zack: Yo Cissnei it's been a while huh?
+Cissnei: Zack---Are you the sample trying to escape?
+Zack: That's correct.
+Cissnei: What did they do to you in that lab?
+Zack: Well a lot of things. Hey Cissnei did you come here to take us back? I
+beg you! Let us escape!! I thought I could outrun the army but with the Turks
+on us it'll be too much.
+Cissnei: Zack---I'm sorry. It's my duty. If you plan on trying to escape,
+I'll---
+
+With much confusion on her mind; Cissnei still throws her shuriken at Zack.
+Zack quickly defends and draws his sword. Cissnei tries to approach Zack but---
+
+Zack: Don't come any closer. If you plan on following us, then the next time,
+I'll really---
+
+Zack runs off to check on Cloud to assure he's safe. Cissnei stands on the
+beach shore feeling distraught by what's she's done. Zack stands by Cloud's
+side and explains the situation.
+
+Zack: The Army and Turks are around, so moving right now would be too
+dangerous. For today, we'll sleep here and head out in the morning when there's
+light. We'll take it slow okay?
+
+Cissnei finds Zack with Cloud. Zack turns around and points his sword at her.
+
+Zack: Cissnei---
+Cissnei: He is---If I'm not mistaken he's the other one who also escaped with
+you.
+Zack: Why did you have to come here?! Didn't I tell you to not follow us?!
+Cissnei: He doesn't look very good. What happened?
+Zack: Mako poisoning and it's quite serious.
+Cissnei: It's because of the experiments isn't it?
+Zack: Yeah.
+
+Cissnei picks up her phone and makes a call. Zack freaks out but she puts her
+hand out to let him know not to worry.
+
+Zack: Hey!
+Cissnei: Tseng the targets have escaped.
+
+She hangs up and reassures Zack.
+
+Cissnei: That's how it is. So get it together and escape.
+Zack: Cissnei thank you.
+Cissnei: I have a present for you. I believe in you so please accept this.
+
+Cissnei walks away after giving Zack the keys to a brand new Shinra bike. Zack
+hops on and makes his way towards Midgar with Cloud in the passenger seat.
+
+Zack: New Shinra models are the best! Those things are still around?
+
+Zack while still on the road encounters Genesis clones. He attempts to engage
+them but his smacked from the back by the real Genesis and is captures by the
+clones.
+
+Zack: What the hell?! That hurts! Stop pulling on my hair!
+Genesis: 「The end of the world is brought by the duel of the beasts. The
+Goddess shall fall from the darkest sky. Spreading her wings of light and
+darkness, she shall lead us to our paradise, along with her gift.」
+Zack: My hair?!
+Genesis: I heard you were being used for one of Hojo's experiments. He used you
+for Project S and therefore you inherited Jenova's power.
+Zack: Is that what it was?! You can't be serious. It ate my hair.
+Genesis: To me these cells are the 「Gift of the Goddess」. With this my
+deterioration wfill stop.
+Zack: There's something wrong with you.
+Genesis: After receiving a monster's cells the rest is meaningless.
+Zack: The monster is you!
+Genesis: 「It is handed down. Your sacrifice and the world's end. Like the
+blowing winds over an unknown water surface---softly and certainly.」
+
+Genesis flies away along with one of the clones. The clone left behind acts as
+if it were in pain after eating Zack's hair. The clone transforms into
+something horrible. Zack readies himself for battle. Zack easily wipes the
+floor with the clone and walks back to his bike.
+
+Zack: Angeal what should I do?
+
+Zack turns to Cloud.
+
+Zack: Right?
+
+Zack continues his journey to return to Midgar. Half way through his journey
+Zack travels through a desert. To his utmost surprise he finds himself in a
+very familiar place.
+
+Zack: What the---?! This is! Cloud I made it to my hometown! This is Gongaga!
+
+Zack enters the city and parks the bike near a broken mako reactor.
+
+Zack: I guess it wouldn't be a good idea to visit my parents. They're probably
+waiting to ambush me. Just wait for me here for a bit. Mom and Dad do worry me.
+I wonder how mom's doing---It'll be dangerous but the village is waiting for my
+return.
+
+Zack heads into the village of Gongaga. Zack walks towards Gongaga but is still
+undecided if he should visit his parents or not. Someone comes along to help
+him make that decision.
+
+Cissnei: Honestly. You sure are carefree with your actions. I'm sure even you
+realized that they would be waiting at your house to ambush you right?
+Zack: Hm.
+Cissnei: Were you planning to see your parents?
+Zack: Is that so wrong? It's normal, isn't it?
+Cissnei: Oh.
+Zack: Although---I wasn't really thinking. It's just as you say. We'll leave.
+Cissnei: Be careful okay? You'll have to be more cautious than usual. Other
+than you, there seems to be someone else who has come to this village as well.
+Zack: Who?
+Cissnei: Angeal.
+Zack: I see.
+Cissnei: I see? Aren't you the one who defeated him? You're not surprised?
+Zack: It was probably thanks to him I was able to escape the Shinra Mansion.
+Cissnei: Is that so. So the witness information was true then.
+Zack: But what reason would he have come to Gongaga?
+Cissnei: Probably he wanted to see you. Other than that, could there be any
+other reason?
+
+Zack turns and spins frantically screaming to Angeal not knowing if he's really
+there or not.
+
+Zack: If you're around Angeal get out of here! The Turks are on the look out!
+Cissnei: I'll give you 10 minutes. Once time is up I'll be returning to the
+Turks.
+Zack: Returning?
+Cissnei: Right now---I just can't do it. I just can't bring myself to tell your
+parents the sad news.
+Zack: How's my mother doing?
+Cissnei: She's worried about you. Now that you've gotten yourself in such a
+mess she's worried you won't find a wife.
+Zack: That's so ridiculous.
+Cissnei: Nice parents huh? They're doing quite well.
+Zack: I see. If they're well that's good.
+Cissnei: Honestly.
+Zack: What about yours?
+Cissnei: I was raised by Shinra.
+
+Zack realizes he made some awkward silence and tries to clean up the air.
+
+Zack: Anyway Cissnei---Do you think you could talk to my mother for me?
+Cissnei: That's true. It'd be my pleasure.
+Zack: Just don't say anything that would make them think you're my bride to be.
+Cissnei: I've already told them.
+Zack: How could you tell them something like that! Cissnei!
+Cissnei: That isn't my real name.
+Zack: Eh?!
+Cissnei: Come'on now! Only 5 minutes left!
+
+Cissnei walks away and makes her return back to the Turks. Zack sees something
+shiny and white off in the distance.
+
+Zack: Angeal?! It's Angeal isn't it?!
+
+The Angeal he sees in the distances flies off to the mountain top.
+
+Zack: Wait!
+
+Zack chases after Angeal to the mountain top. Zack reaches the top and shouts
+to Angeal but all he finds is Genesis clones! He has no choice but to fight.
+
+Zack: Wait! How the---?!
+Genesis Clones: S---Cells.
+
+After defeating the two clones even more appear. But before the new pair of
+clones can attack him they're stopped by a familiar voice.
+
+Hollander: That person's cells will be most helpful to us! You used to be a
+SOLDIER. The cell structures have already started to deteriorate.
+Zack: Hollander?! You used it didn't you?
+Hollander: Yes. Because Genesis was trying to kill me, to continue living I had
+no other choice. Just a little of Genesis's cells---
+Zack: You're deteriorating.
+Hollander: That is correct. Although, I'm not regretting it one bit.
+
+Genesis walks up to Hollander with a White Banora apple in hand.
+
+Genesis: The Gift of the Goddess---once we obtain the genuine S cells this
+deterioration will be of no concern.
+Zack: Genuine?
+Genesis: You escaped with another correct?
+Zack: I didn't.
+Genesis: There are two escapees; one ex-SOLDIER and regular soldier.
+Hollander: And that regular soldier contains the last of the genuine S cells!
+Zack: Hey!
+
+Hollander flies off with the other clones. Zack realizes they're after Cloud.
+
+Genesis puts his hand out to stop Zack from attacking them as they take flight.
+
+Genesis: Do you know the last 4 phrases of the story?
+Zack: As if I would care!
+Genesis: 「Your story shall be told. Your sacrifice and the world's end. Like
+wind that blows over the secret water surface. Gently and certainly.」
+Zack: Sacrifice? End? Do you have to be so depressing!
+Genesis: It's unfortunate that you cannot understand the beauty of these lines.
+Well I won't force upon you to understand. Even I have difficulty understanding
+it sometimes. The greatest mystery of obtaining the 「Gift of the Goddess」
+is 「Water Surface」 and finally returning to the 「Lifestream」.
+Zack: What?
+Genesis: The final chapter is lost and with it exists dismissals of its
+existence. However the correct version is my very own interpretation. I will
+show you proof of that.
+Zack: It's pointless to think about such crap!
+
+Zack dives at Genesis but Genesis manages to fly away leaving Zack with nothing
+but an apple.
+
+Genesis: Soon you'll understand.
+Zack: Cloud's in trouble!! Need to return to the mako reactor. Got to hurry!!
+
+Zack rushes back to Cloud. Once he reaches the reactor he finds Cloud in a big
+pinch.
+
+Zack: Cloud run away!
+
+To Zack's surprise Angeal comes swooping in to try and save Cloud but is easily
+knocked down by Hollander. Hollander tries to run away but is chased by Zack.
+Zack quickly slices up Hollander. After defeating Hollander Zack watches
+Hollander's life force disappear from his body. He quickly returns to Cloud and
+Angeal.
+
+Angeal: It's been a while---
+Zack: Ha ha. How could you get beaten like that?
+Angeal: I can't fight like a 1st Class. I am Angeal's clone.
+Zack: Clone?
+Lazard: Lazard.
+
+Lazard explains the whole situation to Zack and after a while Zack finally
+starts to understand.
+
+Zack: So you're the one who helped Hollander escape from Junon? Why would you
+do such a thing?
+Lazard: I thought I would need Hollander's help for my revenge.
+Zack: You sure know how to pick your allies.
+Lazard: Seriously. I never thought I would have Angeal's cell turn me into a
+clone.
+Zack: Be rejoiceful. You're a descent of Project G.
+Lazard: It's quite the mysterious feeling.
+Zack: Hm?
+Lazard: After having my life taken controlled of, I completely forgot about my
+revenge. But in exchange---I want to help you---I want to save
+Genesis---Actually it's a much stronger feeling than that. That's right; I want
+to save the world.
+Zack: It's not mysterious at all. He he. Because this here is Angeal.
+Lazard: Ha ha. Genesis seems to be after something called the 「Gift of the
+Goddess」---Although what is it? No. Whatever it is doesn't matter.
+Zack: I really don't get anything he ever says. What should we do?
+Lazard: Angeal will guide us---perhaps?
+Zack: I see. That's right. Executive Manager.
+Lazard: Executive Manager huh? Hey Zack, what's your dream?
+Zack: Huh? That's right---To become a hero.
+Lazard: Quite sad but a good dream nonetheless.
+Zack: What are you saying? Lend us your strength along with Angeal of course.
+If we all stick together we can all become heroes! At the very least I'll
+recognize that we are.
+Lazard: Well now Zack. Do you know Genesis's location?
+
+Zack looks at the White Banora apples and realizes the truth to Genesis's
+location.
+
+Lazard: I see.
+
+The feathers fall from Lazard's wing and the three make their way to Genesis's
+hometown.
+
+****************************************************************************
+**				                                          **
+**                         CRISIS CORE : Epilogue		          **
+**                                       				  **
+****************************************************************************
+
+Zack arrives at Banora Village once more. Lazard comes swooping but holds his
+side. He's still hurt from his previous battle with the Genesis clones.
+
+Lazard: Stupid Apples only grow in Banora.
+Zack: Why is that again?
+Lazard: It seems to be caused by something in the soil.
+Zack: Genesis was always carrying a Stupid Apple around. I should have noticed
+sooner. This place sure has changed a lot. Can you look after Cloud for me?
+Lazard: Yeah.
+Zack: Hmm? What's that?
+
+Zack sees a long beam of lifestream shooting to the sky. He decides to head
+over and check it out.
+
+Zack: I guess I jump here. There isn't any turning back.
+
+Zack jumps down and inspects his surroundings. He notices a big hole in the
+wall.
+
+Zack: Was this even here before? Where does it lead too?
+
+Zack heads into the hole in the wall and it leads into a cave. He looks around
+upon entering and notices a desk. He walks over and sees a book. He picks it up
+and takes a read.
+
+Zack: White Banora Juice. National Agricultural Contest - Manufacturing
+Department - Most Valuable Player. Amazing. The one who invented this juice was
+a young man of the Banora village named Genesis. Amazing amazing! The young man
+commented this, "I'm really happy. Although it's not only good to drink as
+juice, it's also very delicious to eat. It's my dream to eat this apple one day
+with my parents and my hero Sephiroth. I would like to show the fruits of my
+success to Sephiroth who is also the same age as me." Genesis---
+
+Zack hears a large roar down the tunnel.
+
+Zack: Is there something I can do?
+
+Zack heads down the tunnel and finds himself in a cave. He makes it too a room
+but he requires the 7 Gifts of the Goddess. He runs back to the cave and finds
+them in treasure chests. He goes back to the alter and places the 7 Gifts in
+their respective slots. A large door way opens and Zack walks through it. He
+finds Genesis in his deteriorating state; hair all-gray and face all pale.
+
+Genesis: 「Thy revenge has scarred my soul. Agonizing for its end my wish
+becomes my relief.」 You're late.
+Zack: 「Loveless」 again?
+Genesis: You inherited Angeal's will and received a part of Sephiroth. The
+greatest reunion of friends has been made. With this 「Loveless」 has been
+reproduced.
+Zack: You're wrong! Open up your eyes Genesis!!
+Genesis: 「The end of the world is brought by the duel of the beasts.」
+Zack: I came here to save you!
+Genesis: 「The Goddess shall fall from the darkest sky. Spreading her wings of
+light and darkness, She shall lead us to our paradise, Along with with her
+gift.」
+Zack: What is that?
+Genesis: The 「Gift of the Goddess」. A gift born from the nature that
+surrounds Banora.
+Zack: Wasn't the gift supposed to be the cells?!
+Genesis: There are several interpretations.
+Zack: I don't understand at all---
+Genesis: Those feelings that surround you are also the gift. Everyone, let's
+all return to the planet. And of course, you as well---Now I will receive the
+providence of the planet.
+
+Genesis starts gather the energy of the lifestream that surrounds him and
+beings his transformation.
+
+Zack: Listen to me! Don't ignore what I say! Don't turn yourself into a
+monster! You---!
+
+Zack stands in front of a new Genesis; a monster. Zack readies himself for a
+tough battle. Genesis throws clones and spells at Zack and Zack skilfully
+dodges and slashes away like the 1st Class he is. After a long fight Genesis's
+monster form is defeated and a reborn Genesis stands before Zack.
+
+Genesis: 「Thy revenge has scarred my soul. Agonizing for its end my wish
+becomes my relief and your peaceful slumber.」
+Zack: Don't tell me that---from the very beginning you were---?
+
+Genesis charges at Zack with what little strength he has left.
+
+Genesis: Fight! SOLDIER 1st Class Zack!
+Zack: Everyone's always using me as they please.
+
+Zack furious with Genesis actions, accepts his challenge and deals with him
+quickly. Genesis goes flying along with his sword out of his hand. Genesis in
+his near death situation has a moment in a dream. He stands in the misty
+lifestream and sees the Goddess of the planet. He puts out his hand as if
+waiting to be accepted into her arms. But she draws her eyes away from him and
+refuses his request. Genesis falls to the ground and lies there defeated. Zack
+carries him on his back and heads out of the cave to meet back with Lazard. He
+finds Lazard sitting by a White Banora tree with Cloud.
+
+Lazard: Shinra came.
+Zack: You don't have to talk---
+Lazard: I fought alongside with that fellow there.
+Zack: You're---
+
+Zack realizes the one who fought alongside Lazard was the Angeal clone who
+protected him and Aerith from the Shinra robot so long ago. Zack breaks out in
+tears over the loss. Although he turns around and finds that the Lazard is also
+about to breathe his last breath.
+
+Zack: Executive Manager!
+
+Realizing he's already gone Zack punches the ground.
+
+Zack: Thank you.
+
+The next day Zack decides to do something memorable for Genesis. He passes
+around Stupid Apples for each one; Lazard, Cloud and Genesis.
+
+Zack: All right! Let’s eat together! I'm sorry it isn't the real thing.
+Genesis: Does it taste good?
+Zack: Yeah.
+Genesis: The 「Gift of the Goddess」?
+Zack: This apple is?
+
+Genesis shakes his head.
+
+Zack: Huh?
+Genesis: Angeal---The dream has been fulfilled.
+
+Genesis passes away into a deep slumber. Lazard's body and the Angeal clone's
+body return to the lifestream. Left behind by the Angeal clone is a letter
+addressed to Zack.
+
+Aerith: Are you doing well? Where are you? It's been 4 years. This will be the
+89th letter I've written but I will not send out any more. I hope that you
+receive this last letter. Zack! The flowers are selling very well. It makes
+everyone smile. It's all thanks to you. Aerith.
+
+Zack: 4 years? What do you mean by last?!
+
+Zack screams his lungs out hoping Aerith would hear him.
+
+Zack: Aerith wait for me.
+
+Zack grabs Cloud and continues his journey once more, to return to Midgar. Just
+before leaving he turns to Genesis.
+
+Zack: You better make sure you stay alive too.
+
+Soon after Zack leaves Banora village a Shinra helicopter lands in Banora.
+
+SOLDIER 1: Having us sent out here must mean this mission is pretty important
+huh?
+SOLDIER 2: It seems it has something to do with our older brother.
+SOLDIER 1: Is that so? However will he---
+SOLDIER 2: ---agree to join us?
+
+One of the unknown SOLDIERs takes Genesis's into the helicopter and the two fly
+off.
+
+Genesis: 「Nothing shall fortell my return. Even if the morrow is barren of
+promises. To become the dew that quenches the land. To spare the skies, the
+seas to sands. 」
+
+Back at Midgar Cissnei prepares herself a helicopter to assist the other Turks
+in the capture of Zack and Cloud.
+
+Tseng: Cissnei! The army is on the move as well. Secure them before they do.
+Cissnei: I know. The army is clueless about the conditions of their situation.
+Tseng: He'll be alive, I'm sure of it. You will be the one to save Zack's life.
+Cissnei: Of course. I still haven't told you my real name.
+Tseng: I'm counting on you for their sake. There are letters I wish to give
+him; 88 of them.
+
+Zack and Cloud managed to find a truck to hitch them back to Midgar. Zack looks
+at the big blue sky and joshes around with him.
+
+Zack: I'm just joking. I'd never abandon you. We're friends right?
+
+Somewhere above in the musty desert skies of the outskirts of Midgar two Turks,
+Reno and Rude, fly around trying to find Zack and Cloud.
+
+Reno: In this kind of wasteland it will be impossible to find those two, dazoto.
+Rude: No matter the mission we always finish our jobs because---
+Reno: We're Turks dazoto.
+Rude: Mm. And also---it seems like Tseng has something he'd like to give him
+Reno: To the target?
+Rude: Mm.
+Reno: A failed postman’s job that has taken over a year dazoto.
+Cissnei: Reno, Rude how's the situation?
+Reno: Nothing at all dazoto.
+Rude: What about you?
+Cissnei: The same. From here I'll be going to point 235. Reno, Rude go to point
+120.
+Rude: Roger.
+Reno: We better hurry zoto.
+
+Zack and Cloud get off the truck after finding out they're being chased by the
+army. Zack hides Cloud behind a large rock so that he doesn't get hurt during
+the battle. Zack walks off and Cloud tries and reaches Zack to stop him but he
+still can't speak. Zack marches in front of the Shinra army with a smile on his
+face.
+
+Zack: Honestly. Freedom sure is pricey.
+
+Zack pulls out his sword and readies himself.
+
+Zack: Never lose your dreams. Also, no matter the situation never let go of
+your pride as a SOLDIER! Irasshaimase!
+
+Zack comes to a bitter end. But even with his last amounts of strength he
+continues his fight clinging on to the memories of his friends and loved ones.
+Zack eventually falls and is shot at point blank and left for dead by the
+Shinra army. It begins to rain. In Zack's wounded state Cloud crawls to his
+side with what little strength he has.
+
+Cloud: Zack.
+Zack: On my behalf---
+Cloud: Your behalf?
+Zack: That's right. You will---
+Cloud: You will---
+Zack: Continue living. You are proof that I existed. My dreams and pride, I
+give it all to you.
+Cloud: I am proof that you existed.
+
+Zack hands Cloud the Buster Sword and passes away soon after. Cloud looks into
+Zack's fading eyes and realizes the price Zack paid to save him.
+
+Cloud: Ahhhhhhhhhhhhh!
+
+Zack sits on the edge of a cliff that rises over Midgar. The sky clears and the
+sun shines on him.
+
+Zack: Hold on to your dreams! If you want to become a hero you have to hold on
+to your dreams.
+
+Cloud: Thank you. I won't forget. Good night. Zack.
+
+Cloud tightly grips the Buster Sword and walks off to continue the journey to
+Midgar. Zack's body begins its new journey to return to the planet.
+
+Zack: That girl said that she was scared of the natural sky. But of course it
+must feel great right? Those wings of yours, lend them to me as well. What's
+this? It feels great. When you meet Aerith I'm depending on you to look after
+her. Hey I've become a hero right?
+
+****************************************************************************
+**				   Fin                                    **
+**       Visit www.silenttweak.net for Gallery Photos and Updates!	  **
+**                                       				  **
+****************************************************************************

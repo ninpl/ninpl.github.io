@@ -1,0 +1,235 @@
+**************************************************************************
+                           FINAL FANTASY VIII
+                          CARD MOD CHEAT GUIDE
+                              Version 1.0
+
+                Josh "Doctor Gamma" Davis (aka "Josh XLII")
+                          [ josh_xlii@yahoo.com ]
+
+                             25 October 1999
+**************************************************************************
+
+\-------------------/
+|     CONTENTS      |
+/-------------------\
+  A.  Disclaimer
+  B.  Revision Information
+  C.  Summary
+  D.  The Cheat
+      (1) Conditions Necessary For The Cheat To Work
+      (2) How The Cheat Works
+      (3) Some General Information About This Cheat
+  E.  The Cards And What They Mod Into
+      (1) Level 8 Cards
+      (2) Level 9 Cards
+      (3) Level 10 Cards
+  F.  The CC Group Side Quest
+  G.  Finding The Ragnarok During Disc 4
+  H.  Finding The Queen Of Cards During Disc 4
+  I.  The End
+
+
+\-------------------/
+|    DISCLAIMER     |
+/-------------------\
+   This document is for non-commercial use only.  Reproduction of this document 
+(in part or in whole) in any form is not permitted except with explicit 
+permission of the author. 
+
+
+\-------------------/
+|   REVISION INFO   |
+/-------------------\
+   Version 1.0 (25 October 1999):  initial release.
+
+   For the next version, I hope to add information regarding different ways to 
+(possibly) get the items received by Card Mod-ing the Chubby Chocobo, Irvine, 
+Kiros, Phoenix, and Doomtrain cards--these particular cards can take forever to 
+win back!!!  There may be an easier way to get the items they bestow.  I also 
+hope to clarify information regarding the exact position of the Queen Of Cards 
+on Disc 4.
+
+
+\-------------------/
+|      SUMMARY      |
+/-------------------\
+   In Final Fantasy 8 (FF8), there is a way to get an infinite number of a 
+bunch of rare items by Card Mod-ing Level 8, 9, and 10 cards; winning them 
+back; and repeating the process.
+
+
+\-------------------/
+|     THE CHEAT     |
+/-------------------\
+(1)  CONDITIONS NECESSARY FOR THE CHEAT TO WORK
+   As far as I know, the only condition that needs to be met for this trick to 
+work is completion of the CC Group Side Quest before Disc 4.  For more 
+information on this, see "The CC Group Side Quest" later in this guide.
+
+(2)  HOW THE CHEAT WORKS
+   The Card Mod cheat is very simple.  If you have completed The CC Group Side 
+Quest, then after you find the Ragnarok on Disc 4 (see the section, "Finding The 
+Ragnarok During Disc 4" later in this guide), the CC Members will be on the 
+Ragnarok to play cards with you.  The Queen Of Cards will also be available to 
+play cards with you (see the section, "Finding The Queen Of Cards During Disc 4" 
+later in this guide).  You can Card Mod any of your Level 8, 9, or 10 cards and 
+win them back from either the CC Members or the Queen Of Cards; after you've won 
+them back, you can Card Mod them again.  And again... and again... and so on.
+
+(3)  SOME GENERAL INFORMATION ABOUT THIS CHEAT
+   While working with this cheat, I discovered there were five cards that my 
+opponents did not play often.  Coincidently, these were the five cards gained by 
+completing the Queen Of Cards Side Quest:  Chubby Chocobo, Doomtrain, Irvine, 
+Kiros, and Phoenix.  On a hunch, I Card Mod-ed the two remaining cards which I 
+had not confirmed were "cheatable" (Irvine and Kiros) and found the Queen Of 
+Cards.  Sure enough, she put Irvine and Kiros on the table during the first hand 
+(an easier way to find them, I thought).  However, I should point out that after 
+I actually *prepared* to battle the Queen (she uses Random, Same, Same Wall, 
+Plus, and Elemental--a tough mix), I didn't see those cards again for a long 
+time (go figure!); however, it's still easier to see those five cards pop up 
+when playing the Queen than playing the CC Members on the Ragnarok--just be 
+prepared for a wait either way.
+   When playing cards on the Ragnarok, save at the Save Point and play cards 
+with the guy in the same room as the Save Point; he doesn't walk around (so you 
+don't have to chase him around), he uses fairly simple rules (Same, Same Wall, 
+Elemental) so it's easy to beat him if you don't combine rules, and the Save 
+Point is right there when you need it.  The only reason I ever played another CC 
+Member is if I got tired of waiting for him to play the card I was looking for 
+(such as the five cards mentioned above).
+   To avoid combining rules, simply repeatedly answer "No" when asked if you 
+want to play until your opponent doesn't ask to combine rules anymore (i.e., 
+your opponent doesn't say something like "Let's play with Esthar's rules, too." 
+before the "Yes/No" dialog).
+
+
+\-----------------------------------------------/
+|       THE CARDS AND WHAT THEY MOD INTO        |
+/-----------------------------------------------\
+(1) LEVEL 8 CARDS
+  Chubby Chocobo -> 100 LuvLuvG
+  Angelo         -> 100 Elixir
+  Gilgamesh      ->  10 Holy War
+  MiniMog        -> 100 Pet House
+  Chicobo        -> 100 Gysahl Green
+  Quezacotl      -> 100 Dynamo Stone
+  Shiva          -> 100 North Wind
+  Ifrit          ->   3 Elem Atk
+  Siren          ->   3 Status Atk
+  Sacred         -> 100 Dino Bone
+  Minotaur       ->  10 Adamantine
+
+(2) LEVEL 9 CARDS
+  Carbuncle      ->   3 Glow Curtain
+  Diablos        -> 100 Black Hole
+  Leviathan      ->   3 Doc's Code
+  Odin           -> 100 Dead Spirit
+  Pandemona      -> 100 Windmill
+  Cerberus       -> 100 Lightweight
+  Alexander      ->   3 Moon Curtain
+  Phoenix        ->   3 Phoenix Spirit
+  Bahamut        -> 100 Megalixir
+  Doomtrain      ->   3 Status Guard
+  Eden           ->   3 Monk's Code
+
+(3) LEVEL 10 CARDS
+  Ward           ->   3 Gaea's Ring
+  Kiros          ->   3 Accelerator
+  Laguna         -> 100 Hero
+  Selphie        ->   3 Elem Guard
+  Quistis        ->   3 Samantha Soul
+  Irvine         ->   3 Rocket Engine
+  Zell           ->   3 Hyper Wrist
+  Rinoa          ->   3 Magic Armlet
+  Edea           ->   3 Royal Crown
+  Seifer         ->   3 Diamond Armor
+  Squall         ->   3 Three Stars
+
+
+\-----------------------------------------------/
+|            THE CC GROUP SIDE QUEST            |
+/-----------------------------------------------\
+   The CC Group Side Quest can only be attempted on Disc 3; it takes place in 
+Balamb Garden (if you already have the Ragnarok, you can reach Balamb Garden by 
+flying the Ragnarok over Fisherman's Horizon and pressing X to land; you will 
+appear by the Mayor's house--you'll find Balamb Garden where you left it).  
+There are seven members in the CC Group; you must defeat them in order.
+
+   (1) Jack.  Jack can be found in the Garden hallway near the Directory; he'll 
+usually appear from the bottom of the screen.  He has no rare cards.
+   (2) Club.  Club can be found in the Garden hallway leading to the Cafeteria.  
+He appears at random, so you may need to exit and re-enter the screen a few 
+times; he can be tricky to find.  He has no rare cards.
+   (3) Diamond.  Diamond is a pair of female students who can be found near the 
+Directory.  They have no rare cards.
+   (4) Spade.  Spade will randomly appear with a friend near the second floor 
+elevator entrance.  He has no rare cards.
+   (5) Heart.  This is Xu.  She can be found on the Bridge of the Garden and has 
+the Carbuncle Card.
+   (6) Joker.  Joker appears randomly in the Training Center on the Screen with 
+the Thunder Draw Point (one screen to the right of the Save Point).  He has the 
+Leviathan card.
+   (7) King.  First, speak with Nina on the Bridge of the Garden.  Next, go to 
+the Infirmary and challenge Dr. Kadowaki to a game; she'll tell you that you 
+will soon meet the King.  Return to your dorm room and repeatedly sleep until 
+the King appears.  The King has the Gilgamesh card.
+
+   If the CC Members won't challenge you, then you need to win a few more games 
+playing people at Balamb Garden.  You need to win about 15 games total (during 
+the course of the game) for them to challenge you.
+
+
+\-----------------------------------------------/
+|      FINDING THE RAGNAROK DURING DISC 4       |
+/-----------------------------------------------\
+   When you first arrive at Edea's House during Disc 4, go towards the 
+lighthouse/beach area and watch a FMV of Ultimecia's Castle.  Head north; you 
+will be walking on a large metal chain.  There will be three portals on the west 
+side of the screen; each takes you to a different location on the world map.  
+Take the middle one (face it and press X to jump over to it).  Enter the portal; 
+it will take you to Centra's Serengetti Plains just a bit north of the Centra 
+Ruins.  Check the World Map; you will see two red dots--the red dot which is 
+_not_ at Fisherman's Horizon is the Ragnarok (the red dot at Fisherman's Horizon 
+is Balamb Garden).  There is a bay of water to the north.  Go to the west and 
+swing around the bay; then continue east (and slightly north) until you reach 
+The Tricky Chocobo Forest, which is nestled in a semi-circle of mountains on the 
+Nectar Peninsula, almost due south of Fisherman's Horizon.  Ride a Chocobo out 
+of the Forest (if you haven't completed the Forest before this point, you can 
+either complete it now or "buy" a Chocobo from the ChocoKid--I recommend the 
+latter), and go to the beach south and slightly west of the Centra Ruins.  Cross 
+the shallow water, going generally to the west, till you reach a beach north of 
+Edea's House.  Proceed to the east, then north (you can stay on the Chocobo the 
+whole way--there's a small gap in the mountains to go through), until you reach 
+the Ragnarok, which is in the Kashkabald Desert.  Near the Ragnarok is another 
+portal.  If you enter it, a fourth portal will appear by the chain at 
+Ultimecia's Castle (go back through to get back to the Ragnarok).  You can now 
+fly the Ragnarok around wherever you like, although there are certain places you 
+cannot enter because of time compression--most towns are non-enterable, most 
+dungeons are enterable.  Enter any of the four portals on the world map to 
+return to Ultimecia's Castle.
+
+
+\-----------------------------------------------/
+|   FINDING THE QUEEN OF CARDS DURING DISC 4    |
+/-----------------------------------------------\
+  After you find the Ragnarok during Disc 4, you can find the Queen Of Cards.  
+She is in the Abadan Plains, south of Tear's Point, outside Esthar's "cloak", on 
+the mainland immediately west of an island in the vicinity; it is the same 
+location where you can find Piet's escape pod crash site during Disc 3.  There 
+is no visible sign of the Queen Of Cards on the map; simply walk around the 
+southern part of the plains until you find her.
+
+
+\-------------------/
+|      THE END      |
+/-------------------\
+   Well, this concludes the Card Mod Cheat Guide.  I hope that you have found it 
+useful.  Any questions, comments, clarifications, or other offerings can be sent 
+to me at [ josh_xlii@yahoo.com ].
+
+"Yeah, payin' the bills with my mad programmin' skills..."
+   -- "Weird Al" Yankovic
+      From "It's All About The Pentiums" (1999)
+
+Copyright (c) 1999, Josh Davis -- All Rights Reserved.
+
+

@@ -1,0 +1,922 @@
+------------------------==============================------------------------
+=====================// Ranger Guide - By Tim Kinzie \\=======================
+-----------------------================================-----------------------
+
+Ranger Guide - Final
+Author - Tim Kinzie
+FFXI Info - Character Name: Sans // Server: Ragnarok
+Email - Kinzerdude7@hotmail.com
+
+**IMPORTANT NOTICE**
+Next version update will include the following:
+
+AF Armor Quest Guide/Details
+Updated Combinations Section
+Weapon Skill Information
+Other stuff! =)
+
+Anyways, these updates will be made soon. I will be quite busy for the next
+couple of days, but i'll try to get these Updates posted ASAP =)
+
+Happy New Year Everyone!
+
+==============================================================================
+//// Table of Contents ///////////////////////////////////////////////////////
+==============================================================================
+01- Introduction
+02- Version History
+03- How to become a Ranger
+04- Job Abilities
+05- Ranger Equipment
+06- Job Combinations
+07- Playing as a Ranger
+08- Frequently Asked Questions
+09- Legal Biz
+10- Credits
+11- Special Thanks
+
+==============================================================================
+//// 01- Introduction ////////////////////////////////////////////////////////
+==============================================================================
+So, you wanna be a Ranger do ya!?  Okay, sounds good to me.  Rangers are the
+most brutal attackers in the game.  Yes you little whiny Taru BLM!  Stronger
+than you!  If you combined a Mike Tyson punch, and a Karate Chop from Jet Li,
+a Ranger's arrow would still be stonger!
+
+What else can a Ranger do, you ask?  Rangers can also use an ability called
+'Wide-Scan'.  This ability allows a Ranger to go see monsters on the map, like
+radar.  Can you do that Taru!!?? NO!
+
+Ahhhh, tis' good to be a Ranger...
+
+But it's not all Cakes and Pies!  It's expensive, VERY expensive.  Throughout
+the course of the game, Rangers can be found purchasing arrows at your local
+Weapons Shop, or Auction House.  This never stops either.  Okay, they might
+start buying bullets, but you get the picture.
+
+Although the job does get spendy, you need to think about what you get for
+your gil.  Whatcha get?  A fun job that is always entertaining, a party asking
+for your skills, and a happy time on the battlefield =)
+
+So, without further delay, my Guide all about the Ranger...Enjoy!
+
+==============================================================================
+//// 02- Version History /////////////////////////////////////////////////////
+==============================================================================
+Version 1.0 - December 28, 2003 - Created FAQ
+Version 1.1 - December 28, 2003 - Updated Special Thanks Section
+Version 1.2 - December 29, 2003 - Updated FAQ section, and added the Equipment
+                                  section.
+Version 1.3 - December 30, 2003 - Fixed spacing issue in Ranger Equipment
+                                  section.
+Version 1.4 - December 30, 2003 - Updated Armor in the Ranger Equipment
+                                  section.
+Version 1.5 - December 30, 2003 - Updated Ammuntion, and Accessories in the
+                                  Ranger Equipment section.  Also reformated
+                                  pretty much everything in the Guide that was
+                                  bugging me =)
+Version 1.6 - December 30, 2003 - Fixed spacing issues in various areas of the
+                                  Guide.  Finished Ammunition in the Ranger
+                                  Equipment section.  Updated Accessories.
+Version 1.7 - December 31, 2003 - Reformated the Job Combinations section of
+                                  the Guide.
+
+==============================================================================
+//// 03- How to become a Ranger //////////////////////////////////////////////
+==============================================================================
+As with any Elite Job, there are a few things you must do in order to make the
+Ranger Job Class available to you...
+
+Obviously, the first thing you need to do is attain Lv30 with any of the six
+base classes.  These classes include: Warrior, Monk, Black Mage, White Mage,
+Red Mage, and Thief.
+
+Once you have accomplished the above, you must do the following:
+
+Head to area (K-7) in Windurst Woods and speak to Perih Vashai.  After the
+cut scene, you will need to head out to Sauromogue Champaign.  It is possible
+to do this solo at Lv30, but I strongly encourage you to find help from a
+stronger player.  Sauromogue Champaign is located right outside Port Jeuno,
+so ask a few people to assist you.
+
+Once you are in Sauromogue Champaign, head to area (L-10).  Here, you will
+find a cave home to Sabertooth Tigers.  One tiger, known as the "Old Tiger",
+is what you are here for.  Instead of killing it with force, you NEED to wait
+for it to die naturally in it's cave.  Then, examine it's bones to recieve the
+'Old Tiger's Fang'.
+
+With the 'Old Tiger's Fang' in hand, head back to Windurst Woods and speak
+with Perih Vashai once more.  You will recieve a small reward, the Ranger's
+Necklace and the ability to become the sexiest job there is...Ranger!
+
+==============================================================================
+//// 04- Job Abilities ///////////////////////////////////////////////////////
+==============================================================================
+In my opinion, Rangers have some of the coolest abilities you can possibly
+have in the whole game.  From their devastating 2hr ability Eagle Eye Shot, to
+their inherent ability to track monsters in any map, Rangers have more than a
+few things going for them...
+
+**PLEASE NOTE**
+  Information regarding the following table was borrowed from:
+The Official Final Fantasy XI: Online Strategy Guide from BRADYGAMES
+
+==============================================================================
+Job Abilities
+==============================================================================
+
+Ability Name      Level   Interval   Duration    Information
+------------------------------------------------------------------------------
+Eagle Eye Shot    1       2:00:00    N/A          Delivers an accurate and
+                                                  powerful ranged attack.
+------------------------------------------------------------------------------
+Sharpshot         1       0:05:00    0:01:00      Enhances accuracy of ranged
+                                                  attacks.
+------------------------------------------------------------------------------
+Scavenge          10      0:05:00    N/A          Searches the local area for
+                                                  items.
+------------------------------------------------------------------------------
+Camouflage        20      0:05:00    Random       Makes you harder to detect.
+------------------------------------------------------------------------------
+Barrage           30      0:05:00    N/A          Allows you to fire multiple
+                                                  projectiles.
+------------------------------------------------------------------------------
+Shadowbind        40      0:05:00    Random       Binds target.
+------------------------------------------------------------------------------
+**PLEASE NOTE**
+  Information regarding the following table was borrowed from:
+The Official Final Fantasy XI: Online Strategy Guide from BRADYGAMES.
+
+==============================================================================
+Job Traits
+==============================================================================
+
+Trait Name           Level       Information
+------------------------------------------------------------------------------
+Alertness            5           Lowers chance of being detected by enemies.
+------------------------------------------------------------------------------
+Accuracy Bonus       10          Improves accuracy of physical attacks.
+------------------------------------------------------------------------------
+Rapid Shot           15          Sometimes decreases the attack interval for
+                                 ranged attacks.
+------------------------------------------------------------------------------
+Resist Poison        20          Gives you a slight resistence against poison.
+------------------------------------------------------------------------------
+Accuracy Bonus       30          Improves accuracy of physical attacks.
+------------------------------------------------------------------------------
+Resist Poison        40          Gives you a slight resistence against poison.
+------------------------------------------------------------------------------
+Accuracy Bonus       50          Improves accuracy of physical attacks.
+
+==============================================================================
+//// 05- Ranger Equipment ////////////////////////////////////////////////////
+==============================================================================
+The following section will cover every piece of equipment a Ranger can use.
+This will include Weapons, Ammunition, Armor, and Accessories.
+
+The equipment a Ranger chooses is vital to success.  It is important to keep
+this in mind, because a Ranger without good equipent is NOT at their full
+potential.  A Ranger outfitted with the best equipment is a very deadly
+attacker.
+
+**PLEASE NOTE**
+  Some Information regarding the following tables was borrowed from:
+The Official Final Fantasy XI: Online Strategy Guide from BRADYGAMES.
+This includes some abreviations, as well as some items I missed while surfing
+through the Auction Houses in game.
+
+==============================================================================
+Weapons // Up to Lv30
+==============================================================================
+The following tables will list all weapons a Ranger can use.  This not only
+includes Bows and Guns, but Daggers, Swords, Axes and Clubs as well.  Please
+note that a Ranger's strength lies in Ranged Weapons.  The main priority of
+a main weapon is stats.  Any weapon that can lend AGI stats, or Ranged Attack
+or Accuracy stats is what you are after.
+
+Daggers
+==============================================================================
+In my opinion, Daggers are the best suited 'Main Weapon' for a Ranger.  Dagger
+weapon skills are quite useful in some situations, especially 'Shadowstitch',
+which can bind a target.  Perhaps the best weapon a Ranger could have is the
+Archer's Knife.  This weapon isn't available until Lv28, but once you have the
+ability to use it, you should make it your 'Main Weapon' of choice.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Onion Knife             1         4          205
+Bronze Knife            1         4          195
+Onion Dagger            1         3          193
+Bronze Dagger           1         3          183
+Ceremonial Dagger       1         1          183       MP +10
+Rusty Dagger		1         3          183
+Blind Knife             7         4          201       Add: Blindness
+Blind Dagger            7         4          188       Add: Blindness
+Beestinger              7         4          150       DEX +1, AGI +1
+Brass Dagger            9         5          183
+Aspir Knife             12        5          201       Add: MP Drain
+Silence Dagger          12        6          188       Add: Silence
+Dagger			12        7          183
+Knife                   13        8          195
+Kukri                   20        10         200
+Mercenary's Knife       20        11         190       Accuracy +2
+Poison Dagger           20        8          183       Add: Posion
+Decurion's Dagger       20        10         178       Accuracy +2
+Poison Knife            21        9          201       Add: Posion
+Acid Dagger             23        10         183       Add: Weaken Defense
+Mythril Dagger          23        10         183
+Corrosive Dagger        23        11         178       Add: Weaken Defense
+Poison Kukri            24        10         206       Add: Posion
+Poison Kukri +1         24        11         200       Add: Posion
+Parrying Knife          25        11         195       Parrying +10
+Archer's Knife          28        11         195       AGI +1, R. Accuracy +10
+Mrc. Cpt. Knife         30        13         194       Accuracy +3
+Ryl. Sqr. Dagger        30        12         181       Accuracy +3
+
+Swords
+==============================================================================
+Swords are useful at early levels.  From levels 1-10, soloing levels, Rangers
+don't rely very heavily on Bows.  This is due to the fact that Bows at this
+level are pretty weak.  On the other hand, Daggers are still very good in
+early levels as well, it basically just comes down to preference.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Bronze Sword            1         6          231
+Onion Sword             1         5          228
+Wax Sword               1         6          225
+Xiphos                  7         8          228
+Ryl Archers Sword       10        10         228
+Brass Xiphos            13        12         228
+Bilbo                   13        11         226
+Iron Sword              18        14         231
+Fires Sword             18        12         225       Add: Fire Damage
+Flame Sword             18        16         218       Add: Fire Damage
+Small Sword             19        13         226
+Kaiser Sword            22        15         228
+Tuck                    23        15         226
+Gladius                 27        17         228
+Centurian's Sword       30        19         225       Accuracy +3, Attack +4
+
+Axes
+==============================================================================
+Although the damage an Axe delivers is greater than Daggers, Swords and Clubs,
+I would not suggest using them.  This is mainly because the wait time
+between strikes is far too long for this class.  Rangers do not have high
+hit points, so missing targets with this weapon can prove to be fatal.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Bronze Axe              1         8          276
+Brass Axe               8         12         276
+Legionnaire's Axe       10        13         276
+Light Axe               11        14         260
+Bone Axe                13        16         276
+Battle Axe              20        20         276
+Tigerhunter             26        22         276       Add: Paralysis vs.
+                                                       Tigers
+
+Clubs
+==============================================================================
+Clubs are a Mage class weapon.  In my opinion, Rangers should keep it that
+way.  With no enhancing stats, and low damage ratings, Clubs should not
+be used by Rangers.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Ash Club                1         4          264
+Freesword's Club        10        7          264
+Wild Cudgel             11        7          264       HP +20, MP -20
+Chestnut Club           16        9          264
+Solid Club              16        10         257
+Bouncer Club            20        10         264
+Bone Cudgel             27        12         264
+
+Bows
+==============================================================================
+Ahhh, the trademark weapon of a Ranger.  Bows in the hands of a Ranger are
+very excellent weapons.  Most low to mid level Rangers will be seen using Bows
+due to their low ammunition costs.  However, later in the game, Guns become
+the weapon of choice by many Rangers because of their awesome power.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Shortbow                1         5          360
+Shortbow +1             1         6          351       R. Accuracy +3
+Longbow                 5         17         540
+Longbow +1              5         18         524       R. Accuracy +2,
+                                                       R. Attack +3
+Self Bow                7         14         450
+Self Bow +1             7         15         441       R. Accuracy +3
+Ryl. Archers Longbow    10        24         540
+Freesword's Bow         10        12         360
+Hunter's Longbow        12        27         490       STR +1, AGI +1,
+                                                       R. Accuracy +2
+                                                       R. Attack +5
+Power Bow               16        30         540
+Power Bow +1            16        31         524       R. Accuracy +2
+                                                       R. Attack +9
+Hunting Bow             17        15         360
+Wrapped Bow             24        19         360
+Wrapped Bow +1          24        20         351       R. Accuracy +3
+Assassin's Bow          29        21         330       AGI +2, R. Accuracy +3
+Great Bow               30        43         540
+Great Bow +1            30        44         524       R. Accuracy +2
+                                                       R. Attack +12
+
+Guns
+==============================================================================
+The weapon of choice for the 'wealthy' Ranger.  We are talking RICH.  The
+price for Gun ammo is incredibly high, and only high level Rangers will be
+seen using them, generally speaking.  For example, on my server, Wooden Arrows
+cost around 400 Gil for 99, while Bronze Bullets cost around 5,000 Gil for 99!
+Now, 99 rounds may seem like a lot, but trust me, it is nothing.  Thankfully,
+There are two 'types' of Guns.  Oddly enough, Crossbows are considered Guns,
+and fall under the same weapon skill.  Therefore, it is a good idea to use
+Crossbows early on to build up your 'Marksmenship' skills.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Light Crossbow          1         6          288
+Light Crossbow +1       1         7          280       R. Attack +3
+Lgn. Crossbow           10        10         288
+Crossbow                12        12         288
+Crossbow +1             12        13         280       R. Attack +6
+Bandit's Gun            15        14         600
+Bandit's Gun +1         15        15         582
+Tanegashima (Gun)       19        15         600
+Tanegashima +1 (Gun)    19        16         582
+Arquebus (Gun)          22        18         600
+Arquebus +1 (Gun)       22        19         582
+Power Crossbow          25        17         288       AGI +1
+Pirate's Gun            27        20         600       Earth -3, Water +6
+Pirate's Gun +1         27        21         582       Earth -3, Water +9,
+                                                       Lightning +3
+Zamburak                30        19         288
+Zamburak +1             30        20         280       R. Attack +9
+
+==============================================================================
+Ammunition
+==============================================================================
+Wanna know why Ranger costs so damn much?  This is why...Ammo.  The single
+greatest cost a Ranger has is keeping stocked on the best Ammunition possible.
+Does it make a difference?  Absolutely.  Some arrows, for instance, not only
+have greater damage, but Ranged Accuracy enhancing stats as well.
+
+Arrows
+==============================================================================
+Don't be cheap!  If you can afford the best Arrows, but them.  Trust me, it
+makes a considerable difference.  Hey, who knows, might even make the
+difference from that Orc kickin your butt or not...
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Old Arrow               1         4          126       R. Accuracy -3
+Wooden Arrow            1         5          120
+Stone Arrow             1         5          120
+Bone Arrow              7         9          120
+Iron Arrow              14        14         120
+Beetle Arrow            17        12         90        R. Accuracy +5
+Poison Arrow            19        16         120       Add: Poison
+Silver Arrow            24        19         120
+Horn Arrow              29        17         90        R. Accuracy +5
+Sleep Arrow             35        1          90        Add: Sleep
+Fire Arrow              45        29         120       Add: Fire Damage
+Ice Arrow               45        29         120       Add: Ice Damage
+Lightning Arrow         45        29         120       Add: Lightning Damage
+Demon Arrow             60        34         90        Add: Weakens Attack
+Kabura Arrow            70        38         90        Add: Silence
+
+Bolts
+==============================================================================
+If you want to improve your Gun skills, but don't have the cash err Gil, look
+no further than the cheaper alternative - the Crossbow!  Perhaps the best
+reason to use a Crossbow, aside from price, is the various status effects its
+rounds can inflict.
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Rusty Bolt              1         9          200       R. Accuracy -3
+Bronze Bolt             1         10         192
+Crossbow Bolt           1         10         192
+Acid Bolt               15        21         192       Add: Weakens Defense
+Sleep Bolt              20        1          288       Add: Sleep
+Blind Bolt              25        18         192       Add: Blind
+Blood Bolt              25        1          240       Add: HP Drain
+Venom Bolt              30        29         192       Add: Poison
+Holy Bolt               30        32         192       Add: Light El. Damage
+Mythril Bolt            40        40         192
+Darksteel Bolt          52        50         192
+
+Bullets
+==============================================================================
+Those who can use Guns are very fortunate.  Reason being, Bullets are very
+expensive...VERY.  Bullets aren't just for looks though my friend, they pack
+a serious punch.  Don't believe me?  Look at the list buddy, look at the
+list...
+
+Name                    Level     Damage     Delay     Attributes
+------------------------------------------------------------------------------
+Bronze Bullet           1         3          240
+Bullet                  22        46         240
+Spartan Bullet          30        1          240       Add: Stun
+Silver Bullet           50        81         210
+Cannon Shell            73        90         300
+
+==============================================================================
+Armor // Up to Lv30
+==============================================================================
+One of the coolest things about a Ranger is the variety of armor you can use.
+Classes such as Warriors have access to things like Mails, Jerkins and Vests.
+Classes such as Monks have access to Tunics, and Doublets.  Rangers, however,
+have access to a little bit of both worlds.  From Martial Slacks, to Centurian
+Scale Mail, Rangers have it all.
+
+Head Gear
+==============================================================================
+Just like any other item you buy for your Ranger, anything that promotes AGI
+is your main target.
+
+Name                    Level     Defense    Attributes
+------------------------------------------------------------------------------
+Circlet                 1         1
+Windshear Hat           4         2
+Traveler's Hat          6         3          Wind +1
+Leather Bandana         7         3
+Cmp. Eye Circlet        9         4          Evasion +5
+Facegaurd               10        5
+Ryl. Ftm. Bandana       10        5          AGI +1
+Poet's Circlet          12        5
+Sage's Circlet          12        6          INT +1
+Lizard Helm             17        7
+Bonze's Circlet         18        7          MP +2
+Brass Mask              27        11
+Wool Hat                28        9
+Centurian's Visor       30        12         DEX +1
+Lgn. Circlet            30        10         Wind +4, Earth +4
+Strong Bandana          30        12
+Studded Bandana         30        11
+
+Body Armor
+==============================================================================
+This section of the guide will not cover 'RSE' or 'Race Specific Equipment'.
+Just like any other item you buy for your Ranger, anything that promotes AGI
+is your main target.
+
+Name                    Level     Defense    Attributes
+------------------------------------------------------------------------------
+Robe                    1         3
+Leather Vest            7         7
+Tunic                   8         9          Cannot Equip Headgear
+Ryl. Ftm. Tunic         10        12         AGI +1, INT +1,
+                                             Cannot Equip Headgear
+Royal Footman's Vest    10        10         Ice +5
+Scale Mail              10        11
+Solid Mail              10        12
+Linen Robe              12        10
+Fine Jerkin             17        16
+Lizard Jerkin           17        15
+Priest's Robe           19        14         MND +1, Darkness +2
+Black Tunic             20        18         INT +1, Darkness +2,
+                                             Cannot Equip Headgear
+Mage's Tunic            20        19         INT +2, Darkness +3,
+                                             Cannot Equip Headgear
+Brass Scale Mail        27        21
+Faerie Tunic            27        22         HP +6, All Elements +2,
+                                             Cannot Equip Headgear
+Steam Scale Mail        27        23         Fire +3, Wind +3, Water +3
+Wool Robe               28        18
+Ctr. Scale Mail         30        23         VIT +1
+Strong Vest             30        23
+Studded Vest            30        22
+
+Hand Armor
+==============================================================================
+Just like any other item you buy for your Ranger, anything that promotes AGI
+is your main target.
+
+Name                    Level     Defense    Attributes
+------------------------------------------------------------------------------
+Cuffs                   1         1
+Leather Gloves          7         2
+Mitts                   8         2
+Ryl. Footman's Gloves   10        3          Attack +3
+Scale Finger Gnt.       10        3
+Solid Finger Gnt.       10        4
+Zealot's Mitts          11        3          MP +5, INT -2, MND +3
+Linen Cuffs             12        3
+Fine Gloves             17        6
+Lizard Gloves           17        5
+White Mitts             20        4
+Brass Finger Gnt.       27        7
+Wool Cuffs              28        6
+Ctr. Finger Gnt.        30        8          DEX +1
+Strong Gloves           30        8
+Studded Gloves          30        7
+
+Leg Armor
+==============================================================================
+Just like any other item you buy for your Ranger, anything that promotes AGI
+is your main target.  Martial Slacks are especially nice, but they aren't
+available till Lv24...
+
+Name                    Level     Defense    Attributes
+------------------------------------------------------------------------------
+Slops                   1         2
+Slacks                  8         5
+Freesword's Slops       10        3
+Scale Cuisses           10        7
+Solid Cuisses           10        8
+Fine Trousers           17        11
+Lizard Trousers         17        10
+Great Cuisses           19        12         HP +4, MP +4
+Black Slacks            20        10
+Mage's Slacks           20        11         INT +1
+Martial Slacks          24        12         AGI +2, Evasion +3
+Brass Cuisses           27        15
+Wool Slops              28        13
+Ctr. Cuisses            30        16         AGI +2
+Strong Trousers         30        17
+Studded Trousers        30        16
+
+Foot Armor
+==============================================================================
+Just like any other item you buy for your Ranger, anything that promotes AGI
+is your main target.  Leaping Boots, Strider Boots and Winged Boots are
+especially nice, but they are extremely Rare, and hard to find. Oh!  And at
+ALL costs, do not buy, look at, or even THINK about getting Stumbling Sandles.
+Why?  Well, because Stumbling Boots may very well be the worst item in the
+entire game!
+
+Name                    Level     Defense    Attributes
+------------------------------------------------------------------------------
+Ash Clogs               1         1
+Leaping Boots           7         3          DEX +3, AGI +3
+Leather Highboots       7         2
+Solea                   8         2
+Ryl. Footman's Boots    10        3          Fire +3, Ice +3
+Scale Greaves           10        3
+Solid Greaves           10        4
+Holly Clogs             12        3
+Light Soleas            13        4          Evasion +3
+Fine Ledelsens          17        5
+Lizard Ledelsens        17        4
+Power Sandles           18        3          VIT +3, Fire +7
+Mage's Sandles          20        5          MP +3, AGI +1
+Ryl. Footman's Clogs    20        5          AGI +1
+Sandles                 20        4
+Strider Boots           20        4          AGI +2, Movement Speed +12%
+Stumbling Sandles       22        4          DEX -10, AGI -10
+Winged Boots            24        5          DEX +3, AGI +3
+Winged Boots +1         24        6          DEX +3, AGI +3
+Brass Greaves           27        6
+Chestnut Sabots         28        5
+Centurian Greaves       30        7          AGI +1
+Strong Boots            30        7
+Studded Boots           30        6
+
+==============================================================================
+Accessories // Up to Lv30
+==============================================================================
+This section of the Guide will cover Accessories that are benefitial to a
+Ranger.  There are many accessories in the game, and nearly all of them can
+be used by all Races, and all Job Classes.  Therefore, this list will be
+primarily made up of Accessories that are most suited for Rangers-items that
+have Agility, Strength, or Evasion for example.
+
+Name                Level    Defense    Type         Attributes
+------------------------------------------------------------------------------
+Cotton Headband     14       3          Headgear     Evasion +3
+Emperor Hairpin     24       NA         Headgear     HP -15, Dex +3, AGI +3,
+                                                     Evasion +10
+------------------------------------------------------------------------------
+Scentless Armlets   16       4          Armlet       Evasion +5
+Gigas Bracelets     30       9          Armlet       HP +15, STR +3 Dex -2,
+                                                     AGI -2
+------------------------------------------------------------------------------
+Silver Earring      14       NA         Earring      Attack -1, Evasion +1
+Silver Earring +1   14       NA         Earring      Attack -2, Evasion +2
+Bone Earring        16       NA         Earring      Attack +1, Evasion -1
+Bone Earring +1     16       NA         Earring      Attack +2, Evasion -1
+Beetle Earring      21       NA         Earring      Attack +2, Evasion -2
+Beetle Earring +1   21       NA         Earring      Attack +3, Evasion -2
+Mythril Earring     24       NA         Earring      Attack -2, Evasion +2
+Mythril Earring +1  24       NA         Earring      Attack -3, Evasion +3
+Dodge Earring       29       NA         Earring      Evasion +3
+------------------------------------------------------------------------------
+Rabbit Charm        7        NA         Neckware     Steal +1, Dex +1, AGI +1
+Wing Pendant        7        NA         Neckware     AGI +1, Wind +1,
+                                                     Earth +1
+Ranger's Necklace   14       NA         Neckware     Accuracy +5, R. Attack +5
+Fang Necklace       21       NA         Neckware     STR +2, DEX +2, MND -4
+Green Gorget        21       3          Neckware     Ice - 3, Evasion +1
+Spike Necklace      21       NA         Neckware     STR +3, DEX +3, MND -6
+Tiger Stole         24       2          Neckware     Attack +5
+Ryl. Sqr. Collar    30       3          Neckware     Evasion +1
+------------------------------------------------------------------------------
+Sardonyx Ring       14       NA         Ring         STR +1, Fire +3
+Courage Ring        14       NA         Ring         STR +2, Fire +4
+Tourmaline Ring     14       NA         Ring         AGI +1, Wind +3
+Reflex Ring         14       NA         Ring         AGI +2, Wind +4
+Bone Ring           16       NA         Ring         Accuracy -2,
+                                                     Ranged Accuracy +2
+Beetle Ring         21       NA         Ring         Accuracy -3,
+                                                     Ranged Accuracy +3
+Archer's Ring       30       NA         Ring         Accuracy +2,
+                                                     Ranged Accuracy +2
+------------------------------------------------------------------------------
+Barbarian's Belt    18       2          Belt         STR +1, VIT +1, DEX -1,
+                                                     AGI -1
+Brave Belt          18       3          Belt         STR +2, VIT +2, DEX -1,
+                                                     AGI +1
+Mrc. Cpt. Belt      30       3          Belt         DEX +1, VIT +1, AGI +1,
+                                                     INT +1, MND +1, CHR +1
+------------------------------------------------------------------------------
+Traveler's Mantle   12       1          Mantle       Evasion +3
+
+==============================================================================
+//// 06- Job Combinations ////////////////////////////////////////////////////
+==============================================================================
+This section of the Guide will focus on Job Combinations.  Although certain
+Job Combinations are more suited for one another, there are a few exceptions,
+and if you wanna stand out a little, go for it.
+------------------------------------------------------------------------------
+Ranger/Warrior
+------------------------------------------------------------------------------
+The standard choice.  This combination offers the maximum strength a Ranger
+can have.  At early levels, most Rangers you see will take advantage of this
+combo.  At higher levels however, the Ranger/Samurai combo is seen more often
+due to the higher gained TP rates, and the constant use of the Ranger's weapon
+skills.  However, up until about Lv60, this combo remains top dog.  With a
+higher strength, and the ability to use 'Berserk', the damage dealt can be
+quite impressive.
+------------------------------------------------------------------------------
+Ranger/Monk
+------------------------------------------------------------------------------
+Range/Monks are few in the world of Vana'diel.  This does not imply that it is
+a terrible choice, just not the 'best'.  There are a few things you could
+consider this job for, however.  Ranger Defense is terrible to say the least.
+We basically rely on Evasion as our best defense.  A Monk could help in this
+regard, because of its 'Dodge' ability.  The 'Boost' ability offers another
+incentive, but is ultimatly over-shadowed by the 'Berserk' ability the
+Ranger/Warrior combo gives.
+------------------------------------------------------------------------------
+Ranger/White Mage
+------------------------------------------------------------------------------
+The Ranger/White Mage combination is useful in a couple different regards. As
+a party combination it doesn't have too many major uses or benefits, but in a
+solo situation, this combo has a few helpful things going for it.  For one,
+Rangers solo worms very effectively.  The ability to hit and run so to speak,
+is a good way to get easy exp.  However, sometimes you get beat up, and it's
+nice to be able to heal yourself during the fight.  As with any class at low
+levels, a White Mage sub is very important to success.  It not only helps
+during the fight, but between as well.  Keeping down time to a minimum is
+always nice, and this job combo helps in that regard.
+------------------------------------------------------------------------------
+Ranger/Black Mage
+------------------------------------------------------------------------------
+*Tries hard to find a reason to do this*  Nope, nothing.  This combo does not
+offer one positive thing that I can think of.  No healing, no strength, no
+agility, nothing.  OH!  Once you hit Lv34 you could use warp!  Oh yeah, that
+isn't very cool either.  If you wanna do this combo, more power to ya, but
+I didn't say so...
+------------------------------------------------------------------------------
+Ranger/Red Mage
+------------------------------------------------------------------------------
+Again, there is no real reason I could give to be a Ranger/Red Mage.  Sure,
+at Lv20 you would aquire a better resistence against petrification, but
+seriously, how many monsters can petrify in the entire game?  Like five? On top
+of that, its not even gaurunteed to work...but we are getting off the point.
+Once again, not advised.
+------------------------------------------------------------------------------
+Ranger/Thief
+------------------------------------------------------------------------------
+Okay!  Here is a good combo.  Ranger/Thiefs are somewhat commonplace in the
+game.  This combo offers a higher Agility, a Ranger's best friend, and a few
+extra ways to get some Gil.  Sneak Attack is VERY good in able hands, and
+really punishes enemies.  Times can get hard as a Ranger, gil is always too
+little, so this combo is helpful in more ways than one.
+------------------------------------------------------------------------------
+Ranger/Paladin
+------------------------------------------------------------------------------
+Ranger/Paladins do not have very much going for them.  With no strength,
+agility, or accuracy bonuses, this combo is not suggested.  If you think that
+the extra White Magic might be useful, forget about it.  Paladins learn magic
+spells later than White Mages do, and the Magic Points you will have will be
+few.
+------------------------------------------------------------------------------
+Ranger/Dark Knight
+------------------------------------------------------------------------------
+I have yet to see a Ranger/Dark Knight.  As with the Ranger/Paladin combo, do
+not consider this sub for the magic.  However, there are more things going for
+this than the Paladin sub...There are a few strength bonuses to be had here,
+and the 'Last Resort' ability may find it's use sometime, but it will never
+match the bonuses made from the Ranger/Warrior combo.
+------------------------------------------------------------------------------
+Ranger/Beastmaster
+------------------------------------------------------------------------------
+Beastmasters do not make a good sub for any job.  Without the use of the Charm
+ability, this combo is nothing more than a waste of time.  Once again, I have
+never seen this combo, and I think I never will...
+------------------------------------------------------------------------------
+Ranger/Bard
+------------------------------------------------------------------------------
+Much like the Beastmaster, Bards are not meant to be a sub class.  As a sub, a
+Bard cannot have 2 songs going on at the same time.  Furthermore, the best
+songs come later in the game, and a Ranger/Bard would never have access to
+them.  Not to mention, that the manly side of the Ranger would be completely
+stripped away by having a flippin Bard as a sub class...
+------------------------------------------------------------------------------
+Ranger/Summoner
+------------------------------------------------------------------------------
+What do summoners do again?  Oh yeah, Summon stuff.  Why would you want to be
+a Summoner again?  Oh yeah, to Summon stuff.  Summoners lose this luxery when
+made as a sub class.  The main reason to sub a Summoner would be for massive
+loads of MP.  Unfortunatly, Rangers don't use magic, so this might be the
+worst sub a Ranger could possibly have.  BUT, if you wanna do it...ugh...
+------------------------------------------------------------------------------
+Ranger/Samurai
+------------------------------------------------------------------------------
+A very good choice at later levels.  Ranger weapon skills are devastatinglater
+in the game.  High level players are mostly seen with this combo. The TP
+bonuses gained from the Samurai are quite emmense.  A Ranger that can use its
+weapon skills often is perhaps the most deadly attacker possible. The road to
+a Ranger/Samurai is a long one, but those who tough it out will find
+themselves stronger than they thought possible.
+------------------------------------------------------------------------------
+Ranger/Ninja
+------------------------------------------------------------------------------
+My personal choice.  Ranger/Ninjas gain a higher Agility over time, which is
+crucial to this job.  The duel wield ability is especially nice at Lv28 when
+Archer's Knives become available for use.  Aside from that, it is also fun to
+use various Ninjutsu spells to further expose enemy weaknesses, and to add a
+little variety in combat.  This job is somewhat rare due to its tremendous
+cost, however.  This combo is the game's most expensive job class. This combo
+is not for those who do not have a lot of gil, or time for that matter.  If
+you do happen to choose this job though, you will not be disappointed.
+------------------------------------------------------------------------------
+Ranger/Dragoon
+------------------------------------------------------------------------------
+The best thing about the Dragoon is the ability to summon a Wyvern to fight at
+your side...this, unfortunatly, is the Dragoon's 2hr ability, and cannot be
+used when Dragoon is a sub class.  Therefore, I do not encourage anyone to use
+this combo, because like so many others, it has no real benefit.
+
+==============================================================================
+//// 07- Playing as a Ranger /////////////////////////////////////////////////
+==============================================================================
+The role of a Ranger is simple enough...Deal out damage.  You do not need to
+heal, you do not need to tank, you need to hit, and you need to hit hard.
+As with any job, it is important to know your role.  It is unfair to the party
+to be a mediocre Ranger.  Would you want a second rate White Mage healing you?
+I don't think so.  But how does a Ranger 'Not' perform?  Well, a good Ranger
+takes it upon himself to have the best equipment at all times.  Inferior
+equipment makes an inferior Ranger.  Times may get tough, but you need to
+take it upon yourself to find a way to make it.
+
+Take pride in what you do, be the best you can, your skills and hard work will
+make you a very respected player.  There aren't many of us, so it's easy to
+gain a reputation.  You want make sure you get a good one.
+
+So, what is expected from us aside from dealing damage?  Well, you aren't any
+good to a party dead.  Evaluate your tanks, are they good?  If you aren't
+confident with your tanks, try not to continually pummel enemies with arrows.
+Rangers build a lot of Hate.  Yes, we can dish the pain, but we certainly
+can't take it.  Don't be stingy though, just be cautious.
+
+What about pulling?  Are we going to always have to pull?  Although Rangers
+are effective pullers, you will not always be given that task.  Stronger
+enemies can really hurt you on the trip back, so don't be surprised if a smart
+PT leader assigns others to do the pulling.  However, if the people pulling
+don't know what they are doing, it is your job to take over.
+
+What do I do once combat starts?  Smart Rangers know where their team mates
+are at all times.  Why is this important?  Well, when you are fighting Goblins
+for instance, all that Hate you build is more than likely gonna get you a bomb
+served in your dish.  It's important to stay away from Mages, you don't want
+any healing taken away from your dmg dealers.  Depending on your subclass, a
+Ranger basically stays away from enemies and snipes them from afar. An
+exception to this rule is the Ranger/Ninja.  Melee combat is thrown into the
+mix with this combo...2 hits with the daggers, 1 shot with the bow... Other
+than that, Ranger is basically in the outskirts of the battlefield.
+
+==============================================================================
+//// 08- Frequently Asked Questions //////////////////////////////////////////
+==============================================================================
+And now for all of the questions people have asked me through the course of
+my career as a Ranger...
+
+Question:  Is Ranger expensive?
+
+What?  Have you been living under a rock for the past, I dunno - however long
+this game has been out?  Yes ladies and gentlemen, Ranger is expensive.  No,
+it's not just arrows, but everything else as well.  Your main priority, as far
+as equipment goes, is to achieve the highest AGI possible.  Aside from the
+obvious AGI boosting Rings and such, most +1 Bows have AGI or Ranged Accuracy/
+Attack boosting stats.  This can also be said about many different pieces of
+armor as well.  All told, the price for maintaining a solid Ranger can be
+quite steep indeed.
+
+Question:  When does gil start to become an issue for a Ranger?
+
+Rangers is a very cheap class at first.  This is due to the low cost in both
+weapons, and ammunition such as arrows, etc.  At around Lv15, things start to
+become a little more spendy.  This is because better equipment will be at your
+disposal.  This is actually a very good thing, howover.  It is a good idea to
+keep your AGI high.  Rangers who miss aren't good Rangers.  At Lv14 you will
+be able to use the Ranger's Necklace given at the quest, but this is not
+enough.  It is a good idea to but some AGI raising accessories.  Rings, such
+as the Reflex Ring, will help out a ton.
+
+Question:  When do I get the 'Wide Scan' Ability?
+
+'Wide Scan' is inhereted at Lv1.  It can also be used when Ranger is used as
+a sub class.
+
+Question:  How do I use 'Wide Scan'?
+
+Using 'Wide Scan' is easy, just go to the main menu, and click on map...
+You will notice that under the 'Markers' button, you can choose 'Wide Scan'.
+Monsters will show on the map as red dots, the list on the left shows all
+of the monsters within a certain radius.  Click on a monster in the list,
+and u will have the option to Track it.
+
+Question:  What class should you sub Ranger for?
+
+The class that is most suited to have Ranger as a sub is Thief.  You will see
+many THF/RNG in Vana'diel, and for good reason.  The ability to track monsters
+goes further than your average Wild Hare.  Notorius Monsters or NM's can be
+seen too.  This is a very nice addition to the Thief, as NM's are a good way
+to make Gil.
+
+Question:  What kind of accessories should I buy?
+
+Anything that adds AGI is a priority.  The only exception to the rule lies in
+what Race you are.  Tarutaru and Mithra have a naturally high AGI.  Therefore,
+buying STR enhancing stuff is okay.
+
+==============================================================================
+//// 09- Legal Biz ///////////////////////////////////////////////////////////
+==============================================================================
+This Guide is Copywrite by Tim Kinzie.  It may not be reproduced, edited, or
+otherwise distributed through any other website other than Gamefaqs.com without
+previous written consent by myself, beforehand.  This guide may be reproduced
+for personal, private use only.
+
+If you see this Guide posted on any other website, please notify me.  I can
+be reached at Kinzerdude7@hotmail.com.
+
+==============================================================================
+//// 10- Credits /////////////////////////////////////////////////////////////
+==============================================================================
+Gamefaqs.com for hosting this guide.  Been coming here for years, thanks for
+running such a helpful site!
+
+ffo.warcry.com // ffvault.ign.com// shadow-dragons.com - for General Info.
+
+BRADYGAMES, for the in depth Ability charts that I used in the 'Abilities'
+section of this Guide.  Also, for parts of the 'Equipment' section of this
+Guide, such as some abbreviations, and items I did not catch when I manually
+surfed the Auction Houses.  Thanks a lot!
+
+==============================================================================
+//// 11- Special Thanks //////////////////////////////////////////////////////
+==============================================================================
+Special Thanks to...
+
+Alex and Duncan, my two best friends, thanks for always being there for me.
+May the 'Trio O' Fantastico Dudes Wit' Fantastico Attitudes' live on forever.
+
+The numerous people that have sent me thanks, comments, and suggestions about
+this guide.  The reason why us 'Contributers' submit guides is to help people,
+thanks for letting me know this one has, and for offering suggestions to make
+it better!
+
+All of the people I have met in FFXI, you are what make MMO's worth playing,
+you can't beat some of the friendships I have made with a stick, and if you
+ever need anything, just give me a ring-a-ding!
+
+A Very big thanks to the kind people I have met overseas in FFXI.  I couldn't
+ask for better people to play with, namly Sephirothid, Hols and Goodspeed, you
+guys rock.  Arigatou!
+
+Hiroo!!!  Thanks for helping me with the Ranger Quest my man!  If it wasn't
+for you, I might have gotten eaten by one of those flippin tigers!  Arigatou!
+
+All of the White Mages who come strolling along after I get my butt whooped
+by something, throw up a =), and raise me!  You rock!
+
+BRADYGAMES, for releasing your Strategy Guide, I would have been lost without
+it...seriously, when I was doing the key quest solo, your maps were solid
+gold baby!  Also want to thank you for making the ability charts clear, they
+are to date the best I have seen, that's why I used them for reference =)
+
+And to Square-Enix, for releasing one of the best games I have gotten to play,
+as well as countless others that have made an impact on me in one way or
+another.  Keep em' coming!
+
+  --This is your buddy Tim Kinzie - Logging Off - Take it easy everyone =)--
+
+-----------------------================================-----------------------
+=====================// Estuans Interius Ira Vehementi \\=====================
+----------------------==================================----------------------

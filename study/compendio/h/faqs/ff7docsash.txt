@@ -1,0 +1,2162 @@
+Welcome to Sash’s Dirge of Cerberus: Final Fantasy 7 FAQ and 
+Walkthrough
+
+Table of Contents
+
+Introduction.....................................................int01
+Basic Game Mechanics.............................................bgm01
+Equipment and items..............................................eai01
+Mission Complete Menu............................................mcm01
+Basic Game Plot, as of the first mission.........................bgpo1
+Beginning the Game...............................................btg01
+Walkthrough......................................................walk1
+Chapter 1........................................................cha01
+Chapter 2........................................................cha02
+Chapter 3........................................................cha03
+ -Obtaining the Ultimate Weapon
+Chapter 4........................................................cha04
+Chapter 5........................................................cha05
+Chapter 6........................................................cha06
+Chapter 7........................................................cha07
+Chapter 8, part 1................................................cha8a
+Chapter 8, part 2................................................cha8b
+Chapter 9........................................................cha09
+Chapter 10.......................................................cha10
+Chapter 11.......................................................cha11
+Chapter 12, part 1...............................................ch12a
+Chapter12, part 2................................................ch12b
+Secret Ending....................................................sece1
+Tips and Tricks..................................................tip01
+======================================================================
+Introduction.....................................................int01
+======================================================================
+Howdy, and thanks for reading my guide to Dirge of Cerberus: Final 
+Fantasy VII.  This guide is intended to assist you as you play through 
+the game from beginning to end with descriptions of maps, enemies, and 
+bosses.  At the very least, this guide will outline all steps 
+necessary to complete the game on normal mode.  The only real 
+difference between normal mode versus hard and extra hard are the 
+amount and frequency of enemies faced and the amount of damage Vincent 
+takes from being shot or mauled.  I will put in as a side note any 
+significant differences between hard and extra hard, but since you 
+should not be playing extra hard before at least completing the game 
+on normal mode, I doubt it will be that crucial to your success at 
+that point.  As a side note about extra hard mode, Vincent will retain 
+any weapons and gil he has acquired as of the final auto save in the 
+Omega chapter to be carried over to the beginning of the game should 
+extra hard mode be selected.  Levels and ammunition do not carry over.
+
+======================================================================
+Basic Game Mechanics ............................................bgm01
+======================================================================
+
+DoS is at heart and action shooter game with elements of a Role 
+Playing Game added in.  As Vincent progresses he will gain levels and 
+be able to upgrade his weapons.  
+
+- Saving/Loading
+
+The game has 2 options for saving.  As Vincent explores a level, the 
+game will auto save and create a log of Vincent’s exact inventory at 
+that point.  The player can at any time replay the game from that auto 
+save point, even if he has progressed farther in the game.  If, while 
+replaying, Vincent reaches another auto save point he has reached 
+before.  The current data will override what has been saved 
+previously.  Hence, if on your first attempt, you reach an auto save 
+point with an inventory of 2 potions and 150 bullets, any time you 
+replay from there you will start with those items.  If, however, you 
+play from a previous point in the story and reach that auto save area 
+with an inventory of 4 potions and 225 bullets, that new data will 
+replace the old.
+
+- Leveling
+
+Vincent will not gain levels during missions, only after a mission has 
+been completed.  As you progress, the game will keep score of the 
+amount of kills and gil you acquire.  After a mission is over, you 
+will be given the option of using all the experience you gained to 
+increase Vincent’s level, or convert each exp point into 10 gold.
+
+- Upgrading
+
+After missions have been completed and you have chosen to level up or 
+receive money, you will be given the option to modify weapons and 
+accessories.  Each basic gun can be upgraded 2 times before you must 
+decide how to specialize it.  What you choose is really based on your 
+particular play style and what you find most useful.  All guns have 
+advantages and disadvantages versus other guns.
+
+- Memory Capsules
+
+Hidden throughout the game (some hidden much better than others) are 
+memory capsules which when shot will cause an auto save file to be 
+created in your “Extra Features” menu which can be accessed from the 
+games main title screen.  Once a capsule has been acquired you need 
+not ever find it again in any version unless you should happen to 
+erase your game data from your memory card.  Once acquired, you may 
+enter your “Extra Features” menu and scroll to the “Event Viewer” to 
+see a video sequence that appears somewhere in the game.  Should you 
+find all the capsules you may watch every video file the game has to 
+offer.
+
+-Critical Hits vs. Normal Hits.
+Enemies in this game have HP.  When shot in vital areas, more damage 
+is done.  You will know if you scored a critical hit because the 
+damage done appears in orange rather than white.  All humans will 
+suffer a critical hit if shot in the head.  Other creatures and 
+machines have different weak points.
+
+======================================================================
+Equipment and Items .............................................eai01
+======================================================================
+
+--Basic Equipment--
+
+-Guns: Vincent’s main form of combat, your gun is your best friend in 
+this game.
+
+Cerberus
+Vincent’s basic gun, has average stats at all ranges, best for 
+medium/short range fights
+
+Hydra
+Vincent’s rifle.  Most useful for long range combat.  Shoots at a 
+slower pace and reloads slower, but has highest damage.
+
+Griffon
+Machine gun.  Best at short range combat, unloads many rounds quickly 
+but harder to aim and does less damage.
+
+-Barrels:
+
+Short barrel: Quick fire rate. Does less damage the further away the 
+enemy is.
+
+Medium barrel: Mainly for use in fighting enemies who are not in 
+places Vincent can reach on foot.
+
+Long barrel: Used to fight enemies at long distances, power decreases 
+the closer an enemy is to Vincent
+
+-Materia:  Materia can be attached to a weapon and cast using 
+Vincent’s mana pool.  There are 3 kinds
+
+Fire Materia: When cast, Vincent will shoot a ball of flame which 
+explodes on impact, damaging all nearby opponents.
+
+Lighting Materia: Vincent fires a powerful bolt of lighting which 
+damages enemies in a straight line.
+
+Blizzard Materia:  Vincent shoots a ball of ice that seeks out his 
+single target automatically.
+
+-Accessories: Can be attached to weapons, enhancing their abilities.  
+Many can be upgraded at the machine shops.
+
+Sniper Scope:  Allows Vincent to zoom in on a target.  Useful for 
+getting critical hits.
+
+Materia Floater:  Increases the level of equipped Materia
+
+Power Booster:  Increases the weapons power as well as weight, making 
+Vincent run slower while carrying it.
+
+Gravity Floater:  Decreases the total weight of the weapon.
+
+Materia Booster:  Another accessory to increase the level of equipped 
+materia.
+
+Auto Reloader: Auto reloads a weapon when ammunition has been 
+depleted.
+
+Cerberus Relief:  Slightly increases defense.
+
+Power Cross: Slightly increases power of melee attacks.
+
+Recoil Limiter:  Reduces Recoil, making aiming that much easier.
+
+L-Adjuster: Increases accuracy of long range shots.
+
+S-Adjuster: Increases the accuracy of short range shots.
+
+Manaheart: Gradually replenishes MP, secret item found in Chapter 6.
+
+-Items:  Can be used during missions for various effects.  Be careful, 
+the use of too many items in a mission can lower your score.
+
+Potion: Heals a small amount of HP
+
+Hi-Potion: heals a moderate amount of HP
+
+Mega-Potion: Heals a large amount of HP
+
+X-Potion:  Fully heals Vincent.
+
+Ether: Restores some MP
+
+Elixir:  Restores all HP and MP
+
+Phoenix Down:  When used, the next time Vincent is KO’d he will return 
+to life at full health.
+
+Limit Breaker: Unleash the beast! Vincent will morph into a new were-
+wolf type creature with devastating melee attacks as well as gain the 
+ability to throw balls of fire.  Defense will be increased 
+dramatically and all HP will be restored.  Vincent will return to 
+normal after a short time or you can remove the effects by holding 
+L1+R1.
+
+Red Potion: Heal a random amount of HP
+
+Red Ether: Heal a random amount of MP
+
+-Bullets
+
+Handgun Bullets: Used in handguns, Cerberus will fire 3 at a time.
+
+Rifle Bullets: Used by the Hydra weapon.
+
+Machine-Gun bullets: Used by the Griffon.
+
+--Specialty Weapons/Items—
+
+Bayonet Rifle: When carried, increases the power of Vincent’s melee 
+attacks.
+
+Blast Machine Gun: Does little damage but knocks enemies down.
+
+Ultimate Weapon: Just what it sounds like.  Will make the going a lot 
+easier on you.  Refer to my Chapter 3 section for details on how to 
+acquire.
+
+Lucky S Barrel: Gain more XP for killing enemies with this barrel 
+attached.
+
+Fearie L Barrel: A long barrel that quickly fires.
+
+Elixor: Fully restore all MP and HP as well as gain the effect of 
+Phoenix Down.
+
+Potion: Will appear in your inventory labeled “Potion” but will only 
+restore 1 hp.  They won’t stack with normal potions so get rid of them 
+if you see them.
+
+Moogle Dolls.  Rare, and if you find them, just sell them at the 
+nearest shop, all they are good for is extra cash.
+
+======================================================================
+Mission Complete Menu............................................mcm01
+======================================================================
+At the end of each mission you will receive a score for that mission 
+based on your performance, granting you either a D, C, B, A, or S.  
+Here is what the game evaluates.
+
+Targets Destroyed: Easy enough.  Kill more people, get a better score.
+
+Accuracy Rate: Based on how many bullets found their marks.
+
+Damage Sustained: How many HP you lost during this mission.  This one 
+is probably the toughest to get a good score on, as there are times 
+where you just can’t avoid getting shot.
+
+Critical Hits: How many times did that little orange number pop up in 
+the mission?
+
+Killchains: Whenever you kill targets in rapid succession you get a 
+kill chain.  This doesn’t measure what your max kill chain was, just 
+how many times you acquired a kill chain, be it 2 enemies in 
+succession or 50 (though killing 50 enemies in succession would earn 
+you 49 kill chains).  Interesting note: barrels and boxes count as 
+targets so if you see them stacked together, shoot them one at a time 
+to get a kill chain.
+
+Items Used: The fewer items you use in a mission the better your rank 
+will be.
+
+Magic Casted:  How many times Vincent uses materia per mission.  Easy 
+to get a good score on this one, if you run across a mako field with 
+full mana, fire off a few magic rounds at nothing before running over 
+it, you’ll get your score up and won’t lose any mana.
+
+Mako Collected: This measure how many of the Mako Fields you ran over 
+during the mission.  Sometimes they refresh after you have run over 
+them, so check back.
+
+Times KO’d:  How many times Vincent died in the mission.
+
+Time Expired: How long it took you to complete the mission.  This 
+score is almost always low if you are watching the videos, because for 
+some reason they did not program it so the timer stops while you watch 
+one.  Whatever.
+
+======================================================================
+Basic Game Plot – as of the first mission........................bgp01
+======================================================================
+3 years have passed since Meteorfall and the city of Midgar has been 
+deserted.  Reeve Tuesti, also known to others as Cait Sith, has been 
+placed in charge of a militant organization known as the World 
+Restoration Organization, whose goal is to aid in the planets survival 
+and longevity after the devastating effects of the encounter with 
+Sephiroth.  Recently, screams have been heard at night coming from 
+inside Midgar, and a team was sent in to investigate.  None returned.
+As the game opens, Vincent is resting in the town of Kalm during a 
+celebration of its recovery from Meteorfall.  During the festivities, 
+Kalm is attacked by an unidentified group of soldiers.  Vincent must 
+save the citizens and determine what is going on.
+
+======================================================================
+Beginning the Game...............................................btg01
+======================================================================
+If you have yet to complete the game, you will be prompted to choose 
+Normal or Hard mode.  If you have already completed the game once and 
+have an auto save file in the Omega and Chaos chapter, you may chose 
+Extra-Hard mode and your games information will be carried over.
+
+Once you have selected the mode you want, you will be prompted to 
+configure the game, with options such as Vibration and Sound Output.  
+I suggest putting on subtitles, as dialogue can be lost in many area 
+with lots of background noise or characters who speak softly.
+
+You may also choose how you want your sight to work, Automatic, Semi-
+automatic, or Manual.  Pick whatever, based on how hard you want the 
+game to be.
+
+======================================================================
+Walkthrough......................................................walk1
+======================================================================
+Here I will take you through a step by step process of the games 
+levels.  What I describe is based on the games Normal Mode.  The main 
+difference in the game modes is the amount of enemies faced as well as 
+damage taken and how much damage the bosses can sustain.  If there is 
+any significant change I will highlight it by adding in a *Extra hard 
+Mode* qualifier.  I will also note where the game Auto Saves.  This 
+Walkthrough will NOT discuss Memory Capsules, nor will I provide 
+descriptions of what happens in videos.  You can skip a video at any 
+time by hitting “start” and then X button.
+
+
+Chapter 1: Sea of Flames.........................................cha01
+------------------------
+
+Stage Missions
+
+Protect the Civilians!
+Save the abducted girl!
+Locate the card key!
+Assist the WRO!
+
+After the opening video you will be facing 3 soldiers.  Shoot them 
+quickly, they probably won’t have time to even fire on you.  Walk to 
+the right, across the pipes, and pick up the potion.  Climb the ladder 
+and shoot the soldier on the platform.  This will alert the other 
+soldier on the platform above.  If you move fast enough, however, he 
+will not have time to shoot you before you eliminate him as well.  
+Once you are on the wall, take a right and destroy the box you come to 
+for 500 gil.  Turn around and continue until you see a group of 
+soldiers on a platform. Take care not to go far enough the can see 
+you.  You will notice a barrel next to this group of soldiers.  Any 
+barrels you see like this one throughout the game will explode when 
+shot.  Shoot the barrel and it should kill all the soldiers on the 
+platform.
+*Extra Hard Mode* The barrel is not on the platform, it is along the 
+path the soldiers will run to get at you.
+Once past this area you will see 2 more soldiers standing in front of 
+a doorway.  Take them out but don’t go into the door just yet.  
+Continue past it until you see a briefcase containing a potion.  To 
+the left of this briefcase is another soldier standing on the roof of 
+a house with his back turned.  Take him out and head back to the door 
+you passed.  Head down the stairs.  As you go down a voice will say 
+“Area clear!”  After you hear this you will see 3 soldiers standing on 
+the steps.  Kill them and move on.
+ 
+Auto Save
+
+Head down the street until you see a group of civilians running toward 
+you.  You need to save as many civilians as you can in this level.  
+Start here by positioning yourself between the civilians and the 
+soldiers chasing them and shooting the soldiers before they can kill 
+the people.  Once you have killed those soldiers take a left and 
+eliminate the ones holding the kids hostage.  Don’t worry about 
+shooting civilians.  You can’t do it, even on purpose (if that makes 
+you sad, seek help).  Continue down the path and a robotic dog will 
+jump out at you, kill him fast as 2 more soldiers will be chasing a 
+boy toward you and you need to kill them before they kill the boy.  
+You can take a right at this point but don’t do it yet.  Continue 
+straight until you reach the fire blocking your path and take a left.  
+Kill the 2 soldiers and the dog and follow along until you reach a 
+fence.  Past it is a case with 500 gil and 2 places where you will get 
+a cut scene of Vincent telling some kids the path is safe.  Come back 
+and head down the path you passed up before.  Run over the mako field 
+and get the fire materia.  Remember to equip it.  Continue down the 
+street and take out the guards in the alley.  Careful you don’t shoot 
+the explosive barrel if you are next it.  Break the boxes for any 
+items they may have and walk over to the laser gate.  After you 
+realize you need a key, a soldier will run out of the house behind 
+you.  Kill him and the 2 more coming down the path and get the key to 
+the gate. Continue on and you will see a group of civilians fleeing a 
+helicopter.  You can’t do anything for them at this point, so just 
+keep moving.  Down the next street step into the mako field and be 
+prepared as soldiers will jump out from inside the buildings.  One 
+will drop the Limit Breaker item.  Eventually you will get a cut scene 
+with a girl being dragged off by robot dogs.  This is your first side 
+mission, to save her.  Don’t waste bullets on the dog as it drags her 
+into the crate, you can’t kill it yet.  Once she is inside, kill off 
+the enemies that attack you, making sure you get the dog terrorizing 
+the mother to your right as well as the soldiers in the windows.  
+After you have defeated the first wave, walk over to the crate and 
+open it.  Now you have to fend off attackers until the timer reaches 
+0.  When it does approach the crate and kill the dog inside.  The girl 
+is safe; don’t you feel like a hero?
+*Extra Hard Mode* You must defeat 30 enemies in this mode rather than 
+wait for the timer.
+Follow the street and take a right when you can, you will be prompted 
+with another stage mission, to locate the card key.  Keep going the 
+only way you can and you see a girl being attacked by soldiers.  Kill 
+them, talk to the girl, and be on your way.  Next you will acquire the 
+sniper scope.  Attach it and keep going straight down the street until 
+you see a fire on your left.  People will appear running from guards 
+only to be trapped by the fire and you can’t reach them to save them.  
+If only you had a way of seeing enemies from a long way off.  Use R3 
+to test out your new scope and pick off the guards before they kill 
+the civilians.  Head back to the path you passed on the way to the 
+fire and follow it.  Get the mana and kill the guards that pop out 
+(shoot the barrel).  The card you need is on the right.  Head back to 
+the laser gate.  Inside some guards will come running down the steps, 
+you can take all 3 out with a blast from your fire materia, same for 
+the 2 shooting you from the top of the steps.  Down the other side, 
+kill the 4 guards and pick up the Long Barrel and attach it, you’ll 
+need it for this next fight.  Get the Handgun Bullets and Hi-Potion 
+before you walk out the door.
+
+Auto Save
+
+Your first boss fight.  You ready?
+
+----------------------------------------------------------------------
+Boss fight:  Dragonfly
+
+A giant helicopter.  Depending on how well developed your shooting 
+skill is, this can be over in less than a minute.  Aim at him as he 
+flies over and just unload all your bullets, using the long barrel you 
+just acquired.  His machine gun is hardly even worth avoiding it does 
+so little damage, but watch out for his rockets, they follow you.  The 
+best way to avoid them is to position yourself so they crash into the 
+pillar in the center of the square.  Once he has made a pass over the 
+square he will drop a group of soldiers to fight you.  Take them out 
+as fast as you can, use the barrels to your advantage if they are 
+close to them, and continue blasting away at the helicopter, 
+eventually it will go down.
+----------------------------------------------------------------------
+
+Auto Save
+ 
+After the video you will find yourself in a building.  Behind the 
+table is a Phoenix Down.  The room on the left has 500 gil and the 
+room on the right has 500 gil and a shop machine.  The next room also 
+has 500 gil and bullets.  Keep going down the hall where you can pick 
+up a short barrel.  Honestly, I don’t even use this attachment as the 
+medium/long barrels are better suited for 99% of the situations you 
+find yourself in throughout the game.  Put it on your 2nd or 3rd 
+weapon if you want as you are about to encounter a fight in a tiny 
+room with many enemies.  Once you walk upstairs and watch the video 
+and kill all the soldiers who enter the room.
+
+Auto Save
+
+Afterwards you are back out in the square you just fought the 
+helicopter in, killing more enemies.  There is a Limit Breaker on top 
+of the pillar if you want it.  The enemies will spawn forever until 
+you run to the SE and WRO members come in to join you.  Kill all the 
+bad guys in the square and head out the direction the WRO came in when 
+the way is clear.
+*Extra hard mode* You will start in the square with the WRO and the 
+Deepground soldiers will come in from the SE.  It’s actually easier 
+this way because you can kill them as they file in.
+Talk to the soldier if you want and then follow them as they run down 
+the path, picking up the Griffon and bullets.  You don’t really have 
+time though to equip it because you need to follow the WRO soldiers to 
+save them. At the fork, take a right first and kill all the Deepground 
+soldiers before they kill your allies.  Run to the area behind the DG 
+soldiers and get the keycard inside the box, but don’t use it to open 
+the gate closest to you, move to the other side of the alley and open 
+that gate, getting the 500 gil and the extra card key.  Still, don’t 
+go through the laser gate yet.  Head back to where you saw the fork 
+and go the other way this time.  Again, assist the WRO before they get 
+killed.  Now go back to the laser gate you haven’t opened yet and go 
+through.  Down the street are 2 WRO members under attack from snipers.  
+Take them out with your Long Barrel.  There are 2 on the roof to your 
+right and 2 on the ground.  Make a U-turn at the edge of the ramp and 
+get the mana and Handgun bullets.  Now head down the street and into 
+town square for Vincent vs. Dragonfly: The rematch.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Dragonfly GL
+I guess the GL stands for “Good Luck winning round 2 with a busted up 
+helicopter”.  This time the Dragonfly moves much slower and doesn’t 
+fly as high in the air.  Stay farther away and use the Long Barrel to 
+aim for his damaged right wing.  After blasting that for a few clips, 
+the helicopter will fall to the ground, exposing its weak point on 
+top, shoot it as many times as you can before he recovers.  Repeat the 
+process.  He still fires missiles at you and they are a bit harder to 
+dodge as you have no structures to hide behind.  No soldiers this time 
+though, so he should go down no problem.
+----------------------------------------------------------------------
+
+Chapter 2: Showdown in the Wastes................................cha02
+---------------------------------
+
+Stage Missions
+
+Eradicate the Guard Hounds!
+
+After the videos, you will be given control back with Vincent equipped 
+with a mounted machine gun.  Take out as many of the guard dogs as you 
+can, don’t worry about ammunition.  The more you kill the better your 
+score at the end of this Chapter.  After a while you will be given a 
+cut scene where Vincent jumps on the roof of the vehicle.
+
+Auto Save
+
+Once again, kill as many of the dogs as you can.  They will jump on 
+the transport, damaging you in the process so try and kill them as 
+they are in the air.  Once you are past this you will be given another 
+cut scene where the transport crashes.
+
+Auto Save
+
+Walk over the 3 mako fields behind the transport before you advance 
+into the ravine.  You will find a mini boss in the next area.
+
+----------------------------------------------------------------------
+Boss fight: Crimson Hound
+As the fight starts he will jump up on a pillar and let his buddy dogs 
+chomp on you for a bit.  Kill them as fast as you can, if you are 
+quick enough none will get away and start running in and out of the 
+stones.  If they do just strafe around the outside and shoot them as 
+you see them.  When all are dead, target the boss on top of his perch, 
+and blast away.  Eventually he will come down to fight you.  Kill him 
+fast enough and he won’t summon any more help.  The best way to do it 
+is run backward while shooting him.
+----------------------------------------------------------------------
+
+After the Crimson Hound is “dead” get his key card and head into the 
+next area, making sure to watch the cool video of Vincent finishing 
+the dog off.  You will get another cut scene and fight the real bosses 
+of this level.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Pegasus Riders
+Five on one? Hardly seems fair, maybe Vincent should let them 
+surrender.  He doesn’t of course.  This fight seems daunting at first, 
+but there is a trick to beating them.  Let them circle you a few times 
+and then move out of their pattern.  Eventually they will break ranks 
+and charge you, which is when you want to shoot them, as they are 
+vulnerable from the front.  One shot is sometimes enough to kill a 
+single rider.  Just make sure they don’t hit you if they are charging, 
+it will knock you down and if you don’t jump up fast you are 
+vulnerable to another charge.  They share a collective life bar, so 
+you don’t have to do all that damage to every one.  Pick them off one 
+by one and that’s all she wrote for this mission.
+----------------------------------------------------------------------
+
+I suggest upgrading your long barrel at least once here.
+
+Chapter 3: Silent Edge...........................................cha03
+----------------------
+
+Stage Missions
+
+Protect the Boy!
+Eliminate the Snipers in Hiding!
+
+When you get control of Vincent, turn around and head left.  You will 
+see a case at the end of the alley with handgun bullets, take care of 
+the 2 dogs on your way there.  Make your way through the mini maze and 
+kill any dogs that show up.  Eventually you will cross the street and 
+find a mako field.  Past that is a dieing soldier who tells you where 
+to go to save the people of Edge.  Get his keycard (more dogs in the 
+alley past him if you want to get a few extra kills) and head back to 
+where you started the mission, opening the gate.  Inside are a potion 
+and another new toy, the Hydra Rifle.  This is for shooting those 
+pesky snipers and enemies that are a long way off.  Put it in one of 
+your weapon slots and stick the long barrel on the end of it and a 
+Sniper Scope on it, your about to get some practice.  Don’t equip it 
+yet though, you need your handgun to take out the 4 dogs in the alley 
+you will enter next.  Once you’re past those, put on the new rifle and 
+walk towards the town square.  You are now engaged in one of the 
+mission Special Objectives which is to kill as many snipers as 
+possible.  Snipers are possibly the most annoying enemies in this game 
+cause they almost never miss and they do a lot of damage, on top of 
+being very hard to see. Honestly, the best way to avoid damage is to 
+know where they are going to pop up in advance and have your rifle 
+ready to shoot them before they shoot you.  And that requires you play 
+a mission several times.  I’ll do the best I can here telling you what 
+to expect.  The worst thing you can do here is to run into the middle 
+of the square, because you’ll be getting shot from all sides.  Back up 
+into the alley you just came out of and look for the sniper on the 
+roof to the North (your left from where you start).  Take him out as 
+fast as possible since he’s already shooting at you, and if you did 
+not enter the square, no other snipers should have noticed you yet.  
+To the right of that first sniper is an orange tarp, and a bridge to 
+the right of that.  There is another sniper there on the left side of 
+that bridge.  In the center of the square is a pillar, to the right of 
+it is another sniper on the roof of the houses directly across from 
+you.  There is another to the right of him on the building with the 
+white masonry.  To the right of him is a spotlight, when it is at its 
+farthest right-facing arc, move your scope a bit farther to the right 
+and you’ll see another. After you have all 5 of them taken out, inch 
+out of the area you are in with your character facing north against 
+the wall.  Once you are a few feet into the square look up and see a 
+sniper right above you.  Kill him.  Follow along the wall where he was 
+standing and you will see a rusty bridge, there is another sniper on 
+the building behind that bridge.  Now turn around.  In the alley 
+opposite the laser gate you can see is the last sniper who currently 
+poses a threat to you, he’s behind a box on the ground next to a mako 
+field.  Kill him and head into that area, when you come out of it you 
+see a kid running in front of you, follow him. In the building he runs 
+to, you need to kill the 2 soldiers on the 2nd floor.  There is a shop 
+machine here and the 3rd floor has a potion and machine gun bullets.  
+Head back down and the kid will run out.  Follow him again and kill 
+the soldiers who chase him.  After you have killed all 4 of them, you 
+get another Special Objective, which is to follow the kid and don’t 
+let him die.
+
+Auto Save
+
+A dog jumps down and grabs him before you get to the first building, 
+kill him before he gets to the kid if you can, it isn’t really an 
+issue if he does, just kill him before he mauls the kid to death.  
+Follow the kid in the building, get the 1000 gil on the bottom floor 
+before you go up the steps.  Once he gets outside and climbs up the 
+ladder, he looks into an alley. Don’t bother going down there, it 
+leads to a case with 1 gil.  Follow a bit farther and save him from 
+the 2 dogs that jump out.  Across another bridge 2 soldiers will start 
+shooting from on top of a sign to your right.  Just kill them and move 
+on.  Another group of dogs jump out while you follow here.  After that 
+group, switch over to your rifle again and when the kid stops moving 
+and makes a frightened sound, look across the square to see another 
+sniper, he’s above the orange tarp you see directly across from you if 
+you are standing behind the kid.  Kill him and the kid lets you into 
+the building you are standing at.  Inside is a normal soldier with the 
+key card.  Grab it.
+
+IF YOU WANT THE ULTIMATE WEAPON, READ THIS PART!!!!!
+
+When you have control of Vincent again after escorting the kid around 
+the square, turn around and head back into the building behind you.  
+Inside there is a case with a Model Gun.  Grab it.  That is the non 
+upgraded version of Ultimate Weapon.  That’s the good part.  Here is 
+the bad.  That weapon will cost you almost 300k gil to make into its 
+best form.  You can’t even upgrade it until Chapter 8 anyway, and at 
+that point, you’re going to need to convert all your exp into gil for 
+the rest of the game and not spend any of it.  Maybe if you do that 
+you can afford it by the last level when you have Vincent’s Death 
+Penalty gun which is the most powerful weapon on the game.  So why did 
+they put this in?  Well, if you plan on playing the Extra Hard Mode, 
+you will NEED this gun.  
+So your options are: Ignore it, finish the game because you kinda like 
+Final Fantasy and you plan on forgetting you ever played this as soon 
+as it’s over. Or, option 2: Starting at chapter 8, don’t buy any more 
+levels or upgrades, kill yourself trying to beat the game with under 
+leveled and underpowered Vincent in hopes you can afford the Ultimate 
+Weapon before you reach the final boss because your ego is directly 
+proportionate to the size of your gun.  Then play the game through on 
+Extra Hard blasting away with it and feeling like a real man. (That’s 
+what I did).
+All joking aside, once you have it, the gun is pretty amazing.  It 
+holds 99 rounds, does more damage than any gun save the Gigant Hydra 
+(which only holds 1 round and reloads very slowly).  Only this gun 
+does max damage from all ranges.  It completely destroys bosses all 
+the way through the game because you almost never need to reload it, 
+so you can stand there and have a shooting contest with just about 
+every boss for the first 2/3 of the game without even moving and win, 
+and the rest of the game you may only need to use 1 or 2 potions.  The 
+battle with Weiss at the end of the game when you are at the reactor 
+is easier on Extra Hard mode if you have that gun than it is on Normal 
+mode if you don’t.
+Oh well, it’s your choice.
+
+Back to the game
+*Extra Hard Mode* at this point, more snipers will appear on the 
+rooftops, kill them for the best rating at the end of the mission.  To 
+kill them, don’t move at all.  If you stand still, none will notice 
+you.  Now just search the rooftops and pick them off one by one.
+
+Head past the big laser gate and fight the enemies that jump out at 
+the end of the alley. Head in the only direction you can.  Before you 
+jump out into the next area though, slowly make your way forward and 
+look up to the top of the building in front of you.  Kill the sniper 
+before he sees you.  This will alert the guard below who will begin 
+stalking toward you, jump out and kill him.  Around the next corner is 
+another sniper on the fire escape above you at the end of the alley.  
+Shoot him before he sees you and duck behind the wall again.  Wait for 
+the next 2 guards to come into sight and pop out to shoot them.  
+Follow until you see a box across the street from you.  Don’t run out 
+into the street, slowly make your way to the edge and look at the 
+bridge above you, snipe the girl standing there.  Climb the steps to 
+your left and as you walk out onto the bridge you just killed the 
+guard on, look across the street to the NE, a sniper is on the roof in 
+the corner.  There are some guards in the street with boxes ahead of 
+you.  Try and kill them with stealth if you can, but I find the best 
+way is to jump out and blast with Cerberus.  Kill them and continue 
+on, there is 3000 gil in the box on the roof to your left.
+
+Auto Save
+
+You will be at a point where there is a cut scene and you can see some 
+guards on a stairway.  First, snipe the barrel above you and kill that 
+guard, then jump out and kill the guard on the lower steps.  Hide 
+again behind the wall and wait for the 3rd.  Kill him when he comes 
+down.  When you get up the steps 2 guards will pop out, and one is 
+below the stairs you will descend after that.  Along the path 2 more 
+guards will show up and then you will jump down into an alley you 
+can’t get back out of.  One guard is at the end, kill her and snipe 
+the guard you can see between the buildings after you make a U-turn. 
+Wait for the 3rd guard to come around the corner and kill him.  You 
+will see a fallen steel support beam.  Jump down to it and in front of 
+you is a mako field with a soldier near it.  Kill him and the other 
+guard to his left.  Find the limit breaker under the spot you jumped 
+down from and climb the fallen steel support.  Pull out your rifle and 
+aim over the fence past the mako field to kill the sniper.  Before you 
+run to get the mako field, look to your left and kill the guards 
+behind the fence, once again, barrels are your friend.  The last 
+sniper in the level is above you across from the shop machine.  Buy 
+anything you need and step inside for the boss fight.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Heavy Armored Soldier
+You have to move from the start in this fight because he has 6 friends 
+shooting you and if one of his rocket blasts get you it’s a lot of 
+damage you’ll be taking, you may die before you can even recover.  
+Kill his friends first, you may want to use fire materia on his 
+friends in the catwalks to your left and right.  After you hurt him a 
+bit he drops the rocket launcher and uses a machine gun.  Stand behind 
+the boxes to avoid the spray of bullets.  The last stage he uses a 
+sword which is the easiest version to beat.  Just back up and fire as 
+he runs at you.
+----------------------------------------------------------------------
+
+Chapter 4: Headquarters Under Siege..............................cha04
+
+Stage Missions
+
+Assist the WRO members!
+Hurry to the Command Center!
+Swiftly eliminate the reinforcement squad!
+
+It’s all action from the start during this mission.  While you are 
+waiting for the Mission Objective screen to go away you can pull out 
+your gun and just fire at anything it may auto aim at.  As soon as you 
+can see, however, train your gun onto the 2nd floor and take out the 
+rocket launcher up there.  Clean up the rest of the bad guys on the 
+first floor (there is one to your left, don’t miss him) and run up the 
+steps, killing the guy that pops out.  Once upstairs, to the right are 
+some boxes with items, break them if you want.  Once you get back to 
+the steps, go left and when you take another left, look across the 
+building to the bridge on the 3rd floor.  Take out the rocket launcher 
+up there and the gunman who is shooting at you.  Turn right again and 
+blow up the barrel because it may get shot in the next fight when you 
+are standing next to it.  As you progress, 3 soldiers will appear 
+around the corner.  Kill them and move on where the next steps will be 
+blocked by a laser gate.  Keep going along floor 2 and kill the 
+enemies you encounter to get the key.  Head up and assist the WRO 
+members fighting on the 3rd floor.  Don’t stand near them because a 
+rocket launcher will be shooting at you from the 4th floor to your 
+left and you don’t want the explosion kill your allies.  Kill the 2 
+guards on the bridge and the rocket launcher and follow your WRO 
+members back to the open door.  Inside is a Limit Breaker, Shop 
+Machine, and bullets.  When you come out go along the path until you 
+come to another locked laser gate and kill the enemies who show up.  
+Use the door to your left to circumvent the gate.  A solder is in that 
+hallway as well as a mako field.  Head out and collect anything the 
+solders you killed dropped.  There is a mako field to your left once 
+you are outside.  Get it and head up the steps.  Once you are up you 
+will see 2 WRO members running from some enemies.  Kill the bad guys 
+and follow your WRO members.  Before you go anywhere though, look 
+across the building from the steps you just came up.  See that 
+explosive barrel?  Shoot it now, if you don’t it will get shot in an 
+upcoming fight while several WRO members are standing next to it.  Run 
+across this floor and assist the members in a firefight.  Keep going 
+and save the last WRO member on this floor who is pinned against the 
+wall by 2 Deepground soldiers, one will drop a card key. Head up to 
+the top floor and take a left.  When the DG soldiers see you they will 
+jump onto the elevator.  Follow them down to the 3rd floor and kill 
+them.  Hop onto the elevator which will go back to the 4th floor and 
+get off on the opposite side (West).  Be careful on this next part.  
+You see ahead of you one of those mounted machine guns?  A DG soldier 
+will run and jump on it as you approach.  If you’re a crack shot you 
+can take him out, the best way to do it though is to use a fire 
+materia blast, or shoot the barrel next to him.  When he is dead, head 
+into the room.  After the cut scene you have 60 seconds to get to 
+Reeve to get the best rating on the special objective.  Follow the 
+green arrows on the wall and kill anyone who gets in your way.  Be 
+careful of the rocket launchers.  Head back and get the mako field and 
+bullets.  On your way out you will get another cut scene.  After it is 
+over, you may notice the door on the opposite side of the top floor 
+that was locked is now open.  If you head through the hall and make it 
+to the other end you can jump on the mounted gun and get a Special 
+Objective, which is to blast as many solders as you can as quickly as 
+you can.  This really screws your accuracy rating for this mission, so 
+it’s up to you.   Head back to the first floor via the elevator, there 
+is a mako field on the 3rd level if you want to go get it, but you’ll 
+have to climb the long way.  Head back to the shop machine in the 
+corner and buy anything you need.  After, go through the door and down 
+the hall.  Assist the WRO girls when you get to them and don’t miss 
+the Limit Breaker and Bullets near them.  Keep going down until you 
+see several DG solders run past you, get behind them and take them out 
+before they kill your WRO allies.  The last one will drop a keycard.  
+Grab it and get the mana from your left.  Open the laser gate and you 
+will be faced with a long hall of DG soldiers.  The best bet is to 
+just blast into them with a fire materia, it will kill the soldiers 
+behind the shields.  Again, the last one in the hall will drop a 
+keycard.  You have 2 more soldiers to kill before you get to a shop 
+machine and a door to your right which will lead you to a fight with 
+the Tsviet, Shelke.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Shelke
+She moves really fast, this is actually one of the tougher fights in 
+the game if you are inexperienced.  Double jump to avoid her charges 
+and if she gets too close melee her till she falls and back up, then 
+shoot when she regains her feet.  A few key crit shots and she goes 
+down really fast, but don’t go zooming in on her because she will 
+destroy you if you do.  After she gets low she will step up her melee 
+attacks and they become even faster and more devastating.  If you want 
+to end it fast, use a Limit Break and go after her, beating her down 
+every time you get close.  If you use Limit Break before she gets 
+below 50% you can throw fireballs at her when she’s in a corner and 
+she can’t ever recover.  That doesn’t work, however, as soon as she 
+starts leaping off the walls to attack you.  Eventually you’ll finish 
+her and you get another cut scene.
+----------------------------------------------------------------------
+
+After you regain control, buy anything you need and head into the hall 
+for another encounter with Azul.
+
+Auto Save
+
+During the video, Vincent makes the only joke I think you may ever 
+hear come out of him, and then you are thrown into a fight with……
+
+----------------------------------------------------------------------
+Boss fight: Azul the Cerulean
+This fight can be the easiest boss fight in the game if you do it 
+right.  You can’t shoot Azul because even a critical hit to the head 
+causes minimal damage, however, the explosive barrels will kill him in 
+no time flat.  As soon as the fight starts aim at the barrel to his 
+left and blow it up.  Back up and blow up the other two near him and 
+then hide behind the pillar to your right.  Azul has 3 attacks.  He 
+will shoot his cannon at you, he will use a machine gun or he will 
+slam the ground causing a shockwave in all directions.  The pillar 
+will block all 3 quite nicely, though you may want to jump to avoid 
+his shock wave just in case.  Run out and pepper him with bullets if 
+you want, just take care not to get hit with his cannon.  If you can 
+position yourself correctly behind the pillar you can shoot him with a 
+sniper shot and he cant hit you, when he is standing still this is 
+great for racking up the critical hits.  Eventually Azul will walk to 
+the center near more exploding barrels, just wait for him to do that 
+and shoot them when he is near.  The bigger they are, the harder they 
+fall.
+----------------------------------------------------------------------
+
+Chapter 5: Manor of Despair......................................cha05
+---------------------------
+
+Mission Objectives
+
+Eliminate the Sahagin!
+Sneak by the DG soldiers!
+Collect the Omega Report files!
+Deactivate the mines!
+
+As this mission opens Vincent finds out he is not alone in this sewer, 
+and one of the mission objectives is to kill all of the Sahagin.  They 
+are great targets because they run right at you and their weak point 
+is where the gun tends to auto aim, almost every shot yields a 
+critical hit.  The best strategy for killing multiple targets is to 
+back up and let them come at you and pick them off one at a time.  
+Kill the 3 in here and proceed down the hall, getting the items in the 
+rooms and killing the bad guy who jumps down at you.  To the right of 
+the laser gate is a ladder, go up and get the mana on top and jump 
+down.  In front and above you a mage like Sahagin will begin throwing 
+something at you, shoot him and several will jump down on top of you.  
+Kill them all and get the card key.  Keep moving through the sewer, 
+nothing you haven’t seen 100 times already will happen, just look in 
+all directions for items, don’t miss the Blizzard Materia to your 
+left.  Eventually one bad guy will give you a card key for a laser 
+gate on your left.  Inside you will fight a group of them and it will 
+lead to a case with 2500 gold.  Go across the sewer from there, up 2 
+ladders and kill all 3 monsters on top and use the switch to open the 
+gate.  Once that gate is open you can proceed to the next area, 
+explore some more and find the last few Sahagin to kill, the climb the 
+ladder past the gate you opened.  Once up the ladder, shoot the guard 
+you see at point blank range in the back of his head for a laugh, then 
+look above you.  Slowly move to the right and snipe the guard up there 
+and wait for his friend whom you will also kill.  On the other side of 
+the elevator are 2 more guards.  Past those 2 is a door you must duck 
+under.  Inside is a room with 500 gold and a power booster and an 
+infinite supply of Deepground soldiers.  Kill as many as you want for 
+XP, just remember your wasting a lot of health items.  Once you are 
+done, head back and get inside the elevator and step off on the 2nd 
+floor.  Take the mana behind the elevator and head down the hall, 
+killing the lone guard running up, and buy anything you need from the 
+machine.  Head back to the elevator and get off on the 3rd floor.  You 
+will cross a bridge in the next room and the door will slam in your 
+face, turn around and try to head back and the other door will close.  
+After this, the wall to the east will open and a series of soldiers 
+will come out to shoot you.  After you have killed them, the door will 
+close and the west side will open.  Kill that group and continue on…
+*Extra Hard Mode* Between the two groups inside the walls another 
+group drops down from the ceiling to attack you on the bridge you are 
+standing on.
+
+Auto Save
+
+Surprise! Now you get to play as Cait Sith for a short time.  Take a 
+right from the beginning and watch the video.  In this Stage Mission, 
+you can’t let any DG guards see you.  Fortunately those helmets they 
+wear seem to severely impair their vision.  Wait for the first guard 
+to turn his back and get behind the box.  As he comes back toward you, 
+sneak by him and go to the end of the platform.  Jump as far as you 
+can off and try to land on either the platform below you or the pipes 
+before it.  If you fall don’t worry, just climb the ladder back up.  
+Now you will need to get past 2 guards.  When they both have their 
+back turned follow the one on your right and get behind the box at the 
+end of his walking pattern.  Get close to that ladder and watch the 
+cut scene.  No guards can see you from where you are standing now so 
+don’t worry.  Look down.  There is a guard below you who walks back 
+and forth.  To your left are pipes leading up and you can see an 
+exploding barrel behind them.  You need to jump behind those pipes 
+when the guard below you has his back turned.  Careful not to go too 
+far though, because there is another guard on the other side who 
+wanders back and forth.  When that guard has turned around, move 
+toward the barrel and get a short cut scene.  When the timing is 
+right, walk up to it and push it at the guard to kill him. Careful not 
+to accidentally jump instead of pushing it or you’ll be seen.  If you 
+are, you can always restart from the beginning of the Cait Sith 
+mission, or make a mad scramble to the pipe.  Once that guard is dead 
+move down the path to the 2nd exploding barrel and another guard 
+beyond it.  Push it when both he and the first guard have their backs 
+turned and dash across.  Climb the boxes and jump behind the 2 guards 
+and climb into the pipe.  In the next area, wait till the guard on 
+your right heads around the pillar and run to your left, jumping over 
+the barrel, and push it on the guard below when he is in position.  
+Move past this area and time your next dash between the 2 guards 
+walking in a circle.  Jump into the pipe in your right.
+
+Auto Save
+
+Back to Vincent.  Head across the hall using the shop machine if you 
+need, but trigger the cut scene with Lucrecia.  A new Stage Mission 
+now becomes available, to find all of the Omega Report Files.  There 
+are 4 total.  I’ll guide you to them.  You have one already from the 
+cut scene, so no need to worry about that.  Start by going to the east 
+room and collecting the items there, kill the 3 guards.  Head back to 
+the room you regained control of Vincent in and head south.   A 
+soldier and his pet robot dog will attack you, and in the room to the 
+left is a potion.  Head to the right and open the sliding doors, kill 
+the soldier who runs in.  Exit the wooden door.  Across the hall is a 
+3 room area with 1 soldier and a mako field.  After that, head west, 
+kill the soldier and dog in this hall and enter the room on your left, 
+with a Limit Break and Bullets. Beyond that room is another with a 
+soldier and dog and behind the last bookshelf is the second omega 
+report.  Back into the hall, head east this time and keep going until 
+the end and you enter an area that looks like a cave.  There is a door 
+on your left here and inside may look familiar to the fans of the 
+Final Fantasy 7 RPG.  Square-Enix missed a great opportunity for a 
+nostalgic moment here, as this is where you meet Vincent for the first 
+time in the old game.  All they did was put a weak ninja type soldier 
+in the coffin where Vincent slept for 30 years.  Kill the guy and get 
+his 1000 gil drop.  Keep moving into the cave, killing the guards as 
+they show up.  When you get past the laser gate, it activates and a 
+Stage Mission begins.  You must deactivate 4 mines in the time limit.  
+It’s actually rather simple.  Walk until the beeping becomes fast and 
+then slow down, but keep moving forward.  When the mine appears, back 
+up a few steps and shoot it.  There are 4 total, 2 on the right wall, 
+1 on the left, and one in front of the laser gate on the other side of 
+the cave.  The last one you kill will drop a card key.  The next area 
+has a moving bridge you must activate to get across.  It doesn’t go 
+all the way across and you have to jump the last 2 feet.  You may want 
+to fall down once though to kill the dog and get the mana down there.  
+Keep going after this until you see a group of guards wandering by an 
+exploding barrel.  Shoot it and take them all out at once.  The door 
+to the left of the charred guards leads to an area with a shop 
+machine, mako field, and a few items, and eventually back to where we 
+started this part of the level.  When you have got what you need, head 
+back to the cave and continue on.  You will come to a room where 2 
+ninjas and a gunner will run at you, take them out and as you enter 
+the next area 2 guards will be shooting you from above.  Using a fire 
+materia is the best way to get rid of them fast.  Head up the spiral 
+steps and kill the 2 guards at the top and the 2 more that run in at 
+the same time you do.  The upstairs rooms of the Shinra Mansion have a 
+few items, make sure you kill the guards down below as you head into 
+the main area, and make sure you kill the guard in the far west room 
+to get the third Omega report.  Once downstairs, more guards will 
+spawn above you.  After you kill them, head all the way east, then 
+north, and behind the bookshelf is the final Omega Report.  The only 
+place left to go is west from the downstairs area.  Through the next 
+few rooms you will fight guards and eventually you will run into Rosso 
+the Crimson, who loves to monologue.  After listening to her talk for 
+far too long, there will be a chase scene that leads back to the main 
+room of the Shinra mansion (make sure to jump over the mines).
+
+Auto Save
+
+Here you will fight the Chapter 5 boss.
+
+----------------------------------------------------------------------
+Boss fight: Black Widow
+Another fight against a machine.  The secret to this boss is to never 
+stop moving.  He has 2 very mean attacks that can combo to take you 
+out in a snap.  As the fight starts he will charge you, knocking you 
+over if he hits you.  You have to keep strafing around him and 
+shooting.  If you run into a wall, start strafing back the way you 
+came, just don’t stop moving and don’t move in a direct line away from 
+him; always try to run in circles.  He will periodically stop and use 
+his beam cannon on you, which is easy to dodge if you just keep 
+moving, but will do tons of damage if it hits you.  After a while he 
+will climb up on the wall and shoot you with his machine gun.  You may 
+not even want to attempt to avoid this, especially if you decided to 
+buy the M Cerberus with additional ammo capacity.  Just trade bullets 
+and you will come out on the winning end.  Just make sure to start 
+running if you see his beam cannon charging.  What you want is for him 
+to crawl to the roof.  When he does that unload everything on him and 
+he will fall on his head, exposing his critical weak spot.  Shoot him 
+over and over if that happens.  While he is on his head, if you want 
+to end the fight in 10 seconds, switch to Limit Break mode and melee 
+him to death.  It just depends on how well your fights going, if you 
+have managed to avoid taking damage up to that point it’s probably not 
+necessary.
+----------------------------------------------------------------------
+
+Chapter 6: Deepground Strikes Back...............................cha06
+
+Mission Objectives:
+
+Destroy the helicopters attacking the base!
+Assist the WRO members!
+
+As the chapter opens you will fight 3 rocket launching robots at once, 
+just keep moving and it shouldn’t be a problem, make sure not to get 
+too close after you kill one or you will take explosion damage.  Get 
+the card key and head past the machine shop.  You will follow a path 
+through the woods, get out your rifle and snipe the guard dogs as you 
+see them, many times you can kill them before they see you.  You will 
+also pass a group of odd looking birds, I don’t know if they are 
+supposed to be chocobos or not.  Shoot them if you want, they drop red 
+potions.
+*Extra Hard Mode* At the end of this ravine there is a giant pink bull 
+(Dualhorn) who will charge you.  You can’t kill him, so duck behind a 
+rock and wait for him to go by; if he hits you it causes massive 
+damage. 
+
+*** update ***
+It would appear you can kill this bull; I did it by running through 
+the ravine with all the dogs on my tail and stopping just short of 
+where the dual horn spawns, then killing all the dogs at once to get 
+my combo meter up.  When the dual horn passed by I used the Ultimate 
+Weapon with the best medium barrel.  I hit his weak spot by standing 
+about 2 feet away when he passed by me.  It only took about 4 shots.  
+When you kill him you get the new weapon accessory, Manaheart, which 
+gradually replenishes mana.
+***
+
+Eventually you will come to a cave with a beetle inside of it.  Kill 
+it and move on slowly, taking out the 2 guards you hear talking.  
+After that, stop and look to your right, you will see a camp of DG 
+soldiers below you.  Your first target should be an explosive barrel 
+on the right side, after that use your rifle to look across the camp.  
+There is a hole and inside are several more of the beetles you just 
+killed.  Shoot them immediately after you shoot the explosive barrel 
+and they will run out and attack the surviving DG soldiers.  Pick off 
+anyone whose left during the confusion.  When you jump down, 2 
+soldiers will pop out from the tent to the left.  Kill anything left 
+in the camp and stock up on bullets at the shop machine.   Head into 
+the cave and assist the WRO members under assault at the end of the 
+path.  Aim for the barrels and use your rifle.  After you have 
+finished them off comes a Mission Objective, which is to kill the 
+helicopters who are attacking the WRO base, there are 15 total, they 
+attack in groups of 1 to 3 at a time.  You can use the mounted machine 
+gun to kill them, but a long barrel Cerberus is just as effective.  
+Additionally, if you use the mounted machine gun the missiles fired by 
+the approaching helicopters will cause damage to the WRO members who 
+will be standing next to you.  If you use the mounted gun, make sure 
+to jump out when you see missiles coming for you.  You will know when 
+you have killed a helicopter because the number on your screen will 
+advance, but it won’t crash, it will just fly off.  Don’t waste 
+bullets by shooting at it after its dead, even though the WRO members 
+do.  The helicopters attack from 4 directions.  Here is the order:
+First one from the NE
+Second from the NE
+Third from the NE
+Fourth from the NE
+Fifth from the SW
+Sixth from the SE
+Seventh from the NW
+Eighth from the NE
+Nine from NW
+Ten from NE
+Eleven, Twelve, and Thirteen from the NE together
+Fourteen and Fifteen from the NE together
+You may want to use the mounted gun for the last 2 because helicopter 
+15 has a lot of HP.  After the last one flies around a bit he drops 3 
+heavy armored swordsman.  Kill them and get the cardkey they drop and 
+move into the base.  When you come back outside, kill the guard in 
+front of you and the dog on the crate ahead of you and run to your 
+left behind the crate, killing the guard who will start shooting you 
+from the ground.  Be quick here because 2 snipers are on the bridge 
+ahead of you.  Get a location on them (they are just to the right of 
+the middle) and kill them with your rifle.  Move to the left and keep 
+your gun trained on the bridge, another sniper will appear.  When all 
+the initial guards are dead, move forward and more will spawn.  Just 
+run back behind the trailer and take them out with your rifle, there 
+are seven or eight of them.  Try to move forward again and you will be 
+delayed again by several dogs.  Now move forward.  On the second half 
+of this bridge you will be attacked by another dozen or so guards, 
+only this time you can’t be as conservative because WRO members are 
+also under fire.  It really just requires quick action and good 
+shooting to come out of this situation with all your allies alive and 
+most of your health.  Don’t miss the sniper on the bridge above you.  
+When all enemies are dealt with, head inside the open door and get 
+ready for some fancy shooting.  A WRO member will be under fire from 
+DG soldiers, and everyone is standing in a narrow hall with explosive 
+barrels all around.  If you run in guns blazing you will hit a barrel 
+and kill your ally along with the DG soldiers.  Just do your best to 
+quickly get a bead on the enemies and take them out.  Get the 1000 gil 
+and put on your long barrel weapon and head out.  You come to another 
+bridge like the one you just passed with crates randomly strewn about.  
+2 soldiers will pop out from your left as soon as you exit the base.  
+Kill them and the 2 more soldiers behind the crates.  Then take out 
+the 2 dogs and get the card key.  Head back into the base once again.
+
+Auto Save
+
+In this next area you will be attacked by DG soldiers hiding all over 
+the place, which includes on the rafters above you.  As you move 
+forward, more will spawn, so make sure to kill everyone you see before 
+heading deeper into the room.  After all are dead, slowly head up the 
+steps.  Don’t move more than 1 pace past the stairs and turn to your 
+right.  Make sure to stay as close to the edge of the building as 
+possible so as not to trigger the next boss fight, its best to try and 
+walk along the lip of the cliff that looks like a rusted iron support.  
+Follow around and move to where you saw the soldiers shooting you from 
+above.  There is a case up there with 5000 gil.  Grab it and head back 
+for another fight with the Black Widow.
+
+----------------------------------------------------------------------
+Boss fight: Black Widow II
+Same guy as before really, only this time he has 4 soldiers to help 
+him.  If this is Normal mode you should be able to take them out with 
+1 shot, so if your strafing skills are up to par you can just move in 
+a circle around him and take out the guards as they come into your 
+field of vision.  There are a few things you can do to this boss.  You 
+can use the same strategy as last time and run circles around him, 
+avoiding his charges and beam cannon, just try not to fall off the 
+platform.  You can Limit Break and melee him to death real fast.  His 
+weak spot is under him, and if you can get him positioned to fire at 
+you while you are standing on the steps leading up to the platform you 
+can get repeated critical hits from below him.  You can also run back 
+to where I told you to get the case with 5000 gil and hop on a mounted 
+machine gun and blast away.  That is dangerous though because you 
+can’t avoid his beam cannon if he decides to use it.  You must also 
+use the mounted gun to blast any incoming missiles because you can’t 
+avoid those either.  Whatever you pick, he isn’t any harder than 
+before.
+----------------------------------------------------------------------
+
+Auto Save
+
+You are now in the ruined WRO building, get the mako field behind you 
+and go down the hall, there is a DG soldier around the first corner.  
+When you open the door ahead of you there is a big fight going on.  
+Your first target should be the rocket launcher to your left.  After 
+that pick off the regular soldiers one by one and move fast so you can 
+save your allies.  Head into the room beyond and kill the 4 DG enemies 
+you will encounter in this hall.  Keep going and watch the long cut 
+scene.  Mission over.  Either way you choose to allocate your XP 
+points for chapter 6, I suggest you don’t spend any money yet, because 
+there is a shop machine in the next chapter which sells items you 
+can’t buy at other shop machines and it sells bullets for 10% of their 
+normal price.
+
+Chapter 7: The Shera.............................................cha07
+--------------------
+
+A breather chapter, there are no enemies to fight.  When you have 
+control of Vincent, go talk to any of the crew you want, none of them 
+say anything relevant.  Head outside and to your right is Yuffie, talk 
+to her and keep going to the right, past the door you will come to and 
+to the end of the hall.  Inside is Shelke, talk to her and then leave.  
+Go back to the door you passed.  The discount shop machine is here; 
+you can buy and do any upgrades you need.  Talk to Reeve and then 
+watch the cut scene that unfolds.
+
+Auto Save
+
+When you have control again, go talk to Cid 2 times, Yuffie, and then 
+talk to Reeve until Cait Sith tells you to go get some rest.  Go back 
+and talk to Shelke again and then head back to where Yuffie is, go 
+into the door you haven’t entered yet and down into the engine room.  
+As you try and leave, another cut scene occurs ending this chapter.
+
+*Note* Chapter 8 is divided into 2 sections
+
+Chapter 8:  Midgar Assault.......................................cha8a
+--------------------------
+
+Mission objectives for part 1
+
+Escort the WRO squad to the central complex!
+Save the surviving WRO members!
+Defeat the Deepground commander!
+
+Many areas of this chapter are a maze, as the majority of it occurs in 
+the Midgar train graveyard.  I’ll do the best I can to guide you.  As 
+the level opens you will see 2 WRO members ahead of you who run into a 
+line of bullets and get mowed down.  I don’t think it’s possible to 
+save them.  Shoot the barrel on the right side of the group of enemies 
+to take them all out at once.  There is 2000 gil behind a crate in the 
+SW corner of this area.  Move until you see a shop machine and a group 
+of WRO soldiers who are lost, you have to escort them to their 
+commander.  After the initial fight with the DG soldiers you encounter 
+after agreeing to help the WRO keep moving past the open door and 
+rescue the WRO soldier who is hiding behind the box, then come back 
+and head inside.  Through the hallway is an area with a group of DG 
+soldiers waiting for you.  Kill them with 2 blasts from fire materia 
+and get the card key.  Outside is another fight.  There is a sniper on 
+the tower behind you.  Keep going until the next cut scene and another 
+fight begins.  When you have control again, turn around and head back 
+up the way you came and kill the guards sneaking up behind you, then 
+run back and assist the WRO members with the remaining DG guards.  
+After all of them are dead, walk to the laser gate.  You don’t have 
+the card key yet so turn around and head back the way you came.  A 
+heavy armed swordsman will drop down.  Kill him and get the card key.  
+There is another fight in the next alley, if you run ahead far enough 
+you can take out all the soldiers before your allies even show up.  
+Keep going to the laser gate and when the WRO members get there, they 
+will be assaulted by guard machines like the ones in the training 
+mission.  Kill them all (fire materia works great) and get the card 
+key.  Head inside.
+
+Auto Save
+
+As you exit the building, look up and to your right. There is a sniper 
+on the tower.  There is a mako field behind the train ahead of you 
+here; you have to jump over some boxes to get there.  
+
+*Extra Hard Mode* there is also 10000 gil in a case behind these boxes
+
+There is 2000 gil behind the tower you shot the sniper on, grab it and 
+head to the right at the fork.  Get the 2000 gil in this area and head 
+back to take a left.  Jump inside the abandoned train and head inside.  
+When you jump out, look for 2 more snipers on another tower to the NW.  
+When you have killed them head along the path until you reach a point 
+where you see 2 WRO members shooting at some enemies who are behind a 
+train.  Do not run out to assist them.  Look to your right.  You will 
+see another tower.  On top is a foursome of DG soldiers with mounted 
+machine guns, one facing each direction.  You need to snipe/fire 
+materia the 2 that can shoot you from here.  Next, use your rifle and 
+crouch down, but do NOT approach the 2 soldiers under fire.  Turn to 
+the train blocking your view of the soldiers currently shooting at 
+your allies.  If you run too close to the WRO members they will 
+automatically be blown to bits by a rocket launcher.  If you are in 
+the crouched position with the scope on though, you can see the legs 
+of the soldiers they are fighting.  You need to kill the soldiers by 
+shooting them from under the train.  You will know when it is safe to 
+approach because your WRO allies will stop fighting and move to 
+positions of safety behind the train.  Afterwards, as you move 
+forward, a group of soldiers runs out to fight you.  For some reason 
+in this game, Vincent can not hit targets which are moving into a 
+fighting position to save his life.  So back up and wait for them to 
+all get ready for you, then run out and kill them.  Around the next 
+corner are 4 WRO members being attacked by the 2 remaining mounted 
+machine guns.  Kill them as fast as possible; else you will lose some 
+allies.  Under the tower is a box with another 2000 gil.  In the next 
+building are 3 DG soldiers and another 2000 gil.  Once you exit, the 
+next area has no enemies, but another 2000 gil and a limit breaker can 
+be found here.  Go into the next building.  2000 more gil on your 
+right, and another 2000 on the west wall.  Eventually you will enter a 
+train with a soldier who is apparently blind.  He tells you he 
+searched all over for the exit but could not find it, despite the fact 
+that it is 2 feet away.  Shelke helps you out and you can use the shop 
+machine here before you enter the next area with a mini boss fight.
+
+----------------------------------------------------------------------
+Mini-Boss fight:  Deepground Commander
+The only thing that makes this challenging is the number of enemies.  
+Take out his normal soldier bodyguards and ignore the rocket machines, 
+just make sure to keep moving so you don’t get blasted.  After the 
+soldiers are dead, kill the machines and then focus on the Commander.  
+You’ll get really tired of hearing him yell “HAIL WEISS” over and over 
+again and you want to kill him just to shut him up.  After his initial 
+group of allies has been slain, he summons 3 heavy armored swordsmen.  
+He has quite a few HP, but he’s nothing special.  Get his card key and 
+the 2000 gil behind the train to the east.
+----------------------------------------------------------------------
+
+Go back and buy anything you may have consumed during the fight from 
+the shop machine and head into the underground alley.  Get your sniper 
+rifle out and turn to your left, getting against the wall.  Turn 
+around and look at the soldiers at the other side of the tunnel.  
+Snipe the one in the middle and if you can kill him in 1 shot he won’t 
+warn the others in the hallway beyond.  Kill his 2 friends, and if he 
+did get to yell out, kill the heavy armored swordsmen who come in to 
+help.  If he did not call a warning, snipe the 2 swordsman when they 
+aren’t looking in the next hallway, and use the fire materia to kill 
+the enemies who run in at the end of the final area.  Now you are back 
+outside.  If you take a left you come to a train with a shop machine 
+inside of it and 2000 gil beyond.  To the right is a mako field.  When 
+you are ready, head to the center of this area and to the North, you 
+will encounter another boss fight here.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Shrikes
+
+This fight is very annoying.  These guys share a collective life bar 
+like the Pegasus Riders, so you only need to hit each one a few times.  
+In the beginning, try and take at least one out before they have a 
+chance to split up and you lose line of sight on them.  The best thing 
+to do, as soon as the battle starts, is to target one and shoot it 
+while you are backing up as far as you can.  They all fly over your 
+head and if you keep them in your range of vision at the beginning, 
+you can take out 3 or even 4 before they break formation and begin 
+traveling in random patterns.  Eventually they will be flying all over 
+the place shooting you from all different directions.  Use your damage 
+indicator map to see where they are coming from and search the sky for 
+targets.  You may be tempted to stand next to the trains to prevent 
+taking damage from all directions, but this severely impairs your own 
+vision and you lose sight of targets much too fast.  Just keep moving 
+and blast away when you get one in your crosshairs, none can last more 
+than a few hits.
+----------------------------------------------------------------------
+
+This is the end of part one of chapter 8, you allocate your XP points 
+and upgrade here.
+
+Chapter 8, part 2: Fight for the Central Complex.................cha8b
+------------------------------------------------
+
+Mission Objectives
+
+Avoid the aerial mines!
+Destroy the robotic assault units!
+Assist the WRO members!
+Defeat the sentry robots!
+
+Follow the WRO members and kill the 3 guards on your left, getting the 
+card key.  Open up the laser gate and as you walk through a horde of 
+enemy soldiers will attack.  Just kill them as best you can, once 
+again, fire materia to the rescue.  Follow the route and take out the 
+enemy soldiers until you get to another group of WRO soldiers.  At 
+this point a stream of DG soldiers will come out of the room to the 
+left.  You can use the mounted machine gun to kill them, but it is 
+much more efficient to just blast them as they run out of the room one 
+by one.  
+
+*Extra Hard Mode* There will be 3 mounted machine guns the DG soldiers 
+will use as they run out of the hallway.  The best thing to do is get 
+behind them so the enemy soldiers will be in a crossfire between you 
+and your WRO allies.  Snipe them, as they seem to have trouble 
+targeting you when you are that close.
+
+Continue until you reach a ladder and you are thrown into a Mission 
+Objective of avoiding the floating mines.  It is not that hard, just 
+wait until more than 1 laser gate is down in a row to minimize the 
+amount of time spent in their path.  Halfway through, a DG soldier 
+will appear in front of you, shoot him before he begins blasting.  
+Continue on and assist the WRO members against the DG soldiers in the 
+next room.  Follow the soldiers who run into the next area.
+
+Auto Save
+
+Here you must destroy the assault robot before he reaches the end of 
+the hall.  It’s no big deal if you fail.  The only way to do it is to 
+run all the way to the steps before he enters the hallway and shoot 
+his weak underside before he comes down, scoring a few critical hits, 
+then back up and fire while he chases you to finish him off.  If he 
+makes it to your WRO allies they will die, and if he runs into you he 
+blows up for big damage.  After the next shop machine is a soldier at 
+the end of the hallway with a mounted machine gun.  If you can 
+position yourself exactly right, you can snipe him between the pipes 
+on the wall and he can’t hit you.  Alternatively you can use Limit 
+Break and your defense is so high he can hardly hurt you as you run 
+down the hall after him.  Kill him and head back the way you came into 
+a room with a maze of laser gates.  If you look closely, in this room 
+are several black mines, shooting them deactivates certain gates.  
+There are 5 total, they aren’t hard to find.  Shoot them all and get 
+2000 gil and a Hi-potion.  Go back to the mounted machine gun.  For a 
+bit of fun, you can hop on and about 10 DG soldiers come running down 
+the hall after you.  This part is completely optional.  Up the ladder, 
+kill the girl that comes out of the room to the right.  Put on your 
+rifle and run past the room she came out of to the WRO soldiers.  You 
+must duck and use your scope to kill the DG soldiers who attack your 
+allies here; you need to fend them off until the WRO have managed to 
+open the lock.  The super high tech strategy for opening it is to 
+whack it 40 times with the butt of your gun.  After this is over, 
+follow the soldiers down the hall and save them from the assault.  DG 
+soldiers will shoot down barrels, you have to shoot them many times to 
+blow them up, and you need to blow them up before they reach the 
+bottom, else your allies will be killed.  Once you are done here, head 
+up and get the items, especially the G-Report file.  There are 3 of 
+these in the game and if you want the “secret” ending, you need to get 
+all 3.  More details on this at the bottom of this guide.  Head back 
+to the room you passed before and kill the half dozen soldiers inside, 
+and head into the elevator.
+*Extra Hard Mode* in addition to the fact that there are more soldiers 
+in this room.  A mine will be dropped every few seconds from the 
+ceiling.  You have to keep moving or it will blow up and do about 50% 
+damage to you.
+Up the elevator there is another suicide machine you have to kill 
+before it reaches your allies.  Good luck with this one.  You can run 
+into it and blow it up yourself before it kills the WRO members if you 
+want to save their lives.  Up the steps is another Mission Objective.  
+You have to kill all the sentry robots.  Just run into the elevator 
+but don’t hit the button.  They can’t follow you and you can shoot 
+them.
+*Extra Hard Mode* Apparently Square-Enix knew about that trick because 
+there is a laser gate in front of the elevator.  Oh well, they are 
+just sentry robots.
+Get in the elevator and equip your rifle.  Once upstairs, don’t come 
+out of the elevator yet because there are more sentry robots.  Use the 
+rifle to snipe the 2 rocket launcher enemies at the end of the hall.  
+Just move back and forth to avoid the rockets.  Once they are dead 
+head out of the elevator and spawn more sentry robots.  Use the same 
+trick as before to kill them.  Down the hall is another shop machine, 
+use it before you exit the area and you will encounter...
+
+An Auto Save!
+and also...
+
+----------------------------------------------------------------------
+Boss fight: Bloodburst Rosso
+Listen to her flap her gums again and after an eternity she will start 
+attacking you.  You need to be constantly moving to avoid the bullets, 
+and make sure to be ready to double jump out of the way when she 
+charges.  She can be hard to target because she sprints around so 
+fast, but just keep strafing and wear her down.  There are lots of 
+ammo boxes around, so you can pick up anything you are low on.  After 
+she is hurt about 20% she talks some more and then rejoins the fight.  
+Now she starts hurling slow arcing discs at you, they are harder to 
+avoid than missiles, but can be done with quick dashing or jumping at 
+the last second.  Another way to avoid them is to fight near the giant 
+pipes and move Vincent so the discs crash into them instead of him.  
+Listen to her totally sexy and never tedious Russian accent as she 
+taunts you over and over and over and over again during the fight.  
+Use the same strategy as described above, just being careful to avoid 
+her discs and her other new attack, which sends a streak of light 
+toward you in a quickly moving line that will knock you over if it 
+hits you.  If you use Limit break and can get her pinned against the 
+wall, you can hurl fireballs over and over and she can never get up.  
+You should be able to outlast her with a full assortment of items.  
+Just stay far away and use a long barrel, and keep moving.  After you 
+beat her, more talking and she commits suicide just before Vincent 
+slits his own wrists so he can stop hearing her voice.  End of chapter 
+8. 
+----------------------------------------------------------------------
+Once again, don’t buy any items at the break between 8 and 9; just do 
+the upgrades if you can afford them.
+
+Chapter 9: An Empire in Ruins....................................cha09
+-----------------------------
+
+Mission Objectives
+
+Collect top secret Deepground data files!
+Destroy the surveillance mines!
+
+Begin the mission by running and collecting all the items you can from 
+the courtyard, then head to the shop machine and get the items you 
+need.  Head inside and take care of the ninjas in here.  When you 
+reach the east side of the 2nd floor, a group of enemies will run in 
+from the entrance of the building.  Kill them as they come through the 
+door.  Head up to the third floor and drop down the elevator shaft 
+after you get the 1000 gil case.  Head through the hallway area, 
+killing the bugs who jump at you and Vincent will shoot out a grate to 
+lead him to the next level down.  In this new hallway as you walk 
+forward a dog and 2 soldiers will come around the corner.  In the next 
+room soldiers will run in on the top walkway and start to shoot you.  
+More will come from the other side after that.  Continue into the next 
+room with the bug on the window.  Another will drop from the ceiling.  
+In the next room a bug is guarding a mega potion, if you shoot him a 
+group of them will drop from the ceiling.  Keep going and shoot the 
+barrel you see when the DG soldiers run out in front of it.  In the 
+next room a dog will jump over the lockers to attack you and more 
+soldiers are on the other side.  Keep going until you reach a room 
+with no enemies in it and several exploding barrels and boxes.  Don’t 
+shoot any of them.  As you enter the room, a DG soldier will run in 
+from up top. Kill him quickly.  Now look up.  See that case floating 
+in mid air?  If you haven’t already blown the barrel under it to bits, 
+jump on top of it and then double-jump to get the 5000 gil inside the 
+case.  In the next hallway, you will get a quick cut scene of bugs 
+landing behind you.  Use a fire materia blast to take them all out and 
+then run down the hall.  The bugs will spawn forever here, your only 
+choice to get away is to open the 2 doors and run into the next room 
+past the mako field where you will fight a boss.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight:  Black Widow TW
+Deepground loves these machines.  This time there are 2, one on the 
+ceiling and one below it.  This encounter is probably the easiest of 
+the 3 however.  If you have the Quantum Cerberus you can take out each 
+robot with 1 clip, you may not ever even have to move.  Target only 
+the lower one at first and just blast it to death.  Your strategy 
+shouldn’t be any different than before, you just have less room to 
+move around here.  I suggest staying in front of both of them the 
+whole time however, the BW on the roof will drop bombs if you run near 
+him.  After the lower one is dead get the one on the roof.  He’s 
+pretty easy.
+----------------------------------------------------------------------
+
+Get in the elevator and head down.  Your new mission objective is to 
+find the secret Deepground files, there are 5.  There is no map here 
+so I’ll just say start by going in a clockwise direction.  The first 
+corner room has sentry robots and a Limit Breaker/Mako Field.  The 
+next room has no enemies, just 3000 gil.  Next you will see a door, 
+don’t go through yet.  The next room has 2 guard dogs and a DG 
+soldier, and a case with machine gun bullets.  The last room has the 
+first Top Secret File.  Now go back through the door you passed.  
+Through the next hallway are 2 flying soldiers, they have far fewer HP 
+than the boss ones you fought earlier, just shoot both of them twice 
+and they will go down.  The next 2 rooms have normal soldiers; you can 
+deal with them, but make sure to grab the second Top Secret File in 
+the room with the 2 dogs and female DG soldier.  As you walk around 
+the next hallway, 2 soldiers will pop out and run away from you, just 
+shoot them in the back.  More soldiers come out of the next door and 
+then you get to another cut scene.  After this you have a map of the 
+complex.  The next area leads to an elevator and a new Mission 
+Objective, which is to destroy the floating mines.  Do not get too 
+close to them when you shoot because they blow up.  If you blow up one 
+while it’s near another, it will chain kill them. Once you are down 
+the elevator, head out the door and across the bridge.  The next door 
+leads to a large room that is sub-divided into 4 smaller rooms.  In 
+the First, second, and fourth rooms you will have to fight DG soldiers 
+who are so well entrenched you will probably lose a lot of life in the 
+process if you don’t do it right.  To beat them, you need to get into 
+the room before they do and shoot them as they come through the door.  
+If you waste all your potions go back to the shop machine at the 
+bridge you passed to get here.  The final 3 Top Secret Files are in 
+this area as well, in the first, third and fourth room.  The next 
+hallway has soldiers who shoot you from behind shields.  If you have 
+the mana, a few fire materia blasts will take care of them, otherwise 
+you’ll have to snipe them.  The next bridge leads to another elevator 
+with mines to kill.  This time, however, they move faster and pass 
+overhead, which means if you blow them up while they are above you, 
+you’ll take lots of damage.  Also, soldiers come to shoot you on the 
+way down.  At the bottom head out and into a room with 3 heavy armored 
+swordsmen.  Just run away from them and shoot them.  Go through the 
+next hallway, and in the next room you fight 2 rocket launcher enemies 
+in close proximity.  Don’t get hit with 1 missile because a second is 
+always close behind.  Use the exploding barrels.  Travel again down 
+the hall, killing the enemies as they pop out until you reach a room 
+with a shop machine.  The next room has the final boss of this level.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss Fight: Neo Azul/Arch Azul
+His first form is exactly like has old form, except you can damage him 
+for normal damage instead of being forced to shoot barrels.  Use the 
+same strategy, he’s super easy.  The fight becomes challenging when he 
+switches to Arch Azul, the bull on crack.  He will charge you and ram 
+you with his head if you get too far away, it can be dodged but it’s 
+hard.  He also can’t be damaged by bullets.  You have to melee him to 
+death.  The problem is that when you get too close to his head he 
+swipes you for big damage, and if you try to approach anywhere else he 
+swing his tail around for even bigger damage.  The secret is to run in 
+to his front side and hold for a split second, then run out again 
+which will trigger him to use his claw swipe.  After he does that jump 
+in and 3 hit combo him while you are in the air, then wait around in 
+front of him again until it is time to dodge him claw swipe.  If you 
+are good enough you can get him in a forever loop like this and as 
+long as you dodge his claw every time, you can kill him and he won’t 
+even move.  I usually 3 hit combo him, when I land I turn a circle on 
+the directional stick as fast as I can and end with me facing away 
+from him, then I run away just in time to avoid the claw.  I jump back 
+in for another 3 hit combo and repeat the process.  Your Limit Breaker 
+form does a lot more melee damage, but it is harder to avoid his 
+attacks because after you slam the ground you are vulnerable.  The 
+difference being that it only takes 3 or 4 rounds of melee attacks to 
+finish him in Limit Break form, even on Extra Hard mode.  After you 
+get him low you can use ice materia to finish him off.  Also, after he 
+gets below 50% he starts using a missile attack.  You will see him 
+charge energy from his horns and shoot them at you, they aren’t hard 
+to dodge.
+----------------------------------------------------------------------
+
+Chapter 10: Shinra’s Dark Secret.................................cha10
+--------------------------------
+
+Mission Objectives
+
+Eliminate the pursuers!
+Swiftly neutralize the enemy onslaught!
+Defeat 100 enemies!
+
+As the mission opens, you are on a platform overlooking an underground 
+city.  As you walk forward, you will have to kill a swarm of 
+gargoyles.  They can be hard to find sometimes.  After you kill them 
+all and the soldiers that pop out, you get a card key.  Jump down, 
+kill more bad guys and head down the hall with the mako field.  When 
+you come out you will be on a platform with 2 soldiers on the steps 
+below facing the other way.  Snipe them real quick but don’t head down 
+the stairs just yet.  See that case ahead of you in the crevice? There 
+is another crevice to the left of it.  Take a note of it  Also, do not 
+shoot the barrels on the far side of the room.  Now head down and a 
+soldier will start shooting you from the platform to your left.  Kill 
+him.  As you run down the steps, a laser gate will activate and 2 
+aerial mines will pop out, only these start spraying bullets in all 
+directions and moving back and forth.  These things have a lot of HP 
+and the best way to avoid getting hurt is to run into that crevice I 
+pointed out and shoot them as they fly by.  The bullets rarely hit you 
+there.  Once again though, if you kill them when they are too close 
+you will take damage.  Get the card key and jump down, try to avoid 
+the barrels that will start rolling at you.  On the next platform 
+there are many items to grab, but a DG soldier grabs them first.  If 
+you can kill him before he gets them I tip my hat to you, I have never 
+been able to.  Keep moving along and when another laser gate blocks 
+your way, a heavy armored swordsman will advance on you from behind 
+and several DG solders will start shooting you from the other 
+direction.  Your best bet is to kill the swordsman before he gets to 
+you, he drops the card key.  Now turn around and take care of the 
+gunners.  You can do this quickly by shooting the barrels above them, 
+which will fall and explode.  If you already blew up the barrels, I 
+guess you just have to take them out the old fashion way.  In the next 
+area you encounter some of the most annoying enemies in the game; a 
+soldier who can’t be killed with bullets.  The have the protection 
+spell on them.  When you begin the fight, take out the commander in 
+the center who CAN be killed with bullets, it will just take several 
+shots to the head, the dude has a lot of HP.  Then go around and melee 
+the other 4, you can also use magic on them.  In the next room, before 
+you jump down, you can snipe the 3 guards you will see walking around.  
+Make your way down to the bottom floor, more guards jump out at each 
+level.  Get the card key and head back up to the laser gate.  Once you 
+are in the next hallway, move slowly into the room and some bullets 
+will rain down from above.  After the spray, move forward to the next 
+corner and as you turn, more bullets come down.  Then run to the end 
+of the hall.
+
+Auto Save
+
+Jump on the cart and away you go.  You have a mission objective here 
+to eliminate the enemy pursuers.  You can shoot them or the cart they 
+are on.  I suggest the cart because that also counts as one of the 
+targets to eliminate and if it dies, so do they.  The last pursuer is 
+a helicopter.  I think it follows the same rules as the ones from 
+chapter 6.  Even if you destroy it, it won’t stop flying its route.  
+Every single time I have killed it, it died at the last possible 
+second, I don’t think that is a coincidence, just that I had done 
+enough damage throughout the chase that it was considered dead long 
+before it blew up.
+
+*** update *** Upon replaying this part, I did in fact confirm the 
+helicopter will die automatically at the end of the chase, assuming 
+you did enough damage to him
+***
+So just shoot it until it moves out of your line of sight behind some 
+buildings and when it comes back and starts blowing up chimneys, save 
+your ammo.  If you have been scoring hits the whole time previous it 
+will die.  Continue along the path and don’t worry when it falls out 
+from under you, you can’t get across anyway due to the invisible 
+barrier.  Exit the pipe.
+
+Auto Save
+
+For some reason, in this area alone, Vincent starts talking to 
+himself.  I don’t know why.  In front of you is an explosive barrel, 
+don’t bow it up.  Use the shop machine if you need and then kill the 
+soldiers to the east.  Follow this path and kill the Protection 
+Soldiers who jump out.  After you kill them and their buddies, turn 
+around and aim at that barrel I told you not to shoot (you didn’t 
+shoot it anyway did you?).  Use it to kill the guards who show up and 
+quickly run back to get the elixir and 5000 gil, they disappear rather 
+fast.  Keep moving and 2 more Protection Guards pop out with a friend.  
+Kill them and on the same roof they are on is another of the “secret” 
+ending G reports, that’s 2 of 3.  There is 3000 gil in the case above 
+it.  In the next building, 3 ninjas will jump out in a small area.  
+Kill them, get the card key and in the next hall a heavy armored 
+swordsman appears.  Kill him and move on.  Use the barrels to kill the 
+guards below the next area and take out the other guards who aren’t in 
+the blast radius.  As you progress, you will hear Vincent say 
+“Great...snipers.” Look to the rooftops and try and shoot them before 
+they see you.  Don’t go under the bridge with the case yet.  There are 
+a total of 4 snipers in Normal mode, a lot more in Hard/Extra Hard.  
+Now get the card key, backtrack and go under the bridge.  You will 
+pick up a new weapon, the Blast Machine Gun.  If machine guns are your 
+thing, you may like this one.  It does less damage but knocks over 
+enemies that it hits.  You can’t upgrade it.  Time to move on.  When 
+you progress past the laser gate here you will see a box on a brick 
+balcony above you.  Don’t shoot it.  Instead, use a sniper scope to 
+aim past it and you will see an explosive barrel.  Shoot that instead 
+and it knocks the box down to reveal a Fearie L Barrel, which has 
+better speed and weight than a normal long barrel, but less damage.  
+Jump over to the next area and you see a mounted machine gun.  Hop on 
+and start a Mission Objective, which is to kill the enemy forces as 
+fast as possible.  I believe it must be done in under 2 minutes to get 
+the best score.  Just kill bad guys as you see them.  You will know 
+you are at the end when 2 Black Widow type robots appear.  The second 
+one drops a keycard.  Use it to open the gate behind the mounted 
+machine gun rather than the one in front.  Get those items and the 
+extra key card and then move forward.  Kill the spawning bad guys and 
+move past the laser gates blocking your way to about 5 or 6 boxes.  
+Around the corner above you are 4 barrels.  Shoot the second one and a 
+Cactaur pops out.  I haven’t been able to kill him, feel free to email 
+me if you know what he drops.  Head inside the room with all the boxes 
+and pick up the gil.  You will be attacked by Protection Soldiers from 
+the other side of the laser gate and normal soldiers from the exit to 
+the room.   Once you have killed them all head to the shop machine and 
+stock up.  When you cross the bridge, the laser gates will activate 
+and you will have to fight several waves of bad guys.  Use the Limit 
+Break if it gets overwhelming.  After that, cross over and...
+
+Auto Save
+
+After the cut scene you can’t go back, so the only direction is 
+forward.  Get anything you need from the shop machine and head up.  
+Kill the soldiers that pop out, the shop machine up here is a soldier 
+in disguise.  In the next room you have an option of how you want to 
+progress.  The first thing you should do is shoot the barrel above the 
+exit door.  Now, look at all the black bombs.  You can sneak by them 
+slowly if you want, or you can shoot them.  If you choose to blow them 
+up by shooting them, or involuntarily blow them up by stepping on 
+them, a group of soldiers run out below you and start blasting, watch 
+out for the rocket launcher.  Once past this room you see a hallway of 
+boxes.  Shoot the boxes and kill the soldier that pops out, but don’t 
+run into the room yet.  After all the boxes are gone, run halfway into 
+the room and then back out to where you were.  A soldier should pop 
+up. Kill him and wait for the aerial mine to blow itself up.  Then 
+sprint across the room avoiding the other mines.  The next area has an 
+unending supply of exploding barrels being thrown over the wall, and a 
+soldier who jumps down when you open the gate.  You can shoot them 
+(the barrels) over and over to get kill chains up if you want.  When 
+you are ready to go, just wait until both barrels are thrown over the 
+edge at approximately the same time and run.  Past this room is 
+another, and when you enter it, a timer starts.  If you wait out the 
+timer, a Cactaur appears on the opposite side of the broken bridge you 
+can’t cross.  He disappears real fast and I have never been able to 
+kill him.  Make your way and out onto the steel steps.  Across the way 
+you will see a roof with some soldiers hiding on the other side.  
+Shoot one and 5 run out.  Kill them all.  Now look to the NE.  You 
+will see a sniper on the roof.  You need to kill some soldiers in a 
+certain order here or they will all start firing on you.  Kill the one 
+in plain site on the rooftop.  Now look down/left.  You will see 
+another in a window, kill him.  Now kill the other one in plain site 
+who was below the first.  Move down to the item case on the balcony 
+below you and zoom in on the ground.  Snipe the gunner on the mounted 
+machine gun, which will cause alarm.  Kill at least one more before 
+they see you.  Now look top left at the barrel on the rooftop.  Shoot 
+it, it will fall and blow up a few more soldiers, then move down the 
+steps.  Use the shop machine and snipe the far soldier from the window 
+in the next room.  Then head downstairs, kill the soldiers 
+congregating at the door, walk out and look top/left for a sniper on 
+the roof.  Kill the other soldiers that jump down and get the key 
+card.  Now you have an option.  If you want to participate in the 
+optional Mission Objective here, go back to the shop machine and buy 
+every potion and bullet you can and come back out, head through the 
+laser gate to the east in front of the mounted machine gun.  Go down 
+and kill all the enemies in the room, get another shop machine spawn 
+and use it if you need.  Continue along here and you will find 
+yourself in a room where the mission objective is “Kill 100 enemies”.  
+You must kill all 100 without dieing or leaving, which you can do at 
+any time; you just can’t come back in.  You can also be knocked out of 
+the room from a rocket blast.  If you finish it you make almost 90,000 
+gil after you sell the gold moogle doll reward and collect the drops, 
+plus the tons of XP.  It’s your choice.  The only advice I can give 
+you is to kill the snipers that appear on the roof as soon as they 
+spawn every time, they will cause the most damage by far, assuming you 
+can dodge the rocket launcher attacks. 
+
+*** update ***
+You can in fact reenter this room after you leave.  In fact you can go 
+back to the shop and buy back all the potions you used and then do the 
+mission as many times as you like.  Great for money/XP, bad for your 
+mission score.
+***
+ 
+If you decide to skip it or you have finished the side mission, go 
+back to the other laser gate but keep going past it to the end of the 
+rubble.  Look to your right and you will see 2 mounted machine guns 
+and 2 soldiers.  Kill the bottom machine gun first, then the top and 
+then the 2 regular soldiers.  Go past the laser gate now and get the 
+3000 gil and mako field.  Head down and you get another Mission 
+Objective, which is to find 4 items in this area.  In order to get 
+them you need to follow these instructions and don’t use any of the 
+card keys until you have collected everything you can.  Start by 
+taking a right and killing the guard who pops up.  In that pipe is a 
+mine on the ceiling.  Shoot it and get the card key.  Next go up to 
+the mounted machine gun and look across the path to see a box, shoot 
+it down, but before you go get the key inside look to your right, 
+there is an exposed pipe with a mine in it. Shoot that mine.  Now go 
+down and get the 2 keys.  Go back to the machine gun and keep moving 
+past it, kill the 2 guards in the path.  Climb the ladder past the 
+second guard and see the card key at the top; you have to jump from 
+the top of the ladder to get it.  Climb the 2 ladders and blow up the 
+box at the top for another key, there is also one hidden behind the 
+shop machine up here.  Jump down and follow the path till you reach a 
+small cliff.  There is a card key at the lip of it, slowly move 
+forward and get it, but don’t fall because you can’t get back up.  Now 
+head back to the beginning, there is a gate with 2 card keys behind 
+it, open it up and get them.  Now go back to where you saw 7 gates in 
+a row, open them all up and get the Lucky S Barrel.  When you kill 
+enemies with this, you get extra XP.  Pretty useless this late in the 
+game, but if you plan on doing Extra Hard Mode you will have it the 
+entire time.  Go now and open all the remaining gates.  One has 
+Bayonet Rifle which allows for more melee damage and one has Elixor, 
+which fully restores all HP and Mana and adds a Phoenix Down effect, 
+and one is a normal Limit Break.  Go back to the cliff from before and 
+jump down, get a cut scene.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Nero the Sable
+You finally get to face off against this guy, and it’s a rather 
+disappointing fight.  If you have the Quantum Cerberus on normal mode 
+you can out-damage him simply by standing there and shooting and using 
+a Hi-Potion when you are low.  Eventually he will split into 3 forms, 
+just focus on one at a time.  He may blast you with some energy attack 
+you can dodge, he also has a spinning melee attack you can double jump 
+away from.  If you get in trouble, for some inexplicable reason there 
+is a shop machine here.  Use it to buy potions/bullets and come back 
+to finish him off.
+----------------------------------------------------------------------
+Chapter 11:  Beginnings..........................................cha11
+-----------------------
+
+Mission Objectives
+
+Defeat the gargoyles!
+Defeat the gargoyles 2!
+Defeat all the targets on the central pillar!
+Defeat the gargoyles 3!
+
+Start the mission by collecting the cases and mako field in front of 
+you.  As you follow the path, two Protection Soldiers will attack.  
+Kill them and the sentry robot.  Beyond them is another PS who is on 
+the pipe and can’t be hit with anything but magic.  Use Blizzard 
+Materia.  Keep going until you reach the next mako field and kill the 
+gargoyle. Then kill the PS shooting you by shooting the barrel he’s 
+next to.  One more PS on the pipes after that to kill, you have to use 
+magic or your limit break form again.  Head past this room and restock 
+at the shop machine.  In the next room is a Mission Objective to kill 
+the gargoyles.  Use the rifle to get the sniper on the path way off in 
+the distance and kill the other 2 gargoyles.  Move into the next room.  
+Jump down and kill the sentry robots.  In the next area there are 
+several PS, don’t miss the one to your left.  Eventually a rocket 
+launcher soldier will show up, kill him quick.  If this area looks 
+familiar it is because this is where you controlled Cait Sith earlier 
+in the game.  Jump down to the floor with all the gil cases and when 
+you walk over the mako field a group of beetles will attack, the last 
+one dead drops a card key.  The next room has another “Kill the 
+gargoyle” mission, use the mounted gun if you don’t care about 
+accuracy points.  Keep moving.
+
+Auto Save
+
+This room has a group of PS soldiers and rocket launchers on a pillar 
+in the center.  The mission objective is to kill every one of them.  
+The way to do it is to snipe the boxes above them and shoot the 
+barrels that fall around them.  Use magic on any surviving PS and 
+conventional arms on any rocket launchers.  Every 10 seconds or so a 
+sentry robot will spawn while you are in the room; 2 robots on extra 
+hard mode.  Good luck, this mission is a huge pain.  The next room has 
+the final “Kill the gargoyle” mission.  In the next room is a cut 
+scene and when it is over you need to kill the PS before the other 
+soldier gets his mounted machine gun set up.  It isn’t hard.  
+Afterwards, jump behind the would-be gunner and shoot him in the back, 
+he doesn’t even turn and defend himself.  If you hop onto the gun 
+here, a group of enemies attack you.  If the soldier pushing it got it 
+set up in time, you can use it against them, if not you have to kill 
+them normally.  In the next room are 3 PS, start the fight with a fire 
+blast and finish them off.  The next room has 2 bugs with a ton of HP 
+and the room beyond has a group of PS who shoot you from up above, you 
+can’t kill them so just sprint through.  The next room has a swarm of 
+regular bugs; a few fire blasts should do it.  The next room has a 
+mako field in each corner and an unending supply of PS soldiers.  Just 
+ignore them and stand on the center tile, which rises up.  Jump to the 
+west and grab the final “G Report” for the “secret” ending. Head down 
+and get out of that room.  Open the big gate and proceed.
+
+Auto Save
+
+----------------------------------------------------------------------
+Boss fight: Dragonfly PT
+Revenge of the Dragonfly.  This time he has gargoyle friends with him 
+who swoop down and knock you off your feet.  When you see one above 
+you, take it out quickly.  There is also a periodic sentry robot 
+spawn.  Other than that, no special tactic here.  The best bet when 
+avoiding missiles is to position yourself so that they hit the pillars 
+on either side of the bridge.  He will fly back and forth and behind 
+the reactor, just wait him out and shoot him whenever he is in view.  
+He doesn’t have any new tricks.
+----------------------------------------------------------------------
+
+Open the gate to the reactor and head inside.  A PS yells “Hail Weiss” 
+and begins to run away.  If you want to be a jackass, shoot him in the 
+back with a materia and melee him to death before he gets away.  
+Follow his route and you will come to a group of PS.  Fireblast them 
+and run in for the melee kill when they are grouped together.  Use the 
+shop machine and head into the next room.
+
+Auto Save
+
+Long cut scene and another boss fight.
+
+----------------------------------------------------------------------
+Boss fight: Arachnero/Gorgonero
+He will begin with a shield around him and 4 orbs which fly randomly 
+around the level.  You need to kill these orbs.  The best way is to 
+wait for one to stop and attack you and break its barrier, then kill 
+it.  When all 4 are dead, shoot down Arachnero’s barrier and blast 
+away.  Avoid his fireballs like any other missile and make sure to get 
+in as many hits as you can when he has fallen down.  Eventually the 
+orbs will repsawn and cast his shield again.  Repeat the process until 
+the next cut scene which will occur around 40% life
+*Extra Hard Mode* You will have to get him down to 0% before the cut 
+scene.
+Now you will be on a floating rock and Nero will be in front of you.  
+He will teleport to different locations, some in front of you, two 
+behind you and even right on your own little patch of land, you can’t 
+really move so just watch for where he appears and shoot.  After a few 
+bullets he teleports again.  If you attack him fast enough he won’t 
+even make any offensive moves, which is good because it is hard to 
+dodge given 1 square foot of space.  Keep it up until he is dead.
+----------------------------------------------------------------------
+
+Next time you have control, Yuffie is hurt and you can use the shop 
+machine here.  Go down the hall and trigger another cut scene.
+
+Auto Save
+
+The next time you have control, don’t even move, just let Hojo/Weiss 
+kill you, it is part of the plot.
+
+Auto Save
+
+Now when you regain control again, you can fight for real.
+
+----------------------------------------------------------------------
+Boss fight: Weiss Empowered
+He moves really fast and can sprint across the screen in the blink of 
+an eye.  The best strategy is to try and stay far away from him and 
+dodge his bullets from behind the pillars.  Jump out and shoot him 
+when it is safe but don’t waste bullets while he is twirling his 
+swords.  I also don’t recommend fighting him hand to hand; he will 
+knock you down over and over.  You can’t turn into your alternate 
+form, but using a Limit Break will fully heal you.  During the fight 
+you need to avoid his melee charges, machine gun, and light streak 
+attack, similar to what you saw in the fight with Rosso, as well as a 
+shockwave attack such as you saw with Azul.  Periodically, he will 
+jump to his seat in the back and fire some energy beams at you, block 
+them with the terrain and wait for him to come back out, you can’t 
+damage him while he sits there.  Just keep your distance and keep 
+shooting.  He is pretty tough as far as this games bosses go.
+----------------------------------------------------------------------
+
+Don’t bother upgrading equipment here unless you are trying to max 
+everything out to carry over the Extra Hard mode.
+
+Chapter 12, part 1: Omega and Chaos..............................ch12a
+-----------------------------------
+
+As this mission opens, Vincent is now in Chaos form with the most 
+powerful weapon in the game, the Death Penalty.  It does 2000 damage 
+per attack and can hit multiple enemies at once.  Its only downside is 
+that it really won’t score any critical hits, so if you are worried 
+about that score, switch back to your normal weapon.  The enemies here 
+are not even challenging, as your new gun will take them out in 1 
+shot.  Just make sure not to let them gang up on you, the lasers can 
+be hard to dodge when multiple enemies are shooting them.  There is 
+really only one path to take here.  Get the elixir and move along the 
+ruined Midgar structures.  Eventually you will fall into a giant pipe 
+and a few steps out of it you will come to a cut scene.  When you have 
+control again, go straight and take a right up the steps.  Keep moving 
+and don’t miss the Omega report on the next platform, it’s behind the 
+crates.   Up another set of steps and across the bridge, you will see 
+a second Omega report.  Next, you will find yourself being led to a 
+platform where enemies will spawn all around you, just strafe in a 
+circle and kill them.  When they are all dead, there is another cut 
+scene.  You will be fully healed automatically here.
+
+Auto Save
+
+Next time you have control, Vincent is flying through a tunnel.  Kill 
+the enemies as they move in front of you.  Then in the next room kill 
+them until they stop spawning.  You will find yourself climbing a 
+spiral path, make your way to the top and step on the circle.
+
+Auto Save
+
+You will be on a path in front of Omega with enemies flying around.  
+Kill them if you want, but it isn’t necessary.  Just move to the end 
+of the path and you get some stage results.  Use the XP for levels.
+
+Chapter 12, part 2: Omega and Chaos..............................ch12b
+
+Auto Save
+
+The rest of this game is essentially a long boss fight.  You begin 
+amidst a circle of organisms, the Crystal Feeders.  What you need to 
+do here is watch for when a feeder is open and run over and melee it 
+to death.  Creatures will spawn all over the place, use the rifle so 
+you don’t waste Death Penalty bullets, it auto aims at their weak 
+point and will kill them in one hit.  Just make sure you don’t let too 
+many spawn or you will get blasted from every angle.  When all the 
+feeders are dead, the Omega Cocoon rises up.  Keep shooting the 
+enemies that pop up and just damage the cocoon as fast as possible, 
+eventually it will break.  Now you fight the real and final boss.
+
+----------------------------------------------------------------------
+Boss fight: Omega Weiss
+
+Use the Death Penalty to aim at his center, the shots will hit both 
+Weiss and the robot he is controlling.  He will fire slow moving 
+missiles at you like 75% of the bosses in this game, so avoid them 
+like always.  Pillars will slowly begin to rise from the ground which 
+actually makes dodging his fireballs easier.  After you hurt him a bit 
+he will summon a wall of blue shields in front.  Take them out as fast 
+as you can because they become offensive weapons that will knock you 
+over.  After they are dead, Weiss may jump down to attack you.  Just 
+avoid him and eventually he will jump back into his golem.  At this 
+point you will go back to avoiding fireballs and shooting him, be 
+careful not to stand directly in front of him because he has a habit 
+of slapping the group with his giant hand.  When you see him retreat 
+into the air and start summoning a big ball of flame, just heal up as 
+much as you can, I don’t think it’s even possible to avoid taking 
+damage from the impending explosion.  After that he comes back down 
+and returns to firing missiles, only he is a lot more offensive and 
+moves after you to hit you with his arms.  Run circles around the edge 
+of the stage at this point, and keep shooting with the Death Penalty, 
+he won’t last much longer.
+----------------------------------------------------------------------
+
+Congratulations, you win the game!  Watch the long video, you earned 
+it.  There is more video after the song, especially if you found all 
+the files and got the……
+
+======================================================================
+Secret Ending....................................................sece1
+======================================================================
+
+Throughout the game are 3 items you must collect called “G-Reports”.  
+If you get all 3, after you see “The End” on the screen, you can hit X 
+and you will get a special ending.  I describe in detail how to get 
+the reports in my chapter walkthrough, so if you need help, you can 
+read that.  Briefly, here is where they are:
+
+In Chapter 8, part 2, complete the side quest that requires you cover 
+the WRO soldiers while they open the locked gate.
+
+In Chapter 10, there is one on the roof where you fight 2 Protection 
+Spell Soldiers and one normal soldier.
+
+In Chapter 11, there is one in the room with the 4 mako fields and 
+infinite soldier spawn.
+
+If you missed any and don’t want to replay all the way from chapter 8 
+to see the ending, I will describe here.  Don’t read this if you don’t 
+want to know what happens.
+
+Setting:  A ruined Midgar, the camera pans out and then down, 
+eventually penetrating the ground and leading into a cave below the 
+city where you see the dead body of Weiss lying in the center of a 
+pool.  There is an energy disturbance and from within a man American 
+Final Fantasy players have not seen before materializes from within.  
+He walks above the water toward Weiss’ body.  Looking up into the air 
+while he picks up Weiss, he says “It is not yet time for slumber.  We 
+still have much work to do...my brother.”  One wing, such as the one 
+you see on Sephiroth’s One Winged Angel form in Final Fantasy 7, or 
+the CGI movie, appears from behind his body and he flies off with 
+Weiss in his arms.
+
+If you look in your inventory at the G-Reports, it tells a story about 
+Shinra, in an attempt to create an all powerful Soldier, identified 
+only as “S”, made another soldier in the process, only identified as 
+“G”.  No records of either soldier exist, though there is speculation 
+that “G” was a genetic prototype of “S”.  They go on to say that 
+“soldiers branded with epithets of color... These are the hellspawn of 
+“G”.  I wrote this on 8/26/06 and this is only speculation.  But, 
+assuming that “S” refers to Sephiroth, and “soldiers branded with 
+epithets of color” to be Deepground, it is possible Square-Enix plans 
+on making this “G” a new enemy, Sephiroth’s genetic “brother”.  Very 
+interesting....
+
+======================================================================
+Tips & Tricks....................................................tip01
+======================================================================
+
+A lot of these I mention in passing, here are just a few observations 
+I have noticed in the game.
+
+-If you want a free heal, wait until you get to a point with an auto 
+save, and then quit the game and reload it, you come back with full 
+HP.
+
+-You can beat the game with a technical 0 KO’s if you feel like 
+cheating the system.  Whenever you die, instead of using the “restart” 
+option, use the “quit” option.  Then reload the game.  You will come 
+back at the same spot anyway, but the game won’t have considered you 
+to be KO’d.
+
+-I have beaten the game multiple times on every difficulty and I never 
+even equip the machine gun.  I know a lot of people like to use it, 
+but it really does not do enough damage to be useful.  In all fairness 
+though, I will admit the Blast Machine Gun can be useful as it will 
+keep enemies knocked down.
+
+-The “M Cerberus” line is the best gun for fighting bosses because it 
+can hold so much more ammo.  Most bosses have moments of weakness when 
+you can shoot them without being counterattacked and you need to spend 
+as little time as possible reloading.  However, if you can afford the 
+auto reloader, you need not worry about wasting time reloading.
+
+-Same statement as above, but with the S Hydra line.  It shoots so 
+fast that you can get in all 8 rounds before they can do anything 
+about it.
+
+-If your mana bar is full and you come across a mako field, fire off a 
+few rounds before you run over it.  You will get credit for “Magic 
+Casted” and you won’t lose mana for it.
+
+-The save system can be confusing.  It works like this.  Whenever you 
+come to an auto save the game creates a log of exactly what your 
+level/XP and inventory are and remembers it.  If you go back and redo 
+part of a mission you will start with whatever the game saved at that 
+point.  So, let’s say a mission has 5 auto save locations and you beat 
+it.  If you go back to where the first AS happened and replay it, you 
+will have whatever Vincent had when he reached that point.  If you 
+pass the second auto save the game will record over the log it made 
+before with the new data, but nothing will have changed for the 3rd 
+4th or 5th AS unless you keep going past those points as well.
+
+-Gigant Hydra will knock enemies over.  If you buy the auto reloader 
+attachment, you need not worry about its one-bullet-at-a-time 
+downside.  Using it you can knock over those annoying rocket launching 
+enemies and make them stay down.
+======================================================================
+
+Well, that’s about it.  Thanks for reading and I hope this helped.  
+Howdy to all my old MLF buddies who may be reading this.
+
+Legal Stuff
+Copyright 2006 Kevin Pearson.
+This may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or 
+otherwise distributed publicly without advance written permission. Use 
+of this guide on any other web site or as a part of any public display 
+is strictly prohibited, and a violation of copyright.  As of now, no 
+other web sites have permission to use this FAQ other than 
+gamefaqs.com
+
+

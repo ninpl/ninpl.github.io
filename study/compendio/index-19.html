@@ -1,0 +1,962 @@
+ 
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Classic video game modifications, fan translations, homebrew, utilities, and learning resources.">
+		<meta name="keywords" content="translation, translations, fan translation, fan translations, fan, SNES translations, SNES, RPG, RPGs, SNES, romhacking, ROM, hacking, ROM hacking, romhacking.com, utilities, documents, ROM hacks, ROM hack, hacks, hack, requests, RPG, community, fonts, wiki, rhdn, patch, patches, ips, xdelta">
+		<meta property="og:url" content="http://www.romhacking.net">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="ROMhacking.net News">
+        <meta property="og:site_name" content="ROMhacking.net">
+        <meta property="og:image" content="http://www.romhacking.net/images/rhdnfacebook.jpg">
+        <meta property="og:description" content="Classic video game modifications, fan translations, homebrew, utilities, and learning resources.">
+        <link rel="alternate" type="application/rss+xml" title="ROMhacking.net" href="/romhackingdotnet.rss">
+    	<link rel="stylesheet" type="text/css" href="/themes/default/css/default.css">
+		<link rel="stylesheet" type="text/css" href="/themes/boss/boss.css">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+		<link rel="image_src" href="/images/rhdnfacebook.jpg">
+		<title>Romhacking.net - Home</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/themes/default/scripts/javascript.js" ></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-101988156-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<div id="top">
+			<span id="topleft"></span>
+			<span id="topright"></span>
+			<a href="/">
+				<img id="logo" src="/themes/boss/logo.png" alt="logo" />
+			</a>
+			<div id="navbar_wrap">
+                <label for="show-menu" class="show-menu"></label>
+                <input type="checkbox" id="show-menu" />
+                <ul id="navbar">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/forum/">Forum</a></li>
+                    <li><a href="#Sections">Sections</a>
+                        <ul>
+                            <li><a href="/documents/">Documents</a></li>
+                            <li><a href="/utilities/">Utilities</a></li>
+                            <li><a href="/translations/">Translations</a></li>
+                            <li><a href="/hacks/">ROM Hacks</a></li>
+                            <li><a href="/games/">Games</a></li>
+                            <li><a href="/homebrew/">Homebrew</a></li>
+                            <li><a href="/fonts/">Fonts</a></li>
+                            <li><a href="/abandoned/">Abandoned</a></li>
+                            <li><a href="/news/">News Archive</a></li>
+                            <li><a href="/helpads/">Help Wanted Ads</a></li>
+                        </ul>
+                    </li>	
+                    <li><a href="#Community">Community</a>
+                        <ul>
+                            <li><a href="/forum/">Forum</a></li>
+                            <li><a href="/wiki/">Wiki</a></li>
+                            <li><a href="/transhistory/">Community History</a></li>
+                            <li><a href="/chat/">Chat</a></li>
+                            <li><a href="/community/">Community Database</a></li>
+                            <li><a href="/links/">Links</a></li>
+                        </ul>
+                    </li>	
+                    <li><a href="#Submissions">Submissions</a>
+                        <ul>
+                            <li><a href="/submissions/">Submit Files</a></li>
+                            <li><a href="/submitnews/">Submit News</a></li>
+                            <li><a href="/submissions/SubmissionRanking/">Leaderboard</a></li>
+                            <li><a href="/submissions/QueueStatus/">Queue Status</a></li>
+                            <li><a href="/maintenance/PublicMaint/">Public Maintenance</a></li>
+                            <li><a href="/scratchpad/">The Scratchpad</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Changes">Changes</a>
+                        <ul>
+                            <li><a href="/submissions/recent/">Change Log</a></li>
+							<li><a href="/submissions/extdocsubmissions/">Latest Documents</a></li>
+                            <li><a href="/submissions/extutilsubmissions/">Latest Utilities</a></li>
+                            <li><a href="/submissions/exttranssubmissions/">Latest Translations</a></li>
+                            <li><a href="/submissions/exthacksubmissions/">Latest Hacks</a></li>
+                            <li><a href="/submissions/extreviewsubmissions/">Latest Reviews</a></li>
+                            <li><a href="/submissions/searchpage/">Advanced Search</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#Seach">Search</a>
+                        <ul>
+                            <li><form class="" method="get" action="http://www.google.com/search" accept-charset="UTF-8"><div>
+		<label for="q"><span class="formhelp" tooltip-data=""></span></label><input type="text" name="q" id="q" value="" maxlength="150"  />
+		<input type="submit" name="btnG" id="btnG" value="Search"  />
+		<input type="hidden" name="sitesearch" id="sitesearch" value="www.romhacking.net"  />
+	</div>
+</form></li>
+                        </ul>
+                    </li>						
+                    <li id="NavBarHelp"><a href="#Help">Help</a>
+                        <ul>
+                            <li><a href="/about/">About this Site</a></li>
+                            <li><a href="/start/">Getting Started</a></li>
+                            <li><a href="/dictionary/">Dictionary</a></li>
+                            <li><a href="/faq/">FAQ</a></li>
+                            <li><a href="/chat/">Chat</a></li>
+                            <li><a href="/contact/">Contact Staff</a></li>
+                        </ul>
+                    </li>	
+                    <li><a class="social_media" href="https://twitter.com/romhackingnet"><img src="/images/twitter_logo.png" alt="Follow us on Twitter" title="Follow us on Twitter"/></a></li>
+                    <li><a class="social_media" href="https://facebook.com/Romhacking.net"><img src="/images/facebook_logo.png" alt="Follow us on Facebook" title="Follow us on Facebook"/></a></li>                
+                    <li><a class="social_media" href="https://discord.gg/uAufcgz"><img src="/images/discord_logo.png" alt="Chat with us on Discord" title="Chat with us on Discord" /></a></li>
+                    <li><a class="social_media" href="https://www.romhacking.net/about/patrons/"><img src="/images/patreon_logo.png" alt="Support us on Patreon" title="Support us on Patreon"/></a></li>
+                </ul>
+                <br class="clear" />
+            </div>
+        </div>    
+        <div id="wrapper">
+		<div id="leftbar">
+            <div class="newsitem">
+                <div class="topbar">
+                    <h2>Sections</h2>
+                </div>
+                <div class="newsbody">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/documents/">Documents</a></li>
+                        <li><a href="/utilities/">Utilities</a></li>
+                        <li><a href="/translations/">Translations</a></li>
+                        <li><a href="/hacks/">ROM Hacks</a></li>
+                        <li><a href="/games/">Games</a></li>
+                        <li><a href="/homebrew/">Homebrew</a></li>
+                        <li><a href="/fonts/">Fonts</a></li>
+                        <li><a href="/abandoned/">Abandoned</a></li>
+                        <li><a href="/news/">News Archive</a></li>
+                        <li><a href="/helpads/">Help Wanted Ads</a></li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="newsitem">
+                <div class="topbar">
+                    <h2>Community</h2>
+                </div>
+                <div class="newsbody">
+                    <ul>
+                        <li><a href="/forum/">Forum</a></li>
+                        <li><a href="/wiki/">Wiki</a></li>
+                        <li><a href="/transhistory/">History</a></li>
+                        <li><a href="/chat/">Chat</a></li>
+                        <li><a href="/community/">Community Database</a></li>
+                        <li><a href="/links/">Links</a></li>
+                    </ul>
+                </div>
+            </div>
+			<div class="newsitem">
+                <div class="topbar">
+                    <h2>Submissions</h2>
+                </div>
+                <div class="newsbody">
+                    <ul>
+                        <li><a href="/submissions/">Submit Files</a></li>
+                        <li><a href="/submitnews/">Submit News</a></li>
+                        <li><a href="/submissions/SubmissionRanking/">Leaderboard</a></li>
+                        <li><a href="/submissions/QueueStatus/">Queue Status</a></li>
+                        <li><a href="/maintenance/PublicMaint/">Public Maintenance</a></li>
+                        <li><a href="/scratchpad/">The Scratchpad</a></li>
+                    </ul>
+                </div>
+            </div>
+			<div class="newsitem">
+                <div class="topbar">
+                    <h2>Help</h2>
+                </div>
+                <div class="newsbody">
+                    <ul>
+                        <li><a href="/about/">About this Site</a></li>
+                        <li><a href="/start/">Getting Started</a></li>
+                        <li><a href="/dictionary/">Dictionary</a></li>
+                        <li><a href="/faq/">FAQ</a></li>
+                        <li><a href="/contact/">Contact Staff</a></li>
+                    </ul>
+                </div>
+            </div>
+			            
+        </div>    
+		<div id="right_container">
+        	<div id="rightbar">
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Newest Hacks</h2>
+					</div>
+					<div class="newsbody">
+													<a href="/hacks/4090/"><img class="quad" alt="Virtual Boy Mario" title="Virtual Boy Mario" src="/hacks/nes/images/titles/4090titlescreen.png" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Virtual Boy Mario', '4090');" /></a>													<a href="/hacks/4089/"><img class="quad" alt="Super Mario Bros: Death Moon" title="Super Mario Bros: Death Moon" src="/hacks/nes/images/titles/4089titlescreen.PNG" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Super Mario Bros: Death Moon', '4089');" /></a>													<a href="/hacks/4088/"><img class="quad" alt="Rambo - First Blood Part 2" title="Rambo - First Blood Part 2" src="/hacks/nes/images/titles/4088titlescreen.png" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Rambo - First Blood Part 2', '4088');" /></a>													<a href="/hacks/4087/"><img class="quad" alt="Strider Proofread" title="Strider Proofread" src="/translations/nes/images/titles/1809titlescreen.jpg" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Strider Proofread', '4087');" /></a>												<ul>
+															<li>
+									<div class="column_link"><a href="/hacks/4090/" onClick="ga('send', 'event', 'Newest hacks', 'Click', 'Virtual Boy Mario', '4090');">Virtual Boy Mario</a></div>
+									<div class="column_text">Complete | NES</div>
+								</li>
+															<li>
+									<div class="column_link"><a href="/hacks/4089/" onClick="ga('send', 'event', 'Newest hacks', 'Click', 'Super Mario Bros: Death Moon', '4089');">Super Mario Bros: Death Moon</a></div>
+									<div class="column_text">Complete | NES</div>
+								</li>
+															<li>
+									<div class="column_link"><a href="/hacks/4088/" onClick="ga('send', 'event', 'Newest hacks', 'Click', 'Rambo - First Blood Part 2', '4088');">Rambo - First Blood Part 2</a></div>
+									<div class="column_text">Improvement | NES</div>
+								</li>
+															<li>
+									<div class="column_link"><a href="/hacks/4087/" onClick="ga('send', 'event', 'Newest hacks', 'Click', 'Strider Proofread', '4087');">Strider Proofread</a></div>
+									<div class="column_text">Improvement | NES</div>
+								</li>
+													</ul>
+					</div>
+					<h3 class="rellink"><a href="/submissions/exthacksubmissions/">See More Hacks...</a></h3>
+				</div>
+				
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Newest Translations</h2>
+					</div>
+					<div class="newsbody">
+													<a href="/translations/3717/"><img class="quad" alt="Ghostbusters" title="Ghostbusters" src="/translations/nes/images/3717titlescreen.png" onClick="ga('send', 'event', 'Newest translations', 'Click Image', 'Ghostbusters', '3717');" /></a>													<a href="/translations/3716/"><img class="quad" alt="Sword of Vermilion" title="Sword of Vermilion" src="/translations/genesis/images/3716titlescreen.png" onClick="ga('send', 'event', 'Newest translations', 'Click Image', 'Sword of Vermilion', '3716');" /></a>													<a href="/translations/3715/"><img class="quad" alt="Frankenstein: The Monster Returns" title="Frankenstein: The Monster Returns" src="/translations/nes/images/3715titlescreen.png" onClick="ga('send', 'event', 'Newest translations', 'Click Image', 'Frankenstein: The Monster Returns', '3715');" /></a>													<a href="/translations/3714/"><img class="quad" alt="Tom &amp; Jerry: The Ultimate Game of Cat and Mouse!" title="Tom &amp; Jerry: The Ultimate Game of Cat and Mouse!" src="/translations/nes/images/3714titlescreen.png" onClick="ga('send', 'event', 'Newest translations', 'Click Image', 'Tom &amp; Jerry: The Ultimate Game of Cat and Mouse!', '3714');" /></a>												<ul>
+															<li>
+									<div class="column_link"><a href="/translations/3717/" onClick="ga('send', 'event', 'Newest translations', 'Click', 'Ghostbusters', '3717');">Ghostbusters</a></div>
+									<div class="column_text">Spanish | Fully Playable | NES</div>
+								</li>	
+															<li>
+									<div class="column_link"><a href="/translations/3716/" onClick="ga('send', 'event', 'Newest translations', 'Click', 'Sword of Vermilion', '3716');">Sword of Vermilion</a></div>
+									<div class="column_text">Spanish | Fully Playable | GEN</div>
+								</li>	
+															<li>
+									<div class="column_link"><a href="/translations/3715/" onClick="ga('send', 'event', 'Newest translations', 'Click', 'Frankenstein: The Monster Returns', '3715');">Frankenstein: The Monster Returns</a></div>
+									<div class="column_text">Spanish | Fully Playable | NES</div>
+								</li>	
+															<li>
+									<div class="column_link"><a href="/translations/3714/" onClick="ga('send', 'event', 'Newest translations', 'Click', 'Tom &amp; Jerry: The Ultimate Game of Cat and Mouse!', '3714');">Tom &amp; Jerry: The Ultimate Game of Cat and Mouse!</a></div>
+									<div class="column_text">Spanish | Fully Playable | NES</div>
+								</li>	
+													</ul>
+					</div>
+					<h3 class="rellink"><a href="/submissions/exttranssubmissions/">See More Translations...</a></h3>
+				</div>
+				
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Newest Utilities</h2>
+					</div>
+											<a href="/utilities/1419/"><img class="quad" alt="Tales of Destiny Director&#039;s Cut Tools" title="Tales of Destiny Director&#039;s Cut Tools" src="/utilities/screenshots/1419screenshot1.gif" onClick="ga('send', 'event', 'Newest utilities', 'Click Image', 'Tales of Destiny Director&#039;s Cut Tools', '1419');" /></a>											<a href="/utilities/1418/"><img class="quad" alt="LoD BPE Tool" title="LoD BPE Tool" src="/utilities/screenshots/1418screenshot1.png" onClick="ga('send', 'event', 'Newest utilities', 'Click Image', 'LoD BPE Tool', '1418');" /></a>											<a href="/utilities/1417/"><img class="quad" alt="PSX-MODE2-EN" title="PSX-MODE2-EN" src="/utilities/screenshots/1417screenshot1.png" onClick="ga('send', 'event', 'Newest utilities', 'Click Image', 'PSX-MODE2-EN', '1417');" /></a>											<a href="/utilities/1416/"><img class="quad" alt="Tales of Vesperia Tools" title="Tales of Vesperia Tools" src="/utilities/screenshots/1416screenshot1.gif" onClick="ga('send', 'event', 'Newest utilities', 'Click Image', 'Tales of Vesperia Tools', '1416');" /></a>						
+					<div class="newsbody">
+						<ul>
+															<li>
+									<div class="column_link"><a href="/utilities/1419/" onClick="ga('send', 'event', 'Newest utilities', 'Click', 'Tales of Destiny Director&#039;s Cut Tools', '1419');">Tales of Destiny Director&#039;s Cut Tools</a></div>
+									<div class="column_text">Data Extraction / Insertion | PS2</div>
+								</li>	
+															<li>
+									<div class="column_link"><a href="/utilities/1418/" onClick="ga('send', 'event', 'Newest utilities', 'Click', 'LoD BPE Tool', '1418');">LoD BPE Tool</a></div>
+									<div class="column_text">Compression / Decompression | PSX</div>
+								</li>	
+															<li>
+									<div class="column_link"><a href="/utilities/1417/" onClick="ga('send', 'event', 'Newest utilities', 'Click', 'PSX-MODE2-EN', '1417');">PSX-MODE2-EN</a></div>
+									<div class="column_text">Data Extraction / Insertion | PSX</div>
+								</li>	
+															<li>
+									<div class="column_link"><a href="/utilities/1416/" onClick="ga('send', 'event', 'Newest utilities', 'Click', 'Tales of Vesperia Tools', '1416');">Tales of Vesperia Tools</a></div>
+									<div class="column_text">Data Extraction / Insertion | PS3</div>
+								</li>	
+													</ul>
+				   </div>
+				   <h3 class="rellink"><a href="/submissions/extutilsubmissions/">See More Utilities...</a></h3>     
+				</div>   
+				
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Newest Documents</h2>
+					</div>
+					<a href="/documents/"><img class="quad" alt="Documents" src="/images/documents.png" /></a>
+					<div class="newsbody">
+						<ul>
+													<li>
+								<div class="column_link"><a href="/documents/785/" onClick="ga('send', 'event', 'Newest documents', 'Click', 'Mega Man/Rockman 2 Music/SFX Data Guide', '785');">Mega Man/Rockman 2 Music/SFX Data Guide</a></div>
+								<div class="column_text">Audio Hacking | NES</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/documents/784/" onClick="ga('send', 'event', 'Newest documents', 'Click', 'Hacking Custom Intros Into SNES ROMs', '784');">Hacking Custom Intros Into SNES ROMs</a></div>
+								<div class="column_text">Graphics Hacking | SNES</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/documents/783/" onClick="ga('send', 'event', 'Newest documents', 'Click', 'Solstice room data documentation', '783');">Solstice room data documentation</a></div>
+								<div class="column_text">Game Specific | NES</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/documents/782/" onClick="ga('send', 'event', 'Newest documents', 'Click', 'Super Mario RPG - Bank $C2 Disassembly', '782');">Super Mario RPG - Bank $C2 Disassembly</a></div>
+								<div class="column_text">Assembly | SNES</div>
+							</li>	
+												</ul>
+					</div>
+					 <h3 class="rellink"><a href="/submissions/extdocsubmissions/">See More Documents...</a></h3>
+				</div>
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Newest Reviews</h2>
+					</div>
+											<a href="/reviews/3640/#review"><img class="quad" alt="Super Metroid: Redesign" title="Super Metroid: Redesign" src="/translations/snes/images/titles/729titlescreen.png" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Super Metroid: Redesign', '131');" /></a>											<a href="/reviews/3639/#review"><img class="quad" alt="SMAS SMB/Lost Levels Brick Fix" title="SMAS SMB/Lost Levels Brick Fix" src="/translations/snes/images/titles/854titlescreen.png" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'SMAS SMB/Lost Levels Brick Fix', '167');" /></a>											<a href="/reviews/3638/#review"><img class="quad" alt="Secret of Mana Variable Width Font Edition" title="Secret of Mana Variable Width Font Edition" src="/translations/snes/images/titles/799titlescreen.png" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Secret of Mana Variable Width Font Edition', '18');" /></a>											<a href="/reviews/3637/#review"><img class="quad" alt="Prince of Persia Restoration" title="Prince of Persia Restoration" src="/translations/snes/images/titles/939titlescreen.png" onClick="ga('send', 'event', 'Newest hacks', 'Click Image', 'Prince of Persia Restoration', '3603');" /></a>						
+					<div class="newsbody">
+						<ul>
+													<li>
+								<div class="column_link"><a href="/reviews/3640/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Metroid on Steroids', '3640');">Metroid on Steroids</a></div>
+								<div class="column_text">Hacks | Super Metroid: Redesign</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/reviews/3639/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Thank you!!', '3639');">Thank you!!</a></div>
+								<div class="column_text">Hacks | SMAS SMB/Lost Levels Brick Fix</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/reviews/3638/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Don&#039;t buy the remake on Steam', '3638');">Don&#039;t buy the remake on Steam</a></div>
+								<div class="column_text">Hacks | Secret of Mana Variable Width Font Edition</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/reviews/3637/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Subtle, but superior', '3637');">Subtle, but superior</a></div>
+								<div class="column_text">Hacks | Prince of Persia Restoration</div>
+							</li>	
+												</ul>
+					</div>
+					 <h3 class="rellink">
+					 <a href="/submissions/extreviewsubmissions/">See More Reviews...</a>
+					 </h3>
+				</div>
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Newest Homebrew</h2>
+					</div>
+											<a href="/homebrew/103/"><img class="quad" alt="Into the Blue" title="Into the Blue" src="/homebrew/gameboy/images/titles/103titlescreen.jpg" onClick="ga('send', 'event', 'Newest homebrew', 'Click Image', 'Into the Blue', '103');" /></a>											<a href="/homebrew/102/"><img class="quad" alt="RI Probe" title="RI Probe" src="/homebrew/n64/images/titles/102titlescreen.png" onClick="ga('send', 'event', 'Newest homebrew', 'Click Image', 'RI Probe', '102');" /></a>											<a href="/homebrew/101/"><img class="quad" alt="Star Evil" title="Star Evil" src="/homebrew/nes/images/titles/101titlescreen.png" onClick="ga('send', 'event', 'Newest homebrew', 'Click Image', 'Star Evil', '101');" /></a>											<a href="/homebrew/100/"><img class="quad" alt="Lunar Limit" title="Lunar Limit" src="/homebrew/nes/images/titles/100titlescreen.png" onClick="ga('send', 'event', 'Newest homebrew', 'Click Image', 'Lunar Limit', '100');" /></a>						
+					<div class="newsbody">
+						<ul>
+													<li>
+								<div class="column_link"><a href="/homebrew/103/" onClick="ga('send', 'event', 'Newest homebrew', 'Click', 'Into the Blue', '103');">Into the Blue</a></div>
+								<div class="column_text">Full Games</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/homebrew/102/" onClick="ga('send', 'event', 'Newest homebrew', 'Click', 'RI Probe', '102');">RI Probe</a></div>
+								<div class="column_text">Hardware Tests</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/homebrew/101/" onClick="ga('send', 'event', 'Newest homebrew', 'Click', 'Star Evil', '101');">Star Evil</a></div>
+								<div class="column_text">Full Games</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/homebrew/100/" onClick="ga('send', 'event', 'Newest homebrew', 'Click', 'Lunar Limit', '100');">Lunar Limit</a></div>
+								<div class="column_text">Full Games</div>
+							</li>	
+												</ul>
+					</div>
+					 <h3 class="rellink">
+					 <a href="/homebrew/">See More Homebrew...</a>
+					 </h3>
+				</div>  
+			</div>
+			<div id="rightbar2">
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Featured Hack Images</h2>
+					</div>
+					<div class="newsbody">
+													<a href="/hacks/503/"><img class="quad" alt="FF2US Magic Restoration Hack" title="FF2US Magic Restoration Hack" src="/hacks/snes/images/503screenshot2.png" onClick="ga('send', 'event', 'Featured hacks', 'Click', 'FF2US Magic Restoration Hack', '503');"/></a>													<a href="/hacks/645/"><img class="quad" alt="Mr. Do! +" title="Mr. Do! +" src="/hacks/arcade/images/645screenshot4.png" onClick="ga('send', 'event', 'Featured hacks', 'Click', 'Mr. Do! +', '645');"/></a>													<a href="/hacks/688/"><img class="quad" alt="Toadette&#039;s Christmas Adventure" title="Toadette&#039;s Christmas Adventure" src="/hacks/nes/images/688screenshot1.png" onClick="ga('send', 'event', 'Featured hacks', 'Click', 'Toadette&#039;s Christmas Adventure', '688');"/></a>													<a href="/hacks/776/"><img class="quad" alt="Lode Runner ~Rebuilt~" title="Lode Runner ~Rebuilt~" src="/hacks/nes/images/776screenshot3.png" onClick="ga('send', 'event', 'Featured hacks', 'Click', 'Lode Runner ~Rebuilt~', '776');"/></a>											</div>
+					 <!-- <h3 class="rellink"><a href="/?page=main&action=MoreRandomHackImages">See More Images...</a></h3> -->
+				</div>
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Featured Translation Images</h2>
+					</div>
+					<div class="newsbody">
+													<a href="/translations/1297/"><img class="quad" alt="Front Mission 5: Scars of the War" title="Front Mission 5: Scars of the War" src="/translations/ps2/images/1297screenshot4.jpg" onClick="ga('send', 'event', 'Featured translations', 'Click', 'Front Mission 5: Scars of the War', '1297');"/></a>													<a href="/translations/636/"><img class="quad" alt="Arle no Bouken: Mahou no Jewel" title="Arle no Bouken: Mahou no Jewel" src="/translations/gameboy/images/636screenshot3.png" onClick="ga('send', 'event', 'Featured translations', 'Click', 'Arle no Bouken: Mahou no Jewel', '636');"/></a>													<a href="/translations/2080/"><img class="quad" alt="Secret of Mana" title="Secret of Mana" src="/translations/snes/images/2080screenshot1.jpg" onClick="ga('send', 'event', 'Featured translations', 'Click', 'Secret of Mana', '2080');"/></a>													<a href="/translations/2190/"><img class="quad" alt="The Legend of Zelda: A Link to the Past" title="The Legend of Zelda: A Link to the Past" src="/translations/snes/images/2190screenshot3.png" onClick="ga('send', 'event', 'Featured translations', 'Click', 'The Legend of Zelda: A Link to the Past', '2190');"/></a>											</div>
+					 <!-- <h3 class="rellink"><a href="/?page=main&action=MoreRandomTranslationImages">See More Images...</a></h3> -->
+				</div>    				
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Recent Forum Posts</h2>
+					</div>
+					<div class="newsbody">
+						<ul>
+															<li>
+									<!-- <div class="post_icon"><img alt="" src="/smf/Themes/romh/images/post/lamp.gif" /></div> -->
+									<div class="column_link"><a href="https://www.romhacking.net/forum/index.php?topic=26507.msg362028#new" rel="nofollow" onClick="ga('send', 'event', 'Recent Posts', 'Click', 'Mega Man X6 Tweaks/Patcher (v09)');">Mega Man X6 Tweaks/Patcher (v09)</a></div>
+									<div class="column_text"><a href="https://www.romhacking.net/forum/index.php?board=11.0">Personal Projects</a></div>
+									<div class="column_text"><strong>Today</strong> at 08:00:14 pm</div>
+								</li>
+															<li>
+									<!-- <div class="post_icon"><img alt="" src="/smf/Themes/romh/images/post/lamp.gif" /></div> -->
+									<div class="column_link"><a href="https://www.romhacking.net/forum/index.php?topic=26686.msg362026#new" rel="nofollow" onClick="ga('send', 'event', 'Recent Posts', 'Click', 'Ninja Gaiden Studio: A Cut Scene Editing Utility for Ninja Gaiden (in progress)');">Ninja Gaiden Studio: A Cut Scene Editing Utility for Ninja Gaiden (in progress)</a></div>
+									<div class="column_text"><a href="https://www.romhacking.net/forum/index.php?board=11.0">Personal Projects</a></div>
+									<div class="column_text"><strong>Today</strong> at 07:49:15 pm</div>
+								</li>
+															<li>
+									<!-- <div class="post_icon"><img alt="" src="/smf/Themes/romh/images/post/lamp.gif" /></div> -->
+									<div class="column_link"><a href="https://www.romhacking.net/forum/index.php?topic=26731.msg362024#new" rel="nofollow" onClick="ga('send', 'event', 'Recent Posts', 'Click', 'Final Fantasy 1 DoS: Remix');">Final Fantasy 1 DoS: Remix</a></div>
+									<div class="column_text"><a href="https://www.romhacking.net/forum/index.php?board=11.0">Personal Projects</a></div>
+									<div class="column_text"><strong>Today</strong> at 07:18:22 pm</div>
+								</li>
+															<li>
+									<!-- <div class="post_icon"><img alt="" src="/smf/Themes/romh/images/post/lamp.gif" /></div> -->
+									<div class="column_link"><a href="https://www.romhacking.net/forum/index.php?topic=11130.msg362023#new" rel="nofollow" onClick="ga('send', 'event', 'Recent Posts', 'Click', 'Mega Man X3 - Zero Project (V4.0)');">Mega Man X3 - Zero Project (V4.0)</a></div>
+									<div class="column_text"><a href="https://www.romhacking.net/forum/index.php?board=11.0">Personal Projects</a></div>
+									<div class="column_text"><strong>Today</strong> at 07:15:30 pm</div>
+								</li>
+															<li>
+									<!-- <div class="post_icon"><img alt="" src="/smf/Themes/romh/images/post/lamp.gif" /></div> -->
+									<div class="column_link"><a href="https://www.romhacking.net/forum/index.php?topic=10334.msg362021#new" rel="nofollow" onClick="ga('send', 'event', 'Recent Posts', 'Click', 'Titlescreens: Screenshots &amp; Edits [Constructive Criticism Only]');">Titlescreens: Screenshots &amp; Edits [Constructive Criticism Only]</a></div>
+									<div class="column_text"><a href="https://www.romhacking.net/forum/index.php?board=5.0">ROM Hacking Discussion</a></div>
+									<div class="column_text"><strong>Today</strong> at 05:34:52 pm</div>
+								</li>
+								           
+						</ul>
+					 </div>
+					 <h3 class="rellink">
+					 <a href="/forum/">See More Forum Topics...</a>
+					 </h3>
+				</div>    
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Recent Updates</h2>
+					</div>
+				   <div class="newsbody">
+						<ul>
+													<li>
+								<div class="column_link"><a href="/reviews/3041/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Hacks - Castlevania - Prelude Of Darkness (Collection)', '3041');">Hacks - Castlevania - Prelude Of Darkness (Collection)</a></div>
+								<div class="column_text">Reviews</div>
+								<div class="column_text">I want to perfect my review</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/reviews/3039/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Hacks - Castlevania Overflow Darkness', '3039');">Hacks - Castlevania Overflow Darkness</a></div>
+								<div class="column_text">Reviews</div>
+								<div class="column_text">I want perfect my review</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/reviews/3627/#review" onClick="ga('send', 'event', 'Newest reviews', 'Click', 'Hacks - Castlevania - Poisonous Offering', '3627');">Hacks - Castlevania - Poisonous Offering</a></div>
+								<div class="column_text">Reviews</div>
+								<div class="column_text">I want to perfect my review</div>
+							</li>	
+													<li>
+								<div class="column_link"><a href="/hacks/4068/" onClick="ga('send', 'event', 'Newest hacks', 'Click', 'DKDC', '4068');">DKDC</a></div>
+								<div class="column_text">Hacks</div>
+								<div class="column_text">Edit</div>
+							</li>	
+												</ul>
+					</div>
+					 <h3 class="rellink">
+					 <a href="/submissions/recent/">See More Changes...</a>
+					 </h3>
+				</div>
+				<div class="newsitem">
+					<div class="topbar">
+						<h2>Social Media</h2>
+					</div>
+					<div class="newsbody">
+						<a class="twitter-timeline" data-theme="light" data-link-color="#176093" data-chrome="transparent" data-tweet-limit="5" href="https://twitter.com/romhackingnet">Tweets by romhackingnet</a>
+					</div>
+					 <h3 class="rellink"><a href="https://twitter.com/romhackingnet">See More Tweets...</a></h3>
+				</div>            
+			</div>
+		</div>
+		<div id="main">
+<a id="article2064"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>INTO THE BLUE - New Game for the Game Boy</h2>
+		<h4 class="date">25 July 2018 8:04AM EST - Update by Jonas</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=7">Homebrew News</a>
+					- <a href="http://www.romhacking.net/homebrew/103/">RHDN Project Page</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2064/&title=INTO+THE+BLUE+-+New+Game+for+the+Game+Boy&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2064/&text=INTO+THE+BLUE+-+New+Game+for+the+Game+Boy&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>INTO THE BLUE is a new puzzle game for the Game Boy. It plays similar to Tetris Attack (or Panel de Pon, as purists would say) and comes with all the features you would expect of an officially released game from back in the day.</p>
+<p>Features:</p>
+<ul>
+<li>9 Speed levels</li>
+<li>3 Difficulty levels</li>
+<li>3 In-game songs (plus 1 title song)</li>
+<li>1 Competitive mode for 2 players</li>
+</ul>
+		<div class="center"><a href="http://www.romhacking.net/homebrew/103/"><img alt="" height="144" width="160" src="/newsimages/newsimage2064a.jpg" /></a> <a href="http://www.romhacking.net/homebrew/103/"><img alt="" height="144" width="160" src="/newsimages/newsimage2064b.jpg" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26727">[ 0 COMMENTS ]</a> </span>
+		<a href="https://the-green-screen.com">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2063"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>Mega Man X3 - Zero Project V4.0 Complete</h2>
+		<h4 class="date">23 July 2018 3:28AM EST - Update by justin3009</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=6">ROM Hacks News</a>
+					- <a href="http://www.romhacking.net/hacks/4086/">RHDN Project Page</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2063/&title=Mega+Man+X3+-+Zero+Project+V4.0+Complete&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2063/&text=Mega+Man+X3+-+Zero+Project+V4.0+Complete&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>This V4.0 is a complete and entirely new rewrite of the original Zero Project, thus separating itself from the original version and being more of a &#8216;base&#8217; for any other future mods intended. While the general idea of Zero being fully playable is still the same, many other alterations have been added to distinguish itself from the original game and it&#8217;s previous version.</p>
+<p>The new version started back again in late 2017 to fix up many of the original issues and went even further to include many features that were intended from the beginning and then some. A few of the new features included are a new save/load game system, the Frog Armor being properly usable on land, the Black Armor actually doing something for Zero and New Game+!</p>
+<p>This project is technically finished, but it may receive more updates or add-ons in the future. For now, with a ton of input from the community, hopefully this &#8216;completes&#8217; Mega Man X3 much more than before!</p>
+		<div class="center"><a href="http://www.romhacking.net/hacks/4086/"><img alt="" height="224" width="256" src="/newsimages/newsimage2063a.png" /></a> <a href="http://www.romhacking.net/hacks/4086/"><img alt="" height="224" width="256" src="/newsimages/newsimage2063b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26712">[ 1 COMMENTS ]</a> </span>
+		<a href="http://www.romhacking.net/forum/index.php/topic,11130.0.html">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2062"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>“Blaster Master” turns 30! Blaster Basterd gets us a little NEStalgic</h2>
+		<h4 class="date">21 July 2018 7:28AM EST - Update by Player 1</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=6">ROM Hacks News</a>
+					- <a href="https://www.romhacking.net/hacks/4082/">RHDN Project Page</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2062/&title=%E2%80%9CBlaster+Master%E2%80%9D+turns+30%21+Blaster+Basterd+gets+us+a+little+NEStalgic&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2062/&text=%E2%80%9CBlaster+Master%E2%80%9D+turns+30%21+Blaster+Basterd+gets+us+a+little+NEStalgic&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>Well since it’s the 30th anniversary of “Blaster Master”, here’s something real special for all the hardcore gamers and NEStalgic fans out there. Now this is the first ever P1 rom hack or attempt at programming, so she’s a lil rough, but still its cool to pay homage to one of the best games of the 80s. Always found it funny how the box said “authentic arcade edition”. So what if Blaster master played like an actual arcade game? The side-scrolling levels were reduced into one room with access to all the boss levels that must be played in sequence that makes the classic title play more Megaman than Metroidvania. To retain the spirit of SunSoft difficulty of the game with the elimination of continues, it must be played with 3 lives aka one quarter. All that action is now tuned up for a boss rush catering to speed run freaks. In addition there are a few suicide traps one of which is a nod to the original Japanese version meta fight! There are few other surprises and Easter eggs you’ll enjoy. So without further adieu… Behold, a new twist to one of the greatest games of a generation; Blaster Basterd, authentic arcade edition!</p>
+<p>Very Thanks, Player 1</p>
+		<div class="center"><a href="https://www.romhacking.net/hacks/4082/"><img alt="" height="230" width="229" src="/newsimages/newsimage2062a.png" /></a> <a href="https://www.romhacking.net/hacks/4082/"><img alt="" height="165" width="218" src="/newsimages/newsimage2062b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26703">[ 4 COMMENTS ]</a> </span>
+		<a href="https://www.demonoid.pw/files/details/3879389/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2061"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>New Translations Added to the Database</h2>
+		<h4 class="date">19 July 2018 8:22AM EST - Update by RHDNBot</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=3">Translations News</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2061/&title=New+Translations+Added+to+the+Database&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2061/&text=New+Translations+Added+to+the+Database&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>This is an automated message generated by ROMhacking.net&#8217;s RHDNBot.</p>
+<p>The following Translations have been submitted and approved to the database (in submitted order oldest to newest):</p>
+<p>English</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3703/">Takahashi Meijin no Bouken Jima IV</a> (Fully Playable)(NES)</li>
+</ul>
+<p>Spanish</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3695/">Gradius</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3696/">Gradius II</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3697/">Jurassic Park 2: The Chaos Continues</a> (Fully Playable)(GB)</li>
+<li><a href="https://www.romhacking.net/translations/3698/">Life Force</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3699/">The Simpsons: Bart vs. The Space Mutants</a> (Fully Playable)(GG)</li>
+<li><a href="https://www.romhacking.net/translations/3700/">The Simpsons: Bart vs. The Space Mutants</a> (Fully Playable)(SMS)</li>
+<li><a href="https://www.romhacking.net/translations/3701/">The Simpsons: Bart vs. The Space Mutants</a> (Fully Playable)(GEN)</li>
+<li><a href="https://www.romhacking.net/translations/3702/">TwinBee</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3704/">Power Instinct</a> (Fully Playable)(SNES)</li>
+<li><a href="https://www.romhacking.net/translations/3705/">Doomsday Warrior</a> (Fully Playable)(SNES)</li>
+<li><a href="https://www.romhacking.net/translations/3706/">Takahashi Meijin no Bouken Jima IV</a> (Fully Playable)(NES)</li>
+</ul>
+		<div class="center"><a href="/translations/3705/"><img alt="" height="224" width="256" src="/newsimages/newsimage2061a.png" /></a> <a href="/translations/3699/"><img alt="" height="144" width="160" src="/newsimages/newsimage2061b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26694">[ 0 COMMENTS ]</a> </span>
+		<a href="https://www.romhacking.net/translations/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2060"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>Adventure Island IV English Translation RELEASED!</h2>
+		<h4 class="date">16 July 2018 9:39AM EST - Update by Zynk</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=3">Translations News</a>
+					- <a href="https://www.romhacking.net/translations/3703/">RHDN Project Page</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2060/&title=Adventure+Island+IV+English+Translation+RELEASED%21&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2060/&text=Adventure+Island+IV+English+Translation+RELEASED%21&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>Takahashi Meijin no Bouken Jima IV or more popularly known as Adventure Island IV is now COMPLETELY translated in English!</p>
+<p>Zynk tackled this project because he has a related hack in the works. He can&#8217;t use the old translation as it does not accurately translated the game. At all. Unlike the previous translation made by Demiforce, this hack translates more accurately what the characters say, especially the game masters - as they tell you what the items do instead of coaxing them to play a game with them on and on. The animal verbal tics are in the JP version, like the penguin&#8217;s -pen to HONK! Rabbit&#8217;s say PYON in JP, but what noise rabbits make? And what does the fox say?? (or was it a coyote&#8230;)</p>
+<p>The title screen was designed like the previous NES release had, with &#8220;Hudson&#8217;s Adventure&#8221; graphic text inserted. The &#8220;Island&#8221; was painstakingly <span class="italic">chiseled</span> and the &#8220;IV&#8221; is retained.</p>
+<p>Included is an extra patch where the sprite palettes are changed, making the game more colorful. Fruits now have their own palette away from the player&#8217;s sprite palette, though it shares with the dinos&#8217; palette, but at least you can see grapes in purple, red, blue or green. Some enemies have palettes reassigned as well. Minor graphics changes for some items, namely the &#8220;flask with red liquid in it&#8221; changed to the consistent full HP restoration item from I, II, III &#8211; Milk.</p>
+<p>Anyways, the game is playable even if the game is not translated. But please try the extra patch! Because its more colorful and more effort was put into it!! Enjoy!!!</p>
+		<div class="center"><a href="https://www.romhacking.net/translations/3703/"><img alt="" height="224" width="256" src="/newsimages/newsimage2060a.png" /></a> <a href="https://www.romhacking.net/translations/3703/"><img alt="" height="224" width="256" src="/newsimages/newsimage2060b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26676">[ 5 COMMENTS ]</a> </span>
+		<a href="http://www.romhacking.net/translations/3703/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2059"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>Might &amp; Magic Book Two Already out in English!</h2>
+		<h4 class="date">08 July 2018 9:32PM EST - Update by MrRichard999</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=3">Translations News</a>
+					- <a href="http://www.romhacking.net/translations/3693/">RHDN Project Page</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2059/&title=Might+%26amp%3B+Magic+Book+Two+Already+out+in+English%21&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2059/&text=Might+%26amp%3B+Magic+Book+Two+Already+out+in+English%21&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>Here is an announcement for Might and Magic Book Two which has a full English translation released! This game is very much different than its European counter part released by Elite as the graphics, sound, and gameplay is much different. We hope you enjoy this release!</p>
+		<div class="center"><a href="http://www.romhacking.net/translations/3693/"><img alt="" height="224" width="256" src="/newsimages/newsimage2059a.png" /></a> <a href="http://www.romhacking.net/translations/3693/"><img alt="" height="224" width="256" src="/newsimages/newsimage2059b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26648">[ 10 COMMENTS ]</a> </span>
+		<a href="http://www.romhacking.net/translations/3693/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2058"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>New Hacks Added to the Database</h2>
+		<h4 class="date">08 July 2018 9:32PM EST - Update by RHDNBot</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=6">ROM Hacks News</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2058/&title=New+Hacks+Added+to+the+Database&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2058/&text=New+Hacks+Added+to+the+Database&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>This is an automated message generated by ROMhacking.net&#8217;s RHDNBot.</p>
+<p>The following Hacks have been submitted and approved to the database (in submitted order oldest to newest):</p>
+<p>Complete</p>
+<ul>
+<li><a href="https://www.romhacking.net/hacks/4064/">Dune Razor Missions Origins</a> (Dune: The Battle for Arrakis)(GEN)</li>
+<li><a href="https://www.romhacking.net/hacks/4067/">Uncharted Territory Kaizo</a> (Super Mario Bros. 3)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4068/">DKDC</a> (Donkey Kong Country)(SNES)</li>
+<li><a href="https://www.romhacking.net/hacks/4073/">Rockman 5 EX: Shijou Saidai no Kiki!!!</a> (Mega Man 5)(NES)</li>
+</ul>
+<p>Improvement</p>
+<ul>
+<li><a href="https://www.romhacking.net/hacks/4061/">Super Doki Bros</a> (Super Mario Bros. 2)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4062/">Early Luna</a> (Secret of Mana)(SNES)</li>
+<li><a href="https://www.romhacking.net/hacks/4063/">Restore Unused Fanfares</a> (Secret of Mana)(SNES)</li>
+<li><a href="https://www.romhacking.net/hacks/4069/">Captain Commando: Arcade Edition</a> (Captain Commando)(SNES)</li>
+<li><a href="https://www.romhacking.net/hacks/4070/">Mortal Kombat II: Johnny Cage in &#8220;Back in Blue&#8221;</a> (Mortal Kombat II)(SNES)</li>
+<li><a href="https://www.romhacking.net/hacks/4071/">Mortal Kombat II Special: Johnny Cage in &#8220;Back in Bootleg&#8221;</a> (Mortal Kombat II Special)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4065/">Battle City: Liquid mod</a> (Battle City)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4066/">Galaxian: Liquid mod</a> (Galaxian)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4072/">LoD Full XP</a> (The Legend of Dragoon)(PSX)</li>
+</ul>
+		<div class="center"><a href="/hacks/4070/"><img alt="" height="224" width="256" src="/newsimages/newsimage2058a.png" /></a> <a href="/hacks/4071/"><img alt="" height="240" width="256" src="/newsimages/newsimage2058b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26647">[ 0 COMMENTS ]</a> </span>
+		<a href="https://www.romhacking.net/hacks/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2057"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>New Translations Added to the Database</h2>
+		<h4 class="date">08 July 2018 1:50PM EST - Update by RHDNBot</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=3">Translations News</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2057/&title=New+Translations+Added+to+the+Database&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2057/&text=New+Translations+Added+to+the+Database&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>This is an automated message generated by ROMhacking.net&#8217;s RHDNBot.</p>
+<p>The following Translations have been submitted and approved to the database (in submitted order oldest to newest):</p>
+<p>English</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3679/">Eiyuu Densetsu: Ao no Kiseki</a> (Fully Playable)(PSP)</li>
+<li><a href="https://www.romhacking.net/translations/3681/">Kaze no Klonoa: Moonlight Museum</a> (Unfinished)(WS)</li>
+<li><a href="https://www.romhacking.net/translations/3692/">Rockman.EXE: Operate Shooting Star</a> (Addendum)(NDS)</li>
+<li><a href="https://www.romhacking.net/translations/3693/">Might and Magic: Book Two</a> (Fully Playable)(SNES)</li>
+</ul>
+<p>Portuguese</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3691/">Die Hard</a> (Fully Playable)(TG16)</li>
+<li><a href="https://www.romhacking.net/translations/3694/">2010: The Graphic Action Game</a> (Fully Playable)(COLE)</li>
+</ul>
+<p>Spanish</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3682/">Wonder Boy in Monster Land</a> (Fully Playable)(SMS)</li>
+<li><a href="https://www.romhacking.net/translations/3683/">The Adventures of Captain Comic</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3684/">Commando</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3685/">Pooyan</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3686/">Road Fighter</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3687/">Streets of Rage</a> (Fully Playable)(SMS)</li>
+<li><a href="https://www.romhacking.net/translations/3688/">Streets of Rage 2</a> (Fully Playable)(SMS)</li>
+<li><a href="https://www.romhacking.net/translations/3689/">True Lies</a> (Fully Playable)(GEN)</li>
+<li><a href="https://www.romhacking.net/translations/3690/">Yie Ar Kung-Fu</a> (Fully Playable)(NES)</li>
+</ul>
+		<div class="center"><a href="/translations/3691/"><img alt="" height="240" width="256" src="/newsimages/newsimage2057a.png" /></a> <a href="/translations/3690/"><img alt="" height="224" width="256" src="/newsimages/newsimage2057b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26646">[ 5 COMMENTS ]</a> </span>
+		<a href="https://www.romhacking.net/translations/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2056"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>New Translations Added to the Database</h2>
+		<h4 class="date">03 July 2018 8:57PM EST - Update by RHDNBot</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=3">Translations News</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2056/&title=New+Translations+Added+to+the+Database&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2056/&text=New+Translations+Added+to+the+Database&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>This is an automated message generated by ROMhacking.net&#8217;s RHDNBot.</p>
+<p>The following Translations have been submitted and approved to the database (in submitted order oldest to newest):</p>
+<p>English</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3667/">Rockman.EXE: Operate Shooting Star</a> (Fully Playable)(NDS)</li>
+</ul>
+<p>French</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3678/">Kouryuu no Mimi</a> (Fully Playable)(SNES)</li>
+</ul>
+<p>Spanish</p>
+<ul>
+<li><a href="https://www.romhacking.net/translations/3668/">Shadow of the Beast</a> (Fully Playable)(GEN)</li>
+<li><a href="https://www.romhacking.net/translations/3669/">Alisia Dragoon</a> (Fully Playable)(GEN)</li>
+<li><a href="https://www.romhacking.net/translations/3670/">Captain Planet and the Planeteers</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3671/">Choplifter</a> (Fully Playable)(SG1K)</li>
+<li><a href="https://www.romhacking.net/translations/3672/">The Death and Return of Superman</a> (Fully Playable)(SNES)</li>
+<li><a href="https://www.romhacking.net/translations/3673/">The Death and Return of Superman</a> (Fully Playable)(GEN)</li>
+<li><a href="https://www.romhacking.net/translations/3674/">Goofy&#8217;s Hysterical History Tour</a> (Fully Playable)(GEN)</li>
+<li><a href="https://www.romhacking.net/translations/3675/">Legendary Wings</a> (Fully Playable)(NES)</li>
+<li><a href="https://www.romhacking.net/translations/3676/">Super Mario Land</a> (Fully Playable)(GB)</li>
+<li><a href="https://www.romhacking.net/translations/3677/">Flashback: The Quest for Identity</a> (Fully Playable)(GEN)</li>
+</ul>
+		<div class="center"><a href="/translations/3670/"><img alt="" height="224" width="256" src="/newsimages/newsimage2056a.png" /></a> <a href="/translations/3671/"><img alt="" height="192" width="256" src="/newsimages/newsimage2056b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26623">[ 2 COMMENTS ]</a> </span>
+		<a href="https://www.romhacking.net/translations/">Relevant Link</a>
+	</h3>
+			
+</div>
+<a id="article2055"></a>
+<div class="newsitem">
+	<div class="topbar">
+		<h2>New Hacks Added to the Database</h2>
+		<h4 class="date">29 June 2018 8:32AM EST - Update by RHDNBot</h4>
+	</div>
+	<h3 class="category">
+		<a href="/?page=news&amp;category=6">ROM Hacks News</a>
+			
+	<span class="floatr">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.romhacking.net/news/2055/&title=New+Hacks+Added+to+the+Database&display=popup">
+		<span class="resp-sharing-button resp-sharing-button--facebook">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></span>
+			Share
+		</span></a>
+		<a class="resp-sharing-button__link xml plain" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.romhacking.net/news/2055/&text=New+Hacks+Added+to+the+Database&via=romhackingnet">
+		<span class="resp-sharing-button resp-sharing-button--twitter">
+			<span aria-hidden="true" class="resp-sharing-button__icon">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+			</span>
+		Tweet
+		</span></a>
+	</span>
+	</h3>	
+	<div class="newsbody">
+		<p>This is an automated message generated by ROMhacking.net&#8217;s RHDNBot.</p>
+<p>The following Hacks have been submitted and approved to the database (in submitted order oldest to newest):</p>
+<p>Bug Fix</p>
+<ul>
+<li><a href="https://www.romhacking.net/hacks/4056/">Harvest Moon - Intuitive Ranch Master</a> (Harvest Moon)(SNES)</li>
+</ul>
+<p>Complete</p>
+<ul>
+<li><a href="https://www.romhacking.net/hacks/4052/">Ultimate Mortal Kombat 3 (NES)</a> (Mortal Kombat 3)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4059/">Roockman 6 EX: Aratanaru Chousensha!!</a> (Mega Man 6)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4058/">Super Mitch Bros. 3</a> (Super Mario Bros. 3)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4060/">Lunar Silver Star Harmony Complete UNDUB</a> (Lunar: Silver Star Harmony)(PSP)</li>
+</ul>
+<p>Improvement</p>
+<ul>
+<li><a href="https://www.romhacking.net/hacks/4049/">Metroid II: Return of Samus Restoration</a> (Metroid II: Return of Samus)(GB)</li>
+<li><a href="https://www.romhacking.net/hacks/4050/">Pokemon Yellow - Gen. II Graphics Patch</a> (Pokémon: Yellow Version - Special Pikachu Edition)(GB)</li>
+<li><a href="https://www.romhacking.net/hacks/4051/">Donkey Kong Country Palette restoration</a> (Donkey Kong Country)(GBA)</li>
+<li><a href="https://www.romhacking.net/hacks/4053/">Shadow Dragon - Always Recruit Norne</a> (Fire Emblem: Shadow Dragon)(NDS)</li>
+<li><a href="https://www.romhacking.net/hacks/4057/">Bible Adventures (7.0 Update)</a> (Bible Adventures)(NES)</li>
+<li><a href="https://www.romhacking.net/hacks/4055/">Virtual Lab English Translation</a> (Virtual Lab)(VB)</li>
+<li><a href="https://www.romhacking.net/hacks/4054/">Shadow Dragon - Full Content Patch</a> (Fire Emblem: Shadow Dragon)(NDS)</li>
+</ul>
+		<div class="center"><a href="/hacks/4052/"><img alt="" height="224" width="256" src="/newsimages/newsimage2055a.png" /></a> <a href="/hacks/4055/"><img alt="" height="112" width="192" src="/newsimages/newsimage2055b.png" /></a></div>
+	</div>
+	<h3 class="rellink">
+		<span class="floatr"><a href="/forum/index.php?topic=26607">[ 2 COMMENTS ]</a> </span>
+		<a href="https://www.romhacking.net/hacks/">Relevant Link</a>
+	</h3>
+			
+</div>
+<div id="topforms">
+    <ul>
+        <li><a href="/news/">News Archive</a></li>
+    </ul>
+</div>    
+﻿﻿</div>
+</div>
+<div id="footer">
+	©2005-2018 RHDN 3.0.0 by Nightcrawler. All Rights Reserved.
+	<br />Execution time - 0.0099 sec. - Number of Queries: 0<br />
+	<a href="/about/">About Us</a>
+	| <a href="/policy/">RHDN Policy</a>
+	| <a href="//validator.w3.org/check?uri=referer">HTML5</a>
+	| <a href="//jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a>
+    <br />
+    <a href="https://twitter.com/romhackingnet"><img src="/images/twitter_logo.png" alt="Follow us on Twitter" title="Follow us on Twitter" /></a>
+    <a href="https://facebook.com/Romhacking.net"><img src="/images/facebook_logo.png" alt="Follow us on Facebook" title="Follow us on Facebook" /></a>                
+    <a href="https://discord.gg/uAufcgz"><img src="/images/discord_logo.png" alt="Chat with us on Discord" title="Chat with us on Discord" /></a>
+	<a href="https://www.romhacking.net/about/patrons/"><img src="/images/patreon_logo.png" alt="Support us on Patreon" title="Support us on Patreon"/></a>
+</div>
+</body>
+</html>

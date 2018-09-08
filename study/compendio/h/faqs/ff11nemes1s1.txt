@@ -1,0 +1,914 @@
+                     ############        ############ ############
+                        #######            #######      ########
+                          #####            #####          ####
+        ______ __      __ __####  __      ####            ####
+       / ____//_//\   / //____ \#/ /     ####             ####
+      / /___ __ /  \ / /_____/ // /     ####              ####
+     / ____// // .  ' // ___  // /#    ####               ####
+    / /    / // / \  // /__/ // /###  ####                ####
+   /_/    /_//_/   \//_____.//_____/#####                 ####
+       ______ _____        __ ____######__ _____   _______####   __
+      / ____//____ \ /\   / //____ \\  __//____ \ / _____// /#  / /
+     / /___ _____/ //  \ / /_____/ // /  _____/ // /____ / /## / /
+    / ____// ___  // .  ' // ___  // /##/ ___  //___   // /###/ /
+   / /    / /__/ // / \  // /__/ // / #/ /__/ /_____/ // /###/ /
+  /_/    /_____.//_/   \//_____.//_/  /_____.//______//_____  /
+  ____________________________####______####______________#/ /
+ /__________________________________________________________/#
+                            ####          ####            ####
+                          #####            #####          ####
+                        #######            #######      ########
+                     ############        ############ ############
+
+ ---------------------- M A C R O   G U I D E ----------------------
+ version 0.9                                    nemes1s (aka hpsolo)
+                                             Midgardsormr / Sylphine
+
+
+INTRODUCTION
+
+  This is a (small) guide to using macros in Final Fantasy XI. It is
+by no means complete, though I do hope it is useful to some/most of
+you. Feel free to send in your own macro combo that you find useful.
+I'll add it and credit it to you if it is not already listed.
+
+  So why use macros? Macros can mean the difference between casting
+Cure II just in the nick of time, or the death of a party member. It
+may also mean getting a skill chain for extra damage. Sometimes you
+may find that a macro is much easier to stop the pulling of another
+monster, or warn the party of possible aggro's -- as typing might
+take too long to do so. Anyway, let's just cut to the chase...
+
+  Eventually this will become a full-blown and in-depth guide on
+macros. I also hope to have virtually complete list of the most
+common and useful macros tailored for specific job classes.
+
+
+
+ACCESSING MACRO SETS
+
+  There are 10 sets of macros, with each set having 20 slots -- 10
+that are bound to the CTRL key and 10 bound to the ALT key. The CTRL
+set can be selected via L2 on the PS2 controller, and the ALT set
+are accessible via R2. To switch between macro sets, either:
+
+  1. Hold down the L2 or R2 button and when you see the macro menu,
+     press up/down on the PS2 controller (digital pad),
+
+  or
+
+  2. Hold CTRL or ALT on the keyboard and press up/down on the PS2
+     controller (digital pad)
+
+
+
+
+USING A MACRO
+
+  1. select which macro set to use
+  2. (a) if you pressed L2/R2, then a macro window should pop up;
+         just select which macro within that set to use
+     (b) press and hold CTRL or ALT (to select the subset of
+         macros) followed by 1 through 0 (for macros 1 through 10
+         respectively)
+
+
+
+                
+EDITING MACROS
+                                                
+  To open up the macro editing tool, press the square button on the
+PS2 controller twice and select MACROS. You will see two rows of
+squares. The top row is bound to CTRL (or L2) and the bottom row
+is bound to ALT (or R2). Highlight the macro you wish to edit and
+you will obtain a window that looks like:
+
+  +--------------------------------------------------------------+
+  | <- PREV   ________________________                   NEXT -> |
+  | [#Macro] |#0______________________|                          |
+  |  __________________________________________________________  |
+  | |#1________________________________________________________| |
+  | |#2________________________________________________________| |
+  | |#3________________________________________________________| |
+  | |#4________________________________________________________| |
+  | |#5________________________________________________________| |
+  | |#6________________________________________________________| |
+  +--------------------------------------------------------------+
+
+  #Macro  e.g. Ctrl 1 (currently editing macro 1 from the Ctrl set)
+    #0    name of the macro (shows up on the macro set window) 
+  #1-#6   up to six commands to be used when calling this macro
+
+  To edit a specific macro set, select the set by pressing and
+holding L2 or R2 and then pressing up or down on the digital pad.
+Then select and edit a macro within the set as described above.
+
+
+
+
+WHAT CAN MACROS BE USED FOR?
+
+  * sending your party pertinent battle information such as how
+    much MP/HP you have, when Provoke is ready, your TP, etc.
+
+  * streamlining weapon skills and magic casting (for bursts)
+    so that you do not have to navigate through the menus
+
+  * personalized emotes
+
+  * shortcuts to avoid using the menu interface to do common
+    tasks
+
+
+BASIC MACROS WHICH YOU SHOULD HAVE FOR BATTLE
+
+  * "Stat Ping"
+    Tell your party your current MP/HP/TP
+
+    /p HP: <hp>      TP: <tp>      MP: <mp>
+
+    USAGE: This is the best way to relay your personal info. This
+    works best if everyone uses the order listed above. That way,
+    you automatically know where to look (left, middle, or right)
+    if you are asking for certain stats. This is a must if you
+    plan to renkei (where TP levels need to be known) or chain
+    (MP and HP info needed). The way this macro SHOULD be used is
+    for everyone to respond (like pinging a machine on a network)
+    with the same macro listing their stats.
+
+    Mages will likely only need to report MP (as they often do not
+    build TP and shouldn't be getting hit so that HP reporting is
+    also not needed). However, they should still have empty spaces
+    so that the "MP: <mp>" appears on the far right (if that is
+    where your party chooses to have MP listed). My party rarely
+    reports HP, since the healers keep their eyes on the HP meter
+    of every member in the party anyway.
+
+    I do not recommend using <hpp> (hit point percentage) or <mpp>
+    (mana point percentage) since that value is more or less use-
+    less. Your party has a better idea of how many Cures you have
+    left if you report MP:50/100 as opposed to 50%. (Someone with
+    MP:10/20 reporting 50% may be misleading their party in terms
+    of number of Cures)
+
+    Melee characters generally report only their TP as this is the
+    most important stat during a battle. Don't spam your TP info
+    if you've only got 10% TP or something low. It is best if you
+    wait til near 100% or above 100% before reporting.
+
+    Some people (myself included) like to report their TP along
+    with their weapon skill. This is really nice because it also
+    lets your party members know what weapon skill is ready to
+    go in case you have several skillchains. For example, a
+    samurai builds TP extremely quickly, as does a ninja. It may
+    be that there are two separate skillchains you want to use,
+    so something like:
+
+    /p <call20> #2 Blade: Retsu >>> TP: <tp>
+
+    The "#2" denotes Blade: Retsu being used as the second weapon
+    skill in the skill chain.
+
+
+  * "Aggro Warning"
+    Sends audio and (optional) vibrational signal to party members
+    to warn about unexpected links
+
+    /p WARNING!!! POSSIBLE AGGRO!!! <call0>
+
+    USAGE: Save this for when your party gets ambushed or runs into
+    trouble because of uninvited guests. It can also help to wake
+    up members who have fallen asleep (in real life).
+
+    You can also use this (with the obvious replacement message)
+    if you're a mage and are low on MP. Sometimes when the fun is
+    a bit too much, people forget about their mages' MP limits.
+
+    If you are pulling, then use something like:
+
+    /p I'm about to pull a <t>! Get ready! <call1>
+
+    This should more or less make everyone aware of what's about
+    to happen next should they get sidetracked with chit-chat or
+    get back from being AFK. More info on the 'call' "command"
+    (in quotes since it's not really a command) can be found 
+    below.
+
+
+
+
+ADVANCED MACROS (MAGIC AND WEAPONSKILLS)
+
+  When you get higher levels and obtain more magic spells and job
+and weapon abilities, it will be very painfully slow to navigate
+through the menus in order to use a spell or skill -- there will
+be too many. To save time, you can bind most often used spells to
+macros.
+
+  * Magic Macro
+    /ma "Spell Name" [target]
+
+    Eamples:
+    /ma "Cure II" <t>               Cast Cure II on current target
+    /ma "Protectra III" <me>        Cast Protectra III on yourself
+    /ma "Curaga II" <p2>            Cast Curaga II (centered on
+                                    third party member)
+    /ma "Poisana" <st>              Cast Poisona after selecting a
+                                    party member
+
+    NOTES: Certain spells require the target be yourself or party
+    members. Play around with them to figure out what the target
+    values can be. The name of the spell should be in quotes if
+    it contains whitespace; case (upper vs lower) matters; and the
+    names MUST match the names of the spells in your spell list.
+
+
+  * Job Ability Macro
+    /ja "Job Ability" [target]
+
+    Examples:
+    /ja "Benediction" <me>          Use Benediction (centered on
+                                    yourself)
+
+    NOTES: Job abilities which are still in their cooldown state
+    will not execute and return (in purple text as default) the
+    amoun of in-game time remaining until the next use.
+
+
+  * Weapon Skill Macro
+    /ws "Weapon Skill" [target]
+
+    Examples:
+    /ws "Fast Blade" <t>             Use Fast Blade on target
+
+  These are the three main types of battle macros that you will
+end up using the most. Oftentimes these commands are accompanied
+with some messages to the party. Take for example:
+
+  /p Gather up for Protectra III !!!!! <call0>
+  /wait 5
+  /ma "Protectra III" <me>
+
+This macro tells your party members to gather around you so you
+can cast Protectra III. The /wait 5 just pauses execution for 5
+real-time seconds (this is to allow everyone to have time to
+react and gather near you). Then the last line executes the magic
+casting.
+
+  The /wait command can be used to wait from 0 to 20 seconds. You
+cannot use /wait with an argument exceeding 20 (it will be treated
+like 0). There are several reasons to have the /wait command. If
+your macro is "skipping" some commands, it is likely that you
+need to add /wait 1 in between commands. This is normally the
+case if you end up using two commands with /p. For example,
+
+  /p Hey what's up?
+  /p How are you?
+
+will only output "Hey what's up?" to other characters in your
+party, and you will then see an error message about the second
+message not being able to be sent. The correct way is:
+
+  /p Hey what's up?
+  /wait 1
+  /p How are you?
+
+
+USING ERRORS IN MACROS TO SAVE ROOM
+
+  Eventually, you will find that even the 10 sets of macros are
+insufficient. Here are a few ways to make use of the errors
+generated by macros. Suppose you have both WHM and BLM leveled
+fairly highly and you often switch between the two as your main
+job. Let's say you have Aero II bound to a macro, but when you
+are WHM, you can only use up to Aero. If you use:
+
+  /ma "Aero II" <t>
+  /wait 1
+  /ma "Aero" <t>
+
+If you're a BLM, this macro will cast Aero II and error out of
+the Aero spell since the /wait between is too short. As a WHM
+you'll get an error on Aero II since the BLM subjob will likely
+not be able to case Aero II (presuming your WHM is not too
+high in level). Instead, you'll end up casting Aero.
+
+
+WHEN TO USE CAPS AND WHEN NOT TO USE CAPS
+
+  While it is bad netiquette to use all caps for speech, sometimes
+all caps is warranted. In battles, using all caps should be allowed
+and encouraged. When you're fighting, lots of battle messages are
+scrolling by. The cyan text helps, but your party members may not
+catch it in time. Using all caps will make your messages stand out
+so that you don't have to continue to repeat yourself. (Battle
+messages get really bad if you're fighting near other parties since
+you also see THEIR battle messages.)
+
+  However, if you have a macro for, say, Protectra II and Shellra,
+and you add 
+
+  /p Gather for Protectra II
+
+then you should probably not use caps. These spells are often cast
+before battles, so there is not really any need for caps. As another
+example, note the use of
+
+  /p Provoke is now ready.
+
+and
+
+  /p PROVOKING --> <t>
+
+The first is just information for the party so that they are aware
+that provoke is ready. The second, however, is in caps because it
+needs to be seen by everyone so that two or more people don't use
+provoke immediately after a provoke use. Caps are more pronounced
+and stand out -- so use them accordingly.
+
+
+
+
+ORGANIZING YOUR MACRO SETS
+
+  Macros can be useful if you organize them. If you scatter them
+about, they can actually do more harm than good. Use your sets to
+categorize your macros. Some suggestions for categories include:
+solo, curative spells, black magic, healing spells (e.g. Poisana),
+enfeeble spells, melee.
+
+
+
+USING YOUR MACROS IN A BATTLE
+
+
+  This section may be a bit lengthy, but you should read throug it
+to see how powerful macros can be within a group. We will assume
+our party consists of at least a white mage a few melee players,
+one of which is a warrior with provoke. 
+
+  When you find a good party to level up, you will presumably have
+someone who will act as the puller. That is, he/she is the single
+person to go out and look for creatures to kill, and lures them
+back to a spot where your party is safely camping. The puller
+ideally should warn the party he is about to pull, and have macros
+set up to do so accordingly. I suggest:
+
+  /p Get ready! Luring <t>! <call>
+
+so that your party knows what to expect. This way, any white mage
+or red mage know what to use for enfeebling or any barspells, etc.
+Also within the party should be someone at camp who is the lookout.
+The purpose of a lookout is to make sure enemies which aggro or
+link don't spawn before the puller gets back. You do NOT want the
+puller to be towing a creature back to camp and have him link the
+spawns as well. This makes a mini-train that may spell doom for
+you and your party. The lookout should use:
+
+  /p WARNING!! <t> just spawned near camp! <call>
+
+NOTE: The party should agree on the sounds and what the designate.
+Also, you may wish to use <scall> instead of <call> in order to
+be curteous to anyone using the rumble feature (PS2 only). The
+lookout (and presumably any/all mages) should, during battle, turn
+off the locking feature so they can turn the camera and continue
+looking out for the party. In case new aggro appears, I suggest
+using:
+
+  /p WARNING!! POSSIBLE AGGRO/LINK!! <call>
+
+These should each be in separate macros. This should provide your
+team with a good messaging system. Now on for the finer details
+of battle...
+
+  Since most battles (should) start with enfeeblement, you don't
+want, say, two people casting Dia (should your party be lucky enough
+to have two white mages). When using enfeeble spells, I recommend
+that you use a message ONLY IF THERE IS SOMEONE ELSE WITH THE SAME
+SPELLS. That is, if you have two white mages, try using
+
+  /p PARALYZE --> <t>
+  /ma Paralyze <t>
+
+If you're the only one in your party enfeebling, then you may want
+to not use
+
+  /p PARALYZE --> <t>
+
+because it can add some spam to the logs. However, with two people
+capable of enfeeblement, the messages help prevent wasted MP. The
+other way to go is to decide that only one person enfeelbes (the
+one whose skill is higher, of course). Again, the messaging is
+only suggested if you have several enfeeblers. At higher levels,
+the MP lost due to overlapping spells is minimal, so messaging
+is not recommended. You DEFINITELY DO NOT WANT two red mages both
+casting Dispel, for example (and yes, I am aware they have
+Convert -- but wasted MP is still wasted MP).
+
+
+RENKEI / TP / MAGIC BURST
+
+  This is where macro is KEY. Your party will perform considerably
+better when you set up a good Renkei system. The following will
+use the example:
+
+  Fast Blade -> Burning Blade -> Flat Blade
+
+which produces:
+
+  Liquifaction [Fire] -> Fusion [Fire/Light]
+
+Your party must already be familiar with the Renkei system, and in
+particular the order of the weapon skills. The mages must be aware
+of the elements of each Renkei effect so they can magic burst. I
+recommend each person in the Renkei use the following "TP Ping"
+macro:
+
+  /p [Fast Blade]              TP: <tp>
+
+and replace Flast Blade with the appropriate weapon skill. This
+allows all melee characters to know exactly which weapon skill
+has what TP percentage. When one perons "pings" their TP, every
+one else should do the same. Note that the TP is reported on the
+far right side and the weapon skill name on the far left. Not
+only is it important to have good macros, but spacing and the
+presentation of the information is just as important. (If you
+party up with Linkshell members often, your Linkshell [LS] should
+try to set up some sort of standard on reporting info such as
+TP, MP, etc.)
+
+  With every weapon skill and its corresponding TP being reported
+you will never have a case when someone accidentally goes too
+early. Moreoever, the mages (if they did their homework) will
+know what element to use for magic bursting if they can see
+which weapon skills are being used.
+
+  Once your party is ready to Renkei, the first person to go
+should use something like:
+
+  /p RENKEI IN 2 SECONDS! <call>
+  /wait 2
+  /p Using Fast Blade
+  /ws "Fast Blade" <t>
+
+The next person to go should have
+
+  /p Using Burning Blade <call>
+  /ws "Burning Blade" <t>
+
+The third person should ehave
+
+  /p Using Flat Blade <call>
+  /ws "Flat Blade" <t>
+
+Notice the wait of 2 seconds. This allows for everyone to get
+their weapon skill macro ready, and the mages to prepare their
+spells for bursting. You may optionally leave out the <call>'s
+as this may become annoying to the ears :P If your party is
+more experienced, you can optionally leave out the /wait 2.
+Your log will show the weaponskill being used, but you should
+message that anyway because the cyan colored text will show
+up much more clearly than the yellow (most people will have
+the font colors set to default).
+
+
+ACIENT MAGIC AND MAGIC BURSTS
+
+  With ancient magic, you'll find that the cast time is
+EXTREMELY long. In fact, it is normal to cast ancient magic
+like Freeze long before the skillchain even starts. Of course
+this makes skillchains very hard to do if you don't have good
+timing. However, macros make this a breeze. The idea is that
+the melees will rely on the mage casting ancient magic to
+get their timing down. You'll first need to practice a few
+rounds to get an idea of the timing. Something like:
+
+  /ma "Ancient Magic Spell Name" <t>
+  /p <call> 10 seconds standby on the skillchain!
+  /wait 10
+  /p <call> Begin first weapon skill!
+  /wait 3
+  /p <call> Begin second weapon skill!
+
+Again, the time for the first /wait argument will depend on
+how long it takes the black mage to cast the spell. You will
+also need to factor into the equation the reaction time, as
+well as the time required to see the skillchain effect when the
+melee characters finish. Remember, the strength of the burst is
+dependent on when the spell lands after you see the skillchain
+effect.
+
+
+HATE MANAGEMENT
+
+  It is generally good to have the tank continue to use the
+Provoke ability as this naturally builds up his/her hate
+level. This keeps hate on one person, and allows the healer
+to concentrate on keeping that one person healed to an
+accpetable level. The tank's Provoke macro should look like
+
+  /p PROVOKE --> <t>
+  /ja "Provoke" <t>
+  /wait 15
+  /p Provoke ready in 15 seconds
+  /wait 15
+  /p Provoke ready <call4>
+
+This macro has several important features: (1) it tells the
+user when his Provoke ability is ready, and (2) it lets the
+black mage know whether or not he/she should cast that "uber"
+spell that will cause massive hate.  You don't want to be
+a mage getting the brunt of the hits with no provoke for
+30 seconds -- especially against a hard hitting creature.
+
+  Thieves are also capable of managing hate using their
+Sneak and Trick attack combos. The thief needs a team member
+to whom he/she can pass hate, so the thief's macro should
+let everyone know that the Sneak/Trick combo is about to be
+used -- so no one moves around. During the battle, your
+melee characters should surround the enemy on all sides, thus
+allowing the thief to choose a good "target" for hate. In
+general, I recommend one tank facing the enemy directly, and
+a second melee (with high HP) directly behind the enemy.
+These two should be the main tanks in the party. For the
+Sneak/Trick + weaponskill combo, I suggest:
+
+  /p Setting up Sneak/Trick combo!
+  /ja "Sneak Attack" <me>
+  /wait 2
+  /ja "Trick Attack" <me>
+
+Then follow up with your normal weapon skill
+
+  /p Using Viper Bite
+  /ws "Viper Bite" <t>
+
+
+
+LIST OF ALL COMMANDS
+
+  Below are all the commands available. Most of them have a short
+version (for example, /t can be used in place of /tell). Not all
+commands listed below make much sense in a macro, but I'll list
+them here for completeness.
+
+  Also, there are some system arguments which can be used along
+with some of the commands. They are listed below as well. System
+arguments are surrounded by < and > (e.g. <t> for current target)
+
+SYSTEM ARGUMENTS
+
+<p0>, <p1>, ... , <p5>
+  These denote party members 1 through 6 where your own character
+  is always considered to be party member 1 (i.e. <p0> = you). p1
+  is the second person appearing on the party list at the bottom
+  right of your screen (from top to bottom), and p5 is the last
+  person on the list.
+
+  Example: /ma "Cure" <p1> 
+  (cures person who appears just below your own character's name
+  on the party list)  
+
+<st>
+  Select target for command. 
+
+  Example: /ma Cure <st>
+  (selects the spell Cure and allows you to choose a person to
+  cure; best used for healers who have to fight from time to time)
+
+<t>
+  Current target
+
+  Example: /p Guys, take a look at the <t>!!!
+  (suppose a Yagudo Initiate is targeted; this macro sends the
+  message "Guys, take a look at the Yagudo Initiate!!!" to your
+  party/alliance)
+
+<hp>
+  Your current hit point as a ratio of your current HP over your
+  max HP.
+
+  Example: /p My current HP is: <hp>
+  (suppose your current HP is 401 and your max HP is 510; displays
+  a message saying "My current HP is: 401/510")
+
+<hpp>
+  The same as <hp> except it is a percentage and not a ratio.
+
+<tp>
+  Your current TP (as a percent).
+
+<mp>
+  Your current MP as a ratio of the remaining amount of MP over
+  the max amount of MP.
+
+<mpp>
+  The same as <mp> except it is a percentage and not a ratio.
+
+<call0>, <call1>, <call2>, <call3>
+  Sends an audible whistling sound to all party members (can
+  only be used in conjunction with /p). Also sends a vibration
+  signal to each party member's controller if they have that
+  option turned on.
+
+  Example: /p WARNING!! POSSIBLE AGGRO!! <call0>
+  (sends out a whistle signal, vibration signal, and displays a
+  message saying "WARNING!!! POSSIBBLE AGRRO!! <call0>"
+
+<scall0>, <scall1>, <scall2>, <scall3>
+  Same as <call0> - <call3> except the vibration signal is not
+  sent (i.e. only audibles)
+
+<me>
+  Your character; equivalent to <p0>
+
+<pos>
+  Your current grid location. If you look on the map, you will
+  appear as a red arrow inside a square. The square will have
+  coordinates specified by a row (letter) and column (number).
+
+  Example: /p I'm currently at <pos>
+  (suppose you are at I-10; sends a party message saying "I'm
+  currently at I-10")
+
+  NOTE: Some dungeons have several "floors" so that I-10 may
+  not necessarily be meaningful (e.g. a person at I-10 on the
+  third floor and a person at I-10 on the first floor will both
+  report I-10 for <pos> and yet not see each other.)
+
+<mpos>
+  Position on map when using airship or vessels over water.
+
+
+COMMANDS
+
+/?
+  USAGE: /? /[command_name]
+  -> Gives a detailed explanation of specified command.
+     Abbreviations can be used. If a command name is
+     incomplete or does not exist, similar commands will
+     be listed.
+  *  All names used with these commands must be one word,
+     or in quotation marks.
+
+/ver
+  USAGE: /ver
+  -> Displays the current version number.
+
+/servmes (or /smes)
+  USAGE: /servmes
+  -> Displays today's server message (the messaged
+     displayed when in) in the log window.
+
+/lsmes (or /linkshellmes)
+  USAGE: /lsmes [subcommand] "[mes.]"
+  -> Allows PC to edit and view their current linkgroup's
+     welcome message. Only authorized members can change
+     these messages.
+  >> Subcommands:
+     nothing        Display currently set message
+     set "[mes.]"   Changes message to specified message
+     clear          Clear set mesages
+     level [auth_level]   Sets authority level
+  >> Authority Levels:
+     ls   Linkshell holder
+     ps   Linkshell and pearlsack holders.
+     all  All members.
+
+/linkshell (or /l)
+  USAGE: /linkshell [mes.]
+  -> Sends a message to all members of your current
+     linkshell group, regardless of their location.
+
+/party (or /p)
+  USAGE: /party [mes.]
+  -> Sends a message to all members of your current
+     party and alliance, regardless of their location.
+
+/say (or /s)
+  USAGE: /say [mes.]
+  -> Sends a message to all PCs within a small radius.
+     The message will not be displayed if a PC has their
+     [Say] chat filter turned on.
+
+/shout (or /sh)
+  USAGE: /shout [mes.]
+  -> Sends a message to all PCs within a large radius.
+     The message will not be displyaed if a PC has their
+      [Shout] chat filter turned on.
+
+/tell (or /t)
+  USAGE: /tell [PC_name] [mes.]
+  -> Sends a message to a specific PC within the same
+     world. This message cannot be seen by any other
+     players.
+
+/emote (or /em)
+  USAGE: /emote [mes.]
+  -> Sends your PC name and a message as an emote
+     within a [Say] radius. This message will not be
+     displayed if a PC has their [Emotes] chat filter
+     turned on.
+
+/chatmode (or /cm)
+  USAGE: /chatmode [chat_mode]
+  -> Changes chat mode default settings. [Shout] will
+     be reset after using once. When using [Tell],
+     specify a PC name. If you do not specify a chat mode,
+     your current settings will be displayed.
+  *  Valid chat modes: s, sh, l, p, t [PC_name]
+
+/nominate (or /propose)
+  USAGE: /nominate [chat_mode] "[qst]" "[opt1]" ...
+  (up to 8 options)
+  -> Asks a question to all PCs within the designated
+     chatmode, and give them a variety of answers to
+     choose from. The answers can be chosen with the
+     /vote command. Acessible chat modes are Say, Shout,
+     Party, and Linkshell. You can stop the voting by
+     reentering /nominate.
+
+/vote
+  USAGE: /vote [PC_name] [number]
+  -> Answers a question from the /nominate command.
+     If a PC name is entered, you will answer that 
+     PC's question. If you do not enter a PC name, you
+     will answer the most recently asked question.
+     If there is no number after /vote, the question
+     will be displayed again.
+
+/volunteer (or /vol)
+  -> An exclusive command for volunteers. It cannot
+     be used by regular players.
+
+/echo
+  USAGE: /echo "[mes.]"
+  -> Displays a message that only you can see.
+
+/random
+  USAGE: /random
+  -> Displays a random number between 0 and 999. This
+     number can be seen by PCs within the [Say] radius.
+
+/attack
+  USAGE: /attack [subcommand]
+  -> Turns on auto-attack of the selected target on/off.
+     Toggles on and off when no subcommand is specified.
+  >> Subcommands:
+     on    Turn on auto-attack.
+     off   Turn off auto-attack.
+
+/attackoff
+  USAGE: /attackoff
+    -> Cancels auto-attack
+
+/wait
+
+target
+ta
+targetpc
+targetnpc
+
+magic
+ma
+weaponskill
+ws
+ninjutsu
+nin
+son
+so
+jobability
+ja
+pet
+
+heal
+fish
+dig
+dismount
+
+assist
+as
+help
+h
+
+range
+shoot
+throw
+ra
+
+check
+c
+search
+sea
+
+logout
+
+friendlist
+blacklist
+blist
+
+playtime
+playlog
+clock
+
+makelinkshell
+makeli
+breaklinkshell
+breakli
+
+item
+equip
+keyitem
+quest
+mission
+map
+regionmap
+rmap
+
+supportdesk
+sd
+helpdesk
+pol
+tribune
+
+partycmd
+pcmd
+alliancecmd
+acmd
+
+automove
+follow
+lockon
+
+invite
+inv
+autogroup
+ag
+autotarget
+join
+decline
+
+anon
+online
+away
+busy
+hide
+invisible
+
+names
+bank
+mailbox
+deliverybox
+layout
+garden
+
+
+
+EMOTES
+
+/point                  /bow                    /salute
+/kneel                  /laugh                  /cry
+/no                     /nod                    /yes
+/wave                   /goodebye               /farewell
+/welcome                /joy                    /cheer
+/clap                   /praise                 /smile
+/poke                   /slap                   /stagger
+/sigh                   /comfort                /surprised
+/amazed                 /stare                  /blush
+/angry                  /disgusted              /upset
+/muted                  /doze                   /panic
+/grin                   /dance                  /think
+/fume                   /doubt                  /sulk
+/psych                  /huh                    /shocked
+
+  The commands listed above are emotes. For example, /point makes
+your character do a pointing motion. If /point is used without any
+arguments, a message such as:
+
+  "[your character's name] points [direction you're facing]."
+
+will appear on the log of every PC within [Say] range. These emotes
+can optionally take the argument [target]. So for example, /point <t>
+will cause your character to use a pointing motion and the message:
+
+  "[your character's name] points at [the target]."
+
+You can also use the option "motion" so that no message such as the
+one above appears, though your character will still do the animation
+associated with that emote. The animation varies on your race, so
+that an female Elvaan using /laugh will have a different animation
+from a male Elvaan or femal Taru, etc.
+
+  You can create your own emote with full animation. For example,
+you can use (for Elvaan females):
+
+  /joy motion
+  /wait 1
+  /emote slaps the crap out of <t>.
+
+and target Elvaan males with this emote to get a slapping action
+along with a message saying "[your character's name] slaps the
+crap out of [target]." Of course, this emote macro works well only
+on other tall characters as the motion of /joy makes the female
+Elvaan's hands swing high (i.e. this would look silly used on a
+Taru).
