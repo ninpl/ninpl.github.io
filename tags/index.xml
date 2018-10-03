@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 28 Jun 2018 19:37:55 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 03 Oct 2018 12:09:53 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10</title>
+      <link>https://moonantonio.github.io/tags/10/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/10/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2</title>
@@ -44,6 +53,15 @@
       <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/tags/2d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Actualizacion</title>
+      <link>https://moonantonio.github.io/tags/actualizacion/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/actualizacion/</guid>
       <description></description>
     </item>
     
@@ -815,7 +833,7 @@
     <item>
       <title>Moon Antonio</title>
       <link>https://moonantonio.github.io/tags/moon-antonio/</link>
-      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/tags/moon-antonio/</guid>
       <description></description>
@@ -836,6 +854,15 @@
       <pubDate>Tue, 19 Dec 2017 19:27:13 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/tags/motores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movil</title>
+      <link>https://moonantonio.github.io/tags/movil/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/movil/</guid>
       <description></description>
     </item>
     
@@ -1274,7 +1301,7 @@
     <item>
       <title>Update</title>
       <link>https://moonantonio.github.io/tags/update/</link>
-      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/tags/update/</guid>
       <description></description>
@@ -1335,9 +1362,18 @@
     </item>
     
     <item>
+      <title>Win10</title>
+      <link>https://moonantonio.github.io/tags/win10/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/win10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows</title>
       <link>https://moonantonio.github.io/tags/windows/</link>
-      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/tags/windows/</guid>
       <description></description>
