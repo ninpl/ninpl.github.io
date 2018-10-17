@@ -6,10 +6,21 @@
     <description>Recent content in Unity on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 25 Sep 2018 19:26:11 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Oct 2018 00:38:12 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unity Profiler - Optimización</title>
+      <link>https://moonantonio.github.io/post/2018/dev/012/</link>
+      <pubDate>Thu, 18 Oct 2018 00:38:12 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/012/</guid>
+      <description>Hablamos sobre cómo usar Unity Profiler para inspeccionar cuántos lotes se hacen realmente. Ahora vamos a hablar un poco más sobre el propio Profiler . Si ya lo sabes, puedes aprender algo nuevo.
+Profiler La idea detrás del Profiler es proporcionar la mayor cantidad de tiempo, memoria, estadística e información posible. Puedes aprender:
+ Cuánto tiempo necesita tu juego para calcular y renderizar un frame ¿Qué lleva tanto tiempo? (scripts, física, gráficos, etc.</description>
+    </item>
     
     <item>
       <title>Localización usando .PO</title>
