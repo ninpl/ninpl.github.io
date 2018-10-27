@@ -6,10 +6,20 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 18 Oct 2018 03:42:27 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 27 Oct 2018 16:15:50 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ingeniería inversa :: ¿Qué sacar de esto?</title>
+      <link>https://moonantonio.github.io/post/2018/dev/014/</link>
+      <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/014/</guid>
+      <description>Llevo unos dias profundizando sobre este tema, hasta ahora solo habia realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
+La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.</description>
+    </item>
     
     <item>
       <title>Unity Shader de acumulacion</title>
