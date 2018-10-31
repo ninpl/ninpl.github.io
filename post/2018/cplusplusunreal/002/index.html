@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>Aprende C&#43;&#43; con Unreal - Tu primer script&middot; Antonio Moon´s</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Moon Antonio">
+	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
+	<meta name="keywords" content="Moon,Antonio,Dev,Game">
+	<meta name="generator" content="Hugo 0.49.2" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+
+	
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header class="site-header">
+	<div class="branding">
+		<a href="https://moonantonio.github.io/">
+		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
+		</a>
+		<h1 class="site-title">
+			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+
+		<ul>
+			<li><a href="/about/">  </a></li>
+
+			<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
+  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
+  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
+  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="&#43;">
+		</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+<li class="icon">
+	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://github.com/MoonAntonio" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" title="Trello">
+		<i class="fa fa-fw fa-trello"></i>
+	</a>
+</li>
+
+<li class="icon">
+	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+
+
+		</ul>
+	</nav>
+</header>
+
+
+	<div class="content">
+	<article class="feature-image">
+		<header style="background-image: url('https://moonantonio.github.io/img/img108.png')">
+			<h1 class="title">Aprende C&#43;&#43; con Unreal - Tu primer script</h1>
+		</header>
+
+		<section class="post-content">
+			
+
+<p>Si nunca antes has creado un script, no te preocupes, no es exactamente ciencia de cohetes. Aprender a programar es como aprender un nuevo idioma, pero estás &ldquo;hablando&rdquo; con la maquina. Al igual que un lenguaje humano se puede dividir en oraciones que consisten en un sustantivo y un verbo, los lenguajes de programación se pueden dividir en variables (el sustantivo) y métodos (el verbo) que a menudo se combinan en enunciados (la oración). Aprender a programar simplemente requiere un poco de esfuerzo para aprender el vocabulario y luego juntarlo de una manera lógica.</p>
+
+<p>El script que crearemos contendrá el código al que nos referimos como una &ldquo;clase&rdquo;. Una clase a menudo se relaciona conceptualmente con un plano desde el que puede crear objetos. En Unreal, usarás tu clase para crear &ldquo;Actores&rdquo; que se conectan a &ldquo;Objectos&rdquo; de forma muy similar a como puedes agregar un colisionador de física o un componente de audio. Al escribir sus propios scripts, puede tener una funcionalidad completamente nueva y personalizada de su propio diseño.</p>
+
+<p><center><a href="https://github.com/CodeBackDoor/LearnCppUnreal" class="button"><i class="fa fa-github-alt"></i>GitHub Repo</a><a href="https://gitlab.com/CodeBackDoor/LearnCppUnreal" class="button"><i class="fa fa-gitlab"></i>GitLab Repo</a></center></p>
+
+<p>C++ es un lenguaje de programación orientado a objetos que toma la base del lenguaje C.</p>
+
+<p>Es un lenguaje de programación diseñado a mediados de los años 80 por Bjarne Stroustrup. La intención de su creación fue el extender al exitoso lenguaje de programación C con mecanismos que permitieran la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, el C++ es un lenguaje híbrido. Posteriormente se añadieron facilidades de programación genérica, que se sumó a los otros dos paradigmas que ya estaban admitidos (programación estructurada y la programación orientada a objetos). Por esto se suele decir que el C++ es un lenguaje de programación multiparadigma.</p>
+
+<p>Aqui es donde se unen C++ y Unreal para videojuegos.</p>
+
+<p><center><img src="/img/codebackdoor/learncppunreal/01.png" alt="001" /></center></p>
+
+<p>En el panel Content Browser de Unreal, seleccione el botón &ldquo;Add New&rdquo;, desde el cual tiene la opción &ldquo;New C++ Class&rdquo;. Alternativamente, también puede click derecho en Content Browser, &ldquo;New C++ Class&rdquo;, pero de todos modos tendrá que volver al panel del proyecto para nombrar y abrir el nuevo archivo. De forma predeterminada, tendra que elegir un tipo de clase, en este caso elegiremos Actor. Por ahora solo escribe &ldquo;Demo&rdquo; para el nombre de nuestro script y despues el boton verde &ldquo;Create Class&rdquo;.</p>
+
+<hr />
+
+<h3 id="consejo">Consejo:</h3>
+
+<p>El nombre de archivo que escriba para su script es importante por una variedad de razones:</p>
+
+<blockquote>
+<ul>
+<li>El nombre del archivo se usará automáticamente como el nombre de la clase en el código de plantilla que crea automáticamente.</li>
+<li>Hay algunas reglas sobre qué nombres son legales para usar en una clase:</li>
+<li>- Debe comenzar con una letra y debe consistir solo en caracteres alfanuméricos. Si intentó ingresar &ldquo;1Bunny&rdquo;, obtendrá un error.</li>
+<li>- No puede soportar espacios. Si trataste de ingresar un nombre con un espacio, como &ldquo;Mi clase&rdquo;, Unreal intenta arreglarlo por ti (pero solo a medias) y crea el código de plantilla con un nombre de clase de &ldquo;Mi Clase&rdquo; aunque abandone el espacio en el nombre del archivo. Luego, cada vez que intente agregar el script a un objeto, Unreal se quejará de usted: &ldquo; No se puede agregar el script. No se puede agregar el componente &lsquo;ScriptName&rsquo; porque no existe. Verifique si el nombre del archivo y el nombre de la clase coinciden.</li>
+<li>- Los nombres de tus clases deben ser únicos: no puedes tener dos clases llamadas &ldquo;Boogers&rdquo; sin importar lo gracioso que pienses que sería. De nuevo, Unreal intentará solucionar este problema automáticamente y enumerará su nombre de archivo y clase (agregue un número al final) para que sea único.</li>
+<li>- Si nombra una clase con el mismo nombre que algo que Unreal ya ha tomado, como &ldquo;AActor&rdquo;, recibirá una advertencia, &ldquo;Script &lsquo;AActor&rsquo; tiene el mismo nombre que el componente incorporado de Unreal.</li>
+<li>Los programadores pueden ser muy selectivos y tienen pautas para casi todo, incluso los nombres que usa e incluso el caso de las letras con las que escribe. Un buen nombre de clase será un sustantivo o frase nominal y utilizará &ldquo;PascalCasing&rdquo;, donde la primera letra de cada palabra es mayúscula y todas las demás letras son minúsculas. Tenga en cuenta que estas pautas no son obligatorias, pero son una buena práctica. Lea más sobre convenciones y pautas de nombres <a href="http://bit.ly/2BkxWDi">en este post que escribir sobre buenas prácticas</a>.</li>
+</ul>
+</blockquote>
+
+<hr />
+
+<p>Ahora que hemos creado un script, podemos hacer doble clic para abrirlo. Visual Studio debe abrirse como su editor predeterminado (si aún no ha instalado ningún otro editor de código), y es el que le recomiendo que use para seguir. Con Visual Studio abierto, debería haber cargado automáticamente su script, y debería ver algo como lo siguiente:</p>
+
+<hr />
+
+<pre><code class="language-C++">// Fill out your copyright notice in the Description page of Project Settings.
+
+#include &quot;Demo.h&quot;
+
+// Sets default values
+ADemo::ADemo()
+{
+    // Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+    PrimaryActorTick.bCanEverTick = true;
+
+}
+
+// Called when the game starts or when spawned
+void ADemo::BeginPlay()
+{
+    Super::BeginPlay();
+    
+}
+
+// Called every frame
+void ADemo::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+}
+
+</code></pre>
+
+<hr />
+
+<pre><code class="language-C++">// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include &quot;CoreMinimal.h&quot;
+#include &quot;GameFramework/Actor.h&quot;
+#include &quot;Demo.generated.h&quot;
+
+UCLASS()
+class LEARNCPPUNREAL_API ADemo : public AActor
+{
+    GENERATED_BODY()
+    
+public: 
+    // Sets default values for this actor's properties
+    ADemo();
+
+protected:
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
+
+public: 
+    // Called every frame
+    virtual void Tick(float DeltaTime) override;
+
+};
+</code></pre>
+
+<hr />
+
+<p>Las primeras dos líneas de nuestro script se refieren a algo llamado &ldquo;include&rdquo;. Volviendo a nuestra analogía de que un lenguaje de programación es como un lenguaje humano, puedo decir que las diferentes palabras significan cosas diferentes según el idioma, y ​​algunas veces incluso las palabras dentro del mismo idioma pueden tener diferentes significados dependiendo del contexto. Estas son librerias que contienen funcionalidad para que nosotros podamos usarlas dentro de nuestro script.</p>
+
+<p>Como vemos, tenemos dos archivos, Demo.cpp y Demo.h, esto viene de C++, ya que nuestro archivo .cpp sera el destinado para nuestra funcionalidad, mientras que nuestro archivo .h sera destinado para la declaración de nuestra funcionalidad.</p>
+
+<p>El archivo .h, tiene los metodos virtuales que en el archivo .cpp podemos usar.</p>
+
+<hr />
+
+<p>Como un principiante, ocasionalmente, puede seguir con un ejemplo que muestra el código sin mostrar que requería una biblioteca (lo hago en varias de mis entradas). Luego, cuando escribe el ejemplo, se encuentra con un error feo. Podemos simular uno ahora, eliminando los includes de nuestro script. Guarde el archivo e intente construir la solución. El editor de código debe mostrar una línea roja en nuestra definición de clase. Para resolverlo vuelve a Visual Studio a insertar la línea que necesitamos y ahora debería poder construir el script nuevamente sin problemas.</p>
+
+<p>Después de las líneas del include, hay una línea vacía. Las líneas vacías y otros &ldquo;espacios en blanco&rdquo;, como las pestañas y los espacios adicionales, etc. no significan nada para el código en sí y solo sirven para la legibilidad humana.</p>
+
+<p>La siguiente línea es la declaración de nuestra clase. Tiene varias palabras clave:</p>
+
+<ul>
+<li>Class : así es como sé que mi guión es una &ldquo;clase&rdquo;. Hay varios tipos de cosas que se pueden definir, algunas de las cuales incluyen: struct, enum e interface, pero nuevamente, esos son temas más avanzados y pueden omitirse por el momento.</li>
+<li>LEARNCPPUNREAL_API : El nombre del proyecto actual.</li>
+<li>ADemo : este es el nombre de la clase y también debe ser del mismo nombre que el archivo que creamos. Al igual que puede agregar componentes a Objetos como colisionadores o luces, ahora podrá agregar un componente llamado &ldquo;Demo&rdquo; que eventualmente hará algo &hellip; (pero aún no hemos implementado nada)</li>
+<li>Public AActor : tenga en cuenta que esta palabra está separada por dos puntos. Significa que nuestro script hereda de otra clase (con ese nombre). La herencia es otro tema avanzado, pero por ahora es suficiente saber que tiene acceso a un montón de funcionalidades debido a eso.</li>
+</ul>
+
+<p>La línea de declaración de clase termina con un corchete abierto &ldquo;{&rdquo;. Habrá un corchete de cierre &ldquo;}&rdquo; en la última línea del script. Todo lo que está entre esos dos corchetes son los contenidos de nuestra clase, y en su mayor parte consistirá en las declaraciones e implementaciones de variables y métodos.</p>
+
+<p>En las línea 1, verá una barra diagonal doble, &ldquo;//&rdquo;. Esto indica algo llamado &ldquo;comentario&rdquo;. Al igual que el espacio en blanco, un comentario es algo que existe para ayudar a la lectura, no el código en sí. Cualquier cosa que siga una doble barra, hasta llegar a la siguiente línea nueva, es parte del comentario. La gente usa comentarios para explicar qué se supone que debe hacer el código y para dar pistas sobre cómo se debe usar. Si necesita un comentario muy largo, puede usar &ldquo;/<em>&rdquo; para comenzar y &ldquo;</em>/&rdquo; para finalizar un comentario. Cualquier cosa intermedia se considerará parte del comentario, incluso si abarca múltiples líneas nuevas.</p>
+
+<hr />
+
+<h3 id="consejo-1">Consejo:</h3>
+
+<ul>
+<li>Puede alternar las líneas de un script para que sea un comentario, hacer clic con el botón derecho y seleccionar &ldquo;Alternar los comentarios de línea&rdquo;. A veces hago esto cuando tengo un &ldquo;error&rdquo; complicado (un error en mi código o lógica) y quiero aislar partes de mi código para que entiendan qué está pasando. Puedo resaltar grandes secciones de código y desactivarlo, por lo que es un comentario. Cuando esté listo, puedo volver a encenderlo con el mismo comando.</li>
+</ul>
+
+<hr />
+
+<p>El código de la plantilla que se generó para nosotros contiene dos métodos, uno llamado &ldquo;BeginPlay&rdquo; (línea 20) y el otro se llama &ldquo;Tick&rdquo; (línea 24). En general, puede nombrar un método como quiera, aunque hay algunas reglas y convenciones, al igual que hay para nombrar la clase. Sin embargo, estos dos métodos son especiales y Unreal los &ldquo;llamará&rdquo; automáticamente. Esta funcionalidad se obtiene porque &ldquo;heredamos&rdquo; de &ldquo;AActor&rdquo; en nuestra definición de clase. Consulte este <a href="http://bit.ly/2qnLkOF">enlace</a> para obtener más información sobre lo que puede hacer un AActor.</p>
+
+<p>Todos los métodos tienen algo llamado firma que incluye tres cosas:</p>
+
+<ul>
+<li>Un tipo de devolución</li>
+<li>El nombre del método</li>
+<li>Un conjunto de parámetros</li>
+</ul>
+
+<p>Los dos métodos definidos en nuestro script tienen un tipo de retorno de &ldquo;void&rdquo; que significa que no devuelve un valor, y tienen un conjunto de parámetros vacíos, porque no hay nada entre los paréntesis de apertura y cierre que siguen al nombre del método. Voy a profundizar en la explicación de las variaciones de estas firmas en una lección futura. Cada método tiene sus propios corchetes abiertos y cerrados &ldquo;{}&rdquo; al igual que la clase. Cualquier &ldquo;declaración&rdquo; de código entre esos dos corchetes se realizará siempre que el método sea &ldquo;llamado&rdquo;. Actualmente nuestros métodos no tienen ninguna declaración dentro de ellos. Esto significa que a pesar de que nuestros métodos serán llamados, nada sucedera.</p>
+
+<p>Una declaración es a menudo la combinación de un método y una variable, y siempre termina en un punto y coma, al igual que nuestras oraciones escritas a menudo terminan con una marca como un punto. Para nuestro primer ejemplo, simplemente hagamos que la computadora nos responda. Entre los paréntesis del método de Tick, agregue la siguiente línea:</p>
+
+<hr />
+
+<pre><code class="language-C++">void ADemo::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+    UE_LOG(LogTemp, Warning, TEXT(&quot;Mostrando por consola !!&quot;));
+}
+</code></pre>
+
+<hr />
+
+<h3 id="consejo-2">Consejo:</h3>
+
+<ul>
+<li>Debe tener mucho cuidado al escribir los ejemplos (o copiarlos y pegarlos) exactamente como se presentan o es probable que genere errores en su código. La ortografía errónea de una variable o método, el uso incorrecto de una letra para una llamada u olvidar el punto y coma al final de la línea son errores comunes entre los principiantes.</li>
+</ul>
+
+<hr />
+
+<p>Guarde el script, luego regrese a Unreal y dale al boton Compile. Cree una nueva escena y arrastre el script &ldquo;Demo&rdquo; a la escena.</p>
+
+<p>Reproduzca la escena y se imprimirá un mensaje en la ventana de la Output log. Tenga en cuenta que si la ventana de la Output log no está abierta, puede abrirla desde la barra de menú &ldquo;Windows-&gt; Developer Tools-&gt; Output log&rdquo;. También verá el último mensaje de la consola en la parte inferior de la ventana de Unreal. El mensaje que se muestra es &ldquo;Mostrando por consola !!&rdquo;.</p>
+
+<p>¿Entonces qué pasó? Unreal llamó al método &ldquo;Tick&rdquo; de nuestro script cuando nuestro script se terminó de cargar. A su vez llamamos a un macro llamado &ldquo;UE_LOG&rdquo; en una clase llamada &ldquo;ADemo&rdquo; y pasamos un parametro de log, uno de tipo de log y un mensaje string. En este ejemplo, el mensaje se crea dinámicamente.</p>
+
+<p>Reproduzca la escena de nuevo y la ventana de la consola se llenará rápidamente con mensajes, y cada uno mostrará una hora diferente pero actual. Esto se debe a que Unreal llama automáticamente el método de &ldquo;Tick&rdquo; una vez por cada fotograma que se reproduce (esto puede ser de 30 a 60 veces por segundo o más).</p>
+
+<hr />
+
+<p><center><img src="/img/codebackdoor/learncppunreal/02.gif" alt="002" /></center></p>
+
+<h1 id="resumen">Resumen:</h1>
+
+<p>En esta lección cubrimos cómo crear un nuevo script de C++ dentro de Unreal. Introdujimos un nuevo vocabulario de programación y discutimos cada línea de la plantilla de código predeterminada. Escribimos una primera línea de código y vimos cómo nuestro script se puede agregar a nuestra escena de juego.</p>
+
+<p><center><a href="" class="button">Siguiente - Variables(Dev)</a></p>
+
+
+			
+
+			
+				<hr>
+				
+
+<h3>Relacionado</h3>
+<ul>
+	
+	<li><a href="/post/2018/cplusplusunreal/001/">Aprende C&#43;&#43; con Unreal - Introducción</a></li>
+	
+	<li><a href="/post/2018/csharpunity/012/">Aprende C# con Unity - Scriptable Objects</a></li>
+	
+	<li><a href="/post/2018/csharpunity/011/">Aprende C# con Unity - Structs</a></li>
+	
+	<li><a href="/post/2018/csharpunity/010/">Aprende C# con Unity - Enums y Flags</a></li>
+	
+	<li><a href="/post/2018/csharpunity/009/">Aprende C# con Unity - Guardando datos</a></li>
+	
+</ul>
+
+			
+		</section>
+	</article>
+	</div>
+
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Moon Antonio</p>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-89564434-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
