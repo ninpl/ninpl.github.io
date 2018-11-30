@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proporcion on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/categories/proporcion/</link>
+    <description>Recent content in Proporcion on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 30 Nov 2018 14:16:45 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/proporcion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Usando la proporción de oro</title>
+      <link>https://moonantonio.github.io/post/2018/comun/023/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/023/</guid>
+      <description>La espiral de Fibonacci creada a partir de la proporción de oro.
+“La media de oro”, “Proporciones divinas”, “Espiral de Fibonacci”, y la lista continúa. Esta forma se crea a partir de una fórmula matemática conocida por su apariencia estéticamente agradable. Se puede encontrar de forma natural en muchas cosas como los lóbulos de las orejas, flores y conchas de nautilus. También se utiliza para diseñar objetos artificiales como el iPod.</description>
+    </item>
+    
+  </channel>
+</rss>
