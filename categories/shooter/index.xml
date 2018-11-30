@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shooter on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/categories/shooter/</link>
+    <description>Recent content in Shooter on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 30 Nov 2018 15:11:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/shooter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shooter Level Design - Conceptos</title>
+      <link>https://moonantonio.github.io/post/2018/dev/015/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/015/</guid>
+      <description>Un colega esta terminando el TFG de diseño de videojuegos, y el otro dia estuvimos hablando de como crear un entorno para un videojuego shooter, vimos las dificultades y los balanceos necesarios para generar una solucion factible y escalable.
+Despues de unos dias de investigacion, encontre a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter.</description>
+    </item>
+    
+  </channel>
+</rss>

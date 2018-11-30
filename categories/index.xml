@@ -453,6 +453,15 @@
     </item>
     
     <item>
+      <title>Design</title>
+      <link>https://moonantonio.github.io/categories/design/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dev</title>
       <link>https://moonantonio.github.io/categories/dev/</link>
       <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
@@ -849,6 +858,15 @@
     </item>
     
     <item>
+      <title>Level</title>
+      <link>https://moonantonio.github.io/categories/level/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://moonantonio.github.io/categories/linux/</link>
       <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
@@ -923,7 +941,7 @@
     <item>
       <title>Moon</title>
       <link>https://moonantonio.github.io/categories/moon/</link>
-      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/categories/moon/</guid>
       <description></description>
@@ -932,7 +950,7 @@
     <item>
       <title>Moon Antonio</title>
       <link>https://moonantonio.github.io/categories/moon-antonio/</link>
-      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/categories/moon-antonio/</guid>
       <description></description>
@@ -1313,6 +1331,15 @@
       <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/shader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shooter</title>
+      <link>https://moonantonio.github.io/categories/shooter/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/shooter/</guid>
       <description></description>
     </item>
     
