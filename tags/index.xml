@@ -453,15 +453,6 @@
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://moonantonio.github.io/tags/design/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Dev</title>
       <link>https://moonantonio.github.io/tags/dev/</link>
       <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
@@ -858,15 +849,6 @@
     </item>
     
     <item>
-      <title>Level</title>
-      <link>https://moonantonio.github.io/tags/level/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/level/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Linux</title>
       <link>https://moonantonio.github.io/tags/linux/</link>
       <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
@@ -941,7 +923,7 @@
     <item>
       <title>Moon</title>
       <link>https://moonantonio.github.io/tags/moon/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/tags/moon/</guid>
       <description></description>
@@ -950,7 +932,7 @@
     <item>
       <title>Moon Antonio</title>
       <link>https://moonantonio.github.io/tags/moon-antonio/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/tags/moon-antonio/</guid>
       <description></description>
@@ -1128,6 +1110,15 @@
     </item>
     
     <item>
+      <title>P.ruby</title>
+      <link>https://moonantonio.github.io/tags/p.ruby/</link>
+      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/p.ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Patron De Diseño</title>
       <link>https://moonantonio.github.io/tags/patron-de-dise%C3%B1o/</link>
       <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
@@ -1290,6 +1281,15 @@
     </item>
     
     <item>
+      <title>Ruby</title>
+      <link>https://moonantonio.github.io/tags/ruby/</link>
+      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sao</title>
       <link>https://moonantonio.github.io/tags/sao/</link>
       <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
@@ -1331,15 +1331,6 @@
       <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/tags/shader/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shooter</title>
-      <link>https://moonantonio.github.io/tags/shooter/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/shooter/</guid>
       <description></description>
     </item>
     

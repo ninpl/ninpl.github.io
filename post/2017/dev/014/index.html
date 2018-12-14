@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.49.2" />
+	<meta name="generator" content="Hugo 0.51" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -359,7 +359,7 @@ public class BounceApplication : MonoBehaviour
 public class BounceModel : BounceElement
 {
    // Data
-   public int bounces;  
+   public int bounces;	
    public int winCondition;
 }
 </code></pre>
@@ -408,7 +408,7 @@ public class BounceController : BounceElement
          app.view.ball.enabled = false;
          app.view.ball.GetComponent&lt;RigidBody&gt;().isKinematic=true; // stops the ball
          OnGameComplete();
-      } 
+      }	
    }
 
    // Handles la condición de victoria
@@ -517,7 +517,7 @@ public class BounceController : BounceElement
          case BounceNotification.GameComplete:
             Debug.Log(“Victoria!!”);
          break;
-      } 
+      }	
    }
 }
 </code></pre>

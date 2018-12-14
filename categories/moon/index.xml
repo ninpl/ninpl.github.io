@@ -6,19 +6,19 @@
     <description>Recent content in Moon on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Nov 2018 15:11:12 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 23:43:11 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/moon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Shooter Level Design - Conceptos</title>
-      <link>https://moonantonio.github.io/post/2018/dev/015/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      <title>Información sobre P.Ruby</title>
+      <link>https://moonantonio.github.io/post/2018/comun/024/</link>
+      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2018/dev/015/</guid>
-      <description>Un colega esta terminando el TFG de diseño de videojuegos, y el otro dia estuvimos hablando de como crear un entorno para un videojuego shooter, vimos las dificultades y los balanceos necesarios para generar una solucion factible y escalable.
-Despues de unos dias de investigacion, encontre a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter.</description>
+      <guid>https://moonantonio.github.io/post/2018/comun/024/</guid>
+      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Despues explicare un poco en que consisten estos nuevo cambios y mi motivacion. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
+P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepais, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
     </item>
     
     <item>

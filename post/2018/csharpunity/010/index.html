@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.49.2" />
+	<meta name="generator" content="Hugo 0.51" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -370,19 +370,19 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [System.Flags]
-    public enum Colors
-    {
-        None = 0,
-        Red = 1 &lt;&lt; 0,
-        Green = 1 &lt;&lt; 1,
-        Blue = 1 &lt;&lt; 2,
-    }
+	[System.Flags]
+	public enum Colors
+	{
+		None = 0,
+		Red = 1 &lt;&lt; 0,
+		Green = 1 &lt;&lt; 1,
+		Blue = 1 &lt;&lt; 2,
+	}
 
-    public class EnumsFlags : MonoBehaviour 
-    {
-        public Colors color;
-    }
+	public class EnumsFlags : MonoBehaviour 
+	{
+		public Colors color;
+	}
 }
 </code></pre>
 
@@ -400,15 +400,15 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-    [CustomEditor(typeof(EnumsFlags))]
-    public class EnumsFlagsInspector : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-            EnumsFlags e = (EnumsFlags)target;
-            e.color = (Colors)EditorGUILayout.EnumFlagsField(&quot;Colors&quot;, e.color);
-        }
-    }
+	[CustomEditor(typeof(EnumsFlags))]
+	public class EnumsFlagsInspector : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			EnumsFlags e = (EnumsFlags)target;
+			e.color = (Colors)EditorGUILayout.EnumFlagsField(&quot;Colors&quot;, e.color);
+		}
+	}
 }
 </code></pre>
 

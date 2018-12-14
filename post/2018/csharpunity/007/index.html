@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.49.2" />
+	<meta name="generator" content="Hugo 0.51" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -169,29 +169,29 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class UnityCorrutinas : MonoBehaviour 
-    {
-        void OnEnable()
-        {
-            StartCoroutine(&quot;DoStuff&quot;);
-        }
+	public class UnityCorrutinas : MonoBehaviour 
+	{
+		void OnEnable()
+		{
+			StartCoroutine(&quot;DoStuff&quot;);
+		}
 
-        void OnDisable()
-        {
-            StopCoroutine(&quot;DoStuff&quot;);
-        }
+		void OnDisable()
+		{
+			StopCoroutine(&quot;DoStuff&quot;);
+		}
 
-        IEnumerator DoStuff()
-        {
-            int value = 0;
-            while (true)
-            {
-                yield return new WaitForSeconds(1);
-                value++;
-                Debug.Log(&quot;Valor:&quot; + value);
-            }
-        }
-    }
+		IEnumerator DoStuff()
+		{
+			int value = 0;
+			while (true)
+			{
+				yield return new WaitForSeconds(1);
+				value++;
+				Debug.Log(&quot;Valor:&quot; + value);
+			}
+		}
+	}
 }
 </code></pre>
 
@@ -245,29 +245,29 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-    public class Corrutinas : MonoBehaviour 
-    {
-        public Vector3[] waypoints;
-        public float speed;
+	public class Corrutinas : MonoBehaviour 
+	{
+		public Vector3[] waypoints;
+		public float speed;
 
-        void OnEnable()
-        {
-            StartCoroutine(DoStuff());
-        }
+		void OnEnable()
+		{
+			StartCoroutine(DoStuff());
+		}
 
-        IEnumerator DoStuff()
-        {
-            for (int i = 0; i &lt; waypoints.Length; ++i)
-            {
-                while (transform.position != waypoints[i])
-                {
-                    yield return null;
-                    transform.position = Vector3.MoveTowards(transform.position, waypoints[i], speed * Time.deltaTime);
-                }
-            }
-            Debug.Log(&quot;Completado!&quot;);
-        }
-    }
+		IEnumerator DoStuff()
+		{
+			for (int i = 0; i &lt; waypoints.Length; ++i)
+			{
+				while (transform.position != waypoints[i])
+				{
+					yield return null;
+					transform.position = Vector3.MoveTowards(transform.position, waypoints[i], speed * Time.deltaTime);
+				}
+			}
+			Debug.Log(&quot;Completado!&quot;);
+		}
+	}
 }
 </code></pre>
 
@@ -304,54 +304,54 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-    public class CorrutinasAnidadas : MonoBehaviour 
-    {
-        Vector3 m1 = new Vector3(-1, 0, 0);
-        Vector3 m2 = new Vector3(1, 0, 0);
-        Vector3 s1 = new Vector3(1, 1, 1);
-        Vector3 s2 = new Vector3(0.5f, 0.5f, 0.5f);
+	public class CorrutinasAnidadas : MonoBehaviour 
+	{
+		Vector3 m1 = new Vector3(-1, 0, 0);
+		Vector3 m2 = new Vector3(1, 0, 0);
+		Vector3 s1 = new Vector3(1, 1, 1);
+		Vector3 s2 = new Vector3(0.5f, 0.5f, 0.5f);
 
-        void Start()
-        {
-            StartCoroutine(DoStuff());
-        }
+		void Start()
+		{
+			StartCoroutine(DoStuff());
+		}
 
-        IEnumerator DoStuff()
-        {
-            while (true)
-            {
-                switch (UnityEngine.Random.Range(0, 2))
-                {
-                    case 0:
-                        yield return StartCoroutine(Move());
-                        break;
-                    case 1:
-                        yield return StartCoroutine(Scale());
-                        break;
-                }
-            }
-        }
+		IEnumerator DoStuff()
+		{
+			while (true)
+			{
+				switch (UnityEngine.Random.Range(0, 2))
+				{
+					case 0:
+						yield return StartCoroutine(Move());
+						break;
+					case 1:
+						yield return StartCoroutine(Scale());
+						break;
+				}
+			}
+		}
 
-        IEnumerator Move()
-        {
-            Vector3 target = transform.position == m1 ? m2 : m1;
-            while (transform.position != target)
-            {
-                yield return null;
-                transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime);
-            }
-        }
+		IEnumerator Move()
+		{
+			Vector3 target = transform.position == m1 ? m2 : m1;
+			while (transform.position != target)
+			{
+				yield return null;
+				transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime);
+			}
+		}
 
-        IEnumerator Scale()
-        {
-            Vector3 target = transform.localScale == s1 ? s2 : s1;
-            while (transform.localScale != target)
-            {
-                yield return null;
-                transform.localScale = Vector3.MoveTowards(transform.localScale, target, Time.deltaTime);
-            }
-        }
-    }
+		IEnumerator Scale()
+		{
+			Vector3 target = transform.localScale == s1 ? s2 : s1;
+			while (transform.localScale != target)
+			{
+				yield return null;
+				transform.localScale = Vector3.MoveTowards(transform.localScale, target, Time.deltaTime);
+			}
+		}
+	}
 }
 </code></pre>
 
@@ -374,33 +374,33 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-    public class CorrutinaNativa : MonoBehaviour 
-    {
-        IEnumerator trend;
+	public class CorrutinaNativa : MonoBehaviour 
+	{
+		IEnumerator trend;
 
-        void Start()
-        {
-            trend = TrendLine();
-        }
+		void Start()
+		{
+			trend = TrendLine();
+		}
 
-        void Update()
-        {
-            if (trend.MoveNext())
-                Debug.Log((int)trend.Current);
-        }
+		void Update()
+		{
+			if (trend.MoveNext())
+				Debug.Log((int)trend.Current);
+		}
 
-        IEnumerator TrendLine()
-        {
-            int value = 0;
-            while (true)
-            {
-                value += UnityEngine.Random.Range(-1, 2);
-                yield return value;
-                if (Mathf.Abs(value) &gt;= 10)
-                    yield break;
-            }
-        }
-    }
+		IEnumerator TrendLine()
+		{
+			int value = 0;
+			while (true)
+			{
+				value += UnityEngine.Random.Range(-1, 2);
+				yield return value;
+				if (Mathf.Abs(value) &gt;= 10)
+					yield break;
+			}
+		}
+	}
 }
 </code></pre>
 
