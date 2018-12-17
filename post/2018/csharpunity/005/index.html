@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.51" />
+	<meta name="generator" content="Hugo 0.49.2" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -170,29 +170,29 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-	public class TicTacToe : MonoBehaviour 
-	{
-		[SerializeField] Text[] cells;
+    public class TicTacToe : MonoBehaviour 
+    {
+        [SerializeField] Text[] cells;
 
-		void Start()
-		{
-			NewGame();
-		}
+        void Start()
+        {
+            NewGame();
+        }
 
-		public void NewGame()
-		{
-			cells[0].text = &quot;&quot;;
-			cells[1].text = &quot;&quot;;
-			cells[2].text = &quot;&quot;;
-			cells[3].text = &quot;&quot;;
-			cells[4].text = &quot;&quot;;
-			cells[5].text = &quot;&quot;;
-			cells[6].text = &quot;&quot;;
-			cells[7].text = &quot;&quot;;
-			cells[8].text = &quot;&quot;;
-			cells[9].text = &quot;&quot;;
-		}
-	}
+        public void NewGame()
+        {
+            cells[0].text = &quot;&quot;;
+            cells[1].text = &quot;&quot;;
+            cells[2].text = &quot;&quot;;
+            cells[3].text = &quot;&quot;;
+            cells[4].text = &quot;&quot;;
+            cells[5].text = &quot;&quot;;
+            cells[6].text = &quot;&quot;;
+            cells[7].text = &quot;&quot;;
+            cells[8].text = &quot;&quot;;
+            cells[9].text = &quot;&quot;;
+        }
+    }
 }
 </code></pre>
 
@@ -208,10 +208,10 @@ namespace MoonAntonio
 
 <pre><code class="language-C#">public void NewGame()
 {
-	for (int n = 0; n &lt; cells.Length; n++)
-	{
-		cells[n].text = &quot;&quot;;
-	}
+    for (int n = 0; n &lt; cells.Length; n++)
+    {
+        cells[n].text = &quot;&quot;;
+    }
 }
 </code></pre>
 
@@ -268,10 +268,10 @@ Hay muchos otros tipos de bucles en C#. Normalmente uso el ciclo &ldquo;while&rd
 
 <pre><code class="language-C#">public void SelectCell(int index)
 {
-	if (!string.IsNullOrEmpty(cells[index].text)) return;
+    if (!string.IsNullOrEmpty(cells[index].text)) return;
 
-	cells[index].text = marca;
-	marca = (marca == &quot;X&quot;) ? &quot;O&quot; : &quot;X&quot;;
+    cells[index].text = marca;
+    marca = (marca == &quot;X&quot;) ? &quot;O&quot; : &quot;X&quot;;
 }
 </code></pre>
 
@@ -314,14 +314,14 @@ Hay muchos otros tipos de bucles en C#. Normalmente uso el ciclo &ldquo;while&rd
 <pre><code class="language-C#">bool gameOver;
 int[,] wins = new int[,]
 {
-	{0,1,2},
-	{3,4,5},
-	{6,7,8},
-	{0,3,6},
-	{1,4,7},
-	{2,5,8},
-	{0,4,8},
-	{2,4,6}
+    {0,1,2},
+    {3,4,5},
+    {6,7,8},
+    {0,3,6},
+    {1,4,7},
+    {2,5,8},
+    {0,4,8},
+    {2,4,6}
 };
 </code></pre>
 
@@ -342,21 +342,21 @@ int[,] wins = new int[,]
 
 <pre><code class="language-C#">void CheckGameState()
 {
-	for (int i = 0; i &lt; wins.GetLength(0); ++i)
-	{
-		int j = wins[i, 0];
-		int k = wins[i, 1];
-		int l = wins[i, 2];
-		if (cells[j].text == cells[k].text &amp;&amp;
-			cells[k].text == cells[l].text &amp;&amp;
-			!string.IsNullOrEmpty(cells[j].text))
-		{
-			gameOver = true;
-			Debug.Log(cells[j].text + &quot; GANAS!&quot;);
-			Invoke(&quot;NewGame&quot;, 3f);
-			break;
-		}
-	}
+    for (int i = 0; i &lt; wins.GetLength(0); ++i)
+    {
+        int j = wins[i, 0];
+        int k = wins[i, 1];
+        int l = wins[i, 2];
+        if (cells[j].text == cells[k].text &amp;&amp;
+            cells[k].text == cells[l].text &amp;&amp;
+            !string.IsNullOrEmpty(cells[j].text))
+        {
+            gameOver = true;
+            Debug.Log(cells[j].text + &quot; GANAS!&quot;);
+            Invoke(&quot;NewGame&quot;, 3f);
+            break;
+        }
+    }
 }
 </code></pre>
 
@@ -378,21 +378,21 @@ int[,] wins = new int[,]
 
 <pre><code class="language-C#">void CheckGameState()
 {
-	for (int i = 0; i &lt; wins.GetLength(0); ++i)
-	{
-		int j = wins[i, 0];
-		int k = wins[i, 1];
-		int l = wins[i, 2];
-		if (cells[j].text == cells[k].text &amp;&amp;
-			cells[k].text == cells[l].text &amp;&amp;
-			!string.IsNullOrEmpty(cells[j].text))
-		{
-			gameOver = true;
-			Debug.Log(cells[j].text + &quot; GANAS!&quot;);
-			Invoke(&quot;NewGame&quot;, 3f);
-			break;
-		}
-	}
+    for (int i = 0; i &lt; wins.GetLength(0); ++i)
+    {
+        int j = wins[i, 0];
+        int k = wins[i, 1];
+        int l = wins[i, 2];
+        if (cells[j].text == cells[k].text &amp;&amp;
+            cells[k].text == cells[l].text &amp;&amp;
+            !string.IsNullOrEmpty(cells[j].text))
+        {
+            gameOver = true;
+            Debug.Log(cells[j].text + &quot; GANAS!&quot;);
+            Invoke(&quot;NewGame&quot;, 3f);
+            break;
+        }
+    }
 }
 </code></pre>
 

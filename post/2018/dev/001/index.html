@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.51" />
+	<meta name="generator" content="Hugo 0.49.2" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -191,29 +191,29 @@ using System.Collections.Generic;
 
 public class BoxManager : MonoBehaviour
 {
-	public static BoxManager Instance { get; private set; }
+    public static BoxManager Instance { get; private set; }
 
-	public List&lt;BoxManaged&gt; _managedBoxes = new List&lt;BoxManaged&gt;();
+    public List&lt;BoxManaged&gt; _managedBoxes = new List&lt;BoxManaged&gt;();
 
-	void Awake()
-	{
-		Instance = this;
-	}
+    void Awake()
+    {
+        Instance = this;
+    }
 
-	void Update()
-	{
-		// Actualizar los objetos aquí
-	}
+    void Update()
+    {
+        // Actualizar los objetos aquí
+    }
 
-	public void Register(BoxManaged box)
-	{
-		_managedBoxes.Add(box);
-	}
+    public void Register(BoxManaged box)
+    {
+        _managedBoxes.Add(box);
+    }
 
-	public void Unregister(BoxManaged box)
-	{
-		_managedBoxes.Remove(box);
-	}
+    public void Unregister(BoxManaged box)
+    {
+        _managedBoxes.Remove(box);
+    }
 }
 </code></pre>
 
@@ -227,24 +227,24 @@ public class BoxManager : MonoBehaviour
 
 public class BoxManaged : MonoBehaviour {
 
-	private Vector3 _position;
+    private Vector3 _position;
 
-	private Transform _transform;
+    private Transform _transform;
 
-	void OnEnable()
-	{
-		BoxManager.Instance.Register(this);
-	}
+    void OnEnable()
+    {
+        BoxManager.Instance.Register(this);
+    }
 
-	void OnDisable()
-	{
-		BoxManager.Instance.Unregister(this);
-	}
+    void OnDisable()
+    {
+        BoxManager.Instance.Unregister(this);
+    }
 
-	public void ManagedUpdate()
-	{
-		// El update que usariamos
-	}
+    public void ManagedUpdate()
+    {
+        // El update que usariamos
+    }
 }
 </code></pre>
 
@@ -254,13 +254,13 @@ public class BoxManaged : MonoBehaviour {
 
 <hr />
 
-<pre><code class="language-C#">	void Update()
-	{
-		for (int i = 0; i &lt; _managedBoxes.Count; ++i)
-		{
-			_managedBoxes[i].ManagedUpdate();
-		}
-	}
+<pre><code class="language-C#">    void Update()
+    {
+        for (int i = 0; i &lt; _managedBoxes.Count; ++i)
+        {
+            _managedBoxes[i].ManagedUpdate();
+        }
+    }
 </code></pre>
 
 <hr />

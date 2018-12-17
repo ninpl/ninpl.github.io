@@ -22,6 +22,16 @@ P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepais, quiero ex
     </item>
     
     <item>
+      <title>Shooter Level Design - Conceptos</title>
+      <link>https://moonantonio.github.io/post/2018/dev/015/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/015/</guid>
+      <description>Un colega esta terminando el TFG de diseño de videojuegos, y el otro dia estuvimos hablando de como crear un entorno para un videojuego shooter, vimos las dificultades y los balanceos necesarios para generar una solucion factible y escalable.
+Despues de unos dias de investigacion, encontre a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter.</description>
+    </item>
+    
+    <item>
       <title>Usando la proporción de oro</title>
       <link>https://moonantonio.github.io/post/2018/comun/023/</link>
       <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>

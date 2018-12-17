@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.51" />
+	<meta name="generator" content="Hugo 0.49.2" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -172,35 +172,35 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-	public class ListExamples : MonoBehaviour 
-	{
-		public List&lt;int&gt; indices = new List&lt;int&gt;();
+    public class ListExamples : MonoBehaviour 
+    {
+        public List&lt;int&gt; indices = new List&lt;int&gt;();
 
-		void Start()
-		{
-			for (int i = 0; i &lt; 10; ++i)
-			{
-				int index = UnityEngine.Random.Range(0, 10);
-				Debug.Log(&quot;Agregada entrada: &quot; + index);
-				indices.Add(index);
-			}
+        void Start()
+        {
+            for (int i = 0; i &lt; 10; ++i)
+            {
+                int index = UnityEngine.Random.Range(0, 10);
+                Debug.Log(&quot;Agregada entrada: &quot; + index);
+                indices.Add(index);
+            }
 
-			if (indices.Contains(3))
-			{
-				Debug.Log(&quot;Eliminada entrada.&quot;);
-				indices.Remove(3);
-			}
+            if (indices.Contains(3))
+            {
+                Debug.Log(&quot;Eliminada entrada.&quot;);
+                indices.Remove(3);
+            }
 
-			indices.Sort();
-			Debug.Log(&quot;Entradas ordenadas ... Ahora:&quot;);
+            indices.Sort();
+            Debug.Log(&quot;Entradas ordenadas ... Ahora:&quot;);
 
-			for (int i = 0; i &lt; indices.Count; ++i)
-			{
-				int index = indices[i];
-				Debug.Log(string.Format(&quot;i: &quot; + index));
-			}
-		}
-	}
+            for (int i = 0; i &lt; indices.Count; ++i)
+            {
+                int index = indices[i];
+                Debug.Log(string.Format(&quot;i: &quot; + index));
+            }
+        }
+    }
 }
 </code></pre>
 
@@ -252,18 +252,18 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-	public class DictionaryExamples : MonoBehaviour 
-	{
-		public Dictionary&lt;string, int&gt; stats = new Dictionary&lt;string, int&gt;();
+    public class DictionaryExamples : MonoBehaviour 
+    {
+        public Dictionary&lt;string, int&gt; stats = new Dictionary&lt;string, int&gt;();
 
-		void Start()
-		{
-			stats.Add(&quot;HP&quot;, 10);
-			stats.Add(&quot;MP&quot;, 3);
-			stats.Remove(&quot;MP&quot;);
-			if (stats.ContainsKey(&quot;HP&quot;)) Debug.Log(string.Format(&quot;Tienes {0} puntos de golpe restantes&quot;, stats[&quot;HP&quot;]));
-		}
-	}
+        void Start()
+        {
+            stats.Add(&quot;HP&quot;, 10);
+            stats.Add(&quot;MP&quot;, 3);
+            stats.Remove(&quot;MP&quot;);
+            if (stats.ContainsKey(&quot;HP&quot;)) Debug.Log(string.Format(&quot;Tienes {0} puntos de golpe restantes&quot;, stats[&quot;HP&quot;]));
+        }
+    }
 }
 </code></pre>
 

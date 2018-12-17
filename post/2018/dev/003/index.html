@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.51" />
+	<meta name="generator" content="Hugo 0.49.2" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -396,24 +396,24 @@ private static extern int[,] fillArray(int size);
 
 private void Start()
 {
-	ArrayFillTest();
+    ArrayFillTest();
 }
 
 private void ArrayFillTest()
 {
-	var start = Time.realtimeSinceStartup;
-	int[,] tab = fillArray(size);
-	Debug.Log((Time.realtimeSinceStartup - start).ToString(&quot;f6&quot;) + &quot; secs&quot;);
-	start = Time.realtimeSinceStartup;
-	int[,] array = new int[size, size];
-	for (int i = 0; i &lt; size; i++)
-	{
-		for (int j = 0; j &lt; size; j++)
-		{
-			array[i, j] = i * size + j;
-		}
-	}
-	Debug.Log((Time.realtimeSinceStartup - start).ToString(&quot;f6&quot;) + &quot; secs&quot;);
+    var start = Time.realtimeSinceStartup;
+    int[,] tab = fillArray(size);
+    Debug.Log((Time.realtimeSinceStartup - start).ToString(&quot;f6&quot;) + &quot; secs&quot;);
+    start = Time.realtimeSinceStartup;
+    int[,] array = new int[size, size];
+    for (int i = 0; i &lt; size; i++)
+    {
+        for (int j = 0; j &lt; size; j++)
+        {
+            array[i, j] = i * size + j;
+        }
+    }
+    Debug.Log((Time.realtimeSinceStartup - start).ToString(&quot;f6&quot;) + &quot; secs&quot;);
 }
 </code></pre>
 
