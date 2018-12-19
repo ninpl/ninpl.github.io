@@ -1430,5 +1430,16 @@ PortFolio</description>
       <description>Generalmente suelo publicar entradas en su mayoria aleatorias, según lo que veo a diario, investigaciones de mi interes, consultas de otros compañeros, vines que realizo, intentos de ilustraciones entre muchas otras cosas. Esto a lo largo de mucho tiempo ha ocasionado que la gente se pierda entre tanta información, por eso he creado la backdoor, CodeBackDoor es una puerta trasera que dirige directamente a lo que creo que es más relevante del blog (Las entradas que no esten aqui, tendrán que seguir en vuestros marcadores ).</description>
     </item>
     
+    <item>
+      <title>. devBlog .</title>
+      <link>https://moonantonio.github.io/devblog/</link>
+      <pubDate>Sun, 31 Jul 2016 18:53:37 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/devblog/</guid>
+      <description>P.Ruby
+1. Introducción
+ </description>
+    </item>
+    
   </channel>
 </rss>
