@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.49.2" />
+	<meta name="generator" content="Hugo 0.51" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -198,11 +198,11 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo1 : MonoBehaviour 
-    {
-        public Demo1Data dataA;
-        public Demo1Data dataB;
-    }
+	public class Demo1 : MonoBehaviour 
+	{
+		public Demo1Data dataA;
+		public Demo1Data dataB;
+	}
 }
 </code></pre>
 
@@ -218,11 +218,11 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [System.Serializable]
-    public class Demo1Data
-    {
-        public int value;
-    }
+	[System.Serializable]
+	public class Demo1Data
+	{
+		public int value;
+	}
 }
 </code></pre>
 
@@ -239,20 +239,20 @@ using UnityEditor;
 
 namespace MoonAntonio
 {
-    [CustomEditor(typeof(Demo1))]
-    public class Demo1Inspector : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-            DrawDefaultInspector();
-            Demo1 myTarget = (Demo1)target;
-            if (GUILayout.Button(&quot;Crear Data&quot;))
-            {
-                myTarget.dataA = new Demo1Data();
-                myTarget.dataB = myTarget.dataA;
-            }
-        }
-    }
+	[CustomEditor(typeof(Demo1))]
+	public class Demo1Inspector : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			DrawDefaultInspector();
+			Demo1 myTarget = (Demo1)target;
+			if (GUILayout.Button(&quot;Crear Data&quot;))
+			{
+				myTarget.dataA = new Demo1Data();
+				myTarget.dataB = myTarget.dataA;
+			}
+		}
+	}
 }
 </code></pre>
 
@@ -276,10 +276,10 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo2 : MonoBehaviour 
-    {
-        public Demo2Data[] dataArray;
-    }
+	public class Demo2 : MonoBehaviour 
+	{
+		public Demo2Data[] dataArray;
+	}
 }
 </code></pre>
 
@@ -295,35 +295,35 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [System.Serializable]
-    public class Demo2Data
-    {
-        public string name;
-        public override string ToString()
-        {
-            return string.Format(&quot;[{0}]&quot;, name);
-        }
-    }
+	[System.Serializable]
+	public class Demo2Data
+	{
+		public string name;
+		public override string ToString()
+		{
+			return string.Format(&quot;[{0}]&quot;, name);
+		}
+	}
 
-    [System.Serializable]
-    public class Demo2NumberData : Demo2Data
-    {
-        public int number;
-        public override string ToString()
-        {
-            return string.Format(&quot;[{0}, {1}]&quot;, name, number);
-        }
-    }
+	[System.Serializable]
+	public class Demo2NumberData : Demo2Data
+	{
+		public int number;
+		public override string ToString()
+		{
+			return string.Format(&quot;[{0}, {1}]&quot;, name, number);
+		}
+	}
 
-    [System.Serializable]
-    public class Demo2BoolData : Demo2Data
-    {
-        public bool toggle;
-        public override string ToString()
-        {
-            return string.Format(&quot;[{0}, {1}]&quot;, name, toggle);
-        }
-    }
+	[System.Serializable]
+	public class Demo2BoolData : Demo2Data
+	{
+		public bool toggle;
+		public override string ToString()
+		{
+			return string.Format(&quot;[{0}, {1}]&quot;, name, toggle);
+		}
+	}
 }
 </code></pre>
 
@@ -340,32 +340,32 @@ using UnityEditor;
 
 namespace MoonAntonio
 {
-    [CustomEditor(typeof(Demo2))]
-    public class Demo2Inspector : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-            DrawDefaultInspector();
-            Demo2 myTarget = (Demo2)target;
-            if (GUILayout.Button(&quot;Crear Data&quot;))
-            {
-                var dataA = new Demo2NumberData();
-                dataA.name = &quot;Demo2NumberData&quot;;
-                dataA.number = UnityEngine.Random.Range(1, 100);
-                var dataB = new Demo2BoolData();
-                dataB.name = &quot;Demo2BoolData&quot;;
-                dataB.toggle = UnityEngine.Random.value &gt; 0.5;
-                myTarget.dataArray = new Demo2Data[] { dataA, dataB };
-            }
-            if (GUILayout.Button(&quot;Log&quot;))
-            {
-                foreach (var data in myTarget.dataArray)
-                {
-                    Debug.Log(data.ToString());
-                }
-            }
-        }
-    }
+	[CustomEditor(typeof(Demo2))]
+	public class Demo2Inspector : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			DrawDefaultInspector();
+			Demo2 myTarget = (Demo2)target;
+			if (GUILayout.Button(&quot;Crear Data&quot;))
+			{
+				var dataA = new Demo2NumberData();
+				dataA.name = &quot;Demo2NumberData&quot;;
+				dataA.number = UnityEngine.Random.Range(1, 100);
+				var dataB = new Demo2BoolData();
+				dataB.name = &quot;Demo2BoolData&quot;;
+				dataB.toggle = UnityEngine.Random.value &gt; 0.5;
+				myTarget.dataArray = new Demo2Data[] { dataA, dataB };
+			}
+			if (GUILayout.Button(&quot;Log&quot;))
+			{
+				foreach (var data in myTarget.dataArray)
+				{
+					Debug.Log(data.ToString());
+				}
+			}
+		}
+	}
 }
 </code></pre>
 
@@ -401,11 +401,11 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo3 : MonoBehaviour 
-    {
-        public Demo3Data dataA;
-        public Demo3Data dataB;
-    }
+	public class Demo3 : MonoBehaviour 
+	{
+		public Demo3Data dataA;
+		public Demo3Data dataB;
+	}
 }
 </code></pre>
 
@@ -419,11 +419,11 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [System.Serializable]
-    public class Demo3Data : ScriptableObject
-    {
-        public int value;
-    }
+	[System.Serializable]
+	public class Demo3Data : ScriptableObject
+	{
+		public int value;
+	}
 }
 </code></pre>
 
@@ -438,20 +438,20 @@ using UnityEditor;
 
 namespace MoonAntonio
 {
-    [CustomEditor(typeof(Demo3))]
-    public class Demo3Inspector : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-            DrawDefaultInspector();
-            Demo3 myTarget = (Demo3)target;
-            if (GUILayout.Button(&quot;Crear Data&quot;))
-            {
-                myTarget.dataA = ScriptableObject.CreateInstance&lt;Demo3Data&gt;();
-                myTarget.dataB = myTarget.dataA;
-            }
-        }
-    }
+	[CustomEditor(typeof(Demo3))]
+	public class Demo3Inspector : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			DrawDefaultInspector();
+			Demo3 myTarget = (Demo3)target;
+			if (GUILayout.Button(&quot;Crear Data&quot;))
+			{
+				myTarget.dataA = ScriptableObject.CreateInstance&lt;Demo3Data&gt;();
+				myTarget.dataB = myTarget.dataA;
+			}
+		}
+	}
 }
 </code></pre>
 
@@ -473,10 +473,10 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo4 : MonoBehaviour 
-    {
-        public Demo4Data[] dataArray;
-    }
+	public class Demo4 : MonoBehaviour 
+	{
+		public Demo4Data[] dataArray;
+	}
 }
 </code></pre>
 
@@ -490,13 +490,13 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo4Data : ScriptableObject
-    {
-        public override string ToString()
-        {
-            return string.Format(&quot;[{0}]&quot;, name);
-        }
-    }
+	public class Demo4Data : ScriptableObject
+	{
+		public override string ToString()
+		{
+			return string.Format(&quot;[{0}]&quot;, name);
+		}
+	}
 }
 </code></pre>
 
@@ -510,14 +510,14 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo4NumberData : Demo4Data
-    {
-        public int number;
-        public override string ToString()
-        {
-            return string.Format(&quot;[{0}, {1}]&quot;, name, number);
-        }
-    }
+	public class Demo4NumberData : Demo4Data
+	{
+		public int number;
+		public override string ToString()
+		{
+			return string.Format(&quot;[{0}, {1}]&quot;, name, number);
+		}
+	}
 }
 </code></pre>
 
@@ -531,14 +531,14 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Demo4BoolData : Demo4Data
-    {
-        public bool toggle;
-        public override string ToString()
-        {
-            return string.Format(&quot;[{0}, {1}]&quot;, name, toggle);
-        }
-    }
+	public class Demo4BoolData : Demo4Data
+	{
+		public bool toggle;
+		public override string ToString()
+		{
+			return string.Format(&quot;[{0}, {1}]&quot;, name, toggle);
+		}
+	}
 }
 </code></pre>
 
@@ -553,32 +553,32 @@ using UnityEditor;
 
 namespace MoonAntonio
 {
-    [CustomEditor(typeof(Demo4))]
-    public class Demo4Inspector : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-            DrawDefaultInspector();
-            Demo4 myTarget = (Demo4)target;
-            if (GUILayout.Button(&quot;Crear Data&quot;))
-            {
-                var dataA = ScriptableObject.CreateInstance&lt;Demo4NumberData&gt;();
-                dataA.name = &quot;Demo4NumberData&quot;;
-                dataA.number = UnityEngine.Random.Range(1, 100);
-                var dataB = ScriptableObject.CreateInstance&lt;Demo4BoolData&gt;();
-                dataB.name = &quot;Demo4BoolData&quot;;
-                dataB.toggle = UnityEngine.Random.value &gt; 0.5;
-                myTarget.dataArray = new Demo4Data[] { dataA, dataB };
-            }
-            if (GUILayout.Button(&quot;Log&quot;))
-            {
-                foreach (var data in myTarget.dataArray)
-                {
-                    Debug.Log(data.ToString());
-                }
-            }
-        }
-    }
+	[CustomEditor(typeof(Demo4))]
+	public class Demo4Inspector : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			DrawDefaultInspector();
+			Demo4 myTarget = (Demo4)target;
+			if (GUILayout.Button(&quot;Crear Data&quot;))
+			{
+				var dataA = ScriptableObject.CreateInstance&lt;Demo4NumberData&gt;();
+				dataA.name = &quot;Demo4NumberData&quot;;
+				dataA.number = UnityEngine.Random.Range(1, 100);
+				var dataB = ScriptableObject.CreateInstance&lt;Demo4BoolData&gt;();
+				dataB.name = &quot;Demo4BoolData&quot;;
+				dataB.toggle = UnityEngine.Random.value &gt; 0.5;
+				myTarget.dataArray = new Demo4Data[] { dataA, dataB };
+			}
+			if (GUILayout.Button(&quot;Log&quot;))
+			{
+				foreach (var data in myTarget.dataArray)
+				{
+					Debug.Log(data.ToString());
+				}
+			}
+		}
+	}
 }
 </code></pre>
 
@@ -602,11 +602,11 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [CreateAssetMenu()]
-    public class ScriptableTets : ScriptableObject
-    {
-        public int value;
-    }
+	[CreateAssetMenu()]
+	public class ScriptableTets : ScriptableObject
+	{
+		public int value;
+	}
 }
 </code></pre>
 
@@ -633,31 +633,31 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [CreateAssetMenu(fileName = &quot;ScriptableTets&quot;, menuName = &quot;Scriptable Objects/ScriptableTets&quot;, order = 1)]
-    public class ScriptableTets : ScriptableObject
-    {
-        public int value;
+	[CreateAssetMenu(fileName = &quot;ScriptableTets&quot;, menuName = &quot;Scriptable Objects/ScriptableTets&quot;, order = 1)]
+	public class ScriptableTets : ScriptableObject
+	{
+		public int value;
 
-        void Awake()
-        {
-            Debug.Log(&quot;Awake ScriptableTets &quot; + name);
-        }
+		void Awake()
+		{
+			Debug.Log(&quot;Awake ScriptableTets &quot; + name);
+		}
 
-        void OnDestroy()
-        {
-            Debug.Log(&quot;Destroy ScriptableTets &quot; + name);
-        }
+		void OnDestroy()
+		{
+			Debug.Log(&quot;Destroy ScriptableTets &quot; + name);
+		}
 
-        void OnEnable()
-        {
-            Debug.Log(&quot;OnEnable ScriptableTets &quot; + name);
-        }
+		void OnEnable()
+		{
+			Debug.Log(&quot;OnEnable ScriptableTets &quot; + name);
+		}
 
-        void OnDisable()
-        {
-            Debug.Log(&quot;OnDisable ScriptableTets &quot; + name);
-        }
-    }
+		void OnDisable()
+		{
+			Debug.Log(&quot;OnDisable ScriptableTets &quot; + name);
+		}
+	}
 }
 </code></pre>
 
@@ -711,7 +711,7 @@ namespace MoonAntonio
 	</div>
 
 	<footer class="site-footer">
-	<p class="text">&copy; 2018 - Moon Antonio</p>
+	<p class="text">&copy; 2019 - Moon Antonio</p>
 </footer>
 
 

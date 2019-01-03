@@ -7,7 +7,7 @@
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.49.2" />
+	<meta name="generator" content="Hugo 0.51" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
@@ -267,22 +267,22 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class GotchasA : MonoBehaviour 
-    {
-        public Vector3 v1;
-        public Vector3 v2 { get; private set; }
+	public class GotchasA : MonoBehaviour 
+	{
+		public Vector3 v1;
+		public Vector3 v2 { get; private set; }
 
-        void Start()
-        {
-            v1.Set(1, 2, 3);
-            v1.x = 4;
-            v2.Set(1, 2, 3);      // ** (Nota 2)
-            //v2.x = 4;           // * (Nota 1)
+		void Start()
+		{
+			v1.Set(1, 2, 3);
+			v1.x = 4;
+			v2.Set(1, 2, 3);      // ** (Nota 2)
+			//v2.x = 4;           // * (Nota 1)
 
-            Debug.Log(v1.ToString());
-            Debug.Log(v2.ToString());
-        }
-    }
+			Debug.Log(v1.ToString());
+			Debug.Log(v2.ToString());
+		}
+	}
 }
 </code></pre>
 
@@ -317,17 +317,17 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-    public class GotchasB : MonoBehaviour 
-    {
-        void Start()
-        {
-            List&lt;Vector3&gt; coords = new List&lt;Vector3&gt;();
-            coords.Add(new Vector3(0, 0, 0));
-            coords[0].Set(1, 2, 3);
-            //coords[0].x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)
-            Debug.Log(coords[0].ToString());  // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!
-        }
-    }
+	public class GotchasB : MonoBehaviour 
+	{
+		void Start()
+		{
+			List&lt;Vector3&gt; coords = new List&lt;Vector3&gt;();
+			coords.Add(new Vector3(0, 0, 0));
+			coords[0].Set(1, 2, 3);
+			//coords[0].x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)
+			Debug.Log(coords[0].ToString());  // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!
+		}
+	}
 }
 </code></pre>
 
@@ -343,21 +343,21 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Foo
-    {
-        public Vector3 pos;
-    }
+	public class Foo
+	{
+		public Vector3 pos;
+	}
 
-    public class GotchasC : MonoBehaviour 
-    {
-        void Start()
-        {
-            Foo myFoo = new Foo();
-            myFoo.pos.Set(1, 2, 3);
-            myFoo.pos.x = 4; // Sin error de compilación
-            Debug.Log(myFoo.pos.ToString()); //Será (4.0, 2.0, 3.0) - ¡Como esperabas!
-        }
-    }
+	public class GotchasC : MonoBehaviour 
+	{
+		void Start()
+		{
+			Foo myFoo = new Foo();
+			myFoo.pos.Set(1, 2, 3);
+			myFoo.pos.x = 4; // Sin error de compilación
+			Debug.Log(myFoo.pos.ToString()); //Será (4.0, 2.0, 3.0) - ¡Como esperabas!
+		}
+	}
 }
 </code></pre>
 
@@ -375,22 +375,22 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class Moo
-    {
-        public Vector3 pos { get { return _pos; } set { _pos = value; } }
-        private Vector3 _pos;
-    }
+	public class Moo
+	{
+		public Vector3 pos { get { return _pos; } set { _pos = value; } }
+		private Vector3 _pos;
+	}
 
-    public class GotchasD : MonoBehaviour 
-    {
-        void Start()
-        {
-            Moo myMoo = new Moo();
-            myMoo.pos.Set(1, 2, 3);
-            // myMoo.pos.x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)
-            Debug.Log(myMoo.pos.ToString()); // // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!
-        }
-    }
+	public class GotchasD : MonoBehaviour 
+	{
+		void Start()
+		{
+			Moo myMoo = new Moo();
+			myMoo.pos.Set(1, 2, 3);
+			// myMoo.pos.x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)
+			Debug.Log(myMoo.pos.ToString()); // // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!
+		}
+	}
 }
 </code></pre>
 
@@ -432,7 +432,7 @@ namespace MoonAntonio
 	</div>
 
 	<footer class="site-footer">
-	<p class="text">&copy; 2018 - Moon Antonio</p>
+	<p class="text">&copy; 2019 - Moon Antonio</p>
 </footer>
 
 
