@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pico on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/categories/pico/</link>
+    <description>Recent content in Pico on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 08 Jan 2019 17:35:43 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/pico/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presentando La Videoconsola Virtual Pico8</title>
+      <link>https://moonantonio.github.io/post/2019/comun/002/</link>
+      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/002/</guid>
+      <description>¡Bienvenidos! Hoy les voy a presentar un nuevo software que me mantuvo entretenido durante todo el año.
+Les estoy hablando nada mas y nada menos que del famoso PICO-8. Para los que nunca escucharon hablar de él, PICO-8 es una videoconsola virtual, con una pantalla de 128x128 a 16 colores, que permite programar por medio de Lua tus juegos para el explorador.
+
+Pico-8 tiene varias limitaciones:
+ solo permite un máximo de 32kb por cartucho dispone tan solo de 4 canales de sonido permite un máximo de 6 botones las imágenes y sprites son pixeladas  ¿Por qué es tan bueno?</description>
+    </item>
+    
+  </channel>
+</rss>
