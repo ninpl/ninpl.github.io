@@ -6,10 +6,21 @@
     <description>Recent content in Unity on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 18 Oct 2018 03:42:27 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jan 2019 13:28:38 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personalizando nuestro editor a nuestro gusto - Unity</title>
+      <link>https://moonantonio.github.io/post/2019/dev/001/</link>
+      <pubDate>Thu, 24 Jan 2019 13:28:38 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/dev/001/</guid>
+      <description>Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script classes asociadas a Gameobjects, prefabs, etc…
+
+Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automaticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</description>
+    </item>
     
     <item>
       <title>Unity Shader de acumulacion</title>
