@@ -6,10 +6,22 @@
     <description>Recent content in Moon on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 24 Jan 2019 13:28:38 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 14:38:50 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/moon/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shaders (Ley de Lambert) y Cell Shading (Toon)</title>
+      <link>https://moonantonio.github.io/post/2019/dev/002/</link>
+      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/dev/002/</guid>
+      <description>En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
+Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
+Ley de Lambert
+ La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz.</description>
+    </item>
     
     <item>
       <title>Personalizando nuestro editor a nuestro gusto - Unity</title>
