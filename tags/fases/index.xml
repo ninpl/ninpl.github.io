@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fases on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/fases/</link>
+    <description>Recent content in Fases on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 25 Feb 2019 23:17:23 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/fases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fases Importantes del desarrollo de un juego</title>
+      <link>https://moonantonio.github.io/post/2019/dev/003/</link>
+      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/dev/003/</guid>
+      <description>Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.
+Fase de Concepción Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (gameplay), y también se constituye un guión gráfico (storyboard) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
