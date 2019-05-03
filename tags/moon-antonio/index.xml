@@ -6,10 +6,19 @@
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 12 Mar 2019 20:12:23 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 02:02:45 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uso de GUISkin para el estilo del editor</title>
+      <link>https://moonantonio.github.io/post/2019/dev/004/</link>
+      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/dev/004/</guid>
+      <description>Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método.</description>
+    </item>
     
     <item>
       <title>Estereotipos de la mujer en RPGs</title>
