@@ -6,10 +6,20 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 03 May 2019 02:02:45 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 19:34:19 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vector Cruzado - 2D</title>
+      <link>https://moonantonio.github.io/post/2019/matematicas/001/</link>
+      <pubDate>Mon, 02 Sep 2019 19:34:19 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/matematicas/001/</guid>
+      <description>El producto cruzado de dos vectores 3D es un vector 3D, que está en la dirección del eje de rotación para rotar el primer vector para que coincida con la dirección del segundo vector, con el ángulo de rotación más pequeño (siempre menor de 180 grados ). Entonces, ¿qué significa &amp;ldquo;producto cruzado&amp;rdquo; de vectores 2D?
+Me gusta pensar en el &amp;ldquo;producto cruzado&amp;rdquo; de dos vectores 2D como una escala, no un vector.</description>
+    </item>
     
     <item>
       <title>Uso de GUISkin para el estilo del editor</title>

@@ -199,43 +199,43 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    [ExecuteInEditMode]
-    public class ScreenSpaceSnow : MonoBehaviour 
-    {
-        #region Variables
-        public Texture2D SnowTexture;
-        public Color SnowColor = Color.white;
-        public float SnowTextureScale = 0.1f;
-        [Range(0, 1)] public float BottomThreshold = 0f;
-        [Range(0, 1)] public float TopThreshold = 1f;
-        private Material _material;
-        #endregion
+	[ExecuteInEditMode]
+	public class ScreenSpaceSnow : MonoBehaviour 
+	{
+		#region Variables
+		public Texture2D SnowTexture;
+		public Color SnowColor = Color.white;
+		public float SnowTextureScale = 0.1f;
+		[Range(0, 1)] public float BottomThreshold = 0f;
+		[Range(0, 1)] public float TopThreshold = 1f;
+		private Material _material;
+		#endregion
 
-        #region Metodos
-        private void OnEnable()
-        {
-            // Crea dinamicamente un material que utilizara nuestro shader
-            _material = new Material(Shader.Find(&quot;MoonAntonio/ScreenSpaceSnow&quot;));
+		#region Metodos
+		private void OnEnable()
+		{
+			// Crea dinamicamente un material que utilizara nuestro shader
+			_material = new Material(Shader.Find(&quot;MoonAntonio/ScreenSpaceSnow&quot;));
 
-            // Decir a la camara que cree profundidad y normales.
-            this.GetComponent&lt;Camera&gt;().depthTextureMode |= DepthTextureMode.DepthNormals;
-        }
+			// Decir a la camara que cree profundidad y normales.
+			this.GetComponent&lt;Camera&gt;().depthTextureMode |= DepthTextureMode.DepthNormals;
+		}
 
-        private void OnRenderImage(RenderTexture src, RenderTexture dest)
-        {
-            // Establecer propiedades de shader
-            _material.SetMatrix(&quot;_CamToWorld&quot;, GetComponent&lt;Camera&gt;().cameraToWorldMatrix);
-            _material.SetColor(&quot;_SnowColor&quot;, SnowColor);
-            _material.SetFloat(&quot;_BottomThreshold&quot;, BottomThreshold);
-            _material.SetFloat(&quot;_TopThreshold&quot;, TopThreshold);
-            _material.SetTexture(&quot;_SnowTex&quot;, SnowTexture);
-            _material.SetFloat(&quot;_SnowTexScale&quot;, SnowTextureScale);
+		private void OnRenderImage(RenderTexture src, RenderTexture dest)
+		{
+			// Establecer propiedades de shader
+			_material.SetMatrix(&quot;_CamToWorld&quot;, GetComponent&lt;Camera&gt;().cameraToWorldMatrix);
+			_material.SetColor(&quot;_SnowColor&quot;, SnowColor);
+			_material.SetFloat(&quot;_BottomThreshold&quot;, BottomThreshold);
+			_material.SetFloat(&quot;_TopThreshold&quot;, TopThreshold);
+			_material.SetTexture(&quot;_SnowTex&quot;, SnowTexture);
+			_material.SetFloat(&quot;_SnowTexScale&quot;, SnowTextureScale);
 
-            // Ejecutar el shader en la textura de entrada(src) y escribir en la salida(dest)
-            Graphics.Blit(src, dest, _material);
-        }
-        #endregion
-    }
+			// Ejecutar el shader en la textura de entrada(src) y escribir en la salida(dest)
+			Graphics.Blit(src, dest, _material);
+		}
+		#endregion
+	}
 }
 </code></pre>
 
@@ -253,49 +253,49 @@ namespace MoonAntonio
 
 <pre><code class="language-SH">Shader &quot;MoonAntonio/ScreenSpaceSnow&quot;
 {
-    Properties
-    {
-        _MainTex(&quot;Texture&quot;, 2D) = &quot;white&quot; {}
-    }
-        SubShader
-    {
-        Cull Off ZWrite Off ZTest Always
+	Properties
+	{
+		_MainTex(&quot;Texture&quot;, 2D) = &quot;white&quot; {}
+	}
+		SubShader
+	{
+		Cull Off ZWrite Off ZTest Always
 
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
+		Pass
+		{
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
 
-            #include &quot;UnityCG.cginc&quot;
+			#include &quot;UnityCG.cginc&quot;
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
-            };
+			struct appdata
+			{
+				float4 vertex : POSITION;
+				float2 uv : TEXCOORD0;
+			};
 
-            struct v2f
-            {
-                float2 uv : TEXCOORD0;
-                float4 vertex : SV_POSITION;
-            };
+			struct v2f
+			{
+				float2 uv : TEXCOORD0;
+				float4 vertex : SV_POSITION;
+			};
 
-            v2f vert(appdata v)
-            {
-                v2f o;
-                o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
-                o.uv = v.uv;
-                return o;
-            }
+			v2f vert(appdata v)
+			{
+				v2f o;
+				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.uv = v.uv;
+				return o;
+			}
 
-            fixed4 frag(v2f i) : SV_Target
-            {
-                // TODO
-            }
-            ENDCG
-        }
-    }
+			fixed4 frag(v2f i) : SV_Target
+			{
+				// TODO
+			}
+			ENDCG
+		}
+	}
 }
 </code></pre>
 
@@ -322,7 +322,7 @@ fixed _TopThreshold;
 
 half4 frag (v2f i) : SV_Target
 {
-    
+	
 }
 </code></pre>
 
@@ -354,13 +354,13 @@ _CameraDepthTexture Siempre se refiere a la textura de profundidad principal de 
 
 <pre><code class="language-SH">half4 frag (v2f i) : SV_Target
 {
-    half3 normal;
-    float depth;
+	half3 normal;
+	float depth;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
+	DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
+	normal = mul( (float3x3)_CamToWorld, normal);
 
-    return half4(normal, 1);
+	return half4(normal, 1);
 }
 </code></pre>
 
@@ -381,17 +381,17 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 
 <pre><code class="language-SH">half4 frag (v2f i) : SV_Target
 {
-    half3 normal;
-    float depth;
+	half3 normal;
+	float depth;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
+	DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
+	normal = mul( (float3x3)_CamToWorld, normal);
 
-    half snowAmount = normal.g;
-    half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
-    snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
+	half snowAmount = normal.g;
+	half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
+	snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
 
-    return half4(snowAmount, snowAmount, snowAmount, 1);
+	return half4(snowAmount, snowAmount, snowAmount, 1);
 }
 </code></pre>
 
@@ -409,26 +409,26 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 
 <pre><code class="language-SH">half4 frag (v2f i) : SV_Target
 {
-    half3 normal;
-    float depth;
+	half3 normal;
+	float depth;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
+	DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
+	normal = mul( (float3x3)_CamToWorld, normal);
 
-    // Averiguar la cantidad de nieve
-    half snowAmount = normal.g;
-    half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
-    snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
+	// Averiguar la cantidad de nieve
+	half snowAmount = normal.g;
+	half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
+	snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
 
-    // Descubre el color de la nieve
-    float2 p11_22 = float2(unity_CameraProjection._11, unity_CameraProjection._22);
-    float3 vpos = float3( (i.uv * 2 - 1) / p11_22, -1) * depth;
-    float4 wpos = mul(_CamToWorld, float4(vpos, 1));
-    wpos += float4(_WorldSpaceCameraPos, 0) / _ProjectionParams.z;
+	// Descubre el color de la nieve
+	float2 p11_22 = float2(unity_CameraProjection._11, unity_CameraProjection._22);
+	float3 vpos = float3( (i.uv * 2 - 1) / p11_22, -1) * depth;
+	float4 wpos = mul(_CamToWorld, float4(vpos, 1));
+	wpos += float4(_WorldSpaceCameraPos, 0) / _ProjectionParams.z;
 
-    half3 snowColor = tex2D(_SnowTex, wpos.xz * _SnowTexScale * _ProjectionParams.z) * _SnowColor;
+	half3 snowColor = tex2D(_SnowTex, wpos.xz * _SnowTexScale * _ProjectionParams.z) * _SnowColor;
 
-    return half4(snowColor, 1);
+	return half4(snowColor, 1);
 }
 </code></pre>
 
@@ -442,29 +442,29 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 
 <pre><code class="language-SH">half4 frag (v2f i) : SV_Target
 {
-    half3 normal;
-    float depth;
+	half3 normal;
+	float depth;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
+	DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
+	normal = mul( (float3x3)_CamToWorld, normal);
 
-    // Averiguar la cantidad de nieve
-    half snowAmount = normal.g;
-    half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
-    snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
+	// Averiguar la cantidad de nieve
+	half snowAmount = normal.g;
+	half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
+	snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
 
-    // Descubre el color de la nieve
-    float2 p11_22 = float2(unity_CameraProjection._11, unity_CameraProjection._22);
-    float3 vpos = float3( (i.uv * 2 - 1) / p11_22, -1) * depth;
-    float4 wpos = mul(_CamToWorld, float4(vpos, 1));
-    wpos += float4(_WorldSpaceCameraPos, 0) / _ProjectionParams.z;
+	// Descubre el color de la nieve
+	float2 p11_22 = float2(unity_CameraProjection._11, unity_CameraProjection._22);
+	float3 vpos = float3( (i.uv * 2 - 1) / p11_22, -1) * depth;
+	float4 wpos = mul(_CamToWorld, float4(vpos, 1));
+	wpos += float4(_WorldSpaceCameraPos, 0) / _ProjectionParams.z;
 
-    wpos *= _SnowTexScale * _ProjectionParams.z;
-    half4 snowColor = tex2D(_SnowTex, wpos.xz) * _SnowColor;
+	wpos *= _SnowTexScale * _ProjectionParams.z;
+	half4 snowColor = tex2D(_SnowTex, wpos.xz) * _SnowColor;
 
-    // Consigue color y lerp a la textura de la nieve.
-    half4 col = tex2D(_MainTex, i.uv);
-    return lerp(col, snowColor, snowAmount);
+	// Consigue color y lerp a la textura de la nieve.
+	half4 col = tex2D(_MainTex, i.uv);
+	return lerp(col, snowColor, snowAmount);
 }
 </code></pre>
 

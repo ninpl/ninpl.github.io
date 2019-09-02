@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matemáticas on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/matem%C3%A1ticas/</link>
+    <description>Recent content in Matemáticas on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 02 Sep 2019 19:34:19 +0200</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/matem%C3%A1ticas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vector Cruzado - 2D</title>
+      <link>https://moonantonio.github.io/post/2019/matematicas/001/</link>
+      <pubDate>Mon, 02 Sep 2019 19:34:19 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/matematicas/001/</guid>
+      <description>El producto cruzado de dos vectores 3D es un vector 3D, que está en la dirección del eje de rotación para rotar el primer vector para que coincida con la dirección del segundo vector, con el ángulo de rotación más pequeño (siempre menor de 180 grados ). Entonces, ¿qué significa &amp;ldquo;producto cruzado&amp;rdquo; de vectores 2D?
+Me gusta pensar en el &amp;ldquo;producto cruzado&amp;rdquo; de dos vectores 2D como una escala, no un vector.</description>
+    </item>
+    
+  </channel>
+</rss>

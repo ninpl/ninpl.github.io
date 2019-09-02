@@ -262,12 +262,12 @@ He creado un script y se lo he agregado a nuestro prefab de player.</p>
 <p>Empezaremos por sincronizar la instancia fisica del jugador, en nuestro caso un cubo con todas sus caras y vertices.</p>
 
 <pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                                              \\
-// Player.cs (16/07/2018)                                                       \\
-// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
-// Descripcion:     Controller del jugador/Cliente.                             \\
-// Fecha Mod:       16/07/2018                                                  \\
-// Ultima Mod:      Version Inicial                                             \\
+//																				\\
+// Player.cs (16/07/2018)														\\
+// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
+// Descripcion:		Controller del jugador/Cliente.								\\
+// Fecha Mod:		16/07/2018													\\
+// Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
 #region Librerias
@@ -276,28 +276,28 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Controller del jugador/Cliente.&lt;/para&gt;
-    /// &lt;/summary&gt;
-    public class Player : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Prefab del cubo para instanciar.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        public GameObject prefabCubo;                                                   // Prefab del cubo para instanciar
-        #endregion
+	/// &lt;summary&gt;
+	/// &lt;para&gt;Controller del jugador/Cliente.&lt;/para&gt;
+	/// &lt;/summary&gt;
+	public class Player : MonoBehaviour 
+	{
+		#region Variables Publicas
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Prefab del cubo para instanciar.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		public GameObject prefabCubo;                                                   // Prefab del cubo para instanciar
+		#endregion
 
-        #region Inicializadores
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Inicializador de &lt;see cref=&quot;Player&quot;/&gt;.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        private void Start()// Inicializador de Player
-        {
-            Instantiate(prefabCubo);
-        }
-        #endregion
-    }
+		#region Inicializadores
+		/// &lt;summary&gt;
+		/// &lt;para&gt;Inicializador de &lt;see cref=&quot;Player&quot;/&gt;.&lt;/para&gt;
+		/// &lt;/summary&gt;
+		private void Start()// Inicializador de Player
+		{
+			Instantiate(prefabCubo);
+		}
+		#endregion
+	}
 }
 </code></pre>
 
@@ -307,15 +307,15 @@ namespace MoonAntonio
 
 <pre><code class="language-C#">private void Start()// Inicializador de Player
 {
-    // Comprobamos si es el objeto local
-    if (!isLocalPlayer)
-    {
-        // Este objeto es de otro jugador
-        return;
-    }
+	// Comprobamos si es el objeto local
+	if (!isLocalPlayer)
+	{
+		// Este objeto es de otro jugador
+		return;
+	}
 
-    // Solo instanciara el cubo si es Local. Es decir, si soy el cliente.
-    Instantiate(prefabCubo);
+	// Solo instanciara el cubo si es Local. Es decir, si soy el cliente.
+	Instantiate(prefabCubo);
 }
 </code></pre>
 
@@ -343,7 +343,7 @@ CmdSpawnUnidad();
 [Command]
 private void CmdSpawnUnidad()
 {
-    GInstantiate(prefabCubo);
+	GInstantiate(prefabCubo);
 }
 </code></pre>
 
@@ -376,7 +376,7 @@ private void CmdSpawnUnidad()
 [ClientRpc]
 public void RpcCambiarNombre(string newNombre)// Cambia el nombre del jugador
 {
-    nombre = newNombre;
+	nombre = newNombre;
 }
 </code></pre>
 

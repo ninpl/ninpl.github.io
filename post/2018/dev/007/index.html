@@ -211,22 +211,22 @@ using UnityEngine.UI;
 
 namespace MoonAntonio
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Componente central del gestor de conexiones.&lt;/para&gt;
-    /// &lt;/summary&gt;
-    public class LinkBehaviour : MonoBehaviour 
-    {
-        #region Variables Publicas
-        public Slider progressBar;
-        public bool UsarNombreOriginal = true;
-        public string newNombreArchivo = &quot;x.zip&quot;;
-        public bool onStart = false;
-        #endregion
+	/// &lt;summary&gt;
+	/// &lt;para&gt;Componente central del gestor de conexiones.&lt;/para&gt;
+	/// &lt;/summary&gt;
+	public class LinkBehaviour : MonoBehaviour 
+	{
+		#region Variables Publicas
+		public Slider progressBar;
+		public bool UsarNombreOriginal = true;
+		public string newNombreArchivo = &quot;x.zip&quot;;
+		public bool onStart = false;
+		#endregion
 
-        #region Variables Privadas
-        private string uri;
-        #endregion
-    }
+		#region Variables Privadas
+		private string uri;
+		#endregion
+	}
 }
 </code></pre>
 
@@ -237,27 +237,27 @@ namespace MoonAntonio
 <hr />
 
 <pre><code class="language-C#">#region Inicializadores
-    private void Start()
-    {
-        // Establecer el valor maximo de la barra de progreso(Slider de UI) en 100(%)
-        if (progressBar.maxValue != 100f) progressBar.maxValue = 100f;
+	private void Start()
+	{
+		// Establecer el valor maximo de la barra de progreso(Slider de UI) en 100(%)
+		if (progressBar.maxValue != 100f) progressBar.maxValue = 100f;
 
-        // Inicializar a 0
-        progressBar.value = 0;
+		// Inicializar a 0
+		progressBar.value = 0;
 
-        // Asignar Uri
-        uri = downloadUrl;
+		// Asignar Uri
+		uri = downloadUrl;
 
-        // Usar el nombre original del archivo descargado
-        if (UsarNombreOriginal) newNombreArchivo = Path.GetFileName(uri);
+		// Usar el nombre original del archivo descargado
+		if (UsarNombreOriginal) newNombreArchivo = Path.GetFileName(uri);
 
-        // Comprobar si existe el directorio
-        DirectoryInfo df = new DirectoryInfo(savePath);
-        if (!df.Exists) Directory.CreateDirectory(savePath);
+		// Comprobar si existe el directorio
+		DirectoryInfo df = new DirectoryInfo(savePath);
+		if (!df.Exists) Directory.CreateDirectory(savePath);
 
 
-        if (onStart) DescargarArchivo();
-    }
+		if (onStart) DescargarArchivo();
+	}
 #endregion
 </code></pre>
 
@@ -309,26 +309,26 @@ public bool dataPathPersistente = false;
 <hr />
 
 <pre><code class="language-C#">#region API
-    public void DescargarArchivo()
-    {
-        // Desactivamos la posibilidad de llamar de nuevo al metodo
-        btnIniciarDescarga.SetActive(false);
+	public void DescargarArchivo()
+	{
+		// Desactivamos la posibilidad de llamar de nuevo al metodo
+		btnIniciarDescarga.SetActive(false);
 
-        // Reseteamos la descarga y inicializamos el objeto
-        isCancelado = false;
-        client = new WebClient();
+		// Reseteamos la descarga y inicializamos el objeto
+		isCancelado = false;
+		client = new WebClient();
 
-        // Comprobamos la persistencia para prevenir problemas futuros
-        if (!dataPathPersistente)
-            client.DownloadFileAsync(new System.Uri(downloadUrl), savePath + &quot;/&quot; + newNombreArchivo);
-        else
-            client.DownloadFileAsync(new System.Uri(uri), Application.persistentDataPath + &quot;/&quot; + newNombreArchivo);
+		// Comprobamos la persistencia para prevenir problemas futuros
+		if (!dataPathPersistente)
+			client.DownloadFileAsync(new System.Uri(downloadUrl), savePath + &quot;/&quot; + newNombreArchivo);
+		else
+			client.DownloadFileAsync(new System.Uri(uri), Application.persistentDataPath + &quot;/&quot; + newNombreArchivo);
 
-        // Iniciamos la descarga y nos subscribimos a los eventos de WebClient()
-        isDescargando = true;
-        client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(DescargaProgreso);
-        client.DownloadFileCompleted += new System.ComponentModel.AsyncCompletedEventHandler(DescargaCompletada);
-    }
+		// Iniciamos la descarga y nos subscribimos a los eventos de WebClient()
+		isDescargando = true;
+		client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(DescargaProgreso);
+		client.DownloadFileCompleted += new System.ComponentModel.AsyncCompletedEventHandler(DescargaCompletada);
+	}
 #endregion
 </code></pre>
 
@@ -348,32 +348,32 @@ private string bytes;
 <hr />
 
 <pre><code class="language-C#">#region Eventos
-    protected void DescargaCompletada(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
-    {
-        if (isCancelado)
-        {
-            Debug.Log(&quot;Cancelado.&quot;);
-            isDescargando = false;
-            isTerminado = true;
-        }
-        else
-        {
-            if (e.Error == null)
-            {
-                Debug.Log(&quot;Completado&quot;);
-                isDescargando = false;
-                isTerminado = true;
-            }
-            else
-                Debug.Log(e.Error.ToString());
-        }
-    }
+	protected void DescargaCompletada(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+	{
+		if (isCancelado)
+		{
+			Debug.Log(&quot;Cancelado.&quot;);
+			isDescargando = false;
+			isTerminado = true;
+		}
+		else
+		{
+			if (e.Error == null)
+			{
+				Debug.Log(&quot;Completado&quot;);
+				isDescargando = false;
+				isTerminado = true;
+			}
+			else
+				Debug.Log(e.Error.ToString());
+		}
+	}
 
-    protected void DescargaProgreso(object sender, DownloadProgressChangedEventArgs e)
-    {
-        progreso = (e.BytesReceived * 100 / e.TotalBytesToReceive);
-        bytes = e.BytesReceived / 1000 + &quot; / &quot; + e.TotalBytesToReceive / 1000;
-    }
+	protected void DescargaProgreso(object sender, DownloadProgressChangedEventArgs e)
+	{
+		progreso = (e.BytesReceived * 100 / e.TotalBytesToReceive);
+		bytes = e.BytesReceived / 1000 + &quot; / &quot; + e.TotalBytesToReceive / 1000;
+	}
 #endregion
 </code></pre>
 
@@ -392,62 +392,62 @@ Como recibimos en bytes, realizo la siguiente operacion para pasar los valores.<
 
 <pre><code class="language-C#">public void CargarNivel(string name)
 {
-    UnityEngine.SceneManagement.SceneManager.LoadScene(name);
+	UnityEngine.SceneManagement.SceneManager.LoadScene(name);
 }
 
 public void CancelarDescarga()
 {
-    isCancelado = true;
-    if (client != null)
-    {
-        client.CancelAsync();
-    }
+	isCancelado = true;
+	if (client != null)
+	{
+		client.CancelAsync();
+	}
 
-    btnIniciarDescarga.SetActive(true);
+	btnIniciarDescarga.SetActive(true);
 }
 
 private void OnDisable()
 {
-    isCancelado = true;
-    if (client != null) client.CancelAsync();
+	isCancelado = true;
+	if (client != null) client.CancelAsync();
 }
 </code></pre>
 
 <hr />
 
 <pre><code class="language-C#">#region Actualizadores
-    private void Update()
-    {
-        if (isDescargando)
-        {
-            progressBar.value = progreso;
-            progressText.text = progreso.ToString() + &quot;% &quot;;
+	private void Update()
+	{
+		if (isDescargando)
+		{
+			progressBar.value = progreso;
+			progressText.text = progreso.ToString() + &quot;% &quot;;
 
-            if (isMostrarBytes) bytesText.text = &quot;Recibido : &quot; + bytes + &quot; kb&quot;;
-        }
+			if (isMostrarBytes) bytesText.text = &quot;Recibido : &quot; + bytes + &quot; kb&quot;;
+		}
 
 
-        if (isTerminado)
-        {
-            if (isCancelado)
-            {
-                bytesText.text = &quot;Cancelado&quot;;
-                progressText.text = &quot;0 %&quot;;
-                isTerminado = false;
-            }
-            else
-            {
-                if (!btnDescargaFinalizada.activeSelf)
-                {
-                    btnDescargaFinalizada.SetActive(true);
-                    btnIniciarDescarga.SetActive(false);
-                }
-                bytesText.text = &quot;Recibido : &quot; + &quot;Completado&quot;;
-                progressText.text = &quot;100 %&quot;;
-            }
-        }
+		if (isTerminado)
+		{
+			if (isCancelado)
+			{
+				bytesText.text = &quot;Cancelado&quot;;
+				progressText.text = &quot;0 %&quot;;
+				isTerminado = false;
+			}
+			else
+			{
+				if (!btnDescargaFinalizada.activeSelf)
+				{
+					btnDescargaFinalizada.SetActive(true);
+					btnIniciarDescarga.SetActive(false);
+				}
+				bytesText.text = &quot;Recibido : &quot; + &quot;Completado&quot;;
+				progressText.text = &quot;100 %&quot;;
+			}
+		}
 
-    }
+	}
 #endregion
 </code></pre>
 

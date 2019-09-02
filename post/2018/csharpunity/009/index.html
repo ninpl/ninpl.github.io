@@ -176,18 +176,18 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public enum Difficulties
-    {
-        Easy,
-        Medium,
-        Hard,
-        Count
-    }
+	public enum Difficulties
+	{
+		Easy,
+		Medium,
+		Hard,
+		Count
+	}
 
-    public static class DataManager 
-    {
-        public static Difficulties difficulty;
-    }
+	public static class DataManager 
+	{
+		public static Difficulties difficulty;
+	}
 }
 </code></pre>
 
@@ -204,26 +204,26 @@ using UnityEngine.SceneManagement;
 
 namespace MoonAntonio
 {
-    public class TitleController : MonoBehaviour 
-    {
-        void OnGUI()
-        {
-            int yPos = 10;
-            GUI.Label(new Rect(10, yPos, 200, 30), &quot;Elegir dificultad&quot;);
-            for (int i = 0; i &lt; (int)Difficulties.Count; ++i)
-            {
-                yPos += 40;
-                Difficulties type = (Difficulties)i;
-                if (DataManager.difficulty == type)
-                    GUI.Label(new Rect(10, yPos, 200, 30), type.ToString());
-                else if (GUI.Button(new Rect(10, yPos, 100, 30), type.ToString()))
-                    DataManager.difficulty = type;
-            }
-            yPos += 40;
-            if (GUI.Button(new Rect(10, yPos, 100, 30), &quot;Play&quot;))
-                SceneManager.LoadScene(&quot;Juego&quot;);
-        }
-    }
+	public class TitleController : MonoBehaviour 
+	{
+		void OnGUI()
+		{
+			int yPos = 10;
+			GUI.Label(new Rect(10, yPos, 200, 30), &quot;Elegir dificultad&quot;);
+			for (int i = 0; i &lt; (int)Difficulties.Count; ++i)
+			{
+				yPos += 40;
+				Difficulties type = (Difficulties)i;
+				if (DataManager.difficulty == type)
+					GUI.Label(new Rect(10, yPos, 200, 30), type.ToString());
+				else if (GUI.Button(new Rect(10, yPos, 100, 30), type.ToString()))
+					DataManager.difficulty = type;
+			}
+			yPos += 40;
+			if (GUI.Button(new Rect(10, yPos, 100, 30), &quot;Play&quot;))
+				SceneManager.LoadScene(&quot;Juego&quot;);
+		}
+	}
 }
 </code></pre>
 
@@ -240,15 +240,15 @@ using UnityEngine.SceneManagement;
 
 namespace MoonAntonio
 {
-    public class GameController : MonoBehaviour 
-    {
-        void OnGUI()
-        {
-            GUI.Label(new Rect(10, 10, 200, 30), DataManager.difficulty.ToString());
-            if (GUI.Button(new Rect(10, 50, 100, 30), &quot;Salir&quot;))
-                SceneManager.LoadScene(&quot;Titulo&quot;);
-        }
-    }
+	public class GameController : MonoBehaviour 
+	{
+		void OnGUI()
+		{
+			GUI.Label(new Rect(10, 10, 200, 30), DataManager.difficulty.ToString());
+			if (GUI.Button(new Rect(10, 50, 100, 30), &quot;Salir&quot;))
+				SceneManager.LoadScene(&quot;Titulo&quot;);
+		}
+	}
 }
 </code></pre>
 
@@ -268,12 +268,12 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class DataManagerSingleton 
-    {
-        public static readonly DataManagerSingleton instance = new DataManagerSingleton();
-        private DataManagerSingleton() { }
-        public Difficulties difficulty;
-    }
+	public class DataManagerSingleton 
+	{
+		public static readonly DataManagerSingleton instance = new DataManagerSingleton();
+		private DataManagerSingleton() { }
+		public Difficulties difficulty;
+	}
 }
 </code></pre>
 
@@ -302,24 +302,24 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class DataManagerUnitySingleton : MonoBehaviour 
-    {
-        public static DataManagerUnitySingleton instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    GameObject obj = new GameObject(&quot;Data Manager Unity Singleton&quot;);
-                    _instance = obj.AddComponent&lt;DataManagerUnitySingleton&gt;();
-                    DontDestroyOnLoad(obj);
-                }
-                return _instance;
-            }
-        }
-        static DataManagerUnitySingleton _instance;
-        public Difficulties difficulty;
-    }
+	public class DataManagerUnitySingleton : MonoBehaviour 
+	{
+		public static DataManagerUnitySingleton instance
+		{
+			get
+			{
+				if (_instance == null)
+				{
+					GameObject obj = new GameObject(&quot;Data Manager Unity Singleton&quot;);
+					_instance = obj.AddComponent&lt;DataManagerUnitySingleton&gt;();
+					DontDestroyOnLoad(obj);
+				}
+				return _instance;
+			}
+		}
+		static DataManagerUnitySingleton _instance;
+		public Difficulties difficulty;
+	}
 }
 </code></pre>
 
@@ -349,16 +349,16 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-    public class PlayerPrefsExample : MonoBehaviour 
-    {
-        private void Start()
-        {
-            // Almacenar un valor entero
-            PlayerPrefs.SetInt(&quot;Difficulty&quot;, 0);
-            // Recupere un valor entero (si existe, o use un valor predeterminado de '0' de lo contrario)
-            DataManagerUnitySingleton.instance.difficulty = (Difficulties)PlayerPrefs.GetInt(&quot;Difficulty&quot;, 0);
-        }
-    }
+	public class PlayerPrefsExample : MonoBehaviour 
+	{
+		private void Start()
+		{
+			// Almacenar un valor entero
+			PlayerPrefs.SetInt(&quot;Difficulty&quot;, 0);
+			// Recupere un valor entero (si existe, o use un valor predeterminado de '0' de lo contrario)
+			DataManagerUnitySingleton.instance.difficulty = (Difficulties)PlayerPrefs.GetInt(&quot;Difficulty&quot;, 0);
+		}
+	}
 }
 </code></pre>
 
@@ -385,30 +385,30 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-    public class Monster : MonoBehaviour 
-    {
-        public int HP;
+	public class Monster : MonoBehaviour 
+	{
+		public int HP;
 
-        public virtual Dictionary&lt;string, object&gt; Save()
-        {
-            Dictionary&lt;string, object&gt; data = new Dictionary&lt;string, object&gt;();
-            data.Add(&quot;HP&quot;, HP);
-            data.Add(&quot;X&quot;, transform.localPosition.x);
-            data.Add(&quot;Y&quot;, transform.localPosition.y);
-            data.Add(&quot;Z&quot;, transform.localPosition.z);
-            data.Add(&quot;Prefab&quot;, gameObject.name);
-            return data;
-        }
+		public virtual Dictionary&lt;string, object&gt; Save()
+		{
+			Dictionary&lt;string, object&gt; data = new Dictionary&lt;string, object&gt;();
+			data.Add(&quot;HP&quot;, HP);
+			data.Add(&quot;X&quot;, transform.localPosition.x);
+			data.Add(&quot;Y&quot;, transform.localPosition.y);
+			data.Add(&quot;Z&quot;, transform.localPosition.z);
+			data.Add(&quot;Prefab&quot;, gameObject.name);
+			return data;
+		}
 
-        public virtual void Load(Dictionary&lt;string, object&gt; data)
-        {
-            HP = Convert.ToInt32(data[&quot;HP&quot;]);
-            float x = Convert.ToSingle(data[&quot;X&quot;]);
-            float y = Convert.ToSingle(data[&quot;Y&quot;]);
-            float z = Convert.ToSingle(data[&quot;Z&quot;]);
-            transform.localPosition = new Vector3(x, y, z);
-        }
-    }
+		public virtual void Load(Dictionary&lt;string, object&gt; data)
+		{
+			HP = Convert.ToInt32(data[&quot;HP&quot;]);
+			float x = Convert.ToSingle(data[&quot;X&quot;]);
+			float y = Convert.ToSingle(data[&quot;Y&quot;]);
+			float z = Convert.ToSingle(data[&quot;Z&quot;]);
+			transform.localPosition = new Vector3(x, y, z);
+		}
+	}
 }
 </code></pre>
 
@@ -429,30 +429,30 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-    public class Monster : MonoBehaviour 
-    {
-        public int HP;
+	public class Monster : MonoBehaviour 
+	{
+		public int HP;
 
-        public virtual Dictionary&lt;string, object&gt; Save()
-        {
-            Dictionary&lt;string, object&gt; data = new Dictionary&lt;string, object&gt;();
-            data.Add(&quot;HP&quot;, HP);
-            data.Add(&quot;X&quot;, transform.localPosition.x);
-            data.Add(&quot;Y&quot;, transform.localPosition.y);
-            data.Add(&quot;Z&quot;, transform.localPosition.z);
-            data.Add(&quot;Prefab&quot;, gameObject.name);
-            return data;
-        }
+		public virtual Dictionary&lt;string, object&gt; Save()
+		{
+			Dictionary&lt;string, object&gt; data = new Dictionary&lt;string, object&gt;();
+			data.Add(&quot;HP&quot;, HP);
+			data.Add(&quot;X&quot;, transform.localPosition.x);
+			data.Add(&quot;Y&quot;, transform.localPosition.y);
+			data.Add(&quot;Z&quot;, transform.localPosition.z);
+			data.Add(&quot;Prefab&quot;, gameObject.name);
+			return data;
+		}
 
-        public virtual void Load(Dictionary&lt;string, object&gt; data)
-        {
-            HP = Convert.ToInt32(data[&quot;HP&quot;]);
-            float x = Convert.ToSingle(data[&quot;X&quot;]);
-            float y = Convert.ToSingle(data[&quot;Y&quot;]);
-            float z = Convert.ToSingle(data[&quot;Z&quot;]);
-            transform.localPosition = new Vector3(x, y, z);
-        }
-    }
+		public virtual void Load(Dictionary&lt;string, object&gt; data)
+		{
+			HP = Convert.ToInt32(data[&quot;HP&quot;]);
+			float x = Convert.ToSingle(data[&quot;X&quot;]);
+			float y = Convert.ToSingle(data[&quot;Y&quot;]);
+			float z = Convert.ToSingle(data[&quot;Z&quot;]);
+			transform.localPosition = new Vector3(x, y, z);
+		}
+	}
 }
 </code></pre>
 
@@ -479,28 +479,28 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-    public class BlueMonster : Monster 
-    {
-        public int water;
+	public class BlueMonster : Monster 
+	{
+		public int water;
 
-        void Awake()
-        {
-            water = UnityEngine.Random.Range(10, 100);
-        }
+		void Awake()
+		{
+			water = UnityEngine.Random.Range(10, 100);
+		}
 
-        public override Dictionary&lt;string, object&gt; Save()
-        {
-            Dictionary&lt;string, object&gt; data = base.Save();
-            data.Add(&quot;Water&quot;, water);
-            return data;
-        }
+		public override Dictionary&lt;string, object&gt; Save()
+		{
+			Dictionary&lt;string, object&gt; data = base.Save();
+			data.Add(&quot;Water&quot;, water);
+			return data;
+		}
 
-        public override void Load(Dictionary&lt;string, object&gt; data)
-        {
-            base.Load(data);
-            water = Convert.ToInt32(data[&quot;Water&quot;]);
-        }
-    }
+		public override void Load(Dictionary&lt;string, object&gt; data)
+		{
+			base.Load(data);
+			water = Convert.ToInt32(data[&quot;Water&quot;]);
+		}
+	}
 }
 </code></pre>
 
@@ -523,91 +523,91 @@ using MiniJSON;
 
 namespace MoonAntonio
 {
-    public class DemoControllerSerializacion : MonoBehaviour 
-    {
-        [SerializeField] GameObject[] prefabs;
-        Dictionary&lt;string, GameObject&gt; mapping = new Dictionary&lt;string, GameObject&gt;();
-        List&lt;Monster&gt; monsters = new List&lt;Monster&gt;();
+	public class DemoControllerSerializacion : MonoBehaviour 
+	{
+		[SerializeField] GameObject[] prefabs;
+		Dictionary&lt;string, GameObject&gt; mapping = new Dictionary&lt;string, GameObject&gt;();
+		List&lt;Monster&gt; monsters = new List&lt;Monster&gt;();
 
-        void Start()
-        {
-            for (int i = 0; i &lt; prefabs.Length; ++i)
-                mapping.Add(prefabs[i].name, prefabs[i]);
-            Load();
-        }
+		void Start()
+		{
+			for (int i = 0; i &lt; prefabs.Length; ++i)
+				mapping.Add(prefabs[i].name, prefabs[i]);
+			Load();
+		}
 
-        void OnGUI()
-        {
-            if (GUI.Button(new Rect(10, 10, 100, 30), &quot;Agregar&quot;))
-                AddRandom();
+		void OnGUI()
+		{
+			if (GUI.Button(new Rect(10, 10, 100, 30), &quot;Agregar&quot;))
+				AddRandom();
 
-            if (GUI.Button(new Rect(10, 50, 100, 30), &quot;Guardar&quot;))
-                Save();
+			if (GUI.Button(new Rect(10, 50, 100, 30), &quot;Guardar&quot;))
+				Save();
 
-            if (GUI.Button(new Rect(10, 90, 100, 30), &quot;Cargar&quot;))
-                Load();
-        }
+			if (GUI.Button(new Rect(10, 90, 100, 30), &quot;Cargar&quot;))
+				Load();
+		}
 
-        void Randomize(Monster monster)
-        {
-            monster.HP = UnityEngine.Random.Range(10, 100);
-            float x = UnityEngine.Random.Range(-10f, 10f);
-            float y = UnityEngine.Random.Range(-10f, 10f);
-            float z = UnityEngine.Random.Range(-10f, 10f);
-            monster.transform.localPosition = new Vector3(x, y, z);
-        }
+		void Randomize(Monster monster)
+		{
+			monster.HP = UnityEngine.Random.Range(10, 100);
+			float x = UnityEngine.Random.Range(-10f, 10f);
+			float y = UnityEngine.Random.Range(-10f, 10f);
+			float z = UnityEngine.Random.Range(-10f, 10f);
+			monster.transform.localPosition = new Vector3(x, y, z);
+		}
 
-        void AddRandom()
-        {
-            GameObject prefab = prefabs[UnityEngine.Random.Range(0, prefabs.Length)];
-            Monster monster = Add(prefab);
-            Randomize(monster);
-        }
+		void AddRandom()
+		{
+			GameObject prefab = prefabs[UnityEngine.Random.Range(0, prefabs.Length)];
+			Monster monster = Add(prefab);
+			Randomize(monster);
+		}
 
-        Monster Add(GameObject prefab)
-        {
-            GameObject instance = Instantiate(prefab) as GameObject;
-            Monster monster = instance.GetComponent&lt;Monster&gt;();
-            monster.name = prefab.name;
-            monsters.Add(monster);
-            return monster;
-        }
+		Monster Add(GameObject prefab)
+		{
+			GameObject instance = Instantiate(prefab) as GameObject;
+			Monster monster = instance.GetComponent&lt;Monster&gt;();
+			monster.name = prefab.name;
+			monsters.Add(monster);
+			return monster;
+		}
 
-        void Save()
-        {
-            var monsterData = new List&lt;Dictionary&lt;string, object&gt;&gt;(monsters.Count);
-            for (int i = 0; i &lt; monsters.Count; ++i)
-                monsterData.Add(monsters[i].Save());
+		void Save()
+		{
+			var monsterData = new List&lt;Dictionary&lt;string, object&gt;&gt;(monsters.Count);
+			for (int i = 0; i &lt; monsters.Count; ++i)
+				monsterData.Add(monsters[i].Save());
 
-            string json = Json.Serialize(monsterData);
-            Debug.Log(json);
-            PlayerPrefs.SetString(&quot;Monsters&quot;, json);
-        }
+			string json = Json.Serialize(monsterData);
+			Debug.Log(json);
+			PlayerPrefs.SetString(&quot;Monsters&quot;, json);
+		}
 
-        void Load()
-        {
-            Clear();
-            string json = PlayerPrefs.GetString(&quot;Monsters&quot;, string.Empty);
-            if (!string.IsNullOrEmpty(json))
-            {
-                var monsterData = Json.Deserialize(json) as List&lt;object&gt;;
-                for (int i = 0; i &lt; monsterData.Count; ++i)
-                {
-                    Dictionary&lt;string, object&gt; data = monsterData[i] as Dictionary&lt;string, object&gt;;
-                    string prefab = (string)(data[&quot;Prefab&quot;]);
-                    Monster monster = Add(mapping[prefab]);
-                    monster.Load(data);
-                }
-            }
-        }
+		void Load()
+		{
+			Clear();
+			string json = PlayerPrefs.GetString(&quot;Monsters&quot;, string.Empty);
+			if (!string.IsNullOrEmpty(json))
+			{
+				var monsterData = Json.Deserialize(json) as List&lt;object&gt;;
+				for (int i = 0; i &lt; monsterData.Count; ++i)
+				{
+					Dictionary&lt;string, object&gt; data = monsterData[i] as Dictionary&lt;string, object&gt;;
+					string prefab = (string)(data[&quot;Prefab&quot;]);
+					Monster monster = Add(mapping[prefab]);
+					monster.Load(data);
+				}
+			}
+		}
 
-        void Clear()
-        {
-            for (int i = monsters.Count - 1; i &gt;= 0; --i)
-                Destroy(monsters[i].gameObject);
-            monsters.Clear();
-        }
-    }
+		void Clear()
+		{
+			for (int i = monsters.Count - 1; i &gt;= 0; --i)
+				Destroy(monsters[i].gameObject);
+			monsters.Clear();
+		}
+	}
 }
 </code></pre>
 
@@ -651,92 +651,92 @@ using System.IO;
 
 namespace MoonAntonio
 {
-    public class Archivo : MonoBehaviour 
-    {
-        [SerializeField] GameObject[] prefabs;
-        Dictionary&lt;string, GameObject&gt; mapping = new Dictionary&lt;string, GameObject&gt;();
-        List&lt;Monster&gt; monsters = new List&lt;Monster&gt;();
+	public class Archivo : MonoBehaviour 
+	{
+		[SerializeField] GameObject[] prefabs;
+		Dictionary&lt;string, GameObject&gt; mapping = new Dictionary&lt;string, GameObject&gt;();
+		List&lt;Monster&gt; monsters = new List&lt;Monster&gt;();
 
-        void Start()
-        {
-            for (int i = 0; i &lt; prefabs.Length; ++i)
-                mapping.Add(prefabs[i].name, prefabs[i]);
-            Load();
-        }
+		void Start()
+		{
+			for (int i = 0; i &lt; prefabs.Length; ++i)
+				mapping.Add(prefabs[i].name, prefabs[i]);
+			Load();
+		}
 
-        void OnGUI()
-        {
-            if (GUI.Button(new Rect(10, 10, 100, 30), &quot;Agregar&quot;))
-                AddRandom();
+		void OnGUI()
+		{
+			if (GUI.Button(new Rect(10, 10, 100, 30), &quot;Agregar&quot;))
+				AddRandom();
 
-            if (GUI.Button(new Rect(10, 50, 100, 30), &quot;Guardar&quot;))
-                Save();
+			if (GUI.Button(new Rect(10, 50, 100, 30), &quot;Guardar&quot;))
+				Save();
 
-            if (GUI.Button(new Rect(10, 90, 100, 30), &quot;Cargar&quot;))
-                Load();
-        }
+			if (GUI.Button(new Rect(10, 90, 100, 30), &quot;Cargar&quot;))
+				Load();
+		}
 
-        void Randomize(Monster monster)
-        {
-            monster.HP = UnityEngine.Random.Range(10, 100);
-            float x = UnityEngine.Random.Range(-10f, 10f);
-            float y = UnityEngine.Random.Range(-10f, 10f);
-            float z = UnityEngine.Random.Range(-10f, 10f);
-            monster.transform.localPosition = new Vector3(x, y, z);
-        }
+		void Randomize(Monster monster)
+		{
+			monster.HP = UnityEngine.Random.Range(10, 100);
+			float x = UnityEngine.Random.Range(-10f, 10f);
+			float y = UnityEngine.Random.Range(-10f, 10f);
+			float z = UnityEngine.Random.Range(-10f, 10f);
+			monster.transform.localPosition = new Vector3(x, y, z);
+		}
 
-        void AddRandom()
-        {
-            GameObject prefab = prefabs[UnityEngine.Random.Range(0, prefabs.Length)];
-            Monster monster = Add(prefab);
-            Randomize(monster);
-        }
+		void AddRandom()
+		{
+			GameObject prefab = prefabs[UnityEngine.Random.Range(0, prefabs.Length)];
+			Monster monster = Add(prefab);
+			Randomize(monster);
+		}
 
-        Monster Add(GameObject prefab)
-        {
-            GameObject instance = Instantiate(prefab) as GameObject;
-            Monster monster = instance.GetComponent&lt;Monster&gt;();
-            monster.name = prefab.name;
-            monsters.Add(monster);
-            return monster;
-        }
+		Monster Add(GameObject prefab)
+		{
+			GameObject instance = Instantiate(prefab) as GameObject;
+			Monster monster = instance.GetComponent&lt;Monster&gt;();
+			monster.name = prefab.name;
+			monsters.Add(monster);
+			return monster;
+		}
 
-        void Save()
-        {
-            var monsterData = new List&lt;Dictionary&lt;string, object&gt;&gt;(monsters.Count);
-            for (int i = 0; i &lt; monsters.Count; ++i)
-                monsterData.Add(monsters[i].Save());
+		void Save()
+		{
+			var monsterData = new List&lt;Dictionary&lt;string, object&gt;&gt;(monsters.Count);
+			for (int i = 0; i &lt; monsters.Count; ++i)
+				monsterData.Add(monsters[i].Save());
 
-            string json = Json.Serialize(monsterData);
-            string filePath = Application.persistentDataPath + &quot;/Monsters.txt&quot;;
-            File.WriteAllText(filePath, json);
-        }
+			string json = Json.Serialize(monsterData);
+			string filePath = Application.persistentDataPath + &quot;/Monsters.txt&quot;;
+			File.WriteAllText(filePath, json);
+		}
 
-        void Load()
-        {
-            Clear();
-            string filePath = Application.persistentDataPath + &quot;/Monsters.txt&quot;;
-            if (File.Exists(filePath))
-            {
-                string json = File.ReadAllText(filePath);
-                var monsterData = Json.Deserialize(json) as List&lt;object&gt;;
-                for (int i = 0; i &lt; monsterData.Count; ++i)
-                {
-                    Dictionary&lt;string, object&gt; data = monsterData[i] as Dictionary&lt;string, object&gt;;
-                    string prefab = (string)(data[&quot;Prefab&quot;]);
-                    Monster monster = Add(mapping[prefab]);
-                    monster.Load(data);
-                }
-            }
-        }
+		void Load()
+		{
+			Clear();
+			string filePath = Application.persistentDataPath + &quot;/Monsters.txt&quot;;
+			if (File.Exists(filePath))
+			{
+				string json = File.ReadAllText(filePath);
+				var monsterData = Json.Deserialize(json) as List&lt;object&gt;;
+				for (int i = 0; i &lt; monsterData.Count; ++i)
+				{
+					Dictionary&lt;string, object&gt; data = monsterData[i] as Dictionary&lt;string, object&gt;;
+					string prefab = (string)(data[&quot;Prefab&quot;]);
+					Monster monster = Add(mapping[prefab]);
+					monster.Load(data);
+				}
+			}
+		}
 
-        void Clear()
-        {
-            for (int i = monsters.Count - 1; i &gt;= 0; --i)
-                Destroy(monsters[i].gameObject);
-            monsters.Clear();
-        }
-    }
+		void Clear()
+		{
+			for (int i = monsters.Count - 1; i &gt;= 0; --i)
+				Destroy(monsters[i].gameObject);
+			monsters.Clear();
+		}
+	}
 }
 </code></pre>
 
