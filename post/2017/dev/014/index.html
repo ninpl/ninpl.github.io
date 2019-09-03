@@ -365,7 +365,7 @@ public class BounceApplication : MonoBehaviour
 public class BounceModel : BounceElement
 {
    // Data
-   public int bounces;	
+   public int bounces;  
    public int winCondition;
 }
 </code></pre>
@@ -414,7 +414,7 @@ public class BounceController : BounceElement
          app.view.ball.enabled = false;
          app.view.ball.GetComponent&lt;RigidBody&gt;().isKinematic=true; // stops the ball
          OnGameComplete();
-      }	
+      } 
    }
 
    // Handles la condición de victoria
@@ -523,7 +523,7 @@ public class BounceController : BounceElement
          case BounceNotification.GameComplete:
             Debug.Log(“Victoria!!”);
          break;
-      }	
+      } 
    }
 }
 </code></pre>

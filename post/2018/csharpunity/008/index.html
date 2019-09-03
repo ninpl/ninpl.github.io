@@ -218,18 +218,18 @@ using System.Collections.Generic;
 
 namespace MoonAntonio
 {
-	public class Polimorfismo : MonoBehaviour 
-	{
-		void Start()
-		{
-			List&lt;System.Object&gt; myList = new List&lt;System.Object&gt;();
-			myList.Add(&quot;Hola Mundo!&quot;);
-			myList.Add(42);
-			myList.Add(Camera.main);
-			for (int i = 0; i &lt; myList.Count; ++i)
-				Debug.Log(i + &quot;: &quot; + myList[i].ToString());
-		}
-	}
+    public class Polimorfismo : MonoBehaviour 
+    {
+        void Start()
+        {
+            List&lt;System.Object&gt; myList = new List&lt;System.Object&gt;();
+            myList.Add(&quot;Hola Mundo!&quot;);
+            myList.Add(42);
+            myList.Add(Camera.main);
+            for (int i = 0; i &lt; myList.Count; ++i)
+                Debug.Log(i + &quot;: &quot; + myList[i].ToString());
+        }
+    }
 }
 </code></pre>
 
@@ -265,8 +265,8 @@ namespace MoonAntonio
 <pre><code class="language-C#">// Verifica el tipo de una referencia de objeto con la palabra clave &quot;es&quot;
 if (myList[2] is Camera)
 {
-  	// Emitir la referencia usando el nombre de la clase entre paréntesis
-  	Camera c = (Camera)myList[2];
+    // Emitir la referencia usando el nombre de la clase entre paréntesis
+    Camera c = (Camera)myList[2];
 }
 </code></pre>
 
@@ -322,22 +322,22 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-	public abstract class Selectable : MonoBehaviour
-	{
-		public bool isSelected { get; protected set; }
-		public virtual void SetSelected(bool value)
-		{
-			if (isSelected == value)
-				return;
-			isSelected = value;
-			if (isSelected)
-				Select();
-			else
-				Deselect();
-		}
-		protected abstract void Select();
-		protected abstract void Deselect();
-	}
+    public abstract class Selectable : MonoBehaviour
+    {
+        public bool isSelected { get; protected set; }
+        public virtual void SetSelected(bool value)
+        {
+            if (isSelected == value)
+                return;
+            isSelected = value;
+            if (isSelected)
+                Select();
+            else
+                Deselect();
+        }
+        protected abstract void Select();
+        protected abstract void Deselect();
+    }
 }
 </code></pre>
 
@@ -371,37 +371,37 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-	public class Point
-	{
-		public int x;
-		public int y;
+    public class Point
+    {
+        public int x;
+        public int y;
 
-		public Point()
-		{
-			Debug.Log(&quot;¡Estoy vivo! ... pero estoy a cero.&quot;);
-		}
+        public Point()
+        {
+            Debug.Log(&quot;¡Estoy vivo! ... pero estoy a cero.&quot;);
+        }
 
-		public Point(int x, int y)
-		{
-			this.x = x;
-			this.y = y;
-			Debug.Log(&quot;Whoooa, debo ser valioso!&quot;);
-		}
+        public Point(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+            Debug.Log(&quot;Whoooa, debo ser valioso!&quot;);
+        }
 
-		~Point()
-		{
-			Debug.Log(&quot;Me estoy derritiendo, FUNDICIÓN !!!&quot;);
-		}
-	}
+        ~Point()
+        {
+            Debug.Log(&quot;Me estoy derritiendo, FUNDICIÓN !!!&quot;);
+        }
+    }
 
-	public class Constructores : MonoBehaviour 
-	{
-		public void Start()
-		{
-			Point p1 = new Point();
-			Point p2 = new Point(2, 5);
-		}
-	}
+    public class Constructores : MonoBehaviour 
+    {
+        public void Start()
+        {
+            Point p1 = new Point();
+            Point p2 = new Point(2, 5);
+        }
+    }
 }
 </code></pre>
 
@@ -453,16 +453,16 @@ using System.Collections;
 
 namespace MoonAntonio
 {
-	public static class Global
-	{
-	  public static int count;
+    public static class Global
+    {
+      public static int count;
 
-	  public static void DoStuff ()
-	  {
-	    count++;
-	    Debug.Log(&quot;Tengo &quot; + count);
-	  }
-	}
+      public static void DoStuff ()
+      {
+        count++;
+        Debug.Log(&quot;Tengo &quot; + count);
+      }
+    }
 }
 </code></pre>
 

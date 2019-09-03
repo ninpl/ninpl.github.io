@@ -172,9 +172,9 @@
 Assets   
 │
 └───NombreProyecto
-│		Editor
-│		Scripts
-│		Scenes 
+│       Editor
+│       Scripts
+│       Scenes 
 </code></pre>
 
 <hr />
@@ -184,12 +184,12 @@ Assets
 <hr />
 
 <pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//																				\\
-// Unidad.cs (24/01/2019)														\\
-// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
-// Descripcion:		Clase que contiene la informacion de una unidad.			\\
-// Fecha Mod:		24/01/2019													\\
-// Ultima Mod:		Version Inicial.											\\
+//                                                                              \\
+// Unidad.cs (24/01/2019)                                                       \\
+// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
+// Descripcion:     Clase que contiene la informacion de una unidad.            \\
+// Fecha Mod:       24/01/2019                                                  \\
+// Ultima Mod:      Version Inicial.                                            \\
 //******************************************************************************\\
 
 #region Librerias
@@ -198,34 +198,34 @@ using UnityEngine;
 
 namespace MoonAntonio
 {
-	/// &lt;summary&gt;
-	/// &lt;para&gt;Clase que contiene la informacion de una unidad.&lt;/para&gt;
-	/// &lt;/summary&gt;
-	[HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/Unidad&quot;), System.Serializable]
-	public class Unidad : MonoBehaviour 
-	{
-		#region Variables Publicas
-		public Data data;
-		#endregion
+    /// &lt;summary&gt;
+    /// &lt;para&gt;Clase que contiene la informacion de una unidad.&lt;/para&gt;
+    /// &lt;/summary&gt;
+    [HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/Unidad&quot;), System.Serializable]
+    public class Unidad : MonoBehaviour 
+    {
+        #region Variables Publicas
+        public Data data;
+        #endregion
 
-		#region Dev
-		[ContextMenu(&quot;Dev&quot;)]
-	    protected void DevScript()
-	    {
-	        Debug.Log(&quot;&lt;color=green&gt;Unidad :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
-	    }
-	    #endregion
-	}
+        #region Dev
+        [ContextMenu(&quot;Dev&quot;)]
+        protected void DevScript()
+        {
+            Debug.Log(&quot;&lt;color=green&gt;Unidad :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
+        }
+        #endregion
+    }
 
-	[System.Serializable]
-	public class Data
-	{
-		#region Variables Publicas
-		public float vida = 0.0f;
-		public float mana = 0.0f;
-		public bool isVivo = false;
-		#endregion
-	}
+    [System.Serializable]
+    public class Data
+    {
+        #region Variables Publicas
+        public float vida = 0.0f;
+        public float mana = 0.0f;
+        public bool isVivo = false;
+        #endregion
+    }
 }
 </code></pre>
 
@@ -245,12 +245,12 @@ Sobreescribimos OnInspectorGUI(), este método será llamado con cada evento del
 <hr />
 
 <pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//																				\\
-// UnidadInspector.cs (24/01/2019)												\\
-// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
-// Descripcion:		Inspector de la clase Unidad.								\\
-// Fecha Mod:		24/01/2019													\\
-// Ultima Mod:		Version Inicial.											\\
+//                                                                              \\
+// UnidadInspector.cs (24/01/2019)                                              \\
+// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
+// Descripcion:     Inspector de la clase Unidad.                               \\
+// Fecha Mod:       24/01/2019                                                  \\
+// Ultima Mod:      Version Inicial.                                            \\
 //******************************************************************************\\
 
 #region Librerias
@@ -260,25 +260,25 @@ using UnityEditor;
 
 namespace MoonAntonio
 {
-	/// &lt;summary&gt;
-	/// &lt;para&gt;Inspector de la clase &lt;see cref=&quot;Unidad&quot;/&gt;.&lt;/para&gt;
-	/// &lt;/summary&gt;
-	[HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/UnidadInspector&quot;), CustomEditor(typeof(Unidad))]
-	public class UnidadInspector : Editor 
-	{
-		public override void OnInspectorGUI()
-		{
-			// TODO
-		}
+    /// &lt;summary&gt;
+    /// &lt;para&gt;Inspector de la clase &lt;see cref=&quot;Unidad&quot;/&gt;.&lt;/para&gt;
+    /// &lt;/summary&gt;
+    [HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/UnidadInspector&quot;), CustomEditor(typeof(Unidad))]
+    public class UnidadInspector : Editor 
+    {
+        public override void OnInspectorGUI()
+        {
+            // TODO
+        }
 
-		#region Dev
-		[ContextMenu(&quot;Dev&quot;)]
-	    protected void DevScript()
-	    {
-	        Debug.Log(&quot;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
-	    }
-	    #endregion
-	}
+        #region Dev
+        [ContextMenu(&quot;Dev&quot;)]
+        protected void DevScript()
+        {
+            Debug.Log(&quot;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
+        }
+        #endregion
+    }
 }
 </code></pre>
 
@@ -291,7 +291,7 @@ namespace MoonAntonio
 <pre><code class="language-C#">serializedObject.Update(); 
 
 // TODO
-							
+                            
 serializedObject.ApplyModifiedProperties();
 </code></pre>
 
@@ -344,12 +344,12 @@ EditorGUILayout.EndHorizontal();
 <hr />
 
 <pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//																				\\
-// UnidadInspector.cs (24/01/2019)												\\
-// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
-// Descripcion:		Inspector de la clase Unidad.								\\
-// Fecha Mod:		24/01/2019													\\
-// Ultima Mod:		Version Inicial.											\\
+//                                                                              \\
+// UnidadInspector.cs (24/01/2019)                                              \\
+// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
+// Descripcion:     Inspector de la clase Unidad.                               \\
+// Fecha Mod:       24/01/2019                                                  \\
+// Ultima Mod:      Version Inicial.                                            \\
 //******************************************************************************\\
 
 #region Librerias
@@ -359,42 +359,42 @@ using UnityEditor;
 
 namespace MoonAntonio
 {
-	/// &lt;summary&gt;
-	/// &lt;para&gt;Inspector de la clase &lt;see cref=&quot;Unidad&quot;/&gt;.&lt;/para&gt;
-	/// &lt;/summary&gt;
-	[HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/UnidadInspector&quot;), CustomEditor(typeof(Unidad))]
-	public class UnidadInspector : Editor 
-	{
-		public override void OnInspectorGUI()
-		{
-			serializedObject.Update();
+    /// &lt;summary&gt;
+    /// &lt;para&gt;Inspector de la clase &lt;see cref=&quot;Unidad&quot;/&gt;.&lt;/para&gt;
+    /// &lt;/summary&gt;
+    [HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/UnidadInspector&quot;), CustomEditor(typeof(Unidad))]
+    public class UnidadInspector : Editor 
+    {
+        public override void OnInspectorGUI()
+        {
+            serializedObject.Update();
 
-			EditorGUILayout.LabelField(&quot;Datos Unidad&quot;);
-			SerializedProperty dataProperty = serializedObject.FindProperty(&quot;data&quot;);
-			SerializedProperty vidaProperty = dataProperty.FindPropertyRelative(&quot;vida&quot;);
-			SerializedProperty manaProperty = dataProperty.FindPropertyRelative(&quot;mana&quot;);
-			SerializedProperty isVivoProperty = dataProperty.FindPropertyRelative(&quot;isVivo&quot;);
+            EditorGUILayout.LabelField(&quot;Datos Unidad&quot;);
+            SerializedProperty dataProperty = serializedObject.FindProperty(&quot;data&quot;);
+            SerializedProperty vidaProperty = dataProperty.FindPropertyRelative(&quot;vida&quot;);
+            SerializedProperty manaProperty = dataProperty.FindPropertyRelative(&quot;mana&quot;);
+            SerializedProperty isVivoProperty = dataProperty.FindPropertyRelative(&quot;isVivo&quot;);
 
-			EditorGUILayout.BeginHorizontal(&quot;box&quot;);
-			vidaProperty.floatValue = EditorGUILayout.FloatField(&quot;HP&quot;, vidaProperty.floatValue);
-			manaProperty.floatValue = EditorGUILayout.FloatField(&quot;MP&quot; ,manaProperty.floatValue);
-			EditorGUILayout.EndHorizontal();
+            EditorGUILayout.BeginHorizontal(&quot;box&quot;);
+            vidaProperty.floatValue = EditorGUILayout.FloatField(&quot;HP&quot;, vidaProperty.floatValue);
+            manaProperty.floatValue = EditorGUILayout.FloatField(&quot;MP&quot; ,manaProperty.floatValue);
+            EditorGUILayout.EndHorizontal();
 
-			EditorGUILayout.BeginHorizontal(&quot;box&quot;);
-			isVivoProperty.boolValue = EditorGUILayout.Toggle(&quot;Alive&quot;, isVivoProperty.boolValue);
-			EditorGUILayout.EndHorizontal();
+            EditorGUILayout.BeginHorizontal(&quot;box&quot;);
+            isVivoProperty.boolValue = EditorGUILayout.Toggle(&quot;Alive&quot;, isVivoProperty.boolValue);
+            EditorGUILayout.EndHorizontal();
 
-			serializedObject.ApplyModifiedProperties();
-		}
+            serializedObject.ApplyModifiedProperties();
+        }
 
-		#region Dev
-		[ContextMenu(&quot;Dev&quot;)]
-	    protected void DevScript()
-	    {
-	        Debug.Log(&quot;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
-	    }
-	    #endregion
-	}
+        #region Dev
+        [ContextMenu(&quot;Dev&quot;)]
+        protected void DevScript()
+        {
+            Debug.Log(&quot;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
+        }
+        #endregion
+    }
 }
 </code></pre>
 

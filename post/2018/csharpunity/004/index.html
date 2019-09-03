@@ -179,7 +179,7 @@
 
 <pre><code class="language-C#">private void MetodoQueRealizaAlgo()
 {
-	Debug.Log(&quot;Hola Mundo!&quot;);
+    Debug.Log(&quot;Hola Mundo!&quot;);
 }
 </code></pre>
 
@@ -303,14 +303,14 @@ using System.Collections;
  
 public class Magic : MonoBehaviour 
 {
-		public string[] respuestas;
-		[SerializeField] Text _label;
+        public string[] respuestas;
+        [SerializeField] Text _label;
 
-		public void Pregunta()
-		{
-			int index = UnityEngine.Random.Range(0, respuestas.Length);
-			_label.text = respuestas[index];
-		}
+        public void Pregunta()
+        {
+            int index = UnityEngine.Random.Range(0, respuestas.Length);
+            _label.text = respuestas[index];
+        }
 }
 </code></pre>
 
