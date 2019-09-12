@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: moonantonio.github.io
+Token: 384c7798428a502918001dfea2b9bd49599d7286c082373bceaa09acc4c7fa41
