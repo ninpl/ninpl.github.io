@@ -6,10 +6,22 @@
     <description>Recent content in Cuaternión on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 04 Sep 2019 03:26:08 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2019 02:57:43 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/cuaterni%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Álgebra - Matrices</title>
+      <link>https://moonantonio.github.io/post/2019/matematicas/003/</link>
+      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/matematicas/003/</guid>
+      <description>A partir de la definición de multiplicación matricial, sabemos que:
+
+Esencialmente, el elemento (i,j) del producto matriz AB es el producto punto. De la fila i, el A y desde la fila j el B.
+Podemos calcular la multiplicación de matrices realizando un producto de puntos por elemento en el producto de matriz resultante AB. Sin embargo, hay dos formas alternativas de ver la operación de multiplicación de matrices que a veces pueden facilitar la vida.</description>
+    </item>
     
     <item>
       <title>Cuaternión Básicos</title>
