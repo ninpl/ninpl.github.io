@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trello on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/categories/trello/</link>
+    <description>Recent content in Trello on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 30 Oct 2019 02:53:06 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/categories/trello/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo usar Trello para el desarrollo ágil</title>
+      <link>https://moonantonio.github.io/post/2019/comun/006/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/006/</guid>
+      <description>Trello como una herramienta de apoyo para el desarrollo ágil. Específicamente, vamos a aplicar varios de los conceptos de Scrum, aunque no seguiremos todo lo descrito por esta metodología al pie de la letra.
+Lo básico En Trello existen 3 componentes básicos:
+ Tableros Listas Tarjetas  Un tablero de Trello se corresponde con un proyecto. Dentro de cada tablero podemos crear tantas listas como sea necesario. Por último, cada lista contendrá una serie de tarjetas.</description>
+    </item>
+    
+  </channel>
+</rss>

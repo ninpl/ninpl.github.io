@@ -6,10 +6,33 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 03 Oct 2019 02:57:43 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 03:16:52 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Guía de inicio en la Programación</title>
+      <link>https://moonantonio.github.io/post/2019/comun/007/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/007/</guid>
+      <description>¿No sabes por dónde empezar? Si estás iniciando tu camino en la programación, o es la primera vez que visitas la página, no te preocupes, porque esta guía te mostrará los contenidos de forma ordenada.
+
+La intención de esta guía de introducción a la programación es ayudarte a escoger por dónde empezar y qué camino seguir en el desarrollo en general.
+Si aprendes a programar adecuadamente, podrás desarrollar aplicaciones móviles, sistemas web, videojuegos, y cualquier tipo de software en general, usando distintas tecnologías.</description>
+    </item>
+    
+    <item>
+      <title>Cómo usar Trello para el desarrollo ágil</title>
+      <link>https://moonantonio.github.io/post/2019/comun/006/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/006/</guid>
+      <description>Trello como una herramienta de apoyo para el desarrollo ágil. Específicamente, vamos a aplicar varios de los conceptos de Scrum, aunque no seguiremos todo lo descrito por esta metodología al pie de la letra.
+Lo básico En Trello existen 3 componentes básicos:
+ Tableros Listas Tarjetas  Un tablero de Trello se corresponde con un proyecto. Dentro de cada tablero podemos crear tantas listas como sea necesario. Por último, cada lista contendrá una serie de tarjetas.</description>
+    </item>
     
     <item>
       <title>Álgebra - Matrices</title>

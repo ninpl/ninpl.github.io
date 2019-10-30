@@ -6,10 +6,82 @@
     <description>Recent content in Categories on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 03 Oct 2019 02:57:43 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 03:16:52 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consejo</title>
+      <link>https://moonantonio.github.io/categories/consejo/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/consejo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guia</title>
+      <link>https://moonantonio.github.io/categories/guia/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/guia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moon</title>
+      <link>https://moonantonio.github.io/categories/moon/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/moon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moon Antonio</title>
+      <link>https://moonantonio.github.io/categories/moon-antonio/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/moon-antonio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programacion</title>
+      <link>https://moonantonio.github.io/categories/programacion/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/programacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agil</title>
+      <link>https://moonantonio.github.io/categories/agil/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/agil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gestion</title>
+      <link>https://moonantonio.github.io/categories/gestion/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/gestion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trello</title>
+      <link>https://moonantonio.github.io/categories/trello/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/trello/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Básicas</title>
@@ -35,24 +107,6 @@
       <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/matem%C3%A1ticas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moon</title>
-      <link>https://moonantonio.github.io/categories/moon/</link>
-      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/moon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moon Antonio</title>
-      <link>https://moonantonio.github.io/categories/moon-antonio/</link>
-      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/moon-antonio/</guid>
       <description></description>
     </item>
     
@@ -1241,15 +1295,6 @@
       <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/profesional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programacion</title>
-      <link>https://moonantonio.github.io/categories/programacion/</link>
-      <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/programacion/</guid>
       <description></description>
     </item>
     

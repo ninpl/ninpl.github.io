@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consejo on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/consejo/</link>
+    <description>Recent content in Consejo on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 30 Oct 2019 03:16:52 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/consejo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guía de inicio en la Programación</title>
+      <link>https://moonantonio.github.io/post/2019/comun/007/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/007/</guid>
+      <description>¿No sabes por dónde empezar? Si estás iniciando tu camino en la programación, o es la primera vez que visitas la página, no te preocupes, porque esta guía te mostrará los contenidos de forma ordenada.
+
+La intención de esta guía de introducción a la programación es ayudarte a escoger por dónde empezar y qué camino seguir en el desarrollo en general.
+Si aprendes a programar adecuadamente, podrás desarrollar aplicaciones móviles, sistemas web, videojuegos, y cualquier tipo de software en general, usando distintas tecnologías.</description>
+    </item>
+    
+  </channel>
+</rss>

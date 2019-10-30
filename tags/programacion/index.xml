@@ -6,10 +6,22 @@
     <description>Recent content in Programacion on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 08 Aug 2018 00:52:10 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 03:16:52 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/programacion/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Guía de inicio en la Programación</title>
+      <link>https://moonantonio.github.io/post/2019/comun/007/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/007/</guid>
+      <description>¿No sabes por dónde empezar? Si estás iniciando tu camino en la programación, o es la primera vez que visitas la página, no te preocupes, porque esta guía te mostrará los contenidos de forma ordenada.
+
+La intención de esta guía de introducción a la programación es ayudarte a escoger por dónde empezar y qué camino seguir en el desarrollo en general.
+Si aprendes a programar adecuadamente, podrás desarrollar aplicaciones móviles, sistemas web, videojuegos, y cualquier tipo de software en general, usando distintas tecnologías.</description>
+    </item>
     
     <item>
       <title>Consejos para agilizar tu trabajo como programador</title>
