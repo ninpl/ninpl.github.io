@@ -6,17 +6,17 @@
     <description>Recent content in Ruby on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 14 Dec 2018 23:43:11 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Oct 2016 23:43:11 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Información sobre P.Ruby</title>
-      <link>https://moonantonio.github.io/post/2018/comun/024/</link>
-      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
+      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
+      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2018/comun/024/</guid>
+      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
       <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivacion. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
 P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepais, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
     </item>

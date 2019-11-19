@@ -191,16 +191,6 @@ Final Fantasy Tactics apareció en 1998 en la primera PlayStation. Sin embargo, 
     </item>
     
     <item>
-      <title>Información sobre P.Ruby</title>
-      <link>https://moonantonio.github.io/post/2018/comun/024/</link>
-      <pubDate>Fri, 14 Dec 2018 23:43:11 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/comun/024/</guid>
-      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivacion. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
-P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepais, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
-    </item>
-    
-    <item>
       <title>Shooter Level Design - Conceptos</title>
       <link>https://moonantonio.github.io/post/2018/dev/015/</link>
       <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
@@ -1231,6 +1221,16 @@ Así, el primero que ya sabíamos que iba a aparecer fue Radiant Historia: Perfe
       <guid>https://moonantonio.github.io/post/2017/utiles/006/</guid>
       <description>Final Fantasy IX: Alternate Fantasy es un mod que apunta a aumentar la dificultad y, sobre todo, a dar una nueva experiencia de FF9 para aquellos que ya conocen bien el juego. Para la versión PSX, se instala mediante la aplicación de un parche PPF a los archivos de juego original. Puede utilizar la herramienta PPF-O-MATIC que se incluye en el archivo de mod.
 Para la versión de Steam, reemplazas directamente algunos de los archivos del juego por los modificados.</description>
+    </item>
+    
+    <item>
+      <title>Información sobre P.Ruby</title>
+      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
+      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
+      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivacion. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
+P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepais, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
     </item>
     
   </channel>
