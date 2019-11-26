@@ -6,10 +6,55 @@
     <description>Recent content in Categories on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 30 Oct 2019 03:16:52 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:15:44 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moon</title>
+      <link>https://moonantonio.github.io/categories/moon/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/moon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moon Antonio</title>
+      <link>https://moonantonio.github.io/categories/moon-antonio/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/moon-antonio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temas</title>
+      <link>https://moonantonio.github.io/categories/temas/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/temas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://moonantonio.github.io/categories/vscode/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code</title>
+      <link>https://moonantonio.github.io/categories/visual-studio-code/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/categories/visual-studio-code/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Consejo</title>
@@ -26,24 +71,6 @@
       <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/categories/guia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moon</title>
-      <link>https://moonantonio.github.io/categories/moon/</link>
-      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/moon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moon Antonio</title>
-      <link>https://moonantonio.github.io/categories/moon-antonio/</link>
-      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/moon-antonio/</guid>
       <description></description>
     </item>
     

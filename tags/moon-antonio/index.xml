@@ -6,10 +6,20 @@
     <description>Recent content in Moon Antonio on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 30 Oct 2019 03:16:52 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:15:44 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/moon-antonio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
+      <link>https://moonantonio.github.io/post/2019/comun/008/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/008/</guid>
+      <description>El marketplace de Visual Studio Code realmente no es práctico para encontrar lo que necesitamos, en conceptos de diferentes temas que la comunidad nos brinda. ¡Visita el sitio web VSCodeThemes, que hace que sea mucho más fácil elegir un tema para Visual Studio Code!
+Asumiendo que el mercado de Visual Studio Code no es la mejor manera de encontrar temas (mientras que para las extensiones, está bien) porque es necesario rezar para que el creador del tema haya capturado la pantalla en el archivo README de su proyecto para echar un vistazo, Jordan Schroter ha desarrollado un sitio web llamado VSCodeThemes , congrega temas de VSCode muy agradables y mucho más prácticos.</description>
+    </item>
     
     <item>
       <title>Guía de inicio en la Programación</title>
