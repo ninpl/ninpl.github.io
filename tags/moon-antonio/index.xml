@@ -1119,11 +1119,11 @@ Generalmente, como siempre hago, creare un tablero Trello y seguire una metodolo
       <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/007/</guid>
-      <description>Al final del proceso de implementacion de la escena, bakear los elementos que se quieran navegar.
+      <description>Al final del proceso de implementación de la escena, bakear los elementos que se quieran navegar.
 Abrir el inspector Navigation.
-Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos vavegables.
+Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos navegables.
 Bake para bakear la escena.
-Areas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rapido.</description>
+Áreas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rápido.</description>
     </item>
     
     <item>
@@ -1239,8 +1239,8 @@ Para la versión de Steam, reemplazas directamente algunos de los archivos del j
       <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
-      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivacion. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
-P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepais, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
+      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
+P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepáis, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
     </item>
     
   </channel>

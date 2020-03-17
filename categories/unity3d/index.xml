@@ -82,25 +82,25 @@ Poner a prueba la iluminación de Unity Siempre he querido reproducir una ilumin
       
       <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
       <description>Bakeo simple en Unity3d 
-Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una esfera.
+Primero preparamos la escena, con colores planos (simples) y algún objeto para representar en la escena, como una esfera.
 
-Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
+Luego configuramos la iluminación para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
 
-Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
+Añadimos una pequeña animación para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
     </item>
     
     <item>
-      <title>Clase de sistemas de particulas - Unity3D</title>
+      <title>Clase de sistemas de partículas - Unity3D</title>
       <link>https://moonantonio.github.io/post/2017/clase/004/</link>
       <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
-      <description>Clase de sistemas de particulas - Unity3D 
-Los parametros mas usados son, Base, emision y renderer.
- Parametros Base
- Duracion: La vida que tendra todas las particulas.
-Looping: Crea un loop por el cual crea un loop de las particulas.
-Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).
+      <description>Clase de sistemas de partículas - Unity3D 
+Los parámetros mas usados son, Base, emisión y renderer.
+ Parámetros Base
+ Duración: La vida que tendrá todas las partículas.
+Looping: Crea un loop por el cual crea un loop de las partículas.
+Prewarm: Aparecen todas las partículas directamente (No se inician poco a poco).
 Start Delay: El tiempo que tardan en empezar.
 Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
     </item>

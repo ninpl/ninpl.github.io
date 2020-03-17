@@ -154,15 +154,15 @@ Como es evidente, esta no será una guía &amp;ldquo;al uso&amp;rdquo; y respond
       
       <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
       <description>Bakeo simple en Unity3d 
-Primero preparamos la escena, con colores planos (simples) y algun objeto para representar en la escena, como una esfera.
+Primero preparamos la escena, con colores planos (simples) y algún objeto para representar en la escena, como una esfera.
 
-Luego configuramos la iluminacion para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
+Luego configuramos la iluminación para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
 
-Añadimos una pequeña animacion para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
+Añadimos una pequeña animación para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
     </item>
     
     <item>
-      <title>Primera reunion sobre el TFG</title>
+      <title>Primera reunión sobre el TFG</title>
       <link>https://moonantonio.github.io/post/2017/clase/005/</link>
       <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
       
@@ -172,27 +172,27 @@ Añadimos una pequeña animacion para el movimiento de la luz direccional para v
  Neonizada Wadim  
  Muy vivoBravo  
  Realismo Touho  
- Variacion de profundida Touho  
-Datos tecnicos  Edificios:
+ Variación de profundidad Touho  
+Datos técnicos  Edificios:
  LOD desde 2 planta hacia arriba.
 3 Tipos de LOD.
 3 tipos generales y props para modular.
-   Circulacion:
+   Circulación:
  Coches solo vuelan por arriba.</description>
     </item>
     
     <item>
-      <title>Clase de sistemas de particulas - Unity3D</title>
+      <title>Clase de sistemas de partículas - Unity3D</title>
       <link>https://moonantonio.github.io/post/2017/clase/004/</link>
       <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
-      <description>Clase de sistemas de particulas - Unity3D 
-Los parametros mas usados son, Base, emision y renderer.
- Parametros Base
- Duracion: La vida que tendra todas las particulas.
-Looping: Crea un loop por el cual crea un loop de las particulas.
-Prewarm: Aparecen todas las particulas directamente (No se inician poco a poco).
+      <description>Clase de sistemas de partículas - Unity3D 
+Los parámetros mas usados son, Base, emisión y renderer.
+ Parámetros Base
+ Duración: La vida que tendrá todas las partículas.
+Looping: Crea un loop por el cual crea un loop de las partículas.
+Prewarm: Aparecen todas las partículas directamente (No se inician poco a poco).
 Start Delay: El tiempo que tardan en empezar.
 Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
     </item>
@@ -244,26 +244,26 @@ Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rap
     </item>
     
     <item>
-      <title>Agentes de Busqueda y demas.</title>
+      <title>Agentes de Búsqueda y demás.</title>
       <link>https://moonantonio.github.io/post/2017/clase/003/</link>
       <pubDate>Mon, 06 Mar 2017 12:36:44 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/003/</guid>
-      <description>Agentes Los agentes de busqueda, son agentes que tienen un objetivo, seguiran haciendo su funcion hasta terminar su busqueda.
-Identifica una solucion adecuada dentro del arbol de busqueda.
+      <description>Agentes Los agentes de búsqueda, son agentes que tienen un objetivo, seguirán haciendo su función hasta terminar su búsqueda.
+Identifica una solución adecuada dentro del árbol de búsqueda.
 Primero se formula el objetivo y luego se formula el problema.
- Formulacion del problema:   Estado inicial: El estado inicial del agente.
-Estados: Todos los posibles estados a los que el agente puede evolucionar a traves de una secuencia.</description>
+ Formulación del problema:   Estado inicial: El estado inicial del agente.
+Estados: Todos los posibles estados a los que el agente puede evolucionar a través de una secuencia.</description>
     </item>
     
     <item>
-      <title>Mecanicas TFG - Investigacion</title>
+      <title>Mecánicas TFG - Investigación</title>
       <link>https://moonantonio.github.io/post/2017/clase/002/</link>
       <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
-      <description>Mecanicas presentadas para el TFG Al comienzo de la investigacion, se propuso unas mecanicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecanicas &amp;amp; algunas funcionalidades previstas:
-  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rapido. Ataque a distancia. Salto / Salto doble.   Tambien tiene extras como:</description>
+      <description>Mecánicas presentadas para el TFG Al comienzo de la investigación, se propuso unas mecánicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecánicas &amp;amp; algunas funcionalidades previstas:
+  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.   También tiene extras como:</description>
     </item>
     
     <item>
@@ -345,14 +345,14 @@ El juego contará una nueva historia en un mundo diferente al de la primera entr
     </item>
     
     <item>
-      <title>Explicacion IA basica</title>
+      <title>Explicación IA básica</title>
       <link>https://moonantonio.github.io/post/2017/clase/001/</link>
       <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
       <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
 Los mas comunes en videojuegos son:
- Juegos de suma cero: Minimax Busqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neutonales Algoritmos geneticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la eleccion de la mejor accion para ganar.</description>
+ Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
     </item>
     
     <item>
