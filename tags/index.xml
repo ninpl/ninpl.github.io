@@ -6,170 +6,35 @@
     <description>Recent content in Tags on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:15:44 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 Oct 2018 12:09:53 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Moon</title>
-      <link>https://moonantonio.github.io/tags/moon/</link>
-      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      <title>10</title>
+      <link>https://moonantonio.github.io/tags/10/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/moon/</guid>
+      <guid>https://moonantonio.github.io/tags/10/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Moon Antonio</title>
-      <link>https://moonantonio.github.io/tags/moon-antonio/</link>
-      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      <title>2</title>
+      <link>https://moonantonio.github.io/tags/2/</link>
+      <pubDate>Thu, 28 Jun 2018 19:37:55 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/moon-antonio/</guid>
+      <guid>https://moonantonio.github.io/tags/2/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Temas</title>
-      <link>https://moonantonio.github.io/tags/temas/</link>
-      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      <title>2018</title>
+      <link>https://moonantonio.github.io/tags/2018/</link>
+      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/temas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VSCode</title>
-      <link>https://moonantonio.github.io/tags/vscode/</link>
-      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Code</title>
-      <link>https://moonantonio.github.io/tags/visual-studio-code/</link>
-      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/visual-studio-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consejo</title>
-      <link>https://moonantonio.github.io/tags/consejo/</link>
-      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/consejo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guia</title>
-      <link>https://moonantonio.github.io/tags/guia/</link>
-      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/guia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programacion</title>
-      <link>https://moonantonio.github.io/tags/programacion/</link>
-      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/programacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agil</title>
-      <link>https://moonantonio.github.io/tags/agil/</link>
-      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/agil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gestion</title>
-      <link>https://moonantonio.github.io/tags/gestion/</link>
-      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/gestion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trello</title>
-      <link>https://moonantonio.github.io/tags/trello/</link>
-      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/trello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Básicas</title>
-      <link>https://moonantonio.github.io/tags/b%C3%A1sicas/</link>
-      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/b%C3%A1sicas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cuaternión</title>
-      <link>https://moonantonio.github.io/tags/cuaterni%C3%B3n/</link>
-      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/cuaterni%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matemáticas</title>
-      <link>https://moonantonio.github.io/tags/matem%C3%A1ticas/</link>
-      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/matem%C3%A1ticas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vectores</title>
-      <link>https://moonantonio.github.io/tags/vectores/</link>
-      <pubDate>Mon, 02 Sep 2019 19:34:19 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/vectores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Editor</title>
-      <link>https://moonantonio.github.io/tags/editor/</link>
-      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/editor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GUISkin</title>
-      <link>https://moonantonio.github.io/tags/guiskin/</link>
-      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/guiskin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unity</title>
-      <link>https://moonantonio.github.io/tags/unity/</link>
-      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/unity/</guid>
+      <guid>https://moonantonio.github.io/tags/2018/</guid>
       <description></description>
     </item>
     
@@ -183,506 +48,11 @@
     </item>
     
     <item>
-      <title>Conferencia</title>
-      <link>https://moonantonio.github.io/tags/conferencia/</link>
-      <pubDate>Tue, 12 Mar 2019 19:39:41 +0100</pubDate>
+      <title>2d</title>
+      <link>https://moonantonio.github.io/tags/2d/</link>
+      <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/conferencia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NIS</title>
-      <link>https://moonantonio.github.io/tags/nis/</link>
-      <pubDate>Tue, 12 Mar 2019 19:39:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Desarrollo</title>
-      <link>https://moonantonio.github.io/tags/desarrollo/</link>
-      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/desarrollo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fases</title>
-      <link>https://moonantonio.github.io/tags/fases/</link>
-      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/fases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Videojuego</title>
-      <link>https://moonantonio.github.io/tags/videojuego/</link>
-      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/videojuego/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Final Fantasy</title>
-      <link>https://moonantonio.github.io/tags/final-fantasy/</link>
-      <pubDate>Wed, 06 Feb 2019 02:19:22 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/final-fantasy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reflexion</title>
-      <link>https://moonantonio.github.io/tags/reflexion/</link>
-      <pubDate>Wed, 06 Feb 2019 02:19:22 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/reflexion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CellShading</title>
-      <link>https://moonantonio.github.io/tags/cellshading/</link>
-      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/cellshading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lambert</title>
-      <link>https://moonantonio.github.io/tags/lambert/</link>
-      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/lambert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shaders</title>
-      <link>https://moonantonio.github.io/tags/shaders/</link>
-      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/shaders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unity3D</title>
-      <link>https://moonantonio.github.io/tags/unity3d/</link>
-      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/unity3d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom</title>
-      <link>https://moonantonio.github.io/tags/custom/</link>
-      <pubDate>Thu, 24 Jan 2019 13:28:38 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/custom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual</title>
-      <link>https://moonantonio.github.io/tags/visual/</link>
-      <pubDate>Thu, 24 Jan 2019 13:28:38 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/visual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aprende</title>
-      <link>https://moonantonio.github.io/tags/aprende/</link>
-      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/aprende/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Backdoor</title>
-      <link>https://moonantonio.github.io/tags/backdoor/</link>
-      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/backdoor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CPP</title>
-      <link>https://moonantonio.github.io/tags/cpp/</link>
-      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/cpp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>https://moonantonio.github.io/tags/code/</link>
-      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unreal</title>
-      <link>https://moonantonio.github.io/tags/unreal/</link>
-      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/unreal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub</title>
-      <link>https://moonantonio.github.io/tags/github/</link>
-      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nuevos planes</title>
-      <link>https://moonantonio.github.io/tags/nuevos-planes/</link>
-      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nuevos-planes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Repositorios Privados</title>
-      <link>https://moonantonio.github.io/tags/repositorios-privados/</link>
-      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/repositorios-privados/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>8</title>
-      <link>https://moonantonio.github.io/tags/8/</link>
-      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PICO</title>
-      <link>https://moonantonio.github.io/tags/pico/</link>
-      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/pico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PICO 8</title>
-      <link>https://moonantonio.github.io/tags/pico-8/</link>
-      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/pico-8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://moonantonio.github.io/tags/software/</link>
-      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Comun</title>
-      <link>https://moonantonio.github.io/tags/comun/</link>
-      <pubDate>Thu, 03 Jan 2019 21:33:24 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/comun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feliz Año</title>
-      <link>https://moonantonio.github.io/tags/feliz-a%C3%B1o/</link>
-      <pubDate>Thu, 03 Jan 2019 21:33:24 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/feliz-a%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Curiosidades</title>
-      <link>https://moonantonio.github.io/tags/curiosidades/</link>
-      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/curiosidades/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FFT</title>
-      <link>https://moonantonio.github.io/tags/fft/</link>
-      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/fft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Final Fantasy Tactics</title>
-      <link>https://moonantonio.github.io/tags/final-fantasy-tactics/</link>
-      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/final-fantasy-tactics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://moonantonio.github.io/tags/design/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Level</title>
-      <link>https://moonantonio.github.io/tags/level/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/level/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shooter</title>
-      <link>https://moonantonio.github.io/tags/shooter/</link>
-      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/shooter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Espiral</title>
-      <link>https://moonantonio.github.io/tags/espiral/</link>
-      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/espiral/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magico</title>
-      <link>https://moonantonio.github.io/tags/magico/</link>
-      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/magico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Numero</title>
-      <link>https://moonantonio.github.io/tags/numero/</link>
-      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/numero/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oro</title>
-      <link>https://moonantonio.github.io/tags/oro/</link>
-      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/oro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proporcion</title>
-      <link>https://moonantonio.github.io/tags/proporcion/</link>
-      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/proporcion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Juegos</title>
-      <link>https://moonantonio.github.io/tags/juegos/</link>
-      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/juegos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rol</title>
-      <link>https://moonantonio.github.io/tags/rol/</link>
-      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/rol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Turnos</title>
-      <link>https://moonantonio.github.io/tags/turnos/</link>
-      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/turnos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dev</title>
-      <link>https://moonantonio.github.io/tags/dev/</link>
-      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fisicas</title>
-      <link>https://moonantonio.github.io/tags/fisicas/</link>
-      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/fisicas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pechos</title>
-      <link>https://moonantonio.github.io/tags/pechos/</link>
-      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/pechos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tetas</title>
-      <link>https://moonantonio.github.io/tags/tetas/</link>
-      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/tetas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Videojuegos</title>
-      <link>https://moonantonio.github.io/tags/videojuegos/</link>
-      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/videojuegos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Balance</title>
-      <link>https://moonantonio.github.io/tags/balance/</link>
-      <pubDate>Mon, 29 Oct 2018 23:14:55 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/balance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dificultad</title>
-      <link>https://moonantonio.github.io/tags/dificultad/</link>
-      <pubDate>Mon, 29 Oct 2018 23:14:55 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/dificultad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ingenieria</title>
-      <link>https://moonantonio.github.io/tags/ingenieria/</link>
-      <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/ingenieria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inversa</title>
-      <link>https://moonantonio.github.io/tags/inversa/</link>
-      <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/inversa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Acumulacion</title>
-      <link>https://moonantonio.github.io/tags/acumulacion/</link>
-      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/acumulacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>https://moonantonio.github.io/tags/learning/</link>
-      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nieve</title>
-      <link>https://moonantonio.github.io/tags/nieve/</link>
-      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nieve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shader</title>
-      <link>https://moonantonio.github.io/tags/shader/</link>
-      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/shader/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimización</title>
-      <link>https://moonantonio.github.io/tags/optimizaci%C3%B3n/</link>
-      <pubDate>Thu, 18 Oct 2018 00:38:12 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/optimizaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Profiler</title>
-      <link>https://moonantonio.github.io/tags/profiler/</link>
-      <pubDate>Thu, 18 Oct 2018 00:38:12 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/profiler/</guid>
+      <guid>https://moonantonio.github.io/tags/2d/</guid>
       <description></description>
     </item>
     
@@ -696,47 +66,11 @@
     </item>
     
     <item>
-      <title>Alicizacion</title>
-      <link>https://moonantonio.github.io/tags/alicizacion/</link>
-      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
+      <title>8</title>
+      <link>https://moonantonio.github.io/tags/8/</link>
+      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/alicizacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nuevo</title>
-      <link>https://moonantonio.github.io/tags/nuevo/</link>
-      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nuevo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SAO</title>
-      <link>https://moonantonio.github.io/tags/sao/</link>
-      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/sao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ultima</title>
-      <link>https://moonantonio.github.io/tags/ultima/</link>
-      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/ultima/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>10</title>
-      <link>https://moonantonio.github.io/tags/10/</link>
-      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/10/</guid>
+      <guid>https://moonantonio.github.io/tags/8/</guid>
       <description></description>
     </item>
     
@@ -750,83 +84,74 @@
     </item>
     
     <item>
-      <title>Update</title>
-      <link>https://moonantonio.github.io/tags/update/</link>
-      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      <title>Acumulacion</title>
+      <link>https://moonantonio.github.io/tags/acumulacion/</link>
+      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/update/</guid>
+      <guid>https://moonantonio.github.io/tags/acumulacion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Windows</title>
-      <link>https://moonantonio.github.io/tags/windows/</link>
-      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      <title>Agil</title>
+      <link>https://moonantonio.github.io/tags/agil/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/windows/</guid>
+      <guid>https://moonantonio.github.io/tags/agil/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>movil</title>
-      <link>https://moonantonio.github.io/tags/movil/</link>
-      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      <title>Algoritmos</title>
+      <link>https://moonantonio.github.io/tags/algoritmos/</link>
+      <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/movil/</guid>
+      <guid>https://moonantonio.github.io/tags/algoritmos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>win10</title>
-      <link>https://moonantonio.github.io/tags/win10/</link>
-      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      <title>Alicizacion</title>
+      <link>https://moonantonio.github.io/tags/alicizacion/</link>
+      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/win10/</guid>
+      <guid>https://moonantonio.github.io/tags/alicizacion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Diseño</title>
-      <link>https://moonantonio.github.io/tags/dise%C3%B1o/</link>
-      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
+      <title>Alliance Alive</title>
+      <link>https://moonantonio.github.io/tags/alliance-alive/</link>
+      <pubDate>Thu, 02 Mar 2017 18:44:00 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/dise%C3%B1o/</guid>
+      <guid>https://moonantonio.github.io/tags/alliance-alive/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Español</title>
-      <link>https://moonantonio.github.io/tags/espa%C3%B1ol/</link>
-      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
+      <title>Alto Nivel</title>
+      <link>https://moonantonio.github.io/tags/alto-nivel/</link>
+      <pubDate>Sat, 26 May 2018 02:38:41 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/espa%C3%B1ol/</guid>
+      <guid>https://moonantonio.github.io/tags/alto-nivel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>CSHARP</title>
-      <link>https://moonantonio.github.io/tags/csharp/</link>
-      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
+      <title>Amv</title>
+      <link>https://moonantonio.github.io/tags/amv/</link>
+      <pubDate>Wed, 08 Aug 2018 01:18:27 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/csharp/</guid>
+      <guid>https://moonantonio.github.io/tags/amv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Localizacion</title>
-      <link>https://moonantonio.github.io/tags/localizacion/</link>
-      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
+      <title>Android</title>
+      <link>https://moonantonio.github.io/tags/android/</link>
+      <pubDate>Wed, 29 Aug 2018 15:15:32 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/localizacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PO</title>
-      <link>https://moonantonio.github.io/tags/po/</link>
-      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/po/</guid>
+      <guid>https://moonantonio.github.io/tags/android/</guid>
       <description></description>
     </item>
     
@@ -849,6 +174,150 @@
     </item>
     
     <item>
+      <title>Aprende</title>
+      <link>https://moonantonio.github.io/tags/aprende/</link>
+      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/aprende/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arte Del Diseño</title>
+      <link>https://moonantonio.github.io/tags/arte-del-dise%C3%B1o/</link>
+      <pubDate>Thu, 28 Jun 2018 20:34:23 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/arte-del-dise%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artistas</title>
+      <link>https://moonantonio.github.io/tags/artistas/</link>
+      <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/artistas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aseprite</title>
+      <link>https://moonantonio.github.io/tags/aseprite/</link>
+      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/aseprite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atlus</title>
+      <link>https://moonantonio.github.io/tags/atlus/</link>
+      <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/atlus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backdoor</title>
+      <link>https://moonantonio.github.io/tags/backdoor/</link>
+      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/backdoor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bajo Coste</title>
+      <link>https://moonantonio.github.io/tags/bajo-coste/</link>
+      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/bajo-coste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bajo Nivel</title>
+      <link>https://moonantonio.github.io/tags/bajo-nivel/</link>
+      <pubDate>Sat, 26 May 2018 02:38:41 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/bajo-nivel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balance</title>
+      <link>https://moonantonio.github.io/tags/balance/</link>
+      <pubDate>Mon, 29 Oct 2018 23:14:55 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/balance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Batgirl</title>
+      <link>https://moonantonio.github.io/tags/batgirl/</link>
+      <pubDate>Thu, 28 Jun 2018 20:22:01 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/batgirl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://moonantonio.github.io/tags/blog/</link>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Buenas Practicas</title>
+      <link>https://moonantonio.github.io/tags/buenas-practicas/</link>
+      <pubDate>Mon, 16 Oct 2017 19:07:21 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/buenas-practicas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bushido</title>
+      <link>https://moonantonio.github.io/tags/bushido/</link>
+      <pubDate>Sat, 18 Mar 2017 18:36:29 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/bushido/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Básicas</title>
+      <link>https://moonantonio.github.io/tags/b%C3%A1sicas/</link>
+      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/b%C3%A1sicas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C#</title>
+      <link>https://moonantonio.github.io/tags/c/</link>
+      <pubDate>Tue, 04 Sep 2018 19:20:57 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cellshading</title>
+      <link>https://moonantonio.github.io/tags/cellshading/</link>
+      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/cellshading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chart</title>
       <link>https://moonantonio.github.io/tags/chart/</link>
       <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
@@ -858,38 +327,74 @@
     </item>
     
     <item>
-      <title>New</title>
-      <link>https://moonantonio.github.io/tags/new/</link>
-      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      <title>Clase</title>
+      <link>https://moonantonio.github.io/tags/clase/</link>
+      <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/new/</guid>
+      <guid>https://moonantonio.github.io/tags/clase/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Season</title>
-      <link>https://moonantonio.github.io/tags/season/</link>
-      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      <title>Code</title>
+      <link>https://moonantonio.github.io/tags/code/</link>
+      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/season/</guid>
+      <guid>https://moonantonio.github.io/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Temporada</title>
-      <link>https://moonantonio.github.io/tags/temporada/</link>
-      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      <title>Comandos</title>
+      <link>https://moonantonio.github.io/tags/comandos/</link>
+      <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/temporada/</guid>
+      <guid>https://moonantonio.github.io/tags/comandos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tracker</title>
-      <link>https://moonantonio.github.io/tags/tracker/</link>
-      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      <title>Compañias</title>
+      <link>https://moonantonio.github.io/tags/compa%C3%B1ias/</link>
+      <pubDate>Tue, 05 Jun 2018 16:26:10 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/tracker/</guid>
+      <guid>https://moonantonio.github.io/tags/compa%C3%B1ias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compra</title>
+      <link>https://moonantonio.github.io/tags/compra/</link>
+      <pubDate>Tue, 05 Jun 2018 17:04:50 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/compra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comun</title>
+      <link>https://moonantonio.github.io/tags/comun/</link>
+      <pubDate>Thu, 03 Jan 2019 21:33:24 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/comun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferencia</title>
+      <link>https://moonantonio.github.io/tags/conferencia/</link>
+      <pubDate>Tue, 12 Mar 2019 19:39:41 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/conferencia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consejo</title>
+      <link>https://moonantonio.github.io/tags/consejo/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/consejo/</guid>
       <description></description>
     </item>
     
@@ -903,65 +408,191 @@
     </item>
     
     <item>
-      <title>Esencial</title>
-      <link>https://moonantonio.github.io/tags/esencial/</link>
-      <pubDate>Mon, 10 Sep 2018 14:00:03 +0200</pubDate>
+      <title>Consola</title>
+      <link>https://moonantonio.github.io/tags/consola/</link>
+      <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/esencial/</guid>
+      <guid>https://moonantonio.github.io/tags/consola/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>GameDev</title>
-      <link>https://moonantonio.github.io/tags/gamedev/</link>
-      <pubDate>Mon, 10 Sep 2018 14:00:03 +0200</pubDate>
+      <title>Cpp</title>
+      <link>https://moonantonio.github.io/tags/cpp/</link>
+      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/gamedev/</guid>
+      <guid>https://moonantonio.github.io/tags/cpp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>C#</title>
-      <link>https://moonantonio.github.io/tags/c#/</link>
-      <pubDate>Tue, 04 Sep 2018 19:20:57 +0200</pubDate>
+      <title>Criptomonedas</title>
+      <link>https://moonantonio.github.io/tags/criptomonedas/</link>
+      <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/c#/</guid>
+      <guid>https://moonantonio.github.io/tags/criptomonedas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>2018</title>
-      <link>https://moonantonio.github.io/tags/2018/</link>
-      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
+      <title>Csharp</title>
+      <link>https://moonantonio.github.io/tags/csharp/</link>
+      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/2018/</guid>
+      <guid>https://moonantonio.github.io/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Summer</title>
-      <link>https://moonantonio.github.io/tags/summer/</link>
-      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
+      <title>Cuaternión</title>
+      <link>https://moonantonio.github.io/tags/cuaterni%C3%B3n/</link>
+      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/summer/</guid>
+      <guid>https://moonantonio.github.io/tags/cuaterni%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Verano</title>
-      <link>https://moonantonio.github.io/tags/verano/</link>
-      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
+      <title>Curiosidades</title>
+      <link>https://moonantonio.github.io/tags/curiosidades/</link>
+      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/verano/</guid>
+      <guid>https://moonantonio.github.io/tags/curiosidades/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://moonantonio.github.io/tags/android/</link>
-      <pubDate>Wed, 29 Aug 2018 15:15:32 +0200</pubDate>
+      <title>Custom</title>
+      <link>https://moonantonio.github.io/tags/custom/</link>
+      <pubDate>Thu, 24 Jan 2019 13:28:38 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/android/</guid>
+      <guid>https://moonantonio.github.io/tags/custom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Danmachi</title>
+      <link>https://moonantonio.github.io/tags/danmachi/</link>
+      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/danmachi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Darkwar</title>
+      <link>https://moonantonio.github.io/tags/darkwar/</link>
+      <pubDate>Tue, 29 May 2018 01:40:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/darkwar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Darling</title>
+      <link>https://moonantonio.github.io/tags/darling/</link>
+      <pubDate>Wed, 13 Jun 2018 15:23:49 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/darling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Darling in the Franxx</title>
+      <link>https://moonantonio.github.io/tags/darling-in-the-franxx/</link>
+      <pubDate>Mon, 13 Aug 2018 00:14:24 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/darling-in-the-franxx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desarrollo</title>
+      <link>https://moonantonio.github.io/tags/desarrollo/</link>
+      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/desarrollo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://moonantonio.github.io/tags/design/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://moonantonio.github.io/tags/dev/</link>
+      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devblog</title>
+      <link>https://moonantonio.github.io/tags/devblog/</link>
+      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/devblog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diario</title>
+      <link>https://moonantonio.github.io/tags/diario/</link>
+      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/diario/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dificultad</title>
+      <link>https://moonantonio.github.io/tags/dificultad/</link>
+      <pubDate>Mon, 29 Oct 2018 23:14:55 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/dificultad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discos Duros</title>
+      <link>https://moonantonio.github.io/tags/discos-duros/</link>
+      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/discos-duros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diseñador De Videojuegos</title>
+      <link>https://moonantonio.github.io/tags/dise%C3%B1ador-de-videojuegos/</link>
+      <pubDate>Mon, 13 Aug 2018 03:26:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/dise%C3%B1ador-de-videojuegos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diseño</title>
+      <link>https://moonantonio.github.io/tags/dise%C3%B1o/</link>
+      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/dise%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dll</title>
+      <link>https://moonantonio.github.io/tags/dll/</link>
+      <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/dll/</guid>
       <description></description>
     </item>
     
@@ -975,7 +606,322 @@
     </item>
     
     <item>
-      <title>IOS</title>
+      <title>Dungeon</title>
+      <link>https://moonantonio.github.io/tags/dungeon/</link>
+      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/dungeon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E3 2018</title>
+      <link>https://moonantonio.github.io/tags/e3-2018/</link>
+      <pubDate>Tue, 05 Jun 2018 16:26:10 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/e3-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>https://moonantonio.github.io/tags/editor/</link>
+      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esencial</title>
+      <link>https://moonantonio.github.io/tags/esencial/</link>
+      <pubDate>Mon, 10 Sep 2018 14:00:03 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/esencial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Español</title>
+      <link>https://moonantonio.github.io/tags/espa%C3%B1ol/</link>
+      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/espa%C3%B1ol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Espiral</title>
+      <link>https://moonantonio.github.io/tags/espiral/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/espiral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estudio</title>
+      <link>https://moonantonio.github.io/tags/estudio/</link>
+      <pubDate>Fri, 25 Aug 2017 22:40:40 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/estudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Europa</title>
+      <link>https://moonantonio.github.io/tags/europa/</link>
+      <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/europa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fases</title>
+      <link>https://moonantonio.github.io/tags/fases/</link>
+      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/fases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feliz Año</title>
+      <link>https://moonantonio.github.io/tags/feliz-a%C3%B1o/</link>
+      <pubDate>Thu, 03 Jan 2019 21:33:24 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/feliz-a%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fft</title>
+      <link>https://moonantonio.github.io/tags/fft/</link>
+      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/fft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Final Fantasy</title>
+      <link>https://moonantonio.github.io/tags/final-fantasy/</link>
+      <pubDate>Wed, 06 Feb 2019 02:19:22 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/final-fantasy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Final Fantasy Tactics</title>
+      <link>https://moonantonio.github.io/tags/final-fantasy-tactics/</link>
+      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/final-fantasy-tactics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finalfantasix</title>
+      <link>https://moonantonio.github.io/tags/finalfantasix/</link>
+      <pubDate>Thu, 23 Mar 2017 19:21:13 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/finalfantasix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fisicas</title>
+      <link>https://moonantonio.github.io/tags/fisicas/</link>
+      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/fisicas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fsm</title>
+      <link>https://moonantonio.github.io/tags/fsm/</link>
+      <pubDate>Wed, 05 Jul 2017 18:59:56 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/fsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game No Life</title>
+      <link>https://moonantonio.github.io/tags/game-no-life/</link>
+      <pubDate>Mon, 04 Jun 2018 15:05:33 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/game-no-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Studio</title>
+      <link>https://moonantonio.github.io/tags/game-studio/</link>
+      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/game-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gamedev</title>
+      <link>https://moonantonio.github.io/tags/gamedev/</link>
+      <pubDate>Mon, 10 Sep 2018 14:00:03 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/gamedev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://moonantonio.github.io/tags/general/</link>
+      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gestion</title>
+      <link>https://moonantonio.github.io/tags/gestion/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/gestion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://moonantonio.github.io/tags/git/</link>
+      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://moonantonio.github.io/tags/github/</link>
+      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glitch</title>
+      <link>https://moonantonio.github.io/tags/glitch/</link>
+      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/glitch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guia</title>
+      <link>https://moonantonio.github.io/tags/guia/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/guia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guiskin</title>
+      <link>https://moonantonio.github.io/tags/guiskin/</link>
+      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/guiskin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Herramientas</title>
+      <link>https://moonantonio.github.io/tags/herramientas/</link>
+      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/herramientas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Horarios</title>
+      <link>https://moonantonio.github.io/tags/horarios/</link>
+      <pubDate>Tue, 05 Jun 2018 16:26:10 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/horarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ia</title>
+      <link>https://moonantonio.github.io/tags/ia/</link>
+      <pubDate>Tue, 03 Oct 2017 21:24:19 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/ia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icon Folder</title>
+      <link>https://moonantonio.github.io/tags/icon-folder/</link>
+      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/icon-folder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iluminacion</title>
+      <link>https://moonantonio.github.io/tags/iluminacion/</link>
+      <pubDate>Sat, 18 Mar 2017 18:59:13 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/iluminacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indie</title>
+      <link>https://moonantonio.github.io/tags/indie/</link>
+      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/indie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingenieria</title>
+      <link>https://moonantonio.github.io/tags/ingenieria/</link>
+      <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/ingenieria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inversa</title>
+      <link>https://moonantonio.github.io/tags/inversa/</link>
+      <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/inversa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigacion</title>
+      <link>https://moonantonio.github.io/tags/investigacion/</link>
+      <pubDate>Wed, 15 Nov 2017 19:39:31 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/investigacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
       <link>https://moonantonio.github.io/tags/ios/</link>
       <pubDate>Wed, 29 Aug 2018 15:15:32 +0200</pubDate>
       
@@ -993,398 +939,29 @@
     </item>
     
     <item>
-      <title>Nintento</title>
-      <link>https://moonantonio.github.io/tags/nintento/</link>
-      <pubDate>Wed, 29 Aug 2018 15:15:32 +0200</pubDate>
+      <title>Juegos</title>
+      <link>https://moonantonio.github.io/tags/juegos/</link>
+      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/nintento/</guid>
+      <guid>https://moonantonio.github.io/tags/juegos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Danmachi</title>
-      <link>https://moonantonio.github.io/tags/danmachi/</link>
-      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
+      <title>Lambert</title>
+      <link>https://moonantonio.github.io/tags/lambert/</link>
+      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/danmachi/</guid>
+      <guid>https://moonantonio.github.io/tags/lambert/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Dungeon</title>
-      <link>https://moonantonio.github.io/tags/dungeon/</link>
-      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
+      <title>Learning</title>
+      <link>https://moonantonio.github.io/tags/learning/</link>
+      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/dungeon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Icon folder</title>
-      <link>https://moonantonio.github.io/tags/icon-folder/</link>
-      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/icon-folder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bajo coste</title>
-      <link>https://moonantonio.github.io/tags/bajo-coste/</link>
-      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/bajo-coste/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game Studio</title>
-      <link>https://moonantonio.github.io/tags/game-studio/</link>
-      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/game-studio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Herramientas</title>
-      <link>https://moonantonio.github.io/tags/herramientas/</link>
-      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/herramientas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Indie</title>
-      <link>https://moonantonio.github.io/tags/indie/</link>
-      <pubDate>Wed, 22 Aug 2018 23:26:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/indie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aseprite</title>
-      <link>https://moonantonio.github.io/tags/aseprite/</link>
-      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/aseprite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sprite</title>
-      <link>https://moonantonio.github.io/tags/sprite/</link>
-      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/sprite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Workflow</title>
-      <link>https://moonantonio.github.io/tags/workflow/</link>
-      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/workflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diseñador de videojuegos</title>
-      <link>https://moonantonio.github.io/tags/dise%C3%B1ador-de-videojuegos/</link>
-      <pubDate>Mon, 13 Aug 2018 03:26:09 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/dise%C3%B1ador-de-videojuegos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Darling in the FranXX</title>
-      <link>https://moonantonio.github.io/tags/darling-in-the-franxx/</link>
-      <pubDate>Mon, 13 Aug 2018 00:14:24 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/darling-in-the-franxx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AMV</title>
-      <link>https://moonantonio.github.io/tags/amv/</link>
-      <pubDate>Wed, 08 Aug 2018 01:18:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/amv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vine</title>
-      <link>https://moonantonio.github.io/tags/vine/</link>
-      <pubDate>Wed, 08 Aug 2018 01:18:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/vine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>https://moonantonio.github.io/tags/personal/</link>
-      <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Profesional</title>
-      <link>https://moonantonio.github.io/tags/profesional/</link>
-      <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/profesional/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discos Duros</title>
-      <link>https://moonantonio.github.io/tags/discos-duros/</link>
-      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/discos-duros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>https://moonantonio.github.io/tags/general/</link>
-      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://moonantonio.github.io/tags/linux/</link>
-      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Study</title>
-      <link>https://moonantonio.github.io/tags/study/</link>
-      <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UNET</title>
-      <link>https://moonantonio.github.io/tags/unet/</link>
-      <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/unet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WWW</title>
-      <link>https://moonantonio.github.io/tags/www/</link>
-      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/www/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WebClient</title>
-      <link>https://moonantonio.github.io/tags/webclient/</link>
-      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/webclient/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arte del diseño</title>
-      <link>https://moonantonio.github.io/tags/arte-del-dise%C3%B1o/</link>
-      <pubDate>Thu, 28 Jun 2018 20:34:23 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/arte-del-dise%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nociones</title>
-      <link>https://moonantonio.github.io/tags/nociones/</link>
-      <pubDate>Thu, 28 Jun 2018 20:34:23 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nociones/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Batgirl</title>
-      <link>https://moonantonio.github.io/tags/batgirl/</link>
-      <pubDate>Thu, 28 Jun 2018 20:22:01 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/batgirl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Video</title>
-      <link>https://moonantonio.github.io/tags/video/</link>
-      <pubDate>Thu, 28 Jun 2018 20:22:01 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2</title>
-      <link>https://moonantonio.github.io/tags/2/</link>
-      <pubDate>Thu, 28 Jun 2018 19:37:55 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terra Battle</title>
-      <link>https://moonantonio.github.io/tags/terra-battle/</link>
-      <pubDate>Thu, 28 Jun 2018 19:37:55 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/terra-battle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Steam</title>
-      <link>https://moonantonio.github.io/tags/steam/</link>
-      <pubDate>Thu, 28 Jun 2018 18:37:51 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/steam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Darling</title>
-      <link>https://moonantonio.github.io/tags/darling/</link>
-      <pubDate>Wed, 13 Jun 2018 15:23:49 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/darling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Red</title>
-      <link>https://moonantonio.github.io/tags/red/</link>
-      <pubDate>Wed, 13 Jun 2018 15:23:49 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/red/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pruebas</title>
-      <link>https://moonantonio.github.io/tags/pruebas/</link>
-      <pubDate>Tue, 05 Jun 2018 17:17:37 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/pruebas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testeo</title>
-      <link>https://moonantonio.github.io/tags/testeo/</link>
-      <pubDate>Tue, 05 Jun 2018 17:17:37 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/testeo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compra</title>
-      <link>https://moonantonio.github.io/tags/compra/</link>
-      <pubDate>Tue, 05 Jun 2018 17:04:50 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/compra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsoft</title>
-      <link>https://moonantonio.github.io/tags/microsoft/</link>
-      <pubDate>Tue, 05 Jun 2018 17:04:50 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/microsoft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compañias</title>
-      <link>https://moonantonio.github.io/tags/compa%C3%B1ias/</link>
-      <pubDate>Tue, 05 Jun 2018 16:26:10 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/compa%C3%B1ias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>E3 2018</title>
-      <link>https://moonantonio.github.io/tags/e3-2018/</link>
-      <pubDate>Tue, 05 Jun 2018 16:26:10 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/e3-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Horarios</title>
-      <link>https://moonantonio.github.io/tags/horarios/</link>
-      <pubDate>Tue, 05 Jun 2018 16:26:10 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/horarios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game no Life</title>
-      <link>https://moonantonio.github.io/tags/game-no-life/</link>
-      <pubDate>Mon, 04 Jun 2018 15:05:33 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/game-no-life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>War</title>
-      <link>https://moonantonio.github.io/tags/war/</link>
-      <pubDate>Mon, 04 Jun 2018 15:05:33 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/war/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://moonantonio.github.io/tags/blog/</link>
-      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DarkWar</title>
-      <link>https://moonantonio.github.io/tags/darkwar/</link>
-      <pubDate>Tue, 29 May 2018 01:40:09 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/darkwar/</guid>
+      <guid>https://moonantonio.github.io/tags/learning/</guid>
       <description></description>
     </item>
     
@@ -1398,6 +975,42 @@
     </item>
     
     <item>
+      <title>Level</title>
+      <link>https://moonantonio.github.io/tags/level/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://moonantonio.github.io/tags/linux/</link>
+      <pubDate>Wed, 08 Aug 2018 00:26:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localizacion</title>
+      <link>https://moonantonio.github.io/tags/localizacion/</link>
+      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/localizacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magico</title>
+      <link>https://moonantonio.github.io/tags/magico/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/magico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://moonantonio.github.io/tags/markdown/</link>
       <pubDate>Tue, 29 May 2018 00:10:41 +0200</pubDate>
@@ -1407,200 +1020,11 @@
     </item>
     
     <item>
-      <title>¿Que es?</title>
-      <link>https://moonantonio.github.io/tags/que-es/</link>
-      <pubDate>Tue, 29 May 2018 00:10:41 +0200</pubDate>
+      <title>Matemáticas</title>
+      <link>https://moonantonio.github.io/tags/matem%C3%A1ticas/</link>
+      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/que-es/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Miku</title>
-      <link>https://moonantonio.github.io/tags/miku/</link>
-      <pubDate>Mon, 28 May 2018 23:52:42 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/miku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alto nivel</title>
-      <link>https://moonantonio.github.io/tags/alto-nivel/</link>
-      <pubDate>Sat, 26 May 2018 02:38:41 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/alto-nivel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bajo nivel</title>
-      <link>https://moonantonio.github.io/tags/bajo-nivel/</link>
-      <pubDate>Sat, 26 May 2018 02:38:41 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/bajo-nivel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dll</title>
-      <link>https://moonantonio.github.io/tags/dll/</link>
-      <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/dll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plugins</title>
-      <link>https://moonantonio.github.io/tags/plugins/</link>
-      <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/plugins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scriptable</title>
-      <link>https://moonantonio.github.io/tags/scriptable/</link>
-      <pubDate>Tue, 17 Apr 2018 14:04:47 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/scriptable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Noticias</title>
-      <link>https://moonantonio.github.io/tags/noticias/</link>
-      <pubDate>Tue, 09 Jan 2018 03:50:03 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/noticias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motores</title>
-      <link>https://moonantonio.github.io/tags/motores/</link>
-      <pubDate>Tue, 19 Dec 2017 19:27:13 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/motores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigacion</title>
-      <link>https://moonantonio.github.io/tags/investigacion/</link>
-      <pubDate>Wed, 15 Nov 2017 19:39:31 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/investigacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sinopsis</title>
-      <link>https://moonantonio.github.io/tags/sinopsis/</link>
-      <pubDate>Wed, 15 Nov 2017 19:39:31 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/sinopsis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MVC</title>
-      <link>https://moonantonio.github.io/tags/mvc/</link>
-      <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/mvc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Patron de diseño</title>
-      <link>https://moonantonio.github.io/tags/patron-de-dise%C3%B1o/</link>
-      <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/patron-de-dise%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Criptomonedas</title>
-      <link>https://moonantonio.github.io/tags/criptomonedas/</link>
-      <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/criptomonedas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Buenas practicas</title>
-      <link>https://moonantonio.github.io/tags/buenas-practicas/</link>
-      <pubDate>Mon, 16 Oct 2017 19:07:21 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/buenas-practicas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IA</title>
-      <link>https://moonantonio.github.io/tags/ia/</link>
-      <pubDate>Tue, 03 Oct 2017 21:24:19 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/ia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estudio</title>
-      <link>https://moonantonio.github.io/tags/estudio/</link>
-      <pubDate>Fri, 25 Aug 2017 22:40:40 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/estudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Atlus</title>
-      <link>https://moonantonio.github.io/tags/atlus/</link>
-      <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/atlus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Europa</title>
-      <link>https://moonantonio.github.io/tags/europa/</link>
-      <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/europa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Comandos</title>
-      <link>https://moonantonio.github.io/tags/comandos/</link>
-      <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/comandos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consola</title>
-      <link>https://moonantonio.github.io/tags/consola/</link>
-      <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/consola/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSM</title>
-      <link>https://moonantonio.github.io/tags/fsm/</link>
-      <pubDate>Wed, 05 Jul 2017 18:59:56 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/fsm/</guid>
+      <guid>https://moonantonio.github.io/tags/matem%C3%A1ticas/</guid>
       <description></description>
     </item>
     
@@ -1614,155 +1038,20 @@
     </item>
     
     <item>
-      <title>Pintura</title>
-      <link>https://moonantonio.github.io/tags/pintura/</link>
-      <pubDate>Sat, 20 May 2017 23:14:15 +0200</pubDate>
+      <title>Microsoft</title>
+      <link>https://moonantonio.github.io/tags/microsoft/</link>
+      <pubDate>Tue, 05 Jun 2018 17:04:50 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/pintura/</guid>
+      <guid>https://moonantonio.github.io/tags/microsoft/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Open Source</title>
-      <link>https://moonantonio.github.io/tags/open-source/</link>
-      <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
+      <title>Miku</title>
+      <link>https://moonantonio.github.io/tags/miku/</link>
+      <pubDate>Mon, 28 May 2018 23:52:42 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://moonantonio.github.io/tags/tools/</link>
-      <pubDate>Sat, 06 May 2017 03:19:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RPG-Tactico</title>
-      <link>https://moonantonio.github.io/tags/rpg-tactico/</link>
-      <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/rpg-tactico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Glitch</title>
-      <link>https://moonantonio.github.io/tags/glitch/</link>
-      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/glitch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Piezas de Juego</title>
-      <link>https://moonantonio.github.io/tags/piezas-de-juego/</link>
-      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/piezas-de-juego/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TFG</title>
-      <link>https://moonantonio.github.io/tags/tfg/</link>
-      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/tfg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clase</title>
-      <link>https://moonantonio.github.io/tags/clase/</link>
-      <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/clase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algoritmos</title>
-      <link>https://moonantonio.github.io/tags/algoritmos/</link>
-      <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/algoritmos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diario</title>
-      <link>https://moonantonio.github.io/tags/diario/</link>
-      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/diario/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neregate</title>
-      <link>https://moonantonio.github.io/tags/neregate/</link>
-      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/neregate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NVIDIA Gforce</title>
-      <link>https://moonantonio.github.io/tags/nvidia-gforce/</link>
-      <pubDate>Fri, 31 Mar 2017 00:32:33 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nvidia-gforce/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2D</title>
-      <link>https://moonantonio.github.io/tags/2d/</link>
-      <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/2d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artistas</title>
-      <link>https://moonantonio.github.io/tags/artistas/</link>
-      <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/artistas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Square Enix</title>
-      <link>https://moonantonio.github.io/tags/square-enix/</link>
-      <pubDate>Sun, 26 Mar 2017 20:06:35 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/square-enix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nintendo</title>
-      <link>https://moonantonio.github.io/tags/nintendo/</link>
-      <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/nintendo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FinalFantasIX</title>
-      <link>https://moonantonio.github.io/tags/finalfantasix/</link>
-      <pubDate>Thu, 23 Mar 2017 19:21:13 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/finalfantasix/</guid>
+      <guid>https://moonantonio.github.io/tags/miku/</guid>
       <description></description>
     </item>
     
@@ -1776,6 +1065,24 @@
     </item>
     
     <item>
+      <title>Moon</title>
+      <link>https://moonantonio.github.io/tags/moon/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/moon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moon Antonio</title>
+      <link>https://moonantonio.github.io/tags/moon-antonio/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/moon-antonio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Moon Pincho</title>
       <link>https://moonantonio.github.io/tags/moon-pincho/</link>
       <pubDate>Thu, 23 Mar 2017 04:58:48 +0100</pubDate>
@@ -1785,38 +1092,92 @@
     </item>
     
     <item>
-      <title>Iluminacion</title>
-      <link>https://moonantonio.github.io/tags/iluminacion/</link>
-      <pubDate>Sat, 18 Mar 2017 18:59:13 +0100</pubDate>
+      <title>Motores</title>
+      <link>https://moonantonio.github.io/tags/motores/</link>
+      <pubDate>Tue, 19 Dec 2017 19:27:13 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/iluminacion/</guid>
+      <guid>https://moonantonio.github.io/tags/motores/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bushido</title>
-      <link>https://moonantonio.github.io/tags/bushido/</link>
-      <pubDate>Sat, 18 Mar 2017 18:36:29 +0100</pubDate>
+      <title>Movil</title>
+      <link>https://moonantonio.github.io/tags/movil/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/bushido/</guid>
+      <guid>https://moonantonio.github.io/tags/movil/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>RPG</title>
-      <link>https://moonantonio.github.io/tags/rpg/</link>
-      <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
+      <title>Mvc</title>
+      <link>https://moonantonio.github.io/tags/mvc/</link>
+      <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/rpg/</guid>
+      <guid>https://moonantonio.github.io/tags/mvc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Alliance Alive</title>
-      <link>https://moonantonio.github.io/tags/alliance-alive/</link>
-      <pubDate>Thu, 02 Mar 2017 18:44:00 +0100</pubDate>
+      <title>Neregate</title>
+      <link>https://moonantonio.github.io/tags/neregate/</link>
+      <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/alliance-alive/</guid>
+      <guid>https://moonantonio.github.io/tags/neregate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>https://moonantonio.github.io/tags/new/</link>
+      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nieve</title>
+      <link>https://moonantonio.github.io/tags/nieve/</link>
+      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nieve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nintendo</title>
+      <link>https://moonantonio.github.io/tags/nintendo/</link>
+      <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nintendo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nintento</title>
+      <link>https://moonantonio.github.io/tags/nintento/</link>
+      <pubDate>Wed, 29 Aug 2018 15:15:32 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nintento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nis</title>
+      <link>https://moonantonio.github.io/tags/nis/</link>
+      <pubDate>Tue, 12 Mar 2019 19:39:41 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nociones</title>
+      <link>https://moonantonio.github.io/tags/nociones/</link>
+      <pubDate>Thu, 28 Jun 2018 20:34:23 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nociones/</guid>
       <description></description>
     </item>
     
@@ -1830,20 +1191,272 @@
     </item>
     
     <item>
-      <title>Git</title>
-      <link>https://moonantonio.github.io/tags/git/</link>
-      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
+      <title>Noticias</title>
+      <link>https://moonantonio.github.io/tags/noticias/</link>
+      <pubDate>Tue, 09 Jan 2018 03:50:03 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/git/</guid>
+      <guid>https://moonantonio.github.io/tags/noticias/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>P.Ruby</title>
+      <title>Nuevo</title>
+      <link>https://moonantonio.github.io/tags/nuevo/</link>
+      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nuevo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuevos Planes</title>
+      <link>https://moonantonio.github.io/tags/nuevos-planes/</link>
+      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nuevos-planes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numero</title>
+      <link>https://moonantonio.github.io/tags/numero/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/numero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nvidia Gforce</title>
+      <link>https://moonantonio.github.io/tags/nvidia-gforce/</link>
+      <pubDate>Fri, 31 Mar 2017 00:32:33 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/nvidia-gforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://moonantonio.github.io/tags/open-source/</link>
+      <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimización</title>
+      <link>https://moonantonio.github.io/tags/optimizaci%C3%B3n/</link>
+      <pubDate>Thu, 18 Oct 2018 00:38:12 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/optimizaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oro</title>
+      <link>https://moonantonio.github.io/tags/oro/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/oro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P.ruby</title>
       <link>https://moonantonio.github.io/tags/p.ruby/</link>
       <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/tags/p.ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patron De Diseño</title>
+      <link>https://moonantonio.github.io/tags/patron-de-dise%C3%B1o/</link>
+      <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/patron-de-dise%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pechos</title>
+      <link>https://moonantonio.github.io/tags/pechos/</link>
+      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/pechos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://moonantonio.github.io/tags/personal/</link>
+      <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pico</title>
+      <link>https://moonantonio.github.io/tags/pico/</link>
+      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pico 8</title>
+      <link>https://moonantonio.github.io/tags/pico-8/</link>
+      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/pico-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Piezas De Juego</title>
+      <link>https://moonantonio.github.io/tags/piezas-de-juego/</link>
+      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/piezas-de-juego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pintura</title>
+      <link>https://moonantonio.github.io/tags/pintura/</link>
+      <pubDate>Sat, 20 May 2017 23:14:15 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/pintura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plugins</title>
+      <link>https://moonantonio.github.io/tags/plugins/</link>
+      <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Po</title>
+      <link>https://moonantonio.github.io/tags/po/</link>
+      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/po/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profesional</title>
+      <link>https://moonantonio.github.io/tags/profesional/</link>
+      <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/profesional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profiler</title>
+      <link>https://moonantonio.github.io/tags/profiler/</link>
+      <pubDate>Thu, 18 Oct 2018 00:38:12 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/profiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programacion</title>
+      <link>https://moonantonio.github.io/tags/programacion/</link>
+      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/programacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proporcion</title>
+      <link>https://moonantonio.github.io/tags/proporcion/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/proporcion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pruebas</title>
+      <link>https://moonantonio.github.io/tags/pruebas/</link>
+      <pubDate>Tue, 05 Jun 2018 17:17:37 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/pruebas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Que Es</title>
+      <link>https://moonantonio.github.io/tags/que-es/</link>
+      <pubDate>Tue, 29 May 2018 00:10:41 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/que-es/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red</title>
+      <link>https://moonantonio.github.io/tags/red/</link>
+      <pubDate>Wed, 13 Jun 2018 15:23:49 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/red/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflexion</title>
+      <link>https://moonantonio.github.io/tags/reflexion/</link>
+      <pubDate>Wed, 06 Feb 2019 02:19:22 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/reflexion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repositorios Privados</title>
+      <link>https://moonantonio.github.io/tags/repositorios-privados/</link>
+      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/repositorios-privados/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rol</title>
+      <link>https://moonantonio.github.io/tags/rol/</link>
+      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/rol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rpg</title>
+      <link>https://moonantonio.github.io/tags/rpg/</link>
+      <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/rpg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rpg Tactico</title>
+      <link>https://moonantonio.github.io/tags/rpg-tactico/</link>
+      <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/rpg-tactico/</guid>
       <description></description>
     </item>
     
@@ -1857,11 +1470,398 @@
     </item>
     
     <item>
-      <title>devblog</title>
-      <link>https://moonantonio.github.io/tags/devblog/</link>
-      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
+      <title>Sao</title>
+      <link>https://moonantonio.github.io/tags/sao/</link>
+      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/tags/devblog/</guid>
+      <guid>https://moonantonio.github.io/tags/sao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scriptable</title>
+      <link>https://moonantonio.github.io/tags/scriptable/</link>
+      <pubDate>Tue, 17 Apr 2018 14:04:47 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/scriptable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Season</title>
+      <link>https://moonantonio.github.io/tags/season/</link>
+      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/season/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shader</title>
+      <link>https://moonantonio.github.io/tags/shader/</link>
+      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/shader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaders</title>
+      <link>https://moonantonio.github.io/tags/shaders/</link>
+      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/shaders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shooter</title>
+      <link>https://moonantonio.github.io/tags/shooter/</link>
+      <pubDate>Fri, 30 Nov 2018 15:11:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/shooter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sinopsis</title>
+      <link>https://moonantonio.github.io/tags/sinopsis/</link>
+      <pubDate>Wed, 15 Nov 2017 19:39:31 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/sinopsis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://moonantonio.github.io/tags/software/</link>
+      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sprite</title>
+      <link>https://moonantonio.github.io/tags/sprite/</link>
+      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/sprite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Square Enix</title>
+      <link>https://moonantonio.github.io/tags/square-enix/</link>
+      <pubDate>Sun, 26 Mar 2017 20:06:35 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/square-enix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steam</title>
+      <link>https://moonantonio.github.io/tags/steam/</link>
+      <pubDate>Thu, 28 Jun 2018 18:37:51 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/steam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>https://moonantonio.github.io/tags/study/</link>
+      <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer</title>
+      <link>https://moonantonio.github.io/tags/summer/</link>
+      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/summer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temas</title>
+      <link>https://moonantonio.github.io/tags/temas/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/temas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporada</title>
+      <link>https://moonantonio.github.io/tags/temporada/</link>
+      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/temporada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terra Battle</title>
+      <link>https://moonantonio.github.io/tags/terra-battle/</link>
+      <pubDate>Thu, 28 Jun 2018 19:37:55 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/terra-battle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testeo</title>
+      <link>https://moonantonio.github.io/tags/testeo/</link>
+      <pubDate>Tue, 05 Jun 2018 17:17:37 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/testeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tetas</title>
+      <link>https://moonantonio.github.io/tags/tetas/</link>
+      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/tetas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tfg</title>
+      <link>https://moonantonio.github.io/tags/tfg/</link>
+      <pubDate>Tue, 25 Apr 2017 19:14:58 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/tfg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://moonantonio.github.io/tags/tools/</link>
+      <pubDate>Sat, 06 May 2017 03:19:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracker</title>
+      <link>https://moonantonio.github.io/tags/tracker/</link>
+      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/tracker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trello</title>
+      <link>https://moonantonio.github.io/tags/trello/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/trello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turnos</title>
+      <link>https://moonantonio.github.io/tags/turnos/</link>
+      <pubDate>Thu, 08 Nov 2018 02:37:50 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/turnos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultima</title>
+      <link>https://moonantonio.github.io/tags/ultima/</link>
+      <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/ultima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unet</title>
+      <link>https://moonantonio.github.io/tags/unet/</link>
+      <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/unet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://moonantonio.github.io/tags/unity/</link>
+      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity3d</title>
+      <link>https://moonantonio.github.io/tags/unity3d/</link>
+      <pubDate>Tue, 05 Feb 2019 14:38:50 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/unity3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unreal</title>
+      <link>https://moonantonio.github.io/tags/unreal/</link>
+      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/unreal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>https://moonantonio.github.io/tags/update/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vectores</title>
+      <link>https://moonantonio.github.io/tags/vectores/</link>
+      <pubDate>Mon, 02 Sep 2019 19:34:19 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/vectores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verano</title>
+      <link>https://moonantonio.github.io/tags/verano/</link>
+      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/verano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://moonantonio.github.io/tags/video/</link>
+      <pubDate>Thu, 28 Jun 2018 20:22:01 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videojuego</title>
+      <link>https://moonantonio.github.io/tags/videojuego/</link>
+      <pubDate>Mon, 25 Feb 2019 23:17:23 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/videojuego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videojuegos</title>
+      <link>https://moonantonio.github.io/tags/videojuegos/</link>
+      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/videojuegos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vine</title>
+      <link>https://moonantonio.github.io/tags/vine/</link>
+      <pubDate>Wed, 08 Aug 2018 01:18:27 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/vine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual</title>
+      <link>https://moonantonio.github.io/tags/visual/</link>
+      <pubDate>Thu, 24 Jan 2019 13:28:38 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code</title>
+      <link>https://moonantonio.github.io/tags/visual-studio-code/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/visual-studio-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>https://moonantonio.github.io/tags/vscode/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>War</title>
+      <link>https://moonantonio.github.io/tags/war/</link>
+      <pubDate>Mon, 04 Jun 2018 15:05:33 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/war/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webclient</title>
+      <link>https://moonantonio.github.io/tags/webclient/</link>
+      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/webclient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win10</title>
+      <link>https://moonantonio.github.io/tags/win10/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/win10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://moonantonio.github.io/tags/windows/</link>
+      <pubDate>Wed, 03 Oct 2018 12:09:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://moonantonio.github.io/tags/workflow/</link>
+      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Www</title>
+      <link>https://moonantonio.github.io/tags/www/</link>
+      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/tags/www/</guid>
       <description></description>
     </item>
     

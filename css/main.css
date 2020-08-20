@@ -855,19 +855,7 @@ header .meta {
 
 
 /* CUSTOM CSS */
-.logo {
-	display: flex;
-	align-items: center;
-	flex: 0 0 auto;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-.logo__text {
-    font-size: 1.125rem;
-}
-
-.logo__cursor {
+.logo-cursor {
     display: inline-block;
     width: 10px;
     height: 1rem;
