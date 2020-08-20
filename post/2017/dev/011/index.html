@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Comandos de consola Windows&middot; Antonio Moon´s</title>
+	<title>Comandos de consola Windows &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,152 +163,85 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			
 			<h1 class="title">Comandos de consola Windows</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<h1 id="diferentes-comandos-utiles-y-basicos">Diferentes comandos utiles y basicos</h1>
-
-<hr />
-
+			<h1 id="diferentes-comandos-utiles-y-basicos">Diferentes comandos utiles y basicos</h1>
+<hr>
 <p>##Cat</p>
-
 <p>Cat (de concatenar), es una maravillosa utilidad que nos permite visualizar el contenido de un archivo de texto sin la necesidad de un editor. Para utilizarlo solo debemos mencionarlo junto al archivo que deseamos visualizar:</p>
-
 <pre><code>$ cat prueba.txt
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Ls</p>
-
 <p>Ls (de listar), permite listar el contenido de un directorio o fichero. La sintaxis es:</p>
-
 <pre><code>$ ls /home/directorio
-</code></pre>
-
-<p>El comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande. Por ejemplo, puedes usar -a para mostrar los archivos ocultos y -l para mostrar los usuarios, permisos y la fecha de los archivos. Así como para todos los comandos Linux, estas opciones pueden combinarse, terminando en algo como:</p>
-
+</code></pre><p>El comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande. Por ejemplo, puedes usar -a para mostrar los archivos ocultos y -l para mostrar los usuarios, permisos y la fecha de los archivos. Así como para todos los comandos Linux, estas opciones pueden combinarse, terminando en algo como:</p>
 <pre><code>$ ls -la /home/directorio
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Cd</p>
-
 <p>Cd (de change directory o cambiar directorio), es como su nombre lo indica el comando que necesitarás para acceder a una ruta distinta de la que te encuentras. Por ejemplo, si estas en el directorio /home y deseas acceder a /home/ejercicios, seria:</p>
-
 <pre><code>$ cd /home/ejercicios
-</code></pre>
-
-<p>Si estás en /home/ejercicios y deseas subir un nivel (es decir ir al directorio /home), ejecutas:</p>
-
+</code></pre><p>Si estás en /home/ejercicios y deseas subir un nivel (es decir ir al directorio /home), ejecutas:</p>
 <pre><code>$ cd ..
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Touch</p>
-
 <p>Touch crea un archivo vacío, si el archivo existe actualiza la hora de modificación. Para crear el archivo prueba1.txt en /home, seria:</p>
-
 <pre><code>$ touch /home/prueba1.txt
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Mkdir</p>
-
 <p>Mkdir (de make directory o crear directorio), crea un directorio nuevo tomando en cuenta la ubicación actual. Por ejemplo, si estas en /home y deseas crear el directorio ejercicios, sería:</p>
-
 <pre><code>$ mkdir /home/ejercicios
-</code></pre>
-
-<p>Mkdir tiene una opción bastante útil que permite crear un árbol de directorios completo que no existe. Para eso usamos la opción -p:</p>
-
+</code></pre><p>Mkdir tiene una opción bastante útil que permite crear un árbol de directorios completo que no existe. Para eso usamos la opción -p:</p>
 <pre><code>$ mkdir -p /home/ejercicios/prueba/uno/dos/tres
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Cp</p>
-
 <p>Cp (de copy o copiar), copia un archivo o directorio origen a un archivo o directorio destino. Por ejemplo, para copiar el archivo prueba.txt ubicado en /home a un directorio de respaldo, podemos usar:</p>
-
 <pre><code>$ cp /home/prueba.txt /home/respaldo/prueba.txt
-</code></pre>
-
-<p>En la sintaxis siempre se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, cp copiará el archivo o directorio con el nuevo nombre.</p>
-
+</code></pre><p>En la sintaxis siempre se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, cp copiará el archivo o directorio con el nuevo nombre.</p>
 <p>El comando también cuenta con la opción -r que copia no sólo el directorio especificado sino todos sus directorios internos de forma recursiva. Suponiendo que deseamos hacer una copia del directorio /home/ejercicios que a su vez tiene las carpetas ejercicio1 y ejercicio2 en su interior, en lugar de ejecutar un comando para cada carpeta, ejecutamos:</p>
-
 <pre><code>$ cp -r /home/ejercicios /home/respaldos/
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Mv</p>
-
 <p>Mv (de move o mover), mueve un archivo a una ruta específica, y a diferencia de cp, lo elimina del origen finalizada la operación. Por ejemplo:</p>
-
 <pre><code>$ mv /home/prueba.txt /home/respaldos/prueba2.txt
-</code></pre>
-
-<p>Al igual que cp, en la sintaxis se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, mv moverá el archivo o directorio con el nuevo nombre.</p>
-
-<hr />
-
+</code></pre><p>Al igual que cp, en la sintaxis se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, mv moverá el archivo o directorio con el nuevo nombre.</p>
+<hr>
 <p>##Rm</p>
-
 <p>Rm (de remove o remover), es el comando necesario para borrar un archivo o directorio. Para borrar el archivo prueba.txt ubicado en /home, ejecutamos:</p>
-
 <pre><code>$ rm /home/prueba.txt
-</code></pre>
-
-<p>Este comando también presenta varias opciones. La opción -r borra todos los archivos y directorios de forma recursiva. Por otra parte, -f borra todo sin pedir confirmación. Estas opciones pueden combinarse causando un borrado recursivo y sin confirmación del directorio que se especifique. Para realizar esto en el directorio respaldos ubicado en el /home, usamos:</p>
-
+</code></pre><p>Este comando también presenta varias opciones. La opción -r borra todos los archivos y directorios de forma recursiva. Por otra parte, -f borra todo sin pedir confirmación. Estas opciones pueden combinarse causando un borrado recursivo y sin confirmación del directorio que se especifique. Para realizar esto en el directorio respaldos ubicado en el /home, usamos:</p>
 <pre><code>$ rm -fr /home/respaldos
-</code></pre>
-
-<p>Este comando es muy peligroso, por lo tanto es importante que nos documentemos bien acerca de los efectos de estas opciones en nuestro sistema para así evitar consecuencias nefastas.</p>
-
-<hr />
-
+</code></pre><p>Este comando es muy peligroso, por lo tanto es importante que nos documentemos bien acerca de los efectos de estas opciones en nuestro sistema para así evitar consecuencias nefastas.</p>
+<hr>
 <p>##Pwd</p>
-
 <p>Pwd (de print working directory o imprimir directorio de trabajo), es un conveniente comando que imprime nuestra ruta o ubicación al momento de ejecutarlo, así evitamos perdernos si estamos trabajando con múltiples directorios y carpetas. Su sintaxis seria:</p>
-
 <pre><code>$ pwd
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>##Clear</p>
-
 <p>Clear (de limpiar), es un sencillo comando que limpiara nuestra terminal por completo dejándola como recién abierta. Para ello ejecutamos:</p>
-
 <pre><code>$ clear
-</code></pre>
-
-<p>Como bonus les recomiendo utilizar man que muestra una documentación completa de todos los comandos. Para clear, por ejemplo:</p>
-
+</code></pre><p>Como bonus les recomiendo utilizar man que muestra una documentación completa de todos los comandos. Para clear, por ejemplo:</p>
 <pre><code>$ man clear
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>.\Moon</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
 	
 	<li><a href="/post/2017/dev/010/">Maquina de estados Finitos</a></li>
@@ -312,15 +256,15 @@
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

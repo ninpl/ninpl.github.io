@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Usando la proporción de oro&middot; Antonio Moon´s</title>
+	<title>Usando la proporción de oro &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,89 +163,72 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/img116.png')">
+			
 			<h1 class="title">Usando la proporción de oro</h1>
+			
 		</header>
 
 		<section class="post-content">
-			<hr />
-
-<p><center><img src="/img/case/golden01.png" alt="001" /></center>
-<center><strong>La espiral de Fibonacci creada a partir de la proporción de oro.</strong></center></p>
-
+			<hr>
+<!-- raw HTML omitted -->
 <p>“La media de oro”, “Proporciones divinas”, “Espiral de Fibonacci”, y la lista continúa. Esta forma se crea a partir de una fórmula matemática conocida por su apariencia estéticamente agradable. Se puede encontrar de forma natural en muchas cosas como los lóbulos de las orejas, flores y conchas de nautilus. También se utiliza para diseñar objetos artificiales como el iPod. La regla de tercios más utilizada (que reviso en Navegación y orientación) es una simplificación derivada de esta ecuación.</p>
-
 <p>En esta publicación profundizaré para mostrar cómo se puede usar para hacer que su imagen sea más efectiva.</p>
-
 <blockquote>
 <p>La espiral de Fibonacci: una aproximación de la espiral áurea generada dibujando arcos circulares conectando las esquinas opuestas de los cuadrados ajustados a los valores de la sucesión;1​ adosando sucesivamente cuadrados de lado 0, 1, 1, 2, 3, 5, 8, 13, 21 y 34.</p>
 </blockquote>
-
-<hr />
-
-<p><center><img src="/img/case/golden02.jpg" alt="001" /><img src="/img/case/golden03.jpg" alt="001" /></center></p>
-
+<hr>
+<!-- raw HTML omitted -->
 <p>Aquí hay una escena en la que usé la proporción de oro para crear una imagen más dinámica.</p>
-
 <p>La narrativa de la escena es de un aventurero que supera obstáculos aparentemente imposibles para llegar a una nueva tierra fantástica.</p>
-
-<p><center><img src="/img/case/golden04.jpg" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>En la fase de bloqueo, obtengo las formas generales y entiendo cuáles son mis principales puntos focales. Quería que los ojos del espectador giraran en espiral a su alrededor para imitar el viento soplando, por eso elegí la Proporción Dorada y la Espiral de Fibonacci.</li>
-<li>Mis tres principales puntos focales son el inicio (Plataforma), el medio (Globo) y el final (Isla flotante) del viaje. La Plataforma está al comienzo de la espiral y la Isla está al final de la espiral.<br /></li>
+<li>Mis tres principales puntos focales son el inicio (Plataforma), el medio (Globo) y el final (Isla flotante) del viaje. La Plataforma está al comienzo de la espiral y la Isla está al final de la espiral.</li>
 <li>Ahora, en mi bloqueo, ya sé exactamente dónde están mis líneas guía principales y dos de mis tres puntos focales.</li>
 </ul>
-
-<hr />
-
-<p><center><img src="/img/case/golden05.jpg" alt="001" /></center></p>
-
+<hr>
+<!-- raw HTML omitted -->
 <ul>
 <li>El siguiente paso, comencé a fortalecer mis puntos focales dividiendo la Isla Flotante para rodear un Cristal flotante al final de la espiral.</li>
 <li>Luego saqué el globo aerostático de la espiral y lo alejé de la plataforma para hacerlos más pronunciados.</li>
 <li>Usé la vegetación para comenzar a romper y debilitar algunos de los bordes duros de la arquitectura.</li>
 </ul>
-
-<hr />
-
-<p><center><img src="/img/case/golden06.jpg" alt="001" /></center></p>
-
+<hr>
+<!-- raw HTML omitted -->
 <ul>
 <li>Agregué detalles y puentes en la Plataforma.</li>
 <li>Luego usé viñas para fortalecer el círculo alrededor del Cristal.</li>
 <li>Alargué el globo y lo apunté hacia el cristal para sugerir hacia dónde se dirigía.</li>
 </ul>
-
-<hr />
-
-<p><center><img src="/img/case/golden07.jpg" alt="001" /></center></p>
-
+<hr>
+<!-- raw HTML omitted -->
 <ul>
-<li>Agregué un poco de espacio negativo para reforzar el comienzo de la Plataforma.<br /></li>
-<li>Agregué cuerdas colgantes al globo para dar más líneas de guía de apoyo hacia la espiral.<br /></li>
+<li>Agregué un poco de espacio negativo para reforzar el comienzo de la Plataforma.</li>
+<li>Agregué cuerdas colgantes al globo para dar más líneas de guía de apoyo hacia la espiral.</li>
 <li>Estaba obteniendo muchas líneas horizontales en el lado derecho de la imagen que estaba destruyendo mi espiral, así que agregué cascadas y más bloques verticales a la arquitectura.</li>
 <li>En la parte superior derecha, agregué una bandada de pájaros para ayudar a conectar la espiral entre la Isla Flotante.</li>
-<li>Para equilibrar los puntos focales reduje la saturación del globo y el cristal y agregué flores rojas a la plataforma. Me aseguré de usar solo el rojo en mis puntos focales, ya que contrastaba bien con el azul y el verde de la escena.<br /></li>
+<li>Para equilibrar los puntos focales reduje la saturación del globo y el cristal y agregué flores rojas a la plataforma. Me aseguré de usar solo el rojo en mis puntos focales, ya que contrastaba bien con el azul y el verde de la escena.</li>
 </ul>
-
-<hr />
-
+<hr>
 <p>Después de eso tuve una escena terminada!</p>
-
 <p>La proporción de oro es definitivamente un poco más avanzada que la mayoría de las otras guías de composición que existen, pero eso no necesariamente lo hace el mejor. Esto solo sucedió para ayudar a respaldar la experiencia que quería ofrecer en este entorno.</p>
-
 <p>Si estás aprendiendo a usar la composición en tus escenas, te recomiendo estudiar la composición para fotografía y diseño ambiental. Hay mucha documentación bien escrita para eso y, con suerte, en un futuro próximo obtendremos más cosas orientadas a crear entornos de juego.</p>
-
 <p>.\ Moon</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
 	
 	<li><a href="/post/2018/cplusplusunreal/003/">Aprende C&#43;&#43; con Unreal - Variables</a></li>
@@ -249,15 +243,15 @@
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

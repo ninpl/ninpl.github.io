@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Localización usando .PO&middot; Antonio Moon´s</title>
+	<title>Localización usando .PO &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,34 +163,23 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			
 			<h1 class="title">Localización usando .PO</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p>Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.</p>
-
+			<p>Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.</p>
 <p>Algo a tener en cuenta cuando decida traducir, es que su juego ya debería estar en un estado bastante maduro, ya que hacer traducciones (especialmente por los fanáticos) es difícil lograr que se actualicen cada vez que cambia o agrega texto.</p>
-
 <p>Algunas cosas que ya debería haber configurado al entrar en esto son algún tipo de sistema de configuración, así como un sistema de interfaz de usuario y un objeto global DontDestroyOnLoad al que tiene acceso su UI.</p>
-
 <p>Lo más probable es que lo actualice en algún momento, ya que incluso al escribir esto noté algunas optimizaciones que podría estar haciendo.</p>
-
 <h2 id="traducciones">Traducciones</h2>
-
 <p>Omita esta sección si solo quiere ver el flujo de trabajo, pero encontré que este sistema es útil para que los fanáticos me traduzcan las cosas. Lo mejor que puedes hacer es crear una hoja de cálculo de Google Drive y compartir el enlace con los fanáticos, que puedes encontrar haciendo publicaciones en los distintos centros para tu juego. Debajo hay un enlace a mi hoja de cálculo de muestra que puedes guardar en tu propia unidad y usar.</p>
-
 <p><a href="http://bit.ly/2ztE2OT">Link Google</a></p>
-
 <h2 id="el-archivo-po">El archivo .PO</h2>
-
 <p>¿Qué es un archivo .po (objeto portátil)?. Es una parte del estándar gettext, y se describe en el proyecto GNU de esta manera:</p>
-
 <p>Un archivo PO se compone de muchas entradas, cada entrada mantiene la relación entre una cadena original no traducida y su correspondiente traducción. Todas las entradas en un archivo PO generalmente pertenecen a un solo proyecto, y todas las traducciones se expresan en un solo idioma de destino. Una entrada de archivo PO tiene la siguiente estructura esquemática:</p>
-
-<hr />
-
+<hr>
 <pre><code>white-space
 #  translator-comments
 #. extracted-comments
@@ -188,54 +188,34 @@
 #| msgid previous-untranslated-string
 msgid untranslated-string
 msgstr translated-string
-</code></pre>
-
-<hr />
-
+</code></pre><hr>
 <p>¿Y qué? ¿Es solo un archivo con una clave y un valor y algunos metadatos? No del todo, hay dos partes más para usar un sistema .po que lo haga brillar realmente. Los archivos .pot y los editores.</p>
-
 <p>Un .pot (Portable Object Template) es lo que se usa para generar sus archivos .po en un editor, y se puede usar para actualizar sus archivos .po cuando agrega nuevas traducciones. Tiene la misma estructura exacta que un archivo .po normal, pero con una cadena traducida vacía.</p>
-
 <p>¡No intente administrar traducciones agregando entradas a archivos .po, actualice desde .pot para garantizar la coherencia!</p>
-
 <p>El editor más popular es Poedit. Que se ve así, he marcado con un círculo el botón &lsquo;Actualizar desde POT&rsquo;:</p>
-
-<p><center>[<img src="/img/case/po01.jpg" alt="01" />]</center></p>
-
+<!-- raw HTML omitted -->
 <h2 id="implementación-con-unity3d">Implementación con Unity3D</h2>
-
 <p>Es probable que este sistema necesite ajustes en su situación exacta, pero intentaré mantenerlo lo más genérico posible. Aunque algunos de los pasos que tendrá que averiguar sera, dónde llamar algunas cosas por su cuenta. Vamos a usar las cadenas en inglés como nuestras teclas, ¡esto es muy importante! Mantenga su .pot actualizado. La idea es que dado que el juego comenzará en inglés cada vez que podamos tomar los valores predeterminados para el cuadro de texto y usarlos como ambas claves y los valores del idioma inglés.</p>
-
 <p>Los archivos principales con los que trabajaremos son:</p>
-
 <ul>
 <li>template.pot - Almacenado en Recursos/Idiomas (crear si no existe)</li>
 <li>spanish.po - Almacenado en Recursos/Idiomas (crear si no existe)</li>
 <li>LanguageManager.cs: adjunto y referenciado por el administrador de juego global persistente</li>
 <li>UILocalizeText.cs: se adjunta a cada objeto de texto de UI, controla la actualización de ese texto</li>
 </ul>
-
 <p>Debe adjuntar UILocalizeText.cs a cada cuadro de texto que desee traducir y tener un valor para él en los archivos .po y .pot.</p>
-
 <p>Convierta LanguageManger en un objeto global no destruir en la carga, llame a LoadLanguage() cuando cambie de idioma y luego UpdateAllTextBoxes() cuando necesite actualizar su UI.</p>
-
 <p>Nota: desde que actualicé Unity, parece que no reconoce los archivos .po como archivos de texto y no puede encontrar los archivos de traducción. Agregar .txt después de .po lo corrige (es decir, spanish.po.txt), pero para cargarlo en Poedit debe escribir el nombre en el cuadro de diálogo.</p>
-
 <h2 id="scripts">Scripts</h2>
-
 <p>En los siguientes scripts todo lo que dice YourGameManager debe ser reemplazado por sus sistemas. Intenté comentar los archivos para ser bastante descriptivos.</p>
-
 <p>Para configurar y usar estos:
 1 - Crea tres cuadros de texto con valores que corresponden a los valores en template.pot
 2 - Adjunte UILocalizeText.cs a estos cuadros de texto
 3 - Init LevelManager.cs
 4 - LoadLanguage (&ldquo;español&rdquo;)
 5 - UpdateAllTextBoxes()</p>
-
-<h3 id="template-pot">Template.POT</h3>
-
-<hr />
-
+<h3 id="templatepot">Template.POT</h3>
+<hr>
 <pre><code>#, fuzzy
 msgid &quot;&quot;
 msgstr &quot;&quot;
@@ -262,14 +242,9 @@ msgstr &quot;&quot;
 
 msgid &quot;BRONZE&quot;
 msgstr &quot;&quot;
-</code></pre>
-
-<hr />
-
-<h3 id="spanish-po-txt">Spanish.po.txt</h3>
-
-<hr />
-
+</code></pre><hr>
+<h3 id="spanishpotxt">Spanish.po.txt</h3>
+<hr>
 <pre><code>#, fuzzy
 msgid &quot;&quot;
 msgstr &quot;&quot;
@@ -296,106 +271,101 @@ msgstr &quot;PLATA&quot;
 
 msgid &quot;BRONZE&quot;
 msgstr &quot;BRONCE&quot;
-</code></pre>
+</code></pre><hr>
+<h3 id="languajemanagercs">LanguajeManager.cs</h3>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#66d9ef">using</span> System.Collections;
+<span style="color:#66d9ef">using</span> System.IO;
+<span style="color:#66d9ef">using</span> System.Collections.Generic;
+<span style="color:#66d9ef">using</span> System;
 
-<hr />
-
-<h3 id="languajemanager-cs">LanguajeManager.cs</h3>
-
-<hr />
-
-<pre><code class="language-C#">using UnityEngine;
-using System.Collections;
-using System.IO;
-using System.Collections.Generic;
-using System;
-
-public class LanguageManager : MonoBehaviour
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LanguageManager</span> : MonoBehaviour
 {
-    //This is where the current loaded language will go
-    private static Hashtable textTable;
+    <span style="color:#75715e">//This is where the current loaded language will go
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> Hashtable textTable;
+<span style="color:#a6e22e">
+</span><span style="color:#a6e22e">    [HideInInspector]</span>
+    <span style="color:#75715e">//Just a reference for the current language, default to english
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">string</span> CurrentLanguage = <span style="color:#e6db74">&#34;english&#34;</span>;
 
-    [HideInInspector]
-    //Just a reference for the current language, default to english
-    public string CurrentLanguage = &quot;english&quot;;
-
-    //Run this when you are ready to start the language process, you usually want to do this after everything has loaded
-    public void Init()
+    <span style="color:#75715e">//Run this when you are ready to start the language process, you usually want to do this after everything has loaded
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Init()
     {
-        //You should use an enum for storing settings that are a unique list,
-        //This gets a string representation of an enum, 
-        CurrentLanguage = Enum.GetName(typeof(Settings.Languages), (int)YourGameManager.Settings.Language);
+        <span style="color:#75715e">//You should use an enum for storing settings that are a unique list,
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">//This gets a string representation of an enum, 
+</span><span style="color:#75715e"></span>        CurrentLanguage = Enum.GetName(<span style="color:#66d9ef">typeof</span>(Settings.Languages), (<span style="color:#66d9ef">int</span>)YourGameManager.Settings.Language);
 
-        //Pass that language into LoadLanguage, remember we are in init so this should only run once.
-        LoadLanguage(CurrentLanguage);
+        <span style="color:#75715e">//Pass that language into LoadLanguage, remember we are in init so this should only run once.
+</span><span style="color:#75715e"></span>        LoadLanguage(CurrentLanguage);
     }
 
-    //You call this when you want to update all text boxes with the new translation.
-    //Run this after Init
-    //Run this whenever you run LoadLanguage
-    //Run this whenever you load a new scene and want to translate the new UI
-    public void UpdateAllTextBoxes()
+    <span style="color:#75715e">//You call this when you want to update all text boxes with the new translation.
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//Run this after Init
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//Run this whenever you run LoadLanguage
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//Run this whenever you load a new scene and want to translate the new UI
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> UpdateAllTextBoxes()
     {      
-        //Find all active and inactive text boxes and loop through 'em
-        UILocalizeText[] temp = Resources.FindObjectsOfTypeAll&lt;UILocalizeText&gt;();
-        foreach (UILocalizeText text_box in temp)
+        <span style="color:#75715e">//Find all active and inactive text boxes and loop through &#39;em
+</span><span style="color:#75715e"></span>        UILocalizeText[] temp = Resources.FindObjectsOfTypeAll&lt;UILocalizeText&gt;();
+        <span style="color:#66d9ef">foreach</span> (UILocalizeText text_box <span style="color:#66d9ef">in</span> temp)
         {
-            //Run the update translation function on each text 
-            text_box.UpdateTranslation();
+            <span style="color:#75715e">//Run the update translation function on each text 
+</span><span style="color:#75715e"></span>            text_box.UpdateTranslation();
         }
     }
 
-    //Run this whenever a language changes, like in when a setting is changed - then run UpdateAllTextBoxes
-    //This is based off of http://wiki.unity3d.com/index.php?title=TextManager, though heavily modified and expanded
-    public void LoadLanguage(string lang)
+    <span style="color:#75715e">//Run this whenever a language changes, like in when a setting is changed - then run UpdateAllTextBoxes
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//This is based off of http://wiki.unity3d.com/index.php?title=TextManager, though heavily modified and expanded
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> LoadLanguage(<span style="color:#66d9ef">string</span> lang)
     {
         CurrentLanguage = lang;
 
-        if(lang == &quot;english&quot;)
+        <span style="color:#66d9ef">if</span>(lang == <span style="color:#e6db74">&#34;english&#34;</span>)
         {
             UpdateAllTextBoxes();
         }
-        else if (lang != &quot;english&quot;)
+        <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (lang != <span style="color:#e6db74">&#34;english&#34;</span>)
         {
-            string fullpath = &quot;Languages/&quot; + lang + &quot;.po&quot;; // the file is actually &quot;.txt&quot; in the end
-
+            <span style="color:#66d9ef">string</span> fullpath = <span style="color:#e6db74">&#34;Languages/&#34;</span> + lang + <span style="color:#e6db74">&#34;.po&#34;</span>; <span style="color:#75715e">// the file is actually &#34;.txt&#34; in the end
+</span><span style="color:#75715e"></span>
             TextAsset textAsset = (TextAsset)Resources.Load(fullpath);
-            if (textAsset == null)
+            <span style="color:#66d9ef">if</span> (textAsset == <span style="color:#66d9ef">null</span>)
             {
-                Debug.Log(&quot;[TextManager] &quot; + fullpath + &quot; file not found.&quot;);
-                return;
-            } else
+                Debug.Log(<span style="color:#e6db74">&#34;[TextManager] &#34;</span> + fullpath + <span style="color:#e6db74">&#34; file not found.&#34;</span>);
+                <span style="color:#66d9ef">return</span>;
+            } <span style="color:#66d9ef">else</span>
             {
-                Debug.Log(&quot;[TextManager] loading: &quot; + fullpath);
+                Debug.Log(<span style="color:#e6db74">&#34;[TextManager] loading: &#34;</span> + fullpath);
 
-                if (textTable == null)
+                <span style="color:#66d9ef">if</span> (textTable == <span style="color:#66d9ef">null</span>)
                 {
-                    textTable = new Hashtable();
+                    textTable = <span style="color:#66d9ef">new</span> Hashtable();
                 }
 
                 textTable.Clear();
 
-                StringReader reader = new StringReader(textAsset.text);
-                string key = null;
-                string val = null;
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                StringReader reader = <span style="color:#66d9ef">new</span> StringReader(textAsset.text);
+                <span style="color:#66d9ef">string</span> key = <span style="color:#66d9ef">null</span>;
+                <span style="color:#66d9ef">string</span> val = <span style="color:#66d9ef">null</span>;
+                <span style="color:#66d9ef">string</span> line;
+                <span style="color:#66d9ef">while</span> ((line = reader.ReadLine()) != <span style="color:#66d9ef">null</span>)
                 {
-                    if (line.StartsWith(&quot;msgid \&quot;&quot;))
+                    <span style="color:#66d9ef">if</span> (line.StartsWith(<span style="color:#e6db74">&#34;msgid \&#34;&#34;</span>))
                     {
-                        key = line.Substring(7, line.Length - 8).ToUpper();
+                        key = line.Substring(<span style="color:#ae81ff">7</span>, line.Length - <span style="color:#ae81ff">8</span>).ToUpper();
                     }
-                    else if (line.StartsWith(&quot;msgstr \&quot;&quot;))
+                    <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (line.StartsWith(<span style="color:#e6db74">&#34;msgstr \&#34;&#34;</span>))
                     {
-                        val = line.Substring(8, line.Length - 9);
+                        val = line.Substring(<span style="color:#ae81ff">8</span>, line.Length - <span style="color:#ae81ff">9</span>);
                     }
-                    else
+                    <span style="color:#66d9ef">else</span>
                     {
-                        if (key != null &amp;&amp; val != null)
+                        <span style="color:#66d9ef">if</span> (key != <span style="color:#66d9ef">null</span> &amp;&amp; val != <span style="color:#66d9ef">null</span>)
                         {
-                            // TODO: add error handling here in case of duplicate keys
-                            textTable.Add(key, val);
-                            key = val = null;
+                            <span style="color:#75715e">// TODO: add error handling here in case of duplicate keys
+</span><span style="color:#75715e"></span>                            textTable.Add(key, val);
+                            key = val = <span style="color:#66d9ef">null</span>;
                         }
                     }
                 }
@@ -405,137 +375,134 @@ public class LanguageManager : MonoBehaviour
         }
     }
 
-    //This handles selecting the value from the translation array and returning it, the UILocalizeText calls this
-    public string GetText(string key)
+    <span style="color:#75715e">//This handles selecting the value from the translation array and returning it, the UILocalizeText calls this
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">string</span> GetText(<span style="color:#66d9ef">string</span> key)
     {
-        string result = &quot;&quot;;
-        if (key != null &amp;&amp; textTable != null)
+        <span style="color:#66d9ef">string</span> result = <span style="color:#e6db74">&#34;&#34;</span>;
+        <span style="color:#66d9ef">if</span> (key != <span style="color:#66d9ef">null</span> &amp;&amp; textTable != <span style="color:#66d9ef">null</span>)
         {
-            if (textTable.ContainsKey(key))
+            <span style="color:#66d9ef">if</span> (textTable.ContainsKey(key))
             {
-                result = (string)textTable[key];
+                result = (<span style="color:#66d9ef">string</span>)textTable[key];
 
-            } else
+            } <span style="color:#66d9ef">else</span>
             {
 
             }
         }
-        return (string)result;
+        <span style="color:#66d9ef">return</span> (<span style="color:#66d9ef">string</span>)result;
     }
 }
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>###UILocalizeText.cs</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">using</span> System.Collections;
+<span style="color:#66d9ef">using</span> System.Collections.Generic;
+<span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#66d9ef">using</span> UnityEngine.UI;
 
-<hr />
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UILocalizeText</span> : MonoBehaviour {
 
-<pre><code class="language-C#">using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+    <span style="color:#75715e">//This instances key, as well as the english translation
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">    [HideInInspector]</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">string</span> TranslationKey = <span style="color:#e6db74">&#34;&#34;</span>;
+<span style="color:#a6e22e">
+</span><span style="color:#a6e22e">    [HideInInspector]</span>
+    <span style="color:#66d9ef">public</span> Text TextToTranslate;
 
-public class UILocalizeText : MonoBehaviour {
+    <span style="color:#75715e">//References to text values
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">string</span> OriginalText = <span style="color:#e6db74">&#34;&#34;</span>;
+    <span style="color:#66d9ef">string</span> TranslatedText = <span style="color:#e6db74">&#34;&#34;</span>;
 
-    //This instances key, as well as the english translation
-    [HideInInspector]
-    public string TranslationKey = &quot;&quot;;
-
-    [HideInInspector]
-    public Text TextToTranslate;
-
-    //References to text values
-    string OriginalText = &quot;&quot;;
-    string TranslatedText = &quot;&quot;;
-
-    //This gets run automatically if the original text hasn't been set when you go to update it. 
-    //You shouldn't need to manually run this from anywhere
-    public void Init()
+    <span style="color:#75715e">//This gets run automatically if the original text hasn&#39;t been set when you go to update it. 
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//You shouldn&#39;t need to manually run this from anywhere
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Init()
     {
-        //Grab the TextToTranslate if we haven't
-        if(TextToTranslate == null)
+        <span style="color:#75715e">//Grab the TextToTranslate if we haven&#39;t
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span>(TextToTranslate == <span style="color:#66d9ef">null</span>)
             TextToTranslate = GetComponent&lt;Text&gt;();
 
-        //Grab the original value of the text before we update it
-        if(TextToTranslate != null)
+        <span style="color:#75715e">//Grab the original value of the text before we update it
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span>(TextToTranslate != <span style="color:#66d9ef">null</span>)
             OriginalText = TextToTranslate.text;
 
-        //Set the translation key to the original english text
-        if(TranslationKey == &quot;&quot;)
+        <span style="color:#75715e">//Set the translation key to the original english text
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span>(TranslationKey == <span style="color:#e6db74">&#34;&#34;</span>)
             TranslationKey = OriginalText;
     }
 
-    //This gets called from LanguageManager
-    //One thing I noticed is that it might be nicer to just pass in the correct string to this rather than go grap it from LanguageManager
-    public void UpdateTranslation()
+    <span style="color:#75715e">//This gets called from LanguageManager
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//One thing I noticed is that it might be nicer to just pass in the correct string to this rather than go grap it from LanguageManager
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> UpdateTranslation()
     {
-        //If original text is empty, then this object hasn't been initiated so it should do that 
-        if (OriginalText == &quot;&quot;)
+        <span style="color:#75715e">//If original text is empty, then this object hasn&#39;t been initiated so it should do that 
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (OriginalText == <span style="color:#e6db74">&#34;&#34;</span>)
             Init();
 
-        //If the object has no Text object then we shouldn't try to set the text so just stop
-        if (TextToTranslate == null) return;
+        <span style="color:#75715e">//If the object has no Text object then we shouldn&#39;t try to set the text so just stop
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (TextToTranslate == <span style="color:#66d9ef">null</span>) <span style="color:#66d9ef">return</span>;
 
-        if(YourGameManager.LanguageManager.CurrentLanguage != &quot;english&quot; &amp;&amp; TranslationKey != &quot;&quot;)
+        <span style="color:#66d9ef">if</span>(YourGameManager.LanguageManager.CurrentLanguage != <span style="color:#e6db74">&#34;english&#34;</span> &amp;&amp; TranslationKey != <span style="color:#e6db74">&#34;&#34;</span>)
         {
-            string new_text = YourGameManager.LanguageManager.GetText(TranslationKey.ToUpper());
+            <span style="color:#66d9ef">string</span> new_text = YourGameManager.LanguageManager.GetText(TranslationKey.ToUpper());
 
-            if (new_text != &quot;&quot;)
+            <span style="color:#66d9ef">if</span> (new_text != <span style="color:#e6db74">&#34;&#34;</span>)
             {
                 TextToTranslate.text = new_text;
-            } else
+            } <span style="color:#66d9ef">else</span>
             {
-               // Debug.Log(&quot;Key &quot; + OriginalText + &quot; doesn't have an entry in this language&quot;);
-            }
-        } else if(YourGameManager.LanguageManager.CurrentLanguage == &quot;english&quot;)
+               <span style="color:#75715e">// Debug.Log(&#34;Key &#34; + OriginalText + &#34; doesn&#39;t have an entry in this language&#34;);
+</span><span style="color:#75715e"></span>            }
+        } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(YourGameManager.LanguageManager.CurrentLanguage == <span style="color:#e6db74">&#34;english&#34;</span>)
         {
-            if(TextToTranslate != null &amp;&amp; OriginalText != null)
+            <span style="color:#66d9ef">if</span>(TextToTranslate != <span style="color:#66d9ef">null</span> &amp;&amp; OriginalText != <span style="color:#66d9ef">null</span>)
                 TextToTranslate.text = OriginalText;
         }
 
     }
 
 }
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>Bueno con esto, puedes hacer la prueba y comprobar que ya tienes un sistema simple para traducir tu juego a diversos idiomas.</p>
-
 <p>.\Moon</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
+	
+	<li><a href="/post/2018/cplusplusunreal/001/">Aprende C&#43;&#43; con Unreal - Introducción</a></li>
+	
+	<li><a href="/post/2018/animechart/001/">AnimeChart - Otoño 2018[v1]</a></li>
 	
 	<li><a href="/post/2018/dev/010/">¡Consejos esenciales de Gamedev &amp; Unity!</a></li>
 	
-	<li><a href="/post/2018/dev/009/">Unity : Aseprite Workflow</a></li>
+	<li><a href="/post/2018/csharpunity/012/">Aprende C# con Unity - Scriptable Objects</a></li>
 	
-	<li><a href="/post/2018/dev/008/">Estudio de UNET</a></li>
-	
-	<li><a href="/post/2018/dev/002/">ScriptableObjects</a></li>
-	
-	<li><a href="/post/2018/dev/001/">MonoBehavior en Unity</a></li>
+	<li><a href="/post/2018/comun/012/">Anime Chart para las temporadas de Anime</a></li>
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

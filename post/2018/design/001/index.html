@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Diseño de Videojuegos - Introducción&middot; Antonio Moon´s</title>
+	<title>Diseño de Videojuegos - Introducción &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,142 +163,101 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			
 			<h1 class="title">Diseño de Videojuegos - Introducción</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p>Esta serie de ayudas están diseñada para una introducción rápida al diseño de videojuegos. Introducirá brevemente la mayoría de las características, pero desde la perspectiva del uso en casos de uso general, y con suerte, será más interesante aprender de él. Escribiré asumiendo que no tienes conocimientos de diseño.</p>
-
+			<p>Esta serie de ayudas están diseñada para una introducción rápida al diseño de videojuegos. Introducirá brevemente la mayoría de las características, pero desde la perspectiva del uso en casos de uso general, y con suerte, será más interesante aprender de él. Escribiré asumiendo que no tienes conocimientos de diseño.</p>
 <h1 id="cómo-empezar">¿Cómo empezar?</h1>
-
 <p>Necesitará algún programa de documentos(Word o Doc), libreta y papel. Se explicaran diversos conceptos de programación, arte, animación entre muchas otras.Si encuentra que una característica o enlace no funciona, siempre puede ponerse en contacto con mi email,</p>
-
 <h1 id="por-qué-libreta-y-papel">¿Por qué libreta y papel?</h1>
-
 <p>Todo tiene una base, y como veremos aqui, los videojuegos son la evolución de los juegos, por tanto primero crearemos sobre papel y generaremos una solución inicial fisica, que posteriormente pueda ser implementada en un videojuego.</p>
-
 <h1 id="dónde-puedo-obtener-más-información">¿Dónde puedo obtener más información?</h1>
-
 <p>Para aquellos de ustedes con miedo a google, aquí hay algunos enlaces convenientes&hellip;</p>
-
 <p><a href="http://www.gamasutra.com/">http://www.gamasutra.com/</a></p>
-
 <p><a href="https://www.gamedev.net/">https://www.gamedev.net/</a></p>
-
 <p><a href="https://moonantonio.github.io">https://moonantonio.github.io</a></p>
-
 <h1 id="empezemos">Empezemos</h1>
-
 <p>Tanto aquellos que llevéis mucho tiempo en el desarrollo de videojuegos, como los que os habéis iniciado ahora y os habéis tomado vuestro tiempo en buscar información, seguro que ya habéis leído multitud de artículos que tratan de lo mismo, aunque cada uno desde una perspectiva diferente. No obstante, este blog va dirigido también a aquellos que acaban de comenzar su andadura, así pues no puedo hacer oídos sordos a estas personas que desean diseñar videojuegos y andan perdidas sin saber muy bien cómo empezar.</p>
-
 <p>Además, al final del artículo enlazaré a muy distintas fuentes, tanto en castellano como en inglés, para que quien quiera pueda seguir investigando y obteniendo más puntos de vista acerca de este tema.</p>
-
 <p>Lo primero que hay que tener claro es que hay muchos perfiles adecuados que ayudan para ser diseñador de videojuegos, pero hay unos requisitos comunes que todos deben cumplir.</p>
-
 <p>Lo segundo que hay que entender es que se debe tener un espíritu autodidacta y hay que actuar. Estas dos cosas: capacidad de aprendizaje mantenida y capacidad de automotivación para lanzarse a realizar pequeños proyectos y acabarlos, es crucial. Muchos grupos y personas se han lanzado tras proyectos inalcanzables que se quedaron en tinta y en papel.</p>
-
-<p><center><img src="/img/codebackdoor/design/01.jpg" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Otra cosa que quiero comentar es que a lo largo de estas líneas no se dicen verdades absolutas, pero también quiero que quede transparente mi intención de que al final tengas muchos más conceptos claros e inclusive te daré herramientas para que sepas dónde buscar.</p>
-
 <p>Pasemos ahora al primer punto: los perfiles. Vamos a estudiarlos de forma genérica para luego pasar a los requisitos. Los perfiles que a continuación expongo puede que tengan mucho o nada que ver contigo, pero es más que probable que si estás leyendo este artículo te sientas identificado en más de un aspecto.</p>
-
-<hr />
-
+<hr>
 <p>-<strong>Programador</strong>.- hay personas que piensan que es fundamental programar para ser diseñador de videojuegos. Esto no es totalmente cierto, aunque lo trataremos en profundidad más adelante. El perfil de programador como diseñador de videojuegos es el de aquella persona que es capaz  de realizar sus propios juegos, diseñarlos, prototiparlos y desarrollar el código final. Generalmente usan unity, a7, flash, XNA, y muchos otros entornos de desarrollo que han aprendido a utilizar por sí mismos. Los hay incluso que se meten con la parte gráfica del juego. Muchas personas que encajan con este perfil a menudo venden sus propios juegos en flash para portales de juegos casuales (de hecho conozco a algunos que lo hacen).</p>
-
 <p>-<strong>Escritor</strong>.- es un perfil muy especializado. Por regla general saben todo lo que hay que saber acerca del desarrollo de guiones para videojuegos, narrativa interactiva, etc. Poseen un gran nivel redactando y su capacidad creativa les hace ideales como soporte para un game designer, pero no suplen “per se” algunas necesidades fundamentales que requiere dicha tarea, como puede ser el desarrollo de mecánicas de juego, prototipado, evaluación de sistemas (conjunto de mecánicas), etc…</p>
-
 <p>-<strong>Diseñador o artista gráfico</strong>.- suelen trabajar con programas de diseño 2D o 3D, generalmente con ambos (photoshop, adobe flash, painter, blender, maya, XSI, Zbrush, 3DMax, etc…) y suelen ser personas bastante creativas. Su perfil, si les gusta diseñar juegos, suele encajar muy bien en lo que se denomina diseño de niveles o level design.</p>
-
 <p>-<strong>Híbrido</strong>.- son personas que hacen un poco de todo, pero que no se especializan concretamente en nada. Lo mismo preparan una plantilla UML, que realizan el modelado de un orgánico o escriben un guión. Es un perfil muy interesante, porque están a un paso de cumplir con muchos de los requisitos que se necesitan para ser un game designer.</p>
-
 <p>Pero antes de entrar en los requisitos, veremos con qué podemos encontrarnos en la industria de los videojuegos:</p>
-
 <p>-<strong>Game designer</strong>.- diseño de concepto de juego, mecánicas, sistemas, prototipado, niveles, guión, testeo…</p>
-
 <p>-<strong>Escritor-guionista</strong>.- depende de cada proyecto y empresa. En ocasiones el game designer se encarga de esto, pero en otros proyectos se necesitan guionistas profesionales (sólo pensad en Dragon Age, de Bioware, para entender el porqué).</p>
-
 <p>-<strong>Programadores</strong>.- aquí tenemos de todo, desde los que se encargan de la gestión del proyecto a nivel de diseño, enlace y soporte 3D y engine (herramientas para crear el juego), diseño del programa, físicas, IA, cliente-servidor, redes, etc…, por poner sólo algunos ejemplos.</p>
-
 <p>-<strong>Productores</strong>.- son los amos de los tiempos y los deberes hechos. O sea, que se encargan de que todo vaya como deba ir, que se cumplan los planes operacionales, los timelines, etc. Generalmente suelen ser personas muy abiertas, con amplios conocimientos de cada una de las facetas del proyecto y bastante competentes, pero también suelen estar sometidas a una gran presión (pero este es otro tema…).</p>
-
 <p>-<strong>Artistas</strong>.- Los encargados de todo el desarrollo visual del juego. Generalmente no nos encontramos con un artista 2D, otro 3D, un animador…sino con un lead artist, un texturizador, un diseñador gráfico, un rigeador, un modelador de orgánicos, el junior que lo ponen a hacer pequeños props, etc…O sea, se tiende a especializar bastante, y a más grande sea el proyecto, más aún.</p>
-
 <p>-<strong>Diseñador de niveles</strong>.-algunas veces son los game designers, y otras no…Aquí es cuando me tiráis una tiza a  la cabeza. ¿Qué es esto? Quizás si os digo que son los encargados de divertiros, balancear los escenarios, controlar los accesos, enemigos, eventos y detectar estrategias y dinámicas, no os diga mucho. Pero realmente estoy hablando de una de las tareas más importantes en un videojuego. Como en todo, varía de una empresa y proyecto a otro. Os puedo decir que para proyectos grandes se suelen contratar diseñadores especializados en niveles, y que para proyectos o juegos más livianos, los mismos game designers se pueden encarar a dicho trabajo.</p>
-
-<hr />
-
+<hr>
 <p>Y me dejo por ahí al game tester, sound designer, y alguno que otro, pero para lo que nos concierne, es suficiente.</p>
-
-<p><center><img src="/img/codebackdoor/design/02.jpg" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Por supuesto, nada de lo dicho hasta aquí es categórico. Es solo para que te hagas una idea, de forma genérica. Hay que tener en cuenta que cada empresa trabaja de forma diferente, y que cada proyecto puede requerir un modo de trabajo distinto. Eso por no contar los diversos perfiles que se dan en el mundo profesional, las promociones y dinámicas internas, etc… No obstante, espero que estas generalizaciones te sirvan para hacerte una visión más o menos válida de los perfiles, tanto de aquellos con los que te puedas ver identificado, como de los que se suelen ver en la industria de los videojuegos.</p>
-
 <blockquote>
 <p>Recuerda: primero vimos los posibles perfiles de aquellos a los que les gustaba hacer videojuegos, y después hemos visto los perfiles de los profesionales que se pueden ver en la industria.</p>
 </blockquote>
-
 <p>Y finalmente, ahora sí, pasemos a los requisitos que tiene que tener un diseñador de videojuegos.</p>
-
-<hr />
-
+<hr>
 <p>-<strong>Creatividad</strong>.- como capacidad de resolver problemas y situaciones concretas a través de la imaginación y el ingenio. Hay libros enteros dedicados a esta capacidad humana. Psicología de la Educación en la facultad, los mismos teóricos no se ponían de acuerdo en cómo definirlo, así que lo mejor es no entrar en discusiones y validar nosotros una definición teórica que nos sirva al propósito actual.</p>
-
 <p>-<strong>Redacción y escritura</strong>.- es fundamental un nivel de redacción bastante alto y una ortografía y gramática excelente, además de ser capaces de escribir creativamente, o sea, estar cualificados para narrar historias, redactar coherentemente el funcionamiento de las diversas funcionalidades del juego, desarrollar guiones a través de una narrativa interactiva, etc…(para los que ya hayáis escrito guiones de cine o teatro: “No, no es lo mismo…es otro mundo, y entender esto es muy importante”).</p>
-
 <p>-<strong>Hablar en el lenguaje de los programadores</strong>.- y vosotros diréis que qué demonios quiero decir con eso. Lo explico rápidamente: si os acordáis dije antes que mucha gente pensaba que para ser un diseñador de videojuegos se tenía que ser programador. Yo os comentaba que no era “condicio sine qua non”, y así es. No hace falta que sepas programar, pero sí que tendrás que ser capaz de entenderte con los programadores, ser capaz de hacer prototipos rápidos de sistemas o mecánicas simples y es posible que hasta te pidan que programes en pseudocódigo. En definitiva, deberás ponerte al día con OPP (programación orientada a objetos), LUA, UML, etc…y no morir en el intento.</p>
-
 <p>-<strong>Conocimientos técnicos</strong>.- matemáticas, estadística.</p>
-
 <p>-<strong>Diseñador de niveles</strong>.- todo un mundo de posibilidades: bájate el unity, o trastea con el A7, o el unreal…o coge papel y lápiz…De hecho, imagino que has utilizado los editores de niveles de la multitud de juegos por los que has pasado. Si la respuesta es no: hazlo ahora y pasa al siguiente punto.</p>
-
 <p>-<strong>“Bagaje gamer”</strong>.- tal como lo escuchas: tienes que haber jugado mucho, a todos los géneros y en tantas plataformas como te haya sido posible. De hecho hasta se valora que hayas jugado a juegos de mesa, e incluso que hayas creado tus propios juegos de este tipo. Antes de crear juegos, debes jugarlos, de igual manera que para escribir bien debes haber leído hasta saciarte.</p>
-
 <p>-<strong>Conocimientos de diseño 2D y 3D</strong>.- no se te va a pedir que realices un modelo 3D, o que hagas un final art, pero sí que necesitarás estar familiarizado con los conceptos básicos de este mundillo. Que no te digan que falla un normal y te quedes con la boca abierta; que no te hablen de alphas o renders y observes a tus compañeros con la mirada perdida.  Aprende a usar los editores, aunque sea básicamente, que algún amigo te enseñe, que te explique los fundamentos, los tipos de archivos, qué es un hueso, qué es un diffuse shader (sombreadores difusos)…En definitiva, ponte al día. Y por otro lado, sí que necesitarás ser capaz de hacer bocetos en 2D de mapas, de esquemas para explicar mecánicas o sistemas de juego. No te pedirán que seas un Picasso, pero sí que sea perfectamente comprensible lo que dibujes.</p>
-
 <p>-<strong>Ingles</strong>.- sí o sí. Para todo. Para documentarte, para tu futuro, para relacionarte: imprescindible.</p>
-
 <p>-<strong>Capacidad de trabajo en equipo</strong>.- debes ser un máquina en las relaciones con los compañeros: abierto, comunicativo, cordial y con una gran capacidad organizativa y de cooperación.</p>
-
 <p>-<strong>Otros</strong>.- nivel cultural alto (lee de todo, ve todo tipo de películas, viaja si puedes), valores estéticos desarrollados (empieza a ver arte, todo tipo de arte, hazte amigo de ilustradores, desarrolladores gráficos, empieza a entender conceptos básicos y déjate llevar por los que entienden: pronto sabrás diferenciar una imagen fotomanipulada de otra que no lo es), alto nivel  de coordinación (métete en proyectos de equipos independientes y responsabilízate de algún área, déjate asesorar por gente con más experiencia)…
 Como ves son muchas cosas, pero creo que con esto tienes para empezar.  A continuación te expondré una serie de enlaces que te ayudarán aún más a interiorizar esta información que te he dado, a mejorarla y ampliarla. Incluso a corregirme, ¡por supuesto!. Y sobre todo, no desfallezcas, si tienes las ganas y el convencimiento sólo tú eres responsable de la realidad que te encontrarás mañana. Nadie lo hará por ti, nadie se llevará tus triunfos ni se sentirá derrotado en la manera en que tú lo harías.</p>
-
 <p>¡Ánimo!, en la proxima entrada ya empezaremos a ver conceptos y usar papel y lapiz.</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
 	
+	<li><a href="/post/2018/dev/011/">Localización usando .PO</a></li>
+	
 	<li><a href="/post/2018/cplusplusunreal/001/">Aprende C&#43;&#43; con Unreal - Introducción</a></li>
+	
+	<li><a href="/post/2018/animechart/001/">AnimeChart - Otoño 2018[v1]</a></li>
 	
 	<li><a href="/post/2018/dev/010/">¡Consejos esenciales de Gamedev &amp; Unity!</a></li>
 	
 	<li><a href="/post/2018/csharpunity/012/">Aprende C# con Unity - Scriptable Objects</a></li>
 	
-	<li><a href="/post/2018/comun/012/">Anime Chart para las temporadas de Anime</a></li>
-	
-	<li><a href="/post/2018/juegos/001/">Dragalia Lost : El nuevo videojuego de Nintendo</a></li>
-	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

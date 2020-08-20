@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Iluminacion con Unity 5&middot; Antonio Moon´s</title>
+	<title>Iluminacion con Unity 5 &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,123 +163,90 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			
 			<h1 class="title">Iluminacion con Unity 5</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p><a href="https://index.artstation.com/artist/jeydia">Jeryce Dianingana</a> compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.</p>
-
-<p><center><img src="/img/unity/ilumi01.jpg" alt="ilumi" /></center></p>
-
+			<p><a href="https://index.artstation.com/artist/jeydia">Jeryce Dianingana</a> compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.</p>
+<!-- raw HTML omitted -->
 <h2 id="poner-a-prueba-la-iluminación-de-unity">Poner a prueba la iluminación de Unity</h2>
-
 <p>Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia. Yo estaba buscando una escena rápida, yo no quería pasar muchas veces en la modelización, y caí en esta foto &ldquo;Abandonado Hospital de Chicago&rdquo; tomada por Jordan Nicolette creo, se puede encontrar el origen de cada imagen en <a href="https://es.pinterest.com/">Pinterest</a>.</p>
-
-<p><center><img src="/img/unity/ilumi02.jpg" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Cogí una gran cantidad de referencias de The División de Tom Clancy también, me gusta la forma en que logró tener esto realista, esas luces volumétricas dinámicas suaves y una comprensible escena con todos los activos mencionados en la cámara.</p>
-
 <h2 id="el-posicionamiento-de-iluminación">El posicionamiento de iluminación</h2>
-
 <p>Traté de hacer coincidir las luces de la referencia tanto como sea posible.</p>
-
 <p>Hice muchas pruebas en el etiquetado para encontrar la posición perfecta, la colocación de las puertas era difícil al principio, ya que puede cambiar la iluminación mucho.</p>
-
-<p><center><img src="/img/unity/ilumi03.jpg" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Me dieron 3 puntos de luz dinámicas, uno cerca del vaso de la izquierda, el segundo cerca de la mesa y el último frente a las puertas del ascensor.</p>
-
 <p>Estas luces puntuales me han ayudado a conseguir un buen especular dinámico que no puedo tener con el bake en los objetos.</p>
-
 <p>Pongo las grandes luces bakeadas en un lugar cerca de las puertas, era difícil al principio para tener el mismo aspecto, y aproximadamente la misma intensidad, rebotar y otros ajustes de la luz para la misma sensación que la de la foto, la dificultad principal era mantener alguna zona oscura y otra luminosa sin mover el punto o la adición de uno porque esto puede hacer una gran diferencia en comparación con la referencia principal.</p>
-
 <h2 id="los-avances-de-unity">Los avances de Unity</h2>
-
 <p>Desde que Unity 5.4 añade la &ldquo;Eliminación de ruido&rdquo; para la final se reúnen con inteligencia lo que reduce el ruido producido por las luces estáticas. Siempre lo uso cuando hago mi bake final, tenga cuidado cuando se activa recoger la final, cuesta más tiempo para calcular.</p>
-
-<p><center><img src="/img/unity/ilumi04.png" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Skybox de color en tiempo real para calentar la escena y evitar algún problema con zonas de mucho contraste, gracias a Iluminacion global puedo ver los rebotes de las luces en tiempo real.</p>
-
-<p><center><img src="/img/unity/ilumi05.png" alt="ilumi" /></center></p>
-
-<p><center><img src="/img/unity/ilumi06.png" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>La nueva <a href="https://www.assetstore.unity3d.com/en/#!/content/83912">Post Processing Stack</a>  me ayudó mucho para acercarme a la referencia. Personalmente, no puedo hacer una escena sin más, muy simple para importar, utilizar y se puede tener diferentes perfiles de procesamiento de correos, antes de eso, he usado para duplicar las cámaras y guardar como una casa prefabricada para tener distintas configuraciones.</p>
-
 <p>La próxima versión de la Unidad (5.6) tendrá un lightmapper y progresiva una nueva forma completa a utilizar las luces de Unity llamados modos de luz.</p>
-
 <h2 id="cámaras">Cámaras</h2>
-
 <p>He creado el material con el <a href="https://www.allegorithmic.com/">substance</a> , no dejaba todos los parámetros &ldquo;Base de color&rdquo; en Unity, para poder cambiar en tiempo real y el color de cada material para ver el resultado después de el mapa de luz. También me dio unas grandes reglas con base de color.</p>
-
 <p>Yo siempre trato de estar entre sRGB 20 - 230 a evitar grandes saltos de luces.</p>
-
-<p><center><img src="/img/unity/ilumi07.gif" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>El material del agua era muy importante también, hize una sustancia en el que puedo ajustar la cantidad, la posición, el contraste de los charcos y la transparencia, mezclé este material con el piso de mi Lino.</p>
-
 <p>He utilizado el sombreado de <a href="https://www.assetstore.unity3d.com/en/#!/content/39959">Uber</a> para la mezcla de materiales y la asignación de la oclusión en el techo</p>
-
 <p>El único consejo que puedo dar es evitar el ruido en su textura, por ejemplo, por tener un mapa fuerte normales, o una gran cantidad de datos en su textura y bordes afilados. Por bordes afilados que estoy hablando de tratar de tener un pequeño chaflán en su malla 3D o un bake normal que no afilado para tener una buena luz en el borde.</p>
-
 <h2 id="luz-o-polígonos">Luz o polígonos</h2>
-
 <p>Yo siempre digo que no es una cuestión de polígonos, sino más de la iluminación, la composición y la textura, gracias a Allegorithmic y Quixel Es muy sencillo tener un material en buen estado.</p>
-
 <p>El procesamiento posterior es muy importante también, el efecto de reflexión espacio de pantalla ayudan mucho no creo que mi escena sería creíble sin ella.</p>
-
 <p>En la gradación de color, he utilizado la fílmico (ACES), me encanta la forma en que contrastar fácilmente la escena y mejorar los rayos de luz.</p>
-
 <p>Como he dicho antes, biseles son muy importantes, se puede ver que en todos los objetos hechos por el hombre, que ha evitado que, con el alias también.</p>
-
-<p><center><img src="/img/unity/ilumi08.gif" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Cambiar su proyecto en linear color space, da la representación más realista que trabaja en el color gamma.</p>
-
 <p>La unidad tiene algunos tutoriales en vídeo agradables en su canal de youtube y una gran documentación que explicó todo.</p>
-
-<p><center><img src="/img/unity/ilumi09.jpg" alt="ilumi" /></center></p>
-
+<!-- raw HTML omitted -->
 <p><a href="https://index.artstation.com/artist/jeydia">Jeryce Dianingana</a>,  artista 3D ambiente</p>
-
 <p>Entrevista realizada por <a href="https://ua.linkedin.com/in/kikatok">Kirill Tokarev</a></p>
-
 <p>.\Moon</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
+	
+	<li><a href="/post/2017/diario/004/">El Codigo de Bushido</a></li>
+	
+	<li><a href="/post/2017/diario/003/">Animando un personaje</a></li>
 	
 	<li><a href="/post/2017/programacion/005/">Gestor de Escenas</a></li>
 	
-	<li><a href="/post/2017/clase/006/">Bakeo simple en Unity3d</a></li>
+	<li><a href="/post/2017/diario/002/">Organizacion en GitHub</a></li>
 	
-	<li><a href="/post/2017/clase/004/">Clase de sistemas de partículas - Unity3D</a></li>
-	
-	<li><a href="/post/2017/programacion/004/">MTodo Tool - Unity3D</a></li>
-	
-	<li><a href="/post/2017/programacion/003/">MDevScripts y por que.</a></li>
+	<li><a href="/post/2017/utiles/003/">Investigacion sobre RPGs</a></li>
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

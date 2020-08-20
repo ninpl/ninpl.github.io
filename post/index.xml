@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Antonio Moon´s</title>
@@ -28,7 +28,6 @@ Asumiendo que el mercado de Visual Studio Code no es la mejor manera de encontra
       
       <guid>https://moonantonio.github.io/post/2019/comun/007/</guid>
       <description>¿No sabes por dónde empezar? Si estás iniciando tu camino en la programación, o es la primera vez que visitas la página, no te preocupes, porque esta guía te mostrará los contenidos de forma ordenada.
-
 La intención de esta guía de introducción a la programación es ayudarte a escoger por dónde empezar y qué camino seguir en el desarrollo en general.
 Si aprendes a programar adecuadamente, podrás desarrollar aplicaciones móviles, sistemas web, videojuegos, y cualquier tipo de software en general, usando distintas tecnologías.</description>
     </item>
@@ -51,7 +50,6 @@ Lo básico En Trello existen 3 componentes básicos:
       
       <guid>https://moonantonio.github.io/post/2019/matematicas/003/</guid>
       <description>A partir de la definición de multiplicación matricial, sabemos que:
-
 Esencialmente, el elemento (i,j) del producto matriz AB es el producto punto. De la fila i, el A y desde la fila j el B.
 Podemos calcular la multiplicación de matrices realizando un producto de puntos por elemento en el producto de matriz resultante AB. Sin embargo, hay dos formas alternativas de ver la operación de multiplicación de matrices que a veces pueden facilitar la vida.</description>
     </item>
@@ -122,8 +120,7 @@ Fase de Concepción Todo comienza con una idea a partir de la cual se conformar�
       <guid>https://moonantonio.github.io/post/2019/dev/002/</guid>
       <description>En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
 Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
-Ley de Lambert
- La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz.</description>
+  La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz.</description>
     </item>
     
     <item>
@@ -133,7 +130,6 @@ Ley de Lambert
       
       <guid>https://moonantonio.github.io/post/2019/dev/001/</guid>
       <description>Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script classes asociadas a Gameobjects, prefabs, etc…
-
 Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automaticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</description>
     </item>
     
@@ -143,7 +139,7 @@ Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un 
       <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/cplusplusunreal/004/</guid>
-      <description>GitHub RepoGitLab Repo</description>
+      <description></description>
     </item>
     
     <item>
@@ -164,7 +160,6 @@ Las noticias de hoy, obviamente, no son buenas para las otras plataformas de hos
       <guid>https://moonantonio.github.io/post/2019/comun/002/</guid>
       <description>¡Bienvenidos! Hoy les voy a presentar un nuevo software que me mantuvo entretenido durante todo el año.
 Les estoy hablando nada mas y nada menos que del famoso PICO-8. Para los que nunca escucharon hablar de él, PICO-8 es una videoconsola virtual, con una pantalla de 128x128 a 16 colores, que permite programar por medio de Lua tus juegos para el explorador.
-
 Pico-8 tiene varias limitaciones:
  solo permite un máximo de 32kb por cartucho dispone tan solo de 4 canales de sonido permite un máximo de 6 botones las imágenes y sprites son pixeladas  ¿Por qué es tan bueno?</description>
     </item>
@@ -197,7 +192,7 @@ Final Fantasy Tactics apareció en 1998 en la primera PlayStation. Sin embargo, 
       
       <guid>https://moonantonio.github.io/post/2018/dev/015/</guid>
       <description>Un colega esta terminando el TFG de diseño de videojuegos, y el otro dia estuvimos hablando de como crear un entorno para un videojuego shooter, vimos las dificultades y los balanceos necesarios para generar una solucion factible y escalable.
-Despues de unos dias de investigacion, encontre a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter.</description>
+Despues de unos dias de investigacion, encontre a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter. Aqui os dejo un apartado que el escribio en su blog.</description>
     </item>
     
     <item>
@@ -206,8 +201,7 @@ Despues de unos dias de investigacion, encontre a un level design que tiene bast
       <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/comun/023/</guid>
-      <description>La espiral de Fibonacci creada a partir de la proporción de oro.
-“La media de oro”, “Proporciones divinas”, “Espiral de Fibonacci”, y la lista continúa. Esta forma se crea a partir de una fórmula matemática conocida por su apariencia estéticamente agradable. Se puede encontrar de forma natural en muchas cosas como los lóbulos de las orejas, flores y conchas de nautilus. También se utiliza para diseñar objetos artificiales como el iPod.</description>
+      <description>“La media de oro”, “Proporciones divinas”, “Espiral de Fibonacci”, y la lista continúa. Esta forma se crea a partir de una fórmula matemática conocida por su apariencia estéticamente agradable. Se puede encontrar de forma natural en muchas cosas como los lóbulos de las orejas, flores y conchas de nautilus. También se utiliza para diseñar objetos artificiales como el iPod. La regla de tercios más utilizada (que reviso en Navegación y orientación) es una simplificación derivada de esta ecuación.</description>
     </item>
     
     <item>
@@ -274,7 +268,6 @@ La ingeniería inversa (en inglés, reverse engineering) es el proceso de descub
       
       <guid>https://moonantonio.github.io/post/2018/dev/013/</guid>
       <description>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
-
 ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara.</description>
     </item>
     
@@ -345,7 +338,6 @@ En el vídeo de presentación de Your Phone, Microsoft dice que hoy en día pasa
       
       <guid>https://moonantonio.github.io/post/2018/animechart/001/</guid>
       <description>♢ Temporada Otoño 2018 de Anime ♢
-
 .\Moon</description>
     </item>
     
@@ -356,7 +348,7 @@ En el vídeo de presentación de Your Phone, Microsoft dice que hoy en día pasa
       
       <guid>https://moonantonio.github.io/post/2018/dev/010/</guid>
       <description>¿Quieres saber cómo aprender rápidamente la programación de videojuegos?
-Solo haz juegos.
+  Solo haz juegos.
  Aquí hay algunos consejos para ayudarlo en el camino:
 1. No reinventar la rueda, use las herramientas incorporadas del motor Al trabajar en cualquier motor, como Unity o Unreal Engine, algunos desarrolladores, principalmente provenientes de un campo de ciencias de la computación, pueden tener tendencia a inclinarse y comenzar a trabajar en algoritmos o estructuras enormes sin saber si ya existen en el motor.</description>
     </item>
@@ -368,7 +360,6 @@ Solo haz juegos.
       
       <guid>https://moonantonio.github.io/post/2018/csharpunity/012/</guid>
       <description>Los Objetos Scriptables son un tipo especial de objeto de datos en Unity. Tienen varios beneficios importantes, pero es posible que no funcionen de manera ideal para cada situación. En esta lección, cubriremos lo que son y cómo usarlos.
-GitHub RepoGitLab Repo
 Introducción a los Objetos Scriptables Puede pensar en un objeto programable como un objeto destinado solo a contener datos. Si ha estado utilizando clases o estructuras tradicionales de C# para objetos simples solo de datos, podría utilizarlas en su lugar.</description>
     </item>
     
@@ -411,8 +402,8 @@ La historia toma lugar en el país ficticio de Orario cuyo lugar principal es el
       
       <guid>https://moonantonio.github.io/post/2018/csharpunity/011/</guid>
       <description>Las estructuras son como Clases, pero completamente diferentes. Si no sabe qué es una estructura o cuándo la usaría, o si no conoce la diferencia entre pasar por referencia y pasar por valor, esta lección es para usted.
-GitHub RepoGitLab Repo
-Structs en Unidad Dado que esta serie se basa en aprender C# para Unity, comencemos por señalar algunos lugares donde es posible que ya haya estado utilizando Structs:</description>
+Structs en Unidad Dado que esta serie se basa en aprender C# para Unity, comencemos por señalar algunos lugares donde es posible que ya haya estado utilizando Structs:
+ Vector2, Vector3 and Vector4 Rect Color y Color32 Bounds Touch  En particular, las diversas formas de Vector (2-4) se utilizan en todas partes.</description>
     </item>
     
     <item>
@@ -422,7 +413,6 @@ Structs en Unidad Dado que esta serie se basa en aprender C# para Unity, comence
       
       <guid>https://moonantonio.github.io/post/2018/csharpunity/010/</guid>
       <description>Mencionamos brevemente los enums en nuestra última lección, por lo que sentí que ahora sería un buen momento para tratarla en mayor profundidad. Al mismo tiempo, podemos ampliar el tema e introducir Flags (máscaras de bits). Algo de esto se profundiza en el lado nerd de la programación, pero intentaré que todo sea fácil de entender.
-GitHub RepoGitLab Repo
 El tipo &amp;ldquo;Enum&amp;rdquo; Primero introduje la enumeración en la lección anterior con la configuración de &amp;ldquo;Difficulties&amp;rdquo;:</description>
     </item>
     
@@ -442,7 +432,6 @@ El tipo &amp;ldquo;Enum&amp;rdquo; Primero introduje la enumeración en la lecci
       
       <guid>https://moonantonio.github.io/post/2018/csharpunity/008/</guid>
       <description>Ya sea que lo recuerdes o no, has estado creando clases todo el tiempo en las lecciones anteriores. He comentado brevemente varias características de clases como herencia y constructores, pero hay mucho más por cubrir. En esta lección, nos enfocaremos en esos temas con mayor profundidad e introduciremos algunos temas más avanzados como polimorfismo, constructores estáticos, clases abstractas y clases estáticas.
-GitHub RepoGitLab Repo
 Herencia La herencia es el concepto de que una clase toma todas las funcionalidades de una clase &amp;ldquo;padre&amp;rdquo; o &amp;ldquo;base&amp;rdquo; al mismo tiempo que brinda la oportunidad de ampliar o modificar la lógica previamente disponible.</description>
     </item>
     
@@ -480,7 +469,6 @@ Herencia La herencia es el concepto de que una clase toma todas las funcionalida
       
       <guid>https://moonantonio.github.io/post/2018/comun/011/</guid>
       <description>Cuando se es un pequeño estudio, puede ser difícil encontrar el paquete de software adecuado, manteniendo los gastos mensuales razonables. Hacer la tarea más difícil es el hecho de que muchas herramientas tienen más funciones completas que las necesidades de un estudio pequeño, o están diseñadas para ser incluidas con otras herramientas premium por el mismo desarrollador.
-
 He recogido una serie de herramientas que evita niveles premium y lock-in de proveedores.</description>
     </item>
     
@@ -547,7 +535,6 @@ He recogido una serie de herramientas que evita niveles premium y lock-in de pro
       
       <guid>https://moonantonio.github.io/post/2018/icon/001/</guid>
       <description>DARLING in the FRANXX es una serie de anime de ciencia ficción producida por el estudio Trigger en colaboración con A-1 Pictures.​ El anime, que cuenta con un guion original, fue anunciado oficialmente en la Anime Expo en julio de 2017.​
-
  En un futuro distante, la humanidad ha creado ciudades fortificadas llamadas Plantaciones, que funcionan como refugio para las personas, pues el suelo de la Tierra está arruinado. Dentro de estas ciudades futuristas, niños y niñas son entrenados para pilotar robots gigantes llamados Franxx, sin saber nada del mundo exterior.</description>
     </item>
     
@@ -558,7 +545,7 @@ He recogido una serie de herramientas que evita niveles premium y lock-in de pro
       
       <guid>https://moonantonio.github.io/post/2018/amv/006/</guid>
       <description>Vine de Danmachi Superacion Este Vine hace referencia a Danmachi. es una serie de novelas ligeras escritas por Fujino Ōmori e ilustradas por Suzuhito Yasuda. Ha sido la novela ligera más votada por los fans en los premios Sugoi Japan Awards de la edición de 2016. En estos premios, los fanáticos deciden qué anime, manga, novela es la más indicada para ser comercializada en el mercado internacional.
- Vinculos</description>
+ </description>
     </item>
     
     <item>
@@ -615,8 +602,7 @@ Detallo en más profundidad, hay información, pero del High API. Lo que yo quer
       
       <guid>https://moonantonio.github.io/post/2018/amv/005/</guid>
       <description>Vine de Bat Girl Xtrem Este Vine hace referencia a BatGirl. Ella era el alter-ego de Betty Kane, sobrina de Kathy Kane, alias Batwoman. Batwoman y Batgirl fueron creadas como contrapuntos románticos de Batman y Robin.
- Vinculos
-CoubVimeo</description>
+ </description>
     </item>
     
     <item>
@@ -626,7 +612,6 @@ CoubVimeo</description>
       
       <guid>https://moonantonio.github.io/post/2018/comun/006/</guid>
       <description>Tras el anuncio previo de la versión norteamericana del cierre de Terra Battle 2, hoy (28 de junio), Mistwalker anunció que la versión japonesa de Terra Battle 2 también cerrará en septiembre de este año.
-
 Mistwalker es un estudio diseñador de videojuegos japonés fundado por Hironobu Sakaguchi, creador de la popular serie Final Fantasy.
 Sakaguchi asumió el rol de presidente en el nuevo estudio, y Kensuke Tanaka, creador del sistema PlayOnline, es el vicepresidente.</description>
     </item>
@@ -648,8 +633,7 @@ Sakaguchi asumió el rol de presidente en el nuevo estudio, y Kensuke Tanaka, cr
       
       <guid>https://moonantonio.github.io/post/2018/amv/004/</guid>
       <description>Vine de Darling Red Este Vine hace referencia a Zero Two. es uno de los personajes principales de Darling in the FranXX. Es miembro de la élite de pilotos de FRANXX y el pistilo del FRANXX Strelizia, que pilota junto a Hiro.
- Vinculos
-CoubVimeo</description>
+ </description>
     </item>
     
     <item>
@@ -681,7 +665,6 @@ Lo que no ha sido sorprendente ha sido la sobre reacción de la comunidad de des
       <guid>https://moonantonio.github.io/post/2018/comun/002/</guid>
       <description>Todos los años entre mayo y junio se realiza en Estados Unidos la Electronic Entrainment Expo o E3, la convención de videojuegos más importante de la industria.
 En este evento las marcas y empresas de la industria de los videojuegos dan a conocer sus nuevas consolas, juegos o innovaciones, siendo el evento más esperado para todos los gamers.
-
 Ya estamos a poco más de una semana de que empiecen los eventos principales de la feria más importante de la industria del videojuego, el E3, que se celebrará en Los Ángeles del 12 al 15 de junio, pero las principales compañías realizarán sus conferencias de prensa antes de que se abran oficialmente las puertas y, de hecho, estos días previos ya estamos viviendo todo tipo de anuncios, filtraciones y confirmaciones apresuradas porque es complicado ocultar lo que se va a presentar cuando toda la prensa está pendiente.</description>
     </item>
     
@@ -692,8 +675,7 @@ Ya estamos a poco más de una semana de que empiecen los eventos principales de 
       
       <guid>https://moonantonio.github.io/post/2018/amv/003/</guid>
       <description>Vine de Angel Caido || War Este Vine hace referencia a un tramo de la pelicula Game no life Zero. Shiro (白し ろ, Shiro ) es la principal protagonista femenina de la serie No Game No Life y la mitad tranquila y calculadora de los hermanos.
- Vinculos
-CoubVimeo</description>
+ </description>
     </item>
     
     <item>
@@ -713,8 +695,7 @@ Un lenguaje de subcapas, bastante lioso y dificil de llevar. Esta escrito en go,
       
       <guid>https://moonantonio.github.io/post/2018/amv/002/</guid>
       <description>Vine de DarkWar || Light Este Vine hace referencia a un episodio del anime Danmachi (Sword Orario). Aiz Wallenstein(アイズ・ヴァレンシュタイン, Aizu Varenshutain) es una de las poderosas Aventureras miembro de Familia Loki. Por su eficiencia en la cacería dentro del calabozo le dieron el título Sword Princess.
- Vinculos
-CoubVimeo</description>
+ </description>
     </item>
     
     <item>
@@ -792,7 +773,7 @@ Clases Abstractas Las clases abstractas nos permiten tener una clase base con ci
       
       <guid>https://moonantonio.github.io/post/2017/diario/010/</guid>
       <description>Empezamos el año con nuevas noticias De primeras, feliz año 2018 a los lectores, ^^. Queria traer estas noticias a principios de año, asique aqui las dejo.
-Unity dejara de dar soporte para MonoDevelop-Unity a partir de la Unity 2018.1, esto quiere decir que en Unity 2018.1 no vendra con el IDE de MonoDevelop, ya que no admite muchas de las caracteristicas a las que esta migrando Unity con .</description>
+Unity dejara de dar soporte para MonoDevelop-Unity a partir de la Unity 2018.1, esto quiere decir que en Unity 2018.1 no vendra con el IDE de MonoDevelop, ya que no admite muchas de las caracteristicas a las que esta migrando Unity con .NET 6.</description>
     </item>
     
     <item>
@@ -813,8 +794,7 @@ En los últimos años han aparecido muchos engines al alcance del gran público 
       <guid>https://moonantonio.github.io/post/2017/utiles/015/</guid>
       <description>Cómo escribir una buena sinopsis El primer factor en la compra de una novela o juego es el género. El segundo es el nombre de su autor o compañia. El tercero es la sinopsis.
 ¿cómo escribir sinopsis atractivas y que cumplan el objetivo de vender? Vamos a intentar explicarlo en 8 pasos.
-1) Sé breve:
-Una buena sinopsis no debería tener más de doscientas cincuenta palabras, así que es importante que conozcas los puntos principales de tu historia, aquellos que llevan el peso de la acción y, por lo tanto, la hacen atractiva para poder presentársela a los usuarios de forma concisa.</description>
+ Sé breve:  Una buena sinopsis no debería tener más de doscientas cincuenta palabras, así que es importante que conozcas los puntos principales de tu historia, aquellos que llevan el peso de la acción y, por lo tanto, la hacen atractiva para poder presentársela a los usuarios de forma concisa.</description>
     </item>
     
     <item>
@@ -825,8 +805,7 @@ Una buena sinopsis no debería tener más de doscientas cincuenta palabras, así
       <guid>https://moonantonio.github.io/post/2017/dev/014/</guid>
       <description>Introduccion Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
 Cuanto más grande es el proyecto, más grande es el espagueti.
-
-Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.</description>
+ Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.</description>
     </item>
     
     <item>
@@ -835,7 +814,7 @@ Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentem
       <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/014/</guid>
-      <description>Criptomonedas Introducción En 2008 un ciudadano de japon, que se hacia llamar &amp;ldquo;Satoshi Nakamoto&amp;rdquo; , compartio una idea que llamo la atencion de todos los usuarios.
+      <description>Criptomonedas  Introducción En 2008 un ciudadano de japon, que se hacia llamar &amp;ldquo;Satoshi Nakamoto&amp;rdquo; , compartio una idea que llamo la atencion de todos los usuarios.
 Satoshi propuso una idea para crear una moneda digital. Una moneda basada en bits.
 En la actualidad, cada persona necesita ingresar un dinero en una entidad bancaria, un dinero fisico, el cual es depositado digitalmente en nuestra cuenta. Por ese motivo dependemos de los bancos 100%, otro caso es la privazidad y la inflaccion, son problemas que actualmente tenemos en la sociedad actual con el sistema monetario actual.</description>
     </item>
@@ -875,7 +854,7 @@ Seguramente se os vendrá a la mente algún RPG donde cierto personaje que os gu
       <pubDate>Fri, 25 Aug 2017 22:40:40 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/012/</guid>
-      <description>Generacion de contenido procedural - Basico ¿Qué es el PCG? Aquí debo comenzar diciendo que en realidad una definición certera y aceptada por toda la academia no existe, es por eso que voy a mencionar diversas definiciones que obtuve de las referencias en las que me base:
+      <description>Generacion de contenido procedural - Basico  ¿Qué es el PCG? Aquí debo comenzar diciendo que en realidad una definición certera y aceptada por toda la academia no existe, es por eso que voy a mencionar diversas definiciones que obtuve de las referencias en las que me base:
  El PCG es la creación algorítmica de contenido de un juego, con entrada de información limitada o indirecta por parte del usuario.</description>
     </item>
     
@@ -885,8 +864,7 @@ Seguramente se os vendrá a la mente algún RPG donde cierto personaje que os gu
       <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/juegos/003/</guid>
-      <description>Atlus crea una división para lanzar sus propios títulos en Europa 
-Desde Atlus han anunciado que de ahora en adelante se encargarán de publicar sus propios títulos en Europa desde una nueva oficina que han fundado en Londres. Anteriormente la compañía usaba terceras compañías como NIS America o Deep Silver para lanzar sus títulos en territorio europeo.
+      <description>Atlus crea una división para lanzar sus propios títulos en Europa Desde Atlus han anunciado que de ahora en adelante se encargarán de publicar sus propios títulos en Europa desde una nueva oficina que han fundado en Londres. Anteriormente la compañía usaba terceras compañías como NIS America o Deep Silver para lanzar sus títulos en territorio europeo.
 El nuevo equipo cuenta con Simon Inch como director comercial y en breve contará con su propio gestor de relaciones públicas y gerente de márketing.</description>
     </item>
     
@@ -896,11 +874,11 @@ El nuevo equipo cuenta con Simon Inch como director comercial y en breve contar�
       <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/011/</guid>
-      <description>Diferentes comandos utiles y basicos ##Cat
+      <description>Diferentes comandos utiles y basicos  ##Cat
 Cat (de concatenar), es una maravillosa utilidad que nos permite visualizar el contenido de un archivo de texto sin la necesidad de un editor. Para utilizarlo solo debemos mencionarlo junto al archivo que deseamos visualizar:
-$ cat prueba.txt  ##Ls
+$ cat prueba.txt ##Ls
 Ls (de listar), permite listar el contenido de un directorio o fichero. La sintaxis es:
-$ ls /home/directorio  El comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande.</description>
+$ ls /home/directorioEl comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande.</description>
     </item>
     
     <item>
@@ -921,7 +899,7 @@ Finito, si el conjunto de estados de la máquina es finito, este es el único ti
       <guid>https://moonantonio.github.io/post/2017/dev/009/</guid>
       <description>Carga y descarga en memoria de escenas Despues de ver varios ejemplos de escenas, y ver la API de Unity3D para la carga y descarga de escenas en Unity3D, he desarrollado un pequeño ejemplo en modo de practica para poder experimentar la carga y descarga de niveles en escena.
 El proyecto esta alojado en Github, y es open source, tiene las diferentes funciones -&amp;gt;
-Carga y descarga de escenas Control de escenas vecinas Tiempo maximo de carga Posibilidad de agregar eventos en diferentes estados(Cargando, cargado)  Y algunas funcionalidades mas, junto con una muestra de ejemplo.</description>
+ Carga y descarga de escenas Control de escenas vecinas Tiempo maximo de carga Posibilidad de agregar eventos en diferentes estados(Cargando, cargado)  Y algunas funcionalidades mas, junto con una muestra de ejemplo.</description>
     </item>
     
     <item>
@@ -931,11 +909,11 @@ Carga y descarga de escenas Control de escenas vecinas Tiempo maximo de carga Po
       
       <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
       <description>Actualizado nuevos modelos de Gaia He agregado nuevos modelos de mecanicas al repositorio de Gaia.
-Blend Color 2048 
-ShooterISO 
-Cut 
-Saltos 
-.\Moon</description>
+ Blend Color 2048
+ ShooterISO
+ Cut
+ Saltos
+ .\Moon</description>
     </item>
     
     <item>
@@ -946,7 +924,7 @@ Saltos
       <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
       <description>Investigacion de BaseMesh Unity3d El otro dia intentando crear efectos en la nueva GUI de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, modificar los vertices de la lista a gusto.
 Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.
- El repositorio lo dejo en GitHub para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.</description>
+  El repositorio lo dejo en GitHub para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.</description>
     </item>
     
     <item>
@@ -955,9 +933,9 @@ Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TF
       <pubDate>Thu, 01 Jun 2017 14:23:09 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/recuerdo/001/</guid>
-      <description>Estructura TFG &amp;amp; practicas Finales Ya esta casi terminado el grado y tengo 4 practicas que entregar, digital paint, sistemas expertos en inteligencia artificial, setup de rig y animacion 3D.
- Digital Paint: La practica final es una serie de 10 ilustraciones digitales que, hay que aportar en fisico y digital para crear un portfolio (Preferible en ArtStation).
- IA: La practica final es crear la IA de un roomba, hacer un analisis del algoritmo de Minimax.</description>
+      <description>Estructura TFG &amp;amp; practicas Finales  Ya esta casi terminado el grado y tengo 4 practicas que entregar, digital paint, sistemas expertos en inteligencia artificial, setup de rig y animacion 3D.
+  Digital Paint: La practica final es una serie de 10 ilustraciones digitales que, hay que aportar en fisico y digital para crear un portfolio (Preferible en ArtStation).
+  IA: La practica final es crear la IA de un roomba, hacer un analisis del algoritmo de Minimax.</description>
     </item>
     
     <item>
@@ -966,8 +944,7 @@ Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TF
       <pubDate>Sat, 20 May 2017 23:14:15 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/007/</guid>
-      <description>Imagen del dia [20.05.2017] 
-&amp;ldquo;La princesa con el plateado&amp;rdquo;.Danmachi.</description>
+      <description>Imagen del dia [20.05.2017] &amp;ldquo;La princesa con el plateado&amp;rdquo;.Danmachi.</description>
     </item>
     
     <item>
@@ -1008,8 +985,7 @@ Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se a
       <pubDate>Thu, 04 May 2017 18:23:01 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/noticias/003/</guid>
-      <description>Sorpresas buenas !! 
-Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño del que recibe si llegas a dominarlo y encontrarle sus bondades. Si no, lo aborrecerás al momento. Al fin y al cabo, quedar encerrado en un mundo digital viviendo permanentemente tus tiempos de instituto para olvidar tu sufrimiento en el mundo real también genera un debate en muchas personas, por lo que le sienta bien que sea un título difícil de definir.</description>
+      <description>Sorpresas buenas !! Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño del que recibe si llegas a dominarlo y encontrarle sus bondades. Si no, lo aborrecerás al momento. Al fin y al cabo, quedar encerrado en un mundo digital viviendo permanentemente tus tiempos de instituto para olvidar tu sufrimiento en el mundo real también genera un debate en muchas personas, por lo que le sienta bien que sea un título difícil de definir.</description>
     </item>
     
     <item>
@@ -1018,8 +994,7 @@ Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño 
       <pubDate>Thu, 04 May 2017 18:12:24 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/006/</guid>
-      <description> Imagen del dia [04.05.2017] 
-&amp;ldquo;Lagrimas de princesa&amp;rdquo;.
+      <description>Imagen del dia [04.05.2017] &amp;ldquo;Lagrimas de princesa&amp;rdquo;.
  Sakimichan
  </description>
     </item>
@@ -1064,7 +1039,7 @@ Bake para bakear la escena.
       <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/006/</guid>
-      <description>Algoritmos de Busqueda A* Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A, LPA, o D*.
+      <description>Algoritmos de Busqueda A* Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A*, LPA*, o D*.
 El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos. El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.</description>
     </item>
     
@@ -1083,10 +1058,8 @@ El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &a
       <pubDate>Mon, 10 Apr 2017 14:34:04 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/009/</guid>
-      <description>Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera! 
-Para el Long Artworks https://steam.design/ puede hacer los Long Artworks ahora!
+      <description>Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera! Para el Long Artworks https://steam.design/ puede hacer los Long Artworks ahora!
 Simplemente haga clic en el botón en la parte superior derecha.
-
 Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.</description>
     </item>
     
@@ -1096,13 +1069,10 @@ Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que
       <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/008/</guid>
-      <description>Subir un gif a modo de exposicion a Steam 
-Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
-Paso 1 
-Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
-
-Paso 2 
-Ir a la consola y pegar el siguiente código:</description>
+      <description>Subir un gif a modo de exposicion a Steam Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
+ Paso 1 Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
+ Paso 2 Ir a la consola y pegar el siguiente código:
+   document.</description>
     </item>
     
     <item>
@@ -1130,7 +1100,8 @@ Quizás no lo hayas considerado pero esto es parte vital de la experiencia que t
       <pubDate>Wed, 29 Mar 2017 14:43:04 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/utiles/007/</guid>
-      <description>Mis artistas favoritos de 2D  Desde hace 7 años sigo la trayectoria de varios artistas que han ido evolucionando y llegando a ser los mejores en sus sectores. Aqui recopilo los artistas que a dia de hoy son los que estoy siguiendo.</description>
+      <description>Mis artistas favoritos de 2D  Desde hace 7 años sigo la trayectoria de varios artistas que han ido evolucionando y llegando a ser los mejores en sus sectores. Aqui recopilo los artistas que a dia de hoy son los que estoy siguiendo.
+   .\Moon</description>
     </item>
     
     <item>
@@ -1139,8 +1110,7 @@ Quizás no lo hayas considerado pero esto es parte vital de la experiencia que t
       <pubDate>Sun, 26 Mar 2017 20:06:35 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/006/</guid>
-      <description>El complicado camino de la secuela en Square Enix 
-Una de las ideas más extendidas en la industria de los videojuegos es que cualquier compañía estaría encantada de tener tal cantidad de sagas fácilmente explotables como Square Enix: Dragon Quest, Final Fantasy y Kingdom Hearts son los grandes motores (si obviamos el trabajo de Eidos, claro) de una locomotora que tiene infinidad de vagones.
+      <description>El complicado camino de la secuela en Square Enix Una de las ideas más extendidas en la industria de los videojuegos es que cualquier compañía estaría encantada de tener tal cantidad de sagas fácilmente explotables como Square Enix: Dragon Quest, Final Fantasy y Kingdom Hearts son los grandes motores (si obviamos el trabajo de Eidos, claro) de una locomotora que tiene infinidad de vagones.
 La cuestión es que no es sencillo realizar una secuela de una saga que tuvo cierto éxito.</description>
     </item>
     
@@ -1150,8 +1120,7 @@ La cuestión es que no es sencillo realizar una secuela de una saga que tuvo cie
       <pubDate>Sun, 26 Mar 2017 19:55:55 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/005/</guid>
-      <description>Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS 
-Teníamos mucho interés en conocer qué títulos anunciaría Atlus en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.
+      <description>Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS Teníamos mucho interés en conocer qué títulos anunciaría Atlus en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.
 Así, el primero que ya sabíamos que iba a aparecer fue Radiant Historia: Perfect Chronology (N3DS), remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.</description>
     </item>
     
@@ -1171,8 +1140,7 @@ Para la versión de Steam, reemplazas directamente algunos de los archivos del j
       <pubDate>Thu, 23 Mar 2017 04:58:48 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/005/</guid>
-      <description> Imagen del dia [22.03.2017] 
-&amp;ldquo;La noche agil y femenina es a su vez gentil pero peligrosa&amp;rdquo;.
+      <description>Imagen del dia [22.03.2017] &amp;ldquo;La noche agil y femenina es a su vez gentil pero peligrosa&amp;rdquo;.
  Artista desconocido
  </description>
     </item>
@@ -1183,10 +1151,8 @@ Para la versión de Steam, reemplazas directamente algunos de los archivos del j
       <pubDate>Wed, 22 Mar 2017 18:18:58 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/004/</guid>
-      <description> Imagen del dia [22.03.2017] 
-Impactante pero cierto, solo con photoshop.
- Kyrie
- </description>
+      <description>Imagen del dia [22.03.2017] Impactante pero cierto, solo con photoshop.
+  </description>
     </item>
     
     <item>
@@ -1206,7 +1172,6 @@ Impactante pero cierto, solo con photoshop.
       
       <guid>https://moonantonio.github.io/post/2017/utiles/004/</guid>
       <description>Jeryce Dianingana compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.
-
 Poner a prueba la iluminación de Unity Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia.</description>
     </item>
     
@@ -1217,7 +1182,7 @@ Poner a prueba la iluminación de Unity Siempre he querido reproducir una ilumin
       
       <guid>https://moonantonio.github.io/post/2017/diario/004/</guid>
       <description>Estos son los siete principios que rigen el código de Bushido. Estos principios basados en la filosofía a de Lao Tse y en los cuales se funda el primer emperador para la unificación china. Existe en china un lugar donde estas siete palabras están sostenidas en una serie de arcos consecutivos de tamaño considerable, bajo los cuales se pasa andando y que tienen su correspondiente leyenda.
-Ser fieles a él y vuestro KI crecerá.</description>
+        Algunos comentarios de Mirumoto Jinto, Rikugunshokan del Clan del Dragón, sobre el código de Bushido: Sobre el valor:</description>
     </item>
     
     <item>
@@ -1226,7 +1191,7 @@ Ser fieles a él y vuestro KI crecerá.</description>
       <pubDate>Wed, 15 Mar 2017 17:27:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/diario/003/</guid>
-      <description>¿Por que? Esta entrada la escribo para tener constancia del workflow que se hace en animacion y nada mas.
+      <description>¿Por que?  Esta entrada la escribo para tener constancia del workflow que se hace en animacion y nada mas.
 Los pasos a seguir serian :
  Crear o buscar referencias. Puesta a punto de camaras. Bloquin con la malla justa del modelo animado. Generacion de keys claves de la animacion. Pulido final. VFX y preprocesado Render  Pero aqui solo pondre los puntos 1.3. y 5.
 Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa mucho tiempo.</description>
@@ -1286,9 +1251,7 @@ Por el momento me e interesado en crear en GitHub un repositorio para controlar 
       <pubDate>Sun, 12 Mar 2017 23:50:54 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/003/</guid>
-      <description> Imagen del dia [12.03.2017] 
-  ^^
- </description>
+      <description>Imagen del dia [12.03.2017]   </description>
     </item>
     
     <item>
@@ -1297,11 +1260,8 @@ Por el momento me e interesado en crear en GitHub un repositorio para controlar 
       <pubDate>Thu, 09 Mar 2017 22:24:10 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
-      <description>Bakeo simple en Unity3d 
-Primero preparamos la escena, con colores planos (simples) y algún objeto para representar en la escena, como una esfera.
-
+      <description>Bakeo simple en Unity3d Primero preparamos la escena, con colores planos (simples) y algún objeto para representar en la escena, como una esfera.
 Luego configuramos la iluminación para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
-
 Añadimos una pequeña animación para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
     </item>
     
@@ -1312,17 +1272,11 @@ Añadimos una pequeña animación para el movimiento de la luz direccional para 
       
       <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
       <description>Ambiente Algunos puntos a destacar sobre el ambiente:
- Realidad aumentada. Arboles holografiados Muscan  
- Neonizada Wadim  
- Muy vivoBravo  
- Realismo Touho  
- Variación de profundidad Touho  
-Datos técnicos  Edificios:
- LOD desde 2 planta hacia arriba.
-3 Tipos de LOD.
-3 tipos generales y props para modular.
-   Circulación:
- Coches solo vuelan por arriba.</description>
+ Realidad aumentada. Arboles holografiados Muscan   Neonizada Wadim   Muy vivoBravo   Realismo Touho   Variación de profundidad Touho  Datos técnicos  Edificios:
+   LOD desde 2 planta hacia arriba.
+    3 Tipos de LOD.
+    3 tipos generales y props para modular.
+    Circulación:</description>
     </item>
     
     <item>
@@ -1331,8 +1285,7 @@ Datos técnicos  Edificios:
       <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
-      <description>Clase de sistemas de partículas - Unity3D 
-Los parámetros mas usados son, Base, emisión y renderer.
+      <description>Clase de sistemas de partículas - Unity3D Los parámetros mas usados son, Base, emisión y renderer.
  Parámetros Base
  Duración: La vida que tendrá todas las partículas.
 Looping: Crea un loop por el cual crea un loop de las partículas.
@@ -1348,8 +1301,7 @@ Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
       
       <guid>https://moonantonio.github.io/post/2017/juegos/002/</guid>
       <description>Nuevos vídeos de juego y personajes de NieR: Automata  Hoy se ha celebrado un evento dedicado a NieR: Automata desde el que nos dejan detalles de nuevos personajes y nuevos vídeos varios.
- 
- El primero de ellos es YoRHa No.9 Type S, o 9S, que es tan amable y sincero como infantil, siendo especialista en conseguir información gracias a sus capacidades como hacker. Su voz es la de Yui Ishikawa.</description>
+  El primero de ellos es YoRHa No.9 Type S, o 9S, que es tan amable y sincero como infantil, siendo especialista en conseguir información gracias a sus capacidades como hacker. Su voz es la de Yui Ishikawa.</description>
     </item>
     
     <item>
@@ -1359,11 +1311,10 @@ Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/004/</guid>
       <description>MTodo Tool - Unity3D Herramienta sencilla para hacer un seguimiento del codigo en Unity3D
-
 MTodo analiza la sintaxis de tu codigo con categorias. Por ejemplo, supongamos que tienes una categoria de BUG.
 En la linea de tu codigo donde se encuentra ese bug, pondria :
  // &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;
-// BUG Aqui hay un bug.
+  // BUG Aqui hay un bug.
  De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.</description>
     </item>
     
@@ -1384,7 +1335,7 @@ Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rap
       
       <guid>https://moonantonio.github.io/post/2017/juegos/001/</guid>
       <description>La franquicia Bravely celebra su 4º aniversario insinuando posibles novedades  Hoy es 11 de octubre, día que marca el cuarto aniversario de la franquicia Bravely. La cuenta oficial de Twitter de la misma ha lanzado un tweet con una ilustración para conmemorar la ocasión y ha dejado caer que pronto podría haber novedades.
- El tweet reza: “¡Es el cuarto aniversario de Bravely! Sentimos la reciente falta de noticias.</description>
+   El tweet reza: “¡Es el cuarto aniversario de Bravely! Sentimos la reciente falta de noticias.</description>
     </item>
     
     <item>
@@ -1397,7 +1348,7 @@ Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rap
 Identifica una solución adecuada dentro del árbol de búsqueda.
 Primero se formula el objetivo y luego se formula el problema.
  Formulación del problema:   Estado inicial: El estado inicial del agente.
-Estados: Todos los posibles estados a los que el agente puede evolucionar a través de una secuencia.</description>
+  Estados: Todos los posibles estados a los que el agente puede evolucionar a través de una secuencia.</description>
     </item>
     
     <item>
@@ -1407,7 +1358,7 @@ Estados: Todos los posibles estados a los que el agente puede evolucionar a trav
       
       <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
       <description>Mecánicas presentadas para el TFG Al comienzo de la investigación, se propuso unas mecánicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecánicas &amp;amp; algunas funcionalidades previstas:
-  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.   También tiene extras como:</description>
+  Accionar y combinar combos, entre 4 estilos de lucha:      Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.     También tiene extras como:</description>
     </item>
     
     <item>
@@ -1416,11 +1367,10 @@ Estados: Todos los posibles estados a los que el agente puede evolucionar a trav
       <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
-      <description>Unity Preloader Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
+      <description>Unity Preloader  Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
 Esta version esta probada para Unity3D 5.5.1p4.
 El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.
-
-Antes de empezar: Para UGUI
+ Antes de empezar: Para UGUI
 Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.
 Para NGUI
   Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.</description>
@@ -1432,9 +1382,7 @@ Para NGUI
       <pubDate>Thu, 02 Mar 2017 22:42:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/002/</guid>
-      <description>Imagen del dia [03.03.2017] 
- Cazadora pelirroja con su lobo ^^
- Mu si</description>
+      <description>Imagen del dia [03.03.2017]   Mu si</description>
     </item>
     
     <item>
@@ -1443,9 +1391,7 @@ Para NGUI
       <pubDate>Thu, 02 Mar 2017 19:28:34 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/001/</guid>
-      <description> Imagen del dia [02.03.2017] 
- Samus metroid, epica ^^
- </description>
+      <description>Imagen del dia [02.03.2017]   </description>
     </item>
     
     <item>
@@ -1456,7 +1402,7 @@ Para NGUI
       <guid>https://moonantonio.github.io/post/2017/noticias/002/</guid>
       <description>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles FuRyu ha liberado el primer tráiler y dado más detalles de The Alliance Alive, su nuevo RPG para Nintendo 3DS desarrollado por Cattle Call (Legend of Legacy) y que cuenta con historia de Yoshitaka Murayama, creador de Suikoden.
 La historia
-Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias.</description>
+Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias. Los Asmodians invadieron el mundo para tomar el control de la “Energía del Caos”, algo que amenaza su propio mundo, se convirtieron en gobernantes y pusieron una “gran barrera” al planeta.</description>
     </item>
     
     <item>
@@ -1475,7 +1421,7 @@ Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmo
       
       <guid>https://moonantonio.github.io/post/2017/programacion/001/</guid>
       <description>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
-En esta entrada mostraré como desde un proyecto en .</description>
+  En esta entrada mostraré como desde un proyecto en .</description>
     </item>
     
     <item>
@@ -1485,7 +1431,7 @@ En esta entrada mostraré como desde un proyecto en .</description>
       
       <guid>https://moonantonio.github.io/post/2017/noticias/001/</guid>
       <description>Anunciado The Witch and the Hundred Knight 2 para PlayStation 4  El último número de la revista Famitsu revela que The Witch and the Hundred Knight 2 se lanzará en invierno de 2017 en las PlayStation 4 japonesas.
-El juego contará una nueva historia en un mundo diferente al de la primera entrega. En esta ocasión el tema será “brujas” y “enfermedad”, tomando los jugadores el rol del Hundred Knight (voz de Kaoru Mizuhara), invocado por la bruja Cerca para combatir bajo sus órdenes.</description>
+  El juego contará una nueva historia en un mundo diferente al de la primera entrega. En esta ocasión el tema será “brujas” y “enfermedad”, tomando los jugadores el rol del Hundred Knight (voz de Kaoru Mizuhara), invocado por la bruja Cerca para combatir bajo sus órdenes.</description>
     </item>
     
     <item>
@@ -1496,7 +1442,7 @@ El juego contará una nueva historia en un mundo diferente al de la primera entr
       <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
       <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
 Los mas comunes en videojuegos son:
- Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
+ Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat   Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
     </item>
     
     <item>
@@ -1527,7 +1473,7 @@ Ahora va todo por secciones. ^^</description>
       
       <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
       <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
-P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepáis, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
+ P.Ruby Empezare explicando lo que es un ruby, ya que aunque lo sepáis, quiero explicar por que esta piedra preciosa entre otras. Le corresponde la dureza 9 en la escala de Mohs. Es considerado una de las cuatro gemas preciosas junto al zafiro, la esmeralda y el diamante.</description>
     </item>
     
   </channel>

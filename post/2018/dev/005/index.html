@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Markdown - Lenguaje de marcado principal&middot; Antonio Moon´s</title>
+	<title>Markdown - Lenguaje de marcado principal &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,32 +163,22 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/img093.png')">
+			
 			<h1 class="title">Markdown - Lenguaje de marcado principal</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p>A continuación, veremos qué es <strong>Markdown</strong> exactamente, cómo funciona, qué es necesario para usarlo, en que entornos resulta práctico y, por supuesto, repasaremos brevemente algunas de las muchas herramientas que existen para poder utilizarlo, tanto en local como en la web.</p>
-
+			<p>A continuación, veremos qué es <strong>Markdown</strong> exactamente, cómo funciona, qué es necesario para usarlo, en que entornos resulta práctico y, por supuesto, repasaremos brevemente algunas de las muchas herramientas que existen para poder utilizarlo, tanto en local como en la web.</p>
 <h2 id="introducción">Introducción</h2>
-
 <p>Markdown es un <strong>lenguaje de marcado</strong> que <em>facilita la aplicación de formato</em> a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con <strong>más rapidez y sencillez</strong> que si estuviésemos empleando directamente <strong>HTML</strong>. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.</p>
-
 <p>Se podria decir que es la <strong>evolución de html</strong>, en casos de <strong>etiquetación</strong> claro, ya que Markdown unicamente vale para el formato de texto plano (con HTML se puede crear la estructura de una web).</p>
-
-<p><center><img src="/img/Dev/md1.jpg" alt="001" /></center></p>
-
-<hr />
-
+<!-- raw HTML omitted -->
+<hr>
 <h2 id="markdown-y-su-funcionamiento">Markdown y su funcionamiento</h2>
-
 <p>Markdown funciona como cualquier otro lenguaje de procesado de texto, a diferencia de que este, tiene la <strong>mayor rapidez de todos</strong>.</p>
-
 <p>Al colocar las etiquetas, markdown procesa de marca en marca, es decir, si usamos el marcado para encabezado (#), markdown determina que es un encabeza y por lo tanto pasa toda la frase a encabezado.</p>
-
-<hr />
-
+<hr>
 <table>
 <thead>
 <tr>
@@ -185,7 +186,6 @@
 <th>Markdown</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td><code>&lt;h2&gt;Texto&lt;/h2&gt;</code></td>
@@ -193,46 +193,37 @@
 </tr>
 </tbody>
 </table>
-
-<hr />
-
+<hr>
 <p>Como vemos, es mucho <strong>mas simple y rapido</strong> de escribir el lenguaje markdown, pero aun con eso, markdown es mas rapido, ya que html funciona de tal manera, de que primero lee la etiqueta <code>h2</code>, luego sigue hasta encontrar el cierre de <code>/h2</code> y entonces procesa el texto.</p>
-
 <p>En cambio markdown lee la marca <code>#</code> y automaticamente lo siguiente lo procesa en su formato correspondiente.</p>
-
 <h2 id="que-se-necesita">Que se necesita</h2>
-
 <p>Unicamente se necesita un archivo markdown (.md) como los que se usan en github para el README o cualquier archivo .txt cambiarle la extension a md. Tan facil como eso.</p>
-
 <p>Pero aqui unicamente podremos ver la parte interna. Para ver la conversion, tendrias que crearte una app para crear los procesados o simplemente usar una de las miles de apps online.</p>
-
-<p><center><img src="/img/Dev/md2.png" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <h2 id="es-practico">¿Es practico?</h2>
-
-<div class=pull-left>Desde que se creo el lenguaje, casi todos los sitios webs han implementado su funcionalidad. Tan solo es un procesamiento de texto despues de todo.
-
-Yo llevo ya 4 años usandolo y puedo decir, que no escribo ni texto plano ni html para escribir online. Claro esta si no quiero hacer nada muy complicado, si quiero crear una estructura en vez de un formato, intercalo entre html y markdown.
-</div><div class=pull-right><img src="/img/Dev/md3.png" border="1" alt="Este es el ejemplo de un texto alternativo" width="300" height="200"></div>
-
+<!-- raw HTML omitted -->
+<p>Yo llevo ya 4 años usandolo y puedo decir, que no escribo ni texto plano ni html para escribir online. Claro esta si no quiero hacer nada muy complicado, si quiero crear una estructura en vez de un formato, intercalo entre html y markdown.</p>
+<!-- raw HTML omitted -->
 <h2 id="comandos">Comandos</h2>
-
-<p><center><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" class="button">Sitio Oficial del creador</a></center></p>
-
+<!-- raw HTML omitted -->
 <h2 id="aplicacion-online">Aplicacion Online</h2>
-
-<p><center><a href="https://stackedit.io" class="button">StackEdit</a></center></p>
-
+<!-- raw HTML omitted -->
 <p>.\Moon</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
 	
 	<li><a href="/post/2018/amv/001/">[Vine] - Miku || End</a></li>
@@ -247,15 +238,15 @@ Yo llevo ya 4 años usandolo y puedo decir, que no escribo ni texto plano ni htm
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

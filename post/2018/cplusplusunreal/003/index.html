@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Aprende C&#43;&#43; con Unreal - Variables&middot; Antonio Moon´s</title>
+	<title>Aprende C&#43;&#43; con Unreal - Variables &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,244 +163,183 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/img108.png')">
+			
 			<h1 class="title">Aprende C&#43;&#43; con Unreal - Variables</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p>Si yo fuera un modelo de datos de una maquina, habría variables que me describirían incluyendo una para hacer referencia a mi nombre (un valor que no ha cambiado) y mi edad (un valor que cambia cada año). Algunas variables solo pueden ser determinadas por mí, como el nombre de mi película favorita, y otras pueden ser controladas total o parcialmente por fuentes externas, como mi estado civil. Todos estos tipos de relaciones se pueden modelar en código cuando conoces el vocabulario correcto. En esta lección, crearemos una clase que implemente el ejemplo que acabo de proporcionar.</p>
-
-<p><center><a href="https://github.com/CodeBackDoor/LearnCppUnreal" class="button"><i class="fa fa-github-alt"></i>GitHub Repo</a><a href="https://gitlab.com/CodeBackDoor/LearnCppUnreal" class="button"><i class="fa fa-gitlab"></i>GitLab Repo</a></center></p>
-
+			<p>Si yo fuera un modelo de datos de una maquina, habría variables que me describirían incluyendo una para hacer referencia a mi nombre (un valor que no ha cambiado) y mi edad (un valor que cambia cada año). Algunas variables solo pueden ser determinadas por mí, como el nombre de mi película favorita, y otras pueden ser controladas total o parcialmente por fuentes externas, como mi estado civil. Todos estos tipos de relaciones se pueden modelar en código cuando conoces el vocabulario correcto. En esta lección, crearemos una clase que implemente el ejemplo que acabo de proporcionar.</p>
+<!-- raw HTML omitted -->
 <h2 id="modelando-un-humano">Modelando un humano</h2>
-
 <p>Para comenzar, crea una nueva escena. Vamos a agregar una nueva clase c++ dandole al boton de &ldquo;Add New&rdquo; -&gt; New C++ Class -&gt; Actor -&gt; Nombre: Humano. Cuando se cree la clase, le daremos doble click para que se nos inicie en visual studio.</p>
-
 <p>Ahora nuestro archivo Humano.h lo dejaremos asi:</p>
-
-<hr />
-
-<pre><code class="language-C++">#pragma once
-
-#include &quot;CoreMinimal.h&quot;
-#include &quot;GameFramework/Actor.h&quot;
-#include &quot;Humano.generated.h&quot;
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">#pragma once
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;CoreMinimal.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;GameFramework/Actor.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Humano.generated.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
 UCLASS()
-class LEARNCPPUNREAL_API AHumano : public AActor
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LEARNCPPUNREAL_API</span> AHumano : <span style="color:#66d9ef">public</span> AActor
 {
-    GENERATED_BODY()
+	GENERATED_BODY()
 };
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>y nuestro archivo Humano.cpp:</p>
-
-<hr />
-
-<pre><code class="language-C++">#include &quot;Humano.h&quot;
-
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Humano.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+</code></pre></div><hr>
 <p>Esto es lo mas limpio que podemos dejar las clases. Ahora como en la anterior sección, vamos a implementar el metodo BeginPlay() junto con un Debug.</p>
-
-<hr />
-
-<pre><code class="language-C++">#pragma once
-
-#include &quot;CoreMinimal.h&quot;
-#include &quot;GameFramework/Actor.h&quot;
-#include &quot;Humano.generated.h&quot;
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">#pragma once
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;CoreMinimal.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;GameFramework/Actor.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Humano.generated.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
 UCLASS()
-class LEARNCPPUNREAL_API AHumano : public AActor
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LEARNCPPUNREAL_API</span> AHumano : <span style="color:#66d9ef">public</span> AActor
 {
-    GENERATED_BODY()
+	GENERATED_BODY()
 
-public:
-    FString name = &quot;Moon&quot;;
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+	FString name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Moon&#34;</span>;
 
-protected:
-    virtual void BeginPlay() override;
+<span style="color:#66d9ef">protected</span><span style="color:#f92672">:</span>
+	<span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">void</span> BeginPlay() <span style="color:#66d9ef">override</span>;
 };
 
-</code></pre>
+</code></pre></div><hr>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Humano.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
 
-<hr />
-
-<hr />
-
-<pre><code class="language-C++">#include &quot;Humano.h&quot;
-
-
-void AHumano::BeginPlay()
+<span style="color:#66d9ef">void</span> AHumano<span style="color:#f92672">::</span>BeginPlay()
 {
-    Super::BeginPlay();
-    UE_LOG(LogTemp, Warning, TEXT(&quot;Hola, mi nombre es %s&quot;), *name);
+	Super<span style="color:#f92672">::</span>BeginPlay();
+	UE_LOG(LogTemp, Warning, TEXT(<span style="color:#e6db74">&#34;Hola, mi nombre es %s&#34;</span>), <span style="color:#f92672">*</span>name);
 }
 
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>Antes de explicarlo, me gustaria que volvieras al editor y clicaras el boton compile. Esto realizara un procesamiento para ver que archivos han cambiado y actualizarlos en el editor, para que los cambios se vean reflejados cuando reproduzcamos la solución. Cada vez que cambies algo en Visual Studio, tienes que compilar.</p>
-
-<p><center><img src="/img/codebackdoor/learncppunreal/03.png" alt="001" /></center>
-<center><img src="/img/codebackdoor/learncppunreal/04.png" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Despues solo teneis que arrastras la clase Humano al escenario y vereis como os sale el mensaje por consola.</p>
-
-<p><center><img src="/img/codebackdoor/learncppunreal/05.png" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Explicare esta parte, empezando por el .h, como se ve, en el bloque public he creado una variables FString con nombre name y valor Moon.</p>
-
 <p>Lo que hemos hecho es &ldquo;leer&rdquo; o &ldquo;obtener&rdquo; el valor almacenado por una variable llamada &ldquo;name&rdquo;, anexarlo a la cadena de texto y pasar todo el mensaje como un parámetro al método que imprimió el mensaje a la consola.</p>
-
 <p>Para &ldquo;escribir&rdquo; o &ldquo;establecer&rdquo; una variable, usamos algo llamado operador de asignación. Para confundirte, los programadores de hace mucho tiempo decidieron que este operador se vería como el signo igual (y para comprobar realmente la igualdad, decidieron usar DOS signos iguales - suspiro). Entonces, para &ldquo;escribir&rdquo; o &ldquo;establecer&rdquo; una variable, puede usar una línea de código como la siguiente:</p>
-
-<hr />
-
-<pre><code class="language-C++">name = &quot;Moon&quot;;
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Moon&#34;</span>;
+</code></pre></div><hr>
 <p>Si tuviera que poner esa línea de código en el método de BeginPlay sobre la línea que imprime el mensaje &ldquo;Hola&rdquo;, cuando ejecute la escena, tendrá dos personas que lo recibirán con el mensaje &ldquo;Hola, mi nombre es Moon&rdquo;. Mientras que la escena continúe, Moon será su nombre, como puede verificar en la consola. Sin embargo, cuando detenga la escena, los nombres volverán a los valores que tenían antes de presionar play (en mi caso, Moon).</p>
-
 <h2 id="campos">Campos</h2>
-
 <p>Nuestro humano no tiene una variable por edad, así que a continuación le mostraré cómo &ldquo;declarar&rdquo; su propia variable llamada &ldquo;campo&rdquo;. Como mínimo, todas las variables deben declararse con dos cosas, un &ldquo;Tipo de datos&rdquo; y un &ldquo;Nombre&rdquo; mediante el cual usted &ldquo;identifica&rdquo; la variable. Agregue la siguiente línea a su script, dentro de la clase (entre los corchetes), pero fuera de los métodos. Por convención, la mayoría de las variables de nivel de clase aparecen en la parte superior de la clase.</p>
-
-<hr />
-
-<pre><code class="language-C++">public:
-    FString name = &quot;Moon&quot;;
-    int32 edad = 30;
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+	FString name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Moon&#34;</span>;
+	int32 edad <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;
+</code></pre></div><hr>
 <h3 id="consejo">Consejo:</h3>
-
 <p>Hay muchos tipos de datos que puede elegir al declarar sus variables (consulte la lista completa aquí: <a href="https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard">https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard</a>) . Los más comunes que querrás incluir son:</p>
-
 <ul>
 <li>bool - este es un tipo de valor que por defecto es falso, y solo puede contener &ldquo;falso&rdquo; o &ldquo;verdadero&rdquo;</li>
 <li>int32 - este es un tipo de valor que por defecto es 0, y puede contener números enteros, por ejemplo: 42</li>
 <li>float: este es un tipo de valor que por defecto es 0 y puede contener números con decimales, por ejemplo: 3.14159f</li>
 <li>FString - un tipo especial que tiene como valor predeterminado null (nothing), y puede contener matrices de caracteres,como: &ldquo;Hola&rdquo;</li>
 </ul>
-
 <p>Como es usuario de Unreal, también usará con frecuencia otros tipos de datos, como:</p>
-
 <ul>
 <li>Objetos: este es un tipo de referencia cuyo valor predeterminado es nulo y puede contener una referencia a un objeto activo.</li>
 <li>FColor: este es un tipo de valor que por defecto es nulo y puede contener un RGB.</li>
 <li>FVector - este es un tipo de valor (una estructura) que por defecto es cero en cada uno de sus subcampos (x, y , z).</li>
 </ul>
-
 <p>Hay varias otras palabras que pueden aparecer en una declaración de variable antes del tipo de datos. &ldquo;Solo lectura&rdquo; indica una variable que solo se puede asignar en el momento en que se crea un objeto (por una clase &ldquo;Constructor&rdquo; o mientras se inicia la variable). &ldquo;Const&rdquo; es similar, pero debe inicializarse solo en la declaración. &ldquo;Estático&rdquo; indica una variable que pertenece a la clase misma en lugar de instancias de la clase (por ejemplo, muchas de las variables en la clase &ldquo;Time&rdquo; son estáticas).</p>
-
-<hr />
-
+<hr>
 <p>Al declarar la variable en el nivel raíz de nuestra clase, le estamos dando un &ldquo;alcance&rdquo; de nivel de clase. Esto significa que la variable será visible en todas partes dentro de la clase(.cpp y .h), incluso dentro de los métodos dentro de la clase. Tenga en cuenta que también puede declarar variables dentro de un método, pero su alcance será más limitado, y otros métodos o clases no tendrán acceso a esas variables.</p>
-
 <p>Guarde su script y regrese a Unreal. Mira a uno de tus Humanos e intenta establecer la variable de nombre/edad que acabamos de declarar &hellip; oye espera, ¿por qué no lo vemos? Las variables tienen algo llamado &ldquo;visibilidad&rdquo;. Cuando no se especifica la visibilidad de una variable, se predetermina a &ldquo;private&rdquo;, lo que significa que solo su clase sabe que existe. Unreal solo muestra variables que están marcadas como &ldquo;public&rdquo; o por &ldquo;Blueprint&rdquo;, que es una forma especial de exponer una propiedad al inspector de Unreal sin permitir que otros scripts conozcan la variable. Cualquiera de las siguientes líneas permitirá que su variable aparezca en el inspector:</p>
-
-<hr />
-
-<pre><code class="language-C++">#pragma once
-
-#include &quot;CoreMinimal.h&quot;
-#include &quot;GameFramework/Actor.h&quot;
-#include &quot;Humano.generated.h&quot;
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">#pragma once
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;CoreMinimal.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;GameFramework/Actor.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Humano.generated.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
 UCLASS()
-class LEARNCPPUNREAL_API AHumano : public AActor
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LEARNCPPUNREAL_API</span> AHumano : <span style="color:#66d9ef">public</span> AActor
 {
-    GENERATED_BODY()
+	GENERATED_BODY()
 
-public:
-    UPROPERTY(EditAnywhere)
-    FString name = &quot;Moon&quot;;
-    UPROPERTY(VisibleAnywhere)
-    int32 edad = 30;
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+	UPROPERTY(EditAnywhere)
+	FString name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Moon&#34;</span>;
+	UPROPERTY(VisibleAnywhere)
+	int32 edad <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;
 
-protected:
-    virtual void BeginPlay() override;
+<span style="color:#66d9ef">protected</span><span style="color:#f92672">:</span>
+	<span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">void</span> BeginPlay() <span style="color:#66d9ef">override</span>;
 };
 
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>Antes de continuar, vamos a dirigirnos a nuestra clase, le daremos click derecho y crearemos un blueprint basado en ella.</p>
-
-<p><center><img src="/img/codebackdoor/learncppunreal/06.png" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Esto nos creara un nuevo blueprint que tenga de herencia nuestra clase humano. Ahora arrastramos a la escena nuestro BP MyHumano. Dentro del BP veremos en las variables que salen las dos que creamos.</p>
-
-<p><center><img src="/img/codebackdoor/learncppunreal/07.png" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Ahora cualquier cambio que realizemos en el nombre, cambiara el resultado. Por ejemplo colocando dos BP con el nombre de Moon y Andrea, este es el resultado.</p>
-
-<p><center><img src="/img/codebackdoor/learncppunreal/08.png" alt="001" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Como vemos, podemos editar el valor de nuestra variables desde el inspector por medio de nuestro BP que hereda de la clase Humano, pero cual es la explicación a que no podamos editar nuestra edad. La respuesta es por el tipo de macro que definimos.</p>
-
 <ul>
 <li>UPROPERTY(EditAnywhere): Es posible editarse.</li>
 <li>UPROPERTY(VisibleAnywhere): Solo es posible verse</li>
 </ul>
-
 <p>Ademas de ese parametro de la macro, podemos definir otro más por si queremos tener acceso a esos valores desde nuestros blueprints. Estos parametros son:</p>
-
 <ul>
 <li>UPROPERTY(EditAnywhere, BlueprintReadOnly): Es posible editarse, pero no se tiene acceso desde los BP.</li>
 <li>UPROPERTY(VisibleAnywhere, BlueprintReadWrite): Solo es posible verse, no editarse desde el inspector pero accesible desde BP.</li>
 </ul>
-
 <h1 id="resumen">Resumen</h1>
-
 <p>En esta lección, cubrimos cómo declarar, leer y escribir valores en variables. También aprendimos que las propiedades no requieren un campo de respaldo y pueden devolver valores dinámicamente. Completamos dos ejemplos, uno para implementar algunas variables que describen a un ser humano, y el segundo acceder al humano desde el editor.</p>
+<!-- raw HTML omitted -->
 
-<p><center><a href="http://bit.ly/2Mkom8N" class="button">Siguiente - Métodos(Dev)</a></p>
-
-
-			
-
-			
-				<hr>
-				
-
-<h3>Relacionado</h3>
-<ul>
-	
-	<li><a href="/post/2018/cplusplusunreal/002/">Aprende C&#43;&#43; con Unreal - Tu primer script</a></li>
-	
-	<li><a href="/post/2018/cplusplusunreal/001/">Aprende C&#43;&#43; con Unreal - Introducción</a></li>
-	
-	<li><a href="/post/2018/csharpunity/012/">Aprende C# con Unity - Scriptable Objects</a></li>
-	
-	<li><a href="/post/2018/csharpunity/011/">Aprende C# con Unity - Structs</a></li>
-	
-	<li><a href="/post/2018/csharpunity/010/">Aprende C# con Unity - Enums y Flags</a></li>
-	
-</ul>
 
 			
 		</section>
 	</article>
+
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
+			
+
+<h3>Continuar Leyendo</h3>
+<ul>
+	
+	<li><a href="/post/2018/comun/022/">El estado de los juegos de rol basados ​​en turnos y el futuro de Final Fantasy</a></li>
+	
+	<li><a href="/post/2018/comun/021/">Pechos en videojuegos - Fisicas</a></li>
+	
+	<li><a href="/post/2018/cplusplusunreal/002/">Aprende C&#43;&#43; con Unreal - Tu primer script</a></li>
+	
+	<li><a href="/post/2018/comun/020/">La dificultad en los videojuegos</a></li>
+	
+	<li><a href="/post/2018/dev/014/">Ingeniería inversa :: ¿Qué sacar de esto?</a></li>
+	
+</ul>
+
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

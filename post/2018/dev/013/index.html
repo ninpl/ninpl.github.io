@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Unity Shader de acumulacion&middot; Antonio Moon´s</title>
+	<title>Unity Shader de acumulacion &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,162 +163,132 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/img113.png')">
+			
 			<h1 class="title">Unity Shader de acumulacion</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo <strong>crear un efecto de imagen (sombreado de espacio de pantalla)</strong> que cambiará inmediatamente la temporada de su escena en Unity.</p>
-
-<p><center><img src="/img/case/nieve01.png"><img src="/img/case/nieve02.png"></center></p>
-
+			<p>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo <strong>crear un efecto de imagen (sombreado de espacio de pantalla)</strong> que cambiará inmediatamente la temporada de su escena en Unity.</p>
+<!-- raw HTML omitted -->
 <h1 id="como-funciona">¿Como funciona?</h1>
-
 <p>En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara. No se han realizado cambios en ninguna de las texturas. ¿Cómo es posible?</p>
-
 <p>La teoría es realmente simple. El supuesto es <strong>que debe haber nieve cuando la imagen normal de un píxel renderizado está orientada hacia arriba (suelo, techos, etc.)</strong> También debe haber una transición suave entre la textura de la nieve y la textura original si la imagen está orientada hacia cualquier otra dirección (pinos, paredes).</p>
-
 <h1 id="obteniendo-los-datos-necesarios">Obteniendo los datos necesarios</h1>
-
 <p>Para que el efecto presentado funcione, requiere al menos dos cosas:</p>
-
 <ul>
 <li>Rendering path configurada como deferred (Por alguna razón, no pude adelantar la reproducción para que funcione correctamente con este efecto. El sombreador de profundidad se procesó incorrectamente. <strong>Si tiene alguna idea de por qué podría ser, hazmelo saber en el repositorio.</strong>)</li>
 <li>Camera.depthTextureMode establecido en DepthNormals</li>
 </ul>
-
-<hr />
-
-<p><center><a href="http://bit.ly/2EvTZZD" class="button">Repo Github</a></center></p>
-
-<hr />
-
+<hr>
+<!-- raw HTML omitted -->
+<hr>
 <p>Ya que la segunda opción puede ser configurada fácilmente por el propio script de efectos de imagen, la primera opción puede causar un <strong>problema si su juego ya está utilizando forward rendering path</strong>.</p>
-
 <p>Configurar Camera.depthTextureMode como DepthNormals nos permitirá leer la <strong>profundidad de la pantalla</strong> (la distancia a la que se ubican los píxeles de la cámara) y las normales (dirección opuesta).</p>
-
 <p>Ahora, si nunca ha creado un Efecto de imagen antes, debe saber que se crean a partir de al menos un script y al menos un shader. Por lo general, este shader, en lugar de representar un objeto 3D, muestra la imagen en pantalla completa de los datos de entrada. En nuestro caso, <strong>los datos de entrada son una imagen renderizada por la cámara y algunas propiedades configuradas por el usuario</strong>.</p>
-
 <p><strong>ScreenSpaceSnow.cs</strong></p>
-
-<hr />
-
-<pre><code class="language-C#">#region Librerias
-using UnityEngine;
-#endregion
-
-namespace MoonAntonio
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#75715e">#region Librerias
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">namespace</span> MoonAntonio
 {
-    [ExecuteInEditMode]
-    public class ScreenSpaceSnow : MonoBehaviour 
-    {
-        #region Variables
-        public Texture2D SnowTexture;
-        public Color SnowColor = Color.white;
-        public float SnowTextureScale = 0.1f;
-        [Range(0, 1)] public float BottomThreshold = 0f;
-        [Range(0, 1)] public float TopThreshold = 1f;
-        private Material _material;
-        #endregion
+<span style="color:#a6e22e">	[ExecuteInEditMode]</span>
+	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScreenSpaceSnow</span> : MonoBehaviour 
+	{
+		<span style="color:#75715e">#region Variables
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> Texture2D SnowTexture;
+		<span style="color:#66d9ef">public</span> Color SnowColor = Color.white;
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> SnowTextureScale = <span style="color:#ae81ff">0.1f</span>;
+<span style="color:#a6e22e">		[Range(0, 1)]</span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> BottomThreshold = <span style="color:#ae81ff">0f</span>;
+<span style="color:#a6e22e">		[Range(0, 1)]</span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> TopThreshold = <span style="color:#ae81ff">1f</span>;
+		<span style="color:#66d9ef">private</span> Material _material;
+		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+		<span style="color:#75715e">#region Metodos
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnEnable()
+		{
+			<span style="color:#75715e">// Crea dinamicamente un material que utilizara nuestro shader
+</span><span style="color:#75715e"></span>			_material = <span style="color:#66d9ef">new</span> Material(Shader.Find(<span style="color:#e6db74">&#34;MoonAntonio/ScreenSpaceSnow&#34;</span>));
 
-        #region Metodos
-        private void OnEnable()
-        {
-            // Crea dinamicamente un material que utilizara nuestro shader
-            _material = new Material(Shader.Find(&quot;MoonAntonio/ScreenSpaceSnow&quot;));
+			<span style="color:#75715e">// Decir a la camara que cree profundidad y normales.
+</span><span style="color:#75715e"></span>			<span style="color:#66d9ef">this</span>.GetComponent&lt;Camera&gt;().depthTextureMode |= DepthTextureMode.DepthNormals;
+		}
 
-            // Decir a la camara que cree profundidad y normales.
-            this.GetComponent&lt;Camera&gt;().depthTextureMode |= DepthTextureMode.DepthNormals;
-        }
+		<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnRenderImage(RenderTexture src, RenderTexture dest)
+		{
+			<span style="color:#75715e">// Establecer propiedades de shader
+</span><span style="color:#75715e"></span>			_material.SetMatrix(<span style="color:#e6db74">&#34;_CamToWorld&#34;</span>, GetComponent&lt;Camera&gt;().cameraToWorldMatrix);
+			_material.SetColor(<span style="color:#e6db74">&#34;_SnowColor&#34;</span>, SnowColor);
+			_material.SetFloat(<span style="color:#e6db74">&#34;_BottomThreshold&#34;</span>, BottomThreshold);
+			_material.SetFloat(<span style="color:#e6db74">&#34;_TopThreshold&#34;</span>, TopThreshold);
+			_material.SetTexture(<span style="color:#e6db74">&#34;_SnowTex&#34;</span>, SnowTexture);
+			_material.SetFloat(<span style="color:#e6db74">&#34;_SnowTexScale&#34;</span>, SnowTextureScale);
 
-        private void OnRenderImage(RenderTexture src, RenderTexture dest)
-        {
-            // Establecer propiedades de shader
-            _material.SetMatrix(&quot;_CamToWorld&quot;, GetComponent&lt;Camera&gt;().cameraToWorldMatrix);
-            _material.SetColor(&quot;_SnowColor&quot;, SnowColor);
-            _material.SetFloat(&quot;_BottomThreshold&quot;, BottomThreshold);
-            _material.SetFloat(&quot;_TopThreshold&quot;, TopThreshold);
-            _material.SetTexture(&quot;_SnowTex&quot;, SnowTexture);
-            _material.SetFloat(&quot;_SnowTexScale&quot;, SnowTextureScale);
-
-            // Ejecutar el shader en la textura de entrada(src) y escribir en la salida(dest)
-            Graphics.Blit(src, dest, _material);
-        }
-        #endregion
-    }
+			<span style="color:#75715e">// Ejecutar el shader en la textura de entrada(src) y escribir en la salida(dest)
+</span><span style="color:#75715e"></span>			Graphics.Blit(src, dest, _material);
+		}
+		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>	}
 }
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>Es solo la configuración básica, no generará nieve. Ahora comienza la verdadera diversión &hellip;</p>
-
 <h1 id="el-shader">El shader</h1>
-
 <p>Nuestro shader de nieve debe ser un sombreado no iluminado, no queremos aplicarle ninguna información de luz ya que en el espacio de la pantalla no hay luz. Aquí está la plantilla básica:</p>
-
 <p><strong>ScreenSpaceSnow.shader</strong></p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">Shader <span style="color:#e6db74">&#34;MoonAntonio/ScreenSpaceSnow&#34;</span>
+<span style="color:#f92672">{</span>
+	Properties
+	<span style="color:#f92672">{</span>
+		_MainTex<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Texture&#34;</span>, 2D<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;white&#34;</span> <span style="color:#f92672">{}</span>
+	<span style="color:#f92672">}</span>
+		SubShader
+	<span style="color:#f92672">{</span>
+		Cull Off ZWrite Off ZTest Always
 
-<hr />
+		Pass
+		<span style="color:#f92672">{</span>
+			CGPROGRAM
+			<span style="color:#75715e">#pragma vertex vert</span>
+			<span style="color:#75715e">#pragma fragment frag</span>
 
-<pre><code class="language-SH">Shader &quot;MoonAntonio/ScreenSpaceSnow&quot;
-{
-    Properties
-    {
-        _MainTex(&quot;Texture&quot;, 2D) = &quot;white&quot; {}
-    }
-        SubShader
-    {
-        Cull Off ZWrite Off ZTest Always
+			<span style="color:#75715e">#include &#34;UnityCG.cginc&#34;</span>
 
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
+			struct appdata
+			<span style="color:#f92672">{</span>
+				float4 vertex : POSITION;
+				float2 uv : TEXCOORD0;
+			<span style="color:#f92672">}</span>;
 
-            #include &quot;UnityCG.cginc&quot;
+			struct v2f
+			<span style="color:#f92672">{</span>
+				float2 uv : TEXCOORD0;
+				float4 vertex : SV_POSITION;
+			<span style="color:#f92672">}</span>;
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
-            };
+			v2f vert<span style="color:#f92672">(</span>appdata v<span style="color:#f92672">)</span>
+			<span style="color:#f92672">{</span>
+				v2f o;
+				o.vertex <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span>UNITY_MATRIX_MVP, v.vertex<span style="color:#f92672">)</span>;
+				o.uv <span style="color:#f92672">=</span> v.uv;
+				<span style="color:#66d9ef">return</span> o;
+			<span style="color:#f92672">}</span>
 
-            struct v2f
-            {
-                float2 uv : TEXCOORD0;
-                float4 vertex : SV_POSITION;
-            };
-
-            v2f vert(appdata v)
-            {
-                v2f o;
-                o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
-                o.uv = v.uv;
-                return o;
-            }
-
-            fixed4 frag(v2f i) : SV_Target
-            {
-                // TODO
-            }
-            ENDCG
-        }
-    }
-}
-</code></pre>
-
-<hr />
-
+			fixed4 frag<span style="color:#f92672">(</span>v2f i<span style="color:#f92672">)</span> : SV_Target
+			<span style="color:#f92672">{</span>
+				// TODO
+			<span style="color:#f92672">}</span>
+			ENDCG
+		<span style="color:#f92672">}</span>
+	<span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
 <p>Tenga en cuenta que si crea un nuevo shader de unity no iluminado <strong>(Crear-&gt; Shader-&gt; Unlit Shader)</strong> obtendrá casi el mismo código.</p>
-
 <p>Centrémonos ahora solo en la parte importante: el <strong>shader de fragmentos</strong>. Primero, necesitamos capturar todos los datos pasados ​​por el script ScreenSpaceSnow:</p>
-
-<hr />
-
-<pre><code class="language-SH">sampler2D _MainTex;
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">sampler2D _MainTex;
 sampler2D _CameraDepthNormalsTexture;
 float4x4 _CamToWorld;
 
@@ -320,195 +301,158 @@ fixed _BottomThreshold;
 fixed _TopThreshold;
 
 
-half4 frag (v2f i) : SV_Target
-{
-    
-}
-</code></pre>
-
-<hr />
-
+half4 frag <span style="color:#f92672">(</span>v2f i<span style="color:#f92672">)</span> : SV_Target
+<span style="color:#f92672">{</span>
+	
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
 <p>No se preocupe si aún no sabe por qué necesitamos todos estos datos. Lo explicaré en detalle en un momento.</p>
-
 <h1 id="averiguar-dónde-nevar">Averiguar dónde nevar</h1>
-
 <p>Como expliqué antes, nos gustaría poner la nieve en superficies que miran hacia arriba. Ya que esta configurado en la cámara, que está configurada para generar una textura de profundidad normal, ahora podemos acceder a ella.</p>
-
-<hr />
-
-<pre><code class="language-SH">sampler2D _CameraDepthNormalsTexture;
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">sampler2D _CameraDepthNormalsTexture;
+</code></pre></div><hr>
 <p>En el codigo ¿Por qué se llama así? Puedes conocerlo en la documentación de Unity:</p>
-
 <blockquote>
 <p>Las texturas de profundidad están disponibles para mostrarse en shaders como propiedades de sombreado global. Al declarar una muestra llamada _CameraDepthTexture, podrá mostrar la textura de profundidad principal de la cámara.
 _CameraDepthTexture Siempre se refiere a la textura de profundidad principal de la cámara.</p>
 </blockquote>
-
 <p>Ahora comencemos con la normal:</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">half4 frag <span style="color:#f92672">(</span>v2f i<span style="color:#f92672">)</span> : SV_Target
+<span style="color:#f92672">{</span>
+	half3 normal;
+	float depth;
 
-<hr />
+	DecodeDepthNormal<span style="color:#f92672">(</span>tex2D<span style="color:#f92672">(</span>_CameraDepthNormalsTexture, i.uv<span style="color:#f92672">)</span>, depth, normal<span style="color:#f92672">)</span>;
+	normal <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>float3x3<span style="color:#f92672">)</span>_CamToWorld, normal<span style="color:#f92672">)</span>;
 
-<pre><code class="language-SH">half4 frag (v2f i) : SV_Target
-{
-    half3 normal;
-    float depth;
-
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
-
-    return half4(normal, 1);
-}
-</code></pre>
-
-<hr />
-
+	<span style="color:#66d9ef">return</span> half4<span style="color:#f92672">(</span>normal, 1<span style="color:#f92672">)</span>;
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
 <p>La documentación de Unity dice que <strong>la profundidad y las normales se empaquetan en 16 bits cada una</strong>. Para poder descomprimirlo, necesitamos llamar a <strong>DecodeDepthNormal</strong> como se vio anteriormente.</p>
-
 <p>Las normales recuperadas de esta manera son normales de <strong>espacio de cámara</strong>. Eso significa que si giramos la cámara, entonces también cambiará la orientación de los normales. No queremos eso, y por eso tenemos que multiplicarlo por  _CamToWorld, una matriz establecida en el script anterior. Convierte las normales de la cámara a coordenadas mundiales para que no dependan más de la perspectiva de la cámara.
 Para que el shader se compile, tiene que devolver algo, así que configuro la declaración de retorno como se ve arriba. Para ver si nuestros cálculos son correctos, es una buena idea obtener una vista previa del resultado.</p>
-
-<p><center><img src="/img/case/nieve03.png"></center></p>
-
+<!-- raw HTML omitted -->
 <p>Estamos haciendo esto como RGB. En <strong>Unity el color verde muestra el valor de la coordenada Y</strong>.</p>
-
 <p>Ahora vamos a convertirlo en factor de cantidad de nieve.</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">half4 frag <span style="color:#f92672">(</span>v2f i<span style="color:#f92672">)</span> : SV_Target
+<span style="color:#f92672">{</span>
+	half3 normal;
+	float depth;
 
-<hr />
+	DecodeDepthNormal<span style="color:#f92672">(</span>tex2D<span style="color:#f92672">(</span>_CameraDepthNormalsTexture, i.uv<span style="color:#f92672">)</span>, depth, normal<span style="color:#f92672">)</span>;
+	normal <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>float3x3<span style="color:#f92672">)</span>_CamToWorld, normal<span style="color:#f92672">)</span>;
 
-<pre><code class="language-SH">half4 frag (v2f i) : SV_Target
-{
-    half3 normal;
-    float depth;
+	half snowAmount <span style="color:#f92672">=</span> normal.g;
+	half scale <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>_BottomThreshold + <span style="color:#ae81ff">1</span> - _TopThreshold<span style="color:#f92672">)</span> / <span style="color:#ae81ff">1</span> + 1;
+	snowAmount <span style="color:#f92672">=</span> saturate<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>snowAmount - _BottomThreshold<span style="color:#f92672">)</span> * scale<span style="color:#f92672">)</span>;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
-
-    half snowAmount = normal.g;
-    half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
-    snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
-
-    return half4(snowAmount, snowAmount, snowAmount, 1);
-}
-</code></pre>
-
-<hr />
-
+	<span style="color:#66d9ef">return</span> half4<span style="color:#f92672">(</span>snowAmount, snowAmount, snowAmount, 1<span style="color:#f92672">)</span>;
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
 <p>Deberíamos estar usando el <strong>canal G</strong>, por supuesto. Ahora, esto puede ser suficiente, pero me gusta iterar un poco más para poder configurar los <strong>umbrales superior e inferior del área nevada</strong>. Permitirá ajustar la cantidad de nieve que debería haber en la escena.</p>
-
-<p><center><img src="/img/case/nieve04.png"></center></p>
-
+<!-- raw HTML omitted -->
 <h1 id="textura-de-nieve">Textura de nieve</h1>
-
 <p>La nieve puede no parecer real sin una textura. <strong>Esta es la parte más difícil</strong>: ¿cómo aplicar una textura en un objetos 3D si solo tiene una imagen 2D (estamos trabajando en el espacio de la pantalla, recuerde)? Una forma es averiguar la <strong>posición mundial del píxel</strong>. Luego podemos usar las coordenadas del mundo X y Z como coordenadas de textura.</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">half4 frag <span style="color:#f92672">(</span>v2f i<span style="color:#f92672">)</span> : SV_Target
+<span style="color:#f92672">{</span>
+	half3 normal;
+	float depth;
 
-<hr />
+	DecodeDepthNormal<span style="color:#f92672">(</span>tex2D<span style="color:#f92672">(</span>_CameraDepthNormalsTexture, i.uv<span style="color:#f92672">)</span>, depth, normal<span style="color:#f92672">)</span>;
+	normal <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>float3x3<span style="color:#f92672">)</span>_CamToWorld, normal<span style="color:#f92672">)</span>;
 
-<pre><code class="language-SH">half4 frag (v2f i) : SV_Target
-{
-    half3 normal;
-    float depth;
+	// Averiguar la cantidad de nieve
+	half snowAmount <span style="color:#f92672">=</span> normal.g;
+	half scale <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>_BottomThreshold + <span style="color:#ae81ff">1</span> - _TopThreshold<span style="color:#f92672">)</span> / <span style="color:#ae81ff">1</span> + 1;
+	snowAmount <span style="color:#f92672">=</span> saturate<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>snowAmount - _BottomThreshold<span style="color:#f92672">)</span> * scale<span style="color:#f92672">)</span>;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
+	// Descubre el color de la nieve
+	float2 p11_22 <span style="color:#f92672">=</span> float2<span style="color:#f92672">(</span>unity_CameraProjection._11, unity_CameraProjection._22<span style="color:#f92672">)</span>;
+	float3 vpos <span style="color:#f92672">=</span> float3<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>i.uv * <span style="color:#ae81ff">2</span> - 1<span style="color:#f92672">)</span> / p11_22, -1<span style="color:#f92672">)</span> * depth;
+	float4 wpos <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span>_CamToWorld, float4<span style="color:#f92672">(</span>vpos, 1<span style="color:#f92672">))</span>;
+	wpos <span style="color:#f92672">+=</span> float4<span style="color:#f92672">(</span>_WorldSpaceCameraPos, 0<span style="color:#f92672">)</span> / _ProjectionParams.z;
 
-    // Averiguar la cantidad de nieve
-    half snowAmount = normal.g;
-    half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
-    snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
+	half3 snowColor <span style="color:#f92672">=</span> tex2D<span style="color:#f92672">(</span>_SnowTex, wpos.xz * _SnowTexScale * _ProjectionParams.z<span style="color:#f92672">)</span> * _SnowColor;
 
-    // Descubre el color de la nieve
-    float2 p11_22 = float2(unity_CameraProjection._11, unity_CameraProjection._22);
-    float3 vpos = float3( (i.uv * 2 - 1) / p11_22, -1) * depth;
-    float4 wpos = mul(_CamToWorld, float4(vpos, 1));
-    wpos += float4(_WorldSpaceCameraPos, 0) / _ProjectionParams.z;
-
-    half3 snowColor = tex2D(_SnowTex, wpos.xz * _SnowTexScale * _ProjectionParams.z) * _SnowColor;
-
-    return half4(snowColor, 1);
-}
-</code></pre>
-
-<hr />
-
+	<span style="color:#66d9ef">return</span> half4<span style="color:#f92672">(</span>snowColor, 1<span style="color:#f92672">)</span>;
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
 <h1 id="fusionandolo">Fusionandolo!</h1>
-
 <p>¡Es hora de finalmente fusionarlo todo junto!</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SH" data-lang="SH">half4 frag <span style="color:#f92672">(</span>v2f i<span style="color:#f92672">)</span> : SV_Target
+<span style="color:#f92672">{</span>
+	half3 normal;
+	float depth;
 
-<hr />
+	DecodeDepthNormal<span style="color:#f92672">(</span>tex2D<span style="color:#f92672">(</span>_CameraDepthNormalsTexture, i.uv<span style="color:#f92672">)</span>, depth, normal<span style="color:#f92672">)</span>;
+	normal <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>float3x3<span style="color:#f92672">)</span>_CamToWorld, normal<span style="color:#f92672">)</span>;
 
-<pre><code class="language-SH">half4 frag (v2f i) : SV_Target
-{
-    half3 normal;
-    float depth;
+	// Averiguar la cantidad de nieve
+	half snowAmount <span style="color:#f92672">=</span> normal.g;
+	half scale <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>_BottomThreshold + <span style="color:#ae81ff">1</span> - _TopThreshold<span style="color:#f92672">)</span> / <span style="color:#ae81ff">1</span> + 1;
+	snowAmount <span style="color:#f92672">=</span> saturate<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>snowAmount - _BottomThreshold<span style="color:#f92672">)</span> * scale<span style="color:#f92672">)</span>;
 
-    DecodeDepthNormal(tex2D(_CameraDepthNormalsTexture, i.uv), depth, normal);
-    normal = mul( (float3x3)_CamToWorld, normal);
+	// Descubre el color de la nieve
+	float2 p11_22 <span style="color:#f92672">=</span> float2<span style="color:#f92672">(</span>unity_CameraProjection._11, unity_CameraProjection._22<span style="color:#f92672">)</span>;
+	float3 vpos <span style="color:#f92672">=</span> float3<span style="color:#f92672">(</span> <span style="color:#f92672">(</span>i.uv * <span style="color:#ae81ff">2</span> - 1<span style="color:#f92672">)</span> / p11_22, -1<span style="color:#f92672">)</span> * depth;
+	float4 wpos <span style="color:#f92672">=</span> mul<span style="color:#f92672">(</span>_CamToWorld, float4<span style="color:#f92672">(</span>vpos, 1<span style="color:#f92672">))</span>;
+	wpos <span style="color:#f92672">+=</span> float4<span style="color:#f92672">(</span>_WorldSpaceCameraPos, 0<span style="color:#f92672">)</span> / _ProjectionParams.z;
 
-    // Averiguar la cantidad de nieve
-    half snowAmount = normal.g;
-    half scale = (_BottomThreshold + 1 - _TopThreshold) / 1 + 1;
-    snowAmount = saturate( (snowAmount - _BottomThreshold) * scale);
+	wpos *<span style="color:#f92672">=</span> _SnowTexScale * _ProjectionParams.z;
+	half4 snowColor <span style="color:#f92672">=</span> tex2D<span style="color:#f92672">(</span>_SnowTex, wpos.xz<span style="color:#f92672">)</span> * _SnowColor;
 
-    // Descubre el color de la nieve
-    float2 p11_22 = float2(unity_CameraProjection._11, unity_CameraProjection._22);
-    float3 vpos = float3( (i.uv * 2 - 1) / p11_22, -1) * depth;
-    float4 wpos = mul(_CamToWorld, float4(vpos, 1));
-    wpos += float4(_WorldSpaceCameraPos, 0) / _ProjectionParams.z;
-
-    wpos *= _SnowTexScale * _ProjectionParams.z;
-    half4 snowColor = tex2D(_SnowTex, wpos.xz) * _SnowColor;
-
-    // Consigue color y lerp a la textura de la nieve.
-    half4 col = tex2D(_MainTex, i.uv);
-    return lerp(col, snowColor, snowAmount);
-}
-</code></pre>
-
-<hr />
-
-<p><center><img src="/img/case/nieve05.png"></center></p>
-
+	// Consigue color y lerp a la textura de la nieve.
+	half4 col <span style="color:#f92672">=</span> tex2D<span style="color:#f92672">(</span>_MainTex, i.uv<span style="color:#f92672">)</span>;
+	<span style="color:#66d9ef">return</span> lerp<span style="color:#f92672">(</span>col, snowColor, snowAmount<span style="color:#f92672">)</span>;
+<span style="color:#f92672">}</span>
+</code></pre></div><hr>
+<!-- raw HTML omitted -->
 <p>El toque final, vamos a establecer el valor _TopThreshold en 0.6:</p>
-
-<p><center><img src="/img/case/nieve06.gif"></center></p>
-
+<!-- raw HTML omitted -->
 <p>.\Moon</p>
 
 
 			
+		</section>
+	</article>
 
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
 			
-				<hr>
-				
 
-<h3>Relacionado</h3>
+<h3>Continuar Leyendo</h3>
 <ul>
 	
 	<li><a href="/post/2018/dev/012/">Unity Profiler - Optimización</a></li>
 	
+	<li><a href="/post/2018/comun/019/">El anime de SAO Alicizacion (nuevas versiones volúmenes 9 y 10)</a></li>
+	
+	<li><a href="/post/2018/comun/018/">La nueva actualización de Windows 10 ya está aquí, y permite controlar tu móvil desde el PC</a></li>
+	
+	<li><a href="/post/2018/design/001/">Diseño de Videojuegos - Introducción</a></li>
+	
 	<li><a href="/post/2018/dev/011/">Localización usando .PO</a></li>
-	
-	<li><a href="/post/2018/dev/010/">¡Consejos esenciales de Gamedev &amp; Unity!</a></li>
-	
-	<li><a href="/post/2018/dev/009/">Unity : Aseprite Workflow</a></li>
-	
-	<li><a href="/post/2018/dev/008/">Estudio de UNET</a></li>
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

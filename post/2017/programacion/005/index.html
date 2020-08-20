@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Gestor de Escenas&middot; Antonio Moon´s</title>
+	<title>Gestor de Escenas &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,167 +163,165 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			
 			<h1 class="title">Gestor de Escenas</h1>
+			
 		</header>
 
 		<section class="post-content">
 			<p>Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.</p>
-
 <blockquote>
 <p>Editor -&gt; cambiar generalmente de forma rapida y precisa.
 Runtime -&gt; cambiar entre cargar escena copleta y cargar mediante Sync.</p>
 </blockquote>
-
 <p>Por ello propuse un <strong>Gestor de Escenas</strong> en la que uno mismo podria cambiar siempre de escena en cualquier lado.</p>
-
 <p>El sistema es llamado <strong>Proteo</strong> que hace honor a una criatura mitologia que podia asumir cualquier forma que no fuera inmovil.</p>
-
 <p>En la escena de test, queria sacar 3 funcionalidades.</p>
-
 <ul>
-<li><p>Cambiar de forma normal la escena.</p></li>
-
-<li><p>Cambiar de forma Asyncrona la escena.</p></li>
-
-<li><p>Descargar alguna escena anterior.</p></li>
+<li>
+<p>Cambiar de forma normal la escena.</p>
+</li>
+<li>
+<p>Cambiar de forma Asyncrona la escena.</p>
+</li>
+<li>
+<p>Descargar alguna escena anterior.</p>
+</li>
 </ul>
-
 <p>Bien ahora empezare por el sistema runtime.</p>
-
 <p>Al estar con Unity5 hay que agregar la using UnityEngine.SceneManagement; Si no, no podras acceder a los metodos de unity.</p>
-
 <p>Al sumar escenas hay un modo llamado <strong>LoadSceneMode.Additive</strong> que seria sumar la nueva escena a la actual.</p>
-
 <p>Bueno y despues de esto -&gt;</p>
-
-<hr />
-
-<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                              
-// SProteo.cs (15/03/2017)                                      
-// Autor: Antonio Mateo (Moon Pincho)                              
-// Descripcion:     Sistema que gestiona el cambio de escenas.      
-// Fecha Mod:       15/03/2017                                  
-// Ultima Mod:      Version Inicial                             
-//****************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
-#endregion
-
-namespace MoonPincho
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#75715e">//                                  ┌∩┐(◣_◢)┌∩┐
+</span><span style="color:#75715e">//																
+</span><span style="color:#75715e">// SProteo.cs (15/03/2017)										
+</span><span style="color:#75715e">// Autor: Antonio Mateo (Moon Pincho) 						       
+</span><span style="color:#75715e">// Descripcion:		Sistema que gestiona el cambio de escenas.		
+</span><span style="color:#75715e">// Fecha Mod:		15/03/2017									
+</span><span style="color:#75715e">// Ultima Mod:		Version Inicial								
+</span><span style="color:#75715e">//****************************************************************\\
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#region Librerias
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#66d9ef">using</span> System.Collections;
+<span style="color:#66d9ef">using</span> System.Collections.Generic;
+<span style="color:#66d9ef">using</span> UnityEngine.SceneManagement;
+<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">namespace</span> MoonPincho
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Sistema que gestiona el cambio de escenas&lt;/para&gt;
-    /// &lt;/summary&gt;
-    [AddComponentMenu(&quot;Moon Pincho/Sistemas/SProteo&quot;)]
-    public class SProteo : MonoBehaviour 
-    {
-        #region Variables Publicas
-        /// &lt;summary&gt;
-        /// &lt;para&gt;NGUI progress bar para la carga.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        public UISlider progressBar;                                            // NGUI progress bar para la carga
-        #endregion
+	<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;para&gt;Sistema que gestiona el cambio de escenas&lt;/para&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">	[AddComponentMenu(&#34;Moon Pincho/Sistemas/SProteo&#34;)]</span>
+	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SProteo</span> : MonoBehaviour 
+	{
+		<span style="color:#75715e">#region Variables Publicas
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;para&gt;NGUI progress bar para la carga.&lt;/para&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> UISlider progressBar;                                            <span style="color:#75715e">// NGUI progress bar para la carga
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+		<span style="color:#75715e">#region API
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;para&gt;Carga la escena dada en modo Additive.&lt;/para&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> LoadScene(<span style="color:#66d9ef">string</span> nombre)<span style="color:#75715e">// Carga la escena dada en modo Additive
+</span><span style="color:#75715e"></span>		{
+			SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
+		}
 
-        #region API
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Carga la escena dada en modo Additive.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        public void LoadScene(string nombre)// Carga la escena dada en modo Additive
-        {
-            SceneManager.LoadScene(nombre, LoadSceneMode.Additive);
-        }
+		<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;para&gt;Descarga la escena dada.&lt;/para&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> UnLoadScene(<span style="color:#66d9ef">string</span> nombre)<span style="color:#75715e">// Descarga la escena dada
+</span><span style="color:#75715e"></span>		{
+			SceneManager.UnloadSceneAsync(nombre);
+		}
 
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Descarga la escena dada.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        public void UnLoadScene(string nombre)// Descarga la escena dada
-        {
-            SceneManager.UnloadSceneAsync(nombre);
-        }
+		<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;para&gt;Carga la escena dada asyncronamente.&lt;/para&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> LoadSceneAsyc(<span style="color:#66d9ef">string</span> nombre)<span style="color:#75715e">// Carga la escena dada asyncronamente.
+</span><span style="color:#75715e"></span>		{
+			StartCoroutine(UpdateProgress(nombre));
+		}
 
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Carga la escena dada asyncronamente.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        public void LoadSceneAsyc(string nombre)// Carga la escena dada asyncronamente.
-        {
-            StartCoroutine(UpdateProgress(nombre));
-        }
+		<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;para&gt;Descarga la escena actual.&lt;/para&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> UnLoadActual()<span style="color:#75715e">// Descarga la escena actual.
+</span><span style="color:#75715e"></span>		{
+			SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+		}
+		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+		<span style="color:#75715e">#region Funcionalidad
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;para&gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&lt;/para&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">/// &lt;returns&gt;Null&lt;/returns&gt;
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> IEnumerator UpdateProgress(<span style="color:#66d9ef">string</span> nombre)<span style="color:#75715e">// Actualiza el progress bar mientras carga la escena Asyncronamente
+</span><span style="color:#75715e"></span>		{
+			AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
 
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Descarga la escena actual.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        public void UnLoadActual()// Descarga la escena actual.
-        {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        }
-        #endregion
-
-        #region Funcionalidad
-        /// &lt;summary&gt;
-        /// &lt;para&gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&lt;/para&gt;
-        /// &lt;/summary&gt;
-        /// &lt;param name=&quot;nombre&quot;&gt;Nombre de la escena.&lt;/param&gt;
-        /// &lt;returns&gt;Null&lt;/returns&gt;
-        public IEnumerator UpdateProgress(string nombre)// Actualiza el progress bar mientras carga la escena Asyncronamente
-        {
-            AsyncOperation cargando = SceneManager.LoadSceneAsync(nombre);
-
-            while (!cargando.isDone)
-            {
-                this.progressBar.value = cargando.progress;
-                Debug.Log(cargando.progress);
-                yield return null;
-            }
-        }
-        #endregion
-    }
+			<span style="color:#66d9ef">while</span> (!cargando.isDone)
+			{
+				<span style="color:#66d9ef">this</span>.progressBar.<span style="color:#66d9ef">value</span> = cargando.progress;
+				Debug.Log(cargando.progress);
+				<span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span>;
+			}
+		}
+		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>	}
 }
 
-</code></pre>
+</code></pre></div><hr>
+<!-- raw HTML omitted -->
 
-<hr />
-
-<p><center><a href="https://github.com/MoonAntonio/GestorEscenasUnity" class="button">Moon Pincho Github</a></center></p>
-
-
-			
-
-			
-				<hr>
-				
-
-<h3>Relacionado</h3>
-<ul>
-	
-	<li><a href="/post/2017/clase/006/">Bakeo simple en Unity3d</a></li>
-	
-	<li><a href="/post/2017/clase/005/">Primera reunión sobre el TFG</a></li>
-	
-	<li><a href="/post/2017/clase/004/">Clase de sistemas de partículas - Unity3D</a></li>
-	
-	<li><a href="/post/2017/programacion/004/">MTodo Tool - Unity3D</a></li>
-	
-	<li><a href="/post/2017/programacion/003/">MDevScripts y por que.</a></li>
-	
-</ul>
 
 			
 		</section>
 	</article>
+
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
+			
+
+<h3>Continuar Leyendo</h3>
+<ul>
+	
+	<li><a href="/post/2017/diario/002/">Organizacion en GitHub</a></li>
+	
+	<li><a href="/post/2017/utiles/003/">Investigacion sobre RPGs</a></li>
+	
+	<li><a href="/post/2017/dev/003/">Consejos para organizar tus proyectos</a></li>
+	
+	<li><a href="/post/2017/dev/002/">Consejos para trabajar en equipo</a></li>
+	
+	<li><a href="/post/2017/imagen/003/">Pintura Del Dia -12-03-2017-</a></li>
+	
+</ul>
+
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

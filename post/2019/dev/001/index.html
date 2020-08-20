@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Personalizando nuestro editor a nuestro gusto - Unity&middot; Antonio Moon´s</title>
+	<title>Personalizando nuestro editor a nuestro gusto - Unity &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,291 +163,243 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+			
 			<h1 class="title">Personalizando nuestro editor a nuestro gusto - Unity</h1>
+			
 		</header>
 
 		<section class="post-content">
 			<p>Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script classes asociadas a  Gameobjects, prefabs, etc…</p>
-
-<p><center><img src="/img/Dev/customEditorPrev01.png" alt="002" /><img src="/img/Dev/customEditorPrev02.png" alt="002" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automaticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</p>
-
 <p>Creamos dos carpetas más: Scripts y Scenes para guardar el resto de scripts y la escena que tendrá nuestro trabajo</p>
-
 <p>El árbol de directorios nos queda así:</p>
-
-<hr />
-
+<hr>
 <pre><code>.
 Assets   
 │
 └───NombreProyecto
-│       Editor
-│       Scripts
-│       Scenes 
-</code></pre>
-
-<hr />
-
+│		Editor
+│		Scripts
+│		Scenes 
+</code></pre><hr>
 <p>Empezaremos con dos clases muy simples, primero creamos un nuevo script con el nombre de Unidad.cs en nuestra carpeta Scripts y añadimos las siguientes clases:</p>
-
-<hr />
-
-<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                                              \\
-// Unidad.cs (24/01/2019)                                                       \\
-// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
-// Descripcion:     Clase que contiene la informacion de una unidad.            \\
-// Fecha Mod:       24/01/2019                                                  \\
-// Ultima Mod:      Version Inicial.                                            \\
-//******************************************************************************\\
-
-#region Librerias
-using UnityEngine;
-#endregion
-
-namespace MoonAntonio
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#75715e">//                                  ┌∩┐(◣_◢)┌∩┐
+</span><span style="color:#75715e">//																				\\
+</span><span style="color:#75715e">// Unidad.cs (24/01/2019)														\\
+</span><span style="color:#75715e">// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
+</span><span style="color:#75715e">// Descripcion:		Clase que contiene la informacion de una unidad.			\\
+</span><span style="color:#75715e">// Fecha Mod:		24/01/2019													\\
+</span><span style="color:#75715e">// Ultima Mod:		Version Inicial.											\\
+</span><span style="color:#75715e">//******************************************************************************\\
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#region Librerias
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">namespace</span> MoonAntonio
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Clase que contiene la informacion de una unidad.&lt;/para&gt;
-    /// &lt;/summary&gt;
-    [HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/Unidad&quot;), System.Serializable]
-    public class Unidad : MonoBehaviour 
-    {
-        #region Variables Publicas
-        public Data data;
-        #endregion
-
-        #region Dev
-        [ContextMenu(&quot;Dev&quot;)]
-        protected void DevScript()
-        {
-            Debug.Log(&quot;&lt;color=green&gt;Unidad :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
-        }
-        #endregion
-    }
-
-    [System.Serializable]
-    public class Data
-    {
-        #region Variables Publicas
-        public float vida = 0.0f;
-        public float mana = 0.0f;
-        public bool isVivo = false;
-        #endregion
-    }
+	<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;para&gt;Clase que contiene la informacion de una unidad.&lt;/para&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">	[HelpURL(&#34;https://moonantonio.github.io/&#34;), AddComponentMenu(&#34;MoonAntonio/Unidad&#34;), System.Serializable]</span>
+	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Unidad</span> : MonoBehaviour 
+	{
+		<span style="color:#75715e">#region Variables Publicas
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> Data data;
+		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+		<span style="color:#75715e">#region Dev
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">		[ContextMenu(&#34;Dev&#34;)]</span>
+	    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> DevScript()
+	    {
+	        Debug.Log(<span style="color:#e6db74">&#34;&lt;color=green&gt;Unidad :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&#34;</span>);
+	    }
+	    <span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>	}
+<span style="color:#a6e22e">
+</span><span style="color:#a6e22e">	[System.Serializable]</span>
+	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Data</span>
+	{
+		<span style="color:#75715e">#region Variables Publicas
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> vida = <span style="color:#ae81ff">0.0f</span>;
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> mana = <span style="color:#ae81ff">0.0f</span>;
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">bool</span> isVivo = <span style="color:#66d9ef">false</span>;
+		<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>	}
 }
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>Data representará la información de la unidad.</p>
-
 <p>Queremos clases capaces de ser serializadas. Para hacer esto añadimos la etiqueta [System.Serializable] sobre la declaración de las clases.</p>
-
-<p><center><img src="/img/Dev/customEditorPrev01.png" alt="002" /></center></p>
-
+<!-- raw HTML omitted -->
 <p>Ahora crearemos nuestra clase editor personalizada, creamos un nuevo script en la carpeta Editor llamado UnidadInspector e importamos la clase editor usada por el UnityEditor.</p>
-
 <p>Añadimos la etiqueta [CustomEditor(typeof(Unidad))] para indicar que vamos a definir la representacion de la clase Unidad en el editor. UnidadInspector hereda de Editor.
 Sobreescribimos OnInspectorGUI(), este método será llamado con cada evento del editor.</p>
-
-<hr />
-
-<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                                              \\
-// UnidadInspector.cs (24/01/2019)                                              \\
-// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
-// Descripcion:     Inspector de la clase Unidad.                               \\
-// Fecha Mod:       24/01/2019                                                  \\
-// Ultima Mod:      Version Inicial.                                            \\
-//******************************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using UnityEditor;
-#endregion
-
-namespace MoonAntonio
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#75715e">//                                  ┌∩┐(◣_◢)┌∩┐
+</span><span style="color:#75715e">//																				\\
+</span><span style="color:#75715e">// UnidadInspector.cs (24/01/2019)												\\
+</span><span style="color:#75715e">// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
+</span><span style="color:#75715e">// Descripcion:		Inspector de la clase Unidad.								\\
+</span><span style="color:#75715e">// Fecha Mod:		24/01/2019													\\
+</span><span style="color:#75715e">// Ultima Mod:		Version Inicial.											\\
+</span><span style="color:#75715e">//******************************************************************************\\
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#region Librerias
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#66d9ef">using</span> UnityEditor;
+<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">namespace</span> MoonAntonio
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Inspector de la clase &lt;see cref=&quot;Unidad&quot;/&gt;.&lt;/para&gt;
-    /// &lt;/summary&gt;
-    [HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/UnidadInspector&quot;), CustomEditor(typeof(Unidad))]
-    public class UnidadInspector : Editor 
-    {
-        public override void OnInspectorGUI()
-        {
-            // TODO
-        }
+	<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;para&gt;Inspector de la clase &lt;see cref=&#34;Unidad&#34;/&gt;.&lt;/para&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">	[HelpURL(&#34;https://moonantonio.github.io/&#34;), AddComponentMenu(&#34;MoonAntonio/UnidadInspector&#34;), CustomEditor(typeof(Unidad))]</span>
+	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UnidadInspector</span> : Editor 
+	{
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">void</span> OnInspectorGUI()
+		{
+			<span style="color:#75715e">// TODO
+</span><span style="color:#75715e"></span>		}
 
-        #region Dev
-        [ContextMenu(&quot;Dev&quot;)]
-        protected void DevScript()
-        {
-            Debug.Log(&quot;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
-        }
-        #endregion
-    }
+		<span style="color:#75715e">#region Dev
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">		[ContextMenu(&#34;Dev&#34;)]</span>
+	    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> DevScript()
+	    {
+	        Debug.Log(<span style="color:#e6db74">&#34;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&#34;</span>);
+	    }
+	    <span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>	}
 }
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>La primera tarea es añadir en TODO lo siguiente:</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">serializedObject.Update(); 
 
-<hr />
-
-<pre><code class="language-C#">serializedObject.Update(); 
-
-// TODO
-                            
+<span style="color:#75715e">// TODO
+</span><span style="color:#75715e"></span>							
 serializedObject.ApplyModifiedProperties();
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <p>Ahora podemos continuar con la interfaz gráfica</p>
-
 <p>Podemos añadir etiquetas de texto usando LabelField, donde esta TODO :</p>
-
-<hr />
-
-<pre><code class="language-C#">EditorGUILayout.LabelField(&quot;Datos Unidad&quot;);
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">EditorGUILayout.LabelField(<span style="color:#e6db74">&#34;Datos Unidad&#34;</span>);
+</code></pre></div><hr>
 <p>Extraer los atributos de ‘data’ usando el nombre del atributo con el objecto serializado y FindProperty:</p>
-
-<hr />
-
-<pre><code class="language-C#">SerializedProperty dataProperty = serializedObject.FindProperty(&quot;data&quot;);
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">SerializedProperty dataProperty = serializedObject.FindProperty(<span style="color:#e6db74">&#34;data&#34;</span>);
+</code></pre></div><hr>
 <p>Para extraer los atributos de Data podemos usar el nombre del atributo con FindPropertyRelative porque usaremos la propiedad extraida previamente.</p>
-
-<hr />
-
-<pre><code class="language-C#">SerializedProperty vidaProperty = dataProperty.FindPropertyRelative(&quot;vida&quot;);
-SerializedProperty manaProperty = dataProperty.FindPropertyRelative(&quot;mana&quot;);
-SerializedProperty isVivoProperty = dataProperty.FindPropertyRelative(&quot;isVivo&quot;);
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">SerializedProperty vidaProperty = dataProperty.FindPropertyRelative(<span style="color:#e6db74">&#34;vida&#34;</span>);
+SerializedProperty manaProperty = dataProperty.FindPropertyRelative(<span style="color:#e6db74">&#34;mana&#34;</span>);
+SerializedProperty isVivoProperty = dataProperty.FindPropertyRelative(<span style="color:#e6db74">&#34;isVivo&#34;</span>);
+</code></pre></div><hr>
 <p>Para dibujar nuestra lista empezamos añadiendo una linea horizontal  y espacios flexibles a cada uno de los lados, así los elementos se mantendrán juntos incluso si se cambia el tamaño del editor.</p>
-
-<hr />
-
-<pre><code class="language-C#">EditorGUILayout.BeginHorizontal();
-// TODO
-EditorGUILayout.EndHorizontal();
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">EditorGUILayout.BeginHorizontal();
+<span style="color:#75715e">// TODO
+</span><span style="color:#75715e"></span>EditorGUILayout.EndHorizontal();
+</code></pre></div><hr>
 <p>Al final quedara algo asi:</p>
-
-<hr />
-
-<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
-//                                                                              \\
-// UnidadInspector.cs (24/01/2019)                                              \\
-// Autor: Antonio Mateo (.\Moon Antonio)    antoniomt.moon@gmail.com            \\
-// Descripcion:     Inspector de la clase Unidad.                               \\
-// Fecha Mod:       24/01/2019                                                  \\
-// Ultima Mod:      Version Inicial.                                            \\
-//******************************************************************************\\
-
-#region Librerias
-using UnityEngine;
-using UnityEditor;
-#endregion
-
-namespace MoonAntonio
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#75715e">//                                  ┌∩┐(◣_◢)┌∩┐
+</span><span style="color:#75715e">//																				\\
+</span><span style="color:#75715e">// UnidadInspector.cs (24/01/2019)												\\
+</span><span style="color:#75715e">// Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
+</span><span style="color:#75715e">// Descripcion:		Inspector de la clase Unidad.								\\
+</span><span style="color:#75715e">// Fecha Mod:		24/01/2019													\\
+</span><span style="color:#75715e">// Ultima Mod:		Version Inicial.											\\
+</span><span style="color:#75715e">//******************************************************************************\\
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#region Librerias
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#66d9ef">using</span> UnityEditor;
+<span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">namespace</span> MoonAntonio
 {
-    /// &lt;summary&gt;
-    /// &lt;para&gt;Inspector de la clase &lt;see cref=&quot;Unidad&quot;/&gt;.&lt;/para&gt;
-    /// &lt;/summary&gt;
-    [HelpURL(&quot;https://moonantonio.github.io/&quot;), AddComponentMenu(&quot;MoonAntonio/UnidadInspector&quot;), CustomEditor(typeof(Unidad))]
-    public class UnidadInspector : Editor 
-    {
-        public override void OnInspectorGUI()
-        {
-            serializedObject.Update();
+	<span style="color:#75715e">/// &lt;summary&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;para&gt;Inspector de la clase &lt;see cref=&#34;Unidad&#34;/&gt;.&lt;/para&gt;
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">	[HelpURL(&#34;https://moonantonio.github.io/&#34;), AddComponentMenu(&#34;MoonAntonio/UnidadInspector&#34;), CustomEditor(typeof(Unidad))]</span>
+	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UnidadInspector</span> : Editor 
+	{
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">void</span> OnInspectorGUI()
+		{
+			serializedObject.Update();
 
-            EditorGUILayout.LabelField(&quot;Datos Unidad&quot;);
-            SerializedProperty dataProperty = serializedObject.FindProperty(&quot;data&quot;);
-            SerializedProperty vidaProperty = dataProperty.FindPropertyRelative(&quot;vida&quot;);
-            SerializedProperty manaProperty = dataProperty.FindPropertyRelative(&quot;mana&quot;);
-            SerializedProperty isVivoProperty = dataProperty.FindPropertyRelative(&quot;isVivo&quot;);
+			EditorGUILayout.LabelField(<span style="color:#e6db74">&#34;Datos Unidad&#34;</span>);
+			SerializedProperty dataProperty = serializedObject.FindProperty(<span style="color:#e6db74">&#34;data&#34;</span>);
+			SerializedProperty vidaProperty = dataProperty.FindPropertyRelative(<span style="color:#e6db74">&#34;vida&#34;</span>);
+			SerializedProperty manaProperty = dataProperty.FindPropertyRelative(<span style="color:#e6db74">&#34;mana&#34;</span>);
+			SerializedProperty isVivoProperty = dataProperty.FindPropertyRelative(<span style="color:#e6db74">&#34;isVivo&#34;</span>);
 
-            EditorGUILayout.BeginHorizontal(&quot;box&quot;);
-            vidaProperty.floatValue = EditorGUILayout.FloatField(&quot;HP&quot;, vidaProperty.floatValue);
-            manaProperty.floatValue = EditorGUILayout.FloatField(&quot;MP&quot; ,manaProperty.floatValue);
-            EditorGUILayout.EndHorizontal();
+			EditorGUILayout.BeginHorizontal(<span style="color:#e6db74">&#34;box&#34;</span>);
+			vidaProperty.floatValue = EditorGUILayout.FloatField(<span style="color:#e6db74">&#34;HP&#34;</span>, vidaProperty.floatValue);
+			manaProperty.floatValue = EditorGUILayout.FloatField(<span style="color:#e6db74">&#34;MP&#34;</span> ,manaProperty.floatValue);
+			EditorGUILayout.EndHorizontal();
 
-            EditorGUILayout.BeginHorizontal(&quot;box&quot;);
-            isVivoProperty.boolValue = EditorGUILayout.Toggle(&quot;Alive&quot;, isVivoProperty.boolValue);
-            EditorGUILayout.EndHorizontal();
+			EditorGUILayout.BeginHorizontal(<span style="color:#e6db74">&#34;box&#34;</span>);
+			isVivoProperty.boolValue = EditorGUILayout.Toggle(<span style="color:#e6db74">&#34;Alive&#34;</span>, isVivoProperty.boolValue);
+			EditorGUILayout.EndHorizontal();
 
-            serializedObject.ApplyModifiedProperties();
-        }
+			serializedObject.ApplyModifiedProperties();
+		}
 
-        #region Dev
-        [ContextMenu(&quot;Dev&quot;)]
-        protected void DevScript()
-        {
-            Debug.Log(&quot;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&quot;);
-        }
-        #endregion
-    }
+		<span style="color:#75715e">#region Dev
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">		[ContextMenu(&#34;Dev&#34;)]</span>
+	    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> DevScript()
+	    {
+	        Debug.Log(<span style="color:#e6db74">&#34;&lt;color=green&gt;UnidadInspector :: DevScript()&lt;/color&gt; &gt;&gt; Inicializado.&#34;</span>);
+	    }
+	    <span style="color:#75715e">#endregion
+</span><span style="color:#75715e"></span>	}
 }
-</code></pre>
+</code></pre></div><hr>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><a href="https://ko-fi.com/B0B3NA0O"><img src="https://www.ko-fi.com/img/donate_sm.png" alt="ko-fi"></a></p>
 
-<hr />
-
-<p><center><img src="/img/Dev/customEditorPrev02.png" alt="002" /></center></p>
-
-<p><center><a href="https://github.com/MoonAntonio/CustomEditorUnity" class="button">Repo. Github</a></p>
-
-<p><a href="https://ko-fi.com/B0B3NA0O"><img src="https://www.ko-fi.com/img/donate_sm.png" alt="ko-fi" /></a></p>
-
-
-			
-
-			
-				<hr>
-				
-
-<h3>Relacionado</h3>
-<ul>
-	
-	<li><a href="/post/2019/comun/002/">Presentando La Videoconsola Virtual Pico8</a></li>
-	
-	<li><a href="/post/2018/dev/012/">Unity Profiler - Optimización</a></li>
-	
-	<li><a href="/post/2018/dev/010/">¡Consejos esenciales de Gamedev &amp; Unity!</a></li>
-	
-	<li><a href="/post/2018/dev/009/">Unity : Aseprite Workflow</a></li>
-	
-	<li><a href="/post/2017/dev/014/">MVC simplificado.</a></li>
-	
-</ul>
 
 			
 		</section>
 	</article>
+
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
+			
+
+<h3>Continuar Leyendo</h3>
+<ul>
+	
+	<li><a href="/post/2018/cplusplusunreal/004/">Aprende C&#43;&#43; con Unreal - Métodos</a></li>
+	
+	<li><a href="/post/2019/comun/003/">Github ahora ofrece repositorios privados ilimitados en su plan Gratuito</a></li>
+	
+	<li><a href="/post/2019/comun/002/">Presentando La Videoconsola Virtual Pico8</a></li>
+	
+	<li><a href="/post/2019/comun/001/">Feliz Año Nuevo !!! 2019</a></li>
+	
+	<li><a href="/post/2018/comun/25/">Final Fantasy Tactics: 10 curiosidades sobre el juego</a></li>
+	
+</ul>
+
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;

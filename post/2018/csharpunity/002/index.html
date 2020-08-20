@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Aprende C# con Unity - Tu primer script&middot; Antonio Moon´s</title>
+	<title>Aprende C# con Unity - Tu primer script &middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
 	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
 	<meta name="keywords" content="Moon,Antonio,Dev,Game">
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
-
-	<!--Favicon-->
+	<link rel='stylesheet' href='/css/prism.css' />
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" href="https://moonantonio.github.io/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://moonantonio.github.io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://moonantonio.github.io/favicon-16x16.png">
+	<link rel="manifest" href="https://moonantonio.github.io/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	
 
 	<!-- Font Awesome -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
@@ -31,35 +40,34 @@
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
 		</a>
 		<h1 class="site-title">
-			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+				<i class="fas fa-angle-right"></i>
+				<span class="logo__text">Antonio Moon´s</span>
+				<span class="logo__cursor"></span>
 		</h1>
 	</div>
 	<nav class="site-nav">
-
 		<ul>
-			<li><a href="/about/">  </a></li>
-
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
-  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fas fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
-  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  		</i>&nbsp; BackDoor</a> <i class="fab fa-black-tie" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
-  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  		</i>&nbsp; Publico</a> <i class="fas fa-code" aria-hidden="true"></i>
   </a>
 </li>
 
 <li class="list-group">
   <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
-  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  		</i>&nbsp; About</a> <i class="fas fa-terminal" aria-hidden="true"></i>
   </a>
 </li>
 
@@ -71,59 +79,29 @@
 
 <li class="icon">
 	<a href="https://moonantonio.github.io/" title="">
-		<i class="fa fa-fw fa-home"></i>
+		<i class="fas fa-fw fa-home"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
-		<i class="fa fa-fw fa-rss"></i>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 
 <li class="icon">
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope"></i>
+		<i class="fas fa-fw fa-envelope"></i>
 	</a>
 </li>
 
 
 
 <li class="icon">
-	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
-		<i class="fa fa-fw fa-bitbucket"></i>
+	<a href="https://bitbucket.org/MoonAntonio" rel="me" title="Bitbucket">
+		<i class="fab fa-fw fa-bitbucket"></i>
 	</a>
 </li>
-
-
-
-
-
-
-
-<li class="icon">
-	<a href="https://github.com/MoonAntonio" title="GitHub">
-		<i class="fa fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,16 +110,49 @@
 
 
 <li class="icon">
-	<a href="https://trello.com/antoniomoon" title="Trello">
-		<i class="fa fa-fw fa-trello"></i>
+	<a href="https://github.com/MoonAntonio" rel="me" title="GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="icon">
+	<a href="https://trello.com/antoniomoon" rel="me" title="Trello">
+		<i class="fab fa-fw fa-trello"></i>
 	</a>
 </li>
 
 <li class="icon">
-	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
-		<i class="fa fa-fw fa-gitlab"></i>
+	<a href="https://gitlab.com/MoonAntonio" rel="me" title="Gitlab">
+		<i class="fab fa-fw fa-gitlab"></i>
 	</a>
 </li>
+
+
+
 
 
 		</ul>
@@ -152,169 +163,139 @@
 	<div class="content">
 	<article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/img103.png')">
+			
 			<h1 class="title">Aprende C# con Unity - Tu primer script</h1>
+			
 		</header>
 
 		<section class="post-content">
-			
-
-<p>Si nunca antes has creado un script, no te preocupes, no es exactamente ciencia de cohetes. Aprender a programar es como aprender un nuevo idioma, pero estás &ldquo;hablando&rdquo; con la maquina. Al igual que un lenguaje humano se puede dividir en oraciones que consisten en un sustantivo y un verbo, los lenguajes de programación se pueden dividir en variables (el sustantivo) y métodos (el verbo) que a menudo se combinan en enunciados (la oración). Aprender a programar simplemente requiere un poco de esfuerzo para aprender el vocabulario y luego juntarlo de una manera lógica.</p>
-
+			<p>Si nunca antes has creado un script, no te preocupes, no es exactamente ciencia de cohetes. Aprender a programar es como aprender un nuevo idioma, pero estás &ldquo;hablando&rdquo; con la maquina. Al igual que un lenguaje humano se puede dividir en oraciones que consisten en un sustantivo y un verbo, los lenguajes de programación se pueden dividir en variables (el sustantivo) y métodos (el verbo) que a menudo se combinan en enunciados (la oración). Aprender a programar simplemente requiere un poco de esfuerzo para aprender el vocabulario y luego juntarlo de una manera lógica.</p>
 <p>El script que crearemos contendrá el código al que nos referimos como una &ldquo;clase&rdquo;. Una clase a menudo se relaciona conceptualmente con un plano desde el que puede crear objetos. En Unity, usarás tu clase para crear &ldquo;componentes&rdquo; que se conectan a &ldquo;GameObjects&rdquo; de forma muy similar a como puedes agregar un colisionador de física o un componente de audio. Al escribir sus propios scripts, puede tener una funcionalidad completamente nueva y personalizada de su propio diseño.</p>
-
-<p><center><a href="https://github.com/CodeBackDoor/LearnCSharpUnity" class="button"><i class="fa fa-github-alt"></i>GitHub Repo</a><a href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" class="button"><i class="fa fa-gitlab"></i>GitLab Repo</a></center></p>
-
+<!-- raw HTML omitted -->
 <p>En el panel Project de Unity, seleccione el botón &ldquo;Create&rdquo;, desde el cual tiene la opción &ldquo;Script C#&rdquo;. Alternativamente, también puede usar la barra de menú, &ldquo;Assets-&gt; Create-&gt; Script C#&rdquo;, pero de todos modos tendrá que volver al panel del proyecto para nombrar y abrir el nuevo archivo. De forma predeterminada, habrá creado un archivo llamado &ldquo;NewBehaviourScript&rdquo; y el nombre del archivo se seleccionará para que usted lo edite. Por ahora solo escribe &ldquo;Demo&rdquo; para el nombre de nuestro script.</p>
-
-<hr />
-
+<hr>
 <h3 id="consejo">Consejo:</h3>
-
 <p>El nombre de archivo que escriba para su script es importante por una variedad de razones:</p>
-
 <blockquote>
 <ul>
 <li>El nombre del archivo se usará automáticamente como el nombre de la clase en el código de plantilla que crea automáticamente.</li>
-<li>Hay algunas reglas sobre qué nombres son legales para usar en una clase:</li>
-<li>- Debe comenzar con una letra y debe consistir solo en caracteres alfanuméricos. Si intentó ingresar &ldquo;1Bunny&rdquo;, obtendrá un error (aparecerá un signo de admiración rojo en la consola y en la parte inferior de la ventana de Unity) con el siguiente mensaje, &ldquo; Assets/1Bunny.cs (4,14): error CS8025: error de análisis &ldquo;. Tenga en cuenta que no podrá jugar su juego mientras haya errores.</li>
-<li>- No puede soportar espacios. Si trataste de ingresar un nombre con un espacio, como &ldquo;Mi clase&rdquo;, Unity intenta arreglarlo por ti (pero solo a medias) y crea el código de plantilla con un nombre de clase de &ldquo;Mi Clase&rdquo; aunque abandone el espacio en el nombre del archivo. Luego, cada vez que intente agregar el script a un objeto, Unity se quejará de usted: &ldquo; No se puede agregar el script. No se puede agregar el componente &lsquo;ScriptName&rsquo; porque no existe. Verifique si el nombre del archivo y el nombre de la clase coinciden. &ldquo;Recuerda esto por si alguna vez cambias el nombre de la clase en un momento posterior; debes cambiar el nombre del archivo para que coincida.</li>
-<li>- Los nombres de tus clases deben ser únicos: no puedes tener dos clases llamadas &ldquo;Boogers&rdquo; sin importar lo gracioso que pienses que sería. De nuevo, Unity intentará solucionar este problema automáticamente y enumerará su nombre de archivo y clase (agregue un número al final) para que sea único.</li>
-<li>- Si nombra una clase con el mismo nombre que algo que Unity ya ha tomado, como &ldquo;Light&rdquo;, recibirá una advertencia, &ldquo;Script &lsquo;Light&rsquo; tiene el mismo nombre que el componente incorporado de Unity. AddComponent y GetComponent no funcionarán con esta secuencia de comandos. &ldquo;El nombre duplicado se permite aquí porque la Luz de Unity se definió en un &rdquo; espacio de nombres &ldquo; separado, que es un tema avanzado para más adelante. Tenga en cuenta que aunque puede jugar su juego con advertencias presentes, un buen programador lo tratará como si hubiera sido un error y hará todo lo posible para resolverlo.</li>
-<li>Los programadores pueden ser muy selectivos y tienen pautas para casi todo, incluso los nombres que usa e incluso el caso de las letras con las que escribe. Un buen nombre de clase será un sustantivo o frase nominal y utilizará &ldquo;PascalCasing&rdquo;, donde la primera letra de cada palabra es mayúscula y todas las demás letras son minúsculas. Tenga en cuenta que estas pautas no son obligatorias, pero son una buena práctica. Lea más sobre convenciones y pautas de nombres <a href="http://bit.ly/2BkxWDi">en este post que escribir sobre buenas prácticas</a>.</li>
 </ul>
 </blockquote>
-
-<hr />
-
+<ul>
+<li>Hay algunas reglas sobre qué nombres son legales para usar en una clase:</li>
+<li>
+<ul>
+<li>Debe comenzar con una letra y debe consistir solo en caracteres alfanuméricos. Si intentó ingresar &ldquo;1Bunny&rdquo;, obtendrá un error (aparecerá un signo de admiración rojo en la consola y en la parte inferior de la ventana de Unity) con el siguiente mensaje, &quot; Assets/1Bunny.cs (4,14): error CS8025: error de análisis &ldquo;. Tenga en cuenta que no podrá jugar su juego mientras haya errores.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>No puede soportar espacios. Si trataste de ingresar un nombre con un espacio, como &ldquo;Mi clase&rdquo;, Unity intenta arreglarlo por ti (pero solo a medias) y crea el código de plantilla con un nombre de clase de &ldquo;Mi Clase&rdquo; aunque abandone el espacio en el nombre del archivo. Luego, cada vez que intente agregar el script a un objeto, Unity se quejará de usted: &quot; No se puede agregar el script. No se puede agregar el componente &lsquo;ScriptName&rsquo; porque no existe. Verifique si el nombre del archivo y el nombre de la clase coinciden. &ldquo;Recuerda esto por si alguna vez cambias el nombre de la clase en un momento posterior; debes cambiar el nombre del archivo para que coincida.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Los nombres de tus clases deben ser únicos: no puedes tener dos clases llamadas &ldquo;Boogers&rdquo; sin importar lo gracioso que pienses que sería. De nuevo, Unity intentará solucionar este problema automáticamente y enumerará su nombre de archivo y clase (agregue un número al final) para que sea único.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Si nombra una clase con el mismo nombre que algo que Unity ya ha tomado, como &ldquo;Light&rdquo;, recibirá una advertencia, &ldquo;Script &lsquo;Light&rsquo; tiene el mismo nombre que el componente incorporado de Unity. AddComponent y GetComponent no funcionarán con esta secuencia de comandos. &ldquo;El nombre duplicado se permite aquí porque la Luz de Unity se definió en un &quot; espacio de nombres &quot; separado, que es un tema avanzado para más adelante. Tenga en cuenta que aunque puede jugar su juego con advertencias presentes, un buen programador lo tratará como si hubiera sido un error y hará todo lo posible para resolverlo.</li>
+</ul>
+</li>
+<li>Los programadores pueden ser muy selectivos y tienen pautas para casi todo, incluso los nombres que usa e incluso el caso de las letras con las que escribe. Un buen nombre de clase será un sustantivo o frase nominal y utilizará &ldquo;PascalCasing&rdquo;, donde la primera letra de cada palabra es mayúscula y todas las demás letras son minúsculas. Tenga en cuenta que estas pautas no son obligatorias, pero son una buena práctica. Lea más sobre convenciones y pautas de nombres <a href="http://bit.ly/2BkxWDi">en este post que escribir sobre buenas prácticas</a>.</li>
+</ul>
+<hr>
 <p>Ahora que hemos creado un script, podemos hacer doble clic para abrirlo. MonoDevelop o en su defecto Visual Studio debe abrirse como su editor predeterminado (si aún no ha instalado ningún otro editor de código), y es el que le recomiendo que use para seguir. Con Visual Studio abierto, debería haber cargado automáticamente su script, y debería ver algo como lo siguiente:</p>
-
-<hr />
-
-<pre><code class="language-C#">using UnityEngine;
-using System.Collections;
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#"><span style="color:#66d9ef">using</span> UnityEngine;
+<span style="color:#66d9ef">using</span> System.Collections;
  
-public class Demo : MonoBehaviour {
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Demo</span> : MonoBehaviour {
  
-    // Use this for initialization
-    void Start () {
+    <span style="color:#75715e">// Use this for initialization
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">void</span> Start () {
  
     }
  
-    // Update is called once per frame
-    void Update () {
+    <span style="color:#75715e">// Update is called once per frame
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">void</span> Update () {
  
     }
 }
-</code></pre>
-
-<hr />
-
+</code></pre></div><hr>
 <h3 id="consejo-1">Consejo:</h3>
-
 <ul>
 <li>Si has visto otros tutoriales de C# para principiantes, se sorprenderá al descubrir que no estará escribiendo una estructura de programa típica. No necesitará escribir un método &ldquo;main&rdquo;, porque está escribiendo scripts que se conectan a un sistema existente, no escribiendo todo el sistema usted mismo.</li>
 </ul>
-
-<hr />
-
+<hr>
 <p>Las primeras dos líneas de nuestro script se refieren a algo llamado espacios de nombres. Volviendo a nuestra analogía de que un lenguaje de programación es como un lenguaje humano, puedo decir que las diferentes palabras significan cosas diferentes según el idioma, y ​​algunas veces incluso las palabras dentro del mismo idioma pueden tener diferentes significados dependiendo del contexto. Por ejemplo, una palabra hablada que suena como &ldquo;if&rdquo; podría ser interpretada como &ldquo;sí&rdquo; por un individuo que habla inglés, o como algo percibido por la vista. Cuando decimos que estamos usando un espacio de nombres, estamos diciéndole a la maquina el contexto con el que interpretar las palabras que escribiremos. Las palabras que comprenderá automáticamente se denominan &ldquo;bibliotecas&rdquo; de código y están destinadas a ser muy reutilizables.</p>
-
-<hr />
-
+<hr>
 <h3 id="consejo-2">Consejo:</h3>
-
 <ul>
 <li>El espacio de nombre &ldquo;UnityEngine&rdquo; es lo que permite que su script herede de MonoBehaviour, y le permite hacer referencia a cosas como GameObjects, Lights y Cameras, etc. en el código. El espacio de nombres System.Collections le permite usar corrutinas (un sistema que hace que sea fácil hacer que las cosas sucedan con el tiempo). Otros espacios de nombres que puede ver son &ldquo;UnityEngine.UI&rdquo;, que le permite hacer referencia a elementos de los nuevos componentes de la interfaz de usuario de Unity, como botones e imágenes, &ldquo;UnityEngine.Events&rdquo; y &ldquo;UnityEngine.EventSystems&rdquo; para eventos más avanzados de programación. &ldquo;System&rdquo; (sin &ldquo;.Collections&rdquo;) para sistemas y mucho más, System.IO para leer y escribir archivos en el disco, y &ldquo;System.Collections.Generic&rdquo; para aprovechar los genéricos, que es otro tema avanzado que podemos cubrir más tarde.</li>
 </ul>
-
-<hr />
-
-<p>Como un principiante, ocasionalmente, puede seguir con un ejemplo que muestra el código sin mostrar que requería una biblioteca (lo hago en varias de mis entradas). Luego, cuando escribe el ejemplo, se encuentra con un error feo. Podemos simular uno ahora, eliminando la primera línea, &ldquo; using UnityEngine;&rdquo; de nuestro script. Guarde el archivo e intente construir la solución. El editor de código debe mostrar una línea roja en nuestra definición de clase &ldquo;<code>public class Demo : MonoBehaviour {</code>&rdquo; con el siguiente mensaje de error &ldquo; No se pudo encontrar el tipo o el nombre del espacio de nombres &lsquo;MonoBehaviour&rsquo;. ¿Te estás perdiendo una directiva de uso o una referencia de ensamblaje?&ldquo;En realidad, es bastante fácil resolver este problema. Puede hacer clic con el botón derecho en la palabra MonoBehaviour (porque esa es la palabra que se menciona en el mensaje de error) y debería ver una opción para &ldquo;Resolver&rdquo;, y la opción superior será la misma línea que eliminé antes. Visual Studio vuelve a insertar la línea que necesitamos y ahora debería poder construir el script nuevamente sin problemas.</p>
-
-<p><center><img src="/img/codebackdoor/learncsharpunity/01.png" alt="001" /></center></p>
-
+<hr>
+<p>Como un principiante, ocasionalmente, puede seguir con un ejemplo que muestra el código sin mostrar que requería una biblioteca (lo hago en varias de mis entradas). Luego, cuando escribe el ejemplo, se encuentra con un error feo. Podemos simular uno ahora, eliminando la primera línea, &quot; using UnityEngine;&rdquo; de nuestro script. Guarde el archivo e intente construir la solución. El editor de código debe mostrar una línea roja en nuestra definición de clase &ldquo;<code>public class Demo : MonoBehaviour {</code>&rdquo; con el siguiente mensaje de error &quot; No se pudo encontrar el tipo o el nombre del espacio de nombres &lsquo;MonoBehaviour&rsquo;. ¿Te estás perdiendo una directiva de uso o una referencia de ensamblaje?&ldquo;En realidad, es bastante fácil resolver este problema. Puede hacer clic con el botón derecho en la palabra MonoBehaviour (porque esa es la palabra que se menciona en el mensaje de error) y debería ver una opción para &ldquo;Resolver&rdquo;, y la opción superior será la misma línea que eliminé antes. Visual Studio vuelve a insertar la línea que necesitamos y ahora debería poder construir el script nuevamente sin problemas.</p>
+<!-- raw HTML omitted -->
 <p>Después de las dos líneas del espacio de nombres, hay una línea vacía. Las líneas vacías y otros &ldquo;espacios en blanco&rdquo;, como las pestañas y los espacios adicionales, etc. no significan nada para el código en sí y solo sirven para la legibilidad humana.</p>
-
 <p>La siguiente línea es la declaración de nuestra clase. Tiene varias palabras clave:</p>
-
 <ul>
 <li>public : esto significa que otros scripts tendrán conocimiento de este script y podrán trabajar con él. A veces puede ver las palabras &ldquo;protected&rdquo; o &ldquo;private&rdquo; en su lugar, pero esos son temas más avanzados y pueden omitirse por el momento.</li>
 <li>Class : así es como sé que mi guión es una &ldquo;clase&rdquo;. Hay varios tipos de cosas que se pueden definir, algunas de las cuales incluyen: struct, enum e interface, pero nuevamente, esos son temas más avanzados y pueden omitirse por el momento.</li>
 <li>Demo : este es el nombre de la clase y también debe ser del mismo nombre que el archivo que creamos. Al igual que puede agregar componentes a GameObjects como colisionadores o luces, ahora podrá agregar un componente llamado &ldquo;Demo&rdquo; que eventualmente hará algo &hellip; (pero aún no hemos implementado nada)</li>
 <li>MonoBehaviour : tenga en cuenta que esta palabra está separada por dos puntos. Significa que nuestro script hereda de otra clase (con ese nombre). La herencia es otro tema avanzado, pero por ahora es suficiente saber que tiene acceso a un montón de funcionalidades debido a eso.</li>
 </ul>
-
 <p>La línea de declaración de clase termina con un corchete abierto &ldquo;{&rdquo;. Habrá un corchete de cierre &ldquo;}&rdquo; en la última línea del script. Todo lo que está entre esos dos corchetes son los contenidos de nuestra clase, y en su mayor parte consistirá en las declaraciones e implementaciones de variables y métodos.</p>
-
 <p>En las líneas 6 y 11, verá una barra diagonal doble, &ldquo;//&rdquo;. Esto indica algo llamado &ldquo;comentario&rdquo;. Al igual que el espacio en blanco, un comentario es algo que existe para ayudar a la lectura, no el código en sí. Cualquier cosa que siga una doble barra, hasta llegar a la siguiente línea nueva, es parte del comentario. La gente usa comentarios para explicar qué se supone que debe hacer el código y para dar pistas sobre cómo se debe usar. Si necesita un comentario muy largo, puede usar &ldquo;/<em>&rdquo; para comenzar y &ldquo;</em>/&rdquo; para finalizar un comentario. Cualquier cosa intermedia se considerará parte del comentario, incluso si abarca múltiples líneas nuevas.</p>
-
-<hr />
-
+<hr>
 <h3 id="consejo-3">Consejo:</h3>
-
 <ul>
 <li>Puede alternar las líneas de un script para que sea un comentario, hacer clic con el botón derecho y seleccionar &ldquo;Alternar los comentarios de línea&rdquo;. A veces hago esto cuando tengo un &ldquo;error&rdquo; complicado (un error en mi código o lógica) y quiero aislar partes de mi código para que entiendan qué está pasando. Puedo resaltar grandes secciones de código y desactivarlo, por lo que es un comentario. Cuando esté listo, puedo volver a encenderlo con el mismo comando.</li>
 </ul>
-
-<hr />
-
+<hr>
 <p>El código de la plantilla que se generó para nosotros contiene dos métodos, uno llamado &ldquo;Start&rdquo; (línea 7) y el otro se llama &ldquo;Update&rdquo; (línea 12). En general, puede nombrar un método como quiera, aunque hay algunas reglas y convenciones, al igual que hay para nombrar la clase. Sin embargo, estos dos métodos son especiales y Unity los &ldquo;llamará&rdquo; automáticamente. Esta funcionalidad se obtiene porque &ldquo;heredamos&rdquo; de &ldquo;MonoBehaviour&rdquo; en nuestra definición de clase. Consulte este <a href="http://bit.ly/2MFS9bu">enlace</a> para obtener más información sobre lo que puede hacer un MonoBehaviour.</p>
-
 <p>Todos los métodos tienen algo llamado firma que incluye tres cosas:</p>
-
 <ul>
 <li>Un tipo de devolución</li>
 <li>El nombre del método</li>
 <li>Un conjunto de parámetros</li>
 </ul>
-
 <p>Los dos métodos definidos en nuestro script tienen un tipo de retorno de &ldquo;void&rdquo; que significa que no devuelve un valor, y tienen un conjunto de parámetros vacíos, porque no hay nada entre los paréntesis de apertura y cierre que siguen al nombre del método. Voy a profundizar en la explicación de las variaciones de estas firmas en una lección futura. Cada método tiene sus propios corchetes abiertos y cerrados &ldquo;{}&rdquo; al igual que la clase. Cualquier &ldquo;declaración&rdquo; de código entre esos dos corchetes se realizará siempre que el método sea &ldquo;llamado&rdquo;. Actualmente nuestros métodos no tienen ninguna declaración dentro de ellos. Esto significa que a pesar de que nuestros métodos serán llamados, nada sucedera.</p>
-
 <p>Una declaración es a menudo la combinación de un método y una variable, y siempre termina en un punto y coma, al igual que nuestras oraciones escritas a menudo terminan con una marca como un punto. Para nuestro primer ejemplo, simplemente hagamos que la computadora nos responda. Entre los paréntesis del método de Start, agregue la siguiente línea:</p>
-
-<hr />
-
-<pre><code class="language-C#">Debug.Log(&quot;Tiempo: &quot; + Time.timeSinceLevelLoad);
-</code></pre>
-
-<hr />
-
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C#" data-lang="C#">Debug.Log(<span style="color:#e6db74">&#34;Tiempo: &#34;</span> + Time.timeSinceLevelLoad);
+</code></pre></div><hr>
 <h3 id="consejo-4">Consejo:</h3>
-
 <ul>
 <li>Debe tener mucho cuidado al escribir los ejemplos (o copiarlos y pegarlos) exactamente como se presentan o es probable que genere errores en su código. La ortografía errónea de una variable o método, el uso incorrecto de una letra para una llamada u olvidar el punto y coma al final de la línea son errores comunes entre los principiantes.</li>
 </ul>
-
-<hr />
-
+<hr>
 <p>Guarde el script, luego regrese a Unity. Cree una nueva escena y adjunte el script &ldquo;Demo&rdquo; a la cámara arrastrándola y soltándola desde el panel del proyecto hasta el objeto de la cámara en el panel de jerarquía. Alternativamente, puede seleccionar la cámara principal y usar el botón de inspector &ldquo;Add Component&rdquo; y luego escribir el nombre &ldquo;Demo&rdquo; y presionar Enter.</p>
-
 <p>Reproduzca la escena y se imprimirá un mensaje en la ventana de la consola. Tenga en cuenta que si la ventana de la consola no está abierta, puede abrirla desde la barra de menú &ldquo;Windows-&gt; Console&rdquo;. También verá el último mensaje de la consola en la parte inferior de la ventana de Unity. El mensaje que se muestra es &ldquo;Tiempo: 0&rdquo;.</p>
-
 <p>¿Entonces qué pasó? Unity llamó al método &ldquo;Inicio&rdquo; de nuestro script cuando nuestro script se terminó de cargar. A su vez llamamos a un método llamado &ldquo;Log&rdquo; en una clase llamada &ldquo;Debug&rdquo; y pasamos un solo parámetro que era un mensaje que nos indicaba qué hora era. En este ejemplo, el mensaje se crea dinámicamente como la adición de la palabra &ldquo;Tiempo:&rdquo; y el tiempo que realmente es cuando se ejecuta la instrucción, y esa información se encuentra dentro de la clase &ldquo;Time&rdquo; por una variable llamada &ldquo;timeSinceLevelLoad&rdquo;.</p>
-
 <p>Nuestro script conocía las clases Debug y Time debido al espacio de nombres que estamos usando. Los contenidos de las clases (los métodos y las variables) son accesibles mediante algo llamado notación de puntos (el período que los separa).</p>
-
 <p>Para ayudar a ilustrar la idea de que el mensaje se generó dinámicamente, y para mostrar el poder de una &ldquo;variable&rdquo;, mueva la instrucción desde el interior del método de Start al interior del método de Update. Reproduzca la escena de nuevo y la ventana de la consola se llenará rápidamente con mensajes, y cada uno mostrará una hora diferente pero actual. Esto se debe a que Unity llama automáticamente el método de &ldquo;Update&rdquo; una vez por cada fotograma que se reproduce (esto puede ser de 30 a 60 veces por segundo o más), y la clase de Time actualiza continuamente el valor almacenado en la variable que están haciendo referencia.</p>
-
-<hr />
-
-<p><center><img src="/img/codebackdoor/learncsharpunity/02.gif" alt="002" /></center></p>
-
+<hr>
+<!-- raw HTML omitted -->
 <h1 id="resumen">Resumen:</h1>
-
 <p>En esta lección cubrimos cómo crear un nuevo script de C# dentro de Unity. Introdujimos un nuevo vocabulario de programación y discutimos cada línea de la plantilla de código predeterminada. Escribimos una primera línea de código y vimos cómo nuestro script se podía adjuntar a un objeto de juego como componente.</p>
+<!-- raw HTML omitted -->
 
-<p><center><a href="http://bit.ly/2vUGBXV" class="button">Siguiente - Variables</a></p>
-
-
-			
 
 			
-				<hr>
-				
+		</section>
+	</article>
 
-<h3>Relacionado</h3>
+	
+	<div class="comments contribute-link">
+
+	</div>
+	<div class="comments related-posts">
+		
+			
+
+<h3>Continuar Leyendo</h3>
 <ul>
 	
 	<li><a href="/post/2018/csharpunity/001/">Aprende C# con Unity - Introducción</a></li>
@@ -329,15 +310,15 @@ public class Demo : MonoBehaviour {
 	
 </ul>
 
-			
-		</section>
-	</article>
+		
+	</div>
+	
 	</div>
 
 	<footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
-
+<script src='/js/prism.js'></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
