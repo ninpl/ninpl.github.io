@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>Fases&middot; Antonio Moon´s</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Moon Antonio">
+	<meta name="description" content="un blog sobre mi, juegos, desarrollo y anime">
+	<meta name="keywords" content="Moon,Antonio,Dev,Game">
+	<meta name="generator" content="Hugo 0.50" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://moonantonio.github.io/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
+
+	<!-- RSS -->
+	<link href="https://moonantonio.github.io/categories/fases/index.xml" rel="alternate" type="application/rss+xml" title="Antonio Moon´s" />
+	  	<link href="https://moonantonio.github.io/categories/fases/index.xml" rel="feed" type="application/rss+xml" title="Antonio Moon´s" />
+
+	<!-- Font Awesome -->
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <header class="site-header">
+	<div class="branding">
+		<a href="https://moonantonio.github.io/">
+		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
+		</a>
+		<h1 class="site-title">
+			<i class="fa fa-angle-right"></i>
+			<a href="https://moonantonio.github.io/">Antonio Moon´s</a>
+			<span class="logo-cursor "></span>
+		</h1>
+	</div>
+	<nav class="site-nav">
+
+		<ul>
+			<li><a href="/about/">  </a></li>
+
+			<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
+  		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/backdoor" title="BackDoor">
+  		</i>&nbsp; BackDoor</a> <i class="fa fa-black-tie" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://github.com/MoonAntonio/rec.repos" title="Public">
+  		</i>&nbsp; Publico</a> <i class="fa fa-code" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="list-group">
+  <a class="list-group-item" href="https://moonantonio.github.io/portfolio/" title="About">
+  		</i>&nbsp; About</a> <i class="fa fa-terminal" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li class="icon">
+	<a href="https://moonantonio.github.io/" title="&#43;">
+		</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+	</a>
+</li>
+
+<li>
+	<a href="https://moonantonio.github.io/" title="">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+
+<li>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+<li>
+	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/MoonAntonio" title="GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://trello.com/antoniomoon" title="Trello">
+		<i class="fa fa-fw fa-trello"></i>
+	</a>
+</li>
+
+<li>
+	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
+		<i class="fa fa-fw fa-gitlab"></i>
+	</a>
+</li>
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+    <div class="posts">
+	
+	<div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					NavMesh Unity3D
+		    </h1>
+		    <p class="meta">
+    April 24, 2017 &middot; 1 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/clase">Clase</a>
+            , <a href="https://moonantonio.github.io/tags/ia">IA</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Al final del proceso de implementación de la escena, bakear los elementos que se quieran navegar.
+Abrir el inspector Navigation.
+Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos navegables.
+Bake para bakear la escena.
+Áreas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rápido.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/clase/007/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Algoritmos de busqueda
+		    </h1>
+		    <p class="meta">
+    April 23, 2017 &middot; 2 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/algoritmos">Algoritmos</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Algoritmos de Busqueda A* Los algoritmos de búsqueda en grafos nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A, LPA, o D*.
+El algoritmo de búsqueda A* (pronunciado &ldquo;A asterisco&rdquo; o &ldquo;A start&rdquo;) se clasifica dentro de los algoritmos de búsqueda en grafos. El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/programacion/006/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Crear Steam backgrounds
+		    </h1>
+		    <p class="meta">
+    April 10, 2017 &middot; 3 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/steam">Steam</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			¿Que son los Steam Backgrounds? Sólo escuchar las palabras &ldquo;Background&rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la Muestra de ilustraciones y pantalla Escaparate transparente, que pueda ver el fondo que ha solicitado. En realidad, no hacen transparentes, no son más que la perfección las piezas recortadas de los antecedentes añadidos en el puesto. Aquí está un ejemplo de lo que se verá después de la finalización:
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/utiles/010/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					¿Como subir Long Artworks a Steam?
+		    </h1>
+		    <p class="meta">
+    April 10, 2017 &middot; 2 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/steam">Steam</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Una guía sencilla para cargar long artworks con una altura tan grande como usted quiera! 
+Para el Long Artworks https://steam.design/ puede hacer los Long Artworks ahora!
+Simplemente haga clic en el botón en la parte superior derecha.
+
+Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/utiles/009/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					¿Como subir gifs al perfil de steam?
+		    </h1>
+		    <p class="meta">
+    April 8, 2017 &middot; 1 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/steam">Steam</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Subir un gif a modo de exposicion a Steam 
+Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
+Paso 1 
+Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
+
+Paso 2 
+Ir a la consola y pegar el siguiente código:
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/utiles/008/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Neregate cierra sus puertas
+		    </h1>
+		    <p class="meta">
+    April 4, 2017 &middot; 2 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/diario">Diario</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/neregate">Neregate</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Neregate cierra a medio mes Bueno pues aqui esta, neregate cierra, para los que no lo sepan, neregate a sido una web administrada por Zana, un usuario que monto desde 0 un blog que en principio estaba destinado a ser un pequeño sitio para publicar anime, cosas sobre programacion y algun que otro log, pero que poco a poco en estos 7 años se ha convertido en una referencia para ver muchas cosas.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/diario/007/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Unity &#43; GeForce Share (Shadow Play) [Tips]
+		    </h1>
+		    <p class="meta">
+    March 31, 2017 &middot; 1 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/dev">Dev</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/nvidia-gforce">NVIDIA Gforce</a>
+            , <a href="https://moonantonio.github.io/tags/unity">Unity</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			De esta manera tus jugadores con tarjetas Nvidia podrán usar esta característica sin ningún problema. GeForce Experience es una herramienta de las tarjetas Nvidia que permite gestionar tus juegos y optimizarlos, mantener los controladores actualizados y por supuesto la función “Share” que permite a los gamers compartir sus jugadas con los demás, esto es gracias a que la herramienta puede grabar nativamente una partida o bien una porción.
+Quizás no lo hayas considerado pero esto es parte vital de la experiencia que tu juego debería brindarle a sus jugadores, y es posible que hayas compilado tu juego de manera que no sea compatible con esta característica, si no has configurado las siguientes opciones en Edit &gt; Project Settings &gt; Player.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/dev/004/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Artistas 2D
+		    </h1>
+		    <p class="meta">
+    March 29, 2017 &middot; 1 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/2d">2D</a>
+            , <a href="https://moonantonio.github.io/tags/artistas">Artistas</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Mis artistas favoritos de 2D  Desde hace 7 años sigo la trayectoria de varios artistas que han ido evolucionando y llegando a ser los mejores en sus sectores. Aqui recopilo los artistas que a dia de hoy son los que estoy siguiendo.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/utiles/007/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Square Enix y las secuelas
+		    </h1>
+		    <p class="meta">
+    March 26, 2017 &middot; 18 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/square-enix">Square Enix</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			El complicado camino de la secuela en Square Enix 
+Una de las ideas más extendidas en la industria de los videojuegos es que cualquier compañía estaría encantada de tener tal cantidad de sagas fácilmente explotables como Square Enix: Dragon Quest, Final Fantasy y Kingdom Hearts son los grandes motores (si obviamos el trabajo de Eidos, claro) de una locomotora que tiene infinidad de vagones.
+La cuestión es que no es sencillo realizar una secuela de una saga que tuvo cierto éxito.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/diario/006/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div><div class="post-teaser">
+		<header>
+		    <h1>
+				<i class='' aria-hidden="true"></i>
+					Atlus &amp; Nintendo
+		    </h1>
+		    <p class="meta">
+    March 26, 2017 &middot; 2 minutos leidos
+
+    
+        &middot; Tags:
+            <a href="https://moonantonio.github.io/tags/atlus">Atlus</a>
+            , <a href="https://moonantonio.github.io/tags/diario">Diario</a>
+            , <a href="https://moonantonio.github.io/tags/moon-antonio">Moon Antonio</a>
+            , <a href="https://moonantonio.github.io/tags/nintendo">Nintendo</a>
+            
+</p>
+
+		</header>
+
+		<div class="excerpt">
+			Atlus se agarra a Nintendo DS para sus próximos lanzamientos en 3DS 
+Teníamos mucho interés en conocer qué títulos anunciaría Atlus en su directo realizado este mediodía (horario español) y el resultado nos ha dejado tres títulos, uno ya conocido, entre los que dos de ellos son remakes de grandes obras de la compañía en Nintendo DS que, en su momento, no llegaron a Europa.
+Así, el primero que ya sabíamos que iba a aparecer fue Radiant Historia: Perfect Chronology (N3DS), remake del genial Radiant Historia de Nintendo DS, que será lanzado el próximo 29 de junio en Japón e incluirá mejoras visuales, doblaje, un nuevo personaje y una nueva ruta.
+			
+			<br>
+			<a class="button" href="https://moonantonio.github.io/post/2017/diario/005/">
+				Continuar Leyendo
+			</a>
+		</div>
+	</div>
+</div>
+
+	<div class="pagination">
+	<a href="/categories/fases/page/10/" class="button" >
+			<i class="fa fa-chevron-left"></i>
+			Prev
+		</a>
+
+		<a href="/categories/fases/page/12/" class="button" >
+			Next
+			<i class="fa fa-chevron-right"></i>
+		</a>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+	<p class="text">&copy; 2020 - Moon Antonio</p>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-89564434-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>

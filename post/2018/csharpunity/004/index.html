@@ -15,6 +15,7 @@
 	<!--Favicon-->
 	<link rel="shortcut icon" href="https://moonantonio.github.io/favicon.ico" type="image/x-icon">
 
+	<!-- RSS -->
 	
 
 	<!-- Font Awesome -->
@@ -22,10 +23,14 @@
 
 	<!-- Google Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
-	<header class="site-header">
+    <header class="site-header">
 	<div class="branding">
 		<a href="https://moonantonio.github.io/">
 		<img class="avatar" src="https://moonantonio.github.io/img/avatar.png" alt="avatar"/>
@@ -42,7 +47,7 @@
 			<li><a href="/about/">  </a></li>
 
 			<li class="list-group">
-  <a class="list-group-item" href="https://moonantonio.github.io/tags/devblog/" title="devBlog">
+  <a class="list-group-item" href="https://moonantonio.github.io/devblog/" title="devBlog">
   		</i>&nbsp; devBlog</a> <i class="fa fa-gamepad" aria-hidden="true"></i>
   </a>
 </li>
@@ -71,19 +76,19 @@
 	</a>
 </li>
 
-<li class="icon">
+<li>
 	<a href="https://moonantonio.github.io/" title="">
 		<i class="fa fa-fw fa-home"></i>
 	</a>
 </li>
 
-<li class="icon">
-	<a href="https://moonantonio.github.io/index.xml" title="Subscribirte">
+<li>
+	<a href="https://moonantonio.github.io/index.xml" title="Subcribe">
 		<i class="fa fa-fw fa-rss"></i>
 	</a>
 </li>
 
-<li class="icon">
+<li>
 	<a href="mailto:antoniomt.moon@gmail.com" title="Email">
 		<i class="fa fa-fw fa-envelope"></i>
 	</a>
@@ -91,7 +96,7 @@
 
 
 
-<li class="icon">
+<li>
 	<a href="https://bitbucket.org/MoonAntonio" title="Bitbucket">
 		<i class="fa fa-fw fa-bitbucket"></i>
 	</a>
@@ -103,7 +108,7 @@
 
 
 
-<li class="icon">
+<li>
 	<a href="https://github.com/MoonAntonio" title="GitHub">
 		<i class="fa fa-fw fa-github"></i>
 	</a>
@@ -133,32 +138,30 @@
 
 
 
-<li class="icon">
+<li>
 	<a href="https://trello.com/antoniomoon" title="Trello">
 		<i class="fa fa-fw fa-trello"></i>
 	</a>
 </li>
 
-<li class="icon">
+<li>
 	<a href="https://gitlab.com/MoonAntonio" title="Gitlab">
 		<i class="fa fa-fw fa-gitlab"></i>
 	</a>
 </li>
 
-
 		</ul>
 	</nav>
 </header>
 
-
-	<div class="content">
-	<article class="feature-image">
+    <div class="content">
+    <article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/img103.png')">
 			<h1 class="title">Aprende C# con Unity - Métodos</h1>
 		</header>
 
-		<section class="post-content">
-			
+	<section class="post-content">
+		
 
 <p>La parte de &ldquo;acción&rdquo; de la programación proviene de &ldquo;llamar&rdquo; (también conocido como &ldquo;invocar&rdquo;) algo llamado &ldquo;método&rdquo; (también conocido como &ldquo;función&rdquo;). En esta lección aprenderemos cómo definir y llamar a nuestros propios métodos, y luego revisaremos algunos más que son especiales para Unity. Finalmente, crearemos nuestra propia demo de &ldquo;Magic 8 Ball&rdquo; y explicaremos cómo vincular un método con el clic de un botón y generar el resultado de una etiqueta.</p>
 
@@ -353,33 +356,32 @@ public class Magic : MonoBehaviour
 <p><center><a href="http://bit.ly/2MLiHYE" class="button">Siguiente - Bucles</a></p>
 
 
-			
+		
+			<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "moonantonio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		
+	</section>
+    </div>
 
-			
-				<hr>
-				
-
-<h3>Relacionado</h3>
-<ul>
-	
-	<li><a href="/post/2018/csharpunity/003/">Aprende C# con Unity - Variables</a></li>
-	
-	<li><a href="/post/2018/csharpunity/002/">Aprende C# con Unity - Tu primer script</a></li>
-	
-	<li><a href="/post/2018/csharpunity/001/">Aprende C# con Unity - Introducción</a></li>
-	
-	<li><a href="/post/2018/comun/010/">El rol del diseñador de videojuegos</a></li>
-	
-	<li><a href="/post/2018/icon/001/">Darling in the FranXX Icon Folder</a></li>
-	
-</ul>
-
-			
-		</section>
-	</article>
-	</div>
-
-	<footer class="site-footer">
+    <footer class="site-footer">
 	<p class="text">&copy; 2020 - Moon Antonio</p>
 </footer>
 
