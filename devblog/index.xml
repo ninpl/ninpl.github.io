@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devblogs on Antonio Moon´s</title>
@@ -6,26 +6,17 @@
     <description>Recent content in Devblogs on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 14 Jul 2020 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 20:03:12 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/devblog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Unreal Fest Online</title>
-      <link>https://moonantonio.github.io/moonantonio.github.io/</link>
-      <pubDate>Tue, 14 Jul 2020 09:00:00 +0200</pubDate>
+      <title>Introducción</title>
+      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
+      <pubDate>Wed, 03 Feb 2021 20:03:12 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/moonantonio.github.io/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Industrial Digital Developer</title>
-      <link>https://moonantonio.github.io/moonantonio.github.io/</link>
-      <pubDate>Wed, 27 May 2020 09:00:00 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/moonantonio.github.io/</guid>
+      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
       <description></description>
     </item>
     

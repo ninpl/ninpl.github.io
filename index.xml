@@ -6,10 +6,19 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:15:44 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 20:03:12 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introducción</title>
+      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
+      <pubDate>Wed, 03 Feb 2021 20:03:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
@@ -1547,17 +1556,6 @@ I&amp;rsquo;ve always been familiar with video games. But there was always a lot
       
       <guid>https://moonantonio.github.io/backdoor/</guid>
       <description>Generalmente suelo publicar entradas en su mayoría aleatorias, según lo que veo a diario, investigaciones de mi interés, consultas de otros compañeros, vines que realizo, intentos de ilustraciones entre muchas otras cosas. Esto a lo largo de mucho tiempo ha ocasionado que la gente se pierda entre tanta información, por eso he creado la backdoor, CodeBackDoor es una puerta trasera que dirige directamente a lo que creo que es más relevante del blog (Las entradas que no estén aquí, tendrán que seguir en vuestros marcadores ).</description>
-    </item>
-    
-    <item>
-      <title>. devBlog .</title>
-      <link>https://moonantonio.github.io/devblog/</link>
-      <pubDate>Sun, 31 Jul 2016 18:53:37 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/devblog/</guid>
-      <description>P.Ruby
-1. Introducción
- </description>
     </item>
     
   </channel>
