@@ -6,19 +6,10 @@
     <description>Recent content on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 03 Feb 2021 20:03:12 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:15:44 +0100</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Introducción</title>
-      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
-      <pubDate>Wed, 03 Feb 2021 20:03:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
@@ -1527,6 +1518,15 @@ Por ejemplo si estas haciendo un control de versiones de un proyecto en el que s
       <description>Nuevo blog con una nueva estructura. Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.
 Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.
 Ahora va todo por secciones. ^^</description>
+    </item>
+    
+    <item>
+      <title>Introducción</title>
+      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
+      <pubDate>Fri, 21 Oct 2016 00:47:40 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
+      <description></description>
     </item>
     
     <item>
