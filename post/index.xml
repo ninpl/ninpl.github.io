@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:15:44 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 Jul 2022 22:39:45 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[BOT] - Integracion de bot</title>
+      <link>https://moonantonio.github.io/post/2022/comun/001/</link>
+      <pubDate>Sat, 16 Jul 2022 22:39:45 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2022/comun/001/</guid>
+      <description>Una prueba con la integracion inicial del bot para el blog.</description>
+    </item>
     
     <item>
       <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
@@ -1528,6 +1537,15 @@ Ahora va todo por secciones. ^^</description>
       <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
       <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
 P.Ruby Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder desarrollar este proyecto.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://moonantonio.github.io/post/2022/001/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2022/001/</guid>
+      <description></description>
     </item>
     
   </channel>
