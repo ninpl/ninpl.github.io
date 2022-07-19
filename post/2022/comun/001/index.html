@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>[BOT] - Integracion de bot&middot; Antonio Moon´s</title>
+	<title>Actualización del blog - Temporal&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -157,11 +157,36 @@
     <div class="content">
     <article class="feature-image">
 		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
-			<h1 class="title">[BOT] - Integracion de bot</h1>
+			<h1 class="title">Actualización del blog - Temporal</h1>
 		</header>
 
 	<section class="post-content">
-		<p>Una prueba con la integracion inicial del bot para el blog&hellip;</p>
+		<p>Hola, actualmente el blog esta un poco parado. No por no tener artículos que publicar, sino por la pereza de lo que tarda en generarse todo.</p>
+
+<p>Cuando inicie el blog, elegí <a href="https://gohugo.io/"><strong>Hugo</strong></a> como framework para crear sitios webs estáticos lo mas rápido posible y realmente era bestialmente rápido. El problema viene después de tantos años &hellip; es desesperadamente lento, en eso del 2017 se generaba en 20s - 30s, a dia de hoy es normal que tarde 2 o 3 minutos tranquilamente.</p>
+
+<blockquote>
+<p>Crear el articulo(∞s) + generar el sitio(3m) + subir los cambios(30s) + desplegar pagina(8m) = mucho</p>
+</blockquote>
+
+<p>Buscando información e encontrado varias maneras de solventar este problema. El primero es actualizar el framework hasta la ultima versión, ya que han agregado nuevas funciones que mejoran la generación del blog en proyectos con una gran cantidad de artículos, el problema que esto trae es que después de la v0.5+ cambia la arquitectura de <a href="https://gohugo.io/"><strong>Hugo</strong></a>, haciendo que el tema y todos los artículos dejen de funcionar.</p>
+
+<hr />
+
+<p>Esto me va a mantener ocupado un tiempo, actualizando todo para que el blog se genere mas rápido y por otra parte que <a href="https://pages.github.com/">github</a> despliegue la pagina en menos tiempo (8m actualmente).
+Por eso pasaran un par de cosas que enumero a continuación:</p>
+
+<ol>
+<li><p>El blog quedara sin ninguna nueva información durante un tiempo, no creo que mucho, ya que realizare una actualización en modo de desarrollo para que no afecte al trabajo actual y posteriormente actualizar el blog de una.</p></li>
+
+<li><p>La sección devblog quedara bloqueada, no por titulo sino por contenido. Esta sección se genera con una funcionalidad de <a href="https://gohugo.io/"><strong>Hugo</strong></a> que ya no existen con la ultima version. Por lo tanto tengo que investigar como solucionar esto en las nuevas versiones.</p></li>
+
+<li><p>Por ultimo he notado que al tener tantas imágenes que cargar, la velocidad de carga de las paginas a disminuido. Esto no es problema de <a href="https://gohugo.io/"><strong>Hugo</strong></a>, es problema mio por no pensar en la escalabilidad del blog a futuro y gestionar el tamaño y la optimización de las imágenes por lo tanto cambiare este tema.</p></li>
+</ol>
+
+<hr />
+
+<p>También me ocupare de actualizar algunos artículos que ya no son viables ya sea porque la API esta obsoleta y no se puede volver a generar esa solución o por los motivos que sea.</p>
 
 <blockquote>
 <p>.&lt;</p>

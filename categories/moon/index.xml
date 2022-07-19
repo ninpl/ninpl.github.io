@@ -12,14 +12,13 @@
     
     
     <item>
-      <title>[BOT] - Integracion de bot</title>
+      <title>Actualización del blog - Temporal</title>
       <link>https://moonantonio.github.io/post/2022/comun/001/</link>
       <pubDate>Sat, 16 Jul 2022 22:39:45 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2022/comun/001/</guid>
-      <description>Una prueba con la integracion inicial del bot para el blog&amp;hellip;
- .&amp;lt;
- </description>
+      <description>Hola, actualmente el blog esta un poco parado. No por no tener artículos que publicar, sino por la pereza de lo que tarda en generarse todo.
+Cuando inicie el blog, elegí Hugo como framework para crear sitios webs estáticos lo mas rápido posible y realmente era bestialmente rápido. El problema viene después de tantos años &amp;hellip; es desesperadamente lento, en eso del 2017 se generaba en 20s - 30s, a dia de hoy es normal que tarde 2 o 3 minutos tranquilamente.</description>
     </item>
     
     <item>
