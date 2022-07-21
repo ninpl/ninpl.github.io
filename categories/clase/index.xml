@@ -97,16 +97,5 @@ Estados: Todos los posibles estados a los que el agente puede evolucionar a trav
   Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.   También tiene extras como:</description>
     </item>
     
-    <item>
-      <title>Explicación IA básica</title>
-      <link>https://moonantonio.github.io/post/2017/clase/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
-      <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
-Los mas comunes en videojuegos son:
- Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
-    </item>
-    
   </channel>
 </rss>

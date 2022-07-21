@@ -189,13 +189,35 @@ Quizás no lo hayas considerado pero esto es parte vital de la experiencia que t
     </item>
     
     <item>
-      <title>C#: utilizar MEGA API CLIENT</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/001/</link>
+      <title>MEGA API CLIENT [C#]</title>
+      <link>https://moonantonio.github.io/post/2017/dev/017/</link>
       <pubDate>Wed, 01 Mar 2017 23:32:52 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/programacion/001/</guid>
-      <description>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
+      <guid>https://moonantonio.github.io/post/2017/dev/017/</guid>
+      <description>(ACTUALIZADO A 21/07/2022)
+Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
 En esta entrada mostraré como desde un proyecto en .</description>
+    </item>
+    
+    <item>
+      <title>Explicación IA básica</title>
+      <link>https://moonantonio.github.io/post/2017/dev/015/</link>
+      <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/015/</guid>
+      <description>IA en Videojuegos Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
+Los mas comunes en videojuegos son:
+ Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
+    </item>
+    
+    <item>
+      <title>Comandos fundamentales de GIT</title>
+      <link>https://moonantonio.github.io/post/2017/dev/016/</link>
+      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/016/</guid>
+      <description>Los comandos fundamentales que se usan en git. Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.
+Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</description>
     </item>
     
   </channel>

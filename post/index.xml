@@ -1014,10 +1014,10 @@ Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se a
     
     <item>
       <title>Sorpresas en Mayo</title>
-      <link>https://moonantonio.github.io/post/2017/noticias/003/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/003/</link>
       <pubDate>Thu, 04 May 2017 18:23:01 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/noticias/003/</guid>
+      <guid>https://moonantonio.github.io/post/2017/comun/003/</guid>
       <description>Sorpresas buenas !! 
 Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño del que recibe si llegas a dominarlo y encontrarle sus bondades. Si no, lo aborrecerás al momento. Al fin y al cabo, quedar encerrado en un mundo digital viviendo permanentemente tus tiempos de instituto para olvidar tu sufrimiento en el mundo real también genera un debate en muchas personas, por lo que le sienta bien que sea un título difícil de definir.</description>
     </item>
@@ -1460,10 +1460,10 @@ Para NGUI
     
     <item>
       <title>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles</title>
-      <link>https://moonantonio.github.io/post/2017/noticias/002/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/002/</link>
       <pubDate>Thu, 02 Mar 2017 18:44:00 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/noticias/002/</guid>
+      <guid>https://moonantonio.github.io/post/2017/comun/002/</guid>
       <description>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles FuRyu ha liberado el primer tráiler y dado más detalles de The Alliance Alive, su nuevo RPG para Nintendo 3DS desarrollado por Cattle Call (Legend of Legacy) y que cuenta con historia de Yoshitaka Murayama, creador de Suikoden.
 La historia
 Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias.</description>
@@ -1479,55 +1479,45 @@ Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmo
     </item>
     
     <item>
-      <title>C#: utilizar MEGA API CLIENT</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/001/</link>
+      <title>MEGA API CLIENT [C#]</title>
+      <link>https://moonantonio.github.io/post/2017/dev/017/</link>
       <pubDate>Wed, 01 Mar 2017 23:32:52 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/programacion/001/</guid>
-      <description>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
+      <guid>https://moonantonio.github.io/post/2017/dev/017/</guid>
+      <description>(ACTUALIZADO A 21/07/2022)
+Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
 En esta entrada mostraré como desde un proyecto en .</description>
     </item>
     
     <item>
       <title>The Witch and the Hundred Knight 2</title>
-      <link>https://moonantonio.github.io/post/2017/noticias/001/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/001/</link>
       <pubDate>Wed, 01 Mar 2017 23:28:47 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/noticias/001/</guid>
+      <guid>https://moonantonio.github.io/post/2017/comun/001/</guid>
       <description>Anunciado The Witch and the Hundred Knight 2 para PlayStation 4  El último número de la revista Famitsu revela que The Witch and the Hundred Knight 2 se lanzará en invierno de 2017 en las PlayStation 4 japonesas.
 El juego contará una nueva historia en un mundo diferente al de la primera entrega. En esta ocasión el tema será “brujas” y “enfermedad”, tomando los jugadores el rol del Hundred Knight (voz de Kaoru Mizuhara), invocado por la bruja Cerca para combatir bajo sus órdenes.</description>
     </item>
     
     <item>
       <title>Explicación IA básica</title>
-      <link>https://moonantonio.github.io/post/2017/clase/001/</link>
+      <link>https://moonantonio.github.io/post/2017/dev/015/</link>
       <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
-      <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
+      <guid>https://moonantonio.github.io/post/2017/dev/015/</guid>
+      <description>IA en Videojuegos Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
 Los mas comunes en videojuegos son:
  Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
     </item>
     
     <item>
-      <title>Comandos Git Fundamentales</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/001/</link>
+      <title>Comandos fundamentales de GIT</title>
+      <link>https://moonantonio.github.io/post/2017/dev/016/</link>
       <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/utiles/001/</guid>
+      <guid>https://moonantonio.github.io/post/2017/dev/016/</guid>
       <description>Los comandos fundamentales que se usan en git. Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.
 Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</description>
-    </item>
-    
-    <item>
-      <title>Nuevo Blog</title>
-      <link>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</link>
-      <pubDate>Mon, 27 Feb 2017 12:39:36 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</guid>
-      <description>Nuevo blog con una nueva estructura. Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.
-Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.
-Ahora va todo por secciones. ^^</description>
     </item>
     
     <item>
@@ -1635,18 +1625,17 @@ Ahora va todo por secciones. ^^</description>
       <pubDate>Fri, 21 Oct 2016 00:47:40 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/devblog/001/</guid>
-      <description>BLOQUEADO
-.\Moon</description>
+      <description>BLOQUEADO</description>
     </item>
     
     <item>
-      <title>Información sobre P.Ruby</title>
+      <title>Introducción</title>
       <link>https://moonantonio.github.io/post/2016/comun/001/</link>
       <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
-      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
-P.Ruby Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder desarrollar este proyecto.</description>
+      <description>Antes de nada, explicare por que de esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de devblog.
+DevBlog Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder iniciar a desarrollar este proyecto.</description>
     </item>
     
   </channel>

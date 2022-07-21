@@ -534,15 +534,6 @@
     </item>
     
     <item>
-      <title>Devblog</title>
-      <link>https://moonantonio.github.io/categories/devblog/</link>
-      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/devblog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Diario</title>
       <link>https://moonantonio.github.io/categories/diario/</link>
       <pubDate>Tue, 04 Apr 2017 23:04:52 +0200</pubDate>
@@ -791,15 +782,6 @@
       <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/categories/gestion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://moonantonio.github.io/categories/git/</link>
-      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/git/</guid>
       <description></description>
     </item>
     
@@ -1182,15 +1164,6 @@
     </item>
     
     <item>
-      <title>Noticia</title>
-      <link>https://moonantonio.github.io/categories/noticia/</link>
-      <pubDate>Wed, 01 Mar 2017 23:28:47 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/noticia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Noticias</title>
       <link>https://moonantonio.github.io/categories/noticias/</link>
       <pubDate>Tue, 09 Jan 2018 03:50:03 +0100</pubDate>
@@ -1259,15 +1232,6 @@
       <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/categories/oro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>P.ruby</title>
-      <link>https://moonantonio.github.io/categories/p.ruby/</link>
-      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/p.ruby/</guid>
       <description></description>
     </item>
     
@@ -1457,15 +1421,6 @@
       <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/categories/rpg-tactico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://moonantonio.github.io/categories/ruby/</link>
-      <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/categories/ruby/</guid>
       <description></description>
     </item>
     

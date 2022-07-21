@@ -116,18 +116,17 @@
       <pubDate>Fri, 21 Oct 2016 00:47:40 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/devblog/001/</guid>
-      <description>BLOQUEADO
-.\Moon</description>
+      <description>BLOQUEADO</description>
     </item>
     
     <item>
-      <title>Información sobre P.Ruby</title>
+      <title>Introducción</title>
       <link>https://moonantonio.github.io/post/2016/comun/001/</link>
       <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
-      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
-P.Ruby Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder desarrollar este proyecto.</description>
+      <description>Antes de nada, explicare por que de esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de devblog.
+DevBlog Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder iniciar a desarrollar este proyecto.</description>
     </item>
     
   </channel>

@@ -188,15 +188,5 @@ Quizás no lo hayas considerado pero esto es parte vital de la experiencia que t
       <description>¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra.</description>
     </item>
     
-    <item>
-      <title>C#: utilizar MEGA API CLIENT</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:32:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/001/</guid>
-      <description>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
-En esta entrada mostraré como desde un proyecto en .</description>
-    </item>
-    
   </channel>
 </rss>

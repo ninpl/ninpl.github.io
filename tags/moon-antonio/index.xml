@@ -1014,10 +1014,10 @@ Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se a
     
     <item>
       <title>Sorpresas en Mayo</title>
-      <link>https://moonantonio.github.io/post/2017/noticias/003/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/003/</link>
       <pubDate>Thu, 04 May 2017 18:23:01 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/noticias/003/</guid>
+      <guid>https://moonantonio.github.io/post/2017/comun/003/</guid>
       <description>Sorpresas buenas !! 
 Si le dais la oportunidad, sabed que es un juego que puede merecer más cariño del que recibe si llegas a dominarlo y encontrarle sus bondades. Si no, lo aborrecerás al momento. Al fin y al cabo, quedar encerrado en un mundo digital viviendo permanentemente tus tiempos de instituto para olvidar tu sufrimiento en el mundo real también genera un debate en muchas personas, por lo que le sienta bien que sea un título difícil de definir.</description>
     </item>
@@ -1176,6 +1176,37 @@ Para la versión de Steam, reemplazas directamente algunos de los archivos del j
     </item>
     
     <item>
+      <title>The Witch and the Hundred Knight 2</title>
+      <link>https://moonantonio.github.io/post/2017/comun/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:28:47 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/001/</guid>
+      <description>Anunciado The Witch and the Hundred Knight 2 para PlayStation 4  El último número de la revista Famitsu revela que The Witch and the Hundred Knight 2 se lanzará en invierno de 2017 en las PlayStation 4 japonesas.
+El juego contará una nueva historia en un mundo diferente al de la primera entrega. En esta ocasión el tema será “brujas” y “enfermedad”, tomando los jugadores el rol del Hundred Knight (voz de Kaoru Mizuhara), invocado por la bruja Cerca para combatir bajo sus órdenes.</description>
+    </item>
+    
+    <item>
+      <title>Explicación IA básica</title>
+      <link>https://moonantonio.github.io/post/2017/dev/015/</link>
+      <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/015/</guid>
+      <description>IA en Videojuegos Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
+Los mas comunes en videojuegos son:
+ Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
+    </item>
+    
+    <item>
+      <title>Comandos fundamentales de GIT</title>
+      <link>https://moonantonio.github.io/post/2017/dev/016/</link>
+      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/016/</guid>
+      <description>Los comandos fundamentales que se usan en git. Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.
+Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</description>
+    </item>
+    
+    <item>
       <title>[PROTOTIPO][#12] Mini Demo Interna</title>
       <link>https://moonantonio.github.io/post/2017/devblog/001/</link>
       <pubDate>Fri, 06 Jan 2017 01:07:54 +0100</pubDate>
@@ -1280,18 +1311,17 @@ Para la versión de Steam, reemplazas directamente algunos de los archivos del j
       <pubDate>Fri, 21 Oct 2016 00:47:40 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/devblog/001/</guid>
-      <description>BLOQUEADO
-.\Moon</description>
+      <description>BLOQUEADO</description>
     </item>
     
     <item>
-      <title>Información sobre P.Ruby</title>
+      <title>Introducción</title>
       <link>https://moonantonio.github.io/post/2016/comun/001/</link>
       <pubDate>Fri, 14 Oct 2016 23:43:11 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
-      <description>Antes de nada, explicare que es #P.Ruby y por que esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de #P.Ruby.
-P.Ruby Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder desarrollar este proyecto.</description>
+      <description>Antes de nada, explicare por que de esta entrada. Después explicare un poco en que consisten estos nuevos cambios y mi motivación. Por ultimo desarrollare una solución de seguimiento de devblog.
+DevBlog Un proyecto que tenia en mente desde hace bastante tiempo, pero que por falta de tiempo y conocimientos no podía empezar. Lamentablemente sigo sin tiempo, pero si que ya llevo unos años estudiando en un campo más técnico y por lo tanto, tengo conocimientos para poder iniciar a desarrollar este proyecto.</description>
     </item>
     
   </channel>

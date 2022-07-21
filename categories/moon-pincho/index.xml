@@ -296,10 +296,10 @@ Para NGUI
     
     <item>
       <title>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles</title>
-      <link>https://moonantonio.github.io/post/2017/noticias/002/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/002/</link>
       <pubDate>Thu, 02 Mar 2017 18:44:00 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/noticias/002/</guid>
+      <guid>https://moonantonio.github.io/post/2017/comun/002/</guid>
       <description>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles FuRyu ha liberado el primer tráiler y dado más detalles de The Alliance Alive, su nuevo RPG para Nintendo 3DS desarrollado por Cattle Call (Legend of Legacy) y que cuenta con historia de Yoshitaka Murayama, creador de Suikoden.
 La historia
 Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias.</description>
@@ -312,58 +312,6 @@ Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmo
       
       <guid>https://moonantonio.github.io/post/2017/dev/001/</guid>
       <description>¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra.</description>
-    </item>
-    
-    <item>
-      <title>C#: utilizar MEGA API CLIENT</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:32:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/001/</guid>
-      <description>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.
-En esta entrada mostraré como desde un proyecto en .</description>
-    </item>
-    
-    <item>
-      <title>The Witch and the Hundred Knight 2</title>
-      <link>https://moonantonio.github.io/post/2017/noticias/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:28:47 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/noticias/001/</guid>
-      <description>Anunciado The Witch and the Hundred Knight 2 para PlayStation 4  El último número de la revista Famitsu revela que The Witch and the Hundred Knight 2 se lanzará en invierno de 2017 en las PlayStation 4 japonesas.
-El juego contará una nueva historia en un mundo diferente al de la primera entrega. En esta ocasión el tema será “brujas” y “enfermedad”, tomando los jugadores el rol del Hundred Knight (voz de Kaoru Mizuhara), invocado por la bruja Cerca para combatir bajo sus órdenes.</description>
-    </item>
-    
-    <item>
-      <title>Explicación IA básica</title>
-      <link>https://moonantonio.github.io/post/2017/clase/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:25:12 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/001/</guid>
-      <description>IA en Videojuegos (Clase) Hay diferentes tipos de IA clasificados por el tipo de uso de su algoritmo.
-Los mas comunes en videojuegos son:
- Juegos de suma cero: Minimax Búsqueda de caminos: A* Agentes inteligentes Maquina de estados finitos Redes neuronales Algoritmos genéticos Redes evolutivas: rtNeat  Juegos de suma cero son juegos en los que solo tienen 2 resultados, o 3. Como por ejemplo el ajedrez, Minimax es un algoritmo para realizar la elección de la mejor acción para ganar.</description>
-    </item>
-    
-    <item>
-      <title>Comandos Git Fundamentales</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:20:28 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/001/</guid>
-      <description>Los comandos fundamentales que se usan en git. Los comandos fundamentales que se usan en git son muchos, pero dependiendo del tipo de control de versiones que uno esta realizando en ese momento.
-Por ejemplo si estas haciendo un control de versiones de un proyecto en el que solo participas tu, usaras los indispensables ya que con dejar el proyecto abierto para que otros puedas entrar sin problemas de cambiar la config sobra.</description>
-    </item>
-    
-    <item>
-      <title>Nuevo Blog</title>
-      <link>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</link>
-      <pubDate>Mon, 27 Feb 2017 12:39:36 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</guid>
-      <description>Nuevo blog con una nueva estructura. Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.
-Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.
-Ahora va todo por secciones. ^^</description>
     </item>
     
   </channel>

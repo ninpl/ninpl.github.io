@@ -53,16 +53,5 @@ Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa muc
 Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;</description>
     </item>
     
-    <item>
-      <title>Nuevo Blog</title>
-      <link>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</link>
-      <pubDate>Mon, 27 Feb 2017 12:39:36 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/nuevo-blog/</guid>
-      <description>Nuevo blog con una nueva estructura. Despues del cambio de nombre en GitHub y en las demas plataformas, e decidio tambien cambiar el blog.
-Visualmente es el mismo, pero internamente se han realizado unos cambios para una mejor distribucion.
-Ahora va todo por secciones. ^^</description>
-    </item>
-    
   </channel>
 </rss>
