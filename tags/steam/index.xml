@@ -43,20 +43,5 @@ Simplemente haga clic en el botón en la parte superior derecha.
 Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura es igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.</description>
     </item>
     
-    <item>
-      <title>¿Como subir gifs al perfil de steam?</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/008/</link>
-      <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/008/</guid>
-      <description>Subir un gif a modo de exposicion a Steam 
-Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
-Paso 1 
-Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
-
-Paso 2 
-Ir a la consola y pegar el siguiente código:</description>
-    </item>
-    
   </channel>
 </rss>

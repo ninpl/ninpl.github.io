@@ -65,15 +65,5 @@ Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TF
       <description>Github nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de publicar nuestro código en Github si cumple una serie de pasos previos.</description>
     </item>
     
-    <item>
-      <title>Organizacion en GitHub</title>
-      <link>https://moonantonio.github.io/post/2017/diario/002/</link>
-      <pubDate>Tue, 14 Mar 2017 19:53:02 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/002/</guid>
-      <description>Despues de revisar mis repositorios en las diferentes plataformas(GitHub,GitLab,BitBucket), e visto que tengo un lio infernal, muchos proyectos desordenados, sin ningun patron general para la hora de buscarlos, diferentes tags que a veces no son muy precisas &amp;hellip; y un largo x de cosas mejorables.
-Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;</description>
-    </item>
-    
   </channel>
 </rss>

@@ -53,27 +53,5 @@ Por ultimo en los ajustes de graficos, quitar el anti-aliasing que viene por def
 Anti-Aliased Es un proceso de reduccion de los bordes dentados , con la que se añade una interpolacion para tratar de suavizar los bordes y dejarlos mas lisos.</description>
     </item>
     
-    <item>
-      <title>Iluminacion con Unity 5</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/004/</link>
-      <pubDate>Sat, 18 Mar 2017 18:59:13 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/004/</guid>
-      <description>Jeryce Dianingana compartió sus pensamientos sobre la construcción de escenas realistas mejoradas en Unity 5.
-
-Poner a prueba la iluminación de Unity Siempre he querido reproducir una iluminación real desde un entorno real, así que probé en un primer momento para tomar la foto real en mi ciudad, apartamento, pero no soy una buena fotografa, así que fui a Pinterest, Me encanta este sitio web, es uno de los mejores para mí para encontrar la referencia.</description>
-    </item>
-    
-    <item>
-      <title>Gestor de Escenas</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/005/</link>
-      <pubDate>Wed, 15 Mar 2017 13:02:10 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/005/</guid>
-      <description>Despues de evaluar lo necesario para el TFG, vi que requeriamos de un gestor de escenas, en la que se pudiera cambair de escena, desde el editor y en runtime con variaciones.
- Editor -&amp;gt; cambiar generalmente de forma rapida y precisa. Runtime -&amp;gt; cambiar entre cargar escena copleta y cargar mediante Sync.
- Por ello propuse un Gestor de Escenas en la que uno mismo podria cambiar siempre de escena en cualquier lado.</description>
-    </item>
-    
   </channel>
 </rss>

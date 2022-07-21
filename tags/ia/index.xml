@@ -21,18 +21,5 @@
 ¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV.</description>
     </item>
     
-    <item>
-      <title>NavMesh Unity3D</title>
-      <link>https://moonantonio.github.io/post/2017/clase/007/</link>
-      <pubDate>Mon, 24 Apr 2017 12:52:34 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/007/</guid>
-      <description>Al final del proceso de implementación de la escena, bakear los elementos que se quieran navegar.
-Abrir el inspector Navigation.
-Entre las 4 pestañas, usar la de objects para seleccionar todos los objetos navegables.
-Bake para bakear la escena.
-Áreas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rápido.</description>
-    </item>
-    
   </channel>
 </rss>
