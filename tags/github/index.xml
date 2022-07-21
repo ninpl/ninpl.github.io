@@ -75,21 +75,5 @@ Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TF
 Por el momento me e interesado en crear en GitHub un repositorio para controlar los diferentes repos desde ahi, claro esta que las demas plataformas van para mucho tiempo, sin mas BitBucket es un pozo sin fondo de repos sin readme, sin descripcion, 0 imagenes, 0 documentacion &amp;hellip;</description>
     </item>
     
-    <item>
-      <title>Unity3D Preloader [Logo]</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/002/</link>
-      <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
-      <description>Unity Preloader Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
-Esta version esta probada para Unity3D 5.5.1p4.
-El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.
-
-Antes de empezar: Para UGUI
-Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.
-Para NGUI
-  Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.</description>
-    </item>
-    
   </channel>
 </rss>

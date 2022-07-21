@@ -45,35 +45,5 @@ Solo pondre esto ya que es muy tedioso y tendria que tener la entrada activa muc
  Por ello propuse un Gestor de Escenas en la que uno mismo podria cambiar siempre de escena en cualquier lado.</description>
     </item>
     
-    <item>
-      <title>Primera reunión sobre el TFG</title>
-      <link>https://moonantonio.github.io/post/2017/clase/005/</link>
-      <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
-      <description>Ambiente Algunos puntos a destacar sobre el ambiente:
- Realidad aumentada. Arboles holografiados Muscan  
- Neonizada Wadim  
- Muy vivoBravo  
- Realismo Touho  
- Variación de profundidad Touho  
-Datos técnicos  Edificios:
- LOD desde 2 planta hacia arriba.
-3 Tipos de LOD.
-3 tipos generales y props para modular.
-   Circulación:
- Coches solo vuelan por arriba.</description>
-    </item>
-    
-    <item>
-      <title>Mecánicas TFG - Investigación</title>
-      <link>https://moonantonio.github.io/post/2017/clase/002/</link>
-      <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
-      <description>Mecánicas presentadas para el TFG Al comienzo de la investigación, se propuso unas mecánicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecánicas &amp;amp; algunas funcionalidades previstas:
-  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.   También tiene extras como:</description>
-    </item>
-    
   </channel>
 </rss>

@@ -148,62 +148,42 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img048.png')">
+		<header style="background-image: url('https://moonantonio.github.io/img/b/b016.jpg')">
 			<h1 class="title">Consejos para organizar tus proyectos</h1>
 		</header>
 
 	<section class="post-content">
 		
 
-<p>Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características. Esto también es cierto con respecto a cualquier proyecto de Unity3D. Éstos son (en mi opinión) los más importantes consejos que le ayudarán a mantener su proyecto organizado.</p>
+<p>Vi a una persona en <a href="https://bit.ly/3RNloro">Quora</a>, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más <strong>difícil de mantener y eso es un hecho</strong>. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener difícil mantener el ritmo. Más tarde, se encontrará <strong>perdiendo el tiempo con un proyecto desordenado</strong> en lugar de añadir nuevas características. Esto también es cierto con respecto a cualquier proyecto de Unity3D. Éstos son (en mi opinión) los más importantes consejos que le ayudarán a mantener su proyecto organizado.</p>
 
 <h1 id="estructura-del-directorio">Estructura del Directorio</h1>
 
-<p>No podemos hablar de la organización sin mencionar la organización de la estructura de directorios del proyecto. Unity le da una total libertad en esa materia, pero debido a que, con frecuencia puede ser muy desordenado. Esta es la estructura de directorios que utilizo personalmente:</p>
+<p>No podemos hablar de la organización sin mencionar la <strong>organización de la estructura de directorios</strong> del proyecto. Unity le da una total libertad en esa materia, pero debido a que, con frecuencia puede ser muy desordenado. Esta es la estructura de directorios que utilizo personalmente:</p>
 
-<blockquote>
-<p>-Third party</p>
+<pre><code class="language-C#">.
+├── Alexandria
+│   └── moonantonio
+├── Gizmos
+├── Third party
+│   ├── Libreria externa
+│   └── Otros
+├── Nombre proyecto
+│   ├── Resources
+│   │   ├── Animaciones
+│   │   ├── Audio
+│   │   └── Modelos
+│   ├── Shaders
+│   ├── Prefabs
+│   ├── Escenas
+│   └── Scripts
+│       ├── Mono
+│       └── Editor
+└── Plugins
+    ├── AURA
+    └── GAIA
 
-<p>-Plugins</p>
-
-<p>-Nombre proyecto</p>
-
-<blockquote>
-<p>-Resources</p>
-
-<blockquote>
-<p>-Animaciones</p>
-
-<p>-Audio</p>
-
-<blockquote>
-<p>-Música</p>
-
-<p>-SFX</p>
-</blockquote>
-
-<p>-Modelos</p>
-
-<blockquote>
-<p>-Materiales</p>
-</blockquote>
-
-<p>-Texturas</p>
-</blockquote>
-
-<p>-Shaders</p>
-
-<p>-Prefabs</p>
-
-<p>-Escenas</p>
-
-<p>-Scripts</p>
-
-<blockquote>
-<p>-Editor</p>
-</blockquote>
-</blockquote>
-</blockquote>
+</code></pre>
 
 <p>1.- <strong>No guarde los archivos de assets en el directorio raíz</strong>. Utilizar subdirectorios siempre que sea posible.</p>
 
@@ -211,11 +191,11 @@
 
 <p>3.- <strong>Sea consistente con el nombramiento</strong>. Utilizar nombres predictivos.</p>
 
-<p>4.- <strong>No trate de mover assets del contexto específico que los directorios generales</strong>. Por ejemplo, si hay materiales generados a partir del modelo, no moverlos a Materiales porque después no sabrá dónde viene esto.</p>
+<p>4.- <strong>No trate de mover assets del contexto específico que los directorios generales</strong>. Por ejemplo, si hay materiales generados a partir del modelo, no moverlos a Materiales porque después no sabrá de dónde viene esto.</p>
 
 <p>5.- <strong>Utilice 3ª Party para almacenar los bienes importados desde el almacén de activos</strong>. Por lo general tienen su propia estructura que no debe ser alterada.</p>
 
-<p>6.- <strong>Utilice recinto de seguridad  del directorio para todos los experimentos</strong>. Mientras se trabaja en este tipo de cosas, la última cosa que desea tener en cuenta es una organización adecuada. Hagan lo que quieran, y luego quitarlo u organizar cuando usted está seguro de que lo desea incluir en su proyecto. Cuando estás trabajando en un proyecto con otras personas, crear el subdirectorio de recinto de seguridad personal como:  Alexandria/MoonPincho .</p>
+<p>6.- <strong>Utilice recinto de seguridad del directorio para todos los experimentos</strong>. Mientras se trabaja en este tipo de cosas, la última cosa que desea tener en cuenta es una organización adecuada. Hagan lo que quieran, y luego quitarlo u organizar cuando usted está seguro de que lo desea incluir en su proyecto. Cuando estás trabajando en un proyecto con otras personas, <strong>crear el subdirectorio de recinto de seguridad personal como: Alexandria/moonantonio</strong>.</p>
 
 <h1 id="estructura-de-la-jerarquía-de-escena">Estructura de la jerarquía de escena</h1>
 
@@ -227,30 +207,30 @@
 <li>Indispensables</li>
 <li>Luces</li>
 <li>Environment</li>
-<li>Dinamicos</li>
+<li>Dinámicos</li>
 </ul>
 
 <p>Hay varias reglas que debe seguir:</p>
 
-<p>1.- Todos los objetos vacíos deben estar ubicados en 0,0,0 con la rotación y la escala predeterminada.</p>
+<p>1.- Todos los <strong>objetos vacíos deben estar ubicados en 0,0,0</strong> con la rotación y la escala predeterminada.</p>
 
-<p>2.- Mantén siempre la jerarquía aun instanciando objetos.</p>
+<p>2.- <strong>Mantén siempre la jerarquía</strong> aun instanciando objetos.</p>
 
-<p>3.- Para los objetos vacíos que sólo son contenedores para los scripts, el uso de &ldquo;@&rdquo; como prefijo - por ejemplo @Cheats</p>
+<p>3.- Para los objetos vacíos que sólo son contenedores para los scripts, el <strong>uso de &ldquo;@&rdquo; como prefijo</strong> - por ejemplo @Cheats</p>
 
 <h1 id="usar-prefabs-para-todo">Usar prefabs para todo</h1>
 
-<p>Prefabs en Unity3D no son perfectos, pero son lo mejor que encontrará en jerarquías preconfiguradas de objetos. En términos generales, intentar crear prefabs de todo lo que se pone en sus escenas . Usted debe ser capaz de crear un nuevo nivel de una escena vacía simplemente añadiendo uno o más prefabs.</p>
+<p>Los Prefabs en Unity3D no son perfectos, pero son lo mejor que encontrará en jerarquías preconfiguradas de objetos. En términos generales, intentar <strong>crear prefabs de todo lo que se pone en sus escenas</strong>. Usted debe ser capaz de crear un nuevo nivel de una escena vacía simplemente añadiendo uno o más prefabs.</p>
 
-<p>La razón por la que debe usar los prefabs es que cuando cambias un prefabs, todos los prefabs cambian también. Si tienes 100 niveles y desea agregar un efecto de cámara en todos ellos? ¡No es un problema! Si la cámara es un prefabs, basta con añadir un efecto de cámara a la cámara prefab!</p>
+<p>La razón por la que debe usar los prefabs es que cuando cambias un prefabs, todos los prefabs cambian también. ¿Si tienes 100 niveles y desea agregar un efecto de cámara en todos ellos? ¡No es un problema! Si la cámara es un prefabs, basta con añadir un efecto de cámara a la cámara prefab!</p>
 
 <p>Tenga en cuenta que no se puede tener un prefab en otro prefab.</p>
 
 <h1 id="aprende-a-usar-el-sistema-de-control-de-versiones-vcs">Aprende a usar el sistema de control de versiones (VCS)</h1>
 
-<p>Usted ya sabe algo acerca de GIT, subversión o cualquier otro VCS por ahí. Como cuestión de hecho, &ldquo;saber algo&rdquo; es sólo una pequeña parte de lo que usted puede aprender. Usted debe centrarse en el aprendizaje acerca de las características mas importantes de uso poco frecuente de VCS de su elección. ¿Por qué? Sobre todo porque los sistemas de control de versiones son mucho más potentes que usted piensa, y por desgracia muchos usuarios están utilizando estos como nada más que una copia de seguridad y soluciones sincronizadas. Por ejemplo, ¿sabía que le permite GIT guardar los cambios, para que pueda trabajar en ellos más adelante sin cometer cualquier cosa a su rama principal?</p>
+<p>Usted ya sabe algo acerca de <a href="https://bit.ly/3v4iXH8">GIT</a>, subversión o cualquier otro VCS por ahí. Como cuestión de hecho, &ldquo;saber algo&rdquo; es sólo una pequeña parte de lo que usted puede aprender. Usted debe centrarse en el aprendizaje acerca de las características mas importantes de uso poco frecuente de VCS de su elección. ¿Por qué? Sobre todo porque los <strong>sistemas de control de versiones son mucho más potentes</strong> de lo que usted piensa, y por desgracia muchos usuarios están utilizando estos como nada más que una copia de seguridad y soluciones sincronizadas. Por ejemplo, ¿sabía que le permite GIT guardar los cambios, para que pueda trabajar en ellos más adelante sin enviar cualquier cosa a su rama principal?</p>
 
-<p>Los programadores suelen comentar bloques de código en caso de que sea necesario más adelante. No hagas eso! Si está utilizando VCS, aprender a navegar rápidamente a versiones anteriores de un archivo. Cuando esté familiarizado con ella, su código sera mucho más agradable sin un bloque innecesario de código comentado.</p>
+<p>Los programadores suelen comentar <strong>bloques de código en caso de que sea necesario</strong> más adelante. No hagas eso! Si está utilizando VCS, aprenda a navegar rápidamente a versiones anteriores de un archivo. Cuando esté familiarizado con ella, su código sera mucho más agradable sin un bloque innecesario de código comentado.</p>
 
 <p>Aquí hay un buen recurso de consejos para los usuarios GIT:  <a href="http://gitready.com/">http://gitready.com/</a></p>
 
@@ -258,7 +238,7 @@
 
 <p>Unity3D es un gran motor de juego en materia de extensibilidad. Aprender a escribir scripts del editor. Sí es necesario, no es necesario crear GUI de lujo para los scripts, puede ser algo simple, como las entradas de menú que están haciendo algo útil.</p>
 
-<p>.\Moon</p>
+<p><strong>.\Moon</strong></p>
 
 
 		

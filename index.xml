@@ -1264,12 +1264,12 @@ Por el momento me e interesado en crear en GitHub un repositorio para controlar 
     </item>
     
     <item>
-      <title>Investigacion sobre RPGs</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/003/</link>
+      <title>Investigación sobre RPGs</title>
+      <link>https://moonantonio.github.io/post/2017/comun/007/</link>
       <pubDate>Tue, 14 Mar 2017 01:49:51 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/utiles/003/</guid>
-      <description>Presentacion Bueno, despues de darle varias vueltas y buscar mucha informacion, e decidido por fin redactar una investigacion sobre los rpgs y sus puntos. Esto sera una copilacion de diferentes juegos que han tenido exito y los puntos fuertes de cada juego, en su resumen la globalidad de todo eso (aunque no sea una investigacion total), sera una linea por la que seguir y ver todas las referencias de los padres de los RPGs.</description>
+      <guid>https://moonantonio.github.io/post/2017/comun/007/</guid>
+      <description>Bueno, después de darle varias vueltas y buscar mucha información, por fin puedo redactar una investigación sobre los rpgs y sus puntos. Esto sera una compilación de 2 diferentes juegos que han tenido éxito y los puntos fuertes de cada juego, en su resumen (aunque no sea una investigación total), sera una linea por la que seguir y ver todas las referencias de los padres de estos 2 RPGs.</description>
     </item>
     
     <item>
@@ -1278,7 +1278,7 @@ Por el momento me e interesado en crear en GitHub un repositorio para controlar 
       <pubDate>Mon, 13 Mar 2017 19:36:17 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/003/</guid>
-      <description>Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características.</description>
+      <description>Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener difícil mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características.</description>
     </item>
     
     <item>
@@ -1287,190 +1287,125 @@ Por el momento me e interesado en crear en GitHub un repositorio para controlar 
       <pubDate>Mon, 13 Mar 2017 19:10:22 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/002/</guid>
-      <description>Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.</description>
+      <description>Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho sea más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No tiene que temer a nada, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.</description>
     </item>
     
     <item>
-      <title>Pintura Del Dia -12-03-2017-</title>
+      <title>Imagen del dia [12.03.2017]</title>
       <link>https://moonantonio.github.io/post/2017/imagen/003/</link>
       <pubDate>Sun, 12 Mar 2017 23:50:54 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/003/</guid>
-      <description> Imagen del dia [12.03.2017] 
-  ^^
- </description>
+      <description>^^</description>
     </item>
     
     <item>
-      <title>Bakeo simple en Unity3d</title>
-      <link>https://moonantonio.github.io/post/2017/clase/006/</link>
+      <title>Oficios de Bravely Default</title>
+      <link>https://moonantonio.github.io/post/2017/comun/006/</link>
+      <pubDate>Thu, 09 Mar 2017 22:27:20 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/006/</guid>
+      <description>Esta entrada muestra información sobre el videojuego Bravely Default. El videojuego se ambienta en el mundo de Luxendrac, que se mantiene en equilibrio gracias a los 4 cristales elementales protegidos por la religión de &amp;lsquo;Crystal Orthodoxy&amp;rsquo;, un grupo que tiene influencias alrededor del mundo.
+OFICIOS
+ FREELANCER     El Freelancer es un trabajo equilibrado en general con un dominio medio en todas las estadísticas y tipos de equipos.</description>
+    </item>
+    
+    <item>
+      <title>Bakeo simple en Unity3D</title>
+      <link>https://moonantonio.github.io/post/2017/dev/021/</link>
       <pubDate>Thu, 09 Mar 2017 22:24:10 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/clase/006/</guid>
-      <description>Bakeo simple en Unity3d 
-Primero preparamos la escena, con colores planos (simples) y algún objeto para representar en la escena, como una esfera.
+      <guid>https://moonantonio.github.io/post/2017/dev/021/</guid>
+      <description>Primero preparamos la escena, con colores planos (simples) y algún objeto para representar en la escena, como una esfera.
 
-Luego configuramos la iluminación para el quemado. Lo mas importante seria el echo de quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
+Luego configuramos la iluminación para el quemado. Lo mas importante seria quitar el bakeo y seleccionar en tiempo real para preparar la escena entera.
 
-Añadimos una pequeña animación para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.</description>
+Añadimos una pequeña animación para el movimiento de la luz direccional para ver en tiempo real el movimiento y si esta bien configurado.
+public float v = 5; private void Update(){ this.</description>
     </item>
     
     <item>
-      <title>Primera reunión sobre el TFG</title>
-      <link>https://moonantonio.github.io/post/2017/clase/005/</link>
-      <pubDate>Thu, 09 Mar 2017 22:08:02 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/005/</guid>
-      <description>Ambiente Algunos puntos a destacar sobre el ambiente:
- Realidad aumentada. Arboles holografiados Muscan  
- Neonizada Wadim  
- Muy vivoBravo  
- Realismo Touho  
- Variación de profundidad Touho  
-Datos técnicos  Edificios:
- LOD desde 2 planta hacia arriba.
-3 Tipos de LOD.
-3 tipos generales y props para modular.
-   Circulación:
- Coches solo vuelan por arriba.</description>
-    </item>
-    
-    <item>
-      <title>Clase de sistemas de partículas - Unity3D</title>
-      <link>https://moonantonio.github.io/post/2017/clase/004/</link>
-      <pubDate>Thu, 09 Mar 2017 22:01:36 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/004/</guid>
-      <description>Clase de sistemas de partículas - Unity3D 
-Los parámetros mas usados son, Base, emisión y renderer.
- Parámetros Base
- Duración: La vida que tendrá todas las partículas.
-Looping: Crea un loop por el cual crea un loop de las partículas.
-Prewarm: Aparecen todas las partículas directamente (No se inician poco a poco).
-Start Delay: El tiempo que tardan en empezar.
-Start Lifetime: El tiempo desde que sale hasta que desaparece.</description>
-    </item>
-    
-    <item>
-      <title>Nier Automata</title>
-      <link>https://moonantonio.github.io/post/2017/juegos/002/</link>
-      <pubDate>Thu, 09 Mar 2017 21:57:40 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/juegos/002/</guid>
-      <description>Nuevos vídeos de juego y personajes de NieR: Automata  Hoy se ha celebrado un evento dedicado a NieR: Automata desde el que nos dejan detalles de nuevos personajes y nuevos vídeos varios.
- 
- El primero de ellos es YoRHa No.9 Type S, o 9S, que es tan amable y sincero como infantil, siendo especialista en conseguir información gracias a sus capacidades como hacker. Su voz es la de Yui Ishikawa.</description>
-    </item>
-    
-    <item>
-      <title>MTodo Tool - Unity3D</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/004/</link>
+      <title>MTodo Tool</title>
+      <link>https://moonantonio.github.io/post/2017/dev/020/</link>
       <pubDate>Thu, 09 Mar 2017 21:54:00 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/programacion/004/</guid>
-      <description>MTodo Tool - Unity3D Herramienta sencilla para hacer un seguimiento del codigo en Unity3D
-
-MTodo analiza la sintaxis de tu codigo con categorias. Por ejemplo, supongamos que tienes una categoria de BUG.
-En la linea de tu codigo donde se encuentra ese bug, pondria :
- // &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt;
-// BUG Aqui hay un bug.
- De este modo, tendras en un sitio todos los mensajes que vallas dejando, siempre y cuando uses primero la categoria.</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/020/</guid>
+      <description>MTodo Tool es una herramienta sencilla para hacer un seguimiento del código en Unity3D
+MTodo analiza la sintaxis de tu código con categorías / etiquetas. Por ejemplo, supongamos que tienes una categoría de BUG, en la linea de tu código donde se encuentra ese bug, pondría :
+// &amp;lt; Categoria &amp;gt; &amp;lt; Mensaje &amp;gt; // BUG Aquí hay un bug.  MTodo analizara todas las lineas de tu solución y recopilara todas las etiquetas que tengan una concordancia con las categorías que se estipulen dentro de la herramienta, dando un sitio central donde se concentra toda la información encontrada.</description>
     </item>
     
     <item>
-      <title>MDevScripts y por que.</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/003/</link>
+      <title>MDevScripts</title>
+      <link>https://moonantonio.github.io/post/2017/dev/019/</link>
       <pubDate>Thu, 09 Mar 2017 21:50:01 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/programacion/003/</guid>
-      <description>¿Por que publicar algo tan sencillo? Bueno, simplemente para poder hacer rapidamente funcionalidades sin tener que crear scripts nuevos y sin tener que arbitrar entre la solucion mas optima, ya que es un prototipado lo que primero se hace.
-Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rapidamente y asi concentrarme en la mecanica que en si es la que mas trabajo lleva de un prototipo.</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/019/</guid>
+      <description>¿Por que publicar algo tan sencillo? Bueno, simplemente para poder hacer rápidamente funcionalidades sin tener que crear scripts nuevos y sin tener que arbitrar entre la solución mas optima, ya que en un prototipado lo que primero se hace es volver a crear los scripts básicos.
+Por ello uso estos scripts, que hacen que por ejemplo el environment se cree rápidamente y asi concentrarme en la mecánica que en si es la que mas trabajo lleva de un prototipo.</description>
     </item>
     
     <item>
       <title>Bravely</title>
-      <link>https://moonantonio.github.io/post/2017/juegos/001/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/005/</link>
       <pubDate>Wed, 08 Mar 2017 23:47:13 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/juegos/001/</guid>
-      <description>La franquicia Bravely celebra su 4º aniversario insinuando posibles novedades  Hoy es 11 de octubre, día que marca el cuarto aniversario de la franquicia Bravely. La cuenta oficial de Twitter de la misma ha lanzado un tweet con una ilustración para conmemorar la ocasión y ha dejado caer que pronto podría haber novedades.
- El tweet reza: “¡Es el cuarto aniversario de Bravely! Sentimos la reciente falta de noticias.</description>
-    </item>
-    
-    <item>
-      <title>Agentes de Búsqueda y demás.</title>
-      <link>https://moonantonio.github.io/post/2017/clase/003/</link>
-      <pubDate>Mon, 06 Mar 2017 12:36:44 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/003/</guid>
-      <description>Agentes Los agentes de búsqueda, son agentes que tienen un objetivo, seguirán haciendo su función hasta terminar su búsqueda.
-Identifica una solución adecuada dentro del árbol de búsqueda.
-Primero se formula el objetivo y luego se formula el problema.
- Formulación del problema:   Estado inicial: El estado inicial del agente.
-Estados: Todos los posibles estados a los que el agente puede evolucionar a través de una secuencia.</description>
+      <guid>https://moonantonio.github.io/post/2017/comun/005/</guid>
+      <description>La franquicia Bravely celebra su 4º aniversario insinuando posibles novedades Hoy es 11 de octubre, día que marca el cuarto aniversario de la franquicia Bravely. La cuenta oficial de Twitter de la misma ha lanzado un tweet con una ilustración para conmemorar la ocasión y ha dejado caer que pronto podría haber novedades.
+ El tweet reza: “¡Es el cuarto aniversario de Bravely! Sentimos la reciente falta de noticias. ¡¿Habrá novedades pronto…?</description>
     </item>
     
     <item>
       <title>Mecánicas TFG - Investigación</title>
-      <link>https://moonantonio.github.io/post/2017/clase/002/</link>
+      <link>https://moonantonio.github.io/post/2017/comun/004/</link>
       <pubDate>Sun, 05 Mar 2017 23:39:48 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/clase/002/</guid>
+      <guid>https://moonantonio.github.io/post/2017/comun/004/</guid>
       <description>Mecánicas presentadas para el TFG Al comienzo de la investigación, se propuso unas mecánicas Hack &amp;amp; Slash estilo Devil May Cry, en base a ellas, vimos varias propuestas y redactamos lo que serian los cimientos de las mecánicas &amp;amp; algunas funcionalidades previstas:
-  Accionar y combinar combos, entre 4 estilos de lucha:    Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.   También tiene extras como:</description>
+Accionar y combinar combos, entre 4 estilos de lucha:  Ataque fuerte. Ataque rápido. Ataque a distancia. Salto / Salto doble.  También extras como:  Esquive. Bloqueo.</description>
     </item>
     
     <item>
-      <title>Unity3D Preloader [Logo]</title>
-      <link>https://moonantonio.github.io/post/2017/programacion/002/</link>
+      <title>Unity3D Carga de nivel [Logo]</title>
+      <link>https://moonantonio.github.io/post/2017/dev/018/</link>
       <pubDate>Sat, 04 Mar 2017 23:23:58 +0100</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/programacion/002/</guid>
-      <description>Unity Preloader Escena de preloader en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI.
-Esta version esta probada para Unity3D 5.5.1p4.
-El planteamiento era que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo.
-
-Antes de empezar: Para UGUI
-Solo tienes que entrar a la escena de ejemplo(SandBox) y reproducir.
-Para NGUI
-  Si se va a usar con NGUI, importar primero el plugin de NGUI y despues el package de u.</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/018/</guid>
+      <description>Escena de carga en Unity3D con varios ejemplos. Se puede usar plugins como NGUI o si lo prefieres el mismo UGUI incorporado en Unity 5+. Esta version esta probada para Unity3D 5.5.1p4.
+El planteamiento es que el logo siguiente, hiciera un fade-in y un fade-out en un tiempo. Es decir una transición hacia dentro y otra hacia afuera como se ve en el siguiente ejemplo. El repositorio de ejemplo lo tenéis al final de la entrada.</description>
     </item>
     
     <item>
-      <title>Pintura Del Dia -03-03-2017-</title>
+      <title>Imagen del dia [03.03.2017]</title>
       <link>https://moonantonio.github.io/post/2017/imagen/002/</link>
       <pubDate>Thu, 02 Mar 2017 22:42:52 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/002/</guid>
-      <description>Imagen del dia [03.03.2017] 
- Cazadora pelirroja con su lobo ^^
- Mu si</description>
+      <description>Cazadora pelirroja con su lobo ^^ Mu si</description>
     </item>
     
     <item>
-      <title>Pintura Del Dia -02-03-2017-</title>
+      <title>Imagen del dia [02.03.2017]</title>
       <link>https://moonantonio.github.io/post/2017/imagen/001/</link>
       <pubDate>Thu, 02 Mar 2017 19:28:34 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/imagen/001/</guid>
-      <description> Imagen del dia [02.03.2017] 
- Samus metroid, epica ^^
- </description>
+      <description>Samus metroid, épica ^^</description>
     </item>
     
     <item>
-      <title>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles</title>
+      <title>The Alliance Alive</title>
       <link>https://moonantonio.github.io/post/2017/comun/002/</link>
       <pubDate>Thu, 02 Mar 2017 18:44:00 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/comun/002/</guid>
-      <description>The Alliance Alive para Nintendo 3DS muestra su primer tráiler y revela más detalles FuRyu ha liberado el primer tráiler y dado más detalles de The Alliance Alive, su nuevo RPG para Nintendo 3DS desarrollado por Cattle Call (Legend of Legacy) y que cuenta con historia de Yoshitaka Murayama, creador de Suikoden.
+      <description>The Alliance Alive FuRyu ha liberado el primer tráiler y dado más detalles de The Alliance Alive, su nuevo RPG para Nintendo 3DS desarrollado por Cattle Call (Legend of Legacy) y que cuenta con historia de Yoshitaka Murayama, creador de Suikoden.
 La historia
-Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias.</description>
+Hace miles de años, el mundo habitado por los humanos fue invadido por los Asmodias. Los Asmodians invadieron el mundo para tomar el control de la “Energía del Caos”, algo que amenaza su propio mundo, se convirtieron en gobernantes y pusieron una “gran barrera” al planeta.</description>
     </item>
     
     <item>
-      <title>Investigacion Monomito</title>
+      <title>Investigación Monomito</title>
       <link>https://moonantonio.github.io/post/2017/dev/001/</link>
       <pubDate>Wed, 01 Mar 2017 23:38:17 +0100</pubDate>
       

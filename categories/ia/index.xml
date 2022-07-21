@@ -34,18 +34,5 @@ Bake para bakear la escena.
 Áreas para seleccionar el coste de ese terreno, por ejemplo si una area tiene un coste de 1 y otra area con menor distancia hasta el punto n, el NPC ira por el de coste menor ya que llegara mas rápido.</description>
     </item>
     
-    <item>
-      <title>Agentes de Búsqueda y demás.</title>
-      <link>https://moonantonio.github.io/post/2017/clase/003/</link>
-      <pubDate>Mon, 06 Mar 2017 12:36:44 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/clase/003/</guid>
-      <description>Agentes Los agentes de búsqueda, son agentes que tienen un objetivo, seguirán haciendo su función hasta terminar su búsqueda.
-Identifica una solución adecuada dentro del árbol de búsqueda.
-Primero se formula el objetivo y luego se formula el problema.
- Formulación del problema:   Estado inicial: El estado inicial del agente.
-Estados: Todos los posibles estados a los que el agente puede evolucionar a través de una secuencia.</description>
-    </item>
-    
   </channel>
 </rss>

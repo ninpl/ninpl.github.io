@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investigación on Antonio Moon´s</title>
+    <link>https://moonantonio.github.io/tags/investigaci%C3%B3n/</link>
+    <description>Recent content in Investigación on Antonio Moon´s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 01 Mar 2017 23:38:17 +0100</lastBuildDate>
+    
+	<atom:link href="https://moonantonio.github.io/tags/investigaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Investigación Monomito</title>
+      <link>https://moonantonio.github.io/post/2017/dev/001/</link>
+      <pubDate>Wed, 01 Mar 2017 23:38:17 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/001/</guid>
+      <description>¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra.</description>
+    </item>
+    
+  </channel>
+</rss>

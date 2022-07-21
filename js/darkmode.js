@@ -17,10 +17,8 @@ function setTheme(mode) {
     if (mode === "dark") {
         darkTheme.disabled = false;
         toggle.className = "fa fa-sun-o";
-        console.log("Dark OFF");
     } else if (mode === "light") {
         darkTheme.disabled = true;
         toggle.className = "fa fa-moon-o";
-        console.log("Dark ON");
     }
 }

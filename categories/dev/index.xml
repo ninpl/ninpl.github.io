@@ -161,32 +161,5 @@ Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TF
 Quizás no lo hayas considerado pero esto es parte vital de la experiencia que tu juego debería brindarle a sus jugadores, y es posible que hayas compilado tu juego de manera que no sea compatible con esta característica, si no has configurado las siguientes opciones en Edit &amp;gt; Project Settings &amp;gt; Player.</description>
     </item>
     
-    <item>
-      <title>Consejos para organizar tus proyectos</title>
-      <link>https://moonantonio.github.io/post/2017/dev/003/</link>
-      <pubDate>Mon, 13 Mar 2017 19:36:17 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/003/</guid>
-      <description>Vi a una persona en Quora, el otro día, preguntando cómo los programadores son capaces de escribir proyectos que constan de más de 10.000 líneas de código. Cuando el software se hace más grande, es más difícil de mantener y eso es un hecho. Así que aquí está la cosa - si usted no mantiene su proyecto organizado, vas a tener un tiempo difícil para mantener el ritmo. Más tarde, se encontrará perdiendo el tiempo con un proyecto desordenado en lugar de añadir nuevas características.</description>
-    </item>
-    
-    <item>
-      <title>Consejos para trabajar en equipo</title>
-      <link>https://moonantonio.github.io/post/2017/dev/002/</link>
-      <pubDate>Mon, 13 Mar 2017 19:10:22 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/002/</guid>
-      <description>Ya sea que esté trabajando en un equipo o en solitario, usted debe saber cómo trabajar de manera eficiente en un proyecto con otras personas. No sólo va a hacer que el trabajo en un solo proyecto con alguien mucho más fácil, sino también mejorar su estilo de codificación y las habilidades de gestión de proyectos de manera significativa. No es nada que temer, de verdad! Me gustaría explicar en unos pocos pasos cuáles son los aspectos más importantes del trabajo en equipo.</description>
-    </item>
-    
-    <item>
-      <title>Investigacion Monomito</title>
-      <link>https://moonantonio.github.io/post/2017/dev/001/</link>
-      <pubDate>Wed, 01 Mar 2017 23:38:17 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/001/</guid>
-      <description>¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra.</description>
-    </item>
-    
   </channel>
 </rss>
