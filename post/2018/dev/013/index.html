@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Unity Shader de acumulacion&middot; Antonio Moon´s</title>
+	<title>Unity Shader de acumulación&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -148,8 +148,8 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img113.png')">
-			<h1 class="title">Unity Shader de acumulacion</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/b/b054.jpg')">
+			<h1 class="title">Unity Shader de acumulación</h1>
 		</header>
 
 	<section class="post-content">
@@ -157,7 +157,7 @@
 
 <p>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo <strong>crear un efecto de imagen (sombreado de espacio de pantalla)</strong> que cambiará inmediatamente la temporada de su escena en Unity.</p>
 
-<p><center><img src="/img/case/nieve01.png"><img src="/img/case/nieve02.png"></center></p>
+<p><center><img src="/img/c/nieve01.png"><img src="/img/c/nieve02.png"></center></p>
 
 <h1 id="como-funciona">¿Como funciona?</h1>
 
@@ -170,13 +170,13 @@
 <p>Para que el efecto presentado funcione, requiere al menos dos cosas:</p>
 
 <ul>
-<li>Rendering path configurada como deferred (Por alguna razón, no pude adelantar la reproducción para que funcione correctamente con este efecto. El sombreador de profundidad se procesó incorrectamente. <strong>Si tiene alguna idea de por qué podría ser, hazmelo saber en el repositorio.</strong>)</li>
+<li>Rendering path configurada como deferred (Por alguna razón, no pude adelantar la reproducción para que funcione correctamente con este efecto. El sombreador de profundidad se procesó incorrectamente. <strong>Si tiene alguna idea de por qué podría ser, házmelo saber en el repositorio.</strong>)</li>
 <li>Camera.depthTextureMode establecido en DepthNormals</li>
 </ul>
 
 <hr />
 
-<p><center><a href="http://bit.ly/2EvTZZD" class="button">Repo Github</a></center></p>
+<p><center><a href="http://bit.ly/2EvTZZD" class="button"><i class="fa fa-github-alt"></i> GitHub</a></center></p>
 
 <hr />
 
@@ -338,7 +338,7 @@ half4 frag (v2f i) : SV_Target
 
 <hr />
 
-<p>En el codigo ¿Por qué se llama así? Puedes conocerlo en la documentación de Unity:</p>
+<p>En el código ¿Por qué se llama así? Puedes conocerlo en la documentación de Unity:</p>
 
 <blockquote>
 <p>Las texturas de profundidad están disponibles para mostrarse en shaders como propiedades de sombreado global. Al declarar una muestra llamada _CameraDepthTexture, podrá mostrar la textura de profundidad principal de la cámara.
@@ -368,7 +368,7 @@ _CameraDepthTexture Siempre se refiere a la textura de profundidad principal de 
 <p>Las normales recuperadas de esta manera son normales de <strong>espacio de cámara</strong>. Eso significa que si giramos la cámara, entonces también cambiará la orientación de los normales. No queremos eso, y por eso tenemos que multiplicarlo por  _CamToWorld, una matriz establecida en el script anterior. Convierte las normales de la cámara a coordenadas mundiales para que no dependan más de la perspectiva de la cámara.
 Para que el shader se compile, tiene que devolver algo, así que configuro la declaración de retorno como se ve arriba. Para ver si nuestros cálculos son correctos, es una buena idea obtener una vista previa del resultado.</p>
 
-<p><center><img src="/img/case/nieve03.png"></center></p>
+<p><center><img src="/img/c/nieve03.png"></center></p>
 
 <p>Estamos haciendo esto como RGB. En <strong>Unity el color verde muestra el valor de la coordenada Y</strong>.</p>
 
@@ -396,7 +396,7 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 
 <p>Deberíamos estar usando el <strong>canal G</strong>, por supuesto. Ahora, esto puede ser suficiente, pero me gusta iterar un poco más para poder configurar los <strong>umbrales superior e inferior del área nevada</strong>. Permitirá ajustar la cantidad de nieve que debería haber en la escena.</p>
 
-<p><center><img src="/img/case/nieve04.png"></center></p>
+<p><center><img src="/img/c/nieve04.png"></center></p>
 
 <h1 id="textura-de-nieve">Textura de nieve</h1>
 
@@ -467,13 +467,13 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 
 <hr />
 
-<p><center><img src="/img/case/nieve05.png"></center></p>
+<p><center><img src="/img/c/nieve05.png"></center></p>
 
 <p>El toque final, vamos a establecer el valor _TopThreshold en 0.6:</p>
 
-<p><center><img src="/img/case/nieve06.gif"></center></p>
+<p><center><img src="/img/c/nieve06.gif"></center></p>
 
-<p>.\Moon</p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		

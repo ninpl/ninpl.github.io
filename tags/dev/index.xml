@@ -6,20 +6,10 @@
     <description>Recent content in Dev on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 07 Nov 2018 16:51:53 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 27 Oct 2018 16:15:50 +0200</lastBuildDate>
     
 	<atom:link href="https://moonantonio.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Pechos en videojuegos - Fisicas</title>
-      <link>https://moonantonio.github.io/post/2018/comun/021/</link>
-      <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/comun/021/</guid>
-      <description>Los pechos oscilan. Ellos caen y se pueden mover. A lo largo de los años, muchos juegos han intentado emular el comportamiento de los pechos. Incluso hay un término para ello: &amp;ldquo;Breast physics&amp;rdquo;.
-Si has jugado a juegos que tienen física en los pechos, probablemente hayas visto lo poco común que son los juegos que muestran los pechos como realmente se mueven: bolsas de grasa afectadas por la gravedad. En cambio, es más probable que un juego represente los pechos como globos de helio que tienen sus propias mentes y fuerzas gravitatorias.</description>
-    </item>
     
     <item>
       <title>Ingeniería inversa :: ¿Qué sacar de esto?</title>
@@ -27,8 +17,28 @@ Si has jugado a juegos que tienen física en los pechos, probablemente hayas vis
       <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/dev/014/</guid>
-      <description>Llevo unos dias profundizando sobre este tema, hasta ahora solo habia realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
+      <description>Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
 La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.</description>
+    </item>
+    
+    <item>
+      <title>Unity Shader de acumulación</title>
+      <link>https://moonantonio.github.io/post/2018/dev/013/</link>
+      <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/013/</guid>
+      <description>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
+
+¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara.</description>
+    </item>
+    
+    <item>
+      <title>Localización usando .PO</title>
+      <link>https://moonantonio.github.io/post/2018/dev/011/</link>
+      <pubDate>Tue, 25 Sep 2018 19:26:11 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/011/</guid>
+      <description>Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.</description>
     </item>
     
     <item>
@@ -44,22 +54,23 @@ Solo haz juegos.
     </item>
     
     <item>
+      <title>Unity : Aseprite Workflow</title>
+      <link>https://moonantonio.github.io/post/2018/dev/009/</link>
+      <pubDate>Wed, 22 Aug 2018 21:00:28 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/009/</guid>
+      <description>Administrar las hojas de sprites y las animaciones de pixel art dentro de Unity sin herramientas personalizadas es una pesadilla. Esto es lo que tiene que hacer solo para crear los assets para un solo personaje:
+ Crea una textura (png) a través de un programa de pintura como Photoshop e importa un png en el proyecto de Unity. Establezca las configuraciones de importación deseadas para que la textura importada coincida con la misma configuración que ha utilizado para cada textura que haya importado.</description>
+    </item>
+    
+    <item>
       <title>Estudio de UNET</title>
       <link>https://moonantonio.github.io/post/2018/dev/008/</link>
       <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/dev/008/</guid>
-      <description>Esta entrada, es un recordatorio personal, despues de hablar con amigos y de hablarme tan bien de UNET (Yo solo toque NET en Unity 3.5, :S), me entro el gusanico de ver esta nueva tecnologia, por lo que decidi ponerme a investigar, pero descubri que hay muy poca información sobre esto.
-Detallo en más profundidad, hay información, pero del High API. Lo que yo queria ver es información sobre el Low API y de esto hay poco, asi que decidi crear esta entrada para guardar como recuerdo este estudio, por si proximamente tengo que volver a mirarlo (soy un neurotico del guardado de datos xD).</description>
-    </item>
-    
-    <item>
-      <title>WebClient gestor de conexiones Unity3D</title>
-      <link>https://moonantonio.github.io/post/2018/dev/007/</link>
-      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/dev/007/</guid>
-      <description>WebClient es un componente del lado del cliente, un modelo distribuido de aplicaciones de niveles múltiples utilizado para crear y desarrollar aplicaciones empresariales. Los componentes del lado del cliente son típicamente aplicaciones de computadora que se ejecutan en la computadora de un usuario y se conectan a un servidor. Estos componentes realizan operaciones en el lado del cliente, ya que pueden necesitar acceso a la información disponible solo en el lado del cliente, como la entrada del usuario, o porque el servidor carece de la potencia de procesamiento necesaria en tales operaciones.</description>
+      <description>Esta entrada, es un recordatorio personal, después de hablar con amigos y de hablarme tan bien de UNET (Yo solo toque NET en Unity 3.5, :S), me entro el gusanico de ver esta nueva tecnología, por lo que decidí ponerme a investigar, pero descubrí que hay muy poca información sobre esto.
+Detallo en más profundidad, hay información, pero del High API. Lo que yo quería ver es información sobre el Low API y de esto hay poco, asi que decidí crear esta entrada para guardar como recuerdo este estudio, por si próximamente tengo que volver a mirarlo (soy un neurótico del guardado de datos xD).</description>
     </item>
     
     <item>

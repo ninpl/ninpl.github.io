@@ -31,18 +31,5 @@
 Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automaticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</description>
     </item>
     
-    <item>
-      <title>Presentando La Videoconsola Virtual Pico8</title>
-      <link>https://moonantonio.github.io/post/2019/comun/002/</link>
-      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/comun/002/</guid>
-      <description>¡Bienvenidos! Hoy les voy a presentar un nuevo software que me mantuvo entretenido durante todo el año.
-Les estoy hablando nada mas y nada menos que del famoso PICO-8. Para los que nunca escucharon hablar de él, PICO-8 es una videoconsola virtual, con una pantalla de 128x128 a 16 colores, que permite programar por medio de Lua tus juegos para el explorador.
-
-Pico-8 tiene varias limitaciones:
- solo permite un máximo de 32kb por cartucho dispone tan solo de 4 canales de sonido permite un máximo de 6 botones las imágenes y sprites son pixeladas  ¿Por qué es tan bueno?</description>
-    </item>
-    
   </channel>
 </rss>

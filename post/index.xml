@@ -32,18 +32,6 @@ Asumiendo que el mercado de Visual Studio Code no es la mejor manera de encontra
     </item>
     
     <item>
-      <title>Guía de inicio en la Programación</title>
-      <link>https://moonantonio.github.io/post/2019/comun/007/</link>
-      <pubDate>Wed, 30 Oct 2019 03:16:52 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/comun/007/</guid>
-      <description>¿No sabes por dónde empezar? Si estás iniciando tu camino en la programación, o es la primera vez que visitas la página, no te preocupes, porque esta guía te mostrará los contenidos de forma ordenada.
-
-La intención de esta guía de introducción a la programación es ayudarte a escoger por dónde empezar y qué camino seguir en el desarrollo en general.
-Si aprendes a programar adecuadamente, podrás desarrollar aplicaciones móviles, sistemas web, videojuegos, y cualquier tipo de software en general, usando distintas tecnologías.</description>
-    </item>
-    
-    <item>
       <title>Cómo usar Trello para el desarrollo ágil</title>
       <link>https://moonantonio.github.io/post/2019/comun/006/</link>
       <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
@@ -55,54 +43,12 @@ Lo básico En Trello existen 3 componentes básicos:
     </item>
     
     <item>
-      <title>Álgebra - Matrices</title>
-      <link>https://moonantonio.github.io/post/2019/matematicas/003/</link>
-      <pubDate>Thu, 03 Oct 2019 02:57:43 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/matematicas/003/</guid>
-      <description>A partir de la definición de multiplicación matricial, sabemos que:
-
-Esencialmente, el elemento (i,j) del producto matriz AB es el producto punto. De la fila i, el A y desde la fila j el B.
-Podemos calcular la multiplicación de matrices realizando un producto de puntos por elemento en el producto de matriz resultante AB. Sin embargo, hay dos formas alternativas de ver la operación de multiplicación de matrices que a veces pueden facilitar la vida.</description>
-    </item>
-    
-    <item>
-      <title>Cuaternión Básicos</title>
-      <link>https://moonantonio.github.io/post/2019/matematicas/002/</link>
-      <pubDate>Wed, 04 Sep 2019 03:26:08 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/matematicas/002/</guid>
-      <description>Un cuaternión es un objeto matemático muy útil ideado por Sir William Rowan Hamilton como una extensión de números complejos . A menudo se usa para representar de forma compacta las orientaciones 3D con solo cuatro números de punto flotante, en lugar de usar una matriz de 3 por 3 que contiene nueve números de punto flotante, y tiene otras buenas propiedades de las que hablaré más adelante.
-Como su nombre lo indica, un cuaternión se compone de cuatro componentes, uno en la parte real y los otros tres en la parte imaginaria .</description>
-    </item>
-    
-    <item>
-      <title>Vector Cruzado - 2D</title>
-      <link>https://moonantonio.github.io/post/2019/matematicas/001/</link>
-      <pubDate>Mon, 02 Sep 2019 19:34:19 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/matematicas/001/</guid>
-      <description>El producto cruzado de dos vectores 3D es un vector 3D, que está en la dirección del eje de rotación para rotar el primer vector para que coincida con la dirección del segundo vector, con el ángulo de rotación más pequeño (siempre menor de 180 grados ). Entonces, ¿qué significa &amp;ldquo;producto cruzado&amp;rdquo; de vectores 2D?
-Me gusta pensar en el &amp;ldquo;producto cruzado&amp;rdquo; de dos vectores 2D como una escala, no un vector.</description>
-    </item>
-    
-    <item>
       <title>Uso de GUISkin para el estilo del editor</title>
       <link>https://moonantonio.github.io/post/2019/dev/004/</link>
       <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2019/dev/004/</guid>
       <description>Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método.</description>
-    </item>
-    
-    <item>
-      <title>Conferencia NIS 2019</title>
-      <link>https://moonantonio.github.io/post/2019/news/001/</link>
-      <pubDate>Tue, 12 Mar 2019 19:39:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/news/001/</guid>
-      <description>La distribuidora occidental de Nippon Ichi, NIS, se ha convertido en una de las más importantes para los títulos desarrollados en Japón, ya que ha expandido su radio a multitud de compañías que anteriormente contaban con XSeed o Atlus en esa faceta.
-Con FuRyu o Nihon Falcom en su actual cartera y sus títulos de producción propia, NIS ha preparado una conferencia de prensa con la que anunciar cuáles van a ser los títulos que van a localizar en nuestras regiones durante este periodo, por lo que evidentemente cabía esperar muchos RPGs en esa lista y alguna que otra sorpresa.</description>
     </item>
     
     <item>
@@ -145,38 +91,6 @@ Ley de Lambert
       <description>Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script classes asociadas a Gameobjects, prefabs, etc…
 
 Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automaticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</description>
-    </item>
-    
-    <item>
-      <title>Aprende C&#43;&#43; con Unreal - Métodos</title>
-      <link>https://moonantonio.github.io/post/2018/cplusplusunreal/004/</link>
-      <pubDate>Wed, 09 Jan 2019 02:47:41 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/cplusplusunreal/004/</guid>
-      <description>GitHub RepoGitLab Repo</description>
-    </item>
-    
-    <item>
-      <title>Github ahora ofrece repositorios privados ilimitados en su plan Gratuito</title>
-      <link>https://moonantonio.github.io/post/2019/comun/003/</link>
-      <pubDate>Tue, 08 Jan 2019 18:19:31 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/comun/003/</guid>
-      <description>Hasta hace poco los desarrolladores que querían crear repositorios privados sin tener que gastar dinero se vieron obligados a usar servicios rivales, con mayor frecuencia como Gitlab o BitBucket (Actualmente muy usado en entornos empresariales).
-Las noticias de hoy, obviamente, no son buenas para las otras plataformas de hosting de código pero esto significa que los programadores al fin no están obligados a usar dos servicios de administración de código diferentes para sus proyectos privados y públicos.</description>
-    </item>
-    
-    <item>
-      <title>Presentando La Videoconsola Virtual Pico8</title>
-      <link>https://moonantonio.github.io/post/2019/comun/002/</link>
-      <pubDate>Tue, 08 Jan 2019 17:35:43 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2019/comun/002/</guid>
-      <description>¡Bienvenidos! Hoy les voy a presentar un nuevo software que me mantuvo entretenido durante todo el año.
-Les estoy hablando nada mas y nada menos que del famoso PICO-8. Para los que nunca escucharon hablar de él, PICO-8 es una videoconsola virtual, con una pantalla de 128x128 a 16 colores, que permite programar por medio de Lua tus juegos para el explorador.
-
-Pico-8 tiene varias limitaciones:
- solo permite un máximo de 32kb por cartucho dispone tan solo de 4 canales de sonido permite un máximo de 6 botones las imágenes y sprites son pixeladas  ¿Por qué es tan bueno?</description>
     </item>
     
     <item>
@@ -240,7 +154,7 @@ Despues de unos dias de investigacion, encontre a un level design que tiene bast
     </item>
     
     <item>
-      <title>Pechos en videojuegos - Fisicas</title>
+      <title>Pechos en videojuegos - Físicas</title>
       <link>https://moonantonio.github.io/post/2018/comun/021/</link>
       <pubDate>Wed, 07 Nov 2018 16:51:53 +0100</pubDate>
       
@@ -273,12 +187,12 @@ Si has jugado a juegos que tienen física en los pechos, probablemente hayas vis
       <pubDate>Sat, 27 Oct 2018 16:15:50 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/dev/014/</guid>
-      <description>Llevo unos dias profundizando sobre este tema, hasta ahora solo habia realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
+      <description>Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
 La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.</description>
     </item>
     
     <item>
-      <title>Unity Shader de acumulacion</title>
+      <title>Unity Shader de acumulación</title>
       <link>https://moonantonio.github.io/post/2018/dev/013/</link>
       <pubDate>Thu, 18 Oct 2018 03:42:27 +0200</pubDate>
       
@@ -289,23 +203,12 @@ La ingeniería inversa (en inglés, reverse engineering) es el proceso de descub
     </item>
     
     <item>
-      <title>Unity Profiler - Optimización</title>
-      <link>https://moonantonio.github.io/post/2018/dev/012/</link>
-      <pubDate>Thu, 18 Oct 2018 00:38:12 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/dev/012/</guid>
-      <description>Hablamos sobre cómo usar Unity Profiler para inspeccionar cuántos lotes se hacen realmente. Ahora vamos a hablar un poco más sobre el propio Profiler . Si ya lo sabes, puedes aprender algo nuevo.
-Profiler La idea detrás del Profiler es proporcionar la mayor cantidad de tiempo, memoria, estadística e información posible. Puedes aprender:
- Cuánto tiempo necesita tu juego para calcular y renderizar un frame ¿Qué lleva tanto tiempo? (scripts, física, gráficos, etc.</description>
-    </item>
-    
-    <item>
-      <title>El anime de SAO Alicizacion (nuevas versiones volúmenes 9 y 10)</title>
+      <title>El anime de SAO Alicizacion</title>
       <link>https://moonantonio.github.io/post/2018/comun/019/</link>
       <pubDate>Sun, 07 Oct 2018 23:40:23 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/comun/019/</guid>
-      <description>Hola a todos, como ya supongo que sabreis ayer se estreno el anime de SAO Alicization que corresponde a los Volúmenes 9 y 10.
+      <description>Hola a todos, como ya supongo que sabréis ayer se estreno el anime de SAO Alicization que corresponde a los Volúmenes 9 y 10.
 La tercera temporada se adapta al arco Alicization , que toma parte en los volúmenes 9-18 de la serie de novelas ligeras de Kawahara. En 2026, le ofrecen a Kirito un trabajo con Rath. Le pidieron que trabaje para probar un nuevo tipo de equipo FullDive conocido como el Traductor de alma.</description>
     </item>
     
@@ -339,17 +242,6 @@ La tercera temporada se adapta al arco Alicization , que toma parte en los volú
     </item>
     
     <item>
-      <title>AnimeChart - Otoño 2018[v1]</title>
-      <link>https://moonantonio.github.io/post/2018/animechart/001/</link>
-      <pubDate>Tue, 11 Sep 2018 15:59:03 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/animechart/001/</guid>
-      <description>♢ Temporada Otoño 2018 de Anime ♢
-
-.\Moon</description>
-    </item>
-    
-    <item>
       <title>¡Consejos esenciales de Gamedev &amp; Unity!</title>
       <link>https://moonantonio.github.io/post/2018/dev/010/</link>
       <pubDate>Mon, 10 Sep 2018 14:00:03 +0200</pubDate>
@@ -370,38 +262,6 @@ Solo haz juegos.
       <description>Los Objetos Scriptables son un tipo especial de objeto de datos en Unity. Tienen varios beneficios importantes, pero es posible que no funcionen de manera ideal para cada situación. En esta lección, cubriremos lo que son y cómo usarlos.
 GitHub RepoGitLab Repo
 Introducción a los Objetos Scriptables Puede pensar en un objeto programable como un objeto destinado solo a contener datos. Si ha estado utilizando clases o estructuras tradicionales de C# para objetos simples solo de datos, podría utilizarlas en su lugar.</description>
-    </item>
-    
-    <item>
-      <title>Anime Chart para las temporadas de Anime</title>
-      <link>https://moonantonio.github.io/post/2018/comun/012/</link>
-      <pubDate>Mon, 03 Sep 2018 18:54:15 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/comun/012/</guid>
-      <description>En estas vacaciones, cortas pero relajantes, no me he conectado mucho. Pero eso no quiere decir que este parado.
-Me he puesto al dia con algunas investigaciones que me interesaban (tan solo teoricamente) y he investigado sobre ECS, AI, CPP con Unreal y algunas cosas extras (Novelas de fantasia xD). Por ello en proximas entradas, redactare algunas conclusiones que he sacado sobre los estudios que he realizado.
-Pero aqui no vengo para decir eso, en esta entrada quiero dejar constancia de que he realizado un proyectillo con el que realizo charts de anime con las que anunciare las proximas temporadas de anime que vendran.</description>
-    </item>
-    
-    <item>
-      <title>Dragalia Lost : El nuevo videojuego de Nintendo</title>
-      <link>https://moonantonio.github.io/post/2018/juegos/001/</link>
-      <pubDate>Wed, 29 Aug 2018 15:15:32 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/juegos/001/</guid>
-      <description>Después de años de espera, Nintendo finalmente ha comenzado a poner algunos de sus títulos más icónicos en dispositivos iOS y Android.
-Mientras que el éxito del Switch continúa canibalizando el mercado de las consolas Nintendo 2DS y Nintendo 3DS, es evidente que la compañía está apostando seriamente al desarrollo para los ecosistemas móviles de Apple y Google.
-Super Mario Run ha sido exitoso para la compañía, pero parece que Nintendo quiere más y tiene algunos títulos nuevos y originales en camino para iOS y Android.</description>
-    </item>
-    
-    <item>
-      <title>Dungeon Danmachi Icon Folder</title>
-      <link>https://moonantonio.github.io/post/2018/icon/002/</link>
-      <pubDate>Mon, 27 Aug 2018 04:56:30 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/icon/002/</guid>
-      <description>DUNGEON DANMACHI es una serie de novelas ligeras escritas por Fujino Ōmori e ilustradas por Suzuhito Yasuda. Ha sido la novela ligera más votada por los fans en los premios Sugoi Japan Awards de la edición de 2016.
-La historia toma lugar en el país ficticio de Orario cuyo lugar principal es el Dungeon (ダンジョン Danjon?, lit. calabozo) que contiene toda clase de monstruos, desde elfos, hasta dragones. Los aventureros visitan el Dungeon para derrotar monstruos y tomar sus fragmentos de cristal, los cuales pueden usar para crear objetos mágicos, cambiarlos por dinero, etc.</description>
     </item>
     
     <item>
@@ -541,17 +401,6 @@ He recogido una serie de herramientas que evita niveles premium y lock-in de pro
     </item>
     
     <item>
-      <title>Darling in the FranXX Icon Folder</title>
-      <link>https://moonantonio.github.io/post/2018/icon/001/</link>
-      <pubDate>Mon, 13 Aug 2018 00:14:24 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/icon/001/</guid>
-      <description>DARLING in the FRANXX es una serie de anime de ciencia ficción producida por el estudio Trigger en colaboración con A-1 Pictures.​ El anime, que cuenta con un guion original, fue anunciado oficialmente en la Anime Expo en julio de 2017.​
-
- En un futuro distante, la humanidad ha creado ciudades fortificadas llamadas Plantaciones, que funcionan como refugio para las personas, pues el suelo de la Tierra está arruinado. Dentro de estas ciudades futuristas, niños y niñas son entrenados para pilotar robots gigantes llamados Franxx, sin saber nada del mundo exterior.</description>
-    </item>
-    
-    <item>
       <title>Consejos para agilizar tu trabajo como programador</title>
       <link>https://moonantonio.github.io/post/2018/comun/009/</link>
       <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
@@ -576,17 +425,8 @@ He recogido una serie de herramientas que evita niveles premium y lock-in de pro
       <pubDate>Mon, 16 Jul 2018 17:18:59 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/dev/008/</guid>
-      <description>Esta entrada, es un recordatorio personal, despues de hablar con amigos y de hablarme tan bien de UNET (Yo solo toque NET en Unity 3.5, :S), me entro el gusanico de ver esta nueva tecnologia, por lo que decidi ponerme a investigar, pero descubri que hay muy poca información sobre esto.
-Detallo en más profundidad, hay información, pero del High API. Lo que yo queria ver es información sobre el Low API y de esto hay poco, asi que decidi crear esta entrada para guardar como recuerdo este estudio, por si proximamente tengo que volver a mirarlo (soy un neurotico del guardado de datos xD).</description>
-    </item>
-    
-    <item>
-      <title>WebClient gestor de conexiones Unity3D</title>
-      <link>https://moonantonio.github.io/post/2018/dev/007/</link>
-      <pubDate>Fri, 06 Jul 2018 23:46:32 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/dev/007/</guid>
-      <description>WebClient es un componente del lado del cliente, un modelo distribuido de aplicaciones de niveles múltiples utilizado para crear y desarrollar aplicaciones empresariales. Los componentes del lado del cliente son típicamente aplicaciones de computadora que se ejecutan en la computadora de un usuario y se conectan a un servidor. Estos componentes realizan operaciones en el lado del cliente, ya que pueden necesitar acceso a la información disponible solo en el lado del cliente, como la entrada del usuario, o porque el servidor carece de la potencia de procesamiento necesaria en tales operaciones.</description>
+      <description>Esta entrada, es un recordatorio personal, después de hablar con amigos y de hablarme tan bien de UNET (Yo solo toque NET en Unity 3.5, :S), me entro el gusanico de ver esta nueva tecnología, por lo que decidí ponerme a investigar, pero descubrí que hay muy poca información sobre esto.
+Detallo en más profundidad, hay información, pero del High API. Lo que yo quería ver es información sobre el Low API y de esto hay poco, asi que decidí crear esta entrada para guardar como recuerdo este estudio, por si próximamente tengo que volver a mirarlo (soy un neurótico del guardado de datos xD).</description>
     </item>
     
     <item>
@@ -616,8 +456,8 @@ Sakaguchi asumió el rol de presidente en el nuevo estudio, y Kensuke Tanaka, cr
       <pubDate>Thu, 28 Jun 2018 18:37:51 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/comun/005/</guid>
-      <description>Steam es una plataforma de distribución digtal de videojuegos desarrollada por Valve. A través de ella los usuarios pueden comprar y descargar una gran cantidad de juegos de diferentes desarrolladoras, no solo de Valve, que se encuentran actualmente en su catálogo. Aparte de todo eso ofrece varios servicios más que van desde logros o listas de amigos para jugar hasta actualizaciones automáticas e instantáneas.
-¿QUE OFRECE STEAM? Como ya se dijo antes Steam no solo es una plataforma para comprar nuestros juegos, también ofrece otros servicios y una comunidad enorme que ayuda a mejorar la experiencia, como por ejemplo:</description>
+      <description>Steam es una plataforma de distribución digital de videojuegos desarrollada por Valve. A través de ella los usuarios pueden comprar y descargar una gran cantidad de juegos de diferentes desarrolladoras, no solo de Valve, que se encuentran actualmente en su catálogo. Aparte de todo eso ofrece varios servicios más que van desde logros o listas de amigos para jugar hasta actualizaciones automáticas e instantáneas.
+¿Qur ofrece Steam? Como ya se dijo antes Steam no solo es una plataforma para comprar nuestros juegos, también ofrece otros servicios y una comunidad enorme que ayuda a mejorar la experiencia, como por ejemplo:</description>
     </item>
     
     <item>

@@ -148,7 +148,7 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img108.png')">
+		<header style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')">
 			<h1 class="title">Aprende C&#43;&#43; con Unreal - Tu primer script</h1>
 		</header>
 
@@ -169,7 +169,7 @@
 
 <p><center><img src="/img/codebackdoor/learncppunreal/01.png" alt="001" /></center></p>
 
-<p>En el panel Content Browser de Unreal, seleccione el botón &ldquo;Add New&rdquo;, desde el cual tiene la opción &ldquo;New C++ Class&rdquo;. Alternativamente, también puede click derecho en Content Browser, &ldquo;New C++ Class&rdquo;, pero de todos modos tendrá que volver al panel del proyecto para nombrar y abrir el nuevo archivo. De forma predeterminada, tendra que elegir un tipo de clase, en este caso elegiremos Actor. Por ahora solo escribe &ldquo;Demo&rdquo; para el nombre de nuestro script y despues el boton verde &ldquo;Create Class&rdquo;.</p>
+<p>En el panel Content Browser de Unreal, seleccione el botón &ldquo;Add New&rdquo;, desde el cual tiene la opción &ldquo;New C++ Class&rdquo;. Alternativamente, también puede click derecho en Content Browser, &ldquo;New C++ Class&rdquo;, pero de todos modos tendrá que volver al panel del proyecto para nombrar y abrir el nuevo archivo. De forma predeterminada, tendrá que elegir un tipo de clase, en este caso elegiremos Actor. Por ahora solo escribe &ldquo;Demo&rdquo; para el nombre de nuestro script y después el botón verde &ldquo;Create Class&rdquo;.</p>
 
 <hr />
 
@@ -185,7 +185,7 @@
 <li>- No puede soportar espacios. Si trataste de ingresar un nombre con un espacio, como &ldquo;Mi clase&rdquo;, Unreal intenta arreglarlo por ti (pero solo a medias) y crea el código de plantilla con un nombre de clase de &ldquo;Mi Clase&rdquo; aunque abandone el espacio en el nombre del archivo. Luego, cada vez que intente agregar el script a un objeto, Unreal se quejará de usted: &ldquo; No se puede agregar el script. No se puede agregar el componente &lsquo;ScriptName&rsquo; porque no existe. Verifique si el nombre del archivo y el nombre de la clase coinciden.</li>
 <li>- Los nombres de tus clases deben ser únicos: no puedes tener dos clases llamadas &ldquo;Boogers&rdquo; sin importar lo gracioso que pienses que sería. De nuevo, Unreal intentará solucionar este problema automáticamente y enumerará su nombre de archivo y clase (agregue un número al final) para que sea único.</li>
 <li>- Si nombra una clase con el mismo nombre que algo que Unreal ya ha tomado, como &ldquo;AActor&rdquo;, recibirá una advertencia, &ldquo;Script &lsquo;AActor&rsquo; tiene el mismo nombre que el componente incorporado de Unreal.</li>
-<li>Los programadores pueden ser muy selectivos y tienen pautas para casi todo, incluso los nombres que usa e incluso el caso de las letras con las que escribe. Un buen nombre de clase será un sustantivo o frase nominal y utilizará &ldquo;PascalCasing&rdquo;, donde la primera letra de cada palabra es mayúscula y todas las demás letras son minúsculas. Tenga en cuenta que estas pautas no son obligatorias, pero son una buena práctica. Lea más sobre convenciones y pautas de nombres <a href="http://bit.ly/2BkxWDi">en este post que escribir sobre buenas prácticas</a>.</li>
+<li>Los programadores pueden ser muy selectivos y tienen pautas para casi todo, incluso los nombres que usa e incluso el caso de las letras con las que escribe. Un buen nombre de clase será un sustantivo o frase nominal y utilizará &ldquo;PascalCasing&rdquo;, donde la primera letra de cada palabra es mayúscula y todas las demás letras son minúsculas. Tenga en cuenta que estas pautas no son obligatorias, pero son una buena práctica. Lea más sobre convenciones y pautas de nombres <a href="https://bit.ly/3yYcjDE">en este post que escribir sobre buenas prácticas</a>.</li>
 </ul>
 </blockquote>
 
@@ -255,11 +255,11 @@ public:
 
 <hr />
 
-<p>Las primeras dos líneas de nuestro script se refieren a algo llamado &ldquo;include&rdquo;. Volviendo a nuestra analogía de que un lenguaje de programación es como un lenguaje humano, puedo decir que las diferentes palabras significan cosas diferentes según el idioma, y ​​algunas veces incluso las palabras dentro del mismo idioma pueden tener diferentes significados dependiendo del contexto. Estas son librerias que contienen funcionalidad para que nosotros podamos usarlas dentro de nuestro script.</p>
+<p>Las primeras dos líneas de nuestro script se refieren a algo llamado &ldquo;include&rdquo;. Volviendo a nuestra analogía de que un lenguaje de programación es como un lenguaje humano, puedo decir que las diferentes palabras significan cosas diferentes según el idioma, y ​​algunas veces incluso las palabras dentro del mismo idioma pueden tener diferentes significados dependiendo del contexto. Estas son librerías que contienen funcionalidad para que nosotros podamos usarlas dentro de nuestro script.</p>
 
 <p>Como vemos, tenemos dos archivos, Demo.cpp y Demo.h, esto viene de C++, ya que nuestro archivo .cpp sera el destinado para nuestra funcionalidad, mientras que nuestro archivo .h sera destinado para la declaración de nuestra funcionalidad.</p>
 
-<p>El archivo .h, tiene los metodos virtuales que en el archivo .cpp podemos usar.</p>
+<p>El archivo .h, tiene los métodos virtuales que en el archivo .cpp podemos usar.</p>
 
 <hr />
 
@@ -270,7 +270,7 @@ public:
 <p>La siguiente línea es la declaración de nuestra clase. Tiene varias palabras clave:</p>
 
 <ul>
-<li>Class : así es como sé que mi guión es una &ldquo;clase&rdquo;. Hay varios tipos de cosas que se pueden definir, algunas de las cuales incluyen: struct, enum e interface, pero nuevamente, esos son temas más avanzados y pueden omitirse por el momento.</li>
+<li>Class : así es como sé que mi guion es una &ldquo;clase&rdquo;. Hay varios tipos de cosas que se pueden definir, algunas de las cuales incluyen: struct, enum e interface, pero nuevamente, esos son temas más avanzados y pueden omitirse por el momento.</li>
 <li>LEARNCPPUNREAL_API : El nombre del proyecto actual.</li>
 <li>ADemo : este es el nombre de la clase y también debe ser del mismo nombre que el archivo que creamos. Al igual que puede agregar componentes a Objetos como colisionadores o luces, ahora podrá agregar un componente llamado &ldquo;Demo&rdquo; que eventualmente hará algo &hellip; (pero aún no hemos implementado nada)</li>
 <li>Public AActor : tenga en cuenta que esta palabra está separada por dos puntos. Significa que nuestro script hereda de otra clase (con ese nombre). La herencia es otro tema avanzado, pero por ahora es suficiente saber que tiene acceso a un montón de funcionalidades debido a eso.</li>
@@ -300,7 +300,7 @@ public:
 <li>Un conjunto de parámetros</li>
 </ul>
 
-<p>Los dos métodos definidos en nuestro script tienen un tipo de retorno de &ldquo;void&rdquo; que significa que no devuelve un valor, y tienen un conjunto de parámetros vacíos, porque no hay nada entre los paréntesis de apertura y cierre que siguen al nombre del método. Voy a profundizar en la explicación de las variaciones de estas firmas en una lección futura. Cada método tiene sus propios corchetes abiertos y cerrados &ldquo;{}&rdquo; al igual que la clase. Cualquier &ldquo;declaración&rdquo; de código entre esos dos corchetes se realizará siempre que el método sea &ldquo;llamado&rdquo;. Actualmente nuestros métodos no tienen ninguna declaración dentro de ellos. Esto significa que a pesar de que nuestros métodos serán llamados, nada sucedera.</p>
+<p>Los dos métodos definidos en nuestro script tienen un tipo de retorno de &ldquo;void&rdquo; que significa que no devuelve un valor, y tienen un conjunto de parámetros vacíos, porque no hay nada entre los paréntesis de apertura y cierre que siguen al nombre del método. Voy a profundizar en la explicación de las variaciones de estas firmas en una lección futura. Cada método tiene sus propios corchetes abiertos y cerrados &ldquo;{}&rdquo; al igual que la clase. Cualquier &ldquo;declaración&rdquo; de código entre esos dos corchetes se realizará siempre que el método sea &ldquo;llamado&rdquo;. Actualmente nuestros métodos no tienen ninguna declaración dentro de ellos. Esto significa que a pesar de que nuestros métodos serán llamados, nada sucederá.</p>
 
 <p>Una declaración es a menudo la combinación de un método y una variable, y siempre termina en un punto y coma, al igual que nuestras oraciones escritas a menudo terminan con una marca como un punto. Para nuestro primer ejemplo, simplemente hagamos que la computadora nos responda. Entre los paréntesis del método de Tick, agregue la siguiente línea:</p>
 
@@ -323,11 +323,11 @@ public:
 
 <hr />
 
-<p>Guarde el script, luego regrese a Unreal y dale al boton Compile. Cree una nueva escena y arrastre el script &ldquo;Demo&rdquo; a la escena.</p>
+<p>Guarde el script, luego regrese a Unreal y dale al botón Compile. Cree una nueva escena y arrastre el script &ldquo;Demo&rdquo; a la escena.</p>
 
 <p>Reproduzca la escena y se imprimirá un mensaje en la ventana de la Output log. Tenga en cuenta que si la ventana de la Output log no está abierta, puede abrirla desde la barra de menú &ldquo;Windows-&gt; Developer Tools-&gt; Output log&rdquo;. También verá el último mensaje de la consola en la parte inferior de la ventana de Unreal. El mensaje que se muestra es &ldquo;Mostrando por consola !!&rdquo;.</p>
 
-<p>¿Entonces qué pasó? Unreal llamó al método &ldquo;Tick&rdquo; de nuestro script cuando nuestro script se terminó de cargar. A su vez llamamos a un macro llamado &ldquo;UE_LOG&rdquo; en una clase llamada &ldquo;ADemo&rdquo; y pasamos un parametro de log, uno de tipo de log y un mensaje string. En este ejemplo, el mensaje se crea dinámicamente.</p>
+<p>¿Entonces qué pasó? Unreal llamó al método &ldquo;Tick&rdquo; de nuestro script cuando nuestro script se terminó de cargar. A su vez llamamos a un macro llamado &ldquo;UE_LOG&rdquo; en una clase llamada &ldquo;ADemo&rdquo; y pasamos un parámetro de log, uno de tipo de log y un mensaje string. En este ejemplo, el mensaje se crea dinámicamente.</p>
 
 <p>Reproduzca la escena de nuevo y la ventana de la consola se llenará rápidamente con mensajes, y cada uno mostrará una hora diferente pero actual. Esto se debe a que Unreal llama automáticamente el método de &ldquo;Tick&rdquo; una vez por cada fotograma que se reproduce (esto puede ser de 30 a 60 veces por segundo o más).</p>
 
@@ -339,7 +339,9 @@ public:
 
 <p>En esta lección cubrimos cómo crear un nuevo script de C++ dentro de Unreal. Introdujimos un nuevo vocabulario de programación y discutimos cada línea de la plantilla de código predeterminada. Escribimos una primera línea de código y vimos cómo nuestro script se puede agregar a nuestra escena de juego.</p>
 
-<p><center><a href="http://bit.ly/2SHSKZH" class="button">Siguiente - Variables</a></p>
+<p><center><a href="http://bit.ly/2SHSKZH" class="button"><i class="fa fa-caret-right" aria-hidden="true"></i> Siguiente - Variables</a></p>
+
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		
