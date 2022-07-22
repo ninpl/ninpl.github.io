@@ -42,18 +42,96 @@ Entre ellas la ECS es la que mas me esta gustado, la orientacion a datos frente 
     </item>
     
     <item>
-      <title>¿Como subir gifs al perfil de steam?</title>
+      <title>Criptomonedas</title>
+      <link>https://moonantonio.github.io/post/2017/comun/022/</link>
+      <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/022/</guid>
+      <description>En 2008 un ciudadano de japón, que se hacia llamar &amp;ldquo;Satoshi Nakamoto&amp;rdquo; , compartió una idea que llamo la atención de todos los usuarios.
+Satoshi propuso una idea para crear una moneda digital. Una moneda basada en bits.
+En la actualidad, cada persona necesita ingresar un dinero en una entidad bancaria, un dinero físico, el cual es depositado digitalmente en nuestra cuenta. Por ese motivo dependemos de los bancos 100%, otro caso es la privacidad y la inflación, son problemas que actualmente tenemos en la sociedad actual con el sistema monetario.</description>
+    </item>
+    
+    <item>
+      <title>Buenas Practicas de programación</title>
+      <link>https://moonantonio.github.io/post/2017/comun/021/</link>
+      <pubDate>Mon, 16 Oct 2017 19:07:21 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/021/</guid>
+      <description>Estoy seguro de que si te dedicas a programar, conoces a Robert &amp;ldquo;Uncle&amp;rdquo; Martin. Su libro Clean Code es uno de los más recomendados en la lista de libros que todo desarrollador debería leer. Martin, con sus cosas buenas y malas, es uno de los desarrolladores más influyentes del panorama ingenieril. Fuerte defensor de TDD, de la cobertura de tests y otras buenas prácticas, y además cuenta con muchas personas que siguen sus enseñanzas a rajatabla.</description>
+    </item>
+    
+    <item>
+      <title>RPG y Personajes de apoyo</title>
+      <link>https://moonantonio.github.io/post/2017/comun/020/</link>
+      <pubDate>Wed, 27 Sep 2017 23:27:21 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/020/</guid>
+      <description>Cuando gestionamos a un grupo en el género RPG, solemos darle prioridad a los personajes más fuertes o que más nos gustan para formar un equipo sólido que pueda afrentar los típicos combates del camino y las grandes batallas contra los jefes. Sin embargo, muchos títulos juegan con un factor puntual que rompe un poco nuestros esquemas: el de ofrecernos personajes que no se quedarán permanentemente con nosotros.
+Seguramente se os vendrá a la mente algún RPG donde cierto personaje que os gustaba acababa marchándose del grupo, traicionándonos o incluso muriendo a lo largo de la historia del juego, lo que suele doler doblemente porque no sólo perdemos a un aliado, es que era uno que usábamos y al que, encima, le habíamos dedicado recursos como objetos de mejora de estadísticas, el equipo más caro o, simplemente, horas de entrenamiento que ya no nos servían para nada porque ese personaje no sigue con nosotros.</description>
+    </item>
+    
+    <item>
+      <title>Atlus &amp; Europa</title>
+      <link>https://moonantonio.github.io/post/2017/comun/019/</link>
+      <pubDate>Thu, 24 Aug 2017 21:07:09 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/019/</guid>
+      <description>Atlus crea una división para lanzar sus propios títulos en Europa 
+Desde Atlus han anunciado que de ahora en adelante se encargarán de publicar sus propios títulos en Europa desde una nueva oficina que han fundado en Londres. Anteriormente la compañía usaba terceras compañías como NIS America o Deep Silver para lanzar sus títulos en territorio europeo.
+El nuevo equipo cuenta con Simon Inch como director comercial y en breve contará con su propio gestor de relaciones públicas y gerente de márketing.</description>
+    </item>
+    
+    <item>
+      <title>Open Source en Github</title>
+      <link>https://moonantonio.github.io/post/2017/comun/018/</link>
+      <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/018/</guid>
+      <description>Github nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de publicar nuestro código en Github si cumple una serie de pasos previos.</description>
+    </item>
+    
+    <item>
+      <title>Crear fondos de Steam</title>
+      <link>https://moonantonio.github.io/post/2017/comun/017/</link>
+      <pubDate>Mon, 10 Apr 2017 15:47:12 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/017/</guid>
+      <description>Sólo escuchar las palabras &amp;ldquo;Background&amp;rdquo; sin ver lo que significa es muy confuso. En resumen, hace que la muestra de ilustraciones y pantalla del perfil sea transparente, que pueda ver el fondo que ha solicitado. En realidad, no son transparentes, solo es el recorte del fondo perfectamente alineado. Aquí está un ejemplo de lo que se verá después de finalizar:
+
+Puede parecer difícil, pero es sorprendentemente fácil.
+Este proceso no funciona bien en todos los orígenes, sin embargo, escoger el más adecuado es el primer paso y es posiblemente el paso más importante.</description>
+    </item>
+    
+    <item>
+      <title>Subir Artworks a Steam</title>
+      <link>https://moonantonio.github.io/post/2017/comun/016/</link>
+      <pubDate>Mon, 10 Apr 2017 14:34:04 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/016/</guid>
+      <description>Para el Long Artworks https://steam.design/ puede hacer los Long Artworks ahora! Simplemente haga clic en el botón en la parte superior derecha.
+
+Cuidado Cualquier obra que cargue con este método ahora se extenderá hasta que la anchura sea igual al tamaño de la web. Lo que significa que recomendamos que no suba gifs con un ancho menor de 506px.
+
+Abrir enlace en chrome (otros navegadores probablemente funcionarán si usted tiene acceso a su consola) y seleccione su gif &amp;lsquo;Seleccione su archivo para el artwork&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Subir gifs al perfil de steam</title>
       <link>https://moonantonio.github.io/post/2017/comun/015/</link>
       <pubDate>Sat, 08 Apr 2017 23:25:27 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/comun/015/</guid>
-      <description>Subir un gif a modo de exposicion a Steam 
-Introducción Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
-Paso 1 
+      <description>Los siguientes pasos explicarán cómo subir archivos GIF (y PNG) como las capturas de steam. Este es también el método más rápido y más fácil de subir capturas de pantalla personalizados.
+
 Abrir este link en un navegador y hacer clic derecho - inspeccionar elemento
 
-Paso 2 
-Ir a la consola y pegar el siguiente código:</description>
+
+Ir a la consola y pegar el siguiente código:
+document.getElementsByName(&amp;quot;file_type&amp;quot;)[0].value = 5;  y pulsa enter.
+
+
+Cargar el archivo gif, darle un título y una descripción.</description>
     </item>
     
     <item>

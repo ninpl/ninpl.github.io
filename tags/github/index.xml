@@ -31,39 +31,5 @@ Las noticias de hoy, obviamente, no son buenas para las otras plataformas de hos
 Lo que no ha sido sorprendente ha sido la sobre reacción de la comunidad de desarrolladores, en donde se encendieron las viejas antorchas de la inagotable guerra entre los fanboys (pro) y los talibanes (anti) Microsoft.</description>
     </item>
     
-    <item>
-      <title>Actualizacion GAIA</title>
-      <link>https://moonantonio.github.io/post/2017/dev/008/</link>
-      <pubDate>Sat, 10 Jun 2017 22:27:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
-      <description>Actualizado nuevos modelos de Gaia He agregado nuevos modelos de mecanicas al repositorio de Gaia.
-Blend Color 2048 
-ShooterISO 
-Cut 
-Saltos 
-.\Moon</description>
-    </item>
-    
-    <item>
-      <title>Effectos necesarios para el TFG</title>
-      <link>https://moonantonio.github.io/post/2017/dev/007/</link>
-      <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
-      <description>Investigacion de BaseMesh Unity3d El otro dia intentando crear efectos en la nueva GUI de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, modificar los vertices de la lista a gusto.
-Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.
- El repositorio lo dejo en GitHub para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.</description>
-    </item>
-    
-    <item>
-      <title>Open Source en Github</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/011/</link>
-      <pubDate>Wed, 10 May 2017 12:29:53 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/011/</guid>
-      <description>Github nos permite liberar cualquier proyecto en el que hayamos estado trabajado en privado. En ocasiones, nuestra intención es simplemente compartirlo sin más pretensiones como un pet project o como ejemplo de alguna kata que hemos estado preparado. Pero cuando queremos comenzar un proyecto Open Source un poco más serio, como una librería que queramos compartir con el resto de desarrolladores, quizás debamos pararnos a pensar un poco más antes de publicar nuestro código en Github si cumple una serie de pasos previos.</description>
-    </item>
-    
   </channel>
 </rss>

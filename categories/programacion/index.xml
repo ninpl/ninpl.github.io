@@ -42,14 +42,5 @@ Si aprendes a programar adecuadamente, podrás desarrollar aplicaciones móviles
 Clases Abstractas Las clases abstractas nos permiten tener una clase base con cierta funcionalidad común ya implementada, sobre la que podemos heredar y especificar algunos métodos. Para este ejemplo, la clase Transporte implementa el método Mover, y las clases Coche y Bicicleta especifican el número de ruedas.</description>
     </item>
     
-    <item>
-      <title>Buenas Practicas de programacion</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/013/</link>
-      <pubDate>Mon, 16 Oct 2017 19:07:21 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/013/</guid>
-      <description>Estoy seguro de que si te dedicas a programar, conoces a Robert &amp;ldquo;Uncle&amp;rdquo; Martin. Su libro Clean Code es uno de los más recomendados en la lista de libros que todo desarrollador debería leer. Martin, con sus cosas buenas y malas, es uno de los desarrolladores más influyentes del panorama ingenieril. Fuerte defensor de TDD, de la cobertura de tests y otras buenas prácticas, y además cuenta con muchas personas que siguen sus enseñanzas a rajatabla.</description>
-    </item>
-    
   </channel>
 </rss>

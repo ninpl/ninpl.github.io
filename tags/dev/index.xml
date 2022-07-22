@@ -94,61 +94,66 @@ Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy habla
     </item>
     
     <item>
-      <title>MVC simplificado.</title>
+      <title>MVC simplificado</title>
       <link>https://moonantonio.github.io/post/2017/dev/014/</link>
       <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/014/</guid>
-      <description>Introduccion Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+      <description>Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
 Cuanto más grande es el proyecto, más grande es el espagueti.
 
 Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.</description>
     </item>
     
     <item>
-      <title>Maquina de estados Finitos</title>
-      <link>https://moonantonio.github.io/post/2017/dev/010/</link>
-      <pubDate>Wed, 05 Jul 2017 18:59:56 +0200</pubDate>
+      <title>Sistema Gambits</title>
+      <link>https://moonantonio.github.io/post/2017/dev/013/</link>
+      <pubDate>Tue, 03 Oct 2017 21:24:19 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/dev/010/</guid>
-      <description>Las aplicaciones del sistema FSM en general y en videojuegos Se denomina máquina de estados a un modelo de comportamiento de un sistema con entradas y salidas, en donde las salidas dependen no sólo de las señales de entradas actuales sino también de las anteriores.
-Finito, si el conjunto de estados de la máquina es finito, este es el único tipo de máquinas de estados que podemos modelar en un computador en la actualidad; debido a esto se suelen utilizar los términos máquina de estados y máquina de estados finitos de forma intercambiable.</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/013/</guid>
+      <description>El sistema gambit, es un sistema que controla el comportamiento o acciones de un agente. Este agente tiene unas listas de prioridades en las que tiene comportamientos o acciones. El agente siempre accionara iteradamente su acción, siempre y cuando cumpla la condición, sino, pasara a la siguiente acción en la lista.
+¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV.</description>
     </item>
     
     <item>
-      <title>Pequeño proyecto manager escenas en memoria</title>
-      <link>https://moonantonio.github.io/post/2017/dev/009/</link>
-      <pubDate>Tue, 27 Jun 2017 13:55:04 +0200</pubDate>
+      <title>Investigación Generación</title>
+      <link>https://moonantonio.github.io/post/2017/dev/012/</link>
+      <pubDate>Fri, 25 Aug 2017 22:40:40 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/dev/009/</guid>
-      <description>Carga y descarga en memoria de escenas Despues de ver varios ejemplos de escenas, y ver la API de Unity3D para la carga y descarga de escenas en Unity3D, he desarrollado un pequeño ejemplo en modo de practica para poder experimentar la carga y descarga de niveles en escena.
-El proyecto esta alojado en Github, y es open source, tiene las diferentes funciones -&amp;gt;
-Carga y descarga de escenas Control de escenas vecinas Tiempo maximo de carga Posibilidad de agregar eventos en diferentes estados(Cargando, cargado)  Y algunas funcionalidades mas, junto con una muestra de ejemplo.</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/012/</guid>
+      <description>Generación de contenido procedural - Básico ¿Qué es el PCG? Aquí debo comenzar diciendo que en realidad una definición certera y aceptada por toda la academia no existe, es por eso que voy a mencionar diversas definiciones que obtuve de las referencias en las que me base:
+ El PCG es la creación algorítmica de contenido de un juego, con entrada de información limitada o indirecta por parte del usuario.</description>
     </item>
     
     <item>
-      <title>Actualizacion GAIA</title>
-      <link>https://moonantonio.github.io/post/2017/dev/008/</link>
-      <pubDate>Sat, 10 Jun 2017 22:27:45 +0200</pubDate>
+      <title>Comandos fundamentales de Windows</title>
+      <link>https://moonantonio.github.io/post/2017/dev/011/</link>
+      <pubDate>Thu, 27 Jul 2017 19:35:28 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/dev/008/</guid>
-      <description>Actualizado nuevos modelos de Gaia He agregado nuevos modelos de mecanicas al repositorio de Gaia.
-Blend Color 2048 
-ShooterISO 
-Cut 
-Saltos 
-.\Moon</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/011/</guid>
+      <description>Diferentes comandos útiles y básicos Cat Cat (de concatenar), es una maravillosa utilidad que nos permite visualizar el contenido de un archivo de texto sin la necesidad de un editor. Para utilizarlo solo debemos mencionarlo junto al archivo que deseamos visualizar:
+$ cat prueba.txt  Ls Ls (de listar), permite listar el contenido de un directorio o fichero. La sintaxis es:
+$ ls /home/directorio  El comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande.</description>
     </item>
     
     <item>
-      <title>Effectos necesarios para el TFG</title>
-      <link>https://moonantonio.github.io/post/2017/dev/007/</link>
-      <pubDate>Tue, 06 Jun 2017 18:47:18 +0200</pubDate>
+      <title>Investigación RPG-Táctico</title>
+      <link>https://moonantonio.github.io/post/2017/dev/005/</link>
+      <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2017/dev/007/</guid>
-      <description>Investigacion de BaseMesh Unity3d El otro dia intentando crear efectos en la nueva GUI de Unity3D, vi que se puede modificar una malla de la uGUI, cogiendo sus vertices y añadiendolos a una lista, modificar los vertices de la lista a gusto.
-Por aqui empece a desarrollar unos efectos que necesitaba para mi proyecto de TFG.
- El repositorio lo dejo en GitHub para que cualquiera que quiera usarlos o seguir desarrollando nuevos efectos, tenga acceso a ellos.</description>
+      <guid>https://moonantonio.github.io/post/2017/dev/005/</guid>
+      <description>¿Qué se considera combate táctico? La definición de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.
+El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.</description>
+    </item>
+    
+    <item>
+      <title>Algoritmos de búsqueda</title>
+      <link>https://moonantonio.github.io/post/2017/dev/024/</link>
+      <pubDate>Sun, 23 Apr 2017 17:17:22 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/024/</guid>
+      <description>A* Los algoritmos de búsqueda nacen por la necesidad de crear un mecanismo de navegación autónoma, bien sea de robots, coches, o personajes en un videojuego. Algunos de los más conocidos son A, LPA, o D*.
+El algoritmo de búsqueda A* (pronunciado &amp;ldquo;A asterisco&amp;rdquo; o &amp;ldquo;A start&amp;rdquo;) se clasifica dentro de los algoritmos de búsqueda. El algoritmo A* encuentra, siempre y cuando se cumplan unas determinadas condiciones, el camino de menor coste entre un nodo origen y uno objetivo.</description>
     </item>
     
     <item>

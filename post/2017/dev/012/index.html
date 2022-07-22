@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Conceptos Generacion&middot; Antonio Moon´s</title>
+	<title>Investigación Generación&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -148,14 +148,14 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
-			<h1 class="title">Conceptos Generacion</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')">
+			<h1 class="title">Investigación Generación</h1>
 		</header>
 
 	<section class="post-content">
 		
 
-<h1 id="generacion-de-contenido-procedural-basico">Generacion de contenido procedural - Basico</h1>
+<h1 id="generación-de-contenido-procedural-básico">Generación de contenido procedural - Básico</h1>
 
 <hr />
 
@@ -171,7 +171,7 @@
 
 <p>En otras palabras, el PCG es la creación de contenido de un juego mediante la programación. Y para comprender mejor esto, debo explicar su nombre. La palabra clave <strong>Procedural</strong>, viene de procedimiento, que en la programación es simplemente una instrucción que debe ser ejecutada. Por supuesto los procedimientos (también conocidos como funciones y métodos) son el principal paradigma en la programación. Por otra parte el <strong>Content</strong> o contenido es todo lo que se presenta ante el usuario, es decir, niveles, modelos, texturas, música, sonidos, historias, inteligencia artificial, entre otras tantas.</p>
 
-<p><center><img src="/img/case/proce001.png" alt="001" /></center>
+<p><center><img src="/img/c/invproces.png" alt="001" /></center>
 <center><em>A la izquierda se puede observar una textura hecha a mano, y a la derecha una textura generada de manera procedimental</em></center></p>
 
 <hr />
@@ -180,7 +180,7 @@
 
 <p>Tal vez la respuesta a esta pregunta sea obvia, pero de igual manera es importante analizarla. Por supuesto la razón primordial para utilizar PCG es que nos quita la necesidad (casi en su totalidad) de contar con un diseñador o artista humano que genere contenido para el juego. Sabemos que los humanos somos lentos y costosos y por lo general se necesita cada vez más de ellos para crear contenido de alta calidad para los videojuegos de la industria. Pero si utilizamos el PCG como la roca fundamental sobre la que edificamos el videojuego, nos estaremos ahorrando varios hombres, que podrían haber diseñado o creado contenido de manera manual y no automática y eficiente como lo hacen los algoritmos.  Se dice que las ventajas de utilizar el PCG son la unicidad, la robustez, la flexibilidad, la adaptabilidad que aportan al videojuego. Sobre todo ya que podríamos hacer un juego rejugable casi de manera infinita (como veremos más adelante al implementar algoritmos). Un claro ejemplo de esto es el sistema de generación de armas del famoso videojuego Borderlands que se puede apreciar en la imagen.</p>
 
-<p><center><img src="/img/case/proce002.png" alt="002" /></center>
+<p><center><img src="/img/c/invproces2.png" alt="002" /></center>
 <center><em>Generación procedimental de armas en Bordelands de Gearbox Software</em></center></p>
 
 <hr />
@@ -217,7 +217,7 @@
 
 <hr />
 
-<pre><code>//                                  ┌∩┐(◣_◢)┌∩┐
+<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
 //                                                                              \\
 // PruebaPCG.cs (26/09/2017)                                                    \\
 // Autor: Antonio Mateo (Moon Antonio)  antoniomt.moon@gmail.com                \\
@@ -307,7 +307,7 @@ namespace MoonAntonio
 
 <p>Lo primero que debemos haber notado al mirar el código es que tenemos una variable de tipo int que almacena nuestra seed o semilla, que es la que se encargará por supuesto de decidir la secuencia de números que devuelve la clase Random.  Luego se puede observar una variable de tipo string que almacena la palabra final generada por el algoritmo. Y por último una tercera variable que almacena todas las letras de la cadena “HolaMundo” de tipo List almacenando string. En el método Awake ingresamos las letras de la cadena a la lista de manera ordenada, aunque claro está que en este caso el orden no debería influir en lo absoluto más allá de mostrar como era la cadena antes de ser desordenada por la clase Random. Luego en el método Start lo primero que se hace es asignar el seed de nuestra variable al seed de la clase Random, después se recorre con un for la lista de letras y se van ligando a la cadena de la palabra final, para mostrar como era la palabra antes de ser desordenada por consola. Y por último se tiene un while con la condición: mientras queden letras en la lista, y si eso es cierto, entonces se obtiene un índice con la clase Random y el método Range con valores entre 0 y la cantidad de letras (aunque el último valor es exclusivo), posteriormente se concatena a la palabra final la letra que indica el índice obtenido y se quita de la lista de letras la letra ubicada en el índice (esto claro con el objetivo de poder salir en algún momento del ciclo while). Una vez finalizado el ciclo while se imprime por consola la palabra final entregada por nuestra aleatoriedad (especificada por el seed entregado).</p>
 
-<p><center><img src="/img/case/proce003.png" alt="003" /></center>
+<p><center><img src="/img/c/invproces3.png" alt="003" /></center>
 <center><em>5 resultados distintos del algoritmo, utilizando un seed aleatorio cada vez</em></center></p>
 
 <p>Como podrán darse cuenta las posibilidades son muchas, como para generalas a mano, y con este simple algoritmo ya podemos comprender porque se dice que el PCG es una de las maneras más efectivas para generar mundos completos a partir de un seed, y porque le entrega rejugabilidad a los juegos casi de manera infinita (espero que sus mentes tengan la imaginación suficiente para pensar que cada cadena puede representar un mundo distinto).</p>
@@ -318,7 +318,7 @@ namespace MoonAntonio
 
 <p>Pasando ahora a la parte más “compleja” de este post, nuestro objetivo será ahora generar una cueva de manera procedimental, con parámetros que nos permitan entregarle al jugador una solución distinta, y probablemente un mundo distinto cada vez que ejecute el programa. Pero para hacer realidad nuestro sueño dorado, primero debemos comprender un concepto conocido como Cellular Autómata  o en su traducción al español Autómata Celular, que no es más que un modelo computacional discreto (asumo que el lector sabe el significado de discreto en términos matemáticos, y si no es así, espero lo puedan googlear). Los autómatas celulares han sido ampliamente estudiados en la informática, la física e incluso algunas ramas de la biología, como modelos de computación, de crecimiento, de desarrollo, de fenómenos físicos, etc. Pero para su alegría sus conceptos básicos son en realidad muy simples y pueden explicarse en unos pocos párrafos y una imagen o dos. Un autómata celular consiste en una cuadrícula de dimensiones de NxM, un conjunto de estados posibles, y un conjunto de reglas de transición. En esta cuadrícula cada celda puede tomar distintos estados, pero en el caso más simple, puede estar encendida o apagada (tomar un valor 1 o 0). A medida que se realizan iteraciones sobre el autómata este va evolucionando en pasos discretos y siguiendo sus propias reglas. En cada tiempo t, cada celda decide su nuevo estado basado en el estado de sí misma y todas las celdas de su entorno (sus vecinas) en el momento  t-1. Estos vecinos pueden ser tomados en cuenta siguiendo 2 tipos de modelos, que se pueden observar en las siguientes figuras:</p>
 
-<p><center><img src="/img/case/proce004.png" alt="004" /></center>
+<p><center><img src="/img/c/invproces4.png" alt="004" /></center>
 <center><em>a) Vecinos Moore b) Vecinos von Neumann</em></center></p>
 
 <hr />
@@ -339,7 +339,7 @@ namespace MoonAntonio
 
 <hr />
 
-<pre><code>//                                  ┌∩┐(◣_◢)┌∩┐
+<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
 //                                                                              \\
 // GeneradorMazmorra.cs (26/09/2017)                                            \\
 // Autor: Antonio Mateo (Moon Antonio)  antoniomt.moon@gmail.com                \\
@@ -481,7 +481,7 @@ namespace MoonAntonio
 
 <p>Este código simplemente genera caos, como pueden ver en la figura, a pesar de que utiliza algunos de los parámetros que nombré anteriormente, como por ejemplo el seed, el alto, el ancho, e incluso el porcentaje de muros, finalmente solo es capaz de generar caos, ya que no ha sido sometido al autómata celular, es decir, no evoluciona y su forma siempre es el caos, como se puede observar en la figura (los cuadrados o celdas negras representan muros y los blancos suelo, en este caso el porcentaje de muros fue 50%).</p>
 
-<p><center><img src="/img/case/proce005.png" alt="005" /></center>
+<p><center><img src="/img/c/invproces5.png" alt="005" /></center>
 <center><em>Mapa Aleatoriamente llenado con 0’s y 1’s (50%)</em></center></p>
 
 <hr />
@@ -490,7 +490,7 @@ namespace MoonAntonio
 
 <hr />
 
-<pre><code>//                                  ┌∩┐(◣_◢)┌∩┐
+<pre><code class="language-C#">//                                  ┌∩┐(◣_◢)┌∩┐
 //                                                                              \\
 // GeneradorMazmorraLogico.cs (26/09/2017)                                      \\
 // Autor: Antonio Mateo (Moon Antonio)  antoniomt.moon@gmail.com                \\
@@ -695,35 +695,35 @@ namespace MoonAntonio
 
 <p>Lo único que ha cambiado ahora es que el código toma en cuenta la regla de los vecinos,que nos indica que si hay más de 4 vecinos que son muros (es decir más de la mitad del total de 8 vecinos), entonces nuestra celda actual debe convertirse también en muro, por el contrario si son menos de 4 vecinos muros, entonces nuestra celda debe ser un suelo, y solo con esta pequeña modificación y regla ahora nuestro algoritmo arroja resultados como estos, con los mismos parámetros anteriores pero con una cantidad de iteraciones de suavizado igual a 5.</p>
 
-<p><center><img src="/img/case/proce006.png" alt="006" /></center>
+<p><center><img src="/img/c/invproces6.png" alt="006" /></center>
 <center><em>Algoritmo de Generación de Cuevas</em></center></p>
 
 <hr />
 
 <p>Y ahora piensen en que este resultado es utilizando solo los siguientes parámetros simplemente:</p>
 
-<p><center><img src="/img/case/proce007.png" alt="007" /></center>
+<p><center><img src="/img/c/invproces7.png" alt="007" /></center>
 <center><em>Parámetros para replicar la cueva anterior</em></center></p>
 
 <hr />
 
 <p>Alcanzan realmente a asimilar lo que esto significa? Si su respuesta es no, entonces los invito a jugar modificando los parámetros para que puedan observar toda la cantidad de diversos resultados que pueden obtener. Y por cierto no sé si se dieron cuenta pero a nuestra seed cada vez que la variable seedAleatoria esta activada, entonces le asignamos un valor aleatorio entre el mínimo número entero posible para el procesador y el máximo (Random.seed = (semillaAleatoria)?Random.Range(int.MinValue,int.MaxValue):semilla;) y si quieren una seed infinita, podrían por qué no utilizar como medida el tiempo actual, que solo fluye hacia adelante como sabemos…</p>
 
-<p><center><img src="/img/case/proce008.gif" alt="008" /></center>
+<p><center><img src="/img/c/invproces8.gif" alt="008" /></center>
 <center><em>Jugando con el algoritmo</em></center></p>
 
 <hr />
 
 <p>Pero no todo es perfecto y si se dan cuenta en realidad nuestra estructura genera en la mayoría de los casos al menos una zona en la que hay solamente suelo, pero que está a si mismo aislada de las demás, por lo que no hay una conexión directa entre las zonas. Para esto por  supuesto existe una solución que por lo demás está más allá del alcance de este post pero que pueden buscar por su cuenta partiendo por algo denominado Flood Fill Algorithm o Algoritmo de relleno por difusión.</p>
 
-<p><center><img src="/img/case/proce009.gif" alt="009" /></center>
+<p><center><img src="/img/c/invproces9.gif" alt="009" /></center>
 <center><em>Algoritmo de relleno por difusión</em></center></p>
 
 <hr />
 
 <p>Este algoritmo puede ser perfectamente utilizado para reconocer todas aquellas zonas que quedaron aisladas de las demás y por supuesto poder conectarlas, claro si que en el caso de conectarlas deberán idear sus propias soluciones o bien recurrir al clásico A* Pathfindinüg Algorithm, pero eso ya es otro cuento, que requiere de un post aparte.</p>
 
-<p><center><img src="/img/case/proce010.gif" alt="010" /></center>
+<p><center><img src="/img/c/invproces10.gif" alt="010" /></center>
 <center><em>A</em> Pathfinding*</center></p>
 
 <hr />
@@ -744,7 +744,7 @@ namespace MoonAntonio
 
 <p><a href="https://gamedevn.wordpress.com">GameDevn</a></p>
 
-<p>.\ Moon</p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		

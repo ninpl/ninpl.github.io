@@ -23,46 +23,5 @@
 Una buena sinopsis no debería tener más de doscientas cincuenta palabras, así que es importante que conozcas los puntos principales de tu historia, aquellos que llevan el peso de la acción y, por lo tanto, la hacen atractiva para poder presentársela a los usuarios de forma concisa.</description>
     </item>
     
-    <item>
-      <title>Criptomonedas</title>
-      <link>https://moonantonio.github.io/post/2017/utiles/014/</link>
-      <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/utiles/014/</guid>
-      <description>Criptomonedas Introducción En 2008 un ciudadano de japon, que se hacia llamar &amp;ldquo;Satoshi Nakamoto&amp;rdquo; , compartio una idea que llamo la atencion de todos los usuarios.
-Satoshi propuso una idea para crear una moneda digital. Una moneda basada en bits.
-En la actualidad, cada persona necesita ingresar un dinero en una entidad bancaria, un dinero fisico, el cual es depositado digitalmente en nuestra cuenta. Por ese motivo dependemos de los bancos 100%, otro caso es la privazidad y la inflaccion, son problemas que actualmente tenemos en la sociedad actual con el sistema monetario actual.</description>
-    </item>
-    
-    <item>
-      <title>Sistema Gambits</title>
-      <link>https://moonantonio.github.io/post/2017/dev/013/</link>
-      <pubDate>Tue, 03 Oct 2017 21:24:19 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/013/</guid>
-      <description>Descripción del S. Gambit. El sistema gambit, es un sistema que controla el comportamiento o acciones de un agente. Este agente tiene unas listas de prioridades en las que tiene comportamientos o acciones. El agente siempre accionara iteradamente su acción, siempre y cuando cumpla la condición, sino, pasara a la siguiente acción en la lista.
-¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV.</description>
-    </item>
-    
-    <item>
-      <title>Conceptos Generacion</title>
-      <link>https://moonantonio.github.io/post/2017/dev/012/</link>
-      <pubDate>Fri, 25 Aug 2017 22:40:40 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/012/</guid>
-      <description>Generacion de contenido procedural - Basico ¿Qué es el PCG? Aquí debo comenzar diciendo que en realidad una definición certera y aceptada por toda la academia no existe, es por eso que voy a mencionar diversas definiciones que obtuve de las referencias en las que me base:
- El PCG es la creación algorítmica de contenido de un juego, con entrada de información limitada o indirecta por parte del usuario.</description>
-    </item>
-    
-    <item>
-      <title>Investigacion RPG-Tactico</title>
-      <link>https://moonantonio.github.io/post/2017/dev/005/</link>
-      <pubDate>Wed, 26 Apr 2017 20:39:00 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/dev/005/</guid>
-      <description>Investigacion RPG-Tactico ¿Qué se considera combate tactico? La definicion de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.
-El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.</description>
-    </item>
-    
   </channel>
 </rss>

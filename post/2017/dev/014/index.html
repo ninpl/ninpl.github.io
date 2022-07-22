@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>MVC simplificado.&middot; Antonio Moon´s</title>
+	<title>MVC simplificado&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -148,20 +148,18 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img089.png')">
-			<h1 class="title">MVC simplificado.</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/b/b040.jpg')">
+			<h1 class="title">MVC simplificado</h1>
 		</header>
 
 	<section class="post-content">
 		
 
-<h1 id="introduccion">Introduccion</h1>
-
 <p>Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:</p>
 
 <p>Cuanto más grande es el proyecto, más grande es el espagueti.</p>
 
-<p><center><img src="/img/Dev/mvc01.jpg" alt="001" /></center></p>
+<p><center><img src="/img/c/mvc01.jpg" alt="001" /></center></p>
 
 <hr />
 
@@ -169,7 +167,7 @@
 
 <p>Es por eso que existen <strong>patrones de diseño</strong> de software, imponen reglas simples para dictar la estructura general de un proyecto de software. Ayudan a uno o más programadores a separar las piezas principales de un proyecto grande y organizarlas de manera estandarizada, eliminando la confusión cuando se encuentra una parte desconocida de la base de código.</p>
 
-<p><center><img src="/img/Dev/mvc02.jpg" alt="002" /></center></p>
+<p><center><img src="/img/c/mvc02.jpg" alt="002" /></center></p>
 
 <hr />
 
@@ -211,7 +209,7 @@
 
 <p>EC es un buen patrón para aliviar los problemas de herencia múltiple, donde una estructura de clase compleja puede introducir problemas como el problema de diamante donde una clase D, heredando dos clases, B y C, con la misma clase base A, puede introducir conflictos porque B y C modifican las características de A de manera diferente.</p>
 
-<p><center><img src="/img/Dev/mvc03.jpg" alt="003" /></center></p>
+<p><center><img src="/img/c/mvc03.jpg" alt="003" /></center></p>
 
 <p>Este tipo de problemas pueden ser comunes en el desarrollo de juegos donde la herencia se usa a menudo extensivamente.</p>
 
@@ -221,7 +219,7 @@
 
 <p>Viendo un nivel por encima de POO, EC ayuda a desfragmentar y organizar mejor la arquitectura de su código. Sin embargo, en proyectos grandes todavía somos &ldquo;demasiado libres&rdquo; y podemos encontrarnos en un &ldquo;océano de características&rdquo;, teniendo dificultades para encontrar las Entidades y Componentes correctos, o averiguando cómo deben interactuar. Hay infinitas formas de ensamblar entidades y componentes para una tarea determinada.</p>
 
-<p><center><img src="/img/Dev/mvc04.jpg" alt="004" /></center></p>
+<p><center><img src="/img/c/mvc04.jpg" alt="004" /></center></p>
 
 <hr />
 
@@ -275,7 +273,7 @@
 
 <p>Para ayudar a aliviar estos dos problemas, se me ocurrió un patrón modificado que llamo AMVCC , o Application-Model-View-Controller-Component.</p>
 
-<p><center><img src="/img/Dev/mvc05.jpg" alt="005" /></center></p>
+<p><center><img src="/img/c/mvc05.jpg" alt="005" /></center></p>
 
 <ul>
 <li>Aplicación : punto de entrada único para su aplicación y contenedor de todas las instancias críticas y datos relacionados con la aplicación.</li>
@@ -295,7 +293,7 @@
 
 <p>Antes de crear scripts, generalmente comienzo en la jerarquía y creo un esquema de mi clase y mis recursos. Siempre siguiendo este nuevo estilo AMVCC.</p>
 
-<p><center><img src="/img/Dev/mvc06.jpg" alt="006" /></center></p>
+<p><center><img src="/img/c/mvc06.jpg" alt="006" /></center></p>
 
 <p>Como podemos ver, view GameObject contiene todos los elementos visuales y también los que tienen otros View scripts. El model y controller GameObjects, para proyectos pequeños, por lo general contienen solo sus respectivos scripts. Para proyectos más grandes, contendrán GameObjects con scripts más específicos.</p>
 
@@ -437,7 +435,7 @@ public class BounceController : BounceElement
 
 <p>Usando BounceModel como ejemplo, podemos ver cómo se ve en el editor de Unity:</p>
 
-<p><center><img src="/img/Dev/mvc07.jpg" alt="007" /></center></p>
+<p><center><img src="/img/c/mvc07.jpg" alt="007" /></center></p>
 
 <p>Con todos los scripts configurados y el juego funcionando, deberíamos obtener una salida en el panel de la consola .</p>
 
@@ -527,7 +525,7 @@ public class BounceController : BounceElement
 
 <p>Los proyectos más grandes tendrán muchas notificaciones. Por lo tanto, para evitar tener una gran estructura de switch-case, es aconsejable crear diferentes controladores y hacer que manejen diferentes ámbitos de notificación.</p>
 
-<h2 id="reglas-de-oro-por-antonio-moon">Reglas de oro (por Antonio Moon)</h2>
+<h2 id="reglas-de-oro">Reglas de oro</h2>
 
 <p>No hay ninguna &ldquo;Guía universal para la clasificación de MVC&rdquo; en ninguna parte. Pero hay algunas reglas simples que normalmente sigo para ayudarme a determinar si se debe definir algo como Modelo, Vista o Controlador, y también cuándo dividir una clase determinada en partes más pequeñas.</p>
 
@@ -579,9 +577,9 @@ public class BounceController : BounceElement
 
 <hr />
 
-<p><a href="https://github.com/MoonAntonio" class="button">Antonio Moon Github</a></p>
+<p><center><a href="https://bit.ly/3z1OdYu" class="button"><i class="fa fa-github-alt"></i> GitHub</a></center></p>
 
-<p>.\Moon</p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		
