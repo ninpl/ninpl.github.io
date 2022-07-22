@@ -22,14 +22,64 @@ Cuando inicie el blog, elegí Hugo como framework para crear sitios webs estáti
     </item>
     
     <item>
+      <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
+      <link>https://moonantonio.github.io/post/2019/comun/008/</link>
+      <pubDate>Wed, 27 Nov 2019 00:15:44 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/008/</guid>
+      <description>El marketplace de Visual Studio Code realmente no es práctico para encontrar lo que necesitamos, en conceptos de diferentes temas que la comunidad nos brinda. ¡Visita el sitio web VSCodeThemes, que hace que sea mucho más fácil elegir un tema para Visual Studio Code!
+Asumiendo que el mercado de Visual Studio Code no es la mejor manera de encontrar temas (mientras que para las extensiones, está bien) porque es necesario rezar para que el creador del tema haya capturado la pantalla en el archivo README de su proyecto para echar un vistazo, Jordan Schroter ha desarrollado un sitio web llamado VSCodeThemes , congrega temas de VSCode muy agradables y mucho más prácticos.</description>
+    </item>
+    
+    <item>
+      <title>Cómo usar Trello para el desarrollo ágil</title>
+      <link>https://moonantonio.github.io/post/2019/comun/006/</link>
+      <pubDate>Wed, 30 Oct 2019 02:53:06 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/006/</guid>
+      <description>Trello como una herramienta de apoyo para el desarrollo ágil. Específicamente, vamos a aplicar varios de los conceptos de Scrum, aunque no seguiremos todo lo descrito por esta metodología al pie de la letra.
+Lo básico En Trello existen 3 componentes básicos:
+ Tableros Listas Tarjetas  Un tablero de Trello se corresponde con un proyecto. Dentro de cada tablero podemos crear tantas listas como sea necesario. Por último, cada lista contendrá una serie de tarjetas.</description>
+    </item>
+    
+    <item>
+      <title>Reflexión sobre Final Fantasy</title>
+      <link>https://moonantonio.github.io/post/2019/comun/004/</link>
+      <pubDate>Wed, 06 Feb 2019 02:19:22 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2019/comun/004/</guid>
+      <description>Durante la mayor parte de mi vida, nunca pensé seriamente en la serie Final Fantasy , a pesar de los cientos de horas que literalmente he pasado jugando. Siempre tuve dos suposiciones fundamentales con respecto a los personajes femeninos de la serie. En primer lugar, pueden luchar tan bien como los personajes masculinos. En segundo lugar, aunque son muy, muy bonitos, también lo son los personajes masculinos. Como dice en la caja, esto es fantasía.</description>
+    </item>
+    
+    <item>
       <title>Feliz Año Nuevo !!! 2019</title>
       <link>https://moonantonio.github.io/post/2019/comun/001/</link>
       <pubDate>Thu, 03 Jan 2019 21:33:24 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2019/comun/001/</guid>
       <description>Feliz Año 2019!!!, este año pasado, han ocurrido muchas cosas. Entre ellas, he terminado las entradas para aprender C# en Unity3D, he empezado a escribir las de C++ en Unreal y he abierto el Code backdoor.
-También me ha gustado mucho las nuevas tecnologias que han salido destinadas para la industria de Videojuegos.
-Entre ellas la ECS es la que mas me esta gustado, la orientacion a datos frente a la de objetos.</description>
+También me ha gustado mucho las nuevas tecnologías que han salido destinadas para la industria de Videojuegos.
+Entre ellas la ECS es la que mas me esta gustado, la orientación a datos frente a la de objetos.</description>
+    </item>
+    
+    <item>
+      <title>Final Fantasy Tactics - Curiosidades</title>
+      <link>https://moonantonio.github.io/post/2018/comun/025/</link>
+      <pubDate>Wed, 19 Dec 2018 14:09:39 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/025/</guid>
+      <description>Final Fantasy nos ha dejado una larga lista de grandes títulos. Y ahora que se acerca la remasterización de Final Fantasy VII, de la que, de momento no sabemos en qué momento aparecerá, al menos el primer episodio, desde ScreenRant han decidido desempolvar otro juego de la saga, contemporáneo de Final Fantasy VII.
+Final Fantasy Tactics apareció en 1998 en la primera PlayStation. Sin embargo, el éxito cosechado por Final Fantasy VII, que se lanzó al mercado un año antes, acabó por cubrir a este título y sumirlo en la oscuridad.</description>
+    </item>
+    
+    <item>
+      <title>Usando la proporción de oro</title>
+      <link>https://moonantonio.github.io/post/2018/comun/023/</link>
+      <pubDate>Fri, 30 Nov 2018 14:16:45 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/023/</guid>
+      <description>La espiral de Fibonacci creada a partir de la proporción de oro.
+“La media de oro”, “Proporciones divinas”, “Espiral de Fibonacci”, y la lista continúa. Esta forma se crea a partir de una fórmula matemática conocida por su apariencia estéticamente agradable. Se puede encontrar de forma natural en muchas cosas como los lóbulos de las orejas, flores y conchas de nautilus. También se utiliza para diseñar objetos artificiales como el iPod.</description>
     </item>
     
     <item>

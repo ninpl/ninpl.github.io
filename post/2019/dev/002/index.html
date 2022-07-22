@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Shaders (Ley de Lambert) y Cell Shading (Toon)&middot; Antonio Moon´s</title>
+	<title>Shaders Cell Shading (Toon)&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -148,8 +148,8 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/img121.png')">
-			<h1 class="title">Shaders (Ley de Lambert) y Cell Shading (Toon)</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/b/b061.jpg')">
+			<h1 class="title">Shaders Cell Shading (Toon)</h1>
 		</header>
 
 	<section class="post-content">
@@ -188,7 +188,7 @@ Para ello, debemos saber que es la ley de Lambert.</p>
 
 <p>Tenga en cuenta que cuando el valor de puntos es negativo, la luz proviene del lado opuesto del triángulo. Esto no es un problema para las geometrías opacas, ya que los triángulos que no están orientados hacia la parte frontal de la cámara están seleccionados.</p>
 
-<p><center><img src="/img/Dev/lambert.png" alt="002" /></center></p>
+<p><center><img src="/img/c/cellylamb.png" alt="002" /></center></p>
 
 <h1 id="cell-shader">Cell Shader</h1>
 
@@ -196,7 +196,7 @@ Para ello, debemos saber que es la ley de Lambert.</p>
 
 <p>Para aquellos que no están familiarizados con el shader toon, tenga en cuenta que es una excelente manera de hacer que su juego se vea peculiar sin poner mucha energía en el desarrollo de un estilo artístico original. Yo también soy culpable de esto. Me encanta.</p>
 
-<p><center><img src="/img/Dev/cellPrev.jpg" alt="002" /></center></p>
+<p><center><img src="/img/c/cellylamb2.jpg" alt="002" /></center></p>
 
 <p>Pero, como puedes ver, ¡también se ve genial!</p>
 
@@ -206,15 +206,13 @@ Para ello, debemos saber que es la ley de Lambert.</p>
 
 <p>Algunas implementaciones del shader Toon utilizan una textura llamada mapa de Ramp para definir la forma en que reasignamos la intensidad de luz de Lambert(NdotL) a otro valor. En la implementación anterior, la variable _CelShadingLevels se usa para ajustar la intensidad de la luz de modo que solo pueda asumir un número dado de valores muestreados equidistantemente de 0 a 1.</p>
 
-<p><center><img src="/img/Dev/CellShadingLambert.gif" alt="002" /></center></p>
+<p><center><img src="/img/c/cellylamb3.gif" alt="002" /></center></p>
 
 <p>En esta demostración usé un valor de 5 para la variable de entrada _CelShadingLevels . Puede notar que, como resultado, hay 5 pasos distintos que dividen las 6 bandas diferentes de intensidad de luz.</p>
 
-<p>.\Moon</p>
+<p><center><a href="https://github.com/MoonAntonio/cellshading" class="button"><i class="fa fa-github-alt"></i> GitHub</a></center></p>
 
-<p><center><a href="https://github.com/MoonAntonio/cellshading" class="button">Repo. Github</a></p>
-
-<p><a href="https://ko-fi.com/B0B3NA0O"><img src="https://www.ko-fi.com/img/donate_sm.png" alt="ko-fi" /></a></p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		

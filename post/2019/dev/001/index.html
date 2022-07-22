@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>Personalizando nuestro editor a nuestro gusto - Unity&middot; Antonio Moon´s</title>
+	<title>Personalizando nuestro editor - Unity&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -148,16 +148,16 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
-			<h1 class="title">Personalizando nuestro editor a nuestro gusto - Unity</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')">
+			<h1 class="title">Personalizando nuestro editor - Unity</h1>
 		</header>
 
 	<section class="post-content">
-		<p>Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script classes asociadas a  Gameobjects, prefabs, etc…</p>
+		<p>Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script clases asociadas a  Gameobjects, prefabs, etc…</p>
 
-<p><center><img src="/img/Dev/customEditorPrev01.png" alt="002" /><img src="/img/Dev/customEditorPrev02.png" alt="002" /></center></p>
+<p><center><img src="/img/c/cusomeditoruni.png" alt="002" /><img src="/img/c/cusomeditoruni2.png" alt="002" /></center></p>
 
-<p>Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automaticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</p>
+<p>Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automáticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.</p>
 
 <p>Creamos dos carpetas más: Scripts y Scenes para guardar el resto de scripts y la escena que tendrá nuestro trabajo</p>
 
@@ -232,11 +232,11 @@ namespace MoonAntonio
 
 <p>Queremos clases capaces de ser serializadas. Para hacer esto añadimos la etiqueta [System.Serializable] sobre la declaración de las clases.</p>
 
-<p><center><img src="/img/Dev/customEditorPrev01.png" alt="002" /></center></p>
+<p><center><img src="/img/c/cusomeditoruni.png" alt="002" /></center></p>
 
 <p>Ahora crearemos nuestra clase editor personalizada, creamos un nuevo script en la carpeta Editor llamado UnidadInspector e importamos la clase editor usada por el UnityEditor.</p>
 
-<p>Añadimos la etiqueta [CustomEditor(typeof(Unidad))] para indicar que vamos a definir la representacion de la clase Unidad en el editor. UnidadInspector hereda de Editor.
+<p>Añadimos la etiqueta [CustomEditor(typeof(Unidad))] para indicar que vamos a definir la representación de la clase Unidad en el editor. UnidadInspector hereda de Editor.
 Sobreescribimos OnInspectorGUI(), este método será llamado con cada evento del editor.</p>
 
 <hr />
@@ -314,7 +314,7 @@ serializedObject.ApplyModifiedProperties();
 
 <hr />
 
-<p>Para extraer los atributos de Data podemos usar el nombre del atributo con FindPropertyRelative porque usaremos la propiedad extraida previamente.</p>
+<p>Para extraer los atributos de Data podemos usar el nombre del atributo con FindPropertyRelative porque usaremos la propiedad extraída previamente.</p>
 
 <hr />
 
@@ -397,11 +397,11 @@ namespace MoonAntonio
 
 <hr />
 
-<p><center><img src="/img/Dev/customEditorPrev02.png" alt="002" /></center></p>
+<p><center><img src="/img/c/cusomeditoruni2.png" alt="002" /></center></p>
 
-<p><center><a href="https://github.com/MoonAntonio/CustomEditorUnity" class="button">Repo. Github</a></p>
+<p><center><a href="https://github.com/MoonAntonio/CustomEditorUnity" class="button"><i class="fa fa-github-alt"></i> GitHub</a></center></p>
 
-<p><a href="https://ko-fi.com/B0B3NA0O"><img src="https://www.ko-fi.com/img/donate_sm.png" alt="ko-fi" /></a></p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		
