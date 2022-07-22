@@ -148,31 +148,31 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+		<header style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')">
 			<h1 class="title">Unity3D Plugins ¿Que son?</h1>
 		</header>
 
 	<section class="post-content">
 		
 
-<p>Hoy decidi compartir, algo que creo que no es un <strong>&ldquo;conocimiento común&rdquo;</strong> y no hay muchos recursos sobre ese tema en Internet, despues de que varios colegas que estan empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el <strong>SKD de Steam</strong> que esta en C++ o las librerias .JAR de Android decidi crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</p>
+<p>Hoy decidí compartir, algo que creo que no es un <strong>&ldquo;conocimiento común&rdquo;</strong> y no hay muchos recursos sobre ese tema en Internet, después de que varios colegas que están empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el <strong>SKD de Steam</strong> que esta en <strong>C++ o las librerias .JAR</strong> de Android, decidí crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</p>
 
-<h2 id="introduccion">Introduccion</h2>
+<h2 id="introducción">Introducción</h2>
 
-<p>Alguna vez te has preguntado, <strong>¿Como los modders crean funcionalidad para los juegos?</strong>, pues la respuesta es esta, crean <strong>plugins que interferir la API publica</strong> de los juegos (Variables, metodos, funciones publicos) y luego con lenguaje pegamento crean la llamada si esque no se puede llamar desde el mismo core.</p>
+<p>Alguna vez te has preguntado, <strong>¿Como los modders crean funcionalidad para los juegos?</strong>, pues la respuesta es esta, crean <strong>plugins que interfieren con la API publica</strong> de los juegos (Variables, métodos, funciones públicas) y luego con <strong>lenguaje pegamento</strong> crean la llamada si es que no se puede llamar desde el mismo core.</p>
 
 <hr />
 
-<p>Puede preguntar, <strong>¿por que deberia molestarme en escribir C o C++ cuando Unity admite C #?</strong></p>
+<p>Puede preguntar, <strong>¿por que debería molestarme en escribir C o C++ cuando Unity admite C#?</strong></p>
 
-<p>La respuesta es simple. Es mucho <strong>más rápido</strong>, trabajar a <a href="http://bit.ly/2MFbKoQ">bajo nivel</a> cambia mucho las cosas. Decidi preparar algunos ejemplos solo para mostrar como C++ supera C# basado Mono.</p>
+<p>La respuesta es simple. Es mucho <strong>más rápido</strong>, trabajar a <a href="http://bit.ly/2MFbKoQ">bajo nivel</a> cambia mucho las cosas. Decidí preparar algunos ejemplos solo para mostrar como <strong>C++ supera a C#</strong> basado en Mono.</p>
 
 <p>Ejemplos:</p>
 
 <table>
 <thead>
 <tr>
-<th>Prueba de Estres</th>
+<th>Prueba de Estrés</th>
 <th>Unity C#</th>
 <th>Biblioteca C/C++</th>
 </tr>
@@ -192,7 +192,7 @@
 </tr>
 
 <tr>
-<td>Array de enteros de 10000 x 10000 con numeros aleatorios</td>
+<td>Array de enteros de 10000 x 10000 con números aleatorios</td>
 <td>4.26 segundos</td>
 <td>0.995 segundos</td>
 </tr>
@@ -206,14 +206,14 @@
 <h3 id="pros">Pros</h3>
 
 <ol>
-<li>Triplica (en algunos casos) la velocidad de calculo.</li>
+<li>Triplica (en algunos casos) la <strong>velocidad de calculo</strong>.</li>
 <li>Las dlls no afectan al rendimiento de unity.</li>
 </ol>
 
 <h3 id="contras">Contras</h3>
 
 <ol>
-<li>Unity no admite directamente C++.</li>
+<li>Unity <strong>no admite directamente C++</strong>.</li>
 <li>La velocidad que se ahorra en runtime, se pierde realizando las dlls.</li>
 </ol>
 
@@ -221,9 +221,9 @@
 
 <h2 id="crear-biblioteca-c">Crear biblioteca C++</h2>
 
-<p>En este caso, yo usare Code::Blocks, pero podeis usar cualquier IDE que querais. Voy a crear un proyecto de libreria dinamica (.dll) llamado LowLevelPlugin. Ya que vamos a trabajar a bajo nivel.</p>
+<p>En este caso, yo usare <a href="https://bit.ly/3okJiNg"><strong>Code::Blocks</strong></a>, pero podéis usar cualquier IDE que queráis. Voy a crear un proyecto de <strong>librería dinámica (.dll)</strong> llamado LowLevelPlugin. Ya que vamos a trabajar a bajo nivel.</p>
 
-<p>Nos iremos al encabezado main.h y eliminaremos todo el contenido que se ha generado automaticamente.</p>
+<p>Nos iremos al encabezado main.h y eliminaremos todo el contenido que se ha generado automáticamente.</p>
 
 <hr />
 
@@ -231,10 +231,6 @@
 #define __MAIN_H__
 
 #include &lt;windows.h&gt;
-
-/*  To use this exported function of dll, include this header
- *  in your project.
- */
 
 #ifdef BUILD_DLL
     #define DLL_EXPORT __declspec(dllexport)
@@ -263,7 +259,7 @@ void DLL_EXPORT SomeFunction(const LPCSTR sometext);
 
 <hr />
 
-<pre><code class="language-C++">#pragma once
+<pre><code class="language-C">#pragma once
 #if UNITY_METRO
 #define EXPORT_API __declspec(dllexport) __stdcall
 #elif UNITY_WIN
@@ -275,7 +271,7 @@ void DLL_EXPORT SomeFunction(const LPCSTR sometext);
 
 <hr />
 
-<p>El propósito de este encabezado completo es comportarse de manera diferente basándose en qué plataforma está compilando actualmente su código. Significa que puede compilarlo fácilmente en Visual Studio.</p>
+<p>El propósito de este encabezado completo es <strong>comportarse de manera diferente basándose en qué plataforma está compilando</strong> actualmente su código. Significa que puede compilarlo fácilmente en Visual Studio.</p>
 
 <hr />
 
@@ -285,7 +281,7 @@ void DLL_EXPORT SomeFunction(const LPCSTR sometext);
 <hr />
 
 <ul>
-<li>#pragma once es una directiva específica C/C++ diseñada para hacer que el archivo fuente actual se incluya solo una vez en una sola compilación.</li>
+<li>#pragma once es una <strong>directiva específica C/C++</strong> diseñada para hacer que el archivo fuente actual se incluya solo una vez en una sola compilación.</li>
 </ul>
 
 <hr />
@@ -296,7 +292,7 @@ void DLL_EXPORT SomeFunction(const LPCSTR sometext);
 <hr />
 
 <ul>
-<li>Esto le dice al compilador que ejecute este bloque si solo estamos corriendo en Windows basado en Metro, por ejemplo, 8.1. Esto os sonara de Unity si habeis usado las <a href="https://docs.unity3d.com/es/current/Manual/PlatformDependentCompilation.html">directivas de compilacion de plataforma</a>.</li>
+<li>Esto le dice al compilador que <strong>ejecute este bloque si solo estamos corriendo en Windows</strong> basado en Metro, por ejemplo, 8.1. Esto os sonara de Unity si habéis usado las <a href="https://docs.unity3d.com/es/current/Manual/PlatformDependentCompilation.html">directivas de compilación de plataforma</a>.</li>
 </ul>
 
 <hr />
@@ -307,12 +303,12 @@ void DLL_EXPORT SomeFunction(const LPCSTR sometext);
 <hr />
 
 <ul>
-<li>La palabra clave &ldquo;define&rdquo; funciona de manera similar a la función replace, su sintaxis se puede definir de la siguiente manera:</li>
+<li>La palabra clave <strong>&ldquo;define&rdquo; funciona de manera similar a la función replace</strong>, su sintaxis se puede definir de la siguiente manera:</li>
 </ul>
 
 <p>define &lsquo;Esto&rsquo; &lsquo;Por esto&rsquo;.</p>
 
-<p>En nuestro caso, cada vez que el compilador ve la secuencia de caracteres EXPORT_API en el código, la reemplaza con la segunda parte. Del mismo modo, el compilador se comportará en caso de que compile su código en ventanas antiguas, reemplace EXPORT_API con __declspec(dllexport) y simplemente elimine EXPORT_API en cualquier otro caso.</p>
+<p>En nuestro caso, <strong>cada vez que el compilador ve la secuencia de caracteres EXPORT_API en el código, la reemplaza con la segunda parte</strong>. Del mismo modo, el compilador se comportará en caso de que compile su código en ventanas antiguas, reemplace EXPORT_API con __declspec(dllexport) y simplemente elimine EXPORT_API en cualquier otro caso.</p>
 
 <p>Eso es todo cuando se trata de encabezado. Ahora pasemos a algo que sea más interesante, el código fuente real. En el archivo main.cpp pegue el siguiente código:</p>
 
@@ -353,7 +349,7 @@ extern &quot;C&quot; int ** EXPORT_API fillArray(int size)
 
 <hr />
 
-<p>Esta es nuestra declaración de función. Nuestra función se llama &ldquo;fillArray&rdquo;, toma un argumento int y devuelve una matriz de enteros bidimensional. (Sí, ** significa dos dimensiones) Word &ldquo;extern&rdquo; extiende la visibilidad a todo el programa, las funciones se pueden usar en cualquier lugar en cualquiera de los archivos de todo el programa y fuera de nuestra biblioteca/plugin. También tenemos nuestra palabra clave EXPORT_API.</p>
+<p>Esta es nuestra <strong>declaración de función</strong>. Nuestra función se llama &ldquo;fillArray&rdquo;, toma un argumento int y devuelve una matriz de enteros bidimensional. (Sí, ** significa dos dimensiones) &ldquo;extern&rdquo; <strong>extiende la visibilidad a todo el programa</strong>, las funciones se pueden usar en cualquier de los archivos de todo el programa y fuera de nuestra biblioteca/plugin. También tenemos nuestra palabra clave EXPORT_API.</p>
 
 <p>La siguiente linea es:</p>
 
@@ -364,7 +360,7 @@ extern &quot;C&quot; int ** EXPORT_API fillArray(int size)
 
 <hr />
 
-<p>Aquí estoy definiendo int-array bidimensional y luego estoy asignando memoria para ello. Como estoy escribiendo código en C++, no puedo simplemente crear una matriz y asignar valores. Tengo que reservar algo de espacio en memoria para eso y luego hacer cualquier operación. En este caso particular, estoy asignando las siguientes &ldquo;celdas&rdquo; de memoria de N de tamaño de int* y lo convierto al tipo bidimensional int array.</p>
+<p>Aquí estoy <strong>definiendo int-array bidimensional</strong> y luego estoy asignando memoria para ello. Como estoy escribiendo código en C++, <strong>no puedo simplemente crear una matriz y asignar valores</strong>. Tengo que reservar algo de espacio en memoria para eso y luego hacer cualquier operación. En este caso particular, estoy asignando las siguientes &ldquo;celdas&rdquo; de memoria de N tamaño de int* y lo convierto al tipo bidimensional int array.</p>
 
 <p>Lo mismo que estoy haciendo aquí:</p>
 
@@ -375,21 +371,21 @@ extern &quot;C&quot; int ** EXPORT_API fillArray(int size)
 
 <hr />
 
-<p>La única diferencia es que ahora estoy asignando memoria para cada fila &ldquo;i&rsquo;t&rdquo; de una matriz.</p>
+<p>La única <strong>diferencia es que ahora estoy asignando memoria para cada fila</strong> &ldquo;i&rsquo;t&rdquo; de una matriz.</p>
 
 <p>Y al final estoy devolviendo un conjunto lleno. Espero que para los bucles y la asignación de valores sea obvio, así que no lo explicaré.</p>
 
 <p>Ahora solo compilamos y se creara la dll.</p>
 
-<p><center><img src="/img/Dev/dll.png" alt="001" /></center></p>
+<p><center><img src="/img/c/dll.png" alt="001" /></center></p>
 
 <h2 id="implementar-puente-en-unity3d">Implementar puente en Unity3D</h2>
 
-<p>Copia la dll en un Proyecto Unity3D dentro de la carpeta plugins en /Assets/Plugins. También debe crear un script C# en el directorio base para que la estructura de su proyecto tenga este aspecto:</p>
+<p><strong>Copia la dll en un Proyecto Unity3D dentro de la carpeta plugins en /Assets/Plugins</strong>. También debe crear un script C# en el directorio base para que la estructura de su proyecto tenga este aspecto:</p>
 
-<p><center><img src="/img/Dev/dll2.png" alt="001" /></center></p>
+<p><center><img src="/img/c/dll2.png" alt="001" /></center></p>
 
-<p>En la parte superior de tu script C # agrega &ldquo;Using System.Runtime.InteropServices;&rdquo;, luego la declaracion de la funcion de la dll, crea una matriz y por ultimo asigna a la variable la llamada.</p>
+<p>En la parte superior de tu script C# agrega &ldquo;Using System.Runtime.InteropServices;&rdquo;, luego la declaración de la función de la dll, crea una matriz y por ultimo asigna a la variable la llamada.</p>
 
 <hr />
 
@@ -424,13 +420,15 @@ private void ArrayFillTest()
 
 <h2 id="conclusiones">Conclusiones</h2>
 
-<p>Siempre que ejecutes codigo de bajo nivel, tendras mejores resultados.</p>
+<p>Siempre que ejecutes código de bajo nivel, tendrás mejores resultados.</p>
 
 <hr />
 
 <h2 id="repositorio">Repositorio</h2>
 
-<p><center><a href="http://bit.ly/2B6sUdP" class="button">GitHub Source</a></center></p>
+<p><center><a href="https://bit.ly/3v5Ihwk" class="button"><i class="fa fa-github-alt"></i> GitHub</a></center></p>
+
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		

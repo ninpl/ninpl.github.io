@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>MonoBehavior en Unity&middot; Antonio Moon´s</title>
+	<title>MonoBehavior de Unity&middot; Antonio Moon´s</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Moon Antonio">
@@ -148,28 +148,28 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
-			<h1 class="title">MonoBehavior en Unity</h1>
+		<header style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')">
+			<h1 class="title">MonoBehavior de Unity</h1>
 		</header>
 
 	<section class="post-content">
 		
 
-<p>Unity puede estar desperdiciando mucho rendimiento de la CPU simplemente llamando a sus funciones MonoBehaviour. Realmente no importa lo que estén haciendo tus scripts. Si tiene cientos o miles de ellos, hay que tener en cuenta que hay un nuevo campo de optimización.</p>
+<p>Unity puede estar <strong>desperdiciando mucho rendimiento de la CPU</strong> simplemente llamando a sus funciones MonoBehaviour. Realmente no importa lo que estén haciendo tus scripts. Si tiene cientos o miles de ellos, hay que tener en cuenta que hay un nuevo campo de optimización.</p>
 
 <h2 id="métodos-mágicos">Métodos mágicos</h2>
 
-<p>Las llamadas a funciones MonoBehaviour son lentas. Estoy hablando de funciones como Update() , LateUpdate(),  OnRender(), etc. Son los llamados métodos mágicos, y si estas familiarizado con los lenguajes de programación orientados a objetos, este concepto parece llamar a un método usando mecanismo de reflexión (la reflexión habilita llamadas de métodos incluso si no conoce la interfaz).</p>
+<p>Las llamadas a funciones MonoBehaviour son lentas. Estoy hablando de funciones como Update() , LateUpdate(),  OnRender(), etc. Son los llamados <strong>métodos mágicos</strong>, y si estas familiarizado con los lenguajes de programación <strong>orientados a objetos</strong>, este concepto parece llamar a un método usando mecanismo de reflexión (la reflexión habilita llamadas de métodos incluso si no conoce la interfaz).</p>
 
-<p>Las llamadas de reflexión son costosas, por lo que Unity hace todo lo posible para almacenar en caché cualquier operación, por lo que el conjunto de instrucciones de la CPU necesarias para llamar a un método mágico cada fotograma podría ser mínimo. Pero aún puede ser lento, muy lento &hellip;</p>
+<p>Las <strong>llamadas de reflexión son costosas</strong>, por lo que Unity hace todo lo posible para almacenar en caché cualquier operación, por lo que el conjunto de instrucciones de la CPU necesarias para llamar a un método mágico cada fotograma podría ser mínimo. Pero aún puede ser lento, muy lento &hellip;</p>
 
 <h2 id="por-qué-es-tan-lento">¿Por qué es tan lento?</h2>
 
-<p>No voy a hablar sobre los detalles (pero si realmente quieres leer sobre los detalles, mira el final de este artículo para ver los enlaces), así que imagina que Unity intenta ser lo más flexible y fácil de usar posible. Hacer algo cuesta fácilmente el poder de la CPU porque el motor no puede hacer suposiciones sobre su juego y necesita hacer un montón de comprobaciones para llamar a sus funciones mágicas en los objetos correctos, en el orden correcto, y no chocar mientras tanto.</p>
+<p>No voy a hablar sobre los detalles (pero si realmente quieres leer sobre los detalles, mira el final de este artículo para ver los enlaces), así que imagina que Unity intenta <strong>ser lo más flexible y fácil de usar</strong>. Hacer algo cuesta operaciones de CPU porque el motor no puede hacer suposiciones sobre su juego y necesita hacer un montón de comprobaciones para llamar a sus funciones mágicas en los objetos correctos, en el orden correcto, y no chocar mientras tanto.</p>
 
 <h2 id="se-puede-volver-más-rápido">¿Se puede volver más rápido?</h2>
 
-<p>¡Sí!, ¡Puede!, ¿Cómo?, Debe asumir la responsabilidad de llamar a la función Update() definiendo su propia función y llamándola desde un administrador. De esta forma, asumes la responsabilidad de actualizar tus objetos. ¿Cuánto más rápido puede llegar a ser? Bueno, depende de la plataforma. Mostrare las medidas hechas por <a href="https://blogs.unity3d.com/es/2015/12/23/1k-update-calls/">Valentin Simonov en el blog oficial de Unity</a>:</p>
+<p>¡Sí!, ¡Puede!, ¿Cómo?, Debe asumir la <strong>responsabilidad de llamar</strong> a la función Update() definiendo su <strong>propia función</strong> y llamándola desde un administrador. De esta forma, asumes la responsabilidad de <strong>actualizar tus objetos</strong>. ¿Cuánto más rápido puede llegar a ser? Bueno, depende de la plataforma. Mostrare las medidas hechas por <a href="https://blogs.unity3d.com/es/2015/12/23/1k-update-calls/">Valentin Simonov en el blog oficial de Unity</a>:</p>
 
 <p><center><img src="/img/Dev/tablaMono.png" alt="001" /></center></p>
 
@@ -180,8 +180,8 @@
 <p>Presentaré un simple ejemplo de un administrador llamado BoxManager que está administrando scripts de BoxManaged. El manager tiene dos responsabilidades:</p>
 
 <ul>
-<li>Mantener actualizada la lista de objetos administrados.</li>
-<li>Llamar a funciones de tipo update en objetos administrados cuando se llama al administrador Update().</li>
+<li>Mantener <strong>actualizada la lista</strong> de objetos administrados.</li>
+<li>Llamar a <strong>funciones de tipo update</strong> en objetos administrados cuando se llama al administrador Update().</li>
 </ul>
 
 <p>El código puede verse así:</p>
@@ -222,7 +222,7 @@ public class BoxManager : MonoBehaviour
 
 <hr />
 
-<p>Como puedes ver, es realmente simple. Antes de implementar la función Update(), echemos un vistazo a BoxManaged.cs.</p>
+<p>Como puedes ver, es <strong>realmente simple</strong>. Antes de implementar la función Update(), echemos un vistazo a BoxManaged.cs.</p>
 
 <hr />
 
@@ -253,7 +253,7 @@ public class BoxManaged : MonoBehaviour {
 
 <hr />
 
-<p>Se registra a sí mismo cuando está habilitado y se anula el registro cuando está deshabilitado. La función ManagedUpdate() es una función que reemplazará la función mágica Update(). Implementa BoxManager.Update() , por lo que podras llamar a todos los  BoxManaged.ManagedUpdate() de una vez.</p>
+<p><strong>Se registra a sí mismo</strong> cuando está habilitado y se anula el registro cuando está deshabilitado. La función ManagedUpdate() es una función que <strong>reemplazará la función mágica Update()</strong>. Implementa BoxManager.Update() , por lo que podras llamar a todos los  BoxManaged.ManagedUpdate() de una vez.</p>
 
 <hr />
 
@@ -274,17 +274,17 @@ public class BoxManaged : MonoBehaviour {
 
 <h2 id="debería-importarme">¿Debería importarme?</h2>
 
-<p>Depende del tipo de juego que crees y de la plataforma objetivo. Hágase una pregunta: ¿tiene muchos objetos MonoBehaviour con llamadas a Update()? No necesariamente tiene que ser Update(), puede ser cualquier cosa que se invoque con cada fotograma. ¡Entonces, si te diriges a móviles, definitivamente vale la pena intentarlo! ¿Dirigiéndose a standalones? Todavía es algo que puedes considerar, especialmente si estás planeando tener una gran cantidad de objetos.</p>
+<p>Depende del <strong>tipo de juego</strong> que crees y de la plataforma objetivo. Hágase una pregunta: ¿tiene muchos objetos MonoBehaviour con llamadas a Update()? No necesariamente tiene que ser Update(), puede ser cualquier cosa que se invoque con cada fotograma. ¡Entonces, si te diriges a móviles, definitivamente vale la pena intentarlo! ¿Dirigiéndose a standalones? Todavía es algo que puedes considerar, especialmente si estás planeando tener una gran cantidad de objetos.</p>
 
 <p>A veces puede necesitar un administrador, incluso si tiene una cantidad relativamente pequeña de objetos. En iOS hubo un problema con la función OnRender(). Tenerlo en 30-40 objetos podría disminuir el rendimiento del juego dos veces. ¿La solución? Un administrador como el presentado anteriormente, pero en lugar de llamar a Update() debería estar llamando al código OnRender().</p>
 
-<p>Tenga en cuenta que esta es una de las muchas estrategias de optimización que puede usar. Sin embargo, este está bastante oculto, a menos que lo sepa, le será difícil encontrarlo. Esa es la razón por la cual este artículo ha cobrado vida.</p>
+<p><strong>Tenga en cuenta que esta es una de las muchas estrategias de optimización que puede usar</strong>. Sin embargo, este está bastante oculto, a menos que lo sepa, le será difícil encontrarlo. Esa es la razón por la cual este artículo ha cobrado vida.</p>
 
 <h2 id="referencias">Referencias</h2>
 
 <p><center><a href="https://blogs.unity3d.com/es/2015/12/23/1k-update-calls/" class="button">Link</a></center></p>
 
-<p>\.Moon Pincho</p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		

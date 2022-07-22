@@ -148,35 +148,35 @@
     <div class="content">
     <script src="https://moonantonio.github.io/js/darkmode.js"></script>
 	<article class="feature-image">
-		<header style="background-image: url('https://moonantonio.github.io/img/bg.png')">
+		<header style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')">
 			<h1 class="title">ScriptableObjects</h1>
 		</header>
 
 	<section class="post-content">
 		
 
-<p>Los Objetos Scriptables son un tipo especial de objeto de datos en Unity. Tienen varios beneficios importantes, pero es posible que no funcionen de manera ideal para cada situación.</p>
+<p>Los Objetos Scriptables <strong>son un tipo especial de objeto de datos</strong> en Unity. Tienen varios beneficios importantes, pero es posible que no funcionen de manera ideal para cada situación.</p>
 
 <h2 id="introducción-a-los-objetos-scriptables">Introducción a los Objetos Scriptables</h2>
 
-<p>Puede pensar en un objeto programable como un objeto destinado solo a contener datos. Si ha estado utilizando clases o estructuras tradicionales de C# para objetos simples solo de datos, podría utilizarlas en su lugar. Por supuesto, usted se estará preguntando &ldquo;por qué&rdquo; le gustaría usar un Objeto Scriptable. Aquí hay algunos pros y contras:</p>
+<p>Puede pensar en un <strong>objeto programable como un objeto destinado solo a contener datos</strong>. Si ha estado utilizando clases o estructuras tradicionales de C# para objetos simples solo de datos, podría utilizarlas en su lugar. Por supuesto, usted se estará preguntando &ldquo;por qué&rdquo; le gustaría usar un Objeto Scriptable. Aquí hay algunos pros y contras:</p>
 
 <h3 id="pros">Pros</h3>
 
 <ol>
-<li>Pueden sobrevivir a una carga (como cuando construyes tus scripts o cuando ingresas y sales del modo de reproducción).</li>
-<li>Se guardan por referencia, mientras que las clases y estructuras normales se serializan como copias completas. Esto puede ayudarlo a evitar la duplicación de datos.</li>
-<li>Pueden manejar el polimorfismo, mientras que las clases normales terminan siendo tratadas como la clase base.</li>
-<li>Se pueden guardar como un activo del proyecto.</li>
+<li>Pueden <strong>sobrevivir a una carga</strong> (como cuando construyes tus scripts o cuando ingresas y sales del modo de reproducción).</li>
+<li>Se <strong>guardan por referencia</strong>, mientras que las clases y estructuras normales se serializan como copias completas. Esto puede ayudarlo a evitar la duplicación de datos.</li>
+<li>Pueden manejar el <strong>polimorfismo</strong>, mientras que las clases normales terminan siendo tratadas como la clase base.</li>
+<li>Se pueden guardar como un <strong>activo del proyecto</strong>.</li>
 <li>No necesitan estar adjuntos a GameObjects.</li>
 </ol>
 
 <h3 id="contras">Contras</h3>
 
 <ol>
-<li>Debe heredar de ScriptableObject, lo que puede romper muchas de sus opciones arquitectónicas o de diseño.</li>
-<li>No puede crearlos usando constructores normales, sino que debe usar &ldquo;CreateInstance&rdquo; en su lugar.</li>
-<li>Los beneficios de serialización no son igualmente aplicables al tiempo de ejecución.</li>
+<li>Debe <strong>heredar de ScriptableObject</strong>, lo que puede romper muchas de sus opciones arquitectónicas o de diseño.</li>
+<li>No puede crearlos usando constructores normales, sino que <strong>debe usar &ldquo;CreateInstance&rdquo;</strong> en su lugar.</li>
+<li>Los <strong>beneficios de serialización</strong> no son igualmente aplicables al tiempo de ejecución.</li>
 </ol>
 
 <p>He creado varias mini demos para aclarar estos puntos. Las dos primeras demostraciones muestran cómo podría encontrarse con problemas si no estuviera usando ScriptableObjects. Las dos demos siguientes muestran cómo ScriptableObjects supera esos mismos problemas.</p>
@@ -239,7 +239,7 @@ public class Demo1Inspector : Editor
 
 <hr />
 
-<p>Este script proporcionará un botón en el inspector de nuestro componente que creará una nueva instancia de &ldquo;Demo1Data&rdquo; y la asignará a ambos campos en el script &ldquo;Demo1&rdquo;. IMPORTANTE : el script del editor debe agregarse a una carpeta &ldquo;Editor&rdquo; o no funcionará correctamente.</p>
+<p>Este script proporcionará un botón en el inspector de nuestro componente que creará una nueva instancia de &ldquo;Demo1Data&rdquo; y la asignará a ambos campos en el script &ldquo;Demo1&rdquo;. <strong>IMPORTANTE: el script del editor debe agregarse a una carpeta &ldquo;Editor&rdquo; o no funcionará correctamente</strong>.</p>
 
 <p>Crea una nueva escena. Agregue &ldquo;Demo1&rdquo; como componente a cualquier objeto de juego, como crear un nuevo objeto de juego vacío o incluso adjuntarlo a la cámara. Luego mira en el inspector. Unity creará automáticamente nuevas instancias de &ldquo;Demo1Data&rdquo; para ambos campos simplemente mirando el objeto en el inspector. Puede asignar cualquier valor que desee a cada uno de los campos &ldquo;Value&rdquo;. Si ingresa y sale del modo de reproducción, los valores incluso persistirán, hasta ahora todo bien.</p>
 
@@ -249,7 +249,7 @@ public class Demo1Inspector : Editor
 
 <p><strong>Pérdida de tipo de objeto en la serialización</strong></p>
 
-<p>Esta demostración mostrará cómo Unity no puede serializar correctamente el tipo de un objeto. Puede encontrar este problema con una lista polimórfica de objetos. Crea lo siguiente:</p>
+<p>Esta demostración <strong>mostrará cómo Unity no puede serializar correctamente</strong> el tipo de un objeto. Puede encontrar este problema con una lista polimórfica de objetos. Crea lo siguiente:</p>
 
 <hr />
 
@@ -335,7 +335,7 @@ public class Demo2Inspector : Editor
 
 <hr />
 
-<p>Este script proporcionará algunos botones en el inspector de nuestro componente. El primero está etiquetado como &ldquo;Crear Datos&rdquo; e instanciará cada una de nuestras subclases de datos y las asignará a la matriz de datos de nuestro script. El segundo botón está etiquetado como &ldquo;Imprimir Valores&rdquo; y hará que cada objeto en la matriz imprima sus valores en la consola. IMPORTANTE : el script del editor debe agregarse a una carpeta &ldquo;Editor&rdquo; o no funcionará correctamente.</p>
+<p>Este script proporcionará algunos botones en el inspector de nuestro componente. El primero está etiquetado como &ldquo;Crear Datos&rdquo; e instanciará cada una de nuestras subclases de datos y las asignará a la matriz de datos de nuestro script. El segundo botón está etiquetado como &ldquo;Imprimir Valores&rdquo; y hará que cada objeto en la matriz imprima sus valores en la consola. <strong>IMPORTANTE: el script del editor debe agregarse a una carpeta &ldquo;Editor&rdquo; o no funcionará correctamente.</strong></p>
 
 <p>Crea una nueva escena. Agregue la &ldquo;Demo2&rdquo; como un componente a cualquier objeto del juego, como crear un nuevo objeto de juego vacío o incluso adjuntarlo a la cámara. Luego mira en el inspector. Unity creará automáticamente una matriz vacía de datos simplemente mirando el objeto en el inspector. Llenemos nuestro objeto con datos haciendo clic en el botón &ldquo;Crear Datos&rdquo;. Debería ver que la matriz contiene ahora dos objetos.</p>
 
@@ -361,7 +361,7 @@ public class Demo2Inspector : Editor
 
 <p><strong>Las referencias a objetos Scriptable sobreviven a la serialización</strong></p>
 
-<p>Esta vez recrearemos la Demo 1, excepto que usaremos un Objeto Scriptable para nuestros datos serializados en lugar de una clase C# estándar. Crea lo siguiente:</p>
+<p>Esta vez recrearemos la Demo 1, excepto que <strong>usaremos un Objeto Scriptable para nuestros datos</strong> serializados en lugar de una clase C# estándar. Crea lo siguiente:</p>
 
 <hr />
 
@@ -411,15 +411,15 @@ public class Demo3Inspector : Editor
 
 <h2 id="objetos-scriptables-en-tiempo-de-ejecución">Objetos Scriptables en tiempo de ejecución</h2>
 
-<p>He mostrado los objetos de script utilizados tanto en el modo de edición como durante el modo de reproducción. Sin embargo, vale la pena señalar que algunos de los mayores beneficios de los objetos programables, en particular su fácil serialización, no es algo que pueda utilizar en tiempo de ejecución.</p>
+<p>He mostrado los <strong>objetos de script utilizados</strong> tanto en el modo de edición como durante el modo de reproducción. Sin embargo, vale <strong>la pena señalar que algunos de los mayores beneficios de los objetos programables, en particular su fácil serialización, no es algo que pueda utilizar en tiempo de ejecución</strong>.</p>
 
 <p>Aún puede guardar datos, como mediante el uso de JsonUtility para convertir sus objetos programables en JSON. El resultado podría guardarse de varias maneras, por ejemplo, escribiendo el valor en PlayerPrefs o escribiendo un archivo en el disco. Desafortunadamente, es probable que termine con los mismos desafíos de serialización demostrados en mis dos primeras demos. No tendrá una manera fácil de conservar referencias de objeto, ni tendrá una manera fácil de volver a crear matrices de objetos polimórficos.</p>
 
-<p>Los Objetos Scriptables son excelentes pequeños contenedores de datos. Se pueden usar en tiempo de ejecución o editar e incluso se pueden guardar como recursos del proyecto. Ofrecen varios beneficios que los objetos estándar y las clases se pierden, como la correcta serialización, pero no son perfectos. Creo que su interfaz podría ser más intuitiva, y personalmente no me gusta la restricción de tener que heredar de ScriptableObject o de no poder usar un constructor estándar. En general, vale la pena dedicarles un poco de tiempo porque pueden proporcionar algunos flujos de trabajo convenientes y pueden ayudarlo a proyectar rápidamente su contenido.</p>
+<p>Los <strong>Objetos Scriptables son excelentes pequeños contenedores de datos</strong>. Se pueden usar en tiempo de ejecución o editar e incluso se pueden guardar como recursos del proyecto. Ofrecen varios beneficios que los objetos estándar y las clases se pierden, como la correcta serialización, pero no son perfectos. Creo que su interfaz podría ser más intuitiva, y personalmente no me gusta la restricción de tener que heredar de ScriptableObject o de no poder usar un constructor estándar. En general, vale la pena dedicarles un poco de tiempo porque pueden proporcionar algunos flujos de trabajo convenientes y pueden ayudarlo a proyectar rápidamente su contenido.</p>
 
-<p><center><a href="http://bit.ly/2B6sUdP" class="button">GitHub Source</a></center></p>
+<p><center><a href="http://bit.ly/2B6sUdP" class="button"><i class="fa fa-github-alt"></i> GitHub</a></center></p>
 
-<p>.\Moon</p>
+<p><center><img src="/img/ref.png" alt="001" /></center></p>
 
 
 		

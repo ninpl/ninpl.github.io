@@ -94,35 +94,5 @@ Solo haz juegos.
 Detallo en más profundidad, hay información, pero del High API. Lo que yo queria ver es información sobre el Low API y de esto hay poco, asi que decidi crear esta entrada para guardar como recuerdo este estudio, por si proximamente tengo que volver a mirarlo (soy un neurotico del guardado de datos xD).</description>
     </item>
     
-    <item>
-      <title>ScriptableObjects</title>
-      <link>https://moonantonio.github.io/post/2018/dev/002/</link>
-      <pubDate>Tue, 17 Apr 2018 14:04:47 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/dev/002/</guid>
-      <description>Los Objetos Scriptables son un tipo especial de objeto de datos en Unity. Tienen varios beneficios importantes, pero es posible que no funcionen de manera ideal para cada situación.
-Introducción a los Objetos Scriptables Puede pensar en un objeto programable como un objeto destinado solo a contener datos. Si ha estado utilizando clases o estructuras tradicionales de C# para objetos simples solo de datos, podría utilizarlas en su lugar. Por supuesto, usted se estará preguntando &amp;ldquo;por qué&amp;rdquo; le gustaría usar un Objeto Scriptable.</description>
-    </item>
-    
-    <item>
-      <title>MonoBehavior en Unity</title>
-      <link>https://moonantonio.github.io/post/2018/dev/001/</link>
-      <pubDate>Sat, 10 Mar 2018 20:34:29 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/dev/001/</guid>
-      <description>Unity puede estar desperdiciando mucho rendimiento de la CPU simplemente llamando a sus funciones MonoBehaviour. Realmente no importa lo que estén haciendo tus scripts. Si tiene cientos o miles de ellos, hay que tener en cuenta que hay un nuevo campo de optimización.
-Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy hablando de funciones como Update() , LateUpdate(), OnRender(), etc. Son los llamados métodos mágicos, y si estas familiarizado con los lenguajes de programación orientados a objetos, este concepto parece llamar a un método usando mecanismo de reflexión (la reflexión habilita llamadas de métodos incluso si no conoce la interfaz).</description>
-    </item>
-    
-    <item>
-      <title>Feliz 2018 y nuevas noticias con el</title>
-      <link>https://moonantonio.github.io/post/2017/diario/010/</link>
-      <pubDate>Tue, 09 Jan 2018 03:50:03 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/diario/010/</guid>
-      <description>Empezamos el año con nuevas noticias De primeras, feliz año 2018 a los lectores, ^^. Queria traer estas noticias a principios de año, asique aqui las dejo.
-Unity dejara de dar soporte para MonoDevelop-Unity a partir de la Unity 2018.1, esto quiere decir que en Unity 2018.1 no vendra con el IDE de MonoDevelop, ya que no admite muchas de las caracteristicas a las que esta migrando Unity con .</description>
-    </item>
-    
   </channel>
 </rss>

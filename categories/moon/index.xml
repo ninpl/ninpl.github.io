@@ -326,33 +326,12 @@ He recogido una serie de herramientas que evita niveles premium y lock-in de pro
     </item>
     
     <item>
-      <title>[Vine] - Danmachi Superacion</title>
-      <link>https://moonantonio.github.io/post/2018/amv/006/</link>
-      <pubDate>Wed, 08 Aug 2018 01:18:27 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/amv/006/</guid>
-      <description>Vine de Danmachi Superacion Este Vine hace referencia a Danmachi. es una serie de novelas ligeras escritas por Fujino Ōmori e ilustradas por Suzuhito Yasuda. Ha sido la novela ligera más votada por los fans en los premios Sugoi Japan Awards de la edición de 2016. En estos premios, los fanáticos deciden qué anime, manga, novela es la más indicada para ser comercializada en el mercado internacional.
- Vinculos</description>
-    </item>
-    
-    <item>
       <title>Consejos para agilizar tu trabajo como programador</title>
       <link>https://moonantonio.github.io/post/2018/comun/009/</link>
       <pubDate>Wed, 08 Aug 2018 00:52:10 +0200</pubDate>
       
       <guid>https://moonantonio.github.io/post/2018/comun/009/</guid>
       <description>En el trabajo o en la escuela, los que nos preparamos para la programación tenemos la ventaja de poder aprovechar el pc para automatizar o mejorar lo que hacemos. Independientemente de si el trabajo en sí consiste en programar, las tareas de cualquier tipo pueden automatizarse para beneficio propio o de la organización (si es que la organización te apoya en eso, de lo contrario no desperdicies tu energía). Puedes pensar que puede haber código por todas partes, algo así como “Code here, code there, code everywhere” y bajo esta idea te doy 3 consejos para agilizar tus tareas en el trabajo o en la escuela.</description>
-    </item>
-    
-    <item>
-      <title>[Vine] - Bat Girl Xtrem</title>
-      <link>https://moonantonio.github.io/post/2018/amv/005/</link>
-      <pubDate>Thu, 28 Jun 2018 20:22:01 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/amv/005/</guid>
-      <description>Vine de Bat Girl Xtrem Este Vine hace referencia a BatGirl. Ella era el alter-ego de Betty Kane, sobrina de Kathy Kane, alias Batwoman. Batwoman y Batgirl fueron creadas como contrapuntos románticos de Batman y Robin.
- Vinculos
-CoubVimeo</description>
     </item>
     
     <item>
@@ -365,16 +344,6 @@ CoubVimeo</description>
 
 Mistwalker es un estudio diseñador de videojuegos japonés fundado por Hironobu Sakaguchi, creador de la popular serie Final Fantasy.
 Sakaguchi asumió el rol de presidente en el nuevo estudio, y Kensuke Tanaka, creador del sistema PlayOnline, es el vicepresidente.</description>
-    </item>
-    
-    <item>
-      <title>Mejora del blog</title>
-      <link>https://moonantonio.github.io/post/2018/comun/001/</link>
-      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/comun/001/</guid>
-      <description>Despues de ver la evolucion que esta sufriendo hugo con su tecnologia de paginas estaticas, me he puesto a investigar un poco sobre su lenguaje en especifico y como funciona internamente. Mi conclusion:
-Un lenguaje de subcapas, bastante lioso y dificil de llevar. Esta escrito en go, pero hablando de base, despues tiene unas subcapas de un mini-lenguaje que lo hacen un poco tedioso, a mi gusto. Aunque no puedo decir nada de su rapidez, ya que se ha puesto entre los primeros en muy poco tiempo y su comunidad a crecido numerosamente.</description>
     </item>
     
   </channel>

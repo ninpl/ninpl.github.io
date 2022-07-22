@@ -42,6 +42,59 @@ Entre ellas la ECS es la que mas me esta gustado, la orientacion a datos frente 
     </item>
     
     <item>
+      <title>¿Qué pruebas debemos hacerle a nuestro videojuego?</title>
+      <link>https://moonantonio.github.io/post/2018/comun/004/</link>
+      <pubDate>Tue, 05 Jun 2018 17:17:37 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/004/</guid>
+      <description>“Los test no son opcionales”. Esto que parece a muchos una verdad, sigue siendo uno de los temas pendientes en el mundo del desarrollo de aplicaciones de software actual.
+Sí, increíblemente aún hay muchos compañeros “del metal” que no son conscientes que programar sin pruebas no solo es como hacer acrobacias en el trapecio sin red de seguridad, sino además una fuente de errores, malas prácticas y ansiedad.
+Y por ello quiero repasar los fundamentos básicos de las pruebas que debiéramos aplicar, cada uno en su necesidad, a nuestros desarrollos.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft compra Github: Perspectiva de un desarrollador</title>
+      <link>https://moonantonio.github.io/post/2018/comun/003/</link>
+      <pubDate>Tue, 05 Jun 2018 17:04:50 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/003/</guid>
+      <description>Como casi todas las noticias bomba, el rumor de que Microsoft estaba interesada en la adquisición del principal repositorio de código libre del mundo, GitHub, me llego a través de las redes sociales cargado de incertidumbre y desconfianza.
+Lo que no ha sido sorprendente ha sido la sobre reacción de la comunidad de desarrolladores, en donde se encendieron las viejas antorchas de la inagotable guerra entre los fanboys (pro) y los talibanes (anti) Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>Mejora del blog</title>
+      <link>https://moonantonio.github.io/post/2018/comun/001/</link>
+      <pubDate>Wed, 30 May 2018 01:09:17 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/comun/001/</guid>
+      <description>Después de ver la evolución que esta sufriendo hugo con su tecnología de paginas estáticas, me he puesto a investigar un poco sobre su lenguaje en especifico y como funciona internamente. Mi conclusión:
+Un lenguaje de subcapas, bastante lioso y dificil de llevar. Esta escrito en go, pero hablando de base, después tiene unas subcapas de un mini-lenguaje que lo hacen un poco tedioso, a mi gusto. Aunque no puedo decir nada de su rapidez, ya que se ha puesto entre los primeros en muy poco tiempo y su comunidad a crecido numerosamente.</description>
+    </item>
+    
+    <item>
+      <title>Feliz 2018 y nuevas noticias con el</title>
+      <link>https://moonantonio.github.io/post/2017/comun/024/</link>
+      <pubDate>Tue, 09 Jan 2018 03:50:03 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/024/</guid>
+      <description>Empezamos el año con nuevas noticias De primeras, feliz año 2018 a los lectores, ^^. Quería traer estas noticias a principios de año, asi que aquí las dejo.
+Unity dejara de dar soporte para MonoDevelop-Unity a partir de la Unity 2018.1, esto quiere decir que en Unity 2018.1 no vendrá con el IDE de MonoDevelop, ya que no admite muchas de las características a las que esta migrando Unity con .</description>
+    </item>
+    
+    <item>
+      <title>Cómo escribir una buena sinopsis y para que</title>
+      <link>https://moonantonio.github.io/post/2017/comun/023/</link>
+      <pubDate>Wed, 15 Nov 2017 19:39:31 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/comun/023/</guid>
+      <description>Cómo escribir una buena sinopsis El primer factor en la compra de una novela o juego es el género. El segundo es el nombre de su autor o compañía. El tercero es la sinopsis.
+¿cómo escribir sinopsis atractivas y que cumplan el objetivo de vender? Vamos a intentar explicarlo en 8 pasos.
+1) Sé breve:
+Una buena sinopsis no debería tener más de doscientas cincuenta palabras, así que es importante que conozcas los puntos principales de tu historia, aquellos que llevan el peso de la acción y, por lo tanto, la hacen atractiva para poder presentársela a los usuarios de forma concisa.</description>
+    </item>
+    
+    <item>
       <title>Criptomonedas</title>
       <link>https://moonantonio.github.io/post/2017/comun/022/</link>
       <pubDate>Tue, 24 Oct 2017 09:14:13 +0200</pubDate>

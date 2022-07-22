@@ -63,14 +63,32 @@ Detallo en más profundidad, hay información, pero del High API. Lo que yo quer
     </item>
     
     <item>
-      <title>¿Qué pruebas debemos hacerle a nuestro videojuego?</title>
-      <link>https://moonantonio.github.io/post/2018/comun/004/</link>
-      <pubDate>Tue, 05 Jun 2018 17:17:37 +0200</pubDate>
+      <title>Markdown - Lenguaje de marcado principal</title>
+      <link>https://moonantonio.github.io/post/2018/dev/005/</link>
+      <pubDate>Tue, 29 May 2018 00:10:41 +0200</pubDate>
       
-      <guid>https://moonantonio.github.io/post/2018/comun/004/</guid>
-      <description>“Los test no son opcionales”. Esto que parece a muchos una verdad, sigue siendo uno de los temas pendientes en el mundo del desarrollo de aplicaciones de software actual.
-Sí, increíblemente aún hay muchos compañeros “del metal” que no son conscientes que programar sin pruebas no solo es como hacer acrobacias en el trapecio sin red de seguridad, sino además una fuente de errores, malas prácticas y ansiedad.
-Y por ello quiero repasar los fundamentos básicos de las pruebas que debiéramos aplicar, cada uno en su necesidad, a nuestros desarrollos.</description>
+      <guid>https://moonantonio.github.io/post/2018/dev/005/</guid>
+      <description>A continuación, veremos qué es Markdown exactamente, cómo funciona, qué es necesario para usarlo, en que entornos resulta práctico y, por supuesto, repasaremos brevemente algunas de las muchas herramientas que existen para poder utilizarlo, tanto en local como en la web.
+Introducción Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML.</description>
+    </item>
+    
+    <item>
+      <title>Tipos de lenguajes de programación {Bajo y Alto nivel}</title>
+      <link>https://moonantonio.github.io/post/2018/dev/004/</link>
+      <pubDate>Sat, 26 May 2018 02:38:41 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/004/</guid>
+      <description>¿Que es un lenguaje de programación? Un lenguaje de programación, es un lenguaje que puede ser utilizado para controlar el comportamiento de una maquina. Consiste en un conjunto de reglas sintácticas y semánticas que definen su estructura y el significado de sus elementos, respectivamente.
+El ordenador solo entiende un lenguaje conocido como código binario o código maquina, consistente en ceros y unos. Es decir, solo utiliza 0 y 1 para codificar cualquier acción.</description>
+    </item>
+    
+    <item>
+      <title>Unity3D Plugins ¿Que son?</title>
+      <link>https://moonantonio.github.io/post/2018/dev/003/</link>
+      <pubDate>Sat, 26 May 2018 00:57:20 +0200</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2018/dev/003/</guid>
+      <description>Hoy decidí compartir, algo que creo que no es un &amp;ldquo;conocimiento común&amp;rdquo; y no hay muchos recursos sobre ese tema en Internet, después de que varios colegas que están empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el SKD de Steam que esta en C++ o las librerias .JAR de Android, decidí crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</description>
     </item>
     
     <item>
@@ -84,7 +102,7 @@ Introducción a los Objetos Scriptables Puede pensar en un objeto programable co
     </item>
     
     <item>
-      <title>MonoBehavior en Unity</title>
+      <title>MonoBehavior de Unity</title>
       <link>https://moonantonio.github.io/post/2018/dev/001/</link>
       <pubDate>Sat, 10 Mar 2018 20:34:29 +0100</pubDate>
       
@@ -94,12 +112,22 @@ Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy habla
     </item>
     
     <item>
+      <title>Clase Abstracta VS Interfaces</title>
+      <link>https://moonantonio.github.io/post/2017/dev/025/</link>
+      <pubDate>Fri, 16 Feb 2018 10:40:58 +0100</pubDate>
+      
+      <guid>https://moonantonio.github.io/post/2017/dev/025/</guid>
+      <description>El uso de clases abstractas y herencia para organizar la lógica de nuestras aplicaciones se puede sustituir o complementar con interfaces y métodos de extensión usando C#. En este artículo veremos un ejemplo de ambas aproximaciones así como sus ventajas e inconvenientes.
+Clases Abstractas Las clases abstractas nos permiten tener una clase base con cierta funcionalidad común ya implementada, sobre la que podemos heredar y especificar algunos métodos. Para este ejemplo, la clase Transporte implementa el método Mover, y las clases Coche y Bicicleta especifican el número de ruedas.</description>
+    </item>
+    
+    <item>
       <title>MVC simplificado</title>
       <link>https://moonantonio.github.io/post/2017/dev/014/</link>
       <pubDate>Tue, 07 Nov 2017 22:18:34 +0100</pubDate>
       
       <guid>https://moonantonio.github.io/post/2017/dev/014/</guid>
-      <description>Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patron de diseño, se suele aumentar sin ninguna metodologia los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+      <description>Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patrón de diseño, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
 Cuanto más grande es el proyecto, más grande es el espagueti.
 
 Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.</description>
