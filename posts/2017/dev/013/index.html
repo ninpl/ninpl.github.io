@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Sistema Gambits - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Sistema Gambits" />
+<meta property="og:description" content="El sistema gambit, es un sistema que controla el comportamiento o acciones de un agente. Este agente tiene unas listas de prioridades en las que tiene comportamientos o acciones. El agente siempre accionara iteradamente su acción, siempre y cuando cumpla la condición, sino, pasara a la siguiente acción en la lista.
+¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2017/dev/013/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-10-03T21:24:19+02:00" />
+<meta property="article:modified_time" content="2017-10-03T21:24:19+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Sistema Gambits"/>
+<meta name="twitter:description" content="El sistema gambit, es un sistema que controla el comportamiento o acciones de un agente. Este agente tiene unas listas de prioridades en las que tiene comportamientos o acciones. El agente siempre accionara iteradamente su acción, siempre y cuando cumpla la condición, sino, pasara a la siguiente acción en la lista.
+¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2017/dev/013/" /><link rel="prev" href="https://moonantonio.github.io/posts/2017/comun/020/" /><link rel="next" href="https://moonantonio.github.io/posts/2017/comun/021/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Sistema Gambits",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/013\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  561 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/013\/","datePublished": "2017-10-03T21:24:19+02:00","dateModified": "2017-10-03T21:24:19+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b037.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Sistema Gambits</h1><div class="content" id="content"><p>El <strong>sistema gambit</strong>, es un sistema que controla el comportamiento o acciones de un agente.
+Este agente tiene unas listas de <strong>prioridades</strong> en las que tiene comportamientos o acciones.
+El agente siempre <strong>accionara iteradamente su acción</strong>, siempre y cuando cumpla la <strong>condición</strong>, sino, pasara a la siguiente acción en la lista.</p>
+<h2 id="dónde-y-por-qué-se-necesitó-crear-el-sistema-gambit">¿Dónde y por qué se necesitó crear el sistema gambit?</h2>
+<p>En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV.</p>
+<p>Al tener <strong>muchos enemigos, necesitaban tener una manera central de distribuir todos sus patrones</strong> con ciertas condiciones en sus enemigos, con fluidez. Por lo que implementaron el sistema gambit en sus enemigos, generando así una fácil modificación de estos.
+En 2007 desarrollaron <strong>FF 12, optaron por generar el mismo patrón de los enemigos</strong> en FF IV, pero esta vez en los héroes que controlaba el jugador.</p>
+<p>El deseo de conseguir una <strong>transición fluida</strong> llevaría a introducir lo que probablemente sea la característica más única de Final Fantasy XII: el sistema Gambit, un sistema de combate personalizable que se parece mucho a los lenguajes de programación.
+Gracias al sistema Gambit, los jugadores pueden crear una <strong>lista de órdenes para cada personaje, que realizarán automáticamente si se cumplen ciertas condiciones</strong>. Establecer estas órdenes y darles prioridad de manera creativa es la clave para ganar varios de los combates del juego.</p>
+<p>Hiroaki Kato: Como ya comenté, nuestra idea era que los combates de Final Fantasy XII debían progresar de manera fluida en tiempo real.</p>
+<p>Temíamos que, si <strong>solo añadíamos la característica del tiempo real al sistema de combate</strong> basado en órdenes que tenían otros juegos de Final Fantasy, resultaría demasiado caótico y difícil controlar todo, así que, para resolver este problema, adoptamos el sistema Gambit.
+ 
+De hecho, el sistema de combate de Final Fantasy IV también tenía un sistema Gambit (como la mecánica que controlaba la IA del monstruo), así que lo desarrollamos con un enfoque diferente que resultó en el sistema Gambit de Final Fantasy XII.</p>
+<h2 id="por-qué-se-considera-una-función-de-ia">¿Por qué se considera una función de IA?</h2>
+<p>Se considera <a href="https://bit.ly/3BNbpNg" target="_blank" rel="noopener noreffer ">IA</a>, el hecho de que es un agente en sí.
+Un <strong>agente inteligente</strong>, es una entidad capaz de percibir su entorno, procesar tales percepciones y responder o actuar en su entorno de manera racional, es decir, de manera correcta y tendiendo a maximizar un resultado esperado. Es capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores (elementos que reaccionan a un estímulo realizando una acción).</p>
+<p>El sistema gambit tiene 3 puntos clave:</p>
+<ul>
+<li>Prioridad</li>
+<li>Condición</li>
+<li>Acción/Comportamiento</li>
+</ul>
+<p>Sin esos tres puntos, no se puede realizar un sistema gambit.
+Una explicación básica de este ejemplo, seria:</p>
+<p>Un Agente tiene una lista con 2 acciones.
+La primera acción, seria atacar al enemigo, si su vida es &gt; 30%.
+La segunda acción, seria curarse a el mismo, si su vida es &lt; 30%.
+Como se ve, la primera acción, tiene prioridad 0, por lo que sería la primera acción a comprobar.
+Su acción seria atacar al enemigo.
+Su condición seria si el enemigo tiene su vida mayor al 30%.</p>
+<h2 id="videojuegos-que-tienen-este-aspecto-incorporado">Videojuegos que tienen este aspecto incorporado</h2>
+<figure><a class="lightgallery" href="/img/c/gambit01.jpg" title="/img/c/gambit01.jpg" data-thumbnail="/img/c/gambit01.jpg" data-sub-html="<h2>En FF IV , se utilizo el sistema para el comportamiento del enemigo</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/gambit01.jpg"
+            data-srcset="/img/c/gambit01.jpg, /img/c/gambit01.jpg 1.5x, /img/c/gambit01.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/gambit01.jpg" />
+    </a><figcaption class="image-caption"><em>En FF IV , se utilizo el sistema para el comportamiento del enemigo</em></figcaption>
+    </figure>
+<figure><a class="lightgallery" href="/img/c/gambit02.jpg" title="/img/c/gambit02.jpg" data-thumbnail="/img/c/gambit02.jpg" data-sub-html="<h2>En FF XII, se utilizo el sistema para el control automatico de las unidades aliadas no controladas</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/gambit02.jpg"
+            data-srcset="/img/c/gambit02.jpg, /img/c/gambit02.jpg 1.5x, /img/c/gambit02.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/gambit02.jpg" />
+    </a><figcaption class="image-caption"><em>En FF XII, se utilizo el sistema para el control automatico de las unidades aliadas no controladas</em></figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

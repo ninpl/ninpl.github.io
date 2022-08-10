@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MEGA API CLIENT [C#] - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="MEGA API CLIENT [C#]" />
+<meta property="og:description" content=". (ACTUALIZADO A 21/07/2022)
+Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2017/dev/017/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-03-01T23:32:52+01:00" />
+<meta property="article:modified_time" content="2017-03-01T23:32:52+01:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="MEGA API CLIENT [C#]"/>
+<meta name="twitter:description" content=". (ACTUALIZADO A 21/07/2022)
+Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2017/dev/017/" /><link rel="prev" href="https://moonantonio.github.io/posts/2017/comun/001/" /><link rel="next" href="https://moonantonio.github.io/posts/2017/dev/001/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "MEGA API CLIENT [C#]",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/017\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1021 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/017\/","datePublished": "2017-03-01T23:32:52+01:00","dateModified": "2017-03-01T23:32:52+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b004.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">MEGA API CLIENT [C#]</h1><div class="content" id="content"><figure><a class="lightgallery" href="/img/c/mapic.png" title="/img/c/mapic.png" data-thumbnail="/img/c/mapic.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mapic.png"
+            data-srcset="/img/c/mapic.png, /img/c/mapic.png 1.5x, /img/c/mapic.png 2x"
+            data-sizes="auto"
+            alt="/img/c/mapic.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>(ACTUALIZADO A 21/07/2022)</p>
+<p>Mega es el sucesor del servicio de archivos en la nube Megaupload, para aquellos a los que no les suena ninguno de los dos es como un dropbox, un servicio gratuito o de pago dependiendo del espacio que utilizamos para poder subir nuestros archivos. En mi opinión es un servicio increíble que nos permite almacenar copias de seguridad de archivos en la nube y/o compartirlos.</p>
+<p>En esta entrada mostraré como desde un proyecto en .Net en este caso con C# podéis <strong>subir archivos a mega</strong>. Además de subir archivos también podréis <strong>eliminar, modificar, mover</strong> y varias funciones más pero eso lo veremos en otra entrada. Para comenzar tendréis que incorporar a vuestro proyecto varias referencias, si lo realizáis desde el administrador de paquetes nuget de Visual Studio ahorraréis tiempo y faena. Para abrir el administrador de paquetes nuget vamos a la barra principal de arriba y seleccionamos proyecto y administrar paquetes nuget. En la caja de búsqueda ponéis “<strong>mega.co.nz</strong>” sin comillas, y debe aparecer una librería que hará de cliente contra los servidores de mega, la seleccionáis y le dais a instalar. Además instalará automáticamente otra llamada <strong>Newtonsoft.Json que utilizará la librería mega para realizar algunas acciones</strong>.</p>
+<p>Tenemos el proyecto listo para empezar a utilizar los métodos y funciones que nos facilita mega en la clase que queramos, con ello vamos a la clase desde la que queramos que se suba el archivo y añadimos dos directivas using, la primera hace referencia a la <strong>api mega</strong> y la segunda nos permitirá crear <strong>un hilo y de este modo no bloquear nuestra aplicación</strong> mientras se realizan algunas tareas en línea:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">CG.Web.MegaApiClient</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Threading.Tasks</span><span class="p">;</span>
+</span></span></code></pre></div><p>Ahora vamos con el método que se encargará de realizar la subida del archivo, actualizar la barra de progreso, y actualizar el texto de un label que irá informando al usuario de como va el proceso. El método es llamado dentro del evento “Shown” del form, y el form lo llamo mediante “ShowDialog()” desde el evento click de un botón de otro form, de esta manera es como una ventana emergente que no desaparecerá hasta que termine el proceso (entre 10 y 40 segundos). Para que quede mas claro, tenemos el “Form1” con un botón, este botón llamará al “Form2” mediante “ShowDialog()”, y dentro del evento “Shown” del “Form2” realizaremos la llamada al método encargado de subir el archivo “subirArchivoAMega()”.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">//Declaración de un hilo</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="n">Thread</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="kt">string</span> <span class="n">cuenta</span> <span class="p">=</span> <span class="s">&#34;cuenta@dominio.com&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="kt">string</span> <span class="n">contra</span> <span class="p">=</span> <span class="s">&#34;******************&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="kt">string</span> <span class="n">nomCar</span> <span class="p">=</span> <span class="s">&#34;carpeta&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="c1">//Evento Shown que instancia y ejecuta el hilo (este evento se ejecuta después del Load).</span>
+</span></span><span class="line"><span class="cl"> <span class="k">private</span> <span class="k">void</span> <span class="n">Form2_Shown</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">EventArgs</span> <span class="n">e</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//Instancia un hilo para ejecutar el método &#34;subirArchivoAMega&#34;.</span>
+</span></span><span class="line"><span class="cl">     <span class="n">t</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thread</span><span class="p">(</span><span class="n">subirArchivoAMega</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">     <span class="n">t</span><span class="p">.</span><span class="n">Start</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Método que se encarga de subir el archivo a la nuve con la api &#34;Mega&#34;.</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">subirArchivoAMega</span><span class="p">()</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Actualizar el label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Conectando como &#34;</span> <span class="p">+</span> <span class="n">cuenta</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Aumentar la barra de progreso.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">barraProgreso</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">barraProgreso</span><span class="p">.</span><span class="n">PerformStep</span><span class="p">();</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Instancia de un cliente para conectar con mega.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MegaApiClient</span> <span class="n">cliente</span> <span class="p">=</span> <span class="k">new</span> <span class="n">MegaApiClient</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Inicio de sesi�n con el cliente, pasando el correo y la contrase�a de la cuenta mega a la</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// que se sube el archivo.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cliente</span><span class="p">.</span><span class="n">Login</span><span class="p">(</span><span class="n">cuenta</span><span class="p">,</span> <span class="n">contra</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Aumentar la barra de progreso.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">barraProgreso</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">barraProgreso</span><span class="p">.</span><span class="n">PerformStep</span><span class="p">();</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Actualizar el label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Obteniendo directorios...&#34;</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Obtenemos los nodos (directorios/archivos) de la cuenta dentro de una variable.</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">nodos</span> <span class="p">=</span> <span class="n">cliente</span><span class="p">.</span><span class="n">GetNodes</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Actualizar el label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Buscando carpeta &#34;</span> <span class="p">+</span> <span class="n">nomCar</span> <span class="p">+</span> <span class="s">&#34;...&#34;</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Comprobar si existe alg�n nodo (directorio) que se llame &#34;nomCar&#34; (en mi caso quiero subir el</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// archivo a dicha carpeta).</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">bool</span> <span class="n">existe</span> <span class="p">=</span> <span class="n">cliente</span><span class="p">.</span><span class="n">GetNodes</span><span class="p">().</span><span class="n">Any</span><span class="p">(</span><span class="n">n</span> <span class="p">=&gt;</span> <span class="n">n</span><span class="p">.</span><span class="n">Name</span> <span class="p">==</span> <span class="n">nomCar</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// Crear dos nodos.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">INode</span> <span class="n">root</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">INode</span> <span class="n">carpeta</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// Si el directorio nomCar existe, se obtiene. Si no existe, se crea.</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">existe</span> <span class="p">==</span> <span class="k">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Actualizar el label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Obteniendo la carpeta &#34;</span> <span class="p">+</span> <span class="n">nomCar</span> <span class="p">+</span> <span class="s">&#34;....&#34;</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Aumentar la barra de progreso.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">barraProgreso</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">barraProgreso</span><span class="p">.</span><span class="n">PerformStep</span><span class="p">();</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Obtenemos el directorio.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">carpeta</span> <span class="p">=</span> <span class="n">nodos</span><span class="p">.</span><span class="n">Single</span><span class="p">(</span><span class="n">n</span> <span class="p">=&gt;</span> <span class="n">n</span><span class="p">.</span><span class="n">Name</span> <span class="p">==</span> <span class="n">nomCar</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Actualizar label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Creando carpeta &#34;</span> <span class="p">+</span> <span class="n">nomCar</span> <span class="p">+</span> <span class="s">&#34;...&#34;</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Aumentar la barra de progreso.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">barraProgreso</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">barraProgreso</span><span class="p">.</span><span class="n">PerformStep</span><span class="p">();</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Obtenemos el nodo ra�z.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">root</span> <span class="p">=</span> <span class="n">nodos</span><span class="p">.</span><span class="n">Single</span><span class="p">(</span><span class="n">n</span> <span class="p">=&gt;</span> <span class="n">n</span><span class="p">.</span><span class="n">Type</span> <span class="p">==</span> <span class="n">NodeType</span><span class="p">.</span><span class="n">Root</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Creamos el directorio llamado &#34;nomCar&#34; en la ra�z.</span>
+</span></span><span class="line"><span class="cl">            <span class="n">carpeta</span> <span class="p">=</span> <span class="n">cliente</span><span class="p">.</span><span class="n">CreateFolder</span><span class="p">(</span><span class="n">nomCar</span><span class="p">,</span> <span class="n">root</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// Aumentar la barra de progreso.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">barraProgreso</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">barraProgreso</span><span class="p">.</span><span class="n">PerformStep</span><span class="p">();</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Actualizar label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Subiendo archivo...&#34;</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Aumentar la barra de progreso.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">barraProgreso</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">barraProgreso</span><span class="p">.</span><span class="n">PerformStep</span><span class="p">();</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Subimos el archivo al directorio &#34;nomCar&#34;, pasando la ruta del archivo a subir</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// y el directorio de mega donde debe subirlo.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">INode</span> <span class="n">archivo</span> <span class="p">=</span> <span class="n">cliente</span><span class="p">.</span><span class="n">UploadFile</span><span class="p">(</span><span class="s">@&#34;ruta/del/archivo.png&#34;</span><span class="p">,</span> <span class="n">carpeta</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Obtener el link de descarga del archivo subido por si se requiere para algo.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Uri</span> <span class="n">downloadUrl</span> <span class="p">=</span> <span class="n">cliente</span><span class="p">.</span><span class="n">GetDownloadLink</span><span class="p">(</span><span class="n">archivo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Actualizar label para informar al usuario.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">txtInfo</span><span class="p">.</span><span class="n">Invoke</span><span class="p">(</span><span class="k">new</span> <span class="n">MethodInvoker</span><span class="p">(</span><span class="k">delegate</span> <span class="p">{</span> <span class="n">txtInfo</span><span class="p">.</span><span class="n">Text</span> <span class="p">=</span> <span class="s">&#34;Archivo subido con �xito.&#34;</span><span class="p">;</span> <span class="p">}));</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">error</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Mensaje en pantalla para informar al usuario del error.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MessageBox</span><span class="p">.</span><span class="n">Show</span><span class="p">(</span><span class="s">&#34;Error al intentar subir el archivo. &#34;</span> <span class="p">+</span> <span class="n">error</span><span class="p">.</span><span class="n">Message</span><span class="p">,</span> <span class="s">&#34;Error&#34;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">MessageBoxButtons</span><span class="p">.</span><span class="n">OK</span><span class="p">,</span> <span class="n">MessageBoxIcon</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// No se puede cerrar el form desde un subproceso ya que no es desde donde se ha creado.</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Con esta llamada podemos cerrarlo.</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="n">Invoke</span><span class="p">((</span><span class="n">MethodInvoker</span><span class="p">)</span><span class="k">delegate</span> <span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="n">Close</span><span class="p">();});</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Si os fijáis, hago <strong>constantemente referencias a elementos del form</strong>, el motivo es para que el usuario sepa en todo momento la evolución del proceso. Para acceder a los componentes de un form no podemos hacerlo directamente desde un subproceso, por eso utilizamos el método “Invoke” que ejecuta el <strong>delegado asignado al subproceso y nos permite comunicarnos con el usuario</strong>.</p>
+<p>Finalmente muestro mi diseño del form para que veáis el total de elementos a los que hago referencia en el método, aunque podéis implementar el diseño que os guste.</p>
+<figure><a class="lightgallery" href="/img/c/mapic.jpg" title="/img/c/mapic.jpg" data-thumbnail="/img/c/mapic.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mapic.jpg"
+            data-srcset="/img/c/mapic.jpg, /img/c/mapic.jpg 1.5x, /img/c/mapic.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mapic.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+
+<a  href="https://bit.ly/3PLteQD" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

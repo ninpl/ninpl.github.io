@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Diseño on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/dise%C3%B1o/</link>
-    <description>Recent content in Diseño on Antonio Moon´s</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Wed, 26 Sep 2018 17:26:06 +0200</lastBuildDate>
-    
-	<atom:link href="https://moonantonio.github.io/tags/dise%C3%B1o/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Diseño de Videojuegos - Introducción</title>
-      <link>https://moonantonio.github.io/post/2018/design/001/</link>
-      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2018/design/001/</guid>
-      <description>Esta serie de ayudas están diseñada para una introducción rápida al diseño de videojuegos. Introducirá brevemente la mayoría de las características, pero desde la perspectiva del uso en casos de uso general, y con suerte, será más interesante aprender de él. Escribiré asumiendo que no tienes conocimientos de diseño.
-¿Cómo empezar? Necesitará algún programa de documentos(Word o Doc), libreta y papel. Se explicaran diversos conceptos de programación, arte, animación entre muchas otras.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>diseño - Etiqueta - Antonio Moon´s</title>
+        <link>https://moonantonio.github.io/tags/dise%C3%B1o/</link>
+        <description>diseño - Etiqueta - Antonio Moon´s</description>
+        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
+            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Wed, 26 Sep 2018 17:26:06 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/tags/dise%C3%B1o/" rel="self" type="application/rss+xml" /><item>
+    <title>Diseño de Videojuegos - Introducción</title>
+    <link>https://moonantonio.github.io/posts/2018/dise%C3%B1o/001/</link>
+    <pubDate>Wed, 26 Sep 2018 17:26:06 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/posts/2018/dise%C3%B1o/001/</guid>
+    <description><![CDATA[Esta serie de ayudas están diseñada para una introducción rápida al diseño de videojuegos. Introducirá brevemente la mayoría de las características, pero desde la perspectiva del uso en casos de uso general, y con suerte, será más interesante aprender de él. Escribiré asumiendo que no tienes conocimientos de diseño.
+¿Cómo empezar? Necesitará algún programa de documentos(Word o Doc), libreta y papel. Se explicaran diversos conceptos de programación, arte, animación entre muchas otras.]]></description>
+</item>
+</channel>
 </rss>

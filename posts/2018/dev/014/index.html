@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Ingeniería inversa :: ¿Qué sacar de esto? - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Ingeniería inversa :: ¿Qué sacar de esto?" />
+<meta property="og:description" content="Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
+La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/dev/014/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-10-27T16:15:50+02:00" />
+<meta property="article:modified_time" content="2018-10-27T16:15:50+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Ingeniería inversa :: ¿Qué sacar de esto?"/>
+<meta name="twitter:description" content="Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
+La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/dev/014/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/dev/013/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/comun/020/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Ingeniería inversa :: ¿Qué sacar de esto?",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/014\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  601 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/014\/","datePublished": "2018-10-27T16:15:50+02:00","dateModified": "2018-10-27T16:15:50+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Ingeniería inversa :: ¿Qué sacar de esto?</h1><div class="content" id="content"><p>Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.</p>
+<p>La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.</p>
+<h1 id="objetivo">Objetivo</h1>
+<p>La ingeniería inversa persigue el objetivo de obtener la mayor cantidad de información técnica de un producto, del cual no se tiene la más mínima información técnica de su diseño, construcción y funcionamiento, de modo que se debe partir de un todo para comprender cada pieza del sistema, para lo cual se deben tomar notas muy detalladas.</p>
+<p>La ingeniería inversa es una rama de la ingeniería relativamente reciente, cuyos orígenes se remontan a la Segunda Guerra Mundial, cuando alguno de los dos bandos (Aliados y Potencias del Eje) capturaba maquinaria o equipo del otro bando, entonces se disponían a conocer hasta el más mínimo detalle de la tecnología del enemigo con el objetivo de encontrar fallas o puntos débiles que les brindarán cierta ventaja.</p>
+<h1 id="usos">Usos</h1>
+<p>La ingeniería inversa tiene muchas aplicaciones en el mundo actual y es aplicada por todo tipo de empresas, de todos los ámbitos tecnológicos. Algunos de los usos principales son:</p>
+<ul>
+<li>Investigar, analizar y comprender la tecnología utilizada por otras naciones o por otras empresas.</li>
+<li>Analizar los productos de la competencia para analizar si infringen alguna patente de otra empresa.</li>
+<li>Desarrollar productos que sean compatibles con otros productos, sin tener acceso a los detalles técnicos de estos últimos.</li>
+<li>Comprobar la seguridad de un producto, en informática por ejemplo, para conocer las brechas de seguridad que puede tener un programa.</li>
+</ul>
+<p>Actualmente la ingeniería inversa se divide en dos grandes vertientes: ingeniería inversa de producto e ingeniería inversa de software; en la primera entran todos aquellos productos físicos tales como máquinas, componentes electrónicos, dispositivos, etc., y en la segunda protocolos, códigos de programación, aplicaciones digitales, etc. No es una definición completamente establecida pero es la más aceptada actualmente.</p>
+<h1 id="ingeniería-inversa">¿Ingeniería inversa?</h1>
+<p>Las tareas habituales de la ingeniería implican seguir la dirección de lo específico a lo general, pero la ingeniería inversa indica que las labores deben realizarse siguiendo la dirección opuesta, de lo general a lo específico, algo poco común para los ingenieros, que implica invertir el modo de pensamiento y que sin duda es un gran ejercicio de pensamiento además que es una habilidad de mucha importancia hoy en día.</p>
+<h1 id="método-de-aprendizaje">¿Método de aprendizaje?</h1>
+<p>La ingeniería inversa no es un método de solución sino más bien de aprendizaje, como implica analizar un objeto hasta el punto de comprender cada uno de sus componentes y sus funciones entonces la cantidad de conocimientos obtenida será bastante, pero solo hemos aprendido, para solucionar el problema deberemos aplicar lo aprendido y comenzar de cero nuevamente.</p>
+<h1 id="ética">Ética</h1>
+<p>Si se sigue un proceso de ingeniería inversa bien establecido no tiene porque haber ningún problema legal; esto implica cumplir al pie de la letra el objetivo de la ingeniería inversa: obtener un producto que haga lo mismo pero que sea nuevo, que no aplique los mismos principios de funcionamiento del producto analizado; es decir, la ingeniería inversa se debe utilizar solamente para conocer un producto, con el fin de hacer uno que haga lo mismo pero de otro modo.</p>
+<!-- raw HTML omitted -->
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

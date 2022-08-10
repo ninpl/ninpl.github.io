@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Shaders Cell Shading (Toon) - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Shaders Cell Shading (Toon)" />
+<meta property="og:description" content="En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
+Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
+Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2019/dev/002/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-02-05T14:38:50+01:00" />
+<meta property="article:modified_time" content="2019-02-05T14:38:50+01:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Shaders Cell Shading (Toon)"/>
+<meta name="twitter:description" content="En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
+Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
+Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2019/dev/002/" /><link rel="prev" href="https://moonantonio.github.io/posts/2019/dev/001/" /><link rel="next" href="https://moonantonio.github.io/posts/2019/comun/004/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Shaders Cell Shading (Toon)",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2019\/dev\/002\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  569 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2019\/dev\/002\/","datePublished": "2019-02-05T14:38:50+01:00","dateModified": "2019-02-05T14:38:50+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-3" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b061.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Shaders Cell Shading (Toon)</h1><div class="content" id="content"><p>En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.</p>
+<p>Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert.
+Para ello, debemos saber que es la ley de Lambert.</p>
+<div id="id-1"><strong>Ley de Lambert</strong></div>
+<hr>
+<blockquote>
+<p>La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz. Determina que la iluminación producida por una fuente luminosa sobre una superficie es directamente proporcional a la intensidad de la fuente y al coseno del ángulo que forma la normal a la superficie con la dirección de los rayos de luz y es inversamente proporcional al cuadrado de la distancia a dicha fuente.</p>
+</blockquote>
+<hr>
+<p>Básicamente se define en que cuanto más lejos esta el origen de la luz, más radiación llegara al objeto final.</p>
+<p>Este tipo de iluminación se denomina Soft.</p>
+<h1 id="simple-shader">Simple Shader</h1>
+<p>Entendiendo los modelos de iluminación, la intensidad de la luz que refleja una superficie en un modelo de iluminación Lambertiana depende de la normal de una superficie. Una superficie paralela a una fuente de luz no debe reflejar la luz que recibe, mientras que una superficie ortogonal a una fuente de luz debe reflejarla en su totalidad. Es decir, la intensidad de la luz reflejada por una superficie es la siguiente:</p>
+<blockquote>
+<p>Intensidad de reflexión = Superficie Normal * Dirección de la luz</p>
+</blockquote>
+<p>Crea un nuevo shader y asignalo a un material, aplícalo a una esfera con una luz direccional. Aquí está el código para el shader:</p>
+<script type="application/javascript" src="https://gist.github.com/MoonAntonio/f99c5c1957a9a7b6467108a5a1b5dcb5.js"></script>
+
+<p>Tenga en cuenta que cuando el valor de puntos es negativo, la luz proviene del lado opuesto del triángulo. Esto no es un problema para las geometrías opacas, ya que los triángulos que no están orientados hacia la parte frontal de la cámara están seleccionados.</p>
+<figure><a class="lightgallery" href="/img/c/cellylamb.png" title="/img/c/cellylamb.png" data-thumbnail="/img/c/cellylamb.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/cellylamb.png"
+            data-srcset="/img/c/cellylamb.png, /img/c/cellylamb.png 1.5x, /img/c/cellylamb.png 2x"
+            data-sizes="auto"
+            alt="/img/c/cellylamb.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<h1 id="cell-shader">Cell Shader</h1>
+<p>Toon shading, o cell shading, es una técnica de renderización no fotorrealista que hace que los modelos 3D parezcan planos. Volver a crear la apariencia de un shader toon utilizando solo funciones de superficie sería extremadamente costoso. Además, como el shader toon requiere que cambiemos la forma en que se refleja la luz, es un problema, en su lugar necesitamos un modelo de iluminación personalizado.</p>
+<p>Para aquellos que no están familiarizados con el shader toon, tenga en cuenta que es una excelente manera de hacer que su juego se vea peculiar sin poner mucha energía en el desarrollo de un estilo artístico original. Yo también soy culpable de esto. Me encanta.</p>
+<figure><a class="lightgallery" href="/img/c/cellylamb2.jpg" title="/img/c/cellylamb2.jpg" data-thumbnail="/img/c/cellylamb2.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/cellylamb2.jpg"
+            data-srcset="/img/c/cellylamb2.jpg, /img/c/cellylamb2.jpg 1.5x, /img/c/cellylamb2.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/cellylamb2.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Pero, como puedes ver, ¡también se ve genial!</p>
+<p>Para comenzar, crea un nuevo shader y material utilizando nuestro anterior shader Soft como base. Adjunte el material a un modelo 3D; el shader toon funciona mejor en superficies curvas.</p>
+<script type="application/javascript" src="https://gist.github.com/MoonAntonio/f58cbc84fcc30ae3a31225fdcba5b730.js"></script>
+
+<p>Algunas implementaciones del shader Toon utilizan una textura llamada mapa de Ramp para definir la forma en que reasignamos la intensidad de luz de Lambert(NdotL) a otro valor. En la implementación anterior, la variable _CelShadingLevels se usa para ajustar la intensidad de la luz de modo que solo pueda asumir un número dado de valores muestreados equidistantemente de 0 a 1.</p>
+<figure><a class="lightgallery" href="/img/c/cellylamb3.gif" title="/img/c/cellylamb3.gif" data-thumbnail="/img/c/cellylamb3.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/cellylamb3.gif"
+            data-srcset="/img/c/cellylamb3.gif, /img/c/cellylamb3.gif 1.5x, /img/c/cellylamb3.gif 2x"
+            data-sizes="auto"
+            alt="/img/c/cellylamb3.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>En esta demostración usé un valor de 5 para la variable de entrada _CelShadingLevels . Puede notar que, como resultado, hay 5 pasos distintos que dividen las 6 bandas diferentes de intensidad de luz.</p>
+
+<a  href="https://github.com/MoonAntonio/cellshading" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/css/4e5f2e.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-2":" Antonio Moon","id-3":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-2":["id-2"],"id-3":["id-3"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

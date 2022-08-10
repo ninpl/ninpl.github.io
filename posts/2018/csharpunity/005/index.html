@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Bucles - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Bucles" />
+<meta property="og:description" content="Como programador, con frecuencia trabajará con un &ldquo;grupo&rdquo; de datos (como una matriz o array que presenté en la lección anterior). Tic Tac Toe, por ejemplo, tiene un tablero de 3 × 3 con nueve celdas totales. Si estuviera creando un método para operar en ese grupo de datos, como limpiar un tablero para un nuevo juego, no querría tener que aplicar manualmente los cambios a todos y cada uno de los valores de la matriz." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/005/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-23T01:03:45+02:00" />
+<meta property="article:modified_time" content="2018-08-23T01:03:45+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Bucles"/>
+<meta name="twitter:description" content="Como programador, con frecuencia trabajará con un &ldquo;grupo&rdquo; de datos (como una matriz o array que presenté en la lección anterior). Tic Tac Toe, por ejemplo, tiene un tablero de 3 × 3 con nueve celdas totales. Si estuviera creando un método para operar en ese grupo de datos, como limpiar un tablero para un nuevo juego, no querría tener que aplicar manualmente los cambios a todos y cada uno de los valores de la matriz."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/005/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/comun/011/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/006/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Bucles",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/005\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  2292 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/005\/","datePublished": "2018-08-23T01:03:45+02:00","dateModified": "2018-08-23T01:03:45+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Bucles</h1><div class="content" id="content"><p>Como programador, con frecuencia trabajará con un &ldquo;grupo&rdquo; de datos (como una matriz o array que presenté en la lección anterior). Tic Tac Toe, por ejemplo, tiene un tablero de 3 × 3 con nueve celdas totales. Si estuviera creando un método para operar en ese grupo de datos, como limpiar un tablero para un nuevo juego, no querría tener que aplicar manualmente los cambios a todos y cada uno de los valores de la matriz. En cambio, puede escribir algo llamado bucle y dejar que la maquina maneje el trabajo tedioso por usted. En esta lección, crearemos un Tic Tac Toe y mostraremos cómo los bucles pueden ayudar a que nuestro código sea más elegante.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h1 id="la-vida-sin-bucles">La vida sin bucles</h1>
+<p>Crea un nuevo script llamado &ldquo;TicTacToe&rdquo;. Sin bucles, puede tratar de implementar este juego con algo como lo siguiente:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine.UI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">TicTacToe</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">		[SerializeField]</span> <span class="n">Text</span><span class="p">[]</span> <span class="n">cells</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">NewGame</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">void</span> <span class="n">NewGame</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">2</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">3</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">4</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">5</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">6</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">7</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">8</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="m">9</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este código declara una matriz de componentes de texto que representan las celdas de nuestro tablero de tres en raya. También define el primer método que necesitaremos, uno que despeje el tablero para prepararlo para un nuevo juego. En ese método asignamos el texto de cada celda a una cadena vacía para que la celda no se use. Todo lo escrito aquí hasta ahora es funcional, pero no elegante, o fácilmente ampliable para juegos con tableros más grandes. ¡Imagine una configuración similar para Ajedrez, donde tiene que asignar manualmente 64 fichas en lugar de las 9 que tenemos aquí!</p>
+<h1 id="la-magia-de-los-bucles">La magia de los bucles</h1>
+<p>Cada una de las nueve afirmaciones en el método NewGame es idéntica a una excepción, el índice de la celda en la matriz. Como programador, a menudo escuchará acerca de mantener su código &ldquo;DRY&rdquo;, lo que significa &ldquo;No repetir&rdquo;. Esto a menudo puede referirse a la necesidad de poner bits de lógica en métodos más reutilizables y más pequeños, pero también puede aplicarse aquí. Mira cómo el método NewGame podría implementarse con un nuevo vocabulario:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">NewGame</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">n</span> <span class="p">&lt;</span> <span class="n">cells</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="n">n</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">cells</span><span class="p">[</span><span class="n">n</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En este ejemplo, pudimos reemplazar nueve declaraciones separadas del método &ldquo;NewGame&rdquo; con una sola declaración envuelta en un &ldquo;for loop&rdquo;. Además de ser más compacto, este código recortado también es dinámico y ampliable. ¡Podríamos cambiar de un tablero de tres en raya estándar de 3 x 3 pies a un tablero de 5 x 5 y no necesitar cambiar ni agregar ninguna línea de código, mientras que la implementación anterior habría requerido 16 líneas adicionales!</p>
+<p>La palabra clave &ldquo;for&rdquo; marca el comienzo de nuestro ciclo. Un inicializador, una condición y una &ldquo;expresión&rdquo; de iterador aparecen dentro de sus paréntesis (tenga en cuenta que están separados por punto y coma, pero el último no termina con un punto y coma), y un cuerpo (los enunciados que se ejecutarán repetidamente) aparecerán entre el abierto y cerrar corchetes &lsquo;{&rsquo; y &lsquo;}&rsquo;.</p>
+<p>Las declaraciones dentro del paréntesis determinan las &ldquo;reglas&rdquo; de cómo bucleamos y merecemos un poco más de discusión:</p>
+<ul>
+<li>Declaro una variable temporal llamada &ldquo;n&rdquo; en la declaración &ldquo;inicializador&rdquo; y asigno su valor predeterminado a 0. El alcance de esta variable está restringido al bucle en sí, y no será visible fuera de su declaración y cuerpo. El inicializador solo se ejecuta una vez, al comienzo de este bloque de código.</li>
+<li>La &ldquo;condición&rdquo; determina si se ejecuta el código en su cuerpo o no. En este ejemplo, continuaremos iterando mientras el valor de &ldquo;n&rdquo; sea menor que la longitud de nuestra matriz de celdas. Esta afirmación se comprueba una vez antes de cada ciclo de ciclo.</li>
+<li>El &ldquo;iterador&rdquo; nos brinda la oportunidad de modificar la variable que declaramos en el inicializador. En este ejemplo, incrementamos el valor de &ldquo;n&rdquo; en uno después de cada ciclo. Tenga en cuenta que &ldquo;n++&rdquo; es una forma abreviada de escribir &ldquo;n = n + 1&rdquo;. El iterador se ejecuta después de cada ciclo.</li>
+</ul>
+<p>En el cuerpo de nuestro bucle, pasamos la variable &ldquo;n&rdquo; que definimos en el inicializador de bucle, como el índice en nuestra matriz de celdas. Al usar la variable, la celda que estamos modificando es dinámica y será diferente en cada ejecución a través del ciclo.</p>
+<hr>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Hay funciones adicionales del bucle for, como no proporcionar una o más reglas para su bucle. Ver la <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2PxJBBY" target="_blank" rel="noopener noreffer ">referencia para más</a>.
+Hay muchos otros tipos de bucles en C#. Normalmente uso el ciclo &ldquo;while&rdquo;, aunque tiendo a evitar el ciclo &ldquo;foreach&rdquo; debido a <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="https://ubm.io/2PAxDaO" target="_blank" rel="noopener noreffer ">problemas de memoria en Unity</a>.</div>
+        </div>
+    </div>
+<hr>
+<h1 id="interacción">Interacción</h1>
+<p>Ahora que tenemos un tablero y podemos prepararla para jugar, agreguemos algo de lógica para jugar. Necesitaremos dos cosas: una variable que marque si es hora de colocar una &ldquo;X&rdquo; o una &ldquo;O&rdquo; y un método de manejo de eventos para determinar cuándo y dónde hacer un movimiento en el tablero. Agregue la siguiente declaración de variable debajo de nuestra matriz de celdas:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">string</span> <span class="n">marca</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Hagamos que las X siempre vayan primero. Para hacer eso, agregue la siguiente instrucción dentro del método NewGame, justo después del corchete de cierre de nuestro ciclo:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">marca</span> <span class="p">=</span> <span class="s">&#34;X&#34;</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Cuando el usuario haga clic en uno de los botones de nuestro tablero, necesitaremos un método para que llame. Eso se definirá de la siguiente manera:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">SelectCell</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">text</span><span class="p">))</span> <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">cells</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">text</span> <span class="p">=</span> <span class="n">marca</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">marca</span> <span class="p">=</span> <span class="p">(</span><span class="n">marca</span> <span class="p">==</span> <span class="s">&#34;X&#34;</span><span class="p">)</span> <span class="p">?</span> <span class="s">&#34;O&#34;</span> <span class="p">:</span> <span class="s">&#34;X&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este método comienza con un control para ver si la celda ya se ha marcado o no (porque no queremos permitir que un jugador sobrescriba el movimiento de otro jugador). El signo de exclamación significa &ldquo;No&rdquo;, por lo que toda la afirmación se lee básicamente &ldquo;si el texto de la celda no está vacío&rdquo;. Cuando la condición es verdadera, el método llama a una declaración de &ldquo;retorno&rdquo; para que el resto del método sea ignorado. Tenga en cuenta que este ejemplo no ajusta la declaración de retorno entre corchetes. Los corchetes solo son necesarios cuando necesita más de una declaración para ser tratada como el cuerpo. Normalmente, solo usaría una declaración de devolución al final de un método, pero ocasionalmente la verá al comienzo de un método como una forma de &ldquo;abortar&rdquo; anticipadamente.</p>
+<p>Cuando la condición es falsa, el resto del método se puede ejecutar normalmente. En este caso, significa que la celda está vacía y, por lo tanto, es un lugar legal para realizar un &ldquo;movimiento&rdquo;. Hacemos nuestro &ldquo;movimiento&rdquo; asignando el valor de &ldquo;marca&rdquo; a la etiqueta.</p>
+<p>Finalmente, cambiamos las curvas al alternar la marca de X a O y viceversa. Esta afirmación puede considerarse como una variación de una &ldquo;declaración if&rdquo;. Tiene una condición (el código entre paréntesis) seguido de un signo de interrogación. Si el resultado de la condición es verdadero, se usa el valor a la izquierda de los dos puntos, de lo contrario se usa el valor a la derecha de los dos puntos. Para ver lo que tenemos hasta ahora, comencemos a construir la escena.</p>
+<h1 id="configuración-de-escena">Configuración de escena</h1>
+<ol>
+<li>Para comenzar, crea una nueva escena llamada &ldquo;TicTacToe&rdquo; (En el repositorio es la 05).</li>
+<li>Agregue un nuevo Panel (desde la barra de menú, seleccione &ldquo;GameObject -&gt; UI -&gt; Panel&rdquo;).</li>
+<li>Elimine los componentes &ldquo;Image&rdquo; y &ldquo;Canvas Renderer&rdquo; de ese panel (seleccione el engranaje en el inspector y luego &ldquo;Eliminar componente&rdquo;) porque no los necesitaremos.</li>
+<li>En el componente &ldquo;Rect Transform&rdquo; del panel, ingrese un valor de &ldquo;0.5&rdquo; para cada uno de los cuatro anclajes (Mín. Y Máx., X e Y), así como también el Pivot (X e Y). Establezca la Posición en cero en los tres ejes (X, Y y Z) y configure el Ancho y la Altura en &ldquo;300&rdquo;.</li>
+<li>Agregue el componente &ldquo;Grid Layout Group&rdquo; (en la barra de menú, seleccione “Component -&gt; Layout -&gt; Grid Layout Group”). Establezca su tamaño de celda en 100 para X e Y.</li>
+<li>Agregue un botón (desde la barra de menú elija &ldquo;GameObject -&gt; UI -&gt; Button&rdquo;) y créelo en el panel (arrástrelo y suéltelo encima del objeto Panel en el panel de jerarquía para que quede anidado debajo).</li>
+<li>Duplique el botón hasta que tenga nueve botones en total (desde la barra de menú, seleccione &ldquo;Edit -&gt; Duplicate&rdquo; o Ctrl + D). Si ha seguido correctamente los pasos, debería ver una placa de botones 3 × 3 centrada en el centro de la cámara.</li>
+<li>Adjunte nuestro script de TicTacToe al canvas.</li>
+<li>Asegúrese de que el canvas esté seleccionado y luego bloquee el inspector (haga clic en el ícono de candado en la esquina superior derecha).</li>
+<li>Expanda cada uno de los botones en la jerarquía para que pueda ver las etiquetas de texto. Multi-selecciona los objetos de texto, y arrástrelos a la variable de matriz de celdas de nuestro script. Unity cambiará automáticamente el tamaño de la matriz para contener todos los valores y asignar los objetos a la matriz.</li>
+<li>Cuando se hayan asignado todas las celdas, desbloquee el inspector.</li>
+<li>Contraiga los botones en la jerarquía y luego seleccione varios botones. Use el inspector para agregar un controlador OnClick. Arrastre el objeto Canvas al campo del objeto de destino y seleccione &ldquo;TicTacToe -&gt; SelectCell (int)&rdquo; como nuestro controlador de función.</li>
+<li>Tendrá que asignar el valor para pasar cada botón individualmente (hay formas mejores pero esto servirá por ahora) Comenzando desde arriba, establezca los valores para pasar de 0-8 (usaremos este valor como el índice en una matriz).</li>
+</ol>
+<p>Reproduzca la escena y haga clic en cada uno de los botones. Debería ver cada botón establecer una X o O alternando como su etiqueta al hacer clic en ellos. Si el botón en el que hace clic hace que se actualice la etiqueta de un botón diferente, entonces ha vinculado algo incorrectamente. Verifique que la matriz de etiquetas de texto esté en orden (puede hacer clic en ellas en el inspector y resaltará la coincidencia en el panel de jerarquía) de arriba a abajo. Verifique también que el parámetro OnClick del botón esté marcado en orden según el paso 13.</p>
+<h1 id="estado-del-juego">Estado del juego</h1>
+<p>El último paso es hacer que nuestro juego mire para una condición de victoria/derrota. Después de cada turno necesitamos hacer este control, y cuando se encuentre, felicitar al ganador y comenzar un nuevo juego.</p>
+<p>Agregue otra variable que indique cuando el juego está realmente terminado. Lo usaremos para asegurarnos de que no se jugarán movimientos extra cuando se encuentre una condición de victoria. También crearemos e inicializaremos una matriz multidimensional, donde cada subarray es una lista de índices de ubicación que forman una línea en el tablero (filas, columnas y diagonales) desde la cual comprobaremos las posibles victorias. Agregue estos justo debajo de la declaración de la variable &ldquo;marca&rdquo;:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="n">gameOver</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span><span class="p">[,]</span> <span class="n">wins</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[,]</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">3</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">5</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">6</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="m">8</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">0</span><span class="p">,</span><span class="m">3</span><span class="p">,</span><span class="m">6</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">1</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">7</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">2</span><span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">8</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">0</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">8</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span><span class="m">2</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">6</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div><hr>
+<p>En el método NewGame, tendremos que asegurarnos de establecer nuestra variable gameOver en falso, o no se podrán realizar nuevos movimientos. Agregue esta declaración al final de ese método:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">gameOver</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Determinaremos si el juego ha finalizado llamando a un nuevo método:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">CheckGameState</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">wins</span><span class="p">.</span><span class="n">GetLength</span><span class="p">(</span><span class="m">0</span><span class="p">);</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="kt">int</span> <span class="n">j</span> <span class="p">=</span> <span class="n">wins</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="m">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="kt">int</span> <span class="n">k</span> <span class="p">=</span> <span class="n">wins</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="m">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="kt">int</span> <span class="n">l</span> <span class="p">=</span> <span class="n">wins</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="m">2</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">text</span> <span class="p">==</span> <span class="n">cells</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">text</span> <span class="p">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">text</span> <span class="p">==</span> <span class="n">cells</span><span class="p">[</span><span class="n">l</span><span class="p">].</span><span class="n">text</span> <span class="p">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">text</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">gameOver</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">text</span> <span class="p">+</span> <span class="s">&#34; GANAS!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Invoke</span><span class="p">(</span><span class="s">&#34;NewGame&#34;</span><span class="p">,</span> <span class="m">3f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En este método, recorremos la matriz de líneas donde podría ocurrir una victoria. Dentro del bucle tenemos una &ldquo;declaración if&rdquo; compuesta que requiere que tres cosas sean verdaderas (esto sucede al usar &ldquo;&amp;&amp;&rdquo; que significa &ldquo;y&rdquo;:</p>
+<ul>
+<li>El valor de la primera celda marcada debe coincidir con el valor de la segunda celda marcada.</li>
+<li>El valor de la segunda celda marcada debe coincidir con el valor de la tercera celda marcada.</li>
+<li>El valor de la primera celda marcada no debe estar vacío.</li>
+</ul>
+<p>Si esas tres condiciones se cumplen a la vez, establecemos gameOver en &ldquo;verdadero&rdquo;, imprimimos un mensaje que indica quién ganó, configuramos nuestro método NewGame para que se active en 3 segundos y luego llamamos &ldquo;break&rdquo;, que sale del bucle. No necesitamos seguir buscando victorias una vez que se ha encontrado uno.</p>
+<p>A continuación, tenemos que modificar el método SelectCell. No queremos permitir movimientos cuando la variable gameOver es verdadera o cuando la celda ya está tomada. Podemos hacer una comprobación compuesta con O utilizando dos líneas verticales: &ldquo;||&rdquo;. También llamamos a nuestro CheckGameState después de aplicar un movimiento.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">CheckGameState</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">wins</span><span class="p">.</span><span class="n">GetLength</span><span class="p">(</span><span class="m">0</span><span class="p">);</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="kt">int</span> <span class="n">j</span> <span class="p">=</span> <span class="n">wins</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="m">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="kt">int</span> <span class="n">k</span> <span class="p">=</span> <span class="n">wins</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="m">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="kt">int</span> <span class="n">l</span> <span class="p">=</span> <span class="n">wins</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="m">2</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">text</span> <span class="p">==</span> <span class="n">cells</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">text</span> <span class="p">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">cells</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">text</span> <span class="p">==</span> <span class="n">cells</span><span class="p">[</span><span class="n">l</span><span class="p">].</span><span class="n">text</span> <span class="p">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">text</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">gameOver</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">cells</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="n">text</span> <span class="p">+</span> <span class="s">&#34; GANAS!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Invoke</span><span class="p">(</span><span class="s">&#34;NewGame&#34;</span><span class="p">,</span> <span class="m">3f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Guarde su script y regrese a Unity. Juega el juego ahora y activa una condición de victoria. Debería ver un mensaje de felicitación en la consola y luego no podrá realizar nuevos movimientos hasta que el tablero se restablezca.</p>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/06.gif" title="/img/codebackdoor/learncsharpunity/06.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/06.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/06.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/06.gif, /img/codebackdoor/learncsharpunity/06.gif 1.5x, /img/codebackdoor/learncsharpunity/06.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/06.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección, creamos una versión humana jugable de Tic Tac Toe. Pudimos mantener nuestro guion corto y dulce mediante el uso de bucles para iterar sobre las celdas de nuestro tablero de juego. Aprendimos cómo controlar dónde comienzan y terminan los ciclos, qué condiciones requieren y cómo iteran. La sentencia break se introdujo como una forma de salir de los bucles antes de tiempo. También presentamos algunas variaciones a los elementos anteriores, como las declaraciones compuestas con &ldquo;Y&rdquo; y &ldquo;O&rdquo; y las matrices multidimensionales utilizadas.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3SCWxa7" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Genéricos
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

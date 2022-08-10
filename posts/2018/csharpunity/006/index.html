@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Genéricos - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Genéricos" />
+<meta property="og:description" content="Los genéricos proporcionan una forma de hacer una especie de &ldquo;plantilla&rdquo; de su código que funciona de la misma manera en una variedad de tipos de datos diferentes. Si bien podría considerarse un tema más avanzado, existen algunos beneficios importantes al usarlos desde el principio. En esta lección, presentaré listas genéricas y diccionarios, y mostraré cómo se usan los genéricos para funcionalidades específicas de Unity, como obtener componentes y cargar recursos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/006/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-23T02:40:43+02:00" />
+<meta property="article:modified_time" content="2018-08-23T02:40:43+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Genéricos"/>
+<meta name="twitter:description" content="Los genéricos proporcionan una forma de hacer una especie de &ldquo;plantilla&rdquo; de su código que funciona de la misma manera en una variedad de tipos de datos diferentes. Si bien podría considerarse un tema más avanzado, existen algunos beneficios importantes al usarlos desde el principio. En esta lección, presentaré listas genéricas y diccionarios, y mostraré cómo se usan los genéricos para funcionalidades específicas de Unity, como obtener componentes y cargar recursos."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/006/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/005/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/007/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Genéricos",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/006\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  2415 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/006\/","datePublished": "2018-08-23T02:40:43+02:00","dateModified": "2018-08-23T02:40:43+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Genéricos</h1><div class="content" id="content"><p>Los genéricos proporcionan una forma de hacer una especie de &ldquo;plantilla&rdquo; de su código que funciona de la misma manera en una variedad de tipos de datos diferentes. Si bien podría considerarse un tema más avanzado, existen algunos beneficios importantes al usarlos desde el principio. En esta lección, presentaré listas genéricas y diccionarios, y mostraré cómo se usan los genéricos para funcionalidades específicas de Unity, como obtener componentes y cargar recursos. Si te sientes aventurero, no dudes en echar un vistazo a algunos ejemplos rápidos de clases y métodos genéricos personalizados al final.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h1 id="lista-genérica">Lista genérica</h1>
+<p>Si has hecho alguna prueba con matrices, es posible que hayas topado con algunas características de la lista de deseos. Por ejemplo, es posible que se haya sentido decepcionado al ver que son &ldquo;inmutables&rdquo;, lo que significa que no puede cambiar el tamaño añadiendo o eliminando objetos de forma dinámica. Muchas de las funciones que está esperando se excluyen por el bien del rendimiento. Si está escribiendo un código altamente optimizado, como una inteligencia artificial compleja para jugar al Ajedrez, entonces querrá esa velocidad extra. En la mayoría de los otros casos, los beneficios de opciones son un poco menos eficaces, pero más robustos.</p>
+<p>La lista genérica es muy parecida a una matriz. Gran parte de la sintaxis para leer y escribir se verá igual también. Sin embargo, una lista puede agregar o eliminar elementos dinámicamente, indicarle el índice de un elemento que contiene, ordenar, etc. Veamos cómo se ve en el código:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">ListExamples</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">indices</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="m">10</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Agregada entrada: &#34;</span> <span class="p">+</span> <span class="n">index</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="n">indices</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">index</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">indices</span><span class="p">.</span><span class="n">Contains</span><span class="p">(</span><span class="m">3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Eliminada entrada.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="n">indices</span><span class="p">.</span><span class="n">Remove</span><span class="p">(</span><span class="m">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="n">indices</span><span class="p">.</span><span class="n">Sort</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Entradas ordenadas ... Ahora:&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">indices</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="n">indices</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">Format</span><span class="p">(</span><span class="s">&#34;i: &#34;</span> <span class="p">+</span> <span class="n">index</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En primer lugar, tenga en cuenta que en la línea 3, he especificado que estoy usando un nuevo espacio de nombres, &ldquo;System.Collections.Generic&rdquo;. Esto nos permite declarar y usar genéricos sin especificarlos completamente. Por ejemplo, sin la instrucción using, la línea 7 se vería así en su lugar:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="n">System</span><span class="p">.</span><span class="n">Collections</span><span class="p">.</span><span class="n">Generic</span><span class="p">.</span><span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">indices</span> <span class="p">=</span> <span class="k">new</span> <span class="n">System</span><span class="p">.</span><span class="n">Collections</span><span class="p">.</span><span class="n">Generic</span><span class="p">.</span><span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+</span></span></code></pre></div><hr>
+<p>Declaramos nuestra lista en la línea 7 y la inicializamos como una lista vacía. Esto es genial para mostrar que no necesita saber qué tan grande será su lista, o qué elementos específicos contendrá. La parte &ldquo;genérica&rdquo; ​​de la línea se ve entre &quot; &lt;&quot; y &quot; &gt;&quot; donde especificamos un tipo de datos; en este ejemplo usamos un &ldquo;int&rdquo;. Esto significa que esta lista en particular solo puede contener valores int. Debido a que todos los elementos de la lista están obligados a ser del mismo tipo de datos, el código se ejecutará de forma más segura y rápida. Lo llamamos genérico porque podemos pasar cualquier tipo de DataType (a veces hay excepciones a esta regla) en la declaración. Una lista de float, string o Transform se declararía de manera similar:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">List</span><span class="p">&lt;</span><span class="kt">float</span><span class="p">&gt;</span> <span class="n">list1</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">float</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">List</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="n">list2</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">List</span><span class="p">&lt;</span><span class="n">Transform</span><span class="p">&gt;</span> <span class="n">list3</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Transform</span><span class="p">&gt;();</span>
+</span></span></code></pre></div><hr>
+<p>En el método de inicio, ejecuté una variedad de tareas en nuestra lista e imprimí mensajes a la consola explicando lo que estaba sucediendo. Primero, uso un bucle for para generar y agregar 10 números aleatorios a nuestra lista. Los hice al azar para mostrar que la lista puede contener valores duplicados, y para ayudar a ilustrar el hecho de que puedo agregar valores fuera de orden y ordenarlos más tarde.</p>
+<p>Luego, en la línea 21, verifico si agregamos alguna entrada del número 3. Si lo hicimos, eliminamos ese valor. (Tenga en cuenta que en este ejemplo solo elimino la primera ocurrencia que encuentro, pero podría haber más).</p>
+<p>En la línea 27, le digo a la lista que se ordene a sí misma: de manera predeterminada, ordenará sus elementos en orden ascendente. Hay otras formas de ordenar los elementos que puede investigar más adelante.</p>
+<p>Finalmente, en la línea 30 hago otro ciclo para imprimir los elementos en orden tal como aparecen después de haberlos ordenado. Con suerte, debería reconocer la sintaxis del paréntesis para leer un elemento en un índice, porque es lo mismo que trabajar con una matriz.</p>
+<p>Copie el código de ejemplo y luego adjunte su script a un objeto en escena. Ejecute la escena y revise la salida en la ventana de la consola. En una ejecución de muestra, vi que agregué los siguientes índices: (1, 1, 7, 8, 3, 6, 1, 5, 0, 2), luego vi que se eliminó una entrada y luego vi las entradas ordenados como (0, 1, 1, 1, 2, 5, 6, 7, 8).</p>
+<h1 id="diccionario-genérico">Diccionario genérico</h1>
+<p>Un diccionario es otro tipo de recopilación de datos utilizada por los programadores. A diferencia de una matriz o lista, se considera desordenada, y se accede mediante una &ldquo;clave&rdquo; en lugar de un &ldquo;índice&rdquo;. Ciertos escenarios pueden hacer que esto se sienta más natural, porque hacer referencia a un objeto por índice no significa necesariamente nada. Por ejemplo, si tengo una lista de GameObject, entonces intuitivamente no sé que GameObject en el índice 0 representa un subordinado y que GameObject en el índice 1 representa un jefe. Sin embargo, al asociar un valor a una clave, la relación se vuelve más obvia y legible en su código.</p>
+<p>Imagina que estás haciendo un juego de rol con una gran variedad de artículos de la tienda. Algunas tiendas solo pueden mostrar ciertos artículos en un momento dado, y los objetos que muestran pueden no estar basados ​​en ningún orden en particular. Si administraba sus artículos como una lista o como una matriz, cada vez que quisiera obtener una referencia a un artículo, tendría que &ldquo;recorrer&rdquo; cada elemento de la lista hasta que encuentre el que coincida. Con un diccionario, básicamente puedes decir, &ldquo;dame el elemento llamado &lsquo;Daga&rsquo;&rdquo; e inmediatamente obtén su referencia. Veamos cómo se ve en el código:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">DictionaryExamples</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">int</span><span class="p">&gt;</span> <span class="n">stats</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">int</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">stats</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;HP&#34;</span><span class="p">,</span> <span class="m">10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">stats</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;MP&#34;</span><span class="p">,</span> <span class="m">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">stats</span><span class="p">.</span><span class="n">Remove</span><span class="p">(</span><span class="s">&#34;MP&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">stats</span><span class="p">.</span><span class="n">ContainsKey</span><span class="p">(</span><span class="s">&#34;HP&#34;</span><span class="p">))</span> <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">Format</span><span class="p">(</span><span class="s">&#34;Tienes {0} puntos de golpe restantes&#34;</span><span class="p">,</span> <span class="n">stats</span><span class="p">[</span><span class="s">&#34;HP&#34;</span><span class="p">]));</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En la línea 7, declaramos nuestro diccionario. Tenga en cuenta que declaramos que estamos utilizando el espacio de nombres &ldquo;System.Collections.Generic&rdquo; para usar la especificación más corta. Los diccionarios tienen una &ldquo;Clave&rdquo; y un &ldquo;Valor&rdquo;, cada uno de los cuales puede ser un tipo de dato diferente. Lo ilustro aquí haciendo que la &ldquo;clave&rdquo; sea un tipo de cadena, y el &ldquo;valor&rdquo; un tipo de &ldquo;int&rdquo;.</p>
+<p>En el método de inicio, uso algunos de los métodos disponibles para los diccionarios. Primero agrego una clave y un valor para una estadística llamada &ldquo;HP&rdquo;. Luego agrego una estadística diferente llamada &ldquo;MP&rdquo;. Además de agregar pares clave-valor, puede eliminarlos, aunque en ese caso solo especifica la clave. Elimino la estadística &ldquo;MP&rdquo; en la línea 13. Cuando trabaje con diccionarios, es una buena idea verificar que un diccionario tenga una clave antes de intentar leerlo. Lo hago en la línea 14 antes de leer el valor con la sintaxis del paréntesis (de nuevo, similar a leer una matriz) al final de la línea 15.</p>
+<p>Hay algunos inconvenientes con los que puede encontrarse al usar diccionarios que debe tener en cuenta:</p>
+<ol>
+<li>Unity no &ldquo;reconoce&rdquo; los diccionarios, por lo que incluso si lo marca como público, no se serializará ni aparecerá en el inspector. Tenga en cuenta que esto no le impide usarlos en sus scripts, pero sí crea un problema en la inicialización basada en el editor.</li>
+<li>Si intenta utilizar la sintaxis Agregar (.Add (clave, valor)) a un diccionario que ya contiene esa clave, obtendrá un error: &ldquo;ArgumentException: ya existe un elemento con la misma clave en el diccionario&rdquo;. Puede cambiar un valor por el indexador como (diccionario [clave] = valor).</li>
+<li>Si intenta escribir un valor de diccionario por indexador, y la clave no existe, agregará la clave y asignará el valor automáticamente.</li>
+<li>Si intenta leer un valor de diccionario por indexador, y la clave no existe, obtendrá un error: &ldquo;KeyNotFoundException: la clave dada no estaba presente en el diccionario&rdquo;.</li>
+<li>Si intenta establecer un valor de diccionario para el tipo de dato incorrecto, el compilador se quejará: &ldquo;error CS1502: la mejor coincidencia de método sobrecargado para &lsquo;System.Collections.Generic.Dictionary.Add (string, int)&rsquo; tiene algunos inválidos argumentos &quot;</li>
+</ol>
+<h1 id="genéricos-y-unity">Genéricos y Unity</h1>
+<p>Aunque los ejemplos de genéricos que he dado hasta ahora se aplicaron específicamente a instancias de una clase (nuestra lista y variables de diccionario), debe saber que también se puede aplicar a declaraciones de métodos. Debido a los beneficios de los genéricos, los encontrarás diseminados a lo largo de la funcionalidad de Unity. El primer lugar que puede observar es con la capacidad de &ldquo;Agregar&rdquo; o &ldquo;Obtener&rdquo; componentes en un GameObject:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">Foo</span> <span class="n">foo</span> <span class="p">=</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">AddComponent</span><span class="p">&lt;</span><span class="n">Foo</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">Bar</span> <span class="n">bar</span> <span class="p">=</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Bar</span><span class="p">&gt;();</span>
+</span></span></code></pre></div><hr>
+<p>Estas dos líneas muestran cómo se usan los marcadores genéricos en los métodos AddComponent y GetComponent para especificar qué tipo de componente se agregará o recuperará. Tenga en cuenta que en el ejemplo, &ldquo;Foo&rdquo; y &ldquo;Bar&rdquo; son ejemplos de nombres de clases para los que habría necesitado crear scripts.</p>
+<p>Al usar la primera línea, puede agregar una instancia de un script a GameObject mientras su juego se está ejecutando. Por ejemplo, puede agregar un script de Muerte a un objeto siempre que sus puntos de golpe se reduzcan a cero. También puede compilar objetos complejos en tiempo de ejecución en lugar de en tiempo de edición para asegurarse de que el orden en que se agregan le permita configurar correctamente todas las dependencias de un objeto. Por ejemplo, si Foo necesita una referencia a Bar, entonces debe asegurarse de que Bar se haya agregado primero al objeto.</p>
+<p>La segunda línea devuelve una instancia de un script en un GameObject (o null si no puede encontrar uno). Puede usar esto para probar si una referencia a un objeto tiene un componente que está buscando y, de ser así, realice algún tipo de acción sobre él (consulte sus propiedades públicas o utilice sus métodos públicos).</p>
+<p>También verá una sintaxis similar al cargar recursos:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">TextAsset</span> <span class="n">data</span> <span class="p">=</span> <span class="n">Resources</span><span class="p">.</span><span class="n">Load</span><span class="p">&lt;</span><span class="n">TextAsset</span><span class="p">&gt;(</span><span class="s">&#34;Level_0&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><hr>
+<p>Tenga en cuenta que para que esa línea funcione, necesitará un asset de texto con el nombre correcto en su proyecto dentro de una carpeta llamada &ldquo;Resources&rdquo;. Es posible tener múltiples tipos diferentes de assets que comparten el mismo nombre, como un prefabricado y un elemento de imagen, pero cuando especifica el tipo de objeto que se cargará como argumento genérico, devolverá el elemento correcto.</p>
+<h1 id="métodos-genéricos-personalizados">Métodos genéricos personalizados</h1>
+<p>A estas alturas ya se estará preguntando cómo crear su propio método genérico. Considere los siguientes ejemplos:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">ToggleComponent</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="p">()</span> <span class="k">where</span> <span class="n">T</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">T</span> <span class="n">t</span> <span class="p">=</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">t</span><span class="p">.</span><span class="n">enabled</span> <span class="p">=</span> <span class="p">!</span><span class="n">t</span><span class="p">.</span><span class="n">enabled</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="n">T</span> <span class="n">FindOrAdd</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="p">()</span> <span class="k">where</span> <span class="n">T</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">T</span> <span class="n">t</span> <span class="p">=</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">t</span> <span class="p">==</span> <span class="k">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">t</span> <span class="p">=</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">AddComponent</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Una declaración de método genérico comienza como cualquier otro método que haya declarado, sin embargo, el marcador de tipo genérico &ldquo;&lt;&ldquo;T&rdquo;&gt;&rdquo; se inserta justo antes del paréntesis. El valor que coloca dentro del marcador genérico es similar al nombre de un parámetro, pero se usa para referirse al &ldquo;Tipo de datos&rdquo; que se usará dentro del método. Tenga en cuenta que puede volver a utilizar el mismo identificador como el tipo de datos para el tipo de devolución del método o como un tipo de datos en un parámetro que acepta el método.</p>
+<p>Después del paréntesis hay algo llamado &ldquo;restricción&rdquo;, un bit de código opcional que se aplica a los tipos de datos sobre los que permitimos que funcione este método. En este ejemplo, especificamos que los métodos solo pueden funcionar con tipos de datos que son, o derivan de, la clase base MonoBehaviour. Debido a nuestra restricción, podemos escribir cualquier código dentro del método que se aplique a cualquier comportamiento en mono, como la capacidad de alternar si está habilitado o no. Sin la restricción, el compilador no sabría ningún detalle del objeto y no podría escribir una implementación tan específica.</p>
+<h1 id="clases-genéricas-personalizadas">Clases genéricas personalizadas</h1>
+<p>También puedes hacer una clase Genérica. De hecho, así es como se crearían la Lista y el Diccionario que utilizamos anteriormente:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">InfoEventArgs</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="p">:</span> <span class="n">EventArgs</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">T</span> <span class="n">info</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">InfoEventArgs</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">info</span> <span class="p">=</span> <span class="k">default</span><span class="p">(</span><span class="n">T</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">InfoEventArgs</span> <span class="p">(</span><span class="n">T</span> <span class="n">info</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="n">info</span> <span class="p">=</span> <span class="n">info</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Esta clase se convierte en una especie de plantilla para una subclase de EventArgs que contiene una única propiedad, pero esa propiedad puede ser de cualquier tipo. Este ejemplo muestra dos &ldquo;constructores&rdquo; que son un tipo especial de método que crea una instancia de una clase. Cuando inicializamos nuestro diccionario usando &ldquo;nuevo diccionario&rdquo;, estábamos llamando a un constructor. Se puede decir que un método es un constructor porque no tiene un tipo de retorno en su firma y porque el nombre del método es el mismo nombre que el nombre de la clase.</p>
+<p>El primer constructor es un constructor predeterminado, no toma un parámetro. Como no utilicé ninguna restricción en esta clase, el tipo de datos podría ser un tipo de valor (como un int) o un tipo de referencia (como un GameObject), cada uno de los cuales tiene valores predeterminados diferentes e incompatibles: no puedo asignar un &ldquo;GameObject&rdquo; un valor de &ldquo;0&rdquo; y no puedo asignarle un valor &ldquo;null&rdquo; a &ldquo;int&rdquo;. La palabra clave &ldquo;default&rdquo; me resuelve este problema e inicia automáticamente un tipo genérico para mí.</p>
+<p>En el segundo constructor, inicio la variable &ldquo;info&rdquo; a cualquier valor que pase el usuario. Utilicé una palabra clave especial &ldquo;this&rdquo;, que es una forma de que un script se refiera a sí mismo. El uso de la notación de puntos en la palabra clave &ldquo;this&rdquo; me permite diferenciar entre la variable &ldquo;info&rdquo; de la instancia y el parámetro &ldquo;info&rdquo; del constructor, ya que comparten el mismo nombre. Tenga en cuenta que también podría haberlos diferenciado dando al parámetro un nombre diferente.</p>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/07.gif" title="/img/codebackdoor/learncsharpunity/07.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/07.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/07.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/07.gif, /img/codebackdoor/learncsharpunity/07.gif 1.5x, /img/codebackdoor/learncsharpunity/07.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/07.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección, presentamos una nueva función de lenguaje llamada genéricos. Los genéricos se pueden aplicar a métodos y clases como una forma de ayudar a que el código se pueda volver a usar en una variedad de DataTypes de una manera segura y rápida. Introduje la lista genérica y el diccionario, mostré cómo Unity usa los genéricos en sus propias bibliotecas y, finalmente, mostré cómo crear clases y métodos genéricos personalizados, con o sin restricciones.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3JH0jeA" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Corrutinas
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

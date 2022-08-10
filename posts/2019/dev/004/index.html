@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Uso de GUISkin para el estilo del editor - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Uso de GUISkin para el estilo del editor" />
+<meta property="og:description" content="Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2019/dev/004/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-05-03T02:02:45+02:00" />
+<meta property="article:modified_time" content="2019-05-03T02:02:45+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Uso de GUISkin para el estilo del editor"/>
+<meta name="twitter:description" content="Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2019/dev/004/" /><link rel="prev" href="https://moonantonio.github.io/posts/2019/dev/003/" /><link rel="next" href="https://moonantonio.github.io/posts/2019/comun/006/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Uso de GUISkin para el estilo del editor",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2019\/dev\/004\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  736 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2019\/dev\/004\/","datePublished": "2019-05-03T02:02:45+02:00","dateModified": "2019-05-03T02:02:45+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Uso de GUISkin para el estilo del editor</h1><div class="content" id="content"><p>Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método.</p>
+<p>Para demostrar lo que puede hacer con solo unas pocas líneas de código, he creado una ventana de editor de muestra con una barra de pestañas de &lsquo;diseño plano&rsquo; inspirada en el Material Design de Google, como se muestra a continuación:</p>
+<figure><a class="lightgallery" href="/img/c/tab01.gif" title="/img/c/tab01.gif" data-thumbnail="/img/c/tab01.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/tab01.gif"
+            data-srcset="/img/c/tab01.gif, /img/c/tab01.gif 1.5x, /img/c/tab01.gif 2x"
+            data-sizes="auto"
+            alt="/img/c/tab01.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Si observa detenidamente, notará que el color de la fuente de cada pestaña se aclara a medida que avanza de izquierda a derecha. Esto no forma parte de Material Design, pero se hizo para demostrar cómo puede controlar el estilo de cada botón de pestaña individualmente.</p>
+<h1 id="creando-guiskin">Creando GUISkin</h1>
+<p>El primer paso para crear este estilo de barra de pestañas es crear una GUISkin. Este es un tipo de recurso incorporado en Unity. Para crear uno, haga clic en el menú Crear en la ventana Proyecto y seleccione GUISkin.</p>
+<figure><a class="lightgallery" href="/img/c/tab02.png" title="/img/c/tab02.png" data-thumbnail="/img/c/tab02.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/tab02.png"
+            data-srcset="/img/c/tab02.png, /img/c/tab02.png 1.5x, /img/c/tab02.png 2x"
+            data-sizes="auto"
+            alt="/img/c/tab02.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Asígnele un nombre, elijo &lsquo;CustomSkin&rsquo; en este ejemplo al cual el código hará referencia más adelante. Haga clic en CustomSkin para ver su inspector.</p>
+<figure><a class="lightgallery" href="/img/c/tab03.png" title="/img/c/tab03.png" data-thumbnail="/img/c/tab03.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/tab03.png"
+            data-srcset="/img/c/tab03.png, /img/c/tab03.png 1.5x, /img/c/tab03.png 2x"
+            data-sizes="auto"
+            alt="/img/c/tab03.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<h1 id="definir-un-estilo-gui-de-la-barra-de-herramientas">Definir un estilo GUI de la barra de herramientas</h1>
+<p>A continuación definiremos los estilos personalizados para los botones de la barra de herramientas. En la ventana del Inspector, vaya al elemento &lsquo;CustomSkin&rsquo; y expándalo. Cambie el valor de &lsquo;Tamaño&rsquo; a 4. Ingrese los siguientes nombres para cada uno de los nuevos estilos:</p>
+<figure><a class="lightgallery" href="/img/c/tab04.png" title="/img/c/tab04.png" data-thumbnail="/img/c/tab04.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/tab04.png"
+            data-srcset="/img/c/tab04.png, /img/c/tab04.png 1.5x, /img/c/tab04.png 2x"
+            data-sizes="auto"
+            alt="/img/c/tab04.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<ul>
+<li>TabLeft</li>
+<li>TabMid</li>
+<li>TabRight</li>
+<li>Tab</li>
+</ul>
+<p>El estilo &lsquo;Tab&rsquo; solo podría usarse como su estilo para todos los botones de la barra de herramientas. Sin embargo, en nuestro ejemplo queremos controlar cada una de las 3 pestañas de manera individual, por lo que creamos estilos con el mismo nombre que termina con Left, Mid y Right. Así es como podemos controlar el color del texto de cada pestaña para obtener ese efecto donde las pestañas se desvanecen hacia el fondo de izquierda a derecha.</p>
+<p>Luego creé dos imágenes simples para los fondos de pestañas, un estado normal y seleccionado como se muestra aquí:</p>
+<figure><a class="lightgallery" href="/img/c/tab05.png" title="/img/c/tab05.png" data-thumbnail="/img/c/tab05.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/tab05.png"
+            data-srcset="/img/c/tab05.png, /img/c/tab05.png 1.5x, /img/c/tab05.png 2x"
+            data-sizes="auto"
+            alt="/img/c/tab05.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<figure><a class="lightgallery" href="/img/case/tab06.png" title="/img/case/tab06.png" data-thumbnail="/img/case/tab06.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/case/tab06.png"
+            data-srcset="/img/case/tab06.png, /img/case/tab06.png 1.5x, /img/case/tab06.png 2x"
+            data-sizes="auto"
+            alt="/img/case/tab06.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Para cada estilo, vamos a configurar los estados Normal y Encendido Normal (seleccionado). Así es como configuro TabLeft. Utilicé la misma configuración para TabMid y TabRight, con la excepción del Color de texto normal, que hice un poco más claro para el TabMid y aún más claro para el TabRight.</p>
+<figure><a class="lightgallery" href="/img/c/tab07.jpg" title="/img/c/tab07.jpg" data-thumbnail="/img/c/tab07.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/tab07.jpg"
+            data-srcset="/img/c/tab07.jpg, /img/c/tab07.jpg 1.5x, /img/c/tab07.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/tab07.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<h1 id="implementando-ventana-de-editor">Implementando ventana de editor</h1>
+<p>Por último, escribiremos el script detrás de EditorWindow para vincularlo todo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEditor</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">GUISkinWindow</span> <span class="p">:</span> <span class="n">EditorWindow</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="k">static</span> <span class="n">GUISkinWindow</span> <span class="n">_windowInstance</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="n">GUISkin</span> <span class="n">skin</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="n">GUIStyle</span> <span class="n">tabStyle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="kt">int</span> <span class="n">selectedTab</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="k">void</span> <span class="n">OnEnable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">skin</span> <span class="p">=</span> <span class="p">(</span><span class="n">GUISkin</span><span class="p">)</span> <span class="n">Resources</span><span class="p">.</span><span class="n">Load</span><span class="p">(</span><span class="s">&#34;CustomSkin&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">tabStyle</span> <span class="p">=</span> <span class="n">skin</span><span class="p">.</span><span class="n">GetStyle</span><span class="p">(</span><span class="s">&#34;Tab&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">     
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="n">ShowWindow</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_windowInstance</span> <span class="p">=</span> <span class="p">(</span><span class="n">GUISkinWindow</span><span class="p">)</span><span class="n">EditorWindow</span><span class="p">.</span><span class="n">GetWindow</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="k">typeof</span><span class="p">(</span><span class="n">GUISkinWindow</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_windowInstance</span><span class="p">.</span><span class="n">titleContent</span> <span class="p">=</span> <span class="k">new</span> <span class="n">GUIContent</span><span class="p">(</span><span class="s">&#34;Custom Tabs&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="k">void</span> <span class="n">OnGUI</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">GUI</span><span class="p">.</span><span class="n">skin</span> <span class="p">=</span> <span class="n">skin</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">        <span class="kt">string</span><span class="p">[]</span> <span class="n">tabs</span> <span class="p">=</span> <span class="p">{</span><span class="s">&#34;TAB ONE&#34;</span><span class="p">,</span> <span class="s">&#34;TAB TWO&#34;</span><span class="p">,</span> <span class="s">&#34;TAB THREE&#34;</span><span class="p">};</span>                
+</span></span><span class="line"><span class="cl">        <span class="n">selectedTab</span> <span class="p">=</span> <span class="n">GUILayout</span><span class="p">.</span><span class="n">Toolbar</span><span class="p">(</span><span class="n">selectedTab</span><span class="p">,</span> <span class="n">tabs</span><span class="p">,</span> <span class="n">tabStyle</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>En OnEnable() cargamos el CustomSkin que creamos anteriormente y obtenemos una referencia al estilo de &ldquo;Tab&rdquo;. Notarás que no hice nada con el estilo &ldquo;Tab&rdquo; antes. Sin embargo, en OnGUI() pasamos este estilo al método GUILayout.Toolbar() para crear nuestra barra de herramientas.</p>
+<p>La forma en que funciona es si define los estilos como tenemos con el mismo nombre que termina con &ldquo;Left&rdquo;, &ldquo;Mid&rdquo;, &ldquo;Right&rdquo;, en su lugar usará esos estilos. Es por eso que creé el estilo de &ldquo;Tab&rdquo; además de los que configuramos. Este comportamiento no es el más obvio, pero es fácil de usar una vez que esté familiarizado con su funcionamiento.</p>
+<p>El resto del código solo trata de mostrar la ventana y realizar un seguimiento de la pestaña seleccionada actualmente.</p>
+<p>Si bien lo anterior es bastante fácil de hacer en el código por completo, hay algunas ventajas de hacerlo utilizando estilos en un GUISkin. Al crear los colores y otros elementos de estilo, puede realizar cambios fácilmente en GUISkin y ver cómo cambia su barra de herramientas al instante sin tener que volver a compilar, por ejemplo. Si ya está utilizando un GUISkin personalizado, este enfoque puede tener sentido para usted.</p>
+<p>Espero que haya encontrado útil esta publicación de GUI scripting.</p>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

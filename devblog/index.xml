@@ -1,130 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devblogs on Antonio Moon´s</title>
     <link>https://moonantonio.github.io/devblog/</link>
     <description>Recent content in Devblogs on Antonio Moon´s</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Fri, 06 Jan 2017 01:07:54 +0100</lastBuildDate>
-    
-	<atom:link href="https://moonantonio.github.io/devblog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
+    <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster>
+    <lastBuildDate>Fri, 06 Jan 2017 01:07:54 +0100</lastBuildDate><atom:link href="https://moonantonio.github.io/devblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[PROTOTIPO][#12] Mini Demo Interna</title>
-      <link>https://moonantonio.github.io/post/2017/devblog/001/</link>
+      <link>https://moonantonio.github.io/posts/2017/devblog/001/</link>
       <pubDate>Fri, 06 Jan 2017 01:07:54 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2017/devblog/001/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2017/devblog/001/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#11] Test</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/011/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/011/</link>
       <pubDate>Fri, 30 Dec 2016 01:06:23 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/011/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#10] Cid</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/010/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/010/</link>
       <pubDate>Fri, 23 Dec 2016 01:05:26 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/010/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/010/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#9] Acampada</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/009/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/009/</link>
       <pubDate>Fri, 16 Dec 2016 01:04:08 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/009/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/009/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#8] IA</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/008/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/008/</link>
       <pubDate>Fri, 09 Dec 2016 01:03:01 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/008/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/008/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#7] Ciclos</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/007/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/007/</link>
       <pubDate>Fri, 02 Dec 2016 01:00:10 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/007/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/007/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#6] Unidades</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/006/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/006/</link>
       <pubDate>Fri, 25 Nov 2016 00:58:38 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/006/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/006/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#5] Combate</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/005/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/005/</link>
       <pubDate>Fri, 18 Nov 2016 00:57:25 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/005/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/005/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#4] Interacciones</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/004/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/004/</link>
       <pubDate>Fri, 11 Nov 2016 00:56:04 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/004/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/004/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#3] Personaje</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/003/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/003/</link>
       <pubDate>Fri, 04 Nov 2016 00:54:25 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/003/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/003/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#2] Menú Principal</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/002/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/002/</link>
       <pubDate>Fri, 28 Oct 2016 00:52:58 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/002/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducción</title>
-      <link>https://moonantonio.github.io/post/2016/comun/001/</link>
-      <pubDate>Fri, 21 Oct 2016 00:47:40 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/comun/001/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/002/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[PROTOTIPO][#1] Comienzo</title>
-      <link>https://moonantonio.github.io/post/2016/devblog/001/</link>
+      <link>https://moonantonio.github.io/posts/2016/devblog/001/</link>
       <pubDate>Fri, 21 Oct 2016 00:47:40 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/post/2016/devblog/001/</guid>
+      <author>antoniomt.moon@gmail.com (Antonio Moon)</author>
+      <guid>https://moonantonio.github.io/posts/2016/devblog/001/</guid>
       <description></description>
     </item>
     

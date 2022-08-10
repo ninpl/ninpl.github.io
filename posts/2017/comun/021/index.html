@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Buenas Practicas de programación - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Buenas Practicas de programación" />
+<meta property="og:description" content="Estoy seguro de que si te dedicas a programar, conoces a Robert &ldquo;Uncle&rdquo; Martin. Su libro Clean Code es uno de los más recomendados en la lista de libros que todo desarrollador debería leer. Martin, con sus cosas buenas y malas, es uno de los desarrolladores más influyentes del panorama ingenieril. Fuerte defensor de TDD, de la cobertura de tests y otras buenas prácticas, y además cuenta con muchas personas que siguen sus enseñanzas a rajatabla." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2017/comun/021/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-10-16T19:07:21+02:00" />
+<meta property="article:modified_time" content="2017-10-16T19:07:21+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Buenas Practicas de programación"/>
+<meta name="twitter:description" content="Estoy seguro de que si te dedicas a programar, conoces a Robert &ldquo;Uncle&rdquo; Martin. Su libro Clean Code es uno de los más recomendados en la lista de libros que todo desarrollador debería leer. Martin, con sus cosas buenas y malas, es uno de los desarrolladores más influyentes del panorama ingenieril. Fuerte defensor de TDD, de la cobertura de tests y otras buenas prácticas, y además cuenta con muchas personas que siguen sus enseñanzas a rajatabla."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2017/comun/021/" /><link rel="prev" href="https://moonantonio.github.io/posts/2017/dev/013/" /><link rel="next" href="https://moonantonio.github.io/posts/2017/comun/022/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Buenas Practicas de programación",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2017\/comun\/021\/"
+        },"genre": "posts","keywords": "Moon Antonio, comun","wordcount":  1784 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2017\/comun\/021\/","datePublished": "2017-10-16T19:07:21+02:00","dateModified": "2017-10-16T19:07:21+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b038.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Buenas Practicas de programación</h1><div class="content" id="content"><p>Estoy seguro de que si te dedicas a programar, conoces a Robert &ldquo;Uncle&rdquo; Martin. Su libro Clean Code es uno de los <strong>más recomendados en la lista de libros</strong> que todo desarrollador debería leer. Martin, con sus cosas <strong>buenas y malas</strong>, es uno de los desarrolladores más influyentes del panorama ingenieril. Fuerte defensor de TDD, de la cobertura de tests y otras buenas prácticas, y además cuenta con <strong>muchas personas que siguen sus enseñanzas</strong> a rajatabla.</p>
+<p>Recientemente, Bob Martin, ha publicado un nuevo libro llamado Clean Architecture. ¿Pero qué se entiende por arquitectura limpia?</p>
+<h1 id="clean-code">Clean Code</h1>
+<p>Como comentaba antes, Clean Code es un libro muy recomendable, que desgrana algunas ideas importantes para poder escribir código limpio.</p>
+<p>El código limpio es <strong>aquel código que está estructurado de forma compresible, que es claro en sus intenciones, fácil de leer, que es fácilmente mantenible y que está testeado</strong>. En el libro se van dando algunas ideas para conseguir escribir código limpio, hablando de principios SOLID, de la importancia de dar nombres a variables y clases etc. En GenbetaDev ya hemos hablado del libro y de sus ideas en alguna ocasión</p>
+<h1 id="principios-de-una-arquitectura-limpia">Principios de una arquitectura limpia</h1>
+<p>Aunque <strong>seamos capaces de escribir código limpio</strong>, podemos encontrarnos que al crecer nuestro sistema, la <strong>arquitectura</strong> del mismo sea un lastre. Y es que no es lo mismo escribir código limpio para un proyecto sencillo, que para un proyecto complejo compuesto de varios componentes obligados a cooperar. A veces las arquitecturas son demasiado complejas, nos obligan a repetir código, o nos hacen tener demasiadas dependencias entre componentes, causándonos muchos problemas.</p>
+<p>Los conceptos de <strong>cohesión y acoplamiento</strong>, también pueden aplicarse a nivel de arquitectura.
+Si utilizáis <strong>programación orientada a objetos</strong>, seguro que conocéis los conceptos de cohesión y acoplamiento. Esos conceptos también pueden aplicarse de forma parecida a los componentes de un sistema, ya sean dlls o archivos jar, estos tienen que cooperar unos con otros. Y la manera en la que cooperen, pueden hacer un sistema fracasar. Pero si seguimos una serie de principios para controlar estas dos variables, nuestra arquitectura será más limpia y manejable.</p>
+<h2 id="cohesión">Cohesión</h2>
+<ul>
+<li>The Reuse/Release Equivalence Principle: que nos dice que los <strong>componentes deben poder ser desplegados de forma independiente</strong> sin afectar a los demás. Las clases, o código que van en ese componente, deben tener una relación, y por tanto deben poderse desplegar de forma conjunta.</li>
+<li>The common closure principle: se podría decir que <strong>hablamos del principio de responsabilidad</strong> única (SRP) aplicado a componentes. La idea es agrupar clases que puedan cambiar por la misma razón en un solo componente. Si tenemos que hacer un cambio, y hay que tocar varios componentes, esto supondrá tener que desplegarlos todos, en lugar de sólo uno.</li>
+<li>The common reuse principle: este principio <strong>nos habla de evitar a aquellos que utilizan un componente depender de cosas que no necesitan</strong>. Si un componente depende de otro, hay que intentar que sea porque necesita todas las clases que lo componen. Lo contrario nos obligará a trabajar más cuando nos toque hacer el despliegue. De esta manera será más fácil reutilizar componentes.</li>
+</ul>
+<p>Conseguir cumplir estos tres principios a la vez es algo bastante difícil, por lo que a veces hay que aceptar compromisos. Por ejemplo es común sacrificar un poco la reusabilidad, para conseguir que los componentes sean fáciles de desplegar.</p>
+<h2 id="acoplamiento">Acoplamiento</h2>
+<ul>
+<li>The Acyclic Dependencies Principle: si trazamos líneas entre los componentes para representar las dependencias entre ellos, tenemos que <strong>intentar que no existan ciclos</strong>. Es decir, que el cambio en un componente, no acabe desencadenando en la necesidad de hacer cambios en cadena en los demás componentes, que obliguen a volver a modificar el componente inicial. Cuando eso sucede, es difícil conseguir una versión estable del sistema, ya que hay que hacer multitud de cambios en los distintos componentes hasta que todo vuelve a funcionar.</li>
+<li>The stable dependencies Principle: todo sistema tiende a <strong>cambiar y evolucionar</strong>, pero no todos los componentes cambian con la misma frecuencia, ni es igual de fácil modificarlos. Este principio nos dice que un componente que cambia a menudo no debería depender de otro que es difícil modificar, ya que entonces será también difícil de modificar.</li>
+<li>The stable Abstractions Principle: este principio nos dice que si un <strong>componente de nuestro sistema va a cambiar poco ya que es difícil modificarlo, debe estar compuesto mayoritariamente por interfaces y clases abstractas</strong>. De esta manera el componente será fácilmente extensible, y no afectará tanto al resto de la arquitectura.</li>
+</ul>
+<h1 id="características-de-una-arquitectura-limpia">Características de una arquitectura limpia</h1>
+<p>Además de cumplir los principios anteriormente descritos, una arquitectura limpia se caracteriza por:</p>
+<ul>
+<li>Independiente de los frameworks. Los frameworks deberían <strong>ser herramientas</strong>, y no obligarnos a actuar de una determinada manera debido a sus restricciones.</li>
+<li>Testable. Debemos poder <strong>probar nuestras reglas</strong> de negocio sin pensar en base de datos, interface gráfica u otros componentes no esenciales de nuestro sistema.</li>
+<li>Independiente de la UI. Si la UI cambia a menudo esto no puede afectar al resto de nuestro sistema, que tiene que ser independiente.</li>
+<li>Independiente de la base de datos. Deberíamos poder cambiar de Oracle, a SQL Server, a MongoDB, a Casandra o a cualquier otra base de datos sin que afectara demasiado a nuestro sistema.</li>
+<li>Independiente de cualquier entidad externa. No deberíamos saber nada de entidades externas, por lo que no deberemos depender de ellas.</li>
+</ul>
+<h1 id="partes-de-una-arquitectura-limpia">Partes de una arquitectura limpia</h1>
+<h2 id="entidades">Entidades</h2>
+<p>Las entidades son las que <strong>incluyen las reglas de negocio críticas para el sistema</strong>. Estas entidades pueden ser utilizadas por distintos componentes de la arquitectura, por lo que son independientes, y no deben cambiar a consecuencia de otros elementos externos.</p>
+<p>Una entidad deberá englobar un concepto crítico para el negocio, y nosotros tendremos que separarlo lo más posible del resto de conceptos. Esa entidad recibirá los datos necesarios, y realizará operaciones sobre ellos para conseguir el objetivo deseado.</p>
+<h2 id="casos-de-uso">Casos de uso</h2>
+<p>En este caso nos encontramos con las <strong>reglas de negocio aplicables a una aplicación concreta</strong>. Estos casos de uso siguen un flujo para conseguir que las reglas definidas por las entidades se cumplan. Los casos de uso, solo definen como se comporta nuestro sistema, definiendo los datos de entrada necesarios, y cual será su salida. Los cambios en esta capa no deberían afectar a las entidades, al igual que los cambios en otras capas externas no deberían afectar a los casos de uso.</p>
+<p>Es importante que <strong>no pensemos en como los datos que genera un caso de uso serán presentados</strong> al usuario. No deberemos pensar en HTML, o en SQL. Un caso de uso recibe datos estructurados y devuelve más datos estructurados.</p>
+<h2 id="adaptadores-de-interfaz">Adaptadores de interfaz</h2>
+<p>Los datos generados por los casos de uso y las entidades, tienen que transformarse en algo entendible por la siguiente capa que los va a utilizar y de eso se encarga esta capa. Pensando en <strong>MVC</strong> por ejemplo, los controladores y las vistas, pertenecerían a esta capa, y el modelo, serían los datos que se pasan entre los casos de uso y los controladores para luego poder presentar las vistas.</p>
+<p>Lo mismo aplicaría para por ejemplo, <strong>presentar información a un servicio externo</strong>, ya que en esta capa definiríamos la manera en la que los datos de las capas internas se presenta al exterior.</p>
+<h2 id="frameworks-y-drivers">Frameworks y drivers</h2>
+<p>En la capa más externa es, como dice Bob Martin, donde van los detalles. Y la base de datos es un detalle, nuestro framework web, es un detalle etc.</p>
+<h1 id="fronteras-o-límites">Fronteras o límites</h1>
+<p>Una frontera (o como dicen los aglosajones, boundaries) es una separación que definimos en nuestra arquitectura para dividir componentes y definir dependencias. Estas fronteras tenemos que decidir dónde ponerlas, y cuándo ponerlas. Esta decisión es importante ya que puede condicionar el buen desempeño del proyecto. Una mala decisión sobre los límites puede complicar el desarrollo de nuestra aplicación o su mantenimiento futuro.</p>
+<p>Una mala decisión sobre <strong>los límites entre componentes puede complicar el desarrollo</strong> de nuestra aplicación o su mantenimiento futuro
+Por ejemplo, podemos sentirnos tentados de pensar que las reglas de negocio deben poder guardar información directamente en la base de datos. Como ya hemos visto antes, la base de datos es un detalle, así que esto deberíamos evitarlo. En ese punto deberíamos trazar una frontera. Nuestras reglas de negocio, se comunicarían siempre con una interface, sin saber nada sobre la base de datos. La base de datos en cambio, si sabrá cosas sobre las reglas de negocio, ya que tiene que transformar los datos en sentencias SQL que puedan almacenar la información.</p>
+<p>Otra ventaja adicional de este enfoque, es que podemos retrasar ciertas decisiones. Podemos empezar a desarrollar todas nuestras reglas de negocio, sin tener en cuenta su persistencia, ya que esa parte se realiza a través de una interface. Primero podemos utilizar objetos en memoria, y según avancemos, ir añadiendo sistemas más sofisticados. Al final podremos elegir entre usar una base de datos relacional, NoSQL, o incluso guardar la información en archivos.</p>
+<p>En definitiva, debemos pensar en nuestro sistema, como un sistema de plugins, de forma que los componentes estén aislados y podamos sustituir unos por otros sin demasiados problemas.</p>
+<h1 id="las-fronteras-de-una-arquitectura-limpia">Las fronteras de una arquitectura limpia</h1>
+<p>En el esquema de arquitectura limpia que hemos visto anteriormente, podemos ver dónde se han trazado las fronteras o límites. Entre entidades y casos de uso, hay una frontera. Lo mismo con los adaptadores de interface, o los frameworks y drivers. Las fronteras son importantes, porque añadirlas cuando no las necesitamos pude crearnos muchos problemas, pero no añadirlas cuando las necesitamos pude generar otros tantos (añadirlas después, es siempre es mucho más costoso).</p>
+<p>La <strong>separación en fronteras es importante</strong>, pero mucho más importante es la gestión que hagamos de las dependencias entre estas capas. Para ello siempre hay que seguir la regla de las dependencias.</p>
+<h2 id="la-regla-de-las-dependencias">La regla de las dependencias</h2>
+<p>Esta regla es muy importante, ya que sin ella, nuestra arquitectura no sería más que un bonito diagrama. <strong>Las capas interiores de una arquitectura limpia, no deben saber nada de las capas exteriores</strong>. Por ejemplo la capa de entidades, no puede saber de la existencia de los casos de uso, y los casos de uso no deben saber nada de la existencia de los adaptadores de interface. Así las dependencias están controladas y van siempre en un solo sentido.</p>
+<h2 id="estructuras-de-datos-simples">Estructuras de datos simples</h2>
+<p>A la hora de traspasar una frontera, deberemos utilizar estructuras de datos simples, evitando utilizar conceptos como DatabaseRows o similares. Pensando en los casos de uso, estos deben recibir estructuras de datos como datos de entradas, y deben devolver estructuras de datos como salida. Como decía antes, no nos interesa que un caso de uso tenga conocimientos sobre HTML o SQL. Lo contrario nos lleva a una falta de independencia, con todo lo que eso conlleva (despliegue, actualización, tests etc.)</p>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

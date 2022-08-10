@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Guardando datos - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Guardando datos" />
+<meta property="og:description" content="Supongamos que estás haciendo un juego &ldquo;completo&rdquo;. Quieres una pantalla de título y todo. Su usuario puede seleccionar el número de jugadores o una configuración de dificultad, etc., y luego &hellip; ¿cómo pasa la información a la siguiente escena? O, lo que es más importante (y algo truculento) ¿cómo se puede guardar una sesión de juego y volver a cargarla más tarde? mostraré algunas de las opciones que me gustan." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/009/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-24T17:42:37+02:00" />
+<meta property="article:modified_time" content="2018-08-24T17:42:37+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Guardando datos"/>
+<meta name="twitter:description" content="Supongamos que estás haciendo un juego &ldquo;completo&rdquo;. Quieres una pantalla de título y todo. Su usuario puede seleccionar el número de jugadores o una configuración de dificultad, etc., y luego &hellip; ¿cómo pasa la información a la siguiente escena? O, lo que es más importante (y algo truculento) ¿cómo se puede guardar una sesión de juego y volver a cargarla más tarde? mostraré algunas de las opciones que me gustan."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/009/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/008/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/010/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Guardando datos",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/009\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  3355 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/009\/","datePublished": "2018-08-24T17:42:37+02:00","dateModified": "2018-08-24T17:42:37+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Guardando datos</h1><div class="content" id="content"><p>Supongamos que estás haciendo un juego &ldquo;completo&rdquo;. Quieres una pantalla de título y todo. Su usuario puede seleccionar el número de jugadores o una configuración de dificultad, etc., y luego &hellip; ¿cómo pasa la información a la siguiente escena? O, lo que es más importante (y algo truculento) ¿cómo se puede guardar una sesión de juego y volver a cargarla más tarde? mostraré algunas de las opciones que me gustan.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h1 id="persistencia-estática">Persistencia estática</h1>
+<p>Para persistir los datos de una escena a otra puede ser tan simple como guardar datos en una variable estática. Para demostrarlo, necesitaremos un poco de configuración. Crea dos escenas, una llamada &ldquo;Título&rdquo; y otra llamada &ldquo;Juego&rdquo;. En la barra de menú, seleccione &ldquo;File-&gt; Build Settings&rdquo; y en el cuadro de diálogo deberá usar el botón &ldquo;Agregar actual&rdquo; o arrastrar y soltar ambas escenas desde el panel Proyecto a la lista &ldquo;Escenas en compilación&rdquo;.</p>
+<p>La siguiente clase de Data Manager es una clase estática con una variable estática, por lo que no necesita ser agregada a su escena, simplemente &ldquo;funcionará&rdquo; automáticamente. Utilizo algo llamado &ldquo;enumeración&rdquo; de la que no he hablado antes. Por ahora, puede pensar en una enumeración como un entero (porque puede ser emitida desde o hacia un número entero, aunque en realidad es su propio &ldquo;tipo&rdquo;) donde cada entrada se nombra para hacer que su código sea más legible. &ldquo;Fácil&rdquo; es como el valor entero de &lsquo;0&rsquo; y cuenta desde allí.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">enum</span> <span class="n">Difficulties</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Easy</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Medium</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Hard</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Count</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">DataManager</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">static</span> <span class="n">Difficulties</span> <span class="n">difficulty</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Agregue el siguiente script &ldquo;TitleController&rdquo; como un componente a la cámara en la escena &ldquo;Título&rdquo;. Este script es muy simple: utilicé la GUI heredada para reducir aún más el tiempo de configuración. Todo lo que hace este script es mostrar botones para cada opción de dificultad, y uno para comenzar a jugar el juego. Cada vez que selecciona uno de los botones, una configuración de dificultad se establece en una variable estática en la clase DataManager.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine.SceneManagement</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">TitleController</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnGUI</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">int</span> <span class="n">yPos</span> <span class="p">=</span> <span class="m">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">GUI</span><span class="p">.</span><span class="n">Label</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="n">yPos</span><span class="p">,</span> <span class="m">200</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Elegir dificultad&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">Difficulties</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">yPos</span> <span class="p">+=</span> <span class="m">40</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Difficulties</span> <span class="n">type</span> <span class="p">=</span> <span class="p">(</span><span class="n">Difficulties</span><span class="p">)</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="k">if</span> <span class="p">(</span><span class="n">DataManager</span><span class="p">.</span><span class="n">difficulty</span> <span class="p">==</span> <span class="n">type</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">					<span class="n">GUI</span><span class="p">.</span><span class="n">Label</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="n">yPos</span><span class="p">,</span> <span class="m">200</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="n">type</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">				<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="n">yPos</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="n">type</span><span class="p">.</span><span class="n">ToString</span><span class="p">()))</span>
+</span></span><span class="line"><span class="cl">					<span class="n">DataManager</span><span class="p">.</span><span class="n">difficulty</span> <span class="p">=</span> <span class="n">type</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="n">yPos</span> <span class="p">+=</span> <span class="m">40</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="n">yPos</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Play&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">SceneManager</span><span class="p">.</span><span class="n">LoadScene</span><span class="p">(</span><span class="s">&#34;Juego&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Agregue el siguiente script &ldquo;GameController&rdquo; como un componente, a la cámara en la escena &ldquo;Juego&rdquo;. Este script también es muy simple. Esta vez todo lo que hago es mostrar qué dificultad se ha seleccionado en la escena de Título y proporcionar una opción para Salir de nuevo a esa escena.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine.SceneManagement</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">GameController</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnGUI</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">GUI</span><span class="p">.</span><span class="n">Label</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">200</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="n">DataManager</span><span class="p">.</span><span class="n">difficulty</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">50</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Salir&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">SceneManager</span><span class="p">.</span><span class="n">LoadScene</span><span class="p">(</span><span class="s">&#34;Titulo&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Con la escena de título abierta, presione Reproducir y observe que la selección que hace en la primera pantalla se guarda y aún está disponible en la siguiente escena. Esto funciona porque las variables estáticas nunca saldrán del alcance mientras el programa se esté ejecutando.</p>
+<h1 id="patrón-singleton">Patrón Singleton</h1>
+<p>Aunque una clase estática funcionó bien para la muestra anterior, no ofrece tantas opciones arquitectónicas como lo haría un objeto (a saber, herencia y polimorfismo). Un singleton es una variación ligeramente diferente, donde por diseño solo se desea que exista una sola instancia de una clase, pero se puede tener más control sobre la creación y la vida útil del objeto, se pueden usar subclases, etc.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">DataManagerSingleton</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">static</span> <span class="k">readonly</span> <span class="n">DataManagerSingleton</span> <span class="n">instance</span> <span class="p">=</span> <span class="k">new</span> <span class="n">DataManagerSingleton</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="k">private</span> <span class="n">DataManagerSingleton</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Difficulties</span> <span class="n">difficulty</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Aquí he modificado la clase DataManagerSingleton para que ya no sea estática. Creo una instancia estática de solo lectura de la clase (para que ninguna otra clase pueda destruirla o reasignarla) y hacer que el constructor sea privado (para que ninguna otra clase pueda instanciar otro objeto). Esto obliga al patrón singleton a ser utilizado como yo pretendía.</p>
+<p>Ahora, la lectura y escritura de la configuración de dificultad debe enrrutarse a través de la instancia singleton. La siguiente línea muestra un ejemplo de cómo escribir el valor:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">DataManagerSingleton</span><span class="p">.</span><span class="n">instance</span><span class="p">.</span><span class="n">difficulty</span> <span class="p">=</span> <span class="n">type</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<h1 id="unity-singleton">Unity &ldquo;Singleton&rdquo;</h1>
+<p>A veces puede ser conveniente utilizar una clase basada en MonoBehaviour para su persistencia (en caso de que desee aprovechar Coroutines, etc.) En ese caso, puede hacer que GameObjects &ldquo;sobrevivan&rdquo; a un cambio de escena utilizando el método &ldquo;DontDestroyOnLoad&rdquo;. Tenga en cuenta que esta es también una forma útil de hacer que la música se reproduzca entre los cambios de escena.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">DataManagerUnitySingleton</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">static</span> <span class="n">DataManagerUnitySingleton</span> <span class="n">instance</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">get</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">if</span> <span class="p">(</span><span class="n">_instance</span> <span class="p">==</span> <span class="k">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="n">GameObject</span> <span class="n">obj</span> <span class="p">=</span> <span class="k">new</span> <span class="n">GameObject</span><span class="p">(</span><span class="s">&#34;Data Manager Unity Singleton&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">					<span class="n">_instance</span> <span class="p">=</span> <span class="n">obj</span><span class="p">.</span><span class="n">AddComponent</span><span class="p">&lt;</span><span class="n">DataManagerUnitySingleton</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">					<span class="n">DontDestroyOnLoad</span><span class="p">(</span><span class="n">obj</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="p">}</span>
+</span></span><span class="line"><span class="cl">				<span class="k">return</span> <span class="n">_instance</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">static</span> <span class="n">DataManagerUnitySingleton</span> <span class="n">_instance</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Difficulties</span> <span class="n">difficulty</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Esta versión del DataManagerUnitySingleton hereda de MonoBehaviour. El &ldquo;Singleton&rdquo; es creado por algo llamado &ldquo;Lazy Loading&rdquo; lo que significa que tan pronto como un script llame a la propiedad &ldquo;instance&rdquo;, la clase verá su &ldquo;getter&rdquo; y determinará si ha creado uno. De lo contrario, creará un nuevo GameObject, asignará el componente correcto y se asegurará de que GameObject esté marcado correctamente para que no se destruya al cambiar de escena.</p>
+<p>Esta versión no es tan &ldquo;segura&rdquo; como la versión anterior, porque hay formas en que otros scripts pueden hacer que se destruya el GameObject de su script, y aunque su script &ldquo;sobreviva&rdquo; debido a la referencia estática, la comparación con null aún devuelve verdadero porque Unity anula el operador (para tener en cuenta el GameObject), por lo tanto, se crearía otro GameObject/Singleton.</p>
+<p>Además, nada impide que otro script agregue copias adicionales de este componente a otros GameObjects, aunque como no proporcioné ningún setter, solo se reconocerá un componente a la vez como instancia principal.</p>
+<p>Si quereis ver una muestra de un Singleton para Unity común, <i class="fa-brands fa-git" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2NglfuU" target="_blank" rel="noopener noreffer ">aquí</a>.</p>
+<script type="application/javascript" src="https://gist.github.com/MoonAntonio/b75f9febb08584cfd64dd46d8004fb78.js"></script>
+
+<h1 id="player-prefs">Player Prefs</h1>
+<p>Todos los ejemplos hasta ahora son buenas maneras de tomar datos de una escena a otra, sin embargo, ninguno de ellos puede conservar datos en varias sesiones de juego. Para realizar esta tarea, debe guardar los datos en &ldquo;disco&rdquo; de una forma u otra. Unity proporciona una solución conveniente sin necesidad de comprender cómo crear, leer y escribir en archivos. Esta solución se llama PlayerPrefs - <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2PB3Mz1" target="_blank" rel="noopener noreffer ">vea la documentación aquí</a>.</p>
+<p>Puedes pensar en PlayerPrefs como un diccionario que solo sabe cómo trabajar con una &ldquo;cadena&rdquo; para la clave y un &ldquo;int&rdquo;, &ldquo;float&rdquo; o &ldquo;string&rdquo; para el valor. A diferencia de un diccionario genérico, puede mezclar y combinar cualquier combinación de esos valores.</p>
+<p>Aquí hay algunos casos de uso:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">PlayerPrefsExample</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">private</span> <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// Almacenar un valor entero</span>
+</span></span><span class="line"><span class="cl">			<span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">SetInt</span><span class="p">(</span><span class="s">&#34;Difficulty&#34;</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// Recupere un valor entero (si existe, o use un valor predeterminado de &#39;0&#39; de lo contrario)</span>
+</span></span><span class="line"><span class="cl">			<span class="n">DataManagerUnitySingleton</span><span class="p">.</span><span class="n">instance</span><span class="p">.</span><span class="n">difficulty</span> <span class="p">=</span> <span class="p">(</span><span class="n">Difficulties</span><span class="p">)</span><span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">GetInt</span><span class="p">(</span><span class="s">&#34;Difficulty&#34;</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h1 id="serializacion">Serializacion</h1>
+<p>Mencioné la serialización desde el principio: Unity utiliza la serialización para almacenar los valores de sus componentes mientras está en el editor. Desafortunadamente, muchas de las opciones convenientes que te gustaría utilizar, como un Serializador Binario o XML, requerirían que puedas usar un Constructor, no una opción con MonoBehaviour. Además, la jerarquía de objetos, las referencias a objetos y el deseo de persistir en los valores de los componentes nativos de Unity complican enormemente este proceso.</p>
+<p>El método que prefiero es la serialización manual en cadenas JSON. Aunque requiere un poco más de configuración que algunas de las otras rutas, creo que tengo muchas más opciones y mantengo un control total sobre el proceso. Tampoco tengo que preocuparme por &ldquo;versionar&rdquo; mis datos. Puedo eliminar datos, agregar datos, cambiar tipos de datos, etc. y no hará que el serializador se bloquee, porque puedo controlar el proceso de qué y cómo persisto los datos. Por ejemplo, puedo verificar la presencia de claves y tratar de enviar tipos de datos donde sea necesario. Además, como estoy serializando una cadena JSON, puedo fácilmente persistir el resultado en PlayerPrefs, enviarlo a un servidor o escribirlo en un archivo local como lo desee.</p>
+<p>Decidí no volver a inventar la rueda esta vez, y usé un script público para la serialización JSON. Tome una copia <i class="fa-brands fa-git" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2BFLpFW" target="_blank" rel="noopener noreffer ">aquí</a>, y agréguelo a su proyecto.</p>
+<p>Crea una nueva escena llamada &ldquo;Demo&rdquo;. Crea un Cubo (desde la barra de menú elige &ldquo;GameObject-&gt; Objet 3D-&gt; Cube&rdquo;) y luego crea y adjunta el siguiente script &ldquo;Monster&rdquo; (¿porque no es más divertido trabajar con monstruos?)</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">Monster</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="kt">int</span> <span class="n">HP</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">virtual</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">Save</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;HP&#34;</span><span class="p">,</span> <span class="n">HP</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;X&#34;</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">.</span><span class="n">x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Y&#34;</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">.</span><span class="n">y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Z&#34;</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Prefab&#34;</span><span class="p">,</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="n">data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">virtual</span> <span class="k">void</span> <span class="n">Load</span><span class="p">(</span><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">HP</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToInt32</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;HP&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">x</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToSingle</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;X&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">y</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToSingle</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Y&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">z</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToSingle</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Z&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este script tiene un solo campo para &ldquo;HP&rdquo; - puntos de golpe. En realidad, no hace nada, pero quiero mostrar que podremos guardar tanto una variable local como valores del componente de transformación. Los métodos de Guardar y Cargar sirven (con suerte). Envuelven los datos del objeto en un diccionario genérico que el script MiniJSON sabe cómo serializar en una cadena JSON.</p>
+<p>Cree y adjunte la siguiente secuencia de comandos a la cámara y luego conecte el cubo como referencia para el campo de monstruos:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">Monster</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="kt">int</span> <span class="n">HP</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">virtual</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">Save</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;HP&#34;</span><span class="p">,</span> <span class="n">HP</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;X&#34;</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">.</span><span class="n">x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Y&#34;</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">.</span><span class="n">y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Z&#34;</span><span class="p">,</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Prefab&#34;</span><span class="p">,</span> <span class="n">gameObject</span><span class="p">.</span><span class="n">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="n">data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">virtual</span> <span class="k">void</span> <span class="n">Load</span><span class="p">(</span><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">HP</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToInt32</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;HP&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">x</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToSingle</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;X&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">y</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToSingle</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Y&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">z</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToSingle</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Z&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este script usa la GUI antigua como antes, para mover el monstruo, guardar sus datos o Cargar sus datos. Utilizo el script MiniJSON que descargué para la serialización, y luego guardo el resultado en PlayerPrefs para mayor persistencia.</p>
+<p>Ejecuta la escena. Haga clic en Random. En algún momento, haga clic en Guardar y luego click en random algunas veces más. Ahora haz clic en Cargar y ve que el monstruo regresa a la ubicación en la que estaba cuando pulsastes Guardar. Detener la escena y luego ejecutarla de nuevo. ¡El monstruo aún debería estar en el lugar donde lo guardaste!</p>
+<p>Aunque técnicamente sabes todo lo que necesitas en este momento, algunos problemas más pueden no ser obvios. Por ejemplo, ¿qué sucede si tiene una lista de objetos que desea guardar? ¿Necesitas crear un nuevo jugador pref para cada uno? ¿Qué pasa si quieres usar el polimorfismo o crear objetos dinámicamente y persistir? Estos son requisitos arquitectónicos muy normales, así que vamos a manejarlos a continuación.</p>
+<p>Para nuestro primer paso, necesitaremos modificar el script de Monster para que los métodos de Guardar y Cargar estén marcados como &ldquo;virtuales&rdquo;. De esta forma, no es necesario volver a escribir completamente el código de persistencia en cada subclase; en su lugar, solo tenemos que override el método base y anexar los datos nuevos que proporcione la clase secundaria.</p>
+<p>Decidí crear tres subclases de Monster: &ldquo;BlueMonster&rdquo;, &ldquo;RedMonster&rdquo; y &ldquo;GreenMonster&rdquo;. Lo sé, nombres de clase muy imaginativos ¿no? El monstruo azul se ve a continuación:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">BlueMonster</span> <span class="p">:</span> <span class="n">Monster</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="kt">int</span> <span class="n">water</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">water</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">override</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">Save</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span> <span class="p">=</span> <span class="k">base</span><span class="p">.</span><span class="n">Save</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">data</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&#34;Water&#34;</span><span class="p">,</span> <span class="n">water</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="n">data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="n">Load</span><span class="p">(</span><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">base</span><span class="p">.</span><span class="n">Load</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">water</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToInt32</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Water&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Los monstruos rojos y verdes tienen implementaciones idénticas, excepto que el nombré a la variable local es &ldquo;fire&rdquo; y &ldquo;earth&rdquo; en vez de water, respectivamente. El objetivo aquí es ilustrar que no se puede usar la misma serialización en los tres porque tienen conjuntos de datos &ldquo;diferentes&rdquo;. Sin embargo, debido a que comparten una clase base común, puedo tratarlos de todos modos y ser capaz de guardarlos y cargarlos sin preocuparse por sus diferencias.</p>
+<p>Para ayudar a enfatizar las diferencias entre nuestros monstruos, crea tres prefabricados diferentes en tu proyecto, uno para cada monstruo. Puede hacer una con una esfera y otra con un cubo, pero como mínimo colorearlas todas según su nombre para ayudar a demostrar que hay una diferencia. Asegúrese y asigne el script de subclase específico para cada tipo de monstruo y no la versión de clase base de sí mismo.</p>
+<p>Ahora tenemos que modificar la secuencia de comandos Demo para nuestra nueva funcionalidad:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">MiniJSON</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">DemoControllerSerializacion</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">		[SerializeField]</span> <span class="n">GameObject</span><span class="p">[]</span> <span class="n">prefabs</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">GameObject</span><span class="p">&gt;</span> <span class="n">mapping</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">GameObject</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">		<span class="n">List</span><span class="p">&lt;</span><span class="n">Monster</span><span class="p">&gt;</span> <span class="n">monsters</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Monster</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">prefabs</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">mapping</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">prefabs</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">name</span><span class="p">,</span> <span class="n">prefabs</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Load</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnGUI</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Agregar&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">AddRandom</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">50</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Guardar&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Save</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">90</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Cargar&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Load</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Randomize</span><span class="p">(</span><span class="n">Monster</span> <span class="n">monster</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monster</span><span class="p">.</span><span class="n">HP</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">x</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">10f</span><span class="p">,</span> <span class="m">10f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">y</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">10f</span><span class="p">,</span> <span class="m">10f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">z</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">10f</span><span class="p">,</span> <span class="m">10f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monster</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">AddRandom</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">GameObject</span> <span class="n">prefab</span> <span class="p">=</span> <span class="n">prefabs</span><span class="p">[</span><span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">prefabs</span><span class="p">.</span><span class="n">Length</span><span class="p">)];</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Monster</span> <span class="n">monster</span> <span class="p">=</span> <span class="n">Add</span><span class="p">(</span><span class="n">prefab</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Randomize</span><span class="p">(</span><span class="n">monster</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">Monster</span> <span class="n">Add</span><span class="p">(</span><span class="n">GameObject</span> <span class="n">prefab</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">GameObject</span> <span class="n">instance</span> <span class="p">=</span> <span class="n">Instantiate</span><span class="p">(</span><span class="n">prefab</span><span class="p">)</span> <span class="k">as</span> <span class="n">GameObject</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Monster</span> <span class="n">monster</span> <span class="p">=</span> <span class="n">instance</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Monster</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monster</span><span class="p">.</span><span class="n">name</span> <span class="p">=</span> <span class="n">prefab</span><span class="p">.</span><span class="n">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monsters</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">monster</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="n">monster</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Save</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">var</span> <span class="n">monsterData</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;&gt;(</span><span class="n">monsters</span><span class="p">.</span><span class="n">Count</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">monsters</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">monsterData</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">monsters</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Save</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="kt">string</span> <span class="n">json</span> <span class="p">=</span> <span class="n">Json</span><span class="p">.</span><span class="n">Serialize</span><span class="p">(</span><span class="n">monsterData</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">json</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">SetString</span><span class="p">(</span><span class="s">&#34;Monsters&#34;</span><span class="p">,</span> <span class="n">json</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Load</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Clear</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">string</span> <span class="n">json</span> <span class="p">=</span> <span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="s">&#34;Monsters&#34;</span><span class="p">,</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">json</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="kt">var</span> <span class="n">monsterData</span> <span class="p">=</span> <span class="n">Json</span><span class="p">.</span><span class="n">Deserialize</span><span class="p">(</span><span class="n">json</span><span class="p">)</span> <span class="k">as</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">object</span><span class="p">&gt;;</span>
+</span></span><span class="line"><span class="cl">				<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">monsterData</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span> <span class="p">=</span> <span class="n">monsterData</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">as</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;;</span>
+</span></span><span class="line"><span class="cl">					<span class="kt">string</span> <span class="n">prefab</span> <span class="p">=</span> <span class="p">(</span><span class="kt">string</span><span class="p">)(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Prefab&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">					<span class="n">Monster</span> <span class="n">monster</span> <span class="p">=</span> <span class="n">Add</span><span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="n">prefab</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">					<span class="n">monster</span><span class="p">.</span><span class="n">Load</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Clear</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="n">monsters</span><span class="p">.</span><span class="n">Count</span> <span class="p">-</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="p">&gt;=</span> <span class="m">0</span><span class="p">;</span> <span class="p">--</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Destroy</span><span class="p">(</span><span class="n">monsters</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">gameObject</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monsters</span><span class="p">.</span><span class="n">Clear</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En esta versión, ya no necesito la referencia al único objeto Monster. Dado que estamos creando dinámicamente desde una variedad de tipos de monstruos, necesito referencias a los prefabricados que podemos crear una instancia (línea 8). Estos podrían haberse obtenido a través de Resources.Load, pero esta versión es aceptable por ahora. No te olvides de asignarlos en el editor.</p>
+<p>A continuación, creé un diccionario para mapear desde un nombre prefabricado al propio prefabricado (línea 9): esa configuración se produce en el método de inicio (líneas 14-15). Este paso puede parecer un poco redundante, pero encuentro que el código es un poco más legible (sin mencionar más eficiente) que el código que necesita buscar una coincidencia en el array (muchas comparaciones de cadenas = LENTO).</p>
+<p>Solo modifiqué ligeramente el código OnGUI. Reemplacé el botón que movía el monstruo original, con un botón para crear nuevos monstruos dinámicos que ya se moverán.</p>
+<p>El método &ldquo;Randomize&rdquo; ahora requiere que se le pase un parámetro de Monster, ya que queremos poder mover cualquiera de nuestros monstruos con el mismo código.</p>
+<p>El método &ldquo;AddRandom&rdquo; es nuevo y elige uno de los prefabricados al azar para crear. Luego se asegura de que el monstruo recién creado se aleatorice con el método mencionado anteriormente.</p>
+<p>El método &ldquo;Add&rdquo; toma un prefabricado como parámetro, desde el cual instanciará un nuevo monstruo. El script de monstruo almacena una referencia al nombre del prefab que se utilizó, por lo que podemos usar el mismo prefab de nuevo más tarde cuando necesitamos persistir realmente en el objeto. Después de instanciar el monstruo, obtenemos una referencia al script de monstruo (tenga en cuenta que GetComponent funcionará porque nuestras versiones de Subclass de Monster todavía son componentes de Monster) y agrega el componente a una lista para que podamos seguir y administrar todo lo que tenemos creado.</p>
+<p>El método &ldquo;Save&rdquo; es similar a la versión anterior, pero ahora estamos creando una lista de objetos de diccionario, en lugar de un solo diccionario. Nuestro serializador JSON puede serializar todo el conjunto como una cadena, por lo que podemos pegarlo fácilmente en un PlayerPref como lo hicimos antes. Tenga en cuenta que utilicé una clave pluralizada esta vez para mayor claridad.</p>
+<p>El método &ldquo;Load&rdquo; cambió un poco más, pero no está mal. Primero destruyo cualquier monstruo existente antes de crear uno nuevo de acuerdo con los datos de Guardar. Tenga en cuenta que esto es más fácil que un sistema Queue, pero una cola de objetos reutilizables es más ideal en el código de producción. La otra gran diferencia (además de trabajar con una lista de diccionarios) es que obtengo una referencia al nombre prefabricado dentro de cada entrada y crea una instancia de un nuevo objeto en consecuencia. Luego cargo los datos correspondientes en el objeto engendrado. Esto es importante porque un Monstruo Rojo no se cargaría correctamente si se pasara los datos de un Monstruo Azul y viceversa.</p>
+<p>Siéntete libre de correr la escena y probarlo todo. Agregue un montón de monstruos, guarde los datos (tenga en cuenta que también registro una versión de la salida JSON en la consola en caso de que quiera inspeccionarlo) y luego intente detener e iniciar una nueva sesión. ¡Todos tus monstruos dinámicamente creados vuelven a cargar bien!</p>
+<h1 id="archivos">Archivos</h1>
+<p>Si está guardando muchos datos, o si tiene sentido dividirlos en trozos más pequeños que se pueden cargar en diferentes momentos, entonces puede tener sentido escribir en archivos en lugar de poner demasiado en PlayerPrefs.</p>
+<p>También usaremos el espacio de nombres System.IO.</p>
+<p>Usando el mismo ejemplo anterior, puede modificar solo los métodos Guardar y Cargar de la siguiente manera:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">MiniJSON</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.IO</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">Archivo</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">		[SerializeField]</span> <span class="n">GameObject</span><span class="p">[]</span> <span class="n">prefabs</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">GameObject</span><span class="p">&gt;</span> <span class="n">mapping</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">GameObject</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">		<span class="n">List</span><span class="p">&lt;</span><span class="n">Monster</span><span class="p">&gt;</span> <span class="n">monsters</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Monster</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">prefabs</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">mapping</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">prefabs</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">name</span><span class="p">,</span> <span class="n">prefabs</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Load</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnGUI</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Agregar&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">AddRandom</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">50</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Guardar&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Save</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">GUI</span><span class="p">.</span><span class="n">Button</span><span class="p">(</span><span class="k">new</span> <span class="n">Rect</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">90</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">30</span><span class="p">),</span> <span class="s">&#34;Cargar&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Load</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Randomize</span><span class="p">(</span><span class="n">Monster</span> <span class="n">monster</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monster</span><span class="p">.</span><span class="n">HP</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">100</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">x</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">10f</span><span class="p">,</span> <span class="m">10f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">y</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">10f</span><span class="p">,</span> <span class="m">10f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">float</span> <span class="n">z</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">10f</span><span class="p">,</span> <span class="m">10f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monster</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">AddRandom</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">GameObject</span> <span class="n">prefab</span> <span class="p">=</span> <span class="n">prefabs</span><span class="p">[</span><span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">prefabs</span><span class="p">.</span><span class="n">Length</span><span class="p">)];</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Monster</span> <span class="n">monster</span> <span class="p">=</span> <span class="n">Add</span><span class="p">(</span><span class="n">prefab</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Randomize</span><span class="p">(</span><span class="n">monster</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">Monster</span> <span class="n">Add</span><span class="p">(</span><span class="n">GameObject</span> <span class="n">prefab</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">GameObject</span> <span class="n">instance</span> <span class="p">=</span> <span class="n">Instantiate</span><span class="p">(</span><span class="n">prefab</span><span class="p">)</span> <span class="k">as</span> <span class="n">GameObject</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Monster</span> <span class="n">monster</span> <span class="p">=</span> <span class="n">instance</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Monster</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monster</span><span class="p">.</span><span class="n">name</span> <span class="p">=</span> <span class="n">prefab</span><span class="p">.</span><span class="n">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monsters</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">monster</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="n">monster</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Save</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">var</span> <span class="n">monsterData</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;&gt;(</span><span class="n">monsters</span><span class="p">.</span><span class="n">Count</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">monsters</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">monsterData</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">monsters</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Save</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="kt">string</span> <span class="n">json</span> <span class="p">=</span> <span class="n">Json</span><span class="p">.</span><span class="n">Serialize</span><span class="p">(</span><span class="n">monsterData</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">string</span> <span class="n">filePath</span> <span class="p">=</span> <span class="n">Application</span><span class="p">.</span><span class="n">persistentDataPath</span> <span class="p">+</span> <span class="s">&#34;/Monsters.txt&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">File</span><span class="p">.</span><span class="n">WriteAllText</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span> <span class="n">json</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Load</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Clear</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">string</span> <span class="n">filePath</span> <span class="p">=</span> <span class="n">Application</span><span class="p">.</span><span class="n">persistentDataPath</span> <span class="p">+</span> <span class="s">&#34;/Monsters.txt&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">File</span><span class="p">.</span><span class="n">Exists</span><span class="p">(</span><span class="n">filePath</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="kt">string</span> <span class="n">json</span> <span class="p">=</span> <span class="n">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="p">(</span><span class="n">filePath</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="kt">var</span> <span class="n">monsterData</span> <span class="p">=</span> <span class="n">Json</span><span class="p">.</span><span class="n">Deserialize</span><span class="p">(</span><span class="n">json</span><span class="p">)</span> <span class="k">as</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">object</span><span class="p">&gt;;</span>
+</span></span><span class="line"><span class="cl">				<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">monsterData</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;</span> <span class="n">data</span> <span class="p">=</span> <span class="n">monsterData</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">as</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">object</span><span class="p">&gt;;</span>
+</span></span><span class="line"><span class="cl">					<span class="kt">string</span> <span class="n">prefab</span> <span class="p">=</span> <span class="p">(</span><span class="kt">string</span><span class="p">)(</span><span class="n">data</span><span class="p">[</span><span class="s">&#34;Prefab&#34;</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">					<span class="n">Monster</span> <span class="n">monster</span> <span class="p">=</span> <span class="n">Add</span><span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="n">prefab</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">					<span class="n">monster</span><span class="p">.</span><span class="n">Load</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Clear</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="n">monsters</span><span class="p">.</span><span class="n">Count</span> <span class="p">-</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="p">&gt;=</span> <span class="m">0</span><span class="p">;</span> <span class="p">--</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Destroy</span><span class="p">(</span><span class="n">monsters</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">gameObject</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">monsters</span><span class="p">.</span><span class="n">Clear</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/10.gif" title="/img/codebackdoor/learncsharpunity/10.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/10.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/10.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/10.gif, /img/codebackdoor/learncsharpunity/10.gif 1.5x, /img/codebackdoor/learncsharpunity/10.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/10.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección cubrimos algunos métodos de persistencia de datos. Primero cubrimos la persistencia temporal a través de clases estáticas, el patrón de diseño de Singleton y Unity GameObjects que puede sobrevivir a los cambios de escena. Luego exploramos cómo pueden persistir los datos incluso en múltiples sesiones de juego a través de PlayerPrefs, serialización JSON y escritura de datos en archivos. Incluso conseguimos un poco de fantasía al insistir en una lista de objetos polimórficos creados dinámicamente.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3db6ZFv" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Enums y Flags
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

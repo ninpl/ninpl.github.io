@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Corrutinas - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Corrutinas" />
+<meta property="og:description" content="Una corrutina es una forma especial de hacer que la lógica suceda con el tiempo. Debo admitir que nunca usé corrutinas hasta Unity, había estado usando programación basada en eventos en cualquier otro escenario comparable. Sin embargo, corrutinas son una alternativa rápida y fácil que definitivamente vale la pena ver. En esta lección, mostraré cómo funciona Unity con corrutinas, incluidas varias formas de ceder el control e incluso vincular corrutinas para tener un control total sobre la lógica basada en el tiempo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/007/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-24T02:48:35+02:00" />
+<meta property="article:modified_time" content="2018-08-24T02:48:35+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Corrutinas"/>
+<meta name="twitter:description" content="Una corrutina es una forma especial de hacer que la lógica suceda con el tiempo. Debo admitir que nunca usé corrutinas hasta Unity, había estado usando programación basada en eventos en cualquier otro escenario comparable. Sin embargo, corrutinas son una alternativa rápida y fácil que definitivamente vale la pena ver. En esta lección, mostraré cómo funciona Unity con corrutinas, incluidas varias formas de ceder el control e incluso vincular corrutinas para tener un control total sobre la lógica basada en el tiempo."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/007/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/006/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/008/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Corrutinas",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/007\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  1640 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/007\/","datePublished": "2018-08-24T02:48:35+02:00","dateModified": "2018-08-24T02:48:35+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Corrutinas</h1><div class="content" id="content"><p>Una corrutina es una forma especial de hacer que la lógica suceda con el tiempo. Debo admitir que nunca usé corrutinas hasta Unity, había estado usando programación basada en eventos en cualquier otro escenario comparable. Sin embargo, corrutinas son una alternativa rápida y fácil que definitivamente vale la pena ver. En esta lección, mostraré cómo funciona Unity con corrutinas, incluidas varias formas de ceder el control e incluso vincular corrutinas para tener un control total sobre la lógica basada en el tiempo. Al final, también mostraré cómo trabajar con corrutinas de forma nativa para cualquiera que tenga curiosidad sobre cómo funcionan.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h1 id="corrutinas-de-unity">Corrutinas de Unity</h1>
+<p>Una corrutina es realmente solo un método con un tipo de devolución de &ldquo;IEnumerator&rdquo;. Una diferencia clave es que no simplemente &ldquo;devuelve&rdquo; el tipo de datos como lo haría en un método normal. En cambio, &ldquo;cede&rdquo; un valor que hace que la ejecución de la lógica se detenga en su lugar; puede reanudarse más tarde. Echemos un vistazo a una muestra rápida:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">UnityCorrutinas</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnEnable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">StartCoroutine</span><span class="p">(</span><span class="s">&#34;DoStuff&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnDisable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">StopCoroutine</span><span class="p">(</span><span class="s">&#34;DoStuff&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">DoStuff</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">int</span> <span class="k">value</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="k">while</span> <span class="p">(</span><span class="k">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">yield</span> <span class="k">return</span> <span class="k">new</span> <span class="n">WaitForSeconds</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="k">value</span><span class="p">++;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Valor:&#34;</span> <span class="p">+</span> <span class="k">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Tenga en cuenta que debemos asegurarnos de que se utiliza el espacio de nombres &ldquo;System.Collections&rdquo;, o se obtendrá un error: &ldquo;No se pudo encontrar el tipo o el nombre del espacio de nombres &lsquo;IEnumerator&rsquo;. ¿Echas de menos una directiva de uso o una referencia de ensamblado?</p>
+<p>Para usar una corrutina con Unity, usa un método llamado &ldquo;StartCoroutine&rdquo;. Hacemos esto dentro del método OnEnable (línea 8). StartCoroutine está sobrecargado para permitirle pasar un &ldquo;IEnumerator&rdquo; o una cadena que representa el nombre de la corrutina para comenzar. En el ejemplo utilicé la versión posterior, porque solo esa versión se puede &ldquo;detener&rdquo; manualmente usando StopCoroutine. Muestro StopCoroutine en el método OnDisable (línea 13) aunque su uso en este ejemplo es innecesario porque todas las corrutinas administradas por unity se detendrían cuando el script se desactivara independientemente de cómo se inicien. También debe tener en cuenta que puede &ldquo;Comenzar la rutina&rdquo; varias veces, incluso para el mismo método, que a menudo puede ser un comportamiento involuntario. Es posible que desee establecer un indicador que le indique cuándo está activa una corrutina, de modo que no la inicie varias veces,</p>
+<p>Aquí hay algunas variaciones de llamar a StartCoroutine:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// Versión 1, iniciada por una cadena (nombre de coroutine): esta versión es compatible con StopCoroutine</span>
+</span></span><span class="line"><span class="cl"><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">&#34;DoStuff&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Versión 2, Igual que la Versión 1 pero con un parámetro - nota, el método de destino debe ser modificado para aceptar un parámetro</span>
+</span></span><span class="line"><span class="cl"><span class="n">StartCoroutine</span><span class="p">(</span><span class="s">&#34;DoStuff&#34;</span><span class="p">,</span> <span class="m">5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Versión 3, esta versión se inicia al pasar el IEnumerator, usted NO PUEDE utilizar StopCoroutine</span>
+</span></span><span class="line"><span class="cl"><span class="n">StartCoroutine</span><span class="p">(</span><span class="n">DoStuff</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Versión 4, Igual que la Versión 3 pero con parámetro - nota, el método de destino debe ser modificado para aceptar un parámetro</span>
+</span></span><span class="line"><span class="cl"><span class="n">StartCoroutine</span><span class="p">(</span><span class="n">DoStuff</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
+</span></span></code></pre></div><hr>
+<p>El método &ldquo;DoStuff&rdquo; es nuestra &ldquo;corrutina&rdquo;. La primera instrucción crea una variable local llamada &ldquo;valor&rdquo; y la inicializa a cero. Entonces comenzamos un &ldquo;bucle infinito&rdquo; (un bucle &ldquo;while&rdquo; que itera mientras sea &ldquo;verdadero&rdquo;, que es siempre). Dentro del ciclo vemos nuestra primera declaración de &ldquo;WaitForSeconds&rdquo; (línea 21) que indica a Unity que deseamos esperar un segundo. En este punto, la ejecución de este método se suspende y no continuará hasta que se cumpla nuestra condición de espera. Después de esperar un segundo, Unity reanuda la corrutina justo donde lo dejó, incluso manteniendo en memoria los valores de las variables locales (en este caso, &ldquo;value&rdquo;). Incrementamos el valor en uno, e imprimimos en la ventana de la consola.</p>
+<p>Si adjunta este script a algo en su escena, verá un nuevo valor impreso en la consola una vez por segundo. Pruébalo.</p>
+<p>Unity ha proporcionado varias opciones para obtener su corrutina, que incluye:</p>
+<ul>
+<li>WaitForEndOfFrame</li>
+<li>WaitForFixedUpdate</li>
+<li>WaitForSeconds</li>
+<li>WWW</li>
+</ul>
+<p>Tenga en cuenta que también puede usar &ldquo;yield return null;&rdquo; para simplemente esperar un frame o &ldquo;yield break;&rdquo; para cancelar una corrutina.</p>
+<h1 id="una-muestra-más-divertida">Una muestra más divertida</h1>
+<p>Nuestro primer ejemplo fue funcional pero bastante aburrido. Hagamos otra versión donde hagamos que un objeto se mueva a través de una serie de ubicaciones (puntos de referencia). Podría imaginarme esto como una pieza en un tablero de juego que se mueve de una casilla a otra a lo largo de un camino específico.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">Corrutinas</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Vector3</span><span class="p">[]</span> <span class="n">waypoints</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="kt">float</span> <span class="n">speed</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">OnEnable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">StartCoroutine</span><span class="p">(</span><span class="n">DoStuff</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">DoStuff</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">waypoints</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span> <span class="p">++</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">while</span> <span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">!=</span> <span class="n">waypoints</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">				<span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="k">yield</span> <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">					<span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">=</span> <span class="n">Vector3</span><span class="p">.</span><span class="n">MoveTowards</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span> <span class="n">waypoints</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">speed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Completado!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En esta versión del script, he declarado una matriz pública de Vector3 que representa ubicaciones en el espacio mundial por las que quiero mover el objeto. También especifiqué una variable de velocidad que determina qué tan rápido el objeto cubrirá esas distancias.</p>
+<p>Comienzo la corrutina pasando el IEnumerator directamente. Tenga en cuenta que esta es la forma preferida de comenzar una coroutine a menos que quiera poder detener la coroutine usando el método StopCoroutine de Unity (podría insertar lógica en el método para abortar como alternativa).</p>
+<p>La corrutina tiene dos bucles que están anidados juntos. El bucle &ldquo;for&rdquo; externo itera sobre la matriz de puntos de referencia Vector3, y el bucle &ldquo;while&rdquo; interno itera durante el tiempo que tarde hasta que el objeto llegue a su ubicación deseada. Tenga en cuenta que espero un frame antes de actualizar la posición de los objetos. Si no hubiera ninguna instrucción de rendimiento dentro del ciclo while, el objeto completaría su ruta antes de mostrar cualquiera de los &ldquo;pasos&rdquo; de su progreso al usuario. Una vez que se ha seguido la ruta hasta su punto final, se imprime un mensaje en la consola que indica que nuestro trabajo está completo.</p>
+<p>Crea una nueva escena y agrega un Cubo. Adjunte este script de demostración y asegúrese de asignar valores a cada una de nuestras propiedades públicas a través del inspector. Por ejemplo, sus waypoints podrían ser:</p>
+<ul>
+<li>5,0,0</li>
+<li>5,1,0</li>
+<li>5,1,3</li>
+<li>3,0,0</li>
+<li>0,0,0</li>
+</ul>
+<p>y tu velocidad podría ser 1. Por supuesto, puedes usar cualquier valor que desees, pero tu velocidad debería ser al menos mayor que cero.</p>
+<h1 id="corrutinas-anidadas">Corrutinas anidadas</h1>
+<p>A veces puede ser conveniente anidar corrutinas para que pueda reutilizar bits de lógica. Aquí hay una muestra que hace eso:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">CorrutinasAnidadas</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Vector3</span> <span class="n">m1</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(-</span><span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Vector3</span> <span class="n">m2</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Vector3</span> <span class="n">s1</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Vector3</span> <span class="n">s2</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">0.5f</span><span class="p">,</span> <span class="m">0.5f</span><span class="p">,</span> <span class="m">0.5f</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">StartCoroutine</span><span class="p">(</span><span class="n">DoStuff</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">DoStuff</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">while</span> <span class="p">(</span><span class="k">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">switch</span> <span class="p">(</span><span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">				<span class="p">{</span>
+</span></span><span class="line"><span class="cl">					<span class="k">case</span> <span class="m">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">						<span class="k">yield</span> <span class="k">return</span> <span class="n">StartCoroutine</span><span class="p">(</span><span class="n">Move</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">						<span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">					<span class="k">case</span> <span class="m">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">						<span class="k">yield</span> <span class="k">return</span> <span class="n">StartCoroutine</span><span class="p">(</span><span class="n">Scale</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">						<span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="p">}</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">Move</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Vector3</span> <span class="n">target</span> <span class="p">=</span> <span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">==</span> <span class="n">m1</span> <span class="p">?</span> <span class="n">m2</span> <span class="p">:</span> <span class="n">m1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="k">while</span> <span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">!=</span> <span class="n">target</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">yield</span> <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">=</span> <span class="n">Vector3</span><span class="p">.</span><span class="n">MoveTowards</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">Scale</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Vector3</span> <span class="n">target</span> <span class="p">=</span> <span class="n">transform</span><span class="p">.</span><span class="n">localScale</span> <span class="p">==</span> <span class="n">s1</span> <span class="p">?</span> <span class="n">s2</span> <span class="p">:</span> <span class="n">s1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="k">while</span> <span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">localScale</span> <span class="p">!=</span> <span class="n">target</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">yield</span> <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">transform</span><span class="p">.</span><span class="n">localScale</span> <span class="p">=</span> <span class="n">Vector3</span><span class="p">.</span><span class="n">MoveTowards</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">localScale</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Creó tres corrutinas. La corrutina DoStuff es la corrutina &ldquo;principal&rdquo; que se activa con nuestro método de Start. Las corrutinas Move y Scale se activan aleatoriamente dentro del ciclo y se reproducirán hasta que se completen antes de que continúe la corrutina principal original.</p>
+<p>Si utilizó la escena de la demostración anterior y simplemente actualizó la secuencia de comandos, ahora verá que su cubo se mueve al azar hacia adelante y hacia atrás, así como hacia arriba y hacia abajo.</p>
+<h1 id="corrutinas-nativas">Corrutinas nativas</h1>
+<p>Puede tener curiosidad acerca de cómo usar corrutinas fuera de la implementación de Unity. Si es así, echa un vistazo al siguiente ejemplo:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">CorrutinaNativa</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">trend</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">trend</span> <span class="p">=</span> <span class="n">TrendLine</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Update</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">trend</span><span class="p">.</span><span class="n">MoveNext</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">((</span><span class="kt">int</span><span class="p">)</span><span class="n">trend</span><span class="p">.</span><span class="n">Current</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">IEnumerator</span> <span class="n">TrendLine</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">int</span> <span class="k">value</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="k">while</span> <span class="p">(</span><span class="k">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">value</span> <span class="p">+=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(-</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="k">yield</span> <span class="k">return</span> <span class="k">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="k">if</span> <span class="p">(</span><span class="n">Mathf</span><span class="p">.</span><span class="n">Abs</span><span class="p">(</span><span class="k">value</span><span class="p">)</span> <span class="p">&gt;=</span> <span class="m">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">					<span class="k">yield</span> <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En la línea 6 creé una variable para mantener una referencia a un IEnumerator llamado trend. Lo asigno a nuestro método en Start (línea 10).</p>
+<p>Utilizo el bucle del Update de Unity para manejar la reanudación de la corrutina desde sus puntos de ejecución cedidos, aunque podría haber usado cualquier tipo de evento para hacerlo. La reanudación de la corrutina se produce con el método &ldquo;MoveNext&rdquo; que devuelve un verdadero o falso en función de si la ejecución se completó o no. Si la corrutina no estaba completa, imprimo el valor de retorno de la corrutina a la que se accede mediante la propiedad &ldquo;Current&rdquo; (línea 16).</p>
+<p>En esta corrutina, genero el valor de una línea de tendencia imaginaria y observo cómo crece hasta que alcanza un valor máximo en que punto la corrutina está completa. Logré este efecto al hacer que un valor suba, baje o permanezca igual en función del resultado del número aleatorio generado por Unity.</p>
+<p>Adjunte este script a algo en escena y ejecútelo, y verá un grupo de números generarse en la ventana de la consola. En algún punto, la línea de tendencia debe alcanzar su extensión máxima, ya sea positiva o negativa 10, y la producción se detendrá.</p>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/08.gif" title="/img/codebackdoor/learncsharpunity/08.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/08.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/08.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/08.gif, /img/codebackdoor/learncsharpunity/08.gif 1.5x, /img/codebackdoor/learncsharpunity/08.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/08.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección aprendimos todo acerca de una característica del lenguaje, llamada corrutina. Aprendimos a comenzar y detener las corrutinas administradas por Unity. Cubrimos corrutinas con y sin parámetros, usamos diferentes opciones de rendimiento y corrutinas anidadas juntas. Finalmente, exploramos cómo una corrutina funciona de forma nativa y se maneja al pasar por una corrutina y recuperar sus valores manualmente.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3bL1a1q" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Clases
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

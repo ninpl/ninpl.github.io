@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Variables - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Variables" />
+<meta property="og:description" content="Si yo fuera un modelo de datos de una maquina, habría variables que me describirían incluyendo una para hacer referencia a mi nombre (un valor que no ha cambiado) y mi edad (un valor que cambia cada año). Algunas variables solo pueden ser determinadas por mí, como el nombre de mi película favorita, y otras pueden ser controladas total o parcialmente por fuentes externas, como mi estado civil. Todos estos tipos de relaciones se pueden modelar en código cuando conoces el vocabulario correcto." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/003/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-19T06:55:40+02:00" />
+<meta property="article:modified_time" content="2018-08-19T06:55:40+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Variables"/>
+<meta name="twitter:description" content="Si yo fuera un modelo de datos de una maquina, habría variables que me describirían incluyendo una para hacer referencia a mi nombre (un valor que no ha cambiado) y mi edad (un valor que cambia cada año). Algunas variables solo pueden ser determinadas por mí, como el nombre de mi película favorita, y otras pueden ser controladas total o parcialmente por fuentes externas, como mi estado civil. Todos estos tipos de relaciones se pueden modelar en código cuando conoces el vocabulario correcto."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/003/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/002/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/004/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Variables",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/003\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  2933 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/003\/","datePublished": "2018-08-19T06:55:40+02:00","dateModified": "2018-08-19T06:55:40+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Variables</h1><div class="content" id="content"><p>Si yo fuera un modelo de datos de una maquina, habría variables que me describirían incluyendo una para hacer referencia a mi nombre (un valor que no ha cambiado) y mi edad (un valor que cambia cada año). Algunas variables solo pueden ser determinadas por mí, como el nombre de mi película favorita, y otras pueden ser controladas total o parcialmente por fuentes externas, como mi estado civil. Todos estos tipos de relaciones se pueden modelar en código cuando conoces el vocabulario correcto. En esta lección, crearemos una clase que implemente el ejemplo que acabo de proporcionar, y luego usaremos nuestra comprensión de variables para animar un sistema solar de ejemplo, todo con un solo script.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h2 id="modelando-un-humano">Modelando un humano</h2>
+<p>Para comenzar, crea una nueva escena. Agregue un GameObject vacío (de la barra de menú elija &ldquo;GameObject -&gt; Create Empty&rdquo;) y luego en el inspector haga clic en el botón &ldquo;Agregar componente&rdquo;. Escriba &ldquo;Humano&rdquo; en el mensaje que aparece. No hay componentes con este nombre, por lo que debe mostrar &ldquo;New Script&rdquo;. Presiona la tecla Enter y verás las opciones del script. Asegúrese de que la opción Languaje esté configurada en C# y presione la tecla Intro nuevamente. Esto creará un nuevo script y lo adjuntará al objeto simultáneamente. Finalmente, &ldquo;duplica&rdquo; el GameObject para que tengas dos &ldquo;Humanos&rdquo; (desde la barra de menú, elige &ldquo;Editar -&gt; Duplicar&rdquo; o Ctrl + D).</p>
+<p>Abra el script &ldquo;Humano&rdquo; en Visual Studio (o su editor de código favorito). Para nuestra primera tarea, descubramos cómo nombrar a nuestros Humanos. Todos los GameObjects ya tienen una variable para almacenar su nombre. Esto es lo que ve listado en el panel Jerarquía y en la parte superior del Inspector. Nuestros dos objetos actualmente tienen el nombre &ldquo;GameObject&rdquo;, que personalmente considero que es un nombre terrible para un ser humano. Como nota al margen, cuando ves el nombre de tu GameObject, estás &ldquo;leyendo&rdquo; o &ldquo;obteniendo&rdquo; la variable. Ahora, vamos a &ldquo;escribir&rdquo; o &ldquo;establecer&rdquo; la variable. Proporcione un nombre que suene diferente para cada persona tipeando en el campo en el inspector.</p>
+<p>Ahora, eso no fue muy de programador, ¿verdad? Veamos cómo haríamos lo mismo a través del código. Modifique el método de Start de la siguiente manera:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Hola, mi nombre es &#34;</span> <span class="p">+</span> <span class="n">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Guarde su script y ejecute la escena. Debería ver dos mensajes imprimirse en la ventana de la consola (un mensaje enviado por cada humano que creó).</p>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/03.png" title="/img/codebackdoor/learncsharpunity/03.png" data-thumbnail="/img/codebackdoor/learncsharpunity/03.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/03.png"
+            data-srcset="/img/codebackdoor/learncsharpunity/03.png, /img/codebackdoor/learncsharpunity/03.png 1.5x, /img/codebackdoor/learncsharpunity/03.png 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/03.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Lo que hemos hecho es &ldquo;leer&rdquo; o &ldquo;obtener&rdquo; el valor almacenado por una variable llamada &ldquo;name&rdquo;, anexarlo a la cadena de texto y pasar todo el mensaje como un parámetro al método que imprimió el mensaje a la consola.</p>
+<p>Para &ldquo;escribir&rdquo; o &ldquo;establecer&rdquo; una variable, usamos algo llamado operador de asignación. Para confundirte, los programadores de hace mucho tiempo decidieron que este operador se vería como el signo igual (y para comprobar realmente la igualdad, decidieron usar DOS signos iguales - suspiro). Entonces, para &ldquo;escribir&rdquo; o &ldquo;establecer&rdquo; una variable, puede usar una línea de código como la siguiente:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="n">name</span> <span class="p">=</span> <span class="s">&#34;Moon&#34;</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Si tuviera que poner esa línea de código en el método de Start sobre la línea que imprime el mensaje &ldquo;Hola&rdquo;, cuando ejecute la escena, tendrá dos personas que lo recibirán con el mensaje &ldquo;Hola, mi nombre es Moon&rdquo;. Mientras que la escena continúe, Moon será su nombre, como puede verificar en el inspector. Sin embargo, cuando detenga la escena, los nombres volverán a los valores que tenían antes de presionar play (en mi caso, Moon y Andrea). Lo que sucedió es que Unity está haciendo algo llamado &ldquo;Serialización&rdquo;: básicamente, esto significa que cualquier variable en un GameObject que Unity &ldquo;comprenda&rdquo; se guardará en el momento de edición con la escena como valor de inicio predeterminado. Esto le permite configurar sus niveles y asegurarse de que una escena comience de la misma manera todo el tiempo.</p>
+<h2 id="campos">Campos</h2>
+<p>GameObjects no tiene una variable por edad, así que a continuación le mostraré cómo &ldquo;declarar&rdquo; su propia variable llamada &ldquo;campo&rdquo;. Como mínimo, todas las variables deben declararse con dos cosas, un &ldquo;Tipo de datos&rdquo; y un &ldquo;Nombre&rdquo; mediante el cual usted &ldquo;identifica&rdquo; la variable. Agregue la siguiente línea a su script, dentro de la clase (entre los corchetes), pero fuera de los métodos. Por convención, la mayoría de las variables de nivel de clase aparecen en la parte superior de la clase.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">edad</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<h3 id="consejo">Consejo:</h3>
+<p>Hay muchos tipos de datos que puede elegir al declarar sus variables (consulte la lista completa aquí: <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://msdn.microsoft.com/en-us/library/ms228360%28v=vs.90%29.aspx" target="_blank" rel="noopener noreffer ">http://msdn.microsoft.com/en-us/library/ms228360(v=vs.90).aspx</a>) . Los más comunes que querrás incluir son:</p>
+<ul>
+<li>bool - este es un tipo de valor que por defecto es falso, y solo puede contener &ldquo;falso&rdquo; o &ldquo;verdadero&rdquo;</li>
+<li>int - este es un tipo de valor que por defecto es 0, y puede contener números enteros, por ejemplo: 42</li>
+<li>float: este es un tipo de valor que por defecto es 0 y puede contener números con decimales, por ejemplo: 3.14159f</li>
+<li>string - un tipo especial que tiene como valor predeterminado null (nothing), y puede contener matrices de caracteres,como: &ldquo;Hola&rdquo;</li>
+</ul>
+<p>Como es usuario de Unity, también usará con frecuencia otros tipos de datos, como:</p>
+<ul>
+<li>GameObject: este es un tipo de referencia cuyo valor predeterminado es nulo y puede contener una referencia a un GameObject activo.</li>
+<li>Transform: este es un tipo de referencia que por defecto es nulo y puede contener una referencia a una Transformación activa.</li>
+<li>Vector3 - este es un tipo de valor (una estructura) que por defecto es cero en cada uno de sus subcampos (x, y , z).</li>
+<li>RigidBody: este es un tipo de referencia que se establece por defecto en nulo y puede contener una referencia a un RigidBody activo.</li>
+</ul>
+<p>Hay varias otras palabras que pueden aparecer en una declaración de variable antes del tipo de datos. &ldquo;Solo lectura&rdquo; indica una variable que solo se puede asignar en el momento en que se crea un objeto (por una clase &ldquo;Constructor&rdquo; o mientras se inicia la variable). &ldquo;Const&rdquo; es similar, pero debe inicializarse solo en la declaración. &ldquo;Estático&rdquo; indica una variable que pertenece a la clase misma en lugar de instancias de la clase (por ejemplo, muchas de las variables en la clase &ldquo;Time&rdquo; son estáticas).</p>
+<hr>
+<p>Al declarar la variable en el nivel raíz de nuestra clase, le estamos dando un &ldquo;alcance&rdquo; de nivel de clase. Esto significa que la variable será visible en todas partes dentro de la clase, incluso dentro de los métodos dentro de la clase. Tenga en cuenta que también puede declarar variables dentro de un método, pero su alcance será más limitado, y otros métodos o clases no tendrán acceso a esas variables.</p>
+<p>Guarde su script y regrese a Unity. Mira a uno de tus Humanos e intenta establecer la variable de edad que acabamos de declarar &hellip; oye espera, ¿por qué no lo vemos? Las variables tienen algo llamado &ldquo;visibilidad&rdquo;. Cuando no se especifica la visibilidad de una variable, se predetermina a &ldquo;private&rdquo;, lo que significa que solo su clase sabe que existe. Unity solo muestra variables que están marcadas como &ldquo;public&rdquo; o por &ldquo;[SerializeField]&rdquo;, que es una forma especial de exponer una propiedad al inspector de Unity sin permitir que otros scripts conozcan la variable. Cualquiera de las siguientes líneas permitirá que su variable aparezca en el inspector, aunque por ahora, usaremos la declaración &ldquo;public&rdquo;:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">edad</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Hay una manera de ver variables &ldquo;private&rdquo; y &ldquo;protected&rdquo; en el inspector. Puede establecer el modo de inspector en &ldquo;Debug&rdquo; haciendo clic en el botón de la esquina superior derecha (tres líneas horizontales apiladas) que aparece justo a la derecha del candado. En el modo de depuración, podrá ver los valores de variables privadas, sin embargo, aún no podrá escribir en ellos.</div>
+        </div>
+    </div>
+<p>Con la variable de edad establecida en público, ahora puede verla aparecer en el inspector. ¿Por qué tiene un valor ya? Nuestra variable de edad se inicializó a cero, porque ese es el valor predeterminado para ese tipo de datos, y porque no lo inicializamos a ningún otro valor en nuestra declaración. Podríamos haber definido nuestra variable de la siguiente manera:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">edad</span> <span class="p">=</span> <span class="m">25</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Esta declaración se ve como lo hacía antes, con la excepción de que también tenemos el operador de asignación y un valor que está asignado como predeterminado. Si modifica su script para usar este ejemplo y luego regresa a Unity, los scripts Humanos todavía mostrarán cero. Esto se debe a que 25 solo se asigna cuando el objeto se &ldquo;crea&rdquo; por primera vez, pero nuestros scripts ya se han creado y serializado con el valor de 0. Si creaste un GameObject nuevo y agregaste el script Humano, el nuevo Humano tendría el valor predeterminado aplicado. También puede hacer clic en el ícono de ajustes de nuestro script y seleccionar &ldquo;Reset&rdquo;, que volverá a cargar los valores predeterminados en el script.</p>
+<h2 id="propiedades">Propiedades</h2>
+<p>En caso de que quiera establecer restricciones sobre la forma en que una variable puede cambiar, puede usar algo llamado &ldquo;propiedad&rdquo;. Las propiedades se parecen mucho a &ldquo;campos&rdquo;, que es lo que creamos con nuestra variable &ldquo;edad&rdquo;, con una gran diferencia: la propiedad &ldquo;encapsula&rdquo; el campo, lo que significa que las secuencias de comandos externas no tienen acceso directo al campo, y usted puede controlar lo que se les permite leer o escribir. A continuación se muestra un ejemplo de una propiedad.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">string</span> <span class="n">PeliculaFavorita</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Con la excepción de los corchetes, y las palabras &ldquo;get&rdquo; y &ldquo;set&rdquo;, esto se ve muy similar a la declaración de un campo. Debe incluir un &ldquo;getter&rdquo; o &ldquo;setter&rdquo; (las palabras clave get y set), pero no tiene que especificar ambos. Además, puede tener diferentes niveles de visibilidad para cada uno. En este ejemplo, otros scripts podrán leer y escribir el valor de PeliculaFavorita. Podemos cambiarlo así:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">string</span> <span class="n">PeliculaFavorita</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Ahora, otras clases pueden descubrir cuál es la película favorita de este Humano, pero no tienen la capacidad de cambiarla. Solo los métodos dentro de la clase Humana pueden modificar el valor almacenado.</p>
+<p>Aunque esta propiedad es pública, no podrá verla en el Inspector. Las propiedades en realidad no almacenan ningún dato como lo hace un campo. Lo que está sucediendo es que el compilador de C# crea automáticamente otro campo, que es &ldquo;privado&rdquo; y lee ese valor cuando usa el captador, y escribe en el campo cuando usa el colocador. La siguiente forma es funcionalmente idéntica, pero ayuda a ilustrar la anterior versión.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">string</span> <span class="n">PeliculaFavorita</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">_peliculaFavorita</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">private</span> <span class="k">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_peliculaFavorita</span> <span class="p">=</span> <span class="k">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="kt">string</span> <span class="n">_peliculaFavorita</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Si especifica su propio &ldquo;get y set&rdquo; para una propiedad de esta manera, también puede agregar la etiqueta &ldquo;[SerializeField]&rdquo; y obtendrá lo mejor de ambos mundos: sus datos están encapsulados y aún puede configurarlos fácilmente con el inspector. Por otro lado, también agrega mucho código a sus scripts de esta manera, y puede ralentizar el desarrollo y hacer que un script sea más difícil de leer y mantener. Por lo general, solo convierto mis campos en propiedades si necesito limitar el acceso de alguna manera o responder cada vez que cambia un valor.</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">El captador y el colocador de una propiedad son muy similares a los métodos. El getter es como un método con un tipo de retorno que coincide con el tipo de propiedad y que no toma ningún parámetro. El colocador es como un método con un tipo de vacío devuelto pero que acepta un parámetro. Cualquier declaración que aparezca entre los corchetes del getter y del setter se ejecutará cuando la propiedad sea leída o escrita, respectivamente.</div>
+        </div>
+    </div>
+<h2 id="modelado-de-un-sistema-solar">Modelado de un sistema solar</h2>
+<p>El ejemplo humano sirvió para ilustrar vocabulario diverso para variables, pero no fue muy inspirador porque no &ldquo;hizo&rdquo; nada. Hagamos un ejemplo más interesante y permitamos que las variables que definimos tengan un efecto sobre otra cosa.</p>
+<p>Crea una nueva escena para trabajar. Si tienes algunas texturas bonitas y sabes cómo aplicarlas a las esferas, crea una esfera y aplica tu textura. De lo contrario, simplemente crea un cubo, para que sea más obvio cuando usamos el código para hacer que gire (desde la barra de menú elige &ldquo;GameObject -&gt; 3D Object -&gt; Cube&rdquo;).</p>
+<p>Cree un nuevo script llamado &ldquo;Motor&rdquo; y ejecútelo de la siguiente manera:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">Motor</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="kt">float</span> <span class="n">vel</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Update</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">transform</span><span class="p">.</span><span class="n">Rotate</span><span class="p">(</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">vel</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En la línea 6 de este script definimos la variable &ldquo;vel&rdquo;, que determinará la velocidad en &ldquo;grados por segundo&rdquo;, en la cual un objeto está girando. Por ejemplo, para hacer que un objeto gire en un círculo completo cada segundo, le conviene asignar el valor &ldquo;360&rdquo;. Esta unidad de medida haría un gran calculo, aunque lo excluí porque lo estoy explicando aquí y quiero mantener los fragmentos de código pequeños. Tenga en cuenta que no asignamos el valor de la variable en ningún lugar de este script porque se supondrá que la persona que lo utiliza lo asignará en el editor o mediante otro script.</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Cuando asigna valores a un float en el inspector, puede completar valores enteros o decimales normales como normalmente los vería. Si tuviéramos que asignar un valor numérico a una variable float en el código, debería ir seguido de la letra &lsquo;f&rsquo;, como &ldquo;vel = 3.14f;&rdquo;. Se supone que los números enteros, como &ldquo;10&rdquo; son de tipo &ldquo;int&rdquo;, y que los compiladores suponen que los números con decimales son de tipo &ldquo;double&rdquo;. Un tipo de datos floats puede contener cualquier valor que pueda contener un int, pero no cualquier valor que pueda contener un double, y es por eso que se requiere la &lsquo;f&rsquo;.</div>
+        </div>
+    </div>
+<p>En la línea 8 vemos un método que se incluye en el código de plantilla predeterminado llamado &ldquo;Update&rdquo;. Unity llama a este método una vez por frame para permitirle modificar los objetos del juego de forma incremental. Los sistemas rápidos pueden llamar a este método 100 veces por segundo, mientras que las máquinas lentas o los teléfonos móviles solo pueden llamarlo 30 veces por segundo. Si tuviera que hacer cambios en objetos usando valores fijos, entonces parecería jugaria &ldquo;más rápido&rdquo; en la mejor máquina. Para crear una muestra que parece ejecutarse a la misma velocidad en todas las plataformas, multiplicamos nuestra velocidad deseada por &ldquo;Time.deltaTime&rdquo;, de modo que la tasa real que usamos no es constante, sino que varía según la cantidad de tiempo que realmente ha pasado. Por ejemplo, en el teléfono móvil, el ejemplo Time.deltaTime podría ser 0.0333 &hellip; y en el equipo más rápido algo así como 0.01 en su lugar.</p>
+<p>La declaración que ponemos dentro del método es compuesta (está haciendo muchas cosas). Podría haber sido más detallado como en el siguiente ejemplo que es funcionalmente equivalente:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">float</span> <span class="n">velFrameLimitada</span> <span class="p">=</span> <span class="n">vel</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Vector3</span> <span class="n">rotacion</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">velFrameLimitada</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">transform</span><span class="p">.</span><span class="n">Rotate</span><span class="p">(</span> <span class="n">rotacion</span> <span class="p">);</span>
+</span></span></code></pre></div><hr>
+<p>Este ejemplo muestra que creamos una nueva variable float que contiene la velocidad de giro para este frame. También creamos un Vector3, que es una variable struct especial. Usted crea el Vector3 usando algo llamado &ldquo;Constructor&rdquo; que toma tres parámetros que representan valores para tres ejes: X, Y y Z. Finalmente, pasamos el Vector3 a un método que realmente rota el objeto mismo.</p>
+<p>A veces, expandir el código de este modo lo ayuda a ser más legible, pero en este caso, sentí que definirlo en una sola línea estaba bien. Algunas de las razones por las que me hubiera ido con la versión posterior incluyen:</p>
+<ul>
+<li>necesidad de usar las variables en más de un lugar</li>
+<li>la línea individual es excesivamente larga, así que tendría que desplazarme horizontalmente para leerlo todo</li>
+<li>el paréntesis anidado puede ser confuso</li>
+</ul>
+<p>Adjunte el script del motor a cualquier objeto 3D que haya terminado de crear, y asigne un valor a vel. Ejecuta la escena. Tenga en cuenta que incluso puede cambiar la vel mientras el juego se está ejecutando y la velocidad del motor se actualizará instantáneamente.</p>
+<p>Detener la escena (porque los cambios realizados en el modo de reproducción no se guardan). Duplica tu objeto 3D y escalalo hacia abajo. Trataremos nuestro primer objeto como si fuera la &ldquo;Tierra&rdquo; y el nuevo objeto más pequeño como si fuera la &ldquo;Luna&rdquo;. Puede hacer que cada objeto gire en su eje a una velocidad diferente. ¿Pero cómo puedes usar el mismo script para hacer la órbita lunar alrededor de la Tierra? La respuesta es usar jerarquía de objetos. Crea un GameObject vacío. Junta la luna con el GameObjeto vacío y luego desplazalo lo suficiente como para que quede fuera de la &ldquo;Tierra&rdquo;. ¡Ahora agrega el script Motor al Empty GameObject y verás la órbita de la luna alrededor de la tierra mientras gira su eje! Tenga en cuenta que el efecto será más pronunciado si la velocidad a la que la Tierra gira es diferente de la velocidad a la que gira el objeto en órbita. Si emparejaste tanto la tierra como el objeto de juego vacío con otro objeto de juego vacío, podrías hacer que orbitasen alrededor del sol. De esta forma, puedes construir lentamente la complejidad de tu escena hasta que hayas creado un modelo funcional del Sistema Solar.</p>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/04.gif" title="/img/codebackdoor/learncsharpunity/04.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/04.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/04.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/04.gif, /img/codebackdoor/learncsharpunity/04.gif 1.5x, /img/codebackdoor/learncsharpunity/04.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/04.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección, cubrimos cómo declarar, leer y escribir valores en variables. Mostramos cómo el uso de propiedades podría encapsular un campo y controlar cómo se accede a sus valores. También aprendimos que las propiedades no requieren un campo de respaldo y pueden devolver valores dinámicamente. Completamos dos ejemplos, uno para implementar algunas variables que describen a un ser humano, y el segundo para modelar y animar un sistema solar 3D.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3Qylq4O" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Métodos
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

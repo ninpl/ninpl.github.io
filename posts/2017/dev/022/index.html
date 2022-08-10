@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Gestor de Escenas en Unity3D - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Gestor de Escenas en Unity3D" />
+<meta property="og:description" content="Evaluando lo necesario para el TFG, vi que requeríamos de un gestor de escenas, en la que se pudiera cambiar de escena, desde el editor y en runtime con variaciones.
+Variaciones Editor -&gt; cambiar generalmente de forma rápida y precisa.
+Runtime -&gt; cambiar entre cargar escena completa y cargar mediante Sync.
+Por ello propuse un Gestor de Escenas en la que uno mismo podría cambiar siempre de escena en cualquier lado." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2017/dev/022/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-03-15T13:02:10+01:00" />
+<meta property="article:modified_time" content="2017-03-15T13:02:10+01:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Gestor de Escenas en Unity3D"/>
+<meta name="twitter:description" content="Evaluando lo necesario para el TFG, vi que requeríamos de un gestor de escenas, en la que se pudiera cambiar de escena, desde el editor y en runtime con variaciones.
+Variaciones Editor -&gt; cambiar generalmente de forma rápida y precisa.
+Runtime -&gt; cambiar entre cargar escena completa y cargar mediante Sync.
+Por ello propuse un Gestor de Escenas en la que uno mismo podría cambiar siempre de escena en cualquier lado."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2017/dev/022/" /><link rel="prev" href="https://moonantonio.github.io/posts/2017/comun/008/" /><link rel="next" href="https://moonantonio.github.io/posts/2017/comun/009/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Gestor de Escenas en Unity3D",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/022\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  394 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/022\/","datePublished": "2017-03-15T13:02:10+01:00","dateModified": "2017-03-15T13:02:10+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Gestor de Escenas en Unity3D</h1><div class="content" id="content"><p>Evaluando lo necesario para el TFG, vi que requeríamos de un gestor de escenas, en la que se pudiera cambiar de escena, desde el editor y en runtime con variaciones.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Variaciones<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><strong>Editor</strong> -&gt; cambiar generalmente de forma rápida y precisa.</p>
+<p><strong>Runtime</strong> -&gt; cambiar entre cargar escena completa y cargar mediante Sync.</p>
+</div>
+        </div>
+    </div>
+<p>Por ello propuse un <strong>Gestor de Escenas</strong> en la que uno mismo podría <strong>cambiar siempre de escena en cualquier lado</strong>.</p>
+<p>El sistema es llamado <i class="fa-brands fa-wikipedia-w" aria-hidden="true"></i>&nbsp;<a href="https://bit.ly/3B7xSnK" target="_blank" rel="noopener noreffer "><strong>Proteo</strong></a> que hace honor a una criatura mitología que podía asumir cualquier forma que no fuera inmóvil.</p>
+<figure><a class="lightgallery" href="/img/c/gesesceunity.gif" title="/img/c/gesesceunity.gif" data-thumbnail="/img/c/gesesceunity.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/gesesceunity.gif"
+            data-srcset="/img/c/gesesceunity.gif, /img/c/gesesceunity.gif 1.5x, /img/c/gesesceunity.gif 2x"
+            data-sizes="auto"
+            alt="/img/c/gesesceunity.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>En la escena de test, quería sacar 3 funcionalidades.</p>
+<ul>
+<li>Cambiar de forma normal la escena.</li>
+<li>Cambiar de forma Asyncrona la escena.</li>
+<li>Descargar alguna escena anterior.</li>
+</ul>
+<hr>
+<p>Bien ahora empezare por el sistema runtime.</p>
+<p>Al estar con Unity5 hay que agregar la <code>using UnityEngine.SceneManagement</code>; Si no, no podrás acceder a los métodos de unity.
+Al sumar escenas hay un método llamado <a href="https://bit.ly/3RPN8f4" target="_blank" rel="noopener noreffer "><strong>LoadSceneMode.Additive</strong></a> que seria sumar la nueva escena a la actual.</p>
+<p>Bueno y después de esto -&gt;</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">//                                  ┌∩┐(◣_◢)┌∩┐</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//																</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// SProteo.cs (15/03/2017)										</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Autor: Antonio Mateo (Moon Pincho) 						       </span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Descripcion:		Sistema que gestiona el cambio de escenas.		</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Fecha Mod:		15/03/2017									</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Ultima Mod:		Version Inicial								</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//****************************************************************\\</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine.SceneManagement</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonPincho</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="cs">/// &lt;para&gt;Sistema que gestiona el cambio de escenas&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="na">	[AddComponentMenu(&#34;Moon Pincho/Sistemas/SProteo&#34;)]</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">SProteo</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="cp">#region Variables Publicas</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;para&gt;NGUI progress bar para la carga.&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">UISlider</span> <span class="n">progressBar</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="cp">#region API</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;para&gt;Carga la escena dada en modo Additive.&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">void</span> <span class="n">LoadScene</span><span class="p">(</span><span class="kt">string</span> <span class="n">nombre</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">SceneManager</span><span class="p">.</span><span class="n">LoadScene</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">LoadSceneMode</span><span class="p">.</span><span class="n">Additive</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;para&gt;Descarga la escena dada.&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">void</span> <span class="n">UnLoadScene</span><span class="p">(</span><span class="kt">string</span> <span class="n">nombre</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">SceneManager</span><span class="p">.</span><span class="n">UnloadSceneAsync</span><span class="p">(</span><span class="n">nombre</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;para&gt;Carga la escena dada asyncronamente.&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">void</span> <span class="n">LoadSceneAsyc</span><span class="p">(</span><span class="kt">string</span> <span class="n">nombre</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">StartCoroutine</span><span class="p">(</span><span class="n">UpdateProgress</span><span class="p">(</span><span class="n">nombre</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;para&gt;Descarga la escena actual.&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">void</span> <span class="n">UnLoadActual</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">SceneManager</span><span class="p">.</span><span class="n">UnloadSceneAsync</span><span class="p">(</span><span class="n">SceneManager</span><span class="p">.</span><span class="n">GetActiveScene</span><span class="p">().</span><span class="n">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="cp">#region Funcionalidad</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;para&gt;Actualiza el progress bar mientras carga la escena Asyncronamente.&lt;/para&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;/summary&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;param name=&#34;nombre&#34;&gt;Nombre de la escena.&lt;/param&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="cs">/// &lt;returns&gt;Null&lt;/returns&gt;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">IEnumerator</span> <span class="n">UpdateProgress</span><span class="p">(</span><span class="kt">string</span> <span class="n">nombre</span><span class="p">)</span><span class="n">la</span> <span class="n">escena</span> <span class="n">Asyncronamente</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">AsyncOperation</span> <span class="n">cargando</span> <span class="p">=</span> <span class="n">SceneManager</span><span class="p">.</span><span class="n">LoadSceneAsync</span><span class="p">(</span><span class="n">nombre</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">while</span> <span class="p">(!</span><span class="n">cargando</span><span class="p">.</span><span class="n">isDone</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="k">this</span><span class="p">.</span><span class="n">progressBar</span><span class="p">.</span><span class="k">value</span> <span class="p">=</span> <span class="n">cargando</span><span class="p">.</span><span class="n">progress</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">cargando</span><span class="p">.</span><span class="n">progress</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="k">yield</span> <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+
+<a  href="https://bit.ly/3cvpfJs" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

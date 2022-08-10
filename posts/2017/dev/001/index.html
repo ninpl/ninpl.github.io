@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Investigación Monomito - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Investigación Monomito" />
+<meta property="og:description" content="¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2017/dev/001/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-03-01T23:38:17+01:00" />
+<meta property="article:modified_time" content="2017-03-01T23:38:17+01:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Investigación Monomito"/>
+<meta name="twitter:description" content="¿Que es monomito? Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en 12 pasos, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las etapas del Viaje del héroe son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2017/dev/001/" /><link rel="prev" href="https://moonantonio.github.io/posts/2017/dev/017/" /><link rel="next" href="https://moonantonio.github.io/posts/2017/comun/002/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Investigación Monomito",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/001\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  4047 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/001\/","datePublished": "2017-03-01T23:38:17+01:00","dateModified": "2017-03-01T23:38:17+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b005.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Investigación Monomito</h1><div class="content" id="content"><h1 id="que-es-monomito">¿Que es monomito?</h1>
+<p>Según esta teoría, todas y cada una de las grandes historias siguen un patrón que se divide en <strong>12 pasos</strong>, cada uno de ellos con unas características diferentes y que varían de una historia a otra y también de una época a otra. No todas las <strong>etapas del Viaje del héroe</strong> son siempre invariables ni todos los personajes son siempre los mismos o del mismo tipo, pero sí hay ciertos elementos que son siempre constantes de una historia a otra.</p>
+<figure><a class="lightgallery" href="/img/c/imono.jpg" title="/img/c/imono.jpg" data-thumbnail="/img/c/imono.jpg" data-sub-html="<h2>El viaje del Heroe</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/imono.jpg"
+            data-srcset="/img/c/imono.jpg, /img/c/imono.jpg 1.5x, /img/c/imono.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/imono.jpg" />
+    </a><figcaption class="image-caption">El viaje del Heroe</figcaption>
+    </figure>
+<hr>
+<h1 id="12-pasos-de-monomito">12 Pasos de Monomito</h1>
+<p>Hay <strong>12 pasos estandarizados</strong>, en los que se puede crear un guion con los patrones de monomito.</p>
+<p><strong>1. Mundo ordinario</strong> – El mundo en el que el héroe vive, su entorno habitual.</p>
+<blockquote>
+<p>Luke vive en la granja con sus tíos deseando unirse a la academia mientras el Imperio oprime la Galaxia.</p>
+</blockquote>
+<p><strong>2. Llamada a la aventura</strong> – A nuestro héroe se le presenta un desafío o aventura.</p>
+<blockquote>
+<p>R2D2 muestra el holograma con la princesa en peligro y Luke siente la necesidad de ayudarla.</p>
+</blockquote>
+<p><strong>3. Rechazo a la llamada</strong> – El héroe rechaza enfrentarse al desafío por miedo a lo desconocido.</p>
+<blockquote>
+<p>Luke siente que se debe quedar a ayudar a sus tíos en la granja y no se atreve a marcharse.</p>
+</blockquote>
+<p><strong>4. Encuentro con el mentor</strong> – El héroe se encuentra con un mentor que le guía, le da herramientas, entrenamiento o consejos. O puede ser el encuentro con una fuente de valor y sabiduría.</p>
+<blockquote>
+<p>Luke ve el resto del mensaje de R2D2 y así sabe de la existencia de los planos de la Estrella de la Muerte. Obi-Wan le da el sable láser de su padre.</p>
+</blockquote>
+<p><strong>5. Cruce del umbral</strong> – Al final del primer acto el héroe decide cruzar el umbral y adentrarse en un Mundo Especial o estado nuevo con reglas desconocidas.</p>
+<blockquote>
+<p>Los tíos de Luke son asesinados y éste decide ir a Mos Eisley con Obi-Wan para alquilar una nave que les lleve a Alderaan y poder informar de los planes del Imperio a los rebeldes.</p>
+</blockquote>
+<p><strong>6. Pruebas, aliados y enemigos</strong> – El héroe se tiene que enfrentar a pruebas y enemigos y conocerá a nuevos aliados.</p>
+<blockquote>
+<p>En la cantina Obi-Wan salva a Luke usando la Fuerza. Contratan a Han Solo y a Chewbacca y se tienen que enfrentar a los Stormtroopers que les impiden la huida.</p>
+</blockquote>
+<p><strong>7. Acercamiento</strong> – El héroe y sus aliados se preparan para la gran prueba.</p>
+<blockquote>
+<p>Luke aprende a usar la Fuerza. El Halcón Milenario es atrapado y llevado a la Estrella de la Muerte.</p>
+</blockquote>
+<p><strong>8. La gran prueba</strong> – Cerca de la mitad de la historia, el héroe se enfrenta a la mayor prueba de vida o muerte en el Mundo Especial o se enfrenta a su mayor miedo. El héroe surge renacido tras esta prueba.</p>
+<blockquote>
+<p>En la Estrella de la Muerte rescatan a la princesa disfrazados de Stormtroopers. Les descubren y tiene que probar su valía enfrentándose a los soldados imperiales.</p>
+</blockquote>
+<p><strong>9. Recompensa</strong> – El héroe recibe una recompensa por haberse enfrentado a la muerte.</p>
+<blockquote>
+<p>En el compactador de basura Luke es arrastrado bajo el agua por un monstruo, pero es rescatado por sus amigos. Comienzan a trabajar en equipo para escapar.</p>
+</blockquote>
+<p><strong>10. El camino de vuelta</strong> – Cuando ya han pasado tres cuartas partes de la historia el héroe debe volver al Mundo Ordinario y completar la aventura.</p>
+<blockquote>
+<p>Obi-Wan se sacrifica para ayudar al grupo a escapar. La Estrella de la Muerte les sigue hasta donde se encuentran los rebeldes. Luke se une al ataque rebelde.</p>
+</blockquote>
+<p><strong>11. Resurrección del héroe</strong> – En el clímax de la historia, y cerca del umbral de vuelta, el héroe se tiene que enfrentar a otra gran prueba de vida o muerte. Otro renacer, pero a un nivel más completo y personal.</p>
+<blockquote>
+<p>En la batalla final Luke oye la voz de Obi-Wan y usa la Fuerza para poder realizar un disparo casi imposible que destruye la Estrella de la Muerte.</p>
+</blockquote>
+<p><strong>12. Regreso con el elixir</strong> – El héroe regresa a casa o continúa el camino llevando partes del tesoro que le permitirán transformar el mundo al igual que él ha sido transformado.</p>
+<blockquote>
+<p>El malvado Imperio ha sido destruido. Se honra al grupo como si fuesen héroes y se restaura la paz en la galaxia.</p>
+</blockquote>
+<hr>
+<p><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://filmstitute.com/joseph-campbell/" target="_blank" rel="noopener noreffer ">Referencia</a></p>
+<hr>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Hhk4N9A0oCA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+<figure><a class="lightgallery" href="/img/c/imono2.jpg" title="/img/c/imono2.jpg" data-thumbnail="/img/c/imono2.jpg" data-sub-html="<h2>Mundo Ordinario/Especial</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/imono2.jpg"
+            data-srcset="/img/c/imono2.jpg, /img/c/imono2.jpg 1.5x, /img/c/imono2.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/imono2.jpg" />
+    </a><figcaption class="image-caption">Mundo Ordinario/Especial</figcaption>
+    </figure>
+<hr>
+<h1 id="17-pasos-de-monomito">17 Pasos de Monomito</h1>
+<p>Hay una <strong>version moderna</strong> y extendida pero menos usada de los 12 pasos estandarizados, en los que se puede crear un guion con los patrones de monomito mas amplios, pero que derivan de los 12 pasos originales.</p>
+<p><strong>1. El Llamado a la Aventura</strong></p>
+<p>La aventura comienza cuando el héroe recibe una llamada a la acción, como una amenaza para la paz de la comunidad, o simplemente el héroe se encuentra inesperadamente en la mitad d eun problema. La llamada es a menudo anunciada al héroe por otro personaje que actúa como un &ldquo;heraldo&rdquo;. El heraldo, muchas veces representado como oscuro y aterrador o mal juzgado por el mundo, puede llamar al héroe a la aventura simplemente por la crisis que significa su aparición.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>Señor de los Anillos: héroe, Frodo, llamada, devolver el anillo, heraldo, Bilbo</li>
+<li>Ironman: héroe, Tony Stark, llamada, escapar de los terroristas, heraldo, es raptado por los terroristas</li>
+<li>Dragon Ball Z: héroe, Goku, llamada, salvar a la tierra de la amenaza saiyajin, heraldo, Raditz</li>
+<li>Green Lantern: héroe, Hal Jordan, llamada, reemplazar a abin sur en los Corps, heraldo, la muerte de Abin y su legado en el anillo</li>
+</ul>
+</div>
+        </div>
+    </div>
+<p><strong>2. Rechazo de la convocatoria</strong></p>
+<p>En algunos relatos, el héroe se niega inicialmente a la llamada a la aventura. Cuando esto sucede, el héroe puede sufrir de alguna manera, y llegado el caso, puede optar por responder, o puede continuar ignorando la llamada.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">La mitología está plagada de ejemplos de lo que ocurre con aquellos que niegan la convocatoria por demasiado tiempo o no lo toma en serio. Una ciudad persa se convirtió en piedra junto a sus habitantes por denegar la llamada de Alá. En Beowulf, el rey desconoce su responsabilidad por demasiado tiempo, trayendo desgracia al poblado con Grendel.</div>
+        </div>
+    </div>
+<p><strong>3. Ayuda sobrenatural</strong></p>
+<p>Después de que el héroe ha aceptado la llamada, se encuentra con una figura de protección (a menudo personas mayores) que proporciona herramientas especiales y el asesoramiento para la aventura por delante, como un amuleto o un arma.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En la mitología griega, Ariadna da una pelota de cuerda y una espada a Teseo antes de que entre en el laberinto para enfrentar al Minotauro.</div>
+        </div>
+    </div>
+<p><strong>4. El cruce del primer umbral</strong></p>
+<p>El héroe debe cruzar el umbral entre el mundo con el que está familiarizado y el que no conoce. A menudo esto implica enfrentarse a un &ldquo;guardián del umbral&rdquo;, una entidad que trabaja para mantener a todos dentro de los confines de protección del mundo, pero que debe ser encontrada para entrar en la nueva zona de experiencia.</p>
+<p><strong>5. Renacimiento</strong></p>
+<p>El héroe, más que pasar por un umbral, pasa a una nueva zona por medio de un renacimiento. Aparecer muerto al ser tragado o ser su cuerpo destrozado, el héroe se transforma y pasa a estar listo para la aventura que tenemos por delante. Esto no solo es de forma filosófica, puede ser una destrucción psicológica o espiritual, incluso económica.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En la historia de Dionisio, Hera envía a los hambrientos titanes a devorar el infante Dioniso. Los titanes destrozan al niño y consumen su carne. Sin embargo, el corazón de Dionisio se salva de Hestia, la diosa del hogar, lo que permite a Dioniso a renacer como un dios.</div>
+        </div>
+    </div>
+<p><strong>6. El Camino de las Pruebas</strong></p>
+<p>Una vez pasado el umbral, el héroe encuentra un paisaje nuevo que parece de ensueño y ambiguas formas fluidas. El héroe tiene ante sí el reto de sobrevivir una sucesión de obstáculos y, al hacerlo, amplía su conciencia. El héroe sobrevive gracias la ayuda sobrenatural o puede descubrir un poder benigno de apoyo a su paso.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Hal Jordan se encuentra con el resto de los Corps.</div>
+        </div>
+    </div>
+<p><strong>7. Matrimonio</strong></p>
+<p>El último juicio es a menudo representado como un matrimonio entre el héroe y una reina, o la madre como figura. Esto representa el dominio sobre la vida (representada por el lado femenino), así como la totalidad de lo que pueda ser conocido. Cuando el héroe es una mujer, esto se convierte en una figura masculina.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Edipo se casa con su madre y logra ser Rey de Tebas.</div>
+        </div>
+    </div>
+<p><strong>8. La mujer como tentadora</strong></p>
+<p>Con su conciencia ampliada, el héroe puede fijarse en la desunión entre la verdad y su perspectiva subjetiva, de por sí viciada por la carne. Esto es a menudo representado con repulsión o rechazo de una figura femenina.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Beowulf es seducido por la madre de Grendel.</div>
+        </div>
+    </div>
+<p><strong>9. Expiación con el Padre</strong></p>
+<p>El héroe se reconcilia con los aspectos tiranos y misericordiosos del padre como figura de autoridad para entenderse a sí mismo como figura similar.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Van Fanel entiende el por que de las acciones de su hermano mayor Folken, en Escaflowne</div>
+        </div>
+    </div>
+<p><strong>10. Apoteosis</strong></p>
+<p>El ego del héroe del ego se desintegra en una expansión clave de conciencia. Con bastante frecuencia la idea del héroe de la realidad cambia, puede encontrar una habilidad para hacer cosas nuevas o para ver un distinto punto de vista, lo que permite al héroe a sacrificarse a sí mismo.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">V descubre que es un ser especial con una misión y escapa del campo Larkhill para comenzar su vendetta.</div>
+        </div>
+    </div>
+<p><strong>11. El don</strong></p>
+<p>El héroe está ahora listo para obtener lo que él ha perseguido, un objeto o una nueva conciencia de que, una vez que regrese, en principio, beneficiará a la sociedad que ha dejado atrás.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Paul Atreides logra hacerse uno con la especia y luego de convertirse en Muhad&rsquo;dib vuelve a liberar Arrakis</div>
+        </div>
+    </div>
+<p><strong>12. Negación del retorno</strong></p>
+<p>Después de haber encontrado la iluminación y gozo en el otro mundo, el héroe puede no querer volver al mundo ordinario para otorgar la bendición a sus pares.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En &ldquo;Las siete espadas&rdquo;, uno de los sabios prefirió quedarse en la montaña en vez de volver a ayudar a los campesinos.</div>
+        </div>
+    </div>
+<p><strong>13. La huida mágica</strong></p>
+<p>Puede darse que el héroe tenga que huir para poder volver a su punto de partida.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sasuke debe luchar contra Orochimaru para evitar ser usado en sus planes en vez de cumplir sus propios objetivos.</div>
+        </div>
+    </div>
+<p><strong>14. Rescate desde la nada</strong></p>
+<p>El héroe puede tener que ser rescatado por las fuerzas del mundo ordinario. Esto puede ser debido a que el héroe se ha negado a volver o porque está impedido de regresar con el don. El héroe pierde su ego.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Los reyes Pevensie son atraidos por el ciervo blanco hacia las espesuras del bosque, en donde vuelven a cruzar las puertas del armario.</div>
+        </div>
+    </div>
+<p><strong>15. El Cruce del Umbral del Regreso</strong></p>
+<p>El héroe regresa al mundo común que debe aceptar como real.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Adam Strange vuelve a Rann luego de 52 y debe lidiar con una vida normal.</div>
+        </div>
+    </div>
+<p><strong>16. Amo de Dos Mundos</strong></p>
+<p>Debido al don o a su experiencia, el héroe ahora puede percibir tanto lo divino como lo humano.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Ichigo de Bleach al volver de la Soul Society puede reconocer sin problema los ataques de Hollows.</div>
+        </div>
+    </div>
+<p><strong>17. Libertad para vivir</strong></p>
+<p>El héroe otorga el don a su prójimo.</p>
+<div class="details admonition question">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Ejemplos clásicos<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Batman, luego de entrenar para ser el guardian de Gotham, se dedica a protegerla a toda costa.</div>
+        </div>
+    </div>
+<hr>
+<p><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://rojointenso.net/mybb/showthread.php?tid=8068" target="_blank" rel="noopener noreffer ">Referencia</a></p>
+<hr>
+<h1 id="31-puntos-recurrentes">31 Puntos Recurrentes</h1>
+<p>Son una serie de <strong>31 puntos recurrentes en todos los cuentos de hadas populares</strong>. Aunque no todos ellos aparecen en todos los cuentos, su función básica a menudo permanece y el orden es prácticamente siempre el mismo.</p>
+<p>A saber:</p>
+<ol>
+<li>
+<p>Alejamiento. Uno de los miembros de la familia se aleja.</p>
+</li>
+<li>
+<p>Prohibición. Recae una prohibición sobre el héroe.</p>
+</li>
+<li>
+<p>Transgresión. La prohibición es transgredida.</p>
+</li>
+<li>
+<p>Conocimiento. El antagonista entra en contacto con el héroe.</p>
+</li>
+<li>
+<p>Información. El antagonista recibe información sobre la víctima.</p>
+</li>
+<li>
+<p>Engaño. El antagonista engaña al héroe para apoderarse de él o de sus bienes.</p>
+</li>
+<li>
+<p>Complicidad. La víctima es engañada y ayuda así a su agresor a su pesar.</p>
+</li>
+<li>
+<p>Fechoría. El antagonista causa algún perjuicio a uno de los miembros de la familia.</p>
+</li>
+<li>
+<p>Mediación. La fechoría es hecha pública, se le formula al héroe una petición u orden, se le permite o se le obliga a marchar.</p>
+</li>
+<li>
+<p>Aceptación. El héroe decide partir.</p>
+</li>
+<li>
+<p>Partida. El héroe se marcha.</p>
+</li>
+<li>
+<p>Prueba. El donante somete al héroe a una prueba que le prepara para la recepción de una ayuda mágica.</p>
+</li>
+<li>
+<p>Reacción del héroe. El héroe supera o falla la prueba.</p>
+</li>
+<li>
+<p>Regalo. El héroe recibe un objeto mágico.</p>
+</li>
+<li>
+<p>Viaje. El héroe es conducido a otro reino, donde se halla el objeto de su búsqueda.</p>
+</li>
+<li>
+<p>Lucha. El héroe y su antagonista se enfrentan en combate directo.</p>
+</li>
+<li>
+<p>Marca. El héroe queda marcado.</p>
+</li>
+<li>
+<p>Victoria. El héroe derrota al antagonista.</p>
+</li>
+<li>
+<p>Enmienda. La fechoría inicial es reparada.</p>
+</li>
+<li>
+<p>Regreso. El héroe vuelve a casa.</p>
+</li>
+<li>
+<p>Persecución. El héroe es perseguido.</p>
+</li>
+<li>
+<p>Socorro. El héroe es auxiliado.</p>
+</li>
+<li>
+<p>Regreso de incógnito. El héroe regresa, a su casa o a otro reino, sin ser reconocido.</p>
+</li>
+<li>
+<p>Fingimiento. Un falso héroe reivindica los logros que no le corresponden.</p>
+</li>
+<li>
+<p>Tarea difícil. Se propone al héroe una difícil misión.</p>
+</li>
+<li>
+<p>Cumplimiento. El héroe lleva a cabo la difícil misión.</p>
+</li>
+<li>
+<p>Reconocimiento. El héroe es reconocido</p>
+</li>
+<li>
+<p>Desenmascaramiento. El falso queda en evidencia.</p>
+</li>
+<li>
+<p>Transfiguración. El héroe recibe una nueva apariencia.</p>
+</li>
+<li>
+<p>Castigo. El antagonista es castigado.</p>
+</li>
+<li>
+<p>Boda. El héroe se casa y asciende al trono.</p>
+</li>
+</ol>
+<hr>
+<h1 id="ejemplos-sobre-monomito">Ejemplos sobre Monomito</h1>
+<blockquote>
+<p><strong>Título</strong>: RPGs tradicionales</p>
+</blockquote>
+<blockquote>
+<p><strong>Año</strong>: 1992-1996 (app.) SNES, principalmente.</p>
+</blockquote>
+<blockquote>
+<p><strong>Modelo literario</strong>: Monomito (Joseph Campbell)</p>
+</blockquote>
+<p><strong>Fase 1: Presentación del mundo</strong></p>
+<p>El protagonista usual de los RPGs suele ser un muchacho serio y de pocas palabras, a veces huérfano o con una familia poco tradicional y un(a) mejor amigo(a), que vive en una aldea común y corriente, de características rurales.</p>
+<p>Lebowitz enfatiza en señalar que, aun cuando el entorno del protagonista sea fantástico para los videojugadores, esto no significa que necesariamente tenga que serlo para él. Para hacer más entendible esto, debemos recordar la definición de J.R.R Tolkien sobre los Mundos Secundarios: entornos ficcionales creados como universos autónomos respecto a la realidad (Mundo Primario), con sus propias leyes e idiosincrasias, y que son percibidas como tales por sus habitantes. La Tierra Media, aun cuando tenga resabios medievales, es un mundo que no tiene nada que ver con el nuestro.</p>
+<p>En un Mundo Secundario, entonces, vivirá el protagonista de los RPGs, de ahí que él perciba su entorno como “vulgar”. Esto será muy importante en el juego porque permitirá que nos adentremos en un universo nuevo a través del control del muchacho, quien, al ya conocer lo que lo rodea, nos entrega con más facilidad y naturalidad las características de ese mundo y de él mismo.</p>
+<p>Pese a lo anterior, esta fase no suele ser muy larga. Generalmente se restringe a deambular por la aldea natal o cumplir unas cuantas tareas menores.</p>
+<p><strong>Fase 2: El llamado a la aventura</strong></p>
+<p>Luego de conocer al protagonista y su entorno, se presenta algún elemento que irrumpe en la pacífica realidad del muchacho y que lo hace lanzarse a la aventura que, a la larga, constituirá el argumento central del RPG.</p>
+<p>El elemento en cuestión puede variar muchísimo según las circunstancias. Puede ser uno trágico (ej: destrucción de su pueblo), algo que fuerce al protagonista a abandonar casi todo lo que conoce, o puede tratarse de una energía positiva (ej: oír sobre un tesoro y querer obtenerlo a toda costa) que lo haga optar voluntariamente por abandonarlo todo.</p>
+<p>Este elemento puede o no tener relación con el arco argumental mayor, según la orientación narrativa del RPG. Si tiene relación, significa que la historia central se le presenta enseguida al héroe y al jugador, quien se hace una idea más o menos clara de aquello por lo que estará jugando, aun cuando lo más probable es que posteriormente se encuentre con sorpresas. Si no tiene relación, la historia mantendrá en vilo al jugador, si bien el héroe no estará consciente de eso.</p>
+<p>Como sea, esta fase es crucial para el RPG, porque arranca al héroe de su pasividad e introduce al jugador a la historia mayor. Generalmente, la fase se simboliza en el hecho de que el protagonista abandona la aldea y conoce el “mundo exterior”, que se le aparece como un mapa en donde su hogar es sólo un emplazamiento más. En el exterior, se verá por primera vez enfrentado a las primeras adversidades de su viaje, expresadas bajo la forma de combates (aleatorios o no).</p>
+<p>Variante: en algunos casos, se presenta una negación por parte del héroe hacia este llamado. Puede que se niegue al mandato de una deidad por rebeldía o temor, o que en la desesperación se sumerja en un estado depresivo. Sin embargo, el protagonista siempre termina aceptando el llamado, sea por las razones que sean. Cuando se presenta esta subfase, usualmente queda más clara la importancia de la aventura.</p>
+<p><strong>Fase 3: El primer umbral</strong></p>
+<p>Al principio de esta fase, una vez que el héroe ha salido al mundo exterior, conoce o entabla relación con una figura muy especial: el mentor o guía. Generalmente se trata de un hombre mayor (anciano) que representa la sabiduría y/o el poder del que el inexperimentado protagonista aún carece. Él le provee útil información sobre el mundo, los aspectos relevantes sobre su búsqueda y, a veces, incluso se le une al héroe en sus primeros combates. Cuando sucede esto último, el jugador constata explícitamente la superioridad de este personaje, pues suele tener un nivel y estatus altísimo en comparación con el héroe. El mentor vendría a representar, en parte, la fase original de Ayuda Sobrenatural propuesta por Campbell.</p>
+<p>Sin embargo, este personaje sólo acompaña al héroe en los primeros pasos. Ya sea porque se sacrifica en pos del protagonista, o porque estime que éste debe seguir adelante solo, los caminos de ambos se separan. Quizá el joven vuelva a encontrarse con él, pero ya no con la cercanía de antes.</p>
+<p>Cabe destacar que el mentor no necesariamente tiene que presentarse como un personaje siempre benéfico. Al ser poderoso y conocedor de muchos secretos, lo que tal vez puedan llevarlo a manipular al héroe sin que éste (o el jugador, al principio) lo sepa.</p>
+<p>Una vez separados los caminos de ambos, el héroe y su grupo inicial (si es que lo tiene) se ven enfrentados a su primer desafío real, aquel que invalidará todo titubeo de continuar y que reafirmará la voluntad de seguir adelante con la aventura. Este episodio se puede ver reflejado en el primer calabozo de envergadura, o en una prueba similar. Es recurrente que esto culmine con el enfrentamiento contra un jefe y, luego, con una revelación importante respecto al argumento.</p>
+<p><strong>Fase 4: El viaje</strong></p>
+<p>Esta fase comprende casi la totalidad del RPG, puesto que va desde aquella primera victoria significativa hasta el punto en que se alcanza el calabozo final. Es difícil, por tanto, resumir todos los episodios que podrían presentarse aquí (los que serán tema de otra entrada en este sitio), pero se pueden enunciar algunos muy frecuentes: descubrimiento del enemigo real, pérdida de algunos compañeros de equipo y/o reemplazo de estos, obtención de poderes o armas legendarias y necesarias para la victoria, traiciones de algunos personajes o revelaciones amorosas, afirmación de identidades, entre otros.</p>
+<p>Como sea, en esta fase siempre se termina revelando el argumento central –en caso de que aún no haya quedado claro– y la fuerza enemiga decisiva. Es decir, tanto el jugador como el equipo de héroes deben tener claro en este punto qué es lo que se está luchando y para qué.</p>
+<p><strong>Fase 5: El último calabozo</strong></p>
+<p>Esta fase, como el nombre lo sugiere, presenta un espacio que antecede el enfrentamiento o duelo final contra la fuerza enemiga. Puede ser una mazmorra típica o un laberinto: las formas y modelos son innumerables, pero casi todos tienen en común su gran complejidad y extensión, lo que termina debilitando al equipo de héroes e intensifica en el jugador la sensación de relevancia de este último episodio.</p>
+<p>Lo tradicional es que en este espacio ya no sucedan más vueltas de tuerca argumentales, pero también es posible que no sea así y que se sigan presentando elementos transgresores. Sea como sea, el último calabozo no sólo expone el desafío más difícil, sino que también resulta una demostración palmaria del crecimiento sicológico y físico del equipo de héroes.</p>
+<p>El calabozo desemboca siempre en el enfrentamiento final contra el Enemigo, que variará en características según sea el RPG, aunque generalmente se trata de una entidad gigantesca o de gran poder. Lo más destacable es que, para acentuar la complejidad de este último enfrentamiento, éste suele tener más de una fase, generalmente tres. En cada una de ellas el sistema de batalla cambia. Puede ser que el Enemigo vaya mutando de forma a una más poderosa o a una más débil. Incluso, hay casos en que la última fase es sinónimo de victoria y en donde sólo se tiene que resistir unos turnos más. Hay también casos en los que la última fase supone un enfrentamiento de uno contra uno, entre el protagonista y el Enemigo, o entre aquél y sus propios temores/flaquezas. Todo dependerá de la personalidad de los personajes, de las características del Mundo Secundario y el argumento central del RPG.</p>
+<p><strong>Fase 6: La victoria y el premio</strong></p>
+<p>Luego de resultar victorioso en el enfrentamiento decisivo, el equipo de héroes obtiene un premio cuya naturaleza dependerá del RPG. Por lo general, se trata de la obtención (más o menos exacta) de aquello por lo que los personajes habían decidido luchar, y que acostumbra a ser un elemento de enorme envergadura: la paz del mundo, el rescate o salvación de un personaje raptado o condenado, la restauración de un orden primordial o divino, etcétera.</p>
+<p>Por supuesto, no necesariamente tiene que ser todo exitoso. A veces aquello que los héroes buscaban no era lo más idóneo y trae sufrimiento o dolor, o no se alcanza el objetivo en toda su deseada plenitud. Incluso, hay casos en los que la derrota del Enemigo no supone el último escollo, sino la huida del calabozo en un tiempo dado.</p>
+<p>Casi siempre esta victoria se obtiene también con pesares. La muerte inesperada de algún compañero de equipo, una última revelación dolorosa, o cualquier elemento similar cuya importancia contribuya a dejar en el jugador una sensación agridulce y reflexiva respecto a su experiencia.</p>
+<p><strong>Fase 7: El regreso</strong></p>
+<p>Derrotado el Enemigo y/o huido del último calabozo, el equipo de héroes ha culminado el viaje y se ven en la necesidad de plantearse qué se hará a continuación. Por lo general, el grupo se disgrega y cada uno de ellos (o algunos) regresa a casa, a sus pueblos o a su propia realidad, en caso de ser un personaje proveniente de un mundo distinto. Esto da pie para emotivas secuencias de despedida, en donde se refuerzan los lazos de amistad y cariño a pesar de la distancia.</p>
+<p>A veces se insinúa que, después de semejante experiencia, no hay regreso alguno, ya sea físico o sicológico. Este es un caso poco frecuente y que sólo aparece en aquellos RPG de planteamientos argumentales más complejos y filosóficos.</p>
+<p>En la mayoría de los RPG, sin embargo, hay por lo menos una pequeña escena que introduce el regreso al hogar o la cotidianidad abandonada, aunque preservando lo aprendido en la aventura. Hay casos en donde los héroes renuncian o retornan el poder obtenido a lo largo del viaje a sus fuentes originales, dejando en suspenso también sus condiciones heroicas.</p>
+<p>Es frecuente también la exhibición de pequeñas escenas en donde se muestra el amarre de los últimos cabos sueltos de la historia, o de lo que ha pasado con los NPC (personajes que no se pueden controlar y que tienen roles secundarios en la historia) en ese tiempo.</p>
+<p>Una técnica narrativa muy frecuente y práctica en los RPG es mostrar escenas más o menos estáticas en la pantalla de los créditos, exponiendo estos episodios. La técnica también se usa para reproducir la mayor parte de las aventuras por las que han pasado los héroes, lo que le recuerda al jugador las dimensiones reales del viaje que ha emprendido con los personajes.</p>
+<hr>
+<p><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://lanarrativarpg.blogspot.com.es/2011/10/articulo-la-estructura-monomitica-en.html" target="_blank" rel="noopener noreffer ">Referencia</a></p>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

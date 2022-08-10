@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MVC simplificado - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="MVC simplificado" />
+<meta property="og:description" content="Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patrón de diseño, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+Cuanto más grande es el proyecto, más grande es el espagueti.
+Snake Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2017/dev/014/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-11-07T22:18:34+01:00" />
+<meta property="article:modified_time" content="2017-11-07T22:18:34+01:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="MVC simplificado"/>
+<meta name="twitter:description" content="Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patrón de diseño, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+Cuanto más grande es el proyecto, más grande es el espagueti.
+Snake Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2017/dev/014/" /><link rel="prev" href="https://moonantonio.github.io/posts/2017/comun/022/" /><link rel="next" href="https://moonantonio.github.io/posts/2017/comun/023/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "MVC simplificado",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/014\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  2928 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2017\/dev\/014\/","datePublished": "2017-11-07T22:18:34+01:00","dateModified": "2017-11-07T22:18:34+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-3" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b040.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">MVC simplificado</h1><div class="content" id="content"><p>Los <strong>programadores principiantes</strong> generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, <strong>sin un patrón de diseño</strong>, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa <strong>una lección importante</strong>:</p>
+<p>Cuanto más grande es el proyecto, más grande es el espagueti.</p>
+<figure><a class="lightgallery" href="/img/c/mvc01.jpg" title="/img/c/mvc01.jpg" data-thumbnail="/img/c/mvc01.jpg" data-sub-html="<h2>Snake</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc01.jpg"
+            data-srcset="/img/c/mvc01.jpg, /img/c/mvc01.jpg 1.5x, /img/c/mvc01.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc01.jpg" />
+    </a><figcaption class="image-caption">Snake</figcaption>
+    </figure>
+<hr>
+<p>Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca. El código debe <strong>mantenerse</strong> y puede durar mucho tiempo. Las empresas para las que ha trabajado no pueden simplemente buscar su información de contacto y preguntarle cada vez que quieren corregir o mejorar la base de código (y tampoco desean que lo hagan).</p>
+<p>Es por eso que existen <strong>patrones de diseño</strong> de software, imponen reglas simples para dictar la estructura general de un proyecto de software. Ayudan a uno o más programadores a separar las piezas principales de un proyecto grande y organizarlas de manera estandarizada, eliminando la confusión cuando se encuentra una parte desconocida de la base de código.</p>
+<figure><a class="lightgallery" href="/img/c/mvc02.jpg" title="/img/c/mvc02.jpg" data-thumbnail="/img/c/mvc02.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc02.jpg"
+            data-srcset="/img/c/mvc02.jpg, /img/c/mvc02.jpg 1.5x, /img/c/mvc02.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc02.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<hr>
+<p>Estas reglas, cuando son seguidas por todos, <strong>permiten que el código heredado se mantenga</strong> y navegue mejor y que el código nuevo se agregue más rápidamente. Se gasta menos tiempo planificando la metodología de desarrollo. Uno debe considerar cuidadosamente los puntos fuertes y débiles de cada patrón, y encontrar la mejor opción para el desafío en cuestión.</p>
+<p>Relataré mi experiencia con el desarrollo de juegos Unity y el patrón Model-View-Controller (MVC) para el desarrollo de juegos. En mis siete años de desarrollo, habiendo luchado con <strong>mi parte justa de espagueti de desarrollo de juegos</strong>, he logrado una gran estructura de código y velocidad de desarrollo usando este patrón de diseño.</p>
+<p>Empezaré explicando un poco de la arquitectura base de Unity, el patrón Entity-Component. Luego continuaré explicando cómo se ajusta MVC en la capa superior de la misma, y ​​usaré un pequeño proyecto simulado como ejemplo.</p>
+<h1 id="motivación">Motivación</h1>
+<p>En la <strong>literatura del software</strong> encontraremos una gran cantidad de <strong>patrones de diseño</strong>. A pesar de que tienen un conjunto de reglas, los desarrolladores usualmente harán un poco de flexión de reglas para <strong>adaptar mejor el patrón a su problema</strong> específico.</p>
+<p>Esta <strong>&ldquo;libertad de programación&rdquo;</strong> es una prueba de que aún no hemos encontrado <strong>un método único</strong> y definitivo para diseñar software. Por lo tanto, este artículo <strong>no pretende ser la solución definitiva</strong> para su problema, sino más bien, para mostrar los beneficios y las posibilidades de dos patrones bien conocidos: <strong>Entity-Component</strong> y <strong>Model-View-Controller</strong>.</p>
+<hr>
+<h1 id="el-patrón-de-entity-componententidad-componente">El patrón de Entity-Component(Entidad-Componente)</h1>
+<p>Entity-Component (EC) es un <strong>patrón de diseño</strong> donde primero definimos la <strong>jerarquía de los elementos</strong> que componen la aplicación (Entidades), y luego, definimos las <strong>características y los datos</strong> que cada uno contendrá (Componentes). En términos más de &ldquo;programadores&rdquo;, una entidad puede ser un objeto con una matriz de 0 o más componentes. Vamos a representar una entidad como esta:</p>
+<div class="typeit"><div id="id-1" class="highlight"></div></div>
+
+<p>Aquí hay un ejemplo simple de un árbol EC.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="p">-</span> <span class="n">app</span> <span class="p">[</span><span class="n">Aplicacion</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">   <span class="p">-</span> <span class="n">game</span> <span class="p">[</span><span class="n">Game</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="p">-</span> <span class="n">player</span> <span class="p">[</span><span class="n">KeyboardInput</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="p">-</span> <span class="n">enemigos</span>
+</span></span><span class="line"><span class="cl">         <span class="p">-</span> <span class="n">araña</span> <span class="p">[</span><span class="n">ArañaAI</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="p">-</span> <span class="n">ogro</span> <span class="p">[</span><span class="n">OgreAI</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="p">-</span> <span class="n">ui</span> <span class="p">[</span><span class="n">UI</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="p">-</span> <span class="n">hud</span> <span class="p">[</span><span class="n">HUD</span><span class="p">,</span> <span class="n">MouseInput</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="p">-</span> <span class="n">pause</span><span class="p">-</span><span class="n">menu</span> <span class="p">[</span><span class="n">PauseMenu</span><span class="p">,</span> <span class="n">MouseInput</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="p">-</span> <span class="n">victory</span><span class="p">-</span><span class="n">modal</span> <span class="p">[</span><span class="n">VictoryModal</span><span class="p">,</span> <span class="n">MouseInput</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">         <span class="p">-</span> <span class="n">defeat</span><span class="p">-</span><span class="n">modal</span> <span class="p">[</span><span class="n">DefeatModal</span><span class="p">,</span> <span class="n">MouseInput</span><span class="p">,</span> <span class="n">Renderer</span><span class="p">]</span>
+</span></span></code></pre></div><p>EC <strong>es un buen patrón</strong> para aliviar los problemas de herencia múltiple, donde una estructura de clase compleja puede introducir problemas como el <strong>problema de diamante</strong> donde una clase D, heredando dos clases, B y C, con la misma clase base A, puede introducir conflictos porque B y C modifican las características de A de manera diferente.</p>
+<figure><a class="lightgallery" href="/img/c/mvc03.jpg" title="/img/c/mvc03.jpg" data-thumbnail="/img/c/mvc03.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc03.jpg"
+            data-srcset="/img/c/mvc03.jpg, /img/c/mvc03.jpg 1.5x, /img/c/mvc03.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc03.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Este tipo de problemas pueden ser comunes en el desarrollo de juegos donde la herencia se usa a menudo extensivamente.</p>
+<p>Al desglosar las características y los manejadores de datos en componentes más pequeños, se pueden adjuntar y reutilizar en diferentes entidades sin depender de la herencia múltiple (que, dicho sea de paso, ni siquiera es una característica de C# o Javascript, los principales idiomas utilizados por Unity)</p>
+<h3 id="donde-el-componente-de-la-entidad-se-queda-corto">Donde el componente de la entidad se queda corto</h3>
+<p>Viendo un <strong>nivel por encima de POO</strong>, EC ayuda a <strong>desfragmentar y organizar mejor la arquitectura</strong> de su código. Sin embargo, en proyectos grandes todavía somos &ldquo;demasiado libres&rdquo; y podemos encontrarnos en un &ldquo;océano de características&rdquo;, teniendo dificultades para encontrar las Entidades y Componentes correctos, o averiguando cómo deben interactuar. Hay infinitas formas de ensamblar entidades y componentes para una tarea determinada.</p>
+<figure><a class="lightgallery" href="/img/c/mvc04.jpg" title="/img/c/mvc04.jpg" data-thumbnail="/img/c/mvc04.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc04.jpg"
+            data-srcset="/img/c/mvc04.jpg, /img/c/mvc04.jpg 1.5x, /img/c/mvc04.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc04.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<hr>
+<p>Una forma de <strong>evitar un desastre</strong> es imponer algunas pautas adicionales sobre Entity-Component. Por ejemplo, una forma en que <strong>me gusta pensar</strong> sobre el software es dividirlo en tres categorías diferentes:</p>
+<ul>
+<li>Algunos manejan los <strong>datos brutos</strong>, lo que permite su creación, lectura, actualización, eliminación o búsqueda (es decir, el concepto CRUD ).</li>
+<li>Otros implementan la <strong>interfaz</strong> para que interactúen otros elementos, detectando eventos relacionados con su alcance y disparando notificaciones cuando ocurren.</li>
+<li>Finalmente, algunos elementos son responsables de <strong>recibir estas notificaciones</strong>, tomar decisiones de lógica y decidir cómo se deben manipular los datos.</li>
+</ul>
+<p>Afortunadamente, ya tenemos un patrón que se comporta de esta manera exacta.</p>
+<h1 id="el-patrón-model-view-controller-modelo-vista-controlador-mvc">El patrón Model-View-Controller (Modelo-Vista-Controlador) (MVC)</h1>
+<p>El patrón Model-View-Controller (MVC) <strong>divide el software en tres componentes</strong> principales: <strong>Modelos</strong> (CRUD de datos), <strong>Vistas</strong> (Interfaz / Detección) y <strong>Controladores</strong> (Decisión / Acción). MVC es lo suficientemente flexible como para implementarse incluso en ECS o POO.</p>
+<p>El desarrollo del juego y la interfaz de usuario tiene el flujo de trabajo habitual de esperar la entrada de un usuario u otra condición desencadenante, el envío de notificaciones de esos eventos en algún lugar, decidir qué hacer en respuesta y actualizar los datos en consecuencia. Estas acciones muestran claramente la compatibilidad de estas aplicaciones con MVC.</p>
+<p>Esta <strong>metodología introduce otra capa de abstracción</strong> que ayudará con la planificación del software, y también permitirá a los nuevos programadores navegar incluso en una base de código más grande. Al dividir el proceso de pensamiento en datos, interfaz y decisiones, los desarrolladores pueden <strong>reducir el número de archivos fuente</strong> que se deben buscar para agregar o corregir la funcionalidad.</p>
+<h3 id="unity-y-ec">Unity y EC</h3>
+<p>Primero veamos de cerca lo que Unity nos da por adelantado.</p>
+<p>Unity es una plataforma de desarrollo <strong>basada en CE</strong>, donde todas las entidades son instancias GameObject y las características que las hacen ser &ldquo;visibles&rdquo;, &ldquo;movibles&rdquo;, &ldquo;interactivas&rdquo;, etc., son proporcionadas por las clases que se extienden <code>&lt;Component&gt;</code>.</p>
+<p>El panel de jerarquía y el panel Inspector del editor de Unity proporcionan una forma poderosa de ensamblar su aplicación, adjuntar componentes, configurar su estado inicial y arrancar su juego con mucho menos código fuente de lo que lo haría normalmente.</p>
+<p>Aún así, como hemos discutido, podemos abordar el problema de las &ldquo;demasiadas características&rdquo; y nos encontramos en una jerarquía gigantesca, con características diseminadas por todas partes, lo que hace que la vida de un desarrollador sea mucho más difícil.</p>
+<p>Pensando de la manera MVC, podemos, en cambio, comenzar <strong>dividiendo las cosas según su función</strong>, estructurando nuestra aplicación.</p>
+<h3 id="adaptación-de-mvc-a-un-entorno-de-desarrollo-de-juegos">Adaptación de MVC a un entorno de desarrollo de juegos</h3>
+<p>Ahora, me gustaría introducir dos pequeñas modificaciones en el patrón MVC genérico, que ayudan a <strong>adaptarlo a las situaciones únicas</strong> en las que me he encontrado construyendo proyectos de Unity con MVC:</p>
+<p>1- Las referencias de la clase MVC se dispersan fácilmente por todo el código.</p>
+<ul>
+<li>Dentro de Unity, los desarrolladores generalmente deben arrastrar y soltar instancias para hacer que sean accesibles, o bien llegar a ellos a través de sentencias como find, GetComponent( &hellip; ).</li>
+<li>El infierno de referencia perdida se producirá si la Unidad se bloquea o algún error hace desaparecer todas las referencias arrastradas.</li>
+<li>Esto hace que sea necesario tener un único objeto de referencia raíz, a través del cual se puede llegar y recuperar a todas las instancias en la Aplicación .</li>
+</ul>
+<p>2- Algunos elementos encapsulan funcionalidades generales que deberían ser altamente reutilizables, y que naturalmente no entran en una de las tres categorías principales de Modelo, Vista o Controlador. A estos me gusta llamarlos simplemente Componentes . También son &ldquo;Componentes&rdquo; en el sentido Entidad-Componente, pero simplemente actúan como ayudantes en el marco MVC.</p>
+<ul>
+<li>Por ejemplo, un Rotator Componente, que solo rota cosas con una velocidad angular determinada y no notifica, almacena ni decide nada.</li>
+</ul>
+<p>Para ayudar a aliviar estos dos problemas, se me ocurrió un patrón modificado que llamo AMVCC , o Application-Model-View-Controller-Component.</p>
+<figure><a class="lightgallery" href="/img/c/mvc05.jpg" title="/img/c/mvc05.jpg" data-thumbnail="/img/c/mvc05.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc05.jpg"
+            data-srcset="/img/c/mvc05.jpg, /img/c/mvc05.jpg 1.5x, /img/c/mvc05.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc05.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<ul>
+<li>Aplicación : punto de <strong>entrada único para su aplicación</strong> y contenedor de todas las instancias críticas y datos relacionados con la aplicación.</li>
+<li>MVC : ya deberías saber esto. :)</li>
+<li>Componente : scripts pequeños y bien contenidos que pueden <strong>reutilizarse</strong>.</li>
+</ul>
+<p>Estas dos modificaciones han satisfecho mis necesidades para todos los proyectos en los que los he usado.</p>
+<h2 id="ejemplo-10-bounces">Ejemplo: 10 Bounces</h2>
+<p>Como un simple ejemplo, veamos un pequeño juego llamado 10 Bounces , donde usaré los elementos centrales del patrón AMVCC.</p>
+<p>La configuración del juego es simple: Un Ball con un SphereCollider y un Rigidbody(que comenzará a caer después de &ldquo;Jugar&rdquo;), un Cube como suelo y 5 scripts para componer el AMVCC.</p>
+<h3 id="jerarquía">Jerarquía</h3>
+<p>Antes de crear scripts, generalmente comienzo en la jerarquía y creo un esquema de mi clase y mis recursos. Siempre siguiendo este nuevo estilo AMVCC.</p>
+<figure><a class="lightgallery" href="/img/c/mvc06.jpg" title="/img/c/mvc06.jpg" data-thumbnail="/img/c/mvc06.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc06.jpg"
+            data-srcset="/img/c/mvc06.jpg, /img/c/mvc06.jpg 1.5x, /img/c/mvc06.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc06.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Como podemos ver, view GameObject contiene todos los elementos visuales y también los que tienen otros View scripts. El <strong>model y controller</strong> GameObjects, para proyectos pequeños, por lo general contienen solo sus respectivos scripts. Para proyectos más grandes, contendrán GameObjects con scripts más específicos.</p>
+<p>Cuando alguien que navega por tu proyecto quiere acceder:</p>
+<ul>
+<li>Datos: ir a application &gt; model &gt; &hellip;</li>
+<li>Lógica/Workflow: ir a application &gt; controller &gt; &hellip;</li>
+<li>Representación/Interfaz/Detección: ir a application &gt; view &gt; &hellip;</li>
+</ul>
+<p>Si todos los equipos siguen <strong>estas simples reglas</strong>, los proyectos heredados no deberían convertirse en un problema.</p>
+<p>Tenga en cuenta que no hay componentes contenedores, como ya hemos comentado, son más flexibles y se pueden unir a diferentes elementos en el ocio del desarrollador.</p>
+<h3 id="scripting">Scripting</h3>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Nota<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Los scripts que se muestran a continuación son versiones abstractas de implementaciones del mundo real. Una implementación detallada no beneficiaría mucho al lector.</div>
+        </div>
+    </div>
+<p>Echemos un vistazo a la estructura de los scripts para el ejemplo.</p>
+<p>Antes de comenzar, para aquellos que no estén familiarizados con el <strong>flujo de trabajo de Unity</strong>, aclaremos brevemente cómo funcionan los scripts y GameObjects juntos. En Unity, los &ldquo;Componentes&rdquo;, en el sentido Entidad-Componente, están representados por la clase MonoBehaviour. Para que uno exista durante el tiempo de ejecución, el desarrollador debe arrastrar y soltar su archivo fuente en un GameObject (que es la &ldquo;Entidad&rdquo; del patrón Entidad-Componente) o usar el comando <code>AddComponent&lt;TuMonobehaviour&gt;()</code>. Después de esto, el script será instanciado y listo para usar <strong>durante la ejecución</strong>.</p>
+<p>Para comenzar, <strong>definimos la clase de aplicación</strong> (la &ldquo;A&rdquo; en AMVCC), que será la clase principal que contiene referencias a todos los elementos del juego instanciados. También crearemos una clase base auxiliar llamada Element, que nos da acceso a la instancia de la Aplicación y a sus instancias MVC hijos.</p>
+<p>Con esto en mente, definamos la clase Application (la &ldquo;A&rdquo; en AMVCC), que tendrá una instancia única. En su interior, tres variables, model, view, y controller, nos darán puntos de acceso para todas las instancias de MVC en tiempo de ejecución. Estas variables deben ser MonoBehaviours con public referencias a los scripts deseados.</p>
+<p>Luego, también <strong>crearemos una clase base auxiliar llamada Element</strong>, que nos da acceso a la instancia de la Aplicación. Este acceso permitirá que cada clase MVC llegue a todos los demás.</p>
+<p>Tenga en cuenta que ambas clases extienden MonoBehaviour. Son &ldquo;Componentes&rdquo; que se adjuntarán a &ldquo;Entidades&rdquo; de GameObject.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// BounceApplication.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Clase base para todos los elementos en esta aplicación.</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BounceElement</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Da acceso a la aplicación y a todas las instancias.</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="n">BounceApplication</span> <span class="n">app</span> <span class="p">{</span> <span class="k">get</span> <span class="p">{</span> <span class="k">return</span> <span class="n">GameObject</span><span class="p">.</span><span class="n">FindObjectOfType</span><span class="p">&lt;</span><span class="n">BounceApplication</span><span class="p">&gt;();</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 10 Bounces Punto de Entrada.</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BounceApplication</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Referencia a las instancias de raíz del MVC.</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="n">BounceModel</span> <span class="n">model</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="n">BounceView</span> <span class="n">view</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="n">BounceController</span> <span class="n">controller</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   <span class="c1">// Init</span>
+</span></span><span class="line"><span class="cl">   <span class="k">void</span> <span class="n">Start</span><span class="p">()</span> <span class="p">{</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Desde BounceElement podemos crear las clases principales de MVC. Las BounceModel, BounceView y BounceController, los <strong>scripts suelen actuar como contenedores</strong> para los casos más especializados, pero ya que este es un ejemplo sencillo sólo la vista tendrá una estructura anidada. El Modelo y el Controlador se p<strong>ueden hacer en un script</strong> para cada uno:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// BounceModel.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Contiene todos los datos relacionados con la aplicación.</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BounceModel</span> <span class="p">:</span> <span class="n">BounceElement</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Data</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="kt">int</span> <span class="n">bounces</span><span class="p">;</span>	
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="kt">int</span> <span class="n">winCondition</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// BounceView .cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Contiene todas las vistas relacionadas con la aplicación.</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BounceView</span> <span class="p">:</span> <span class="n">BounceElement</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Referencia a la pelota</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="n">BallView</span> <span class="n">ball</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// BallView.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Describe la vista Bola y sus características.</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BallView</span> <span class="p">:</span> <span class="n">BounceElement</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Solo esto es necesario. La física hace el resto del trabajo.</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Callback colision</span>
+</span></span><span class="line"><span class="cl">   <span class="k">void</span> <span class="n">OnCollisionEnter</span><span class="p">()</span> <span class="p">{</span> <span class="n">app</span><span class="p">.</span><span class="n">controller</span><span class="p">.</span><span class="n">OnBallGroundHit</span><span class="p">();</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// BounceController.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Controla el flujo de trabajo de la aplicación.</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BounceController</span> <span class="p">:</span> <span class="n">BounceElement</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Handles el evento de pelota golpeada</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="k">void</span> <span class="n">OnBallGroundHit</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">   <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">bounces</span><span class="p">++;</span>
+</span></span><span class="line"><span class="cl">      <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="err">“</span><span class="n">Bounce</span> <span class="err">”</span> <span class="p">+</span> <span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">bounce</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span><span class="p">(</span><span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">bounces</span> <span class="p">&gt;=</span> <span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">winCondition</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="n">app</span><span class="p">.</span><span class="n">view</span><span class="p">.</span><span class="n">ball</span><span class="p">.</span><span class="n">enabled</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">         <span class="n">app</span><span class="p">.</span><span class="n">view</span><span class="p">.</span><span class="n">ball</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">RigidBody</span><span class="p">&gt;().</span><span class="n">isKinematic</span><span class="p">=</span><span class="k">true</span><span class="p">;</span> <span class="c1">// stops the ball</span>
+</span></span><span class="line"><span class="cl">         <span class="n">OnGameComplete</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>	
+</span></span><span class="line"><span class="cl">   <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   <span class="c1">// Handles la condición de victoria</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="k">void</span> <span class="n">OnGameComplete</span><span class="p">()</span> <span class="p">{</span> <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="err">“</span><span class="n">Victoria</span><span class="p">!!</span><span class="err">”</span><span class="p">);</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Con todos los scripts creados, podemos proceder a adjuntarlos y configurarlos.</p>
+<p>El diseño de la jerarquía debería ser así:</p>
+<pre tabindex="0"><code>- application [BounceApplication]
+    - model [BounceModel]
+    - controller [BounceController]
+    - view [BounceView]
+        - ...
+        - ball [BallView]
+        - ...
+</code></pre><p>Usando BounceModel como ejemplo, podemos ver cómo se ve en el editor de Unity:</p>
+<figure><a class="lightgallery" href="/img/c/mvc07.jpg" title="/img/c/mvc07.jpg" data-thumbnail="/img/c/mvc07.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/mvc07.jpg"
+            data-srcset="/img/c/mvc07.jpg, /img/c/mvc07.jpg 1.5x, /img/c/mvc07.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/mvc07.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>Con todos los scripts configurados y el juego funcionando, deberíamos obtener una salida en el panel de la consola .</p>
+<h3 id="notificaciones">Notificaciones</h3>
+<p>Como se muestra en el ejemplo anterior, cuando la pelota <strong>toca el suelo se ejecuta su vista</strong>, app.controller.OnBallGroundHit() que es un método. No es, de ninguna manera, &ldquo;incorrecto&rdquo; hacer eso para todas las notificaciones en la aplicación. Sin embargo, en mi experiencia, he logrado mejores resultados <strong>utilizando un sistema de notificación simpl</strong>e implementado en la clase de aplicación AMVCC.</p>
+<p>Para implementar eso, actualicemos el diseño del BounceApplication:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// BounceApplication.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">BounceApplication</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Itera todos los Controladores y delega los datos de notificación</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// Este método se puede encontrar fácilmente porque cada clase es &#34;BounceElement&#34; y </span>
+</span></span><span class="line"><span class="cl">   <span class="c1">// tiene una instancia de &#34;aplicación&#34;.</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="k">void</span> <span class="n">Notify</span><span class="p">(</span><span class="kt">string</span> <span class="n">p_event_path</span><span class="p">,</span> <span class="n">Object</span> <span class="n">p_target</span><span class="p">,</span> <span class="k">params</span> <span class="kt">object</span><span class="p">[]</span> <span class="n">p_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">BounceController</span><span class="p">[]</span> <span class="n">controller_list</span> <span class="p">=</span> <span class="n">GetAllControllers</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="k">foreach</span><span class="p">(</span><span class="n">BounceController</span> <span class="n">c</span> <span class="k">in</span> <span class="n">controller_list</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="n">c</span><span class="p">.</span><span class="n">OnNotification</span><span class="p">(</span><span class="n">p_event_path</span><span class="p">,</span><span class="n">p_target</span><span class="p">,</span><span class="n">p_data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">   <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   <span class="c1">// Obtiene todos los controladores de escena.</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="n">BounceController</span><span class="p">[]</span> <span class="n">GetAllControllers</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>A continuación, necesitamos un nuevo script donde todos los desarrolladores agregarán los nombres del evento de notificación, que se pueden enviar durante la ejecución.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// BounceNotifications.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Esta clase dará acceso estático a las cadenas de eventos.</span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">BounceNotification</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="k">static</span> <span class="k">public</span> <span class="kt">string</span> <span class="n">BallHitGround</span> <span class="p">=</span> <span class="err">“</span><span class="n">ball</span><span class="p">.</span><span class="n">hit</span><span class="p">.</span><span class="n">ground</span><span class="err">”</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="k">static</span> <span class="k">public</span> <span class="kt">string</span> <span class="n">GameComplete</span>  <span class="p">=</span> <span class="err">“</span><span class="n">game</span><span class="p">.</span><span class="n">complete</span><span class="err">”</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="cm">/* ...  */</span>
+</span></span><span class="line"><span class="cl">   <span class="k">static</span> <span class="k">public</span> <span class="kt">string</span> <span class="n">GameStart</span>     <span class="p">=</span> <span class="err">“</span><span class="n">game</span><span class="p">.</span><span class="n">start</span><span class="err">”</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="k">static</span> <span class="k">public</span> <span class="kt">string</span> <span class="n">SceneLoad</span>     <span class="p">=</span> <span class="err">“</span><span class="n">scene</span><span class="p">.</span><span class="n">load</span><span class="err">”</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="cm">/* ... */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Es fácil ver que, de esta forma, <strong>se mejora la legibilidad del código</strong> porque los desarrolladores no necesitan buscar en todo el código fuente los métodos controller.OnSomethingComplexName para comprender qué tipo de acciones pueden ocurrir durante la ejecución. Al solo verificar un archivo, es posible comprender el comportamiento general de la aplicación.</p>
+<p>Ahora, solo tenemos que <strong>adaptar</strong> el BallView y BounceController para manejar este nuevo sistema.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// BallView.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BallView</span> <span class="p">:</span> <span class="n">BounceElement</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="k">void</span> <span class="n">OnCollisionEnter</span><span class="p">()</span> <span class="p">{</span> <span class="n">app</span><span class="p">.</span><span class="n">Notify</span><span class="p">(</span><span class="n">BounceNotification</span><span class="p">.</span><span class="n">BallHitGround</span><span class="p">,</span><span class="k">this</span><span class="p">);</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// BounceController.cs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">BounceController</span> <span class="p">:</span> <span class="n">BounceElement</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="k">public</span> <span class="k">void</span> <span class="n">OnNotification</span><span class="p">(</span><span class="kt">string</span> <span class="n">p_event_path</span><span class="p">,</span><span class="n">Object</span> <span class="n">p_target</span><span class="p">,</span><span class="k">params</span> <span class="kt">object</span><span class="p">[]</span> <span class="n">p_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">switch</span><span class="p">(</span><span class="n">p_event_path</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="k">case</span> <span class="n">BounceNotification</span><span class="p">.</span><span class="n">BallHitGround</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">bounces</span><span class="p">++;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="err">“</span><span class="n">Bounce</span> <span class="err">”</span><span class="p">+</span><span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">bounce</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">bounces</span> <span class="p">&gt;=</span> <span class="n">app</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">winCondition</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">               <span class="n">app</span><span class="p">.</span><span class="n">view</span><span class="p">.</span><span class="n">ball</span><span class="p">.</span><span class="n">enabled</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">               <span class="n">app</span><span class="p">.</span><span class="n">view</span><span class="p">.</span><span class="n">ball</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">RigidBody</span><span class="p">&gt;().</span><span class="n">isKinematic</span><span class="p">=</span><span class="k">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">               <span class="n">app</span><span class="p">.</span><span class="n">Notify</span><span class="p">(</span><span class="n">BounceNotification</span><span class="p">.</span><span class="n">GameComplete</span><span class="p">,</span><span class="k">this</span><span class="p">);</span>            
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">         <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">         
+</span></span><span class="line"><span class="cl">         <span class="k">case</span> <span class="n">BounceNotification</span><span class="p">.</span><span class="n">GameComplete</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="err">“</span><span class="n">Victoria</span><span class="p">!!</span><span class="err">”</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">         <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>	
+</span></span><span class="line"><span class="cl">   <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Los <strong>proyectos más grandes tendrán muchas notificaciones</strong>. Por lo tanto, para evitar tener una gran estructura de switch-case, es aconsejable <strong>crear diferentes controladores</strong> y hacer que manejen diferentes ámbitos de notificación.</p>
+<h2 id="reglas-de-oro">Reglas de oro</h2>
+<p><strong>No hay ninguna &ldquo;Guía universal para la clasificación de MVC&rdquo;</strong> en ninguna parte. Pero hay algunas reglas simples que normalmente sigo para ayudarme a determinar si se debe definir algo como Modelo, Vista o Controlador, y también cuándo dividir una clase determinada en partes más pequeñas.</p>
+<p>Por lo general, esto sucede de <strong>forma orgánica mientras pienso en la arquitectura del software</strong> o durante la creación de scripts.</p>
+<p>y vuelvo a decir, es mi opinion, no algo universal.</p>
+<h2 id="clasificación-de-clase">Clasificación de clase</h2>
+<p><strong>Modelos</strong></p>
+<ul>
+<li>Mantenga los datos básicos y el estado de la aplicación, como jugador vida arma &hellip;</li>
+<li>Serializar, deserializar y/o convertir entre tipos.</li>
+<li>Cargar/guardar datos (localmente o en la web).</li>
+<li>Notificar a los controladores el progreso de las operaciones.</li>
+<li>Almacene el estado del juego para la máquina de estados finitos del juego.</li>
+<li>Nunca acceda a Vistas.</li>
+</ul>
+<p><strong>Vista</strong></p>
+<ul>
+<li>Puede obtener datos de los Modelos para representar el estado del juego actualizado para el usuario. Por ejemplo, un método de Vista player.Run()puede usar internamente model.speed para manifestar las habilidades del jugador.</li>
+<li>Nunca debería mutilar los modelos.</li>
+<li>Implementa estrictamente las funcionalidades de su clase.</li>
+</ul>
+<p><strong>Controladores</strong></p>
+<ul>
+<li>No almacene datos básicos.</li>
+<li>A veces puede filtrar las notificaciones de Vistas no deseadas.</li>
+<li>Actualice y use los datos del Modelo.</li>
+<li>Gestiona el flujo de trabajo de escena de Unity.</li>
+</ul>
+<h1 id="conclusión">Conclusión</h1>
+<p>Hay toneladas de <strong>patrones de software</strong> por ahí. En este post intenté <strong>mostrar el que más me ayudó en proyectos</strong> anteriores. Los desarrolladores siempre deben absorber el conocimiento nuevo, pero siempre <strong>deberan cuestionarlo</strong> también. Espero que sirva como un trampolín a medida que desarrolles tu propio estilo.</p>
+<p>Además, realmente te animo a <strong>buscar otros patrones</strong> y encontrar el que más te convenga. Un buen punto de partida es [este artículo de Wikipedia][1] , con su excelente lista de patrones y sus características.</p>
+<hr>
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Habilidad Especial Dsbloqueada<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Juegos de Unity con el patrón MVC.</div>
+        </div>
+    </div>
+<hr>
+<!-- raw HTML omitted -->
+
+<a  href="https://bit.ly/3z1OdYu" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":["\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e","\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"n\"\u003eentidad\u003c/span\u003e \u003cspan class=\"p\"\u003e[\u003c/span\u003e\u003cspan class=\"n\"\u003ecomponente0\u003c/span\u003e\u003cspan class=\"p\"\u003e,\u003c/span\u003e \u003cspan class=\"n\"\u003ecomponente1\u003c/span\u003e\u003cspan class=\"p\"\u003e,\u003c/span\u003e \u003cspan class=\"p\"\u003e...]\u003c/span\u003e","\u003c/span\u003e\u003c/span\u003e"],"id-2":" Antonio Moon","id-3":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"],"id-3":["id-3"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Enums y Flags - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Enums y Flags" />
+<meta property="og:description" content="Mencionamos brevemente los enums en nuestra última lección, por lo que sentí que ahora sería un buen momento para tratarla en mayor profundidad. Al mismo tiempo, podemos ampliar el tema e introducir Flags (máscaras de bits). Algo de esto se profundiza en el lado nerd de la programación, pero intentaré que todo sea fácil de entender.
+GitHubGitlabEl tipo &ldquo;Enum&rdquo; Primero introduje la enumeración en la lección anterior con la configuración de &ldquo;Difficulties&rdquo;:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/010/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-25T14:38:15+02:00" />
+<meta property="article:modified_time" content="2018-08-25T14:38:15+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Enums y Flags"/>
+<meta name="twitter:description" content="Mencionamos brevemente los enums en nuestra última lección, por lo que sentí que ahora sería un buen momento para tratarla en mayor profundidad. Al mismo tiempo, podemos ampliar el tema e introducir Flags (máscaras de bits). Algo de esto se profundiza en el lado nerd de la programación, pero intentaré que todo sea fácil de entender.
+GitHubGitlabEl tipo &ldquo;Enum&rdquo; Primero introduje la enumeración en la lección anterior con la configuración de &ldquo;Difficulties&rdquo;:"/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/010/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/009/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/011/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Enums y Flags",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/010\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  1627 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/010\/","datePublished": "2018-08-25T14:38:15+02:00","dateModified": "2018-08-25T14:38:15+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Enums y Flags</h1><div class="content" id="content"><p>Mencionamos brevemente los enums en nuestra última lección, por lo que sentí que ahora sería un buen momento para tratarla en mayor profundidad. Al mismo tiempo, podemos ampliar el tema e introducir Flags (máscaras de bits). Algo de esto se profundiza en el lado nerd de la programación, pero intentaré que todo sea fácil de entender.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h1 id="el-tipo-enum">El tipo &ldquo;Enum&rdquo;</h1>
+<p>Primero introduje la enumeración en la lección anterior con la configuración de &ldquo;Difficulties&rdquo;:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">enum</span> <span class="n">Difficulties</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Easy</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Medium</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Hard</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Count</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este fragmento de código se puede colocar fuera de una clase y se convierte en un tipo &ldquo;global&rdquo; que puede ser utilizado por cualquiera de sus scripts. También puede ubicarlo dentro de una clase, pero luego para acceder a él, necesita hacer referencia a la enumeración a través de puntos.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// Este ejemplo se puede usar cuando Difficulties no está contenido en una clase</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// o cuando está definido en la clase actual</span>
+</span></span><span class="line"><span class="cl"><span class="n">Difficulties</span> <span class="n">d1</span> <span class="p">=</span> <span class="n">Difficulties</span><span class="p">.</span><span class="n">Easy</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Este ejemplo se usa cuando se define Difficulties en una clase</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// que no sea la clase actual</span>
+</span></span><span class="line"><span class="cl"><span class="n">Demo</span><span class="p">.</span><span class="n">Difficulties</span> <span class="n">d2</span> <span class="p">=</span> <span class="n">Demo</span><span class="p">.</span><span class="n">Difficulties</span><span class="p">.</span><span class="n">Easy</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>El tipo enum es único para sí mismo, aunque tiene un tipo subyacente (por defecto, &lsquo;int&rsquo;). Es posible cambiar el tipo subyacente en la declaración, como especificar el &ldquo;byte&rdquo;, lo que podría hacer si sabe que no tendrá un gran rango de valores que deben representarse. El formulario se ve bastante similar a la herencia de clase, donde se hace referencia al tipo subyacente después de dos puntos, como en el siguiente ejemplo:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">enum</span> <span class="n">Difficulties</span> <span class="p">:</span> <span class="kt">byte</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Easy</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Medium</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Hard</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Count</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>La instancia de una clase, puede asignarla a una referencia de tipo &ldquo;base&rdquo; sin conversión. Esto no es así con las enumeraciones; en su lugar, debe convertirlo o, de lo contrario, verá un error: &ldquo;error CS0266: no se puede convertir implícitamente el tipo Demo.Difficulties &rsquo;en byte&rsquo;. Existe una conversión explícita (¿falta using?) &quot;</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">Start</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// La conversión implícita de una instancia al tipo base está bien</span>
+</span></span><span class="line"><span class="cl">  <span class="n">MonoBehaviour</span> <span class="n">script</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// La conversión implícita de una enumeración a un tipo subyacente no está bien...</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// byte value = Difficulties.Easy;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ... Usa esto en cambio</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">byte</span> <span class="k">value</span> <span class="p">=</span> <span class="p">(</span><span class="kt">byte</span><span class="p">)</span><span class="n">Difficulties</span><span class="p">.</span><span class="n">Easy</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Los valores en nuestra enum comienzan con el valor predeterminado del tipo subyacente (&lsquo;0&rsquo;) y cuentan hacia arriba, aunque puede especificar cualquier valor que el tipo subyacente pueda contener. Dejados solos, nuestros valores de Difficulties variarían de 0 a 3. Para especificar valores, use la siguiente forma:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">enum</span> <span class="n">Multipliers</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Negative</span> <span class="p">=</span> <span class="p">-</span><span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Nullify</span> <span class="p">=</span> <span class="m">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Positive</span> <span class="p">=</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Tenga en cuenta que debido a que los valores se autoincrementan, también podría haber especificado el valor &ldquo;Negativo&rdquo; y las otras entradas se habrían asignado correctamente.</p>
+<h1 id="bits-y-cambio-de-bit">Bits y cambio de bit</h1>
+<p>Uno de los mejores usos de las enumeraciones viene por medio de su uso como máscara de bits. Sin embargo, antes de comenzar a cubrir eso, puede ser útil tener una comprensión general de lo que está sucediendo bajo el capó.</p>
+<p>Los bits se refieren a la secuencia binaria de 0 y 1 que, en conjunto, se utilizan para definir cosas más complejas. Los tipos de datos requieren una cierta cantidad de bits para estar completamente representados. Un &lsquo;byte&rsquo;, por ejemplo, requiere 8 bits como los siguientes:00000000</p>
+<p>El valor numérico de la muestra anterior era cero, y al encender (establecer bits a 1 en varias ubicaciones) obtiene combinaciones que hacen los otros números. Aquí hay algunos números en orden con su patrón de bits asociado:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="m">00000000</span> <span class="p">=</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000001</span> <span class="p">=</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000010</span> <span class="p">=</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000011</span> <span class="p">=</span> <span class="m">3</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000100</span> <span class="p">=</span> <span class="m">4</span>
+</span></span></code></pre></div><hr>
+<p>Es de esperar que pueda ver el patrón aquí, donde se incrementa a uno, luego mover un lugar y restablecer el otro bit a 0 para continuar incrementando el valor numérico.</p>
+<p>Algunos programadores analizan esto y piensan: &ldquo;Podría usar esta secuencia de bits como una matriz de bool&rdquo;, y sin necesitar la cantidad equivalente de almacenamiento (tenga en cuenta que un &ldquo;bool&rdquo; requiere 8 bits). Básicamente, están mirando cada posición de bit y diciendo: ¿este bit es 0 (falso) o 1 (verdadero)?</p>
+<p>Algunas matemáticas simples pueden revelar la posición de cada bit: 2 a la potencia del índice del bit que desea establecer, recuerde comenzar a contar desde cero:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="m">00000001</span> <span class="p">=</span> <span class="m">2</span> <span class="p">^</span> <span class="m">0</span> <span class="p">=</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000010</span> <span class="p">=</span> <span class="m">2</span> <span class="p">^</span> <span class="m">1</span> <span class="p">=</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000100</span> <span class="p">=</span> <span class="m">2</span> <span class="p">^</span> <span class="m">2</span> <span class="p">=</span> <span class="m">4</span>
+</span></span><span class="line"><span class="cl"><span class="m">00001000</span> <span class="p">=</span> <span class="m">2</span> <span class="p">^</span> <span class="m">3</span> <span class="p">=</span> <span class="m">8</span>
+</span></span></code></pre></div><hr>
+<p>Pero si no quiere recordar las matemáticas, puede usar algo llamado cambio de bit. Utilizará &ldquo;&laquo;&rdquo; para desplazarse un poco hacia la izquierda. Usaremos este método para declarar los valores de enum flags en un momento:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="m">00000001</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000010</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000100</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="m">00001000</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">3</span>
+</span></span></code></pre></div><hr>
+<h1 id="flags-máscara-de-bits">Flags (máscara de bits)</h1>
+<p>A veces verá una enumeración marcada con &ldquo;Flags&rdquo; como se muestra a continuación:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="na">[System.Flags]</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">enum</span> <span class="n">Colors</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">None</span> <span class="p">=</span> <span class="m">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Red</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Green</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Blue</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>El marcador no tiene ningún efecto en la enumeración en sí o en los valores predeterminados que están asignados a sus elementos. Tenga en cuenta que aún tuve que asignar manualmente la potencia de 2 valores. Debajo del capó, este enum de &lsquo;Colores&rsquo; todavía tiene un tipo subyacente de &lsquo;int&rsquo; y puede contener cualquier valor que pueda tener &lsquo;int&rsquo; y puede tener sus elementos asignados a cualquier valor dentro de ese rango, tal como lo podría haber hecho sin usar el marcador &lsquo;Flags&rsquo;. La razón por la que utiliza el marcador es habilitar otras funcionalidades, como la modificación de la salida, ToString() que pueden mostrar los nombres de los indicadores combinados en lugar del equivalente numérico del tipo subyacente.</p>
+<p>Como definí cada elemento como una potencia de dos, esta enumeración puede tratarse como una &ldquo;máscara de bits&rdquo;, lo que significa que puede especificar cualquier combinación de los elementos (y activarlos o desactivarlos fácilmente en cualquier momento), en lugar de señalar solo a un solo elemento a la vez.</p>
+<p>Varias características que deseará con frecuencia se muestran en el siguiente código:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">Start</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Crea una variable para contener nuestra máscara de bits</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Colors</span> <span class="n">c</span> <span class="p">=</span> <span class="n">Colors</span><span class="p">.</span><span class="n">None</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Activar</span>
+</span></span><span class="line"><span class="cl">  <span class="n">c</span> <span class="p">|=</span> <span class="n">Colors</span><span class="p">.</span><span class="n">Red</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// O asignar directamente una combinación de bits</span>
+</span></span><span class="line"><span class="cl">  <span class="n">c</span> <span class="p">=</span> <span class="n">Colors</span><span class="p">.</span><span class="n">Blue</span> <span class="p">|</span> <span class="n">Colors</span><span class="p">.</span><span class="n">Green</span><span class="p">;</span>  <span class="c1">// Esto también se puede usar en la definición de nuevos elementos dentro del tipo enum mismo</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Apagar</span>
+</span></span><span class="line"><span class="cl">  <span class="n">c</span> <span class="p">&amp;=</span> <span class="p">~</span><span class="n">Colors</span><span class="p">.</span><span class="n">Blue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Verifica si un bit está &#39;encendido&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">((</span><span class="n">c</span> <span class="p">&amp;</span> <span class="n">Colors</span><span class="p">.</span><span class="n">Green</span><span class="p">)</span> <span class="p">==</span> <span class="n">Colors</span><span class="p">.</span><span class="n">Green</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// La flag está &#39;encendida&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Algo de esto parece un poco difícil de leer, así que lo explicaré ahora. La línea vertical &lsquo;|&rsquo; se lee &lsquo;O&rsquo;, lo que significa que está modificando la secuencia de bits para que esté &lsquo;activada&rsquo; en cualquier ubicación en la que los otros bits de los números hayan estado &lsquo;activados&rsquo;.</p>
+<p>Entonces, por ejemplo, esta línea c = Colors.Blue | Colors.Green; mira las dos secuencias de bits para hacer una secuencia de tercer bit donde cualquier bit que era un &lsquo;1&rsquo; de cualquier valor será un &lsquo;1&rsquo; en la salida final:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="m">00000010</span> <span class="p">-</span> <span class="n">Green</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000100</span> <span class="p">-</span> <span class="n">Blue</span>
+</span></span><span class="line"><span class="cl"><span class="p">--------</span> <span class="c1">// Realice una OR para que se pase uno en cualquier columna</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000110</span> <span class="p">-</span> <span class="n">Green</span><span class="p">,</span> <span class="n">Blue</span>
+</span></span></code></pre></div><hr>
+<p>El &lsquo;&amp;&rsquo; se lee &lsquo;AND&rsquo;, pero es muy diferente de &lsquo;OR&rsquo; porque requiere que se habilite el mismo bit (index-wise) en ambos números para que también se habilite el resultado final. Dado que Verde y Azul tienen índices diferentes, el uso de &lsquo;AND&rsquo; en ellos daría como resultado cero, o &lsquo;Colors.None&rsquo;.</p>
+<p>El &lsquo;~&rsquo; se lee &lsquo;NO&rsquo; y se refiere a una secuencia de bits que es opuesta a la secuencia actual (cada 0 se convierte en 1 y viceversa). Usamos una combinación de &lsquo;Y&rsquo; y &lsquo;NO&rsquo; para eliminar una flag, que funciona así:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="m">00000110</span> <span class="p">-</span> <span class="n">Verde</span><span class="p">,</span> <span class="n">azul</span> <span class="c1">// Nuestro valor inicial tiene dos indicadores habilitados</span>
+</span></span><span class="line"><span class="cl"><span class="m">11111011</span> <span class="p">-</span> <span class="n">Esto</span> <span class="n">es</span> <span class="n">NO</span> <span class="n">azul</span>
+</span></span><span class="line"><span class="cl"><span class="p">--------</span> <span class="c1">// Realizar un AND en estas dos secuencias deja solo los bits que están habilitados</span>
+</span></span><span class="line"><span class="cl"><span class="m">00000010</span> <span class="p">-</span> <span class="n">Volver</span> <span class="n">a</span> <span class="n">solo</span> <span class="n">verde</span>
+</span></span></code></pre></div><hr>
+<h1 id="bitmasks-y-unity">BitMasks y Unity</h1>
+<p>Unity puede serializar su enumeración, desafortunadamente, no proporciona automáticamente un inspector de tipo selección de máscara por defecto. Obtendrá una buena lista desplegable con nombre para seleccionar una sola entrada a la vez, pero no la capacidad de seleccionar múltiples entradas como lo haría con una máscara de eliminación de la cámara como un ejemplo. Sin embargo, puede escribir un inspector personalizado para su script y exponer una propiedad usando EnumMaskField para obtener la funcionalidad que desea.</p>
+<p>Por ejemplo, su script &ldquo;EnumsFlags.cs&rdquo;:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">	[System.Flags]</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">enum</span> <span class="n">Colors</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">None</span> <span class="p">=</span> <span class="m">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Red</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Green</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Blue</span> <span class="p">=</span> <span class="m">1</span> <span class="p">&lt;&lt;</span> <span class="m">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">EnumsFlags</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Colors</span> <span class="n">color</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Se puede combinar con un script de inspector especial &ldquo;EnumsFlagsInspector.cs&rdquo; (Tenga en cuenta que este script debe estar ubicado dentro de una carpeta llamada &ldquo;Editor&rdquo; para funcionar):</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEditor</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">	[CustomEditor(typeof(EnumsFlags))]</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">EnumsFlagsInspector</span> <span class="p">:</span> <span class="n">Editor</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="n">OnInspectorGUI</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">EnumsFlags</span> <span class="n">e</span> <span class="p">=</span> <span class="p">(</span><span class="n">EnumsFlags</span><span class="p">)</span><span class="n">target</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">e</span><span class="p">.</span><span class="n">color</span> <span class="p">=</span> <span class="p">(</span><span class="n">Colors</span><span class="p">)</span><span class="n">EditorGUILayout</span><span class="p">.</span><span class="n">EnumFlagsField</span><span class="p">(</span><span class="s">&#34;Colors&#34;</span><span class="p">,</span> <span class="n">e</span><span class="p">.</span><span class="n">color</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/11.gif" title="/img/codebackdoor/learncsharpunity/11.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/11.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/11.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/11.gif, /img/codebackdoor/learncsharpunity/11.gif 1.5x, /img/codebackdoor/learncsharpunity/11.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/11.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección, cubrí las enumeraciones y sus usos, incluido el uso como máscaras de bits. Tomamos una vista en profundidad de cómo se representan los bits y cubrimos escenarios de uso común, como encender y apagar bits o verificar el estado de un bit. Algunas de estas características no son tan &ldquo;legibles&rdquo; como otras opciones de codificación, pero generalmente son más eficientes, por lo que tiene sentido usarlas en ciertos escenarios. Finalmente, mostramos cómo Unity puede usar una máscara de bits en el editor escribiendo un script editor personalizado.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3zMKsGC" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Structs
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

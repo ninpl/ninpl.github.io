@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Unity3D Plugins ¿Que son? - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Unity3D Plugins ¿Que son?" />
+<meta property="og:description" content="Hoy decidí compartir, algo que creo que no es un &ldquo;conocimiento común&rdquo; y no hay muchos recursos sobre ese tema en Internet, después de que varios colegas que están empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el SKD de Steam que esta en C&#43;&#43; o las librerias .JAR de Android, decidí crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C&#43;&#43; para Unity3D." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/dev/003/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-05-26T00:57:20+02:00" />
+<meta property="article:modified_time" content="2018-05-26T00:57:20+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Unity3D Plugins ¿Que son?"/>
+<meta name="twitter:description" content="Hoy decidí compartir, algo que creo que no es un &ldquo;conocimiento común&rdquo; y no hay muchos recursos sobre ese tema en Internet, después de que varios colegas que están empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el SKD de Steam que esta en C&#43;&#43; o las librerias .JAR de Android, decidí crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C&#43;&#43; para Unity3D."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/dev/003/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/dev/002/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/dev/004/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Unity3D Plugins ¿Que son?",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/003\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1024 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/003\/","datePublished": "2018-05-26T00:57:20+02:00","dateModified": "2018-05-26T00:57:20+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Unity3D Plugins ¿Que son?</h1><div class="content" id="content"><p>Hoy decidí compartir, algo que creo que no es un <strong>&ldquo;conocimiento común&rdquo;</strong> y no hay muchos recursos sobre ese tema en Internet, después de que varios colegas que están empezando en este mundo, me preguntasen como poder usar APIs en otros lenguajes en Unity3D, como por ejemplo el <strong>SKD de Steam</strong> que esta en <strong>C++ o las librerias .JAR</strong> de Android, decidí crear una entrada nueva. Mostrare como crear bibliotecas simples de C/C++ para Unity3D.</p>
+<h2 id="introducción">Introducción</h2>
+<p>Alguna vez te has preguntado, <strong>¿Como los modders crean funcionalidad para los juegos?</strong>, pues la respuesta es esta, crean <strong>plugins que interfieren con la API publica</strong> de los juegos (Variables, métodos, funciones públicas) y luego con <strong>lenguaje pegamento</strong> crean la llamada si es que no se puede llamar desde el mismo core.</p>
+<hr>
+<p>Puede preguntar, <strong>¿por que debería molestarme en escribir C o C++ cuando Unity admite C#?</strong></p>
+<p>La respuesta es simple. Es mucho <strong>más rápido</strong>, trabajar a <a href="http://bit.ly/2MFbKoQ" target="_blank" rel="noopener noreffer ">bajo nivel</a> cambia mucho las cosas. Decidí preparar algunos ejemplos solo para mostrar como <strong>C++ supera a C#</strong> basado en Mono.</p>
+<p>Ejemplos:</p>
+<table>
+<thead>
+<tr>
+<th>Prueba de Estrés</th>
+<th>Unity C#</th>
+<th>Biblioteca C/C++</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array de enteros de 10000 x 10000</td>
+<td>1.0258 segundos</td>
+<td>0.2346 segundos</td>
+</tr>
+<tr>
+<td>Array de enteros de 500 x 500</td>
+<td>3.794 milisegundos</td>
+<td>0.35 milisegundos</td>
+</tr>
+<tr>
+<td>Array de enteros de 10000 x 10000 con números aleatorios</td>
+<td>4.26 segundos</td>
+<td>0.995 segundos</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Pros y contras de C/C++ y Unity3D</p>
+<h3 id="pros">Pros</h3>
+<ol>
+<li>Triplica (en algunos casos) la <strong>velocidad de calculo</strong>.</li>
+<li>Las dlls no afectan al rendimiento de unity.</li>
+</ol>
+<h3 id="contras">Contras</h3>
+<ol>
+<li>Unity <strong>no admite directamente C++</strong>.</li>
+<li>La velocidad que se ahorra en runtime, se pierde realizando las dlls.</li>
+</ol>
+<hr>
+<h2 id="crear-biblioteca-c">Crear biblioteca C++</h2>
+<p>En este caso, yo usare <a href="https://bit.ly/3okJiNg" target="_blank" rel="noopener noreffer "><strong>Code::Blocks</strong></a>, pero podéis usar cualquier IDE que queráis. Voy a crear un proyecto de <strong>librería dinámica (.dll)</strong> llamado LowLevelPlugin. Ya que vamos a trabajar a bajo nivel.</p>
+<p>Nos iremos al encabezado main.h y eliminaremos todo el contenido que se ha generado automáticamente.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#ifndef __MAIN_H__
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define __MAIN_H__
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;windows.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#ifdef BUILD_DLL
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>    <span class="cp">#define DLL_EXPORT __declspec(dllexport)
+</span></span></span><span class="line"><span class="cl"><span class="cp">#else
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>    <span class="cp">#define DLL_EXPORT __declspec(dllimport)
+</span></span></span><span class="line"><span class="cl"><span class="cp">#endif
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#ifdef __cplusplus
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">extern</span> <span class="s">&#34;C&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#endif
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="n">DLL_EXPORT</span> <span class="nf">SomeFunction</span><span class="p">(</span><span class="k">const</span> <span class="n">LPCSTR</span> <span class="n">sometext</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#ifdef __cplusplus
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#endif
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cp">#endif </span><span class="c1">// __MAIN_H__
+</span></span></span></code></pre></div><hr>
+<p>En su caso colocaremos esto otro -&gt;</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="cp">#pragma once
+</span></span></span><span class="line"><span class="cl"><span class="cp">#if UNITY_METRO
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define EXPORT_API __declspec(dllexport) __stdcall
+</span></span></span><span class="line"><span class="cl"><span class="cp">#elif UNITY_WIN
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define EXPORT_API __declspec(dllexport)
+</span></span></span><span class="line"><span class="cl"><span class="cp">#else
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define EXPORT_API
+</span></span></span><span class="line"><span class="cl"><span class="cp">#endif
+</span></span></span></code></pre></div><hr>
+<p>El propósito de este encabezado completo es <strong>comportarse de manera diferente basándose en qué plataforma está compilando</strong> actualmente su código. Significa que puede compilarlo fácilmente en Visual Studio.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#pragma once
+</span></span></span></code></pre></div><hr>
+<ul>
+<li>#pragma once es una <strong>directiva específica C/C++</strong> diseñada para hacer que el archivo fuente actual se incluya solo una vez en una sola compilación.</li>
+</ul>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#if UNITY_METRO
+</span></span></span></code></pre></div><hr>
+<ul>
+<li>Esto le dice al compilador que <strong>ejecute este bloque si solo estamos corriendo en Windows</strong> basado en Metro, por ejemplo, 8.1. Esto os sonara de Unity si habéis usado las <a href="https://docs.unity3d.com/es/current/Manual/PlatformDependentCompilation.html" target="_blank" rel="noopener noreffer ">directivas de compilación de plataforma</a>.</li>
+</ul>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#define EXPORT_API __declspec(dllexport) __stdcall
+</span></span></span></code></pre></div><hr>
+<ul>
+<li>La palabra clave <strong>&ldquo;define&rdquo; funciona de manera similar a la función replace</strong>, su sintaxis se puede definir de la siguiente manera:</li>
+</ul>
+<p>define &lsquo;Esto&rsquo; &lsquo;Por esto&rsquo;.</p>
+<p>En nuestro caso, <strong>cada vez que el compilador ve la secuencia de caracteres EXPORT_API en el código, la reemplaza con la segunda parte</strong>. Del mismo modo, el compilador se comportará en caso de que compile su código en ventanas antiguas, reemplace EXPORT_API con __declspec(dllexport) y simplemente elimine EXPORT_API en cualquier otro caso.</p>
+<p>Eso es todo cuando se trata de encabezado. Ahora pasemos a algo que sea más interesante, el código fuente real. En el archivo main.cpp pegue el siguiente código:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;math.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;main.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="k">extern</span> <span class="s">&#34;C&#34;</span> <span class="kt">int</span> <span class="o">**</span> <span class="n">EXPORT_API</span> <span class="n">fillArray</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="o">**</span> <span class="n">array</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="o">**</span><span class="p">)</span> <span class="n">calloc</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">for</span><span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">size</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span> <span class="n">calloc</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">size</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">size</span> <span class="o">+</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">array</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Las primeras tres líneas son en mi humilde opinión autoexplicativas. Simplemente estamos agregando algunas bibliotecas estándar y nuestro archivo de encabezado recién creado.</p>
+<p>El siguiente es:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="k">extern</span> <span class="s">&#34;C&#34;</span> <span class="kt">int</span> <span class="o">**</span> <span class="n">EXPORT_API</span> <span class="n">fillArray</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">)</span> <span class="p">{</span>
+</span></span></code></pre></div><hr>
+<p>Esta es nuestra <strong>declaración de función</strong>. Nuestra función se llama &ldquo;fillArray&rdquo;, toma un argumento int y devuelve una matriz de enteros bidimensional. (Sí, ** significa dos dimensiones) &ldquo;extern&rdquo; <strong>extiende la visibilidad a todo el programa</strong>, las funciones se pueden usar en cualquier de los archivos de todo el programa y fuera de nuestra biblioteca/plugin. También tenemos nuestra palabra clave EXPORT_API.</p>
+<p>La siguiente linea es:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">**</span> <span class="n">array</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="o">**</span><span class="p">)</span> <span class="n">calloc</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">));</span>
+</span></span></code></pre></div><hr>
+<p>Aquí estoy <strong>definiendo int-array bidimensional</strong> y luego estoy asignando memoria para ello. Como estoy escribiendo código en C++, <strong>no puedo simplemente crear una matriz y asignar valores</strong>. Tengo que reservar algo de espacio en memoria para eso y luego hacer cualquier operación. En este caso particular, estoy asignando las siguientes &ldquo;celdas&rdquo; de memoria de N tamaño de int* y lo convierto al tipo bidimensional int array.</p>
+<p>Lo mismo que estoy haciendo aquí:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span> <span class="n">calloc</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+</span></span></code></pre></div><hr>
+<p>La única <strong>diferencia es que ahora estoy asignando memoria para cada fila</strong> &ldquo;i&rsquo;t&rdquo; de una matriz.</p>
+<p>Y al final estoy devolviendo un conjunto lleno. Espero que para los bucles y la asignación de valores sea obvio, así que no lo explicaré.</p>
+<p>Ahora solo compilamos y se creara la dll.</p>
+<!-- raw HTML omitted -->
+<h2 id="implementar-puente-en-unity3d">Implementar puente en Unity3D</h2>
+<p><strong>Copia la dll en un Proyecto Unity3D dentro de la carpeta plugins en /Assets/Plugins</strong>. También debe crear un script C# en el directorio base para que la estructura de su proyecto tenga este aspecto:</p>
+<!-- raw HTML omitted -->
+<p>En la parte superior de tu script C# agrega &ldquo;Using System.Runtime.InteropServices;&rdquo;, luego la declaración de la función de la dll, crea una matriz y por ultimo asigna a la variable la llamada.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">size</span> <span class="p">=</span> <span class="m">512</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">[DllImport(&#34;LowLevelPlugin&#34;)]</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="k">static</span> <span class="k">extern</span> <span class="kt">int</span><span class="p">[,]</span> <span class="n">fillArray</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ArrayFillTest</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">ArrayFillTest</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">var</span> <span class="n">start</span> <span class="p">=</span> <span class="n">Time</span><span class="p">.</span><span class="n">realtimeSinceStartup</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span><span class="p">[,]</span> <span class="n">tab</span> <span class="p">=</span> <span class="n">fillArray</span><span class="p">(</span><span class="n">size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">((</span><span class="n">Time</span><span class="p">.</span><span class="n">realtimeSinceStartup</span> <span class="p">-</span> <span class="n">start</span><span class="p">).</span><span class="n">ToString</span><span class="p">(</span><span class="s">&#34;f6&#34;</span><span class="p">)</span> <span class="p">+</span> <span class="s">&#34; secs&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">start</span> <span class="p">=</span> <span class="n">Time</span><span class="p">.</span><span class="n">realtimeSinceStartup</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span><span class="p">[,]</span> <span class="n">array</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">size</span><span class="p">,</span> <span class="n">size</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">size</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">j</span> <span class="p">&lt;</span> <span class="n">size</span><span class="p">;</span> <span class="n">j</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="p">=</span> <span class="n">i</span> <span class="p">*</span> <span class="n">size</span> <span class="p">+</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">((</span><span class="n">Time</span><span class="p">.</span><span class="n">realtimeSinceStartup</span> <span class="p">-</span> <span class="n">start</span><span class="p">).</span><span class="n">ToString</span><span class="p">(</span><span class="s">&#34;f6&#34;</span><span class="p">)</span> <span class="p">+</span> <span class="s">&#34; secs&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h2 id="conclusiones">Conclusiones</h2>
+<p>Siempre que ejecutes código de bajo nivel, tendrás mejores resultados.</p>
+<hr>
+<h2 id="repositorio">Repositorio</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -1,14 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/categories/</link>
-    <description>Recent content in Categories on Antonio Moon´s</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    
-	<atom:link href="https://moonantonio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Categoría - Antonio Moon´s</title>
+        <link>https://moonantonio.github.io/categories/</link>
+        <description>Categories - Categoría - Antonio Moon´s</description>
+        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
+            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>comun</title>
+    <link>https://moonantonio.github.io/categories/comun/</link>
+    <pubDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/comun/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>dev</title>
+    <link>https://moonantonio.github.io/categories/dev/</link>
+    <pubDate>Fri, 03 May 2019 02:02:45 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/dev/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>aprende cpp con unreal</title>
+    <link>https://moonantonio.github.io/categories/aprende-cpp-con-unreal/</link>
+    <pubDate>Thu, 08 Nov 2018 16:32:05 &#43;0100</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/aprende-cpp-con-unreal/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>diseño de videojuegos</title>
+    <link>https://moonantonio.github.io/categories/dise%C3%B1o-de-videojuegos/</link>
+    <pubDate>Wed, 26 Sep 2018 17:26:06 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/dise%C3%B1o-de-videojuegos/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>aprende c# con unity</title>
+    <link>https://moonantonio.github.io/categories/aprende-c#-con-unity/</link>
+    <pubDate>Tue, 04 Sep 2018 19:20:57 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/aprende-c#-con-unity/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>imagen del dia</title>
+    <link>https://moonantonio.github.io/categories/imagen-del-dia/</link>
+    <pubDate>Sat, 20 May 2017 23:14:15 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/imagen-del-dia/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>devblog</title>
+    <link>https://moonantonio.github.io/categories/devblog/</link>
+    <pubDate>Fri, 06 Jan 2017 01:07:54 &#43;0100</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/categories/devblog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

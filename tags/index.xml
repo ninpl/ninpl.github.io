@@ -1,96 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Antonio Moon´s</title>
-    <link>https://moonantonio.github.io/tags/</link>
-    <description>Recent content in Tags on Antonio Moon´s</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Sat, 16 Jul 2022 22:39:45 +0200</lastBuildDate>
-    
-	<atom:link href="https://moonantonio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Comun</title>
-      <link>https://moonantonio.github.io/tags/comun/</link>
-      <pubDate>Sat, 16 Jul 2022 22:39:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/comun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cpp</title>
-      <link>https://moonantonio.github.io/tags/cpp/</link>
-      <pubDate>Thu, 08 Nov 2018 16:32:05 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/cpp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Csharp</title>
-      <link>https://moonantonio.github.io/tags/csharp/</link>
-      <pubDate>Tue, 04 Sep 2018 19:20:57 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/csharp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dev</title>
-      <link>https://moonantonio.github.io/tags/dev/</link>
-      <pubDate>Fri, 03 May 2019 02:02:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devblog</title>
-      <link>https://moonantonio.github.io/tags/devblog/</link>
-      <pubDate>Fri, 06 Jan 2017 01:07:54 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/devblog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diseño</title>
-      <link>https://moonantonio.github.io/tags/dise%C3%B1o/</link>
-      <pubDate>Wed, 26 Sep 2018 17:26:06 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/dise%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigación</title>
-      <link>https://moonantonio.github.io/tags/investigaci%C3%B3n/</link>
-      <pubDate>Wed, 01 Mar 2017 23:38:17 +0100</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/investigaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moon Antonio</title>
-      <link>https://moonantonio.github.io/tags/moon-antonio/</link>
-      <pubDate>Sat, 16 Jul 2022 22:39:45 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/moon-antonio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pintura</title>
-      <link>https://moonantonio.github.io/tags/pintura/</link>
-      <pubDate>Sat, 20 May 2017 23:14:15 +0200</pubDate>
-      
-      <guid>https://moonantonio.github.io/tags/pintura/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Etiqueta - Antonio Moon´s</title>
+        <link>https://moonantonio.github.io/tags/</link>
+        <description>Tags - Etiqueta - Antonio Moon´s</description>
+        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
+            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>comun</title>
+    <link>https://moonantonio.github.io/tags/comun/</link>
+    <pubDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/comun/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Moon Antonio</title>
+    <link>https://moonantonio.github.io/tags/moon-antonio/</link>
+    <pubDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/moon-antonio/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>dev</title>
+    <link>https://moonantonio.github.io/tags/dev/</link>
+    <pubDate>Fri, 03 May 2019 02:02:45 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/dev/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>cpp</title>
+    <link>https://moonantonio.github.io/tags/cpp/</link>
+    <pubDate>Thu, 08 Nov 2018 16:32:05 &#43;0100</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/cpp/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>unreal</title>
+    <link>https://moonantonio.github.io/tags/unreal/</link>
+    <pubDate>Thu, 08 Nov 2018 16:32:05 &#43;0100</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/unreal/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>csharp</title>
+    <link>https://moonantonio.github.io/tags/csharp/</link>
+    <pubDate>Wed, 26 Sep 2018 17:26:06 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/csharp/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>diseño</title>
+    <link>https://moonantonio.github.io/tags/dise%C3%B1o/</link>
+    <pubDate>Wed, 26 Sep 2018 17:26:06 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/dise%C3%B1o/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>unity</title>
+    <link>https://moonantonio.github.io/tags/unity/</link>
+    <pubDate>Tue, 04 Sep 2018 19:20:57 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/unity/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ilustracion</title>
+    <link>https://moonantonio.github.io/tags/ilustracion/</link>
+    <pubDate>Sat, 20 May 2017 23:14:15 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/ilustracion/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>devblog</title>
+    <link>https://moonantonio.github.io/tags/devblog/</link>
+    <pubDate>Fri, 06 Jan 2017 01:07:54 &#43;0100</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/tags/devblog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

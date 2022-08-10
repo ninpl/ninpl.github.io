@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Métodos - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Métodos" />
+<meta property="og:description" content="La parte de &ldquo;acción&rdquo; de la programación proviene de &ldquo;llamar&rdquo; (también conocido como &ldquo;invocar&rdquo;) algo llamado &ldquo;método&rdquo; (también conocido como &ldquo;función&rdquo;). En esta lección aprenderemos cómo definir y llamar a nuestros propios métodos, y luego revisaremos algunos más que son especiales para Unity. Finalmente, crearemos nuestra propia demo de &ldquo;Magic 8 Ball&rdquo; y explicaremos cómo vincular un método con el clic de un botón y generar el resultado de una etiqueta." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/004/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-19T08:32:53+02:00" />
+<meta property="article:modified_time" content="2018-08-19T08:32:53+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Métodos"/>
+<meta name="twitter:description" content="La parte de &ldquo;acción&rdquo; de la programación proviene de &ldquo;llamar&rdquo; (también conocido como &ldquo;invocar&rdquo;) algo llamado &ldquo;método&rdquo; (también conocido como &ldquo;función&rdquo;). En esta lección aprenderemos cómo definir y llamar a nuestros propios métodos, y luego revisaremos algunos más que son especiales para Unity. Finalmente, crearemos nuestra propia demo de &ldquo;Magic 8 Ball&rdquo; y explicaremos cómo vincular un método con el clic de un botón y generar el resultado de una etiqueta."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/004/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/003/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/dev/009/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Métodos",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/004\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  2413 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/004\/","datePublished": "2018-08-19T08:32:53+02:00","dateModified": "2018-08-19T08:32:53+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Métodos</h1><div class="content" id="content"><p>La parte de &ldquo;acción&rdquo; de la programación proviene de &ldquo;llamar&rdquo; (también conocido como &ldquo;invocar&rdquo;) algo llamado &ldquo;método&rdquo; (también conocido como &ldquo;función&rdquo;). En esta lección aprenderemos cómo definir y llamar a nuestros propios métodos, y luego revisaremos algunos más que son especiales para Unity. Finalmente, crearemos nuestra propia demo de &ldquo;Magic 8 Ball&rdquo; y explicaremos cómo vincular un método con el clic de un botón y generar el resultado de una etiqueta.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h2 id="declaraciones-de-métodos">Declaraciones de métodos</h2>
+<p>Un método requiere al menos tres cosas, pero generalmente tiene cuatro:</p>
+<ul>
+<li>un tipo de datos de retorno</li>
+<li>un nombre de identificador</li>
+<li>un conjunto de parámetros</li>
+<li>un cuerpo (opcional si también marca el método como &ldquo;abstracto&rdquo;, &ldquo;externo&rdquo; o &ldquo;parcial&rdquo;, pero esas son características avanzadas para más adelante).</li>
+</ul>
+<p>Aquí están algunas muestras:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">MetodoQueRealizaAlgo</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Hola Mundo!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este método se declara con un tipo de devolución de &ldquo;vacío&rdquo;, que es un caso especial y significa que no devuelve nada. El nombre del identificador es &ldquo;MetodoQueRealizaAlgo&rdquo; y el conjunto de parámetros está vacío (hay paréntesis sin nada dentro). El &ldquo;cuerpo&rdquo; del método es todo, desde el corchete abierto hasta el corchete de cierre &ldquo;{&rdquo; y &ldquo;}&rdquo;. Puede colocar &ldquo;declaraciones&rdquo; dentro de un cuerpo de método como he hecho aquí. Cuando se llame a nuestro método, veremos el mensaje &ldquo;Hola Mundo!&rdquo; impreso en la consola.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">bool</span> <span class="n">IsRegistrado</span> <span class="p">(</span><span class="kt">string</span> <span class="n">myID</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="kt">string</span><span class="p">.</span><span class="n">Equals</span><span class="p">(</span><span class="n">myID</span><span class="p">,</span> <span class="s">&#34;Moon&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Este método de ejemplo comienza con la palabra clave &ldquo;public&rdquo;, que puede recordar al usar las variables en la lección anterior. Al igual que las variables, los métodos predeterminados son &ldquo;privados&rdquo; a menos que especifique lo contrario. Al hacer público este método, otras clases pueden &ldquo;invocarlo&rdquo;. Luego vemos un tipo de retorno de &ldquo;bool&rdquo; (verdadero o falso). Tenga en cuenta que a menos que el tipo de devolución de su método sea &ldquo;vacío&rdquo; debe tener una declaración dentro del método que realmente &ldquo;devuelva&rdquo; un valor del tipo que indicó, o el compilador se quejará , &ldquo;no todas las rutas de códigos devuelven un valor&rdquo; . Por lo general, esta será la última línea del método, ya que las instrucciones posteriores al &ldquo;retorno&rdquo; no se podrán ejecutar. El identificador es &ldquo;IsRegistrado&rdquo; y tomamos un único parámetro llamado &ldquo;myID&rdquo; que debe ser un tipo de &ldquo;string&rdquo;.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">private</span> <span class="kt">int</span> <span class="n">Multiplicar</span> <span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">a</span> <span class="p">*</span> <span class="n">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Marqué el último método de ejemplo &ldquo;privado&rdquo;, que es innecesario ya que es privado de forma predeterminada, pero a veces es posible que desee volver a repetir sus intenciones a otros programadores. Este método devolverá un &ldquo;int&rdquo; (un valor numérico que usa números enteros). El identificador es &ldquo;Multiplicar&rdquo; y toma dos parámetros. Tenga en cuenta que cada parámetro debe especificar su propio tipo de datos, nombre de identificador y múltiples parámetros están separados por comas.</p>
+<h2 id="invocaciones-de-método">Invocaciones de método</h2>
+<p>Para &ldquo;invocar&rdquo; su método, utiliza una declaración que hace referencia al identificador del método seguido de los parámetros necesarios, y luego a un punto y coma. Tenga en cuenta que no necesita volver a especificar el tipo o el nombre del parámetro, y puede pasar cualquier valor o variable existente, siempre que el tipo de datos coincida.</p>
+<p>En un minuto mostraré el código que llama a cada uno de nuestros métodos de demostración, pero antes de eso, agreguemos algunas variables a nuestra clase para hacerlo más interesante.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">string</span> <span class="n">test</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">value1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">value2</span><span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>Las declaraciones que escribimos que llaman a nuestros métodos deben ser &ldquo;ejecutadas&rdquo; ellas mismas, y la manera más fácil de hacerlo es conectarnos a un método que Unity que llamará por nosotros. Agregue el siguiente código en el método de Start:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">Start</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">MetodoQueRealizaAlgo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">IsRegistrado</span><span class="p">(</span><span class="n">test</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Registrado.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;No Registrado.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="k">value</span> <span class="p">=</span> <span class="n">Multiplicar</span><span class="p">(</span><span class="n">value1</span><span class="p">,</span> <span class="n">value2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">&#34;Resultado: &#34;</span> <span class="p">+</span> <span class="k">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>La primera afirmación que hemos hecho &ldquo;llama&rdquo; a nuestro primer método de ejemplo &ldquo;MetodoQueRealizaAlgo&rdquo;. Es muy simple porque no acepta ni devuelve ningún valor.</p>
+<p>Luego tenemos algo llamado &ldquo;instrucción if&rdquo; que nos permite ramificar y ejecutar código selectivamente. Lo que aparece dentro del paréntesis de apertura y cierre se evalúa como verdadero o falso y esa evaluación determina qué camino seguir. Debido a que nuestro método arroja un valor verdadero o falso, podemos simplemente invocarlo en su lugar. Si el valor que devuelve nuestro método &ldquo;IsRegistrado&rdquo; es &ldquo;verdadero&rdquo;, entonces veremos el mensaje &ldquo;Registrado&rdquo; impreso en la consola. De lo contrario, la condición &ldquo;else&rdquo; se hace cargo y veremos el mensaje &ldquo;No registrado&rdquo; impreso en su lugar. Al igual que un método, las instrucciones de código que se ejecutan selectivamente están envueltas por un corchete de abrir y cerrar.</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Una &ldquo;declaración if&rdquo; es un tipo especial de declaración de &ldquo;selección&rdquo;. Hay algunas características adicionales que no se muestran en este ejemplo, como la capacidad de usar una o más ramas &ldquo;else if&rdquo; y la capacidad de crear condiciones compuestas (como &ldquo;condition1 o condition2&rdquo; y &ldquo;condition1 y condition2&rdquo; ) Consulte la referencia para obtener más información: <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="https://msdn.microsoft.com/en-us/library/5011f09h.aspx" target="_blank" rel="noopener noreffer ">https://msdn.microsoft.com/en-us/library/5011f09h.aspx</a></div>
+        </div>
+    </div>
+<p>Debemos pasar una cadena como parámetro cuando invocamos &ldquo;IsRegistrado&rdquo;, pero no nos confundamos por el nombre del parámetro en nuestra declaración de método y el nombre de lo que pasamos en nuestra declaración: los nombres no tienen que coincidir. De hecho, el valor ni siquiera tiene que ser nombrado. Podría haber pasado un valor literal como &ldquo;Moon&rdquo; (tenga en cuenta que habría incluido las comillas en el código). El nombre en la declaración del parámetro se usa en la implementación del método (las declaraciones que aparecen dentro del método), pero de lo contrario no importa. Lo que sí importa es que pasemos &ldquo;algo&rdquo; del tipo de datos correcto. Si accidentalmente pasa el tipo de datos incorrecto, el compilador generará un error, &ldquo;La mejor coincidencia de método sobrecargado para &lsquo;CLASS.METHOD (ARG)&rsquo; tiene algunos argumentos inválidos&rdquo;. En este ejemplo, usamos la variable de cadena llamada &ldquo;test&rdquo; que definimos anteriormente en nuestra clase.</p>
+<p>El método &ldquo;IsRegistrado&rdquo; se marcó como público, lo que no hace diferencia en el ejemplo presentado aquí. Una clase puede llamar a cualquiera de sus métodos independientemente de si el método está marcado como público, privado o protegido. Sin embargo, si otra clase tuviera una referencia a una instancia de esta clase, podríamos &ldquo;llamar&rdquo; cualquier método público que contenga a través de la notación de puntos con una declaración como la siguiente:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="n">resultado</span> <span class="p">=</span> <span class="n">instance</span><span class="p">.</span><span class="n">IsRegistrado</span><span class="p">(</span><span class="s">&#34;Moon&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><hr>
+<p>Finalmente llamamos al método &ldquo;Multiplicar&rdquo; pasando dos variables separadas por comas del tipo correcto, en este caso nuestras variables &ldquo;value1&rdquo; y &ldquo;value2&rdquo;. El valor devuelto de un método se puede asignar a una variable y volver a utilizarlo más tarde, cuando imprimimos un mensaje que nos dice el resultado de la multiplicación.</p>
+<p>Crea una nueva escena y adjunta tu guion a algo en la escena (la cámara o un objeto de juego vacío está bien). Use el inspector para asignar valores a las variables y luego ejecutar la escena. Para ver el resultado del ejemplo, asegúrese de mirar en la ventana de la consola (desde la barra de menú, seleccione &ldquo;Windows -&gt; Console&rdquo;).</p>
+<h2 id="métodos-monobehaviour">Métodos MonoBehaviour</h2>
+<p>Los dos métodos más comunes para familiarizarse son los dos incluidos en la plantilla (&ldquo;Start&rdquo; y &ldquo;Update&rdquo;). Sin embargo, hay muchos más métodos de plantilla en los que puede conectarse. Los siguientes son algunos de los que uso con más frecuencia.</p>
+<p>&ldquo;Awake&rdquo; se llama inmediatamente después de la instanciación de un objeto. Es la primera llamada a método con la que puede conectarse, y puede ser una buena ubicación para &ldquo;inicialización&rdquo; (esto puede incluir obtener referencias a otros componentes o crear instancias de prefabricados, etc.) aunque en otras ocasiones podría necesitar esperar hasta &quot; Start &ldquo;para asegurarse de que todo esté activo y configurado correctamente. Tenga en cuenta que tanto Awake como Start solo se llamarán una vez en la vida de un objeto.</p>
+<p>&ldquo;OnEnable&rdquo; se llama despues. A menudo uso OnEnable para registrar oyentes de eventos y OnDisable para eliminarlos. Una diferencia clave entre este método y Awake o Start es que se puede invocar varias veces, cada vez que cambia el estado &ldquo;habilitado&rdquo; del objeto, por lo que solo tiene sentido ir a ciertos tipos de código de inicialización.</p>
+<p>Se llamará a &ldquo;Start&rdquo; antes del primer frame del método de &ldquo;Update&rdquo;(después de que todos los objetos hayan ejecutado sus métodos Awake y OnEnable) siempre que el objeto en el que está activado esté habilitado. Al igual que el método &ldquo;Awake&rdquo;, puede ser un buen lugar para inicializar tus objetos.</p>
+<p>&ldquo;Update&rdquo; se llama una vez por frame, en un intervalo de tiempo variable, y proporciona un manejo conveniente para el &ldquo;bucle del juego&rdquo;. &ldquo;FixedUpdate&rdquo; es similar pero se ejecuta en un intervalo de tiempo fijo y se usa para interactuar con Física. Se llama a &ldquo;LateUpdate&rdquo; después de que la Actualización haya finalizado y proporciona una opción para que tenga lógica en respuesta a otros cambios.</p>
+<p>Se llama a &ldquo;OnDestroy&rdquo; cuando eliminas un GameObject de la escena. Solo se llama una vez en la vida de un objeto y puede ser un buen lugar para limpiar todo lo que se creó durante la inicialización. Por ejemplo, si creaste una textura o malla, querrás asegurarte de que también se destruyan aquí.</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Consulte la referencia de la clase MonoBehaviour para familiarizarse con todos los métodos disponibles: 
+<i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.html" target="_blank" rel="noopener noreffer ">http://docs.unity3d.com/ScriptReference/MonoBehaviour.html</a> . Luego, consulte este enlace en el &ldquo;orden de ejecución&rdquo; (qué método se llamará y en qué momento) aquí: <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://docs.unity3d.com/Manual/ExecutionOrder.html" target="_blank" rel="noopener noreffer ">http://docs.unity3d.com/Manual/ExecutionOrder.html</a></div>
+        </div>
+    </div>
+<h2 id="magic-8-ball">Magic 8 Ball</h2>
+<p>Crea una nueva escena y agregue un Panel (desde la barra de menú elija GameObject -&gt; UI -&gt; Panel). Luego agregue un objeto de Botón y Texto y agrégalos a ambos al panel. El botón se usará para activar una respuesta de nuestra Bola mágica 8, y el texto es la etiqueta donde se mostrará la respuesta. Crea un nuevo script llamado &ldquo;Magic&rdquo; y pega el siguiente código:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine.UI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">Magic</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="kt">string</span><span class="p">[]</span> <span class="n">respuestas</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">		[SerializeField]</span> <span class="n">Text</span> <span class="n">_label</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="k">void</span> <span class="n">Pregunta</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">respuestas</span><span class="p">.</span><span class="n">Length</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_label</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="n">respuestas</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En la línea 7 de este script, hemos declarado un tipo especial de variable que aún no te he mostrado: una matriz o array. Una matriz es una colección de valores del tipo especificado. La declaración de nuestra variable &ldquo;respuestas&rdquo; tiene el mismo aspecto que declarar una variable de string normal, excepto que agregamos un corchete de abrir y cerrar después del tipo de datos. Puede hacer que cualquier declaración de variable sea una matriz utilizando este ejemplo. Como nuestra variable es pública, aparecerá en el inspector y llenaremos sus valores allí.</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Consejo<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Hay muchos tipos de matrices, incluidas matrices unidimensionales, multidimensionales e irregulares. También hay muchas formas de inicializarlos. Valdría la pena investigar la gama completa de opciones disponibles aquí: <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="https://msdn.microsoft.com/en-us/library/aa288453%28v=vs.71%29.aspx" target="_blank" rel="noopener noreffer ">https://msdn.microsoft.com/en-us/library/aa288453(v=vs.71).aspx</a></div>
+        </div>
+    </div>
+<p>También creamos una variable para mantener una referencia a un componente de texto. Usamos la marca &ldquo;[SerializeField]&rdquo; en lugar de &ldquo;public&rdquo; porque necesitamos asignar la referencia en el inspector, pero ningún otro script &ldquo;necesita saber&rdquo; sobre esta etiqueta o su uso, es algo &ldquo;interno&rdquo; para la implementación de nuestro script y podría cambiar fácilmente en cualquier momento.</p>
+<p>En la línea 10, definimos un método que usaremos como un &ldquo;detector de eventos&rdquo;, un método que se invoca automáticamente en función de los eventos activados. En este caso, nuestro &ldquo;evento&rdquo; es presionar un botón de UI. Tenga en cuenta que nuestro método debe ser público para poder conectarlo al botón a través del inspector.</p>
+<p>Nuestro método tiene dos declaraciones. La primera (línea 12) crea una variable temporal llamada índice, a la que asignamos un número aleatorio. Generamos nuestro número aleatorio utilizando el método &ldquo;Range&rdquo;, que nos permite especificar un valor mínimo (incluido) y máximo (exclusivo) para producir el resultado. Si nuestra matriz de respuestas tuviera 3 strings, entonces generaríamos 0, 1 o 2 de este método, porque el valor que especificamos para &ldquo;min&rdquo; es 0 y el valor que especificamos para &ldquo;max&rdquo; es dinámico basado en la cantidad de respuestas en la matriz.</p>
+<p>La siguiente declaración (línea 13) asigna a la variable de texto de nuestra etiqueta una de las respuestas de nuestra matriz. Se accede a los valores individuales dentro de la matriz mediante &ldquo;índice&rdquo; (un valor numérico dentro de corchetes). Tenga en cuenta que las matrices están basadas en cero, lo que significa que el primer elemento de la matriz se encuentra en el índice 0.</p>
+<p>Regresa a Unity y adjunta el script a algo de la escena. Tenga en cuenta que realmente no importa dónde lo conecte, pero un objeto de nivel raíz como el &ldquo;Canvas&rdquo; o un objeto de juego &ldquo;Controlador&rdquo; especialmente creado (solo un GameObject vacío) son candidatos bastante buenos que alguien podría esperar usar.</p>
+<p>Asigne la referencia de la etiqueta del script (tenga en cuenta que aparecerá como &ldquo;Texto&rdquo; en el inspector aunque usemos &ldquo;texto label&rdquo; en el código) arrastrando y soltando el objeto Texto de la escena en el campo en el inspector de nuestro guion.</p>
+<p>Expanda el campo &ldquo;Respuestas&rdquo; haciendo clic en la flecha y establezca el tamaño para contener tantas respuestas como desee (debe ser al menos una o la demostración generará un error, porque mi código de muestra no muestra errores). Agregue algunas respuestas como: &ldquo;Sí Definitivamente&rdquo;, &ldquo;No es una oportunidad&rdquo; y &ldquo;Quizás&rdquo; a la matriz.</p>
+<p>Seleccione el botón en el panel Jerarquía. Ahora mira la parte inferior del componente &ldquo;Button&rdquo; en el inspector y verás un grupo &ldquo;OnClick&rdquo; que está actualmente vacío. Haga clic en &ldquo;+&rdquo; en la parte inferior de ese grupo para agregar un &ldquo;detector de eventos&rdquo;. Arrastra cualquier objeto que tenga tu script Mágico en el nuevo campo de objeto que apareció. A la derecha del campo de objeto hay un selector de función, actualmente dice &ldquo;Sin función&rdquo;. Úselo para seleccionar &ldquo;Magic -&gt; Pregunta()&rdquo;.</p>
+<p>Ahora todo está configurado. Ejecuta la escena. Haga su pregunta y haga clic para obtener una respuesta, que se elegirá al azar y se mostrará en nuestro Texto.</p>
+<figure><a class="lightgallery" href="/img/codebackdoor/learncsharpunity/05.gif" title="/img/codebackdoor/learncsharpunity/05.gif" data-thumbnail="/img/codebackdoor/learncsharpunity/05.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/codebackdoor/learncsharpunity/05.gif"
+            data-srcset="/img/codebackdoor/learncsharpunity/05.gif, /img/codebackdoor/learncsharpunity/05.gif 1.5x, /img/codebackdoor/learncsharpunity/05.gif 2x"
+            data-sizes="auto"
+            alt="/img/codebackdoor/learncsharpunity/05.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección aprendimos cómo escribir e invocar métodos personalizados. Cubrimos métodos con y sin tipos de devolución, así como con y sin parámetros, incluida la opción de múltiples parámetros. Revisamos algunos de los métodos que con frecuencia puede encontrar útiles como desarrolladores de Unity, que tienen un significado especial cuando se incluyen en cualquier script basado en MonoBehaviour. Finalmente, creamos un programa de ejemplo basado en Magic 8 Ball. Allí creamos un método que funcionaba como una especie de &ldquo;controlador de eventos&rdquo;, lo que significa que pudimos activar algunos de nuestros códigos en función de la interacción del usuario.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3BToRiK" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Bucles
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

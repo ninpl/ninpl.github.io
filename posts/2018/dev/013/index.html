@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Unity Shader de acumulación - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Unity Shader de acumulación" />
+<meta property="og:description" content="¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
+¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/dev/013/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-10-18T03:42:27+02:00" />
+<meta property="article:modified_time" content="2018-10-18T03:42:27+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Unity Shader de acumulación"/>
+<meta name="twitter:description" content="¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
+¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/dev/013/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/comun/019/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/dev/014/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Unity Shader de acumulación",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/013\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1374 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/013\/","datePublished": "2018-10-18T03:42:27+02:00","dateModified": "2018-10-18T03:42:27+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b054.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Unity Shader de acumulación</h1><div class="content" id="content"><p>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo <strong>crear un efecto de imagen (sombreado de espacio de pantalla)</strong> que cambiará inmediatamente la temporada de su escena en Unity.</p>
+<!-- raw HTML omitted -->
+<h1 id="como-funciona">¿Como funciona?</h1>
+<p>En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara. No se han realizado cambios en ninguna de las texturas. ¿Cómo es posible?</p>
+<p>La teoría es realmente simple. El supuesto es <strong>que debe haber nieve cuando la imagen normal de un píxel renderizado está orientada hacia arriba (suelo, techos, etc.)</strong> También debe haber una transición suave entre la textura de la nieve y la textura original si la imagen está orientada hacia cualquier otra dirección (pinos, paredes).</p>
+<h1 id="obteniendo-los-datos-necesarios">Obteniendo los datos necesarios</h1>
+<p>Para que el efecto presentado funcione, requiere al menos dos cosas:</p>
+<ul>
+<li>Rendering path configurada como deferred (Por alguna razón, no pude adelantar la reproducción para que funcione correctamente con este efecto. El sombreador de profundidad se procesó incorrectamente. <strong>Si tiene alguna idea de por qué podría ser, házmelo saber en el repositorio.</strong>)</li>
+<li>Camera.depthTextureMode establecido en DepthNormals</li>
+</ul>
+<hr>
+<!-- raw HTML omitted -->
+<hr>
+<p>Ya que la segunda opción puede ser configurada fácilmente por el propio script de efectos de imagen, la primera opción puede causar un <strong>problema si su juego ya está utilizando forward rendering path</strong>.</p>
+<p>Configurar Camera.depthTextureMode como DepthNormals nos permitirá leer la <strong>profundidad de la pantalla</strong> (la distancia a la que se ubican los píxeles de la cámara) y las normales (dirección opuesta).</p>
+<p>Ahora, si nunca ha creado un Efecto de imagen antes, debe saber que se crean a partir de al menos un script y al menos un shader. Por lo general, este shader, en lugar de representar un objeto 3D, muestra la imagen en pantalla completa de los datos de entrada. En nuestro caso, <strong>los datos de entrada son una imagen renderizada por la cámara y algunas propiedades configuradas por el usuario</strong>.</p>
+<p><strong>ScreenSpaceSnow.cs</strong></p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">	[ExecuteInEditMode]</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">ScreenSpaceSnow</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="cp">#region Variables</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Texture2D</span> <span class="n">SnowTexture</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Color</span> <span class="n">SnowColor</span> <span class="p">=</span> <span class="n">Color</span><span class="p">.</span><span class="n">white</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="kt">float</span> <span class="n">SnowTextureScale</span> <span class="p">=</span> <span class="m">0.1f</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">		[Range(0, 1)]</span> <span class="k">public</span> <span class="kt">float</span> <span class="n">BottomThreshold</span> <span class="p">=</span> <span class="m">0f</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">		[Range(0, 1)]</span> <span class="k">public</span> <span class="kt">float</span> <span class="n">TopThreshold</span> <span class="p">=</span> <span class="m">1f</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">private</span> <span class="n">Material</span> <span class="n">_material</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="cp">#region Metodos</span>
+</span></span><span class="line"><span class="cl">		<span class="k">private</span> <span class="k">void</span> <span class="n">OnEnable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// Crea dinamicamente un material que utilizara nuestro shader</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Material</span><span class="p">(</span><span class="n">Shader</span><span class="p">.</span><span class="n">Find</span><span class="p">(</span><span class="s">&#34;MoonAntonio/ScreenSpaceSnow&#34;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="c1">// Decir a la camara que cree profundidad y normales.</span>
+</span></span><span class="line"><span class="cl">			<span class="k">this</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Camera</span><span class="p">&gt;().</span><span class="n">depthTextureMode</span> <span class="p">|=</span> <span class="n">DepthTextureMode</span><span class="p">.</span><span class="n">DepthNormals</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">private</span> <span class="k">void</span> <span class="n">OnRenderImage</span><span class="p">(</span><span class="n">RenderTexture</span> <span class="n">src</span><span class="p">,</span> <span class="n">RenderTexture</span> <span class="n">dest</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// Establecer propiedades de shader</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span><span class="p">.</span><span class="n">SetMatrix</span><span class="p">(</span><span class="s">&#34;_CamToWorld&#34;</span><span class="p">,</span> <span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Camera</span><span class="p">&gt;().</span><span class="n">cameraToWorldMatrix</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span><span class="p">.</span><span class="n">SetColor</span><span class="p">(</span><span class="s">&#34;_SnowColor&#34;</span><span class="p">,</span> <span class="n">SnowColor</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span><span class="p">.</span><span class="n">SetFloat</span><span class="p">(</span><span class="s">&#34;_BottomThreshold&#34;</span><span class="p">,</span> <span class="n">BottomThreshold</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span><span class="p">.</span><span class="n">SetFloat</span><span class="p">(</span><span class="s">&#34;_TopThreshold&#34;</span><span class="p">,</span> <span class="n">TopThreshold</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span><span class="p">.</span><span class="n">SetTexture</span><span class="p">(</span><span class="s">&#34;_SnowTex&#34;</span><span class="p">,</span> <span class="n">SnowTexture</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">_material</span><span class="p">.</span><span class="n">SetFloat</span><span class="p">(</span><span class="s">&#34;_SnowTexScale&#34;</span><span class="p">,</span> <span class="n">SnowTextureScale</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="c1">// Ejecutar el shader en la textura de entrada(src) y escribir en la salida(dest)</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Graphics</span><span class="p">.</span><span class="n">Blit</span><span class="p">(</span><span class="n">src</span><span class="p">,</span> <span class="n">dest</span><span class="p">,</span> <span class="n">_material</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Es solo la configuración básica, no generará nieve. Ahora comienza la verdadera diversión &hellip;</p>
+<h1 id="el-shader">El shader</h1>
+<p>Nuestro shader de nieve debe ser un sombreado no iluminado, no queremos aplicarle ninguna información de luz ya que en el espacio de la pantalla no hay luz. Aquí está la plantilla básica:</p>
+<p><strong>ScreenSpaceSnow.shader</strong></p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">Shader <span class="s2">&#34;MoonAntonio/ScreenSpaceSnow&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	Properties
+</span></span><span class="line"><span class="cl">	<span class="o">{</span>
+</span></span><span class="line"><span class="cl">		_MainTex<span class="o">(</span><span class="s2">&#34;Texture&#34;</span>, 2D<span class="o">)</span> <span class="o">=</span> <span class="s2">&#34;white&#34;</span> <span class="o">{}</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl">		SubShader
+</span></span><span class="line"><span class="cl">	<span class="o">{</span>
+</span></span><span class="line"><span class="cl">		Cull Off ZWrite Off ZTest Always
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		Pass
+</span></span><span class="line"><span class="cl">		<span class="o">{</span>
+</span></span><span class="line"><span class="cl">			CGPROGRAM
+</span></span><span class="line"><span class="cl">			<span class="c1">#pragma vertex vert</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">#pragma fragment frag</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="c1">#include &#34;UnityCG.cginc&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			struct appdata
+</span></span><span class="line"><span class="cl">			<span class="o">{</span>
+</span></span><span class="line"><span class="cl">				float4 vertex : POSITION<span class="p">;</span>
+</span></span><span class="line"><span class="cl">				float2 uv : TEXCOORD0<span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="o">}</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			struct v2f
+</span></span><span class="line"><span class="cl">			<span class="o">{</span>
+</span></span><span class="line"><span class="cl">				float2 uv : TEXCOORD0<span class="p">;</span>
+</span></span><span class="line"><span class="cl">				float4 vertex : SV_POSITION<span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="o">}</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			v2f vert<span class="o">(</span>appdata v<span class="o">)</span>
+</span></span><span class="line"><span class="cl">			<span class="o">{</span>
+</span></span><span class="line"><span class="cl">				v2f o<span class="p">;</span>
+</span></span><span class="line"><span class="cl">				o.vertex <span class="o">=</span> mul<span class="o">(</span>UNITY_MATRIX_MVP, v.vertex<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				o.uv <span class="o">=</span> v.uv<span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="k">return</span> o<span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			fixed4 frag<span class="o">(</span>v2f i<span class="o">)</span> : SV_Target
+</span></span><span class="line"><span class="cl">			<span class="o">{</span>
+</span></span><span class="line"><span class="cl">				// TODO
+</span></span><span class="line"><span class="cl">			<span class="o">}</span>
+</span></span><span class="line"><span class="cl">			ENDCG
+</span></span><span class="line"><span class="cl">		<span class="o">}</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<p>Tenga en cuenta que si crea un nuevo shader de unity no iluminado <strong>(Crear-&gt; Shader-&gt; Unlit Shader)</strong> obtendrá casi el mismo código.</p>
+<p>Centrémonos ahora solo en la parte importante: el <strong>shader de fragmentos</strong>. Primero, necesitamos capturar todos los datos pasados ​​por el script ScreenSpaceSnow:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">sampler2D _MainTex<span class="p">;</span>
+</span></span><span class="line"><span class="cl">sampler2D _CameraDepthNormalsTexture<span class="p">;</span>
+</span></span><span class="line"><span class="cl">float4x4 _CamToWorld<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sampler2D _SnowTex<span class="p">;</span>
+</span></span><span class="line"><span class="cl">float _SnowTexScale<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">half4 _SnowColor<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">fixed _BottomThreshold<span class="p">;</span>
+</span></span><span class="line"><span class="cl">fixed _TopThreshold<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">half4 frag <span class="o">(</span>v2f i<span class="o">)</span> : SV_Target
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<p>No se preocupe si aún no sabe por qué necesitamos todos estos datos. Lo explicaré en detalle en un momento.</p>
+<h1 id="averiguar-dónde-nevar">Averiguar dónde nevar</h1>
+<p>Como expliqué antes, nos gustaría poner la nieve en superficies que miran hacia arriba. Ya que esta configurado en la cámara, que está configurada para generar una textura de profundidad normal, ahora podemos acceder a ella.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">sampler2D _CameraDepthNormalsTexture<span class="p">;</span>
+</span></span></code></pre></div><hr>
+<p>En el código ¿Por qué se llama así? Puedes conocerlo en la documentación de Unity:</p>
+<blockquote>
+<p>Las texturas de profundidad están disponibles para mostrarse en shaders como propiedades de sombreado global. Al declarar una muestra llamada _CameraDepthTexture, podrá mostrar la textura de profundidad principal de la cámara.
+_CameraDepthTexture Siempre se refiere a la textura de profundidad principal de la cámara.</p>
+</blockquote>
+<p>Ahora comencemos con la normal:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">half4 frag <span class="o">(</span>v2f i<span class="o">)</span> : SV_Target
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	half3 normal<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float depth<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	DecodeDepthNormal<span class="o">(</span>tex2D<span class="o">(</span>_CameraDepthNormalsTexture, i.uv<span class="o">)</span>, depth, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">normal</span> <span class="o">=</span> mul<span class="o">(</span> <span class="o">(</span>float3x3<span class="o">)</span>_CamToWorld, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> half4<span class="o">(</span>normal, 1<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<p>La documentación de Unity dice que <strong>la profundidad y las normales se empaquetan en 16 bits cada una</strong>. Para poder descomprimirlo, necesitamos llamar a <strong>DecodeDepthNormal</strong> como se vio anteriormente.</p>
+<p>Las normales recuperadas de esta manera son normales de <strong>espacio de cámara</strong>. Eso significa que si giramos la cámara, entonces también cambiará la orientación de los normales. No queremos eso, y por eso tenemos que multiplicarlo por  _CamToWorld, una matriz establecida en el script anterior. Convierte las normales de la cámara a coordenadas mundiales para que no dependan más de la perspectiva de la cámara.
+Para que el shader se compile, tiene que devolver algo, así que configuro la declaración de retorno como se ve arriba. Para ver si nuestros cálculos son correctos, es una buena idea obtener una vista previa del resultado.</p>
+<!-- raw HTML omitted -->
+<p>Estamos haciendo esto como RGB. En <strong>Unity el color verde muestra el valor de la coordenada Y</strong>.</p>
+<p>Ahora vamos a convertirlo en factor de cantidad de nieve.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">half4 frag <span class="o">(</span>v2f i<span class="o">)</span> : SV_Target
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	half3 normal<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float depth<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	DecodeDepthNormal<span class="o">(</span>tex2D<span class="o">(</span>_CameraDepthNormalsTexture, i.uv<span class="o">)</span>, depth, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">normal</span> <span class="o">=</span> mul<span class="o">(</span> <span class="o">(</span>float3x3<span class="o">)</span>_CamToWorld, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	half <span class="nv">snowAmount</span> <span class="o">=</span> normal.g<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	half <span class="nv">scale</span> <span class="o">=</span> <span class="o">(</span>_BottomThreshold + <span class="m">1</span> - _TopThreshold<span class="o">)</span> / <span class="m">1</span> + 1<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">snowAmount</span> <span class="o">=</span> saturate<span class="o">(</span> <span class="o">(</span>snowAmount - _BottomThreshold<span class="o">)</span> * scale<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> half4<span class="o">(</span>snowAmount, snowAmount, snowAmount, 1<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<p>Deberíamos estar usando el <strong>canal G</strong>, por supuesto. Ahora, esto puede ser suficiente, pero me gusta iterar un poco más para poder configurar los <strong>umbrales superior e inferior del área nevada</strong>. Permitirá ajustar la cantidad de nieve que debería haber en la escena.</p>
+<!-- raw HTML omitted -->
+<h1 id="textura-de-nieve">Textura de nieve</h1>
+<p>La nieve puede no parecer real sin una textura. <strong>Esta es la parte más difícil</strong>: ¿cómo aplicar una textura en un objetos 3D si solo tiene una imagen 2D (estamos trabajando en el espacio de la pantalla, recuerde)? Una forma es averiguar la <strong>posición mundial del píxel</strong>. Luego podemos usar las coordenadas del mundo X y Z como coordenadas de textura.</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">half4 frag <span class="o">(</span>v2f i<span class="o">)</span> : SV_Target
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	half3 normal<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float depth<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	DecodeDepthNormal<span class="o">(</span>tex2D<span class="o">(</span>_CameraDepthNormalsTexture, i.uv<span class="o">)</span>, depth, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">normal</span> <span class="o">=</span> mul<span class="o">(</span> <span class="o">(</span>float3x3<span class="o">)</span>_CamToWorld, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	// Averiguar la cantidad de nieve
+</span></span><span class="line"><span class="cl">	half <span class="nv">snowAmount</span> <span class="o">=</span> normal.g<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	half <span class="nv">scale</span> <span class="o">=</span> <span class="o">(</span>_BottomThreshold + <span class="m">1</span> - _TopThreshold<span class="o">)</span> / <span class="m">1</span> + 1<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">snowAmount</span> <span class="o">=</span> saturate<span class="o">(</span> <span class="o">(</span>snowAmount - _BottomThreshold<span class="o">)</span> * scale<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	// Descubre el color de la nieve
+</span></span><span class="line"><span class="cl">	float2 <span class="nv">p11_22</span> <span class="o">=</span> float2<span class="o">(</span>unity_CameraProjection._11, unity_CameraProjection._22<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float3 <span class="nv">vpos</span> <span class="o">=</span> float3<span class="o">(</span> <span class="o">(</span>i.uv * <span class="m">2</span> - 1<span class="o">)</span> / p11_22, -1<span class="o">)</span> * depth<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float4 <span class="nv">wpos</span> <span class="o">=</span> mul<span class="o">(</span>_CamToWorld, float4<span class="o">(</span>vpos, 1<span class="o">))</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">wpos</span> <span class="o">+=</span> float4<span class="o">(</span>_WorldSpaceCameraPos, 0<span class="o">)</span> / _ProjectionParams.z<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	half3 <span class="nv">snowColor</span> <span class="o">=</span> tex2D<span class="o">(</span>_SnowTex, wpos.xz * _SnowTexScale * _ProjectionParams.z<span class="o">)</span> * _SnowColor<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> half4<span class="o">(</span>snowColor, 1<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<h1 id="fusionandolo">Fusionandolo!</h1>
+<p>¡Es hora de finalmente fusionarlo todo junto!</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-SH" data-lang="SH"><span class="line"><span class="cl">half4 frag <span class="o">(</span>v2f i<span class="o">)</span> : SV_Target
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	half3 normal<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float depth<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	DecodeDepthNormal<span class="o">(</span>tex2D<span class="o">(</span>_CameraDepthNormalsTexture, i.uv<span class="o">)</span>, depth, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">normal</span> <span class="o">=</span> mul<span class="o">(</span> <span class="o">(</span>float3x3<span class="o">)</span>_CamToWorld, normal<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	// Averiguar la cantidad de nieve
+</span></span><span class="line"><span class="cl">	half <span class="nv">snowAmount</span> <span class="o">=</span> normal.g<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	half <span class="nv">scale</span> <span class="o">=</span> <span class="o">(</span>_BottomThreshold + <span class="m">1</span> - _TopThreshold<span class="o">)</span> / <span class="m">1</span> + 1<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">snowAmount</span> <span class="o">=</span> saturate<span class="o">(</span> <span class="o">(</span>snowAmount - _BottomThreshold<span class="o">)</span> * scale<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	// Descubre el color de la nieve
+</span></span><span class="line"><span class="cl">	float2 <span class="nv">p11_22</span> <span class="o">=</span> float2<span class="o">(</span>unity_CameraProjection._11, unity_CameraProjection._22<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float3 <span class="nv">vpos</span> <span class="o">=</span> float3<span class="o">(</span> <span class="o">(</span>i.uv * <span class="m">2</span> - 1<span class="o">)</span> / p11_22, -1<span class="o">)</span> * depth<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	float4 <span class="nv">wpos</span> <span class="o">=</span> mul<span class="o">(</span>_CamToWorld, float4<span class="o">(</span>vpos, 1<span class="o">))</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">wpos</span> <span class="o">+=</span> float4<span class="o">(</span>_WorldSpaceCameraPos, 0<span class="o">)</span> / _ProjectionParams.z<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	wpos *<span class="o">=</span> _SnowTexScale * _ProjectionParams.z<span class="p">;</span>
+</span></span><span class="line"><span class="cl">	half4 <span class="nv">snowColor</span> <span class="o">=</span> tex2D<span class="o">(</span>_SnowTex, wpos.xz<span class="o">)</span> * _SnowColor<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	// Consigue color y lerp a la textura de la nieve.
+</span></span><span class="line"><span class="cl">	half4 <span class="nv">col</span> <span class="o">=</span> tex2D<span class="o">(</span>_MainTex, i.uv<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> lerp<span class="o">(</span>col, snowColor, snowAmount<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<!-- raw HTML omitted -->
+<p>El toque final, vamos a establecer el valor _TopThreshold en 0.6:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Aprende C# con Unity - Structs - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Aprende C# con Unity - Structs" />
+<meta property="og:description" content="Las estructuras son como Clases, pero completamente diferentes. Si no sabe qué es una estructura o cuándo la usaría, o si no conoce la diferencia entre pasar por referencia y pasar por valor, esta lección es para usted.
+GitHubGitlabStructs en Unidad Dado que esta serie se basa en aprender C# para Unity, comencemos por señalar algunos lugares donde es posible que ya haya estado utilizando Structs:
+Vector2, Vector3 and Vector4 Rect Color y Color32 Bounds Touch En particular, las diversas formas de Vector (2-4) se utilizan en todas partes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/csharpunity/011/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-08-26T13:21:16+02:00" />
+<meta property="article:modified_time" content="2018-08-26T13:21:16+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Aprende C# con Unity - Structs"/>
+<meta name="twitter:description" content="Las estructuras son como Clases, pero completamente diferentes. Si no sabe qué es una estructura o cuándo la usaría, o si no conoce la diferencia entre pasar por referencia y pasar por valor, esta lección es para usted.
+GitHubGitlabStructs en Unidad Dado que esta serie se basa en aprender C# para Unity, comencemos por señalar algunos lugares donde es posible que ya haya estado utilizando Structs:
+Vector2, Vector3 and Vector4 Rect Color y Color32 Bounds Touch En particular, las diversas formas de Vector (2-4) se utilizan en todas partes."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/csharpunity/011/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/csharpunity/010/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/csharpunity/012/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Aprende C# con Unity - Structs",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/011\/"
+        },"genre": "posts","keywords": "Moon Antonio, csharp, unity","wordcount":  1455 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/csharpunity\/011\/","datePublished": "2018-08-26T13:21:16+02:00","dateModified": "2018-08-26T13:21:16+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b002.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Aprende C# con Unity - Structs</h1><div class="content" id="content"><p>Las estructuras son como Clases, pero completamente diferentes. Si no sabe qué es una estructura o cuándo la usaría, o si no conoce la diferencia entre pasar por referencia y pasar por valor, esta lección es para usted.</p>
+<p>
+<a  href="https://github.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<a  href="https://gitlab.com/CodeBackDoor/LearnCSharpUnity" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-gitlab"></i>
+    
+  
+  Gitlab
+  
+</a></p>
+<h1 id="structs-en-unidad">Structs en Unidad</h1>
+<p>Dado que esta serie se basa en aprender C# para Unity, comencemos por señalar algunos lugares donde es posible que ya haya estado utilizando Structs:</p>
+<ul>
+<li>Vector2, Vector3 and Vector4</li>
+<li>Rect</li>
+<li>Color y Color32</li>
+<li>Bounds</li>
+<li>Touch</li>
+</ul>
+<p>En particular, las diversas formas de Vector (2-4) se utilizan en todas partes. Verá que se utilizan para almacenar todo, desde la posición, la rotación y la escala de una transformación hasta la velocidad de un cuerpo rígido, o la ubicación de un toque o un clic del mouse en la pantalla.</p>
+<h1 id="qué-es-una-struct">¿Qué es una Struct?</h1>
+<p>Una estructura es algo así como un tipo de datos compuestos. Se ve muy similar a una clase, porque puede definir campos y métodos de la misma manera. El siguiente ejemplo define una estructura y clase que son casi idénticas:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">struct</span> <span class="nc">PointA</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">public</span> <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">public</span> <span class="kt">int</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">PointB</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">public</span> <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">public</span> <span class="kt">int</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>En este ejemplo, la única diferencia notable se encuentra en las palabras clave: &ldquo;struct&rdquo; en lugar de &ldquo;class&rdquo;. Algunas otras diferencias entre los dos incluyen:</p>
+<ul>
+<li>Una estructura no puede heredar de un tipo base como una clase</li>
+<li>Las estructuras no pueden tener constructores sin parámetros</li>
+<li>Todos los campos de una estructura se deben asignar antes de dejar un constructor</li>
+<li>Las estructuras se pasan por valor, mientras que una instancia de una clase se pasa por referencia</li>
+</ul>
+<p>El último punto, para mí, es el más importante. Existen muchas diferencias significativas entre los tipos de &ldquo;valor&rdquo; y los tipos de &ldquo;referencia&rdquo; que impactan cuándo y cómo debe usarlos.</p>
+<h1 id="tipos-de-referencia">Tipos de referencia</h1>
+<p>Cuando decimos que una instancia de una clase se pasa por referencia, lo que realmente está sucediendo es que obtenemos un &ldquo;puntero&rdquo; a la dirección en la memoria del objeto y luego pasamos ese &ldquo;valor&rdquo;. Esto es importante porque una instancia de una clase en realidad puede ser muy grande, que contiene muchos campos e incluso otros objetos. En ese tipo de escenario, copiar y transmitir todo puede afectar negativamente el rendimiento, y es por eso que solo pasa la dirección.</p>
+<p>Los tipos de referencia se asignan en el &ldquo;montón&rdquo; y se limpian mediante algo llamado &ldquo;recolección de basura&rdquo;. La recolección de basura es un proceso que ocurre de manera automática pero que es lento y, en general, da cuenta de los contratiempos en la velocidad de fotogramas de tu juego. Por este motivo, no desea crear objetos con frecuencia y permitir que salgan del alcance. El siguiente ejemplo es un gran no-no :</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// NO DEBERÍAS HACER ESTO</span>
+</span></span><span class="line"><span class="cl"><span class="k">void</span> <span class="n">Update</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Crear una instancia de una clase con ámbito local en el ciclo de actualización (llamado cada frame)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">List</span><span class="p">&lt;</span><span class="n">GameObject</span><span class="p">&gt;</span> <span class="n">objects</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">GameObject</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Imagina que las cosas se hacen con esta lista de objetos (se completa e itera etc.)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">objects</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span> 
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Cuando el método finaliza, la lista de objetos sale del alcance y en algún momento necesitará</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ser basura recogida</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h1 id="tipos-de-valor">Tipos de valor</h1>
+<p>Cuando decimos que algo se pasa por valor, lo que realmente está sucediendo es que la variable se clona/copia por completo, y la copia se transfiere mientras el original se deja intacto. Las estructuras son tipos de valores y se pasan por valor. Esto significa que las estructuras son idealmente pequeñas estructuras de datos.</p>
+<p>Los tipos de valores se asignan en la &ldquo;pila&rdquo;, lo que significa que su memoria es fácil de recuperar y no tienen ningún efecto en &ldquo;recolección de basura&rdquo;. A diferencia del ejemplo de ciclo de actualización con tipos de referencia, es totalmente aceptable crear tipos de valores y permitir que salgan del alcance sin temor a una desaceleración inminente o un problema de memoria. Por ejemplo, lo siguiente es totalmente aceptable:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// Esto esta bien</span>
+</span></span><span class="line"><span class="cl"><span class="k">void</span> <span class="n">Update</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Crea una variable local de un tipo de valor - struct </span>
+</span></span><span class="line"><span class="cl">  <span class="n">Vector3</span> <span class="n">offset</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span> <span class="p">(</span><span class="n">UnityEngine</span><span class="p">.</span><span class="n">Random</span><span class="p">.</span><span class="n">Range</span> <span class="p">(-</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">),</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Hacer cosas con eso</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Vector3</span> <span class="n">pos</span> <span class="p">=</span> <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">pos</span> <span class="p">+=</span> <span class="n">offset</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">transform</span><span class="p">.</span><span class="n">localPosition</span> <span class="p">=</span> <span class="n">pos</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Tu memoria de estructuras será recuperada fácilmente ya que sale del alcance</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h1 id="gotchas">Gotchas</h1>
+<p>Es tentador tratar de usar una estructura como una instancia de una clase, pero dado que se pasa por valor, hay varios errores que se encuentran a menudo. Considere el siguiente ejemplo:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">GotchasA</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Vector3</span> <span class="n">v1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Vector3</span> <span class="n">v2</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">v1</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">v1</span><span class="p">.</span><span class="n">x</span> <span class="p">=</span> <span class="m">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">v2</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">);</span>      <span class="c1">// ** (Nota 2)</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">//v2.x = 4;           // * (Nota 1)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">v1</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">v2</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<ul>
+<li>(Nota 1) Esta muestra no se compilará debido a esta línea. Obtendrá el error &ldquo;error CS1612: no se puede modificar un valor de retorno del tipo de valor de v2 . Considere almacenar el valor en una variable temporal&rdquo;. El compilador intenta protegerte de un error lógico (que explicaré en un minuto), y sugiere que primero obtengas una nueva estructura, modifiques esa nueva estructura y la vuelvas a asignar.</li>
+<li>(Nota 2) Esta línea es mucho más peligrosa porque se compilará y ejecutará pero no parece haber funcionado.</li>
+</ul>
+<p>Si este código se compilara y ejecutara, vería el siguiente resultado:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="p">(</span> <span class="m">4.0</span> <span class="p">,</span> <span class="m">2.0</span> <span class="p">,</span> <span class="m">3.0</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span> <span class="m">0.0</span> <span class="p">,</span> <span class="m">0.0</span> <span class="p">,</span> <span class="m">0.0</span> <span class="p">)</span>
+</span></span></code></pre></div><hr>
+<p>Esto NO es lo que podrías haber esperado. Entonces, ¿qué está pasando? C# crea automáticamente una propiedad de respaldo oculto para &lsquo;v2&rsquo;. Cuando utiliza el getter (simplemente haciendo referencia a &lsquo;v2&rsquo;) C# proporciona una copia del respaldo, no del respaldo real: recuerde que esto se debe a que las estructuras se pasan por valor no por referencia. En la línea marcada por la Nota 2, lo que sucede es que obtienes una copia del respaldo, modificas la copia en su lugar, y luego la información se pierde de inmediato porque no está asignada a nada.</p>
+<p>El siguiente ejemplo es similar: ilustra cómo a menudo se pasa por alto el concepto de un tipo de referencia frente a un tipo de valor y causa problemas. Aquí tenemos una referencia a una lista, que contiene referencias a Vector3:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">GotchasB</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">List</span><span class="p">&lt;</span><span class="n">Vector3</span><span class="p">&gt;</span> <span class="n">coords</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Vector3</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">coords</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">			<span class="n">coords</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Set</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">//coords[0].x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">coords</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">ToString</span><span class="p">());</span>  <span class="c1">// Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Por el contrario, el siguiente ejemplo funcionará como usted espera (o al menos como esperaría antes de que comenzara a asustarlo/confundirlo con los ejemplos anteriores)</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">Foo</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Vector3</span> <span class="n">pos</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">GotchasC</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Foo</span> <span class="n">myFoo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Foo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">myFoo</span><span class="p">.</span><span class="n">pos</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">myFoo</span><span class="p">.</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span> <span class="p">=</span> <span class="m">4</span><span class="p">;</span> <span class="c1">// Sin error de compilación</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">myFoo</span><span class="p">.</span><span class="n">pos</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span> <span class="c1">//Será (4.0, 2.0, 3.0) - ¡Como esperabas!</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>¿Por qué este ejemplo funciona cuando los otros no? La respuesta es porque tenemos una referencia al objeto &lsquo;myFoo&rsquo;, no una referencia al campo del objeto. El objeto mantiene los valores de la estructura directamente (como un campo) y lo modifica directamente sin ningún problema.</p>
+<p>Si el Moo hubiera implementado su Vector3 como una propiedad en lugar de como un campo (incluso con un campo de respaldo específico), habría sido un problema - vea el siguiente ejemplo:</p>
+<hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span><span class="n">endregion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">namespace</span> <span class="nn">MoonAntonio</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">Moo</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">public</span> <span class="n">Vector3</span> <span class="n">pos</span> <span class="p">{</span> <span class="k">get</span> <span class="p">{</span> <span class="k">return</span> <span class="n">_pos</span><span class="p">;</span> <span class="p">}</span> <span class="k">set</span> <span class="p">{</span> <span class="n">_pos</span> <span class="p">=</span> <span class="k">value</span><span class="p">;</span> <span class="p">}</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">private</span> <span class="n">Vector3</span> <span class="n">_pos</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">public</span> <span class="k">class</span> <span class="nc">GotchasD</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> 
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Moo</span> <span class="n">myMoo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Moo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">			<span class="n">myMoo</span><span class="p">.</span><span class="n">pos</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// myMoo.pos.x = 4; // error CS1612 (consulte el ejemplo anterior y comente esta línea para compilar)</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">myMoo</span><span class="p">.</span><span class="n">pos</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span> <span class="c1">// // Será (0.0, 0.0, 0.0) - ¡No es lo que esperaba!</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>Muchos de estos problemas se alivian si puede entrar en la mentalidad de tratar sus estructuras como &ldquo;inmutables&rdquo; (esto significa que nunca cambia los valores de ningún campo), o hacerlos inmutables (si es su estructura).</p>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Resumen<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">En esta lección, presentamos la estructura y comparamos cuándo, dónde y por qué usaría uno sobre una clase. Mostramos algunas de las limitaciones y errores de las estructuras, pero también sus beneficios. Usadas correctamente, las estructuras son una herramienta muy valiosa y eficiente para agregar a tu arsenal de programación.</div>
+        </div>
+    </div>
+
+<a  href="https://bit.ly/3BTAZQH" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa fa-caret-right"></i>
+    
+  
+  Siguiente - Scriptable Objects
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

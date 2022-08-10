@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Fases Importantes del desarrollo de un juego - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Fases Importantes del desarrollo de un juego" />
+<meta property="og:description" content="Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.
+Fase de Concepción Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (gameplay), y también se constituye un guion gráfico (storyboard) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2019/dev/003/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-02-25T23:17:23+01:00" />
+<meta property="article:modified_time" content="2019-02-25T23:17:23+01:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="Fases Importantes del desarrollo de un juego"/>
+<meta name="twitter:description" content="Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.
+Fase de Concepción Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (gameplay), y también se constituye un guion gráfico (storyboard) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2019/dev/003/" /><link rel="prev" href="https://moonantonio.github.io/posts/2019/comun/004/" /><link rel="next" href="https://moonantonio.github.io/posts/2019/dev/004/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Fases Importantes del desarrollo de un juego",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2019\/dev\/003\/"
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  954 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2019\/dev\/003\/","datePublished": "2019-02-25T23:17:23+01:00","dateModified": "2019-02-25T23:17:23+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b062.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Fases Importantes del desarrollo de un juego</h1><div class="content" id="content"><p>Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.</p>
+<h2 id="fase-de-concepción">Fase de Concepción</h2>
+<p>Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (<strong>gameplay</strong>), y también se constituye un guion gráfico (<strong>storyboard</strong>) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc. Una vez se sabe qué hacer entonces es el momento de diseñar.</p>
+<figure><a class="lightgallery" href="/img/c/faseimpdesjuego.png" title="/img/c/faseimpdesjuego.png" data-thumbnail="/img/c/faseimpdesjuego.png" data-sub-html="<h2>Viñeta de un Storyboard de los primeros Super Mario</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/faseimpdesjuego.png"
+            data-srcset="/img/c/faseimpdesjuego.png, /img/c/faseimpdesjuego.png 1.5x, /img/c/faseimpdesjuego.png 2x"
+            data-sizes="auto"
+            alt="/img/c/faseimpdesjuego.png" />
+    </a><figcaption class="image-caption">Viñeta de un Storyboard de los primeros Super Mario</figcaption>
+    </figure>
+<h2 id="fase-de-diseño">Fase de Diseño</h2>
+<p>Se empieza definiendo los elementos que componen el juego. Se desarrolla la historia, se crean bocetos de guiones para determinar los objetivos, se deciden los personajes principales, el contexto, etc.</p>
+<p>Utilizando estos esbozos de guiones los artistas se ponen manos a la obra para crear conceptos del aspecto del juego, la forma en que se visualizarán los personajes, los escenarios, objetos, etc. Su trabajo es presentar propuestas visuales para ir dando forma a la idea original.</p>
+<p>También se describen los elementos sonoros de los que consta el juego: efectos de sonidos, ambientación, música, voces, etc. Aunque todavía no se compone ni se graba nada.</p>
+<p>Paralelamente se especifica el funcionamiento general del videojuego, algo que depende del género, ya que señalan la forma en que las entidades virtuales interactúan dentro del juego.</p>
+<p>Finalmente, con una idea algo más clara del rumbo que tomará el juego, se hace el diseño de la programación, que describe la manera en la que se implementará el videojuego, el lenguaje o lenguajes de programación que se utilizarán, las metodologías que se seguirán, etc.</p>
+<p>Todo lo anterior tendrá como objetivo generar el Documento de Diseño que especificará el desarrollo del arte, las mecánicas y la programación del videojuego.</p>
+<figure><a class="lightgallery" href="/img/c/faseimpdesjuego2.png" title="/img/c/faseimpdesjuego2.png" data-thumbnail="/img/c/faseimpdesjuego2.png" data-sub-html="<h2>Diseño original de un escenario de Super Mario</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/faseimpdesjuego2.png"
+            data-srcset="/img/c/faseimpdesjuego2.png, /img/c/faseimpdesjuego2.png 1.5x, /img/c/faseimpdesjuego2.png 2x"
+            data-sizes="auto"
+            alt="/img/c/faseimpdesjuego2.png" />
+    </a><figcaption class="image-caption">Diseño original de un escenario de Super Mario</figcaption>
+    </figure>
+<h2 id="fase-de-planificación">Fase de Planificación</h2>
+<p>Esta etapa tiene como objetivo identificar las diferentes tareas para desarrollar el videojuego. Se reparte el trabajo entre los distintos componentes del equipo de desarrollo, se fijan plazos de entregas, se planifican reuniones de seguimiento, etc.</p>
+<figure><a class="lightgallery" href="/img/c/faseimpdesjuego3.png" title="/img/c/faseimpdesjuego3.png" data-thumbnail="/img/c/faseimpdesjuego3.png" data-sub-html="<h2>Ejemplo de diagrama de Gantt para planificar un proyecto</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/faseimpdesjuego3.png"
+            data-srcset="/img/c/faseimpdesjuego3.png, /img/c/faseimpdesjuego3.png 1.5x, /img/c/faseimpdesjuego3.png 2x"
+            data-sizes="auto"
+            alt="/img/c/faseimpdesjuego3.png" />
+    </a><figcaption class="image-caption">Ejemplo de diagrama de Gantt para planificar un proyecto</figcaption>
+    </figure>
+<h2 id="fase-de-producción">Fase de Producción</h2>
+<p>Una vez se tiene claro lo que hay que hacer, cómo hacerlo, y se ha planificado el tiempo para llevarlo a cabo, entonces se empieza la producción con el objetivo de crear el juego, como mínimo en una versión inicial o prototipo a mejorar gradualmente.</p>
+<p>Se llevan por tanto a cabo todas las tareas de la fase de planificación teniendo como guía el documento de diseño: programación, ilustración, desarrollo de interfaces, animación,  modelado, desarrollo del sonidos, etc.</p>
+<p>Si finalmente se logra ensamblar correctamente todas las piezas entonces esta fase culmina (por ahora). Sin embargo, al igual que en el desarrollo de software tradicional, es muy difícil que todo salga bien a la primera, por lo que se entra en una fase para probar a fondo el videojuego.</p>
+<figure><a class="lightgallery" href="/img/c/faseimpdesjuego4.jpg" title="/img/c/faseimpdesjuego4.jpg" data-thumbnail="/img/c/faseimpdesjuego4.jpg" data-sub-html="<h2>Oficinas de Ubisoft en Toronto (Canadá)</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/faseimpdesjuego4.jpg"
+            data-srcset="/img/c/faseimpdesjuego4.jpg, /img/c/faseimpdesjuego4.jpg 1.5x, /img/c/faseimpdesjuego4.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/faseimpdesjuego4.jpg" />
+    </a><figcaption class="image-caption">Oficinas de Ubisoft en Toronto (Canadá)</figcaption>
+    </figure>
+<h2 id="fase-de-pruebas">Fase de Pruebas</h2>
+<p>En esta etapa se corrigen los errores del proceso de programación y se mejora la jugabilidad a medida que se prueba el juego.</p>
+<p>Generalmente encontraremos dos tipos: las pruebas alpha, realizadas por un pequeño grupo de personas generalmente involucradas en el desarrollo, y las pruebas beta, realizadas por un equipo externo de jugadores. Las primeras tienen el objetivo de corregir defectos graves y mejorar características fundamentales no contempladas en el documento de diseño, mientras que las segundas se enfocan en detectar fallos menores y perfilar la experiencia de usuario.</p>
+<figure><a class="lightgallery" href="/img/c/faseimpdesjuego5.jpeg" title="/img/c/faseimpdesjuego5.jpeg" data-thumbnail="/img/c/faseimpdesjuego5.jpeg" data-sub-html="<h2>Comparación entre la Alpha y la Beta de Battlefield 3</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/faseimpdesjuego5.jpeg"
+            data-srcset="/img/c/faseimpdesjuego5.jpeg, /img/c/faseimpdesjuego5.jpeg 1.5x, /img/c/faseimpdesjuego5.jpeg 2x"
+            data-sizes="auto"
+            alt="/img/c/faseimpdesjuego5.jpeg" />
+    </a><figcaption class="image-caption">Comparación entre la Alpha y la Beta de Battlefield 3</figcaption>
+    </figure>
+<h2 id="fase-de-distribuciónmárketing">Fase de Distribución/Márketing</h2>
+<p>En cuanto a la distribución es el proceso de crear las copias del juego ya finalizado y llevarlo a las tiendas (ya sean físicas o digitales) para que los jugadores puedan comprarlo o hacerse con él.</p>
+<p>Por otro lado el márketing es también fundamental para dar a conocer el videojuego y conseguir el mayor número de jugadores posibles. No tiene un orden concreto dentro del desarrollo, pues algunas empresas empiezan a hacer campaña de sus videojuegos meses e incluso años antes de publicarlos. La verdad es que depende de los recursos que los desarrolladores quieran destinar a promocionar la obra y no tiene porqué ser un departamento dentro de la propia empresa, sino que tanto la distribución como el márketing se pueden delegar a empresas externas especialistas en estas áreas.</p>
+<p>Vale la pena comentar el fenómeno “hype”, que ocurre cuando una empresa hace uso de una excesiva publicidad para dar a conocer su producto, creando incluso una necesidad inexistente en los potenciales consumidores. Lo malo ocurre cuando el producto no está a la altura de lo prometido y entonces se convierte en el blanco de multitud de críticas en muy poco tiempo, algo que puede perjudicar gravemente la imagen de los creadores.</p>
+<h2 id="fase-de-mantenimiento">Fase de Mantenimiento</h2>
+<p>Pese a que el juego esté finalizado y en las manos de los jugadores, su ciclo de vida aún está lejos de terminar. La fase de mantenimiento es el momento de arreglar nuevos errores, mejorarlo, etc. Ésto se hace sacando parches o actualizaciones al mercado.</p>
+<p>Sin embargo es también una oportunidad para seguir sacándole partido. Ya sea en forma de microtransacciones, suscripciones de pago o incluso con expansiones completas que añaden nuevas características al videojuego sin modificar en profundidad el motor del mismo, digamos que sería más o menos como aprovechar al máximo la base inicial.</p>
+<figure><a class="lightgallery" href="/img/c/faseimpdesjuego6.png" title="/img/c/faseimpdesjuego6.png" data-thumbnail="/img/c/faseimpdesjuego6.png" data-sub-html="<h2>League of Legends es un videojuego gratuito con un sistema de micropagos a cambio de diseños exclusivos para sus personajes</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/faseimpdesjuego6.png"
+            data-srcset="/img/c/faseimpdesjuego6.png, /img/c/faseimpdesjuego6.png 1.5x, /img/c/faseimpdesjuego6.png 2x"
+            data-sizes="auto"
+            alt="/img/c/faseimpdesjuego6.png" />
+    </a><figcaption class="image-caption">League of Legends es un videojuego gratuito con un sistema de micropagos a cambio de diseños exclusivos para sus personajes</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

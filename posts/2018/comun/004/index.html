@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>¿Qué pruebas debemos hacerle a nuestro videojuego? - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="¿Qué pruebas debemos hacerle a nuestro videojuego?" />
+<meta property="og:description" content="“Los test no son opcionales”. Esto que parece a muchos una verdad, sigue siendo uno de los temas pendientes en el mundo del desarrollo de aplicaciones de software actual.
+Sí, increíblemente aún hay muchos compañeros “del metal” que no son conscientes que programar sin pruebas no solo es como hacer acrobacias en el trapecio sin red de seguridad, sino además una fuente de errores, malas prácticas y ansiedad.
+Y por ello quiero repasar los fundamentos básicos de las pruebas que debiéramos aplicar, cada uno en su necesidad, a nuestros desarrollos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://moonantonio.github.io/posts/2018/comun/004/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-06-05T17:17:37+02:00" />
+<meta property="article:modified_time" content="2018-06-05T17:17:37+02:00" /><meta property="og:site_name" content="Antonio Moon" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://moonantonio.github.io/avatar.png"/>
+
+<meta name="twitter:title" content="¿Qué pruebas debemos hacerle a nuestro videojuego?"/>
+<meta name="twitter:description" content="“Los test no son opcionales”. Esto que parece a muchos una verdad, sigue siendo uno de los temas pendientes en el mundo del desarrollo de aplicaciones de software actual.
+Sí, increíblemente aún hay muchos compañeros “del metal” que no son conscientes que programar sin pruebas no solo es como hacer acrobacias en el trapecio sin red de seguridad, sino además una fuente de errores, malas prácticas y ansiedad.
+Y por ello quiero repasar los fundamentos básicos de las pruebas que debiéramos aplicar, cada uno en su necesidad, a nuestros desarrollos."/>
+<meta name="application-name" content="Moon Antonio">
+<meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://moonantonio.github.io/posts/2018/comun/004/" /><link rel="prev" href="https://moonantonio.github.io/posts/2018/comun/003/" /><link rel="next" href="https://moonantonio.github.io/posts/2018/comun/005/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "¿Qué pruebas debemos hacerle a nuestro videojuego?",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/comun\/004\/"
+        },"genre": "posts","keywords": "Moon Antonio, comun","wordcount":  1478 ,
+        "url": "https:\/\/moonantonio.github.io\/posts\/2018\/comun\/004\/","datePublished": "2018-06-05T17:17:37+02:00","dateModified": "2018-06-05T17:17:37+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Antonio Moon"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/portfolio/"><i class='fa-solid fa-terminal'></i> moon </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/moonantonio" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/moonantonio" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Antonio Moon´s"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/MoonAntonio/rec.repos" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/portfolio/" title=""><i class='fa-solid fa-terminal'></i>moon</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/bg.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">¿Qué pruebas debemos hacerle a nuestro videojuego?</h1><div class="content" id="content"><p><strong>“Los test no son opcionales”</strong>. Esto que parece a muchos una verdad, sigue siendo uno de los temas pendientes en el mundo del desarrollo de aplicaciones de software actual.</p>
+<p>Sí, increíblemente aún hay muchos compañeros “del metal” que no son conscientes que programar sin pruebas no solo es como hacer acrobacias en el trapecio sin red de seguridad, sino además una <strong>fuente de errores, malas prácticas y ansiedad.</strong></p>
+<p>Y por ello quiero repasar los fundamentos básicos de las pruebas que debiéramos aplicar, cada uno en su necesidad, a nuestros desarrollos.</p>
+<figure><a class="lightgallery" href="/img/c/pruebvideoj.jpg" title="/img/c/pruebvideoj.jpg" data-thumbnail="/img/c/pruebvideoj.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/pruebvideoj.jpg"
+            data-srcset="/img/c/pruebvideoj.jpg, /img/c/pruebvideoj.jpg 1.5x, /img/c/pruebvideoj.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/pruebvideoj.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<h2 id="por-qué-hacer-pruebas">¿Por qué hacer pruebas?</h2>
+<p>Para que lo entienda hasta el más novel de los lectores, hacer pruebas es la forma de asegurarse que lo que queremos que haga nuestro programa, lo haga, y lo haga sin errores.</p>
+<p>La construcción de software <strong>implica conocimiento, experiencia, talento, capacidad intelectual y un punto de arte</strong>. Es decir, es una labor muy difícil, y falta aún mucho para que eso cambie a mejor. De hecho, la complejidad está tendiendo al crecimiento de una forma absoluta.</p>
+<p>Habiendo superado, hace ya décadas, la capacidad humana de aprensión y memorización; lo que implica necesariamente que los <strong>fallos y errores son inevitables</strong> si los intentamos evitar con solo nuestras capacidades humanas.</p>
+<blockquote>
+<p>Las pruebas no son opcionales. Un software sin pruebas es una bomba a punto de estallar</p>
+</blockquote>
+<p>¿A quien no le ha pasado que ha dejado su código medio año en un cajón, y a la vuelta de ponerse a toquetearlo tener la sensación de que lo ha escrito otra persona? <strong>No reconocemos a nuestra propia criatura</strong>.Y no hablemos cuando estamos integrados en un equipo, o recibimos el “regalito” de soportar o evolucionar un código heredado.</p>
+<p>Por ello las <strong>pruebas son imprescindibles</strong>, ya que nos permiten garantizar que las aplicaciones cumplen las funcionalidades que se esperan de ellas y las <strong>expectativas de calidad (no solo de código)</strong>; ayudando a encontrar esos errores o defectos que aún no se han descubierto; reduciendo el costo del desarrollo, el de propiedad para los usuarios; y desarrollar confianza en los clientes al evitar los molestos errores de regresión.</p>
+<p>Eso sin hablar de la sensación de seguridad incremental que se obtiene cuanto más cerca estamos de un despliegue, ya que a más código que tenemos, más pruebas nos aseguran (en forma de una tupida malla) que todo <strong>funciona correctamente</strong>.</p>
+<h2 id="devops-y-la-herencia-de-la-automatización">DevOps y la herencia de la automatización</h2>
+<figure><a class="lightgallery" href="/img/c/pruebvideoj.jpg" title="/img/c/pruebvideoj.jpg" data-thumbnail="/img/c/pruebvideoj.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/pruebvideoj.jpg"
+            data-srcset="/img/c/pruebvideoj.jpg, /img/c/pruebvideoj.jpg 1.5x, /img/c/pruebvideoj.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/pruebvideoj.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<p>La llegada de las <strong>metodologías Agiles</strong>, desde los años 90 del siglo pasado, fue un revulsivo en la organización y ejecución de pruebas dentro de <strong>procesos Waterfall</strong>.</p>
+<p>En estos últimos, se podría generalizar, las <strong>pruebas principalmente eran manuales</strong>; definidas meticulosamente en voluminosos documentos de planes de pruebas; y que se realizaban solamente una vez acabada la codificación del software.</p>
+<p><strong>Xtreme Programming</strong>, en cambio, hizo mucho hincapié en la <strong>automatización</strong> y en el concepto de pruebas orientadas a la prevención de los finales de los años 80; marcando de esta forma, la futura filosofía Agile. Por ello, actualmente utilizamos frameworks de pruebas que permiten realizar automáticamente la mayoría de los test en todos los ámbitos de la aplicación.</p>
+<p>Y más cuando se pretende adoptar el <strong>concepto de Integración Continua</strong>, como parte imprescindible de DevOps, donde la propia construcción y validación de la Build por medio de todo tipo de pruebas automáticas es parte inherente del proceso.</p>
+<p>Siendo esto aún más crítico en niveles altos de madurez en donde llegaríamos a aplicar despliegue automatizado o, incluso, continuo.</p>
+<p>La <strong>importancia que han ido ganando las pruebas ha sido tal que la propia forma de codificar el software también ha sufrido cambios profundos</strong>. El nacimiento de <strong>TDD (desarrollo orientado a las pruebas)</strong> y su forma de supeditar el código a los test, implica que hacer software testeable es un requisito imprescindible en el código de calidad.</p>
+<p>Y, aunque no lleguemos a utilizar esta avanzada técnica de desarrollo (que no es nada fácil), el objetivo de poder probar de forma automática nuestro código, ha <strong>reforzado prácticas tan importantes en la programación orientada a objetos como es SOLID</strong>.</p>
+<h2 id="un-universo-de-tipos-de-pruebas">Un universo de tipos de pruebas</h2>
+<p>Siguiendo los pasos de la complejidad inherente de nuestra industria, las pruebas también sufren de una miríada inacabable de tipos, versiones, evoluciones y clases. Pero centrémonos en las más importantes e imprescindibles, según cada caso y contexto.</p>
+<ul>
+<li><strong>Prueba unitaria</strong>: las pruebas unitarias son pruebas automatizadas que verifican la funcionalidad en el componente, clase, método o nivel de propiedad.</li>
+</ul>
+<p>El objetivo principal de las pruebas unitarias es tomar la pieza más pequeña de software comprobable en la aplicación, aislarla del resto del código y determinar si se comporta exactamente como esperamos. Cada unidad se prueba por separado antes de integrarlas en los componentes para probar las interfaces entre las unidades.</p>
+<p>Las pruebas unitarias deben escribirse antes (o muy poco después) de escribir un método; siendo los desarrolladores que crean la clase o el método, quienes diseñan la prueba.</p>
+<p>Así, conseguimos mantener el foco en lo que debe hacer el código, y se convierte en una poderosa herramienta para aplicar KISS, JIT, y mantener el foco en lo que tiene que hacer en vez de en el cómo, evitando introducir complejidad sin valor.</p>
+<ul>
+<li><strong>Pruebas de integración</strong>: desde una perspectiva de prueba, las unidades individuales se integran juntas para formar componentes más grandes. En su forma más simple, dos unidades que ya han sido probadas se combinan en un componente integrado y se prueba la interfaz entre ellas.</li>
+</ul>
+<p>Las pruebas de integración – o de componentes - identifican problemas que ocurren cuando las unidades se combinan. Los nuevos errores que surgen probablemente estén relacionados con la interfaz entre las unidades en lugar de dentro de las propias unidades; simplificando la tarea de encontrar y corregir los defectos.</p>
+<ul>
+<li><strong>Pruebas de regresión</strong>: cada vez que se realizan cambios en un proyecto, es posible que el código existente ya no funcione correctamente o que se presenten errores no descubiertos previamente. Este tipo de error se llama regresión.</li>
+</ul>
+<p>Para detectar estos defectos, todo el proyecto debe someterse a una regresión: una nueva prueba completa de un programa modificado, en lugar de una prueba de solo las unidades modificadas, para garantizar que no se hayan introducido errores con las modificaciones.</p>
+<p>Como se puede deducir, este tipo de pruebas debe ser automatizado porque puede estar compuesto por decenas o miles de pruebas unitarias, de integración o más.</p>
+<p>Una versión menos costosa, podría ser construir pruebas que repliquen las acciones que provocaron la regresión, y comprueben que han sido corregidos al no volver a sucederse los errores; además de añadir los test unitarios que aseguren que el código que ha corregido la regresión funciona correctamente.</p>
+<ul>
+<li><strong>Pruebas de funcionalidad</strong>: pruebas automatizadas o manuales que prueban las funcionalidades de la aplicación o módulo construidos desde el punto de vista del usuario final, con sus diferentes roles, para validar que el software hace lo que debe y, sobre todo, lo que se ha especificado.</li>
+</ul>
+<p>En su versión automática son pruebas que se automatizan para &ldquo;ahorrar tiempo de pruebas&rdquo;. A partir de los casos de prueba de las pruebas manuales, se automatizan los casos de prueba para que se repitan en las ejecuciones. Esos casos suelen ser los más importantes (happy flow) de los módulos o procesos de negocio &ldquo;vitales&rdquo; de la aplicación. Es decir, los procesos que siempre tienen que funcionar y que bajo ningún concepto pueden fallar. El objetivo de las pruebas funcionales automáticas es comprobar que no haya regresiones.</p>
+<ul>
+<li><strong>Pruebas de estrés</strong>: las pruebas a pequeña escala, como un usuario único que ejecuta una aplicación web o una base de datos con solo un puñado de registros, pueden no revelar problemas que suceden cuando la aplicación se usa en condiciones &ldquo;reales&rdquo;.</li>
+</ul>
+<p>La prueba de estrés empuja los límites funcionales de un sistema. Se realiza sometiendo el sistema a condiciones extremas, como volúmenes de datos máximos o una gran cantidad de usuarios simultáneos.</p>
+<p>También se utilizan para, llevado el sistema al colapso o degradación, comprobar su funcionamiento continuado por encima de su límite y, una vez liberado de la carga, evaluar su capacidad de resiliencia volviendo a su estado óptimo de funcionamiento.</p>
+<ul>
+<li><strong>Prueba de rendimiento</strong>: determinan la capacidad de respuesta, el rendimiento, la confiabilidad y/o la escalabilidad de un sistema bajo una carga de trabajo determinada.</li>
+</ul>
+<p>En aplicaciones web, las pruebas de rendimiento a menudo están estrechamente relacionadas con las pruebas de estrés, la medición del retraso y la capacidad de respuesta bajo una carga pesada.</p>
+<p>En otras aplicaciones (escritorio y aplicaciones móviles, por ejemplo), las pruebas de rendimiento miden la velocidad y la utilización de recursos, como el espacio en disco y la memoria.</p>
+<ul>
+<li><strong>Pruebas de seguridad</strong>: validan los servicios de seguridad de una aplicación e identifican posibles fallos y debilidades.</li>
+</ul>
+<p>Muchos proyectos utilizan un enfoque de caja negra para las pruebas de seguridad, lo que permite a los expertos, sin conocimiento del software, probar la aplicación en busca de agujeros, fallos, exploit y debilidades.</p>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
