@@ -4,7 +4,15 @@
         <link>https://moonantonio.github.io/posts/</link>
         <description>Todos los Artículos | Antonio Moon´s</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
-            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Wed, 10 Aug 2022 22:19:33 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Imagen del dia [10.08.2022]</title>
+    <link>https://moonantonio.github.io/posts/2022/imagen/001/</link>
+    <pubDate>Wed, 10 Aug 2022 22:19:33 &#43;0200</pubDate>
+    <author>Antonio Moon</author>
+    <guid>https://moonantonio.github.io/posts/2022/imagen/001/</guid>
+    <description><![CDATA[ Comprobando compulsivamente si mi cartera todavía está Khyle. ]]></description>
+</item>
+<item>
     <title>Actualización del blog - Temporal</title>
     <link>https://moonantonio.github.io/posts/2022/comun/001/</link>
     <pubDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</pubDate>
@@ -85,15 +93,6 @@ Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie si
     <description><![CDATA[Feliz Año 2019!!!, este año pasado, han ocurrido muchas cosas. Entre ellas, he terminado las entradas para aprender C# en Unity3D, he empezado a escribir las de C++ en Unreal y he abierto el Code backdoor.
 También me ha gustado mucho las nuevas tecnologías que han salido destinadas para la industria de Videojuegos.
 Entre ellas la ECS es la que mas me esta gustado, la orientación a datos frente a la de objetos.]]></description>
-</item>
-<item>
-    <title>Final Fantasy Tactics - Curiosidades</title>
-    <link>https://moonantonio.github.io/posts/2018/comun/025/</link>
-    <pubDate>Wed, 19 Dec 2018 14:09:39 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/comun/025/</guid>
-    <description><![CDATA[Final Fantasy Tactics Final Fantasy nos ha dejado una larga lista de grandes títulos. Y ahora que se acerca la remasterización de Final Fantasy VII, de la que, de momento no sabemos en qué momento aparecerá, al menos el primer episodio, desde ScreenRant han decidido desempolvar otro juego de la saga, contemporáneo de Final Fantasy VII.
-Final Fantasy Tactics apareció en 1998 en la primera PlayStation. Sin embargo, el éxito cosechado por Final Fantasy VII, que se lanzó al mercado un año antes, acabó por cubrir a este título y sumirlo en la oscuridad.]]></description>
 </item>
 </channel>
 </rss>
