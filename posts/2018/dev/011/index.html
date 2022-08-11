@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/011\/"
-        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1607 ,
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1587 ,
         "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/011\/","datePublished": "2018-09-25T19:26:11+02:00","dateModified": "2018-09-25T19:26:11+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -121,8 +121,7 @@
 <p>Algunas cosas que ya debería haber configurado al entrar en esto son algún tipo de sistema de configuración, así como un sistema de interfaz de usuario y un objeto global DontDestroyOnLoad al que tiene acceso su UI.</p>
 <p>Lo más probable es que lo actualice en algún momento, ya que incluso al escribir esto noté algunas optimizaciones que podría estar haciendo.</p>
 <h2 id="traducciones">Traducciones</h2>
-<p>Omita esta sección si solo quiere ver el flujo de trabajo, pero encontré que este sistema es útil para que los fanáticos me traduzcan las cosas. Lo mejor que puedes hacer es crear una hoja de cálculo de Google Drive y compartir el enlace con los fanáticos, que puedes encontrar haciendo publicaciones en los distintos centros para tu juego. Debajo hay un enlace a mi hoja de cálculo de muestra que puedes guardar en tu propia unidad y usar.</p>
-<p><a href="http://bit.ly/2ztE2OT" target="_blank" rel="noopener noreffer ">Link Google</a></p>
+<p>Omita esta sección si solo quiere ver el flujo de trabajo, pero encontré que este sistema es útil para que los fanáticos me traduzcan las cosas. Lo mejor que puedes hacer es crear una hoja de cálculo de Google Drive y compartir el enlace con los fanáticos, que puedes encontrar haciendo publicaciones en los distintos centros para tu juego.</p>
 <h2 id="el-archivo-po">El archivo .PO</h2>
 <p>¿Qué es un archivo .po (objeto portátil)?. Es una parte del estándar gettext, y se describe en el proyecto GNU de esta manera:</p>
 <p>Un archivo PO se compone de muchas entradas, cada entrada mantiene la relación entre una cadena original no traducida y su correspondiente traducción. Todas las entradas en un archivo PO generalmente pertenecen a un solo proyecto, y todas las traducciones se expresan en un solo idioma de destino. Una entrada de archivo PO tiene la siguiente estructura esquemática:</p>
@@ -140,7 +139,16 @@ msgstr translated-string
 <p>Un .pot (Portable Object Template) es lo que se usa para generar sus archivos .po en un editor, y se puede usar para actualizar sus archivos .po cuando agrega nuevas traducciones. Tiene la misma estructura exacta que un archivo .po normal, pero con una cadena traducida vacía.</p>
 <p>¡No intente administrar traducciones agregando entradas a archivos .po, actualice desde .pot para garantizar la coherencia!</p>
 <p>El editor más popular es Poedit. Que se ve así, he marcado con un círculo el botón &lsquo;Actualizar desde POT&rsquo;:</p>
-<!-- raw HTML omitted -->
+<figure><a class="lightgallery" href="/img/c/po.jpg" title="/img/c/po.jpg" data-thumbnail="/img/c/po.jpg" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/po.jpg"
+            data-srcset="/img/c/po.jpg, /img/c/po.jpg 1.5x, /img/c/po.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/po.jpg" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 <h2 id="implementación-con-unity3d">Implementación con Unity3D</h2>
 <p>Es probable que este sistema necesite ajustes en su situación exacta, pero intentaré mantenerlo lo más genérico posible. Aunque algunos de los pasos que tendrá que averiguar sera, dónde llamar algunas cosas por su cuenta. Vamos a usar las cadenas en inglés como nuestras teclas, ¡esto es muy importante! Mantenga su .pot actualizado. La idea es que dado que el juego comenzará en inglés cada vez que podamos tomar los valores predeterminados para el cuadro de texto y usarlos como ambas claves y los valores del idioma inglés.</p>
 <p>Los archivos principales con los que trabajaremos son:</p>
@@ -341,7 +349,7 @@ msgstr &#34;BRONCE&#34;
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><hr>
-<p>###UILocalizeText.cs</p>
+<h2 id="uilocalizetextcs">UILocalizeText.cs</h2>
 <hr>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
@@ -411,7 +419,17 @@ msgstr &#34;BRONCE&#34;
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><hr>
 <p>Bueno con esto, puedes hacer la prueba y comprobar que ya tienes un sistema simple para traducir tu juego a diversos idiomas.</p>
-<!-- raw HTML omitted -->
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 </div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
@@ -423,7 +441,7 @@ msgstr &#34;BRONCE&#34;
             </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'G-V17LGH4N3N', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-V17LGH4N3N" async></script></body>

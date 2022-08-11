@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <title>Unity Shader de acumulación - Antonio Moon´s</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Unity Shader de acumulación" />
 <meta property="og:description" content="¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
-¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara." />
+. . ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://moonantonio.github.io/posts/2018/dev/013/" /><meta property="og:image" content="https://moonantonio.github.io/avatar.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2018-10-18T03:42:27+02:00" />
@@ -17,7 +17,7 @@
 
 <meta name="twitter:title" content="Unity Shader de acumulación"/>
 <meta name="twitter:description" content="¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
-¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara."/>
+. . ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara."/>
 <meta name="application-name" content="Moon Antonio">
 <meta name="apple-mobile-web-app-title" content="Moon Antonio"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -32,7 +32,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/013\/"
-        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1374 ,
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1382 ,
         "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/013\/","datePublished": "2018-10-18T03:42:27+02:00","dateModified": "2018-10-18T03:42:27+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -119,7 +119,26 @@
         <div class="call-out" style="background-image: url('https://moonantonio.github.io/img/b/b054.jpg')"></div>
 		</header></div>
     <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Unity Shader de acumulación</h1><div class="content" id="content"><p>¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo <strong>crear un efecto de imagen (sombreado de espacio de pantalla)</strong> que cambiará inmediatamente la temporada de su escena en Unity.</p>
-<!-- raw HTML omitted -->
+<figure><a class="lightgallery" href="/img/c/nieve01.png" title="/img/c/nieve01.png" data-thumbnail="/img/c/nieve01.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/nieve01.png"
+            data-srcset="/img/c/nieve01.png, /img/c/nieve01.png 1.5x, /img/c/nieve01.png 2x"
+            data-sizes="auto"
+            alt="/img/c/nieve01.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<figure><a class="lightgallery" href="/img/c/nieve02.png" title="/img/c/nieve02.png" data-thumbnail="/img/c/nieve02.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/nieve02.png"
+            data-srcset="/img/c/nieve02.png, /img/c/nieve02.png 1.5x, /img/c/nieve02.png 2x"
+            data-sizes="auto"
+            alt="/img/c/nieve02.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 <h1 id="como-funciona">¿Como funciona?</h1>
 <p>En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara. No se han realizado cambios en ninguna de las texturas. ¿Cómo es posible?</p>
 <p>La teoría es realmente simple. El supuesto es <strong>que debe haber nieve cuando la imagen normal de un píxel renderizado está orientada hacia arriba (suelo, techos, etc.)</strong> También debe haber una transición suave entre la textura de la nieve y la textura original si la imagen está orientada hacia cualquier otra dirección (pinos, paredes).</p>
@@ -130,7 +149,18 @@
 <li>Camera.depthTextureMode establecido en DepthNormals</li>
 </ul>
 <hr>
-<!-- raw HTML omitted -->
+
+<a  href="http://bit.ly/2EvTZZD" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
 <hr>
 <p>Ya que la segunda opción puede ser configurada fácilmente por el propio script de efectos de imagen, la primera opción puede causar un <strong>problema si su juego ya está utilizando forward rendering path</strong>.</p>
 <p>Configurar Camera.depthTextureMode como DepthNormals nos permitirá leer la <strong>profundidad de la pantalla</strong> (la distancia a la que se ubican los píxeles de la cámara) y las normales (dirección opuesta).</p>
@@ -282,7 +312,16 @@ _CameraDepthTexture Siempre se refiere a la textura de profundidad principal de 
 <p>La documentación de Unity dice que <strong>la profundidad y las normales se empaquetan en 16 bits cada una</strong>. Para poder descomprimirlo, necesitamos llamar a <strong>DecodeDepthNormal</strong> como se vio anteriormente.</p>
 <p>Las normales recuperadas de esta manera son normales de <strong>espacio de cámara</strong>. Eso significa que si giramos la cámara, entonces también cambiará la orientación de los normales. No queremos eso, y por eso tenemos que multiplicarlo por  _CamToWorld, una matriz establecida en el script anterior. Convierte las normales de la cámara a coordenadas mundiales para que no dependan más de la perspectiva de la cámara.
 Para que el shader se compile, tiene que devolver algo, así que configuro la declaración de retorno como se ve arriba. Para ver si nuestros cálculos son correctos, es una buena idea obtener una vista previa del resultado.</p>
-<!-- raw HTML omitted -->
+<figure><a class="lightgallery" href="/img/c/nieve03.png" title="/img/c/nieve03.png" data-thumbnail="/img/c/nieve03.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/nieve03.png"
+            data-srcset="/img/c/nieve03.png, /img/c/nieve03.png 1.5x, /img/c/nieve03.png 2x"
+            data-sizes="auto"
+            alt="/img/c/nieve03.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 <p>Estamos haciendo esto como RGB. En <strong>Unity el color verde muestra el valor de la coordenada Y</strong>.</p>
 <p>Ahora vamos a convertirlo en factor de cantidad de nieve.</p>
 <hr>
@@ -302,7 +341,16 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div><hr>
 <p>Deberíamos estar usando el <strong>canal G</strong>, por supuesto. Ahora, esto puede ser suficiente, pero me gusta iterar un poco más para poder configurar los <strong>umbrales superior e inferior del área nevada</strong>. Permitirá ajustar la cantidad de nieve que debería haber en la escena.</p>
-<!-- raw HTML omitted -->
+<figure><a class="lightgallery" href="/img/c/nieve04.png" title="/img/c/nieve04.png" data-thumbnail="/img/c/nieve04.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/nieve04.png"
+            data-srcset="/img/c/nieve04.png, /img/c/nieve04.png 1.5x, /img/c/nieve04.png 2x"
+            data-sizes="auto"
+            alt="/img/c/nieve04.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 <h1 id="textura-de-nieve">Textura de nieve</h1>
 <p>La nieve puede no parecer real sin una textura. <strong>Esta es la parte más difícil</strong>: ¿cómo aplicar una textura en un objetos 3D si solo tiene una imagen 2D (estamos trabajando en el espacio de la pantalla, recuerde)? Una forma es averiguar la <strong>posición mundial del píxel</strong>. Luego podemos usar las coordenadas del mundo X y Z como coordenadas de textura.</p>
 <hr>
@@ -360,10 +408,38 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
 </span></span><span class="line"><span class="cl">	<span class="k">return</span> lerp<span class="o">(</span>col, snowColor, snowAmount<span class="o">)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div><hr>
-<!-- raw HTML omitted -->
+<figure><a class="lightgallery" href="/img/c/nieve05.png" title="/img/c/nieve05.png" data-thumbnail="/img/c/nieve05.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/nieve05.png"
+            data-srcset="/img/c/nieve05.png, /img/c/nieve05.png 1.5x, /img/c/nieve05.png 2x"
+            data-sizes="auto"
+            alt="/img/c/nieve05.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 <p>El toque final, vamos a establecer el valor _TopThreshold en 0.6:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<figure><a class="lightgallery" href="/img/c/nieve06.gif" title="/img/c/nieve06.gif" data-thumbnail="/img/c/nieve06.gif" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/nieve06.gif"
+            data-srcset="/img/c/nieve06.gif, /img/c/nieve06.gif 1.5x, /img/c/nieve06.gif 2x"
+            data-sizes="auto"
+            alt="/img/c/nieve06.gif" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 </div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
@@ -375,7 +451,7 @@ Para que el shader se compile, tiene que devolver algo, así que configuro la de
             </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'G-V17LGH4N3N', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-V17LGH4N3N" async></script></body>

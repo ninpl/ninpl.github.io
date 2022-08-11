@@ -41,58 +41,59 @@ Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie si
 . . Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automáticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.]]></description>
 </item>
 <item>
-    <title>Clase Abstracta VS Interfaces</title>
-    <link>https://moonantonio.github.io/posts/2017/dev/025/</link>
-    <pubDate>Fri, 16 Feb 2018 10:40:58 &#43;0100</pubDate>
+    <title>Shooter Level Design - Conceptos</title>
+    <link>https://moonantonio.github.io/posts/2018/dev/015/</link>
+    <pubDate>Fri, 30 Nov 2018 15:11:12 &#43;0100</pubDate>
     <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2017/dev/025/</guid>
-    <description><![CDATA[El uso de clases abstractas y herencia para organizar la lógica de nuestras aplicaciones se puede sustituir o complementar con interfaces y métodos de extensión usando C#. En este artículo veremos un ejemplo de ambas aproximaciones así como sus ventajas e inconvenientes.
-Clases Abstractas Las clases abstractas nos permiten tener una clase base con cierta funcionalidad común ya implementada, sobre la que podemos heredar y especificar algunos métodos. Para este ejemplo, la clase Transporte implementa el método Mover, y las clases Coche y Bicicleta especifican el número de ruedas.]]></description>
+    <guid>https://moonantonio.github.io/posts/2018/dev/015/</guid>
+    <description><![CDATA[. Un colega esta terminando el TFG de diseño de videojuegos, y el otro dia estuvimos hablando de como crear un entorno para un videojuego shooter, vimos las dificultades y los balanceos necesarios para generar una solución factible y escalable.
+Después de unos días de investigación, encontré a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter.]]></description>
 </item>
 <item>
-    <title>MVC simplificado</title>
-    <link>https://moonantonio.github.io/posts/2017/dev/014/</link>
-    <pubDate>Tue, 07 Nov 2017 22:18:34 &#43;0100</pubDate>
+    <title>Ingeniería inversa :: ¿Qué sacar de esto?</title>
+    <link>https://moonantonio.github.io/posts/2018/dev/014/</link>
+    <pubDate>Sat, 27 Oct 2018 16:15:50 &#43;0200</pubDate>
     <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2017/dev/014/</guid>
-    <description><![CDATA[Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patrón de diseño, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
-Cuanto más grande es el proyecto, más grande es el espagueti.
-Snake Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca.]]></description>
+    <guid>https://moonantonio.github.io/posts/2018/dev/014/</guid>
+    <description><![CDATA[Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
+La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.]]></description>
 </item>
 <item>
-    <title>Sistema Gambits</title>
-    <link>https://moonantonio.github.io/posts/2017/dev/013/</link>
-    <pubDate>Tue, 03 Oct 2017 21:24:19 &#43;0200</pubDate>
+    <title>Unity Shader de acumulación</title>
+    <link>https://moonantonio.github.io/posts/2018/dev/013/</link>
+    <pubDate>Thu, 18 Oct 2018 03:42:27 &#43;0200</pubDate>
     <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2017/dev/013/</guid>
-    <description><![CDATA[El sistema gambit, es un sistema que controla el comportamiento o acciones de un agente. Este agente tiene unas listas de prioridades en las que tiene comportamientos o acciones. El agente siempre accionara iteradamente su acción, siempre y cuando cumpla la condición, sino, pasara a la siguiente acción en la lista.
-¿Dónde y por qué se necesitó crear el sistema gambit? En 1991, Square Soft, una desarrolladora de videojuegos famosa por sus sagas jrpg, necesitaba generar una serie de patrones para sus enemigos en su juego FF IV.]]></description>
+    <guid>https://moonantonio.github.io/posts/2018/dev/013/</guid>
+    <description><![CDATA[¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
+. . ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara.]]></description>
 </item>
 <item>
-    <title>Investigación Generación</title>
-    <link>https://moonantonio.github.io/posts/2017/dev/012/</link>
-    <pubDate>Fri, 25 Aug 2017 22:40:40 &#43;0200</pubDate>
+    <title>Localización usando .PO</title>
+    <link>https://moonantonio.github.io/posts/2018/dev/011/</link>
+    <pubDate>Tue, 25 Sep 2018 19:26:11 &#43;0200</pubDate>
     <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2017/dev/012/</guid>
-    <description><![CDATA[Generación de contenido procedural - Básico ¿Qué es el PCG? Aquí debo comenzar diciendo que en realidad una definición certera y aceptada por toda la academia no existe, es por eso que voy a mencionar diversas definiciones que obtuve de las referencias en las que me base:
-El PCG es la creación algorítmica de contenido de un juego, con entrada de información limitada o indirecta por parte del usuario. El PCG es la generación programática de contenido de un juego, utilizando un proceso aleatorio o pseudo aleatorio que da como resultado un rango impredecible de posibles espacios de juego.]]></description>
+    <guid>https://moonantonio.github.io/posts/2018/dev/011/</guid>
+    <description><![CDATA[Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.]]></description>
 </item>
 <item>
-    <title>Comandos fundamentales de Windows</title>
-    <link>https://moonantonio.github.io/posts/2017/dev/011/</link>
-    <pubDate>Thu, 27 Jul 2017 19:35:28 &#43;0200</pubDate>
+    <title>¡Consejos esenciales de Gamedev &amp; Unity!</title>
+    <link>https://moonantonio.github.io/posts/2018/dev/010/</link>
+    <pubDate>Mon, 10 Sep 2018 14:00:03 &#43;0200</pubDate>
     <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2017/dev/011/</guid>
-    <description><![CDATA[Diferentes comandos útiles y básicos Cat Cat (de concatenar), es una maravillosa utilidad que nos permite visualizar el contenido de un archivo de texto sin la necesidad de un editor. Para utilizarlo solo debemos mencionarlo junto al archivo que deseamos visualizar. $ cat prueba.txt Ls Ls (de listar), permite listar el contenido de un directorio o fichero. El comando ls tiene varias opciones que permiten organizar la salida, lo que resulta particularmente útil cuando es muy grande.]]></description>
+    <guid>https://moonantonio.github.io/posts/2018/dev/010/</guid>
+    <description><![CDATA[¿Quieres saber cómo aprender rápidamente la programación de videojuegos?
+Solo haz juegos.
+Aquí hay algunos consejos para ayudarlo en el camino:
+1. No reinventar la rueda, use las herramientas incorporadas del motor Al trabajar en cualquier motor, como Unity o Unreal Engine, algunos desarrolladores, principalmente provenientes de un campo de ciencias de la computación, pueden tener tendencia a inclinarse y comenzar a trabajar en algoritmos o estructuras enormes sin saber si ya existen en el motor.]]></description>
 </item>
 <item>
-    <title>Investigación RPG-Táctico</title>
-    <link>https://moonantonio.github.io/posts/2017/dev/005/</link>
-    <pubDate>Wed, 26 Apr 2017 20:39:00 &#43;0200</pubDate>
+    <title>Unity : Aseprite Workflow</title>
+    <link>https://moonantonio.github.io/posts/2018/dev/009/</link>
+    <pubDate>Wed, 22 Aug 2018 21:00:28 &#43;0200</pubDate>
     <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2017/dev/005/</guid>
-    <description><![CDATA[¿Qué se considera combate táctico? Supernova La definición de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.
-El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.]]></description>
+    <guid>https://moonantonio.github.io/posts/2018/dev/009/</guid>
+    <description><![CDATA[. Administrar las hojas de sprites y las animaciones de pixel art dentro de Unity sin herramientas personalizadas es una pesadilla. Esto es lo que tiene que hacer solo para crear los assets para un solo personaje:
+Crea una textura (png) a través de un programa de pintura como Photoshop e importa un png en el proyecto de Unity. Establezca las configuraciones de importación deseadas para que la textura importada coincida con la misma configuración que ha utilizado para cada textura que haya importado.]]></description>
 </item>
 </channel>
 </rss>

@@ -32,7 +32,7 @@ Introducción a los Objetos Scriptables Puede pensar en un objeto programable co
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/002\/"
-        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1705 ,
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  1708 ,
         "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/002\/","datePublished": "2018-04-17T14:04:47+02:00","dateModified": "2018-04-17T14:04:47+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -176,7 +176,15 @@ Introducción a los Objetos Scriptables Puede pensar en un objeto programable co
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><hr>
-<p>Este script proporcionará un botón en el inspector de nuestro componente que creará una nueva instancia de &ldquo;Demo1Data&rdquo; y la asignará a ambos campos en el script &ldquo;Demo1&rdquo;. <strong>IMPORTANTE: el script del editor debe agregarse a una carpeta &ldquo;Editor&rdquo; o no funcionará correctamente</strong>.</p>
+<p>Este script proporcionará un botón en el inspector de nuestro componente que creará una nueva instancia de &ldquo;Demo1Data&rdquo; y la asignará a ambos campos en el script &ldquo;Demo1&rdquo;.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>IMPORTANTE<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">El script del editor debe agregarse a una carpeta llamada &ldquo;Editor&rdquo; o no funcionará correctamente</div>
+        </div>
+    </div>
 <p>Crea una nueva escena. Agregue &ldquo;Demo1&rdquo; como componente a cualquier objeto de juego, como crear un nuevo objeto de juego vacío o incluso adjuntarlo a la cámara. Luego mira en el inspector. Unity creará automáticamente nuevas instancias de &ldquo;Demo1Data&rdquo; para ambos campos simplemente mirando el objeto en el inspector. Puede asignar cualquier valor que desee a cada uno de los campos &ldquo;Value&rdquo;. Si ingresa y sale del modo de reproducción, los valores incluso persistirán, hasta ahora todo bien.</p>
 <p>Salga del modo de reproducción (si aún no lo hizo), luego use el botón &ldquo;Crear Data&rdquo; en el inspector. El valor para ambos campos debería volver a &lsquo;0&rsquo; porque ambos campos ahora se refieren a la misma instancia nueva. Si modifica el campo de valor de &ldquo;dataB&rdquo;, debería ver el campo de valor de la actualización &ldquo;dataA&rdquo;. Sigue luciendo bien &hellip; al menos hasta que ingrese y salga del modo de reproducción. Pruébalo, luego modifica el valor de &ldquo;dataB&rdquo; una vez más. Uh oh, ¡los dos ya no están haciendo referencia al mismo objeto! Unity ha creado una copia completa del objeto original para ambos campos.</p>
 <h2 id="demo-2">Demo 2</h2>
@@ -310,8 +318,29 @@ Introducción a los Objetos Scriptables Puede pensar en un objeto programable co
 <p>He mostrado los <strong>objetos de script utilizados</strong> tanto en el modo de edición como durante el modo de reproducción. Sin embargo, vale <strong>la pena señalar que algunos de los mayores beneficios de los objetos programables, en particular su fácil serialización, no es algo que pueda utilizar en tiempo de ejecución</strong>.</p>
 <p>Aún puede guardar datos, como mediante el uso de JsonUtility para convertir sus objetos programables en JSON. El resultado podría guardarse de varias maneras, por ejemplo, escribiendo el valor en PlayerPrefs o escribiendo un archivo en el disco. Desafortunadamente, es probable que termine con los mismos desafíos de serialización demostrados en mis dos primeras demos. No tendrá una manera fácil de conservar referencias de objeto, ni tendrá una manera fácil de volver a crear matrices de objetos polimórficos.</p>
 <p>Los <strong>Objetos Scriptables son excelentes pequeños contenedores de datos</strong>. Se pueden usar en tiempo de ejecución o editar e incluso se pueden guardar como recursos del proyecto. Ofrecen varios beneficios que los objetos estándar y las clases se pierden, como la correcta serialización, pero no son perfectos. Creo que su interfaz podría ser más intuitiva, y personalmente no me gusta la restricción de tener que heredar de ScriptableObject o de no poder usar un constructor estándar. En general, vale la pena dedicarles un poco de tiempo porque pueden proporcionar algunos flujos de trabajo convenientes y pueden ayudarlo a proyectar rápidamente su contenido.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+
+<a  href="http://bit.ly/2B6sUdP" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-brands fa-github-alt"></i>
+    
+  
+  GitHub
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 </div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
@@ -323,7 +352,7 @@ Introducción a los Objetos Scriptables Puede pensar en un objeto programable co
             </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'G-V17LGH4N3N', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-V17LGH4N3N" async></script></body>

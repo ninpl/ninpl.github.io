@@ -32,7 +32,7 @@ Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy habla
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/001\/"
-        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  757 ,
+        },"genre": "posts","keywords": "Moon Antonio, dev","wordcount":  760 ,
         "url": "https:\/\/moonantonio.github.io\/posts\/2018\/dev\/001\/","datePublished": "2018-03-10T20:34:29+01:00","dateModified": "2018-03-10T20:34:29+01:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -125,8 +125,12 @@ Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy habla
 <h2 id="por-qué-es-tan-lento">¿Por qué es tan lento?</h2>
 <p>No voy a hablar sobre los detalles (pero si realmente quieres leer sobre los detalles, mira el final de este artículo para ver los enlaces), así que imagina que Unity intenta <strong>ser lo más flexible y fácil de usar</strong>. Hacer algo cuesta operaciones de CPU porque el motor no puede hacer suposiciones sobre su juego y necesita hacer un montón de comprobaciones para llamar a sus funciones mágicas en los objetos correctos, en el orden correcto, y no chocar mientras tanto.</p>
 <h2 id="se-puede-volver-más-rápido">¿Se puede volver más rápido?</h2>
-<p>¡Sí!, ¡Puede!, ¿Cómo?, Debe asumir la <strong>responsabilidad de llamar</strong> a la función Update() definiendo su <strong>propia función</strong> y llamándola desde un administrador. De esta forma, asumes la responsabilidad de <strong>actualizar tus objetos</strong>. ¿Cuánto más rápido puede llegar a ser? Bueno, depende de la plataforma. Mostrare las medidas hechas por <a href="https://blogs.unity3d.com/es/2015/12/23/1k-update-calls/" target="_blank" rel="noopener noreffer ">Valentin Simonov en el blog oficial de Unity</a>:</p>
-<!-- raw HTML omitted -->
+<p>¡Sí!, ¡Puede!, ¿Cómo?, Debe asumir la <strong>responsabilidad de llamar</strong> a la función Update() definiendo su <strong>propia función</strong> y llamándola desde un administrador. De esta forma, asumes la responsabilidad de <strong>actualizar tus objetos</strong>. ¿Cuánto más rápido puede llegar a ser? Bueno, depende de la plataforma. Mostrare las medidas hechas por <span class="h-card person-mention"><a href="https://blog.unity.com/technology/1k-update-calls" class="u-url url" title="Valentin Simonov"><img class="u-photo photo" src="https://blog-api.unity.com/sites/default/files/styles/focal_crop_ratio_1_1/public/2022-03/Unity%20Logo-1.png?imwidth=48&amp;h=7d66a0c3&amp;itok=mp5m7hAK" alt="Valentin Simonov">&#8201;<span class="p-name fn">Valentin Simonov</span></a></span> <a href="https://blog.unity.com/technology/1k-update-calls" target="_blank" rel="noopener noreffer ">en el blog oficial de Unity</a>:</p>
+<figure><img src="/img/c/tablaMono.png"/><figcaption>
+            <h4>.</h4>
+        </figcaption>
+</figure>
+
 <p>Aquí puedes ver que la diferencia puede valer la pena. Esta es una medida de la llamada Update(), 10000 veces.</p>
 <h2 id="creando-un-manager">Creando un Manager</h2>
 <p>Presentaré un simple ejemplo de un administrador llamado BoxManager que está administrando scripts de BoxManaged. El manager tiene dos responsabilidades:</p>
@@ -210,8 +214,29 @@ Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy habla
 <p>A veces puede necesitar un administrador, incluso si tiene una cantidad relativamente pequeña de objetos. En iOS hubo un problema con la función OnRender(). Tenerlo en 30-40 objetos podría disminuir el rendimiento del juego dos veces. ¿La solución? Un administrador como el presentado anteriormente, pero en lugar de llamar a Update() debería estar llamando al código OnRender().</p>
 <p><strong>Tenga en cuenta que esta es una de las muchas estrategias de optimización que puede usar</strong>. Sin embargo, este está bastante oculto, a menos que lo sepa, le será difícil encontrarlo. Esa es la razón por la cual este artículo ha cobrado vida.</p>
 <h2 id="referencias">Referencias</h2>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+
+<a  href="https://blogs.unity3d.com/es/2015/12/23/1k-update-calls/" target="_blank"  class="button">
+  
+  
+  
+    
+  <i class="fa-solid fa-globe"></i>
+    
+  
+  Ref
+  
+</a>
+<hr>
+<figure><a class="lightgallery" href="/img/ref.png" title="/img/ref.png" data-thumbnail="/img/ref.png" data-sub-html="<h2>.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/ref.png"
+            data-srcset="/img/ref.png, /img/ref.png 1.5x, /img/ref.png 2x"
+            data-sizes="auto"
+            alt="/img/ref.png" />
+    </a><figcaption class="image-caption">.</figcaption>
+    </figure>
 </div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2016 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://moonantonio.github.io/" target="_blank">Antonio Moon</a></span></div>
@@ -223,7 +248,7 @@ Métodos mágicos Las llamadas a funciones MonoBehaviour son lentas. Estoy habla
             </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":" Antonio Moon","id-2":" Antonio Moon"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'G-V17LGH4N3N', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-V17LGH4N3N" async></script></body>
