@@ -1,96 +1,96 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>comun - Etiqueta - Antonio Moon´s</title>
-        <link>https://moonantonio.github.io/tags/comun/</link>
-        <description>comun - Etiqueta - Antonio Moon´s</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
-            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/tags/comun/" rel="self" type="application/rss+xml" /><item>
+        <title>comun - Etiqueta - N9&#43;</title>
+        <link>https://ninpl.com/tags/comun/</link>
+        <description>comun - Etiqueta - N9&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (N9&#43;)</managingEditor>
+            <webMaster>antoniomt.moon@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/comun/" rel="self" type="application/rss+xml" /><item>
     <title>Actualización del blog - Temporal</title>
-    <link>https://moonantonio.github.io/posts/2022/comun/001/</link>
+    <link>https://ninpl.com/posts/2022/comun/001/</link>
     <pubDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2022/comun/001/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2022/comun/001/</guid>
     <description><![CDATA[Hola, actualmente el blog esta un poco parado. No por no tener artículos que publicar, sino por la pereza de lo que tarda en generarse todo.
 Cuando inicie el blog, elegí <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;Hugo como framework para crear sitios webs estáticos lo mas rápido posible y realmente era bestialmente rápido. El problema viene después de tantos años &hellip; es desesperadamente lento, en eso del 2017 se generaba en 20s - 30s, a dia de hoy es normal que tarde 2 o 3 minutos tranquilamente.]]></description>
 </item>
 <item>
     <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
-    <link>https://moonantonio.github.io/posts/2019/comun/008/</link>
+    <link>https://ninpl.com/posts/2019/comun/008/</link>
     <pubDate>Wed, 27 Nov 2019 00:15:44 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/comun/008/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/comun/008/</guid>
     <description><![CDATA[El <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;marketplace de Visual Studio Code realmente no es práctico para encontrar lo que necesitamos, en conceptos de diferentes temas que la comunidad nos brinda. ¡Visita el sitio web VSCodeThemes, que hace que sea mucho más fácil elegir un tema para Visual Studio Code!
 Asumiendo que el <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;mercado de Visual Studio Code no es la mejor manera de encontrar temas (mientras que para las extensiones, está bien) porque es necesario rezar para que el creador del tema haya capturado la pantalla en el archivo README de su proyecto para echar un vistazo, &#8201;Jordan Schroter ha <i class="fa-brands fa-github-alt" aria-hidden="true"></i>&nbsp;desarrollado un sitio web llamado <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;VSCodeThemes , congrega temas de <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;VSCode muy agradables y mucho más prácticos.]]></description>
 </item>
 <item>
     <title>Cómo usar Trello para el desarrollo ágil</title>
-    <link>https://moonantonio.github.io/posts/2019/comun/006/</link>
+    <link>https://ninpl.com/posts/2019/comun/006/</link>
     <pubDate>Wed, 30 Oct 2019 02:53:06 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/comun/006/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/comun/006/</guid>
     <description><![CDATA[Trello como una herramienta de apoyo para el desarrollo ágil. Específicamente, vamos a aplicar varios de los conceptos de Scrum, aunque no seguiremos todo lo descrito por esta metodología al pie de la letra.
 Lo básico En Trello existen 3 componentes básicos:
 Tableros Listas Tarjetas Un tablero de Trello se corresponde con un proyecto. Dentro de cada tablero podemos crear tantas listas como sea necesario. Por último, cada lista contendrá una serie de tarjetas.]]></description>
 </item>
 <item>
     <title>Reflexión sobre Final Fantasy</title>
-    <link>https://moonantonio.github.io/posts/2019/comun/004/</link>
+    <link>https://ninpl.com/posts/2019/comun/004/</link>
     <pubDate>Wed, 06 Feb 2019 02:19:22 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/comun/004/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/comun/004/</guid>
     <description><![CDATA[Durante la mayor parte de mi vida, nunca pensé seriamente en la serie Final Fantasy , a pesar de los cientos de horas que literalmente he pasado jugando. Siempre tuve dos suposiciones fundamentales con respecto a los personajes femeninos de la serie. En primer lugar, pueden luchar tan bien como los personajes masculinos. En segundo lugar, aunque son muy, muy bonitos, también lo son los personajes masculinos. Como dice en la caja, esto es fantasía.]]></description>
 </item>
 <item>
     <title>Feliz Año Nuevo !!! 2019</title>
-    <link>https://moonantonio.github.io/posts/2019/comun/001/</link>
+    <link>https://ninpl.com/posts/2019/comun/001/</link>
     <pubDate>Thu, 03 Jan 2019 21:33:24 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/comun/001/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/comun/001/</guid>
     <description><![CDATA[Feliz Año 2019!!!, este año pasado, han ocurrido muchas cosas. Entre ellas, he terminado las entradas para aprender C# en Unity3D, he empezado a escribir las de C++ en Unreal y he abierto el Code backdoor.
 También me ha gustado mucho las nuevas tecnologías que han salido destinadas para la industria de Videojuegos.
 Entre ellas la ECS es la que mas me esta gustado, la orientación a datos frente a la de objetos.]]></description>
 </item>
 <item>
     <title>Final Fantasy Tactics - Curiosidades</title>
-    <link>https://moonantonio.github.io/posts/2018/comun/025/</link>
+    <link>https://ninpl.com/posts/2018/comun/025/</link>
     <pubDate>Wed, 19 Dec 2018 14:09:39 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/comun/025/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/comun/025/</guid>
     <description><![CDATA[Final Fantasy Tactics Final Fantasy nos ha dejado una larga lista de grandes títulos. Y ahora que se acerca la remasterización de Final Fantasy VII, de la que, de momento no sabemos en qué momento aparecerá, al menos el primer episodio, desde ScreenRant han decidido desempolvar otro juego de la saga, contemporáneo de Final Fantasy VII.
 Final Fantasy Tactics apareció en 1998 en la primera PlayStation. Sin embargo, el éxito cosechado por Final Fantasy VII, que se lanzó al mercado un año antes, acabó por cubrir a este título y sumirlo en la oscuridad.]]></description>
 </item>
 <item>
     <title>Usando la proporción de oro</title>
-    <link>https://moonantonio.github.io/posts/2018/comun/023/</link>
+    <link>https://ninpl.com/posts/2018/comun/023/</link>
     <pubDate>Fri, 30 Nov 2018 14:16:45 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/comun/023/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/comun/023/</guid>
     <description><![CDATA[La espiral de Fibonacci creada a partir de la proporción de oro “La media de oro”, “Proporciones divinas”, “Espiral de Fibonacci”, y la lista continúa. Esta forma se crea a partir de una fórmula matemática conocida por su apariencia estéticamente agradable. Se puede encontrar de forma natural en muchas cosas como los lóbulos de las orejas, flores y conchas de nautilus. También se utiliza para diseñar objetos artificiales como el iPod.]]></description>
 </item>
 <item>
     <title>El estado de los juegos de rol basados ​​en turnos y el futuro de Final Fantasy</title>
-    <link>https://moonantonio.github.io/posts/2018/comun/022/</link>
+    <link>https://ninpl.com/posts/2018/comun/022/</link>
     <pubDate>Thu, 08 Nov 2018 02:37:50 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/comun/022/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/comun/022/</guid>
     <description><![CDATA[. Nota breve: cuando se habla de Square Enix, me refiero a la división japonesa de Square, no a las partes occidentales del estudio que hacen juegos como Tomb Raider y Hitman.
 “El combate por turnos es viejo. Está desactualizado. Es tan muerto como los juegos lineales para un solo jugador. Nunca volverá a funcionar en otro juego de AAA. Es algo del pasado: un recuerdo nostálgico de los juegos de ayer en el mejor de los casos &ldquo;.]]></description>
 </item>
 <item>
     <title>Pechos en videojuegos - Físicas</title>
-    <link>https://moonantonio.github.io/posts/2018/comun/021/</link>
+    <link>https://ninpl.com/posts/2018/comun/021/</link>
     <pubDate>Wed, 07 Nov 2018 16:51:53 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/comun/021/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/comun/021/</guid>
     <description><![CDATA[. Los pechos oscilan. Ellos caen y se pueden mover. A lo largo de los años, muchos juegos han intentado emular el comportamiento de los pechos. Incluso hay un término para ello: <i class="fa-brands fa-wikipedia-w" aria-hidden="true"></i>&nbsp;&ldquo;Breast physics&rdquo;.
 Si has jugado a juegos que tienen física en los pechos, probablemente hayas visto lo poco común que son los juegos que muestran los pechos como realmente se mueven: bolsas de grasa afectadas por la gravedad.]]></description>
 </item>
 <item>
     <title>La dificultad en los videojuegos</title>
-    <link>https://moonantonio.github.io/posts/2018/comun/020/</link>
+    <link>https://ninpl.com/posts/2018/comun/020/</link>
     <pubDate>Mon, 29 Oct 2018 23:14:55 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/comun/020/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/comun/020/</guid>
     <description><![CDATA[La frustración, desde su interpretación más sencilla vista por la psicología, no es otra cosa que la sensación (generalmente relacionada con la ira) al momento en que nuestro deseo no es satisfecho. Podemos estar viviendo la pérdida de un ser querido, un juicio por separación, tolerando un trabajo que no da lugar a nuestro crecimiento, falta de oportunidades, dificultades para llegar a fin de mes. A la larga, la frustración y sus desafíos aparecen constantemente frente a nosotros como el recordatorio de nuestra humanidad.]]></description>
 </item>
 </channel>

@@ -1,86 +1,86 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>dev - Categoría - Antonio Moon´s</title>
-        <link>https://moonantonio.github.io/categories/dev/</link>
-        <description>dev - Categoría - Antonio Moon´s</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (Antonio Moon)</managingEditor>
-            <webMaster>antoniomt.moon@gmail.com (Antonio Moon)</webMaster><lastBuildDate>Fri, 03 May 2019 02:02:45 &#43;0200</lastBuildDate><atom:link href="https://moonantonio.github.io/categories/dev/" rel="self" type="application/rss+xml" /><item>
+        <title>dev - Categoría - N9&#43;</title>
+        <link>https://ninpl.com/categories/dev/</link>
+        <description>dev - Categoría - N9&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (N9&#43;)</managingEditor>
+            <webMaster>antoniomt.moon@gmail.com (N9&#43;)</webMaster><lastBuildDate>Fri, 03 May 2019 02:02:45 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/categories/dev/" rel="self" type="application/rss+xml" /><item>
     <title>Uso de GUISkin para el estilo del editor</title>
-    <link>https://moonantonio.github.io/posts/2019/dev/004/</link>
+    <link>https://ninpl.com/posts/2019/dev/004/</link>
     <pubDate>Fri, 03 May 2019 02:02:45 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/dev/004/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/dev/004/</guid>
     <description><![CDATA[Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método.]]></description>
 </item>
 <item>
     <title>Fases Importantes del desarrollo de un juego</title>
-    <link>https://moonantonio.github.io/posts/2019/dev/003/</link>
+    <link>https://ninpl.com/posts/2019/dev/003/</link>
     <pubDate>Mon, 25 Feb 2019 23:17:23 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/dev/003/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/dev/003/</guid>
     <description><![CDATA[Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.
 Fase de Concepción Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (gameplay), y también se constituye un guion gráfico (storyboard) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc.]]></description>
 </item>
 <item>
     <title>Shaders Cell Shading (Toon)</title>
-    <link>https://moonantonio.github.io/posts/2019/dev/002/</link>
+    <link>https://ninpl.com/posts/2019/dev/002/</link>
     <pubDate>Tue, 05 Feb 2019 14:38:50 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/dev/002/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/dev/002/</guid>
     <description><![CDATA[En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
 Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
 Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz.]]></description>
 </item>
 <item>
     <title>Personalizando nuestro editor - Unity</title>
-    <link>https://moonantonio.github.io/posts/2019/dev/001/</link>
+    <link>https://ninpl.com/posts/2019/dev/001/</link>
     <pubDate>Thu, 24 Jan 2019 13:28:38 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2019/dev/001/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2019/dev/001/</guid>
     <description><![CDATA[Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script clases asociadas a Gameobjects, prefabs, etc…
 . . Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automáticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.]]></description>
 </item>
 <item>
     <title>Shooter Level Design - Conceptos</title>
-    <link>https://moonantonio.github.io/posts/2018/dev/015/</link>
+    <link>https://ninpl.com/posts/2018/dev/015/</link>
     <pubDate>Fri, 30 Nov 2018 15:11:12 &#43;0100</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/dev/015/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/dev/015/</guid>
     <description><![CDATA[. Un colega esta terminando el TFG de diseño de videojuegos, y el otro dia estuvimos hablando de como crear un entorno para un videojuego shooter, vimos las dificultades y los balanceos necesarios para generar una solución factible y escalable.
 Después de unos días de investigación, encontré a un level design que tiene bastante experiencia en este campo, el es Booby Ross, diseñados de niveles de varios juegos de shooter.]]></description>
 </item>
 <item>
     <title>Ingeniería inversa :: ¿Qué sacar de esto?</title>
-    <link>https://moonantonio.github.io/posts/2018/dev/014/</link>
+    <link>https://ninpl.com/posts/2018/dev/014/</link>
     <pubDate>Sat, 27 Oct 2018 16:15:50 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/dev/014/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/dev/014/</guid>
     <description><![CDATA[Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
 La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.]]></description>
 </item>
 <item>
     <title>Unity Shader de acumulación</title>
-    <link>https://moonantonio.github.io/posts/2018/dev/013/</link>
+    <link>https://ninpl.com/posts/2018/dev/013/</link>
     <pubDate>Thu, 18 Oct 2018 03:42:27 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/dev/013/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/dev/013/</guid>
     <description><![CDATA[¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
 . . ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara.]]></description>
 </item>
 <item>
     <title>Localización usando .PO</title>
-    <link>https://moonantonio.github.io/posts/2018/dev/011/</link>
+    <link>https://ninpl.com/posts/2018/dev/011/</link>
     <pubDate>Tue, 25 Sep 2018 19:26:11 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/dev/011/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/dev/011/</guid>
     <description><![CDATA[Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.]]></description>
 </item>
 <item>
     <title>¡Consejos esenciales de Gamedev &amp; Unity!</title>
-    <link>https://moonantonio.github.io/posts/2018/dev/010/</link>
+    <link>https://ninpl.com/posts/2018/dev/010/</link>
     <pubDate>Mon, 10 Sep 2018 14:00:03 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/dev/010/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/dev/010/</guid>
     <description><![CDATA[¿Quieres saber cómo aprender rápidamente la programación de videojuegos?
 Solo haz juegos.
 Aquí hay algunos consejos para ayudarlo en el camino:
@@ -88,10 +88,10 @@ Aquí hay algunos consejos para ayudarlo en el camino:
 </item>
 <item>
     <title>Unity : Aseprite Workflow</title>
-    <link>https://moonantonio.github.io/posts/2018/dev/009/</link>
+    <link>https://ninpl.com/posts/2018/dev/009/</link>
     <pubDate>Wed, 22 Aug 2018 21:00:28 &#43;0200</pubDate>
-    <author>Antonio Moon</author>
-    <guid>https://moonantonio.github.io/posts/2018/dev/009/</guid>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2018/dev/009/</guid>
     <description><![CDATA[. Administrar las hojas de sprites y las animaciones de pixel art dentro de Unity sin herramientas personalizadas es una pesadilla. Esto es lo que tiene que hacer solo para crear los assets para un solo personaje:
 Crea una textura (png) a través de un programa de pintura como Photoshop e importa un png en el proyecto de Unity. Establezca las configuraciones de importación deseadas para que la textura importada coincida con la misma configuración que ha utilizado para cada textura que haya importado.]]></description>
 </item>
