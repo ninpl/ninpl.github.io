@@ -270,8 +270,8 @@
 <p>Esta versión del DataManagerUnitySingleton hereda de MonoBehaviour. El &ldquo;Singleton&rdquo; es creado por algo llamado &ldquo;Lazy Loading&rdquo; lo que significa que tan pronto como un script llame a la propiedad &ldquo;instance&rdquo;, la clase verá su &ldquo;getter&rdquo; y determinará si ha creado uno. De lo contrario, creará un nuevo GameObject, asignará el componente correcto y se asegurará de que GameObject esté marcado correctamente para que no se destruya al cambiar de escena.</p>
 <p>Esta versión no es tan &ldquo;segura&rdquo; como la versión anterior, porque hay formas en que otros scripts pueden hacer que se destruya el GameObject de su script, y aunque su script &ldquo;sobreviva&rdquo; debido a la referencia estática, la comparación con null aún devuelve verdadero porque Unity anula el operador (para tener en cuenta el GameObject), por lo tanto, se crearía otro GameObject/Singleton.</p>
 <p>Además, nada impide que otro script agregue copias adicionales de este componente a otros GameObjects, aunque como no proporcioné ningún setter, solo se reconocerá un componente a la vez como instancia principal.</p>
-<p>Si quereis ver una muestra de un Singleton para Unity común, <i class="fa-brands fa-git" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2NglfuU" target="_blank" rel="noopener noreffer ">aquí</a>.</p>
-<script type="application/javascript" src="https://gist.github.com/MoonAntonio/b75f9febb08584cfd64dd46d8004fb78.js"></script>
+<p>Si quereis ver una muestra de un Singleton para Unity común, <i class="fa-brands fa-git" aria-hidden="true"></i>&nbsp;<a href="https://bit.ly/3DYIsPx" target="_blank" rel="noopener noreffer ">aquí</a>.</p>
+<script type="application/javascript" src="https://gist.github.com/ninpl/b75f9febb08584cfd64dd46d8004fb78.js"></script>
 
 <h1 id="player-prefs">Player Prefs</h1>
 <p>Todos los ejemplos hasta ahora son buenas maneras de tomar datos de una escena a otra, sin embargo, ninguno de ellos puede conservar datos en varias sesiones de juego. Para realizar esta tarea, debe guardar los datos en &ldquo;disco&rdquo; de una forma u otra. Unity proporciona una solución conveniente sin necesidad de comprender cómo crear, leer y escribir en archivos. Esta solución se llama PlayerPrefs - <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2PB3Mz1" target="_blank" rel="noopener noreffer ">vea la documentación aquí</a>.</p>
@@ -299,7 +299,7 @@
 <h1 id="serializacion">Serializacion</h1>
 <p>Mencioné la serialización desde el principio: Unity utiliza la serialización para almacenar los valores de sus componentes mientras está en el editor. Desafortunadamente, muchas de las opciones convenientes que te gustaría utilizar, como un Serializador Binario o XML, requerirían que puedas usar un Constructor, no una opción con MonoBehaviour. Además, la jerarquía de objetos, las referencias a objetos y el deseo de persistir en los valores de los componentes nativos de Unity complican enormemente este proceso.</p>
 <p>El método que prefiero es la serialización manual en cadenas JSON. Aunque requiere un poco más de configuración que algunas de las otras rutas, creo que tengo muchas más opciones y mantengo un control total sobre el proceso. Tampoco tengo que preocuparme por &ldquo;versionar&rdquo; mis datos. Puedo eliminar datos, agregar datos, cambiar tipos de datos, etc. y no hará que el serializador se bloquee, porque puedo controlar el proceso de qué y cómo persisto los datos. Por ejemplo, puedo verificar la presencia de claves y tratar de enviar tipos de datos donde sea necesario. Además, como estoy serializando una cadena JSON, puedo fácilmente persistir el resultado en PlayerPrefs, enviarlo a un servidor o escribirlo en un archivo local como lo desee.</p>
-<p>Decidí no volver a inventar la rueda esta vez, y usé un script público para la serialización JSON. Tome una copia <i class="fa-brands fa-git" aria-hidden="true"></i>&nbsp;<a href="http://bit.ly/2BFLpFW" target="_blank" rel="noopener noreffer ">aquí</a>, y agréguelo a su proyecto.</p>
+<p>Decidí no volver a inventar la rueda esta vez, y usé un script público para la serialización JSON. Tome una copia <i class="fa-brands fa-git" aria-hidden="true"></i>&nbsp;<a href="https://bit.ly/3Sen4Kl" target="_blank" rel="noopener noreffer ">aquí</a>, y agréguelo a su proyecto.</p>
 <p>Crea una nueva escena llamada &ldquo;Demo&rdquo;. Crea un Cubo (desde la barra de menú elige &ldquo;GameObject-&gt; Objet 3D-&gt; Cube&rdquo;) y luego crea y adjunta el siguiente script &ldquo;Monster&rdquo; (¿porque no es más divertido trabajar con monstruos?)</p>
 <hr>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="cp">#region Librerias</span>
@@ -645,7 +645,7 @@
         </div>
     </div>
 
-<a  href="https://bit.ly/3db6ZFv" target="_blank"  class="button">
+<a  href="https://bit.ly/3UNKJTG" target="_blank"  class="button">
   
   
   
