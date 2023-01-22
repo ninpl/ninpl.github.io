@@ -4,9 +4,17 @@
         <link>https://ninpl.com/</link>
         <description>un blog sobre mi, juegos, desarrollo y anime</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>antoniomt.moon@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>antoniomt.moon@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 10 Aug 2022 22:19:33 &#43;0200</lastBuildDate>
+            <webMaster>antoniomt.moon@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 22 Jan 2023 20:12:22 &#43;0100</lastBuildDate>
             <atom:link href="https://ninpl.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Imagen del dia [22.01.2023]</title>
+    <link>https://ninpl.com/posts/2023/imagen/001/</link>
+    <pubDate>Sun, 22 Jan 2023 20:12:22 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2023/imagen/001/</guid>
+    <description><![CDATA[ Yitan &amp; Garnet después de terminar su aventura juntos ナンポウ. ]]></description>
+</item>
+<item>
     <title>Imagen del dia [10.08.2022]</title>
     <link>https://ninpl.com/posts/2022/imagen/001/</link>
     <pubDate>Wed, 10 Aug 2022 22:19:33 &#43;0200</pubDate>
@@ -85,16 +93,6 @@ Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie si
     <guid>https://ninpl.com/posts/2019/dev/001/</guid>
     <description><![CDATA[Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script clases asociadas a Gameobjects, prefabs, etc…
 . . Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automáticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.]]></description>
-</item>
-<item>
-    <title>Feliz Año Nuevo !!! 2019</title>
-    <link>https://ninpl.com/posts/2019/comun/001/</link>
-    <pubDate>Thu, 03 Jan 2019 21:33:24 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/comun/001/</guid>
-    <description><![CDATA[Feliz Año 2019!!!, este año pasado, han ocurrido muchas cosas. Entre ellas, he terminado las entradas para aprender C# en Unity3D, he empezado a escribir las de C++ en Unreal y he abierto el Code backdoor.
-También me ha gustado mucho las nuevas tecnologías que han salido destinadas para la industria de Videojuegos.
-Entre ellas la ECS es la que mas me esta gustado, la orientación a datos frente a la de objetos.]]></description>
 </item>
 </channel>
 </rss>
