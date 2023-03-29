@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ninpl.com/perfil/
+Host: https://ninpl.com/perfil
 
 # Sitemaps
 Sitemap: https://ninpl.com/perfil/sitemap.xml
