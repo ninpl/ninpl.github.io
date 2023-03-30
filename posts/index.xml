@@ -4,7 +4,16 @@
         <link>https://ninpl.com/posts/</link>
         <description>Todos los Artículos | N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 22 Jan 2023 20:12:22 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>¡ Nuevo Perfil !</title>
+    <link>https://ninpl.com/posts/2023/comun/001/</link>
+    <pubDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2023/comun/001/</guid>
+    <description><![CDATA[Después de tanto tiempo (como 3 años) por fin he tenido algo de tiempo para cambiar mi perfil. Teniendo la estructura clara y sabiendo que quería cambiar de tecnología. De vez en cuando es bueno salir del confort y probar cosicas nuevas.
+Esto me lleva a ver que puedo usar para empezar a crear una web de perfil sencilla pero que pueda hacerla vistosa a simple vista y que pueda durar tiempo, ya que la ultima tarde 3 años en desecharla 😄]]></description>
+</item>
+<item>
     <title>Imagen del dia [22.01.2023]</title>
     <link>https://ninpl.com/posts/2023/imagen/001/</link>
     <pubDate>Sun, 22 Jan 2023 20:12:22 &#43;0100</pubDate>
@@ -82,15 +91,6 @@ Fase de Concepción Todo comienza con una idea a partir de la cual se conformar�
     <description><![CDATA[En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
 Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
 Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz.]]></description>
-</item>
-<item>
-    <title>Personalizando nuestro editor - Unity</title>
-    <link>https://ninpl.com/posts/2019/dev/001/</link>
-    <pubDate>Thu, 24 Jan 2019 13:28:38 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/dev/001/</guid>
-    <description><![CDATA[Un CustomEditor nos permite cambiar la representación visual de nuestras clases en el Unity Inspector. Hace más sencillo interactuar con las script clases asociadas a Gameobjects, prefabs, etc…
-. . Nuestro primer paso es crear una carpeta con el nombre Editor. Para Unity es un nombre de carpeta muy especial, Unity carga automáticamente todos los scripts que modifican el comportamiento del UnityEditor desde esta carpeta. Estos scripts NO serán incluidos en el empaquetado final del juego, solo serán usado por el UnityEditor.]]></description>
 </item>
 </channel>
 </rss>
