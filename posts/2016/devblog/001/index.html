@@ -34,7 +34,7 @@ Ante todo decir que no soy ningún experto ni mucho menos me acerco."/>
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/ninpl.com\/posts\/2016\/devblog\/001\/"
-        },"genre": "posts","keywords": "n9\u002b, devblog","wordcount":  1051 ,
+        },"genre": "posts","keywords": "n9\u002b, devblog","wordcount":  1428 ,
         "url": "https:\/\/ninpl.com\/posts\/2016\/devblog\/001\/","datePublished": "2016-10-21T00:47:40+01:00","dateModified": "2016-10-21T00:47:40+01:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -128,8 +128,14 @@ Ante todo decir que no soy ningún experto ni mucho menos me acerco."/>
 <p>Como pone en el titulo, esto es un prototipo para ver si es viable la idea de videojuego que tengo en mi cabeza. Nada es definitivo y seguramente en lo que tarde en terminar el proyecto se cambiaran muchas cosas.</p>
 <p><strong>De momento con cubos nos conformamos</strong> 💯</p>
 <h2 id="inicio"><strong>INICIO</strong></h2>
-<p>&ndash; IMAGEN DE LOGO PROTO &ndash;</p>
-<p>&ndash; IMAGEN DE INICIO PROTO &ndash;</p>
+<figure><img src="/img/devblog/devblog001.png"/>
+</figure>
+
+<figure><img src="/img/devblog/devblog000.gif"/><figcaption>
+            <h4>Menu Principal</h4>
+        </figcaption>
+</figure>
+
 <h2 id="persistencia"><strong>PERSISTENCIA</strong></h2>
 <p>Me gustaría dejar zanjado el <strong>sistema de persistencia</strong> desde el principio, ya que es una parte muy importante para poder crear ciertos puntos de guardado en cada una de las versiones y poder probar de nuevo el mismo camino y comprobar si algo se a roto.</p>
 <p>Unity tiene una sección donde explica su sistema de persistencia PlayerPrefs. Aunque empieza definiéndote su clase como un sistema de persistencia, termina diciéndote que no es una solución viable para producción. Por lo tanto decidí realizar una investigación de las formas mas comunes de guardar datos en disco. El resumen es que hay dos formas viables entre muchas otras: <strong>Serialización Binaria</strong> &amp; <strong>Texto Plano</strong>.</p>
@@ -169,12 +175,32 @@ Ante todo decir que no soy ningún experto ni mucho menos me acerco."/>
 <li>Se vuelven a escribir en el archivo externo JSON.</li>
 </ul>
 <p>Para comprobar que todo funcionara bien, cree una pequeña interfaz de opciones prototipada con el nuevo sistema de UI mejorado (en la version 4 era infumable) para modificar elementos esenciales como el sonido, las resoluciones, configuraciones gráficas&hellip;</p>
-<p>&ndash; IMAGEN DE UI PROTO &ndash;</p>
+<figure><img src="/img/devblog/devblog003.gif"/>
+</figure>
+
 <p>Este es el archivo que es creado con formato JSON externo. Es bastante intuitivo y modificable incluso fuera del juego.</p>
-<p>&ndash; IMAGEN DE JSON &ndash;</p>
+<figure><img src="/img/devblog/devblog002.png"/><figcaption>
+            <h4>Imagen del JSON</h4>
+        </figcaption>
+</figure>
+
 <h2 id="tablero"><strong>TABLERO</strong></h2>
-<p>el tablero</p>
-<p>&ndash; IMAGEN DE TABLERO PROTO &ndash;</p>
+<p>El tablero es como he llamado a el campo donde se realizara el combate, es una parte complicada fácil sabiendo que los datos van por un lado y la lógica por otro. El primer acercamiento que propuse fue el de crear una matriz en memoria del tamaño que se quiere y crear por cada posición un objeto en el tablero, escalando en Y para conseguir altura, esto como puedes ver es algo caótico, resulta que para crear un nivel medio (20x20x20) se generan alrededor de <strong>8000 objetos</strong> y eso solo para obtener posiciones del tablero.</p>
+<p>Entonces vi que lo que necesitaba no era una <strong>estructura neandertal, tenia que seguir el con el patrón estipulado</strong>, (tarde poco en saltármelo 😄).</p>
+<p>Separe los datos, por un lado, las posiciones las separe en una matriz de vector3 con xyz, por otro lado desde el inicio cargaba una lista con una matriz de posiciones para generar un campo vació y en vez de crear todos los objetos solo creaba uno por xz pero lo colocaba en la posición donde y fuera la mas alta. Esto me da que por anchura y profundidad es inevitablemente necesario crear todas las posiciones pero en y solo creo 1 posición siendo la mas elevada que es la que se usara.</p>
+<p>Con esto se optimiza a <strong>400 objetos</strong>.</p>
+<figure><img src="/img/devblog/devblog005.gif"/>
+</figure>
+
+<p>Ahora quería ya probar como se sentía el recorrer el tablero, y solo hay que ver el genero para percatarse de que es muy importante tener un <strong>indicador/marcador de posicionamiento</strong>, para que el jugador tenga un enfoque rápido en caso de desorientación.</p>
+<p>Esto es un enfoque primitivo al indicador final, como ya e dicho es fase de prototipo, por lo que cambiara al llegar la fase alfa/beta, pero me gustaría que el movimiento no sea brusco entre posición y posición. Esto lo digo porque la primera funcionalidad que he realizado se notaba muy tosca, simplemente el indicador cambiada de posición y la cámara realizaba un movimiento suavizado hacia el indicador.</p>
+<p>Por lo que en vez de cambio brusco, he creado un objeto dentro del indicador para realizar un <strong>movimiento suavizado en relación al axis</strong> que se esta moviendo, haciendo que al mover el joystick en x 0.5+ la velocidad de movimiento es inferior a que si en x es 1.0f+.</p>
+<figure><img src="/img/devblog/devblog004.gif"/><figcaption>
+            <h4>Desplazamiento de Indicador</h4>
+        </figcaption>
+</figure>
+
+<p>En futuras implementaciones incorporare un ajustes para poder cambiar la sensibilidad y que los jugadores puedan cambiar la velocidad de movimiento.</p>
 <h2 id="conclusiones"><strong>CONCLUSIONES</strong></h2>
 <div class="details admonition success open">
         <div class="details-summary admonition-title">
@@ -214,7 +240,7 @@ Ante todo decir que no soy ningún experto ni mucho menos me acerco."/>
     </figure>
 </div></article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2015 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://ninpl.com" target="_blank">N9&#43;</a></span></div>
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2015 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://ninpl.com" target="_blank">N9&#43;</a></span></div>
         </div>
     </footer></div>
 
