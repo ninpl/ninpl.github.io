@@ -4,9 +4,26 @@
         <link>https://ninpl.com/</link>
         <description>un blog sobre mi, juegos, desarrollo y anime</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</lastBuildDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 07 Jul 2024 22:48:41 &#43;0200</lastBuildDate>
             <atom:link href="https://ninpl.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Imagen del dia [07.07.2024]</title>
+    <link>https://ninpl.com/posts/2024/imagen/001/</link>
+    <pubDate>Sun, 07 Jul 2024 22:48:41 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/imagen/001/</guid>
+    <description><![CDATA[ ¡Feliz 27 aniversario, FFT! ! ! ! ! ナンポウ. ]]></description>
+</item>
+<item>
+    <title>Corrutinas y Async en Unity</title>
+    <link>https://ninpl.com/posts/2024/dev/001/</link>
+    <pubDate>Sun, 07 Jul 2024 22:33:02 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dev/001/</guid>
+    <description><![CDATA[¿Qué son las Corrutinas? Las corrutinas en Unity son una forma de gestionar la ejecución de código de manera asíncrona, permitiendo pausas en su ejecución y reanudaciones posteriores. Son especialmente útiles para realizar tareas que requieren esperar un cierto tiempo o eventos, sin bloquear el hilo principal del juego.
+Características de las Corrutinas Facilidad de uso: Se declaran con el tipo IEnumerator y se controlan usando yield return. Control del tiempo: Permiten pausar la ejecución por un tiempo específico utilizando yield return new WaitForSeconds(tiempo).]]></description>
+</item>
+<item>
     <title>¡ Nuevo Perfil !</title>
     <link>https://ninpl.com/posts/2023/comun/001/</link>
     <pubDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</pubDate>
@@ -75,24 +92,6 @@ Tableros Listas Tarjetas Un tablero de Trello se corresponde con un proyecto. De
     <guid>https://ninpl.com/posts/2019/dev/003/</guid>
     <description><![CDATA[Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.
 Fase de Concepción Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (gameplay), y también se constituye un guion gráfico (storyboard) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc.]]></description>
-</item>
-<item>
-    <title>Reflexión sobre Final Fantasy</title>
-    <link>https://ninpl.com/posts/2019/comun/004/</link>
-    <pubDate>Wed, 06 Feb 2019 02:19:22 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/comun/004/</guid>
-    <description><![CDATA[Durante la mayor parte de mi vida, nunca pensé seriamente en la serie Final Fantasy , a pesar de los cientos de horas que literalmente he pasado jugando. Siempre tuve dos suposiciones fundamentales con respecto a los personajes femeninos de la serie. En primer lugar, pueden luchar tan bien como los personajes masculinos. En segundo lugar, aunque son muy, muy bonitos, también lo son los personajes masculinos. Como dice en la caja, esto es fantasía.]]></description>
-</item>
-<item>
-    <title>Shaders Cell Shading (Toon)</title>
-    <link>https://ninpl.com/posts/2019/dev/002/</link>
-    <pubDate>Tue, 05 Feb 2019 14:38:50 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/dev/002/</guid>
-    <description><![CDATA[En post anteriores exploramos cómo podemos cambiar las propiedades físicas para simular diferentes materiales utilizando Surface Shaders. Un modelo de iluminación es responsable de tomar estas propiedades y calcular el tono final de cada píxel.
-Comenzaremos con uno realmente simple sobre el que podemos construir, un modelo de iluminación de Lambert. Para ello, debemos saber que es la ley de Lambert.
-Ley de Lambert La ley de Lambert trata sobre la iluminancia de una superficie situada a una cierta distancia de una fuente de luz.]]></description>
 </item>
 </channel>
 </rss>

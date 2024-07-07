@@ -4,18 +4,10 @@
         <link>https://ninpl.com/categories/</link>
         <description>Categories - Categoría - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>comun</title>
-    <link>https://ninpl.com/categories/comun/</link>
-    <pubDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/categories/comun/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 07 Jul 2024 22:48:41 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/categories/" rel="self" type="application/rss+xml" /><item>
     <title>imagen del dia</title>
     <link>https://ninpl.com/categories/imagen-del-dia/</link>
-    <pubDate>Sun, 22 Jan 2023 20:12:22 &#43;0100</pubDate>
+    <pubDate>Sun, 07 Jul 2024 22:48:41 &#43;0200</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/categories/imagen-del-dia/</guid>
     <description><![CDATA[]]></description>
@@ -23,9 +15,17 @@
 <item>
     <title>dev</title>
     <link>https://ninpl.com/categories/dev/</link>
-    <pubDate>Fri, 03 May 2019 02:02:45 &#43;0200</pubDate>
+    <pubDate>Sun, 07 Jul 2024 22:33:02 &#43;0200</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/categories/dev/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>comun</title>
+    <link>https://ninpl.com/categories/comun/</link>
+    <pubDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/categories/comun/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
