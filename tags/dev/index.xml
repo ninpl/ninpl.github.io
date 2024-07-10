@@ -4,7 +4,16 @@
         <link>https://ninpl.com/tags/dev/</link>
         <description>dev - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 07 Jul 2024 22:33:02 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/dev/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/dev/" rel="self" type="application/rss+xml" /><item>
+    <title>Integración de diferentes técnicas de búsqueda de caminos</title>
+    <link>https://ninpl.com/posts/2024/dev/002/</link>
+    <pubDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dev/002/</guid>
+    <description><![CDATA[En este documento, exploraremos cómo integrar varias técnicas de búsqueda de caminos. Las técnicas que abordaremos incluyen:
+Búsqueda en amplitud (BFS) Búsqueda en profundidad (DFS) Búsqueda de menor costo (Dijkstra) Búsqueda A* (A Star) 1. Búsqueda en Amplitud (BFS) La búsqueda en amplitud explora todos los nodos a una distancia dada antes de avanzar a la siguiente. Es útil para encontrar el camino más corto en un grafo no ponderado.]]></description>
+</item>
+<item>
     <title>Corrutinas y Async en Unity</title>
     <link>https://ninpl.com/posts/2024/dev/001/</link>
     <pubDate>Sun, 07 Jul 2024 22:33:02 &#43;0200</pubDate>
@@ -83,17 +92,6 @@ La ingeniería inversa (en inglés, reverse engineering) es el proceso de descub
     <author>N9&#43;</author>
     <guid>https://ninpl.com/posts/2018/dev/011/</guid>
     <description><![CDATA[Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.]]></description>
-</item>
-<item>
-    <title>¡Consejos esenciales de Gamedev &amp; Unity!</title>
-    <link>https://ninpl.com/posts/2018/dev/010/</link>
-    <pubDate>Mon, 10 Sep 2018 14:00:03 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2018/dev/010/</guid>
-    <description><![CDATA[¿Quieres saber cómo aprender rápidamente la programación de videojuegos?
-Solo haz juegos.
-Aquí hay algunos consejos para ayudarlo en el camino:
-1. No reinventar la rueda, use las herramientas incorporadas del motor Al trabajar en cualquier motor, como Unity o Unreal Engine, algunos desarrolladores, principalmente provenientes de un campo de ciencias de la computación, pueden tener tendencia a inclinarse y comenzar a trabajar en algoritmos o estructuras enormes sin saber si ya existen en el motor.]]></description>
 </item>
 </channel>
 </rss>

@@ -4,7 +4,16 @@
         <link>https://ninpl.com/tags/n9&#43;/</link>
         <description>n9&#43; - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 07 Jul 2024 22:48:41 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/n9&#43;/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/n9&#43;/" rel="self" type="application/rss+xml" /><item>
+    <title>Integración de diferentes técnicas de búsqueda de caminos</title>
+    <link>https://ninpl.com/posts/2024/dev/002/</link>
+    <pubDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dev/002/</guid>
+    <description><![CDATA[En este documento, exploraremos cómo integrar varias técnicas de búsqueda de caminos. Las técnicas que abordaremos incluyen:
+Búsqueda en amplitud (BFS) Búsqueda en profundidad (DFS) Búsqueda de menor costo (Dijkstra) Búsqueda A* (A Star) 1. Búsqueda en Amplitud (BFS) La búsqueda en amplitud explora todos los nodos a una distancia dada antes de avanzar a la siguiente. Es útil para encontrar el camino más corto en un grafo no ponderado.]]></description>
+</item>
+<item>
     <title>Imagen del dia [07.07.2024]</title>
     <link>https://ninpl.com/posts/2024/imagen/001/</link>
     <pubDate>Sun, 07 Jul 2024 22:48:41 &#43;0200</pubDate>
@@ -81,15 +90,6 @@ Tableros Listas Tarjetas Un tablero de Trello se corresponde con un proyecto. De
     <author>N9&#43;</author>
     <guid>https://ninpl.com/posts/2019/dev/004/</guid>
     <description><![CDATA[Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método.]]></description>
-</item>
-<item>
-    <title>Fases Importantes del desarrollo de un juego</title>
-    <link>https://ninpl.com/posts/2019/dev/003/</link>
-    <pubDate>Mon, 25 Feb 2019 23:17:23 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/dev/003/</guid>
-    <description><![CDATA[Quiero analizar las diferentes etapas que componen la realización de un videojuego profesional. Si estás metido en el mundo del software entonces este proceso te resultará familiar debido a que es muy similar, exceptuando que los videojuegos requieren de grandes aportes creativos.
-Fase de Concepción Todo comienza con una idea a partir de la cual se conformarán los aspectos fundamentales. Se determina el género o géneros del videojuego, cómo será el proceso de juego (gameplay), y también se constituye un guion gráfico (storyboard) en el que se tratan todo tipo de ideas preconcebidas que pueden ir adaptándose, como por ejemplo el estilo de los personajes, el ambiente, la música, etc.]]></description>
 </item>
 </channel>
 </rss>
