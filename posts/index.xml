@@ -4,7 +4,15 @@
         <link>https://ninpl.com/posts/</link>
         <description>Todos los Artículos | N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Los 12 principios de la Animación</title>
+    <link>https://ninpl.com/posts/2024/dise%C3%B1o/001/</link>
+    <pubDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dise%C3%B1o/001/</guid>
+    <description><![CDATA[. Principio nº1: Estirar y encoger El primer principio es el de estirar y encoger (squasch y stretch). Sin duda, un clásico dentro de la animación, y que seguro que reconoces en cuanto te lo cuente. Imagina un cubo que rebota contra el suelo constantemente. Cuando el cubo toca el suelo se encoje (stretch) y al subir, cuando de nuevo coge velocidad, se desforma estirándose (squasch). Este principio se puede emplear para cualquier objeto o personaje que queramos animar.]]></description>
+</item>
+<item>
     <title>Integración de diferentes técnicas de búsqueda de caminos</title>
     <link>https://ninpl.com/posts/2024/dev/002/</link>
     <pubDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</pubDate>
@@ -82,14 +90,6 @@ Asumiendo que el <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;me
     <description><![CDATA[Trello como una herramienta de apoyo para el desarrollo ágil. Específicamente, vamos a aplicar varios de los conceptos de Scrum, aunque no seguiremos todo lo descrito por esta metodología al pie de la letra.
 Lo básico En Trello existen 3 componentes básicos:
 Tableros Listas Tarjetas Un tablero de Trello se corresponde con un proyecto. Dentro de cada tablero podemos crear tantas listas como sea necesario. Por último, cada lista contendrá una serie de tarjetas.]]></description>
-</item>
-<item>
-    <title>Uso de GUISkin para el estilo del editor</title>
-    <link>https://ninpl.com/posts/2019/dev/004/</link>
-    <pubDate>Fri, 03 May 2019 02:02:45 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/dev/004/</guid>
-    <description><![CDATA[Al crear ventanas del editor de Unity con barras de herramientas, es posible que haya visto un par de formas diferentes de trabajar con los estilos de la barra de herramientas. Muchos de los ejemplos online o en paquetes de tiendas de activos crean estilos en código que ciertamente funcionan. Sin embargo, no he visto muchos ejemplos usando GUISkin para crear una GUI en el editor, así que pensé en compartir lo que aprendí experimentando con este método.]]></description>
 </item>
 </channel>
 </rss>
