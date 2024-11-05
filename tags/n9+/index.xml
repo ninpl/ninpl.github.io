@@ -4,7 +4,15 @@
         <link>https://ninpl.com/tags/n9&#43;/</link>
         <description>n9&#43; - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/n9&#43;/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Tue, 05 Nov 2024 01:04:46 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/n9&#43;/" rel="self" type="application/rss+xml" /><item>
+    <title>Imagen del dia [05.11.2024]</title>
+    <link>https://ninpl.com/posts/2024/imagen/002/</link>
+    <pubDate>Tue, 05 Nov 2024 01:04:46 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/imagen/002/</guid>
+    <description><![CDATA[ Reiniciado los bocetos nostálgicos Yasushi Hasegawa. ]]></description>
+</item>
+<item>
     <title>Los 12 principios de la Animación</title>
     <link>https://ninpl.com/posts/2024/dise%C3%B1o/001/</link>
     <pubDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</pubDate>
@@ -80,16 +88,6 @@ Cuando inicie el blog, elegí <i class="fa-solid fa-arrow-up-right-from-square" 
     <guid>https://ninpl.com/posts/2019/comun/008/</guid>
     <description><![CDATA[El <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;marketplace de Visual Studio Code realmente no es práctico para encontrar lo que necesitamos, en conceptos de diferentes temas que la comunidad nos brinda. ¡Visita el sitio web VSCodeThemes, que hace que sea mucho más fácil elegir un tema para Visual Studio Code!
 Asumiendo que el <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;mercado de Visual Studio Code no es la mejor manera de encontrar temas (mientras que para las extensiones, está bien) porque es necesario rezar para que el creador del tema haya capturado la pantalla en el archivo README de su proyecto para echar un vistazo, &#8201;Jordan Schroter ha <i class="fa-brands fa-github-alt" aria-hidden="true"></i>&nbsp;desarrollado un sitio web llamado <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;VSCodeThemes , congrega temas de <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;VSCode muy agradables y mucho más prácticos.]]></description>
-</item>
-<item>
-    <title>Cómo usar Trello para el desarrollo ágil</title>
-    <link>https://ninpl.com/posts/2019/comun/006/</link>
-    <pubDate>Wed, 30 Oct 2019 02:53:06 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/comun/006/</guid>
-    <description><![CDATA[Trello como una herramienta de apoyo para el desarrollo ágil. Específicamente, vamos a aplicar varios de los conceptos de Scrum, aunque no seguiremos todo lo descrito por esta metodología al pie de la letra.
-Lo básico En Trello existen 3 componentes básicos:
-Tableros Listas Tarjetas Un tablero de Trello se corresponde con un proyecto. Dentro de cada tablero podemos crear tantas listas como sea necesario. Por último, cada lista contendrá una serie de tarjetas.]]></description>
 </item>
 </channel>
 </rss>
