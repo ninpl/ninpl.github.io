@@ -4,7 +4,17 @@
         <link>https://ninpl.com/posts/</link>
         <description>Todos los Artículos | N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Tue, 05 Nov 2024 01:04:46 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>UniTips [#1]</title>
+    <link>https://ninpl.com/posts/2024/tips/001/</link>
+    <pubDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/tips/001/</guid>
+    <description><![CDATA[ Consejo Cuando se carga una escena en Unity, estos son los métodos que se invocan de forma automática (por objeto)
+¡Evitar meter aquí código muy costoso de ejecutar! Va a tardar mucho en cargar la escena, mejor ejecutar código costoso después del primer frame 🔥
+Inicializadores Elena Blanes. ]]></description>
+</item>
+<item>
     <title>Imagen del dia [05.11.2024]</title>
     <link>https://ninpl.com/posts/2024/imagen/002/</link>
     <pubDate>Tue, 05 Nov 2024 01:04:46 &#43;0100</pubDate>
@@ -79,15 +89,6 @@ Esto me lleva a ver que puedo usar para empezar a crear una web de perfil sencil
     <guid>https://ninpl.com/posts/2022/comun/001/</guid>
     <description><![CDATA[Hola, actualmente el blog esta un poco parado. No por no tener artículos que publicar, sino por la pereza de lo que tarda en generarse todo.
 Cuando inicie el blog, elegí <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;Hugo como framework para crear sitios webs estáticos lo mas rápido posible y realmente era bestialmente rápido. El problema viene después de tantos años &hellip; es desesperadamente lento, en eso del 2017 se generaba en 20s - 30s, a dia de hoy es normal que tarde 2 o 3 minutos tranquilamente.]]></description>
-</item>
-<item>
-    <title>VSCodeThemes, directorio de temas para Visual Studio Code</title>
-    <link>https://ninpl.com/posts/2019/comun/008/</link>
-    <pubDate>Wed, 27 Nov 2019 00:15:44 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2019/comun/008/</guid>
-    <description><![CDATA[El <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;marketplace de Visual Studio Code realmente no es práctico para encontrar lo que necesitamos, en conceptos de diferentes temas que la comunidad nos brinda. ¡Visita el sitio web VSCodeThemes, que hace que sea mucho más fácil elegir un tema para Visual Studio Code!
-Asumiendo que el <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;mercado de Visual Studio Code no es la mejor manera de encontrar temas (mientras que para las extensiones, está bien) porque es necesario rezar para que el creador del tema haya capturado la pantalla en el archivo README de su proyecto para echar un vistazo, &#8201;Jordan Schroter ha <i class="fa-brands fa-github-alt" aria-hidden="true"></i>&nbsp;desarrollado un sitio web llamado <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;VSCodeThemes , congrega temas de <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;VSCode muy agradables y mucho más prácticos.]]></description>
 </item>
 </channel>
 </rss>
