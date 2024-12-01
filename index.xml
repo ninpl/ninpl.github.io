@@ -4,9 +4,18 @@
         <link>https://ninpl.com/</link>
         <description>un blog sobre mi, juegos, desarrollo y anime</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</lastBuildDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</lastBuildDate>
             <atom:link href="https://ninpl.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Las leyes de UX</title>
+    <link>https://ninpl.com/posts/2024/dise%C3%B1o/002/</link>
+    <pubDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dise%C3%B1o/002/</guid>
+    <description><![CDATA[LAS LEYES DE UX Un verdadero experto en experiencia de usuario -UX- necesita años de experiencia para conseguir buenos resultados en el conjunto de elementos relativos a la interacción del usuario. Pero… ¿por dónde empiezas si no dispones de esa experiencia previa?
+Ley de Prägnanz Ley Hick Ley de Tesler Las personas interpretan las imágenes complejas como la forma más simple posible, porque es la interpretación que menos esfuerzo cognitivo requiere.]]></description>
+</item>
+<item>
     <title>UniTips [#1]</title>
     <link>https://ninpl.com/posts/2024/tips/001/</link>
     <pubDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</pubDate>
@@ -82,15 +91,6 @@ Esto me lleva a ver que puedo usar para empezar a crear una web de perfil sencil
     <author>N9&#43;</author>
     <guid>https://ninpl.com/posts/2022/imagen/001/</guid>
     <description><![CDATA[ Comprobando compulsivamente si mi cartera todavía está Khyle. ]]></description>
-</item>
-<item>
-    <title>Actualización del blog - Temporal</title>
-    <link>https://ninpl.com/posts/2022/comun/001/</link>
-    <pubDate>Sat, 16 Jul 2022 22:39:45 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2022/comun/001/</guid>
-    <description><![CDATA[Hola, actualmente el blog esta un poco parado. No por no tener artículos que publicar, sino por la pereza de lo que tarda en generarse todo.
-Cuando inicie el blog, elegí <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>&nbsp;Hugo como framework para crear sitios webs estáticos lo mas rápido posible y realmente era bestialmente rápido. El problema viene después de tantos años &hellip; es desesperadamente lento, en eso del 2017 se generaba en 20s - 30s, a dia de hoy es normal que tarde 2 o 3 minutos tranquilamente.]]></description>
 </item>
 </channel>
 </rss>

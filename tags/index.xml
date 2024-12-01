@@ -4,20 +4,36 @@
         <link>https://ninpl.com/tags/</link>
         <description>Tags - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>consejos</title>
-    <link>https://ninpl.com/tags/consejos/</link>
-    <pubDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</pubDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>diseño</title>
+    <link>https://ninpl.com/tags/dise%C3%B1o/</link>
+    <pubDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</pubDate>
     <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/consejos/</guid>
+    <guid>https://ninpl.com/tags/dise%C3%B1o/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>n9&#43;</title>
     <link>https://ninpl.com/tags/n9&#43;/</link>
-    <pubDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</pubDate>
+    <pubDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/n9&#43;/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ux</title>
+    <link>https://ninpl.com/tags/ux/</link>
+    <pubDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/tags/ux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>consejos</title>
+    <link>https://ninpl.com/tags/consejos/</link>
+    <pubDate>Sat, 30 Nov 2024 13:34:23 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/tags/consejos/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -34,14 +50,6 @@
     <pubDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/csharp/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>diseño</title>
-    <link>https://ninpl.com/tags/dise%C3%B1o/</link>
-    <pubDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/dise%C3%B1o/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -74,14 +82,6 @@
     <pubDate>Thu, 08 Nov 2018 16:32:05 &#43;0100</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/unreal/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>unity</title>
-    <link>https://ninpl.com/tags/unity/</link>
-    <pubDate>Tue, 04 Sep 2018 19:20:57 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/unity/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
