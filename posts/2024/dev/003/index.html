@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Orden de ejecución en Unity 6.0 - N9&#43;</title><meta name="Description" content="un blog sobre mi, juegos, desarrollo y anime"><meta property="og:title" content="Orden de ejecución en Unity 6.0" />
+<meta property="og:description" content="Cuando se trabaja con Unity, muchas veces hacer un buen uso de Awake y Start puede ser suficiente como “orden de ejecución” para manejar la inicialización de los sistemas. Por ejemplo, se puede usar Awake para asegurarse de que las referencias locales estén conectadas y luego usar Start para manejar cualquier inicialización coordinada o retrasada que pueda ser necesaria. Esta lección trata realmente sobre lo que se debe hacer cuando esos dos puntos de entrada no son suficientes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ninpl.com/posts/2024/dev/003/" /><meta property="og:image" content="https://ninpl.com/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-12-02T21:19:04+01:00" />
+<meta property="article:modified_time" content="2024-12-02T21:19:04+01:00" /><meta property="og:site_name" content="N9&#43;" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ninpl.com/avatar.png"/>
+
+<meta name="twitter:title" content="Orden de ejecución en Unity 6.0"/>
+<meta name="twitter:description" content="Cuando se trabaja con Unity, muchas veces hacer un buen uso de Awake y Start puede ser suficiente como “orden de ejecución” para manejar la inicialización de los sistemas. Por ejemplo, se puede usar Awake para asegurarse de que las referencias locales estén conectadas y luego usar Start para manejar cualquier inicialización coordinada o retrasada que pueda ser necesaria. Esta lección trata realmente sobre lo que se debe hacer cuando esos dos puntos de entrada no son suficientes."/>
+<meta name="application-name" content="Nineplus">
+<meta name="apple-mobile-web-app-title" content="Nineplus"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ninpl.com/posts/2024/dev/003/" /><link rel="prev" href="https://ninpl.com/posts/2024/dise%C3%B1o/002/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Orden de ejecución en Unity 6.0",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/ninpl.com\/posts\/2024\/dev\/003\/"
+        },"genre": "posts","keywords": "n9\u002b, dev","wordcount":  690 ,
+        "url": "https:\/\/ninpl.com\/posts\/2024\/dev\/003\/","datePublished": "2024-12-02T21:19:04+01:00","dateModified": "2024-12-02T21:19:04+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "N9+"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="N9&#43;"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-8" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/devblog/"><i class='fa-solid fa-gamepad'></i> devblog </a><a class="menu-item" href="/backdoor/"><i class='fa-solid fa-user-secret'></i> backdoor </a><a class="menu-item" href="https://github.com/ninpl" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i> src </a><a class="menu-item" href="/perfil/"><i class='fa-solid fa-terminal'></i> nineplus </a><span class="menu-item delimiter"></span><a class="menu-item" href="https://github.com/ninpl" title="GitHub" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-github-alt" aria-hidden="true"></i></a><a class="menu-item" href="https://gitlab.com/ninpl" title="Gitlab" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a><a class="menu-item" href="https://trello.com/u/antoniomoon" title="Trello" rel="noopener noreffer" target="_blank"><i class="fa-brands fa-trello" aria-hidden="true"></i></a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="N9&#43;"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/avatar.png"
+        data-srcset="/avatar.png, /avatar.png 1.5x, /avatar.png 2x"
+        data-sizes="auto"
+        alt="/avatar.png"
+        title="/avatar.png" /><span class="header-title-pre"><i class='fa fa-angle-right'></i></span><span id="id-9" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/devblog/" title=""><i class='fa-solid fa-gamepad'></i>devblog</a><a class="menu-item" href="/backdoor/" title=""><i class='fa-solid fa-user-secret'></i>backdoor</a><a class="menu-item" href="https://github.com/ninpl" title="" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-code'></i>src</a><a class="menu-item" href="/perfil/" title=""><i class='fa-solid fa-terminal'></i>nineplus</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="feature-image">
+        <div class="header-img" style="background-image: url('https://ninpl.com/img/b/bg.jpg')"></div>
+		</header></div>
+    <article class="page single"><h1 class="single-title animate__animated animate__flipInX">Orden de ejecución en Unity 6.0</h1><div class="content" id="content"><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Cuando se trabaja con Unity, muchas veces hacer un buen uso de Awake y Start puede ser suficiente como <strong>“orden de ejecución”</strong> para manejar la inicialización de los sistemas. Por ejemplo, se puede usar Awake para asegurarse de que las referencias locales estén conectadas y luego usar Start para manejar cualquier inicialización coordinada o retrasada que pueda ser necesaria. Esta lección trata realmente sobre lo que se debe hacer cuando esos dos puntos de entrada no son suficientes.</p>
+<hr>
+<h1 id="patrones-de-unity">Patrones de Unity</h1>
+<p>Para comenzar, veremos algunas soluciones específicas de los scripts MonoBehaviour.</p>
+<h3 id="orden-de-ejecución-del-script">Orden de ejecución del script</h3>
+<p>Creemos un proyecto de muestra para ilustrar algunas ideas. Comienza por crear un proyecto vacío: puedes usar cualquier plantilla, pero yo elegí una opción estándar de 2D Core. Abra la escena de muestra y cree un GameObject vacío. Luego, cree y adjunte instancias de cuatro clases nuevas que debe crear:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">SistemaDatos</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Start</span><span class="p">()</span> <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">Name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">SistemaJuego</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Start</span><span class="p">()</span> <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">Name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">SistemaControles</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Start</span><span class="p">()</span> <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">Name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">SistemaRed</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Start</span><span class="p">()</span> <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">Name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Estos cuatro scripts hacen lo mismo: utilizan el método Start como una oportunidad para inicializarse. En esta demostración sencilla, todo lo que eso significa es que imprimen su nombre en la consola para que podamos ver el orden en que se ejecutaron. Sin embargo, tenga en cuenta que REPRESENTAN la idea de un proyecto más completo y, por lo tanto, complejo.</p>
+<p>Reproduce la escena y observa el orden en que la ves. En una de las ejecuciones vi:</p>
+<hr>
+<p>1 - SistemaRed</p>
+<p>2 - SistemaControles</p>
+<p>3 - SistemaJuego</p>
+<p>4 - SistemaDatos</p>
+<hr>
+<p>Cabe destacar que este es el orden opuesto al que los agregué al GameObject. Tal vez pensaste que se reproducirían en el orden en que los agregaste, pero no creo que Unity haga ninguna promesa con respecto al orden en que se invocan los métodos MonoBehaviour de diferentes instancias de script. Supongo que probablemente tenga algo que ver con la serialización: tal vez los datos se guarden de una manera no ordenada como lo haría un diccionario.</p>
+<p>Si estoy en lo cierto, entonces tendría sentido que Unity agregue una herramienta especial para manejar el “Orden de ejecución del script”.</p>
+<figure><a class="lightgallery" href="/img/c/scriptexecutionorder.jpg" title="/img/c/scriptexecutionorder.jpg" data-thumbnail="/img/c/scriptexecutionorder.jpg" data-sub-html="<h2>Puedes encontrar esta herramienta en el menú. Elige Edit &gt; Project Settings &gt; Script Execution Order.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/img/c/scriptexecutionorder.jpg"
+            data-srcset="/img/c/scriptexecutionorder.jpg, /img/c/scriptexecutionorder.jpg 1.5x, /img/c/scriptexecutionorder.jpg 2x"
+            data-sizes="auto"
+            alt="/img/c/scriptexecutionorder.jpg" />
+    </a><figcaption class="image-caption">Puedes encontrar esta herramienta en el menú. Elige Edit &gt; Project Settings &gt; Script Execution Order.</figcaption>
+    </figure>
+<p>Debería ver que ya se agregaron varios sistemas existentes y que se especificaron sus órdenes. Cuanto menor sea el número, antes se realizará la orden. Por ejemplo, UnityEngine.EventSystems.EventSystem , que tiene una orden de <code>-1000</code>, se &ldquo;iniciaría&rdquo; antes de que UnityEngine.UI.ToggleGroup, ya que este último tiene una orden de <code>10</code>.</p>
+<p>En este momento, <strong>nuestros cuatro sistemas tienen un orden de “Tiempo predeterminado” de “0”</strong>. Eso significa que se activarán después de “EventSystem” y antes de “ToggleGroup”. Si bien es posible asignar manualmente un orden a cada una de las clases, no recomiendo ese enfoque. En cambio, buscaría sistemas específicos que realmente necesiten activarse antes que otros sistemas, o que necesiten activarse después de otros sistemas y solo especificaría nuevos valores para esos casos especiales.</p>
+<p>Supongamos que queremos que SistemaDatos se ejecute antes que SistemaJuego. Esto podría deberse a que queremos cargar los datos del juego antes de que el juego necesite trabajar con ellos. Desafortunadamente, en nuestro ejemplo anterior, SistemaJuego se ejecutó primero; ¡pensaría que el usuario no tenía datos guardados! 😄 Utilice la herramienta “Orden de ejecución de script” para solucionarlo:</p>
+<hr>
+<p>1 - Haga clic en el botón más para agregar una nueva entrada</p>
+<p>2 - Seleccione SistemaDatos de la lista que aparece</p>
+<p>3 - Asignar un valor negativo al orden: quizás -10</p>
+<p>4 - Haga clic en “Aplicar” y luego cierre la ventana.</p>
+<hr>
+<p>Ejecute la escena nuevamente y observe el nuevo orden que aparece:</p>
+<hr>
+<p>1 - SistemaDatos</p>
+<p>2 - SistemaRed</p>
+<p>3 - SistemaControles</p>
+<p>4 - SistemaDatos</p>
+<hr>
+<p>¡Perfecto! No me importaba el orden de los sistemas, excepto que quería que DataSystem se ejecutara primero, y ahora lo hizo. Esto sería así independientemente del orden de los componentes en un GameObject, o incluso si los scripts se distribuyeran entre varios GameObjects.</p>
+<div class="mermaid" id="id-7"></div>
+</div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2015 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://ninpl.com" target="_blank">N9&#43;</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"><link rel="stylesheet" href="/lib/aplayer/dark.min.css"><link rel="stylesheet" href="/css/898006.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"data":{"id-1":"This is a \u003cem\u003eparagraph\u003c/em\u003e with \u003cstrong\u003etyping animation\u003c/strong\u003e based on \u003ca href=\"https://typeitjs.com/\" target=\"_blank\" rel=\"noopener noreffer \"\u003eTypeIt\u003c/a\u003e\u0026hellip;","id-2":["\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kd\"\u003epublic\u003c/span\u003e \u003cspan class=\"kd\"\u003eclass\u003c/span\u003e \u003cspan class=\"nc\"\u003eHelloWorld\u003c/span\u003e \u003cspan class=\"o\"\u003e{\u003c/span\u003e","\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e    \u003cspan class=\"kd\"\u003epublic\u003c/span\u003e \u003cspan class=\"kd\"\u003estatic\u003c/span\u003e \u003cspan class=\"kt\"\u003evoid\u003c/span\u003e \u003cspan class=\"nf\"\u003emain\u003c/span\u003e\u003cspan class=\"o\"\u003e(\u003c/span\u003e\u003cspan class=\"n\"\u003eString\u003c/span\u003e \u003cspan class=\"o\"\u003e[]\u003c/span\u003e\u003cspan class=\"n\"\u003eargs\u003c/span\u003e\u003cspan class=\"o\"\u003e)\u003c/span\u003e \u003cspan class=\"o\"\u003e{\u003c/span\u003e","\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e        \u003cspan class=\"n\"\u003eSystem\u003c/span\u003e\u003cspan class=\"o\"\u003e.\u003c/span\u003e\u003cspan class=\"na\"\u003eout\u003c/span\u003e\u003cspan class=\"o\"\u003e.\u003c/span\u003e\u003cspan class=\"na\"\u003eprintln\u003c/span\u003e\u003cspan class=\"o\"\u003e(\u003c/span\u003e\u003cspan class=\"s\"\u003e\u0026#34;Hello World\u0026#34;\u003c/span\u003e\u003cspan class=\"o\"\u003e);\u003c/span\u003e","\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e    \u003cspan class=\"o\"\u003e}\u003c/span\u003e","\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"o\"\u003e}\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e"],"id-4":"graph LR;\n    A[Hard edge] --\u003e|Link text| B(Round edge)\n    B --\u003e C{Decision}\n    C --\u003e|One| D[Result one]\n    C --\u003e|Two| E[Result two]","id-5":"gitGraph\n    commit\n    commit\n    branch develop\n    checkout develop\n    commit\n    commit\n    checkout main\n    merge develop\n    commit\n    commit","id-6":"pie\n    \"Dogs\" : 386\n    \"Cats\" : 85\n    \"Rats\" : 15","id-7":"graph LR;\n    A[Hard edge] --\u003e|Link text| B(Round edge)\n    B --\u003e C{Decision}\n    C --\u003e|One| D[Result one]\n    C --\u003e|Two| E[Result two]","id-8":" N9+","id-9":" N9+"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"],"id-8":["id-8"],"id-9":["id-9"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-V17LGH4N3N', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-V17LGH4N3N" async></script></body>
+</html>

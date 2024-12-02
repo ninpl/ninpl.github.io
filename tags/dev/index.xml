@@ -4,7 +4,15 @@
         <link>https://ninpl.com/tags/dev/</link>
         <description>dev - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/dev/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/dev/" rel="self" type="application/rss+xml" /><item>
+    <title>Orden de ejecución en Unity 6.0</title>
+    <link>https://ninpl.com/posts/2024/dev/003/</link>
+    <pubDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dev/003/</guid>
+    <description><![CDATA[Cuando se trabaja con Unity, muchas veces hacer un buen uso de Awake y Start puede ser suficiente como “orden de ejecución” para manejar la inicialización de los sistemas. Por ejemplo, se puede usar Awake para asegurarse de que las referencias locales estén conectadas y luego usar Start para manejar cualquier inicialización coordinada o retrasada que pueda ser necesaria. Esta lección trata realmente sobre lo que se debe hacer cuando esos dos puntos de entrada no son suficientes.]]></description>
+</item>
+<item>
     <title>Integración de diferentes técnicas de búsqueda de caminos</title>
     <link>https://ninpl.com/posts/2024/dev/002/</link>
     <pubDate>Wed, 10 Jul 2024 17:53:41 &#43;0200</pubDate>
@@ -84,14 +92,6 @@ La ingeniería inversa (en inglés, reverse engineering) es el proceso de descub
     <guid>https://ninpl.com/posts/2018/dev/013/</guid>
     <description><![CDATA[¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
 . . ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara.]]></description>
-</item>
-<item>
-    <title>Localización usando .PO</title>
-    <link>https://ninpl.com/posts/2018/dev/011/</link>
-    <pubDate>Tue, 25 Sep 2018 19:26:11 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2018/dev/011/</guid>
-    <description><![CDATA[Traducir un juego a múltiples idiomas es una forma muy efectiva de exponerlo a nuevas audiencias. Sin embargo, puede convertirse en un verdadero dolor de cabeza si no lo hace de forma extensible y mantenible. Un sistema .po es una gran manera de administrar traducciones, y es un sistema útil para saber más que solo juegos. Analizaré formas en que puede ampliar el sistema para que sea más robusto, pero la mayoría de los detalles de estos dependen demasiado de su configuración para ser detallados por completo.]]></description>
 </item>
 </channel>
 </rss>

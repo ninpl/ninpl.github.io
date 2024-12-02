@@ -4,9 +4,17 @@
         <link>https://ninpl.com/</link>
         <description>un blog sobre mi, juegos, desarrollo y anime</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</lastBuildDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</lastBuildDate>
             <atom:link href="https://ninpl.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Orden de ejecución en Unity 6.0</title>
+    <link>https://ninpl.com/posts/2024/dev/003/</link>
+    <pubDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2024/dev/003/</guid>
+    <description><![CDATA[Cuando se trabaja con Unity, muchas veces hacer un buen uso de Awake y Start puede ser suficiente como “orden de ejecución” para manejar la inicialización de los sistemas. Por ejemplo, se puede usar Awake para asegurarse de que las referencias locales estén conectadas y luego usar Start para manejar cualquier inicialización coordinada o retrasada que pueda ser necesaria. Esta lección trata realmente sobre lo que se debe hacer cuando esos dos puntos de entrada no son suficientes.]]></description>
+</item>
+<item>
     <title>Las leyes de UX</title>
     <link>https://ninpl.com/posts/2024/dise%C3%B1o/002/</link>
     <pubDate>Sun, 01 Dec 2024 12:30:28 &#43;0100</pubDate>
@@ -83,14 +91,6 @@ Esto me lleva a ver que puedo usar para empezar a crear una web de perfil sencil
     <author>N9&#43;</author>
     <guid>https://ninpl.com/posts/2023/imagen/001/</guid>
     <description><![CDATA[ Yitan &amp; Garnet después de terminar su aventura juntos ナンポウ. ]]></description>
-</item>
-<item>
-    <title>Imagen del dia [10.08.2022]</title>
-    <link>https://ninpl.com/posts/2022/imagen/001/</link>
-    <pubDate>Wed, 10 Aug 2022 22:19:33 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2022/imagen/001/</guid>
-    <description><![CDATA[ Comprobando compulsivamente si mi cartera todavía está Khyle. ]]></description>
 </item>
 </channel>
 </rss>
