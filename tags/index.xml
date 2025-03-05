@@ -4,20 +4,28 @@
         <link>https://ninpl.com/tags/</link>
         <description>Tags - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>dev</title>
-    <link>https://ninpl.com/tags/dev/</link>
-    <pubDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</pubDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 05 Mar 2025 17:54:50 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>comun</title>
+    <link>https://ninpl.com/tags/comun/</link>
+    <pubDate>Wed, 05 Mar 2025 17:54:50 &#43;0100</pubDate>
     <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/dev/</guid>
+    <guid>https://ninpl.com/tags/comun/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>n9&#43;</title>
     <link>https://ninpl.com/tags/n9&#43;/</link>
-    <pubDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</pubDate>
+    <pubDate>Wed, 05 Mar 2025 17:54:50 &#43;0100</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/n9&#43;/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>dev</title>
+    <link>https://ninpl.com/tags/dev/</link>
+    <pubDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/tags/dev/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -58,14 +66,6 @@
     <pubDate>Thu, 24 Oct 2024 19:56:12 &#43;0200</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/csharp/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>comun</title>
-    <link>https://ninpl.com/tags/comun/</link>
-    <pubDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/comun/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
