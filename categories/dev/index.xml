@@ -4,7 +4,16 @@
         <link>https://ninpl.com/categories/dev/</link>
         <description>dev - Categoría - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/categories/dev/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 12 Mar 2025 18:18:21 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/categories/dev/" rel="self" type="application/rss+xml" /><item>
+    <title>Renderizar detrás de los iconos del escritorio en Windows</title>
+    <link>https://ninpl.com/posts/2025/dev/001/</link>
+    <pubDate>Wed, 12 Mar 2025 18:18:21 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2025/dev/001/</guid>
+    <description><![CDATA[Dibuja o renderiza un formulario de Windows directamente sobre el fondo de pantalla, detrás de los íconos del escritorio en Windows.
+Introducción Quienes lean este artículo probablemente conozcan DreamScene, la función de Windows Vista que permite renderizar secuencias de vídeo (en formato .dream) como fondo de escritorio. También existe una herramienta llamada Rainmeter que permite colocar widgets, gadgets o cualquier otro elemento en el escritorio, uno encima del otro, arriba y abajo.]]></description>
+</item>
+<item>
     <title>Orden de ejecución en Unity 6.0</title>
     <link>https://ninpl.com/posts/2024/dev/003/</link>
     <pubDate>Mon, 02 Dec 2024 21:19:04 &#43;0100</pubDate>
@@ -83,15 +92,6 @@ Después de unos días de investigación, encontré a un level design que tiene 
     <guid>https://ninpl.com/posts/2018/dev/014/</guid>
     <description><![CDATA[Llevo unos días profundizando sobre este tema, hasta ahora solo había realizado pequeñas investigaciones sobre esto, pero creo que es algo que puede ayudar mucho tanto para nuevos como para veteranos.
 La ingeniería inversa (en inglés, reverse engineering) es el proceso de descubrir los principios tecnológicos de un objeto, herramienta, dispositivo o sistema, mediante el razonamiento abductivo (haciendo conjeturas) de su estructura, función y operación. Dicho de otra manera, se trata de tomar algo, por ejemplo un dispositivo mecánico o electrónico, para analizar su funcionamiento en detalle, con el objetivo de crear un dispositivo que haga la misma tarea o una similar sin copiar los detalles del original.]]></description>
-</item>
-<item>
-    <title>Unity Shader de acumulación</title>
-    <link>https://ninpl.com/posts/2018/dev/013/</link>
-    <pubDate>Thu, 18 Oct 2018 03:42:27 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2018/dev/013/</guid>
-    <description><![CDATA[¿Te has preguntado cuánto tiempo se tarda en aplicar nieve a todas las texturas de tu juego? Probablemente muchas veces. Me gustaría mostrarle cómo crear un efecto de imagen (sombreado de espacio de pantalla) que cambiará inmediatamente la temporada de su escena en Unity.
-. . ¿Como funciona? En las imágenes de arriba puedes ver dos capturas de pantalla que presentan la misma escena. La única diferencia es que en el segundo habilité el efecto de nieve en la cámara.]]></description>
 </item>
 </channel>
 </rss>

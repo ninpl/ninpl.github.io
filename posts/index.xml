@@ -4,7 +4,16 @@
         <link>https://ninpl.com/posts/</link>
         <description>Todos los Artículos | N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 05 Mar 2025 17:54:50 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 12 Mar 2025 18:18:21 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Renderizar detrás de los iconos del escritorio en Windows</title>
+    <link>https://ninpl.com/posts/2025/dev/001/</link>
+    <pubDate>Wed, 12 Mar 2025 18:18:21 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2025/dev/001/</guid>
+    <description><![CDATA[Dibuja o renderiza un formulario de Windows directamente sobre el fondo de pantalla, detrás de los íconos del escritorio en Windows.
+Introducción Quienes lean este artículo probablemente conozcan DreamScene, la función de Windows Vista que permite renderizar secuencias de vídeo (en formato .dream) como fondo de escritorio. También existe una herramienta llamada Rainmeter que permite colocar widgets, gadgets o cualquier otro elemento en el escritorio, uno encima del otro, arriba y abajo.]]></description>
+</item>
+<item>
     <title>Continúa la censura en Solo Leveling</title>
     <link>https://ninpl.com/posts/2025/comun/001/</link>
     <pubDate>Wed, 05 Mar 2025 17:54:50 &#43;0100</pubDate>
@@ -80,15 +89,6 @@ Búsqueda en amplitud (BFS) Búsqueda en profundidad (DFS) Búsqueda de menor co
     <guid>https://ninpl.com/posts/2024/dev/001/</guid>
     <description><![CDATA[¿Qué son las Corrutinas? Las corrutinas en Unity son una forma de gestionar la ejecución de código de manera asíncrona, permitiendo pausas en su ejecución y reanudaciones posteriores. Son especialmente útiles para realizar tareas que requieren esperar un cierto tiempo o eventos, sin bloquear el hilo principal del juego.
 Características de las Corrutinas Facilidad de uso: Se declaran con el tipo IEnumerator y se controlan usando yield return. Control del tiempo: Permiten pausar la ejecución por un tiempo específico utilizando yield return new WaitForSeconds(tiempo).]]></description>
-</item>
-<item>
-    <title>¡ Nuevo Perfil !</title>
-    <link>https://ninpl.com/posts/2023/comun/001/</link>
-    <pubDate>Wed, 29 Mar 2023 22:46:20 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2023/comun/001/</guid>
-    <description><![CDATA[Después de tanto tiempo (como 3 años) por fin he tenido algo de tiempo para cambiar mi perfil. Teniendo la estructura clara y sabiendo que quería cambiar de tecnología. De vez en cuando es bueno salir del confort y probar cosicas nuevas.
-Esto me lleva a ver que puedo usar para empezar a crear una web de perfil sencilla pero que pueda hacerla vistosa a simple vista y que pueda durar tiempo, ya que la ultima tarde 3 años en desecharla 😄]]></description>
 </item>
 </channel>
 </rss>
