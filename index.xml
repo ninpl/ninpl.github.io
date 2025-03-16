@@ -4,9 +4,17 @@
         <link>https://ninpl.com/</link>
         <description>un blog sobre mi, juegos, desarrollo y anime</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Wed, 12 Mar 2025 18:18:21 &#43;0100</lastBuildDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 16 Mar 2025 19:33:31 &#43;0100</lastBuildDate>
             <atom:link href="https://ninpl.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Imagen del dia [16.03.2024]</title>
+    <link>https://ninpl.com/posts/2025/imagen/001/</link>
+    <pubDate>Sun, 16 Mar 2025 19:33:31 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/posts/2025/imagen/001/</guid>
+    <description><![CDATA[ . . Yasushi Hasegawa. ]]></description>
+</item>
+<item>
     <title>Renderizar detrás de los iconos del escritorio en Windows</title>
     <link>https://ninpl.com/posts/2025/dev/001/</link>
     <pubDate>Wed, 12 Mar 2025 18:18:21 &#43;0100</pubDate>
@@ -82,15 +90,6 @@ Búsqueda en amplitud (BFS) Búsqueda en profundidad (DFS) Búsqueda de menor co
     <author>N9&#43;</author>
     <guid>https://ninpl.com/posts/2024/imagen/001/</guid>
     <description><![CDATA[ ¡Feliz 27 aniversario, FFT! ! ! ! ! ナンポウ. ]]></description>
-</item>
-<item>
-    <title>Corrutinas y Async en Unity</title>
-    <link>https://ninpl.com/posts/2024/dev/001/</link>
-    <pubDate>Sun, 07 Jul 2024 22:33:02 &#43;0200</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/posts/2024/dev/001/</guid>
-    <description><![CDATA[¿Qué son las Corrutinas? Las corrutinas en Unity son una forma de gestionar la ejecución de código de manera asíncrona, permitiendo pausas en su ejecución y reanudaciones posteriores. Son especialmente útiles para realizar tareas que requieren esperar un cierto tiempo o eventos, sin bloquear el hilo principal del juego.
-Características de las Corrutinas Facilidad de uso: Se declaran con el tipo IEnumerator y se controlan usando yield return. Control del tiempo: Permiten pausar la ejecución por un tiempo específico utilizando yield return new WaitForSeconds(tiempo).]]></description>
 </item>
 </channel>
 </rss>
