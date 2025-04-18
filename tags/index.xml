@@ -4,20 +4,28 @@
         <link>https://ninpl.com/tags/</link>
         <description>Tags - Etiqueta - N9&#43;</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>nineplus.n9p@gmail.com (N9&#43;)</managingEditor>
-            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Sun, 16 Mar 2025 19:33:31 &#43;0100</lastBuildDate><atom:link href="https://ninpl.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>ilustracion</title>
-    <link>https://ninpl.com/tags/ilustracion/</link>
-    <pubDate>Sun, 16 Mar 2025 19:33:31 &#43;0100</pubDate>
+            <webMaster>nineplus.n9p@gmail.com (N9&#43;)</webMaster><lastBuildDate>Fri, 18 Apr 2025 18:12:25 &#43;0200</lastBuildDate><atom:link href="https://ninpl.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>juegos</title>
+    <link>https://ninpl.com/tags/juegos/</link>
+    <pubDate>Fri, 18 Apr 2025 18:12:25 &#43;0200</pubDate>
     <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/ilustracion/</guid>
+    <guid>https://ninpl.com/tags/juegos/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>n9&#43;</title>
     <link>https://ninpl.com/tags/n9&#43;/</link>
-    <pubDate>Sun, 16 Mar 2025 19:33:31 &#43;0100</pubDate>
+    <pubDate>Fri, 18 Apr 2025 18:12:25 &#43;0200</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/n9&#43;/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ilustracion</title>
+    <link>https://ninpl.com/tags/ilustracion/</link>
+    <pubDate>Sun, 16 Mar 2025 19:33:31 &#43;0100</pubDate>
+    <author>N9&#43;</author>
+    <guid>https://ninpl.com/tags/ilustracion/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -74,14 +82,6 @@
     <pubDate>Thu, 08 Nov 2018 16:32:05 &#43;0100</pubDate>
     <author>N9&#43;</author>
     <guid>https://ninpl.com/tags/cpp/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>unreal</title>
-    <link>https://ninpl.com/tags/unreal/</link>
-    <pubDate>Thu, 08 Nov 2018 16:32:05 &#43;0100</pubDate>
-    <author>N9&#43;</author>
-    <guid>https://ninpl.com/tags/unreal/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
